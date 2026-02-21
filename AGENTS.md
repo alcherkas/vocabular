@@ -767,3 +767,39 @@ EN entries also had synonym issues flagged by prior QA notes:
 - LT relation arrays verified: no -ą/-ų endings introduced; all values in nominative dictionary forms.
 - No within-array or cross-array duplicates introduced.
 - No self-referential or headword-token-containing phrases added.
+
+---
+
+## Retro — vocab/qa-28 (QA agent run)
+
+**Date:** 2026-02-21
+**Branch:** vocab/qa-28
+**Commit:** 10e1b90
+
+### What was done
+- Preflight JSON validation on both `words_staging.json` and `words_lt_staging.json` — both valid JSON.
+- Reviewed all 37 EN and 35 LT `relations-added` entries against four criteria: (1) no self-reference, (2) LT nominative forms only, (3) synonyms must be true synonyms, (4) no duplicates within or across arrays.
+- Ran programmatic checks (self-reference token scan, cross-array/within-array duplicate scan, LT -ą/-ų ending scan) in addition to `validate_words.py`.
+
+### Stats
+| File | Reviewed | Approved | Sent to enriched |
+|------|----------|----------|-----------------|
+| words_staging.json (EN) | 37 | 33 | 4 |
+| words_lt_staging.json (LT) | 35 | 32 | 3 |
+
+### Issues found and flagged
+**EN (4 enriched):**
+- `ergodicity`: synonym `stochastic stationarity` ≠ ergodicity (distinct properties); antonym `non-ergodicity` self-referential (contains headword as word-token).
+- `attractor`: `stable equilibrium state` too narrow (excludes limit cycles, strange attractors); `dynamical basin` confuses attractor with its basin of attraction.
+- `emergence`: `emergent property` is a hyponym (the outcome, not the process); `self-organization` is a distinct mechanism, not a synonym.
+- `teleonomy`: `evolutionary directionality` implies orthogenesis/actual goal-directed evolution, contradicting teleonomy's definition.
+
+**LT (3 enriched):**
+- `Autobusas`: term incorrectly capitalised (should be `autobusas`); antonym `automobilis` is a coordinate term, not an opposite.
+- `atleisti`: qaNote stated `dovanoti` was removed but it was still present in synonyms — archaic secondary sense, not a current synonym.
+- `Kaimas`: term incorrectly capitalised (should be `kaimas`); synonym `provincija` is a hypernym (cultural concept), not a village-level synonym.
+
+### Observations
+- Several LT entries had informational qaNotes left by the Relations agent documenting fixes it made; these were cleared on approval (status → approved, qaNote removed) to keep entries clean.
+- Pre-existing validator errors in prior-batch approved entries (e.g., `passivation`, `continuo`, `kelias`) are out of scope for this QA pass.
+- The self-reference token scan caught `non-ergodicity` in `ergodicity`'s antonyms which the validator had not flagged at the relations stage — worth noting for Relations agent guidance.
