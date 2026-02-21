@@ -489,17 +489,40 @@ Verification Agent completes with [needs-rework]
 **Only the orchestrator merges branches to main.** Agents commit to their worktree branches but do not merge.
 
 Merge order matters when agents touch overlapping files:
-1. Merge Goal Pipeline branches in dependency order (requirements → architecture → features)
-2. Merge Vocab Pipeline branches independently (they touch only staging JSON)
-3. If merge conflict: resolve by reading both diffs, prefer the later change, commit resolution
+1. Merge non-QA branches first (enrichers, seeders, relations, reflection) using `git merge`
+2. Merge QA branches **last** using the Python re-apply approach (avoids "stash" aborts):
 
 ```bash
-cd <REPO_PATH>
-git merge <branch> --no-ff -m "feat(<task-id>): <description>
+# For JSON staging files: smart conflict resolver
+python3 scripts/resolve_json_conflict.py Vocab/Vocab/Resources/words_staging.json \
+    Vocab/Vocab/Resources/words_lt_staging.json
+git add Vocab/Vocab/Resources/words_staging.json \
+    Vocab/Vocab/Resources/words_lt_staging.json
 
-Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
-git worktree remove ../vocabular-wt-<id>
-git branch -d <branch>
+# For AGENTS.md conflicts: always keep ours (clean version)
+git checkout --ours AGENTS.md && git add AGENTS.md
+
+# For other doc files (retrospectives.md etc.): sed to keep both versions
+sed -i '' '/^<<<<<<</d; /^=======/d; /^>>>>>>>/d' <file> && git add <file>
+```
+
+If `git merge <qa-branch>` aborts with "uncommitted changes", re-apply QA approvals from the branch directly:
+```python
+import json, subprocess
+STATUS_ORDER = {'stub': 0, 'enriched': 1, 'relations-added': 2, 'approved': 3}
+for staging, branch_path in [...]:
+    qa_words = json.loads(subprocess.check_output(['git', 'show', branch_path]))
+    qa_by_term = {w['term'].lower().strip(): w for w in qa_words}
+    words = json.load(open(staging))
+    for i, w in enumerate(words):
+        key = w.get('term','').lower().strip()
+        if key in qa_by_term:
+            qa_entry = qa_by_term[key]
+            if STATUS_ORDER.get(qa_entry.get('status',''),0) > STATUS_ORDER.get(w.get('status',''),0):
+                words[i] = qa_entry
+    json.dump(words, open(staging,'w'), indent=2, ensure_ascii=False)
+git add Vocab/Vocab/Resources/words_staging.json Vocab/Vocab/Resources/words_lt_staging.json
+git commit -m "fix: re-apply QA approvals ..."
 ```
 
 ---
