@@ -498,3 +498,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a small helper script for QA workflow: list entries by status and apply approved/enriched+qaNote updates safely.
+## [2026-02-21] [enricher-lt-5] [vocab/enricher-lt-5]
+
+### What went well
+- Enriched exactly 25 Lithuanian stubs in one contiguous country/nationality/language block, which kept tagging consistent.
+- Applied required fields (`translation`, `meanings`, `tags`, `synonyms`) for all 25 entries without touching unrelated terms.
+
+### What was harder than expected
+- Prompt-level enums differed from repository validator constraints, requiring a quick normalization pass for `partOfSpeech` and `register` values.
+
+### Process friction
+- Validation guidance in prompts still references values not accepted by `scripts/validate_words.py`.
+
+### Suggested improvement
+- Keep enrichment prompt enum lists synchronized with `validate_words.py` to avoid avoidable rework.
