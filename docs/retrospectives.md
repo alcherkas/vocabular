@@ -647,3 +647,19 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 ### Suggested improvement
 - Add a lightweight relation-quality checklist to `docs/VOCAB-AGENT.md` (e.g., when to keep LT synonyms empty vs when to add related terms).
 - Add a lightweight command in `docs/VOCAB-AGENT.md` to print the next 30 stub terms before enrichment starts.
+
+## [2026-02-21] [vocab-qa-agent] [vocab/qa-5]
+
+### What went well
+- Preflight JSON checks passed for both staging files, and all `relations-added` entries were reviewed in one pass.
+- Approved all 35 EN and 35 LT reviewed entries after confirming valid `partOfSpeech` and meaning `register` values.
+- Approved-status validation passed for both staging files after status transitions.
+
+### What was harder than expected
+- There is no built-in semantic scoring for relation quality, so review still depends on manual judgment beyond schema-level checks.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- Add a validator mode that lists relation self-references/duplicates explicitly to speed up QA pass/fail decisions.
