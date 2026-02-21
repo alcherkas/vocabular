@@ -505,3 +505,35 @@ Selected 35 stubs covering jobs/professions and work/office vocabulary at A1/A2 
 
 ### Validation
 `validate_words.py --errors-for enriched` → **PASSED** (10 pre-existing warnings on *approved* entries, unchanged from baseline).
+## Session retro — vocab/relations-18
+
+**Date:** 2026-02-21
+**Branch:** vocab/relations-18
+**Commit:** bed6763
+
+### What was done
+- Preflight JSON validation on both `words_staging.json` and `words_lt_staging.json` — both passed `python3 -m json.tool` with exit 0.
+- Ran `--errors-for relations-added` baseline on both files — 0 errors in scope, only pre-existing approved-status warnings.
+- **EN (`words_staging.json`):** All 31 enriched entries promoted to `relations-added`. Enricher had already embedded synonyms/antonymTerms/relatedTerms; programmatic audit found 3 violations:
+  - `bradycardia` — 1 synonym ("slow heart rate"); added `"bradyarrhythmia"` (true clinical synonym, frequently used interchangeably in cardiology).
+  - `fibrillation` — 1 synonym ("cardiac fibrillation"); added `"myocardial quivering"` (descriptive medical synonym for chaotic muscle-fibre contraction).
+  - `laches` — 1 synonym ("estoppel by delay"); added `"unreasonable delay doctrine"` (recognised legal-doctrinal synonym).
+  - No self-references, no cross-array duplicates found in remaining 28 entries.
+- **LT (`words_lt_staging.json`):** First 35 enriched entries promoted to `relations-added`. Programmatic audit found 3 violations:
+  - `didelis` — "stambus" appeared in both `synonyms` and `relatedTerms`; removed from `relatedTerms`.
+  - `didelė` — "stambi" appeared in both `synonyms` and `relatedTerms`; removed from `relatedTerms`.
+  - `jų` — `antonymTerms` contained `"mūsų"` (ends in `-ų`); replaced with `"mes"` (nominative dictionary form of the same pronoun).
+- Post-promotion validation: both files exit 0 under `--errors-for relations-added`.
+
+### Stats
+| File | Newly promoted | Pre-existing relations-added | Total relations-added |
+|------|---------------|------------------------------|-----------------------|
+| words_staging.json | 31 | 70 | 101 |
+| words_lt_staging.json | 35 | 70 | 105 |
+
+### Issues / notes
+- Rule (1) self-reference: no self-references found in any of the 66 promoted entries.
+- Rule (2) LT nominative forms: `jų` entry had `"mūsų"` (genitive `-ų`) in antonymTerms — replaced with `"mes"` to comply. No other inflected forms introduced.
+- Rule (3) synonyms semantic accuracy: three EN entries had <2 synonyms due to QA pruning in a prior pass (enricher's original synonyms were removed as subtypes or tautologies); replacements chosen as genuine co-extensive terms.
+- Rule (4) no cross-array duplicates: `didelis`/`didelė` each had one synonym duplicated in relatedTerms; removed from relatedTerms.
+- EN enriched count was 31, not 35 — all available enriched entries processed; batch size limited by available enriched entries.
