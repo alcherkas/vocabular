@@ -3364,3 +3364,30 @@ JSON preflight passed. 705 stubs available before session.
 ### Doubts / meta-notes
 - Confidence: 95%. Most EN synonym choices are well-established in the literature. A few are descriptive near-equivalents for highly technical entries (e.g. `consciousness gap` alongside `explanatory gap` for `hard problem`; `rationalizable play`/`rationalizable choice` for `rationalizability`). QA should verify these.
 - LT `baigtis` is tagged as `noun` with translation "outcome" but the Lithuanian infinitive form is identical to the noun. Treated as noun per the existing enriched entry.
+
+## Seeder Agent — 2025-07-28 — vocab/seeder-en-11
+
+**Agent role**: Seeder (English)
+**Branch**: `vocab/seeder-en-11`
+
+### What was done
+- Preflighted `words_staging.json` — valid JSON, 1030 entries, 0 stubs remaining.
+- Added 100 new English word stubs (status="stub") across five under-represented domains:
+  - **Neuroscience** (20): synapse, cortex, limbic system, axon, neurotransmitter, hippocampus, amygdala, cerebellum, prefrontal cortex, action potential, synaptic plasticity, dopamine, serotonin, norepinephrine, acetylcholine, long-term potentiation, neurodegeneration, blood-brain barrier, default mode network, thalamus.
+  - **Biology/Genetics** (20): phenotype, genotype, natural selection, mutation, gene expression, epigenetics, allele, chromosome, mitosis, meiosis, transcription factor, ribosome, nucleotide, protein folding, genetic drift, plasmid, prokaryote, eukaryote, speciation, horizontal gene transfer.
+  - **Physics/Chemistry** (20): quantum entanglement, catalyst, isotope, valence, wave function, superposition, dark matter, quark, fermion, boson, half-life, electronegativity, spectroscopy, diffraction, refraction, covalent bond, oxidation state, polymer, colloid, dark energy.
+  - **Mathematics** (20): topology, manifold, eigenvalue, category theory, fourier transform, differential equation, vector space, bayesian inference, markov chain, combinatorics, group theory, set theory, cardinality, graph theory, number theory, stochastic process, lagrangian, hamiltonian, dynamical system, ergodic theory.
+  - **Computer Science/AI** (20): neural network, gradient descent, overfitting, regularization, attention mechanism, transformer, backpropagation, reinforcement learning, supervised learning, unsupervised learning, transfer learning, hyperparameter, loss function, embedding, latent space, feature extraction, convolutional network, generative adversarial network, activation function, softmax.
+- Verified zero term conflicts against all 1030 existing entries before writing.
+- Ran `validate_words.py --status stub` — PASSED (100/100 valid).
+- Committed: `vocab(seeder-en-11): add 100 new English word stubs`.
+
+### Semantic quality decisions
+- All stubs are well-established C1+ academic/technical terms not yet present in the staging file.
+- Existing near-misses excluded: `epigenetic` (adj) exists → added `epigenetics` (noun); `neuroplasticity`, `dendrite`, `entropy`, `isomorphism`, `genomics`, `synaptogenesis` already existed and were skipped.
+- `register` set to `technical` throughout — all terms are domain-specific scientific/mathematical vocabulary.
+- Each stub includes all required array fields (`meanings`, `synonyms`, `antonymTerms`, `relatedTerms`) as empty arrays and `translation: null` per the schema.
+
+### Doubts / meta-notes
+- Confidence: 99%. All 100 terms are unambiguous, widely-used technical vocabulary in their respective fields.
+- Staging file now has 1130 entries with 100 stubs ready for the Enricher.
