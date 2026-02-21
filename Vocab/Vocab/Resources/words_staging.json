@@ -1502,213 +1502,633 @@
   },
   {
     "term": "stoichiometric",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [
+      "C1",
+      "chemistry"
+    ],
+    "meanings": [
+      {
+        "definition": "Relating to the quantitative relationships between reactants and products in a chemical reaction.",
+        "example": "The lab report calculated the stoichiometric ratio needed for complete combustion.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "chemistry"
+        ]
+      }
+    ]
   },
   {
     "term": "spectroscopic",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [
+      "C1",
+      "physics"
+    ],
+    "meanings": [
+      {
+        "definition": "Relating to the use of spectra to analyze the properties or composition of matter.",
+        "example": "Spectroscopic analysis confirmed the presence of trace metals in the sample.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "physics"
+        ]
+      }
+    ]
   },
   {
     "term": "thermodynamic",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [
+      "C1",
+      "physics"
+    ],
+    "meanings": [
+      {
+        "definition": "Relating to heat, energy, and the laws governing their conversion and transfer.",
+        "example": "The engineer modeled thermodynamic efficiency before scaling the engine design.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "physics"
+        ]
+      }
+    ]
   },
   {
     "term": "electrophoresis",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "biology"
+    ],
+    "meanings": [
+      {
+        "definition": "A laboratory technique that separates charged molecules using an electric field.",
+        "example": "The team used electrophoresis to separate DNA fragments by size.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "biology"
+        ]
+      }
+    ]
   },
   {
     "term": "chromatographic",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [
+      "C1",
+      "chemistry"
+    ],
+    "meanings": [
+      {
+        "definition": "Relating to chromatography, a method for separating components of a mixture.",
+        "example": "Chromatographic methods were applied to isolate the active compound.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "chemistry"
+        ]
+      }
+    ]
   },
   {
     "term": "neuroplasticity",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "neuroscience"
+    ],
+    "meanings": [
+      {
+        "definition": "The brain’s ability to reorganize and form new neural connections in response to learning or injury.",
+        "example": "Rehabilitation exercises rely on neuroplasticity to restore lost motor skills.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "neuroscience"
+        ]
+      }
+    ]
   },
   {
     "term": "bioluminescence",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "biology"
+    ],
+    "meanings": [
+      {
+        "definition": "The production and emission of light by living organisms through biochemical reactions.",
+        "example": "Divers watched the shoreline glow with plankton bioluminescence at night.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "biology"
+        ]
+      }
+    ]
   },
   {
     "term": "cryogenic",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [
+      "C1",
+      "engineering"
+    ],
+    "meanings": [
+      {
+        "definition": "Relating to very low temperatures or the production and behavior of materials at such temperatures.",
+        "example": "The cryogenic chamber preserved tissue samples for long-term research.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "engineering"
+        ]
+      }
+    ]
   },
   {
     "term": "astrophysical",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [
+      "C1",
+      "astronomy"
+    ],
+    "meanings": [
+      {
+        "definition": "Relating to the branch of science that studies the physical nature of celestial bodies and phenomena.",
+        "example": "Astrophysical data from the telescope refined the model of the distant galaxy.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "astronomy"
+        ]
+      }
+    ]
   },
   {
     "term": "geochronology",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "geology"
+    ],
+    "meanings": [
+      {
+        "definition": "The science of determining the age and sequence of geological events and formations.",
+        "example": "Radiometric dating is central to modern geochronology.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "geology"
+        ]
+      }
+    ]
   },
   {
     "term": "interoperability",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "technology"
+    ],
+    "meanings": [
+      {
+        "definition": "The ability of different systems or components to exchange data and work together effectively.",
+        "example": "The procurement team prioritized interoperability across hospital software platforms.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "technology"
+        ]
+      }
+    ]
   },
   {
     "term": "virtualization",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "technology"
+    ],
+    "meanings": [
+      {
+        "definition": "The creation of virtual versions of computing resources such as servers, storage, or networks.",
+        "example": "Virtualization reduced hardware costs while improving deployment speed.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "technology"
+        ]
+      }
+    ]
   },
   {
     "term": "containerization",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "technology"
+    ],
+    "meanings": [
+      {
+        "definition": "A method of packaging software with its dependencies so it runs consistently across environments.",
+        "example": "Containerization made the release process more predictable across staging and production.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "technology"
+        ]
+      }
+    ]
   },
   {
     "term": "encapsulation",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "programming"
+    ],
+    "meanings": [
+      {
+        "definition": "The practice of bundling data with methods and restricting direct access to internal state.",
+        "example": "Good encapsulation prevented external code from mutating the object incorrectly.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "programming"
+        ]
+      }
+    ]
   },
   {
     "term": "polymorphism",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "programming"
+    ],
+    "meanings": [
+      {
+        "definition": "The ability of different types to be treated through a common interface while providing distinct behavior.",
+        "example": "Polymorphism let the renderer call draw on multiple shape classes uniformly.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "programming"
+        ]
+      }
+    ]
   },
   {
     "term": "concurrency",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "computing"
+    ],
+    "meanings": [
+      {
+        "definition": "The execution of multiple tasks in overlapping time periods within a system.",
+        "example": "The backend improved throughput by handling requests with controlled concurrency.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "computing"
+        ]
+      }
+    ]
   },
   {
     "term": "idempotency",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "computing"
+    ],
+    "meanings": [
+      {
+        "definition": "The property of an operation that yields the same result when applied multiple times.",
+        "example": "The API guarantees idempotency for repeated payment retries using the same key.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "computing"
+        ]
+      }
+    ]
   },
   {
     "term": "serialization",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "computing"
+    ],
+    "meanings": [
+      {
+        "definition": "The process of converting data structures into a format that can be stored or transmitted.",
+        "example": "Serialization to JSON allowed the service to send objects over the network.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "computing"
+        ]
+      }
+    ]
   },
   {
     "term": "deserialization",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "computing"
+    ],
+    "meanings": [
+      {
+        "definition": "The process of reconstructing data structures from a stored or transmitted format.",
+        "example": "Strict deserialization rules blocked malformed payloads from entering the system.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "computing"
+        ]
+      }
+    ]
   },
   {
     "term": "cryptographic",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [
+      "C1",
+      "security"
+    ],
+    "meanings": [
+      {
+        "definition": "Relating to methods for secure communication, encryption, and data protection.",
+        "example": "The protocol uses cryptographic signatures to verify message authenticity.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "security"
+        ]
+      }
+    ]
   },
   {
     "term": "oligopoly",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "economics"
+    ],
+    "meanings": [
+      {
+        "definition": "A market structure dominated by a small number of large sellers.",
+        "example": "Airline pricing often reflects oligopoly dynamics in concentrated markets.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "economics"
+        ]
+      }
+    ]
   },
   {
     "term": "monopsony",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "economics"
+    ],
+    "meanings": [
+      {
+        "definition": "A market condition in which there is only one dominant buyer for a product or labor.",
+        "example": "The factory town approached monopsony conditions in the local labor market.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "economics"
+        ]
+      }
+    ]
   },
   {
     "term": "arbitrage",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "finance"
+    ],
+    "meanings": [
+      {
+        "definition": "The practice of profiting from price differences for the same asset in different markets.",
+        "example": "Traders used arbitrage to exploit temporary spreads between exchanges.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "finance"
+        ]
+      }
+    ]
   },
   {
     "term": "securitization",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "finance"
+    ],
+    "meanings": [
+      {
+        "definition": "The process of pooling financial assets and converting them into tradable securities.",
+        "example": "Mortgage securitization expanded liquidity but increased systemic complexity.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "finance"
+        ]
+      }
+    ]
   },
   {
     "term": "disintermediation",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "economics"
+    ],
+    "meanings": [
+      {
+        "definition": "The removal of intermediaries in a supply chain or financial transaction.",
+        "example": "Online platforms accelerated disintermediation in retail and travel services.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "economics"
+        ]
+      }
+    ]
   },
   {
     "term": "conglomerate",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "business"
+    ],
+    "meanings": [
+      {
+        "definition": "A large corporation composed of diverse and often unrelated business units.",
+        "example": "The conglomerate sold its media division to focus on industrial operations.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "business"
+        ]
+      }
+    ]
   },
   {
     "term": "amortization",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "finance"
+    ],
+    "meanings": [
+      {
+        "definition": "The gradual repayment of debt or allocation of an asset’s cost over time.",
+        "example": "The loan schedule showed monthly amortization over a fifteen-year term.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "finance"
+        ]
+      }
+    ]
   },
   {
     "term": "capitalization",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "finance"
+    ],
+    "meanings": [
+      {
+        "definition": "The total market value of a company’s outstanding shares or the structuring of its capital.",
+        "example": "After the funding round, the startup’s capitalization rose sharply.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "finance"
+        ]
+      }
+    ]
   },
   {
     "term": "leveraged",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [
+      "C1",
+      "finance"
+    ],
+    "meanings": [
+      {
+        "definition": "Using borrowed funds to increase potential returns, with correspondingly higher risk.",
+        "example": "The firm pursued a leveraged buyout to acquire its competitor.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "finance"
+        ]
+      }
+    ]
   },
   {
     "term": "accretion",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1",
+      "finance"
+    ],
+    "meanings": [
+      {
+        "definition": "Gradual growth or increase through incremental additions over time.",
+        "example": "Bond accretion increased the carrying value as maturity approached.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "finance"
+        ]
+      }
+    ]
   },
   {
     "term": "exegesis",
@@ -2727,7 +3147,5 @@
     "language": "en",
     "partOfSpeech": "",
     "tags": []
-    ],
-    "translation": null
   }
 ]

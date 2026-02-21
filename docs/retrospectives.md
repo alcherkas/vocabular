@@ -540,3 +540,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Keep enrichment prompt enum lists synchronized with `validate_words.py` to avoid avoidable rework.
+## [2026-02-21] [enricher-en-4] [vocab/enricher-en-4]
+
+### What went well
+- Enriched 30 contiguous English stubs with consistent C1 technical definitions and examples in one pass.
+- Validation ran cleanly for both full staging and enriched-only subsets after updates.
+
+### What was harder than expected
+- The staging JSON had a pre-existing malformed tail that had to be corrected before enrichment could be validated.
+
+### Process friction
+- A malformed trailing block in `words_staging.json` blocked baseline validation and required manual cleanup.
+
+### Suggested improvement
+- Add a lightweight JSON syntax check step before enrichment tasks to surface structural file issues immediately.
