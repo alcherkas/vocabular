@@ -148,7 +148,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ## Data Population Tasks
 
 ### `en-words-expansion`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `low`
 **Complexity**: `low`
 **Description**: Expand `words.json` from current count toward 1000 C1+ English words. Add 100 words per batch.
@@ -161,7 +161,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `lt-vocab-initial`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `low`
 **Complexity**: `low`
 **Description**: Create `words_lt.json` with 200 Lithuanian A1/A2 basic words.
@@ -176,7 +176,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ## Feature Tasks
 
 ### `spaced-rep`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `high`
 **Complexity**: `high`
 **Description**: Implement SM-2 spaced repetition algorithm for word scheduling. Add SR fields to Word model and create SpacedRepetitionService.
@@ -284,7 +284,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `lt-spaced-rep-per-lang`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `medium`
 **Complexity**: `intermediate`
 **Description**: Integrate spaced repetition into the session flow with per-language word selection. SR state is inherently per-language because `language` and SR fields are both on the `Word` model — this task wires SR into session word selection and ensures cross-language independence.
