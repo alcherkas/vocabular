@@ -22679,7 +22679,7 @@
   {
     "term": "oculus",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -22692,12 +22692,24 @@
           "fenestration"
         ]
       }
+    ],
+    "synonyms": [
+      "bull's-eye",
+      "eye window"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dome",
+      "fenestration",
+      "lantern",
+      "rotunda",
+      "aperture"
     ]
   },
   {
     "term": "pendentive",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -22711,12 +22723,24 @@
           "vaulting"
         ]
       }
+    ],
+    "synonyms": [
+      "spherical triangle",
+      "triangular spandrel"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "squinch",
+      "dome",
+      "spandrel",
+      "vaulting",
+      "trompe"
     ]
   },
   {
     "term": "quoin",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -22730,12 +22754,24 @@
           "ornament"
         ]
       }
+    ],
+    "synonyms": [
+      "coign",
+      "coin"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "cornerstone",
+      "rustication",
+      "voussoir",
+      "masonry",
+      "jamb"
     ]
   },
   {
     "term": "rustication",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -22749,12 +22785,25 @@
           "Renaissance"
         ]
       }
+    ],
+    "synonyms": [
+      "bossage",
+      "rock-face finish"
+    ],
+    "antonymTerms": [
+      "ashlar"
+    ],
+    "relatedTerms": [
+      "quoin",
+      "masonry",
+      "vermiculation",
+      "string course"
     ]
   },
   {
     "term": "soffit",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -22768,6 +22817,17 @@
           "ceiling"
         ]
       }
+    ],
+    "synonyms": [
+      "intrados",
+      "plancher"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "fascia",
+      "coffer",
+      "arch",
+      "lintel"
     ]
   },
   {
@@ -25415,7 +25475,7 @@
   {
     "term": "ergodicity",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -25430,20 +25490,17 @@
       }
     ],
     "synonyms": [
-      "stochastic stationarity",
-      "time-space equivalence"
+      "time-ensemble equivalence",
+      "statistical uniformity"
     ],
-    "antonymTerms": [
-      "non-ergodicity"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
       "stochasticity",
       "Markov process",
+      "stationarity",
       "time average",
-      "ensemble average",
-      "statistical mechanics"
-    ],
-    "qaNote": "antonymTerms contains 'non-ergodicity' which includes the headword 'ergodicity' as a substring (self-reference). Replace with a proper antonym term that does not contain the headword, e.g. 'non-stationarity' or remove."
+      "ensemble average"
+    ]
   },
   {
     "term": "equivocation",
@@ -25901,7 +25958,7 @@
   {
     "term": "recursion",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -25926,6 +25983,18 @@
           "syntax"
         ]
       }
+    ],
+    "synonyms": [
+      "self-reference",
+      "iterative self-application"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "iteration",
+      "base case",
+      "fractal",
+      "induction",
+      "nesting"
     ]
   },
   {
@@ -26188,7 +26257,7 @@
   {
     "term": "panarchy",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26203,6 +26272,18 @@
           "resilience"
         ]
       }
+    ],
+    "synonyms": [
+      "adaptive cycle framework",
+      "cross-scale dynamics"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "resilience",
+      "adaptive cycle",
+      "hierarchy",
+      "complexity",
+      "cascade"
     ]
   },
   {
@@ -26213,7 +26294,7 @@
   {
     "term": "metastability",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26227,6 +26308,18 @@
           "complexity"
         ]
       }
+    ],
+    "synonyms": [
+      "quasi-stability",
+      "kinetic stability"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "phase transition",
+      "supercooling",
+      "equilibrium",
+      "bistability",
+      "perturbation"
     ]
   },
   {
@@ -26237,7 +26330,7 @@
   {
     "term": "constructivism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26263,6 +26356,18 @@
           "cognitive science"
         ]
       }
+    ],
+    "synonyms": [
+      "constructionism",
+      "productivism"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Bauhaus",
+      "suprematism",
+      "epistemology",
+      "nativism",
+      "cognitivism"
     ]
   },
   {
@@ -26396,7 +26501,7 @@
   {
     "term": "internalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26410,8 +26515,8 @@
       }
     ],
     "synonyms": [
-      "mentalism",
-      "deontologism"
+      "deontologism",
+      "access theory"
     ],
     "antonymTerms": [
       "externalism"
@@ -26419,15 +26524,15 @@
     "relatedTerms": [
       "epistemology",
       "justification",
-      "access",
-      "introspection"
-    ],
-    "qaNote": "Synonyms 'mentalism' and 'deontologism' are not true synonyms of internalism: 'deontologism' is a subtype (hyponym), not a synonym; 'mentalism' overlaps with internalism in philosophy of mind but is not an equivalent epistemological term. Replace with genuine near-synonyms such as 'access internalism' or 'subjective justification theory'."
+      "mentalism",
+      "introspection",
+      "a priori"
+    ]
   },
   {
     "term": "externalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26442,8 +26547,8 @@
       }
     ],
     "synonyms": [
-      "naturalism",
-      "anti-internalism"
+      "reliabilism",
+      "naturalism"
     ],
     "antonymTerms": [
       "internalism"
@@ -26452,9 +26557,9 @@
       "epistemology",
       "content",
       "justification",
-      "knowledge"
-    ],
-    "qaNote": "Synonyms 'naturalism' and 'anti-internalism' are not true synonyms: 'naturalism' is a broader metaphysical position that often co-occurs with externalism but is not equivalent; 'anti-internalism' is merely a negation description, not a recognised philosophical synonym. Replace with terms like 'content externalism' or 'process externalism'."
+      "causal theory",
+      "anti-scepticism"
+    ]
   },
   {
     "term": "defeasibility",
@@ -26521,7 +26626,7 @@
   {
     "term": "underdetermination",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26536,18 +26641,16 @@
     ],
     "synonyms": [
       "empirical equivalence",
-      "confirmation holism"
+      "theoretical indeterminacy"
     ],
-    "antonymTerms": [
-      "overdetermination"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
+      "confirmation holism",
       "incommensurability",
-      "theory",
-      "evidence",
-      "empiricism"
-    ],
-    "qaNote": "Synonyms 'empirical equivalence' and 'confirmation holism' are related concepts, not synonyms: 'empirical equivalence' is a condition that produces underdetermination; 'confirmation holism' (Duhem–Quine thesis) is a distinct (though related) epistemological thesis. Replace with genuine synonyms or remove synonyms array if none exist."
+      "theory choice",
+      "Duhem-Quine thesis",
+      "theory ladenness"
+    ]
   },
   {
     "term": "epistemology",
@@ -26684,7 +26787,7 @@
   {
     "term": "epistemic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -26699,17 +26802,16 @@
     ],
     "synonyms": [
       "epistemological",
-      "cognitive",
-      "gnostic"
+      "noetic"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "doxastic",
       "alethic",
       "deontic",
-      "propositional"
-    ],
-    "qaNote": "Synonyms 'cognitive' (hypernym — covers all mental processing, not just knowledge) and 'gnostic' (primarily denotes Gnosticism; archaic and misleading in philosophical context) are inaccurate. Retain 'epistemological' and add only true near-synonyms, e.g. 'epistemic' is often its own best label; consider removing the other two."
+      "propositional",
+      "cognitive"
+    ]
   },
   {
     "term": "deflationism",
@@ -27356,7 +27458,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In postcolonial and critical theory, a person belonging to a social group that is systematically marginalised, oppressed, and denied the capacity to speak or be heard within dominant power structures.",
@@ -27379,6 +27481,18 @@
           "British Army"
         ]
       }
+    ],
+    "synonyms": [
+      "subordinate",
+      "marginalized subject"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "colonialism",
+      "hegemony",
+      "postcolonialism",
+      "marginalization",
+      "agency"
     ]
   },
   {
@@ -27852,7 +27966,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A circular painting or relief sculpture, especially one of Renaissance Italian origin.",
@@ -27866,13 +27980,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "roundel",
+      "circular panel"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "roundel",
       "medallion",
       "panel painting",
-      "Renaissance art"
+      "Renaissance art",
+      "portrait miniature"
     ]
   },
   {
@@ -27880,7 +27997,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An initial layer of paint applied to a prepared ground to establish the basic composition, tonal structure, and overall design before subsequent colour layers are added.",
@@ -27894,7 +28011,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "lay-in",
+      "dead color"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "grisaille",
@@ -27908,7 +28028,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A genre of still-life painting, prominent in seventeenth-century Dutch art, in which symbolic objects such as skulls, hourglasses, and wilting flowers allude to the transience of earthly life and the inevitability of death.",
@@ -27922,7 +28042,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "memento mori painting",
+      "mortality allegory"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "memento mori",
@@ -27936,7 +28059,7 @@
     "language": "en",
     "partOfSpeech": "adjective",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Relating to music in which elements of chance or randomness are incorporated into the compositional process or performance, so that the score leaves decisions to the performer or to random operations.",
@@ -27958,6 +28081,20 @@
           "aesthetics"
         ]
       }
+    ],
+    "synonyms": [
+      "stochastic",
+      "indeterminate"
+    ],
+    "antonymTerms": [
+      "deterministic"
+    ],
+    "relatedTerms": [
+      "chance",
+      "randomness",
+      "improvisation",
+      "contingency",
+      "probabilistic"
     ]
   },
   {
@@ -27965,7 +28102,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A musical technique in which two or more voices, choirs, or instrumental groups alternate phrases in call-and-response fashion, each answering or echoing the other.",
@@ -27987,6 +28124,17 @@
           "theology"
         ]
       }
+    ],
+    "synonyms": [
+      "call and response",
+      "responsorial"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "polyphony",
+      "choir",
+      "liturgical music",
+      "cantor"
     ]
   },
   {
@@ -27994,7 +28142,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The technique of playing the notes of a chord in rapid succession rather than simultaneously, producing a rolling or harp-like effect, either ascending or descending through the pitches.",
@@ -28007,6 +28155,20 @@
           "technique"
         ]
       }
+    ],
+    "synonyms": [
+      "rolling",
+      "broken-chord technique"
+    ],
+    "antonymTerms": [
+      "block chord"
+    ],
+    "relatedTerms": [
+      "arpeggio",
+      "chord",
+      "harp technique",
+      "rolled chord",
+      "broken chord"
     ]
   },
   {
@@ -28014,7 +28176,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A compositional method that deliberately avoids establishing a tonal centre or key, treating all twelve chromatic pitches as structurally equal and without the hierarchical pull of tonic-dominant relationships.",
@@ -28037,6 +28199,20 @@
           "perception"
         ]
       }
+    ],
+    "synonyms": [
+      "pantonality",
+      "tonal dissolution"
+    ],
+    "antonymTerms": [
+      "tonality"
+    ],
+    "relatedTerms": [
+      "serialism",
+      "twelve-tone",
+      "dissonance",
+      "chromaticism",
+      "Schoenberg"
     ]
   },
   {
@@ -28044,7 +28220,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A virtuosic solo passage, typically near the end of a movement in a concerto, in which the soloist performs elaborate, technically demanding material without orchestral accompaniment, either improvised or written out.",
@@ -28066,6 +28242,18 @@
           "style"
         ]
       }
+    ],
+    "synonyms": [
+      "flourish",
+      "bravura passage"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "concerto",
+      "improvisation",
+      "ornament",
+      "bravura",
+      "fermata"
     ]
   },
   {
@@ -28073,7 +28261,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A pre-existing melody—usually drawn from plainchant or a well-known secular tune—used as the structural foundation of a polyphonic composition, with additional voices woven in counterpoint around it, typically in slow-moving note values.",
@@ -28087,6 +28275,18 @@
           "Renaissance"
         ]
       }
+    ],
+    "synonyms": [
+      "fixed song",
+      "preset melody"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "counterpoint",
+      "polyphony",
+      "plainchant",
+      "tenor voice",
+      "isorhythm"
     ]
   },
   {
@@ -28094,7 +28294,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A concluding passage in a musical composition that brings the piece or movement to a close, often distinct in character or key from the main body of the work, adding a sense of finality beyond the recapitulation.",
@@ -28116,6 +28316,18 @@
           "structure"
         ]
       }
+    ],
+    "synonyms": [
+      "tailpiece",
+      "envoi"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "finale",
+      "postlude",
+      "epilogue",
+      "denouement",
+      "recapitulation"
     ]
   },
   {
@@ -28123,7 +28335,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The art and technique of combining two or more independent melodic lines so that they are harmonically interdependent yet rhythmically and melodically distinct, each retaining its own identity while contributing to a unified whole.",
@@ -28146,6 +28358,20 @@
           "narrative"
         ]
       }
+    ],
+    "synonyms": [
+      "part-writing",
+      "contrapuntalism"
+    ],
+    "antonymTerms": [
+      "homophony"
+    ],
+    "relatedTerms": [
+      "polyphony",
+      "fugue",
+      "harmony",
+      "voice leading",
+      "canon"
     ]
   },
   {
@@ -28153,7 +28379,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In music, a combination of notes that produces tension or an unsettled, clashing sound, typically understood to require resolution to a more stable consonant harmony.",
@@ -28175,6 +28401,20 @@
           "rhetoric"
         ]
       }
+    ],
+    "synonyms": [
+      "discord",
+      "disharmony"
+    ],
+    "antonymTerms": [
+      "consonance"
+    ],
+    "relatedTerms": [
+      "tension",
+      "resolution",
+      "cacophony",
+      "clash",
+      "harmony"
     ]
   },
   {
@@ -28182,7 +28422,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A contrapuntal compositional technique in which a short melody or phrase (the subject) is introduced by one voice and then successively taken up by other voices in imitation, developed through episodes and entries according to strict but flexible procedures.",
@@ -28206,6 +28446,18 @@
           "dissociation"
         ]
       }
+    ],
+    "synonyms": [
+      "fugal composition",
+      "dissociative state"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "counterpoint",
+      "canon",
+      "imitation",
+      "dissociation",
+      "subject"
     ]
   },
   {
@@ -28213,7 +28465,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A continuous, unbroken slide between two pitches on an instrument, executed by sliding a finger along the strings or keys (as on harp, piano, or vibraphone) or by embouchure technique on brass and voice.",
@@ -28236,6 +28488,17 @@
           "rhetoric"
         ]
       }
+    ],
+    "synonyms": [
+      "portamento",
+      "slide"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "slur",
+      "pitch bend",
+      "legato",
+      "chromatic run"
     ]
   },
   {
@@ -28243,7 +28506,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A musical texture in which one voice or part carries the principal melody while the other parts move in rhythmic coordination with it, providing harmonic support rather than independent melodic interest.",
@@ -28256,6 +28519,20 @@
           "composition"
         ]
       }
+    ],
+    "synonyms": [
+      "chordal texture",
+      "melody-and-accompaniment"
+    ],
+    "antonymTerms": [
+      "polyphony"
+    ],
+    "relatedTerms": [
+      "melody",
+      "accompaniment",
+      "texture",
+      "chorale",
+      "homorhythm"
     ]
   },
   {
@@ -28263,7 +28540,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A medieval compositional technique in which a repeating rhythmic pattern (talea) is applied independently to a repeating melodic unit (color), the two cycling at different rates to create an intricate structural grid underlying the polyphonic texture.",
@@ -28277,6 +28554,18 @@
           "Renaissance"
         ]
       }
+    ],
+    "synonyms": [
+      "talea-color structure",
+      "mensural repetition"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "talea",
+      "color",
+      "cantus firmus",
+      "motet",
+      "Ars Nova"
     ]
   },
   {
@@ -28284,7 +28573,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A technique, theorised by Schoenberg, in which a melodic line is distributed across different instruments or timbres in succession, so that changes in tone colour (Klangfarbe) become structural and expressive elements equivalent in importance to changes in pitch.",
@@ -28298,6 +28587,18 @@
           "serialism"
         ]
       }
+    ],
+    "synonyms": [
+      "tone-color melody",
+      "timbre melody"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "timbre",
+      "orchestration",
+      "Schoenberg",
+      "serialism",
+      "pointillism"
     ]
   },
   {
@@ -28305,7 +28606,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In music, the harmonic process of moving from one key to another within a composition, achieved through pivot chords, chromatic voice-leading, or direct juxtaposition.",
@@ -28329,6 +28630,17 @@
           "telecommunications"
         ]
       }
+    ],
+    "synonyms": [
+      "key change",
+      "harmonic transition"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pivot chord",
+      "tonality",
+      "carrier signal",
+      "transposition"
     ]
   },
   {
@@ -28336,7 +28648,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A continuous variation form originating in the Baroque period, built on an ostinato bass line or short harmonic ground that repeats throughout, while the upper voices develop increasingly elaborate variations above it.",
@@ -28350,6 +28662,18 @@
           "variation"
         ]
       }
+    ],
+    "synonyms": [
+      "chaconne",
+      "ground bass variation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ostinato",
+      "basso ostinato",
+      "ground bass",
+      "variation form",
+      "Baroque music"
     ]
   },
   {
@@ -28357,7 +28681,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A flexible, expressive freedom in musical performance in which the strict tempo is deliberately and subtly stretched or compressed, allowing phrases to breathe beyond the notated rhythmic values.",
@@ -28381,6 +28705,18 @@
           "theatre"
         ]
       }
+    ],
+    "synonyms": [
+      "tempo flexibility",
+      "expressive timing"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tempo",
+      "agogic",
+      "espressivo",
+      "ritardando",
+      "accelerando"
     ]
   },
   {
