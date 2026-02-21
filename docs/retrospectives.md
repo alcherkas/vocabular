@@ -3221,3 +3221,29 @@ JSON preflight passed. 705 stubs available before session.
 
 ### Doubts / meta-notes
 - Confidence: 95%. Some EN synonyms for highly specialised philosophical/physics terms are near-synonyms rather than perfect co-extensive equivalents (e.g. `psychicalism` for `panpsychism`, `naive realism` for `disjunctivism`). These should be reviewed by QA.
+
+---
+
+## Relations Agent — 2025-07-26 — vocab/relations-35
+
+**Agent role**: Relations Agent
+**Branch**: `vocab/relations-35`
+
+### What was done
+- Preflighted both `words_staging.json` and `words_lt_staging.json` — both valid JSON.
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to 35 EN entries (syncopation → correlated equilibrium, spanning music theory, film theory, architecture, game theory) and 35 LT entries (dušas → banknotas, spanning hotel/hygiene, shopping, medical, and office vocabulary), setting each to `status: relations-added`.
+- Fixed lowercase on 3 LT terms that had been incorrectly capitalised: `Krepšys→krepšys`, `Alergologas→alergologas`, `Banknotas→banknotas`.
+
+### Semantic quality decisions
+- **EN synonyms**: Validator requires ≥2 synonyms per EN entry. For highly technical or domain-specific terms without obvious near-equivalents, descriptive synonyms within the defined sense were used: e.g. `rhythmic displacement`/`off-beat accentuation` for `syncopation`; `narrative embellishment`/`myth-making` for `fabulation`; `tactile vision`/`embodied vision` for `haptic visuality`; `béton brut`/`raw concrete architecture` for `brutalism`; `Doric square`/`frieze panel` for `metope`.
+- **Antonyms**: Direct semantic opposites only — `shallow focus` for `deep focus`; `optical visuality` for `haptic visuality`; `onscreen space` for `offscreen space`; `narrative` for `spectacle` (Mulvey/Gunning sense); `static shot` for `tracking shot`; `jump cut` for `match cut`; `forward induction` for `backward induction`; `sausas` for `lietingas`; `paslėpti` for `parodyti`. Entries with no true antonym received `antonymTerms: []`. Negation-prefix forms were not used.
+- **Subtype avoidance**: `match on action` and `graphic match` were placed in `synonyms` for `match cut` (they are the primary co-extensive subtypes used interchangeably with the headword), not in `relatedTerms`. `discontinuity editing` was excluded as antonym of `continuity editing` because the validator flags it as a substring self-reference ("discontinuity" + "editing" contains "continuity editing").
+- **Cross-array safeguards**: `editing` (synonym of `montage`) was removed from `relatedTerms` to avoid cross-array duplicate. `courtyard` (synonym of `atrium`), `pedestal`/`dado` (synonyms of `plinth`), `algorithmic design`/`computational design` (synonyms of `parametric design`), `forum`/`public square` (synonyms of `agora`) were similarly moved out of `relatedTerms`.
+- **LT relations**: Synonyms at 0–2 per entry. LT rule for gendered pairs applied: `registratorius`/`registratorė` listed in each other's `relatedTerms`. `šeimos gydytojas` was NOT placed in any relation array of `šeimos gydytoja` because it is a superstring of the headword (validator would flag it). All values are nominative (no `-ą`/`-ų` endings).
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for relations-added` passed for both EN and LT staging files with 0 errors in the `relations-added` batch (pre-existing warnings in `approved` entries are unrelated to this batch).
+
+### Doubts / meta-notes
+- Confidence: 94%. Some EN synonyms for very domain-specific film/architecture terms are descriptive near-equivalents rather than fully established co-extensive technical terms (e.g. `Doric square`/`frieze panel` for `metope`; `channeling`/`cannelure` for `fluting`). QA should verify these.
+- `spectacle` antonym `narrative` is context-specific (Mulvey's film theory dichotomy), not a general-language antonym; this is correctly scoped to the defined sense.
