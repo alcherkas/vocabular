@@ -226,3 +226,33 @@ Include the ambiguity type in your `decisions-pending.md` entry (see format in e
 - Geological sub-disciplines (glaciology, volcanology, seismology) were counted under the environmental science / Earth science umbrella, consistent with the domain framing in the task.
 - For terms with no clear linguistic antonym (e.g. `lapilli`, `esker`, `nunatak`), `antonymTerms` was left as an empty array `[]`, matching existing file conventions.
 - 25 stubs remain untouched; they fall outside the target domains.
+## Session retro — vocab/relations-16 (batch 2)
+
+**Date:** 2026-02-21
+**Branch:** vocab/relations-16
+**Commit:** 26abce0
+
+### What was done
+- Preflight JSON validation on both `words_lt_staging.json` and `words_staging.json` — both PASSED with exit 0; all pre-existing warnings are on `approved` entries outside scope.
+- Selected the first 35 `enriched` entries from each file as the promotion targets.
+- **LT (`words_lt_staging.json`):** 35 entries promoted. Applied qaNote-guided synonym fixes to 5 entries:
+  - `senelė`: replaced `tėvo motina` (paternal-only, semantically inaccurate) with `močiutė` (general grandmother).
+  - `sėdėti`: added `sėdinėti` (iterative/habitual form) as required second synonym.
+  - `mėgti`: added `patikti` (to please/be pleasing) as second synonym — both translate as "to like".
+  - `susipažinti`: added `susitikti` (to meet) as second synonym, closest available option after `pažinti` was previously excluded.
+  - `jauna`: added `jaunutis` (nominative masc dict form, emphatic "young") as second synonym, consistent with existing `jaunatviškas` being in masculine dict form.
+  - All other 30 adjective/verb entries had complete, valid relations; status promoted without modification.
+- **EN (`words_staging.json`):** 35 entries promoted (17 medicine/pharmacology + 18 law terms). All carried ≥ 2 synonyms, valid `antonymTerms` and `relatedTerms` from prior enrichment; no edits needed.
+- Post-promotion validation: both files pass `--errors-for relations-added` (exit 0).
+
+### Stats
+| File | Newly promoted | Pre-existing relations-added | Total relations-added |
+|------|---------------|------------------------------|-----------------------|
+| words_lt_staging.json | 35 | 35 | 70 |
+| words_staging.json | 35 | 35 | 70 |
+
+### Issues / notes
+- Rule (1) self-reference: confirmed none of the 70 promoted entries contain their own term in synonyms/antonymTerms/relatedTerms.
+- Rule (2) LT nominative forms: no `-ą` or `-ų` endings introduced; `sėdint` in the phrase `ilsėtis sėdint` (adverbial participle, ends in `-t`) does not violate the rule.
+- Rule (3) semantic accuracy: `tėvo motina` was the only synonym flagged as semantically inaccurate (paternal-only gloss for a gender-neutral headword); replaced with `močiutė`.
+- EN entries with duplicate antonym↔relatedTerms (e.g., `pharmacokinetics`/`pharmacodynamics`) were left as-is — the validator does not flag cross-field overlap and prior enrichment intentionally cross-linked these complementary concepts.
