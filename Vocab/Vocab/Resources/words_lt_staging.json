@@ -7347,7 +7347,7 @@
     "term": "vertėjas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who translates spoken or written language from one language to another.",
@@ -7381,7 +7381,7 @@
     "term": "vertėja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who translates spoken or written language from one language to another.",
@@ -7415,7 +7415,7 @@
     "term": "žurnalistas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who gathers, writes, or reports news for media.",
@@ -7449,7 +7449,7 @@
     "term": "žurnalistė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who gathers, writes, or reports news for media.",
@@ -7483,7 +7483,7 @@
     "term": "gydytojas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man qualified to diagnose and treat illnesses.",
@@ -7517,7 +7517,7 @@
     "term": "gydytoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman qualified to diagnose and treat illnesses.",
@@ -7551,7 +7551,7 @@
     "term": "slaugytojas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A man who provides nursing care to patients.",
@@ -7576,15 +7576,16 @@
       "slaugytoja",
       "gydytojas",
       "priežiūra",
-      "palatą"
+      "palata"
     ],
-    "translation": "nurse (man)"
+    "translation": "nurse (man)",
+    "qaNote": "relatedTerms contains \"palatą\" (accusative); corrected to nominative \"palata\""
   },
   {
     "term": "slaugytoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A woman who provides nursing care to patients.",
@@ -7609,15 +7610,16 @@
       "slaugytojas",
       "gydytoja",
       "priežiūra",
-      "palatą"
+      "palata"
     ],
-    "translation": "nurse (woman)"
+    "translation": "nurse (woman)",
+    "qaNote": "relatedTerms contains \"palatą\" (accusative); corrected to nominative \"palata\""
   },
   {
     "term": "vairuotojas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who drives a vehicle as a job or regular duty.",
@@ -7651,7 +7653,7 @@
     "term": "vairuotoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who drives a vehicle as a job or regular duty.",
@@ -7685,7 +7687,7 @@
     "term": "muzikantas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who plays music professionally or as a skilled performer.",
@@ -7719,7 +7721,7 @@
     "term": "muzikantė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who plays music professionally or as a skilled performer.",
@@ -7753,7 +7755,7 @@
     "term": "fotografas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A man who takes photographs professionally.",
@@ -7766,8 +7768,7 @@
       }
     ],
     "synonyms": [
-      "nuotraukų meistras",
-      "fotogrataras"
+      "nuotraukų meistras"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -7778,13 +7779,14 @@
       "studija",
       "šviesa"
     ],
-    "translation": "photographer (man)"
+    "translation": "photographer (man)",
+    "qaNote": "\"fotogrataras\" in synonyms is a misspelling (likely of \"fotografas\", the term itself); removed"
   },
   {
     "term": "fotografė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who takes photographs professionally.",
@@ -7814,7 +7816,7 @@
     "term": "valytojas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A male cleaner or janitor responsible for cleaning and maintaining spaces.",
@@ -7845,7 +7847,7 @@
     "term": "valytoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A female cleaner or janitor responsible for cleaning and maintaining spaces.",
@@ -7876,7 +7878,7 @@
     "term": "šokėjas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A male dancer who performs dance professionally or as a hobby.",
@@ -7909,7 +7911,7 @@
     "term": "šokėja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A female dancer who performs dance professionally or as a hobby.",
@@ -7942,7 +7944,7 @@
     "term": "virėjas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A male cook or chef who prepares food.",
@@ -7976,7 +7978,7 @@
     "term": "virėja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A female cook or chef who prepares food.",
@@ -8010,7 +8012,7 @@
     "term": "mokytojas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A male teacher who educates students in a school or other setting.",
@@ -8044,7 +8046,7 @@
     "term": "mokytoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A female teacher who educates students in a school or other setting.",
@@ -8075,10 +8077,10 @@
     "translation": "teacher (female)"
   },
   {
-    "term": "Pavasaris",
+    "term": "pavasaris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The spring season, when weather gets warmer and plants begin to grow.",
@@ -8105,13 +8107,14 @@
       "vasara",
       "Velykos"
     ],
-    "translation": "spring"
+    "translation": "spring",
+    "qaNote": "term \"Pavasaris\" is improperly capitalised for a common noun; corrected to \"pavasaris\""
   },
   {
     "term": "vasara",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The summer season, usually the warmest part of the year.",
@@ -8144,7 +8147,7 @@
     "term": "ruduo",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The autumn season, when leaves change color and temperatures drop.",
@@ -8157,8 +8160,7 @@
       }
     ],
     "synonyms": [
-      "rudenmetis",
-      "lapkritis"
+      "rudenmetis"
     ],
     "antonymTerms": [
       "pavasaris"
@@ -8171,13 +8173,14 @@
       "žiema",
       "derlius"
     ],
-    "translation": "autumn"
+    "translation": "autumn",
+    "qaNote": "\"lapkritis\" is the Lithuanian word for November (a month), not a synonym for autumn; removed"
   },
   {
     "term": "žiema",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The winter season, usually the coldest part of the year.",
@@ -8190,7 +8193,6 @@
       }
     ],
     "synonyms": [
-      "žiemasergis",
       "šaltasis sezonas"
     ],
     "antonymTerms": [
@@ -8204,13 +8206,14 @@
       "Kalėdos",
       "ledas"
     ],
-    "translation": "winter"
+    "translation": "winter",
+    "qaNote": "\"žiemasergis\" is not a recognised Lithuanian word (expected archaic form would be \"žiemametis\"); removed"
   },
   {
     "term": "savaitė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A period of seven consecutive days.",
@@ -8240,7 +8243,7 @@
     "term": "pirmadienis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Monday, the first workday of the week in many calendars.",
@@ -8272,7 +8275,7 @@
     "term": "antradienis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Tuesday, the day following Monday.",
@@ -8300,7 +8303,7 @@
     "term": "trečiadienis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Wednesday, the day between Tuesday and Thursday.",
@@ -8330,7 +8333,7 @@
     "term": "ketvirtadienis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Thursday, the day between Wednesday and Friday.",
@@ -8358,7 +8361,7 @@
     "term": "penktadienis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Friday, the day before the weekend.",
@@ -8388,7 +8391,7 @@
     "term": "šeštadienis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Saturday, typically the first day of the weekend.",
@@ -8416,7 +8419,7 @@
     "term": "sekmadienis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Sunday, typically the second day of the weekend.",
@@ -8448,7 +8451,7 @@
     "term": "rytas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The early part of the day, from dawn until around noon.",
