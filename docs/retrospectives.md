@@ -624,3 +624,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a small reusable template for profession-pair entries (male/female forms) to speed up LT enrichment batches.
+## [2026-02-21] [vocab-relations-agent] [relations-4]
+
+### What went well
+- Preflight JSON checks passed for both staging files, and relation updates were applied in one deterministic pass.
+- Processed exactly 35 enriched entries in each staging file and moved them to `relations-added` with validator-compliant relation fields.
+
+### What was harder than expected
+- Several LT enriched entries already had empty relation arrays, so deciding between minimal updates and richer relation filling required a consistency pass.
+
+### Process friction
+- The relation quality bar is implicit; validator constraints are clear, but semantic depth expectations are not explicitly measurable.
+
+### Suggested improvement
+- Add a lightweight relation-quality checklist to `docs/VOCAB-AGENT.md` (e.g., when to keep LT synonyms empty vs when to add related terms).
