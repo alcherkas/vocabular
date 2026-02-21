@@ -3446,3 +3446,29 @@ JSON preflight passed. 705 stubs available before session.
 ### Doubts / meta-notes
 - Confidence: 94%. Some EN synonyms for highly abstract political philosophy terms are near-equivalents rather than strict synonyms (e.g. `liberal philosophy`/`liberal doctrine` for liberalism; `civic constitutionalism`/`civic humanism` for republicanism). QA should review these for co-extensiveness.
 - LT conjugated-form entries (present/past 3sg) are unusual vocabulary entries; treated each as independent with minimal relations pointing back to the infinitive. QA may wish to reconsider whether these merit their own entries or should be collapsed.
+
+## Enricher Agent — 2025-07-28 — vocab/enricher-en-36
+
+**Agent role**: Enricher Agent (English)
+**Branch**: `vocab/enricher-en-36`
+
+### What was done
+- Preflighted `words_staging.json` — valid JSON.
+- Confirmed 100 stubs available; enriched exactly 35, all from the neuroscience and biology/genetics clusters as requested.
+- **Neuroscience (20 terms)**: synapse, cortex, limbic system, axon, neurotransmitter, hippocampus, amygdala, cerebellum, prefrontal cortex, action potential, synaptic plasticity, dopamine, serotonin, norepinephrine, acetylcholine, long-term potentiation, neurodegeneration, blood-brain barrier, default mode network, thalamus.
+- **Biology / genetics (15 terms)**: phenotype, genotype, natural selection, mutation, gene expression, epigenetics, allele, chromosome, mitosis, meiosis, transcription factor, ribosome, nucleotide, protein folding, genetic drift.
+- All 35 entries set to `status: "enriched"`.
+
+### Semantic quality decisions
+- Most entries have 2 meanings where genuinely distinct senses exist (e.g. `cortex` — cerebral vs. organ-layer sense; `dopamine` — CNS neurotransmitter vs. peripheral hormone; `chromosome` — eukaryotic vs. prokaryotic; `mutation` — genomic vs. figurative; `phenotype` — biological vs. clinical). Single-meaning entries were kept at one meaning where no additional distinct sense could be accurately identified (e.g. `action potential`, `long-term potentiation`, `blood-brain barrier`).
+- All registers set to `technical` except one figurative meaning of `mutation` (`general`) and one figurative meaning of `cortex`/`natural selection` (`formal`), reflecting actual domain usage.
+- `partOfSpeech` is `noun` throughout — all 35 terms are used as nouns in their primary technical senses.
+- Example sentences are drawn from real clinical, experimental, and textbook contexts; avoided dictionary boilerplate (e.g. used the H.M. case for hippocampus, Dutch Hunger Winter for epigenetics, NMDA receptor coincidence-detection for LTP, founder effect for genetic drift).
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for enriched` passed with 0 errors in the enriched batch.
+- 91 pre-existing warnings in `approved` entries are unrelated to this session.
+
+### Doubts / meta-notes
+- Confidence: 97%. All 35 terms are well-established, high-frequency C1+ scientific vocabulary with documented definitions.
+- 65 stubs remain for subsequent sessions.
