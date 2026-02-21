@@ -802,3 +802,44 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a validation rule that warns when `synonyms` is empty for entries with `partOfSpeech: noun` in EN — helps surface terms that might benefit from a second enrichment pass or a domain-expert review.
+
+---
+
+## Retro — vocab/enricher-lt-14 (LT Enricher)
+
+**Date:** 2025-07-19
+**Branch:** vocab/enricher-lt-14
+
+### What was done
+- Preflighted `words_lt_staging.json` — 1960 entries, 1605 stubs at start.
+- Enriched **30 Lithuanian stub entries** — all descriptive adjective pairs:
+  - **Emotional state (10):** liūdnas/liūdna, laimingas/laiminga, nelaimingas/nelaiminga, mielas/miela, piktas/pikta
+  - **Appearance / aesthetics (6):** gražus/graži, negražus/negraži, bjaurus/bjauri
+  - **Light / colour (4):** šviesus/šviesi, tamsus/tamsi
+  - **Size / height / build (10):** žemas/žema, aukštas/aukšta, stambus/stambi, plonas/plona, malonus/maloni
+- Each entry received: `partOfSpeech` (adjective), `translation`, `meanings` (definition + Lithuanian example sentence + register `general` + tags), `synonyms`, `antonymTerms`, `relatedTerms`. Status set to `enriched`.
+
+### Validation
+- `validate_words.py --status enriched` passed — 140 enriched entries valid ✓
+- `validate_words.py` (full file) passed — 1960 entries valid ✓
+
+### Decisions
+- All 30 stubs were gendered adjective pairs; each received its own independent entry with a note in the definition identifying it as masculine or feminine/neuter form.
+- Masculine forms include the feminine counterpart in `relatedTerms` and vice versa, enabling cross-navigation.
+- Register set uniformly to `general` — these are everyday descriptive adjectives with no formal/technical register bias.
+- `antonymTerms` reference the opposing adjective (e.g. gražus ↔ negražus/bjaurus); where a direct antonym pair exists within the 30 terms it is cited explicitly.
+- No merges performed; branch left for PR review.
+
+### What went well
+- Batch of 30 was highly uniform (all adjectives, same schema shape) — script-based enrichment was fast and error-free in a single pass.
+- Full-file validation passed immediately with zero errors.
+
+### What was harder than expected
+- Lithuanian gendered pairs are nearly identical semantically; distinguishing the definition wording concisely while being accurate required care.
+- For `bjaurus`/`bjauri` the English gloss "ugly" overlaps with `negražus`; translation kept as "ugly" for both but example sentences disambiguate context (appearance vs character).
+
+### Process friction
+- None. Staging file and conventions were well-established from previous iterations.
+
+### Suggested improvement
+- Consider adding a `genderForm` metadata field (masc/fem/neut) to adjective entries to reduce the need to embed gender notes in free-text definitions.
