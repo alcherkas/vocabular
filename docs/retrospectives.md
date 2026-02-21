@@ -255,3 +255,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - None.
+
+## [2025-07-25] [feat-agent] [lt-spaced-rep-per-lang]
+
+### What went well
+- SessionService already had 90% of the SR-aware logic from the spaced-rep task; only two surgical fixes needed (cap new words at maxNew, remove upcoming fallback).
+- Build succeeded on first attempt after the change.
+
+### What was harder than expected
+- xcode-select still points to CommandLineTools; required DEVELOPER_DIR workaround. iPhone 16 Pro simulator doesn't exist (used iPhone 17 Pro).
+
+### Process friction
+- None. Task was well-scoped with clear acceptance criteria.
+
+### Suggested improvement
+- None.
