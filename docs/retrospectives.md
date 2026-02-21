@@ -218,3 +218,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Expand the allowed-file list in REFLECTION-AGENT.md to explicitly include BUILD.md and WORKTREES.md as editable process docs.
+## [2025-07-21] [feat-lt-empty-states] [lt-empty-states]
+
+### What went well
+- All ACs were clearly specified and non-overlapping; each view had a single empty state to add.
+- Existing code structure (computed properties, @Query) made adding filtered empty states straightforward.
+- Build succeeded on first attempt after all changes.
+
+### What was harder than expected
+- Nothing significant; task was well-scoped and low complexity.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- None.

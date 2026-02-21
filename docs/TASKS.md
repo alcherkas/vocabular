@@ -356,7 +356,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `lt-empty-states`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `low`
 **Complexity**: `low`
 **Description**: Handle all empty/edge states per requirements: no words loaded for a language, no overdue words, all caught up, first-time user guidance, and Lithuanian TTS unavailability.

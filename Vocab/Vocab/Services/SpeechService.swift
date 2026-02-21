@@ -5,6 +5,12 @@ class SpeechService {
     private let synthesizer = AVSpeechSynthesizer()
     
     private init() {}
+
+    func isVoiceAvailable(for language: String) -> Bool {
+        let localeMap = ["en": "en-US", "lt": "lt-LT"]
+        let locale = localeMap[language] ?? "en-US"
+        return AVSpeechSynthesisVoice(language: locale) != nil
+    }
     
     func speak(_ text: String, language: String = "en", rate: Float = 0.45) {
         // Stop any current speech

@@ -10,7 +10,14 @@ class SessionService {
         case complete
     }
 
+    enum EmptyReason {
+        case none
+        case noWordsForLanguage
+        case allCaughtUp
+    }
+
     private(set) var state: State = .idle
+    var emptyReason: EmptyReason = .none
     private(set) var sessionWords: [Word] = []
     private(set) var currentIndex: Int = 0
     private(set) var results: [(word: Word, correct: Bool)] = []
@@ -39,6 +46,7 @@ class SessionService {
     func startSession(language: String, context: ModelContext) {
         self.language = language
         state = .loading
+        emptyReason = .none
 
         let lang = language
         let descriptor = FetchDescriptor<Word>(
@@ -51,6 +59,7 @@ class SessionService {
             let selected = Array(allWords.shuffled().prefix(Self.maxSessionSize))
 
             if selected.isEmpty {
+                emptyReason = allWords.isEmpty ? .noWordsForLanguage : .allCaughtUp
                 state = .idle
                 return
             }
@@ -99,6 +108,7 @@ class SessionService {
 
     func reset() {
         state = .idle
+        emptyReason = .none
         sessionWords = []
         currentIndex = 0
         results = []

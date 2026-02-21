@@ -5,33 +5,93 @@ import Charts
 struct StatsView: View {
     @Query(sort: \QuizResult.date, order: .reverse) private var results: [QuizResult]
     @Query private var words: [Word]
+    @State private var selectedLanguage: LanguageFilter = .all
+
+    enum LanguageFilter: String, CaseIterable {
+        case all = "All"
+        case english = "English"
+        case lithuanian = "Lithuanian"
+
+        var code: String? {
+            switch self {
+            case .all: return nil
+            case .english: return "en"
+            case .lithuanian: return "lt"
+            }
+        }
+    }
+
+    private var filteredWords: [Word] {
+        guard let code = selectedLanguage.code else { return words }
+        return words.filter { $0.language == code }
+    }
+
+    private var filteredResults: [QuizResult] {
+        // QuizResult doesn't have language field yet; show all for now
+        results
+    }
     
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 24) {
-                    // Overview cards
-                    overviewSection
-                    
-                    // Mastery breakdown
-                    if !words.isEmpty {
-                        masterySection
+                    // Language filter
+                    Picker("Language", selection: $selectedLanguage) {
+                        ForEach(LanguageFilter.allCases, id: \.self) { lang in
+                            Text(lang.rawValue).tag(lang)
+                        }
                     }
-                    
-                    // Quiz history chart
-                    if !results.isEmpty {
-                        chartSection
-                    }
-                    
-                    // Recent quizzes
-                    if !results.isEmpty {
-                        recentQuizzesSection
+                    .pickerStyle(.segmented)
+
+                    if filteredWords.isEmpty && filteredResults.isEmpty {
+                        noStatsView
+                    } else {
+                        // Overview cards
+                        overviewSection
+                        
+                        // Mastery breakdown
+                        if !filteredWords.isEmpty {
+                            masterySection
+                        }
+                        
+                        // Quiz history chart
+                        if !filteredResults.isEmpty {
+                            chartSection
+                        }
+                        
+                        // Recent quizzes
+                        if !filteredResults.isEmpty {
+                            recentQuizzesSection
+                        }
                     }
                 }
                 .padding()
             }
             .navigationTitle("Progress")
             .background(Color(.systemGroupedBackground))
+        }
+    }
+
+    // MARK: - No Stats View
+    private var noStatsView: some View {
+        VStack(spacing: 16) {
+            Spacer()
+                .frame(height: 60)
+
+            Image(systemName: "chart.bar.xaxis")
+                .font(.system(size: 56))
+                .foregroundStyle(.secondary)
+
+            Text("No stats yet")
+                .font(.title2)
+                .fontWeight(.semibold)
+
+            Text("Complete a study session to see your progress for \(selectedLanguage.rawValue).")
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
+
+            Spacer()
         }
     }
     
@@ -44,7 +104,7 @@ struct StatsView: View {
             HStack(spacing: 12) {
                 OverviewCard(
                     title: "Total Words",
-                    value: "\(words.count)",
+                    value: "\(filteredWords.count)",
                     icon: "book.fill",
                     color: .blue
                 )
@@ -60,7 +120,7 @@ struct StatsView: View {
             HStack(spacing: 12) {
                 OverviewCard(
                     title: "Quizzes Taken",
-                    value: "\(results.count)",
+                    value: "\(filteredResults.count)",
                     icon: "brain.head.profile",
                     color: .purple
                 )
@@ -82,10 +142,10 @@ struct StatsView: View {
                 .font(.headline)
             
             VStack(spacing: 16) {
-                MasteryRow(label: "Mastered", count: masteredCount, total: words.count, color: .green)
-                MasteryRow(label: "Familiar", count: familiarCount, total: words.count, color: .blue)
-                MasteryRow(label: "Learning", count: learningCount, total: words.count, color: .orange)
-                MasteryRow(label: "New", count: newCount, total: words.count, color: .gray)
+                MasteryRow(label: "Mastered", count: masteredCount, total: filteredWords.count, color: .green)
+                MasteryRow(label: "Familiar", count: familiarCount, total: filteredWords.count, color: .blue)
+                MasteryRow(label: "Learning", count: learningCount, total: filteredWords.count, color: .orange)
+                MasteryRow(label: "New", count: newCount, total: filteredWords.count, color: .gray)
             }
             .padding()
             .background(Color(.systemBackground))
@@ -132,7 +192,7 @@ struct StatsView: View {
                 .font(.headline)
             
             VStack(spacing: 0) {
-                ForEach(Array(results.prefix(10).enumerated()), id: \.element.id) { index, result in
+                ForEach(Array(filteredResults.prefix(10).enumerated()), id: \.element.id) { index, result in
                     if index > 0 {
                         Divider()
                     }
@@ -146,29 +206,29 @@ struct StatsView: View {
     
     // MARK: - Computed Properties
     private var masteredCount: Int {
-        words.filter { $0.masteryLevel >= 0.8 }.count
+        filteredWords.filter { $0.masteryLevel >= 0.8 }.count
     }
     
     private var familiarCount: Int {
-        words.filter { $0.masteryLevel >= 0.6 && $0.masteryLevel < 0.8 }.count
+        filteredWords.filter { $0.masteryLevel >= 0.6 && $0.masteryLevel < 0.8 }.count
     }
     
     private var learningCount: Int {
-        words.filter { $0.masteryLevel > 0 && $0.masteryLevel < 0.6 }.count
+        filteredWords.filter { $0.masteryLevel > 0 && $0.masteryLevel < 0.6 }.count
     }
     
     private var newCount: Int {
-        words.filter { $0.timesSeen == 0 }.count
+        filteredWords.filter { $0.timesSeen == 0 }.count
     }
     
     private var averageScore: String {
-        guard !results.isEmpty else { return "—" }
-        let avg = results.map { $0.percentage }.reduce(0, +) / Double(results.count)
+        guard !filteredResults.isEmpty else { return "—" }
+        let avg = filteredResults.map { $0.percentage }.reduce(0, +) / Double(filteredResults.count)
         return "\(Int(avg))%"
     }
     
     private var recentResults: [QuizResult] {
-        Array(results.prefix(14).reversed())
+        Array(filteredResults.prefix(14).reversed())
     }
 }
 

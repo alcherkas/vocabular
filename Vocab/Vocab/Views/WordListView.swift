@@ -94,11 +94,19 @@ struct WordListView: View {
                 
                 // Word list
                 if filteredWords.isEmpty {
-                    ContentUnavailableView(
-                        "No Words Found",
-                        systemImage: "magnifyingglass",
-                        description: Text(emptyMessage)
-                    )
+                    if let code = selectedLanguage.code, words.filter({ $0.language == code }).isEmpty {
+                        ContentUnavailableView(
+                            "No \(selectedLanguage.rawValue) Words",
+                            systemImage: "tray",
+                            description: Text("No words have been loaded for \(selectedLanguage.rawValue) yet.\nWords will appear here once added.")
+                        )
+                    } else {
+                        ContentUnavailableView(
+                            "No Words Found",
+                            systemImage: "magnifyingglass",
+                            description: Text(emptyMessage)
+                        )
+                    }
                 } else {
                     List(filteredWords) { word in
                         NavigationLink {
@@ -276,12 +284,14 @@ struct WordDetailView: View {
                     
                     // Action buttons
                     HStack(spacing: 16) {
-                        Button {
-                            SpeechService.shared.speak(word.term)
-                        } label: {
-                            Image(systemName: "speaker.wave.2.fill")
-                                .font(.title2)
-                                .foregroundStyle(Color.accentColor)
+                        if SpeechService.shared.isVoiceAvailable(for: word.language) {
+                            Button {
+                                SpeechService.shared.speak(word.term, language: word.language)
+                            } label: {
+                                Image(systemName: "speaker.wave.2.fill")
+                                    .font(.title2)
+                                    .foregroundStyle(Color.accentColor)
+                            }
                         }
                         
                         Button {
