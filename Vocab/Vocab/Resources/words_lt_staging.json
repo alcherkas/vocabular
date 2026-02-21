@@ -19369,7 +19369,7 @@
     "term": "Autobusas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large road vehicle that carries passengers on fixed routes and stops.",
@@ -19383,14 +19383,12 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [
-      "automobilis"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
-      "stotis",
-      "stotelė",
-      "bilietas",
-      "maršrutas"
+      "troleibusas",
+      "tramvajus",
+      "transportas",
+      "keleivis"
     ],
     "translation": "bus",
     "qaNote": "Term is incorrectly capitalised: Lithuanian common nouns use lowercase; should be 'autobusas'. Antonym 'automobilis' (private car) is not a true antonym of 'autobusas' (bus): they are both road vehicles and are not semantically opposite; remove from antonymTerms or replace with a justified contrast."
@@ -32092,7 +32090,7 @@
     "term": "atleisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To stop feeling angry about an offence and no longer hold it against someone; to forgive.",
@@ -32119,13 +32117,13 @@
       "dovanoti"
     ],
     "antonymTerms": [
-      "kaltinti",
-      "kerštauti"
+      "kaltinti"
     ],
     "relatedTerms": [
       "atleidimas",
-      "susitaikyti",
-      "kaltė"
+      "nuodėmė",
+      "samdyti",
+      "atsisakymas"
     ],
     "translation": "to forgive; to dismiss (from a job)",
     "qaNote": "Inconsistency: this qaNote states 'dovanoti' was removed from synonyms, but 'dovanoti' is still present in the synonyms array. Remove 'dovanoti': its primary modern meaning is 'to give as a gift'; the sense 'to forgive' is an archaic/literary secondary usage not current in standard Lithuanian, making it an unsuitable synonym for 'atleisti'."
@@ -33048,7 +33046,7 @@
     "term": "Kaimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small settlement in a rural area, smaller than a town.",
@@ -33061,15 +33059,14 @@
         ]
       }
     ],
-    "synonyms": [
-      "provincija"
-    ],
+    "synonyms": [],
     "antonymTerms": [
       "miestas"
     ],
     "relatedTerms": [
-      "laukas",
-      "ūkis",
+      "kaimelis",
+      "kaimietis",
+      "provincija",
       "gamta"
     ],
     "translation": "village / countryside",
@@ -34157,7 +34154,7 @@
     "term": "valtis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small watercraft used for rowing or paddling on lakes, rivers, or calm coastal waters.",
@@ -34171,12 +34168,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "laivelis"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "baidarė",
-      "keltas",
-      "irklas"
+      "irklas",
+      "ežeras",
+      "irklininkas"
     ],
     "translation": "boat, rowing boat"
   },
@@ -34184,7 +34184,7 @@
     "term": "baidarė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A narrow, covered boat propelled by a double-bladed paddle, used for water sport and touring.",
@@ -34198,12 +34198,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kanoja"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "valtis",
       "irklas",
-      "upė"
+      "upė",
+      "ežeras"
     ],
     "translation": "kayak, canoe"
   },
@@ -34211,7 +34214,7 @@
     "term": "miegmaišis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A padded bag designed to sleep in, used when camping or travelling without a bed.",
@@ -34229,8 +34232,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "palapinė",
-      "stovykla",
-      "žygis"
+      "kempingas",
+      "žygis",
+      "miegas"
     ],
     "translation": "sleeping bag"
   },
@@ -34238,7 +34242,7 @@
     "term": "pliažas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An area of sand or pebbles along a coast or lakeshore, typically used for swimming and sunbathing.",
@@ -34256,9 +34260,10 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "jūra",
       "smėlis",
-      "atostogos"
+      "jūra",
+      "poilsis",
+      "saulė"
     ],
     "translation": "beach"
   },
@@ -34266,7 +34271,7 @@
     "term": "paplūdimys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A sandy or pebbly shore beside water, used for recreation and swimming.",
@@ -34285,9 +34290,10 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "jūra",
       "smėlis",
-      "atostogos"
+      "jūra",
+      "poilsis",
+      "pakrantė"
     ],
     "translation": "beach, shore"
   },
@@ -34295,7 +34301,7 @@
     "term": "grybauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To gather wild mushrooms in the forest, a traditional autumn activity in Lithuania.",
@@ -34315,7 +34321,8 @@
     "relatedTerms": [
       "grybas",
       "miškas",
-      "uogauti"
+      "uogauti",
+      "krepšelis"
     ],
     "translation": "to pick mushrooms / to go mushrooming",
     "qaNote": "Imperfective denominal verb from grybas (mushroom). 3rd person: grybauoja."
@@ -34357,7 +34364,7 @@
     "term": "uogauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To gather wild berries in the forest or countryside; a traditional summer activity.",
@@ -34375,9 +34382,10 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "uogos",
+      "uoga",
       "miškas",
-      "grybauti"
+      "grybauti",
+      "vasara"
     ],
     "translation": "to pick berries / to go berry-picking",
     "qaNote": "Imperfective denominal verb from uoga (berry). 3rd person: uogauja."
@@ -34386,7 +34394,7 @@
     "term": "žvejoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To catch fish with a rod, net, or other means, as a sport, hobby, or for food.",
@@ -34401,12 +34409,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "žūkliauti"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "žuvis",
-      "ežeras",
-      "meškerė"
+      "žvejys",
+      "meškerė",
+      "upė",
+      "žuvis"
     ],
     "translation": "to fish / to go fishing",
     "qaNote": "Imperfective; 3rd person: žvejoja. Derived from žvejas (fisherman)."
@@ -34426,7 +34437,7 @@
     "term": "futbolas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A team sport played between two teams of eleven players who kick a round ball, aiming to score goals.",
@@ -34439,15 +34450,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "sokkeris"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "kamuolys",
       "stadionas",
-      "varžybos",
-      "sportas"
+      "komanda",
+      "žaidėjas"
     ],
     "translation": "football, soccer"
   },
@@ -34499,7 +34508,7 @@
     "term": "kamuolys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A round object used in many sports such as football and basketball.",
@@ -34512,15 +34521,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "rutulys"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "futbolas",
       "krepšinis",
-      "žaidimas",
-      "sportas"
+      "sportas",
+      "žaidimas"
     ],
     "translation": "ball"
   },
@@ -34583,7 +34590,7 @@
     "term": "aikštelė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A marked outdoor or indoor area used for playing sports or as a children's playground.",
@@ -34596,15 +34603,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "laukas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "stadionas",
-      "krepšinis",
-      "futbolas",
-      "žaidimas"
+      "sportas",
+      "žaidimas",
+      "futbolas"
     ],
     "translation": "court, playing field, playground"
   },
@@ -34612,7 +34617,7 @@
     "term": "čiuožykla",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An area of ice prepared for skating, either outdoors in winter or in a covered building.",
@@ -34630,9 +34635,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "pačiūžos",
-      "čiuožti",
+      "ledas",
       "žiema",
-      "ledas"
+      "sportas"
     ],
     "translation": "ice rink"
   },
@@ -34640,7 +34645,7 @@
     "term": "stadionas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large sports arena with tiered seating for spectators, used for matches and athletic events.",
@@ -34659,9 +34664,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "futbolas",
-      "varžybos",
-      "aikštelė",
-      "sportas"
+      "sportas",
+      "tribūna",
+      "žiūrovas"
     ],
     "translation": "stadium"
   },
@@ -34698,7 +34703,7 @@
     "term": "bėgioti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To run at a steady, gentle pace for exercise or fitness on a regular basis.",
@@ -34712,17 +34717,15 @@
         ]
       }
     ],
-    "synonyms": [
-      "bėgti"
-    ],
+    "synonyms": [],
     "antonymTerms": [
-      "vaikščioti"
+      "sėdėti"
     ],
     "relatedTerms": [
-      "sportuoti",
-      "treniruotis",
-      "parkas",
-      "sveikata"
+      "sportas",
+      "bėgimas",
+      "sveikata",
+      "maratonas"
     ],
     "translation": "to jog, to run (habitually)"
   },
@@ -34796,7 +34799,7 @@
     "term": "slidinėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To travel on skis down snow-covered slopes for sport or recreation.",
@@ -34810,15 +34813,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "važinėti slidėmis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "slidės",
+      "sniegas",
       "kalnai",
-      "žiema",
-      "sportuoti"
+      "žiema"
     ],
     "translation": "to ski, to go skiing"
   },
@@ -34837,7 +34838,7 @@
     "term": "pačiūžos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Boots with metal blades attached to the soles, used for gliding on ice.",
@@ -34855,9 +34856,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "čiuožykla",
-      "čiuožti",
+      "ledas",
       "žiema",
-      "ledas"
+      "sportas"
     ],
     "translation": "ice skates"
   },
@@ -34865,7 +34866,7 @@
     "term": "kinas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A theatre where films are shown to an audience.",
@@ -34878,14 +34879,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "kino teatras"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "filmas",
       "ekranas",
-      "bilietas"
+      "žiūrovas",
+      "teatras"
     ],
     "translation": "cinema / movie theatre"
   },
@@ -34893,7 +34893,7 @@
     "term": "koncertas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A live musical performance given in public by one or more musicians.",
@@ -34906,15 +34906,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "pasirodymas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "muzika",
-      "scena",
       "orkestras",
-      "bilietas"
+      "muzika",
+      "bilietai",
+      "salė"
     ],
     "translation": "concert"
   },
@@ -34922,7 +34920,7 @@
     "term": "salė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large room or building used for performances, concerts, or public gatherings.",
@@ -34942,8 +34940,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "scena",
-      "žiūrovas",
-      "spektaklis"
+      "teatras",
+      "kinas",
+      "koncertas"
     ],
     "translation": "hall, auditorium",
     "qaNote": "Nominative singular: salė. Common in theater, cinema, and concert contexts."
@@ -34952,7 +34951,7 @@
     "term": "eilė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A horizontal line of seats in a theater, cinema, or concert hall.",
@@ -34977,14 +34976,14 @@
       }
     ],
     "synonyms": [
-      "rinktinė",
-      "virtinė"
+      "seka"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "salė",
-      "vieta",
-      "spektaklis"
+      "virtinė",
+      "laukimas",
+      "tvarka",
+      "stovėjimas"
     ],
     "translation": "row, line, queue",
     "qaNote": "Nominative singular: eilė. In theater context means 'row'; in general context means 'queue/line'."
@@ -34993,7 +34992,7 @@
     "term": "choras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An organised group of singers who perform together, often as part of a church or school.",
@@ -35005,15 +35004,14 @@
         ]
       }
     ],
-    "synonyms": [
-      "ansamblis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "muzika",
-      "dainuoti",
       "orkestras",
-      "koncertas"
+      "dainininkas",
+      "dirigentė",
+      "dainuoti",
+      "muzika"
     ],
     "translation": "choir, chorus"
   },
@@ -35032,7 +35030,7 @@
     "term": "orkestras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large ensemble of musicians playing various instruments, typically including strings, woodwind, brass, and percussion.",
@@ -35044,15 +35042,14 @@
         ]
       }
     ],
-    "synonyms": [
-      "ansamblis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "muzika",
+      "choras",
       "dirigentas",
-      "koncertas",
-      "choras"
+      "muzika",
+      "salė",
+      "instrumentas"
     ],
     "translation": "orchestra"
   },
@@ -35060,7 +35057,7 @@
     "term": "dirigentas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male musician who leads an orchestra or choir by directing the performers.",
@@ -35079,8 +35076,9 @@
     "relatedTerms": [
       "dirigentė",
       "orkestras",
-      "scena",
-      "koncertuoti"
+      "choras",
+      "muzika",
+      "lazdelė"
     ],
     "translation": "conductor (male)",
     "qaNote": "Masculine form. Feminine: dirigentė. Nominative singular: dirigentas."
@@ -35089,7 +35087,7 @@
     "term": "dirigentė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female musician who leads an orchestra or choir by directing the performers.",
@@ -35108,8 +35106,9 @@
     "relatedTerms": [
       "dirigentas",
       "orkestras",
-      "scena",
-      "koncertuoti"
+      "choras",
+      "muzika",
+      "lazdelė"
     ],
     "translation": "conductor (female)",
     "qaNote": "Feminine form of dirigentas. Nominative singular: dirigentė."
@@ -35118,7 +35117,7 @@
     "term": "dainuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To make musical sounds with the voice, especially words set to a tune.",
@@ -35131,12 +35130,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "giedoti"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "daina",
+      "choras",
+      "balsas",
       "muzika",
-      "choras"
+      "spektaklis"
     ],
     "translation": "to sing"
   },
@@ -35144,7 +35147,7 @@
     "term": "groti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To produce music by performing on a musical instrument.",
@@ -35157,15 +35160,14 @@
         ]
       }
     ],
-    "synonyms": [
-      "muzikuoti"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "gitara",
-      "smuikas",
       "muzika",
-      "instrumentas"
+      "instrumentas",
+      "orkestras",
+      "koncertas",
+      "melodija"
     ],
     "translation": "to play (a musical instrument)"
   },
@@ -35173,7 +35175,7 @@
     "term": "koncertuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To give a musical performance or series of performances for an audience.",
@@ -35193,9 +35195,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "koncertas",
-      "scena",
-      "dirigentas",
-      "salė"
+      "muzikantas",
+      "gastrolės",
+      "pasirodymas"
     ],
     "translation": "to perform (give a concert), to tour",
     "qaNote": "Imperfective verb. Infinitive: koncertuoti. Related noun: koncertas."
@@ -35204,7 +35206,7 @@
     "term": "baletas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A classical form of dance performed as a theatrical spectacle, often accompanied by music.",
@@ -35223,8 +35225,9 @@
     "relatedTerms": [
       "opera",
       "spektaklis",
-      "scena",
-      "šokis"
+      "šokis",
+      "choreografija",
+      "šokėjas"
     ],
     "translation": "ballet",
     "qaNote": "Nominative singular: baletas. Refers to both the art form and a specific performance."
@@ -35233,7 +35236,7 @@
     "term": "opera",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A dramatic theatrical work in which singers and musicians perform a story with staged design, combining music, voice, and acting.",
@@ -35252,8 +35255,9 @@
     "relatedTerms": [
       "baletas",
       "spektaklis",
-      "salė",
-      "dirigentas"
+      "dainininkas",
+      "orkestras",
+      "scena"
     ],
     "translation": "opera",
     "qaNote": "Nominative singular: opera. Refers to both the art form and a specific production."
@@ -35262,7 +35266,7 @@
     "term": "spektaklis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A theatrical performance staged for an audience, such as a play, ballet, or opera.",
@@ -35277,13 +35281,15 @@
       }
     ],
     "synonyms": [
-      "pasirodymas"
+      "pasirodymas",
+      "vaidinimas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "vaidinti",
+      "teatras",
       "salė",
-      "žiūrovas",
+      "aktorius",
+      "vaidmuo",
       "scena"
     ],
     "translation": "performance, show, play",
@@ -35293,7 +35299,7 @@
     "term": "vaidmuo",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A character or part played by an actor in a theatrical performance, film, or other production.",
@@ -35312,10 +35318,11 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "vaidinti",
-      "aktorius",
       "spektaklis",
-      "filmas"
+      "aktorius",
+      "vaidinti",
+      "scena",
+      "personažas"
     ],
     "translation": "role, part",
     "qaNote": "Nominative singular: vaidmuo. Plural: vaidmenys."
@@ -35324,7 +35331,7 @@
     "term": "vaidmenys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The plural form of vaidmuo; the characters or parts played by actors in theatrical or cinematic works.",
@@ -35342,9 +35349,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "vaidmuo",
-      "vaidinti",
+      "spektaklis",
       "aktorius",
-      "spektaklis"
+      "teatras"
     ],
     "translation": "roles, parts",
     "qaNote": "Nominative plural of vaidmuo. Use vaidmuo for the singular."

@@ -18608,7 +18608,7 @@
   {
     "term": "deixis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -18631,6 +18631,18 @@
           "discourse-analysis"
         ]
       }
+    ],
+    "synonyms": [
+      "indexical reference",
+      "contextual reference"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "deictic",
+      "indexical",
+      "reference",
+      "anaphora",
+      "cataphora"
     ]
   },
   {
@@ -20589,7 +20601,7 @@
   {
     "term": "catachresis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20612,12 +20624,25 @@
           "neologism"
         ]
       }
+    ],
+    "synonyms": [
+      "abusio",
+      "improper metaphor"
+    ],
+    "antonymTerms": [
+      "propriety"
+    ],
+    "relatedTerms": [
+      "metaphor",
+      "trope",
+      "figurative language",
+      "misapplication"
     ]
   },
   {
     "term": "diatribe",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20640,12 +20665,29 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "tirade",
+      "harangue",
+      "polemic",
+      "invective",
+      "philippic"
+    ],
+    "antonymTerms": [
+      "eulogy",
+      "panegyric"
+    ],
+    "relatedTerms": [
+      "criticism",
+      "denunciation",
+      "censure",
+      "rant"
     ]
   },
   {
     "term": "encomium",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20668,12 +20710,29 @@
           "genre"
         ]
       }
+    ],
+    "synonyms": [
+      "eulogy",
+      "panegyric",
+      "laudation",
+      "paean"
+    ],
+    "antonymTerms": [
+      "diatribe",
+      "tirade",
+      "invective"
+    ],
+    "relatedTerms": [
+      "praise",
+      "oration",
+      "rhetoric",
+      "commendation"
     ]
   },
   {
     "term": "epideictic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -20696,12 +20755,26 @@
           "oratory"
         ]
       }
+    ],
+    "synonyms": [
+      "ceremonial",
+      "demonstrative"
+    ],
+    "antonymTerms": [
+      "forensic",
+      "deliberative"
+    ],
+    "relatedTerms": [
+      "rhetoric",
+      "panegyric",
+      "ethos",
+      "laudatory"
     ]
   },
   {
     "term": "hendiadys",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20714,12 +20787,24 @@
           "figures-of-speech"
         ]
       }
+    ],
+    "synonyms": [
+      "coordinative doublet",
+      "twin formula"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "figure of speech",
+      "coordination",
+      "parataxis",
+      "syntax",
+      "conjunction"
     ]
   },
   {
     "term": "isocolon",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20732,12 +20817,24 @@
           "parallelism"
         ]
       }
+    ],
+    "synonyms": [
+      "balanced structure",
+      "parallel clauses"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "parallelism",
+      "anaphora",
+      "chiasmus",
+      "antithesis",
+      "syntax"
     ]
   },
   {
     "term": "paraenesis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20750,12 +20847,24 @@
           "biblical-studies"
         ]
       }
+    ],
+    "synonyms": [
+      "exhortation",
+      "admonition"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "rhetoric",
+      "ethos",
+      "moralizing",
+      "didactic",
+      "precept"
     ]
   },
   {
     "term": "polyptoton",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20768,12 +20877,24 @@
           "repetition"
         ]
       }
+    ],
+    "synonyms": [
+      "inflectional repetition",
+      "word-form repetition"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "figure of speech",
+      "wordplay",
+      "inflection",
+      "morphology",
+      "repetition"
     ]
   },
   {
     "term": "prosopopoeia",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20796,12 +20917,23 @@
           "abstraction"
         ]
       }
+    ],
+    "synonyms": [
+      "personification",
+      "ethopoeia"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "figure of speech",
+      "anthropomorphism",
+      "apostrophe",
+      "impersonation"
     ]
   },
   {
     "term": "sententia",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20814,12 +20946,25 @@
           "classical-rhetoric"
         ]
       }
+    ],
+    "synonyms": [
+      "aphorism",
+      "maxim",
+      "gnome"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "proverb",
+      "epigram",
+      "precept",
+      "axiom",
+      "rhetoric"
     ]
   },
   {
     "term": "sorites",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20842,12 +20987,24 @@
           "vagueness"
         ]
       }
+    ],
+    "synonyms": [
+      "polysyllogism",
+      "climax argument"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "syllogism",
+      "logic",
+      "paradox",
+      "chain argument",
+      "heap paradox"
     ]
   },
   {
     "term": "antistrophe",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20870,12 +21027,25 @@
           "classical-drama"
         ]
       }
+    ],
+    "synonyms": [
+      "epistrophe",
+      "epiphora"
+    ],
+    "antonymTerms": [
+      "anaphora"
+    ],
+    "relatedTerms": [
+      "repetition",
+      "figure of speech",
+      "rhetoric",
+      "parallelism"
     ]
   },
   {
     "term": "syllepsis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20888,12 +21058,24 @@
           "zeugma"
         ]
       }
+    ],
+    "synonyms": [
+      "zeugma",
+      "sylleptic figure"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "figure of speech",
+      "grammar",
+      "construction",
+      "wordplay",
+      "polysemy"
     ]
   },
   {
     "term": "epicheireme",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20906,6 +21088,18 @@
           "argumentation"
         ]
       }
+    ],
+    "synonyms": [
+      "amplified syllogism",
+      "developed syllogism"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "syllogism",
+      "argument",
+      "logic",
+      "enthymeme",
+      "rhetoric"
     ]
   },
   {
@@ -23515,7 +23709,7 @@
   {
     "term": "indexicality",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23538,6 +23732,22 @@
           "identity"
         ]
       }
+    ],
+    "synonyms": [
+      "context-dependence",
+      "deictic property"
+    ],
+    "antonymTerms": [
+      "arbitrariness",
+      "symbolicity"
+    ],
+    "relatedTerms": [
+      "index",
+      "icon",
+      "symbol",
+      "sign",
+      "context",
+      "reference"
     ]
   },
   {
@@ -23688,7 +23898,7 @@
   {
     "term": "entailment",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23711,6 +23921,21 @@
           "truth-conditions"
         ]
       }
+    ],
+    "synonyms": [
+      "implication",
+      "logical consequence"
+    ],
+    "antonymTerms": [
+      "contradiction",
+      "inconsistency"
+    ],
+    "relatedTerms": [
+      "presupposition",
+      "implicature",
+      "logic",
+      "semantics",
+      "truth-condition"
     ]
   },
   {
@@ -23753,7 +23978,7 @@
   {
     "term": "polysemy",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23766,12 +23991,26 @@
           "linguistics"
         ]
       }
+    ],
+    "synonyms": [
+      "multiple meaning",
+      "lexical ambiguity"
+    ],
+    "antonymTerms": [
+      "monosemy"
+    ],
+    "relatedTerms": [
+      "homonymy",
+      "ambiguity",
+      "sense",
+      "semantics",
+      "lexicology"
     ]
   },
   {
     "term": "parataxis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23794,12 +24033,27 @@
           "typology"
         ]
       }
+    ],
+    "synonyms": [
+      "coordination",
+      "juxtaposition"
+    ],
+    "antonymTerms": [
+      "hypotaxis",
+      "subordination"
+    ],
+    "relatedTerms": [
+      "syntax",
+      "clause",
+      "asyndeton",
+      "sentence structure",
+      "conjunction"
     ]
   },
   {
     "term": "hypotaxis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23812,12 +24066,27 @@
           "rhetoric"
         ]
       }
+    ],
+    "synonyms": [
+      "subordination",
+      "syntactic nesting"
+    ],
+    "antonymTerms": [
+      "parataxis",
+      "coordination"
+    ],
+    "relatedTerms": [
+      "syntax",
+      "clause",
+      "subordinate clause",
+      "sentence structure",
+      "embedding"
     ]
   },
   {
     "term": "ostension",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23840,12 +24109,26 @@
           "epistemology"
         ]
       }
+    ],
+    "synonyms": [
+      "indication",
+      "demonstration"
+    ],
+    "antonymTerms": [
+      "description",
+      "definition"
+    ],
+    "relatedTerms": [
+      "deixis",
+      "reference",
+      "indexical",
+      "direct reference"
     ]
   },
   {
     "term": "allophone",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23858,12 +24141,26 @@
           "phonetics"
         ]
       }
+    ],
+    "synonyms": [
+      "phonemic variant",
+      "phonetic variant"
+    ],
+    "antonymTerms": [
+      "phoneme"
+    ],
+    "relatedTerms": [
+      "phonology",
+      "phonetics",
+      "variant",
+      "complementary distribution",
+      "free variation"
     ]
   },
   {
     "term": "circumlocution",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23886,12 +24183,29 @@
           "taboo-language"
         ]
       }
+    ],
+    "synonyms": [
+      "periphrasis",
+      "verbosity",
+      "prolixity",
+      "roundaboutness"
+    ],
+    "antonymTerms": [
+      "conciseness",
+      "brevity",
+      "terseness"
+    ],
+    "relatedTerms": [
+      "wordiness",
+      "euphemism",
+      "pleonasm",
+      "redundancy"
     ]
   },
   {
     "term": "syntagmatic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -23904,12 +24218,26 @@
           "Saussure"
         ]
       }
+    ],
+    "synonyms": [
+      "sequential",
+      "linear"
+    ],
+    "antonymTerms": [
+      "paradigmatic",
+      "associative"
+    ],
+    "relatedTerms": [
+      "syntagm",
+      "syntax",
+      "contiguity",
+      "axis of combination"
     ]
   },
   {
     "term": "paradigmatic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -23931,12 +24259,26 @@
           "epistemology"
         ]
       }
+    ],
+    "synonyms": [
+      "associative",
+      "substitutional"
+    ],
+    "antonymTerms": [
+      "syntagmatic",
+      "horizontal"
+    ],
+    "relatedTerms": [
+      "paradigm",
+      "axis of selection",
+      "substitution",
+      "semantics"
     ]
   },
   {
     "term": "codeswitching",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23959,12 +24301,24 @@
           "social-science"
         ]
       }
+    ],
+    "synonyms": [
+      "language switching",
+      "code-mixing"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bilingualism",
+      "multilingualism",
+      "diglossia",
+      "borrowing",
+      "translanguaging"
     ]
   },
   {
     "term": "mirativity",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23977,6 +24331,18 @@
           "grammar"
         ]
       }
+    ],
+    "synonyms": [
+      "surprise marking",
+      "mirative evidential"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "evidentiality",
+      "epistemic modality",
+      "surprise",
+      "information structure",
+      "pragmatics"
     ]
   },
   {
@@ -24014,7 +24380,7 @@
   {
     "term": "felicity",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24037,6 +24403,21 @@
           "aesthetics"
         ]
       }
+    ],
+    "synonyms": [
+      "happiness",
+      "bliss",
+      "aptness"
+    ],
+    "antonymTerms": [
+      "misery",
+      "unhappiness"
+    ],
+    "relatedTerms": [
+      "speech act",
+      "pragmatics",
+      "performative",
+      "condition"
     ]
   },
   {
@@ -24310,7 +24691,7 @@
   {
     "term": "abduction",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24333,6 +24714,20 @@
           "logic"
         ]
       }
+    ],
+    "synonyms": [
+      "kidnapping",
+      "retroduction"
+    ],
+    "antonymTerms": [
+      "deduction",
+      "induction"
+    ],
+    "relatedTerms": [
+      "inference",
+      "reasoning",
+      "hypothesis",
+      "logic"
     ]
   },
   {
@@ -24366,7 +24761,7 @@
   {
     "term": "legisign",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24379,6 +24774,21 @@
           "philosophy-of-language"
         ]
       }
+    ],
+    "synonyms": [
+      "type sign",
+      "conventional sign"
+    ],
+    "antonymTerms": [
+      "sinsign",
+      "qualisign"
+    ],
+    "relatedTerms": [
+      "sign",
+      "semiotics",
+      "symbol",
+      "type",
+      "token"
     ]
   },
   {
@@ -24412,7 +24822,7 @@
   {
     "term": "rheme",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24435,12 +24845,26 @@
           "discourse"
         ]
       }
+    ],
+    "synonyms": [
+      "focus",
+      "comment"
+    ],
+    "antonymTerms": [
+      "theme",
+      "topic"
+    ],
+    "relatedTerms": [
+      "information structure",
+      "predication",
+      "discourse",
+      "sentence structure"
     ]
   },
   {
     "term": "veridiction",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24463,6 +24887,22 @@
           "law"
         ]
       }
+    ],
+    "synonyms": [
+      "truth claim",
+      "truth assertion"
+    ],
+    "antonymTerms": [
+      "dissimulation",
+      "prevarication",
+      "falsehood"
+    ],
+    "relatedTerms": [
+      "truth",
+      "semiotics",
+      "modality",
+      "assertion",
+      "enunciation"
     ]
   },
   {
@@ -25365,7 +25805,7 @@
   {
     "term": "emergence",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -25380,8 +25820,8 @@
       }
     ],
     "synonyms": [
-      "emergent property",
-      "self-organization"
+      "self-organization",
+      "systemic arising"
     ],
     "antonymTerms": [
       "reductionism"
@@ -25391,7 +25831,7 @@
       "complexity",
       "holism",
       "synergy",
-      "nonlinear dynamics"
+      "emergent property"
     ],
     "qaNote": "'Emergent property' is a hyponym, not a synonym of 'emergence': it denotes the outcome/product of the process, not the process itself. 'Self-organization' is a related but distinct concept — a mechanism that may produce emergence, not a synonym for it. Move both to relatedTerms and supply genuine process-level synonyms, or leave synonyms empty."
   },
@@ -25929,7 +26369,7 @@
   {
     "term": "alethic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -25942,12 +26382,26 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "veridical",
+      "truth-modal"
+    ],
+    "antonymTerms": [
+      "doxastic"
+    ],
+    "relatedTerms": [
+      "modal logic",
+      "necessity",
+      "possibility",
+      "truth",
+      "modality"
     ]
   },
   {
     "term": "doxastic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -25960,6 +26414,20 @@
           "philosophy-of-mind"
         ]
       }
+    ],
+    "synonyms": [
+      "credal",
+      "belief-related"
+    ],
+    "antonymTerms": [
+      "alethic"
+    ],
+    "relatedTerms": [
+      "belief",
+      "modal logic",
+      "epistemic",
+      "credence",
+      "doxology"
     ]
   },
   {
