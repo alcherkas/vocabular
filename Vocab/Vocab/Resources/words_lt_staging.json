@@ -32332,13 +32332,29 @@
   {
     "term": "vakaronė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An informal evening social gathering with friends or family, often involving music, singing, or dancing.",
+        "example": "Šeštadienio vakaronėje susirinkome visi draugai ir dainavome dainas.",
+        "register": "general",
+        "tags": [
+          "social",
+          "celebrations",
+          "evening"
+        ]
+      }
+    ],
+    "synonyms": [
+      "vakarėlis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "švęsti",
+      "susirinkimas"
+    ],
+    "translation": "evening gathering, soirée"
   },
   {
     "term": "linksmintis",
@@ -32404,12 +32420,28 @@
     "term": "švęsti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To mark a special occasion, holiday, or achievement with festive activities and joy.",
+        "example": "Šeima kartu švenčia Kalėdas kiekvienais metais.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "minėti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šventė",
+      "renginys"
+    ],
+    "translation": "to celebrate"
   },
   {
     "term": "švenčia",
@@ -32425,46 +32457,108 @@
   {
     "term": "šventė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A public holiday, festival, or special occasion marked by festivity, gatherings, and celebration.",
+        "example": "Mano mėgstamiausia šventė yra Kalėdos.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "holidays"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šventadienis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "švęsti",
+      "tradicija"
+    ],
+    "translation": "holiday, celebration, festival"
   },
   {
     "term": "Kūčios",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The Lithuanian Christmas Eve celebration on December 24th, featuring a 12-dish meatless supper, kalėdaičiai (Christmas wafers), and family traditions.",
+        "example": "Kūčių vakarą visa šeima susirenka prie stalo ir laužo kalėdaitį.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "Christmas",
+          "traditions",
+          "Lithuanian"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Kalėdos",
+      "kalėdaitis",
+      "žvakelė"
+    ],
+    "translation": "Christmas Eve (Lithuanian tradition)"
   },
   {
     "term": "Kalėdos",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The Christian festival celebrated on December 25th, also a major cultural and family holiday in Lithuania.",
+        "example": "Kalėdų rytą vaikai ieško dovanų po eglute.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "Christmas",
+          "traditions"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Kūčios",
+      "Kalėdų senelis",
+      "eglutė",
+      "dovana"
+    ],
+    "translation": "Christmas"
   },
   {
     "term": "Naujieji metai",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The celebration of the beginning of a new calendar year, marked on January 1st with fireworks, gatherings, and festivities.",
+        "example": "Naujuosius metus sutikome su fejerverkais ir draugais.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "New Year",
+          "traditions"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "fejerverkas",
+      "šventė"
+    ],
+    "translation": "New Year"
   },
   {
     "term": "eglė",
@@ -32590,35 +32684,79 @@
   {
     "term": "Kalėdų senelis",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The legendary gift-giver associated with Christmas, depicted as a jolly old man in a red coat who brings presents to children on Christmas Eve.",
+        "example": "Vaikai laukia, kada ateis Kalėdų senelis su dovanomis.",
+        "register": "general",
+        "tags": [
+          "Christmas",
+          "traditions",
+          "children"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Kalėdos",
+      "dovana",
+      "eglutė"
+    ],
+    "translation": "Santa Claus, Father Christmas"
   },
   {
     "term": "dovana",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Something given voluntarily to someone as a token of affection, appreciation, or to mark a celebration.",
+        "example": "Ji gavė gražią dovaną per gimtadienį.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "social",
+          "gift-giving"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "dovanoti",
+      "gimtadienis",
+      "šventė"
+    ],
+    "translation": "gift, present"
   },
   {
     "term": "dovanoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To give something to someone as a gift, without expecting anything in return.",
+        "example": "Norėčiau tau kažką dovanoti per tavo gimtadienį.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "gift-giving",
+          "social"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "dovana",
+      "gimtadienis"
+    ],
+    "translation": "to give (as a gift), to present"
   },
   {
     "term": "dovanoja",
@@ -32837,35 +32975,79 @@
   {
     "term": "Velykos",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The Christian festival celebrating the resurrection of Jesus Christ, also marked in Lithuania with painted Easter eggs, pussy willows, and spring traditions.",
+        "example": "Per Velykas tradiciškai dažome margučius.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "Easter",
+          "traditions"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "margutis",
+      "verba",
+      "šventė"
+    ],
+    "translation": "Easter"
   },
   {
     "term": "verba",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A bunch of pussy willow or dried flower branches blessed on Palm Sunday and used in Lithuanian Easter traditions; family members are lightly tapped with it for health and good luck.",
+        "example": "Per Verbų sekmadienį žmonės neša verbas į bažnyčią pašventinti.",
+        "register": "general",
+        "tags": [
+          "Easter",
+          "traditions",
+          "Lithuanian",
+          "religious"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Velykos",
+      "šventė"
+    ],
+    "translation": "pussy willow branch (Easter palm, Lithuanian tradition)"
   },
   {
     "term": "margutis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A decorated Easter egg, traditionally painted or etched with folk art patterns, central to Lithuanian Easter celebrations.",
+        "example": "Vaikai mielai dažo margučius prieš Velykas.",
+        "register": "general",
+        "tags": [
+          "Easter",
+          "traditions",
+          "Lithuanian"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Velykos",
+      "dažyti"
+    ],
+    "translation": "decorated Easter egg"
   },
   {
     "term": "dažyti",
@@ -32903,24 +33085,58 @@
   {
     "term": "Joninės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The Lithuanian Midsummer festival celebrated on the night of June 23rd, featuring bonfires, flower wreaths, folk songs, and the search for the mythical fern flower.",
+        "example": "Joninių naktį ieškome paparčio žiedo ir šokame aplink laužą.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "Lithuanian",
+          "summer"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Rasos šventė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vainikas",
+      "laužas",
+      "šventė"
+    ],
+    "translation": "Midsummer festival, St. John's Eve"
   },
   {
     "term": "Rasos šventė",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The Lithuanian folk festival of the summer solstice (also called Joninės), celebrating the mystical dew and ancient pagan roots of the midsummer night.",
+        "example": "Rasos šventė yra viena seniausių lietuvių tradicijų.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "Lithuanian"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Joninės"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šventė",
+      "vainikas"
+    ],
+    "translation": "Dew Festival, Midsummer (Lithuanian)"
   },
   {
     "term": "papartis",
@@ -32980,46 +33196,107 @@
   {
     "term": "Užgavėnės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The Lithuanian pre-Lent Shrovetide carnival celebration, featuring pancakes, masquerades, and the burning of an effigy called Morė to symbolically drive away winter.",
+        "example": "Per Užgavėnes tradiciškai valgome blynus ir dėvime kaukes.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "Lithuanian",
+          "carnival"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kaukė",
+      "karnavalas",
+      "šventė"
+    ],
+    "translation": "Shrovetide (Lithuanian pre-Lent carnival)"
   },
   {
     "term": "kaukė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A covering for the face used in masquerades, theatrical performances, or traditional celebrations such as Užgavėnės and carnivals.",
+        "example": "Vaikai dėvėjo įvairias kaukes per Užgavėnes.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "costume"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Užgavėnės",
+      "karnavalas"
+    ],
+    "translation": "mask"
   },
   {
     "term": "Visų Šventųjų diena",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A Catholic feast day on November 1st honouring all saints, observed in Lithuania with cemetery visits and the lighting of candles.",
+        "example": "Visų Šventųjų dieną žmonės eina į kapines ir uždega žvakutes.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "religious"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Vėlinės",
+      "kapas",
+      "žvakelė"
+    ],
+    "translation": "All Saints' Day"
   },
   {
     "term": "Vėlinės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The Lithuanian Day of the Dead on November 2nd, when families visit cemeteries to remember and honour deceased loved ones with candles and prayers.",
+        "example": "Per Vėlines visi važiuoja į kapines pagerbti mirusių artimųjų.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "Lithuanian",
+          "religious"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Visų Šventųjų diena",
+      "kapas",
+      "žvakelė"
+    ],
+    "translation": "All Souls' Day, Day of the Dead (Lithuanian)"
   },
   {
     "term": "kapinės",
@@ -33092,13 +33369,29 @@
   {
     "term": "nuotaka",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A woman on her wedding day or in the period surrounding her marriage ceremony.",
+        "example": "Nuotaka atėjo į bažnyčią baltais drabužiais.",
+        "register": "general",
+        "tags": [
+          "wedding",
+          "social",
+          "traditions"
+        ]
+      }
+    ],
+    "synonyms": [
+      "jaunoji"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "jaunasis",
+      "tuoktis"
+    ],
+    "translation": "bride"
   },
   {
     "term": "jaunoji",
@@ -33136,13 +33429,28 @@
   {
     "term": "vainikas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A circular garland of flowers, leaves, or herbs, worn on the head or used as decoration, especially in Lithuanian traditional celebrations, weddings, and Midsummer.",
+        "example": "Merginos pynė vainikus iš gėlių per Joninių šventę.",
+        "register": "general",
+        "tags": [
+          "traditions",
+          "celebrations",
+          "accessories"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Joninės",
+      "pinti",
+      "gėlė"
+    ],
+    "translation": "wreath, garland, crown"
   },
   {
     "term": "pinti",
@@ -33180,13 +33488,30 @@
   {
     "term": "tuoktis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To formally enter into marriage; to exchange wedding vows in a civil or religious ceremony.",
+        "example": "Jie nusprendė tuoktis kitą vasarą.",
+        "register": "general",
+        "tags": [
+          "wedding",
+          "social",
+          "traditions"
+        ]
+      }
+    ],
+    "synonyms": [
+      "vesti",
+      "tekėti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "nuotaka",
+      "jaunasis"
+    ],
+    "translation": "to get married, to wed"
   },
   {
     "term": "tuokiasi",
@@ -33307,13 +33632,28 @@
   {
     "term": "krikšto tėvai",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The godfather and godmother who sponsor a child at baptism and take responsibility for their spiritual upbringing.",
+        "example": "Krikšto tėvai dovanojo kūdikiui sidabrinį kryžių.",
+        "register": "general",
+        "tags": [
+          "traditions",
+          "religious",
+          "social",
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "krikšto mama",
+      "krikšto tėvas"
+    ],
+    "translation": "godparents"
   },
   {
     "term": "krikšto mama",
@@ -33362,13 +33702,30 @@
   {
     "term": "vardadienis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The day of the year associated with a given name in the Lithuanian calendar, traditionally celebrated similarly to a birthday with greetings and small gifts.",
+        "example": "Šiandien yra mano vardadienis, todėl draugai atėjo pasveikinti.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "Lithuanian",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "vardo diena"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "gimtadienis",
+      "šventė"
+    ],
+    "translation": "name day"
   },
   {
     "term": "vardo diena",
@@ -33384,13 +33741,30 @@
   {
     "term": "gimtadienis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The anniversary of a person's birth, typically celebrated with family and friends, cake, and gifts.",
+        "example": "Per gimtadienį gavau daug gražių dovanų ir tortą.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "social",
+          "birthday"
+        ]
+      }
+    ],
+    "synonyms": [
+      "gimimo diena"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vardadienis",
+      "dovana",
+      "jubiliejus"
+    ],
+    "translation": "birthday"
   },
   {
     "term": "gimimo diena",
@@ -33406,13 +33780,27 @@
   {
     "term": "jubiliejus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A significant anniversary — especially a 25th, 50th, or 100th — celebrated with a special ceremony or gathering.",
+        "example": "Mūsų įmonė švenčia penkiasdešimties metų jubiliejų.",
+        "register": "formal",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "social"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "gimtadienis",
+      "šventė"
+    ],
+    "translation": "anniversary, jubilee"
   },
   {
     "term": "linki",
@@ -33574,24 +33962,54 @@
   {
     "term": "Motinos diena",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A day honouring mothers and motherhood, celebrated on the first Sunday of May in Lithuania with flowers and gifts.",
+        "example": "Per Motinos dieną vaikai dovanoja mamoms gėles ir sveikina jas.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Tėvo diena",
+      "šventė",
+      "dovana"
+    ],
+    "translation": "Mother's Day"
   },
   {
     "term": "Tėvo diena",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A day celebrating fathers and fatherhood, observed on the first Sunday of June in Lithuania.",
+        "example": "Tėvo dieną visa šeima susirinkome kartu pietauti.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Motinos diena",
+      "šventė",
+      "dovana"
+    ],
+    "translation": "Father's Day"
   },
   {
     "term": "Valstybės diena",
@@ -34186,24 +34604,53 @@
   {
     "term": "įkurtuvės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A party held to celebrate moving into a new home, during which guests bring gifts and good wishes for happiness and prosperity.",
+        "example": "Draugai surengė įkurtuves naujame bute ir atsinešė dovanų.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "social",
+          "traditions"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "išleistuvės",
+      "šventė",
+      "dovana"
+    ],
+    "translation": "housewarming (party)"
   },
   {
     "term": "išleistuvės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A celebration held to mark the completion of school studies or to bid farewell to someone leaving for university, work abroad, or a major life change.",
+        "example": "Po egzaminų klasė surengė išleistuves restorane.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "social",
+          "traditions"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šventė",
+      "įkurtuvės"
+    ],
+    "translation": "graduation party, farewell party, send-off"
   },
   {
     "term": "laidotuvės",
@@ -37627,24 +38074,87 @@
   },
   {
     "term": "šventadienis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A day set apart for religious observance or celebration; a public holiday or day of rest from ordinary work.",
+        "example": "Per šventadienį žmonės eina į bažnyčią ir leidžia laiką su šeima.",
+        "register": "general",
+        "tags": [
+          "traditions",
+          "religious",
+          "holidays"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šventė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tradicija",
+      "šventė"
+    ],
+    "translation": "holy day, feast day, public holiday"
   },
   {
     "term": "kalėdaitis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A thin unleavened white wafer shared among family members at the Kūčios (Christmas Eve) table, symbolising peace, reconciliation, and togetherness.",
+        "example": "Per Kūčias mama laužė kalėdaitį ir dalino visiems šeimos nariams.",
+        "register": "general",
+        "tags": [
+          "Christmas",
+          "traditions",
+          "Lithuanian",
+          "Kūčios"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Kūčios",
+      "Kalėdos"
+    ],
+    "translation": "Christmas wafer (Lithuanian Kūčios tradition)"
   },
   {
     "term": "žvakelė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A small candle, often used decoratively in the home or lit at cemeteries during All Saints' Day and All Souls' Day.",
+        "example": "Ant kapo uždegėme žvakelę per Vėlines.",
+        "register": "general",
+        "tags": [
+          "traditions",
+          "religious",
+          "celebrations"
+        ]
+      }
+    ],
+    "synonyms": [
+      "žvakutė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Vėlinės",
+      "Visų Šventųjų diena",
+      "kapas"
+    ],
+    "translation": "(small) candle"
   },
   {
     "term": "palinkėjimas",
@@ -37677,24 +38187,84 @@
   },
   {
     "term": "siurprizas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An unexpected pleasant event, gift, or revelation that causes astonishment or delight.",
+        "example": "Draugai surengė siurprizą per jo gimtadienį.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "social",
+          "birthday"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gimtadienis",
+      "dovana",
+      "šventė"
+    ],
+    "translation": "surprise"
   },
   {
     "term": "fejerverkas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A pyrotechnic device that produces a colourful aerial display of light and sound when ignited, used in New Year celebrations and national holidays.",
+        "example": "Naujametinę naktį dangų nušvietė spalvingi fejerverkai.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "New Year",
+          "traditions"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Naujieji metai",
+      "šventė",
+      "karnavalas"
+    ],
+    "translation": "fireworks"
   },
   {
     "term": "karnavalas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A festive public celebration involving processions, music, dancing, and masquerades, often held before Lent or as a seasonal community event.",
+        "example": "Mieste vyko spalvingas karnavalas su kaukėmis ir muzika.",
+        "register": "general",
+        "tags": [
+          "celebrations",
+          "traditions",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kaukė",
+      "Užgavėnės",
+      "fejerverkas"
+    ],
+    "translation": "carnival"
   },
   {
     "term": "paradas",
