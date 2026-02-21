@@ -3391,3 +3391,35 @@ JSON preflight passed. 705 stubs available before session.
 ### Doubts / meta-notes
 - Confidence: 99%. All 100 terms are unambiguous, widely-used technical vocabulary in their respective fields.
 - Staging file now has 1130 entries with 100 stubs ready for the Enricher.
+## Enricher Agent — 2025-07-28 — vocab/enricher-lt-48
+
+**Agent role**: Enricher
+**Branch**: `vocab/enricher-lt-48`
+
+### What was done
+- Preflighted `words_lt_staging.json` — valid JSON.
+- Enriched 35 Lithuanian stubs focused on home and household vocabulary at B1/B2 level.
+- Fixed capitalisation on 2 terms: `Rūsys` → `rūsys`, `Indaplovė` → `indaplovė`.
+- All terms set to lowercase per protocol.
+- Set `status: "enriched"` on all 35 entries; filled `partOfSpeech`, `meanings`, `translation`.
+
+### Vocabulary clusters covered
+- **Rooms**: rūsys, svetainė, virtuvė, palėpė, tualetas, butas, garažas, laiptinė
+- **Structural elements**: stogas, kaminas, lubos, grindys, durys, langas, palangė
+- **Furniture and fixtures**: spinta, sofa, kilimas, fotelis, šviestuvas, lentyna, veidrodis
+- **Kitchen appliances**: viryklė, orkaitė, kriauklė, šaldytuvas, indaplovė
+- **Home appliances**: skalbyklė, šildytuvas, dulkių siurblys
+- **Cleaning tools and chores**: šluota, šluostė, kibiras, šluoti, tvarkyti
+
+### Semantic quality decisions
+- Most entries have 1 meaning; selected entries with genuinely distinct senses received 2 meanings (e.g. `virtuvė` — domestic kitchen vs. professional kitchen; `kaminas` — home chimney vs. industrial stack; `tualetas` — home bathroom vs. public facility; `garažas` — storage vs. repair shop; `langas` — physical window vs. figurative opportunity; `tvarkyti` — to tidy vs. to fix a problem).
+- `register` kept as `general` throughout — all terms are standard everyday B1/B2 household vocabulary. The figurative sense of `langas` uses `formal` to reflect its business/journalistic register.
+- `partOfSpeech` set to `noun` for household objects, `verb` for action verbs (`šluoti`, `tvarkyti`), and `phrase` for `dulkių siurblys` (matching its stub's pre-existing value).
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for enriched` passed with 0 errors in the enriched batch.
+- 98 pre-existing warnings in `approved` entries are unrelated to this session.
+
+### Doubts / meta-notes
+- Confidence: 98%. All 35 terms are core everyday Lithuanian vocabulary with clear, standard definitions.
+- 565 stubs remain for subsequent sessions.
