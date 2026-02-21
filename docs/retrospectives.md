@@ -610,3 +610,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a QA utility mode in `scripts/validate_words.py` to list `relations-added` entries and flag stale `qaNote` text after relation edits.
+
+## [2026-02-21] [enricher-en-7] [vocab/enricher-en-7]
+
+### What went well
+- Completed preflight JSON validation before edits and enriched exactly 30 English stub entries in one focused batch.
+- Targeted enriched validation passed immediately after the updates.
+
+### What was harder than expected
+- Several domain-heavy linguistic and economic terms required careful register selection to keep labels consistent.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- Add a lightweight command in `docs/VOCAB-AGENT.md` to print the next 30 stub terms before enrichment starts.
