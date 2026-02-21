@@ -138,10 +138,11 @@ git commit -m "vocab(seed-lt): add N new stubs from lt.txt"
 - `register` must be accurate: `technical` only for domain-specific usage.
 - LT words: `translation` must be the primary EN equivalent (single word or short phrase).
 
-### Validator enum values (use exactly these)
-- `partOfSpeech`: `noun`, `verb`, `adjective`, `adverb`, `phrase`, `particle`, `interjection`
-- `register`: `general`, `technical`, `formal`, `literary`
-- If a task prompt suggests values outside these sets (e.g., `pronoun`, `neutral`), follow the validator values above.
+### Validator enum values (use exactly these — complete list)
+- `partOfSpeech`: `noun`, `verb`, `adjective`, `adverb`, `phrase`, `particle`, `interjection`, `pronoun`, `preposition`, `conjunction`, `numeral`
+- `register`: `general`, `technical`, `formal`, `literary`, `neutral`, `informal`, `slang`
+- If a task prompt suggests values outside these sets, follow the validator values above.
+- **Common trap**: `pronoun`, `preposition`, `conjunction`, `numeral` are all valid POS values. `neutral`, `informal`, `slang` are all valid register values.
 
 ---
 
@@ -164,11 +165,36 @@ git commit -m "vocab(seed-lt): add N new stubs from lt.txt"
    ```bash
    python3 scripts/validate_words.py --staging Vocab/Vocab/Resources/words_staging.json --status relations-added
    ```
+   If the full file has pre-existing errors in other batches, scope the exit code to your batch only:
+   ```bash
+   python3 scripts/validate_words.py --staging Vocab/Vocab/Resources/words_staging.json --errors-for relations-added
+   ```
 5. Commit:
    ```bash
    git commit -m "vocab(relations): add relations for 5 words [batch N]"
    ```
 6. Repeat.
+
+### LT Relation quality rubric
+
+| Entry type | synonyms | antonymTerms | relatedTerms |
+|---|---|---|---|
+| Common noun/verb | 0–2 near-equivalents | direct semantic opposite (if one exists) | gender variant, derived form |
+| Gendered pair (e.g. siuvėjas/siuvėja) | 0–1; single-word only | `[]` if none | cross-gender counterpart required |
+| Numeral | collective/ordinal form if standard | adjacent number (n±1) | `[]` |
+| Pronoun/particle | `[]` | `[]` | `[]` |
+
+**Rules that the validator now enforces (will fail validation if violated):**
+- A term must not appear in its own `synonyms`, `antonymTerms`, or `relatedTerms` (self-reference).
+- LT relation arrays must use **nominative headword** forms. Words ending in `-ą` (accusative) or `-ų` (genitive plural) will be flagged — use the nominative form instead (e.g. `palata` not `palatą`).
+
+### Preflight stub count
+
+Before starting an enrichment batch, confirm how many stubs are available:
+```bash
+python3 -c "import json; d=json.load(open('Vocab/Vocab/Resources/words_lt_staging.json')); print(len([w for w in d if w.get('status')=='stub']), 'stubs available')"
+```
+Stop enriching if fewer stubs remain than your batch size.
 
 ---
 

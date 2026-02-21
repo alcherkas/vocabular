@@ -91,12 +91,22 @@ def validate_enriched(word: dict, idx: int, errors: list):
 
 def validate_relations(word: dict, idx: int, errors: list):
     """Validate synonyms/antonyms/relatedTerms are lists (may be empty for LT)."""
+    term_lower = word.get("term", "").lower().strip()
     for field in ("synonyms", "antonymTerms", "relatedTerms"):
         val = word.get(field)
         if val is None:
             errors.append(f"[{idx}] '{word.get('term')}': missing field '{field}' — must be an array (can be [])")
         elif not isinstance(val, list):
             errors.append(f"[{idx}] '{word.get('term')}': '{field}' must be an array")
+        else:
+            # Self-reference check: term must not appear in its own relation arrays
+            if term_lower and any(isinstance(v, str) and v.lower().strip() == term_lower for v in val):
+                errors.append(f"[{idx}] '{word.get('term')}': '{field}' contains the term itself — remove self-reference")
+            # LT: flag accusative/genitive forms (non-nominative headwords) in relation arrays
+            if word.get("language") == "lt":
+                for v in val:
+                    if isinstance(v, str) and (v.endswith("ą") or v.endswith("ų")):
+                        errors.append(f"[{idx}] '{word.get('term')}' {field}: '{v}' appears to be an inflected (non-nominative) form — use nominative headword")
     # EN words should have at least some synonyms
     if word.get("language") == "en":
         synonyms = word.get("synonyms", [])
@@ -117,6 +127,12 @@ def main():
     parser.add_argument("--production", help="Path to production JSON file (words.json)")
     parser.add_argument("--status", help="Only validate entries with this status (e.g. enriched)")
     parser.add_argument("--dedup-against", nargs="*", default=[], help="Production files to check for duplicate terms")
+    parser.add_argument(
+        "--errors-for", metavar="STATUS[,STATUS...]",
+        help="Validate all entries but only exit 1 if entries of the specified comma-separated statuses have errors; "
+             "errors from other statuses are shown as warnings. Use to get a clean signal for your batch without being "
+             "blocked by pre-existing errors in other statuses (e.g. --errors-for enriched)."
+    )
     args = parser.parse_args()
 
     if not args.staging and not args.production:
@@ -129,6 +145,9 @@ def main():
     # Load production files for dedup
     existing_terms = collect_existing_terms(args.dedup_against)
 
+    # --errors-for: statuses that count toward exit code; other-status errors become warnings
+    scope_statuses = set(args.errors_for.split(",")) if args.errors_for else None
+
     if args.staging:
         words = load_json(args.staging)
         if args.status:
@@ -136,30 +155,39 @@ def main():
             print(f"Validating {len(words)} '{args.status}' entries in {args.staging}")
         else:
             print(f"Validating {len(words)} entries in {args.staging}")
+        if scope_statuses:
+            print(f"  (exit code scoped to statuses: {', '.join(sorted(scope_statuses))}; other-status errors shown as warnings)")
 
         # Check for duplicates within staging file
         seen_terms = {}
         for idx, word in enumerate(words):
             term = word.get("term", "").lower().strip()
+            entry_errors: list = []
+
             if term in seen_terms:
-                errors.append(f"[{idx}] '{word.get('term')}': duplicate term (also at index {seen_terms[term]})")
+                entry_errors.append(f"[{idx}] '{word.get('term')}': duplicate term (also at index {seen_terms[term]})")
             else:
                 seen_terms[term] = idx
 
             # Check dedup against production
             if term in existing_terms:
-                errors.append(f"[{idx}] '{word.get('term')}': term already exists in production file")
+                entry_errors.append(f"[{idx}] '{word.get('term')}': term already exists in production file")
 
             status = word.get("status", "stub")
             if status not in VALID_STATUSES:
-                errors.append(f"[{idx}] '{word.get('term')}': invalid status '{status}'")
-                continue
+                entry_errors.append(f"[{idx}] '{word.get('term')}': invalid status '{status}'")
+            else:
+                validate_stub(word, idx, entry_errors)
+                if status in ("enriched", "relations-added", "approved"):
+                    validate_enriched(word, idx, entry_errors)
+                if status in ("relations-added", "approved"):
+                    validate_relations(word, idx, entry_errors)
 
-            validate_stub(word, idx, errors)
-            if status in ("enriched", "relations-added", "approved"):
-                validate_enriched(word, idx, errors)
-            if status in ("relations-added", "approved"):
-                validate_relations(word, idx, errors)
+            # Route errors: if --errors-for is set, non-matching statuses go to warnings
+            if scope_statuses and status not in scope_statuses:
+                warnings.extend([f"(pre-existing, status={status}) {e}" for e in entry_errors])
+            else:
+                errors.extend(entry_errors)
 
     elif args.production:
         words = load_json(args.production)
@@ -175,6 +203,11 @@ def main():
 
     # Report
     print()
+    if warnings:
+        print(f"WARNINGS — {len(warnings)} pre-existing issue(s) outside scoped statuses:")
+        for w in warnings:
+            print(f"  ⚠ {w}")
+        print()
     if errors:
         print(f"FAILED — {len(errors)} error(s):")
         for e in errors:

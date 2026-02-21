@@ -385,6 +385,7 @@ LOOP:
   Count stubs/enriched/relations-added in staging files:
     IF stubs > 0:      add enricher agents (LT and/or EN)
     IF enriched > 0:   add relations agent
+    IF relations_added > 0:  add QA agent   # ← only spawn QA when there are entries to review
     IF stubs == 0 AND total < target: add seeder agents
 
   # 2. SPAWN batch (max 4 agents from work_items)
@@ -428,6 +429,27 @@ The vocab pipeline has enough work to run for hours:
 LT: 1745 stubs → Enricher (5/batch) → 349 batches → Relations → QA → Publish
 EN: 30 stubs → Enricher → Relations → QA → Publish → Seeder adds more → repeat
 ```
+
+**Status count helper** (run before spawning to confirm work exists):
+```bash
+python3 -c "
+import json
+for f, label in [('Vocab/Vocab/Resources/words_staging.json','EN'), ('Vocab/Vocab/Resources/words_lt_staging.json','LT')]:
+    try:
+        d = json.load(open(f))
+        from collections import Counter
+        c = Counter(w.get('status','stub') for w in d)
+        print(f'{label}: ' + ', '.join(f'{k}={v}' for k,v in sorted(c.items())))
+    except FileNotFoundError:
+        print(f'{label}: file not found')
+"
+```
+
+**Pre-spawn guards:**
+- **Enricher**: only spawn if `stub` count > 0 for that language.
+- **Relations**: only spawn if `enriched` count > 0.
+- **QA**: only spawn if `relations-added` count > 0. Spawning QA with zero target entries wastes a full agent cycle.
+- **Publisher**: only spawn if `approved` count ≥ 20.
 
 The scanner automatically advances words through the pipeline:
 - When stubs exist → spawn Enricher

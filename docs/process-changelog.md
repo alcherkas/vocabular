@@ -111,3 +111,36 @@ This file answers: "Why does the process work the way it does now?" and "What ch
 - [2026-02-21] [feat-agent] [word-meanings-model] — "updated WordService to decode both `meanings[]` and legacy flat fields."
 - [2026-02-21] [feat-agent] [lt-session-timer] — "Build verification succeeded immediately after the change." (same-day parallel retro volume indicates append-only collision risk)
 - [2026-02-21] [feat-agent] [word-of-day-lt] — "`xcodebuild` initially failed because `xcode-select` pointed to CommandLineTools; needed `DEVELOPER_DIR`."
+
+## [2026-02-25] Reflection cycle #4
+
+### Pattern observed
+1. **Pre-existing validation errors block full-file runs** — across enricher-en-11, enricher-en-14, qa-11, relations-11, and relations-13, agents reported that running `validate_words.py` without `--status` always exits 1 due to synonym-count errors in prior-batch `approved` entries, forcing agents to use `--status enriched` workaround which skips structural checks on the whole file.
+2. **QA-caught relational errors preventable at Relations stage** — qa-8 through qa-13 consistently flag terms appearing in their own synonyms arrays (self-references) and Lithuanian accusative forms (`-ą`/`-ų` endings) in relation arrays instead of nominative headwords. These are structural/mechanical errors that a linter can catch before QA review.
+3. **Orchestrator spawns QA with zero target entries; VOCAB-AGENT.md enum docs are wrong** — qa-2 reported a wasted QA cycle when `relations-added` count was zero. Additionally, the Enricher section of VOCAB-AGENT.md listed `pronoun` and `neutral` as *invalid* examples, but both are accepted by the actual validator; and `preposition`, `conjunction`, `numeral`, `informal`, `slang` were missing entirely, causing avoidable round-trips.
+
+### Change 1
+- **File**: `scripts/validate_words.py`
+- **What changed**: Added self-reference check (term in its own relation arrays) and LT accusative/genitive form check (`-ą`/`-ų` endings in LT relation arrays) to `validate_relations`; added `--errors-for STATUS[,...]` flag that validates all entries but scopes the exit code to specified statuses, routing other-status errors to warnings.
+- **Why**: Self-reference and LT accusative errors were caught by QA in every cycle; `--errors-for` eliminates the pre-existing-errors noise that blocked full-file validation runs.
+
+### Change 2
+- **File**: `docs/VOCAB-AGENT.md`
+- **What changed**: Fixed the Enricher "Validator enum values" section to list all 11 valid `partOfSpeech` values and all 7 valid `register` values (removed the incorrect note labelling `pronoun`/`neutral` as invalid); added LT relation quality rubric to the Relations section; added preflight stub-count snippet; added `--errors-for` example to the Relations validate step.
+- **Why**: The wrong enum docs caused avoidable validation round-trips; the relation rubric addresses the implicit quality bar that multiple Relations/QA retros called out.
+
+### Change 3
+- **File**: `docs/ORCHESTRATOR.md`
+- **What changed**: Added `relations_added > 0` guard to the QA spawn condition in the Work Scanner loop; added a status-count helper script and per-stage pre-spawn guards (Enricher/Relations/QA/Publisher) with minimum thresholds; added `--errors-for` usage note.
+- **Why**: qa-2 reported a wasted QA agent cycle with zero target entries; explicit count guards prevent all four stages from being spawned when their input queue is empty.
+
+### Retro entries that triggered this
+- [2026-02-21] [enricher-en-11] [vocab/enricher-en-11] — "22 pre-existing validation failures in relations-added entries (insufficient synonyms) were present at preflight; confirmed as out-of-scope and not touched."
+- [2026-02-24] [enricher-en-14] [vocab/enricher-en-14] — "Full validate_words.py run exits with code 1 due to 27 pre-existing synonym-count errors; running with --status enriched is necessary to get a clean signal."
+- [2026-02-24] [relations-13] [vocab/relations-13] — "Add a --since-commit flag to validate_words.py so agents can scope validation to only entries changed in the current session."
+- [2026-02-21] [qa-10] [vocab/qa-10] — "Add a validation rule to validate_words.py that checks all values in relatedTerms and synonyms against a nominative-form word list."
+- [2026-02-21] [qa-10] [vocab/qa-10] — "Consider a linter check that flags when a term's own string appears verbatim inside its synonyms array."
+- [2026-02-21] [qa-9] [vocab/qa-9] — "Add an automated check for Lithuanian entries that validates final characters of synonyms/antonymTerms against known declension endings."
+- [2026-02-24] [qa-13] [vocab/qa-13] — "Several LT synonyms were incorrectly conjugated/declined forms rather than nominative headwords."
+- [2026-02-21] [vocab-qa-agent] [vocab/qa-2] — "Add an orchestrator preflight guard that skips spawning QA when relations-added count is zero."
+- [2026-02-21] [enricher-en-8] [enrich-en-8-30-stubs] — "Add a validator mode that lists relation self-references/duplicates explicitly to speed up QA pass/fail decisions."
