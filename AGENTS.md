@@ -293,3 +293,33 @@ Seed 100 new English C1+ vocabulary stubs into `words_staging.json` across 9 spe
 - All 100 terms are genuinely C1+ in their domain context.
 - No multi-word phrases used; all stubs are single-word headwords suitable for enrichment.
 - Stub format is minimal per spec: term + language + status only.
+## Session retro — vocab/relations-17
+
+**Date:** 2026-02-21
+**Branch:** vocab/relations-17
+**Commit:** 40e5e57
+
+### What was done
+- Preflight JSON validation on both `words_staging.json` and `words_lt_staging.json` — both PASSED with exit 0 under `--errors-for relations-added`; pre-existing warnings all on `approved` entries outside scope.
+- Selected the first 35 `enriched` entries from each file as promotion targets (EN: geology/earth-science → ecology → urban-geography; LT: calendar/time, weather, school-supplies, home-actions, school-personnel).
+- **EN (`words_staging.json`):** 35 entries promoted. Fixed violations in 13 entries before promotion:
+  - **Self-references removed from synonyms:** `lapilli` ("pyroclastic lapilli"), `modularity` ("mental modularity"), `overconfidence` ("overconfidence bias"), `dielectric` ("dielectric material"), `perovskite` ("perovskite material", "perovskite oxide"), `agglomeration` ("spatial agglomeration").
+  - **Term-in-relatedTerms removed:** `albedo` ("ice-albedo feedback"), `evapotranspiration` ("potential evapotranspiration"), `riparian` ("riparian buffer"), `agglomeration` ("economies of agglomeration").
+  - **Cross-array duplicates removed:** `solfatara` ("fumarole" syn↔rel), `modularity` ("domain specificity" syn↔rel), `overconfidence` ("calibration" ant↔rel), `quasirationality` ("bounded rationality" syn↔rel), `plasticity` ("ductility" syn↔rel), `denitrification` ("nitrification" ant↔rel), `cadastral` ("land-registry"/"land registry" syn↔rel), `densification` ("upzoning" syn↔rel).
+- **LT (`words_lt_staging.json`):** 35 entries promoted. Fixed violations in 9 entries:
+  - **Cross-array duplicates removed:** `Platus` ("siauras" ant↔rel), `po to` ("paskui" syn↔rel), `atidaryti` ("uždaryti" ant↔rel), `uždaryti` ("atidaryti" ant↔rel), `Švarus` ("purvinas" ant↔rel), `tvarkingas` ("netvarkingas" ant↔rel), `tušinukas` ("rašiklis" syn↔rel), `pertrauka` ("pamoka" ant↔rel).
+  - **Typo fixed:** `sąsiuvinis` synonym `bloknōtas` → `bloknotas`.
+  - Relations added/expanded for sparse entries: weather terms (sniegas, vėjas, žaibas, audra), school supplies (skaičiuoklė, trintukas, žirklės, liniuotė), calendar terms (mėnuo, metai), etc.
+  - All Lithuanian terms verified nominative dictionary forms — no `-ą`/`-ų` endings introduced.
+- Post-promotion validation: both files pass `--errors-for relations-added` (exit 0).
+
+### Stats
+| File | Newly promoted | Pre-existing relations-added | Total relations-added |
+|------|---------------|------------------------------|-----------------------|
+| words_staging.json | 35 | 35 | 70 |
+| words_lt_staging.json | 35 | 35 | 70 |
+
+### Issues / notes
+- The validator's self-reference check uses exact string equality (case-insensitive); phrases embedding the term (e.g. "potential evapotranspiration") are not caught automatically — manual inspection was applied to all 70 entries.
+- The validator does not check cross-array duplicates; Rule 4 was enforced manually by inspecting every entry's syn/ant/rel arrays together.
+- EN entries without data changes needed only a status bump (phreatomagmatic, drumlin, esker, periglacial, subglacial, nunatak, isoseismal, microseism, aquifer, benthic, biogeochemistry, ecotone, edaphic, geoengineering, leachate, limnology, methanogenesis, pedogenesis, thermocline, brownfield — all had clean pre-existing relations).
