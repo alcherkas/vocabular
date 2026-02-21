@@ -21684,24 +21684,49 @@
   {
     "term": "aukštyn",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kylant arba judant vertikalia kryptimi link viršaus.",
+        "example": "Liftas važiuoja aukštyn iki devintojo aukšto, kur yra įmonės biuras.",
+        "register": "general",
+        "tags": [
+          "direction",
+          "building",
+          "elevator",
+          "urban"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "upward, up"
   },
   {
     "term": "žemyn",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Judant arba einant vertikalia kryptimi link apačios.",
+        "example": "Nuo panoraminės terasos pažiūrėjome žemyn į judrias miesto gatves.",
+        "register": "general",
+        "tags": [
+          "direction",
+          "city",
+          "navigation",
+          "building",
+          "viewpoint"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "downward, down"
   },
   {
     "term": "pirmyn",
@@ -22122,24 +22147,59 @@
   {
     "term": "saugus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Nekelia pavojaus; apsaugotas nuo rizikos ar žalos.",
+        "example": "Naujasis gyvenamasis rajonas yra saugus vaikams – apšviestos gatvės ir stebėjimo kameros.",
+        "register": "general",
+        "tags": [
+          "safety",
+          "urban",
+          "neighborhood",
+          "security"
+        ]
+      },
+      {
+        "definition": "Patikimas ir užtikrintas; nekelianti grėsmės situacija.",
+        "example": "Centrinė autobusų stotelė yra saugi vieta laukti transporto net vėlų vakarą.",
+        "register": "general",
+        "tags": [
+          "safety",
+          "public transport",
+          "urban life"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "safe, secure"
   },
   {
     "term": "pavojingas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Keliantis pavojų sveikatai, gyvybei ar nuosavybei.",
+        "example": "Šis sankryžos kampas yra pavojingas pėstiesiems dėl ribotos matomumo ir greito eismo.",
+        "register": "general",
+        "tags": [
+          "danger",
+          "urban",
+          "safety",
+          "traffic",
+          "pedestrian"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "dangerous, hazardous"
   },
   {
     "term": "vėlus",
@@ -23446,13 +23506,25 @@
   {
     "term": "pastatas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Žmogaus pastatyta statinys, skirtas gyventi, dirbti ar kitoms funkcijoms.",
+        "example": "Miesto centre stovi didelis modernus pastatas, kuriame įsikūrusios įvairios įmonės.",
+        "register": "general",
+        "tags": [
+          "building",
+          "city",
+          "architecture",
+          "urban"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "building"
   },
   {
     "term": "namas",
@@ -23604,24 +23676,49 @@
   {
     "term": "viduje",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pastato ar uždaro erdvės vidinėje dalyje; ne lauke.",
+        "example": "Dėl lietingo oro vaikų renginio dalyviai liko viduje kultūros centre.",
+        "register": "general",
+        "tags": [
+          "location",
+          "indoor",
+          "urban life",
+          "building"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "inside, indoors"
   },
   {
     "term": "lauke",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pastato ar patalpų išorinėje erdvėje; atviro oro aplinkoje.",
+        "example": "Vasarą daugelis kavinių išdeda sėdimas vietas lauke, pėsčiųjų gatvėje.",
+        "register": "general",
+        "tags": [
+          "location",
+          "outdoor",
+          "urban life",
+          "cafe",
+          "city"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "outside, outdoors"
   },
   {
     "term": "siena",
@@ -23892,23 +23989,55 @@
     "term": "persikelti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pakeisti gyvenamąją vietą ar biurą, persikraustyti į kitą adresą.",
+        "example": "Šeima persikėlė iš kaimo į miestą, nes norėjo būti arčiau darbo ir mokyklų.",
+        "register": "general",
+        "tags": [
+          "moving",
+          "urban life",
+          "housing"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to move, to relocate"
   },
   {
     "term": "statyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Statybos darbais kurti statinius ar konstrukcijas.",
+        "example": "Mieste statomi nauji daugiabučiai namai šalia metro stoties.",
+        "register": "general",
+        "tags": [
+          "construction",
+          "city",
+          "building"
+        ]
+      },
+      {
+        "definition": "Palikti transporto priemonę tam skirtoje vietoje.",
+        "example": "Galima statyti automobilį tik pažymėtose aikštelėse miesto centre.",
+        "register": "general",
+        "tags": [
+          "transport",
+          "city",
+          "parking"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to build, to park"
   },
   {
     "term": "nuomoti",
@@ -24004,23 +24133,47 @@
     "term": "atrakinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Atidaryti užraktą, kad būtų galima patekti į patalpą ar atidaryti daiktą.",
+        "example": "Ji atrakino buto duris raktu ir įėjo į šiltą koridorių.",
+        "register": "general",
+        "tags": [
+          "housing",
+          "urban life",
+          "security",
+          "key"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to unlock"
   },
   {
     "term": "užrakinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Uždaryti užraktą, kad durys ar daiktai nebūtų galima atidaryti be rakto.",
+        "example": "Išeinant iš buto, reikia užrakinti duris ir patikrinti langus.",
+        "register": "general",
+        "tags": [
+          "housing",
+          "security",
+          "urban life",
+          "key"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to lock"
   },
   {
     "term": "lova",
@@ -24966,13 +25119,26 @@
   {
     "term": "ventiliatorius",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Elektrinis prietaisas, skirtas orui judinti ir vėdinti patalpas.",
+        "example": "Karštuoju oru biuro ventiliatorius padeda palaikyti patogią temperatūrą atvirame plane.",
+        "register": "general",
+        "tags": [
+          "appliance",
+          "building",
+          "indoor",
+          "air",
+          "office"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "fan, ventilator"
   },
   {
     "term": "šildytuvas",
@@ -25273,59 +25439,142 @@
     "translation": null
   },
   {
-    "term": "Aukštis",
+    "term": "aukštis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Vertikalus objekto ar konstrukcijos matmuo nuo žemės iki viršaus.",
+        "example": "Šio naujojo daugiabučio aukštis siekia dvidešimt penkis aukštus.",
+        "register": "general",
+        "tags": [
+          "measurement",
+          "building",
+          "architecture",
+          "urban"
+        ]
+      },
+      {
+        "definition": "Geografiškai ar erdviškai aukšta vieta, iš kurios atsiveria platus vaizdas.",
+        "example": "Nuo televizijos bokšto aukščio atsiveria nuostabi miesto panorama.",
+        "register": "general",
+        "tags": [
+          "elevation",
+          "city",
+          "viewpoint",
+          "panorama"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "height"
   },
   {
     "term": "ilgis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Objekto horizontalus matmuo; atstumas nuo vieno galo iki kito.",
+        "example": "Miesto pagrindinės alėjos ilgis yra trys kilometrai nuo pat centro.",
+        "register": "general",
+        "tags": [
+          "measurement",
+          "city",
+          "infrastructure",
+          "street"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "length"
   },
   {
     "term": "plotis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Objekto skersinės krypties matmuo; atstumas tarp šonų.",
+        "example": "Šios miesto gatvės plotis leidžia važiuoti trim automobilių juostom.",
+        "register": "general",
+        "tags": [
+          "measurement",
+          "street",
+          "infrastructure",
+          "urban"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "width"
   },
   {
     "term": "plotas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Plokščio paviršiaus dydis, matuojamas kvadratiniais vienetais.",
+        "example": "Šio trijų kambarių buto plotas yra septyniasdešimt kvadratinių metrų.",
+        "register": "general",
+        "tags": [
+          "measurement",
+          "real estate",
+          "housing",
+          "area"
+        ]
+      },
+      {
+        "definition": "Tam tikra erdvė, teritorija ar zona mieste.",
+        "example": "Prie naujosios bibliotekos buvo įrengtas viešasis plotas su fontanu.",
+        "register": "general",
+        "tags": [
+          "area",
+          "city",
+          "urban",
+          "public space"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "area, space"
   },
   {
     "term": "kvadratiniai metrai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ploto matavimo vienetas, naudojamas aprašant patalpų ar žemės dydį nekilnojamojo turto srityje.",
+        "example": "Vieno kambario butas sostinės centre kainuoja apie tris tūkstančius eurų už kvadratinį metrą.",
+        "register": "technical",
+        "tags": [
+          "measurement",
+          "real estate",
+          "housing",
+          "unit",
+          "urban"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "square meters"
   },
   {
     "term": "Švarus",
@@ -25392,13 +25641,25 @@
   {
     "term": "jaukus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Teikiantis šilumos, komforto ir ramybės jausmą; malonus ir patogus būnant.",
+        "example": "Naujas gyvenamasis mikrorajonas atrodo labai jaukus – žaluma, suoliukai ir žaidimų aikštelės.",
+        "register": "general",
+        "tags": [
+          "comfort",
+          "neighborhood",
+          "urban life",
+          "atmosphere"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "cozy, snug"
   },
   {
     "term": "ramus",
@@ -25435,35 +25696,92 @@
   {
     "term": "atskiras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Nesujungtas su kitu; turintis savo atskirą erdvę ar funkciją.",
+        "example": "Šiame bute kiekvienas miegamasis yra atskiras kambarys su uždarymo galimybe.",
+        "register": "general",
+        "tags": [
+          "housing",
+          "real estate",
+          "building"
+        ]
+      },
+      {
+        "definition": "Individualus, išskirtas iš bendros grupės.",
+        "example": "Kiekvienas butas turi atskirą skaitiklį elektros suvartojimui matuoti.",
+        "register": "general",
+        "tags": [
+          "building",
+          "urban",
+          "utility"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "separate, individual"
   },
   {
     "term": "bendras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Naudojamas ar valdomas kelių asmenų ar grupių kartu.",
+        "example": "Daugiabučio name yra bendra laiptinė, rūsys ir automobilių stovėjimo aikštelė.",
+        "register": "general",
+        "tags": [
+          "shared",
+          "housing",
+          "building",
+          "communal"
+        ]
+      },
+      {
+        "definition": "Bendro pobūdžio; apimantis visumą ar nesmulkinant.",
+        "example": "Miesto bendrasis planas numato naujas gyvenamąsias zonas šiaurinėje dalyje.",
+        "register": "formal",
+        "tags": [
+          "general",
+          "urban planning",
+          "city",
+          "infrastructure"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "shared, common, general"
   },
   {
     "term": "tvankus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Stokojantis gryno oro; slegiantis dėl karščio ir drėgmės trūkumo.",
+        "example": "Vasarą metro vagone būna labai tvankus – oro kondicionierius dažnai neveikia.",
+        "register": "general",
+        "tags": [
+          "air",
+          "urban",
+          "public transport",
+          "heat",
+          "underground"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "stuffy, muggy"
   },
   {
     "term": "minkštas",
@@ -25490,57 +25808,122 @@
   {
     "term": "medinis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pagamintas arba pastatytas iš medienos.",
+        "example": "Senamiestyje išliko keli mediniai namai iš devynioliktojo amžiaus, saugomi kaip paveldo objektai.",
+        "register": "general",
+        "tags": [
+          "building material",
+          "architecture",
+          "heritage",
+          "wood",
+          "urban"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "wooden"
   },
   {
     "term": "ąžuolinis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pagamintas iš ąžuolo medienos; susijęs su ąžuolu kaip medžiaga.",
+        "example": "Namo vestibiulyje buvo įrengti ąžuoliniai laiptai ir parketinės grindys.",
+        "register": "general",
+        "tags": [
+          "material",
+          "wood",
+          "building",
+          "interior",
+          "oak"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "oak, made of oak"
   },
   {
     "term": "plytinis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pastatytas arba pagamintas iš plytų; būdingas tradicinei plytų statybai.",
+        "example": "Senamiestis garsus savo raudonais plytiniais pastatais, dvelkiančiais istorija.",
+        "register": "general",
+        "tags": [
+          "building material",
+          "architecture",
+          "urban",
+          "brick",
+          "heritage"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "brick"
   },
   {
     "term": "blokinis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pastatytas iš surenkamų betono blokų; dažniausiai apibūdina sovietmečio daugiabučius namus.",
+        "example": "Daugelyje miesto mikrorajonų tebestovi senieji blokiniai namai, pastatyti praėjusio amžiaus aštuntajame dešimtmetyje.",
+        "register": "general",
+        "tags": [
+          "building type",
+          "soviet architecture",
+          "urban",
+          "housing",
+          "concrete"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "panel-built, prefab block"
   },
   {
     "term": "stiklinis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pagamintas iš stiklo arba daugiausia stiklo naudojantis kaip pagrindinę medžiagą.",
+        "example": "Miesto verslo centre iškilo modernus stiklinis biurų pastatas, atspindintis dangaus spalvas.",
+        "register": "general",
+        "tags": [
+          "material",
+          "building",
+          "modern architecture",
+          "urban",
+          "glass"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "glass"
   },
   {
     "term": "plastikinis",
@@ -25556,46 +25939,127 @@
   {
     "term": "molinis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pagamintas iš molio arba molio žaliavų.",
+        "example": "Senoviniame kaime išliko molinis namas su šiaudiniu stogu kaip etnografinis paveldas.",
+        "register": "general",
+        "tags": [
+          "material",
+          "traditional",
+          "building",
+          "heritage",
+          "clay"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "clay, earthen"
   },
   {
     "term": "naminis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gaminamas arba auginamas namuose; susijęs su namų ūkiu.",
+        "example": "Kaimynė turguje pardavinėjo namiškus sūrius ir naminius uogienės stiklainius.",
+        "register": "general",
+        "tags": [
+          "domestic",
+          "homemade",
+          "food",
+          "home"
+        ]
+      },
+      {
+        "definition": "Gyvenantis su žmogumi namuose; ne laukinis (apie gyvūnus).",
+        "example": "Naminiai gyvūnai gali gyventi daugiabučiuose, jei tai leidžia namo taisyklės.",
+        "register": "general",
+        "tags": [
+          "pets",
+          "urban life",
+          "housing",
+          "domestic animals"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "domestic, homemade"
   },
   {
     "term": "kambarinis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Skirtas auginti arba laikyti kambaryje; tinkamas vidaus aplinkai.",
+        "example": "Ant palangės stovėjo kelios kambarinės gėlės, puošdamos nedidelį butą.",
+        "register": "general",
+        "tags": [
+          "indoor",
+          "plants",
+          "home",
+          "interior"
+        ]
+      },
+      {
+        "definition": "Susijęs su kambario temperatūros ar mikroklimato reguliavimu.",
+        "example": "Kambarinis termostatas automatiškai palaiko pasirinktą temperatūrą viso namo bute.",
+        "register": "general",
+        "tags": [
+          "room",
+          "home",
+          "indoor",
+          "temperature"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "indoor, room"
   },
   {
-    "term": "Kiemas",
+    "term": "kiemas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Atvirasis plotas tarp daugiabučių ar aplink namą, skirtas poilsiui ir žaidimams.",
+        "example": "Vaikai žaidžia daugiabučio name esančiame kieme, kur įrengta žaidimų aikštelė.",
+        "register": "general",
+        "tags": [
+          "yard",
+          "urban",
+          "neighborhood",
+          "children"
+        ]
+      },
+      {
+        "definition": "Sodybos ar ūkio plotas aplink pastatą.",
+        "example": "Kaimo sodybos kieme augo gėlės ir stovėjo suoliukas prie liepos.",
+        "register": "general",
+        "tags": [
+          "yard",
+          "property",
+          "rural"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "yard, courtyard"
   },
   {
     "term": "krūmas",
@@ -25687,35 +26151,82 @@
   {
     "term": "vartai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Didelės judančios durys, pro kurias įvažiuojama į kiemą ar garažą.",
+        "example": "Atidarius automatinius vartus, automobilis įvažiavo į saugomą stovėjimo aikštelę.",
+        "register": "general",
+        "tags": [
+          "gate",
+          "urban",
+          "infrastructure",
+          "building"
+        ]
+      },
+      {
+        "definition": "Sporto aikštelėje naudojamas rėmas ar taikymosi tikslas futbole ar ledo ritulyje.",
+        "example": "Žaidėjas tiksliai smogė į vartus ir pelnė pergalingą įvartį.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "football",
+          "goal"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "gate, goal"
   },
   {
     "term": "varteliai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Mažos durys tvoros ar sienos dalyje, skirtos pėstiesiems praeiti į kiemą.",
+        "example": "Pro vartelius patekome į daugiabučio kiemą, kur laukė draugai.",
+        "register": "general",
+        "tags": [
+          "gate",
+          "yard",
+          "urban",
+          "neighborhood"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "wicket gate, small gate"
   },
   {
     "term": "tvora",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Statinys, skirtas apriboti žemės plotą, atskirti teritorijas ar apsaugoti nuosavybę.",
+        "example": "Aplink privatų namą pastatyta metalinė tvora apsaugo kiemą nuo pašalinių.",
+        "register": "general",
+        "tags": [
+          "fence",
+          "urban",
+          "neighborhood",
+          "property",
+          "security"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "fence"
   },
   {
     "term": "stalas",
@@ -37388,13 +37899,26 @@
   {
     "term": "suoliukai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Parke, kieme ar viešojoje erdvėje pastatyti baldai, skirti sėdėti ir ilsėtis.",
+        "example": "Miesto parke prie fontano buvo keletas suoliukų, kur žmonės ilsėjosi po darbo.",
+        "register": "general",
+        "tags": [
+          "bench",
+          "park",
+          "urban furniture",
+          "public space",
+          "city"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "benches"
   },
   {
     "term": "šulinys",
@@ -48134,10 +48658,24 @@
   },
   {
     "term": "priekyje",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adverb",
+    "tags": [],
+    "translation": "in front, ahead",
+    "meanings": [
+      {
+        "definition": "Esant priekiniame taške ar prieš ką nors; pirma kitų.",
+        "example": "Autobusas sustoja priekyje – lipkite pro pirmąsias duris ir kompostuokite bilietą.",
+        "register": "general",
+        "tags": [
+          "direction",
+          "public transport",
+          "urban",
+          "navigation"
+        ]
+      }
+    ]
   },
   {
     "term": "kalbėtis",

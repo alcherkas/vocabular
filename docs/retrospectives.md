@@ -3661,4 +3661,32 @@ JSON preflight passed. 705 stubs available before session.
 
 ### Decisions / meta-notes
 - Stub format used: `{term, language: "en", status: "stub"}` — minimal valid format per validator; partOfSpeech left blank (permitted at stub stage per validator logic).
+## Enricher Agent — vocab/enricher-lt-51
+
+**Date**: 2025-07-30
+**Agent**: Enricher Agent
+**Branch**: `vocab/enricher-lt-51`
+
+### What was done
+- Preflighted `words_lt_staging.json` — valid JSON before editing (495 stubs available).
+- Enriched 35 Lithuanian stubs focusing on **city and urban life vocabulary (B1/B2 level)**: city infrastructure, public transport, urban services, neighborhoods, and building types.
+- Terms enriched: `pastatas`, `statyti`, `persikelti`, `kiemas`, `vartai`, `varteliai`, `tvora`, `suoliukai`, `atrakinti`, `užrakinti`, `plotas`, `kvadratiniai metrai`, `aukštis`, `ilgis`, `plotis`, `jaukus`, `atskiras`, `bendras`, `tvankus`, `medinis`, `ąžuolinis`, `plytinis`, `blokinis`, `stiklinis`, `molinis`, `naminis`, `kambarinis`, `saugus`, `pavojingas`, `viduje`, `lauke`, `aukštyn`, `žemyn`, `ventiliatorius`, `priekyje`.
+- All term values enforced to lowercase (two entries `Aukštis` → `aukštis`, `Kiemas` → `kiemas` had uppercase initials and were corrected).
+- Each entry received: `partOfSpeech`, `translation` (English gloss), `meanings` array with `definition`, `example`, `register`, and `tags`. Multi-sense entries (e.g. `statyti`: to build / to park; `vartai`: gate / sports goal; `kiemas`: urban courtyard / rural yard) were given distinct meaning objects.
+- Validated with `python3 scripts/validate_words.py --errors-for enriched` — 0 errors in the `enriched` batch. Pre-existing warnings in `approved` entries are unrelated to this session.
+
+### Semantic quality decisions
+- **`statyti`** was given two senses: construction (to build) and vehicle parking (to park a car) — both are primary, frequent uses of the verb in Lithuanian city contexts.
+- **`vartai`** covers both the architectural gate sense and the sports goal sense, which are equally common at B1 level.
+- **`kiemas`** distinguishes the urban apartment courtyard (primary B1 urban sense) from the rural farmyard.
+- **`blokinis`** definition explicitly references Soviet-era prefab construction, which is essential cultural context for this term in Lithuanian urban vocabulary.
+- **`bendras`** was given a second formal sense (general/comprehensive) as in `bendrasis planas` (master plan), relevant to urban planning register.
+- `register` set to `technical` only for `kvadratiniai metrai` (real estate/measurement domain); all other entries are `general` or `formal`.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for enriched` passed with 0 errors in the `enriched` batch.
+
+### Doubts / meta-notes
+- Confidence: 95%. All 35 terms are standard Lithuanian vocabulary with clear B1/B2 urban-life relevance.
+- `ąžuolinis` (oak) and `molinis` (clay) are building material adjectives; their urban relevance is heritage architecture. QA may decide to reclassify them as lower priority if strictly urban vocabulary is preferred.
 - No merge performed as instructed.
