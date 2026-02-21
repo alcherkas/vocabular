@@ -3472,3 +3472,37 @@ JSON preflight passed. 705 stubs available before session.
 ### Doubts / meta-notes
 - Confidence: 97%. All 35 terms are well-established, high-frequency C1+ scientific vocabulary with documented definitions.
 - 65 stubs remain for subsequent sessions.
+## Enricher Agent — 2025-07-28 — vocab/enricher-lt-49
+
+**Agent role**: LT Enricher
+**Branch**: `vocab/enricher-lt-49`
+
+### What was done
+- Preflighted `words_lt_staging.json` — valid JSON.
+- Enriched 35 Lithuanian stubs focused on nature and animals vocabulary (B1/B2 level):
+  - **Pets (3)**: katė, katinas, šuo
+  - **Farm animals (13)**: arklys, žirgas, karvė, kiaulė, višta, viščiukai, gaidys, antis, kalakutas, žąsis, avis, ožka, ožys
+  - **Farm/countryside (2)**: tvartas, akmuo
+  - **Wild animals & insects (5)**: liūtas, ežiukas, erkė, musė, uodas
+  - **Mushrooms (5)**: grybai, baravykas, voveraitė, pievagrybis, musmirė
+  - **Plants/trees (5)**: eglutė, šaka, sėkla, liepa, gėlynas
+  - **Nature/folklore (2)**: paparčio žiedas, užmiestis
+- All term values were lowercased (e.g. `Grybai` → `grybai`, `Avis` → `avis`, `Liūtas` → `liūtas`).
+- Each entry received: `translation`, `meanings` (definition, example, register, tags), `status: "enriched"`.
+
+### Semantic quality decisions
+- **liūtas**: given two meanings — the animal (lion) and the zodiac sign Leo — since the same form covers both.
+- **liepa**: given two meanings — linden tree and July (the month) — both are standard uses of the same word.
+- **eglutė**: given two meanings — small spruce tree (forest) and Christmas tree (festive context).
+- **kiaulė**: given two meanings — the farm animal and the informal insult — both are well-established.
+- **paparčio žiedas**: register `literary` (folklore phrase, not everyday speech).
+- **žirgas**: register `literary` (elevated/poetic synonym of arklys).
+- **565 stubs** remained in the file at session start; 530 remain after enrichment.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for enriched` passed with 0 errors in the enriched batch.
+- 98 pre-existing warnings in `approved` entries are unrelated to this session.
+
+### Doubts / meta-notes
+- Confidence: 99%. All 35 terms are core everyday Lithuanian vocabulary (animals, plants, nature) with clear, unambiguous definitions.
+- No merge performed as instructed.
