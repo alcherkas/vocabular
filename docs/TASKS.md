@@ -99,7 +99,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `word-meanings-model`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `high`
 **Complexity**: `high`
 **Description**: Update `Word.swift` and `WordService.swift` to support the `meanings` array schema (replaces flat `definition`/`example` fields). Update all Views that reference `.definition` or `.example`.
@@ -302,7 +302,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `lt-quiz-modes`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `medium`
 **Complexity**: `intermediate`
 **Description**: Refactor quiz to support 4 modes via a new `QuizService`: EN term→definition, EN definition→term, LT term→EN translation, EN translation→LT term. Quiz mode auto-selected based on session language.
@@ -339,7 +339,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `lt-session-timer`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `medium`
 **Complexity**: `low`
 **Description**: Implement session sizing logic within `SessionService` — cap sessions at 10–15 items with overdue-word prioritization and 5-minute target. This task adds the word-selection algorithm to `SessionService` (created in `lt-session-flow`).
