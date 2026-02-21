@@ -1769,4 +1769,40 @@ Pre-existing enriched entries retained (15): capitalisation issues (Platus, Apsi
 ### Notes
 - Several EN entries already had qaNotes from previous enricher cycles describing issues that had been fixed; these were approved after confirming the bad data was absent.
 - LT compound noun phrases with genitive modifiers (e.g. `nuolaidų kortelė`, `dviračių juosta`) were accepted: the validator's `-ą`/`-ų` check applies to whole-string endings, and these are established Lithuanian multi-word lexical items.
+## Retro — vocab/enricher-en-22 (35 EN stubs)
+
+**Date:** 2025-07-22
+**Branch:** vocab/enricher-en-22
+**Commit:** e47f614
+
+### Scope
+Enriched 35 English stub entries drawn from three adjacent humanities
+domains: ethics, sociology, and anthropology.
+
+### Domain breakdown
+
+| Domain | Terms enriched |
+|---|---|
+| Ethics | aretaic, contractarianism, emotivism, eudaimonism, heteronomy, metaethics, noncognitivism, perfectionism, prescriptivism, principlism, supererogation (11) |
+| Sociology | alienation, credentialism, disenchantment, doxa, flaneur, functionalism, hysteresis, lifeworld, othering, reflexivity, simulacrum, structuralism (12) |
+| Anthropology | actant, animism, bricolage, cognatic, cosmogony, creolization, moiety, nativism, pastoralism, polyandry, polygyny, transhumance (12) |
+| **Total** | **35** |
+
+### What went well
+- All 35 target stubs were present in the file; no missing-term errors.
+- Clear thematic coherence across three interlocking disciplines let
+  relatedTerms cross-link naturally (e.g. ethics ↔ sociology via
+  `alienation`/`heteronomy`; sociology ↔ anthropology via
+  `structuralism`/`bricolage`).
+- Validator passed on first run with exit 0 — no self-references, no
+  cross-array duplicates, all EN entries carry ≥ 2 synonyms.
+
+### Issues / notes
+- `heteronomy` occupies ethics and sociology simultaneously; tagged
+  under ethics (Kantian primary context) with `political philosophy`
+  in tags.
+- `actant` originates in semiotics (Greimas) but is enriched in its
+  ANT/sociology sense as that is the dominant usage in the word list.
+- `flaneur` retains the original French accent on final -e as the term
+  is used untransliterated in English academic writing.
 - No merge performed per task instructions.
