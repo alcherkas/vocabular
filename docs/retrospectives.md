@@ -3534,3 +3534,46 @@ JSON preflight passed. 705 stubs available before session.
 - Confidence: 92%. Some EN synonyms for technical legal doctrines are approximations rather than strict synonyms (e.g. `procedural fairness`/`process rights` for procedural due process; `fundamental rights protection`/`liberty protection` for substantive due process). QA should review these for acceptability.
 - `market failure`→`allocative failure` / `market dysfunction`: neither is a standard term in the literature; used as pragmatic fillers to meet the ≥2 synonym requirement. QA may wish to refine.
 - `allocative efficiency` synonyms `Pareto efficiency`/`Pareto optimality` are technically related but not identical; Pareto optimality is arguably a necessary condition rather than a synonym. QA should review.
+
+---
+
+## Enricher Agent — vocab/enricher-lt-50
+
+**Date**: 2025-07-30
+**Agent**: Enricher Agent (Copilot)
+**Branch**: `vocab/enricher-lt-50`
+
+### What was done
+- Preflighted `Vocab/Vocab/Resources/words_lt_staging.json` — valid JSON (530 stubs available).
+- Enriched 35 Lithuanian stubs with `status == "stub"` focusing on body and health vocabulary (B1/B2 level), covering:
+  - **Body parts / facial features**: `veidas`, `blakstienos`, `ūsai`, `barzda`, `strazdanos`
+  - **Face shapes**: `apvalus`, `pailgas`, `kampuotas`
+  - **Nose shapes** (phrases): `tiesi nosis`, `riesta nosis`, `kumpa nosis`
+  - **Hair types / styles** (phrases + nouns): `banguoti plaukai`, `garbanoti plaukai`, `tiesūs plaukai`, `kasa`, `kirpčiukai`, `arklio uodega`, `kuodas`, `šukuosena`
+  - **Appearance descriptors**: `išvaizda`, `strazdanotas`, `plikas`, `žilas`, `žila`
+  - **Medical specialists**: `dermatologė`, `oftalmologas`, `oftalmologė`, `psichiatrė`
+  - **Medical conditions / health events**: `odos uždegimas`, `apsinuodyti`, `lūžti`, `sloguoti`, `susilaužyti`
+  - **Health habits / procedures**: `vartoti`, `daryti tyrimus`
+- All terms lowercased per LT convention (e.g. `Bandelė` → `bandelė`). Entries with uppercase `term` values were lowercased during enrichment.
+- Set `partOfSpeech` for all stubs that had an empty string (most lacked POS).
+- Each entry given 1–2 genuinely distinct meanings with natural Lithuanian example sentences.
+- `translation` set to concise English gloss.
+- `status` set to `"enriched"` for all 35 entries.
+
+### Validation
+- `python3 scripts/validate_words.py --staging Vocab/Vocab/Resources/words_lt_staging.json --errors-for enriched` — **PASSED** (2065 words valid, 0 errors in enriched batch; pre-existing warnings in other statuses are unrelated).
+
+### Semantic quality decisions
+- `vartoti` given two senses: primary (take/consume medication — health context) and secondary (use/employ language — formal context), as both are common B1/B2 meanings.
+- `lūžti` given two senses: fracture (bone injury) and break (object), as both are frequent and clearly distinct.
+- `arklio uodega` (ponytail) marked `register: informal` — this is the colloquial Lithuanian term; the literal translation is "horse's tail".
+- `kuodas` marked `register: informal` — colloquial term for a topknot/man-bun.
+- Medical specialist terms (`dermatologė`, `oftalmologė`, `oftalmologas`, `psichiatrė`) marked `register: technical`.
+- `odos uždegimas` and `daryti tyrimus` marked `register: technical` as domain-specific medical phrasing.
+- `sloguoti` marked `register: informal` — colloquial verb for having a cold/runny nose.
+
+### Doubts / meta-notes
+- Confidence: 97%. All 35 terms are unambiguous Lithuanian vocabulary with clear B1/B2 definitions.
+- `žila` and `žilas` are gender-inflected forms of the same adjective. Both were stubs and both enriched separately, which is consistent with the LT vocabulary structure.
+- `ausų` (genitive plural of "ear") was present in the stubs list but intentionally excluded — it is a case-inflected form, not a nominative headword, and would be linguistically problematic as a standalone entry.
+- No merge performed as instructed.
