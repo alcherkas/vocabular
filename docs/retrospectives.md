@@ -802,3 +802,20 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a validation rule that warns when `synonyms` is empty for entries with `partOfSpeech: noun` in EN — helps surface terms that might benefit from a second enrichment pass or a domain-expert review.
+## [2026-02-21] [qa-9] [vocab/qa-9]
+
+### What went well
+- Preflight JSON validation on both staging files passed immediately; both parsed cleanly with no structural repair needed.
+- All 35 EN relations-added entries (math properties: injectivity → associativity; engineering/physics: tribology → nanofabrication; systems: redundancy, scalability, robustness; diplomacy/geopolitics: demarche → bilateralism) approved in one pass — POS (noun/adjective), register (technical/formal), definitions, examples, and relation fields all consistent and complete.
+- 32 of 35 LT relations-added entries (gendered profession pairs: siuvėjas/siuvėja → verslininkas/verslininkė) approved cleanly; register uniformly `general`, Lithuanian-language definitions and relation terms throughout.
+- Diacritic audit caught two missing ė characters in LT synonyms that automated schema validation would not detect.
+
+### What was harder than expected
+- Distinguishing a genuine diacritic error ("laivininke" vs "laivininkė", "komerciante" vs "komerciantė") from an intentional spelling variant required checking the pattern of other declined forms in the same file to confirm the ė suffix is standard for these noun types.
+- "Atostogauti" arrived pre-flagged with a qaNote (term capitalised) but still carried `relations-added` status, requiring a judgment call about whether to re-approve or simply promote to `enriched`.
+
+### Process friction
+- A Python list-comprehension bug during the verslininkė fix accidentally produced "komercianteė" (ė appended rather than replacing final e); caught immediately by post-edit verification and corrected before commit.
+
+### Suggested improvement
+- Add an automated check for Lithuanian entries that validates final characters of synonyms/antonymTerms against known declension endings (e.g., masculine nominative -as/-is, feminine -a/-ė) to catch missing diacritics without relying on manual review.
