@@ -3221,3 +3221,32 @@ JSON preflight passed. 705 stubs available before session.
 
 ### Doubts / meta-notes
 - Confidence: 95%. Some EN synonyms for highly specialised philosophical/physics terms are near-synonyms rather than perfect co-extensive equivalents (e.g. `psychicalism` for `panpsychism`, `naive realism` for `disjunctivism`). These should be reviewed by QA.
+
+---
+
+## Session: vocab/enricher-en-34 — EN Enricher batch
+
+**Date**: 2025-07-24
+**Agent role**: Enricher (English)
+**Branch**: `vocab/enricher-en-34`
+
+### What was done
+- Preflighted `words_staging.json` — valid JSON (1030 entries, 70 stubs found).
+- Enriched 35 English stubs with definitions, examples, register, and tags; set each to `status: "enriched"`.
+- Focused on two thematic clusters:
+  - **Political philosophy (19 terms)**: legitimacy, sovereignty, social contract, deliberative democracy, republicanism, liberalism, civil disobedience, rule of law, constitutional democracy, separation of powers, checks and balances, majority rule, tyranny of the majority, positive liberty, negative liberty, veil of ignorance, contractualism, proportional representation, gerrymandering.
+  - **Economics (16 terms)**: moral hazard, adverse selection, rent-seeking, public good, free rider, Nash equilibrium, zero-sum game, deadweight loss, price discrimination, marginal cost, opportunity cost, sunk cost, comparative advantage, economies of scale, market failure, information asymmetry.
+- Remaining stubs (35): art/aesthetics, legal, ethics — available for subsequent enricher sessions.
+
+### Quality decisions
+- Each entry received 1–2 meaningfully distinct senses; compound terms (social contract, deliberative democracy, checks and balances, zero-sum game) received a core technical sense plus a broader/applied sense where one exists.
+- Examples cite canonical scholarly references (Weber, Rawls, Habermas, Akerlof, Ricardo, Montesquieu, Berlin, Nash) to anchor definitions and add pedagogical value.
+- Register set to `technical` for domain-specific terms (moral hazard, Nash equilibrium, comparative advantage), `formal` for legal/political usage (rule of law, gerrymandering), and `general` for colloquial extensions (zero-sum game second sense, liberalism second sense).
+- All `partOfSpeech` and `register` values used are from the validator enum; no invalid values introduced.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for enriched` — **PASSED** (0 errors in enriched batch; 91 pre-existing warnings in `approved` entries are unrelated to this batch).
+
+### Doubts / meta-notes
+- Confidence: 97%. Definitions for multi-meaning political terms (liberalism, republicanism) are deliberately scoped to prevent over-generalisation; QA may wish to verify the second sense of each is sufficiently distinct.
+- 35 stubs remain (art/aesthetics cluster: chroma, colorism, decalcomania, pointillism, photorealism; legal cluster: mens rea, habeas corpus, stare decisis, etc.) — suitable for the next enricher session.
