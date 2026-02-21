@@ -83,6 +83,7 @@ For task-driven work (claimed from `TASKS.md`):
 - Do NOT edit `words_lt.json` directly — managed by the **LT vocabulary agent** only.
 - Do NOT rename or move existing model files without updating all references.
 - Do NOT add external dependencies (no SPM packages) without a decision recorded in `DECISIONS.md`.
+- For tasks with explicit numeric targets (e.g., "add 100 words", "create 200 entries"), verify the final count before commit.
 - Always run tests before merging (see `docs/BUILD.md`).
 - Always append to `docs/audit-log.md` after merging or taking any irreversible action.
 - Read `docs/REVERSIBILITY.md` before any action that modifies shared state on `main`.

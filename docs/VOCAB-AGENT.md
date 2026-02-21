@@ -128,6 +128,11 @@ git commit -m "vocab(seed-lt): add N new stubs from lt.txt"
 - `register` must be accurate: `technical` only for domain-specific usage.
 - LT words: `translation` must be the primary EN equivalent (single word or short phrase).
 
+### Validator enum values (use exactly these)
+- `partOfSpeech`: `noun`, `verb`, `adjective`, `adverb`, `phrase`, `particle`, `interjection`
+- `register`: `general`, `technical`, `formal`, `literary`
+- If a task prompt suggests values outside these sets (e.g., `pronoun`, `neutral`), follow the validator values above.
+
 ---
 
 ## Role: Relations

@@ -60,3 +60,24 @@ This file answers: "Why does the process work the way it does now?" and "What ch
 - [2025-07-15] [enricher-lt] [enrich-lt-batch-1-3] — "Consider adding a `partOfSpeech` value like 'particle' or 'interjection'"
 - [2025-07-22] [enricher-lt-2] [enrich-lt-batch-4-8] — "Consider adding 'particle' or 'verb form' to `VALID_PARTS_OF_SPEECH`"
 - [2025-07-21] [feat-tests-wordservice] [tests-wordservice] — "docs/BUILD.md says test targets can only be created via Xcode GUI … but manual pbxproj editing worked fine"
+
+## [2025-07-25] Reflection cycle #2
+
+### Pattern observed
+1. **Repeated friction: fixed-size data tasks overshoot target counts** — two new retros reported generating too many items first (229 vs 200 LT words; 107 vs 100 EN words), then trimming.
+2. **Docs gap: enricher prompt values drift from validator enums** — one new retro reported prompt-provided values (`pronoun`, `neutral`) failing validator and requiring remapping.
+
+### Change 1
+- **File**: `AGENTS.md`
+- **What changed**: Added a hard rule requiring exact count verification before commit for tasks with explicit numeric targets.
+- **Why**: Prevents repeat overshoot/trim loops on fixed-size data tasks.
+
+### Change 2
+- **File**: `docs/VOCAB-AGENT.md`
+- **What changed**: Added explicit validator enum lists for `partOfSpeech` and `register`, plus an instruction to prefer validator values over prompt wording.
+- **Why**: Reduces avoidable validation round-trips when task prompts suggest invalid enum values.
+
+### Retro entries that triggered this
+- [2025-07-22] [data-agent] [lt-vocab-initial] — "Balancing exactly 200 words across categories required a trim pass after initial generation overshot to 229."
+- [2025-07-22] [feature/en-words-expansion] [en-words-expansion] — "Initial word list had 107 entries instead of 100; required trimming."
+- [2025-07-22] [lt-enricher-3] [enrich-lt-batch-3] — "Allowed values for `register` and `partOfSpeech` differ from the task prompt … had to check validator output and remap."
