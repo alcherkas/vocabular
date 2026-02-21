@@ -1359,3 +1359,37 @@ Each entry received: `partOfSpeech`, `translation`, `meanings` (definition + Lit
 
 ### Validator result
 `validate_words.py --errors-for enriched` → **PASSED** — 1960 entries, 10 pre-existing warnings (approved status, outside scope), 0 errors ✓
+
+---
+
+## Retro — vocab/enricher-lt-23 (35 LT stubs)
+
+**Date:** 2026-01-20
+**Branch:** vocab/enricher-lt-23
+**Commit:** 4515dea
+
+### What was enriched
+Focused on **hobbies, sports, and leisure** at A1/A2 level — 35 entries across 5 thematic clusters:
+
+| Cluster | Terms | Count |
+|---------|-------|-------|
+| Sport / football | futbolas, stadionas, aikštelė, varžybos, kamuolys, sportuoti, bėgioti | 7 |
+| Swimming / winter sport | plaukimas, čiuožykla, slidinėti, pačiūžos, treneris | 5 |
+| Music | groti, koncertas, gitara, smuikas, būgnas, melodija, ritmas, orkestras, choras, nata | 10 |
+| Cooking | kočėlas, mentelė, prieskonis, pagardas, užkandis, apkepas | 6 |
+| Leisure / reading | eilėraštis, poilsis, ilsėtis, vakarėlis, linksmintis, šokti, piknikas | 7 |
+
+Each entry received: `partOfSpeech`, `translation`, `meanings` (definition + Lithuanian example sentence + register + A1/A2 tags), `synonyms`, `antonymTerms`, `relatedTerms`. Status set `stub → enriched`.
+
+### Decisions
+- Register `general` used for all entries except `vakarėlis` (set to `informal`, matching its casual register in everyday Lithuanian).
+- All relation array items verified as nominative case headwords; no inflected forms introduced.
+- `prieskonis` ↔ `pagardas` listed as mutual synonyms — both mean flavouring/seasoning; distinction is subtle at A2 level.
+- `poilsis` ↔ `darbas` and `ilsėtis` ↔ `dirbti` cross-referenced as antonyms (rest vs. work pairing).
+- `linksmintis` ↔ `liūdėti` as antonyms (have fun vs. be sad — natural A1 pair).
+- `bėgioti` ↔ `vaikščioti` as antonyms (run vs. walk — natural A2 movement contrast).
+- Music cluster enriched in full (10 terms): covers performing (`groti`), instruments (`gitara`, `smuikas`, `būgnas`), ensembles (`orkestras`, `choras`), notation (`nata`), and musical qualities (`melodija`, `ritmas`, `koncertas`).
+- `synonyms` kept to 0–2 entries where only genuine synonyms exist; empty arrays preferred over forced near-synonyms.
+
+### Validator result
+`validate_words.py --errors-for enriched` → **PASSED** — 1960 entries, 10 pre-existing warnings (approved status, outside scope), 0 errors ✓
