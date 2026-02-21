@@ -247,7 +247,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ## Test Tasks
 
 ### `tests-wordservice`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `low`
 **Complexity**: `low`
 **Description**: Add unit tests for `WordService` (requires `VocabTests` target — see `docs/BUILD.md`).

@@ -101,3 +101,20 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a "Current vs. Target" section to ARCHITECTURE.md that explicitly marks which schema changes are aspirational vs. implemented, to reduce confusion for architecture/feature agents.
+
+## [2025-07-21] [feat-tests-wordservice] [tests-wordservice]
+
+### What went well
+- The existing `WordService` API (`loadInitialWords(into:)`) was simple and testable — in-memory `ModelContainer` made isolated testing straightforward.
+- Xcode project uses `PBXFileSystemSynchronizedRootGroup` (objectVersion 77), so adding the test file to the `VocabTests/` directory auto-includes it in the target.
+- Both tests passed on first run with zero code changes to the production `WordService`.
+
+### What was harder than expected
+- No test target existed in the project; had to manually add a `VocabTests` native target, build configurations, dependency proxy, and shared scheme to the pbxproj file.
+- `xcode-select` was pointing to CommandLineTools instead of Xcode.app; had to use `DEVELOPER_DIR` env var workaround.
+
+### Process friction
+- `docs/BUILD.md` says test targets can only be created via Xcode GUI ("cannot be done via CLI"), but manual pbxproj editing worked fine for objectVersion 77 projects. Consider updating BUILD.md to document the CLI approach.
+
+### Suggested improvement
+- Update `docs/BUILD.md` to note that for projects using file-system synchronized groups (objectVersion 77), test targets can be added by editing `project.pbxproj` directly without the Xcode GUI.
