@@ -753,3 +753,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - A pre-enrichment helper that groups thematically related stubs would make it easier to write consistent, cross-referencing definitions for term clusters.
+
+## [2026-02-21] [qa-8] [vocab-qa-8]
+
+### What went well
+- Both staging files passed preflight JSON validation immediately (330 EN, 1960 LT entries; zero parse errors).
+- All 35 EN entries were strongly formed: correct partOfSpeech, valid register, full definitions and examples, non-empty synonyms/antonyms/relatedTerms. 33/35 approved in one pass.
+- 29/35 LT entries approved directly; 3 minor normalization fixes (capital-letter terms Žmogus→žmogus, Aktorius→aktorius; accusative form tvirtą→tvirta in sveika synonym) resolved without enricher round-trip.
+- Repo validate_words.py passed 193 EN approved and 210 LT approved entries with no errors.
+
+### What was harder than expected
+- Several LT entries had subtle inaccuracies invisible to structural checks: wrong POS in antonym lists (sveikas: "ligonis" noun, "serga" verb conjugation instead of adjective forms), false antonym ("bėgti" for "eiti"), incorrect synonyms conflating register/scope ("studentas" for school-age "mokinys", "veteranas" for retired "pensininkas"), and inaccurate girl synonyms ("mažoji moteris", "dukrytė").
+- Two EN entries required content-level synonym audit: "biomagnification" (trophic amplification ≠ single-organism accumulation) and "reforestation" (replanting ≠ afforestation on bare land) were incorrectly listed as synonyms.
+
+### Suggested improvement
+- Add a POS-consistency lint rule: for adjective entries, antonymTerms should only contain adjective/participial forms — detectable by checking that Lithuanian antonyms don't end in verb conjugation suffixes (-a 3rd person) or resolve to nouns in a known wordlist.
