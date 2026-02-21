@@ -23508,7 +23508,7 @@
     "term": "oda",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The outer layer of tissue covering the human body.",
@@ -23520,9 +23520,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "odelė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kūnas",
+      "plaukai",
+      "nagai",
+      "dermatologas",
+      "žaizda"
+    ],
     "translation": "skin"
   },
   {
@@ -23897,7 +23905,7 @@
     "term": "Galva",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The uppermost part of the human body, containing the brain, eyes, nose, mouth, and ears.",
@@ -23909,9 +23917,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "galvutė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "smegenys",
+      "veidas",
+      "kaklas",
+      "plaukai",
+      "kaukolė"
+    ],
     "translation": "head"
   },
   {
@@ -23940,7 +23956,7 @@
     "term": "krūtinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The front part of the upper body between the neck and the abdomen, housing the heart and lungs.",
@@ -23952,16 +23968,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "krūtinėlė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "širdis",
+      "plaučiai",
+      "nugara",
+      "pilvas",
+      "raktikaulis"
+    ],
     "translation": "chest"
   },
   {
     "term": "ranka",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The upper limb of the human body, from the shoulder to the fingertips.",
@@ -23973,16 +23997,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "rankutė"
+    ],
+    "antonymTerms": [
+      "koja"
+    ],
+    "relatedTerms": [
+      "pirštas",
+      "riešas",
+      "alkūnė",
+      "petys",
+      "delnas"
+    ],
     "translation": "hand; arm"
   },
   {
     "term": "pirštas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "One of the five slender digits at the end of the hand.",
@@ -23994,16 +24028,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pirštukis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ranka",
+      "nykštys",
+      "nagas",
+      "riešas",
+      "delnas"
+    ],
     "translation": "finger"
   },
   {
     "term": "pilvas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The front part of the body between the chest and the groin, containing the digestive organs.",
@@ -24015,9 +24057,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pilvukis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "skrandis",
+      "žarnynas",
+      "virškinimas",
+      "juosmenys",
+      "krūtinė"
+    ],
     "translation": "stomach; belly"
   },
   {
@@ -24035,7 +24085,7 @@
     "term": "koja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The lower limb of the human body, used for standing and walking.",
@@ -24047,9 +24097,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "kojutė"
+    ],
+    "antonymTerms": [
+      "ranka"
+    ],
+    "relatedTerms": [
+      "pirštas",
+      "kulnas",
+      "kelis",
+      "pėda",
+      "šlaunis"
+    ],
     "translation": "leg; foot"
   },
   {
@@ -24067,7 +24127,7 @@
     "term": "kūnas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The physical structure of a person, including all its organs and parts.",
@@ -24079,9 +24139,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "organizmas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "galva",
+      "ranka",
+      "koja",
+      "sveikata",
+      "kūno kultūra"
+    ],
     "translation": "body"
   },
   {
@@ -24154,7 +24222,7 @@
     "term": "burna",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The opening in the face used for eating, drinking, and speaking.",
@@ -24166,9 +24234,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "burnelė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dantis",
+      "liežuvis",
+      "lūpos",
+      "rijimas",
+      "kalba"
+    ],
     "translation": "mouth"
   },
   {
@@ -24186,7 +24262,7 @@
     "term": "dantis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "One of the hard, white structures in the mouth used for biting and chewing food.",
@@ -24198,9 +24274,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "dantukas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "burna",
+      "dantistas",
+      "kramtymas",
+      "dantenys",
+      "dantų šepetėlis"
+    ],
     "translation": "tooth"
   },
   {
@@ -24284,7 +24368,7 @@
     "term": "antakis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The strip of hair growing on the ridge above each eye socket.",
@@ -24296,16 +24380,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "antakėlis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "akis",
+      "veidas",
+      "blakstiena",
+      "kakta",
+      "veidrodis"
+    ],
     "translation": "eyebrow"
   },
   {
     "term": "akis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "One of the two organs of sight in the human face.",
@@ -24317,16 +24409,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "akelė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "regėjimas",
+      "ašara",
+      "blakstiena",
+      "antakis",
+      "akiniai"
+    ],
     "translation": "eye"
   },
   {
     "term": "nosis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The part of the face above the mouth, used for breathing and smelling.",
@@ -24338,9 +24438,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "nosutė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kvapas",
+      "kvėpavimas",
+      "sloga",
+      "sinusas",
+      "veidas"
+    ],
     "translation": "nose"
   },
   {
@@ -24523,7 +24631,7 @@
     "term": "plaukai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The fibres that grow from the scalp of a person's head.",
@@ -24535,9 +24643,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "garbanos",
+      "šukuosena"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "galva",
+      "oda",
+      "kirpykla",
+      "šukos",
+      "spalva"
+    ],
     "translation": "hair"
   },
   {
@@ -24764,7 +24881,7 @@
     "term": "receptas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A written instruction from a doctor authorising a patient to be issued a specific medicine.",
@@ -24786,9 +24903,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vaistų receptas",
+      "medicinos receptas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gydytojas",
+      "vaistai",
+      "vaistinė",
+      "diagnozė",
+      "gydymas"
+    ],
     "translation": "prescription; recipe"
   },
   {
@@ -25004,7 +25130,7 @@
     "term": "šeimos gydytojas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A doctor who provides primary health care for patients of all ages within a community.",
@@ -25018,9 +25144,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "bendrasis praktikas",
+      "pirminis gydytojas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gydytojas",
+      "klinika",
+      "receptas",
+      "poliklinika",
+      "konsultacija"
+    ],
     "translation": "family doctor; general practitioner"
   },
   {
@@ -25038,7 +25173,7 @@
     "term": "Širdis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The muscular organ in the chest that pumps blood through the circulatory system.",
@@ -25051,9 +25186,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "širdutė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kraujas",
+      "plaučiai",
+      "kraujotaka",
+      "arterija",
+      "širdies plakimas"
+    ],
     "translation": "heart"
   },
   {
@@ -25082,7 +25225,7 @@
     "term": "plaučiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The pair of spongy organs in the chest responsible for breathing and gas exchange.",
@@ -25095,16 +25238,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kvėpavimo organai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "širdis",
+      "kvėpavimas",
+      "bronchitas",
+      "pneumonija",
+      "deguonis"
+    ],
     "translation": "lungs"
   },
   {
     "term": "inkstai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The pair of organs in the lower back that filter waste from the blood and produce urine.",
@@ -25117,16 +25268,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "inkstukiai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kepenys",
+      "šlapimas",
+      "filtracija",
+      "kūnas",
+      "inkstų liga"
+    ],
     "translation": "kidneys"
   },
   {
     "term": "kepenys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The large organ in the abdomen that processes nutrients and filters toxins from the blood.",
@@ -25139,16 +25298,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kepenėlės"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žarnynas",
+      "tulžis",
+      "virškinimas",
+      "kepenų liga",
+      "alkoholis"
+    ],
     "translation": "liver"
   },
   {
     "term": "smegenys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The organ inside the skull that controls all functions of the body and mind.",
@@ -25161,9 +25328,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "nervų centras"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "galva",
+      "nervai",
+      "intelektas",
+      "nervų sistema",
+      "kaukolė"
+    ],
     "translation": "brain"
   },
   {
@@ -25181,7 +25356,7 @@
     "term": "Alergija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An abnormal immune response to a harmless substance, causing symptoms such as sneezing, rash, or swelling.",
@@ -25193,9 +25368,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "alerginis atsakas",
+      "jautrumas"
+    ],
+    "antonymTerms": [
+      "tolerancija"
+    ],
+    "relatedTerms": [
+      "imunitetas",
+      "astma",
+      "egzema",
+      "antigenas",
+      "antihistaminas"
+    ],
     "translation": "allergy"
   },
   {
@@ -25224,7 +25410,7 @@
     "term": "kosulys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A sudden, loud expulsion of air from the lungs, often as a reflex to clear the throat or airways.",
@@ -25237,9 +25423,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atkosėjimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sloga",
+      "gripas",
+      "gerklė",
+      "vaistai",
+      "plaučiai"
+    ],
     "translation": "cough"
   },
   {
@@ -25290,7 +25484,7 @@
     "term": "sloga",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Inflammation of the nasal passages causing a blocked or runny nose, typically caused by a common cold.",
@@ -25303,16 +25497,25 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "peršalimas",
+      "rinitas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kosulys",
+      "vaistai",
+      "nosies lašai",
+      "gripas",
+      "temperatūra"
+    ],
     "translation": "runny nose; cold"
   },
   {
     "term": "skausmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An unpleasant physical sensation caused by injury, illness, or other bodily damage.",
@@ -25325,16 +25528,28 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sopulys",
+      "kančia"
+    ],
+    "antonymTerms": [
+      "malonumas",
+      "gerovė"
+    ],
+    "relatedTerms": [
+      "liga",
+      "žaizda",
+      "vaistai",
+      "gydytojas",
+      "neurologija"
+    ],
     "translation": "pain"
   },
   {
     "term": "žaizda",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An injury to body tissue, especially one caused by a cut or blow.",
@@ -25346,16 +25561,25 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pažeidimas",
+      "sužalojimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kraujas",
+      "tvarstis",
+      "gydymas",
+      "operacija",
+      "infekcija"
+    ],
     "translation": "wound"
   },
   {
     "term": "operacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A medical procedure in which a surgeon makes incisions to treat injury or disease inside the body.",
@@ -25368,16 +25592,25 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "chirurgija",
+      "chirurginė intervencija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "chirurgas",
+      "ligoninė",
+      "anestezija",
+      "žaizda",
+      "gydymas"
+    ],
     "translation": "operation; surgery"
   },
   {
     "term": "Vaistai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Substances used to treat, cure, or prevent illness or disease.",
@@ -25390,9 +25623,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "medikamentai",
+      "preparatai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "receptas",
+      "vaistinė",
+      "gydymas",
+      "liga",
+      "vaistininkas"
+    ],
     "translation": "medicine; medication"
   },
   {
@@ -25520,7 +25762,7 @@
     "term": "tvarstis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A strip of material used to bind and protect a wound or injured part of the body.",
@@ -25533,9 +25775,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tvarsliava",
+      "tvarstomoji medžiaga"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žaizda",
+      "pirmoji pagalba",
+      "operacija",
+      "kraujas",
+      "medicinos reikmenys"
+    ],
     "translation": "bandage"
   },
   {
@@ -25602,7 +25853,7 @@
     "term": "kraujospūdis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The pressure of circulating blood against the walls of blood vessels, measured to assess cardiovascular health.",
@@ -25615,9 +25866,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "arterinis spaudimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "širdis",
+      "gydytojas",
+      "hipertenzija",
+      "kraujotaka",
+      "tonometras"
+    ],
     "translation": "blood pressure"
   },
   {
@@ -27394,7 +27653,7 @@
     "term": "jaustis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To experience a particular physical or emotional state.",
@@ -27406,9 +27665,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "jausti",
+      "išgyventi"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "emocija",
+      "sveikata",
+      "nuotaika",
+      "savijauta",
+      "liga"
+    ],
     "translation": "to feel (health/emotional state)"
   },
   {
@@ -30534,7 +30802,7 @@
     "term": "sveikata",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The state of being free from illness or injury; overall physical and mental well-being.",
@@ -30546,9 +30814,21 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "savijauta",
+      "kūno būklė"
+    ],
+    "antonymTerms": [
+      "liga",
+      "negalavimas"
+    ],
+    "relatedTerms": [
+      "gydytojas",
+      "medicina",
+      "sportas",
+      "mityba",
+      "gerovė"
+    ],
     "translation": "health"
   },
   {
@@ -31486,7 +31766,7 @@
   },
   {
     "term": "karščiavimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -31502,6 +31782,18 @@
           "symptom"
         ]
       }
+    ],
+    "synonyms": [
+      "temperatūra",
+      "karštis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "liga",
+      "infekcija",
+      "vaistai",
+      "gydytojas",
+      "gripas"
     ]
   },
   {
@@ -31513,7 +31805,7 @@
   },
   {
     "term": "vaistininkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -31529,6 +31821,18 @@
           "profession"
         ]
       }
+    ],
+    "synonyms": [
+      "farmacininkas",
+      "vaistų specialistas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vaistinė",
+      "vaistai",
+      "receptas",
+      "gydytojas",
+      "farmacija"
     ]
   },
   {
@@ -31554,7 +31858,7 @@
   },
   {
     "term": "nugaros skausmas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "phrase",
     "tags": [],
@@ -31570,6 +31874,18 @@
           "symptom"
         ]
       }
+    ],
+    "synonyms": [
+      "stuburo skausmas",
+      "nugaros sopulys"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nugara",
+      "stuburas",
+      "skausmas",
+      "gydytojas",
+      "masažas"
     ]
   },
   {
