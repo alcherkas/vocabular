@@ -23279,137 +23279,491 @@
   {
     "term": "embodiment",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The theoretical principle that cognitive structures and linguistic meanings are grounded in, and shaped by, the sensorimotor experience of having a body.",
+        "example": "Embodiment explains why orientation metaphors such as MORE IS UP are consistent across languages.",
+        "register": "technical",
+        "tags": [
+          "cognitive-linguistics",
+          "cognitive-science",
+          "embodied-cognition"
+        ]
+      }
+    ]
   },
   {
     "term": "construal",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The cognitive act of structuring and interpreting a scene or situation through a particular perspective or vantage point.",
+        "example": "Different construals of the same event can lead to entirely different linguistic expressions.",
+        "register": "technical",
+        "tags": [
+          "cognitive-linguistics",
+          "semantics"
+        ]
+      }
+    ]
   },
   {
     "term": "schematization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The cognitive process by which recurring patterns of experience become abstracted into generalized mental structures or image schemas.",
+        "example": "Schematization allows speakers to apply spatial schemas such as CONTAINER or PATH to abstract domains.",
+        "register": "technical",
+        "tags": [
+          "cognitive-linguistics",
+          "cognitive-science"
+        ]
+      }
+    ]
   },
   {
     "term": "entrenchment",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The degree to which a linguistic unit or cognitive routine has become habitual and automatized through repeated use.",
+        "example": "High entrenchment explains why idioms are processed as single units rather than compositionally.",
+        "register": "technical",
+        "tags": [
+          "cognitive-linguistics",
+          "usage-based-theory"
+        ]
+      }
+    ]
   },
   {
     "term": "trajector",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The primary figure in a relational profile—the entity whose location, motion, or property is being specified relative to a landmark.",
+        "example": "In 'the cat is on the mat,' the cat is the trajector and the mat is the landmark.",
+        "register": "technical",
+        "tags": [
+          "cognitive-linguistics",
+          "cognitive-grammar"
+        ]
+      }
+    ]
   },
   {
     "term": "profiling",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The selection and highlighting of a particular sub-structure within a conceptual base as the designated referent of an expression.",
+        "example": "The verb 'sell' and the noun 'sale' profile different participants within the same commercial transaction base.",
+        "register": "technical",
+        "tags": [
+          "cognitive-linguistics",
+          "cognitive-grammar"
+        ]
+      }
+    ]
   },
   {
     "term": "grounding",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The pragmatic anchoring of a nominal or clausal expression to a specific situation through the use of determiners, tense, and modality.",
+        "example": "Definite articles and tense markers perform grounding by connecting utterances to the immediate discourse context.",
+        "register": "technical",
+        "tags": [
+          "cognitive-linguistics",
+          "cognitive-grammar"
+        ]
+      }
+    ]
   },
   {
     "term": "prototype",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The most central, representative, or typical member of a category, serving as a cognitive reference point for category membership judgments.",
+        "example": "A robin functions as the prototype of the bird category for most English speakers.",
+        "register": "technical",
+        "tags": [
+          "cognitive-linguistics",
+          "categorization"
+        ]
+      }
+    ]
   },
   {
     "term": "schema",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An abstract, skeletal cognitive structure derived from recurring experience that guides perception, interpretation, and inference.",
+        "example": "The JOURNEY schema underlies metaphorical talk about arguments as paths with stages and destinations.",
+        "register": "technical",
+        "tags": [
+          "cognitive-linguistics",
+          "cognitive-science"
+        ]
+      }
+    ]
   },
   {
     "term": "categorization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The cognitive process of classifying entities, events, or experiences into groups based on perceived similarity and shared properties.",
+        "example": "Prototype theory transformed the study of categorization by showing that categories have graded rather than sharp boundaries.",
+        "register": "technical",
+        "tags": [
+          "cognitive-linguistics",
+          "cognitive-science"
+        ]
+      }
+    ]
   },
   {
     "term": "entropy",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A measure of the average information content, uncertainty, or unpredictability associated with a random variable or probability distribution.",
+        "example": "Shannon entropy quantifies how many bits are needed on average to encode a message from a given source.",
+        "register": "technical",
+        "tags": [
+          "information-theory",
+          "thermodynamics",
+          "statistics"
+        ]
+      }
+    ]
   },
   {
     "term": "compressibility",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The degree to which a data source or string can be reduced in size without loss of information, reflecting the amount of redundancy in the source.",
+        "example": "Natural language text has high compressibility because letter frequencies and word patterns are highly non-uniform.",
+        "register": "technical",
+        "tags": [
+          "information-theory",
+          "data-compression"
+        ]
+      }
+    ]
   },
   {
     "term": "ergodicity",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The property of a stochastic process whereby time averages equal ensemble averages, ensuring that a single long sequence is statistically representative of all possible sequences.",
+        "example": "Assuming ergodicity allows information-theoretic quantities to be estimated from a single observed sequence.",
+        "register": "technical",
+        "tags": [
+          "information-theory",
+          "probability",
+          "stochastic-processes"
+        ]
+      }
+    ]
   },
   {
     "term": "equivocation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The conditional entropy of the transmitted message given the received message, representing the information lost due to channel noise.",
+        "example": "Equivocation quantifies how much ambiguity remains about the sender's original message after the receiver observes the channel output.",
+        "register": "technical",
+        "tags": [
+          "information-theory",
+          "channel-coding"
+        ]
+      },
+      {
+        "definition": "The rhetorical or logical use of ambiguous language to mislead or avoid commitment to a clear position.",
+        "example": "The politician's equivocation on tax policy frustrated journalists seeking a direct answer.",
+        "register": "formal",
+        "tags": [
+          "rhetoric",
+          "logic"
+        ]
+      }
+    ]
   },
   {
     "term": "transinformation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The mutual information between a channel input and output, measuring how much the received signal reduces uncertainty about what was sent.",
+        "example": "Maximizing transinformation over all input distributions gives the channel capacity.",
+        "register": "technical",
+        "tags": [
+          "information-theory",
+          "channel-theory"
+        ]
+      }
+    ]
   },
   {
     "term": "perplexity",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An information-theoretic measure of how well a probability model predicts a sample, equal to the exponentiated average negative log-likelihood; lower values indicate better models.",
+        "example": "A language model achieving lower perplexity on a test corpus is assigning higher probability to the observed sequences.",
+        "register": "technical",
+        "tags": [
+          "information-theory",
+          "natural-language-processing",
+          "machine-learning"
+        ]
+      },
+      {
+        "definition": "A state of confusion or puzzlement arising from an inability to understand or explain something.",
+        "example": "The detective's perplexity deepened as each new clue contradicted the last.",
+        "register": "formal",
+        "tags": [
+          "general"
+        ]
+      }
+    ]
   },
   {
     "term": "tokenization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The process of segmenting a stream of text into discrete units called tokens, which serve as the basic symbols for further linguistic or computational processing.",
+        "example": "Byte-pair encoding tokenization merges frequent character pairs iteratively to build a vocabulary suited to the training corpus.",
+        "register": "technical",
+        "tags": [
+          "information-theory",
+          "natural-language-processing",
+          "computational-linguistics"
+        ]
+      }
+    ]
   },
   {
     "term": "codebook",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A finite collection of codewords used to represent the possible output symbols of a source or the input symbols of a channel in source and channel coding.",
+        "example": "Vector quantization replaces each input block with the nearest entry in a learned codebook.",
+        "register": "technical",
+        "tags": [
+          "information-theory",
+          "data-compression",
+          "coding-theory"
+        ]
+      }
+    ]
   },
   {
     "term": "losslessness",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The property of a compression or transformation process that allows the original data to be perfectly reconstructed from the encoded form with no information discarded.",
+        "example": "Huffman coding guarantees losslessness because the original symbol sequence can always be recovered from the binary tree.",
+        "register": "technical",
+        "tags": [
+          "information-theory",
+          "data-compression"
+        ]
+      }
+    ]
   },
   {
     "term": "stochasticity",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The characteristic of a system or process that involves inherent randomness or probabilistic variability, as opposed to deterministic behavior.",
+        "example": "Stochasticity in neural firing rates means that identical stimuli can produce different response patterns across trials.",
+        "register": "technical",
+        "tags": [
+          "information-theory",
+          "probability",
+          "systems-theory"
+        ]
+      }
+    ]
   },
   {
     "term": "homeostasis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The self-regulating tendency of a system to maintain internal variables within a stable equilibrium range despite external perturbations.",
+        "example": "Homeostasis in living organisms is achieved through negative feedback loops that counter deviations from set points.",
+        "register": "technical",
+        "tags": [
+          "systems-theory",
+          "biology",
+          "cybernetics"
+        ]
+      }
+    ]
   },
   {
     "term": "autopoiesis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The property of a system that continuously produces and reproduces its own components through internal processes, thereby maintaining its organizational closure and identity.",
+        "example": "Maturana and Varela introduced autopoiesis to characterize living cells as networks that generate their own boundary conditions.",
+        "register": "technical",
+        "tags": [
+          "systems-theory",
+          "biology",
+          "complexity-science"
+        ]
+      }
+    ]
   },
   {
     "term": "equifinality",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The capacity of an open system to reach the same final state from different initial conditions and via different pathways.",
+        "example": "Equifinality in biological development means multiple genetic or environmental trajectories can produce the same adult phenotype.",
+        "register": "technical",
+        "tags": [
+          "systems-theory",
+          "complexity-science"
+        ]
+      }
+    ]
   },
   {
     "term": "morphogenesis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The biological and systems-theoretic process by which an organism, tissue, or complex system develops its shape, form, and spatial organization through coordinated cellular and physical processes.",
+        "example": "Turing showed that morphogenesis could arise from the interaction of diffusing chemical activators and inhibitors.",
+        "register": "technical",
+        "tags": [
+          "systems-theory",
+          "biology",
+          "complexity-science"
+        ]
+      }
+    ]
   },
   {
     "term": "attractor",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A set of states toward which a dynamical system tends to evolve from a wide variety of initial conditions, representing the long-term behavior of the system.",
+        "example": "The Lorenz attractor is a strange attractor whose trajectories never repeat yet remain bounded in phase space.",
+        "register": "technical",
+        "tags": [
+          "systems-theory",
+          "dynamical-systems",
+          "chaos-theory"
+        ]
+      }
+    ]
   },
   {
     "term": "bifurcation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A qualitative change in the structure of a dynamical system's behavior that occurs when a parameter crosses a critical threshold, producing a sudden shift in attractors or stability.",
+        "example": "A pitchfork bifurcation occurs when a stable equilibrium splits into two new stable equilibria as a control parameter increases.",
+        "register": "technical",
+        "tags": [
+          "systems-theory",
+          "dynamical-systems",
+          "complexity-science"
+        ]
+      }
+    ]
   },
   {
     "term": "perturbation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A small deviation or disturbance applied to a system's state or parameters, used to probe stability, sensitivity, and response dynamics.",
+        "example": "Perturbation analysis of the ecosystem model revealed which species interactions most strongly affect overall stability.",
+        "register": "technical",
+        "tags": [
+          "systems-theory",
+          "dynamical-systems",
+          "applied-mathematics"
+        ]
+      }
+    ]
   },
   {
     "term": "recursion",
@@ -23419,37 +23773,124 @@
   {
     "term": "synergy",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The phenomenon in which the combined effect of interacting components exceeds the sum of their individual contributions, a hallmark of complex systems.",
+        "example": "The synergy between ant colony members enables collective foraging strategies that no individual could achieve alone.",
+        "register": "technical",
+        "tags": [
+          "systems-theory",
+          "complexity-science"
+        ]
+      }
+    ]
   },
   {
     "term": "emergence",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The arising of novel, higher-level properties or patterns in a complex system that cannot be straightforwardly predicted from or reduced to the properties of the system's individual components.",
+        "example": "Consciousness is often cited as an emergent property of neural networks rather than a property of individual neurons.",
+        "register": "technical",
+        "tags": [
+          "systems-theory",
+          "complexity-science",
+          "philosophy-of-mind"
+        ]
+      }
+    ]
   },
   {
     "term": "holism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The explanatory stance that a system's properties and behavior can only be adequately understood by examining the whole, because the parts acquire meaning only through their interrelations.",
+        "example": "Holism in ecology holds that an ecosystem's resilience cannot be inferred from the properties of isolated species.",
+        "register": "technical",
+        "tags": [
+          "systems-theory",
+          "philosophy-of-science"
+        ]
+      }
+    ]
   },
   {
     "term": "reductionism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The methodological and ontological view that complex systems and phenomena can be fully explained by analyzing and decomposing them into their simpler constituent parts.",
+        "example": "Molecular biology's success is often cited as a vindication of reductionism in the life sciences.",
+        "register": "technical",
+        "tags": [
+          "philosophy-of-science",
+          "systems-theory"
+        ]
+      }
+    ]
   },
   {
     "term": "feedforward",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A control mechanism in which a system anticipates future disturbances and adjusts its output proactively, before any error signal is detected, in contrast to feedback.",
+        "example": "The cerebellum is thought to implement feedforward control by generating predictive motor commands based on internal models.",
+        "register": "technical",
+        "tags": [
+          "systems-theory",
+          "control-theory",
+          "neuroscience"
+        ]
+      }
+    ]
   },
   {
     "term": "teleonomy",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The appearance of purpose or goal-directedness in biological and complex systems that arises from adaptive evolutionary processes rather than intentional design.",
+        "example": "Teleonomy explains why the eye appears perfectly designed for vision without invoking a deliberate designer.",
+        "register": "technical",
+        "tags": [
+          "systems-theory",
+          "biology",
+          "philosophy-of-science"
+        ]
+      }
+    ]
   },
   {
     "term": "fractal",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A geometric or mathematical object exhibiting self-similarity at multiple scales, such that parts of the structure resemble the whole when magnified.",
+        "example": "The coastline of Norway is often analyzed as a fractal because its irregularity persists at every level of measurement resolution.",
+        "register": "technical",
+        "tags": [
+          "complexity-science",
+          "mathematics"
+        ]
+      }
+    ]
   },
   {
     "term": "percolation",
@@ -23459,7 +23900,20 @@
   {
     "term": "criticality",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The condition of a complex system poised at a phase transition boundary, where it exhibits maximal sensitivity, long-range correlations, and scale-free fluctuations.",
+        "example": "The brain operating at criticality is hypothesized to maximize information transmission and dynamic range across neural networks.",
+        "register": "technical",
+        "tags": [
+          "complexity-science",
+          "physics",
+          "systems-theory"
+        ]
+      }
+    ]
   },
   {
     "term": "panarchy",
