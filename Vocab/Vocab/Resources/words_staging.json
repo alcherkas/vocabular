@@ -34408,8 +34408,30 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The specialized junction between two neurons, or between a neuron and an effector cell such as a muscle, across which a nerve impulse is transmitted via chemical neurotransmitters or, less commonly, electrical coupling.",
+        "example": "When the action potential reaches the presynaptic terminal, calcium influx triggers vesicles to fuse with the membrane and release neurotransmitters into the synapse.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuroanatomy",
+          "cell biology",
+          "signaling"
+        ]
+      },
+      {
+        "definition": "Used figuratively to denote any critical point of connection or communication between systems, people, or ideas.",
+        "example": "The conference served as a synapse between academic researchers and clinical practitioners, enabling knowledge to flow in both directions.",
+        "register": "formal",
+        "tags": [
+          "figurative",
+          "communication",
+          "interdisciplinary"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34420,8 +34442,30 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The outer layer of gray matter that covers the cerebral hemispheres of the brain, responsible for higher cognitive functions including perception, language, reasoning, and voluntary movement.",
+        "example": "Damage to the visual cortex in the occipital lobe can result in cortical blindness even when the eyes themselves are intact.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuroanatomy",
+          "brain",
+          "cognition"
+        ]
+      },
+      {
+        "definition": "The outer layer of various other organs, distinguished from the inner medulla; for example, the adrenal cortex or renal cortex.",
+        "example": "The adrenal cortex secretes corticosteroids such as cortisol, which regulate metabolism and immune responses.",
+        "register": "technical",
+        "tags": [
+          "anatomy",
+          "endocrinology",
+          "organ structure"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34430,10 +34474,22 @@
   {
     "term": "limbic system",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A set of interconnected brain structures—including the hippocampus, amygdala, thalamus, and hypothalamus—that regulate emotion, memory formation, motivation, and certain aspects of autonomic function.",
+        "example": "The therapist explained that trauma responses are largely mediated by the limbic system, which can trigger fear reactions before conscious thought occurs.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuroanatomy",
+          "emotion",
+          "memory"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34444,8 +34500,31 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The long, slender projection of a neuron that conducts electrical impulses (action potentials) away from the cell body toward synaptic terminals, where signals are transmitted to other neurons or effector cells.",
+        "example": "Motor neuron axons can extend over a meter from the spinal cord to the muscles of the lower limb, making them among the longest cells in the human body.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuroanatomy",
+          "cell biology",
+          "electrophysiology"
+        ]
+      },
+      {
+        "definition": "The myelin-sheathed nerve fiber along which signal conduction speed is greatly increased by saltatory conduction between nodes of Ranvier.",
+        "example": "In multiple sclerosis, the myelin sheath surrounding axons is destroyed, slowing or blocking the transmission of electrical signals and causing neurological symptoms.",
+        "register": "technical",
+        "tags": [
+          "myelin",
+          "multiple sclerosis",
+          "demyelination",
+          "conduction velocity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34456,8 +34535,20 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A chemical messenger synthesized and released by a presynaptic neuron into the synaptic cleft that binds to receptor proteins on the postsynaptic cell, producing excitatory or inhibitory effects.",
+        "example": "Low levels of the neurotransmitter serotonin have been associated with depressive disorders, which is why SSRIs aim to increase its availability in synaptic clefts.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "pharmacology",
+          "synapse",
+          "chemical signaling"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34468,8 +34559,31 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A seahorse-shaped brain structure located in the medial temporal lobe, critical for the consolidation of new declarative memories from short-term to long-term storage and for spatial navigation.",
+        "example": "H.M., a famous patient whose hippocampus was surgically removed to treat epilepsy, subsequently lost the ability to form any new long-term memories.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuroanatomy",
+          "memory",
+          "temporal lobe"
+        ]
+      },
+      {
+        "definition": "A brain region that is one of the first areas damaged in Alzheimer's disease, correlating with the early symptoms of memory loss.",
+        "example": "Neuroimaging studies show that hippocampal volume decreases significantly before overt cognitive decline appears in patients at risk for Alzheimer's disease.",
+        "register": "technical",
+        "tags": [
+          "Alzheimer's disease",
+          "neurodegeneration",
+          "aging",
+          "memory loss"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34480,8 +34594,32 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An almond-shaped cluster of nuclei deep within the temporal lobe that plays a central role in processing emotions—particularly fear and aggression—and in forming emotionally charged memories.",
+        "example": "When participants viewed threatening faces in the fMRI study, activation of the amygdala was significantly higher than during neutral expressions.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuroanatomy",
+          "emotion",
+          "fear",
+          "memory"
+        ]
+      },
+      {
+        "definition": "A structure involved in modulating the stress response by activating the hypothalamic–pituitary–adrenal axis when a threat is perceived.",
+        "example": "Chronic stress can lead to structural changes in the amygdala, increasing its reactivity and contributing to anxiety disorders.",
+        "register": "technical",
+        "tags": [
+          "stress",
+          "anxiety",
+          "HPA axis",
+          "neuroplasticity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34492,8 +34630,31 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large, folded brain structure located at the posterior base of the skull that coordinates voluntary movements, refines motor output, maintains balance and posture, and contributes to motor learning.",
+        "example": "Damage to the cerebellum typically produces ataxia—an inability to coordinate smooth, voluntary movements—rather than paralysis.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuroanatomy",
+          "motor control",
+          "balance"
+        ]
+      },
+      {
+        "definition": "A region now understood to contribute to non-motor functions including timing, attention, and aspects of language processing.",
+        "example": "Emerging research suggests the cerebellum is involved in predictive coding for language, timing the onset of words and grammatical structures during speech comprehension.",
+        "register": "technical",
+        "tags": [
+          "cognitive neuroscience",
+          "language",
+          "timing",
+          "cerebellum"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34502,10 +34663,33 @@
   {
     "term": "prefrontal cortex",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The anterior portion of the frontal lobe responsible for executive functions, including working memory, decision-making, planning, impulse control, and the modulation of social behavior.",
+        "example": "Adolescents are more prone to impulsive decision-making because the prefrontal cortex does not fully mature until the mid-twenties.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuroanatomy",
+          "executive function",
+          "development"
+        ]
+      },
+      {
+        "definition": "A key region in the top-down regulation of emotions, exerting inhibitory control over the amygdala and playing a critical role in emotional regulation strategies such as cognitive reappraisal.",
+        "example": "Mindfulness-based interventions appear to increase gray matter density in the prefrontal cortex, enhancing the regulation of anxiety responses.",
+        "register": "technical",
+        "tags": [
+          "emotion regulation",
+          "mindfulness",
+          "anxiety",
+          "cognition"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34514,10 +34698,22 @@
   {
     "term": "action potential",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A rapid, transient depolarization of a neuron's membrane potential that propagates along the axon when threshold voltage is exceeded, resulting from the sequential opening of voltage-gated sodium and potassium channels.",
+        "example": "The all-or-nothing nature of the action potential means that once the threshold is reached, the neuron fires with full intensity regardless of the strength of the stimulus.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "electrophysiology",
+          "membrane potential",
+          "ion channels"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34526,10 +34722,34 @@
   {
     "term": "synaptic plasticity",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The ability of synaptic connections between neurons to change in strength—either potentiating or depressing—in response to patterns of neural activity, forming the cellular basis of learning and memory.",
+        "example": "Long-term potentiation is one of the most studied forms of synaptic plasticity, thought to underlie the formation of memories in the hippocampus.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "learning",
+          "memory",
+          "LTP",
+          "LTD"
+        ]
+      },
+      {
+        "definition": "Broadly, the structural and functional remodeling of synapses across development, experience, and recovery from injury.",
+        "example": "Rehabilitation following a stroke relies on synaptic plasticity allowing intact neural circuits to compensate for lost function.",
+        "register": "technical",
+        "tags": [
+          "neuroplasticity",
+          "rehabilitation",
+          "development",
+          "stroke"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34540,8 +34760,32 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A catecholamine neurotransmitter synthesized from tyrosine that plays a central role in reward, motivation, reinforcement learning, and motor control; associated with nucleus accumbens and basal ganglia circuits.",
+        "example": "The surge of dopamine released in response to an unexpected reward reinforces the behavior that preceded it, a mechanism central to addiction.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "reward",
+          "motivation",
+          "addiction",
+          "Parkinson's"
+        ]
+      },
+      {
+        "definition": "A hormone produced by the adrenal glands that acts peripherally as a vasodilator and diuretic, used clinically to treat heart failure and septic shock.",
+        "example": "In the intensive care unit, dopamine infusions are titrated carefully to maintain blood pressure without compromising renal blood flow.",
+        "register": "technical",
+        "tags": [
+          "pharmacology",
+          "critical care",
+          "cardiology",
+          "hormone"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34552,8 +34796,21 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A monoamine neurotransmitter synthesized from tryptophan and produced primarily in the gut and the raphe nuclei of the brainstem; regulates mood, appetite, sleep, and social behavior.",
+        "example": "Selective serotonin reuptake inhibitors increase synaptic serotonin levels by blocking the transporter responsible for its reabsorption after release.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "pharmacology",
+          "mood",
+          "depression",
+          "SSRIs"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34564,8 +34821,20 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A catecholamine neurotransmitter and hormone—also called noradrenaline—released by the locus coeruleus and adrenal medulla that mediates arousal, attention, and the fight-or-flight stress response by increasing heart rate and blood pressure.",
+        "example": "During acute stress, the adrenal glands flood the bloodstream with norepinephrine, sharpening focus and preparing muscles for rapid action.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "endocrinology",
+          "stress response",
+          "sympathetic nervous system"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34576,8 +34845,31 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The first neurotransmitter to be identified, synthesized from choline and acetyl-CoA; acts at neuromuscular junctions to trigger muscle contraction and in the central nervous system to modulate attention, arousal, and memory.",
+        "example": "Myasthenia gravis is an autoimmune disease in which antibodies attack acetylcholine receptors at the neuromuscular junction, leading to progressive muscle weakness.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "pharmacology",
+          "neuromuscular junction",
+          "memory",
+          "attention"
+        ]
+      },
+      {
+        "definition": "The primary neurotransmitter of the parasympathetic nervous system, slowing heart rate, stimulating digestion, and promoting glandular secretion.",
+        "example": "Organophosphate pesticides inhibit acetylcholinesterase, causing acetylcholine to accumulate at synapses and overstimulate the parasympathetic system.",
+        "register": "technical",
+        "tags": [
+          "parasympathetic",
+          "autonomic nervous system",
+          "toxicology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34586,10 +34878,23 @@
   {
     "term": "long-term potentiation",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A long-lasting increase in synaptic efficacy following high-frequency stimulation of a synapse, particularly in the hippocampus, thought to be a key cellular mechanism underlying learning and memory consolidation.",
+        "example": "NMDA receptors act as coincidence detectors in long-term potentiation, requiring both presynaptic glutamate release and postsynaptic depolarization to open and allow calcium influx.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "memory",
+          "synaptic plasticity",
+          "NMDA",
+          "hippocampus"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34600,8 +34905,21 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The progressive loss of neuronal structure, function, and ultimately viability, underlying diseases such as Alzheimer's, Parkinson's, Huntington's, and ALS.",
+        "example": "The abnormal aggregation of alpha-synuclein protein in Lewy bodies is a hallmark of neurodegeneration in Parkinson's disease.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuropathology",
+          "Alzheimer's",
+          "Parkinson's",
+          "aging"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34610,10 +34928,22 @@
   {
     "term": "blood-brain barrier",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A highly selective semipermeable border of endothelial cells and tight junctions that separates circulating blood from the brain's extracellular fluid, protecting the central nervous system from pathogens and most toxins while allowing passage of essential molecules.",
+        "example": "Many promising cancer drugs fail to treat brain tumors effectively because they cannot penetrate the blood-brain barrier in sufficient concentrations.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "pharmacology",
+          "neuroanatomy",
+          "drug delivery"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34622,10 +34952,23 @@
   {
     "term": "default mode network",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large-scale brain network—including medial prefrontal cortex, posterior cingulate cortex, and angular gyrus—that is active during rest, mind-wandering, self-referential thought, episodic memory retrieval, and social cognition, and deactivates during externally directed tasks.",
+        "example": "Atypical default mode network connectivity has been observed in autism spectrum disorder, potentially reflecting differences in self-referential and social cognitive processing.",
+        "register": "technical",
+        "tags": [
+          "cognitive neuroscience",
+          "fMRI",
+          "resting state",
+          "self-referential",
+          "mind-wandering"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34636,8 +34979,20 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A paired, ovoid gray matter structure at the center of the brain that acts as the primary relay station for sensory (except olfactory) and motor signals to the cerebral cortex, and plays a key role in regulating consciousness and alertness.",
+        "example": "Damage to the thalamus can cause a wide range of sensory and motor deficits depending on which relay nuclei are affected.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuroanatomy",
+          "sensory relay",
+          "consciousness"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34648,8 +35003,31 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The set of observable physical and biochemical characteristics of an organism—including morphology, physiology, and behavior—that result from the interaction of its genotype with the environment.",
+        "example": "Two plants with identical genotypes can display markedly different phenotypes when grown under contrasting soil and light conditions.",
+        "register": "technical",
+        "tags": [
+          "genetics",
+          "biology",
+          "evolution",
+          "gene-environment interaction"
+        ]
+      },
+      {
+        "definition": "In medicine, the clinical presentation of a disease or condition, encompassing symptoms, signs, and measurable traits used to classify patients.",
+        "example": "Researchers stratified patients by phenotype—distinguishing obesity-related from autoimmune diabetes—to test whether the treatments had differential effects.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "clinical genetics",
+          "disease classification",
+          "precision medicine"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34660,8 +35038,21 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The genetic constitution of an organism, comprising all of its heritable DNA; also used specifically to refer to the alleles present at one or more loci relevant to a trait or disease.",
+        "example": "Knowing a patient's BRCA1 genotype allows clinicians to assess their inherited risk for breast and ovarian cancer and recommend appropriate surveillance.",
+        "register": "technical",
+        "tags": [
+          "genetics",
+          "genomics",
+          "heredity",
+          "allele",
+          "DNA"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34670,10 +35061,34 @@
   {
     "term": "natural selection",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The evolutionary mechanism proposed by Charles Darwin in which individuals with heritable traits that increase their reproductive success in a given environment pass those traits on at higher rates, causing allele frequencies to shift over generations.",
+        "example": "The rapid emergence of antibiotic-resistant bacteria is a striking example of natural selection acting on variation in microbial populations.",
+        "register": "technical",
+        "tags": [
+          "evolutionary biology",
+          "genetics",
+          "Darwin",
+          "adaptation",
+          "fitness"
+        ]
+      },
+      {
+        "definition": "Used more broadly to describe any selective process that filters variants based on functional criteria, including non-biological contexts such as cultural evolution or artificial selection.",
+        "example": "Some economists apply the metaphor of natural selection to market competition, arguing that inefficient firms are eliminated just as poorly adapted organisms are.",
+        "register": "formal",
+        "tags": [
+          "economics",
+          "social science",
+          "metaphor",
+          "evolution"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34684,8 +35099,31 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A heritable change in the nucleotide sequence of an organism's genome, ranging from a single base substitution (point mutation) to large chromosomal rearrangements; may be neutral, beneficial, or deleterious.",
+        "example": "The sickle-cell mutation is a single nucleotide substitution in the HBB gene that changes one amino acid in hemoglobin, conferring resistance to malaria in heterozygotes but causing disease in homozygotes.",
+        "register": "technical",
+        "tags": [
+          "genetics",
+          "molecular biology",
+          "evolution",
+          "disease",
+          "DNA"
+        ]
+      },
+      {
+        "definition": "Any sudden, discontinuous change in the character or nature of something; used figuratively outside biology to indicate a radical transformation.",
+        "example": "The startup's business model underwent a rapid mutation when it pivoted from hardware sales to a subscription-based service.",
+        "register": "general",
+        "tags": [
+          "figurative",
+          "change",
+          "transformation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34694,10 +35132,23 @@
   {
     "term": "gene expression",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The multi-step process by which the information encoded in a gene is used to produce a functional product—typically a protein via transcription and translation—and which is regulated at multiple levels to control when, where, and how much product is made.",
+        "example": "Single-cell RNA sequencing allows researchers to profile gene expression in thousands of individual cells simultaneously, revealing the molecular heterogeneity within a tissue.",
+        "register": "technical",
+        "tags": [
+          "molecular biology",
+          "genetics",
+          "transcription",
+          "translation",
+          "RNA"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34708,8 +35159,33 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The study of heritable changes in gene expression or cellular phenotype caused by mechanisms other than alterations in the DNA sequence itself, including DNA methylation, histone modification, and chromatin remodeling.",
+        "example": "Epigenetics research has shown that early childhood adversity can leave chemical marks on the genome that alter stress-response genes and persist into adulthood.",
+        "register": "technical",
+        "tags": [
+          "genetics",
+          "molecular biology",
+          "development",
+          "environment",
+          "methylation"
+        ]
+      },
+      {
+        "definition": "More loosely, the field investigating how environmental exposures and experiences influence gene activity across generations, including transgenerational epigenetic inheritance.",
+        "example": "The Dutch Hunger Winter cohort studies suggest that famine experienced by grandparents may have epigenetic effects on metabolic traits in their grandchildren.",
+        "register": "technical",
+        "tags": [
+          "transgenerational",
+          "inheritance",
+          "environment",
+          "nutrition",
+          "population genetics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34720,8 +35196,21 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "One of two or more alternative forms of a gene that occupy the same locus on homologous chromosomes and that differ in their nucleotide sequence, potentially producing different phenotypic effects.",
+        "example": "The ABO blood group system is determined by three common alleles at a single locus, whose pairwise combinations yield four possible blood types.",
+        "register": "technical",
+        "tags": [
+          "genetics",
+          "heredity",
+          "locus",
+          "polymorphism",
+          "Mendelian genetics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34732,8 +35221,32 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A thread-like structure of DNA and associated proteins (histones) within the nucleus of eukaryotic cells that carries genetic information in the form of genes and is duplicated and distributed to daughter cells during cell division.",
+        "example": "Humans normally have 46 chromosomes arranged in 23 homologous pairs, one member of each pair inherited from each parent.",
+        "register": "technical",
+        "tags": [
+          "genetics",
+          "cell biology",
+          "DNA",
+          "heredity",
+          "cytogenetics"
+        ]
+      },
+      {
+        "definition": "The analogous circular DNA molecule in prokaryotic cells, along with any plasmids, constituting the organism's genome.",
+        "example": "The E. coli chromosome contains approximately 4,600 genes packed into a circular DNA molecule about 1.6 mm long when uncoiled.",
+        "register": "technical",
+        "tags": [
+          "microbiology",
+          "prokaryote",
+          "genome",
+          "bacterial genetics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34744,8 +35257,21 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A type of eukaryotic cell division in which a single parent cell with a replicated set of chromosomes divides into two genetically identical daughter cells, used during growth, tissue maintenance, and asexual reproduction.",
+        "example": "Errors in chromosome segregation during mitosis can produce aneuploid daughter cells, a common feature of cancer cells.",
+        "register": "technical",
+        "tags": [
+          "cell biology",
+          "genetics",
+          "cell division",
+          "cancer",
+          "development"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34756,8 +35282,21 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A specialized two-stage cell division in sexually reproducing organisms that produces four haploid gametes from a single diploid cell, incorporating genetic recombination (crossing over) and independent assortment to generate diversity.",
+        "example": "Nondisjunction during meiosis—when chromosomes fail to separate properly—can result in gametes with an abnormal number of chromosomes, leading to conditions such as trisomy 21 (Down syndrome).",
+        "register": "technical",
+        "tags": [
+          "cell biology",
+          "genetics",
+          "reproduction",
+          "gametes",
+          "genetic diversity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34766,10 +35305,23 @@
   {
     "term": "transcription factor",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A protein that binds to specific DNA sequences (promoters or enhancers) and interacts with the general transcription machinery to activate or repress the transcription of target genes, thereby regulating gene expression.",
+        "example": "The transcription factor p53 acts as the 'guardian of the genome', activating DNA repair genes and triggering apoptosis when cells sustain severe DNA damage.",
+        "register": "technical",
+        "tags": [
+          "molecular biology",
+          "genetics",
+          "gene regulation",
+          "transcription",
+          "cancer"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34780,8 +35332,21 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A molecular machine composed of ribosomal RNA and proteins found in all living cells that carries out translation—reading the sequence of codons in messenger RNA to synthesize a polypeptide chain in the correct order.",
+        "example": "Ribosomes can be free in the cytoplasm or attached to the rough endoplasmic reticulum; the latter directs newly synthesized proteins into the secretory pathway.",
+        "register": "technical",
+        "tags": [
+          "molecular biology",
+          "cell biology",
+          "protein synthesis",
+          "translation",
+          "RNA"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34792,8 +35357,33 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The monomer unit of nucleic acids (DNA and RNA), consisting of a nitrogenous base (adenine, guanine, cytosine, thymine, or uracil), a five-carbon sugar (deoxyribose or ribose), and one to three phosphate groups.",
+        "example": "A point mutation occurs when a single nucleotide in the DNA sequence is substituted, deleted, or inserted, potentially altering the encoded protein.",
+        "register": "technical",
+        "tags": [
+          "molecular biology",
+          "biochemistry",
+          "DNA",
+          "RNA",
+          "genetics"
+        ]
+      },
+      {
+        "definition": "Specific free nucleotides such as ATP (adenosine triphosphate) serve as the primary energy currency of cells, while others like cAMP act as intracellular signaling molecules.",
+        "example": "The enzyme ATP synthase harnesses the proton gradient across the inner mitochondrial membrane to phosphorylate ADP, producing the nucleotide ATP for cellular energy.",
+        "register": "technical",
+        "tags": [
+          "biochemistry",
+          "metabolism",
+          "ATP",
+          "energy",
+          "cell signaling"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34802,10 +35392,23 @@
   {
     "term": "protein folding",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The physical process by which a newly synthesized polypeptide chain acquires its stable, functional three-dimensional conformation, driven by hydrophobic interactions, hydrogen bonds, and van der Waals forces and often assisted by molecular chaperones.",
+        "example": "Misfolded proteins that escape quality control mechanisms can aggregate into insoluble fibrils, a process central to neurodegenerative diseases such as Alzheimer's and Parkinson's.",
+        "register": "technical",
+        "tags": [
+          "biochemistry",
+          "molecular biology",
+          "protein structure",
+          "chaperones",
+          "neurodegeneration"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -34814,10 +35417,23 @@
   {
     "term": "genetic drift",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The random fluctuation in allele frequencies from one generation to the next in a finite population, due to chance sampling events rather than natural selection; particularly pronounced in small or isolated populations.",
+        "example": "The founder effect—a form of genetic drift—explains why the Old Order Amish community has elevated rates of rare recessive disorders: the founding population carried those alleles at unusually high frequencies.",
+        "register": "technical",
+        "tags": [
+          "evolutionary biology",
+          "population genetics",
+          "allele frequency",
+          "founder effect",
+          "bottleneck"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
