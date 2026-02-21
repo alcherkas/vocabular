@@ -1174,3 +1174,29 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 
 ### Suggested improvement
 - Add a --since-commit flag to validate_words.py so agents can scope validation to only the entries changed in the current session, reducing noise from pre-existing issues in earlier batches.
+
+## [2025-07-14] [qa-14] [vocab/qa-14]
+
+### What went well
+- Preflight JSON validation passed immediately on both staging files (EN 430 entries, LT 1960 entries).
+- EN batch: exactly 35 relations-added entries, all passing schema validation; 34 approved, 1 enriched.
+- LT batch: exactly 35 relations-added entries, all passing schema validation; 32 approved, 3 enriched.
+- Three LT entries (prosenelis, prosenelė, pasiilgti) already carried qaNotes from the relations agent documenting in-place corrections; these were verified correct and promoted to approved.
+- validate_words.py --status approved passed cleanly for LT (420 entries); EN approved entries carry 26 pre-existing synonym-count errors from earlier batches, unchanged from preflight baseline.
+
+### Issues found and fixed
+- **EN `tincture`** (enriched): Example sentence said "gules and azure are metals" — factual error; gules and azure are colours, not metals. Corrected to "gules and azure are colours". qaNote added.
+- **LT `jų`** (enriched): relatedTerms contained duplicate entry "jos" → ["jie", "jos", "jo", "jos"]; duplicate removed.
+- **LT `kokie`** (enriched): relatedTerms contained duplicate entry "koks" → ["kokios", "koks", "kokia", "koks"]; duplicate removed.
+- **LT `kiek`** (enriched): Synonym "keliomis" is an instrumental plural case form of "kelios", not a lexical synonym for the interrogative adverb "kiek"; removed. "kiek daug" retained as approximate emphatic form.
+
+### What was harder than expected
+- The factual error in `tincture` was in the `example` field, not the `definition` field — required reading both fields carefully rather than only checking schema.
+- Lithuanian morphology makes it easy to confuse declined case forms with lexical synonyms; "keliomis" looked plausible at a glance but is an inflected form.
+
+### Decisions
+- Entries with pre-existing qaNotes from the relations agent (prosenelis, prosenelė, pasiilgti) treated as already-corrected and approved directly, since the current data matched the stated corrections.
+- 26 pre-existing synonym-count errors in earlier approved EN entries are out-of-scope for this batch and left unchanged.
+
+### Suggested improvement
+- Relations agents should include a second pass to deduplicate relatedTerms arrays before committing, to avoid simple copy-paste duplicates reaching the QA stage.
