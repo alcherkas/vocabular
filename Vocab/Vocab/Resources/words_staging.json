@@ -24128,7 +24128,7 @@
   {
     "term": "allophone",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24143,20 +24143,17 @@
       }
     ],
     "synonyms": [
-      "phonemic variant",
-      "phonetic variant"
+      "phonetic variant",
+      "positional variant"
     ],
-    "antonymTerms": [
-      "phoneme"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
+      "phoneme",
       "phonology",
       "phonetics",
-      "variant",
       "complementary distribution",
       "free variation"
-    ],
-    "qa_notes": "antonymTerms contains 'phoneme', which is the abstract type of which allophones are realisations—a hypernym/related concept, not a semantic antonym. Move 'phoneme' from antonymTerms to relatedTerms and supply a genuine antonym (e.g. 'phoneme' already covered in relatedTerms) or leave antonymTerms empty."
+    ]
   },
   {
     "term": "circumlocution",
@@ -24381,7 +24378,7 @@
   {
     "term": "felicity",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24406,21 +24403,19 @@
       }
     ],
     "synonyms": [
-      "happiness",
-      "bliss",
-      "aptness"
+      "aptness",
+      "appropriateness"
     ],
     "antonymTerms": [
-      "misery",
-      "unhappiness"
+      "infelicity",
+      "inappropriateness"
     ],
     "relatedTerms": [
       "speech act",
       "pragmatics",
       "performative",
-      "condition"
-    ],
-    "qa_notes": "Synonyms 'happiness' and 'bliss' and antonyms 'misery'/'unhappiness' refer to an everyday emotional-state sense that is absent from both defined meanings (speech-act theory; aptness of expression). Remove those and supply synonyms/antonyms that match the defined senses, e.g. synonyms: ['aptness', 'appropriateness'], antonyms: ['infelicity', 'inappropriateness']."
+      "illocutionary act"
+    ]
   },
   {
     "term": "sememe",
@@ -24693,7 +24688,7 @@
   {
     "term": "abduction",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24718,20 +24713,17 @@
       }
     ],
     "synonyms": [
-      "kidnapping",
-      "retroduction"
+      "retroduction",
+      "inference to best explanation"
     ],
-    "antonymTerms": [
-      "deduction",
-      "induction"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
+      "deduction",
+      "induction",
       "inference",
       "reasoning",
-      "hypothesis",
-      "logic"
-    ],
-    "qa_notes": "Two issues: (1) Synonym 'kidnapping' maps to a physical-abduction sense not covered by either meaning—remove it. (2) antonymTerms ['deduction', 'induction'] are contrasting types of inference (as the second meaning itself notes), not semantic opposites of abduction; move them to relatedTerms and leave antonymTerms empty."
+      "hypothesis"
+    ]
   },
   {
     "term": "qualisign",
@@ -24911,7 +24903,7 @@
   {
     "term": "polyphony",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "technical",
     "meanings": [
@@ -24936,7 +24928,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "polyvocality",
+      "multivoicedness"
+    ],
     "antonymTerms": [
       "monophony",
       "homophony"
@@ -24950,7 +24945,7 @@
   {
     "term": "prosody",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "technical",
     "meanings": [
@@ -24975,14 +24970,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "metrics",
+      "versification"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "meter",
       "scansion",
       "intonation",
-      "rhythm",
-      "versification"
+      "rhythm"
     ]
   },
   {
@@ -26607,7 +26604,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "literary",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An abrupt, jarring descent from the elevated or sublime to the trivial or ridiculous, either as an unintended failure of tone or as a deliberate comic device.",
@@ -26630,7 +26627,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sentimentality",
+      "mawkishness"
+    ],
     "antonymTerms": [
       "pathos",
       "sublimity"
@@ -26638,8 +26638,7 @@
     "relatedTerms": [
       "anticlimax",
       "mock-heroic",
-      "sublime",
-      "pathos"
+      "sublime"
     ]
   },
   {
@@ -26647,7 +26646,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A novel tracing the moral, psychological, and social development of a protagonist from youth to maturity.",
@@ -26660,7 +26659,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "coming-of-age novel",
+      "formation novel"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "coming-of-age",
@@ -26673,7 +26675,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In Aristotelian poetics, the purging or clarification of pity and fear that tragedy effects in its audience.",
@@ -26696,7 +26698,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "purgation",
+      "emotional release"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "anagnorisis",
@@ -26710,7 +26715,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Bakhtin's term for the intrinsic connectedness of spatial and temporal relations that shapes the meaning-making conventions of a literary genre.",
@@ -26723,7 +26728,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "narrative spacetime",
+      "time-space"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "heteroglossia",
@@ -26737,7 +26745,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A critical practice, associated with Derrida, that exposes how texts depend on unstable binary oppositions and how their meaning is endlessly deferred.",
@@ -26760,7 +26768,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "deconstructive analysis",
+      "poststructuralist critique"
+    ],
     "antonymTerms": [
       "construction"
     ],
@@ -26776,7 +26787,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The final resolution of the principal dramatic complications of a narrative, in which loose ends are tied and the consequences of the climax become clear.",
@@ -26789,14 +26800,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "conclusion",
+      "unraveling"
+    ],
     "antonymTerms": [
       "exposition",
       "inciting incident"
     ],
     "relatedTerms": [
       "resolution",
-      "dénouement",
       "falling action",
       "catastrophe"
     ]
@@ -26806,7 +26819,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The substitution of a harsh, blunt, or deliberately offensive expression for a neutral or positive one, often for rhetorical or satirical effect.",
@@ -26819,7 +26832,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "cacophemism",
+      "pejorative expression"
+    ],
     "antonymTerms": [
       "euphemism"
     ],
@@ -26835,7 +26851,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In Russian Formalist narratology, the raw chronological sequence of story events as they would have occurred in the fictional world, independent of how they are narrated.",
@@ -26848,12 +26864,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "histoire",
+      "story content"
+    ],
     "antonymTerms": [
       "sjuzhet"
     ],
     "relatedTerms": [
-      "sjuzhet",
       "story",
       "plot",
       "diegesis"
@@ -26864,7 +26882,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The stylistic technique of making a linguistic or structural element conspicuous by deviating from standard usage or by systematic repetition, thereby drawing attention to the form of the text itself.",
@@ -26877,7 +26895,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "actualization",
+      "prominence"
+    ],
     "antonymTerms": [
       "automatization",
       "backgrounding"
@@ -26894,7 +26915,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A compound metaphorical expression, typical of Old Norse and Old English poetry, that substitutes for a simple noun.",
@@ -26908,7 +26929,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "poetic compound",
+      "skaldic metaphor"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "compound metaphor",
@@ -26922,7 +26946,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In narratology, a transgression of the boundary between different narrative levels, such as a character from a story becoming aware of or interacting with the narrator or reader.",
@@ -26945,7 +26969,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "transumption",
+      "narrative transgression"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "mise en abyme",
@@ -26959,7 +26986,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A narrative or artistic device in which a work contains a small-scale copy or reflection of itself, creating an effect of infinite regression.",
@@ -26973,7 +27000,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "infinite regress",
+      "recursive embedding"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "metalepsis",
@@ -26987,7 +27017,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The deliberate creation of myth or mythological worlds by a writer, especially as a sustained imaginative project that gives a body of literature an internally consistent cosmology.",
@@ -27001,7 +27031,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "myth-making",
+      "mythogenesis"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "world-building",
@@ -27015,7 +27048,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In Aristotelian dramatic theory, the sudden reversal of fortune that propels the tragic hero from prosperity to catastrophe or from ignorance to self-knowledge.",
@@ -27029,7 +27062,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "peripety",
+      "dramatic reversal"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "anagnorisis",
@@ -27050,7 +27086,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In Russian Formalist narratology, the particular ordering, selection, and arrangement of story events as they are actually presented in the text.",
@@ -27064,12 +27100,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "syuzhet",
+      "discours"
+    ],
     "antonymTerms": [
       "fabula"
     ],
     "relatedTerms": [
-      "fabula",
       "plot",
       "discourse",
       "narrative order"
@@ -27080,7 +27118,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "literary",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A narrative voice whose account of events is rendered suspect by self-interest, limited knowledge, psychological instability, or moral obtuseness, requiring the reader to read against or beyond the narration.",
@@ -27093,7 +27131,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "untrustworthy narrator",
+      "undependable narrator"
+    ],
     "antonymTerms": [
       "reliable narrator",
       "omniscient narrator"
@@ -27110,7 +27151,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A rhetorical figure in which a single word—typically a verb—governs two or more words or phrases that differ in syntactic or semantic relationship to it.",
@@ -27123,7 +27164,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "conjunctive trope",
+      "yoking figure"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "syllepsis",
@@ -27137,7 +27181,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Derrida's term for the Western philosophical tradition's privileging of speech over writing, and more broadly its assumption that language can be grounded in a transcendent, self-present origin of meaning.",
@@ -27151,7 +27195,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "linguocentrism",
+      "language centrism"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "deconstruction",
@@ -27193,7 +27240,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The technique in drawing and painting of depicting an object or figure as it appears from a specific viewpoint, compressing apparent length to create an illusion of depth.",
@@ -27206,7 +27253,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "spatial compression",
+      "optical compression"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "perspective",
@@ -27220,7 +27270,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A Surrealist technique in which a textured surface is placed beneath paper and rubbed with pencil or crayon to produce images, used by Max Ernst to stimulate the unconscious imagination.",
@@ -27233,7 +27283,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "rubbing technique",
+      "surface rubbing"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "grattage",
@@ -27247,7 +27300,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In psychology and aesthetics, a unified perceptual whole whose properties cannot be reduced to the sum of its parts, as studied by Gestalt psychology.",
@@ -27270,7 +27323,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "configuration",
+      "perceptual whole"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "figure-ground",
@@ -27284,7 +27340,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An opaque water-based paint made by adding white pigment or chalk to watercolour, producing a matte, flat finish.",
@@ -27297,7 +27353,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "opaque watercolour",
+      "designer colour"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "watercolour",
@@ -27311,7 +27370,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A Surrealist technique in which a canvas is covered with paint and then scraped with a palette knife or similar tool to produce unexpected textures and forms.",
@@ -27324,7 +27383,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "scraping technique",
+      "surface scraping"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "frottage",
@@ -27338,7 +27400,7 @@
     "language": "en",
     "partOfSpeech": "adjective",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In aesthetics and art history, denoting a style characterized by distorted human or animal forms, fantastical hybrids, and extravagant ornamentation, originating in Roman decorative painting.",
@@ -27363,7 +27425,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "bizarre",
+      "monstrous"
+    ],
     "antonymTerms": [
       "naturalistic",
       "realistic"
@@ -27380,7 +27445,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A printmaking technique in which an image is incised or etched into a metal plate; the incised grooves hold ink which is then transferred to paper under pressure.",
@@ -27403,7 +27468,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "incised print",
+      "engraved impression"
+    ],
     "antonymTerms": [
       "relief print",
       "cameo"
@@ -27421,7 +27489,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A work of art, literature, or music that imitates the style of another artist or period, typically as a respectful homage rather than parody.",
@@ -27445,13 +27513,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "imitation",
+      "stylistic borrowing"
+    ],
     "antonymTerms": [
       "parody",
       "original work"
     ],
     "relatedTerms": [
-      "parody",
       "homage",
       "intertextuality",
       "bricolage"
@@ -27462,7 +27532,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The greenish or brownish coating that forms on bronze or copper through oxidation, also artificially applied by conservators and artists.",
@@ -27486,7 +27556,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "verdigris coating",
+      "oxidation bloom"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "oxidation",
@@ -27507,7 +27580,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The practice of painting outdoors directly from nature rather than in a studio, allowing the artist to capture transient effects of light and atmosphere.",
@@ -27521,14 +27594,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "outdoor painting",
+      "natural light painting"
+    ],
     "antonymTerms": [
       "studio painting"
     ],
     "relatedTerms": [
       "Impressionism",
       "landscape painting",
-      "en plein air",
       "pochade"
     ]
   },
@@ -27544,7 +27619,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A painting technique in which a thin, broken layer of opaque or semi-opaque paint is dragged over a dry underlayer, allowing the colour beneath to show through irregularly.",
@@ -27557,12 +27632,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "broken colour",
+      "textured overpainting"
+    ],
     "antonymTerms": [
       "glazing"
     ],
     "relatedTerms": [
-      "glazing",
       "underpainting",
       "impasto",
       "dry-brush technique"
@@ -27573,7 +27650,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An aesthetic category, developed by Burke and Kant, denoting an experience of overwhelming greatness, power, or vastness that exceeds rational comprehension and provokes a mixture of awe and terror.",
@@ -27587,7 +27664,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sublimity",
+      "the awe-inspiring"
+    ],
     "antonymTerms": [
       "beautiful",
       "picturesque"
