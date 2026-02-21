@@ -8127,213 +8127,1097 @@
   },
   {
     "term": "pilaster",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A rectangular column projecting slightly from a wall, having a capital and base in the style of classical architecture.",
+        "example": "The entrance was flanked by ornate pilasters in the Corinthian style.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "classical"
+        ]
+      }
+    ],
+    "synonyms": [
+      "engaged column",
+      "half-column",
+      "attached column"
+    ],
+    "antonymTerms": [
+      "freestanding column",
+      "pier"
+    ],
+    "relatedTerms": [
+      "column",
+      "entablature",
+      "capital",
+      "colonnade",
+      "arcade",
+      "pillar"
+    ]
   },
   {
     "term": "buttress",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A projecting structure of masonry or brick built against a wall to strengthen or support it against lateral forces.",
+        "example": "The cathedral relied on flying buttresses to transfer the outward thrust of the nave vaults.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "masonry",
+          "structural"
+        ]
+      }
+    ],
+    "synonyms": [
+      "support",
+      "prop",
+      "abutment"
+    ],
+    "antonymTerms": [
+      "free wall",
+      "unbraced wall"
+    ],
+    "relatedTerms": [
+      "flying buttress",
+      "arch",
+      "vault",
+      "pier",
+      "cathedral",
+      "masonry",
+      "thrust"
+    ]
   },
   {
     "term": "spandrel",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The roughly triangular space between the outer curve of an arch and the rectangular frame surrounding it, or between adjacent arches.",
+        "example": "The spandrels of the bridge were decorated with carved coats of arms.",
+        "register": "technical",
+        "tags": [
+          "architecture"
+        ]
+      }
+    ],
+    "synonyms": [
+      "triangular panel",
+      "infill panel",
+      "arch spandrel"
+    ],
+    "antonymTerms": [
+      "keystone",
+      "crown"
+    ],
+    "relatedTerms": [
+      "arch",
+      "keystone",
+      "voussoir",
+      "intrados",
+      "extrados",
+      "tympanum",
+      "arcade"
+    ]
   },
   {
     "term": "mullion",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A vertical bar or post that divides the lights of a window, door, or screen.",
+        "example": "The Gothic window was divided into four lancet lights by slender stone mullions.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "windows"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dividing bar",
+      "window bar",
+      "glazing upright"
+    ],
+    "antonymTerms": [
+      "transom",
+      "horizontal rail"
+    ],
+    "relatedTerms": [
+      "transom",
+      "tracery",
+      "glazing bar",
+      "fenestration",
+      "casement",
+      "Gothic",
+      "light"
+    ]
   },
   {
     "term": "cornice",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A decorative molding that crowns the top of a wall or column, or runs along the junction of a wall and ceiling.",
+        "example": "The Victorian dining room featured a plaster cornice with an elaborate egg-and-dart pattern.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "ornament",
+          "molding"
+        ]
+      }
+    ],
+    "synonyms": [
+      "crown molding",
+      "top molding",
+      "coping"
+    ],
+    "antonymTerms": [
+      "baseboard",
+      "base molding"
+    ],
+    "relatedTerms": [
+      "entablature",
+      "frieze",
+      "architrave",
+      "pilaster",
+      "dentil",
+      "capital",
+      "molding"
+    ]
   },
   {
     "term": "cupola",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A small dome or turret forming or adorning a roof or ceiling, often serving as a lantern or lookout.",
+        "example": "The observatory was capped by a rotating copper cupola that housed the refracting telescope.",
+        "register": "technical",
+        "tags": [
+          "architecture"
+        ]
+      }
+    ],
+    "synonyms": [
+      "small dome",
+      "lantern",
+      "turret"
+    ],
+    "antonymTerms": [
+      "flat roof",
+      "parapet"
+    ],
+    "relatedTerms": [
+      "dome",
+      "rotunda",
+      "drum",
+      "pendentive",
+      "lantern",
+      "oculus",
+      "belvedere"
+    ]
   },
   {
     "term": "cantilever",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A long bracket or beam projecting from a support and carrying a load at its unsupported end, anchored only at one end.",
+        "example": "The architect's bold cantilever extended the terrace thirty feet beyond the cliff face.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "engineering",
+          "structural"
+        ]
+      }
+    ],
+    "synonyms": [
+      "projecting beam",
+      "bracket arm",
+      "overhang"
+    ],
+    "antonymTerms": [
+      "simply supported beam",
+      "anchored span"
+    ],
+    "relatedTerms": [
+      "bracket",
+      "truss",
+      "moment",
+      "load",
+      "overhang",
+      "structural engineering",
+      "beam"
+    ]
   },
   {
     "term": "colonnade",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A row of evenly spaced columns supporting a roof, arcade, or entablature.",
+        "example": "The museum's neoclassical colonnade stretched the full length of the façade.",
+        "register": "formal",
+        "tags": [
+          "architecture",
+          "classical"
+        ]
+      }
+    ],
+    "synonyms": [
+      "arcade",
+      "peristyle",
+      "portico"
+    ],
+    "antonymTerms": [
+      "blank wall",
+      "solid façade"
+    ],
+    "relatedTerms": [
+      "column",
+      "pillar",
+      "portico",
+      "arcade",
+      "peristyle",
+      "atrium",
+      "entablature"
+    ]
   },
   {
     "term": "julienne",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A culinary knife cut producing thin matchstick-shaped strips of food, typically two to three millimetres thick.",
+        "example": "The chef prepared a julienne of carrots and courgette to garnish the consommé.",
+        "register": "technical",
+        "tags": [
+          "culinary",
+          "knife skills"
+        ]
+      }
+    ],
+    "synonyms": [
+      "matchstick cut",
+      "fine strip cut",
+      "allumette"
+    ],
+    "antonymTerms": [
+      "brunoise",
+      "rough chop"
+    ],
+    "relatedTerms": [
+      "brunoise",
+      "chiffonade",
+      "batonnet",
+      "mirepoix",
+      "knife technique",
+      "garnish"
+    ]
   },
   {
     "term": "chiffonade",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A slicing technique in which herbs or leafy vegetables are stacked, rolled tightly, and cut across into thin ribbons.",
+        "example": "A chiffonade of fresh basil was scattered over the Caprese salad just before serving.",
+        "register": "technical",
+        "tags": [
+          "culinary",
+          "knife skills"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ribbon cut",
+      "fine shred",
+      "herb ribbon"
+    ],
+    "antonymTerms": [
+      "rough chop",
+      "julienne"
+    ],
+    "relatedTerms": [
+      "julienne",
+      "basil",
+      "mint",
+      "herb",
+      "garnish",
+      "knife technique",
+      "leafy greens"
+    ]
   },
   {
     "term": "confit",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A preparation of meat slow-cooked at low temperature in its own rendered fat, used both as a cooking method and a preservation technique.",
+        "example": "The duck confit was crisped in a hot pan and served over lentils with a mustard vinaigrette.",
+        "register": "technical",
+        "tags": [
+          "culinary",
+          "French cuisine",
+          "preservation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "fat-poached preparation",
+      "slow-cooked preserve",
+      "conserve"
+    ],
+    "antonymTerms": [
+      "roast",
+      "braise"
+    ],
+    "relatedTerms": [
+      "duck",
+      "cassoulet",
+      "slow cooking",
+      "rendered fat",
+      "preservation",
+      "French cuisine",
+      "rillettes"
+    ]
   },
   {
     "term": "blanching",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A cooking technique of plunging food briefly into boiling water and then immediately into ice water to halt cooking, preserving color, texture, and nutrients.",
+        "example": "Blanching the green beans for ninety seconds before shocking them in ice water kept them vibrant and crisp.",
+        "register": "technical",
+        "tags": [
+          "culinary",
+          "technique"
+        ]
+      }
+    ],
+    "synonyms": [
+      "parboiling",
+      "scalding",
+      "quick boiling"
+    ],
+    "antonymTerms": [
+      "braising",
+      "slow simmering"
+    ],
+    "relatedTerms": [
+      "shocking",
+      "ice bath",
+      "parboiling",
+      "vegetables",
+      "preservation",
+      "mise en place"
+    ]
   },
   {
     "term": "emulsification",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The process of dispersing one liquid into another immiscible liquid as tiny droplets, stabilised by an emulsifying agent, to form a uniform mixture.",
+        "example": "Vigorous whisking with a little mustard achieves the emulsification of oil and vinegar in a vinaigrette.",
+        "register": "technical",
+        "tags": [
+          "culinary",
+          "chemistry"
+        ]
+      }
+    ],
+    "synonyms": [
+      "emulsion formation",
+      "dispersion",
+      "homogenisation"
+    ],
+    "antonymTerms": [
+      "phase separation",
+      "breaking",
+      "demulsification"
+    ],
+    "relatedTerms": [
+      "emulsifier",
+      "lecithin",
+      "mayonnaise",
+      "vinaigrette",
+      "colloid",
+      "stabiliser",
+      "surfactant"
+    ]
   },
   {
     "term": "mirepoix",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A flavoring base made from diced onion, carrot, and celery sweated in butter or oil, used in stocks, sauces, soups, and braises.",
+        "example": "The veal stock begins with a classic mirepoix sweated gently until the vegetables are soft and translucent.",
+        "register": "technical",
+        "tags": [
+          "culinary",
+          "French cuisine",
+          "base"
+        ]
+      }
+    ],
+    "synonyms": [
+      "aromatic base",
+      "vegetable base",
+      "flavor base"
+    ],
+    "antonymTerms": [
+      "bouquet garni",
+      "spice blend"
+    ],
+    "relatedTerms": [
+      "soffritto",
+      "holy trinity",
+      "bouquet garni",
+      "stock",
+      "braise",
+      "onion",
+      "carrot",
+      "celery"
+    ]
   },
   {
     "term": "gastrique",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A classic French sauce component made by caramelising sugar and deglazing with vinegar, used as a sweet-and-sour base for savory sauces.",
+        "example": "The chef finished the pan-seared duck breast with a cherry gastrique that balanced sweetness and acidity.",
+        "register": "technical",
+        "tags": [
+          "culinary",
+          "French cuisine",
+          "sauce"
+        ]
+      }
+    ],
+    "synonyms": [
+      "sweet-sour reduction",
+      "caramel-vinegar reduction",
+      "aigre-doux base"
+    ],
+    "antonymTerms": [
+      "beurre blanc",
+      "velouté"
+    ],
+    "relatedTerms": [
+      "caramel",
+      "deglazing",
+      "reduction",
+      "vinegar",
+      "fruit sauce",
+      "duck",
+      "sauce"
+    ]
   },
   {
     "term": "deglazing",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The technique of adding liquid to a hot pan after sautéing or roasting in order to dissolve the caramelised browned bits of food stuck to the pan bottom, forming the basis of a sauce.",
+        "example": "Deglazing the roasting pan with cognac and stock loosened the fond and created a rich pan sauce.",
+        "register": "technical",
+        "tags": [
+          "culinary",
+          "technique"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pan reduction",
+      "fond release",
+      "sauce building"
+    ],
+    "antonymTerms": [
+      "dry roasting",
+      "steaming"
+    ],
+    "relatedTerms": [
+      "fond",
+      "pan sauce",
+      "reduction",
+      "stock",
+      "wine",
+      "cognac",
+      "sauté",
+      "gastrique"
+    ]
   },
   {
     "term": "tempering",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "In cooking, the technique of gradually raising the temperature of a cold or delicate ingredient by slowly incorporating a hot liquid to prevent curdling; also the controlled melting and cooling of chocolate to produce a stable crystalline structure.",
+        "example": "Tempering the eggs by whisking in a ladleful of hot cream before adding them to the saucepan prevented the custard from scrambling.",
+        "register": "technical",
+        "tags": [
+          "culinary",
+          "technique",
+          "chocolate"
+        ]
+      }
+    ],
+    "synonyms": [
+      "gradual heating",
+      "thermal stabilising",
+      "chocolate pre-crystallisation"
+    ],
+    "antonymTerms": [
+      "shocking",
+      "rapid cooling"
+    ],
+    "relatedTerms": [
+      "chocolate",
+      "custard",
+      "emulsification",
+      "thermometer",
+      "ganache",
+      "cream sauce",
+      "seizing"
+    ]
   },
   {
     "term": "roux",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A cooked mixture of equal parts fat and flour used as a thickening agent for sauces, soups, and stews.",
+        "example": "A blond roux cooked until it smells of hazelnut forms the base of a classic velouté sauce.",
+        "register": "technical",
+        "tags": [
+          "culinary",
+          "French cuisine",
+          "sauce"
+        ]
+      }
+    ],
+    "synonyms": [
+      "thickening base",
+      "fat-flour paste",
+      "liaison"
+    ],
+    "antonymTerms": [
+      "slurry",
+      "reduction"
+    ],
+    "relatedTerms": [
+      "béchamel",
+      "velouté",
+      "espagnole",
+      "thickening agent",
+      "sauce",
+      "gumbo",
+      "Cajun cooking"
+    ]
   },
   {
     "term": "umami",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A pleasant, savory taste sensation caused by glutamate and certain ribonucleotides, recognized as the fifth basic taste alongside sweet, sour, salty, and bitter.",
+        "example": "The aged Parmesan rind simmered in the broth lent a deep umami richness to the vegetable soup.",
+        "register": "general",
+        "tags": [
+          "culinary",
+          "taste science",
+          "Japanese"
+        ]
+      }
+    ],
+    "synonyms": [
+      "savory taste",
+      "glutamate flavor",
+      "fifth taste"
+    ],
+    "antonymTerms": [
+      "bitterness",
+      "sourness"
+    ],
+    "relatedTerms": [
+      "glutamate",
+      "MSG",
+      "miso",
+      "soy sauce",
+      "Parmesan",
+      "mushrooms",
+      "Maillard reaction",
+      "taste"
+    ]
   },
   {
     "term": "starboard",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The right-hand side of a ship or aircraft when facing forward toward the bow or nose.",
+        "example": "The lighthouse appeared off the starboard bow as the vessel entered the strait.",
+        "register": "technical",
+        "tags": [
+          "nautical",
+          "navigation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "right side",
+      "right-hand side",
+      "dexter side"
+    ],
+    "antonymTerms": [
+      "port",
+      "larboard"
+    ],
+    "relatedTerms": [
+      "port",
+      "larboard",
+      "bow",
+      "stern",
+      "beam",
+      "helm",
+      "navigation"
+    ]
   },
   {
     "term": "portside",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Located on or relating to the port (left) side of a ship or aircraft when facing forward.",
+        "example": "The portside lifeboats were launched first as the listing vessel began to roll.",
+        "register": "technical",
+        "tags": [
+          "nautical",
+          "navigation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "port",
+      "larboard",
+      "left-hand"
+    ],
+    "antonymTerms": [
+      "starboard",
+      "right-hand"
+    ],
+    "relatedTerms": [
+      "port",
+      "larboard",
+      "starboard",
+      "beam",
+      "hull",
+      "lifeboat",
+      "vessel"
+    ]
   },
   {
     "term": "gunwale",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The upper edge or rail along the side of a boat or ship, forming the top of the hull above the waterline.",
+        "example": "Waves were breaking over the gunwale and threatening to swamp the dinghy.",
+        "register": "technical",
+        "tags": [
+          "nautical",
+          "boat building"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rail",
+      "topsides rail",
+      "upper strake"
+    ],
+    "antonymTerms": [
+      "keel",
+      "bilge"
+    ],
+    "relatedTerms": [
+      "keel",
+      "hull",
+      "freeboard",
+      "beam",
+      "rail",
+      "rowing",
+      "canoe",
+      "gunport"
+    ]
   },
   {
     "term": "scupper",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An opening cut in the side of a ship at deck level to allow water shipped on deck to drain overboard.",
+        "example": "After the wave swept across the foredeck, water rushed out through the scuppers on both sides.",
+        "register": "technical",
+        "tags": [
+          "nautical",
+          "drainage"
+        ]
+      }
+    ],
+    "synonyms": [
+      "deck drain",
+      "drain port",
+      "waterway outlet"
+    ],
+    "antonymTerms": [
+      "intake",
+      "sea cock"
+    ],
+    "relatedTerms": [
+      "freeboard",
+      "deck",
+      "hull",
+      "bilge pump",
+      "waterway",
+      "drainage",
+      "freeing port"
+    ]
   },
   {
     "term": "hawser",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A thick rope or steel cable used for mooring, towing, or securing a ship.",
+        "example": "The harbor tugs made fast their hawsers to the tanker's bow bollards before warping her into the berth.",
+        "register": "technical",
+        "tags": [
+          "nautical",
+          "rigging"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mooring line",
+      "tow cable",
+      "mooring rope"
+    ],
+    "antonymTerms": [
+      "fine line",
+      "messenger line"
+    ],
+    "relatedTerms": [
+      "bollard",
+      "mooring",
+      "capstan",
+      "towline",
+      "anchor chain",
+      "cleat",
+      "warp"
+    ]
   },
   {
     "term": "capstan",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A vertical rotating drum or cylinder on a ship used to wind in heavy rope, cable, or chain by turning it with bars or a motor.",
+        "example": "The crew walked the bars around the capstan to heave the anchor cable short.",
+        "register": "technical",
+        "tags": [
+          "nautical",
+          "equipment"
+        ]
+      }
+    ],
+    "synonyms": [
+      "windlass",
+      "drum winch",
+      "cable drum"
+    ],
+    "antonymTerms": [
+      "pay-out reel",
+      "free drum"
+    ],
+    "relatedTerms": [
+      "windlass",
+      "anchor",
+      "hawser",
+      "winch",
+      "bollard",
+      "mooring",
+      "chain"
+    ]
   },
   {
     "term": "keelson",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A longitudinal structural member fastened on top of a ship's keel on the inside of the hull, running parallel to it to reinforce the backbone of the vessel.",
+        "example": "The keelson was bolted to the keel through the floor timbers to stiffen the hull against hogging.",
+        "register": "technical",
+        "tags": [
+          "nautical",
+          "shipbuilding"
+        ]
+      }
+    ],
+    "synonyms": [
+      "inner keel",
+      "keel rider",
+      "sister keel"
+    ],
+    "antonymTerms": [
+      "outer keel",
+      "false keel"
+    ],
+    "relatedTerms": [
+      "keel",
+      "frame",
+      "hull",
+      "floor timber",
+      "garboard strake",
+      "shipbuilding",
+      "ribs"
+    ]
   },
   {
     "term": "binnacle",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A waist-high stand or housing fixed to a ship's deck that contains the magnetic compass, its corrector magnets, and a light for night use.",
+        "example": "The helmsman kept one eye on the binnacle compass throughout the night watch to hold the course.",
+        "register": "technical",
+        "tags": [
+          "nautical",
+          "navigation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "compass housing",
+      "compass stand",
+      "compass box"
+    ],
+    "antonymTerms": [
+      "GPS display",
+      "electronic chart"
+    ],
+    "relatedTerms": [
+      "compass",
+      "helm",
+      "navigation",
+      "pelorus",
+      "chronometer",
+      "chart table",
+      "deviation"
+    ]
   },
   {
     "term": "mizzenmast",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The third mast from the bow, or the aftermost mast, of a sailing vessel rigged with three or more masts.",
+        "example": "The schooner's mizzenmast carried a small spanker sail to help balance the helm in a following wind.",
+        "register": "technical",
+        "tags": [
+          "nautical",
+          "sailing",
+          "rigging"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mizzen",
+      "after mast",
+      "jigger mast"
+    ],
+    "antonymTerms": [
+      "foremast",
+      "bowsprit"
+    ],
+    "relatedTerms": [
+      "foremast",
+      "mainmast",
+      "rigging",
+      "schooner",
+      "ketch",
+      "yawl",
+      "yard",
+      "spanker"
+    ]
   },
   {
     "term": "boatswain",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A ship's petty officer in charge of the rigging, anchors, cables, and deck equipment, and responsible for supervising the work of the deck crew.",
+        "example": "The boatswain piped the hands to quarters as the frigate cleared the harbour entrance.",
+        "register": "technical",
+        "tags": [
+          "nautical",
+          "seamanship",
+          "rank"
+        ]
+      }
+    ],
+    "synonyms": [
+      "bosun",
+      "deck petty officer",
+      "bo's'n"
+    ],
+    "antonymTerms": [
+      "captain",
+      "helmsman"
+    ],
+    "relatedTerms": [
+      "bosun",
+      "rigging",
+      "anchor",
+      "crew",
+      "petty officer",
+      "hawser",
+      "foredeck",
+      "pipe"
+    ]
   },
   {
     "term": "freeboard",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The vertical distance between the waterline and the uppermost weathertight deck of a ship, indicating how much hull remains above the water when loaded.",
+        "example": "The heavily laden cargo vessel had almost no freeboard, riding dangerously low in the water.",
+        "register": "technical",
+        "tags": [
+          "nautical",
+          "ship design",
+          "safety"
+        ]
+      }
+    ],
+    "synonyms": [
+      "deck clearance",
+      "side height above waterline",
+      "reserve buoyancy height"
+    ],
+    "antonymTerms": [
+      "draft",
+      "draught"
+    ],
+    "relatedTerms": [
+      "draft",
+      "waterline",
+      "buoyancy",
+      "load line",
+      "Plimsoll line",
+      "displacement",
+      "tonnage"
+    ]
   },
   {
     "term": "choropleth",
