@@ -131,12 +131,17 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Status**: `[ ]`
 **Risk**: `medium`
 **Complexity**: `low`
-**Description**: Add `language: String` and `translation: String?` fields to `Word.swift` and update `WordService` to support loading `words_lt.json`.
-**Files to touch**: `Vocab/Vocab/Models/Word.swift`, `Vocab/Vocab/Services/WordService.swift`
+**Description**: Add `language: String`, `translation: String?`, and `uniqueKey: String` fields to `Word.swift`. Update `WordService` to support per-language loading. Update `SpeechService` to accept a language parameter.
+**Files to touch**: `Vocab/Vocab/Models/Word.swift`, `Vocab/Vocab/Services/WordService.swift`, `Vocab/Vocab/Services/SpeechService.swift`
 **Acceptance criteria**:
-- `Word` model has `language` (default `"en"`) and `translation` (optional)
-- `WordService.loadInitialWords` accepts a language parameter and resource name
+- `Word` model has `language: String` (default `"en"`) and `translation: String?` (nil for EN)
+- `Word` model has `@Attribute(.unique) var uniqueKey: String` (format `"language:term"`); `@Attribute(.unique)` removed from `term`
+- `WordData` codable struct updated with optional `language`, `translation` fields
+- `WordService.loadWords(language:resourceName:into:)` loads a specific language file, sets `uniqueKey` on each word
+- Migration function populates `uniqueKey` for existing words in DB
+- `SpeechService.speak(_:language:)` uses `"en-US"` for EN, `"lt-LT"` for LT; graceful fallback if LT voice unavailable
 - Both `words.json` and `words_lt.json` can be loaded independently
+- App builds without errors; existing EN words load correctly with defaults
 
 ---
 
@@ -174,11 +179,15 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Status**: `[ ]`
 **Risk**: `high`
 **Complexity**: `high`
-**Description**: Implement SM-2 spaced repetition algorithm for word scheduling.
-**Files to touch**: `Vocab/Vocab/Models/Word.swift` (add `nextReview: Date?`, `easeFactor: Double`), new `Vocab/Vocab/Services/SpacedRepetitionService.swift`, `Vocab/Vocab/Views/FlashcardsView.swift` (surface due words first)
+**Description**: Implement SM-2 spaced repetition algorithm for word scheduling. Add SR fields to Word model and create SpacedRepetitionService.
+**Files to touch**: `Vocab/Vocab/Models/Word.swift` (add `nextReview: Date?`, `easeFactor: Double`, `interval: Int`, `repetitions: Int`), new `Vocab/Vocab/Services/SpacedRepetitionService.swift`
 **Acceptance criteria**:
-- `SpacedRepetitionService.nextReview(for: word, quality: Int) -> Date` computes next review date
-- Flashcard deck shows overdue words first
+- `Word` model has SR fields: `nextReview: Date?`, `easeFactor: Double = 2.5`, `interval: Int = 0`, `repetitions: Int = 0`
+- `SpacedRepetitionService.updateSchedule(for:quality:)` implements SM-2 algorithm, updates Word's SR fields in-place
+- Quality mapping: 0–2 = incorrect (reset repetitions), 3–5 = correct (advance interval)
+- `easeFactor` never drops below 1.3
+- `nextReview` is set to `today + interval` days after each review
+- Existing words get default SR values via SwiftData lightweight migration (no data loss)
 - App builds and tests pass
 
 ---
@@ -257,30 +266,38 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ### `lt-session-flow`
 **Status**: `[ ]`
 **Risk**: `medium`
-**Complexity**: `intermediate`
-**Description**: Implement session start screen with language picker and session orchestration (select language → load words → present flashcards/quiz → show summary).
+**Complexity**: `high`
+**Description**: Implement session start screen with language picker, session orchestration via `SessionService` (@Observable state machine: idle → loading → active → complete), and session summary. Restructure ContentView tabs from 5 (Today/Cards/Quiz/Words/Progress) to 3 (Study/Words/Stats). Repurpose FlashcardsView and QuizView to accept session words as input.
 **Depends on**: `language-field`
-**Files to touch**: new `Vocab/Vocab/Views/SessionStartView.swift`, new `Vocab/Vocab/Views/SessionSummaryView.swift`, `Vocab/Vocab/Services/WordService.swift`, `Vocab/Vocab/ContentView.swift`
+**Files to touch**: new `Vocab/Vocab/Views/SessionStartView.swift`, new `Vocab/Vocab/Views/SessionSummaryView.swift`, new `Vocab/Vocab/Services/SessionService.swift`, `Vocab/Vocab/ContentView.swift`, `Vocab/Vocab/Views/FlashcardsView.swift`, `Vocab/Vocab/Views/QuizView.swift`, `Vocab/Vocab/Views/HomeView.swift`
 **Acceptance criteria**:
-- Language picker (EN / LT) shown at session start
-- Selected language filters all session content
-- Session ends with summary (items reviewed, correct/incorrect)
-- Partial progress saved if session exited early
+- Language picker (EN / LT) shown on Study tab; defaults to last-used language (stored in `UserDefaults`)
+- `SessionService` is `@Observable` with states: `idle`, `loading`, `active`, `complete`
+- `startSession(language:context:)` queries words for chosen language, builds session word list
+- FlashcardsView and QuizView accept `[Word]` parameter from session (not `@Query`)
+- Session ends with SessionSummaryView showing: items reviewed, correct/incorrect counts, next review estimate
+- Each card interaction immediately updates Word's SR fields and persists (AC-6: partial progress saved if exited early)
+- ContentView restructured to 3 tabs: Study (SessionStartView), Words (WordListView), Stats (StatsView)
+- Word-of-the-day integrated into Study tab idle state or Words tab
+- App builds without errors
 
 ---
 
 ### `lt-spaced-rep-per-lang`
 **Status**: `[ ]`
-**Risk**: `high`
-**Complexity**: `high`
-**Description**: Extend spaced repetition to be per-language — each word tracks its own SR state; session word selection filters by language and prioritizes overdue words.
+**Risk**: `medium`
+**Complexity**: `intermediate`
+**Description**: Integrate spaced repetition into the session flow with per-language word selection. SR state is inherently per-language because `language` and SR fields are both on the `Word` model — this task wires SR into session word selection and ensures cross-language independence.
 **Depends on**: `spaced-rep`, `language-field`
-**Files to touch**: `Vocab/Vocab/Models/Word.swift`, `Vocab/Vocab/Services/SpacedRepetitionService.swift`
+**Files to touch**: `Vocab/Vocab/Services/SessionService.swift`, `Vocab/Vocab/Services/SpacedRepetitionService.swift`
 **Acceptance criteria**:
-- Each word has independent SR state (next review date, ease factor)
-- Session selects overdue words for chosen language first, then new words
-- Skipping a language does not reset or penalize SR intervals
-- Overdue words capped per session (~10) to maintain 5-minute target
+- `SessionService.startSession(language:context:)` partitions words into overdue (`nextReview < now`) and new (`nextReview == nil`) for the selected language only
+- Overdue words sorted by `nextReview` ascending (most overdue first)
+- Session fills with up to `maxOverdue` (10) overdue words + up to `maxNew` (5) new words, total ≤ `maxSessionSize` (15)
+- Skipping a language for days/weeks does not reset SR intervals — overdue words simply accumulate and are capped per session
+- If no overdue and no new words remain for a language, session returns empty (triggers "all caught up" state)
+- Constants (`maxOverdue`, `maxNew`, `maxSessionSize`) are configurable for tuning
+- App builds without errors
 
 ---
 
@@ -288,13 +305,18 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Status**: `[ ]`
 **Risk**: `medium`
 **Complexity**: `intermediate`
-**Description**: Add Lithuanian-specific quiz modes (LT→EN translation, EN→LT translation) alongside existing EN definition-matching quiz.
+**Description**: Refactor quiz to support 4 modes via a new `QuizService`: EN term→definition, EN definition→term, LT term→EN translation, EN translation→LT term. Quiz mode auto-selected based on session language.
 **Depends on**: `language-field`, `lt-vocab-initial`
-**Files to touch**: `Vocab/Vocab/Views/QuizView.swift`, possibly new `Vocab/Vocab/Services/QuizService.swift`
+**Files to touch**: new `Vocab/Vocab/Services/QuizService.swift`, `Vocab/Vocab/Views/QuizView.swift`
 **Acceptance criteria**:
-- EN quiz: term → definition and definition → term modes
-- LT quiz: LT term → EN translation and EN translation → LT term modes
-- Quiz mode auto-selected based on session language
+- `QuizMode` enum with cases: `termToDefinition`, `definitionToTerm`, `termToTranslation`, `translationToTerm`
+- `QuizService.generateQuestion(for:mode:allWords:)` returns a `QuizQuestion` (prompt, correctAnswer, 4 options, source word)
+- Distractors drawn from same-language words using the same field as the correct answer
+- EN sessions alternate between `termToDefinition` and `definitionToTerm`
+- LT sessions alternate between `termToTranslation` and `translationToTerm`
+- QuizView updated to accept quiz mode and render questions accordingly
+- Minimum 4 words in the session's language required to generate a quiz question
+- App builds without errors
 
 ---
 
@@ -302,27 +324,34 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Status**: `[ ]`
 **Risk**: `low`
 **Complexity**: `low`
-**Description**: Add per-language stats breakdown to StatsView and per-language field to QuizResult.
+**Description**: Add per-language stats breakdown to StatsView and per-language field to QuizResult. All overview cards, mastery breakdown, and quiz history should be filterable by language.
 **Depends on**: `language-field`
 **Files to touch**: `Vocab/Vocab/Views/StatsView.swift`, `Vocab/Vocab/Models/QuizResult.swift`
 **Acceptance criteria**:
-- QuizResult model has `language` field
-- StatsView shows per-language breakdown: words seen, words mastered, accuracy
-- Stats filterable by language (EN / LT / All)
+- `QuizResult` model has `language: String` field (default `"en"`)
+- StatsView has a language picker segment (All / English / Lithuanian)
+- Overview cards (Total Words, Mastered, Quizzes Taken, Avg Score) filter by selected language
+- Mastery breakdown (Mastered/Familiar/Learning/New) filters by selected language
+- Quiz history chart and list filter by selected language
+- Existing QuizResult records default to `"en"` via SwiftData lightweight migration
+- App builds without errors
 
 ---
 
 ### `lt-session-timer`
 **Status**: `[ ]`
 **Risk**: `medium`
-**Complexity**: `intermediate`
-**Description**: Implement session sizing logic — cap sessions at ~10–15 items with overdue-word prioritization and 5-minute target.
-**Depends on**: `lt-spaced-rep-per-lang`
-**Files to touch**: new `Vocab/Vocab/Services/SessionService.swift`
+**Complexity**: `low`
+**Description**: Implement session sizing logic within `SessionService` — cap sessions at 10–15 items with overdue-word prioritization and 5-minute target. This task adds the word-selection algorithm to `SessionService` (created in `lt-session-flow`).
+**Depends on**: `lt-spaced-rep-per-lang`, `lt-session-flow`
+**Files to touch**: `Vocab/Vocab/Services/SessionService.swift`
 **Acceptance criteria**:
-- Session selects 10–15 items max
-- Overdue words prioritized (most overdue first), remaining slots filled with new words
-- "All caught up" state when no overdue and no new words remain
+- `SessionService.buildSession(language:context:)` returns `[Word]` of 10–15 items max
+- Algorithm: fetch all words for language → partition into overdue/new/upcoming → take up to 10 most-overdue + fill remaining with new words → shuffle
+- Configurable constants: `maxOverdue = 10`, `maxNew = 5`, `maxSessionSize = 15`
+- Returns empty array when no overdue and no new words (triggers "all caught up")
+- New users (zero history): all words are "new"; session draws up to `maxSessionSize` from word pool
+- App builds without errors
 
 ---
 
@@ -330,10 +359,13 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Status**: `[ ]`
 **Risk**: `low`
 **Complexity**: `low`
-**Description**: Handle all empty/edge states — no words loaded, no overdue words, all caught up, first-time user guidance.
+**Description**: Handle all empty/edge states per requirements: no words loaded for a language, no overdue words, all caught up, first-time user guidance, and Lithuanian TTS unavailability.
 **Depends on**: `lt-session-flow`
-**Files to touch**: `Vocab/Vocab/Views/SessionStartView.swift`, `Vocab/Vocab/Views/StatsView.swift`, various Views
+**Files to touch**: `Vocab/Vocab/Views/SessionStartView.swift`, `Vocab/Vocab/Views/SessionSummaryView.swift`, `Vocab/Vocab/Views/StatsView.swift`, `Vocab/Vocab/Views/WordListView.swift`
 **Acceptance criteria**:
-- Language option disabled with message if no words available for that language
-- "You're all caught up!" message when no words due and no new words
-- First-time user sees guidance to pick a language
+- Language option disabled with message ("No words available for [Language] yet") if `words.json` or `words_lt.json` missing/empty
+- "You're all caught up! 🎉" message when no overdue words and no new words remain for selected language
+- First-time user (no sessions ever) sees guidance to pick a language and start their first session
+- LT TTS button hidden if `AVSpeechSynthesisVoice(language: "lt-LT")` returns nil (no crash)
+- StatsView shows "No stats yet" for a language with zero quiz results
+- App builds without errors
