@@ -2,7 +2,9 @@ import SwiftUI
 import SwiftData
 
 struct FlashcardsView: View {
-    @Query(sort: \Word.term) private var words: [Word]
+    let words: [Word]
+    var onAnswer: ((Bool) -> Void)?
+
     @State private var currentIndex = 0
     @State private var isFlipped = false
     @State private var offset: CGSize = .zero
@@ -50,6 +52,32 @@ struct FlashcardsView: View {
                         // Progress indicator
                         ProgressView(value: Double(currentIndex + 1), total: Double(displayedWords.count))
                             .padding(.horizontal, 40)
+
+                        // Know / Don't Know buttons (session mode)
+                        if onAnswer != nil && isFlipped {
+                            HStack(spacing: 20) {
+                                Button {
+                                    onAnswer?(false)
+                                } label: {
+                                    Label("Don't Know", systemImage: "xmark.circle.fill")
+                                        .frame(maxWidth: .infinity)
+                                }
+                                .buttonStyle(.bordered)
+                                .tint(.red)
+                                .controlSize(.large)
+
+                                Button {
+                                    onAnswer?(true)
+                                } label: {
+                                    Label("Know It", systemImage: "checkmark.circle.fill")
+                                        .frame(maxWidth: .infinity)
+                                }
+                                .buttonStyle(.bordered)
+                                .tint(.green)
+                                .controlSize(.large)
+                            }
+                            .padding(.horizontal)
+                        }
                         
                         // Navigation buttons
                         HStack(spacing: 60) {
@@ -230,6 +258,6 @@ struct FlashcardView: View {
 }
 
 #Preview {
-    FlashcardsView()
+    FlashcardsView(words: [])
         .modelContainer(for: Word.self, inMemory: true)
 }

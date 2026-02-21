@@ -4,26 +4,19 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) private var context
     @State private var hasLoadedWords = false
+    @State private var sessionService = SessionService()
     
     var body: some View {
         TabView {
-            Tab("Today", systemImage: "sun.max.fill") {
-                HomeView()
-            }
-            
-            Tab("Cards", systemImage: "rectangle.stack.fill") {
-                FlashcardsView()
-            }
-            
-            Tab("Quiz", systemImage: "brain.head.profile") {
-                QuizView()
+            Tab("Study", systemImage: "book.circle.fill") {
+                SessionStartView(sessionService: sessionService)
             }
             
             Tab("Words", systemImage: "book.fill") {
                 WordListView()
             }
             
-            Tab("Progress", systemImage: "chart.line.uptrend.xyaxis") {
+            Tab("Stats", systemImage: "chart.line.uptrend.xyaxis") {
                 StatsView()
             }
         }

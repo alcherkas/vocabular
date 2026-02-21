@@ -264,7 +264,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 > These tasks implement the `lt-vocab-app` goal. See `docs/requirements/lt-vocab-app.md` for full requirements.
 
 ### `lt-session-flow`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `medium`
 **Complexity**: `high`
 **Description**: Implement session start screen with language picker, session orchestration via `SessionService` (@Observable state machine: idle → loading → active → complete), and session summary. Restructure ContentView tabs from 5 (Today/Cards/Quiz/Words/Progress) to 3 (Study/Words/Stats). Repurpose FlashcardsView and QuizView to accept session words as input.
