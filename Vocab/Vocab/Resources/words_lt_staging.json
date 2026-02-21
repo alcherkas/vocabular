@@ -8482,7 +8482,7 @@
     "term": "diena",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The part of a twenty-four-hour period when it is light, or a single calendar day.",
@@ -8494,16 +8494,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "para",
+      "dienos laikas"
+    ],
+    "antonymTerms": [
+      "naktis",
+      "tamsa"
+    ],
+    "relatedTerms": [
+      "rytas",
+      "vakaras",
+      "savaitė",
+      "saulė"
+    ],
     "translation": "day"
   },
   {
     "term": "vakaras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The part of the day between late afternoon and night.",
@@ -8515,16 +8526,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sutemų laikas",
+      "vakarmetis"
+    ],
+    "antonymTerms": [
+      "rytas",
+      "priešaušris"
+    ],
+    "relatedTerms": [
+      "diena",
+      "naktis",
+      "saulėlydis",
+      "vakarienė"
+    ],
     "translation": "evening"
   },
   {
     "term": "naktis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The period of darkness between evening and morning.",
@@ -8536,16 +8558,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nakties laikas",
+      "tamsuma"
+    ],
+    "antonymTerms": [
+      "diena",
+      "rytas"
+    ],
+    "relatedTerms": [
+      "tamsa",
+      "miegas",
+      "žvaigždės",
+      "mėnulis"
+    ],
     "translation": "night"
   },
   {
     "term": "visada",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "At all times; on every occasion.",
@@ -8557,16 +8590,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nuolat",
+      "visuomet"
+    ],
+    "antonymTerms": [
+      "niekada",
+      "retai"
+    ],
+    "relatedTerms": [
+      "dažnai",
+      "kartais",
+      "laikas",
+      "įprotis"
+    ],
     "translation": "always"
   },
   {
     "term": "niekada",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "At no time; not ever.",
@@ -8578,16 +8622,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "jokiu būdu",
+      "niekuomet"
+    ],
+    "antonymTerms": [
+      "visada",
+      "visuomet"
+    ],
+    "relatedTerms": [
+      "retai",
+      "kartais",
+      "draudimas",
+      "neigimas"
+    ],
     "translation": "never"
   },
   {
     "term": "dažnai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "On many occasions; frequently.",
@@ -8599,16 +8654,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nuolat",
+      "reguliariai"
+    ],
+    "antonymTerms": [
+      "retai",
+      "niekada"
+    ],
+    "relatedTerms": [
+      "visada",
+      "kartais",
+      "įpročiai",
+      "rutina"
+    ],
     "translation": "often"
   },
   {
     "term": "kartais",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "From time to time; occasionally.",
@@ -8620,16 +8686,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "retkarčiais",
+      "kai kada"
+    ],
+    "antonymTerms": [
+      "visada",
+      "niekada"
+    ],
+    "relatedTerms": [
+      "dažnai",
+      "retai",
+      "atsitiktinumas",
+      "laikas"
+    ],
     "translation": "sometimes"
   },
   {
     "term": "šiandien",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "On this day; at the present day.",
@@ -8641,16 +8718,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "šią dieną",
+      "dabar"
+    ],
+    "antonymTerms": [
+      "vakar",
+      "rytoj"
+    ],
+    "relatedTerms": [
+      "diena",
+      "dabar",
+      "savaitė",
+      "data"
+    ],
     "translation": "today"
   },
   {
     "term": "rytoj",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "On the day after today.",
@@ -8662,16 +8750,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "kitą dieną",
+      "sekančią dieną"
+    ],
+    "antonymTerms": [
+      "vakar",
+      "šiandien"
+    ],
+    "relatedTerms": [
+      "diena",
+      "ateitis",
+      "planavimas",
+      "šiandien"
+    ],
     "translation": "tomorrow"
   },
   {
     "term": "kasdien",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "On each day; daily.",
@@ -8683,9 +8782,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "kiekvieną dieną",
+      "nuolat"
+    ],
+    "antonymTerms": [
+      "retai",
+      "kartais"
+    ],
+    "relatedTerms": [
+      "rutina",
+      "įprotis",
+      "diena",
+      "dažnai"
+    ],
     "translation": "every day",
     "tags": [
       "A1"
@@ -8695,7 +8805,7 @@
     "term": "savaitgalis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The period of Saturday and Sunday, typically free from work.",
@@ -8707,9 +8817,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "poilsio dienos",
+      "šeštadienis ir sekmadienis"
+    ],
+    "antonymTerms": [
+      "darbo dienos",
+      "savaitė"
+    ],
+    "relatedTerms": [
+      "šeštadienis",
+      "sekmadienis",
+      "atostogos",
+      "poilsis"
+    ],
     "translation": "weekend",
     "tags": [
       "A1"
@@ -8719,7 +8840,7 @@
     "term": "Nulis",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 0; nothing.",
@@ -8731,9 +8852,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nulinis skaičius",
+      "niekas"
+    ],
+    "antonymTerms": [
+      "vienas",
+      "daug"
+    ],
+    "relatedTerms": [
+      "skaičius",
+      "matematika",
+      "vienas",
+      "tuštuma"
+    ],
     "translation": "zero",
     "tags": [
       "A1"
@@ -8743,7 +8875,7 @@
     "term": "vienas",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 1; a single unit.",
@@ -8755,9 +8887,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "vienetas",
+      "pirmas"
+    ],
+    "antonymTerms": [
+      "nulis",
+      "du"
+    ],
+    "relatedTerms": [
+      "skaičius",
+      "vienatvė",
+      "pirmasis",
+      "du"
+    ],
     "translation": "one",
     "tags": [
       "A1"
@@ -8767,7 +8910,7 @@
     "term": "du",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 2; one more than one.",
@@ -8779,9 +8922,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pora",
+      "dveji"
+    ],
+    "antonymTerms": [
+      "vienas",
+      "trys"
+    ],
+    "relatedTerms": [
+      "skaičius",
+      "pora",
+      "vienas",
+      "trys"
+    ],
     "translation": "two",
     "tags": [
       "A1"
@@ -8791,7 +8945,7 @@
     "term": "trys",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 3; one more than two.",
@@ -8803,9 +8957,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "treji",
+      "trejetas"
+    ],
+    "antonymTerms": [
+      "du",
+      "keturi"
+    ],
+    "relatedTerms": [
+      "skaičius",
+      "trejetas",
+      "du",
+      "keturi"
+    ],
     "translation": "three",
     "tags": [
       "A1"
@@ -8815,7 +8980,7 @@
     "term": "keturi",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 4; one more than three.",
@@ -8827,9 +8992,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "ketveri",
+      "ketvertas"
+    ],
+    "antonymTerms": [
+      "trys",
+      "penki"
+    ],
+    "relatedTerms": [
+      "skaičius",
+      "trys",
+      "penki",
+      "ketvirtas"
+    ],
     "translation": "four",
     "tags": [
       "A1"
@@ -8839,7 +9015,7 @@
     "term": "penki",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 5; one more than four.",
@@ -8851,9 +9027,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "penkeri",
+      "penketas"
+    ],
+    "antonymTerms": [
+      "keturi",
+      "šeši"
+    ],
+    "relatedTerms": [
+      "skaičius",
+      "keturi",
+      "šeši",
+      "penktas"
+    ],
     "translation": "five",
     "tags": [
       "A1"
@@ -8863,7 +9050,7 @@
     "term": "šeši",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 6; one more than five.",
@@ -8875,9 +9062,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "šešeri",
+      "šešetas"
+    ],
+    "antonymTerms": [
+      "penki",
+      "septyni"
+    ],
+    "relatedTerms": [
+      "skaičius",
+      "penki",
+      "septyni",
+      "šeštas"
+    ],
     "translation": "six",
     "tags": [
       "A1"
@@ -8887,7 +9085,7 @@
     "term": "septyni",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 7; one more than six.",
@@ -8899,9 +9097,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "septyneri",
+      "septynetas"
+    ],
+    "antonymTerms": [
+      "šeši",
+      "aštuoni"
+    ],
+    "relatedTerms": [
+      "skaičius",
+      "šeši",
+      "aštuoni",
+      "savaitė"
+    ],
     "translation": "seven",
     "tags": [
       "A1"
@@ -8911,7 +9120,7 @@
     "term": "aštuoni",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 8; one more than seven.",
@@ -8923,9 +9132,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "aštuoneri",
+      "aštuonetas"
+    ],
+    "antonymTerms": [
+      "septyni",
+      "devyni"
+    ],
+    "relatedTerms": [
+      "skaičius",
+      "septyni",
+      "devyni",
+      "aštuntas"
+    ],
     "translation": "eight",
     "tags": [
       "A1"
@@ -8935,7 +9155,7 @@
     "term": "devyni",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 9; one more than eight.",
@@ -8947,9 +9167,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "devyneri",
+      "devynetas"
+    ],
+    "antonymTerms": [
+      "aštuoni",
+      "dešimt"
+    ],
+    "relatedTerms": [
+      "skaičius",
+      "aštuoni",
+      "dešimt",
+      "devintas"
+    ],
     "translation": "nine",
     "tags": [
       "A1"
@@ -8959,7 +9190,7 @@
     "term": "dešimt",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 10; one more than nine.",
@@ -8971,9 +9202,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "dešimtis",
+      "dešimtas"
+    ],
+    "antonymTerms": [
+      "devyni",
+      "nulis"
+    ],
+    "relatedTerms": [
+      "skaičius",
+      "devyni",
+      "šimtas",
+      "dešimtainis"
+    ],
     "translation": "ten",
     "tags": [
       "A1"
@@ -8983,7 +9225,7 @@
     "term": "žmona",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A married woman in relation to her husband.",
@@ -8995,9 +9237,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sutuoktinė",
+      "gyvenimo draugė"
+    ],
+    "antonymTerms": [
+      "vyras",
+      "nepažįstamoji"
+    ],
+    "relatedTerms": [
+      "šeima",
+      "santuoka",
+      "sutuoktinis",
+      "motina"
+    ],
     "translation": "wife",
     "tags": [
       "A1"
@@ -9007,7 +9260,7 @@
     "term": "brolis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male sibling.",
@@ -9019,9 +9272,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "broliukas",
+      "vyriškas giminaitis"
+    ],
+    "antonymTerms": [
+      "sesuo",
+      "nepažįstamasis"
+    ],
+    "relatedTerms": [
+      "šeima",
+      "sesuo",
+      "tėvai",
+      "giminaitis"
+    ],
     "translation": "brother",
     "tags": [
       "A1"
@@ -9031,7 +9295,7 @@
     "term": "sesuo",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female sibling.",
@@ -9043,9 +9307,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sesutė",
+      "moteriška giminaitė"
+    ],
+    "antonymTerms": [
+      "brolis",
+      "nepažįstamoji"
+    ],
+    "relatedTerms": [
+      "šeima",
+      "brolis",
+      "tėvai",
+      "giminaitis"
+    ],
     "translation": "sister",
     "tags": [
       "A1"
@@ -9055,7 +9330,7 @@
     "term": "pusseserė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A daughter of one's uncle or aunt.",
@@ -9067,9 +9342,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "giminaitė",
+      "tolima sesuo"
+    ],
+    "antonymTerms": [
+      "nepažįstamoji"
+    ],
+    "relatedTerms": [
+      "šeima",
+      "giminaičiai",
+      "dėdė",
+      "teta"
+    ],
     "translation": "female cousin",
     "tags": [
       "A2"
@@ -9079,7 +9364,7 @@
     "term": "vaikas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A young human being below the age of puberty.",
@@ -9091,9 +9376,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "kūdikis",
+      "mažylis"
+    ],
+    "antonymTerms": [
+      "suaugęs",
+      "senis"
+    ],
+    "relatedTerms": [
+      "šeima",
+      "tėvai",
+      "mokykla",
+      "žaidimas"
+    ],
     "translation": "child",
     "tags": [
       "A1"
@@ -9103,7 +9399,7 @@
     "term": "kūdikis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A very young child or infant.",
@@ -9115,9 +9411,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "naujagimis",
+      "mažylis"
+    ],
+    "antonymTerms": [
+      "suaugęs",
+      "senis"
+    ],
+    "relatedTerms": [
+      "vaikas",
+      "mama",
+      "auginimas",
+      "lopšelis"
+    ],
     "translation": "baby",
     "tags": [
       "A1"
@@ -9127,7 +9434,7 @@
     "term": "anūkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A son of one's son or daughter.",
@@ -9139,9 +9446,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "vaikaitis",
+      "sūnaus sūnus"
+    ],
+    "antonymTerms": [
+      "senelis",
+      "senelė"
+    ],
+    "relatedTerms": [
+      "šeima",
+      "anūkė",
+      "senelis",
+      "senelė"
+    ],
     "translation": "grandson",
     "tags": [
       "A2"
@@ -9151,7 +9469,7 @@
     "term": "anūkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A daughter of one's son or daughter.",
@@ -9163,9 +9481,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "vaikaitė",
+      "sūnaus dukra"
+    ],
+    "antonymTerms": [
+      "senelis",
+      "senelė"
+    ],
+    "relatedTerms": [
+      "šeima",
+      "anūkas",
+      "senelis",
+      "senelė"
+    ],
     "translation": "granddaughter",
     "tags": [
       "A2"
@@ -9279,7 +9608,7 @@
     "term": "tėvai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person's father and mother.",
@@ -9291,9 +9620,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "gimdytojai",
+      "motina ir tėvas"
+    ],
+    "antonymTerms": [
+      "vaikai",
+      "nepažįstamieji"
+    ],
+    "relatedTerms": [
+      "šeima",
+      "mama",
+      "tėvas",
+      "vaikas"
+    ],
     "translation": "parents",
     "tags": [
       "A1"
@@ -9303,7 +9643,7 @@
     "term": "sūnus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male child in relation to his parents.",
@@ -9315,9 +9655,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "vyriškas palikuonis",
+      "berniukas"
+    ],
+    "antonymTerms": [
+      "duktė",
+      "tėvas"
+    ],
+    "relatedTerms": [
+      "šeima",
+      "tėvai",
+      "duktė",
+      "brolis"
+    ],
     "translation": "son",
     "tags": [
       "A1"
@@ -9327,7 +9678,7 @@
     "term": "duktė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female child in relation to her parents.",
@@ -9339,9 +9690,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "dukra",
+      "mergaitė"
+    ],
+    "antonymTerms": [
+      "sūnus",
+      "motina"
+    ],
+    "relatedTerms": [
+      "šeima",
+      "tėvai",
+      "sūnus",
+      "sesuo"
+    ],
     "translation": "daughter",
     "tags": [
       "A1"
@@ -9351,7 +9713,7 @@
     "term": "senelis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The father of one's parent.",
@@ -9363,9 +9725,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "senolis",
+      "tėvo tėvas"
+    ],
+    "antonymTerms": [
+      "anūkas",
+      "anūkė"
+    ],
+    "relatedTerms": [
+      "šeima",
+      "senelė",
+      "tėvai",
+      "senas"
+    ],
     "translation": "grandfather",
     "tags": [
       "A1"
@@ -9375,7 +9748,7 @@
     "term": "senelė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The mother of one's parent.",
@@ -9387,9 +9760,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "senoji moteris",
+      "tėvo motina"
+    ],
+    "antonymTerms": [
+      "anūkas",
+      "anūkė"
+    ],
+    "relatedTerms": [
+      "šeima",
+      "senelis",
+      "tėvai",
+      "mama"
+    ],
     "translation": "grandmother",
     "tags": [
       "A1"

@@ -1542,7 +1542,7 @@
   },
   {
     "term": "iatrogenic",
-    "status": "approved",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1565,12 +1565,22 @@
       "doctor-caused",
       "procedure-related"
     ],
-    "antonymTerms": [],
-    "relatedTerms": []
+    "antonymTerms": [
+      "therapeutic",
+      "curative",
+      "beneficial"
+    ],
+    "relatedTerms": [
+      "adverse event",
+      "complication",
+      "malpractice",
+      "side effect",
+      "nosocomial"
+    ]
   },
   {
     "term": "nosocomial",
-    "status": "approved",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1593,12 +1603,22 @@
       "hospital-borne",
       "clinical"
     ],
-    "antonymTerms": [],
-    "relatedTerms": []
+    "antonymTerms": [
+      "community-acquired",
+      "non-institutional",
+      "outpatient"
+    ],
+    "relatedTerms": [
+      "infection control",
+      "pathogen",
+      "antibiotic resistance",
+      "iatrogenic",
+      "hygiene"
+    ]
   },
   {
     "term": "pathognomonic",
-    "status": "approved",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1621,8 +1641,18 @@
       "distinctive",
       "characteristic"
     ],
-    "antonymTerms": [],
-    "relatedTerms": []
+    "antonymTerms": [
+      "non-specific",
+      "ambiguous",
+      "equivocal"
+    ],
+    "relatedTerms": [
+      "diagnosis",
+      "clinical sign",
+      "symptom",
+      "syndrome",
+      "differential diagnosis"
+    ]
   },
   {
     "term": "prophylactic",
@@ -6026,7 +6056,7 @@
   },
   {
     "term": "bioaccumulation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -6162,7 +6192,7 @@
   },
   {
     "term": "afforestation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8619,7 +8649,7 @@
   },
   {
     "term": "pilaster",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8654,7 +8684,7 @@
   },
   {
     "term": "buttress",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8691,7 +8721,7 @@
   },
   {
     "term": "spandrel",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8726,7 +8756,7 @@
   },
   {
     "term": "mullion",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8762,7 +8792,7 @@
   },
   {
     "term": "cornice",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8799,7 +8829,7 @@
   },
   {
     "term": "cupola",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8834,7 +8864,7 @@
   },
   {
     "term": "cantilever",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8871,7 +8901,7 @@
   },
   {
     "term": "colonnade",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8907,7 +8937,7 @@
   },
   {
     "term": "julienne",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8942,7 +8972,7 @@
   },
   {
     "term": "chiffonade",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8978,7 +9008,7 @@
   },
   {
     "term": "confit",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9015,7 +9045,7 @@
   },
   {
     "term": "blanching",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9050,7 +9080,7 @@
   },
   {
     "term": "emulsification",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9087,7 +9117,7 @@
   },
   {
     "term": "mirepoix",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9125,7 +9155,7 @@
   },
   {
     "term": "gastrique",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9162,7 +9192,7 @@
   },
   {
     "term": "deglazing",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9199,7 +9229,7 @@
   },
   {
     "term": "tempering",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9236,7 +9266,7 @@
   },
   {
     "term": "roux",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9273,7 +9303,7 @@
   },
   {
     "term": "umami",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9311,7 +9341,7 @@
   },
   {
     "term": "starboard",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9347,7 +9377,7 @@
   },
   {
     "term": "portside",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -9383,7 +9413,7 @@
   },
   {
     "term": "gunwale",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9420,7 +9450,7 @@
   },
   {
     "term": "scupper",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9456,7 +9486,7 @@
   },
   {
     "term": "hawser",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9492,7 +9522,7 @@
   },
   {
     "term": "capstan",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9528,7 +9558,7 @@
   },
   {
     "term": "keelson",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9564,7 +9594,7 @@
   },
   {
     "term": "binnacle",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9600,7 +9630,7 @@
   },
   {
     "term": "mizzenmast",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9638,7 +9668,7 @@
   },
   {
     "term": "boatswain",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9676,7 +9706,7 @@
   },
   {
     "term": "freeboard",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
