@@ -470,3 +470,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Keep a reusable vetted candidate bank by domain to speed up future fixed-size seeding tasks.
+## [2026-02-21] [enricher-en-2] [enrich-en-2]
+
+### What went well
+- Updated all available English stubs in one pass with definitions, examples, register, and tags.
+- Enriched-status validation passed cleanly after the edits.
+
+### What was harder than expected
+- The task target asked for 25 stubs, but the staging file currently contained only 15 entries with `status: "stub"`.
+
+### Process friction
+- None beyond the target/count mismatch in the prompt versus file state.
+
+### Suggested improvement
+- Add a preflight step in task prompts that reports current stub count before assigning a fixed enrichment target.
