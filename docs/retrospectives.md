@@ -970,3 +970,29 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 
 ### Suggested improvement
 - Add a CI lint rule that flags entries where all three relation fields are non-empty but `status` is still `enriched` — this would catch status-stale entries before they accumulate across batches.
+## [2026-02-22] [qa-11] [vocab/qa-11]
+
+### What went well
+- Preflight JSON validation passed on both files immediately; 430 EN entries and 1960 LT entries parsed without errors.
+- All 35 EN and 35 LT `relations-added` entries reviewed in a single pass.
+- EN domain coverage was coherent: medical terms (iatrogenic, nosocomial, pathognomonic), architecture (pilaster through freeboard), culinary technique (julienne through umami), and nautical vocabulary (starboard through freeboard).
+- LT domain coverage was equally coherent: time/frequency adverbs, basic numerals 0–10, and core family nouns.
+- Validator passed cleanly for all `enriched` entries (EN: 9 valid; LT: 122 valid) and all new `approved` LT entries (293 valid).
+
+### What was harder than expected
+- LT numeral entries: distinguishing between ordinal synonyms (pirmas, dešimtas) and legitimate collective/noun forms (trejetas, dešimtis) required careful per-entry analysis rather than a blanket rule.
+- "stranger as antonym" pattern: the family-noun batch (žmona, brolis, sesuo, pusseserė, tėvai) systematically used "nepažįstamasis/nepažįstamoji/nepažįstamieji" as antonyms, which looks plausible at first glance but is semantically empty. Required consistent removal across five entries.
+- colonnade: all three listed synonyms (arcade, peristyle, portico) were architectural relatives rather than true synonyms, leaving the synonyms array empty after correction; no replacement candidates were available without introducing new content.
+
+### Decisions
+- "Stranger" antonyms removed universally from family-noun entries; no replacement added where none exists (pusseserė replaced with "pusbrolis" as gender counterpart).
+- Cardinal vs ordinal: ordinals moved to relatedTerms; cardinal synonyms and collective forms retained.
+- Adjacent-number antonyms for numerals (e.g. trys ↔ du/keturi) approved as a deliberate structural design choice for A1 vocabulary linking, consistent with the prior batch decision.
+- colonnade synonyms left empty rather than fabricated; qaNote documents the reasoning.
+
+### Process friction
+- Pre-existing validator failures on unrelated `approved` entries (bilateralism, diffusionism, penetrance, aneuploidy, entablature — each with only 1 synonym) appeared in the EN approved run but are out of scope for this batch.
+
+### Suggested improvement
+- Add a lint rule that rejects "nepažįstamasis/nepažįstamoji/nepažįstamieji" as antonymTerms for any family/kinship noun — this pattern recurred across five entries and is never semantically valid.
+- Consider a validator check that flags ordinal-form synonyms paired with cardinal-form headwords (e.g. "pirmas" in synonyms of "vienas") by comparing the `-as`/`-a` suffix pattern against the headword's numeral type.
