@@ -85,3 +85,19 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - None.
+## [2025-07-17] [architecture-agent] [lt-vocab-app]
+
+### What went well
+- Requirements doc was thorough (21 ACs, edge cases, constraints) — made architecture decisions straightforward.
+- ARCHITECTURE.md and existing source files gave clear picture of current state, so I could design precise model changes.
+- Task dependency graph fell out naturally from the AC→task mapping; no orphaned ACs.
+
+### What was harder than expected
+- Deciding whether `word-meanings-model` (flat→meanings migration) should be a prerequisite for lt-vocab-app or independent. Resolved by keeping them separate since flat schema works for all 21 ACs.
+- The SwiftData unique-key change (term→uniqueKey) has uncertain migration behavior — flagged as a risk but couldn't fully resolve without testing on device.
+
+### Process friction
+- ARCHITECTURE.md documents the `meanings` array as the production JSON schema, but `words.json` actually uses the old flat schema. This inconsistency required extra analysis to determine what the current truth is vs. what's aspirational.
+
+### Suggested improvement
+- Add a "Current vs. Target" section to ARCHITECTURE.md that explicitly marks which schema changes are aspirational vs. implemented, to reduce confusion for architecture/feature agents.
