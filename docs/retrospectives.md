@@ -725,3 +725,15 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add an optional helper script for Relations agents to preselect the next N enriched terms and verify relation-field completeness before commit.
+## [2026-02-21] [qa-7] [vocab-qa-7]
+
+### What went well
+- All 35 EN entries (C1 terms spanning genomics, rhetoric, linguistics, economics) were fully formed with correct partOfSpeech, register, synonyms, antonyms, and related terms — 35/35 approved in one pass.
+- 34/35 LT entries (A1 city/places nouns) were clean and consistent — approved without edits.
+- Validation script passed 160 EN approved entries and 181 LT approved entries with no errors.
+
+### What was harder than expected
+- One LT verb entry ("Atostogauti") had a capitalized term, which is invalid for a common Lithuanian verb. Flagged as `enriched` with qaNote for the enricher to fix.
+
+### Suggested improvement
+- Add a pre-commit lint rule that rejects entries whose `term` starts with an uppercase letter unless the word is a proper noun (detectable by the absence of a `properNoun: true` flag or by tag).
