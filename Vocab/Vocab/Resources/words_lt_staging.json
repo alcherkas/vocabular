@@ -4185,7 +4185,7 @@
     "term": "klubas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place for social activities, dancing, or special-interest groups.",
@@ -4197,16 +4197,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "draugija",
+      "būrelis"
+    ],
+    "antonymTerms": [
+      "vienuma"
+    ],
+    "relatedTerms": [
+      "narys",
+      "susitikimas",
+      "veikla"
+    ],
     "translation": "club"
   },
   {
     "term": "mokykla",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An institution where children and students are educated.",
@@ -4218,16 +4227,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "ugdymo įstaiga",
+      "švietimo įstaiga"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokytojas",
+      "mokinys",
+      "pamoka"
+    ],
     "translation": "school"
   },
   {
     "term": "muziejus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place where historical, artistic, or scientific objects are displayed.",
@@ -4239,16 +4255,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "galerija",
+      "ekspozicijų centras"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "paroda",
+      "eksponatas",
+      "istorija"
+    ],
     "translation": "museum"
   },
   {
     "term": "operos teatras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A theater where operas are performed.",
@@ -4260,9 +4283,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "opera",
+      "muzikinis teatras"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "spektaklis",
+      "orkestras",
+      "scena"
+    ],
     "translation": "opera house",
     "tags": [
       "A1",
@@ -4273,7 +4303,7 @@
     "term": "oro uostas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place where airplanes take off and land.",
@@ -4285,9 +4315,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "aerouostas",
+      "aviacijos terminalas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lėktuvas",
+      "skrydis",
+      "terminalas"
+    ],
     "translation": "airport",
     "tags": [
       "A1",
@@ -4298,7 +4335,7 @@
     "term": "sankryža",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place where roads cross.",
@@ -4310,16 +4347,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kryžkelė",
+      "kelių susikirtimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šviesoforas",
+      "gatvė",
+      "posūkis"
+    ],
     "translation": "intersection"
   },
   {
     "term": "sporto klubas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place where people exercise and do sports.",
@@ -4331,9 +4375,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "fitneso klubas",
+      "treniruoklių salė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "treniruotė",
+      "sportas",
+      "narys"
+    ],
     "translation": "sports club; gym",
     "tags": [
       "A1",
@@ -4344,7 +4395,7 @@
     "term": "stotelė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A designated place where buses or other public transport stop.",
@@ -4356,9 +4407,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sustojimas",
+      "stovėjimo vieta"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "autobusas",
+      "maršrutas",
+      "tvarkaraštis"
+    ],
     "translation": "stop",
     "tags": [
       "A1",
@@ -4369,7 +4427,7 @@
     "term": "stotis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A main place for trains or buses to arrive and depart.",
@@ -4381,9 +4439,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "terminalas",
+      "transporto mazgas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "traukinys",
+      "autobusas",
+      "peronas"
+    ],
     "translation": "station",
     "tags": [
       "A1",
@@ -4394,7 +4459,7 @@
     "term": "šviesoforas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A road signal with colored lights controlling traffic.",
@@ -4406,9 +4471,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "eismo signalas",
+      "signalinis žibintas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "raudona",
+      "žalia",
+      "sankryža"
+    ],
     "translation": "traffic light",
     "tags": [
       "A1",
@@ -4419,7 +4491,7 @@
     "term": "teatras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A building where plays and performances are shown.",
@@ -4431,9 +4503,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "scenos menas",
+      "dramos teatras"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "spektaklis",
+      "aktorius",
+      "scena"
+    ],
     "translation": "theater",
     "tags": [
       "A1",
@@ -4444,7 +4523,7 @@
     "term": "uostas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place where ships dock to load and unload passengers or goods.",
@@ -4456,9 +4535,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "prieplauka",
+      "jūrų uostas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "laivas",
+      "krantinė",
+      "krovinys"
+    ],
     "translation": "port",
     "tags": [
       "A1",
@@ -4469,7 +4555,7 @@
     "term": "ežeras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large area of water surrounded by land.",
@@ -4481,9 +4567,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vandens telkinys",
+      "tvenkinys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "krantas",
+      "vanduo",
+      "žvejyba"
+    ],
     "translation": "lake",
     "tags": [
       "A1",
@@ -4494,7 +4587,7 @@
     "term": "jūra",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large body of salt water.",
@@ -4506,9 +4599,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "marios",
+      "vandenynas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "bangos",
+      "krantas",
+      "laivas"
+    ],
     "translation": "sea",
     "tags": [
       "A1",
@@ -4519,7 +4619,7 @@
     "term": "aikštė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An open public area in a town or city.",
@@ -4531,9 +4631,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "skveras",
+      "plaza"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "miestas",
+      "fontanas",
+      "susibūrimas"
+    ],
     "translation": "square",
     "tags": [
       "A1",
@@ -4544,7 +4651,7 @@
     "term": "ambasada",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The official office representing one country in another country.",
@@ -4556,9 +4663,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "diplomatinė atstovybė",
+      "atstovybė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ambasadorius",
+      "konsulatas",
+      "viza"
+    ],
     "translation": "embassy",
     "tags": [
       "A1",
@@ -4569,7 +4683,7 @@
     "term": "bažnyčia",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A Christian place of worship.",
@@ -4581,9 +4695,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "šventovė",
+      "maldos namai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kunigas",
+      "mišios",
+      "tikėjimas"
+    ],
     "translation": "church",
     "tags": [
       "A1",
@@ -4594,7 +4715,7 @@
     "term": "bendrabutis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A building where students live.",
@@ -4606,9 +4727,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "studentų namai",
+      "dormitorija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kambarys",
+      "studentas",
+      "universitetas"
+    ],
     "translation": "dormitory",
     "tags": [
       "A1",
@@ -4619,7 +4747,7 @@
     "term": "gatvė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A public road in a town or city.",
@@ -4631,9 +4759,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "prospektas",
+      "kelias"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šaligatvis",
+      "eismas",
+      "namas"
+    ],
     "translation": "street",
     "tags": [
       "A1",
@@ -4644,7 +4779,7 @@
     "term": "upė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A natural stream of water flowing toward a sea or lake.",
@@ -4656,9 +4791,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "upelis",
+      "srovė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tiltas",
+      "krantas",
+      "vanduo"
+    ],
     "translation": "river",
     "tags": [
       "A1",
@@ -4669,7 +4811,7 @@
     "term": "parkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A public green area for walking and recreation.",
@@ -4681,9 +4823,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "skveras",
+      "želdynas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "medžiai",
+      "takas",
+      "poilsis"
+    ],
     "translation": "park",
     "tags": [
       "A1",
@@ -4694,7 +4843,7 @@
     "term": "ligoninė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A medical institution where sick or injured people are treated.",
@@ -4706,9 +4855,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "klinika",
+      "gydymo įstaiga"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gydytojas",
+      "pacientas",
+      "palata"
+    ],
     "translation": "hospital",
     "tags": [
       "A1",
@@ -4719,7 +4875,7 @@
     "term": "vaistinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A shop where medicine is sold.",
@@ -4731,9 +4887,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "farmacijos parduotuvė",
+      "vaistų punktas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vaistai",
+      "farmacininkas",
+      "receptas"
+    ],
     "translation": "pharmacy",
     "tags": [
       "A1",
@@ -4744,7 +4907,7 @@
     "term": "parduotuvė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place where goods are sold to customers.",
@@ -4756,9 +4919,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "krautuvė",
+      "prekyvietė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prekės",
+      "pirkėjas",
+      "kasa"
+    ],
     "translation": "shop; store",
     "tags": [
       "A1",
@@ -4769,7 +4939,7 @@
     "term": "pilis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large fortified building, often historical.",
@@ -4781,9 +4951,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tvirtovė",
+      "rūmai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "bokštas",
+      "gynyba",
+      "istorija"
+    ],
     "translation": "castle",
     "tags": [
       "A1",
@@ -4794,7 +4971,7 @@
     "term": "tiltas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A structure built to cross a river, road, or valley.",
@@ -4806,9 +4983,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "viadukas",
+      "perėja"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "upė",
+      "kelias",
+      "jungtis"
+    ],
     "translation": "bridge",
     "tags": [
       "A1",
@@ -4819,7 +5003,7 @@
     "term": "turgus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An open or covered place where goods are sold by many vendors.",
@@ -4832,13 +5016,14 @@
       }
     ],
     "synonyms": [
+      "prekyvietė",
       "turgavietė"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "parduotuvė",
-      "prekyba",
-      "prekės"
+      "pardavėjas",
+      "prekės",
+      "pirkėjas"
     ],
     "translation": "market"
   },
@@ -4846,7 +5031,7 @@
     "term": "restoranas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place where meals are prepared and served to customers.",
@@ -4859,13 +5044,14 @@
       }
     ],
     "synonyms": [
-      "užkandinė"
+      "užeiga",
+      "maitinimo įstaiga"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "kavinė",
+      "meniu",
       "padavėjas",
-      "meniu"
+      "vakarienė"
     ],
     "translation": "restaurant"
   },
@@ -4873,7 +5059,7 @@
     "term": "viešbutis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A building that provides accommodation for travelers.",
@@ -4886,13 +5072,14 @@
       }
     ],
     "synonyms": [
+      "nakvynės namai",
       "hotelis"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "kambarys",
       "registratūra",
-      "kelionė"
+      "keliautojas"
     ],
     "translation": "hotel"
   },
@@ -4900,7 +5087,7 @@
     "term": "ministerija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A government department responsible for a specific area of public policy.",
@@ -4912,12 +5099,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "valstybinė įstaiga",
+      "departamentas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "valdžia",
       "ministras",
-      "įstatymas"
+      "vyriausybė",
+      "politika"
     ],
     "translation": "ministry"
   },
@@ -4925,7 +5115,7 @@
     "term": "paštas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A service or place where letters and parcels are sent and received.",
@@ -4937,7 +5127,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pašto skyrius",
+      "siuntų tarnyba"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "laiškas",
@@ -4950,7 +5143,7 @@
     "term": "kavinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small restaurant where coffee, drinks, and light meals are served.",
@@ -4963,13 +5156,14 @@
       }
     ],
     "synonyms": [
-      "kavine"
+      "kavos baras",
+      "užkandinė"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "kava",
       "desertas",
-      "restoranas"
+      "staliukas"
     ],
     "translation": "cafe"
   },
@@ -4977,7 +5171,7 @@
     "term": "kioskas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small booth or shop selling newspapers, snacks, or other small items.",
@@ -4989,12 +5183,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "paviljonas",
+      "būdelė"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "spauda",
-      "pardavėjas",
-      "gatvė"
+      "laikraštis",
+      "užkandžiai",
+      "pardavėjas"
     ],
     "translation": "kiosk"
   },
@@ -5002,7 +5199,7 @@
     "term": "kino teatras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place where films are shown to an audience.",
@@ -5015,13 +5212,14 @@
       }
     ],
     "synonyms": [
-      "kinas"
+      "kinas",
+      "cinema"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "filmas",
-      "bilietas",
-      "seansas"
+      "salė",
+      "bilietas"
     ],
     "translation": "cinema"
   },
@@ -5029,7 +5227,7 @@
     "term": "Atostogauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To spend time away from work or studies for rest and leisure.",
@@ -5042,9 +5240,12 @@
       }
     ],
     "synonyms": [
-      "ilsėtis"
+      "ilsėtis",
+      "leisti atostogas"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "dirbti"
+    ],
     "relatedTerms": [
       "atostogos",
       "kelionė",
