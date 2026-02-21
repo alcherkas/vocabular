@@ -19655,12 +19655,32 @@
     "term": "aplankyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Keliauti į konkrečią vietą ir ten lankytis trumpą laiką.",
+        "example": "Turistai aplankė Vilniaus senamiestį ir Gedimino pilį.",
+        "register": "general",
+        "tags": [
+          "tourism",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Per kelionę lankytis skirtingose vietovėse ar šalyse.",
+        "example": "Per dvi savaites Europoje ji aplankė Paryžių, Romą ir Barseloną.",
+        "register": "general",
+        "tags": [
+          "tourism",
+          "travel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to visit"
   },
   {
     "term": "grąžinti",
@@ -19802,12 +19822,32 @@
     "term": "palydėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Lydėti ką nors iki tam tikros vietos ir atsisveikinti prieš kelionę.",
+        "example": "Šeima palydėjo jį į oro uostą ir laukė, kol jis praeis kontrolę.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Lydėti svečią ar keleivį iki jo paskirties vietos pastate.",
+        "example": "Viešbučio portjė palydėjo mus iki kambario ir paaiškino visas patalpas.",
+        "register": "formal",
+        "tags": [
+          "hotel",
+          "travel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to see off, to escort"
   },
   {
     "term": "papildyti",
@@ -19824,12 +19864,32 @@
     "term": "pasitikti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Atvykti į vietą, kad sutiktum ten atvykstantį asmenį.",
+        "example": "Vairuotojas laikė iškeltą vardą rašantį ženklą ir pasitiko turistus oro uoste.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "airport",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Priimti atvykusius svečius oficialiai ar mandagiai.",
+        "example": "Registratūros darbuotoja maloniai pasitiko kiekvieną atvykstantį viešbučio svečią.",
+        "register": "formal",
+        "tags": [
+          "hotel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to meet, to welcome, to pick up"
   },
   {
     "term": "patikrinti",
@@ -19963,12 +20023,33 @@
     "term": "vežti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gabenti keleivius arba krovinius transporto priemone iš vienos vietos į kitą.",
+        "example": "Taksi vairuotojas veža turistus iš oro uosto į miesto centrinį viešbutį.",
+        "register": "general",
+        "tags": [
+          "transport",
+          "travel",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Gabenti kažkieno bagažą ar daiktus.",
+        "example": "Bagažo vežimėlis naudojamas lagaminams vežti nuo lėktuvo iki terminalo.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "airport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to transport, to carry, to drive"
   },
   {
     "term": "lipti",
@@ -20291,13 +20372,23 @@
   {
     "term": "motociklas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Dviratė motorinė transporto priemonė su varikliu, skirta kelionėms ar sportui.",
+        "example": "Vasarą jis keliavo motociklu per visą Europą ir apsistodavo nedidelėse sodybose.",
+        "register": "general",
+        "tags": [
+          "transport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "motorcycle"
   },
   {
     "term": "traukinys",
@@ -20849,12 +20940,23 @@
     "term": "kilometrai per valandą (km/h)",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Greičio matavimo vienetas, nurodantis, kiek kilometrų įveikiama per vieną valandą.",
+        "example": "Greitkelyje leidžiamas greitis yra 130 kilometrų per valandą.",
+        "register": "technical",
+        "tags": [
+          "transport",
+          "speed",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "kilometres per hour (km/h)"
   },
   {
     "term": "Para",
@@ -21054,70 +21156,145 @@
     "translation": null
   },
   {
-    "term": "Arti",
+    "term": "arti",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Nedideliu atstumu nuo ko nors; netoli.",
+        "example": "Oro uostas yra arti miesto centro – tik dešimt minučių taksi.",
+        "register": "general",
+        "tags": [
+          "directions",
+          "travel",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Beveik; netrukus.",
+        "example": "Traukinio išvykimas jau arti – skubėkime į peroną.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "near, close"
   },
   {
     "term": "toli",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Dideliu atstumu nuo ko nors; ne arti.",
+        "example": "Autobusų stotis yra toli – geriau imkite taksi arba metro.",
+        "register": "general",
+        "tags": [
+          "directions",
+          "travel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "far, far away"
   },
   {
     "term": "dešinė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Dešinioji pusė arba kryptis priešinga kairei.",
+        "example": "Iš autobusų stoties sukite į dešinę ir nueikite iki sankryžos.",
+        "register": "general",
+        "tags": [
+          "directions",
+          "travel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "right (side)"
   },
   {
     "term": "kairė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kairioji pusė arba kryptis priešinga dešinei.",
+        "example": "Viešbutis yra antroje gatvėje kairėje – negalite nepastebėti.",
+        "register": "general",
+        "tags": [
+          "directions",
+          "travel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "left (side)"
   },
   {
     "term": "dešinėn",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kryptis į dešinę pusę; naudojama judėjimo krypčiai nurodyti.",
+        "example": "Pasukite dešinėn ties šviesoforu ir oro uostas bus už kilometro.",
+        "register": "general",
+        "tags": [
+          "directions",
+          "travel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to the right"
   },
   {
     "term": "kairėn",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kryptis į kairę pusę; naudojama judėjimo krypčiai žodžiu nurodyti.",
+        "example": "Nuo traukinių stoties eikite kairėn iki pat centrinės aikštės.",
+        "register": "general",
+        "tags": [
+          "directions",
+          "travel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to the left"
   },
   {
     "term": "aukštyn",
@@ -21144,57 +21321,141 @@
   {
     "term": "pirmyn",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Į priekį, toliau einamos krypties link.",
+        "example": "Pareigūnas paprašė keleivių judėti pirmyn ir nesustoti.",
+        "register": "general",
+        "tags": [
+          "directions",
+          "travel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "forward, ahead"
   },
   {
     "term": "atgal",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Į priešingą kryptį arba sugrįžtant į ankstesnę vietą.",
+        "example": "Pametus pasą, turėjome grįžti atgal į viešbutį.",
+        "register": "general",
+        "tags": [
+          "directions",
+          "travel",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Grįžtamasis kelionės etapas.",
+        "example": "Bilietas pirmyn ir atgal pigiau kainuoja nei du atskiri bilietai.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "transport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "back, backwards"
   },
   {
     "term": "tiesiai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Toliau ta pačia kryptimi, nesukant į šoną.",
+        "example": "Eikite tiesiai pro parką, kol pamatysite geležinkelio stotį.",
+        "register": "general",
+        "tags": [
+          "directions",
+          "travel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "straight ahead"
   },
   {
     "term": "laiptai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kopimo konstrukcija iš nuoseklių laiptelių, skirta pereiti tarp skirtingų aukštų.",
+        "example": "Kai liftas buvo sugedęs, turėjome lipti laiptais iki septinto aukšto.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "transport",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Laiptų konstrukcija viešuosiuose pastatuose ar stotyse.",
+        "example": "Traukinio stotyje plati laiptų eisena veda nuo peronų iki išėjimo.",
+        "register": "general",
+        "tags": [
+          "transport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "stairs, steps"
   },
   {
     "term": "liftas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Mechaninis prietaisas pastate, skirtas žmonėms ar kroviniams kelti tarp aukštų.",
+        "example": "Viešbučio liftas kilo iki septynioliktojo aukšto, kur buvo viešbučio restoranas.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "transport",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Keleivinė kabina viešajame transporte ar didelėse stotyse.",
+        "example": "Oro uoste negalėjusieji vaikščioti naudojosi liftu tarp terminalų.",
+        "register": "general",
+        "tags": [
+          "transport",
+          "airport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "elevator, lift"
   },
   {
     "term": "kalnas",
@@ -22338,12 +22599,23 @@
     "term": "vaikų kambarys",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Patalpa, skirta vaikams žaisti, ilsėtis ar praleisti laiką.",
+        "example": "Viešbutyje veikė vaikų kambarys su žaislais ir piešimo priemonėmis – tėvai galėjo atsipalaiduoti.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "accommodation",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "children's room, playroom"
   },
   {
     "term": "virtuvė",
@@ -22392,13 +22664,33 @@
   {
     "term": "vonia",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ovalus indas, pripildomas vandens maudymuisi.",
+        "example": "Liukso kambaryje buvo erdvi vonia su vaizdu į miestą.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "accommodation",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Patalpa su vonia ar dušu, skirta asmens higienai.",
+        "example": "Viešbučio kambaryje buvo vonios kambarys su vonia ir atskiru dušu.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "bathtub, bathroom"
   },
   {
     "term": "tualetas",
@@ -22571,13 +22863,32 @@
   {
     "term": "siena",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pastato statybinė dalis, atskirianti patalpas arba ribojanti erdvę.",
+        "example": "Viešbučio kambaryje ant sienos kabojo didelis veidrodis virš rašomojo stalo.",
+        "register": "general",
+        "tags": [
+          "accommodation",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Valstybinė siena – linija, žyminti dviejų šalių ribą.",
+        "example": "Keliaujant iš Lietuvos į Lenkiją, reikia kirsti Europos Sąjungos sieną.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "wall, border"
   },
   {
     "term": "lubos",
@@ -22858,15 +23169,36 @@
     "translation": null
   },
   {
-    "term": "Lova",
+    "term": "lova",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Baldas miegui, sudarytas iš rėmo, čiužinio ir pagalvių.",
+        "example": "Viešbučio kambaryje gavo erdvią kambarį su dvigule lova ir balkonu.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "accommodation",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Miegojimo vieta apgyvendinimo vietose.",
+        "example": "Turistų namuose užsakė lovą bendrame kambaryje.",
+        "register": "general",
+        "tags": [
+          "accommodation",
+          "tourism",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "bed"
   },
   {
     "term": "pagalvė",
@@ -22882,24 +23214,46 @@
   {
     "term": "antklodė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Storas audeklas arba plūksninė danga, kuria apsiklojama miegant.",
+        "example": "Šaltą žiemos naktį paprašėme viešbučio papildomos antklodės.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "accommodation",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "blanket, duvet"
   },
   {
     "term": "paklodė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Plono audeklo lakštas, tiesiamas ant čiužinio arba naudojamas apsitraukti.",
+        "example": "Viešbučio personalas kiekvieną dieną keitė šviežias paklodes.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "accommodation",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "bed sheet"
   },
   {
     "term": "spinta",
@@ -23120,24 +23474,56 @@
   {
     "term": "dušas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Vonios kambario įrenginys, teikiantis vandens srovę kūnui nuplauti.",
+        "example": "Po ilgos kelionės pirmiausia norėjosi karšto dušo viešbučio kambaryje.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "accommodation",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "shower"
   },
   {
     "term": "rankšluostis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Audinys, naudojamas kūnui ar rankoms nusausinti po dušo arba maudymosi.",
+        "example": "Viešbutyje kiekvienam svečiui kasryt paruošiami švieži rankšluosčiai.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "accommodation",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Rankšluostis, pasiimamas į paplūdimį ar baseiną.",
+        "example": "Prieš einant prie viešbučio baseino, paprašykite paplūdimio rankšluosčio registratūroje.",
+        "register": "general",
+        "tags": [
+          "tourism",
+          "hotel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "towel"
   },
   {
     "term": "dantų šepetėlis",
@@ -23164,24 +23550,46 @@
   {
     "term": "muilas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Valymo priemonė rankoms ar kūnui plauti.",
+        "example": "Viešbutyje vonios kambaryje buvo pateiktas muilo gabalėlis ir šampūnas.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "hygiene",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "soap"
   },
   {
     "term": "šampūnas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Skystoji priemonė plaukams plauti ir prižiūrėti.",
+        "example": "Viešbučio kambaryje radome nedidelį buteliuką šampūno ir kondicionieriaus.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "hygiene",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "shampoo"
   },
   {
     "term": "dantų pasta",
@@ -23437,12 +23845,32 @@
     "term": "oro kondicionierius",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Prietaisas, reguliuojantis kambario oro temperatūrą ir drėgmę.",
+        "example": "Karštu vasaros oru viešbučio kambaryje oro kondicionierius veikė visą naktį.",
+        "register": "general",
+        "tags": [
+          "hotel",
+          "accommodation",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Klimato kontrolės sistema viešajame transporte arba automobiliuose.",
+        "example": "Turistiniame autobuse oro kondicionierius palaikė malonią temperatūrą viso reidų metu.",
+        "register": "general",
+        "tags": [
+          "transport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "air conditioner"
   },
   {
     "term": "ventiliatorius",
@@ -34532,13 +34960,34 @@
   {
     "term": "sodyba",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kaimo vietovėje esantis sodybos pastatas su kiemu ir žeme, dažnai siūlantis kaimo turizmo paslaugas.",
+        "example": "Savaitgalį apsistojome jaukioje sodyboje prie ežero ir ilsėjomės gamtoje.",
+        "register": "general",
+        "tags": [
+          "tourism",
+          "accommodation",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Tradicinė lietuviška kaimo sodyba su gyvenamuoju namu ir ūkiniais pastatais.",
+        "example": "Turistai mėgsta aplankyti senas sodybas ir susipažinti su lietuvių liaudies tradicijomis.",
+        "register": "general",
+        "tags": [
+          "tourism",
+          "culture",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "rural homestead, countryside estate"
   },
   {
     "term": "tvartas",
@@ -35100,24 +35549,65 @@
   {
     "term": "bagažas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kelionei parengti daiktai, supakuoti į lagaminą ar krepšį.",
+        "example": "Prieš įlaipinimą bagažas buvo pasveriamas ir pažymimas etiketėmis.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "airport",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Registruotas bagažas, dedamas į lėktuvo bagažinę.",
+        "example": "Keleiviai gali vežtis vieną rankinį bagažą nemokamai, o didesnį – papildomai mokėti.",
+        "register": "technical",
+        "tags": [
+          "travel",
+          "airport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "luggage, baggage"
   },
   {
     "term": "lagaminas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kietas arba minkštas dėklas su rankenėle, skirtas kelioniniams daiktams laikyti ir vežti.",
+        "example": "Ji susikrovė lagaminą ir anksti ryte išvyko į oro uostą.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Lagaminas su ratukais, patogus stumti oro uoste ar traukinio stotyje.",
+        "example": "Ant bagažo atsiėmimo juostos pagaliau atsirado jos raudonas lagaminas.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "airport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "suitcase"
   },
   {
     "term": "miesto planas",
@@ -38410,12 +38900,22 @@
     "term": "pakuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Dėti daiktus į lagaminą ar kelioninį krepšį prieš kelionę.",
+        "example": "Išvakarėse prieš skrydį jis pakavo lagaminą ir tikrino dokumentus.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to pack"
   },
   {
     "term": "pakuoja",
@@ -44701,10 +45201,33 @@
   },
   {
     "term": "perėja",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "pedestrian crossing, passage",
+    "meanings": [
+      {
+        "definition": "Gatvės vieta, žymima dažniausiai baltomis juostomis, kur pėstieji gali saugiai kirsti kelią.",
+        "example": "Prie oro uosto išėjimo yra pėsčiųjų perėja, skirta keleivius persivesti per kelią.",
+        "register": "general",
+        "tags": [
+          "directions",
+          "transport",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Tunelis ar kitokia konstrukcija, leidžianti žmonėms ar transportui pereiti per kliūtį.",
+        "example": "Po oro uosto terminalu eina požeminė perėja, jungianti abu parkingus.",
+        "register": "general",
+        "tags": [
+          "transport",
+          "airport",
+          "B1"
+        ]
+      }
+    ]
   },
   {
     "term": "šaligatvis",
@@ -44765,17 +45288,43 @@
   },
   {
     "term": "pro",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "preposition",
+    "tags": [],
+    "translation": "past, through",
+    "meanings": [
+      {
+        "definition": "Nurodo judėjimą šalia objekto arba per jį praeinant.",
+        "example": "Traukinys pravažiuoja pro mažas kaimo stoteles nė nesustodamas.",
+        "register": "general",
+        "tags": [
+          "directions",
+          "transport",
+          "B1"
+        ]
+      }
+    ]
   },
   {
     "term": "link",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "preposition",
+    "tags": [],
+    "translation": "towards",
+    "meanings": [
+      {
+        "definition": "Nurodo judėjimo kryptį objekto pusės link.",
+        "example": "Autobusas važiuoja oro uosto link – išlipsime paskutinėje stotelėje.",
+        "register": "general",
+        "tags": [
+          "directions",
+          "travel",
+          "B1"
+        ]
+      }
+    ]
   },
   {
     "term": "tolyn",
