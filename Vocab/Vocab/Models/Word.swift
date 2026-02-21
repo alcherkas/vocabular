@@ -19,6 +19,12 @@ class Word {
     var translation: String?
     @Attribute(.unique) var uniqueKey: String
 
+    // Spaced repetition (SM-2)
+    var nextReview: Date?
+    var easeFactor: Double = 2.5
+    var interval: Int = 0
+    var repetitions: Int = 0
+
     init(term: String, definition: String, synonyms: [String], example: String, partOfSpeech: String, tags: [String] = [], language: String = "en", translation: String? = nil) {
         self.term = term
         self.definition = definition

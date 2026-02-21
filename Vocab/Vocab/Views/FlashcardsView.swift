@@ -11,7 +11,15 @@ struct FlashcardsView: View {
     @State private var showFavoritesOnly = false
     
     private var displayedWords: [Word] {
-        showFavoritesOnly ? words.filter { $0.isFavorite } : words
+        let filtered = showFavoritesOnly ? words.filter { $0.isFavorite } : words
+        // Surface overdue / never-reviewed words first
+        let now = Date.now
+        return filtered.sorted { a, b in
+            let aDue = a.nextReview == nil || a.nextReview! < now
+            let bDue = b.nextReview == nil || b.nextReview! < now
+            if aDue != bDue { return aDue }
+            return (a.nextReview ?? .distantPast) < (b.nextReview ?? .distantPast)
+        }
     }
     
     var body: some View {
