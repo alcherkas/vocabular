@@ -172,3 +172,32 @@ This file answers: "Why does the process work the way it does now?" and "What ch
 - [2025-07-18] [qa-18] [vocab/qa-18] — "'archaeal methanogenesis' listed as synonym for 'methanogenesis' — self-referential phrase not caught by exact-match check."
 - [2025-07-14] [qa-15] [vocab/qa-15] — "autobusų stotis/traukinių stotis/dviračių stotis in relatedTerms — genitive-plural modifier in compound phrase not flagged by -ų word-final check."
 - [2025-02-21] [relations-19] [vocab/relations-19] — "11 EN entries had cross-array duplicates (same term in synonyms/antonyms AND relatedTerms); consider adding a cross-array dedup check to the validator."
+
+## [2026-02-25] Reflection cycle #6
+
+### Pattern observed
+1. **LT term capitalisation errors reach QA** — qa-28 flagged `Autobusas` and `Kaimas` (should be lowercase common nouns). enricher-lt-40 explicitly noted "retained capital A as found in staging" — confirming Enrichers propagate seeder capitalisation rather than correcting it. The error passes through Seeder → Enricher → Relations undetected, wasting a QA round-trip per entry.
+2. **Synonyms placed as hypernyms reach QA in every cycle** — qa-28 (4 EN + 3 LT rejected), qa-29 (10 EN + 3 LT rejected), qa-30 (3 EN + 1 LT rejected). Recurring examples: `speech act` for `illocution`, `aukštuma` for `kalnas`, `kelionė` for `žygis`. The Relations section had no explicit rule distinguishing co-extensive synonyms from broader hypernyms.
+3. **`antonymTerms` misuse reaches QA in every cycle** — qa-28 (`non-ergodicity` as antonym of `ergodicity`), qa-29 (`teleology` as antonym of `teleonomy`), qa-30 (`phoneme` as antonym of `allophone`; `deduction`/`induction` as antonyms of `abduction`). Relations agents routinely place taxonomic contrasts and negation-prefixed forms in `antonymTerms`. No rule explicitly defined what constitutes a valid antonym.
+
+### Change 1
+- **File**: `docs/VOCAB-AGENT.md`
+- **What changed**: Added **Term capitalisation rule** to the LT Seeder section: LT `term` values must be all-lowercase except genuine proper nouns. Added a step to the LT Enricher loop instructing agents to lowercase capitalised common-noun terms found in stubs rather than preserving seeder capitalisation.
+- **Why**: `Autobusas`/`Kaimas`/`Alergologas` passed through multiple agents uncorrected; defining the rule at both the seeder and enricher stages prevents new instances and fixes existing ones.
+
+### Change 2
+- **File**: `docs/VOCAB-AGENT.md`
+- **What changed**: Added a **Semantic quality rules** block to the Relations section (after the validator-enforced structural rules), covering three rules: (a) synonyms must be co-extensive with the defined sense, not hypernyms; (b) synonyms must be scoped to the senses present in `meanings[]`; (c) `antonymTerms` requires direct semantic opposites — not taxonomic contrasts or negation-prefixed forms.
+- **Why**: The three synonym/antonym patterns caused QA rejections in every post-cycle-5 QA session; these rules are not mechanically detectable by the validator and must be applied by the Relations agent.
+
+### Change 3
+- **File**: `AGENTS.md`
+- **What changed**: Added a single Hard Rule bullet for Vocab Relations agents summarising the three semantic quality checks as a pre-commit reminder, with a pointer to the full rules in `docs/VOCAB-AGENT.md`.
+- **Why**: Hard Rules in AGENTS.md are read by every agent on every session start; surfacing the pattern here ensures Relations agents are reminded even if they skim rather than read the full protocol.
+
+### Retro entries that triggered this
+- [2026-02-21] [qa-28] [vocab/qa-28] — "`Autobusas`: term incorrectly capitalised (should be `autobusas`); `Kaimas`: term incorrectly capitalised (should be `kaimas`)"
+- [2025-08-02] [enricher-lt-40] [vocab/enricher-lt-40] — "`Alergologas` retained capital A as found in staging (original seeder capitalisation)"
+- [2026-02-21] [qa-28] [vocab/qa-28] — "`ergodicity`: synonym `stochastic stationarity` ≠ ergodicity; antonym `non-ergodicity` self-referential (contains headword as word-token)"
+- [2025-08-03] [qa-29] [vocab/qa-29] — "10 EN entries enriched back; recurring issues: hypernyms in synonyms (`speech act` for `illocution`), related doctrines not synonyms (`empirical equivalence` for `underdetermination`)"
+- [2026-02-21] [qa-30] [vocab/qa-30] — "`allophone`: `phoneme` is a hypernym/type-token, not an antonym; `abduction`: `deduction`/`induction` are contrasting inference modes, not antonyms; `felicity`: `happiness`/`bliss` correspond to a sense not defined in the entry"

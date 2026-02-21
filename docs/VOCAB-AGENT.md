@@ -89,6 +89,8 @@ git add lt.txt Vocab/Vocab/Resources/words_lt_staging.json
 git commit -m "vocab(seed-lt): add N new stubs from lt.txt"
 ```
 
+**Term capitalisation rule**: LT `term` values must be **all-lowercase**, except genuine proper nouns (place names, person names). Common nouns, verbs, adjectives must start with a lowercase letter even if source materials capitalise them (e.g. `autobusas`, not `Autobusas`). `scripts/seed_lt.py` lowercases terms automatically; if adding stubs manually, apply `term.lower()` unless the term is a proper noun.
+
 ---
 
 ## Role: Enricher
@@ -109,6 +111,7 @@ git commit -m "vocab(seed-lt): add N new stubs from lt.txt"
    If the file has invalid JSON, fix the syntax error first before proceeding.
 3. Load the file, find entries with `status == "stub"`. Take first 5.
 4. For each word:
+   - **LT only**: if the `term` field starts with an uppercase letter and is not a genuine proper noun (place name, person name), lowercase it now — do **not** preserve the seeder's capitalisation for common nouns (e.g. `Autobusas` → `autobusas`, `Kaimas` → `kaimas`).
    - Research all distinct meanings (senses) of the term.
    - For each meaning, write: `definition`, `example` (a natural sentence), `register`, `tags`.
    - For LT words: also fill `translation` (the English gloss, e.g. `"cat"`).
@@ -190,6 +193,11 @@ git commit -m "vocab(seed-lt): add N new stubs from lt.txt"
 - A term must not appear in **more than one** relation array (cross-array duplicate). E.g. `"riff"` in both `synonyms` and `relatedTerms` will be flagged — keep it in the most precise array only.
 - A term must not appear **twice in the same** relation array (within-array duplicate). De-duplicate arrays before committing.
 - LT relation arrays must use **nominative headword** forms. Words ending in `-ą` (accusative) or `-ų` (genitive plural) will be flagged — use the nominative form instead (e.g. `palata` not `palatą`).
+
+**Semantic quality rules (not validator-enforced — apply manually):**
+- **Synonyms must be co-extensive with the defined sense.** A broader term (hypernym) belongs in `relatedTerms`, not `synonyms`. Test: can the synonym substitute for the headword in the example sentence without changing meaning? (e.g. `speech act` is a hypernym of `illocution`; `aukštuma` is a hypernym of `kalnas` — both belong in `relatedTerms`.)
+- **Synonyms must match only the senses present in `meanings[]`.** A term that is a valid synonym in a different sense of the word (not defined in the entry) must not be included. (e.g. if `felicity` is defined only in its speech-act sense, do not include `happiness`/`bliss`.)
+- **`antonymTerms` requires direct semantic opposites, not taxonomic contrasts.** Terms that are merely "in the same category" or "commonly contrasted" are not antonyms (e.g. `deduction`/`induction` contrast with `abduction` but are not its opposites). Negation-prefixed forms (`non-ergodicity`, `non-X`) count as self-references, not antonyms. If no true antonym exists, use `antonymTerms: []`.
 
 ### Preflight stub count
 
