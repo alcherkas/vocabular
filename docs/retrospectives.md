@@ -1621,3 +1621,35 @@ Relations Agent — `vocab/relations-19`
 - For astronomy terms without clear antonyms (parsec, quasar, pulsar, magnetar, nucleosynthesis, asteroseismology, exoplanet), `antonymTerms` was set to `[]`, consistent with existing file conventions.
 - `perihelion` ↔ `aphelion` are used as mutual antonyms; `syzygy` ↔ `quadrature` (perpendicular alignment) likewise.
 - `thermohaline` classified as adjective (per standard usage: "thermohaline circulation"); all other target terms are nouns.
+
+## Session retro — vocab/seeder-en-7
+
+**Date:** 2025-07-25
+**Branch:** vocab/seeder-en-7
+**Commit:** 1676497
+
+### What was done
+- Preflight JSON validation on `words_staging.json` — 630 entries, exit 0; all 91 warnings on pre-existing `approved`/`enriched` entries outside scope. Stub-scoped validation: **PASSED**.
+- Extracted the full list of existing EN terms (630); confirmed zero collisions for all 100 candidate terms before insertion.
+- Appended 100 new English C1+ stubs spanning 8 thematic domains. Each stub: `{"term": "…", "language": "en", "status": "stub"}`.
+- Post-insertion validation: `validate_words.py --errors-for stub` → **PASSED** (exit 0); 730 total entries.
+- Committed as single atomic commit on branch `vocab/seeder-en-7`.
+
+### Stats
+| Domain | Count | Sample terms |
+|--------|-------|--------------|
+| Rhetoric / debate | 14 | catachresis, encomium, epideictic, isocolon, prosopopoeia, sorites, epicheireme |
+| Philosophy of mind | 14 | qualia, supervenience, panpsychism, epiphenomenalism, eliminativism, computationalism, functionalism |
+| Ethics | 10 | supererogation, eudaimonism, contractarianism, metaethics, emotivism, principlism, aretaic |
+| Sociology | 12 | alienation, simulacrum, doxa, flaneur, lifeworld, othering, credentialism, hysteresis |
+| Anthropology | 10 | bricolage, cosmogony, creolization, moiety, cognatic, pastoralism, polyandry, transhumance |
+| Architecture | 16 | pendentive, narthex, loggia, oculus, rustication, coffering, balustrade, crenellation |
+| Culinary arts | 10 | brunoise, duxelles, quenelle, salpicon, macedoine, nappe, concasse, caramelization |
+| Geology | 14 | diagenesis, orogeny, batholith, isostasy, geomorphology, mylonite, ignimbrite, diapir |
+| **Total** | **100** | |
+
+### Issues / notes
+- All 100 terms verified against existing headword set before insertion — zero duplicates.
+- Minimal stub format `{"term", "language", "en", "status": "stub"}` used, consistent with seeder-en-6 convention; enricher agents will populate `partOfSpeech`, `meanings`, `synonyms`, etc.
+- `aretaic` (adj.) and `epideictic` (adj.) are adjective-form entries — correct C1+ scholarly vocabulary; `partOfSpeech` left for enricher.
+- No multi-word compound terms introduced; all headwords are single tokens or hyphen-free forms for validator compatibility.
