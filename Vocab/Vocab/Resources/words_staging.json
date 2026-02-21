@@ -12192,24 +12192,101 @@
   },
   {
     "term": "solfatara",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A volcanic vent or area emitting hot sulfurous gases and steam, typically found in dormant or waning volcanic fields.",
+        "example": "Scientists monitoring the solfatara observed an increase in sulfur dioxide output, signalling renewed hydrothermal activity beneath the caldera.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "volcanology",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "fumarole",
+      "volcanic vent",
+      "sulfurous vent"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "fumarole",
+      "hydrothermal system",
+      "caldera",
+      "volcanic degassing",
+      "geothermal energy"
+    ]
   },
   {
     "term": "phreatomagmatic",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Describing a volcanic eruption driven by explosive interaction between ascending magma and external water, such as groundwater or a shallow lake.",
+        "example": "The phreatomagmatic eruption produced a broad, low-profile crater surrounded by fine-grained tuff deposits.",
+        "register": "technical",
+        "tags": [
+          "volcanology",
+          "geology",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "hydrovolcanic",
+      "phreatic-magmatic"
+    ],
+    "antonymTerms": [
+      "magmatic",
+      "effusive"
+    ],
+    "relatedTerms": [
+      "maar",
+      "tuff ring",
+      "base surge",
+      "hydrothermal explosion",
+      "steam-blast eruption"
+    ]
   },
   {
     "term": "lapilli",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Small pyroclastic rock fragments between 2 and 64 millimetres in diameter, ejected during volcanic eruptions and deposited around the vent or carried downwind.",
+        "example": "A layer of lapilli several centimetres thick blanketed the surrounding farmland within hours of the eruption onset.",
+        "register": "technical",
+        "tags": [
+          "volcanology",
+          "geology",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pyroclastic lapilli",
+      "cinder fragments",
+      "tephra fragments"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tephra",
+      "volcanic ash",
+      "pumice",
+      "scoria",
+      "pyroclastic fall"
+    ]
   },
   {
     "term": "ablation",
@@ -12338,38 +12415,169 @@
   },
   {
     "term": "drumlin",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An elongated, streamlined hill of glacial till moulded by the flow of an ice sheet, characteristically with a steep upstream face and a tapered downstream tail.",
+        "example": "The drumlin field north of the lake records the direction of ice advance during the last glacial maximum.",
+        "register": "technical",
+        "tags": [
+          "geomorphology",
+          "glaciology",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "glacial mound",
+      "till hillock",
+      "ice-moulded hill"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "esker",
+      "moraine",
+      "till",
+      "glacial erratic",
+      "ice sheet"
+    ]
   },
   {
     "term": "esker",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A long, sinuous ridge of stratified sand and gravel deposited by a subglacial or englacial meltwater stream and left exposed after the overlying ice melts.",
+        "example": "The esker stretched nearly forty kilometres across the boreal landscape, serving as a natural drainage divide.",
+        "register": "technical",
+        "tags": [
+          "geomorphology",
+          "glaciology",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "glaciofluvial ridge",
+      "meltwater ridge",
+      "ice-contact ridge"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "drumlin",
+      "kame",
+      "outwash plain",
+      "glaciofluvial deposit",
+      "subglacial drainage"
+    ]
   },
   {
     "term": "periglacial",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Relating to or denoting environments, processes, and landforms associated with cold climates near or formerly adjacent to glaciers and ice sheets, characterised by frost action, permafrost, and related geomorphic activity.",
+        "example": "Periglacial weathering has produced a striking pattern of stone polygons and solifluction lobes across the Arctic plateau.",
+        "register": "technical",
+        "tags": [
+          "geomorphology",
+          "climatology",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "paraglacial",
+      "cryogenic",
+      "frost-dominated"
+    ],
+    "antonymTerms": [
+      "tropical",
+      "arid"
+    ],
+    "relatedTerms": [
+      "permafrost",
+      "solifluction",
+      "patterned ground",
+      "frost heave",
+      "thermokarst"
+    ]
   },
   {
     "term": "subglacial",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Situated, formed, or occurring beneath a glacier or ice sheet, encompassing processes such as basal melting, erosion, and sediment transport.",
+        "example": "Subglacial lakes detected by radar surveys may harbour microbial communities isolated for millions of years.",
+        "register": "technical",
+        "tags": [
+          "glaciology",
+          "physical geography",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "englacial-basal",
+      "beneath-glacier",
+      "ice-bed"
+    ],
+    "antonymTerms": [
+      "supraglacial",
+      "proglacial"
+    ],
+    "relatedTerms": [
+      "basal melting",
+      "glacial erosion",
+      "subglacial lake",
+      "ice-bed interface",
+      "esker"
+    ]
   },
   {
     "term": "nunatak",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An isolated mountain peak or rock outcrop projecting above the surface of a surrounding glacier or ice sheet.",
+        "example": "The nunatak provided a rare ice-free refuge for cold-adapted plant communities encircled by the advancing ice sheet.",
+        "register": "technical",
+        "tags": [
+          "glaciology",
+          "physical geography",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "glacial island",
+      "ice-surrounded peak",
+      "rock outcrop"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ice sheet",
+      "glacier",
+      "refugium",
+      "periglacial",
+      "alpine terrain"
+    ]
   },
   {
     "term": "hypocenter",
@@ -12434,17 +12642,66 @@
   },
   {
     "term": "isoseismal",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Connecting or denoting points on the Earth's surface that experience equal intensity of shaking from a given earthquake, used to map seismic damage zones.",
+        "example": "Isoseismal maps produced after the earthquake revealed that intensity declined sharply with distance from the epicentre.",
+        "register": "technical",
+        "tags": [
+          "seismology",
+          "geophysics",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "equal-intensity",
+      "seismic intensity contour"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "epicentre",
+      "seismic intensity",
+      "Modified Mercalli Scale",
+      "attenuation",
+      "seismic hazard"
+    ]
   },
   {
     "term": "microseism",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A faint, persistent ground tremor of natural or anthropogenic origin, not caused by an earthquake, typically generated by ocean waves, wind, or industrial activity.",
+        "example": "Seismologists filtered out microseisms caused by oceanic storms before analysing signals from distant tectonic events.",
+        "register": "technical",
+        "tags": [
+          "seismology",
+          "geophysics",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ambient seismic noise",
+      "background tremor",
+      "seismic hum"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "seismic noise",
+      "ocean-wave loading",
+      "cultural noise",
+      "seismograph",
+      "ambient vibration"
+    ]
   },
   {
     "term": "seismicity",
@@ -14746,127 +15003,843 @@
   {
     "term": "albedo",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The fraction of incoming solar radiation reflected by a surface, expressed as a value between 0 (perfect absorber) and 1 (perfect reflector), with major implications for Earth's energy balance and climate.",
+        "example": "Melting Arctic sea ice dramatically lowers the regional albedo, accelerating warming through a positive feedback loop.",
+        "register": "technical",
+        "tags": [
+          "climatology",
+          "environmental science",
+          "physics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "reflectance",
+      "solar reflectivity",
+      "surface reflectance"
+    ],
+    "antonymTerms": [
+      "absorptance",
+      "emissivity"
+    ],
+    "relatedTerms": [
+      "radiative forcing",
+      "energy balance",
+      "greenhouse effect",
+      "ice-albedo feedback",
+      "insolation"
+    ]
   },
   {
     "term": "aquifer",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A subsurface layer of permeable rock, sediment, or soil that stores and transmits groundwater in quantities sufficient for extraction.",
+        "example": "Over-extraction from the confined aquifer has caused measurable land subsidence across the metropolitan area.",
+        "register": "technical",
+        "tags": [
+          "hydrogeology",
+          "environmental science",
+          "water resources"
+        ]
+      }
+    ],
+    "synonyms": [
+      "groundwater reservoir",
+      "water-bearing stratum",
+      "water table zone"
+    ],
+    "antonymTerms": [
+      "aquitard",
+      "aquiclude"
+    ],
+    "relatedTerms": [
+      "groundwater",
+      "water table",
+      "recharge zone",
+      "permeability",
+      "hydraulic conductivity"
+    ]
   },
   {
     "term": "benthic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Relating to, or occurring at, the bottom of a body of water and the organisms and ecological processes associated with that zone.",
+        "example": "Benthic macroinvertebrates are widely used as bioindicators of freshwater quality because their community composition reflects long-term pollution levels.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "marine science",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "bottom-dwelling",
+      "demersal",
+      "substrate-associated"
+    ],
+    "antonymTerms": [
+      "pelagic",
+      "planktonic",
+      "neritic"
+    ],
+    "relatedTerms": [
+      "benthos",
+      "sediment",
+      "hyporheic zone",
+      "detritus",
+      "biofilm"
+    ]
   },
   {
     "term": "biogeochemistry",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The scientific study of the chemical, physical, geological, and biological processes and reactions that govern the composition of the environment and the cycling of elements through ecosystems.",
+        "example": "Biogeochemistry research in the Amazon basin has quantified how deforestation disrupts regional carbon and nitrogen cycles.",
+        "register": "technical",
+        "tags": [
+          "environmental science",
+          "ecology",
+          "chemistry"
+        ]
+      }
+    ],
+    "synonyms": [
+      "elemental cycling science",
+      "environmental geochemistry",
+      "ecosystem chemistry"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "carbon cycle",
+      "nitrogen cycle",
+      "nutrient cycling",
+      "ecosystem ecology",
+      "geochemistry"
+    ]
   },
   {
     "term": "denitrification",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The microbial reduction of nitrate or nitrite to gaseous nitrogen compounds, primarily dinitrogen and nitrous oxide, completing the nitrogen cycle and removing reactive nitrogen from ecosystems.",
+        "example": "Constructed wetlands exploit denitrification to remove excess nitrate from agricultural runoff before it reaches sensitive estuaries.",
+        "register": "technical",
+        "tags": [
+          "biogeochemistry",
+          "microbiology",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "nitrate reduction",
+      "nitrogen mineralisation",
+      "microbial nitrogen removal"
+    ],
+    "antonymTerms": [
+      "nitrification",
+      "nitrogen fixation"
+    ],
+    "relatedTerms": [
+      "nitrogen cycle",
+      "nitrification",
+      "anaerobic respiration",
+      "nitrous oxide",
+      "wetland ecology"
+    ]
   },
   {
     "term": "ecotone",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A transitional zone between two adjacent but distinct ecological communities or biomes, often characterised by higher biodiversity than either bordering community due to the edge effect.",
+        "example": "The ecotone between the grassland and the forest edge harboured several bird species that nested in neither habitat alone.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "biogeography",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "edge habitat",
+      "transition zone",
+      "habitat boundary"
+    ],
+    "antonymTerms": [
+      "climax community",
+      "interior habitat"
+    ],
+    "relatedTerms": [
+      "edge effect",
+      "habitat fragmentation",
+      "biodiversity hotspot",
+      "biome",
+      "ecotype"
+    ]
   },
   {
     "term": "edaphic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Relating to or resulting from the characteristics of the soil, particularly as they influence the distribution and growth of plants and other organisms.",
+        "example": "The unusual edaphic conditions of the serpentine outcrops—rich in magnesium and nickel—support a specialised flora found nowhere else in the region.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "soil science",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pedological",
+      "soil-related",
+      "substrate-dependent"
+    ],
+    "antonymTerms": [
+      "climatic",
+      "physiographic"
+    ],
+    "relatedTerms": [
+      "pedogenesis",
+      "soil texture",
+      "pH gradient",
+      "plant community",
+      "nutrient availability"
+    ]
   },
   {
     "term": "evapotranspiration",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The combined process by which water is transferred from the Earth's surface to the atmosphere through evaporation from soil and water bodies and transpiration from plants.",
+        "example": "Accurate estimates of evapotranspiration are essential for calibrating hydrological models and managing irrigation in semi-arid basins.",
+        "register": "technical",
+        "tags": [
+          "hydrology",
+          "climatology",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ET",
+      "water vapour flux",
+      "land surface evaporation"
+    ],
+    "antonymTerms": [
+      "precipitation",
+      "runoff"
+    ],
+    "relatedTerms": [
+      "water cycle",
+      "transpiration",
+      "soil moisture",
+      "latent heat flux",
+      "potential evapotranspiration"
+    ]
   },
   {
     "term": "geoengineering",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The deliberate large-scale technological intervention in Earth's climate or other natural systems, proposed as a means of counteracting anthropogenic climate change.",
+        "example": "Stratospheric aerosol injection remains the most-studied solar geoengineering technique, yet governance frameworks for its deployment are still largely absent.",
+        "register": "technical",
+        "tags": [
+          "environmental science",
+          "climate science",
+          "technology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "climate engineering",
+      "climate intervention",
+      "planetary management"
+    ],
+    "antonymTerms": [
+      "natural climate regulation",
+      "emissions reduction"
+    ],
+    "relatedTerms": [
+      "solar radiation management",
+      "carbon dioxide removal",
+      "stratospheric aerosol injection",
+      "ocean fertilisation",
+      "climate change mitigation"
+    ]
   },
   {
     "term": "leachate",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Liquid that has percolated through a permeable medium—particularly through municipal solid waste in a landfill—dissolving or suspending contaminants that may then migrate into surrounding soil or groundwater.",
+        "example": "Effective leachate collection and treatment systems are a regulatory requirement for all modern sanitary landfills.",
+        "register": "technical",
+        "tags": [
+          "environmental science",
+          "waste management",
+          "hydrogeology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "percolate",
+      "landfill effluent",
+      "contaminant seepage"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "landfill",
+      "groundwater contamination",
+      "percolation",
+      "liner system",
+      "remediation"
+    ]
   },
   {
     "term": "limnology",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The scientific study of the physical, chemical, biological, and ecological characteristics and processes of inland water bodies, including lakes, ponds, rivers, and wetlands.",
+        "example": "Long-term limnology monitoring of the alpine lake revealed a steady rise in water temperature and declining oxygen concentrations in its deepest strata.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "environmental science",
+          "hydrology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "freshwater science",
+      "inland water ecology",
+      "lacustrine science"
+    ],
+    "antonymTerms": [
+      "oceanography"
+    ],
+    "relatedTerms": [
+      "lake stratification",
+      "eutrophication",
+      "thermocline",
+      "benthic ecology",
+      "hydrological cycle"
+    ]
   },
   {
     "term": "methanogenesis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The biological production of methane by methanogenic archaea under strictly anaerobic conditions, occurring in environments such as wetlands, rice paddies, landfills, and the digestive tracts of ruminants.",
+        "example": "Methanogenesis in Arctic peatlands is expected to accelerate as permafrost thaws, releasing substantial amounts of a potent greenhouse gas.",
+        "register": "technical",
+        "tags": [
+          "biogeochemistry",
+          "microbiology",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "methane production",
+      "biogenic methane formation",
+      "archaeal methanogenesis"
+    ],
+    "antonymTerms": [
+      "methane oxidation",
+      "methanotrophy"
+    ],
+    "relatedTerms": [
+      "methanogens",
+      "anaerobic decomposition",
+      "carbon cycle",
+      "greenhouse gas",
+      "biogas"
+    ]
   },
   {
     "term": "pedogenesis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The set of physical, chemical, and biological processes by which parent material is transformed into soil over time, influenced by climate, organisms, relief, parent material, and time.",
+        "example": "Pedogenesis in the tropical rainforest produces deep, highly weathered soils poor in nutrients despite the exuberant biomass above them.",
+        "register": "technical",
+        "tags": [
+          "soil science",
+          "environmental science",
+          "geomorphology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "soil formation",
+      "soil development",
+      "edaphogenesis"
+    ],
+    "antonymTerms": [
+      "soil erosion",
+      "soil degradation"
+    ],
+    "relatedTerms": [
+      "soil horizon",
+      "weathering",
+      "humus",
+      "soil profile",
+      "parent material"
+    ]
   },
   {
     "term": "riparian",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Relating to or situated on the bank of a river or other watercourse, encompassing the distinctive vegetation, soils, and ecological processes that characterise this interface between terrestrial and aquatic environments.",
+        "example": "Riparian buffer strips planted with native trees significantly reduce sediment and nutrient runoff entering the stream.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "environmental science",
+          "hydrology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "riverine",
+      "streamside",
+      "fluvial"
+    ],
+    "antonymTerms": [
+      "upland",
+      "terrestrial"
+    ],
+    "relatedTerms": [
+      "floodplain",
+      "riparian buffer",
+      "wetland",
+      "bank erosion",
+      "hyporheic zone"
+    ]
   },
   {
     "term": "thermocline",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A layer in a large body of water—typically a lake or ocean—in which temperature decreases rapidly with depth, forming a barrier between warmer surface water and colder deep water that limits vertical mixing and nutrient exchange.",
+        "example": "The seasonal thermocline in the temperate lake isolated the hypolimnion, leading to oxygen depletion and fish kills by late summer.",
+        "register": "technical",
+        "tags": [
+          "oceanography",
+          "limnology",
+          "environmental science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "temperature gradient layer",
+      "thermal stratification layer",
+      "metalimnion"
+    ],
+    "antonymTerms": [
+      "mixed layer",
+      "isothermal layer"
+    ],
+    "relatedTerms": [
+      "stratification",
+      "halocline",
+      "pycnocline",
+      "upwelling",
+      "nutrient cycling"
+    ]
   },
   {
     "term": "agglomeration",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The clustering of firms, people, or economic activities in a geographic area, generating benefits from shared infrastructure, labour pools, and knowledge spillovers that drive urban growth.",
+        "example": "The tech agglomeration around the city's innovation district attracted a dense network of startups and supporting services within a decade.",
+        "register": "technical",
+        "tags": [
+          "urban planning",
+          "economic geography",
+          "urban economics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "clustering",
+      "urban concentration",
+      "spatial agglomeration"
+    ],
+    "antonymTerms": [
+      "dispersal",
+      "decentralisation",
+      "suburbanisation"
+    ],
+    "relatedTerms": [
+      "conurbation",
+      "economies of agglomeration",
+      "metropolitan area",
+      "urban primacy",
+      "knowledge spillover"
+    ]
   },
   {
     "term": "brownfield",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A previously developed or industrially used site that may be contaminated or underutilised and is considered for redevelopment, typically within an existing urban area.",
+        "example": "The city's brownfield regeneration programme converted a derelict gasworks into a mixed-use neighbourhood with affordable housing and public parkland.",
+        "register": "technical",
+        "tags": [
+          "urban planning",
+          "land use",
+          "regeneration"
+        ]
+      }
+    ],
+    "synonyms": [
+      "contaminated land",
+      "derelict site",
+      "previously developed land"
+    ],
+    "antonymTerms": [
+      "greenfield",
+      "undeveloped land"
+    ],
+    "relatedTerms": [
+      "remediation",
+      "land reuse",
+      "infill development",
+      "urban regeneration",
+      "site contamination"
+    ]
   },
   {
     "term": "cadastral",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Relating to a cadastre—an official register of the quantity, value, and ownership of real estate—or to maps and surveys that delineate the boundaries of land parcels.",
+        "example": "Cadastral mapping was updated following the subdivision of several large agricultural parcels on the city's edge for residential development.",
+        "register": "technical",
+        "tags": [
+          "urban planning",
+          "land administration",
+          "cartography"
+        ]
+      }
+    ],
+    "synonyms": [
+      "land-registry",
+      "parcel-based",
+      "property-boundary"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "land registry",
+      "title deed",
+      "parcel boundary",
+      "zoning",
+      "surveying"
+    ]
   },
   {
     "term": "densification",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The process of increasing residential or commercial density in an existing urban area through infill construction, subdivision, or addition of storeys, aimed at accommodating population growth while limiting urban sprawl.",
+        "example": "The transit corridor densification strategy allowed mid-rise apartment blocks to replace single-storey commercial buildings within walking distance of rail stations.",
+        "register": "technical",
+        "tags": [
+          "urban planning",
+          "housing",
+          "land use"
+        ]
+      }
+    ],
+    "synonyms": [
+      "intensification",
+      "urban infill",
+      "upzoning"
+    ],
+    "antonymTerms": [
+      "urban sprawl",
+      "low-density development",
+      "decentralisation"
+    ],
+    "relatedTerms": [
+      "floor area ratio",
+      "upzoning",
+      "transit-oriented development",
+      "housing supply",
+      "mixed-use development"
+    ]
   },
   {
     "term": "gentrification",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The process by which a lower-income urban neighbourhood undergoes physical renovation and social transformation as wealthier residents and businesses move in, often displacing existing communities and raising property values.",
+        "example": "Critics argued that the public art initiative accelerated gentrification, pricing out the working-class families who had shaped the neighbourhood's identity.",
+        "register": "neutral",
+        "tags": [
+          "urban planning",
+          "sociology",
+          "housing"
+        ]
+      }
+    ],
+    "synonyms": [
+      "neighbourhood upgrading",
+      "urban renewal",
+      "displacement-driven regeneration"
+    ],
+    "antonymTerms": [
+      "urban decay",
+      "neighbourhood decline",
+      "disinvestment"
+    ],
+    "relatedTerms": [
+      "displacement",
+      "urban regeneration",
+      "rent gap",
+      "housing affordability",
+      "social mix"
+    ]
   },
   {
     "term": "conurbation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A large urban area formed by the expansion and merging of several formerly separate towns or cities, creating a continuous built-up zone that may span administrative boundaries.",
+        "example": "The Rhine-Ruhr conurbation is one of Europe's most densely populated urban regions, comprising dozens of cities whose boundaries have long since blurred.",
+        "register": "technical",
+        "tags": [
+          "urban planning",
+          "urban geography",
+          "demography"
+        ]
+      }
+    ],
+    "synonyms": [
+      "megalopolis",
+      "metropolitan region",
+      "urban agglomeration"
+    ],
+    "antonymTerms": [
+      "rural area",
+      "isolated settlement"
+    ],
+    "relatedTerms": [
+      "metropolitan area",
+      "agglomeration",
+      "urban sprawl",
+      "polycentric city",
+      "commuter belt"
+    ]
   },
   {
     "term": "placemaking",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A collaborative, community-centred approach to the planning, design, and management of public spaces that strengthens the connection between people and their built environment.",
+        "example": "The waterfront placemaking project transformed a disused industrial quay into a vibrant public realm through participatory workshops with local residents.",
+        "register": "technical",
+        "tags": [
+          "urban planning",
+          "urban design",
+          "community development"
+        ]
+      }
+    ],
+    "synonyms": [
+      "public space design",
+      "community space activation",
+      "urban activation"
+    ],
+    "antonymTerms": [
+      "non-place",
+      "placelessness"
+    ],
+    "relatedTerms": [
+      "public realm",
+      "urban design",
+      "participatory planning",
+      "sense of place",
+      "tactical urbanism"
+    ]
   },
   {
     "term": "pedestrianization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The process of converting streets or areas previously open to motor vehicles into spaces reserved for pedestrians, typically to improve safety, air quality, and economic vitality.",
+        "example": "Pedestrianization of the historic market street increased footfall by forty per cent and reduced roadside pollution levels significantly.",
+        "register": "technical",
+        "tags": [
+          "urban planning",
+          "transport planning",
+          "public space"
+        ]
+      }
+    ],
+    "synonyms": [
+      "car-free conversion",
+      "traffic exclusion",
+      "pedestrian priority"
+    ],
+    "antonymTerms": [
+      "motorisation",
+      "car dependency"
+    ],
+    "relatedTerms": [
+      "active travel",
+      "public realm",
+      "traffic calming",
+      "modal shift",
+      "walkability"
+    ]
   },
   {
     "term": "urbanism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The study or practice of the development, functioning, and social life of cities, encompassing the design, planning, and management of the built urban environment.",
+        "example": "New urbanism advocates for compact, walkable neighbourhoods that reduce car dependency and foster community interaction.",
+        "register": "technical",
+        "tags": [
+          "urban planning",
+          "urban studies",
+          "architecture"
+        ]
+      }
+    ],
+    "synonyms": [
+      "urban studies",
+      "city planning theory",
+      "metropolitan theory"
+    ],
+    "antonymTerms": [
+      "ruralism",
+      "anti-urbanism"
+    ],
+    "relatedTerms": [
+      "urban design",
+      "city planning",
+      "metropolitan governance",
+      "smart city",
+      "urbanisation"
+    ]
   },
   {
     "term": "wayfinding",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The design and provision of information systems—including signage, maps, landmarks, and digital aids—that enable people to navigate the built environment efficiently and intuitively.",
+        "example": "The hospital's wayfinding overhaul replaced confusing colour-coded corridors with clear pictographic signs at every decision point, reducing patient anxiety and misdirection.",
+        "register": "technical",
+        "tags": [
+          "urban design",
+          "urban planning",
+          "architecture"
+        ]
+      }
+    ],
+    "synonyms": [
+      "navigation system",
+      "environmental signage",
+      "orientation design"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "signage",
+      "urban design",
+      "accessibility",
+      "cognitive mapping",
+      "pedestrian infrastructure"
+    ]
   },
   {
     "term": "abatement",

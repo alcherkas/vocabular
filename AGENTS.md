@@ -200,3 +200,29 @@ Include the ambiguity type in your `decisions-pending.md` entry (see format in e
 ### Issues / notes
 - Pre-existing `relations-added` entries in `words_lt_staging.json` (9 entries) already had empty fields before this run — not modified, not our scope.
 - For technical terms with no true linguistic antonym (cartographic instruments, meteorological phenomena), conceptually contrasting domain terms were used as `antonymTerms`, consistent with the existing file conventions (`cumulonimbus`→`stratus`, `bathymetry`→`topography`).
+
+---
+
+## Session: vocab/enricher-en-17
+
+**Date:** 2025-07-24
+**Branch:** vocab/enricher-en-17
+**Commit:** 5c8a1f4
+
+### What was done
+- Preflight JSON validation on `words_staging.json` — 530 entries loaded, 60 stubs present, no errors in enriched scope.
+- Selected 35 stubs from environmental science / Earth science (25) and urban planning (10) domains.
+- Enriched each entry: set `partOfSpeech`, added one `meanings` object (definition, example, register, domain tags), and populated `synonyms` (≥2), `antonymTerms`, and `relatedTerms`.
+- Post-update validation: `validate_words.py --staging … --errors-for enriched` → **PASSED** (26 pre-existing warnings in `approved` entries, outside scope).
+
+### Stats
+| Domain | Terms enriched |
+|---|---|
+| Environmental science / Earth science (glaciology, volcanology, seismology, hydrology, ecology, soil science, climatology, oceanography) | 25 |
+| Urban planning / Urban geography | 10 |
+| **Total** | **35** |
+
+### Issues / notes
+- Geological sub-disciplines (glaciology, volcanology, seismology) were counted under the environmental science / Earth science umbrella, consistent with the domain framing in the task.
+- For terms with no clear linguistic antonym (e.g. `lapilli`, `esker`, `nunatak`), `antonymTerms` was left as an empty array `[]`, matching existing file conventions.
+- 25 stubs remain untouched; they fall outside the target domains.
