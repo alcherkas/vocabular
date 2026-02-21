@@ -173,3 +173,34 @@ Vocab/
 - Register set to `neutral` for family/state terms, `general` for verbs and descriptive adjectives, `formal` for death-related adjectives (miręs/mirusi).
 - Empty `synonyms`/`antonymTerms` arrays retained as `[]` where linguistically appropriate (validator allows this for LT).
 - No merges performed; branch left for PR review.
+
+---
+
+## Session retro — vocab/seeder-en-4 · 100 C1/C2 EN stubs
+
+**Branch:** vocab/seeder-en-4
+
+### What was done
+- Preflighted `words.json` + `words_staging.json` — 330 existing EN terms catalogued.
+- Added **100 new C1/C2 English stub entries** across 12 specialist domains:
+  - **Theology (9):** apophatic, eschatology, soteriology, pneumatology, theophany, kenosis, ecclesiology, theodicy, catechesis
+  - **Heraldry (9):** blazon, escutcheon, tincture, passant, rampant, chevron, dexter, sinister, quarterings
+  - **Numismatics (8):** obverse, exergue, planchet, mintmark, reeding, bullion, assay, numismatist
+  - **Paleontology (8):** taphonomy, biostratigraphy, palynology, paleoecology, permineralization, morphotaxonomy, phylogeny, stratigraphy
+  - **Volcanology (8):** pyroclastic, lahar, fumarole, caldera, tephra, solfatara, phreatomagmatic, lapilli
+  - **Glaciology (9):** ablation, firn, moraine, cirque, drumlin, esker, periglacial, subglacial, nunatak
+  - **Seismology (8):** hypocenter, liquefaction, isoseismal, microseism, seismicity, aftershock, attenuation, seismograph
+  - **Epidemiology (8):** incidence, seroprevalence, morbidity, zoonosis, serology, pathogenesis, virulence, etiological
+  - **Pharmacology (9):** pharmacokinetics, pharmacodynamics, bioavailability, agonist, antagonist, teratogen, excipient, prodrug, bioequivalence
+  - **Oncology (9):** metastasis, angiogenesis, carcinogenesis, cytotoxic, neoplasm, adenocarcinoma, lymphoma, sarcoma, malignancy
+  - **Cardiology (8):** arrhythmia, bradycardia, stenosis, ischemia, fibrillation, cardiomyopathy, atherosclerosis, endocarditis
+  - **Dermatology (7):** erythema, psoriasis, desquamation, urticaria, seborrheic, hyperpigmentation, pruritus
+
+### Validation
+- Zero conflicts against all existing EN terms (330 pre-existing → 430 total, all unique) ✓
+- 100 stubs appended to `words_staging.json`; total staging size 430 entries ✓
+
+### Decisions
+- Stub format `{"term":"…","status":"stub","language":"en","partOfSpeech":"","tags":[]}` used verbatim per spec.
+- Domain spread (9–7 terms per category) chosen to reach exactly 100 while avoiding known existing terms (e.g. `cladistics`, `tachycardia`, `contraindication`, `comorbidity`, `iatrogenic`, `nosocomial` already present).
+- No merges performed; branch left for PR review.
