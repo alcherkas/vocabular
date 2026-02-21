@@ -299,3 +299,22 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Include exact allowed enum values in the agent task prompt to avoid validation round-trips.
+---
+
+## Retro · EN Words Expansion (feature/en-words-expansion)
+**Date**: 2025-07-22
+
+### What was done
+- Added 100 new C1/C2 English words to `words.json` (96 → 196 total).
+- Categories covered: academic writing, business, science, arts, philosophy, politics, psychology, medicine, law, technology.
+- Each entry includes term, definition, 2–5 synonyms, example sentence, partOfSpeech, and tags.
+- Validated: 196 total, 196 unique — zero duplicates.
+
+### What went well
+- Schema matched existing format on first attempt; no structural fixes needed.
+
+### Process friction
+- Initial word list had 107 entries instead of 100; required trimming.
+
+### Suggested improvement
+- Pre-calculate target count before generation to avoid trim step.
