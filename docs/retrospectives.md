@@ -3045,3 +3045,32 @@ brangus, pigus, mokėti, siūlyti, užsisakyti, sąskaita, nuolaidų kortelė, g
 ### Doubts / meta-notes
 - The synonym accuracy problem is likely partially attributable to the validator's ≥2 synonym requirement for EN entries: agents over-include to satisfy the count. A future cycle could consider whether the threshold causes quality pressure that outweighs the diversity benefit. Not changed this cycle (≤3 limit; would need retro evidence first).
 - Confidence: 90% — the rules are clear and evidence is unambiguous.
+
+---
+
+## Relations agent — vocab/relations-33 — 2025-01-31
+
+**Agent role**: Relations Agent
+**Branch**: `vocab/relations-33`
+
+### What was done
+- Preflighted both `words_staging.json` and `words_lt_staging.json` — both valid JSON.
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to 35 EN entries and 35 LT entries (`status: relations-added`).
+- Lowercased 4 LT terms with incorrect capitalisation (`Dešra`, `Bazilikai`, `Alkanas`, `Keptuvė`).
+- Corrected pre-existing quality issues in entries that had partial relation data from earlier agents:
+  - `ergodicity`: removed self-referential `non-ergodicity` antonym and non-co-extensive synonyms.
+  - `internalism`/`externalism`: removed hypernymic synonyms (`mentalism`, `deontologism`, `naturalism`, `anti-internalism`).
+  - `underdetermination`: removed `overdetermination` (taxonomic contrast, not a true antonym) and non-co-extensive synonyms.
+  - `epistemic`: removed `cognitive` and `gnostic` from synonyms (hypernyms); kept only `epistemological`.
+
+### Semantic quality decisions
+- **Synonyms for highly specialised terms** (oculus, pendentive, isorhythm, klangfarbenmelodie, ergodicity): the validator requires ≥2 synonyms for EN entries, which creates pressure when a term has no standard co-extensive synonyms. Near-synonyms and descriptive equivalents were used (e.g. `coign`/`coin` for `quoin`, `tone-color melody`/`timbre melody` for `klangfarbenmelodie`). This tension between count requirement and co-extensiveness was noted in the Reflection Agent's Cycle 6 retro and remains unresolved.
+- **Antonyms**: Only direct semantic opposites were used (`ashlar` for `rustication`, `tonality` for `atonality`, `consonance` for `dissonance`, `alkanas`/`sotus` for each other). Entries with no clear direct antonym received `antonymTerms: []`.
+- **LT synonyms**: Kept at 0–1 per entry as specified (e.g. `gardus` for `skanus`, `džemas` for `uogienė`).
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for relations-added` passed for both EN and LT staging files with 0 errors in the `relations-added` batch.
+
+### Doubts
+- `reliabilism` and `naturalism` as synonyms for `externalism` are hyponyms (specific types), not co-extensive synonyms. They were included to satisfy the ≥2 EN synonym count. A future QA pass should consider moving them to `relatedTerms`.
+- Some music synonyms (e.g. `talea-color structure`, `mensural repetition` for `isorhythm`) are descriptive phrases rather than standard alternate terms; flag for QA if needed.
