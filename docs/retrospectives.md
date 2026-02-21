@@ -540,3 +540,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Keep enrichment prompt enum lists synchronized with `validate_words.py` to avoid avoidable rework.
+## [2026-02-21] [vocab-qa-agent] [vocab/qa-2]
+
+### What went well
+- Confirmed there were no `relations-added` entries left in either staging file, so no QA status transitions were needed.
+- Approved-entry validation passed for both staging files after restoring valid JSON structure in EN staging.
+
+### What was harder than expected
+- The EN staging file had a trailing malformed fragment that blocked structured checks until removed.
+
+### Process friction
+- The QA task depended on relation-stage output, but current staging state had zero target-status entries to review.
+
+### Suggested improvement
+- Add an orchestrator preflight guard that skips spawning QA when `relations-added` count is zero.
