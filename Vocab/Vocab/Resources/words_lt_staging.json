@@ -23465,13 +23465,29 @@
   {
     "term": "kuprinė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A bag with shoulder straps worn on the back, typically used by students to carry books and supplies.",
+        "example": "Sudėk vadovėlius į kuprinę.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kuprinėlė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vadovėlis",
+      "sąsiuvinis",
+      "aplankas"
+    ],
+    "translation": "school bag, backpack"
   },
   {
     "term": "piniginė",
@@ -25455,79 +25471,199 @@
   {
     "term": "Aplankas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A flat cardboard or plastic cover used to hold loose papers or documents together.",
+        "example": "Mokinys sudėjo lapus į aplanką.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school",
+          "stationery"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dėklas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "sąsiuvinis",
+      "segtuvas",
+      "dokumentai"
+    ],
+    "translation": "folder"
   },
   {
     "term": "klijai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A sticky substance used to join materials together.",
+        "example": "Vaikai naudojo klijus popieriaus aplikacijai.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school",
+          "art"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "klijuoti",
+      "popieriaus lapas",
+      "pieštukas"
+    ],
+    "translation": "glue"
   },
   {
     "term": "pieštukas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A thin writing instrument with a graphite core, used for drawing or writing.",
+        "example": "Parašyk atsakymą pieštuku.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school",
+          "stationery"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "tušinukas"
+    ],
+    "relatedTerms": [
+      "trintukas",
+      "piešti",
+      "rašiklis"
+    ],
+    "translation": "pencil"
   },
   {
     "term": "popieriaus lapas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A single flat piece of paper used for writing or drawing.",
+        "example": "Mokytoja išdalino popieriaus lapus per dailės pamoką.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school",
+          "stationery"
+        ]
+      }
+    ],
+    "synonyms": [
+      "lapas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "sąsiuvinis",
+      "pieštukas",
+      "aplankas"
+    ],
+    "translation": "sheet of paper"
   },
   {
     "term": "sąsiuvinis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A book of blank or ruled pages used by students for writing notes or completing exercises.",
+        "example": "Atsiverkite sąsiuvinius ir užrašykite datą.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [
+      "bloknōtas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vadovėlis",
+      "pratybos",
+      "rašiklis"
+    ],
+    "translation": "exercise book, notebook"
   },
   {
     "term": "segtuvas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A device that fastens sheets of paper together using metal staples.",
+        "example": "Naudok segtuvą, kad lapai nesimaiš.",
+        "register": "neutral",
+        "tags": [
+          "A2",
+          "school",
+          "stationery"
+        ]
+      },
+      {
+        "definition": "A ring-binder folder used to organise and store documents.",
+        "example": "Mokytoja turėjo storą segtuvą su visų mokinių darbais.",
+        "register": "neutral",
+        "tags": [
+          "A2",
+          "school"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "aplankas",
+      "sąsiuvinis",
+      "sąvaržėlė"
+    ],
+    "translation": "stapler; ring binder"
   },
   {
     "term": "skaičiuoklė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An electronic device used to perform arithmetic calculations.",
+        "example": "Matematikos egzamine neleidžiama naudoti skaičiuoklės.",
+        "register": "neutral",
+        "tags": [
+          "A2",
+          "school",
+          "maths"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "matematika",
+      "egzaminas"
+    ],
+    "translation": "calculator"
   },
   {
     "term": "stalinė lempa",
@@ -25543,13 +25679,27 @@
   {
     "term": "trintukas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A small piece of rubber used to remove pencil marks from paper.",
+        "example": "Ar turi trintuką? Padariau klaidą.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school",
+          "stationery"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pieštukas",
+      "trinti"
+    ],
+    "translation": "eraser, rubber"
   },
   {
     "term": "užrašų knygelė",
@@ -25609,35 +25759,81 @@
   {
     "term": "tušinukas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A pen that uses a small rotating ball to apply ink to paper.",
+        "example": "Rašyk tušinuku, ne pieštuku.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school",
+          "stationery"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rašiklis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pieštukas",
+      "rašiklis",
+      "rašyti"
+    ],
+    "translation": "ballpoint pen"
   },
   {
     "term": "žirklės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A cutting tool consisting of two blades joined at a pivot, used to cut paper, fabric, or other materials.",
+        "example": "Iškirpk paveikslėlį žirklėmis.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school",
+          "art"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "klijai",
+      "popieriaus lapas",
+      "dailė"
+    ],
+    "translation": "scissors"
   },
   {
     "term": "liniuotė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A straight-edged measuring tool used for drawing lines or measuring distances.",
+        "example": "Nubrėžk tiesią liniją su liniuote.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school",
+          "maths"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pieštukas",
+      "matematika"
+    ],
+    "translation": "ruler"
   },
   {
     "term": "stalčius",
@@ -25675,13 +25871,30 @@
   {
     "term": "rašiklis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A writing instrument that applies ink to a surface, used for writing or signing.",
+        "example": "Pasirašyk rašikliu.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school",
+          "stationery"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tušinukas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pieštukas",
+      "rašyti",
+      "sąsiuvinis"
+    ],
+    "translation": "pen"
   },
   {
     "term": "smeigtukai",
@@ -25774,13 +25987,30 @@
   {
     "term": "pertrauka",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A short period of time between lessons when pupils rest or play.",
+        "example": "Per pertrauką vaikai žaidžia kieme.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pauzė"
+    ],
+    "antonymTerms": [
+      "pamoka"
+    ],
+    "relatedTerms": [
+      "pamoka",
+      "tvarkaraštis"
+    ],
+    "translation": "break, recess"
   },
   {
     "term": "atostogos",
@@ -25818,24 +26048,52 @@
   {
     "term": "direktorius",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The person in charge of a school or organisation.",
+        "example": "Direktorius paskelbė apie rytojaus ekskursiją.",
+        "register": "formal",
+        "tags": [
+          "A2",
+          "school"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "direktorė",
+      "mokykla",
+      "mokytojas"
+    ],
+    "translation": "headmaster, principal (m)"
   },
   {
     "term": "direktorė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A woman who is the head of a school or organisation.",
+        "example": "Direktorė sukvietė mokytojus į posėdį.",
+        "register": "formal",
+        "tags": [
+          "A2",
+          "school"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "direktorius",
+      "mokykla",
+      "mokytoja"
+    ],
+    "translation": "headmistress, principal (f)"
   },
   {
     "term": "direktoriaus pavaduotojas",
@@ -26698,13 +26956,30 @@
   {
     "term": "mokytis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To acquire knowledge or a skill through study or experience.",
+        "example": "Kiekvieną dieną mokausi naujų žodžių.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "school",
+          "study"
+        ]
+      }
+    ],
+    "synonyms": [
+      "studijuoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "mokytojas",
+      "pamoka",
+      "mokykla"
+    ],
+    "translation": "to study, to learn"
   },
   {
     "term": "nervintis",
@@ -28427,24 +28702,55 @@
   {
     "term": "klausytis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To pay attention to a sound; to hear something with concentration.",
+        "example": "Klasėje reikia klausytis mokytojo.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [
+      "girdėti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kalbėti",
+      "suprasti",
+      "klausti"
+    ],
+    "translation": "to listen"
   },
   {
     "term": "piešti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To make a picture or diagram using a pencil, pen, or similar instrument.",
+        "example": "Vaikai piešia gyvūnus dailės pamokoje.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "school",
+          "art"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pieštukas",
+      "dailė",
+      "spalvoti"
+    ],
+    "translation": "to draw"
   },
   {
     "term": "sportuoti",
@@ -29885,10 +30191,31 @@
   },
   {
     "term": "tvarkaraštis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "timetable, schedule",
+    "meanings": [
+      {
+        "definition": "A list of planned activities or lessons arranged according to time.",
+        "example": "Pasitikrink tvarkaraštį – rytoj pirmoji pamoka matematika.",
+        "register": "neutral",
+        "tags": [
+          "A2",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [
+      "grafikas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pamoka",
+      "pertrauka",
+      "savaitė"
+    ]
   },
   {
     "term": "persėdimas",
@@ -30130,80 +30457,306 @@
   },
   {
     "term": "pamoka",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "lesson, class",
+    "meanings": [
+      {
+        "definition": "A period of time during which a teacher instructs students in a school subject.",
+        "example": "Matematikos pamoka prasideda devintą valandą.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [
+      "užsiėmimas"
+    ],
+    "antonymTerms": [
+      "pertrauka"
+    ],
+    "relatedTerms": [
+      "mokytojas",
+      "klasė",
+      "vadovėlis"
+    ]
   },
   {
     "term": "klasė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "class, classroom",
+    "meanings": [
+      {
+        "definition": "The room in a school where lessons take place.",
+        "example": "Mokiniai sėdi klasėje.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      },
+      {
+        "definition": "A group of students who study together or are in the same school year.",
+        "example": "Mano klasėje yra dvidešimt mokinių.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "klasiokas",
+      "pamoka",
+      "mokykla"
+    ]
   },
   {
     "term": "klasiokas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "classmate (m)",
+    "meanings": [
+      {
+        "definition": "A male person who is in the same class at school.",
+        "example": "Mano klasiokas Jonas visada padeda man su užduotimis.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "klasiokė",
+      "klasė",
+      "draugas"
+    ]
   },
   {
     "term": "klasiokė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "classmate (f)",
+    "meanings": [
+      {
+        "definition": "A female person who is in the same class at school.",
+        "example": "Mano klasiokė Rūta labai gerai dainuoja.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "klasiokas",
+      "klasė",
+      "draugė"
+    ]
   },
   {
     "term": "vadovėlis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "textbook",
+    "meanings": [
+      {
+        "definition": "A book used for the study of a school subject, containing course material and exercises.",
+        "example": "Atidaryk vadovėlį dvidešimt pirmame puslapyje.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sąsiuvinis",
+      "pratybos",
+      "pamoka"
+    ]
   },
   {
     "term": "pratybos",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "exercises, workbook",
+    "meanings": [
+      {
+        "definition": "A workbook or set of written exercises that students complete as part of their schoolwork.",
+        "example": "Šiandien reikia atlikti pratybas iš lietuvių kalbos.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vadovėlis",
+      "namų darbai",
+      "užduotis"
+    ]
   },
   {
     "term": "užduotis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "task, assignment",
+    "meanings": [
+      {
+        "definition": "A piece of work given to students to complete, either in class or at home.",
+        "example": "Mokytoja paskyrė rašto užduotį.",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [
+      "uždavinys"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "namų darbai",
+      "pratybos",
+      "pažymys"
+    ]
   },
   {
     "term": "namų darbai",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "phrase",
+    "tags": [],
+    "translation": "homework",
+    "meanings": [
+      {
+        "definition": "School work assigned to be done outside of school, typically at home.",
+        "example": "Ar atlikote namų darbus?",
+        "register": "neutral",
+        "tags": [
+          "A1",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "užduotis",
+      "pratybos",
+      "pamoka"
+    ]
   },
   {
     "term": "pažymys",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "grade, mark",
+    "meanings": [
+      {
+        "definition": "A score or letter given by a teacher to indicate the quality of a student's work.",
+        "example": "Gavau puikų pažymį iš matematikos.",
+        "register": "neutral",
+        "tags": [
+          "A2",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "egzaminas",
+      "kontrolinis",
+      "mokytis"
+    ]
   },
   {
     "term": "egzaminas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "exam, examination",
+    "meanings": [
+      {
+        "definition": "A formal test given at the end of a course or school year to assess students' knowledge.",
+        "example": "Gegužės mėnesį yra lietuvių kalbos egzaminas.",
+        "register": "neutral",
+        "tags": [
+          "A2",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [
+      "išbandymas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pažymys",
+      "kontrolinis",
+      "mokytis"
+    ]
   },
   {
     "term": "kontrolinis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "class test, written test",
+    "meanings": [
+      {
+        "definition": "A written test carried out in class to check students' knowledge of recent material.",
+        "example": "Rytoj rašysime matematikos kontrolinį.",
+        "register": "neutral",
+        "tags": [
+          "A2",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "egzaminas",
+      "pažymys",
+      "mokytis"
+    ]
   },
   {
     "term": "temperatūra",
@@ -31165,24 +31718,94 @@
   },
   {
     "term": "kalbėtis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "verb",
+    "tags": [],
+    "translation": "to talk, to chat",
+    "meanings": [
+      {
+        "definition": "To speak with another person; to have a conversation.",
+        "example": "Mokytoja prašo per pamoką nekalbėtis su kaimynu.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "school",
+          "communication"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šnekėtis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "klausti",
+      "atsakyti",
+      "klausytis"
+    ]
   },
   {
     "term": "klausti",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "verb",
+    "tags": [],
+    "translation": "to ask",
+    "meanings": [
+      {
+        "definition": "To address someone with a question in order to get information or a response.",
+        "example": "Jei nesupratai, klausk mokytojo.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "school",
+          "communication"
+        ]
+      }
+    ],
+    "synonyms": [
+      "teirautis"
+    ],
+    "antonymTerms": [
+      "atsakyti"
+    ],
+    "relatedTerms": [
+      "atsakyti",
+      "paaiškinti",
+      "klausytis"
+    ]
   },
   {
     "term": "atsakyti",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "verb",
+    "tags": [],
+    "translation": "to answer, to reply",
+    "meanings": [
+      {
+        "definition": "To give a spoken or written response to a question.",
+        "example": "Mokinys atsakė į visus klausimus teisingai.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "school",
+          "communication"
+        ]
+      }
+    ],
+    "synonyms": [
+      "reaguoti"
+    ],
+    "antonymTerms": [
+      "klausti"
+    ],
+    "relatedTerms": [
+      "klausti",
+      "paaiškinti",
+      "pažymys"
+    ]
   },
   {
     "term": "pasakoti",
@@ -31193,10 +31816,32 @@
   },
   {
     "term": "paaiškinti",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "verb",
+    "tags": [],
+    "translation": "to explain",
+    "meanings": [
+      {
+        "definition": "To make something clear or easy to understand by describing it in detail.",
+        "example": "Mokytojas paaiškino naują taisyklę.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "school",
+          "communication"
+        ]
+      }
+    ],
+    "synonyms": [
+      "išaiškinti"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "klausti",
+      "suprasti",
+      "pamoka"
+    ]
   },
   {
     "term": "pristatyti",
