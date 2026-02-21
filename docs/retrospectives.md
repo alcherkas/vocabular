@@ -1665,6 +1665,18 @@ Relations Agent — `vocab/relations-19`
 - Enriched all 35 entries: set `partOfSpeech`, added at least one `meaning` (definition, example, register, tags), filled `translation`, and populated `synonyms`/`antonymTerms`/`relatedTerms` arrays.
 - Post-enrichment validation: `validate_words.py --errors-for enriched` → **PASSED** (exit 0).
 - Committed as `vocab(enricher-lt-28): enrich 35 Lithuanian stubs`.
+## Session retro — vocab/enricher-lt-29
+
+**Date:** 2025-07-26
+**Branch:** vocab/enricher-lt-29
+**Commit:** cf509fc
+
+### What was done
+- Preflight JSON validation on `words_lt_staging.json` — 1960 entries, exit 0.
+- Identified all sibling LT enricher worktrees (lt-16: 450 enriched, lt-27: 835 enriched, lt-28: 835 enriched); confirmed none of the 35 target terms were claimed.
+- Selected 35 stubs covering politics, government, and civic life at A2/B1 level: civic documents, legal roles, national holidays, social institutions, and community rituals.
+- Each entry received: `partOfSpeech`, one `meanings` object (definition, example, register, tags), `translation`, `synonyms`, `antonymTerms`, `relatedTerms`. Status set to `enriched`.
+- Post-enrichment validation: `validate_words.py --errors-for enriched` → **PASSED** (0 errors; 98 pre-existing warnings on `approved` entries outside scope).
 
 ### Stats
 | Domain group | Terms enriched |
@@ -1684,3 +1696,16 @@ Relations Agent — `vocab/relations-19`
 - `pliažas` ↔ `paplūdimys` list each other as mutual synonyms; this is semantically accurate (both mean "beach") and consistent with file conventions.
 - `pakilti` ↔ `nusileisti` are listed as mutual antonyms (take off vs land), which is correct.
 - Terms with very few natural Lithuanian synonyms (keltas, turistas, viza, palapinė, miegmaišis, etc.) were given empty `synonyms: []` rather than forcing inaccurate entries.
+| Legal / judicial | 3 (mokestis, teisėjas, teisėja) |
+| National symbols & civic events | 3 (vėliava, himnas, paradas) |
+| Civic documents & social services | 6 (pasas, paso numeris, sveikatos draudimas, nedarbingumo pažymėjimas, sveikatos pažyma, išsilavinimas) |
+| Civic participation & employment | 3 (dalyvis, dalyvė, bedarbė) |
+| Civic infrastructure & rites | 4 (kapinės, laidotuvės, vestuvės, krikštynos) |
+| National holidays (16) | 16 |
+| **Total** | **35** |
+
+### Issues / notes
+- `Spaudos atgavimo` is a truncated entry in the staging file (full name: "Spaudos atgavimo, kalbos ir knygos diena"); enriched as-is, referencing the full name in the example sentence.
+- `teisėjas` and `teisėja` had a non-standard stub schema (missing `meanings`, `synonyms`, etc.); the enrichment script added all required fields.
+- National holidays account for 16 of the 35 terms — all are officially observed Lithuanian public or commemorative days, directly relevant to civic and governmental life.
+- No merge performed per task instructions.
