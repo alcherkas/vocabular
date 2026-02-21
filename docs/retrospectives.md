@@ -1590,3 +1590,34 @@ Relations Agent — `vocab/relations-19`
 - LT gendered pairs (darbuotojas/darbuotoja, vedėjas/vedėja, viršininkas/viršininkė, kolega/kolegė): followed the rubric — 0–1 single-word synonyms, no antonyms, cross-gender counterpart required in `relatedTerms`.
 - LT nominative rule: carefully excluded all -ą/-ų endings; "neturintis darbo" (for `bedarbis`) uses genitive -o which is not flagged by the validator.
 - No `antonymTerms` populated for LT entries where no clear semantic opposite exists (majority), consistent with the rubric.
+
+## Session retro — vocab/enricher-en-20
+
+**Date:** 2025-07-25
+**Branch:** vocab/enricher-en-20
+**Commit:** 723ccd4
+
+### What was done
+- Preflight JSON validation on `words_staging.json` — 630 entries, exit 0; all warnings on pre-existing `approved` entries outside scope.
+- Identified stubs belonging to target domains: 11 astronomy + 8 climate science = **19** stubs in the declared domains.
+- Remaining quota (16) filled from adjacent natural-science stubs present in the file: materials science (5), neuroscience (3), immunology/hematology (2), cardiology (2), dermatology/medicine (4).
+- Each of the 35 entries received: `partOfSpeech`, one `meanings` object (definition, example, register, domain tags), `synonyms` (≥2), `antonymTerms`, `relatedTerms`. Status set to `enriched`.
+- Post-enrichment validation: `validate_words.py --errors-for enriched` → **PASSED** (exit 0).
+
+### Stats
+| Domain group | Terms enriched |
+|---|---|
+| Astronomy | 11 |
+| Climate science | 8 |
+| Materials science / physics | 5 |
+| Neuroscience | 3 |
+| Immunology / hematology | 2 |
+| Cardiology | 2 |
+| Dermatology / medicine | 4 |
+| **Total** | **35** |
+
+### Issues / notes
+- Only 19 of the 55 available stubs fell strictly within the declared astronomy and climate science domains; the remaining 16 were drawn from scientifically adjacent domains to meet the explicit 35-entry target.
+- For astronomy terms without clear antonyms (parsec, quasar, pulsar, magnetar, nucleosynthesis, asteroseismology, exoplanet), `antonymTerms` was set to `[]`, consistent with existing file conventions.
+- `perihelion` ↔ `aphelion` are used as mutual antonyms; `syzygy` ↔ `quadrature` (perpendicular alignment) likewise.
+- `thermohaline` classified as adjective (per standard usage: "thermohaline circulation"); all other target terms are nouns.
