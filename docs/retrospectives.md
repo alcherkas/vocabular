@@ -429,3 +429,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a tiny helper script for append-only writes (`scripts/append_entry.py`) to auto-rebase, append, and preserve chronological ordering.
+## [2026-02-21] [seeder-lt-1] [seed-lt-a1a2-100]
+
+### What went well
+- Dedup checking against the full staging set made it straightforward to add exactly 100 new unique LT stubs.
+- Topic-based batching helped keep coverage balanced across all requested A1/A2 domains.
+
+### What was harder than expected
+- Existing staging already contained many common transport, health, and profession terms, so several candidate lists needed replacement passes.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- Add a small helper script to report per-topic coverage and duplicate candidates before seeding.
