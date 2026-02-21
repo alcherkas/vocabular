@@ -595,3 +595,60 @@ Selected 35 stubs covering jobs/professions and work/office vocabulary at A1/A2 
 - Enrichment script accidentally wrote to the wrong repo (`vocabular`) on the first run due to CWD mismatch; reverted immediately via `git checkout`, then re-applied to the correct repo (`vocabular-wt-enricher-lt-27`). No lasting impact on `vocabular`.
 - Several terms (e.g. `klijuoti`, `trinti`, `moneta`, `laiškas`, `kursas`) were given two meanings where the tech sense and the everyday sense differ meaningfully.
 - Synonyms `paieška vykdyti` (ieškoti) and `patvirtinti parašu` (pasirašyti) are descriptive phrases rather than single-word headwords; acceptable at A2/B1 where true single-word synonyms are sparse.
+
+---
+
+## enricher-lt-31 — Social life, celebrations & traditions (A2/B1)
+
+### Session date
+2025-07-14
+
+### Batch focus
+35 Lithuanian stubs from the social life, celebrations, and traditions domain at A2/B1 level.
+
+### Terms enriched
+
+| Term | POS | Notes |
+|------|-----|-------|
+| vakaronė | noun | informal evening gathering |
+| švęsti | verb | to celebrate |
+| šventė | noun | holiday / festival |
+| Kūčios | noun | Lithuanian Christmas Eve (12-dish meatless supper) |
+| Kalėdos | noun | Christmas |
+| Naujieji metai | noun | New Year |
+| Kalėdų senelis | noun | Santa Claus |
+| dovana | noun | gift / present |
+| dovanoti | verb | to give as a gift |
+| Velykos | noun | Easter |
+| margutis | noun | decorated Easter egg |
+| Joninės | noun | Midsummer festival / St. John's Eve |
+| Rasos šventė | noun | Dew Festival (Midsummer, pagan roots) |
+| Užgavėnės | noun | Lithuanian Shrovetide / pre-Lent carnival |
+| kaukė | noun | mask |
+| Visų Šventųjų diena | noun | All Saints' Day |
+| Vėlinės | noun | All Souls' Day (Lithuanian Day of the Dead) |
+| nuotaka | noun | bride |
+| vainikas | noun | wreath / garland / crown |
+| tuoktis | verb | to get married |
+| krikšto tėvai | noun | godparents |
+| vardadienis | noun | name day |
+| gimtadienis | noun | birthday |
+| jubiliejus | noun | anniversary / jubilee |
+| Motinos diena | noun | Mother's Day |
+| Tėvo diena | noun | Father's Day |
+| įkurtuvės | noun | housewarming party |
+| išleistuvės | noun | graduation / farewell party |
+| šventadienis | noun | holy day / public holiday |
+| kalėdaitis | noun | Christmas wafer (Kūčios tradition) |
+| žvakelė | noun | small candle |
+| siurprizas | noun | surprise |
+| fejerverkas | noun | fireworks |
+| karnavalas | noun | carnival |
+| verba | noun | Easter palm / pussy willow branch |
+
+### Issues / notes
+- All 35 entries passed `validate_words.py --errors-for enriched` on the first run after the cwd fix.
+- Enrichment script accidentally wrote to the wrong repo (`vocabular`) on the first run due to CWD mismatch in the bash session; reverted immediately via `git checkout`, then re-applied correctly to `vocabular-wt-enricher-lt-31`. No lasting impact on `vocabular`.
+- `Joninės` and `Rasos šventė` are mutual synonyms; listed accordingly without cross-array duplication.
+- `jubiliejus` uses `formal` register rather than `general` as it primarily appears in official/institutional contexts.
+- Several terms have no synonyms (empty array) because Lithuanian has no common single-word synonym at A2/B1 level.
