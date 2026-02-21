@@ -672,9 +672,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### What was harder than expected
 - There is no built-in semantic scoring for relation quality, so review still depends on manual judgment beyond schema-level checks.
+## [2026-02-21] [enricher-en-8] [enrich-en-8-30-stubs]
+
+### What went well
+- Preflight JSON check passed immediately, so editing could start without repair work.
+- The enrichment + validator flow was stable; the batch passed `validate_words.py --status enriched` on first pass.
+
+### What was harder than expected
+- Several technical terms required careful wording to keep definitions concise but still domain-accurate.
 
 ### Process friction
 - None this iteration.
 
 ### Suggested improvement
 - Add a validator mode that lists relation self-references/duplicates explicitly to speed up QA pass/fail decisions.
+- None.
