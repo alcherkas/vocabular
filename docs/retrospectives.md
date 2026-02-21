@@ -647,3 +647,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 ### Suggested improvement
 - Add a lightweight relation-quality checklist to `docs/VOCAB-AGENT.md` (e.g., when to keep LT synonyms empty vs when to add related terms).
 - Add a lightweight command in `docs/VOCAB-AGENT.md` to print the next 30 stub terms before enrichment starts.
+## [2026-02-21] [enricher-en-8] [enrich-en-8-30-stubs]
+
+### What went well
+- Preflight JSON check passed immediately, so editing could start without repair work.
+- The enrichment + validator flow was stable; the batch passed `validate_words.py --status enriched` on first pass.
+
+### What was harder than expected
+- Several technical terms required careful wording to keep definitions concise but still domain-accurate.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- None.
