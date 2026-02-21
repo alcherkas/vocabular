@@ -3719,3 +3719,34 @@ Copilot (vocab relations agent), branch `vocab/relations-40`, worktree `/Users/a
 - Confidence: 88%. Some EN synonyms for coined technical terms are functional descriptions used synonymously in context rather than strict co-extensive equivalents (e.g. `state overlap`/`wave combination` for `superposition`; `color charge carrier`/`sub-hadronic constituent` for `quark`; `wave spreading`/`aperture scattering` for `diffraction`). QA should assess whether these are acceptable for C1+ learners.
 - The ≥2 EN synonyms rule creates unavoidable tension for specialised scientific vocabulary where naming is unique by design. Consider documenting a formal exception policy for such terms (e.g. allow 1 synonym for post-1900 coined physics/chemistry/math terms).
 - No merge performed as instructed.
+
+---
+
+## Enricher Agent — vocab/enricher-en-38 — 2025-07-25
+
+### Agent
+Copilot (vocab enricher agent), branch `vocab/enricher-en-38`, worktree `/Users/aleksandrcherkas/Documents/GitHub/vocabular-wt-enricher-en-38`.
+
+### What was done
+- Preflight JSON: `words_staging.json` passed (`json.load` clean, JSON OK).
+- Confirmed 130 EN stubs available in staging file.
+- Selected and enriched 35 EN stubs in two domain clusters:
+  - **CS/AI (20 entries)**: neural network, backpropagation, transformer, attention mechanism, embedding, gradient descent, overfitting, regularization, convolutional network, convolutional neural network, recurrent neural network, garbage collection, abstract syntax tree, type inference, just-in-time compilation, hash function, autoencoder, softmax, loss function, hyperparameter.
+  - **Linguistics (15 entries)**: morpheme, phoneme, phonology, speech act, discourse analysis, syllable structure, inflectional morphology, derivational morphology, agglutination, clitic, discourse marker, coherence, register, metathesis, suprasegmental.
+- Several stubs had minimal structure (only `term`, `language`, `status`); these were fully hydrated with all required fields: `partOfSpeech`, `register`, `meanings`, `synonyms`, `antonymTerms`, `relatedTerms`, `translation`.
+- All 35 set to `status: "enriched"`. Total staging file: 1230 words.
+- Validated with `python3 scripts/validate_words.py --errors-for enriched` → **PASSED** (0 errors in enriched batch; pre-existing warnings in other status levels not related to this batch).
+- Committed as `vocab(enricher-en-38): enrich 35 English stubs` (a8e8c28).
+
+### Content decisions
+- **Multi-sense entries**: For terms with genuine sense splits, two distinct meanings were written: `transformer` (neural architecture vs. electrical device), `embedding` (vector representation vs. mathematical injection), `regularization` (ML penalty vs. numerical analysis), `hash function` (general vs. cryptographic), `garbage collection` (memory management vs. municipal waste), `coherence` (discourse unity vs. wave physics), `register` (linguistic variety vs. CPU storage), `metathesis` (phonological transposition vs. olefin chemistry).
+- **Single-sense entries**: Terms with a single well-defined technical sense (backpropagation, gradient descent, overfitting, attention mechanism, etc.) received one carefully detailed meaning each rather than force-fitting a second sense.
+- **POS for stubs with `None` partOfSpeech**: Assigned based on standard linguistic classification — multi-word nominal phrases → `phrase`; standalone nouns → `noun`; property-denoting modifier → `adjective` (suprasegmental).
+- **register field (entry-level)**: Set to `technical` for all 35 entries, as all belong to specialized academic/engineering domains.
+- **Examples**: Chosen to be natural, illustrative, and distinct from dictionary boilerplate; grounded in realistic usage scenarios (e.g. JVM JIT, Turkish agglutination, Mandarin tones, SHA-256).
+
+### Doubts / meta-notes
+- Confidence: 92%. The multi-sense split for `register` (linguistics vs. computing) is deliberate and defensible, but QA should verify whether combining two domains in one entry is preferable to separate entries.
+- `suprasegmental` was enriched as an adjective (the primary usage), though it also occurs as a noun headword in some linguistic traditions. The adjective form is the more common usage in modern linguistics textbooks.
+- 95 EN stubs remain (`status == "stub"`); future batches can cover ecology, behavioural economics, philosophy of science, and remaining CS topics (sharding, microservices, federated learning, etc.).
+- No merge performed as instructed.
