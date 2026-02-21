@@ -117,3 +117,16 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Update BUILD.md to use `'platform=iOS Simulator,name=Any iOS Simulator Device'` or document how to find available simulators first.
+## [2025-07-17] [feat-haptics] [haptics]
+
+### What went well
+- Minimal-complexity task; the selectAnswer method was the clear insertion point for haptic feedback.
+
+### What was harder than expected
+- Xcode not available in the environment, so build verification was skipped. Change is trivial (2 lines of UIKit API).
+
+### Process friction
+- None. Task was well-scoped with clear acceptance criteria.
+
+### Suggested improvement
+- None.
