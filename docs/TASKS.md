@@ -321,7 +321,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `lt-stats-per-lang`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `low`
 **Complexity**: `low`
 **Description**: Add per-language stats breakdown to StatsView and per-language field to QuizResult. All overview cards, mastery breakdown, and quiz history should be filterable by language.

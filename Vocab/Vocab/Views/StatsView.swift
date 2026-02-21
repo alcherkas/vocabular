@@ -3,13 +3,27 @@ import SwiftData
 import Charts
 
 struct StatsView: View {
-    @Query(sort: \QuizResult.date, order: .reverse) private var results: [QuizResult]
-    @Query private var words: [Word]
+    @Query(sort: \QuizResult.date, order: .reverse) private var allResults: [QuizResult]
+    @Query private var allWords: [Word]
+    @State private var selectedLanguage: String = "all"
+    
+    private var words: [Word] {
+        if selectedLanguage == "all" { return allWords }
+        return allWords.filter { $0.language == selectedLanguage }
+    }
+    
+    private var results: [QuizResult] {
+        if selectedLanguage == "all" { return allResults }
+        return allResults.filter { $0.language == selectedLanguage }
+    }
     
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 24) {
+                    // Language picker
+                    languagePicker
+                    
                     // Overview cards
                     overviewSection
                     
@@ -33,6 +47,16 @@ struct StatsView: View {
             .navigationTitle("Progress")
             .background(Color(.systemGroupedBackground))
         }
+    }
+    
+    // MARK: - Language Picker
+    private var languagePicker: some View {
+        Picker("Language", selection: $selectedLanguage) {
+            Text("All").tag("all")
+            Text("English").tag("en")
+            Text("Lithuanian").tag("lt")
+        }
+        .pickerStyle(.segmented)
     }
     
     // MARK: - Overview Section

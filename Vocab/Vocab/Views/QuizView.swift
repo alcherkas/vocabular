@@ -354,7 +354,8 @@ struct QuizView: View {
     }
     
     private func completeQuiz() {
-        let result = QuizResult(score: score, totalQuestions: questionsPerQuiz)
+        let lang = quizWords.first?.language ?? "en"
+        let result = QuizResult(score: score, totalQuestions: questionsPerQuiz, language: lang)
         context.insert(result)
         quizCompleted = true
     }
