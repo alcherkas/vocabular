@@ -3534,3 +3534,37 @@ JSON preflight passed. 705 stubs available before session.
 - Confidence: 92%. Some EN synonyms for technical legal doctrines are approximations rather than strict synonyms (e.g. `procedural fairness`/`process rights` for procedural due process; `fundamental rights protection`/`liberty protection` for substantive due process). QA should review these for acceptability.
 - `market failure`→`allocative failure` / `market dysfunction`: neither is a standard term in the literature; used as pragmatic fillers to meet the ≥2 synonym requirement. QA may wish to refine.
 - `allocative efficiency` synonyms `Pareto efficiency`/`Pareto optimality` are technically related but not identical; Pareto optimality is arguably a necessary condition rather than a synonym. QA should review.
+
+---
+
+## Enricher Agent — vocab/enricher-en-37
+
+**Date**: 2025-07-30
+**Agent**: Enricher Agent (EN)
+**Branch**: `vocab/enricher-en-37`
+
+### What was done
+- Preflighted `words_staging.json` — valid JSON before editing.
+- Found 65 EN stubs; enriched 35 focused on physics/chemistry and mathematics as instructed.
+- **Physics/chemistry (20)**: quantum entanglement, catalyst, isotope, valence, wave function, superposition, dark matter, quark, fermion, boson, half-life, electronegativity, spectroscopy, diffraction, refraction, covalent bond, oxidation state, polymer, colloid, dark energy.
+- **Mathematics (15)**: topology, manifold, eigenvalue, category theory, fourier transform, differential equation, vector space, bayesian inference, markov chain, combinatorics, group theory, set theory, cardinality, graph theory, number theory.
+- Each entry received 1–2 genuinely distinct meanings with accurate definitions, natural example sentences, correct `register` (`technical` for domain-specific senses, `general` for metaphorical/everyday uses), and relevant `tags`.
+- Ran `python3 scripts/validate_words.py --errors-for enriched` — PASSED with 0 errors in the scoped batch; 91 pre-existing warnings in other statuses ignored.
+- Committed `vocab(enricher-en-37): enrich 35 English stubs`. No merge performed.
+
+### Semantic quality decisions
+- **catalyst**: dual meaning — chemical sense (`technical`) and figurative/general sense (`general`) are genuinely distinct uses; both included.
+- **superposition**: two technical meanings given — quantum superposition (state superposition) and classical wave superposition — which are related but operationally distinct concepts.
+- **polymer**: scientific meaning (`technical`) and everyday materials meaning (`general`) captured separately.
+- **topology**: mathematical structure sense and network layout sense captured separately, both tagged `technical` as both require domain knowledge.
+- **valence**: chemistry sense and psychology sense are fully distinct domains; both included.
+- **half-life**: radioactive decay sense (nuclear physics) and pharmacokinetic/exponential decay sense captured separately.
+- All other entries received a single precise technical meaning as only one dominant sense was identifiable at C1+ level.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for enriched` passed with 0 errors in the enriched batch.
+
+### Doubts / meta-notes
+- Confidence: 99%. All 35 terms are well-established scientific and mathematical concepts with clear, unambiguous primary definitions.
+- 30 stubs remain (mostly ML/deep learning terms: neural network, gradient descent, overfitting, transformer, backpropagation, etc.) for a future enricher session.
+- No merge performed as instructed.
