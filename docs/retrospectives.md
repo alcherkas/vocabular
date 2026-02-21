@@ -1297,3 +1297,35 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 
 ### Suggested improvement
 - Consider adding a "school" theme filter to the seeder so future enricher agents can more easily locate topically coherent stub clusters without manual keyword scanning.
+
+---
+
+## Retro — vocab/enricher-lt-22 (35 LT stubs)
+
+**Date:** 2026-01-19
+**Branch:** vocab/enricher-lt-22
+**Commit:** de95af5
+
+### What was enriched
+Focused on **daily routines, household chores, shopping, and money** at A1/A2 level — 35 entries across 6 thematic clusters:
+
+| Cluster | Terms | Count |
+|---------|-------|-------|
+| Household/cleaning appliances | kempinė, lygintuvas, siurblys, džiovyklė, muilinė, semtuvėlis | 6 |
+| Kitchen utensils | pjaustymo lenta, samtuvas, druskinė, pipirinė, dangtis, šluotelė, sietelis | 7 |
+| Shopping & money | krepšelis, vežimėlis, išpardavimas, kainoraštis, etiketė, kvitas, banko kortelė, pirkėja, matavimosi kabina | 9 |
+| Home furnishings | lempa, užuolaida, drabužinė, naktstaliukas, lovatiesė | 5 |
+| Daily routines / exercise | bėgimas, ėjimas, mankšta, gimnastika, treniruotė, apšilimas | 6 |
+| Food & kitchen | puodelis, blynas | 2 |
+
+Each entry received: `partOfSpeech`, `translation`, `meanings` (definition + Lithuanian example sentence + register + tags), `synonyms`, `antonymTerms`, `relatedTerms`. Status set `stub → enriched`.
+
+### Decisions
+- Register `general` used throughout; all terms are neutral, everyday A1/A2 vocabulary.
+- `druskinė` and `pipirinė` set as mutual `antonymTerms` (salt/pepper pair — conventional kitchen opposites).
+- `bėgimas` ↔ `ėjimas` and `apšilimas` ↔ `atsipalaidavimas` cross-referenced as antonyms.
+- `banko kortelė` and `matavimosi kabina` kept as multi-word noun entries (matching stub term keys exactly).
+- `synonyms` kept minimal (1–2 entries) where only one clear synonym exists; empty `antonymTerms` where no clean opposite applies.
+
+### Validator result
+`validate_words.py --errors-for enriched` → **PASSED** — 1960 entries, 10 pre-existing warnings (approved status, outside scope), 0 errors ✓
