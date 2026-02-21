@@ -1468,3 +1468,30 @@ Six entries (modularity, overconfidence, quasirationality, dielectric, perovskit
 - `carnivalesque` enriched as `adjective` (its primary grammatical function in Bakhtin criticism), consistent with the valid POS set.
 - `antonymTerms` set to conceptually contrasting terms where no true linguistic antonym exists (e.g., `organum` → `monophony, plainchant`), matching existing file conventions.
 - No duplicate terms introduced; all 35 were previously status `stub` with empty `meanings`.
+
+---
+
+## relations-19 — Relations Agent, 2025-02-21
+
+### Agent
+Relations Agent — `vocab/relations-19`
+
+### What was done
+- Preflight JSON validation on both staging files — EN (630 entries) and LT (1960 entries) passed structural checks; pre-existing errors scoped to non-`relations-added` statuses, exit 0.
+- **EN `words_staging.json`**: identified 35 `enriched` entries (ecology ×6, music theory ×12, art history ×12, literary theory ×5) for promotion. Before promoting, detected and fixed cross-array duplicates in 11 entries where the same term appeared in both a synonym/antonym array and `relatedTerms` (e.g. `ostinato`: "riff", `continuo`: "basso continuo"/"figured bass", `encaustic`: "tempera"/"fresco"). Promoted all 35 to `relations-added`.
+- **LT `words_lt_staging.json`**: identified the 35 `enriched` entries with all three relation arrays empty (office vocabulary: equipment, personnel roles, meeting types, professions). Added `synonyms` (0–1, nominative forms), `antonymTerms` (where a clear semantic opposite exists), and `relatedTerms` (cross-gender counterparts for all gendered pairs). Promoted all 35 to `relations-added`.
+- Post-update validation: `validate_words.py --errors-for relations-added` on both files → **PASSED** (exit 0).
+- Committed as single atomic commit on branch `vocab/relations-19`.
+
+### Stats
+| File | Entries promoted | Notes |
+|------|-----------------|-------|
+| `words_staging.json` (EN) | 35 | 11 entries had cross-array dups cleaned first |
+| `words_lt_staging.json` (LT) | 35 | 35 entries had empty arrays → filled |
+| **Total** | **70** | |
+
+### Issues / notes
+- EN cross-array duplicate bug: the Enricher had placed terms like "riff", "aniconism", "polyphony" in both a primary relation array and `relatedTerms`. Fixed by removing duplicates from `relatedTerms` before promotion. Consider adding a cross-array dedup check to the validator.
+- LT gendered pairs (darbuotojas/darbuotoja, vedėjas/vedėja, viršininkas/viršininkė, kolega/kolegė): followed the rubric — 0–1 single-word synonyms, no antonyms, cross-gender counterpart required in `relatedTerms`.
+- LT nominative rule: carefully excluded all -ą/-ų endings; "neturintis darbo" (for `bedarbis`) uses genitive -o which is not flagged by the validator.
+- No `antonymTerms` populated for LT entries where no clear semantic opposite exists (majority), consistent with the rubric.
