@@ -40,3 +40,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 ---
 
 <!-- Agents: append entries below this line -->
+
+## [2025-07-17] [seeder-en] [seed-en-30-stubs]
+
+### What went well
+- Protocol in VOCAB-AGENT.md was clear and easy to follow; stub schema and validation script worked on first try for all 3 batches.
+- No duplicates against the 96 existing production terms — the dedup check was straightforward.
+
+### What was harder than expected
+- Minor mismatch between the task prompt's stub schema and the protocol's schema (e.g. `definition`/`example` at top level vs `meanings` array, `antonyms` vs `antonymTerms`). Resolved by following VOCAB-AGENT.md as the source of truth.
+
+### Process friction
+- None this iteration. Scripts, validation, and commit flow all worked smoothly.
+
+### Suggested improvement
+- Consider adding a `--dedup-against` flag to the validate command in the seeder instructions so production dedup is checked automatically during validation.
