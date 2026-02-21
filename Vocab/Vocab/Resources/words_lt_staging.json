@@ -17858,7 +17858,7 @@
     "term": "vykti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To travel or go to a particular destination.",
@@ -17872,13 +17872,18 @@
       }
     ],
     "synonyms": [
-      "keliauti"
+      "keliauti",
+      "važiuoti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "likti"
+    ],
     "relatedTerms": [
       "kelionė",
       "atvykti",
-      "išvykti"
+      "išvykti",
+      "grįžti",
+      "transportas"
     ],
     "translation": "to go, to travel, to head to"
   },
@@ -18494,7 +18499,7 @@
     "term": "lipti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To board or get onto a vehicle such as a bus, train, or boat.",
@@ -18517,13 +18522,18 @@
       }
     ],
     "synonyms": [
-      "kopti"
+      "kopti",
+      "laipioti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "išlipti",
+      "nulipti"
+    ],
     "relatedTerms": [
       "laiptai",
       "autobusas",
-      "traukinys"
+      "traukinys",
+      "stotelė"
     ],
     "translation": "to board, to climb, to get on"
   },
@@ -18531,7 +18541,7 @@
     "term": "pakilti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To leave the ground and become airborne; to take off.",
@@ -18545,15 +18555,19 @@
       }
     ],
     "synonyms": [
-      "kilti"
+      "kilti",
+      "išskristi"
     ],
     "antonymTerms": [
-      "nusileisti"
+      "nusileisti",
+      "tūpti"
     ],
     "relatedTerms": [
       "lėktuvas",
       "oro uostas",
-      "skrydis"
+      "skrydis",
+      "kilimas",
+      "tūpimas"
     ],
     "translation": "to take off, to lift off, to rise"
   },
@@ -18561,7 +18575,7 @@
     "term": "nusileisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To land — of an aircraft, to come down and touch the ground; to descend.",
@@ -18575,15 +18589,18 @@
       }
     ],
     "synonyms": [
-      "leistis"
+      "leistis",
+      "nutūpti"
     ],
     "antonymTerms": [
-      "pakilti"
+      "pakilti",
+      "kilti"
     ],
     "relatedTerms": [
       "lėktuvas",
       "oro uostas",
-      "skrydis"
+      "skrydis",
+      "tūpimas"
     ],
     "translation": "to land, to descend, to come down"
   },
@@ -18654,7 +18671,7 @@
     "term": "keltas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A boat or ship that regularly carries passengers and vehicles across a body of water.",
@@ -18668,12 +18685,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "keltinis laivas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "laivas",
       "uostas",
-      "valtis"
+      "valtis",
+      "keleivis",
+      "maršrutas"
     ],
     "translation": "ferry"
   },
@@ -18930,7 +18951,7 @@
     "term": "keleivis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person travelling in a vehicle, aircraft, or ship who is not the driver or crew.",
@@ -18943,12 +18964,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "pasažyras"
+    ],
+    "antonymTerms": [
+      "vairuotojas"
+    ],
     "relatedTerms": [
       "keleivė",
       "kelionė",
-      "transportas"
+      "transportas",
+      "bilietas",
+      "stotelė"
     ],
     "translation": "passenger (male)"
   },
@@ -19049,7 +19076,7 @@
     "term": "takas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A narrow path or track through an outdoor area such as a forest or park.",
@@ -19070,7 +19097,9 @@
     "relatedTerms": [
       "kelias",
       "miškas",
-      "žygis"
+      "žygis",
+      "pėsčiasis",
+      "parkas"
     ],
     "translation": "path, trail, track"
   },
@@ -19078,7 +19107,7 @@
     "term": "dviračių takas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A designated lane or path set aside for cyclists.",
@@ -19092,12 +19121,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "dviračių juosta"
+    ],
+    "antonymTerms": [
+      "automobilių juosta"
+    ],
     "relatedTerms": [
       "dviratis",
       "takas",
-      "maršrutas"
+      "maršrutas",
+      "saugumas"
     ],
     "translation": "bicycle path, cycle lane"
   },
@@ -19105,7 +19139,7 @@
     "term": "bilietas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A document giving the holder the right to travel on public transport or enter a venue.",
@@ -19119,13 +19153,15 @@
       }
     ],
     "synonyms": [
-      "talonas"
+      "talonas",
+      "kvitas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "kelionė",
       "traukinys",
-      "kaina"
+      "kaina",
+      "rezervacija"
     ],
     "translation": "ticket"
   },
@@ -19160,7 +19196,7 @@
     "term": "bilietas pirmyn ir atgal",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A ticket covering a journey to a destination and the return trip back.",
@@ -19173,12 +19209,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "grįžtamasis bilietas"
+    ],
+    "antonymTerms": [
+      "vienkartinis bilietas"
+    ],
     "relatedTerms": [
       "bilietas",
       "kelionė",
-      "maršrutas"
+      "maršrutas",
+      "grįžimas"
     ],
     "translation": "return ticket, round-trip ticket"
   },
@@ -19186,7 +19227,7 @@
     "term": "nuolaida",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A reduction in the usual price of something.",
@@ -19200,13 +19241,17 @@
       }
     ],
     "synonyms": [
-      "lengvata"
+      "lengvata",
+      "sumažinta kaina"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "antkainis"
+    ],
     "relatedTerms": [
       "kaina",
       "nuolaidų kortelė",
-      "mokėti"
+      "mokėti",
+      "išpardavimas"
     ],
     "translation": "discount, reduction"
   },
@@ -19214,7 +19259,7 @@
     "term": "vieta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A particular position, point, or area in space.",
@@ -19237,13 +19282,15 @@
       }
     ],
     "synonyms": [
-      "erdvė"
+      "erdvė",
+      "pozicija"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "bilietas",
       "rezervacija",
-      "kelionė"
+      "kelionė",
+      "kambarys"
     ],
     "translation": "place, spot; seat"
   },
@@ -20664,7 +20711,7 @@
     "term": "miegamasis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A room in a house or hotel primarily used for sleeping.",
@@ -20682,7 +20729,9 @@
     "relatedTerms": [
       "lova",
       "kambarys",
-      "butas"
+      "butas",
+      "pagalvė",
+      "antklodė"
     ],
     "translation": "bedroom"
   },
@@ -20701,7 +20750,7 @@
     "term": "balkonas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An elevated outdoor platform projecting from the wall of a building, enclosed by a railing.",
@@ -20720,7 +20769,9 @@
     "relatedTerms": [
       "terasa",
       "langas",
-      "butas"
+      "butas",
+      "aukštas",
+      "namas"
     ],
     "translation": "balcony"
   },
@@ -20805,7 +20856,7 @@
     "term": "prieškambaris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small hall or room just inside the main entrance of a building or apartment.",
@@ -20818,12 +20869,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "prieangas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "durys",
       "koridorius",
-      "butas"
+      "butas",
+      "holas"
     ],
     "translation": "entrance hall, vestibule, foyer"
   },
@@ -20906,7 +20960,7 @@
     "term": "mokestis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mandatory financial contribution levied by the government on individuals or businesses.",
@@ -20927,7 +20981,9 @@
     "relatedTerms": [
       "biudžetas",
       "pajamos",
-      "valstybė"
+      "valstybė",
+      "mokėti",
+      "finansai"
     ],
     "translation": "tax"
   },
@@ -21001,7 +21057,7 @@
     "term": "raktas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small shaped piece of metal inserted into a lock to open or close it.",
@@ -21019,7 +21075,9 @@
     "relatedTerms": [
       "durys",
       "spyna",
-      "atrakinti"
+      "atrakinti",
+      "užrakinti",
+      "seifas"
     ],
     "translation": "key"
   },
@@ -21049,7 +21107,7 @@
     "term": "Apsigyventi",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To move into and settle in a place; to check in to accommodation.",
@@ -21062,12 +21120,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "įsikurti"
+    ],
+    "antonymTerms": [
+      "išsikelti"
+    ],
     "relatedTerms": [
       "nakvoti",
       "viešbutis",
-      "nuomoti"
+      "nuomoti",
+      "registracija"
     ],
     "translation": "to move in, to check in, to settle"
   },
@@ -21075,7 +21138,7 @@
     "term": "nakvoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To stay and sleep somewhere overnight; to spend the night in a place.",
@@ -21088,12 +21151,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pernakvoti"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "viešbutis",
       "kambarys",
-      "apsigyventi"
+      "apsigyventi",
+      "miegas"
     ],
     "translation": "to stay overnight, to spend the night"
   },
@@ -21123,7 +21189,7 @@
     "term": "nuomoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To pay for the temporary use of something such as a flat, car, or equipment.",
@@ -21139,11 +21205,15 @@
     "synonyms": [
       "išsinuomoti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "pirkti"
+    ],
     "relatedTerms": [
       "nuoma",
       "butas",
-      "mokėti"
+      "mokėti",
+      "sutartis",
+      "nuomotojas"
     ],
     "translation": "to rent, to hire"
   },
@@ -25537,7 +25607,7 @@
     "term": "sveikatos pažyma",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An official document issued by a medical professional certifying a person's state of health, often required for employment or study.",
@@ -25550,12 +25620,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "medicininė pažyma"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "gydytojas",
       "nedarbingumo pažymėjimas",
-      "dokumentas"
+      "dokumentas",
+      "pacientas"
     ],
     "translation": "health certificate"
   },
@@ -25563,7 +25636,7 @@
     "term": "sveikatos draudimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mandatory or voluntary system of insurance that covers the cost of medical care and healthcare services.",
@@ -25584,7 +25657,9 @@
     "relatedTerms": [
       "mokestis",
       "gydytojas",
-      "ligoninė"
+      "ligoninė",
+      "polisas",
+      "įmoka"
     ],
     "translation": "health insurance"
   },
@@ -25592,7 +25667,7 @@
     "term": "nedarbingumo pažymėjimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An official medical document issued by a doctor confirming that an employee is unable to work due to illness or injury.",
@@ -25613,7 +25688,8 @@
     "relatedTerms": [
       "sveikatos pažyma",
       "gydytojas",
-      "darbdavys"
+      "darbdavys",
+      "liga"
     ],
     "translation": "sick leave certificate"
   },
@@ -26556,7 +26632,7 @@
     "term": "Tikrinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To examine or inspect something to confirm its correctness or condition.",
@@ -26569,13 +26645,17 @@
       }
     ],
     "synonyms": [
-      "patikrinti"
+      "patikrinti",
+      "peržiūrėti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "ignoruoti"
+    ],
     "relatedTerms": [
       "matuoti",
       "kontroliuoti",
-      "patikrinimas"
+      "patikrinimas",
+      "auditas"
     ],
     "translation": "to check, to verify, to examine"
   },
@@ -26810,7 +26890,7 @@
     "term": "linkėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To express a wish that someone will have good fortune, health, or happiness.",
@@ -26831,7 +26911,8 @@
     "relatedTerms": [
       "palinkėjimas",
       "linkėjimas",
-      "proga"
+      "proga",
+      "šventė"
     ],
     "translation": "to wish (someone well)"
   },
@@ -26971,7 +27052,7 @@
     "term": "Aplankas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A flat cardboard or plastic cover used to hold loose papers or documents together.",
@@ -26991,7 +27072,8 @@
     "relatedTerms": [
       "sąsiuvinis",
       "segtuvas",
-      "dokumentai"
+      "dokumentai",
+      "byla"
     ],
     "translation": "folder"
   },
@@ -26999,7 +27081,7 @@
     "term": "klijai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A sticky substance used to join materials together.",
@@ -27016,8 +27098,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "klijuoti",
-      "popieriaus lapas",
-      "pieštukas"
+      "popierius",
+      "pieštukas",
+      "tvirtinimas"
     ],
     "translation": "glue"
   },
@@ -27258,7 +27341,7 @@
     "term": "kompiuteris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An electronic device used to process, store, and display information, essential for modern office work.",
@@ -27275,9 +27358,10 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "nešiojamas kompiuteris",
       "klaviatūra",
-      "ekranas"
+      "ekranas",
+      "internetas",
+      "programa"
     ],
     "translation": "computer",
     "qaNote": "Synonym 'skaičiuotuvas' is inaccurate in modern Lithuanian: the term primarily denotes a calculator (arithmetic device), not a computer. While historically used for computer, current standard usage reserves 'kompiuteris' for computer and 'skaičiuotuvas' for calculator. Replace with an accurate synonym."
@@ -27286,7 +27370,7 @@
     "term": "pelė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small handheld input device used to move the cursor and interact with a computer graphical interface.",
@@ -27300,12 +27384,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "manipuliatorius"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "klaviatūra",
       "ekranas",
-      "kompiuteris"
+      "kompiuteris",
+      "kursorius"
     ],
     "translation": "mouse (computer)"
   },
@@ -27496,7 +27583,7 @@
     "term": "planšetinis kompiuteris",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A portable flat touchscreen computing device, larger than a smartphone, typically used for browsing, reading, and media.",
@@ -27513,11 +27600,14 @@
     "synonyms": [
       "planšetė"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "stalinis kompiuteris"
+    ],
     "relatedTerms": [
       "kompiuteris",
       "išmanusis telefonas",
-      "ekranas"
+      "ekranas",
+      "programėlė"
     ],
     "translation": "tablet computer"
   },
@@ -27525,7 +27615,7 @@
     "term": "elektroninis laiškas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A digital message sent and received over the internet, widely used for professional communication.",
@@ -27547,7 +27637,9 @@
     "relatedTerms": [
       "elektroninis paštas",
       "priedas",
-      "siuntėjas"
+      "siuntėjas",
+      "gavėjas",
+      "tema"
     ],
     "translation": "email",
     "qaNote": "Synonym 'el. laiškas' is a self-referential abbreviation of the head term 'elektroninis laiškas'. Abbreviations of the defined term do not qualify as synonyms. Remove or replace with a genuinely distinct synonym."
@@ -27556,7 +27648,7 @@
     "term": "elektroninis paštas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The system or service for sending and receiving electronic messages; also refers to an email address.",
@@ -27578,7 +27670,8 @@
     "relatedTerms": [
       "elektroninis laiškas",
       "internetas",
-      "serveris"
+      "serveris",
+      "slaptažodis"
     ],
     "translation": "email address, email system",
     "qaNote": "Synonym 'el. paštas' is a self-referential abbreviation of the head term 'elektroninis paštas'. Remove or replace with a genuinely distinct synonym."
@@ -27587,7 +27680,7 @@
     "term": "kopija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A duplicate of a document or file; also the text or data copied to the clipboard for pasting.",
@@ -27610,7 +27703,8 @@
     "relatedTerms": [
       "kopijuoti",
       "klijuoti",
-      "failas"
+      "failas",
+      "dokumentas"
     ],
     "translation": "copy"
   },
@@ -27645,7 +27739,7 @@
     "term": "Skyrius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A division or section within a company or organisation that handles a specific area of work.",
@@ -27664,7 +27758,8 @@
     "relatedTerms": [
       "įmonė",
       "darbuotojas",
-      "vadovas"
+      "vadovas",
+      "organizacija"
     ],
     "translation": "department",
     "qaNote": "Term is improperly capitalised as 'Skyrius'; Lithuanian common nouns in nominative citation form should be lowercase. Correct the term to 'skyrius'."
@@ -27702,7 +27797,7 @@
     "term": "atostogos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A period of time when an employee is allowed to be away from work for rest or personal matters.",
@@ -27723,7 +27818,8 @@
     "relatedTerms": [
       "kelionė",
       "šventė",
-      "poilsiadienis"
+      "poilsiadienis",
+      "savaitgalis"
     ],
     "translation": "vacation, leave",
     "qaNote": "Synonym 'poilsis' means 'rest' or 'relaxation' and is thematically related but not synonymous with 'atostogos' (leave/vacation). 'Poilsis' refers to any restful activity; 'atostogos' specifically denotes a formally granted period of leave from work or study. Replace with an accurate synonym."
