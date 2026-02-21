@@ -5,6 +5,7 @@ struct SessionStartView: View {
     @Environment(\.modelContext) private var context
     @Query private var allWords: [Word]
     @Bindable var sessionService: SessionService
+    @State private var showWordOfDayDetails = false
 
     private var hasEverStudied: Bool {
         allWords.contains { $0.timesSeen > 0 }
@@ -16,6 +17,18 @@ struct SessionStartView: View {
 
     private var selectedLanguageName: String {
         sessionService.language == "en" ? "English" : "Lithuanian"
+    }
+
+    private var selectedLanguageWords: [Word] {
+        allWords
+            .filter { $0.language == sessionService.language }
+            .sorted { $0.term.localizedCaseInsensitiveCompare($1.term) == .orderedAscending }
+    }
+
+    private var dailyWord: Word? {
+        guard !selectedLanguageWords.isEmpty else { return nil }
+        let index = dailySeed(for: sessionService.language) % selectedLanguageWords.count
+        return selectedLanguageWords[index]
     }
 
     var body: some View {
@@ -70,6 +83,7 @@ struct SessionStartView: View {
                 set: {
                     sessionService.language = $0
                     sessionService.emptyReason = .none
+                    showWordOfDayDetails = false
                 }
             )) {
                 Text("🇬🇧 English").tag("en")
@@ -77,6 +91,8 @@ struct SessionStartView: View {
             }
             .pickerStyle(.segmented)
             .padding(.horizontal)
+
+            wordOfTheDayCard
 
             // Empty state messages
             if wordCount(for: sessionService.language) == 0 {
@@ -139,6 +155,77 @@ struct SessionStartView: View {
         .background(Color(.systemGray6))
         .clipShape(RoundedRectangle(cornerRadius: 16))
         .padding(.horizontal)
+    }
+
+    private var wordOfTheDayCard: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("Word of the Day")
+                .font(.headline)
+
+            if let word = dailyWord {
+                Text(word.term)
+                    .font(.title3)
+                    .fontWeight(.semibold)
+
+                if showWordOfDayDetails {
+                    if sessionService.language == "lt" {
+                        let translation = (word.translation?.isEmpty == false) ? word.translation ?? "" : "No translation available"
+                        wordDetailRow(
+                            title: "Translation",
+                            value: translation
+                        )
+                    } else {
+                        wordDetailRow(
+                            title: "Definition",
+                            value: word.definition.isEmpty ? "No definition available" : word.definition
+                        )
+                    }
+
+                    Text(word.example.isEmpty ? "No example available" : "“\(word.example)”")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                } else {
+                    Text("Tap to reveal details")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+            } else {
+                Text("No words available for \(selectedLanguageName) yet")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding()
+        .background(Color(.systemGray6))
+        .clipShape(RoundedRectangle(cornerRadius: 16))
+        .padding(.horizontal)
+        .contentShape(RoundedRectangle(cornerRadius: 16))
+        .onTapGesture {
+            guard dailyWord != nil else { return }
+            withAnimation(.easeInOut(duration: 0.2)) {
+                showWordOfDayDetails.toggle()
+            }
+        }
+    }
+
+    private func dailySeed(for language: String) -> Int {
+        let calendar = Calendar(identifier: .gregorian)
+        let year = calendar.component(.year, from: .now)
+        let dayOfYear = calendar.ordinality(of: .day, in: .year, for: .now) ?? 1
+        let languageSeed = language.unicodeScalars.reduce(0) { $0 + Int($1.value) }
+        return (year * 1_000) + dayOfYear + languageSeed
+    }
+
+    @ViewBuilder
+    private func wordDetailRow(title: String, value: String) -> some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(title)
+                .font(.caption)
+                .foregroundStyle(.secondary)
+            Text(value)
+                .font(.subheadline)
+        }
     }
 
     // MARK: - Active Session View
