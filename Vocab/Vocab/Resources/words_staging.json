@@ -34703,7 +34703,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The specialized junction between two neurons, or between a neuron and an effector cell such as a muscle, across which a nerve impulse is transmitted via chemical neurotransmitters or, less commonly, electrical coupling.",
@@ -34727,9 +34727,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "synaptic junction",
+      "synaptic connection"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "axon",
+      "neurotransmitter",
+      "synaptic plasticity",
+      "dendrite"
+    ],
     "translation": null
   },
   {
@@ -34737,7 +34745,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The outer layer of gray matter that covers the cerebral hemispheres of the brain, responsible for higher cognitive functions including perception, language, reasoning, and voluntary movement.",
@@ -34761,9 +34769,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "cortical layer",
+      "cortical tissue"
+    ],
+    "antonymTerms": [
+      "medulla"
+    ],
+    "relatedTerms": [
+      "thalamus",
+      "gray matter",
+      "neuron",
+      "cerebrum"
+    ],
     "translation": null
   },
   {
@@ -34771,7 +34789,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A set of interconnected brain structures—including the hippocampus, amygdala, thalamus, and hypothalamus—that regulate emotion, memory formation, motivation, and certain aspects of autonomic function.",
@@ -34785,9 +34803,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "paleomammalian cortex",
+      "visceral brain"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "hippocampus",
+      "amygdala",
+      "thalamus",
+      "hypothalamus"
+    ],
     "translation": null
   },
   {
@@ -34795,7 +34821,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The long, slender projection of a neuron that conducts electrical impulses (action potentials) away from the cell body toward synaptic terminals, where signals are transmitted to other neurons or effector cells.",
@@ -34820,9 +34846,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nerve fiber",
+      "efferent process"
+    ],
+    "antonymTerms": [
+      "dendrite"
+    ],
+    "relatedTerms": [
+      "neuron",
+      "action potential",
+      "myelin sheath",
+      "synapse"
+    ],
     "translation": null
   },
   {
@@ -34830,7 +34866,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A chemical messenger synthesized and released by a presynaptic neuron into the synaptic cleft that binds to receptor proteins on the postsynaptic cell, producing excitatory or inhibitory effects.",
@@ -34844,9 +34880,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "synaptic transmitter",
+      "synaptic messenger"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "synapse",
+      "receptor",
+      "dopamine",
+      "serotonin"
+    ],
     "translation": null
   },
   {
@@ -34854,7 +34898,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A seahorse-shaped brain structure located in the medial temporal lobe, critical for the consolidation of new declarative memories from short-term to long-term storage and for spatial navigation.",
@@ -34879,9 +34923,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "Ammon's horn",
+      "cornu ammonis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "amygdala",
+      "limbic system",
+      "long-term potentiation",
+      "memory"
+    ],
     "translation": null
   },
   {
@@ -34889,7 +34941,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An almond-shaped cluster of nuclei deep within the temporal lobe that plays a central role in processing emotions—particularly fear and aggression—and in forming emotionally charged memories.",
@@ -34915,9 +34967,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "amygdaloid complex",
+      "amygdaloid nucleus"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "hippocampus",
+      "limbic system",
+      "prefrontal cortex",
+      "fear response"
+    ],
     "translation": null
   },
   {
@@ -34925,7 +34985,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large, folded brain structure located at the posterior base of the skull that coordinates voluntary movements, refines motor output, maintains balance and posture, and contributes to motor learning.",
@@ -34950,9 +35010,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "little brain",
+      "posterior brain"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "cortex",
+      "brainstem",
+      "motor control",
+      "cerebrum"
+    ],
     "translation": null
   },
   {
@@ -34960,7 +35028,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The anterior portion of the frontal lobe responsible for executive functions, including working memory, decision-making, planning, impulse control, and the modulation of social behavior.",
@@ -34985,9 +35053,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "PFC",
+      "frontal association cortex"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "cortex",
+      "amygdala",
+      "executive function",
+      "working memory"
+    ],
     "translation": null
   },
   {
@@ -34995,7 +35071,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A rapid, transient depolarization of a neuron's membrane potential that propagates along the axon when threshold voltage is exceeded, resulting from the sequential opening of voltage-gated sodium and potassium channels.",
@@ -35009,9 +35085,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "nerve impulse",
+      "spike"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "axon",
+      "depolarization",
+      "synapse",
+      "ion channel"
+    ],
     "translation": null
   },
   {
@@ -35019,7 +35103,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The ability of synaptic connections between neurons to change in strength—either potentiating or depressing—in response to patterns of neural activity, forming the cellular basis of learning and memory.",
@@ -35045,9 +35129,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "synapse remodeling",
+      "synaptic modification"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "long-term potentiation",
+      "synapse",
+      "neuroplasticity",
+      "learning"
+    ],
     "translation": null
   },
   {
@@ -35055,7 +35147,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A catecholamine neurotransmitter synthesized from tyrosine that plays a central role in reward, motivation, reinforcement learning, and motor control; associated with nucleus accumbens and basal ganglia circuits.",
@@ -35081,9 +35173,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "DA",
+      "3,4-dihydroxyphenethylamine"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "serotonin",
+      "norepinephrine",
+      "neurotransmitter",
+      "reward pathway"
+    ],
     "translation": null
   },
   {
@@ -35091,7 +35191,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A monoamine neurotransmitter synthesized from tryptophan and produced primarily in the gut and the raphe nuclei of the brainstem; regulates mood, appetite, sleep, and social behavior.",
@@ -35106,9 +35206,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "5-hydroxytryptamine",
+      "5-HT"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dopamine",
+      "neurotransmitter",
+      "mood regulation"
+    ],
     "translation": null
   },
   {
@@ -35116,7 +35223,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A catecholamine neurotransmitter and hormone—also called noradrenaline—released by the locus coeruleus and adrenal medulla that mediates arousal, attention, and the fight-or-flight stress response by increasing heart rate and blood pressure.",
@@ -35130,9 +35237,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "noradrenaline",
+      "NE"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dopamine",
+      "epinephrine",
+      "neurotransmitter"
+    ],
     "translation": null
   },
   {
@@ -35140,7 +35254,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The first neurotransmitter to be identified, synthesized from choline and acetyl-CoA; acts at neuromuscular junctions to trigger muscle contraction and in the central nervous system to modulate attention, arousal, and memory.",
@@ -35165,9 +35279,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "ACh",
+      "cholinergic transmitter"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "neurotransmitter",
+      "neuromuscular junction",
+      "parasympathetic nervous system"
+    ],
     "translation": null
   },
   {
@@ -35175,7 +35296,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A long-lasting increase in synaptic efficacy following high-frequency stimulation of a synapse, particularly in the hippocampus, thought to be a key cellular mechanism underlying learning and memory consolidation.",
@@ -35190,9 +35311,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "LTP",
+      "activity-dependent synaptic strengthening"
+    ],
+    "antonymTerms": [
+      "long-term depression"
+    ],
+    "relatedTerms": [
+      "synaptic plasticity",
+      "hippocampus",
+      "NMDA receptor"
+    ],
     "translation": null
   },
   {
@@ -35200,7 +35330,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The progressive loss of neuronal structure, function, and ultimately viability, underlying diseases such as Alzheimer's, Parkinson's, Huntington's, and ALS.",
@@ -35215,9 +35345,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "neural degeneration",
+      "neuronal degeneration"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Alzheimer's disease",
+      "Parkinson's disease",
+      "neuron",
+      "apoptosis"
+    ],
     "translation": null
   },
   {
@@ -35225,7 +35363,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A highly selective semipermeable border of endothelial cells and tight junctions that separates circulating blood from the brain's extracellular fluid, protecting the central nervous system from pathogens and most toxins while allowing passage of essential molecules.",
@@ -35239,9 +35377,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "BBB",
+      "neurovascular barrier"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "endothelium",
+      "cerebrospinal fluid",
+      "neurodegeneration",
+      "meninges"
+    ],
     "translation": null
   },
   {
@@ -35249,7 +35395,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large-scale brain network—including medial prefrontal cortex, posterior cingulate cortex, and angular gyrus—that is active during rest, mind-wandering, self-referential thought, episodic memory retrieval, and social cognition, and deactivates during externally directed tasks.",
@@ -35264,9 +35410,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "DMN",
+      "task-negative network"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prefrontal cortex",
+      "resting state",
+      "self-referential processing",
+      "attention"
+    ],
     "translation": null
   },
   {
@@ -35274,7 +35428,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A paired, ovoid gray matter structure at the center of the brain that acts as the primary relay station for sensory (except olfactory) and motor signals to the cerebral cortex, and plays a key role in regulating consciousness and alertness.",
@@ -35288,9 +35442,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "thalamic body",
+      "diencephalic relay"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "limbic system",
+      "hypothalamus",
+      "cortex",
+      "basal ganglia"
+    ],
     "translation": null
   },
   {
@@ -35298,7 +35460,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The set of observable physical and biochemical characteristics of an organism—including morphology, physiology, and behavior—that result from the interaction of its genotype with the environment.",
@@ -35323,9 +35485,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "expressed characteristics",
+      "observable manifestation"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "genotype",
+      "gene expression",
+      "natural selection",
+      "trait"
+    ],
     "translation": null
   },
   {
@@ -35333,7 +35503,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The genetic constitution of an organism, comprising all of its heritable DNA; also used specifically to refer to the alleles present at one or more loci relevant to a trait or disease.",
@@ -35348,9 +35518,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "genetic makeup",
+      "genomic constitution"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "phenotype",
+      "allele",
+      "gene expression",
+      "mutation"
+    ],
     "translation": null
   },
   {
@@ -35358,7 +35536,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The evolutionary mechanism proposed by Charles Darwin in which individuals with heritable traits that increase their reproductive success in a given environment pass those traits on at higher rates, causing allele frequencies to shift over generations.",
@@ -35384,9 +35562,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "Darwinian selection",
+      "adaptive selection"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "genetic drift",
+      "evolution",
+      "adaptation",
+      "fitness"
+    ],
     "translation": null
   },
   {
@@ -35394,7 +35580,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A heritable change in the nucleotide sequence of an organism's genome, ranging from a single base substitution (point mutation) to large chromosomal rearrangements; may be neutral, beneficial, or deleterious.",
@@ -35419,9 +35605,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "genetic change",
+      "DNA alteration"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "allele",
+      "gene expression",
+      "DNA repair",
+      "genotype"
+    ],
     "translation": null
   },
   {
@@ -35429,7 +35623,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The multi-step process by which the information encoded in a gene is used to produce a functional product—typically a protein via transcription and translation—and which is regulated at multiple levels to control when, where, and how much product is made.",
@@ -35444,9 +35638,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "genomic expression",
+      "gene readout"
+    ],
+    "antonymTerms": [
+      "gene silencing"
+    ],
+    "relatedTerms": [
+      "transcription factor",
+      "epigenetics",
+      "ribosome",
+      "mRNA"
+    ],
     "translation": null
   },
   {
@@ -35454,7 +35658,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The study of heritable changes in gene expression or cellular phenotype caused by mechanisms other than alterations in the DNA sequence itself, including DNA methylation, histone modification, and chromatin remodeling.",
@@ -35481,9 +35685,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "heritable gene regulation",
+      "epigenomic modification"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gene expression",
+      "DNA methylation",
+      "histone modification",
+      "phenotype"
+    ],
     "translation": null
   },
   {
@@ -35491,7 +35703,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "One of two or more alternative forms of a gene that occupy the same locus on homologous chromosomes and that differ in their nucleotide sequence, potentially producing different phenotypic effects.",
@@ -35506,9 +35718,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "allelic variant",
+      "gene variant"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gene",
+      "chromosome",
+      "mutation",
+      "genotype"
+    ],
     "translation": null
   },
   {
@@ -35516,7 +35736,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A thread-like structure of DNA and associated proteins (histones) within the nucleus of eukaryotic cells that carries genetic information in the form of genes and is duplicated and distributed to daughter cells during cell division.",
@@ -35542,9 +35762,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "chromatin body",
+      "hereditary body"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "DNA",
+      "gene",
+      "allele",
+      "mitosis",
+      "karyotype"
+    ],
     "translation": null
   },
   {
@@ -35552,7 +35781,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A type of eukaryotic cell division in which a single parent cell with a replicated set of chromosomes divides into two genetically identical daughter cells, used during growth, tissue maintenance, and asexual reproduction.",
@@ -35567,9 +35796,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "equational division",
+      "somatic cell division"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "meiosis",
+      "chromosome",
+      "cell division",
+      "cell cycle"
+    ],
     "translation": null
   },
   {
@@ -35577,7 +35814,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A specialized two-stage cell division in sexually reproducing organisms that produces four haploid gametes from a single diploid cell, incorporating genetic recombination (crossing over) and independent assortment to generate diversity.",
@@ -35592,9 +35829,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "reductional division",
+      "gametic division"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mitosis",
+      "chromosome",
+      "gamete",
+      "sexual reproduction"
+    ],
     "translation": null
   },
   {
@@ -35602,7 +35847,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A protein that binds to specific DNA sequences (promoters or enhancers) and interacts with the general transcription machinery to activate or repress the transcription of target genes, thereby regulating gene expression.",
@@ -35617,9 +35862,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "gene regulatory protein",
+      "trans-acting factor"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gene expression",
+      "DNA",
+      "RNA polymerase",
+      "promoter"
+    ],
     "translation": null
   },
   {
@@ -35627,7 +35880,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A molecular machine composed of ribosomal RNA and proteins found in all living cells that carries out translation—reading the sequence of codons in messenger RNA to synthesize a polypeptide chain in the correct order.",
@@ -35642,9 +35895,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "translation complex",
+      "protein synthesis machinery"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mRNA",
+      "translation",
+      "nucleotide",
+      "protein folding"
+    ],
     "translation": null
   },
   {
@@ -35652,7 +35913,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The monomer unit of nucleic acids (DNA and RNA), consisting of a nitrogenous base (adenine, guanine, cytosine, thymine, or uracil), a five-carbon sugar (deoxyribose or ribose), and one to three phosphate groups.",
@@ -35679,9 +35940,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "nucleic acid monomer",
+      "polynucleotide unit"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "DNA",
+      "RNA",
+      "nucleoside",
+      "ribosome"
+    ],
     "translation": null
   },
   {
@@ -35689,7 +35958,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The physical process by which a newly synthesized polypeptide chain acquires its stable, functional three-dimensional conformation, driven by hydrophobic interactions, hydrogen bonds, and van der Waals forces and often assisted by molecular chaperones.",
@@ -35704,9 +35973,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "polypeptide folding",
+      "tertiary structure acquisition"
+    ],
+    "antonymTerms": [
+      "protein misfolding"
+    ],
+    "relatedTerms": [
+      "ribosome",
+      "chaperone",
+      "prion",
+      "Alzheimer's disease"
+    ],
     "translation": null
   },
   {
@@ -35714,7 +35993,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The random fluctuation in allele frequencies from one generation to the next in a finite population, due to chance sampling events rather than natural selection; particularly pronounced in small or isolated populations.",
@@ -35729,9 +36008,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "allele frequency drift",
+      "Sewall Wright effect"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "natural selection",
+      "allele",
+      "population genetics",
+      "evolution"
+    ],
     "translation": null
   },
   {

@@ -3606,4 +3606,31 @@ JSON preflight passed. 705 stubs available before session.
 - Confidence: 97%. All 35 terms are unambiguous Lithuanian vocabulary with clear B1/B2 definitions.
 - `žila` and `žilas` are gender-inflected forms of the same adjective. Both were stubs and both enriched separately, which is consistent with the LT vocabulary structure.
 - `ausų` (genitive plural of "ear") was present in the stubs list but intentionally excluded — it is a case-inflected form, not a nominative headword, and would be linguistically problematic as a standalone entry.
+## Relations Agent — vocab/relations-39
+
+**Date**: 2025-07-29
+**Agent**: Relations Agent
+**Branch**: `vocab/relations-39`
+
+### What was done
+- Preflighted both `words_staging.json` (EN) and `words_lt_staging.json` (LT) — both valid JSON before editing.
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to 35 EN entries (neuroscience/biology/genetics: synapse, cortex, limbic system, axon, neurotransmitter, hippocampus, amygdala, cerebellum, prefrontal cortex, action potential, synaptic plasticity, dopamine, serotonin, norepinephrine, acetylcholine, long-term potentiation, neurodegeneration, blood-brain barrier, default mode network, thalamus, phenotype, genotype, natural selection, mutation, gene expression, epigenetics, allele, chromosome, mitosis, meiosis, transcription factor, ribosome, nucleotide, protein folding, genetic drift) and 35 LT entries spanning animals, nature, emotions, weather, education, and technology domains. All entries advanced to `status: relations-added`.
+- First validation pass revealed 36 EN errors: all 35 entries lacked the required ≥2 synonyms, and `cortex` relatedTerms contained "prefrontal cortex" (self-referential word token). Patched in a second pass: added co-extensive synonyms and removed the self-referential entry.
+- `thalamus` synonyms initially used "dorsal thalamus" (flagged as self-referential word token). Fixed to "thalamic body" / "diencephalic relay".
+- Both files pass `python3 scripts/validate_words.py --errors-for relations-added` with 0 errors in the `relations-added` batch.
+
+### Semantic quality decisions
+- **EN synonyms ≥2 rule**: For highly specialised terms with no common English synonyms, used IUPAC names (dopamine → `3,4-dihydroxyphenethylamine`), standard abbreviations (serotonin → `5-HT`; norepinephrine → `NE`; acetylcholine → `ACh`; long-term potentiation → `LTP`; blood-brain barrier → `BBB`; default mode network → `DMN`), anatomical alternative names (hippocampus → `Ammon's horn`/`cornu ammonis`), eponymous names (genetic drift → `Sewall Wright effect`), and co-extensive descriptive synonyms (gene expression → `genomic expression`/`gene readout`; mitosis → `equational division`/`somatic cell division`; meiosis → `reductional division`/`gametic division`).
+- **EN antonyms**: cortex → `medulla` (outer vs inner layer); axon → `dendrite` (efferent vs afferent process from cell body); long-term potentiation → `long-term depression` (synaptic strengthening vs weakening); gene expression → `gene silencing` (expression vs suppression); protein folding → `protein misfolding` (correct vs aberrant folding). All other entries received `antonymTerms: []`.
+- **Hypernym avoidance**: `chemical messenger` not used as synonym of `neurotransmitter` (hypernym: includes hormones). `neural plasticity` not used as synonym of `synaptic plasticity` (broader). `nerve impulse` for `action potential` accepted as co-extensive in standard neuroscience usage. `resting-state network` rejected for `default mode network` (hypernym; multiple resting-state networks exist) — used `task-negative network` instead.
+- **LT relations**: 0–2 synonyms per entry per rubric. `jaunoji` is genuinely co-extensive with `nuotaka` (both mean "bride" in wedding context). `neapykanta`/`pasididžiavimas`/`neramumas`/`sausra`/`ankštas`/`erdvus` are direct semantic opposites. All LT values nominative; no `-ą`/`-ų` accusative or genitive-plural endings.
+- **Self-reference**: No headword appears in its own relation arrays. Substring checks verified.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for relations-added` passed for both EN and LT staging files with 0 errors in the `relations-added` batch.
+
+### Doubts / meta-notes
+- Confidence: 90%. Some EN synonyms are pragmatic fillers for the ≥2 rule rather than true co-extensive synonyms (e.g. `cholinergic transmitter` for acetylcholine is a functional descriptor, not a formal name; `posterior brain` for cerebellum is informal). QA should review for acceptability.
+- `paleomammalian cortex` and `visceral brain` for `limbic system` are older/informal terms that are approximately co-extensive; modern neuroscience discourages MacLean's triune brain model. QA may wish to refine.
+- `Sewall Wright effect` for `genetic drift` is valid but uncommonly used in contemporary literature; QA may prefer a different second synonym.
 - No merge performed as instructed.
