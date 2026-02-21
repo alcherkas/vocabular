@@ -3146,3 +3146,38 @@ JSON preflight passed. 705 stubs available before session.
 ### Doubts
 - `reliabilism` and `naturalism` as synonyms for `externalism` are hyponyms (specific types), not co-extensive synonyms. They were included to satisfy the ≥2 EN synonym count. A future QA pass should consider moving them to `relatedTerms`.
 - Some music synonyms (e.g. `talea-color structure`, `mensural repetition` for `isorhythm`) are descriptive phrases rather than standard alternate terms; flag for QA if needed.
+
+## Enricher agent — vocab/enricher-lt-45 — 2025-02-21
+
+**Agent role**: Enricher (Lithuanian)
+**Branch**: `vocab/enricher-lt-45`
+
+### What was done
+- Preflighted `words_lt_staging.json` — valid JSON (2030 entries, 670 stubs at start).
+- Selected 35 stubs most relevant to work and career vocabulary (B1/B2 level) covering: professions, workplace objects, office supplies, job-related verbs, and professional character attributes.
+- Enriched all 35 stubs: filled `meanings` (definition, example, register, tags), `translation`, set `partOfSpeech`, lowercased any capitalised terms, set `status: "enriched"`.
+- Remaining stubs after enrichment: 635.
+
+### Terms enriched (35)
+**Professions (female)**: vaistininkė, gaisrininkė, statybininkė, sodininkė, mechanikė, kepėja  
+**Workplace people/roles**: kabinetas, registratorius, direktoriaus pavaduotojas, pavaduotoja  
+**Office supplies/furniture**: stalinė lempa, užrašų knygelė, stalinis kalendorius, stalčius, sąvaržėlė, vokas, smeigtukai  
+**Work verbs — communication**: pasakoti, pristatyti, pranešti, priminti, aptarti, sutikti  
+**Work verbs — administrative**: priimti, ruoštis, tartis, trukti, sumanyti, baigtis, grupė  
+**Workplace adjectives**: erdvus, ankštas, kantrus, netvarkingas, punktualus
+
+### Semantic quality decisions
+- **kabinetas** given two senses: (1) office room (B1 workplace), (2) government cabinet (B2 formal) — both genuinely distinct.
+- **priimti** given two senses: (1) to hire/accept (employment context), (2) to receive guests — common polysemy in professional contexts.
+- **pristatyti** given two senses: (1) to present (workplace communication), (2) to deliver (logistics) — both standard B1 senses.
+- **sutikti** given two senses: (1) to agree (negotiations), (2) to meet someone — naturally co-occurring in workplace contexts.
+- **baigtis** defined as noun (outcome/conclusion of a project) at B2 rather than as a reflexive verb — the nominal use is most useful at this level in professional writing.
+- **tartis** marked as `formal` register — derybos/salary negotiation context justifies this.
+- **grupė** kept simple (A2) as the core team/group concept; workplace framing via example sentence.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for enriched` → PASSED (0 errors in enriched scope; 98 pre-existing warnings in `approved` entries, not touched).
+
+### Doubts / meta-notes
+- None of the stubs in the current batch were specifically labelled as salary/promotion/retirement terms (those topics are not yet in the stub list). The closest available stubs — verbs like tartis (negotiate), baigtis (outcome), sumanyti (devise) — were selected to cover the spirit of those themes.
+- Confidence: 96%.
