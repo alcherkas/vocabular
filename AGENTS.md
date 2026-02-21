@@ -1085,3 +1085,25 @@ Custom batch check (self-reference, nominative forms, duplicate detection) — *
 - Automated script catches structural issues (self-ref, -ą/-ų, duplicates, POS/register). Semantic synonym accuracy still requires manual review.
 - "Contrast" ≠ "antonym": types within a taxonomy (phoneme/allophone, deduction/abduction) are not antonyms even when commonly juxtaposed.
 - Synonym sense-alignment: multi-sense entries need synonyms scoped to the senses actually defined — not all senses a word can have in the wild.
+## Session: enricher-en-29 — 2025-07-26
+
+### Role
+Enricher (English) — worktree `vocabular-wt-enricher-en-29`, branch `vocab/enricher-en-29`.
+
+### Work done
+- Preflight JSON check: `words_staging.json` valid (930 entries, exit 0).
+- Enriched **35 EN stubs** → status `enriched`, covering two thematic domains:
+  - **Literary theory & narrative** (20 terms): polyphony, bathos, bildungsroman, catharsis, chronotope, deconstruction, denouement, dysphemism, fabula, foregrounding, kenning, metalepsis, mise en abyme, mythopoeia, peripeteia, prosody, sjuzhet, unreliable narrator, zeugma, logocentrism.
+  - **Visual arts & aesthetics** (15 terms): foreshortening, frottage, gestalt, gouache, grattage, grotesque, intaglio, pastiche, patina, plein air, scumbling, sublime, tondo, underpainting, vanitas.
+- Each entry has 1–2 distinct meanings with definition, example sentence, register, and tags.
+
+### Validation
+`validate_words.py --errors-for enriched` → **PASSED** — 930 words valid (exit 0).
+Pre-existing warnings only in approved-status entries; zero errors in newly enriched batch.
+
+### Decisions & tradeoffs
+- `polyphony` and `prosody` stubs lacked a `partOfSpeech` field; assigned `noun` (unambiguous POS for both terms) as part of enrichment.
+- `grotesque` stub had `adjective` POS; enriched with two meanings covering both the art-historical ornamental style (adjective use) and the literary grotesque mode (with a note that as a noun/mode it also appears as a nominal in criticism). POS retained as `adjective` per the stub.
+- `logocentrism` relatedTerms initially included a self-referential entry (bug caught pre-write); corrected before file write.
+- Synonyms and antonymTerms left minimal or empty where no established equivalents exist (Relations agent fills these in the next pipeline stage).
+- 110 stubs remain in the file for subsequent enricher sessions.

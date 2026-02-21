@@ -24911,12 +24911,79 @@
   {
     "term": "polyphony",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "In literary theory, the narrative mode in which multiple, equally authoritative character voices coexist without subordination to a single authorial perspective, as theorized by Bakhtin.",
+        "example": "Dostoevsky's novels are celebrated for their polyphony: each character argues with full intellectual and moral conviction rather than merely embodying the author's thesis.",
+        "register": "technical",
+        "tags": [
+          "narratology",
+          "Bakhtin",
+          "literary theory"
+        ]
+      },
+      {
+        "definition": "In music, the simultaneous combination of two or more independent melodic lines.",
+        "example": "The polyphony of Bach's fugues creates a dense texture in which each voice retains its own melodic identity while contributing to a unified whole.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "counterpoint",
+          "composition"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "monophony",
+      "homophony"
+    ],
+    "relatedTerms": [
+      "heteroglossia",
+      "dialogism",
+      "counterpoint"
+    ]
   },
   {
     "term": "prosody",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The systematic study of the rhythmic and metrical structure of verse, including patterns of stress, syllable length, and line organization.",
+        "example": "A grasp of prosody is essential for understanding why Milton's blank verse feels so different in rhythm from a Shakespearean sonnet.",
+        "register": "technical",
+        "tags": [
+          "poetics",
+          "meter",
+          "linguistics"
+        ]
+      },
+      {
+        "definition": "In linguistics, the suprasegmental features of speech—including intonation, stress, rhythm, and tempo—that operate above the level of individual phonemes.",
+        "example": "The child's prosody showed she had acquired the rising intonation pattern typical of questions well before she could produce grammatical sentences.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "phonology",
+          "intonation"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "meter",
+      "scansion",
+      "intonation",
+      "rhythm",
+      "versification"
+    ]
   },
   {
     "term": "embodiment",
@@ -26528,98 +26595,436 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "literary",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An abrupt, jarring descent from the elevated or sublime to the trivial or ridiculous, either as an unintended failure of tone or as a deliberate comic device.",
+        "example": "The poem's soaring meditation on mortality collapses into bathos with its final couplet about unpaid rent.",
+        "register": "literary",
+        "tags": [
+          "rhetoric",
+          "tone",
+          "poetics"
+        ]
+      },
+      {
+        "definition": "Excessive sentimentality or mawkishness that produces an unintentionally ludicrous effect.",
+        "example": "The film's climactic death scene tipped from pathos into bathos when the orchestral swell overwhelmed the actors' understated performances.",
+        "register": "literary",
+        "tags": [
+          "rhetoric",
+          "poetics",
+          "film criticism"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "pathos",
+      "sublimity"
+    ],
+    "relatedTerms": [
+      "anticlimax",
+      "mock-heroic",
+      "sublime",
+      "pathos"
+    ]
   },
   {
     "term": "bildungsroman",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A novel tracing the moral, psychological, and social development of a protagonist from youth to maturity.",
+        "example": "Dickens's Great Expectations is a canonical bildungsroman: Pip's journey from blacksmith's apprentice to gentleman exposes the contradictions of Victorian social mobility.",
+        "register": "technical",
+        "tags": [
+          "genre",
+          "narrative",
+          "literary history"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "coming-of-age",
+      "künstlerroman",
+      "novel of formation"
+    ]
   },
   {
     "term": "catharsis",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In Aristotelian poetics, the purging or clarification of pity and fear that tragedy effects in its audience.",
+        "example": "The catharsis produced by Oedipus Rex leaves spectators emotionally wrung out yet strangely at peace with the fate they have witnessed.",
+        "register": "technical",
+        "tags": [
+          "poetics",
+          "Aristotle",
+          "tragedy"
+        ]
+      },
+      {
+        "definition": "More broadly, any process of releasing repressed emotions to achieve psychological relief.",
+        "example": "Shouting into a pillow may provide temporary catharsis, but therapists caution against using it as the only means of managing anger.",
+        "register": "general",
+        "tags": [
+          "psychology",
+          "emotion",
+          "relief"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "anagnorisis",
+      "peripeteia",
+      "hamartia",
+      "purification"
+    ]
   },
   {
     "term": "chronotope",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Bakhtin's term for the intrinsic connectedness of spatial and temporal relations that shapes the meaning-making conventions of a literary genre.",
+        "example": "The road is the defining chronotope of the picaresque novel: its linear movement through space maps directly onto episodic, additive time.",
+        "register": "technical",
+        "tags": [
+          "Bakhtin",
+          "narratology",
+          "genre theory"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "heteroglossia",
+      "dialogism",
+      "narrative space",
+      "temporality"
+    ]
   },
   {
     "term": "deconstruction",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A critical practice, associated with Derrida, that exposes how texts depend on unstable binary oppositions and how their meaning is endlessly deferred.",
+        "example": "A deconstructive reading of the speech reveals how its rhetoric of clarity is undermined by the very figurative language it deploys.",
+        "register": "technical",
+        "tags": [
+          "Derrida",
+          "poststructuralism",
+          "literary theory"
+        ]
+      },
+      {
+        "definition": "Loosely, any process of critically analyzing or dismantling an argument, institution, or cultural construct to reveal its underlying assumptions.",
+        "example": "The essay deconstructs the myth of the self-made entrepreneur by showing how it depends on invisible labour and social safety nets.",
+        "register": "formal",
+        "tags": [
+          "critical theory",
+          "analysis",
+          "cultural studies"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "construction"
+    ],
+    "relatedTerms": [
+      "différance",
+      "logocentrism",
+      "poststructuralism",
+      "trace"
+    ]
   },
   {
     "term": "denouement",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The final resolution of the principal dramatic complications of a narrative, in which loose ends are tied and the consequences of the climax become clear.",
+        "example": "The denouement of the thriller arrives when the detective gathers the suspects in the library and exposes the murderer's identity.",
+        "register": "technical",
+        "tags": [
+          "narratology",
+          "plot",
+          "dramatic structure"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "exposition",
+      "inciting incident"
+    ],
+    "relatedTerms": [
+      "resolution",
+      "dénouement",
+      "falling action",
+      "catastrophe"
+    ]
   },
   {
     "term": "dysphemism",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The substitution of a harsh, blunt, or deliberately offensive expression for a neutral or positive one, often for rhetorical or satirical effect.",
+        "example": "Referring to the proposed policy as a 'poverty trap' rather than 'welfare reform' is a pointed dysphemism deployed by its critics.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "linguistics",
+          "pragmatics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "euphemism"
+    ],
+    "relatedTerms": [
+      "pejorative",
+      "slur",
+      "semantic derogation",
+      "register"
+    ]
   },
   {
     "term": "fabula",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In Russian Formalist narratology, the raw chronological sequence of story events as they would have occurred in the fictional world, independent of how they are narrated.",
+        "example": "The fabula of Wuthering Heights begins with Earnshaw bringing Heathcliff home as a child, though the sjuzhet opens decades later with Lockwood's arrival.",
+        "register": "technical",
+        "tags": [
+          "narratology",
+          "Russian Formalism",
+          "story structure"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "sjuzhet"
+    ],
+    "relatedTerms": [
+      "sjuzhet",
+      "story",
+      "plot",
+      "diegesis"
+    ]
   },
   {
     "term": "foregrounding",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The stylistic technique of making a linguistic or structural element conspicuous by deviating from standard usage or by systematic repetition, thereby drawing attention to the form of the text itself.",
+        "example": "Cummings's radical foregrounding of typography and punctuation forces readers to slow down and attend to the visual materiality of the poem.",
+        "register": "technical",
+        "tags": [
+          "stylistics",
+          "Prague School",
+          "poetics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "automatization",
+      "backgrounding"
+    ],
+    "relatedTerms": [
+      "defamiliarization",
+      "deviation",
+      "parallelism",
+      "ostranenie"
+    ]
   },
   {
     "term": "kenning",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A compound metaphorical expression, typical of Old Norse and Old English poetry, that substitutes for a simple noun.",
+        "example": "The kenning 'whale-road' for the sea in Beowulf compresses a vivid image into a two-word formula that carries both descriptive and associative weight.",
+        "register": "technical",
+        "tags": [
+          "Old English",
+          "Old Norse",
+          "poetics",
+          "metaphor"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "compound metaphor",
+      "heiti",
+      "skaldic poetry",
+      "circumlocution"
+    ]
   },
   {
     "term": "metalepsis",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In narratology, a transgression of the boundary between different narrative levels, such as a character from a story becoming aware of or interacting with the narrator or reader.",
+        "example": "When the protagonist in Calvino's novel directly addresses 'You, the reader' and steps out of the story world, the metalepsis makes the fictional frame itself a subject of the narrative.",
+        "register": "technical",
+        "tags": [
+          "narratology",
+          "Genette",
+          "metafiction"
+        ]
+      },
+      {
+        "definition": "In classical rhetoric, a figure in which a word or phrase is used in a sense derived from a prior figurative use, creating a chain of metaphors.",
+        "example": "The metalepsis in 'harvesting a career' traces back through 'reaping what you sow' to its agricultural original.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "classical rhetoric",
+          "figurative language"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mise en abyme",
+      "metafiction",
+      "diegetic level",
+      "frame narrative"
+    ]
   },
   {
     "term": "mise en abyme",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A narrative or artistic device in which a work contains a small-scale copy or reflection of itself, creating an effect of infinite regression.",
+        "example": "The play-within-a-play in Hamlet is a classic mise en abyme: the staging of 'The Mousetrap' mirrors and comments on the main action of the drama.",
+        "register": "technical",
+        "tags": [
+          "narratology",
+          "metafiction",
+          "visual arts",
+          "semiotics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "metalepsis",
+      "frame narrative",
+      "self-referentiality",
+      "recursion"
+    ]
   },
   {
     "term": "mythopoeia",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The deliberate creation of myth or mythological worlds by a writer, especially as a sustained imaginative project that gives a body of literature an internally consistent cosmology.",
+        "example": "Tolkien's mythopoeia in The Silmarillion provides the deep history underlying Middle-earth, giving The Lord of the Rings its sense of ancient, living legend.",
+        "register": "technical",
+        "tags": [
+          "fantasy",
+          "world-building",
+          "Tolkien",
+          "literary theory"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "world-building",
+      "secondary world",
+      "myth",
+      "cosmogony"
+    ]
   },
   {
     "term": "peripeteia",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In Aristotelian dramatic theory, the sudden reversal of fortune that propels the tragic hero from prosperity to catastrophe or from ignorance to self-knowledge.",
+        "example": "Oedipus's discovery that the stranger he killed was his father is both peripeteia and anagnorisis—his fortunes reverse at the very moment of recognition.",
+        "register": "technical",
+        "tags": [
+          "Aristotle",
+          "tragedy",
+          "dramatic structure",
+          "poetics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "anagnorisis",
+      "hamartia",
+      "catharsis",
+      "reversal of fortune"
+    ]
   },
   {
     "term": "peritext",
@@ -26633,28 +27038,115 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In Russian Formalist narratology, the particular ordering, selection, and arrangement of story events as they are actually presented in the text.",
+        "example": "The sjuzhet of Citizen Kane begins at Kane's death and reconstructs his life through retrospective interviews, whereas its fabula would begin with his childhood.",
+        "register": "technical",
+        "tags": [
+          "narratology",
+          "Russian Formalism",
+          "plot",
+          "story structure"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "fabula"
+    ],
+    "relatedTerms": [
+      "fabula",
+      "plot",
+      "discourse",
+      "narrative order"
+    ]
   },
   {
     "term": "unreliable narrator",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "literary",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A narrative voice whose account of events is rendered suspect by self-interest, limited knowledge, psychological instability, or moral obtuseness, requiring the reader to read against or beyond the narration.",
+        "example": "Stevens in The Remains of the Day is a paradigmatic unreliable narrator: his excessively formal prose inadvertently exposes the emotional repression and professional complicity he never directly acknowledges.",
+        "register": "literary",
+        "tags": [
+          "narratology",
+          "point of view",
+          "fiction technique"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "reliable narrator",
+      "omniscient narrator"
+    ],
+    "relatedTerms": [
+      "first-person narration",
+      "focalization",
+      "narrative distance",
+      "irony"
+    ]
   },
   {
     "term": "zeugma",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A rhetorical figure in which a single word—typically a verb—governs two or more words or phrases that differ in syntactic or semantic relationship to it.",
+        "example": "Pope's line 'She stained her honour or her new brocade' is a celebrated zeugma, joining a moral and a material loss under a single verb to comic effect.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "figurative language",
+          "syntax"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "syllepsis",
+      "ellipsis",
+      "parallelism",
+      "hendiadys"
+    ]
   },
   {
     "term": "logocentrism",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Derrida's term for the Western philosophical tradition's privileging of speech over writing, and more broadly its assumption that language can be grounded in a transcendent, self-present origin of meaning.",
+        "example": "Derrida's critique of logocentrism argues that writing is not derivative of speech but exposes the foundational instability that speech-based metaphysics tries to suppress.",
+        "register": "technical",
+        "tags": [
+          "Derrida",
+          "deconstruction",
+          "poststructuralism",
+          "philosophy of language"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "deconstruction",
+      "différance",
+      "phonocentrism",
+      "trace"
+    ]
   },
   {
     "term": "subaltern",
@@ -26689,63 +27181,307 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The technique in drawing and painting of depicting an object or figure as it appears from a specific viewpoint, compressing apparent length to create an illusion of depth.",
+        "example": "Mantegna's Lamentation of Christ is a virtuoso demonstration of foreshortening: Christ's body is viewed from the feet, with the torso dramatically compressed toward the head.",
+        "register": "technical",
+        "tags": [
+          "visual arts",
+          "perspective",
+          "drawing technique"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "perspective",
+      "trompe-l'oeil",
+      "chiaroscuro",
+      "spatial recession"
+    ]
   },
   {
     "term": "frottage",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A Surrealist technique in which a textured surface is placed beneath paper and rubbed with pencil or crayon to produce images, used by Max Ernst to stimulate the unconscious imagination.",
+        "example": "Ernst's frottage works from Histoire Naturelle reveal uncanny landscapes and creatures conjured from the grain of wooden floorboards.",
+        "register": "technical",
+        "tags": [
+          "Surrealism",
+          "art technique",
+          "automatism"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "grattage",
+      "automatism",
+      "decalcomania",
+      "Surrealism"
+    ]
   },
   {
     "term": "gestalt",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In psychology and aesthetics, a unified perceptual whole whose properties cannot be reduced to the sum of its parts, as studied by Gestalt psychology.",
+        "example": "The gestalt of a melody is irreducible to the sequence of individual notes: transposing it to a different key preserves the gestalt while altering every pitch.",
+        "register": "technical",
+        "tags": [
+          "Gestalt psychology",
+          "perception",
+          "aesthetics"
+        ]
+      },
+      {
+        "definition": "More broadly, the overall shape, configuration, or characteristic pattern of a complex entity.",
+        "example": "The gestalt of the company's new brand identity is clear at a glance, even though the logo has changed considerably.",
+        "register": "formal",
+        "tags": [
+          "general usage",
+          "pattern",
+          "configuration"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "figure-ground",
+      "perception",
+      "wholeness",
+      "emergence"
+    ]
   },
   {
     "term": "gouache",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An opaque water-based paint made by adding white pigment or chalk to watercolour, producing a matte, flat finish.",
+        "example": "The illustrator preferred gouache to watercolour for poster work because its opacity allowed her to apply light colours over dark grounds without muddiness.",
+        "register": "technical",
+        "tags": [
+          "painting medium",
+          "visual arts",
+          "illustration"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "watercolour",
+      "tempera",
+      "opaque medium",
+      "body colour"
+    ]
   },
   {
     "term": "grattage",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A Surrealist technique in which a canvas is covered with paint and then scraped with a palette knife or similar tool to produce unexpected textures and forms.",
+        "example": "In his grattage paintings, Max Ernst scraped layers of wet oil paint to produce monstrous landscapes that seemed to emerge from the material itself.",
+        "register": "technical",
+        "tags": [
+          "Surrealism",
+          "art technique",
+          "automatism"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "frottage",
+      "decalcomania",
+      "automatism",
+      "Surrealism"
+    ]
   },
   {
     "term": "grotesque",
     "language": "en",
     "partOfSpeech": "adjective",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In aesthetics and art history, denoting a style characterized by distorted human or animal forms, fantastical hybrids, and extravagant ornamentation, originating in Roman decorative painting.",
+        "example": "Raphael's grotesque friezes in the Vatican Loggia combine acanthus scrolls with monsters and miniature mythological scenes in virtuosic ornamental fantasy.",
+        "register": "technical",
+        "tags": [
+          "aesthetics",
+          "art history",
+          "ornament",
+          "style"
+        ]
+      },
+      {
+        "definition": "As a literary or dramatic mode, combining the comic and the horrific to disrupt stable categories and produce an unsettling, often politically charged effect.",
+        "example": "Gogol's grotesque characters in Dead Souls are simultaneously absurd and menacing, their exaggerated quirks exposing the moral bankruptcy of Russian serfdom.",
+        "register": "literary",
+        "tags": [
+          "literary theory",
+          "mode",
+          "Bakhtin",
+          "comedy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "naturalistic",
+      "realistic"
+    ],
+    "relatedTerms": [
+      "carnivalesque",
+      "uncanny",
+      "burlesque",
+      "arabesque"
+    ]
   },
   {
     "term": "intaglio",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A printmaking technique in which an image is incised or etched into a metal plate; the incised grooves hold ink which is then transferred to paper under pressure.",
+        "example": "Rembrandt exploited the intaglio process to its full expressive range, using drypoint burr to create velvety shadows unlike anything achievable in relief printing.",
+        "register": "technical",
+        "tags": [
+          "printmaking",
+          "visual arts",
+          "etching"
+        ]
+      },
+      {
+        "definition": "A gem or hard stone in which the design is engraved below the surface, used historically as a seal.",
+        "example": "The Roman intaglio ring, carved with an emperor's portrait, was pressed into wax to authenticate official documents.",
+        "register": "technical",
+        "tags": [
+          "gem engraving",
+          "antiquity",
+          "heraldry"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "relief print",
+      "cameo"
+    ],
+    "relatedTerms": [
+      "etching",
+      "engraving",
+      "aquatint",
+      "mezzotint",
+      "drypoint"
+    ]
   },
   {
     "term": "pastiche",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A work of art, literature, or music that imitates the style of another artist or period, typically as a respectful homage rather than parody.",
+        "example": "The novelist's pastiche of Victorian sensation fiction recreates not only the plot conventions but the exact cadences and typography of the 1860s magazine serial.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "visual arts",
+          "imitation",
+          "intertextuality"
+        ]
+      },
+      {
+        "definition": "In Fredric Jameson's postmodern theory, a blank or neutral form of stylistic imitation devoid of the satirical impulse that animates parody.",
+        "example": "Jameson sees contemporary architecture's pastiche of historical styles as symptomatic of postmodernism's inability to imagine a genuinely new aesthetic language.",
+        "register": "technical",
+        "tags": [
+          "postmodernism",
+          "Jameson",
+          "cultural theory"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "parody",
+      "original work"
+    ],
+    "relatedTerms": [
+      "parody",
+      "homage",
+      "intertextuality",
+      "bricolage"
+    ]
   },
   {
     "term": "patina",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The greenish or brownish coating that forms on bronze or copper through oxidation, also artificially applied by conservators and artists.",
+        "example": "The ancient Greek bronze had acquired a deep green patina over millennia, which conservators chose to preserve rather than remove.",
+        "register": "technical",
+        "tags": [
+          "conservation",
+          "metalwork",
+          "oxidation",
+          "visual arts"
+        ]
+      },
+      {
+        "definition": "More broadly, a surface appearance or quality acquired through age, use, or weathering, often valued as evidence of authenticity and provenance.",
+        "example": "The old mahogany desk had a warm patina that no reproduction could replicate, each scratch and polish mark documenting decades of use.",
+        "register": "formal",
+        "tags": [
+          "aesthetics",
+          "authenticity",
+          "ageing"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "oxidation",
+      "verdigris",
+      "gilding",
+      "surface texture"
+    ]
   },
   {
     "term": "photorealism",
@@ -26759,7 +27495,30 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The practice of painting outdoors directly from nature rather than in a studio, allowing the artist to capture transient effects of light and atmosphere.",
+        "example": "The Impressionists' commitment to plein air painting drove them to develop a rapid, broken-brushstroke technique capable of recording shifting light before a cloud passed.",
+        "register": "technical",
+        "tags": [
+          "Impressionism",
+          "painting practice",
+          "landscape",
+          "visual arts"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "studio painting"
+    ],
+    "relatedTerms": [
+      "Impressionism",
+      "landscape painting",
+      "en plein air",
+      "pochade"
+    ]
   },
   {
     "term": "pointillism",
@@ -26773,35 +27532,145 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A painting technique in which a thin, broken layer of opaque or semi-opaque paint is dragged over a dry underlayer, allowing the colour beneath to show through irregularly.",
+        "example": "Turner used scumbling to suggest the luminous haze around a low sun, dragging pale yellow-white over a cool grey ground to achieve a flickering atmospheric effect.",
+        "register": "technical",
+        "tags": [
+          "painting technique",
+          "visual arts",
+          "oil painting"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "glazing"
+    ],
+    "relatedTerms": [
+      "glazing",
+      "underpainting",
+      "impasto",
+      "dry-brush technique"
+    ]
   },
   {
     "term": "sublime",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An aesthetic category, developed by Burke and Kant, denoting an experience of overwhelming greatness, power, or vastness that exceeds rational comprehension and provokes a mixture of awe and terror.",
+        "example": "Standing beneath a thundering waterfall, the hiker experienced the sublime: a dizzying awareness of nature's power that made her feel simultaneously insignificant and exhilarated.",
+        "register": "technical",
+        "tags": [
+          "aesthetics",
+          "Kant",
+          "Burke",
+          "Romanticism"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "beautiful",
+      "picturesque"
+    ],
+    "relatedTerms": [
+      "beauty",
+      "awe",
+      "transcendence",
+      "Romanticism",
+      "bathos"
+    ]
   },
   {
     "term": "tondo",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A circular painting or relief sculpture, especially one of Renaissance Italian origin.",
+        "example": "Michelangelo's Doni Tondo is the only completed panel painting securely attributed to him, its circular format creating a dynamic spiral composition.",
+        "register": "technical",
+        "tags": [
+          "visual arts",
+          "Renaissance",
+          "painting format",
+          "Italian art"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "roundel",
+      "medallion",
+      "panel painting",
+      "Renaissance art"
+    ]
   },
   {
     "term": "underpainting",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An initial layer of paint applied to a prepared ground to establish the basic composition, tonal structure, and overall design before subsequent colour layers are added.",
+        "example": "Van Eyck's underpainting, revealed by infrared reflectography, shows meticulous underdrawing corrected before the final oil glazes were applied.",
+        "register": "technical",
+        "tags": [
+          "painting technique",
+          "visual arts",
+          "oil painting",
+          "art history"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "grisaille",
+      "imprimatura",
+      "scumbling",
+      "glazing"
+    ]
   },
   {
     "term": "vanitas",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A genre of still-life painting, prominent in seventeenth-century Dutch art, in which symbolic objects such as skulls, hourglasses, and wilting flowers allude to the transience of earthly life and the inevitability of death.",
+        "example": "Pieter Claesz's vanitas paintings juxtapose gleaming glassware and half-eaten meals with skulls and burned-down candles, their very lavishness underlining the futility of worldly pleasure.",
+        "register": "technical",
+        "tags": [
+          "visual arts",
+          "Dutch Golden Age",
+          "still life",
+          "iconography"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "memento mori",
+      "still life",
+      "Dutch Golden Age",
+      "allegory"
+    ]
   },
   {
     "term": "aleatory",
