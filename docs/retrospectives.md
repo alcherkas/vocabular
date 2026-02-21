@@ -3045,3 +3045,24 @@ brangus, pigus, mokėti, siūlyti, užsisakyti, sąskaita, nuolaidų kortelė, g
 ### Doubts / meta-notes
 - The synonym accuracy problem is likely partially attributable to the validator's ≥2 synonym requirement for EN entries: agents over-include to satisfy the count. A future cycle could consider whether the threshold causes quality pressure that outweighs the diversity benefit. Not changed this cycle (≤3 limit; would need retro evidence first).
 - Confidence: 90% — the rules are clear and evidence is unambiguous.
+
+---
+
+## Session retro — enricher-en-32 — 2025-01-31
+
+**Agent role**: Enricher (English)
+**Branch**: `vocab/enricher-en-32`
+
+### What was done
+Enriched 35 English stubs in a single batch. Domains covered: medical/pharmacological (etiological, teratogen, excipient, prodrug, adenocarcinoma, lymphoma, sarcoma, endocarditis, psoriasis, desquamation, urticaria, seborrheic, hyperpigmentation), film & culture (cinematheque, paracinema, cinephilia), law/economics (incentivization, arbitration), philosophy of mind (eliminativism, epiphenomenalism, qualia, supervenience, panpsychism, illusionism, computationalism, intentionality, physicalism, representationalism, emergentism, disjunctivism), physics/mathematics (percolation, dissipation, renormalization), and cross-domain (viability, peritext). 5 stubs remain (chroma, colorism, decalcomania, photorealism, pointillism) for the next session.
+
+### Validation
+`validate_words.py --errors-for enriched` passed with 0 errors on enriched entries (91 pre-existing warnings in other statuses, none new).
+
+### Observations
+- Philosophy-of-mind cluster was the largest single domain (11 entries); used two meanings where genuinely distinct senses exist (illusionism: philosophy vs. visual art; representationalism: epistemology vs. aesthetics; percolation: fluid dynamics vs. graph theory).
+- Medical terms all received single-meaning treatment given their precise, domain-specific character.
+- No ambiguous or low-confidence entries encountered; confidence ≥ 95% on all definitions.
+
+### Doubts / meta-notes
+None. All entries are well-attested C1+ academic/professional terms.
