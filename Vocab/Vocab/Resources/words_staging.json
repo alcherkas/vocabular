@@ -14310,176 +14310,1202 @@
   {
     "term": "abatement",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A reduction or elimination of a nuisance, tax, or legal obligation, often by court order or statutory provision.",
+        "example": "The municipality sought an abatement of the noise nuisance caused by the construction site operating through the night.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "property",
+          "tax"
+        ]
+      }
+    ],
+    "synonyms": [
+      "reduction",
+      "diminution",
+      "mitigation"
+    ],
+    "antonymTerms": [
+      "increase",
+      "intensification"
+    ],
+    "relatedTerms": [
+      "nuisance",
+      "injunction",
+      "tax relief",
+      "remedy",
+      "enjoin"
+    ],
+    "tags": []
   },
   {
     "term": "certiorari",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A writ by which a higher court reviews the decision of a lower court, directing the lower court to transmit the record for review.",
+        "example": "The defendant petitioned for certiorari after the court of appeals affirmed the conviction, seeking Supreme Court review.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "procedure",
+          "courts"
+        ]
+      }
+    ],
+    "synonyms": [
+      "writ of review",
+      "supervisory writ",
+      "appellate writ"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mandamus",
+      "appellate jurisdiction",
+      "habeas corpus",
+      "writ",
+      "judicial review"
+    ],
+    "tags": []
   },
   {
     "term": "chattel",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Personal property other than real estate; a tangible, movable item of property that can be owned, transferred, or mortgaged.",
+        "example": "Under the security agreement, the lender took a lien on all chattels of the business, including equipment and inventory.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "property",
+          "finance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "personal property",
+      "movable",
+      "personalty"
+    ],
+    "antonymTerms": [
+      "real property",
+      "realty"
+    ],
+    "relatedTerms": [
+      "encumbrance",
+      "lien",
+      "conveyance",
+      "fixture",
+      "bailment"
+    ],
+    "tags": []
   },
   {
     "term": "comity",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The practice by which one jurisdiction voluntarily recognises and gives effect to the laws and judicial decisions of another jurisdiction, out of respect and mutual deference.",
+        "example": "Under the principle of comity, the domestic court enforced the foreign arbitral award without re-examining the merits of the dispute.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "international law",
+          "jurisdiction"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mutual recognition",
+      "reciprocity",
+      "deference"
+    ],
+    "antonymTerms": [
+      "repudiation",
+      "non-recognition"
+    ],
+    "relatedTerms": [
+      "sovereign immunity",
+      "conflict of laws",
+      "enforcement",
+      "jurisdiction",
+      "private international law"
+    ],
+    "tags": []
   },
   {
     "term": "conveyance",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The legal transfer of property title or rights from one person to another, or the document by which such a transfer is effected.",
+        "example": "The solicitor prepared the deed of conveyance to transfer ownership of the property from the vendor to the purchaser.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "property",
+          "real estate"
+        ]
+      }
+    ],
+    "synonyms": [
+      "transfer",
+      "deed",
+      "assignment"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "title",
+      "encumbrance",
+      "mortgage",
+      "easement",
+      "chattel"
+    ],
+    "tags": []
   },
   {
     "term": "derogation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A partial repeal or limiting of the scope of a law or treaty obligation, allowing a departure from its requirements in specified circumstances.",
+        "example": "The member state was granted a temporary derogation from the directive, permitting continued use of the banned substance during the transition period.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "international law",
+          "legislation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "exemption",
+      "waiver",
+      "dispensation"
+    ],
+    "antonymTerms": [
+      "compliance",
+      "adherence",
+      "obligation"
+    ],
+    "relatedTerms": [
+      "abrogation",
+      "reservation",
+      "treaty",
+      "directive",
+      "opt-out"
+    ],
+    "tags": []
   },
   {
     "term": "easement",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A right held by one party to use land owned by another for a specific limited purpose, such as access or the laying of utilities.",
+        "example": "The neighbouring landowner held an easement allowing access across the disputed strip of land to reach the public road.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "property",
+          "real estate"
+        ]
+      }
+    ],
+    "synonyms": [
+      "right of way",
+      "servitude",
+      "access right"
+    ],
+    "antonymTerms": [
+      "trespass",
+      "encroachment"
+    ],
+    "relatedTerms": [
+      "covenant",
+      "licence",
+      "conveyance",
+      "encumbrance",
+      "dominant tenement"
+    ],
+    "tags": []
   },
   {
     "term": "encumbrance",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A claim, lien, charge, or liability attached to real or personal property that may diminish its value or restrict its transfer.",
+        "example": "Before completing the purchase, the buyer's solicitor searched the register to identify any encumbrances on the title.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "property",
+          "finance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "lien",
+      "charge",
+      "burden"
+    ],
+    "antonymTerms": [
+      "clear title",
+      "unencumbered"
+    ],
+    "relatedTerms": [
+      "mortgage",
+      "easement",
+      "caveat",
+      "conveyance",
+      "title search"
+    ],
+    "tags": []
   },
   {
     "term": "fiduciary",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A person who holds a position of trust and is legally obligated to act in the best interest of another party, such as a trustee, executor, or director.",
+        "example": "As a fiduciary, the financial adviser was required to prioritise the client's interests over the firm's commercial incentives.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "finance",
+          "trust"
+        ]
+      }
+    ],
+    "synonyms": [
+      "trustee",
+      "custodian",
+      "guardian"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "duty of care",
+      "trust",
+      "beneficiary",
+      "conflict of interest",
+      "good faith"
+    ],
+    "tags": []
   },
   {
     "term": "laches",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An equitable defence based on an unreasonable delay in asserting a legal right or claim, prejudicing the opposing party.",
+        "example": "The court dismissed the claim on the ground of laches, finding that the plaintiff had waited fifteen years before seeking to enforce the contract.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "equity",
+          "procedure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "estoppel by delay",
+      "delay",
+      "tardiness"
+    ],
+    "antonymTerms": [
+      "diligence",
+      "timeliness"
+    ],
+    "relatedTerms": [
+      "statute of limitations",
+      "equitable estoppel",
+      "waiver",
+      "prejudice",
+      "prescription"
+    ],
+    "tags": []
   },
   {
     "term": "mandamus",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A judicial writ commanding a public authority, lower court, or official to perform a ministerial duty required by law.",
+        "example": "The claimant obtained a writ of mandamus compelling the licensing authority to process the application it had wrongly refused to consider.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "courts",
+          "public law"
+        ]
+      }
+    ],
+    "synonyms": [
+      "writ of mandate",
+      "compelling order",
+      "prerogative writ"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "certiorari",
+      "judicial review",
+      "injunction",
+      "habeas corpus",
+      "public authority"
+    ],
+    "tags": []
   },
   {
     "term": "novation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The substitution of a new contract, obligation, or party for an existing one, extinguishing the original with the consent of all parties.",
+        "example": "On the acquisition of the subsidiary, the parent company and the counterparty agreed to a novation that replaced the seller as the contracting party.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "contract",
+          "finance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "substitution",
+      "contract replacement",
+      "assignment"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "assignment",
+      "assumption",
+      "rescission",
+      "consent",
+      "privity of contract"
+    ],
+    "tags": []
   },
   {
     "term": "rescission",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The cancellation or annulment of a contract, restoring the parties to their pre-contractual positions as though the agreement had never been made.",
+        "example": "The buyer claimed rescission of the sale agreement on the basis that the seller had made a fraudulent misrepresentation about the property's condition.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "contract",
+          "remedy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cancellation",
+      "annulment",
+      "avoidance"
+    ],
+    "antonymTerms": [
+      "affirmation",
+      "ratification"
+    ],
+    "relatedTerms": [
+      "misrepresentation",
+      "breach of contract",
+      "restitution",
+      "novation",
+      "termination"
+    ],
+    "tags": []
   },
   {
     "term": "subrogation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The substitution of one party for another in respect of a legal right or claim, allowing the substitute to exercise the rights of the original party.",
+        "example": "After paying the insured's claim, the insurer exercised its right of subrogation to recover the loss from the negligent third party.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "insurance",
+          "finance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "substitution",
+      "indemnification right",
+      "right of recovery"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "indemnity",
+      "contribution",
+      "insurer",
+      "assignment",
+      "reimbursement"
+    ],
+    "tags": []
   },
   {
     "term": "surety",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A person or entity who assumes legal responsibility for another's obligations or debts, guaranteeing performance in the event of default.",
+        "example": "The bank required a surety before extending the loan, ensuring that a third party would cover repayment if the borrower defaulted.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "finance",
+          "contract"
+        ]
+      }
+    ],
+    "synonyms": [
+      "guarantor",
+      "bondsman",
+      "indemnitor"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "guarantee",
+      "indemnity",
+      "bail",
+      "principal debtor",
+      "security"
+    ],
+    "tags": []
   },
   {
     "term": "appanage",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A provision of land, revenue, or other privileges granted by a sovereign to a younger son or other royal dependent to support their status.",
+        "example": "The king granted the duchy as an appanage to his second son, ensuring the prince had adequate income without claiming rights to the throne.",
+        "register": "formal",
+        "tags": [
+          "history",
+          "monarchy",
+          "feudal"
+        ]
+      }
+    ],
+    "synonyms": [
+      "endowment",
+      "grant",
+      "royal provision"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "primogeniture",
+      "feudalism",
+      "vassalage",
+      "duchy",
+      "inheritance"
+    ],
+    "tags": []
   },
   {
     "term": "decolonization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The process by which a colony gains independence from its colonising power, politically, economically, and culturally.",
+        "example": "The wave of decolonization following World War II reshaped the political map of Africa and Asia as dozens of territories gained sovereignty.",
+        "register": "neutral",
+        "tags": [
+          "history",
+          "politics",
+          "international relations"
+        ]
+      }
+    ],
+    "synonyms": [
+      "independence",
+      "liberation",
+      "self-determination"
+    ],
+    "antonymTerms": [
+      "colonization",
+      "annexation",
+      "subjugation"
+    ],
+    "relatedTerms": [
+      "nationalism",
+      "sovereignty",
+      "imperialism",
+      "diaspora",
+      "irredentism"
+    ],
+    "tags": []
   },
   {
     "term": "diaspora",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The dispersion of a people from their original homeland to other parts of the world, or the communities formed by such a dispersed population.",
+        "example": "The Jewish diaspora, spanning centuries and continents, maintained cultural and religious cohesion despite geographical separation.",
+        "register": "neutral",
+        "tags": [
+          "history",
+          "sociology",
+          "migration"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dispersion",
+      "emigration",
+      "scattering"
+    ],
+    "antonymTerms": [
+      "return",
+      "repatriation"
+    ],
+    "relatedTerms": [
+      "migration",
+      "exile",
+      "decolonization",
+      "ethnicity",
+      "homeland"
+    ],
+    "tags": []
   },
   {
     "term": "encomienda",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A colonial Spanish labour system under which a settler was granted authority over a group of indigenous people, who owed tribute and labour in exchange for protection and religious instruction.",
+        "example": "The encomienda system was widely condemned by missionaries such as Bartolomé de las Casas for its brutal exploitation of indigenous populations.",
+        "register": "technical",
+        "tags": [
+          "history",
+          "colonialism",
+          "Latin America"
+        ]
+      }
+    ],
+    "synonyms": [
+      "forced labour grant",
+      "colonial labour system",
+      "tributum"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "colonialism",
+      "hacienda",
+      "repartimiento",
+      "tribute",
+      "indigenous labour"
+    ],
+    "tags": []
   },
   {
     "term": "feudalism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A medieval social and political system organised around the exchange of land grants for military service and loyalty between lords and vassals, underpinning the agrarian economy of medieval Europe.",
+        "example": "Under feudalism, serfs were bound to the land and owed labour and produce to the lord of the manor in exchange for protection.",
+        "register": "neutral",
+        "tags": [
+          "history",
+          "medieval",
+          "social structure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "seignorialism",
+      "manorialism",
+      "feudal order"
+    ],
+    "antonymTerms": [
+      "capitalism",
+      "democracy"
+    ],
+    "relatedTerms": [
+      "vassalage",
+      "fief",
+      "primogeniture",
+      "appanage",
+      "serf"
+    ],
+    "tags": []
   },
   {
     "term": "hagiography",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The writing of the lives of saints or venerated persons, or more broadly, an idealised and uncritical biography that presents its subject in an excessively flattering light.",
+        "example": "Critics dismissed the official biography as hagiography, noting its complete omission of the leader's early political mistakes and personal failings.",
+        "register": "formal",
+        "tags": [
+          "history",
+          "literature",
+          "religion"
+        ]
+      }
+    ],
+    "synonyms": [
+      "saint's life",
+      "idealised biography",
+      "panegyric"
+    ],
+    "antonymTerms": [
+      "expose",
+      "critique",
+      "critical biography"
+    ],
+    "relatedTerms": [
+      "historiography",
+      "hagiographer",
+      "canonisation",
+      "martyrology",
+      "vita"
+    ],
+    "tags": []
   },
   {
     "term": "historiography",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The study of the methods, assumptions, and development of historical writing; the body of historical work written about a specific topic or period.",
+        "example": "The historiography of the French Revolution has shifted dramatically, from Marxist class-struggle interpretations to more recent cultural and linguistic approaches.",
+        "register": "technical",
+        "tags": [
+          "history",
+          "academia",
+          "methodology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "historical scholarship",
+      "historical writing",
+      "historical analysis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "hagiography",
+      "periodization",
+      "primary source",
+      "revisionism",
+      "archival research"
+    ],
+    "tags": []
   },
   {
     "term": "interregnum",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A period between two successive reigns, governments, or regimes during which authority is suspended or in transition.",
+        "example": "The interregnum following the death of the emperor created a power vacuum exploited by regional warlords competing for the throne.",
+        "register": "formal",
+        "tags": [
+          "history",
+          "politics",
+          "governance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "interim",
+      "power vacuum",
+      "transition period"
+    ],
+    "antonymTerms": [
+      "reign",
+      "sovereignty",
+      "continuity of rule"
+    ],
+    "relatedTerms": [
+      "succession",
+      "regency",
+      "dynastic crisis",
+      "provisional government",
+      "coup"
+    ],
+    "tags": []
   },
   {
     "term": "irredentism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A political movement advocating the incorporation of territories inhabited by people sharing the same ethnicity, language, or history as the claimant state, but governed by a different state.",
+        "example": "Irredentism was a powerful force in nineteenth-century Italy, driving campaigns to annex regions populated by Italian speakers still under Austrian control.",
+        "register": "technical",
+        "tags": [
+          "history",
+          "politics",
+          "nationalism"
+        ]
+      }
+    ],
+    "synonyms": [
+      "annexationism",
+      "territorial nationalism",
+      "reunification movement"
+    ],
+    "antonymTerms": [
+      "separatism",
+      "secession"
+    ],
+    "relatedTerms": [
+      "nationalism",
+      "decolonization",
+      "sovereignty",
+      "diaspora",
+      "self-determination"
+    ],
+    "tags": []
   },
   {
     "term": "mercantilism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An early modern economic doctrine holding that national wealth and power are best served by maximising exports, accumulating precious metals, and maintaining a favourable balance of trade through state intervention.",
+        "example": "British mercantilism shaped colonial policy in North America, restricting the colonies' trade to benefit the mother country's commercial interests.",
+        "register": "technical",
+        "tags": [
+          "history",
+          "economics",
+          "political theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "protectionism",
+      "economic nationalism",
+      "bullionism"
+    ],
+    "antonymTerms": [
+      "free trade",
+      "laissez-faire",
+      "liberalism"
+    ],
+    "relatedTerms": [
+      "colonialism",
+      "trade surplus",
+      "tariff",
+      "economic policy",
+      "neoliberalism"
+    ],
+    "tags": []
   },
   {
     "term": "periodization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The scholarly practice of dividing history into distinct named periods or eras based on shared characteristics, enabling comparative analysis and narrative structure.",
+        "example": "The periodization of medieval history into early, high, and late phases helps scholars trace the transformation of European institutions over several centuries.",
+        "register": "technical",
+        "tags": [
+          "history",
+          "academia",
+          "methodology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "historical categorisation",
+      "era classification",
+      "temporal division"
+    ],
+    "antonymTerms": [
+      "continuity",
+      "undivided timeline"
+    ],
+    "relatedTerms": [
+      "historiography",
+      "epoch",
+      "chronology",
+      "paradigm shift",
+      "historical revisionism"
+    ],
+    "tags": []
   },
   {
     "term": "primogeniture",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The right of the firstborn child, especially the eldest son, to inherit the entirety of a parent's estate or title, excluding younger siblings.",
+        "example": "Primogeniture ensured that noble estates remained intact across generations, but it left younger sons dependent on the church, military, or royal favour.",
+        "register": "formal",
+        "tags": [
+          "history",
+          "law",
+          "inheritance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "firstborn inheritance",
+      "eldest son succession",
+      "birthright"
+    ],
+    "antonymTerms": [
+      "ultimogeniture",
+      "equal inheritance",
+      "partible inheritance"
+    ],
+    "relatedTerms": [
+      "appanage",
+      "feudalism",
+      "succession",
+      "entail",
+      "inheritance"
+    ],
+    "tags": []
   },
   {
     "term": "provenance",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The origin, history, and chain of custody of an object, document, or work of art, used to establish authenticity, ownership, and cultural significance.",
+        "example": "The museum deferred the acquisition after experts raised doubts about the painting's provenance, noting gaps in the ownership record during the war years.",
+        "register": "formal",
+        "tags": [
+          "history",
+          "art",
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [
+      "origin",
+      "lineage",
+      "documentation of ownership"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "authentication",
+      "chain of custody",
+      "due diligence",
+      "repatriation",
+      "cultural property"
+    ],
+    "tags": []
   },
   {
     "term": "syncretism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The merging or reconciliation of different religious, cultural, or philosophical traditions, resulting in a new hybrid belief system or practice.",
+        "example": "The religious syncretism of the Hellenistic period blended Greek, Egyptian, and Near Eastern traditions into novel cult practices and theological systems.",
+        "register": "formal",
+        "tags": [
+          "history",
+          "religion",
+          "culture"
+        ]
+      }
+    ],
+    "synonyms": [
+      "fusion",
+      "amalgamation",
+      "blending"
+    ],
+    "antonymTerms": [
+      "orthodoxy",
+      "purism",
+      "separatism"
+    ],
+    "relatedTerms": [
+      "cultural exchange",
+      "hybridisation",
+      "acculturation",
+      "eclecticism",
+      "diaspora"
+    ],
+    "tags": []
   },
   {
     "term": "vassalage",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A relationship of feudal subordination in which a vassal pledged loyalty, military service, and tribute to a lord in exchange for land, protection, and justice.",
+        "example": "By accepting the fief, the knight entered into vassalage, swearing an oath of fealty that bound him to the lord's military and political demands.",
+        "register": "formal",
+        "tags": [
+          "history",
+          "medieval",
+          "feudal"
+        ]
+      }
+    ],
+    "synonyms": [
+      "serfdom",
+      "feudal subjection",
+      "fealty"
+    ],
+    "antonymTerms": [
+      "sovereignty",
+      "independence",
+      "lordship"
+    ],
+    "relatedTerms": [
+      "feudalism",
+      "fief",
+      "appanage",
+      "homage",
+      "suzerainty"
+    ],
+    "tags": []
   },
   {
     "term": "biopolitics",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The application of political power to the regulation, management, and governance of biological life and populations, including public health, reproduction, and bodily norms.",
+        "example": "Foucault's analysis of biopolitics examined how modern states exercise power by disciplining individual bodies and managing the health statistics of entire populations.",
+        "register": "technical",
+        "tags": [
+          "political theory",
+          "philosophy",
+          "sociology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "biopower",
+      "population management",
+      "body politics"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "governmentality",
+      "hegemony",
+      "sovereignty",
+      "discipline",
+      "public health policy"
+    ],
+    "tags": []
   },
   {
     "term": "constitutionalism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The doctrine that government authority is derived from and limited by a fundamental law or constitution, protecting individual rights and preventing arbitrary rule.",
+        "example": "Constitutionalism was the central principle of the Glorious Revolution, asserting that even the monarch must govern within the constraints of law and Parliament.",
+        "register": "formal",
+        "tags": [
+          "political theory",
+          "law",
+          "governance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rule of law",
+      "limited government",
+      "constitutional government"
+    ],
+    "antonymTerms": [
+      "absolutism",
+      "authoritarianism",
+      "despotism"
+    ],
+    "relatedTerms": [
+      "separation of powers",
+      "judicial review",
+      "democracy",
+      "rights",
+      "federalism"
+    ],
+    "tags": []
   },
   {
     "term": "hegemony",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Dominance or leadership exercised by one state, class, or group over others, often through a combination of coercive and consensual means that naturalise the dominant order.",
+        "example": "Gramsci argued that bourgeois hegemony was maintained not only through legal coercion but through cultural institutions that shaped the consent of the governed.",
+        "register": "formal",
+        "tags": [
+          "political theory",
+          "sociology",
+          "international relations"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dominance",
+      "supremacy",
+      "preponderance"
+    ],
+    "antonymTerms": [
+      "subordination",
+      "equality",
+      "pluralism"
+    ],
+    "relatedTerms": [
+      "biopolitics",
+      "soft power",
+      "imperialism",
+      "consent",
+      "counter-hegemony"
+    ],
+    "tags": []
   },
   {
     "term": "majoritarianism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A political principle or system in which decisions are made according to the will of the majority, sometimes at the expense of minority rights or interests.",
+        "example": "Critics of majoritarianism warned that unchecked majority rule could lead to the systematic oppression of ethnic and religious minorities in fragile democracies.",
+        "register": "formal",
+        "tags": [
+          "political theory",
+          "democracy",
+          "governance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "majority rule",
+      "democratic majoritarianism",
+      "popular sovereignty"
+    ],
+    "antonymTerms": [
+      "minority rights",
+      "pluralism",
+      "consensus democracy"
+    ],
+    "relatedTerms": [
+      "constitutionalism",
+      "tyranny of the majority",
+      "electoral system",
+      "supermajority",
+      "deliberative democracy"
+    ],
+    "tags": []
   },
   {
     "term": "neoliberalism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An economic and political paradigm advocating free markets, deregulation, privatisation, and reduced state intervention, dominant in global economic policy from the late twentieth century.",
+        "example": "The structural adjustment programmes imposed by the IMF were widely criticised as vehicles of neoliberalism, dismantling social safety nets in exchange for loans.",
+        "register": "formal",
+        "tags": [
+          "political theory",
+          "economics",
+          "governance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "free-market liberalism",
+      "laissez-faire capitalism",
+      "market fundamentalism"
+    ],
+    "antonymTerms": [
+      "Keynesianism",
+      "social democracy",
+      "protectionism"
+    ],
+    "relatedTerms": [
+      "mercantilism",
+      "globalisation",
+      "privatisation",
+      "austerity",
+      "hegemony"
+    ],
+    "tags": []
   }
 ]
