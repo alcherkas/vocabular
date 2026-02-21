@@ -383,3 +383,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - None.
+
+## [2026-02-21] [feature-agent] [widget]
+
+### What went well
+- Widget files were added without touching the existing app target files, keeping the change isolated and low risk.
+- The widget supports both app-group shared data and bundled JSON fallback in one provider flow.
+
+### What was harder than expected
+- `xcodebuild` is unavailable in this environment because the active developer directory points to CommandLineTools.
+
+### Process friction
+- Validating full iOS target integration from CLI is limited until Xcode target wiring is done manually.
+
+### Suggested improvement
+- Add a lightweight documented CLI verification path for widget source-only changes (e.g., Swift syntax/typecheck command).
