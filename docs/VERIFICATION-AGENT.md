@@ -65,6 +65,7 @@ Only include genuine debt: missing tests, shortcuts taken, convention violations
    ```bash
    git commit -m "verification(<goal-id>): <PASSED|FAILED|PARTIAL> — <summary>"
    ```
+9. Write a retrospective note → append to `docs/retrospectives.md` (see format there).
 
 ## Quality Bar
 - Every AC must be checked — no skipping.

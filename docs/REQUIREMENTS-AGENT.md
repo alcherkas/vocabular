@@ -55,6 +55,7 @@ Tasks to create in TASKS.md:
    ```bash
    git commit -m "requirements(<goal-id>): define user stories and acceptance criteria"
    ```
+8. Write a retrospective note → append to `docs/retrospectives.md` (see format there).
 
 ## When in Doubt → Decision Pending
 

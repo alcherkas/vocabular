@@ -75,3 +75,4 @@ Before taking any irreversible action:
 | Requirements Agent | Updating `GOALS.md` status (cascades to other agents) |
 | Architecture Agent | Updating `docs/ARCHITECTURE.md` global schema |
 | Verification Agent | Setting goal `[verified]` or `[needs-rework]` |
+| Reflection Agent | Editing agent protocol docs/scripts (changes rules governing all agents) — **always `[risk: high]`; branch only, human merges** |

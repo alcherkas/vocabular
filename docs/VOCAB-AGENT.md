@@ -230,6 +230,8 @@ If there are conflicts on staging JSON: keep both sets of changes (the file is a
 
 An agent can stop at any point mid-loop. Work is committed in small batches so nothing is lost. Another agent (or the same agent in a new session) can resume from where the staging file left off.
 
+**At end of session**: Write a retrospective note → append to `docs/retrospectives.md` (see format there). Do this once per session, not after every batch.
+
 ---
 
 ## When to Stop (Uncertainty Protocol)

@@ -59,6 +59,7 @@ Create `docs/architecture/<goal-id>.md` with this structure:
    ```bash
    git commit -m "architecture(<goal-id>): technical design and task detail"
    ```
+8. Write a retrospective note → append to `docs/retrospectives.md` (see format there).
 
 ## When in Doubt → Decision Pending
 

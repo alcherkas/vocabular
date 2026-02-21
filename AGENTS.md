@@ -14,6 +14,7 @@ For goal-driven work (new features, improvements):
 5. **Do your role's work**, committing in small batches.
 6. **If in doubt** — write options to [`docs/decisions-pending.md`](docs/decisions-pending.md), stop, wait for human.
 7. **Update goal status** in `GOALS.md` when done.
+8. **Write a retrospective** — append to [`docs/retrospectives.md`](docs/retrospectives.md) (see format there).
 
 | Goal status | Who acts next | Protocol doc |
 |-------------|--------------|-------------|
@@ -21,6 +22,7 @@ For goal-driven work (new features, improvements):
 | `[requirements-done]` | Architecture Agent | [`docs/ARCHITECTURE-AGENT.md`](docs/ARCHITECTURE-AGENT.md) |
 | `[architecture-done]` | Feature Agents | Claim tasks from [`docs/TASKS.md`](docs/TASKS.md) |
 | `[needs-verification]` | Verification Agent | [`docs/VERIFICATION-AGENT.md`](docs/VERIFICATION-AGENT.md) |
+| `[verified]` | Reflection Agent | [`docs/REFLECTION-AGENT.md`](docs/REFLECTION-AGENT.md) (also triggers on 5+ new retros) |
 
 ### Feature Agents (task-driven)
 For task-driven work (claimed from `TASKS.md`):
@@ -32,6 +34,7 @@ For task-driven work (claimed from `TASKS.md`):
 5. **Verify** all tests pass with `xcodebuild test` — see [`docs/BUILD.md`](docs/BUILD.md).
 6. **Merge back** into `main`, mark task `[done]` in `TASKS.md`.
 7. If last task for a goal: set goal status to `[needs-verification]` in `GOALS.md`.
+8. **Write a retrospective** — append to [`docs/retrospectives.md`](docs/retrospectives.md) (see format there).
 
 ## Docs Index
 
@@ -41,6 +44,7 @@ For task-driven work (claimed from `TASKS.md`):
 | [`docs/REQUIREMENTS-AGENT.md`](docs/REQUIREMENTS-AGENT.md) | You are the Requirements Agent |
 | [`docs/ARCHITECTURE-AGENT.md`](docs/ARCHITECTURE-AGENT.md) | You are the Architecture Agent |
 | [`docs/VERIFICATION-AGENT.md`](docs/VERIFICATION-AGENT.md) | You are the Verification Agent |
+| [`docs/REFLECTION-AGENT.md`](docs/REFLECTION-AGENT.md) | You are the Reflection Agent (process improvement) |
 | [`docs/VOCAB-AGENT.md`](docs/VOCAB-AGENT.md) | You are a vocabulary pipeline agent (Seeder, Enricher, Relations, QA, Publisher) |
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | You need to understand the data model, app structure, or design constraints |
 | [`docs/CONVENTIONS.md`](docs/CONVENTIONS.md) | You are writing Swift code or editing JSON word data |
@@ -51,6 +55,8 @@ For task-driven work (claimed from `TASKS.md`):
 | [`docs/tech-debt.md`](docs/tech-debt.md) | You are the Verification Agent recording debt |
 | [`docs/REVERSIBILITY.md`](docs/REVERSIBILITY.md) | You are about to take an action that modifies shared state |
 | [`docs/audit-log.md`](docs/audit-log.md) | You have just merged or taken an irreversible action |
+| [`docs/retrospectives.md`](docs/retrospectives.md) | You are finishing an iteration (all agents write retros) |
+| [`docs/process-changelog.md`](docs/process-changelog.md) | You are the Reflection Agent recording process changes |
 
 ## Repo at a Glance
 
@@ -99,6 +105,8 @@ Verify your scope before modifying any file.
 | `docs/verification/<id>.md` | Verification Agent | Read-only |
 | `docs/ARCHITECTURE.md` | Architecture Agent | Read-only |
 | `docs/tech-debt.md` | Verification Agent (append) | Read-only |
+| `docs/retrospectives.md` | **All agents** (append-only) | Append only |
+| `docs/process-changelog.md` | Reflection Agent (append) | Read-only |
 | `docs/audit-log.md` | **All agents** (append-only) | Append only |
 | `docs/decisions-pending.md` | **All agents** (append) | Human resolves |
 | `docs/decisions-log.md` | All agents (move resolved entries) | — |

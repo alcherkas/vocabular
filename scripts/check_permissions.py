@@ -50,11 +50,22 @@ TASK_PERMISSIONS: dict[str, list[str]] = {
 
     # Product agent tasks — these agents write to docs only
     "requirements-agent":  ["docs/requirements/", "docs/TASKS.md", "GOALS.md", "docs/decisions-pending.md",
-                             "docs/decisions-log.md", "docs/audit-log.md"],
+                             "docs/decisions-log.md", "docs/audit-log.md", "docs/retrospectives.md"],
     "architecture-agent":  ["docs/architecture/", "docs/ARCHITECTURE.md", "docs/TASKS.md",
-                             "docs/decisions-pending.md", "docs/decisions-log.md", "docs/audit-log.md"],
+                             "docs/decisions-pending.md", "docs/decisions-log.md", "docs/audit-log.md",
+                             "docs/retrospectives.md"],
     "verification-agent":  ["docs/verification/", "docs/tech-debt.md", "GOALS.md",
-                             "docs/decisions-pending.md", "docs/decisions-log.md", "docs/audit-log.md"],
+                             "docs/decisions-pending.md", "docs/decisions-log.md", "docs/audit-log.md",
+                             "docs/retrospectives.md"],
+
+    # Reflection Agent — can edit all protocol docs and scripts (human reviews before merge)
+    "reflection-agent":    ["AGENTS.md", "docs/REQUIREMENTS-AGENT.md", "docs/ARCHITECTURE-AGENT.md",
+                             "docs/VERIFICATION-AGENT.md", "docs/REFLECTION-AGENT.md",
+                             "docs/VOCAB-AGENT.md", "docs/CONVENTIONS.md", "docs/ARCHITECTURE.md",
+                             "docs/REVERSIBILITY.md", "docs/BUILD.md", "docs/WORKTREES.md",
+                             "docs/TASKS.md", "docs/process-changelog.md", "docs/retrospectives.md",
+                             "docs/audit-log.md", "docs/decisions-pending.md", "docs/decisions-log.md",
+                             "scripts/"],
 }
 
 # Files any agent may always read or minimally append to (never flagged as violations)
@@ -62,6 +73,7 @@ ALWAYS_ALLOWED = {
     "docs/audit-log.md",
     "docs/decisions-pending.md",
     "docs/decisions-log.md",
+    "docs/retrospectives.md",
 }
 
 
