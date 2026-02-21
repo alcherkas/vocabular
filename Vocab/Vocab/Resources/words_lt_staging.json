@@ -22999,7 +22999,7 @@
     "term": "liūtas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Didelis laukinis katinų šeimos žvėris, gyvenantis Afrikos savanose.",
@@ -23023,7 +23023,9 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "liūtė"
+    ],
     "translation": "lion"
   },
   {
@@ -36718,7 +36720,7 @@
     "term": "arklys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Didelis naminių ūkio gyvulys, naudojamas darbui ar jodinėjimui.",
@@ -36732,14 +36734,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žirgas",
+      "kumelė"
+    ],
     "translation": "horse"
   },
   {
     "term": "žirgas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gražus, kilmingas arklys; žodis vartojamas kalboje ir literatūroje.",
@@ -36754,7 +36759,9 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "arklys"
+    ],
     "translation": "steed"
   },
   {
@@ -36898,7 +36905,7 @@
     "term": "katė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Naminis žinduolis, dažnai laikomas kaip augintinis.",
@@ -36912,7 +36919,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "katinas",
+      "šuo"
+    ],
     "translation": "cat"
   },
   {
@@ -36963,7 +36973,7 @@
     "term": "karvė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Naminė galvijų patelė, laikoma ūkyje dėl pieno.",
@@ -36977,7 +36987,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "avis",
+      "arklys"
+    ],
     "translation": "cow"
   },
   {
@@ -37127,7 +37140,7 @@
     "term": "šuo",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Naminis žinduolis, dažnai auginamas kaip augintinis arba sargybai.",
@@ -37141,7 +37154,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "katė",
+      "šuniukas"
+    ],
     "translation": "dog"
   },
   {
@@ -41631,7 +41647,7 @@
     "term": "nuotaka",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman on her wedding day or in the period surrounding her marriage ceremony.",
@@ -41650,7 +41666,7 @@
     "antonymTerms": [],
     "relatedTerms": [
       "jaunasis",
-      "tuoktis"
+      "vestuvės"
     ],
     "translation": "bride"
   },
@@ -41680,7 +41696,7 @@
     "term": "jaunasis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "vyras vestuvių dieną arba ką tik vedęs vyras",
@@ -41695,7 +41711,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nuotaka",
+      "vestuvės"
+    ],
     "translation": "groom"
   },
   {
@@ -42963,7 +42982,7 @@
     "term": "meilė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A deep feeling of affection, care, and attachment toward another person.",
@@ -42976,18 +42995,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "prisirišimas",
-      "meilikaujimas"
-    ],
+    "synonyms": [],
     "antonymTerms": [
-      "neapykanta",
-      "abejingumas"
+      "neapykanta"
     ],
     "relatedTerms": [
-      "mylėti",
-      "širdis",
-      "jausmas"
+      "aistra",
+      "ištikimybė"
     ],
     "translation": "love",
     "qaNote": "Semantic inaccuracy: 'meilikaujimas' means flattery/fawning, not love; replace with a genuine synonym such as 'atsidavimas' (devotion) or 'aistra' (passion)."
@@ -43246,7 +43260,7 @@
   },
   {
     "term": "drėgmė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -43264,14 +43278,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [
-      "sausra",
-      "sausumas"
+      "sausra"
     ],
     "relatedTerms": [
-      "lietus",
-      "samanos",
-      "rasa",
-      "oras"
+      "liūtis",
+      "vėtra"
     ],
     "translation": "humidity, moisture, dampness"
   },
@@ -43384,7 +43395,7 @@
   },
   {
     "term": "liūtis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -43400,17 +43411,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "lietus"
-    ],
+    "synonyms": [],
     "antonymTerms": [
       "sausra"
     ],
     "relatedTerms": [
-      "vėtra",
-      "drėgmė",
-      "perkūnija",
-      "oras"
+      "lietus",
+      "vėtra"
     ],
     "translation": "downpour, heavy rain, torrential rain"
   },
@@ -43449,7 +43456,7 @@
   },
   {
     "term": "vėjelis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -43467,11 +43474,17 @@
           "B1"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vėjas",
+      "vėtra"
     ]
   },
   {
     "term": "vėtra",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -43487,15 +43500,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "audra",
-      "škvalas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "vėjas",
       "liūtis",
-      "griaustinis"
+      "vėjelis",
+      "audra"
     ],
     "translation": "storm, gale, tempest"
   },
@@ -43617,7 +43627,7 @@
   },
   {
     "term": "maršrutas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -43633,15 +43643,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "kelias",
-      "trasa"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "kelionė",
-      "bilietas",
-      "stotelė"
+      "tvarkaraštis",
+      "kelias",
+      "persėdimas"
     ],
     "translation": "route, itinerary"
   },
@@ -44200,7 +44207,7 @@
   },
   {
     "term": "pamoka",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -44216,16 +44223,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "užsiėmimas"
-    ],
-    "antonymTerms": [
-      "pertrauka"
-    ],
+    "synonyms": [],
+    "antonymTerms": [],
     "relatedTerms": [
-      "mokytojas",
+      "vadovėlis",
       "klasė",
-      "vadovėlis"
+      "namų darbai"
     ]
   },
   {
@@ -44317,7 +44320,7 @@
   },
   {
     "term": "vadovėlis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -44336,9 +44339,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "sąsiuvinis",
+      "pamoka",
       "pratybos",
-      "pamoka"
+      "žodynas"
     ]
   },
   {
@@ -44423,7 +44426,7 @@
   },
   {
     "term": "pažymys",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -44443,13 +44446,13 @@
     "antonymTerms": [],
     "relatedTerms": [
       "egzaminas",
-      "kontrolinis",
-      "mokytis"
+      "įskaita",
+      "diplomas"
     ]
   },
   {
     "term": "egzaminas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -44465,14 +44468,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "išbandymas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "pažymys",
       "kontrolinis",
-      "mokytis"
+      "pažymys",
+      "testas"
     ]
   },
   {
@@ -44906,7 +44907,7 @@
   },
   {
     "term": "ramybė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "meanings": [
@@ -44921,18 +44922,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "taika",
-      "romus"
-    ],
+    "synonyms": [],
     "antonymTerms": [
-      "nerimas",
-      "sumaištis"
+      "neramumas"
     ],
     "relatedTerms": [
-      "ramus",
       "tyla",
-      "meditacija"
+      "taika"
     ],
     "translation": "peace, tranquility, calm",
     "qaNote": "POS mismatch: 'romus' is an adjective (calm/gentle), not a noun; a noun synonym is required, e.g. 'rimtis' or 'pusiausvyra'."
@@ -44971,7 +44967,7 @@
   },
   {
     "term": "gėda",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "meanings": [
@@ -44986,17 +44982,11 @@
         ]
       }
     ],
-    "synonyms": [
-      "susigėdinimas",
-      "sugėdinimas"
-    ],
+    "synonyms": [],
     "antonymTerms": [
-      "pasididžiavimas",
-      "drąsa"
+      "pasididžiavimas"
     ],
     "relatedTerms": [
-      "gėdytis",
-      "orumas",
       "kaltė"
     ],
     "translation": "shame, embarrassment",
@@ -45004,7 +44994,7 @@
   },
   {
     "term": "pavydas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "meanings": [
@@ -45019,18 +45009,11 @@
         ]
       }
     ],
-    "synonyms": [
-      "pavyduliavimas",
-      "godumas"
-    ],
-    "antonymTerms": [
-      "dosnumas",
-      "džiaugsmas"
-    ],
+    "synonyms": [],
+    "antonymTerms": [],
     "relatedTerms": [
-      "pavydėti",
       "gėda",
-      "konkurencija"
+      "pyktis"
     ],
     "translation": "jealousy, envy",
     "qaNote": "Semantic inaccuracy: 'godumas' means greed/covetousness, not envy/jealousy; replace with e.g. 'pavyduliavimas' or 'neapykanta'."
@@ -45462,7 +45445,7 @@
   },
   {
     "term": "plaukimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -45479,21 +45462,18 @@
         ]
       }
     ],
-    "synonyms": [
-      "maudymasis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "baseinas",
-      "vanduo",
-      "sportuoti",
-      "treneris"
+      "bėgimas",
+      "ėjimas",
+      "treniruotė"
     ],
     "translation": "swimming"
   },
   {
     "term": "bėgimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -45511,16 +45491,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "jogingas"
-    ],
-    "antonymTerms": [
-      "ėjimas"
-    ],
+    "synonyms": [],
+    "antonymTerms": [],
     "relatedTerms": [
-      "sportas",
-      "mankšta",
-      "treniruotė"
+      "plaukimas",
+      "ėjimas",
+      "mankšta"
     ]
   },
   {
@@ -45675,7 +45651,7 @@
   },
   {
     "term": "treneris",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -45691,15 +45667,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "instruktorius"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "sportas",
+      "trenerė",
       "treniruotė",
-      "sportuoti",
-      "plaukimas"
+      "apšilimas"
     ],
     "translation": "trainer, coach"
   },
@@ -46094,7 +46067,7 @@
   },
   {
     "term": "rasa",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46114,8 +46087,6 @@
     "antonymTerms": [],
     "relatedTerms": [
       "drėgmė",
-      "rytas",
-      "žolė",
       "šerkšnas"
     ],
     "translation": "dew"
@@ -46152,7 +46123,7 @@
   },
   {
     "term": "smėlis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46171,10 +46142,8 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "paplūdimys",
-      "krantas",
-      "akmuo",
-      "pajūris"
+      "pakrantė",
+      "akmuo"
     ],
     "translation": "sand"
   },
@@ -46268,7 +46237,7 @@
   },
   {
     "term": "ąžuolas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46287,16 +46256,15 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "klevas",
       "beržas",
-      "pušis",
-      "medis"
+      "klevas",
+      "pušis"
     ],
     "translation": "oak tree"
   },
   {
     "term": "beržas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46317,8 +46285,7 @@
     "relatedTerms": [
       "ąžuolas",
       "klevas",
-      "pušis",
-      "medis"
+      "pušis"
     ],
     "translation": "birch tree"
   },
@@ -46687,7 +46654,7 @@
   },
   {
     "term": "ritmas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46703,15 +46670,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "taktas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "muzika",
-      "melodija",
-      "šokti",
-      "daina"
+      "nata",
+      "melodija"
     ],
     "translation": "rhythm, beat"
   },
@@ -48045,7 +48009,7 @@
   },
   {
     "term": "erdvus",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -48061,11 +48025,19 @@
         ]
       }
     ],
-    "translation": "spacious"
+    "translation": "spacious",
+    "synonyms": [],
+    "antonymTerms": [
+      "ankštas"
+    ],
+    "relatedTerms": [
+      "didelis",
+      "platus"
+    ]
   },
   {
     "term": "ankštas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -48081,7 +48053,15 @@
         ]
       }
     ],
-    "translation": "cramped"
+    "translation": "cramped",
+    "synonyms": [],
+    "antonymTerms": [
+      "erdvus"
+    ],
+    "relatedTerms": [
+      "mažas",
+      "siauras"
+    ]
   },
   {
     "term": "blankus",
@@ -48298,7 +48278,7 @@
     "term": "žinios",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A broadcast or published report of current events; a news programme.",
@@ -48323,10 +48303,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "žurnalistas",
       "reportažas",
-      "pranešimas",
-      "laikraštis"
+      "žurnalistika",
+      "spauda"
     ],
     "translation": "news; knowledge",
     "qaNote": "Plural form used for both senses. Singular žinia means 'a piece of news / a message'."
@@ -50094,7 +50073,7 @@
     "term": "algoritmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A defined step-by-step procedure or formula for solving a problem or accomplishing a computational task.",
@@ -50111,8 +50090,8 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
+      "programa",
       "kodas",
-      "programavimas",
       "duomenys"
     ],
     "translation": "algorithm",
@@ -50244,7 +50223,7 @@
     "term": "duomenys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Facts, statistics, or information collected and stored, especially in digital form for processing or analysis.",
@@ -50261,8 +50240,8 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "duomenų bazė",
       "algoritmas",
+      "duomenų bazė",
       "serveris"
     ],
     "translation": "data",
@@ -50442,7 +50421,7 @@
     "term": "matematika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mokyklinis dalykas ir mokslas, tiriantis skaičius, geometrines figūras ir abstrakčias struktūras.",
@@ -50465,7 +50444,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "fizika",
+      "chemija",
+      "algoritmas"
+    ],
     "translation": "mathematics"
   },
   {
