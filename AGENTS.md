@@ -88,6 +88,8 @@ For task-driven work (claimed from `TASKS.md`):
 - Always append to `docs/audit-log.md` after merging or taking any irreversible action.
 - Read `docs/REVERSIBILITY.md` before any action that modifies shared state on `main`.
 
+- **Vocab Relations agents**: before committing, verify that (a) every synonym is co-extensive with a defined sense (not a hypernym), (b) every antonymTerm is a direct semantic opposite (not merely a contrasting or negation-prefixed form), and (c) all LT `term` values are lowercase unless a genuine proper noun. See `docs/VOCAB-AGENT.md` for full semantic quality rules.
+
 ## When to Stop (Uncertainty Protocol)
 
 Stop and write to `docs/decisions-pending.md` if you encounter **any** of the following:
