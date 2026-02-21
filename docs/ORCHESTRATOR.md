@@ -300,55 +300,117 @@ ON FINISH:
 
 ---
 
-## Step 3: Monitor Loop
+## Step 3: Infinite Main Loop
 
-After spawning agents, enter a monitoring loop:
+The orchestrator runs **continuously** until stopped. It cycles through: scan → spawn → monitor → merge → reflect → repeat.
+
+### Graceful Stop
+
+To stop the orchestrator after the current batch completes:
+```bash
+touch STOP   # create STOP file in repo root
+```
+The orchestrator checks for this file at the start of each cycle and exits cleanly.
+
+### Work Scanner (Priority Order)
+
+At the start of each cycle, scan for work in this priority order:
+
+| Priority | Source | What to spawn | Max parallel |
+|----------|--------|--------------|-------------|
+| 1 | `GOALS.md` — goal needs next pipeline stage | Requirements / Architecture / Verification Agent | 1 |
+| 2 | `docs/TASKS.md` — unclaimed feature tasks (dependencies met) | Feature Agents | 3 (if different files) |
+| 3 | `docs/decisions-pending.md` — human responded | Re-notify / unblock waiting agent | 1 |
+| 4 | Staging JSON — stubs needing enrichment | Enricher agents (EN and/or LT) | 2 |
+| 5 | Staging JSON — enriched needing relations | Relations agent | 1 |
+| 6 | Staging JSON — no more stubs | Seeder agents (add more stubs) | 2 |
+
+**Always fill up to 3–4 parallel agents** per cycle. Mix priorities when possible (e.g., 1 Feature Agent + 1 LT Enricher + 1 EN Enricher).
+
+### The Loop
 
 ```
+cycle = 0
 merges_since_last_reflection = 0
 
-WHILE any agent is still running OR unclaimed tasks remain:
-  1. Wait 30 seconds
-  2. Check each agent status via read_agent
-  3. If an agent completed successfully:
-     a. Read its output for the "DONE:" message
-     b. Merge its worktree branch to main:
-        cd <REPO_PATH>
-        git merge <branch> --no-ff -m "<merge message>"
-        git worktree remove ../vocabular-wt-<id>
-        git branch -d <branch>
-     c. merges_since_last_reflection += 1
-     d. Check if this unblocks the next pipeline stage (see dependency table)
-     e. If yes, spawn the next agent
-  4. If an agent failed:
-     a. Read the error output
-     b. Decide: retry with refined prompt, or write to decisions-pending.md for human
-  5. Check docs/decisions-pending.md for new entries:
-     a. If human has responded (look for "**Choice: X** — human"), relay to blocked agent
-     b. If no response yet, note it and continue
-  6. REFLECTION CHECK (after every merge batch):
-     a. Count new retro entries since last reflection (grep "^## \[" docs/retrospectives.md)
-     b. If new_retros >= 3 AND no Reflection Agent is currently running:
-        - Spawn Reflection Agent (see template above)
-        - It runs IN PARALLEL with other agents — does not block
-        - merges_since_last_reflection = 0
-     c. When Reflection Agent completes:
-        - Review its branch (process/reflection-<N>)
-        - If changes are docs-only (no Swift/JSON): auto-merge to main
-        - If changes touch scripts: merge but verify scripts still work
-        - This ensures the NEXT batch of agents benefits from improvements
+LOOP:
+  cycle += 1
+
+  # 0. Check for stop signal
+  IF file "STOP" exists in repo root:
+    Print "STOP file detected. Finishing after current cycle."
+    Remove STOP file
+    EXIT after this cycle completes
+
+  # 1. SCAN for work
+  work_items = []
+
+  # Priority 1: Goal pipeline
+  FOR each goal in GOALS.md:
+    IF status == [ ]:                   add (requirements-agent, goal)
+    IF status == [requirements-done]:   add (architecture-agent, goal)
+    IF status == [architecture-done]:   check TASKS.md for unclaimed tasks → add feature agents
+    IF status == [needs-verification]:  add (verification-agent, goal)
+    IF status == [verified]:            add (reflection-agent) if not recently run
+
+  # Priority 2: Feature tasks with met dependencies
+  FOR each unclaimed task in TASKS.md with "Depends on" satisfied:
+    add (feature-agent, task-id)
+
+  # Priority 3: Vocab pipeline
+  Count stubs/enriched/relations-added in staging files:
+    IF stubs > 0:      add enricher agents (LT and/or EN)
+    IF enriched > 0:   add relations agent
+    IF stubs == 0 AND total < target: add seeder agents
+
+  # 2. SPAWN batch (max 4 agents from work_items)
+  Pick top 4 from work_items (by priority)
+  Spawn each as background agent via task tool
+
+  # 3. MONITOR & MERGE
+  WHILE any spawned agent is still running:
+    Wait 30 seconds
+    Check each agent status via read_agent
+    IF agent completed successfully:
+      Merge its branch to main (resolve conflicts if needed)
+      Clean up worktree
+      merges_since_last_reflection += 1
+      Append merge entry to docs/audit-log.md
+    IF agent failed:
+      Read error output
+      IF retryable: respawn with refined prompt (max 2 retries)
+      ELSE: log to decisions-pending.md, continue
+
+  # 4. REFLECTION CHECK
+  IF merges_since_last_reflection >= 3:
+    Spawn Reflection Agent (background)
+    Wait for completion
+    Merge reflection branch to main (docs-only)
+    merges_since_last_reflection = 0
+
+  # 5. CHECKPOINT (every 5 cycles)
+  IF cycle % 5 == 0:
+    Print checkpoint summary (see "Context Checkpoint" below)
+
+  # 6. CONTINUE
+  GOTO LOOP
 ```
 
-### Reflection Cycle Timing
+### Vocab Pipeline — Continuous Progression
+
+The vocab pipeline has enough work to run for hours:
 
 ```
-  Agents run ──► Merge batch ──► Reflection triggers ──► Process docs improve
-       │                              │ (parallel)              │
-       │                              ▼                         ▼
-       └──────── Next agents spawned with improved protocols ◄──┘
+LT: 1745 stubs → Enricher (5/batch) → 349 batches → Relations → QA → Publish
+EN: 30 stubs → Enricher → Relations → QA → Publish → Seeder adds more → repeat
 ```
 
-The orchestrator should aim for a reflection cycle every 3–5 agent completions. This keeps the feedback loop tight without drowning in meta-work.
+The scanner automatically advances words through the pipeline:
+- When stubs exist → spawn Enricher
+- When enriched entries exist → spawn Relations agent
+- When relations-added entries exist → spawn QA agent
+- When approved entries exist → spawn Publisher (with `--confirm`)
+- When all stubs are consumed → spawn Seeder to add more
 
 ### Dependency Graph (what to spawn next)
 
@@ -396,24 +458,53 @@ git branch -d <branch>
 
 ---
 
-## Step 5: Completion
+## Step 5: Context Checkpoint
 
-When all agents have finished and all branches are merged:
+Copilot CLI sessions have context limits. Every 5 cycles (or when you sense context is getting large), print a checkpoint:
 
-1. Run a final check:
-   ```bash
-   git --no-pager log --oneline -20  # verify all merges
-   python3 scripts/validate_words.py --staging Vocab/Vocab/Resources/words_lt_staging.json  # LT data OK
-   ```
-2. Report to human:
-   ```
-   Team run complete.
-   - Goals updated: <list>
-   - Tasks completed: <list>
-   - Words enriched: <count>
-   - Branches merged: <list>
-   - Pending decisions: <count> (check docs/decisions-pending.md)
-   ```
+```
+═══════════════════════════════════════════
+CHECKPOINT — Cycle <N>
+═══════════════════════════════════════════
+
+GOALS:
+  lt-vocab-app: [architecture-done] → 3/8 feature tasks complete
+
+TASKS COMPLETED THIS SESSION:
+  ✅ language-field (merged)
+  ✅ haptics (merged)
+  ✅ tests-wordservice (merged)
+
+TASKS IN PROGRESS:
+  🔄 lt-ui-filter (agent running)
+
+TASKS NEXT UP:
+  ⬜ spaced-rep (unblocked, ready)
+  ⬜ lt-session-flow (unblocked, ready)
+
+VOCAB PIPELINE:
+  LT: 1745 stubs → 1730 stubs, 15 enriched (this session: +15 enriched)
+  EN: 0 stubs → 30 stubs (this session: +30 seeded)
+
+REFLECTION:
+  Cycles completed: 1
+  Retros since last: 2
+
+PENDING DECISIONS: 0
+
+TO CONTINUE: Start a new session and say:
+  "You are the team lead. Read docs/ORCHESTRATOR.md.
+   Continue from cycle <N>. Last completed: <task-ids>."
+═══════════════════════════════════════════
+```
+
+### Session Handoff
+
+When starting a new session to continue:
+1. The new orchestrator reads `GOALS.md` and `TASKS.md` — status fields tell it exactly where things stand
+2. It reads `docs/audit-log.md` for recent activity
+3. It runs the Work Scanner — automatically picks up where the previous session left off
+4. No manual bookkeeping needed; the repo state IS the checkpoint
 
 ---
 
@@ -421,12 +512,15 @@ When all agents have finished and all branches are merged:
 
 | Situation | What to do |
 |-----------|-----------|
-| Agent returns error (build fail, test fail) | Read error output; retry with more specific prompt including the error message |
+| Agent returns error (build fail, test fail) | Read error output; retry with more specific prompt including the error message (max 2 retries) |
 | Agent writes to `decisions-pending.md` | Notify human; do not spawn dependent agents until resolved |
 | Merge conflict | Read both diffs; resolve by preferring the later/more complete change; commit resolution |
 | Agent takes too long (no response after 5+ minutes) | Check agent status; if stuck, stop and retry |
 | Worktree already exists | Remove stale worktree: `git worktree remove ../vocabular-wt-<id> --force` |
 | Two agents claim same task | Only one should proceed; the orchestrator assigns tasks, not agents |
+| No more work found by scanner | Print checkpoint, wait 60 seconds, re-scan (human may add goals/tasks) |
+| Context getting large | Print checkpoint summary, suggest human start new session |
+| Human creates `STOP` file | Finish current batch, print final checkpoint, exit |
 
 ---
 
