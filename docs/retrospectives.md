@@ -498,3 +498,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a small helper script for QA workflow: list entries by status and apply approved/enriched+qaNote updates safely.
+## [2026-02-21] [enricher-en-3] [enrich-25-en-stubs]
+
+### What went well
+- Enriched exactly 25 English stub entries in one pass with complete meanings, part of speech, tags, and synonyms.
+- `validate_words.py --status enriched` passed immediately after updates.
+
+### What was harder than expected
+- Several terms were highly technical, so examples needed careful domain context while staying concise.
+
+### Process friction
+- The task example used `register: "neutral"`, but the validator only accepts `general`, `technical`, `formal`, or `literary`.
+
+### Suggested improvement
+- Add the validator enum values directly to enrichment task prompts to avoid schema drift.
