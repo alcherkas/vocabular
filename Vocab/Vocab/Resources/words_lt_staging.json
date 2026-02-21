@@ -33667,24 +33667,73 @@
   {
     "term": "salė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large room or building used for performances, concerts, or public gatherings.",
+        "example": "Teatras turi didelę salę, kurioje telpa du šimtai žiūrovų.",
+        "register": "neutral",
+        "tags": [
+          "theater",
+          "venue",
+          "arts",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "auditorija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "scena",
+      "žiūrovas",
+      "spektaklis"
+    ],
+    "translation": "hall, auditorium",
+    "qaNote": "Nominative singular: salė. Common in theater, cinema, and concert contexts."
   },
   {
     "term": "eilė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A horizontal line of seats in a theater, cinema, or concert hall.",
+        "example": "Mūsų vietos buvo penktoje eilėje nuo scenos.",
+        "register": "neutral",
+        "tags": [
+          "theater",
+          "cinema",
+          "seating",
+          "B1"
+        ]
+      },
+      {
+        "definition": "A sequence of people waiting in order.",
+        "example": "Prie bilietų kasos susidariusi ilga eilė.",
+        "register": "neutral",
+        "tags": [
+          "daily-life",
+          "queue",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rinktinė",
+      "virtinė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "salė",
+      "vieta",
+      "spektaklis"
+    ],
+    "translation": "row, line, queue",
+    "qaNote": "Nominative singular: eilė. In theater context means 'row'; in general context means 'queue/line'."
   },
   {
     "term": "choras",
@@ -33756,24 +33805,60 @@
   {
     "term": "dirigentas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A male musician who leads an orchestra or choir by directing the performers.",
+        "example": "Dirigentas pakėlė lazdelę ir orkestras pradėjo groti.",
+        "register": "neutral",
+        "tags": [
+          "music",
+          "orchestra",
+          "arts",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "dirigentė",
+      "orkestras",
+      "scena",
+      "koncertuoti"
+    ],
+    "translation": "conductor (male)",
+    "qaNote": "Masculine form. Feminine: dirigentė. Nominative singular: dirigentas."
   },
   {
     "term": "dirigentė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A female musician who leads an orchestra or choir by directing the performers.",
+        "example": "Dirigentė energingai mostavo rankomis, vesdama chorą.",
+        "register": "neutral",
+        "tags": [
+          "music",
+          "orchestra",
+          "arts",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "dirigentas",
+      "orkestras",
+      "scena",
+      "koncertuoti"
+    ],
+    "translation": "conductor (female)",
+    "qaNote": "Feminine form of dirigentas. Nominative singular: dirigentė."
   },
   {
     "term": "dainuoti",
@@ -33834,287 +33919,778 @@
     "term": "koncertuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To give a musical performance or series of performances for an audience.",
+        "example": "Tas ansamblis koncertavo daugelyje Europos miestų.",
+        "register": "neutral",
+        "tags": [
+          "music",
+          "performance",
+          "arts",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pasirodyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "koncertas",
+      "scena",
+      "dirigentas",
+      "salė"
+    ],
+    "translation": "to perform (give a concert), to tour",
+    "qaNote": "Imperfective verb. Infinitive: koncertuoti. Related noun: koncertas."
   },
   {
     "term": "baletas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A classical form of dance performed as a theatrical spectacle, often accompanied by music.",
+        "example": "Eidami į operos teatrą, nusprendėme žiūrėti baletą.",
+        "register": "neutral",
+        "tags": [
+          "dance",
+          "theater",
+          "arts",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "opera",
+      "spektaklis",
+      "scena",
+      "šokis"
+    ],
+    "translation": "ballet",
+    "qaNote": "Nominative singular: baletas. Refers to both the art form and a specific performance."
   },
   {
     "term": "opera",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A dramatic theatrical work in which singers and musicians perform a story with staged design, combining music, voice, and acting.",
+        "example": "Liepos mėnesį nacionaliniame teatre rodoma naujos sezonos opera.",
+        "register": "neutral",
+        "tags": [
+          "music",
+          "theater",
+          "arts",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "baletas",
+      "spektaklis",
+      "salė",
+      "dirigentas"
+    ],
+    "translation": "opera",
+    "qaNote": "Nominative singular: opera. Refers to both the art form and a specific production."
   },
   {
     "term": "spektaklis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A theatrical performance staged for an audience, such as a play, ballet, or opera.",
+        "example": "Vakar mačiau puikų spektaklį miesto teatre.",
+        "register": "neutral",
+        "tags": [
+          "theater",
+          "arts",
+          "performance",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pasirodymas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vaidinti",
+      "salė",
+      "žiūrovas",
+      "scena"
+    ],
+    "translation": "performance, show, play",
+    "qaNote": "Nominative singular: spektaklis. Broader than 'pjesė' (play text); refers to the staged production."
   },
   {
     "term": "vaidmuo",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A character or part played by an actor in a theatrical performance, film, or other production.",
+        "example": "Jaunoji aktorė gavo pagrindinį vaidmenį naujame filme.",
+        "register": "neutral",
+        "tags": [
+          "theater",
+          "cinema",
+          "acting",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rolė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vaidinti",
+      "aktorius",
+      "spektaklis",
+      "filmas"
+    ],
+    "translation": "role, part",
+    "qaNote": "Nominative singular: vaidmuo. Plural: vaidmenys."
   },
   {
     "term": "vaidmenys",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The plural form of vaidmuo; the characters or parts played by actors in theatrical or cinematic works.",
+        "example": "Spektaklyje visi vaidmenys buvo puikiai suvaidinti.",
+        "register": "neutral",
+        "tags": [
+          "theater",
+          "cinema",
+          "acting",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vaidmuo",
+      "vaidinti",
+      "aktorius",
+      "spektaklis"
+    ],
+    "translation": "roles, parts",
+    "qaNote": "Nominative plural of vaidmuo. Use vaidmuo for the singular."
   },
   {
     "term": "žiūrovas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A male person who watches a performance, film, or sporting event as a member of the audience.",
+        "example": "Žiūrovai plojo stovėdami po spektaklio.",
+        "register": "neutral",
+        "tags": [
+          "theater",
+          "cinema",
+          "audience",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žiūrovė",
+      "salė",
+      "spektaklis",
+      "ploti"
+    ],
+    "translation": "spectator, audience member (male)",
+    "qaNote": "Masculine form. Feminine: žiūrovė. Nominative singular: žiūrovas."
   },
   {
     "term": "žiūrovė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A female person who watches a performance, film, or sporting event as a member of the audience.",
+        "example": "Žiūrovė šluostėsi ašaras po jaudinančio spektaklio.",
+        "register": "neutral",
+        "tags": [
+          "theater",
+          "cinema",
+          "audience",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žiūrovas",
+      "salė",
+      "spektaklis",
+      "ploti"
+    ],
+    "translation": "spectator, audience member (female)",
+    "qaNote": "Feminine form of žiūrovas. Nominative singular: žiūrovė."
   },
   {
     "term": "ploti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To strike the palms of the hands together repeatedly to express appreciation or approval, especially at a performance.",
+        "example": "Publika plojo ilgai po to, kai baigėsi opera.",
+        "register": "neutral",
+        "tags": [
+          "theater",
+          "reaction",
+          "arts",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "aplodismentais sutikti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žiūrovas",
+      "spektaklis",
+      "salė"
+    ],
+    "translation": "to applaud, to clap",
+    "qaNote": "Imperfective verb. Infinitive: ploti. Related noun: plojimai (applause)."
   },
   {
     "term": "vaidinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To portray a character in a theatrical performance, film, or other dramatic production.",
+        "example": "Ji vaidina pagrindinį vaidmenį šiame spektaklyje.",
+        "register": "neutral",
+        "tags": [
+          "theater",
+          "cinema",
+          "acting",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "atlikti vaidmenį"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vaidmuo",
+      "spektaklis",
+      "aktorius",
+      "scena"
+    ],
+    "translation": "to act, to perform, to play (a role)",
+    "qaNote": "Imperfective verb. Infinitive: vaidinti. Related noun: vaidyba (acting)."
   },
   {
     "term": "dailė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The visual arts including painting, sculpture, and drawing, especially as a subject of study or cultural practice.",
+        "example": "Dailės mokykloje vaikai mokosi piešti ir lipdyti.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "visual-arts",
+          "education",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "vaizduojamoji dailė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tapyba",
+      "skulptūra",
+      "grafika",
+      "paroda"
+    ],
+    "translation": "fine arts, visual arts",
+    "qaNote": "Nominative singular: dailė. Broad term for visual arts; 'vaizduojamoji dailė' is the more precise term."
   },
   {
     "term": "grafika",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A branch of the visual arts involving the creation of images using drawing, engraving, or printmaking techniques.",
+        "example": "Parodos salėje buvo eksponuojami grafikos darbai.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "visual-arts",
+          "design",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "dailė",
+      "tapyba",
+      "kūrinys",
+      "paroda"
+    ],
+    "translation": "graphic art, graphics",
+    "qaNote": "Nominative singular: grafika. Can also mean computer graphics in technical contexts."
   },
   {
     "term": "grafikas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A male artist who specialises in graphic art, illustration, or visual design.",
+        "example": "Grafikas sukūrė knygos viršelį su spalvingomis iliustracijomis.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "profession",
+          "design",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "grafikė",
+      "grafika",
+      "dailininkas",
+      "dailė"
+    ],
+    "translation": "graphic artist (male), graphic designer (male)",
+    "qaNote": "Masculine form. Feminine: grafikė. Nominative singular: grafikas. Note: 'grafikas' also means 'schedule/timetable' — context distinguishes."
   },
   {
     "term": "grafikė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A female artist who specialises in graphic art, illustration, or visual design.",
+        "example": "Grafikė iliustravo naują vaikų knygą.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "profession",
+          "design",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "grafikas",
+      "grafika",
+      "dailininkė",
+      "dailė"
+    ],
+    "translation": "graphic artist (female), graphic designer (female)",
+    "qaNote": "Feminine form of grafikas (artist sense). Nominative singular: grafikė."
   },
   {
     "term": "kūrinys",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An artistic or literary work produced by an author, composer, or artist.",
+        "example": "Šis muzikos kūrinys buvo parašytas prieš šimtą metų.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "literature",
+          "music",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "veikalas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kurti",
+      "autorius",
+      "paroda",
+      "tapyba"
+    ],
+    "translation": "work (of art or literature), creation",
+    "qaNote": "Nominative singular: kūrinys. Used for works of art, music, and literature."
   },
   {
     "term": "paroda",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A public display of artworks, artefacts, or products arranged for people to view.",
+        "example": "Šį savaitgalį miesto galerijoje atidaroma šiuolaikinio meno paroda.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "gallery",
+          "culture",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ekspozicija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "galerija",
+      "kūrinys",
+      "skulptūra",
+      "tapyba"
+    ],
+    "translation": "exhibition, show, exposition",
+    "qaNote": "Nominative singular: paroda. Common in cultural contexts; also used for trade fairs."
   },
   {
     "term": "skulptorius",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A male artist who creates sculptures by carving, modelling, or assembling materials.",
+        "example": "Skulptorius metų metus dirbo prie šios marmuro statulos.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "profession",
+          "sculpture",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "skulptorė",
+      "skulptūra",
+      "dailė",
+      "kūrinys"
+    ],
+    "translation": "sculptor (male)",
+    "qaNote": "Masculine form. Feminine: skulptorė. Nominative singular: skulptorius."
   },
   {
     "term": "skulptorė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A female artist who creates sculptures by carving, modelling, or assembling materials.",
+        "example": "Skulptorė pristatė savo naujausius darbus tarptautinėje parodoje.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "profession",
+          "sculpture",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "skulptorius",
+      "skulptūra",
+      "dailė",
+      "kūrinys"
+    ],
+    "translation": "sculptor (female)",
+    "qaNote": "Feminine form of skulptorius. Nominative singular: skulptorė."
   },
   {
     "term": "skulptūra",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A three-dimensional work of art created by carving stone or wood, moulding clay, or assembling materials.",
+        "example": "Miesto aikštėje stovi didelė bronzinė skulptūra.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "sculpture",
+          "visual-arts",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "statula"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "skulptorius",
+      "dailė",
+      "paroda",
+      "kūrinys"
+    ],
+    "translation": "sculpture",
+    "qaNote": "Nominative singular: skulptūra. 'Statula' is more specific (freestanding statue)."
   },
   {
     "term": "tapyba",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The art of applying paint to a surface to create images or decorative works.",
+        "example": "Ji studijuoja tapybą dailės akademijoje.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "visual-arts",
+          "painting",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tapytojas",
+      "Tapyti",
+      "dailė",
+      "paveikslai"
+    ],
+    "translation": "painting (the art of)",
+    "qaNote": "Nominative singular: tapyba. Refers to the art form, not a single painting (which is 'paveikslas')."
   },
   {
     "term": "tapytojas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A male artist who creates paintings using paint on canvas, paper, or other surfaces.",
+        "example": "Tapytojas praleido visą dieną dirbtuvėje, baigdamas paveikslą.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "profession",
+          "painting",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tapytoja",
+      "tapyba",
+      "Tapyti",
+      "dailininkas"
+    ],
+    "translation": "painter (male artist)",
+    "qaNote": "Masculine form. Feminine: tapytoja. Nominative singular: tapytojas."
   },
   {
     "term": "tapytoja",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A female artist who creates paintings using paint on canvas, paper, or other surfaces.",
+        "example": "Tapytoja yra žinoma savo ryškiaspalviais peizažais.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "profession",
+          "painting",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tapytojas",
+      "tapyba",
+      "Tapyti",
+      "dailininkė"
+    ],
+    "translation": "painter (female artist)",
+    "qaNote": "Feminine form of tapytojas. Nominative singular: tapytoja."
   },
   {
     "term": "Tapyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To create an image or picture by applying paint to a surface using brushes or other tools.",
+        "example": "Ji mėgsta tapyti peizažus aliejiniais dažais.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "painting",
+          "activity",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dažyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tapyba",
+      "tapytojas",
+      "dailė",
+      "kūrinys"
+    ],
+    "translation": "to paint (art)",
+    "qaNote": "Imperfective verb. Infinitive: tapyti. Note: heading uses capital T by convention in this file. 'dažyti' is more 'to paint/colour' (walls etc.), 'tapyti' is specifically artistic painting."
   },
   {
     "term": "kurti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To produce or bring into existence an artistic, literary, or musical work.",
+        "example": "Rašytojas kuria naują romaną apie Lietuvos istoriją.",
+        "register": "neutral",
+        "tags": [
+          "arts",
+          "literature",
+          "creation",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kūrybiškai dirbti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kūrinys",
+      "tapyba",
+      "rašytojas",
+      "kompozitorius"
+    ],
+    "translation": "to create, to compose, to produce",
+    "qaNote": "Imperfective verb. Infinitive: kurti. Related noun: kūryba (creation/creative work), kūrinys (a work)."
   },
   {
     "term": "filmuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To record moving images with a camera to make a film or video.",
+        "example": "Režisierius filmuoja naują filmą Vilniaus senamiestyje.",
+        "register": "neutral",
+        "tags": [
+          "cinema",
+          "film",
+          "media",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "įrašyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "fotografuoti",
+      "filmas",
+      "kamera",
+      "režisierius"
+    ],
+    "translation": "to film, to shoot (video)",
+    "qaNote": "Imperfective verb. Infinitive: filmuoti. Related noun: filmas. Also used as 'šaudyti filmą' colloquially."
   },
   {
     "term": "fotografuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To take photographs using a camera.",
+        "example": "Ji fotografuoja miesto architektūrą savo nauju fotoaparatu.",
+        "register": "neutral",
+        "tags": [
+          "photography",
+          "arts",
+          "media",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "filmuoti",
+      "fotoaparatas",
+      "nuotrauka",
+      "dailė"
+    ],
+    "translation": "to photograph, to take photos",
+    "qaNote": "Imperfective verb. Infinitive: fotografuoti. Related noun: fotografija (photography/photograph)."
   },
   {
     "term": "klausytis",
@@ -40059,38 +40635,166 @@
   },
   {
     "term": "trimitas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A brass wind instrument with a bright, penetrating sound, commonly used in orchestras, bands, and folk music.",
+        "example": "Trimitas skambėjo garsiai per karnavalinę paradą.",
+        "register": "neutral",
+        "tags": [
+          "music",
+          "instrument",
+          "brass",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "fleita",
+      "akordeonas",
+      "orkestras",
+      "koncertuoti"
+    ],
+    "translation": "trumpet",
+    "qaNote": "Nominative singular: trimitas. A brass instrument; not to be confused with 'trombonas' (trombone)."
   },
   {
     "term": "fleita",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A woodwind instrument played by blowing across a hole at one end or through a mouthpiece.",
+        "example": "Mergaitė mokosi groti fleita muzikos mokykloje.",
+        "register": "neutral",
+        "tags": [
+          "music",
+          "instrument",
+          "woodwind",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "trimitas",
+      "akordeonas",
+      "klavišai",
+      "orkestras"
+    ],
+    "translation": "flute",
+    "qaNote": "Nominative singular: fleita. Refers to the Western concert flute."
   },
   {
     "term": "akordeonas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A portable musical instrument with a keyboard and bellows, producing sound by pushing or pulling the bellows while pressing keys.",
+        "example": "Kaimo šventėje muzikantas grojo akordeonu.",
+        "register": "neutral",
+        "tags": [
+          "music",
+          "instrument",
+          "folk",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "armonika"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "klavišai",
+      "fleita",
+      "trimitas",
+      "muzikantas"
+    ],
+    "translation": "accordion",
+    "qaNote": "Nominative singular: akordeonas. Strongly associated with Lithuanian folk music."
   },
   {
     "term": "klavišai",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The individual levers of a keyboard instrument such as a piano or organ that are pressed to produce musical notes.",
+        "example": "Pianino klavišai buvo pagaminti iš dramblio kaulo ir juodmedžio.",
+        "register": "neutral",
+        "tags": [
+          "music",
+          "instrument",
+          "keyboard",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "akordeonas",
+      "fleita",
+      "orkestras",
+      "koncertuoti"
+    ],
+    "translation": "keys (of a keyboard instrument)",
+    "qaNote": "Nominative plural of klavišas. Used for piano/organ/accordion keys. Also used loosely for keyboard shortcuts in computing."
   },
   {
     "term": "scena",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The raised platform in a theater or concert hall on which performers act or play.",
+        "example": "Aktoriai išėjo į sceną ir pradėjo spektaklį.",
+        "register": "neutral",
+        "tags": [
+          "theater",
+          "performance",
+          "arts",
+          "B1"
+        ]
+      },
+      {
+        "definition": "A sequence of action or events in a play, film, or book.",
+        "example": "Filmo paskutinė scena buvo labai jaudinanti.",
+        "register": "neutral",
+        "tags": [
+          "cinema",
+          "literature",
+          "narrative",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "salė",
+      "spektaklis",
+      "vaidinti",
+      "filmuoti"
+    ],
+    "translation": "stage, scene",
+    "qaNote": "Nominative singular: scena. Two main senses: the physical stage and a narrative scene."
   },
   {
     "term": "šventadienis",
