@@ -26125,34 +26125,86 @@
     "term": "greitoji pagalba",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Emergency medical service providing immediate assistance to people in life-threatening situations.",
+        "example": "Kai kaimynui staiga ėmė skaudėti krūtinę, paskambinome greitajai pagalbai.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "emergency",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "ligoninė",
+      "gydytojas",
+      "reanimacija"
+    ],
+    "translation": "emergency medical services",
+    "qaNote": "Phrase: greitoji (fast, nominative feminine adj) + pagalba (help, noun). Always lowercase in running text except sentence-initial."
   },
   {
     "term": "klinika",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A medical facility, typically private, specialising in outpatient diagnosis and treatment.",
+        "example": "Gydytoja nukreipė mane į privačią kliniką detalesniam ištyrimui.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "facility",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ambulatorija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "ligoninė",
+      "poliklinika",
+      "gydytojas"
+    ],
+    "translation": "clinic",
+    "qaNote": "Nominative singular: klinika. Genitive: klinikos. Refers to a specialist or private medical centre."
   },
   {
     "term": "poliklinika",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A state-funded outpatient healthcare facility providing primary and specialised medical care.",
+        "example": "Eilė prie poliklinikos registratūros buvo labai ilga pirmadienio rytą.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "facility",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ambulatorija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "klinika",
+      "ligoninė",
+      "registratūra"
+    ],
+    "translation": "polyclinic / health centre",
+    "qaNote": "Nominative singular: poliklinika. Genitive: poliklinikos. Refers specifically to state/municipal outpatient facilities in Lithuania."
   },
   {
     "term": "kabinetas",
@@ -26168,13 +26220,29 @@
   {
     "term": "palata",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A room in a hospital accommodating one or more patients during inpatient treatment.",
+        "example": "Pacientas buvo paguldytas į dvivietę palatą kardiologijos skyriuje.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "hospital",
+          "B2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "ligoninė",
+      "skyrius",
+      "lovytė"
+    ],
+    "translation": "hospital ward / patient room",
+    "qaNote": "Nominative singular: palata. Genitive: palatos. Medical/hospital register; do not confuse with political 'rūmai' (chamber/palace)."
   },
   {
     "term": "registratūra",
@@ -26212,13 +26280,33 @@
   {
     "term": "ligonis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A person who is ill or receiving medical treatment, especially in a hospital.",
+        "example": "Gydytojas kasdien aplankydavo kiekvieną ligonį palatoje ir tikrindavo jų savijautą.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "person",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pacientas"
+    ],
+    "antonymTerms": [
+      "sveikas žmogus"
+    ],
+    "relatedTerms": [
+      "ligonė",
+      "ligoninė",
+      "gydytojas"
+    ],
+    "translation": "patient / sick person",
+    "qaNote": "Nominative singular: ligonis (masc). Feminine form: ligonė. Both refer to a sick person; ligonis emphasises illness, pacientas emphasises the clinical relationship."
   },
   {
     "term": "ligonė",
@@ -26234,13 +26322,31 @@
   {
     "term": "pacientas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A person receiving or registered to receive medical treatment from a healthcare provider.",
+        "example": "Prieš vizitą pas gydytoją kiekvienas pacientas turi užregistruotis registratūroje.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "person",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ligonis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pacientė",
+      "gydytojas",
+      "registratūra"
+    ],
+    "translation": "patient",
+    "qaNote": "Nominative singular: pacientas (masc). Feminine: pacientė. Clinical register — used in formal/medical contexts."
   },
   {
     "term": "pacientė",
@@ -26257,12 +26363,28 @@
     "term": "gulėti ligoninėje",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To stay in hospital as an inpatient receiving treatment.",
+        "example": "Po sunkios operacijos ji gulėjo ligoninėje beveik dvi savaites.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "hospitalisation",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "ligoninė",
+      "palata",
+      "išrašymas"
+    ],
+    "translation": "to be hospitalised / to be in hospital",
+    "qaNote": "Phrase: gulėti (to lie/stay, imperfective) + ligoninėje (localative of ligoninė). Aspect is imperfective — describes the ongoing state of being hospitalised."
   },
   {
     "term": "sveikatos pažyma",
@@ -26398,12 +26520,28 @@
     "term": "išrašyti receptą",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "For a doctor to write a medical prescription authorising a patient to obtain medication.",
+        "example": "Gydytojas išrašė receptą antibiotikams ir paprašė sugrįžti po savaitės patikrinimui.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "prescription",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "receptas",
+      "vaistai",
+      "vaistinė"
+    ],
+    "translation": "to prescribe / to write a prescription",
+    "qaNote": "Phrase: išrašyti (perfective: to write out) + receptą (accusative of receptas). The perfective form signals completion — the prescription has been issued."
   },
   {
     "term": "Alergologas",
@@ -26452,13 +26590,30 @@
   {
     "term": "chirurgas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A medical specialist who performs surgical operations to treat injuries, diseases, or deformities.",
+        "example": "Patyręs chirurgas sėkmingai atliko sudėtingą operaciją ir ligonis greitai pasveiko.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "specialist",
+          "surgery",
+          "B2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "chirurgė",
+      "operacija",
+      "ligoninė"
+    ],
+    "translation": "surgeon",
+    "qaNote": "Nominative singular: chirurgas (masc). Feminine form: chirurgė. Stress: chi-RUR-gas. B2 term — medical specialist vocabulary."
   },
   {
     "term": "chirurgė",
@@ -26474,13 +26629,30 @@
   {
     "term": "dermatologas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A physician specialising in the diagnosis and treatment of skin, hair, and nail diseases.",
+        "example": "Dermatologas paskyrė specialų kremą ir patarė vengti tiesioginių saulės spindulių.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "specialist",
+          "skin",
+          "B2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "dermatologė",
+      "oda",
+      "egzema"
+    ],
+    "translation": "dermatologist",
+    "qaNote": "Nominative singular: dermatologas (masc). Feminine: dermatologė. Root: dermato- (skin) + logos (study). B2 medical specialist term."
   },
   {
     "term": "dermatologė",
@@ -26496,13 +26668,30 @@
   {
     "term": "kardiologas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A physician specialising in the diagnosis and treatment of heart and cardiovascular diseases.",
+        "example": "Kardiologas rekomendavo atlikti elektrokardiogramą ir laikytis dietos.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "specialist",
+          "cardiology",
+          "B2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kardiologė",
+      "širdis",
+      "kraujagyslė"
+    ],
+    "translation": "cardiologist",
+    "qaNote": "Nominative singular: kardiologas (masc). Feminine: kardiologė. Root: kardio- (heart) + logos (study). B2 medical specialist term."
   },
   {
     "term": "kardiologė",
@@ -26518,13 +26707,30 @@
   {
     "term": "neurologas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A medical specialist who diagnoses and treats disorders of the nervous system, including the brain and spinal cord.",
+        "example": "Dėl nuolatinių galvos skausmų šeimos gydytojas nukreipė mane pas neurologą.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "specialist",
+          "neurology",
+          "B2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "neurologė",
+      "nervų sistema",
+      "psichiatras"
+    ],
+    "translation": "neurologist",
+    "qaNote": "Nominative singular: neurologas (masc). Feminine: neurologė. Root: neuro- (nerve) + logos (study). B2 medical specialist term."
   },
   {
     "term": "neurologė",
@@ -26540,13 +26746,31 @@
   {
     "term": "odontologas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A dental specialist who diagnoses and treats diseases of the teeth, gums, and oral cavity.",
+        "example": "Odontologas nustatė ėduonį ir paaiškino, kad reikia skubiai plombuoti dantį.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "dental",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dantistas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "odontologė",
+      "dantys",
+      "burnos priežiūra"
+    ],
+    "translation": "dentist",
+    "qaNote": "Nominative singular: odontologas (masc). Feminine: odontologė. 'Dantistas' is an informal synonym. B1 term — commonly used in daily life."
   },
   {
     "term": "odontologė",
@@ -26679,24 +26903,59 @@
   {
     "term": "gerklė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The internal passage at the back of the mouth, connecting to the oesophagus and larynx; commonly aches during respiratory illness.",
+        "example": "Dėl peršalimo gerklė labai skaudėjo ir buvo sunku ryti maistą.",
+        "register": "neutral",
+        "tags": [
+          "body",
+          "anatomy",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ryklė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "burna",
+      "tonzilės",
+      "angina"
+    ],
+    "translation": "throat",
+    "qaNote": "Nominative singular: gerklė. Genitive: gerklės. Common anatomical term used in everyday medical communication."
   },
   {
     "term": "skrandis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The muscular organ of the digestive system in which food is broken down by gastric juices.",
+        "example": "Po valgio jautė skrandžio skausmą ir kreipėsi į gastroenterologą.",
+        "register": "neutral",
+        "tags": [
+          "body",
+          "anatomy",
+          "digestion",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žarnos",
+      "kepenys",
+      "virškinimas"
+    ],
+    "translation": "stomach",
+    "qaNote": "Nominative singular: skrandis. Genitive: skrandžio (note stem change: skrandi- → skrandž-). B1 anatomical term."
   },
   {
     "term": "plaučiai",
@@ -26821,13 +27080,29 @@
   {
     "term": "kraujas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The red fluid that circulates in the arteries and veins, carrying oxygen, nutrients, and immune cells throughout the body.",
+        "example": "Gydytojas rekomendavo atlikti kraujo tyrimus, kad patikrintų bendrą sveikatos būklę.",
+        "register": "neutral",
+        "tags": [
+          "body",
+          "anatomy",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kraujagyslė",
+      "kraujospūdis",
+      "hemoglobinas"
+    ],
+    "translation": "blood",
+    "qaNote": "Nominative singular: kraujas. Genitive: kraujo. Core anatomical vocabulary; B1 level. Derivatives: kraujagyslė (blood vessel), kraujospūdis (blood pressure)."
   },
   {
     "term": "Alergija",
@@ -26864,24 +27139,61 @@
   {
     "term": "angina",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A bacterial or viral infection of the tonsils characterised by severe throat pain, high fever, and difficulty swallowing.",
+        "example": "Gydytojas diagnozavo anginą ir paskyrė antibiotikų kursą.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "disease",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tonzilitas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "gerklė",
+      "antibiotikai",
+      "karščiavimas"
+    ],
+    "translation": "tonsillitis / strep throat",
+    "qaNote": "Nominative singular: angina. In Lithuanian medical usage, 'angina' refers specifically to acute tonsillitis, not to cardiac angina pectoris (which is 'krūtinės angina')."
   },
   {
     "term": "gripas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A highly contagious viral respiratory infection causing fever, body aches, fatigue, and respiratory symptoms.",
+        "example": "Per žiemos sezoną gripas greitai plinta perpildytose viešosiose erdvėse.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "disease",
+          "virus",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "influenca"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "peršalimas",
+      "skiepai",
+      "kosulys"
+    ],
+    "translation": "flu / influenza",
+    "qaNote": "Nominative singular: gripas. Genitive: gripo. B1 — very common medical term. Distinguished from 'peršalimas' (common cold): gripas is more severe and systemic."
   },
   {
     "term": "kosulys",
@@ -26917,12 +27229,30 @@
     "term": "plaučių uždegimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A serious infection of one or both lungs in which the air sacs fill with fluid or pus, impairing breathing.",
+        "example": "Po neišgydyto peršalimo išsivystė plaučių uždegimas ir jis buvo skubiai paguldytas į ligoninę.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "disease",
+          "B2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pneumonija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "plaučiai",
+      "antibiotikai",
+      "rentgeno nuotrauka"
+    ],
+    "translation": "pneumonia",
+    "qaNote": "Phrase: plaučių (genitive plural of plaučiai) + uždegimas (inflammation/infection). The formal medical term is 'pneumonija'. B2 medical vocabulary."
   },
   {
     "term": "akių uždegimas",
@@ -27128,13 +27458,29 @@
   {
     "term": "antibiotikai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Medicines used to treat bacterial infections by killing bacteria or inhibiting their growth; ineffective against viruses.",
+        "example": "Antibiotikų kurso negalima nutraukti anksčiau laiko, net jei jau jaučiatės geriau.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "medication",
+          "B2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tabletės",
+      "receptas",
+      "bakterija"
+    ],
+    "translation": "antibiotics",
+    "qaNote": "Nominative plural: antibiotikai (used almost always in plural). Singular: antibiotikas. B2 medical vocabulary. Key cultural note: in Lithuania antibiotics require a prescription."
   },
   {
     "term": "vitaminai",
@@ -27183,46 +27529,117 @@
   {
     "term": "tabletės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Solid, compressed doses of medicine intended to be swallowed with water.",
+        "example": "Gydytojas paskyrė tabletę nuo aukšto kraujospūdžio, kurią reikia gerti kasdien ryte.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "medication",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "piliulės"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "lašai",
+      "mikstūra",
+      "tepalas"
+    ],
+    "translation": "tablets / pills",
+    "qaNote": "Nominative plural: tabletės. Singular: tabletė. B1 — everyday medical vocabulary used in pharmacies and prescriptions."
   },
   {
     "term": "lašai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Liquid medication administered in small measured drops, typically for eyes, ears, or nose.",
+        "example": "Gydytojas paskyrė nosies lašų nuo slogos ir ausų lašų nuo uždegimo.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "medication",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tabletės",
+      "mikstūra",
+      "šnervė"
+    ],
+    "translation": "drops (medication)",
+    "qaNote": "Nominative plural: lašai. Singular: lašas (drop). In a medical context, almost always used in plural. B1 medical vocabulary."
   },
   {
     "term": "mikstūra",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Liquid oral medication, often sweetened, containing dissolved or suspended active ingredients.",
+        "example": "Vaikui paskyrė kosulį mažinančią mikstūrą, kurią reikia gerti tris kartus per dieną.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "medication",
+          "B2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "sirupas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tabletės",
+      "lašai",
+      "vaistai"
+    ],
+    "translation": "liquid medicine / syrup / mixture",
+    "qaNote": "Nominative singular: mikstūra. Genitive: mikstūros. More formal/clinical than 'sirupas'. B2 — used in prescriptions and pharmacy settings."
   },
   {
     "term": "tepalas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A semi-solid medicinal preparation applied to the skin to treat skin conditions, wounds, or inflammation.",
+        "example": "Dermatologas paskyrė tepalo nuo egzemos ir liepė tepti du kartus per dieną.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "medication",
+          "skin",
+          "B2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kremas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pleistras",
+      "tvarsčiai",
+      "oda"
+    ],
+    "translation": "ointment / cream",
+    "qaNote": "Nominative singular: tepalas. Genitive: tepalo. Broad term covering ointments, creams, and salves. More technical than everyday 'kremas'. B2 medical register."
   },
   {
     "term": "ampulė",
@@ -27269,24 +27686,58 @@
   {
     "term": "pleistras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An adhesive bandage used to cover and protect minor cuts, wounds, or blisters.",
+        "example": "Vaikas įsibrėžė pirštą ir mama uždėjo pleistro, kad apsaugotų žaizdą.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "first-aid",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tvarsčiai",
+      "žaizda",
+      "tepalas"
+    ],
+    "translation": "plaster / adhesive bandage",
+    "qaNote": "Nominative singular: pleistras. Genitive: pleistrо. B1 — common first-aid vocabulary. Also used as 'nicotine patch' context: nikotino pleistras."
   },
   {
     "term": "skiepai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Biological preparations that stimulate the immune system to provide protection against specific infectious diseases.",
+        "example": "Prieš kelionę į tropines šalis gydytojas patarė pasidaryti visus reikalingus skiepus.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "prevention",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "vakcinos"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "imunitetas",
+      "profilaktika",
+      "injekcija"
+    ],
+    "translation": "vaccines / vaccinations",
+    "qaNote": "Nominative plural: skiepai. Singular: skiepas. Also used in the sense of 'vaccination' (the act). B1 — widely used in public health communication."
   },
   {
     "term": "Tikrinti",
@@ -27375,12 +27826,30 @@
     "term": "rentgeno nuotrauka",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A diagnostic image produced by X-ray radiation, used to examine bones, lungs, and other internal structures.",
+        "example": "Gydytojas pasiuntė atlikti rentgeno nuotrauką, kad patikrintų, ar nėra lūžio.",
+        "register": "technical",
+        "tags": [
+          "medical",
+          "diagnostics",
+          "B2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rentgenograma"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "ultragarsas",
+      "tyrimai",
+      "diagnozė"
+    ],
+    "translation": "X-ray (image)",
+    "qaNote": "Phrase: rentgeno (genitive of rentgenas, from Röntgen) + nuotrauka (photograph/image). B2 diagnostic vocabulary. Short form: 'rentgenas' (also used colloquially for the procedure)."
   },
   {
     "term": "tirti",
@@ -27408,23 +27877,57 @@
     "term": "karščiuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To have an abnormally elevated body temperature as a symptom of illness or infection.",
+        "example": "Vaikas karščiavo visą naktį, o ryte temperatūra pasiekė 39,5 laipsnio.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "symptom",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "karščiuotis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "karščiavimas",
+      "temperatūra",
+      "gripas"
+    ],
+    "translation": "to have a fever / to run a fever",
+    "qaNote": "Infinitive: karščiuoti. 3rd person present: karščiuoja. Imperfective aspect (ongoing state). B1 symptom verb — very common in medical complaints."
   },
   {
     "term": "kosėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To expel air from the lungs suddenly and noisily, typically as a reflex to clear the airway.",
+        "example": "Jis kosėjo beveik dvi savaites po peršalimo, kol pagaliau visiškai pasveiko.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "symptom",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kosulys",
+      "gerklė",
+      "plaučiai"
+    ],
+    "translation": "to cough",
+    "qaNote": "Infinitive: kosėti. 3rd person present: kosi. Derived noun: kosulys (cough, n). B1 — common symptom verb used in medical and everyday contexts."
   },
   {
     "term": "lūžti",
@@ -27441,12 +27944,30 @@
     "term": "peršalti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To become ill with a cold as a result of exposure to cold, damp, or draughts.",
+        "example": "Vasarą maudydamasi šaltame upės vandenyje, mergaitė peršalo ir gulėjo kelias dienas.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "illness",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "pasveikti"
+    ],
+    "relatedTerms": [
+      "peršalimas",
+      "sloga",
+      "kosulys"
+    ],
+    "translation": "to catch a cold",
+    "qaNote": "Infinitive: peršalti (perfective). Imperfective counterpart: peršalinėti. Derived noun: peršalimas (cold, the illness). B1 — extremely common in Lithuanian everyday speech."
   },
   {
     "term": "sirgti",
@@ -27484,12 +28005,30 @@
     "term": "skaudėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To feel pain; used impersonally to indicate that a specific body part causes pain (e.g., man skaudėjo galvą).",
+        "example": "Jam skaudėjo galva ir nugara po ilgos kelionės automobiliu.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "symptom",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "sopėti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "skausmas",
+      "nuskausminimas",
+      "vaistai nuo skausmo"
+    ],
+    "translation": "to hurt / to ache",
+    "qaNote": "Infinitive: skaudėti. 3rd person present: skauda (impersonal). Pattern: man skauda [body part accusative] — 'my [body part] hurts'. B1 — essential symptom vocabulary."
   },
   {
     "term": "sloguoti",
@@ -27528,12 +28067,32 @@
     "term": "užsikrėsti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To contract a disease or infection from another person, animal, or environment.",
+        "example": "Per gripo sezoną labai lengva užsikrėsti virusu viešosiose erdvėse.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "infection",
+          "B2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "apsikrėsti"
+    ],
+    "antonymTerms": [
+      "pasveikti"
+    ],
+    "relatedTerms": [
+      "infekcija",
+      "virusas",
+      "bakterija"
+    ],
+    "translation": "to get infected / to contract (a disease)",
+    "qaNote": "Infinitive: užsikrėsti (perfective reflexive). Imperfective: užsikrėtinėti (rare). Reflexive particle -si- indicates action on oneself. B2 medical verb."
   },
   {
     "term": "lankyti",
@@ -27580,12 +28139,32 @@
     "term": "pasveikti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To return to good health after illness or injury; to convalesce fully.",
+        "example": "Gydytoja patikino, kad vartojant vaistus reguliariai, greitai pasveiksiime.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "recovery",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "sveikti"
+    ],
+    "antonymTerms": [
+      "sirgti"
+    ],
+    "relatedTerms": [
+      "sveikata",
+      "gydymas",
+      "reabilitacija"
+    ],
+    "translation": "to recover / to get better",
+    "qaNote": "Infinitive: pasveikti (perfective). Imperfective: sveikti (gradual recovery). B1 — common in both medical and everyday contexts. Distinguish: 'pasveikti' (to recover fully) vs 'sveikti' (to be getting better)."
   },
   {
     "term": "gimti",
@@ -36697,10 +37276,31 @@
   },
   {
     "term": "gipsas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "plaster cast / cast",
+    "meanings": [
+      {
+        "definition": "A rigid plaster or fibreglass shell applied to immobilise a fractured bone during healing.",
+        "example": "Po lūžio ortopedas uždėjo gipsą ir liepė jo neguldyti šešias savaites.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "treatment",
+          "B2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "lūžis",
+      "kaulai",
+      "ortopedas"
+    ],
+    "qaNote": "Nominative singular: gipsas. Genitive: gipso. Also refers to the material itself (gypsum/plaster). In a medical context, specifically means a cast. B2 medical vocabulary."
   },
   {
     "term": "nugaros skausmas",
@@ -36750,10 +37350,33 @@
   },
   {
     "term": "sumušimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "bruise / contusion",
+    "meanings": [
+      {
+        "definition": "An injury to soft tissue caused by impact without breaking the skin, causing pain, swelling, and discolouration.",
+        "example": "Po kritimo ant grindų atsirado didelis sumušimas ant kelio, kuris skaudėjo kelias dienas.",
+        "register": "neutral",
+        "tags": [
+          "medical",
+          "injury",
+          "B2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mėlynė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "žaizda",
+      "susilaužymas",
+      "pirmoji pagalba"
+    ],
+    "qaNote": "Nominative singular: sumušimas. Verbal root: sumušti (to bruise/beat). B2 medical vocabulary used in first-aid and casualty contexts."
   },
   {
     "term": "liūdesys",
