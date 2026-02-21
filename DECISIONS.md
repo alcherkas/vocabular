@@ -387,3 +387,54 @@ PASSED — 530 word(s) valid ✓ (validate_words.py --errors-for enriched, exit 
 |---|---|---|---|
 | EN | 35 | 29 | 6 |
 | LT | 35 | 33 | 2 |
+
+---
+
+## vocab/qa-17 — QA Retrospective
+
+**Batch scope:** 35 EN entries (medical/legal/historical vocabulary) + 35 LT entries (adjective pairs m/f + common verbs, expanded).  
+**Branch:** `vocab/qa-17`  
+**Validator baseline:** pre-existing errors in older batches (synonym-count and inflected-form warnings); no new errors introduced by this batch.
+
+### Check 1 — Cross-array duplicates
+Five EN entries had a term appear in two relation arrays simultaneously:
+- `pharmacokinetics`: `pharmacodynamics` in both `antonymTerms` and `relatedTerms` → removed from `relatedTerms`.
+- `pharmacodynamics`: `pharmacokinetics` in both `antonymTerms` and `relatedTerms` → removed from `relatedTerms`.
+- `agonist`: `antagonist` in both `antonymTerms` and `relatedTerms` → removed from `relatedTerms`.
+- `antagonist`: `agonist` in both `antonymTerms` and `relatedTerms` → removed from `relatedTerms`.
+- `novation`: `assignment` in both `synonyms` and `relatedTerms` → removed from `synonyms` (also semantically inaccurate; see Check 2).
+
+One LT entry:
+- `sėdėti`: `stovėti` in both `antonymTerms` and `relatedTerms` → removed from `relatedTerms`.
+
+### Check 2 — Synonym semantic accuracy (EN)
+- `fibrillation`: `ventricular fibrillation` and `atrial fibrillation` are subtypes (hyponyms), not synonyms; `cardioversion` is a treatment procedure, not an antonym of fibrillation → all three removed.
+- `bradycardia`: `cardiac bradycardia` is tautological (bradycardia is inherently cardiac) → removed.
+- `laches`: `delay` and `tardiness` are generic nouns; laches is a specific equitable doctrine requiring delay + prejudice → both removed, `estoppel by delay` retained.
+- `novation`: `assignment` transfers rights without extinguishing the original contract; novation replaces it entirely → not a synonym.
+
+### Check 3 — LT grammatical gender agreement
+- `jauna` (feminine adj.): synonyms `jaunatviškas` and `jaunutis` were masculine nominative forms → replaced with feminine nominative `jaunatviška` and `jaunutė`.
+
+### Check 4 — LT synonym semantic accuracy
+- `susipažinti`: `susitikti` (to physically meet, including re-encounters) ≠ `susipažinti` (first acquaintance) → removed.
+- `aukštas` / `aukšta`: `didingas` / `didinga` (majestic, grand) ≠ tall → removed.
+- `naujas` / `nauja`: `modernus` / `moderni` (modern, contemporary) ≠ new → removed.
+- `žema`: `trumpa` (short in length/duration) ≠ low (in height/elevation) → removed.
+
+### Check 5 — LT nominative forms (-ą/-ų scan)
+No accusative (`-ą`) or genitive-plural (`-ų`) ending violations detected in any relation array.
+
+### Check 6 — Self-references
+No term appeared in its own relation arrays in either file.
+
+### Outcome
+| Language | Total | Approved | Enriched |
+|---|---|---|---|
+| EN | 35 | 27 | 8 |
+| LT | 35 | 27 | 8 |
+
+### Notes
+- The pattern of antonym terms leaking into `relatedTerms` (and vice versa) recurred across four EN entries; enricher agents should ensure mutual-antonym pairs are placed in exactly one array.
+- LT masculine/feminine adjective entries require gender-matched synonyms; enrichers should match synonym forms to the grammatical gender of the headword.
+- Validator surfaced 200+ pre-existing synonym-count and inflected-form warnings from earlier batches (batches 1–16). These are outside the scope of qa-17 and were not modified.
