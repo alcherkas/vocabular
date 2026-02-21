@@ -69,13 +69,8 @@ class SessionService {
             var selected: [Word] = []
             selected.append(contentsOf: overdue.prefix(Self.maxOverdue))
             let remaining = Self.maxSessionSize - selected.count
-            selected.append(contentsOf: new_.shuffled().prefix(remaining))
-
-            // If no overdue or new words, pull from upcoming
-            if selected.isEmpty {
-                let upcoming = allWords.filter { $0.nextReview != nil && $0.nextReview! >= now }
-                selected = Array(upcoming.shuffled().prefix(Self.maxSessionSize))
-            }
+            let newLimit = min(remaining, Self.maxNew)
+            selected.append(contentsOf: new_.shuffled().prefix(newLimit))
 
             if selected.isEmpty {
                 emptyReason = allWords.isEmpty ? .noWordsForLanguage : .allCaughtUp
