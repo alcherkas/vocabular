@@ -79,7 +79,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `vocab-relations`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `low`
 **Complexity**: `low`
 **Role**: Relations
@@ -115,7 +115,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ## App Model & Feature Tasks
 
 ### `word-relations`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `medium`
 **Complexity**: `intermediate`
 **Description**: Add `antonyms` and `relatedWords` as SwiftData `@Relationship` fields to `Word.swift`.
@@ -207,7 +207,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `word-of-day-lt`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `low`
 **Complexity**: `minimal`
 **Description**: Extend `HomeView` to show a Lithuanian Word of the Day alongside the English one (or as a toggle).
@@ -232,7 +232,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `widget`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `medium`
 **Complexity**: `intermediate`
 **Description**: Add a WidgetKit extension for Word of the Day home screen widget.
