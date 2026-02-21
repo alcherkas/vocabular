@@ -1021,3 +1021,25 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 ### Suggested improvement
 - Add a homoglyph check to `validate_words.py` that flags strings containing characters outside the expected Unicode blocks for a given language (Latin + Lithuanian diacritics for LT, plain ASCII/Latin for EN).
 - Track `enriched` entry counts per file in a CI summary so agents know before starting how many entries are actually available for the target batch size.
+## [2026-02-23] [enricher-en-13] [vocab/enricher-en-13]
+
+### What went well
+- Preflight JSON check passed immediately (430 entries loaded, valid JSON); 26 pre-existing errors all in `approved` entries with insufficient synonyms — confirmed out-of-scope and documented in prior retros.
+- 35 EN stubs enriched in a single pass across four thematic domains: theology (apophatic, eschatology, soteriology, pneumatology, theophany, kenosis, ecclesiology, theodicy, catechesis), heraldry (blazon, escutcheon, tincture, passant, rampant, chevron, dexter, sinister, quarterings), numismatics (obverse, exergue, planchet, mintmark, reeding, bullion, assay, numismatist), and palaeontology/geology (taphonomy, biostratigraphy, palynology, paleoecology, permineralization, morphotaxonomy, phylogeny, stratigraphy, pyroclastic).
+- `validate_words.py --status enriched` passed cleanly: 78 enriched entries valid ✓ (43 pre-existing + 35 new).
+- No new validation errors introduced; error count held at 26.
+
+### What was harder than expected
+- The heraldic terms (passant, rampant, sinister, dexter) required precise technical definitions distinguishing the bearer's perspective from the observer's — a subtlety that generic definitions often collapse.
+- tincture is ambiguous across domains (heraldry vs. pharmacy vs. general); the heraldic sense was chosen based on the neighbouring terms in the seeder batch.
+
+### Decisions
+- All 35 stubs drawn from the first available EN stubs in the staging file to maintain pipeline order.
+- `tags` set to `C2` for advanced technical or theological vocabulary (apophatic, kenosis, exergue, permineralization, morphotaxonomy, etc.) and `C1` for terms with broader professional exposure (catechesis, rampant, mintmark, bullion, numismatist, phylogeny, stratigraphy, pyroclastic).
+- synonyms/antonymTerms/relatedTerms left as empty arrays; these are populated in the Relations stage.
+
+### Process friction
+- None specific to this batch; 26 pre-existing approved-entry synonym errors remain a persistent backdrop that should be addressed by a dedicated QA pass (noted in enricher-en-11 and relations-11 retros).
+
+### Suggested improvement
+- Consider a `--status stub` preflight count in the Enricher protocol so agents know immediately how many stubs are available before beginning the enrichment pass.
