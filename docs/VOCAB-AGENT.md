@@ -30,7 +30,7 @@ cd ../vocabular-wt-seeder-en
 
 ---
 
-## Role: Seeder
+## Role: Seeder (English)
 
 **Staging file**: `Vocab/Vocab/Resources/words_staging.json`
 **Batch size**: 10 stubs per iteration
@@ -38,7 +38,7 @@ cd ../vocabular-wt-seeder-en
 ### Loop
 
 1. Load `Vocab/Vocab/Resources/words.json` and `words_staging.json` — collect all existing terms.
-2. Generate 10 new word stubs that do NOT already exist. For EN: C1+ academic/professional vocabulary. For LT: A1/A2 basic vocabulary.
+2. Generate 10 new C1+ academic/professional English word stubs that do NOT already exist.
 3. Each stub:
    ```json
    { "term": "...", "language": "en", "partOfSpeech": "...", "status": "stub",
@@ -52,40 +52,81 @@ cd ../vocabular-wt-seeder-en
 6. If valid: commit.
    ```bash
    git add Vocab/Vocab/Resources/words_staging.json
-   git commit -m "vocab(seed): add 10 EN stubs [batch N]"
+   git commit -m "vocab(seed-en): add 10 EN stubs [batch N]"
    ```
 7. Repeat from step 1. Stop when staging has 50+ unprocessed stubs (let other agents catch up).
 
 ---
 
+## Role: Seeder (Lithuanian)
+
+**Staging file**: `Vocab/Vocab/Resources/words_lt_staging.json`
+
+### First-time bootstrap (run once)
+
+The word list in `lt.txt` is the authoritative seed source for LT vocabulary.
+Run this once to populate the staging file from it:
+
+```bash
+python3 scripts/seed_lt.py
+```
+
+This creates ~1760 stubs in `words_lt_staging.json`. Commit the result:
+
+```bash
+git add Vocab/Vocab/Resources/words_lt_staging.json
+git commit -m "vocab(seed-lt): bootstrap 1760 stubs from lt.txt"
+```
+
+### Adding new LT terms (ongoing)
+
+After the bootstrap, the LT Seeder only adds terms that are **not** already in lt.txt or staging.
+If you have new A1/A2 Lithuanian terms to add, append them to `lt.txt` first, then re-run:
+
+```bash
+python3 scripts/seed_lt.py
+git add lt.txt Vocab/Vocab/Resources/words_lt_staging.json
+git commit -m "vocab(seed-lt): add N new stubs from lt.txt"
+```
+
+---
+
 ## Role: Enricher
 
-**Reads**: entries with `status: "stub"`
-**Writes**: fills `meanings`, sets `status: "enriched"`
+**Reads**: entries with `status: "stub"` from either staging file
+**Writes**: fills `meanings` (+ `translation` for LT), sets `status: "enriched"`
 **Batch size**: 5 words per iteration
 
 ### Loop
 
-1. Load `words_staging.json`, find entries with `status == "stub"`. Take first 5.
-2. For each word:
+1. Choose a staging file to work on (`words_staging.json` for EN, `words_lt_staging.json` for LT).
+2. Load the file, find entries with `status == "stub"`. Take first 5.
+3. For each word:
    - Research all distinct meanings (senses) of the term.
    - For each meaning, write: `definition`, `example` (a natural sentence), `register`, `tags`.
+   - For LT words: also fill `translation` (the English gloss, e.g. `"cat"`).
    - Set `status: "enriched"`.
-3. Update entries in `words_staging.json`.
-4. Validate:
+4. Update entries in the staging file.
+5. Validate (replace filename as appropriate):
    ```bash
-   python3 scripts/validate_words.py --staging Vocab/Vocab/Resources/words_staging.json --status enriched
+   python3 scripts/validate_words.py \
+     --staging Vocab/Vocab/Resources/words_staging.json --status enriched
+   # or for LT:
+   python3 scripts/validate_words.py \
+     --staging Vocab/Vocab/Resources/words_lt_staging.json --status enriched
    ```
-5. If valid: commit.
+6. If valid: commit.
    ```bash
-   git commit -m "vocab(enrich): add meanings for 5 words [batch N]"
+   git commit -m "vocab(enrich-en): add meanings for 5 words [batch N]"
+   # or: vocab(enrich-lt)
    ```
-6. Repeat. Stop when no `stub` entries remain.
+7. Repeat. Stop when no `stub` entries remain in the chosen file.
 
 ### Quality bar
 - Each meaning must be **genuinely distinct** — different grammatical context or domain.
 - Example sentences must be natural, idiomatic, and different from dictionary boilerplate.
 - `register` must be accurate: `technical` only for domain-specific usage.
+- LT words: `translation` must be the primary EN equivalent (single word or short phrase).
 
 ---
 

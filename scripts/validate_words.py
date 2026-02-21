@@ -45,10 +45,12 @@ def collect_existing_terms(production_files: list[str]) -> set:
 
 def validate_stub(word: dict, idx: int, errors: list):
     """Validate minimum fields for stub status."""
-    for field in ("term", "language", "partOfSpeech"):
+    # term and language are always required; partOfSpeech may be blank at stub stage
+    for field in ("term", "language"):
         if not word.get(field, "").strip():
             errors.append(f"[{idx}] '{word.get('term', '?')}': missing required field '{field}'")
     pos = word.get("partOfSpeech", "")
+    # Only validate partOfSpeech if it's been set (blank is allowed at stub stage)
     if pos and pos not in VALID_PARTS_OF_SPEECH:
         errors.append(f"[{idx}] '{word.get('term')}': invalid partOfSpeech '{pos}' — must be one of {sorted(VALID_PARTS_OF_SPEECH)}")
     lang = word.get("language", "")
@@ -57,7 +59,13 @@ def validate_stub(word: dict, idx: int, errors: list):
 
 
 def validate_enriched(word: dict, idx: int, errors: list):
-    """Validate meanings array is populated."""
+    """Validate meanings array is populated and partOfSpeech is set."""
+    # partOfSpeech must be set by enriched stage
+    pos = word.get("partOfSpeech", "")
+    if not pos:
+        errors.append(f"[{idx}] '{word.get('term')}': partOfSpeech must be set by Enricher stage")
+    elif pos not in VALID_PARTS_OF_SPEECH:
+        errors.append(f"[{idx}] '{word.get('term')}': invalid partOfSpeech '{pos}' — must be one of {sorted(VALID_PARTS_OF_SPEECH)}")
     meanings = word.get("meanings", [])
     if not meanings:
         errors.append(f"[{idx}] '{word.get('term')}': 'meanings' array is empty — enricher must add at least 1 meaning")
