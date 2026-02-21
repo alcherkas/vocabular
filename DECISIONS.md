@@ -438,3 +438,37 @@ No term appeared in its own relation arrays in either file.
 - The pattern of antonym terms leaking into `relatedTerms` (and vice versa) recurred across four EN entries; enricher agents should ensure mutual-antonym pairs are placed in exactly one array.
 - LT masculine/feminine adjective entries require gender-matched synonyms; enrichers should match synonym forms to the grammatical gender of the headword.
 - Validator surfaced 200+ pre-existing synonym-count and inflected-form warnings from earlier batches (batches 1–16). These are outside the scope of qa-17 and were not modified.
+## Batch enricher-lt-24 — LT stubs (jobs/professions, work/office, A1/A2)
+
+**Date:** 2025-07-19
+**Branch:** vocab/enricher-lt-24
+**Scope:** 35 Lithuanian stubs → enriched
+
+### Term selection
+Selected 35 stubs covering jobs/professions and work/office vocabulary at A1/A2 level from the existing stub pool (1 265 stubs at batch start). Priority given to terms learners encounter early when discussing employment and workplace contexts.
+
+**Categories enriched:**
+| Category | Terms |
+|---|---|
+| Professions | mechanikas, kepėjas, gaisrininkas, statybininkas, sodininkas |
+| Workplace people | darbuotojas, darbuotoja, viršininkas, viršininkė, kolega, kolegė, vedėjas, vedėja, bedarbis |
+| Compensation & leave | alga, atlyginimas, atostogos |
+| Office events | susirinkimas, susitikimas, komandiruotė, konferencija, posėdis, seminaras |
+| Organisation | Skyrius |
+| Documents & legal | sutartis, dokumentas, gyvenimo aprašymas, parašas, prašymas |
+| Office tech & furniture | kompiuteris, nešiojamas kompiuteris, elektroninis laiškas, elektroninis paštas, rašomasis stalas, kopijavimo aparatas |
+
+### Decisions
+
+**POS: all noun** — every selected term is a standalone noun or noun phrase; no verbs or adjectives were in scope for this batch.
+
+**posėdis → register: formal** — unlike the other work terms which are register-neutral, *posėdis* denotes a formal official session (board, government, institutional) and is distinctly more formal in register than *susirinkimas* or *susitikimas*.
+
+**Synonyms/antonymTerms/relatedTerms left as `[]`** — at *enriched* status the validator only checks meanings/definition/example/register/translation. Relation arrays are validated at *relations-added* stage; leaving them empty avoids introducing inflected or inaccurate relation terms before the dedicated relations pass.
+
+**Gendered pairs enriched individually** — Lithuanian grammatically distinguishes male/female person nouns (e.g. *darbuotojas* / *darbuotoja*). Each form was enriched as a separate entry with its own definition and example sentence to preserve grammatical accuracy. Translation fields differentiate "(female)" where necessary.
+
+**Multi-word terms matched by exact term string** — *gyvenimo aprašymas*, *nešiojamas kompiuteris*, *elektroninis laiškas*, *elektroninis paštas*, *rašomasis stalas*, *kopijavimo aparatas* are stored as multi-word terms in the JSON; enriched by exact string match to avoid any ambiguity.
+
+### Validation
+`validate_words.py --errors-for enriched` → **PASSED** (10 pre-existing warnings on *approved* entries, unchanged from baseline).
