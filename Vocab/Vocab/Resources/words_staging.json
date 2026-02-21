@@ -13059,10 +13059,32 @@
   },
   {
     "term": "etiological",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Relating to the cause or origin of a disease or pathological condition.",
+        "example": "The etiological agent of tuberculosis is Mycobacterium tuberculosis, identified by Koch in 1882.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "pathology",
+          "causation"
+        ]
+      },
+      {
+        "definition": "Relating to the philosophical or scientific study of causation more broadly.",
+        "example": "The etiological account of representation links mental states to their causal history.",
+        "register": "formal",
+        "tags": [
+          "philosophy",
+          "semantics",
+          "causation"
+        ]
+      }
+    ]
   },
   {
     "term": "pharmacokinetics",
@@ -13226,24 +13248,61 @@
   },
   {
     "term": "teratogen",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An agent—chemical, biological, or physical—that disrupts normal embryonic or fetal development and causes structural malformations.",
+        "example": "Thalidomide was identified as a potent teratogen after its use in pregnant women led to severe limb defects in newborns.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "embryology",
+          "pharmacology",
+          "toxicology"
+        ]
+      }
+    ]
   },
   {
     "term": "excipient",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A pharmacologically inert substance used as a carrier, binder, filler, or stabilizer for the active ingredient in a pharmaceutical formulation.",
+        "example": "Lactose is a common excipient in tablet manufacturing because it provides bulk and aids compression.",
+        "register": "technical",
+        "tags": [
+          "pharmacology",
+          "formulation",
+          "medicine"
+        ]
+      }
+    ]
   },
   {
     "term": "prodrug",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A pharmacologically inactive compound that is converted in the body, typically by metabolic processes, into an active drug.",
+        "example": "Enalapril is a prodrug converted by hepatic esterases to its active form, enalaprilat, which inhibits ACE.",
+        "register": "technical",
+        "tags": [
+          "pharmacology",
+          "medicine",
+          "biochemistry"
+        ]
+      }
+    ]
   },
   {
     "term": "bioequivalence",
@@ -13437,24 +13496,60 @@
   },
   {
     "term": "adenocarcinoma",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A malignant tumor originating in epithelial cells that form glandular or secretory structures, commonly arising in the lung, colon, breast, or pancreas.",
+        "example": "Lung adenocarcinoma is the most prevalent histological subtype of non-small-cell lung cancer among non-smokers.",
+        "register": "technical",
+        "tags": [
+          "oncology",
+          "medicine",
+          "pathology"
+        ]
+      }
+    ]
   },
   {
     "term": "lymphoma",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A cancer originating in lymphocytes of the lymphatic system, classified broadly as Hodgkin lymphoma or non-Hodgkin lymphoma.",
+        "example": "Diffuse large B-cell lymphoma is the most common subtype of non-Hodgkin lymphoma in adults.",
+        "register": "technical",
+        "tags": [
+          "oncology",
+          "haematology",
+          "medicine"
+        ]
+      }
+    ]
   },
   {
     "term": "sarcoma",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A malignant tumor arising from transformed cells of mesenchymal origin, including bone, cartilage, fat, muscle, and vascular tissue.",
+        "example": "Osteosarcoma, the most common primary bone sarcoma, typically affects adolescents during periods of rapid skeletal growth.",
+        "register": "technical",
+        "tags": [
+          "oncology",
+          "medicine",
+          "pathology"
+        ]
+      }
+    ]
   },
   {
     "term": "malignancy",
@@ -13720,10 +13815,22 @@
   },
   {
     "term": "endocarditis",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Inflammation of the endocardium, particularly the heart valves, most often caused by bacterial infection and characterized by the formation of vegetations on valve leaflets.",
+        "example": "Intravenous drug users are at elevated risk for right-sided endocarditis caused by Staphylococcus aureus.",
+        "register": "technical",
+        "tags": [
+          "cardiology",
+          "medicine",
+          "infectious disease"
+        ]
+      }
+    ]
   },
   {
     "term": "erythema",
@@ -13760,38 +13867,98 @@
   },
   {
     "term": "psoriasis",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A chronic autoimmune skin disorder characterized by accelerated keratinocyte proliferation, resulting in thick, silvery-scaled plaques on the skin surface.",
+        "example": "Biologic therapies targeting TNF-alpha have transformed the management of moderate-to-severe plaque psoriasis.",
+        "register": "technical",
+        "tags": [
+          "dermatology",
+          "medicine",
+          "autoimmune"
+        ]
+      }
+    ]
   },
   {
     "term": "desquamation",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The normal or pathological shedding of the outermost layers of the epidermis (stratum corneum) as part of skin turnover or in response to disease.",
+        "example": "Toxic shock syndrome can cause widespread desquamation of the palms and soles during recovery.",
+        "register": "technical",
+        "tags": [
+          "dermatology",
+          "medicine",
+          "physiology"
+        ]
+      }
+    ]
   },
   {
     "term": "urticaria",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A skin reaction marked by transient, raised, erythematous wheals accompanied by intense pruritus, triggered by allergens, drugs, infections, or physical stimuli.",
+        "example": "Chronic spontaneous urticaria persists for more than six weeks without an identifiable external trigger.",
+        "register": "technical",
+        "tags": [
+          "dermatology",
+          "allergy",
+          "medicine"
+        ]
+      }
+    ]
   },
   {
     "term": "seborrheic",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Relating to or caused by excessive secretion of sebum from the sebaceous glands, typically affecting oily areas of the skin such as the scalp, face, and trunk.",
+        "example": "Seborrheic dermatitis of the scalp presents as greasy, yellowish scales accompanied by erythema and pruritus.",
+        "register": "technical",
+        "tags": [
+          "dermatology",
+          "medicine",
+          "physiology"
+        ]
+      }
+    ]
   },
   {
     "term": "hyperpigmentation",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Darkening of localized areas of skin resulting from overproduction or abnormal deposition of melanin.",
+        "example": "Post-inflammatory hyperpigmentation is common after acne lesions resolve, particularly in patients with darker skin tones.",
+        "register": "technical",
+        "tags": [
+          "dermatology",
+          "medicine",
+          "pigmentation"
+        ]
+      }
+    ]
   },
   {
     "term": "pruritus",
@@ -18780,7 +18947,30 @@
   {
     "term": "cinematheque",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An institution dedicated to the archival preservation, restoration, and curated public exhibition of films, especially artistically or historically significant works.",
+        "example": "Henri Langlois co-founded the Cinémathèque Française in 1936, saving thousands of films from destruction.",
+        "register": "formal",
+        "tags": [
+          "cinema",
+          "archive",
+          "culture"
+        ]
+      },
+      {
+        "definition": "A small, specialist cinema that screens classic, foreign-language, or avant-garde films rather than mainstream releases.",
+        "example": "The neighbourhood cinematheque ran a retrospective of Tarkovsky films that sold out every night.",
+        "register": "neutral",
+        "tags": [
+          "cinema",
+          "art-house",
+          "exhibition"
+        ]
+      }
+    ]
   },
   {
     "term": "decoupage",
@@ -18851,12 +19041,38 @@
   {
     "term": "paracinema",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A critical category encompassing exploitation, cult, B-movie, and genre films that operate outside mainstream cinematic norms and are valued by enthusiasts for their transgressive or camp qualities.",
+        "example": "Scholars of paracinema argue that its celebration of 'bad taste' constitutes a deliberate challenge to highbrow aesthetic hierarchies.",
+        "register": "technical",
+        "tags": [
+          "film studies",
+          "cult cinema",
+          "genre"
+        ]
+      }
+    ]
   },
   {
     "term": "cinephilia",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A deep, passionate devotion to cinema as an art form, encompassing film-going culture, scholarly engagement, and the reverent collection or memorization of films.",
+        "example": "The French New Wave emerged from a culture of cinephilia centred on the Cinémathèque Française and the journal Cahiers du cinéma.",
+        "register": "formal",
+        "tags": [
+          "cinema",
+          "culture",
+          "film studies"
+        ]
+      }
+    ]
   },
   {
     "term": "actant",
@@ -19125,12 +19341,48 @@
   {
     "term": "incentivization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The process of designing or deploying incentives—financial rewards, penalties, or non-monetary motivators—to influence the behavior of individuals or organizations.",
+        "example": "The incentivization of renewable-energy adoption through tax credits has accelerated the transition away from fossil fuels.",
+        "register": "formal",
+        "tags": [
+          "economics",
+          "management",
+          "policy"
+        ]
+      }
+    ]
   },
   {
     "term": "arbitration",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A private, binding form of alternative dispute resolution in which the parties present their case to one or more neutral arbitrators who issue an enforceable award.",
+        "example": "The commercial contract included a mandatory arbitration clause specifying that all disputes be resolved under ICC rules.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "dispute resolution",
+          "commercial"
+        ]
+      },
+      {
+        "definition": "The exercise of independent judgment or authority to settle a disagreement between competing parties or claims.",
+        "example": "The committee was called upon for arbitration between the two departments over the allocation of budget resources.",
+        "register": "general",
+        "tags": [
+          "management",
+          "mediation",
+          "governance"
+        ]
+      }
+    ]
   },
   {
     "term": "stratagem",
@@ -21105,62 +21357,250 @@
   {
     "term": "eliminativism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A position in philosophy of mind holding that folk psychological concepts such as beliefs and desires are fundamentally mistaken and will ultimately be replaced by a mature neuroscientific vocabulary.",
+        "example": "Churchland's eliminativism predicts that ordinary mental-state language will become as obsolete as talk of phlogiston.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "philosophy of mind",
+          "cognitive science"
+        ]
+      }
+    ]
   },
   {
     "term": "epiphenomenalism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The philosophical view that conscious mental events are causally inert by-products of physical brain processes and do not themselves cause any physical effects.",
+        "example": "Critics of epiphenomenalism argue that it is self-undermining: if our beliefs have no causal power, we cannot act on them to assert the theory.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "philosophy of mind",
+          "consciousness"
+        ]
+      }
+    ]
   },
   {
     "term": "qualia",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The subjective, intrinsic phenomenal qualities of conscious experience—the 'what it is like' aspect of sensation, such as the redness of red or the painfulness of pain.",
+        "example": "Nagel's thought experiment about what it is like to be a bat highlights the explanatory gap between physical descriptions and qualia.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "consciousness",
+          "philosophy of mind"
+        ]
+      }
+    ]
   },
   {
     "term": "supervenience",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A metaphysical dependence relation in which no difference can occur in one set of properties (the supervening set) without a corresponding difference in another set (the base set).",
+        "example": "Mental properties are said to supervene on physical properties: no two physically identical creatures can differ in their mental states.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "metaphysics",
+          "philosophy of mind"
+        ]
+      }
+    ]
   },
   {
     "term": "panpsychism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The philosophical view that consciousness or some form of experiential property is a fundamental and ubiquitous feature of reality, present in all matter to varying degrees.",
+        "example": "Chalmers has suggested that panpsychism deserves serious consideration as a solution to the hard problem of consciousness.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "consciousness",
+          "metaphysics"
+        ]
+      }
+    ]
   },
   {
     "term": "illusionism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In philosophy of mind, the view that phenomenal consciousness as naively conceived is an illusion—the brain creates a false impression that there are rich subjective qualia.",
+        "example": "Frankish defends illusionism, arguing that introspective reports mislead us into positing qualia that do not really exist.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "philosophy of mind",
+          "consciousness"
+        ]
+      },
+      {
+        "definition": "In visual art and architecture, the technique of creating the perceptual impression of three-dimensional space, volume, or movement on a flat or static surface.",
+        "example": "Baroque ceiling painters used illusionism to make vaulted interiors appear open to the sky.",
+        "register": "technical",
+        "tags": [
+          "art",
+          "painting",
+          "visual perception"
+        ]
+      }
+    ]
   },
   {
     "term": "computationalism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The thesis in cognitive science and philosophy of mind that mental processes are computational in nature—the mind is, in relevant respects, a type of computer.",
+        "example": "Classical computationalism, associated with Fodor and Pylyshyn, posits that thought consists in the manipulation of symbolic mental representations.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "cognitive science",
+          "AI",
+          "philosophy of mind"
+        ]
+      }
+    ]
   },
   {
     "term": "intentionality",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The characteristic of mental states whereby they are directed at or about something—their 'aboutness'—such as a belief being about a state of affairs or a desire being for an object.",
+        "example": "Brentano distinguished mental phenomena from physical ones by the former's intentionality: every mental act refers to a content or object.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "philosophy of mind",
+          "phenomenology"
+        ]
+      },
+      {
+        "definition": "The quality of an action or decision being deliberate and purposive rather than accidental.",
+        "example": "The court found sufficient intentionality in the defendant's conduct to sustain a charge of fraud.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "ethics",
+          "action theory"
+        ]
+      }
+    ]
   },
   {
     "term": "physicalism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The metaphysical thesis that everything that exists is physical, or that any fact about reality supervenes on and is fully determined by physical facts.",
+        "example": "Token physicalism holds that each mental event is identical to some physical brain event, without claiming type-level identities.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "metaphysics",
+          "philosophy of mind"
+        ]
+      }
+    ]
   },
   {
     "term": "representationalism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The philosophical theory that perception is mediated by internal mental representations of the external world rather than by direct acquaintance with it.",
+        "example": "Representationalism about color holds that color experience is constituted by the representation of surface spectral reflectance properties.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "philosophy of mind",
+          "epistemology"
+        ]
+      },
+      {
+        "definition": "In aesthetics, the view that the primary function or value of art lies in its accurate depiction of the world as it appears.",
+        "example": "Ruskin's early aesthetic philosophy championed representationalism, urging painters to study nature with scrupulous fidelity.",
+        "register": "formal",
+        "tags": [
+          "aesthetics",
+          "art criticism",
+          "philosophy of art"
+        ]
+      }
+    ]
   },
   {
     "term": "emergentism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The philosophical position that certain properties of complex systems arise from the interaction of lower-level components in ways that are irreducible to or unpredictable from those components alone.",
+        "example": "Emergentism in philosophy of mind claims that consciousness is a genuine emergent property of suitably complex neural organization.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "philosophy of mind",
+          "metaphysics",
+          "complex systems"
+        ]
+      }
+    ]
   },
   {
     "term": "disjunctivism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A theory of perception holding that veridical perceptions and qualitatively indistinguishable hallucinations are fundamentally different kinds of mental states sharing no common phenomenal factor.",
+        "example": "McDowell's disjunctivism maintains that in genuine perception the world itself is a constituent of experience, not merely represented.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "philosophy of mind",
+          "perception"
+        ]
+      }
+    ]
   },
   {
     "term": "nativism",
@@ -26153,7 +26593,30 @@
   {
     "term": "percolation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The slow passage or filtration of a liquid through a porous substance, driven by gravity or pressure.",
+        "example": "Water percolation through limestone over millennia creates the cave formations characteristic of karst landscapes.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "geology",
+          "fluid dynamics"
+        ]
+      },
+      {
+        "definition": "In statistical physics and graph theory, the study of connectivity in random networks as edges or nodes are progressively added or removed, especially the critical threshold at which a giant connected component forms.",
+        "example": "Percolation theory predicts the precise bond density at which an infinite spanning cluster first appears in a random lattice.",
+        "register": "technical",
+        "tags": [
+          "mathematics",
+          "physics",
+          "network theory"
+        ]
+      }
+    ]
   },
   {
     "term": "criticality",
@@ -26208,7 +26671,30 @@
   {
     "term": "dissipation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The irreversible conversion of ordered energy (mechanical, electrical) into heat, resulting in a reduction of a system's capacity to do work.",
+        "example": "Viscous dissipation converts kinetic energy into heat in turbulent flows, reducing the efficiency of hydraulic systems.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "thermodynamics",
+          "engineering"
+        ]
+      },
+      {
+        "definition": "A lifestyle of excessive indulgence in pleasure, often implying a squandering of resources, talent, or health.",
+        "example": "The biography traces the poet's decades of dissipation, during which alcohol and gambling consumed his inheritance.",
+        "register": "formal",
+        "tags": [
+          "literary",
+          "ethics",
+          "lifestyle"
+        ]
+      }
+    ]
   },
   {
     "term": "metastability",
@@ -26232,7 +26718,20 @@
   {
     "term": "renormalization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A systematic mathematical procedure in quantum field theory and statistical mechanics that removes ultraviolet divergences by absorbing them into redefined, empirically measured parameters.",
+        "example": "The renormalization of quantum electrodynamics, achieved independently by Feynman, Schwinger, and Tomonaga, yielded predictions accurate to more than ten decimal places.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "quantum field theory",
+          "mathematics"
+        ]
+      }
+    ]
   },
   {
     "term": "constructivism",
@@ -26268,7 +26767,30 @@
   {
     "term": "viability",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The capacity of a project, plan, organism, or enterprise to survive, develop, and function successfully under prevailing conditions.",
+        "example": "The feasibility study assessed the long-term viability of the start-up given current market saturation.",
+        "register": "neutral",
+        "tags": [
+          "business",
+          "planning",
+          "strategy"
+        ]
+      },
+      {
+        "definition": "In medicine and biology, the capability of a fetus, cell line, or organism to sustain independent life or normal function.",
+        "example": "Fetal viability is generally considered to begin around 24 weeks of gestation, when survival outside the womb becomes possible with intensive care.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "biology",
+          "obstetrics"
+        ]
+      }
+    ]
   },
   {
     "term": "fallibilism",
@@ -27223,7 +27745,19 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The paratextual elements physically attached to the main body of a book—including titles, prefaces, dedications, epigraphs, footnotes, and indices—that frame and mediate the reader's interpretation.",
+        "example": "Genette's concept of peritext draws attention to how front matter and footnotes shape reception of a literary work.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "book studies",
+          "paratext"
+        ]
+      }
+    ]
   },
   {
     "term": "sjuzhet",
