@@ -3586,8 +3586,8 @@
     "term": "sveikas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
-    "qaNote": "Synonym/related terms are greeting-oriented (e.g., labas) but this adjective entry is about health; replace with health-related relations.",
+    "status": "enriched",
+    "qaNote": "antonymTerms contain wrong POS: \"ligonis\" is a noun (ill person) and \"serga\" is a third-person verb conjugation, not an adjective. Replace with adjective forms, e.g. \"sergantis\" (ailing) and \"ligotas\" (sickly).",
     "meanings": [
       {
         "definition": "Being in good health; not ill.",
@@ -3618,8 +3618,7 @@
     "term": "sveika",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
-    "qaNote": "Synonym/related terms are greeting-oriented (e.g., labas) but this adjective entry is about health; replace with health-related relations.",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Being in good health; not ill (feminine form).",
@@ -3633,7 +3632,7 @@
     ],
     "synonyms": [
       "stipri",
-      "tvirtą"
+      "tvirta"
     ],
     "antonymTerms": [
       "serganti",
@@ -5266,7 +5265,7 @@
     "term": "eiti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "To move from one place to another, usually on foot.",
@@ -5292,13 +5291,14 @@
       "pėsčiomis",
       "vaikščiojimas"
     ],
-    "translation": "to go"
+    "translation": "to go",
+    "qaNote": "\"bėgti\" (to run) is not an antonym of \"eiti\" (to go) — both express forward movement; replace with \"sustoti\" (to stop) or \"grįžti\" (to return)."
   },
   {
     "term": "skambinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To contact someone by telephone or make a ringing sound.",
@@ -5329,7 +5329,7 @@
     "term": "skubėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To do something quickly because there is little time.",
@@ -5361,7 +5361,7 @@
     "term": "susitikti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To come together with someone at an agreed place or by chance.",
@@ -5393,7 +5393,7 @@
     "term": "važiuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To travel using a car, bus, train, or other vehicle.",
@@ -5425,7 +5425,7 @@
     "term": "vėluoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To arrive or happen after the expected time.",
@@ -5454,10 +5454,10 @@
     "translation": "to be late"
   },
   {
-    "term": "Žmogus",
+    "term": "žmogus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A human being.",
@@ -5486,7 +5486,7 @@
     "term": "mergaitė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A female child.",
@@ -5511,13 +5511,14 @@
       "jaunimas",
       "šeima"
     ],
-    "translation": "girl"
+    "translation": "girl",
+    "qaNote": "synonyms \"mažoji moteris\" (little woman) and \"dukrytė\" (little daughter) are not accurate synonyms for \"girl\"; replace with \"mergytė\" or \"mergūnė\"."
   },
   {
     "term": "mergina",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A young female person.",
@@ -5549,7 +5550,7 @@
     "term": "moteris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An adult female person.",
@@ -5581,7 +5582,7 @@
     "term": "berniukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A male child.",
@@ -5612,7 +5613,7 @@
     "term": "vaikinas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A young male person; in context, also a boyfriend.",
@@ -5644,7 +5645,7 @@
     "term": "vyras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An adult male person; also means husband in family context.",
@@ -5675,7 +5676,7 @@
     "term": "mokinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A boy or man who studies at school.",
@@ -5688,7 +5689,7 @@
       }
     ],
     "synonyms": [
-      "studentas",
+      "moksleivis",
       "besimokantysis"
     ],
     "antonymTerms": [
@@ -5700,13 +5701,14 @@
       "mokslas",
       "mokinė"
     ],
-    "translation": "male student"
+    "translation": "male student",
+    "qaNote": "\"studentas\" (university student) is not a synonym for \"mokinys\" (school pupil); replace with \"moksleivis\"."
   },
   {
     "term": "mokinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A girl or woman who studies at school.",
@@ -5719,7 +5721,7 @@
       }
     ],
     "synonyms": [
-      "studentė",
+      "moksleivė",
       "besimokančioji"
     ],
     "antonymTerms": [
@@ -5731,13 +5733,14 @@
       "mokslas",
       "mokinys"
     ],
-    "translation": "female student"
+    "translation": "female student",
+    "qaNote": "\"studentė\" (university student) is not a synonym for \"mokinė\" (female school pupil); replace with \"moksleivė\"."
   },
   {
     "term": "pensininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A retired man receiving a pension.",
@@ -5751,7 +5754,7 @@
     ],
     "synonyms": [
       "išėjęs į pensiją",
-      "veteranas"
+      "senjonas"
     ],
     "antonymTerms": [
       "dirbantysis",
@@ -5763,13 +5766,14 @@
       "poilsis",
       "pensininkė"
     ],
-    "translation": "male pensioner"
+    "translation": "male pensioner",
+    "qaNote": "\"veteranas\" typically denotes a military/war veteran in Lithuanian, not a retired person; remove or replace with \"senjonas\"."
   },
   {
     "term": "pensininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A retired woman receiving a pension.",
@@ -5797,10 +5801,10 @@
     "translation": "female pensioner"
   },
   {
-    "term": "Aktorius",
+    "term": "aktorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A male performer who plays roles in theatre, film, or television.",
@@ -5830,7 +5834,7 @@
     "term": "aktorė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A female performer who plays roles in theatre, film, or television.",
@@ -5860,7 +5864,7 @@
     "term": "dailininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A male artist who creates paintings or visual artwork.",
@@ -5889,7 +5893,7 @@
     "term": "dailininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A female artist who creates paintings or visual artwork.",
@@ -5918,7 +5922,7 @@
     "term": "dainininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who sings songs, often as a performer.",
@@ -5947,7 +5951,7 @@
     "term": "dainininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who sings songs, often as a performer.",
@@ -5976,7 +5980,7 @@
     "term": "sportininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who practices sports, often competitively.",
@@ -6005,7 +6009,7 @@
     "term": "sportininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who practices sports, often competitively.",
@@ -6034,7 +6038,7 @@
     "term": "mokslininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who studies science and does research.",
@@ -6063,7 +6067,7 @@
     "term": "mokslininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who studies science and does research.",
@@ -6092,7 +6096,7 @@
     "term": "darbininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who does manual or practical work.",
@@ -6124,7 +6128,7 @@
     "term": "darbininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who does manual or practical work.",
@@ -6156,7 +6160,7 @@
     "term": "policininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man whose job is to enforce the law and keep public order.",
@@ -6187,7 +6191,7 @@
     "term": "policininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman whose job is to enforce the law and keep public order.",
@@ -6218,7 +6222,7 @@
     "term": "ūkininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who works in agriculture and manages a farm.",
@@ -6248,7 +6252,7 @@
     "term": "ūkininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who works in agriculture and manages a farm.",
