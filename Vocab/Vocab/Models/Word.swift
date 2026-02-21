@@ -1,0 +1,39 @@
+import Foundation
+import SwiftData
+
+@Model
+class Word {
+    @Attribute(.unique) var term: String
+    var definition: String
+    var synonyms: [String]
+    var example: String
+    var partOfSpeech: String
+    var tags: [String] = []
+    var isFavorite: Bool = false
+    var timesCorrect: Int = 0
+    var timesSeen: Int = 0
+    var lastSeen: Date?
+    
+    init(term: String, definition: String, synonyms: [String], example: String, partOfSpeech: String, tags: [String] = []) {
+        self.term = term
+        self.definition = definition
+        self.synonyms = synonyms
+        self.example = example
+        self.partOfSpeech = partOfSpeech
+        self.tags = tags
+    }
+    
+    var masteryLevel: Double {
+        guard timesSeen > 0 else { return 0 }
+        return Double(timesCorrect) / Double(timesSeen)
+    }
+    
+    var masteryDescription: String {
+        switch masteryLevel {
+        case 0.8...1.0: return "Mastered"
+        case 0.6..<0.8: return "Familiar"
+        case 0.3..<0.6: return "Learning"
+        default: return "New"
+        }
+    }
+}
