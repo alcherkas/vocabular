@@ -878,3 +878,20 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Consider adding a `genderForm` metadata field (masc/fem/neut) to adjective entries to reduce the need to embed gender notes in free-text definitions.
+## [2026-02-21] [relations-9] [vocab/relations-9]
+
+### What went well
+- Preflight JSON validation on both files passed immediately; both parsed cleanly with no structural errors.
+- All 35 EN enriched entries (anthropology, genetics, neuroscience, and architecture clusters — from ethnogenesis through entablature) received accurate synonyms, antonymTerms, and relatedTerms in a single pass; status set to `relations-added`.
+- All 35 LT enriched entries (profession M/F pairs: vertėjas/vertėja through mokytojas/mokytoja; four seasons: pavasaris, vasara, ruduo, žiema; and eight weekday/time nouns: savaitė, pirmadienis–sekmadienis, rytas) received Lithuanian-language relations; status set to `relations-added`.
+- POS and register validation passed with zero errors across both files (EN: 70 total relations-added; LT: 70 total relations-added).
+
+### What was harder than expected
+- Lithuanian profession pairs have very few true single-word synonyms; compound descriptors (e.g. "medicinos brolis/sesuo" for slaugytojas/slaugytoja) were used where single-word equivalents do not exist.
+- Weekday nouns in Lithuanian have minimal synonyms in standard usage; "savaitės pradžia" / "savaitės vidurys" used as descriptive near-synonyms where conventional alternatives are absent.
+
+### Process friction
+- None this iteration. Schema, status conventions, and relation field names were stable and consistent with prior rounds.
+
+### Suggested improvement
+- For tightly coupled M/F noun pairs (e.g. vertėjas/vertėja), consider a `grammaticalVariant` field to explicitly cross-reference gender forms rather than relying on relatedTerms for that link.
