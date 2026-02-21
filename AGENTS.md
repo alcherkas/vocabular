@@ -375,3 +375,57 @@ Seed 100 new English C1+ vocabulary stubs into `words_staging.json` across 9 spe
 - The validator does not detect cross-language self-references (e.g. French cognates like "triptyque", "en grisaille"); these required manual inspection.
 - `skaičiuotuvas` is a historical false-friend: it was the official coinage for "computer" in early Lithuanian computing but is now the standard term for "calculator". Context-dependent; flagged as inaccurate for a modern learner audience.
 - `susirinkimas`↔`susitikimas` and `alga`↔`atlyginimas` list each other as mutual synonyms — this is acceptable and consistent with existing file conventions.
+
+---
+
+## Session retro — vocab/relations-20
+
+**Task:** Add synonyms/antonymTerms/relatedTerms to 35 enriched entries per file → `relations-added`. Fix all relation violations before promoting.
+
+**Files changed:** `words_staging.json` (EN), `words_lt_staging.json` (LT)
+
+**Entries promoted:** 35 EN + 35 LT = 70 total
+
+### Validator-flagged violations fixed
+
+**EN — self-referential word-token in relation arrays (8 entries):**
+- `cardiomyopathy`: "dilated cardiomyopathy" / "hypertrophic cardiomyopathy" in relatedTerms → replaced with "ventricular dilation" / "myocardial hypertrophy"
+- `erythema`: "cutaneous erythema" in synonyms → replaced with "rubor"
+- `tensile`: "tensile strength" in relatedTerms → replaced with "fracture strength"
+- `magnetostriction`: "Joule magnetostriction" in synonyms → replaced with "Joule effect"
+- `methanogenesis`: "archaeal methanogenesis" in synonyms → replaced with "anaerobic methane generation"
+- `ostinato`: "basso ostinato" in relatedTerms → replaced with "looped bass figure"
+- `organum`: "parallel organum" in synonyms → replaced with "diaphony"
+- `impasto`: "heavy impasto" in synonyms → replaced with "encrusted paint"
+
+**LT — self-referential word-token in relation arrays (2 entries):**
+- `kiek`: synonym "kiek daug" contained headword as token → set synonyms to []
+- `traukinys`: both synonyms ("greitasis traukinys", "ekspresinis traukinys") contained headword → set synonyms to []
+
+**LT — cross-array duplicates (5 entries):**
+- `karštas`: "šiltas" (synonyms ∩ relatedTerms) and "šaltas" (antonymTerms ∩ relatedTerms) → removed from relatedTerms, added "kaitra" / "vėsa"
+- `sunkus`: "sudėtingas" (synonyms ∩ relatedTerms) and "lengvas" (antonymTerms ∩ relatedTerms) → removed from relatedTerms, added "sunkumas" / "masė"
+- `pirkti`: "parduoti" (antonymTerms ∩ relatedTerms) → removed from relatedTerms, added "pirkinys"
+- `įjungti`: "išjungti" (antonymTerms ∩ relatedTerms) → removed from relatedTerms, added "jungtis"
+- `išjungti`: "įjungti" (antonymTerms ∩ relatedTerms) → removed from relatedTerms, added "maitinimas"
+
+**LT — self-referential qualified forms (1 entry):**
+- `receptas`: "vaistų receptas" / "medicinos receptas" contained "receptas" as token → replaced with "paskyrimas" / "receptūra"
+
+### qaNote conceptual fixes applied (EN, 14 entries)
+
+All qaNote-flagged inaccuracies were resolved:
+- `periglacial`: removed "paraglacial" (related but not synonymous)
+- `nunatak`: replaced generic "rock outcrop" with precise "glacial inlier"
+- `denitrification`: replaced incorrect "nitrogen mineralisation" with "nitrate respiration"
+- `ecotone`: replaced invalid antonym "climax community" with "core habitat"
+- `riparian`: replaced incorrect antonym "terrestrial" with "aquatic"
+- `tessitura`, `leitmotif`, `melisma`, `microtonal`, `serialism`, `dodecaphony`, `polyrhythm`: replaced overly broad / self-referential synonyms
+- `enharmonic`, `tenebrism`, `iconoclasm`, `contrapposto`: replaced inaccurate synonyms
+
+### Issues / notes
+- Preflight validation passed cleanly on both files before changes (only pre-existing approved-status warnings).
+- Post-commit validation: both files `PASSED` — 630 EN words valid, 1960 LT words valid. Zero errors for `relations-added` scope.
+- LT entries with empty synonyms (`tramvajus`, `troleibusas`, `kokie`, `mėnuo`, `metai`, `kiek`, `traukinys`, `sniegas`) were left with `[]` — LT has no minimum synonym requirement.
+- Several LT entries carry production-duplicate qaNotes (`mėnuo`, `metai`, `namas`, `lietus`, `sniegas`) — these are enrichment-pipeline concerns outside this session's scope.
+- `Platus` and `Švarus` capitalisation qaNotes noted; not fixed here as term-field changes are outside relations scope.
