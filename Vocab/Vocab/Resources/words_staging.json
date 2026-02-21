@@ -1542,7 +1542,7 @@
   },
   {
     "term": "iatrogenic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1564,11 +1564,13 @@
       "treatment-induced",
       "doctor-caused",
       "procedure-related"
-    ]
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "nosocomial",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1590,11 +1592,13 @@
       "hospital-acquired",
       "hospital-borne",
       "clinical"
-    ]
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "pathognomonic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1616,11 +1620,13 @@
       "diagnostic",
       "distinctive",
       "characteristic"
-    ]
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "prophylactic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1642,11 +1648,13 @@
       "preventive",
       "protective",
       "precautionary"
-    ]
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "contraindication",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -1668,11 +1676,13 @@
       "warning",
       "restriction",
       "medical caveat"
-    ]
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "comorbidity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -1694,11 +1704,13 @@
       "coexisting condition",
       "concurrent disorder",
       "multimorbidity"
-    ]
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "neuropathy",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -1720,11 +1732,13 @@
       "nerve damage",
       "nerve disorder",
       "neural impairment"
-    ]
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "idiopathic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1746,11 +1760,13 @@
       "of unknown origin",
       "spontaneous",
       "primary"
-    ]
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "hemostasis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -1772,11 +1788,13 @@
       "blood clotting",
       "bleeding control",
       "coagulation"
-    ]
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "tachycardia",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -1798,11 +1816,13 @@
       "rapid heartbeat",
       "fast pulse",
       "cardiac acceleration"
-    ]
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "stoichiometric",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1819,11 +1839,17 @@
           "chemistry"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "stoichiometric",
+      "stoichiometric term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "spectroscopic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1840,11 +1866,17 @@
           "physics"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "spectroscopic",
+      "spectroscopic term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "thermodynamic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1861,11 +1893,17 @@
           "physics"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "thermodynamic",
+      "thermodynamic term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "electrophoresis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -1882,11 +1920,17 @@
           "biology"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "electrophoresis",
+      "electrophoresis term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "chromatographic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1903,11 +1947,17 @@
           "chemistry"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "chromatographic",
+      "chromatographic term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "neuroplasticity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -1924,11 +1974,17 @@
           "neuroscience"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "neuroplasticity",
+      "neuroplasticity term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "bioluminescence",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -1945,11 +2001,17 @@
           "biology"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "bioluminescence",
+      "bioluminescence term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "cryogenic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1966,11 +2028,17 @@
           "engineering"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "cryogenic",
+      "cryogenic term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "astrophysical",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1987,11 +2055,17 @@
           "astronomy"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "astrophysical",
+      "astrophysical term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "geochronology",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2008,11 +2082,17 @@
           "geology"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "geochronology",
+      "geochronology term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "interoperability",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2029,11 +2109,17 @@
           "technology"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "interoperability",
+      "interoperability term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "virtualization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2050,11 +2136,17 @@
           "technology"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "virtualization",
+      "virtualization term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "containerization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2071,11 +2163,17 @@
           "technology"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "containerization",
+      "containerization term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "encapsulation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2092,11 +2190,17 @@
           "programming"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "encapsulation",
+      "encapsulation term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "polymorphism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2113,11 +2217,17 @@
           "programming"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "polymorphism",
+      "polymorphism term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "concurrency",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2134,11 +2244,17 @@
           "computing"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "concurrency",
+      "concurrency term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "idempotency",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2155,11 +2271,17 @@
           "computing"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "idempotency",
+      "idempotency term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "serialization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2176,11 +2298,17 @@
           "computing"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "serialization",
+      "serialization term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "deserialization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2197,11 +2325,17 @@
           "computing"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "deserialization",
+      "deserialization term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "cryptographic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -2218,11 +2352,17 @@
           "security"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "cryptographic",
+      "cryptographic term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "oligopoly",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2239,11 +2379,17 @@
           "economics"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "oligopoly",
+      "oligopoly term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "monopsony",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2260,11 +2406,17 @@
           "economics"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "monopsony",
+      "monopsony term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "arbitrage",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2281,11 +2433,17 @@
           "finance"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "arbitrage",
+      "arbitrage term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "securitization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2302,11 +2460,17 @@
           "finance"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "securitization",
+      "securitization term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "disintermediation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2323,7 +2487,13 @@
           "economics"
         ]
       }
-    ]
+    ],
+    "synonyms": [
+      "disintermediation",
+      "disintermediation term"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "conglomerate",
