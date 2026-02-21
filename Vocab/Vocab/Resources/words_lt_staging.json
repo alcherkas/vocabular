@@ -14734,7 +14734,7 @@
     "term": "varškė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A soft, fresh dairy product made from curdled milk, used in traditional Lithuanian cooking and baking.",
@@ -14759,8 +14759,7 @@
       "kefyras",
       "desertas"
     ],
-    "translation": "cottage cheese, curd",
-    "qaNote": "Synonym 'tvartas' (barn/stable) is semantically wrong — it has no relation to cottage cheese. Remove this synonym; no direct synonym exists in standard Lithuanian (or use 'šviežias sūris' informally)."
+    "translation": "cottage cheese, curd"
   },
   {
     "term": "Dešra",
@@ -19370,7 +19369,7 @@
     "term": "Autobusas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A large road vehicle that carries passengers on fixed routes and stops.",
@@ -19394,7 +19393,7 @@
       "maršrutas"
     ],
     "translation": "bus",
-    "qaNote": "Synonym 'viešasis transportas' (public transport) is a hypernym, not a synonym for 'autobusas' (bus). Remove it; if a synonym is needed consider 'autobusas' has none standard — leave synonyms empty."
+    "qaNote": "Term is incorrectly capitalised: Lithuanian common nouns use lowercase; should be 'autobusas'. Antonym 'automobilis' (private car) is not a true antonym of 'autobusas' (bus): they are both road vehicles and are not semantically opposite; remove from antonymTerms or replace with a justified contrast."
   },
   {
     "term": "automobilis",
@@ -30910,7 +30909,7 @@
     "term": "parašas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A person's name written by hand to authorise documents or confirm identity.",
@@ -30929,8 +30928,7 @@
       "sutartis",
       "vardas"
     ],
-    "translation": "signature",
-    "qaNote": "'rankinis ženklas' (hand mark/sign) is not a natural or established synonym for 'parašas' in contemporary Lithuanian and may be confused with a hand gesture. Removed; 'parašas' has no widely accepted single-word synonym."
+    "translation": "signature"
   },
   {
     "term": "pasas",
@@ -30965,7 +30963,7 @@
     "term": "paso numeris",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The unique alphanumeric identifier printed in a passport, used for official registration and identification purposes.",
@@ -30985,14 +30983,13 @@
       "dokumentas",
       "asmens kodas"
     ],
-    "translation": "passport number",
-    "qaNote": "Both synonyms 'paso eilės numeris' and 'dokumento numeris' share word tokens with the term 'paso numeris' ('paso', 'numeris'), constituting self-references. Both removed."
+    "translation": "passport number"
   },
   {
     "term": "prašymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A formal written request submitted to an authority, employer, or institution for a particular purpose.",
@@ -31015,8 +31012,7 @@
       "sutartis",
       "forma"
     ],
-    "translation": "application, request",
-    "qaNote": "'peticija' (petition) is a specific sub-type of formal request typically collective and addressed to authorities, not a general synonym for 'prašymas' (any request or application). Replaced with 'paraiška' (application/request form)."
+    "translation": "application, request"
   },
   {
     "term": "sutartis",
@@ -31061,7 +31057,7 @@
     "term": "laiškas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An electronic message sent via email.",
@@ -31094,8 +31090,7 @@
       "siųsti",
       "gauti"
     ],
-    "translation": "letter; email",
-    "qaNote": "'žinutė' (short message/text note) refers to a brief informal communication, not synonymous with 'laiškas' (a letter, typically longer and more formally structured). Removed."
+    "translation": "letter; email"
   },
   {
     "term": "pašto ženklas",
@@ -31298,7 +31293,7 @@
     "term": "mokėjimo kortelė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A bank-issued card used to make electronic payments in shops or online.",
@@ -31319,14 +31314,13 @@
       "atsiskaitymas",
       "internetinė bankininkystė"
     ],
-    "translation": "payment card, bank card",
-    "qaNote": "Both synonyms 'banko kortelė' and 'debeto kortelė' contain 'kortelė', a word token of the term 'mokėjimo kortelė', constituting self-references. Additionally, 'debeto kortelė' is a hyponym (debit card is one type of payment card). Both removed."
+    "translation": "payment card, bank card"
   },
   {
     "term": "moneta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A digital token used in cryptocurrency systems.",
@@ -31359,8 +31353,7 @@
       "valiuta",
       "skaitmeninis pinigas"
     ],
-    "translation": "coin; (crypto) token",
-    "qaNote": "'žetonas' (token) refers to a coin-shaped token used in place of money (e.g., arcade or transit token), not to a genuine coin or cryptocurrency unit. It is a related but semantically distinct item. Removed."
+    "translation": "coin; (crypto) token"
   },
   {
     "term": "paskola",
@@ -31420,7 +31413,7 @@
     "term": "valiuta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A system of money in use in a country; also includes digital and cryptocurrencies.",
@@ -31441,8 +31434,7 @@
       "kursas",
       "bankas"
     ],
-    "translation": "currency",
-    "qaNote": "'pinigai' (money in general) is a hypernym of 'valiuta' (a specific currency system); 'mokėjimo priemonė' (means of payment) is broader still, encompassing cards, cheques, and other instruments. Neither is a precise synonym. Both removed."
+    "translation": "currency"
   },
   {
     "term": "atiduoti",
@@ -31521,7 +31513,7 @@
     "term": "atleisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "To stop feeling angry about an offence and no longer hold it against someone; to forgive.",
@@ -31557,7 +31549,7 @@
       "kaltė"
     ],
     "translation": "to forgive; to dismiss (from a job)",
-    "qaNote": "Term was incorrectly capitalised; corrected to 'atleisti'. Synonym 'dovanoti' removed: its primary meaning is 'to give as a gift'; 'to forgive' is a secondary archaic/literary usage, making it unsuitable as a general synonym for 'atleisti'."
+    "qaNote": "Inconsistency: this qaNote states 'dovanoti' was removed from synonyms, but 'dovanoti' is still present in the synonyms array. Remove 'dovanoti': its primary modern meaning is 'to give as a gift'; the sense 'to forgive' is an archaic/literary secondary usage not current in standard Lithuanian, making it an unsuitable synonym for 'atleisti'."
   },
   {
     "term": "baigtis",
@@ -31647,7 +31639,7 @@
     "term": "pasirašyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To provide a signature, including digitally, to authorize a document or agreement.",
@@ -31668,8 +31660,7 @@
       "dokumentas",
       "sutartis"
     ],
-    "translation": "to sign",
-    "qaNote": "'ratifikuoti' (to ratify) is a narrowly defined legal term for the formal confirmation of treaties or constitutional amendments by a legislative body, not a general synonym for 'pasirašyti' (to sign any document). Removed."
+    "translation": "to sign"
   },
   {
     "term": "priimti",
@@ -31740,7 +31731,7 @@
     "term": "teirautis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To ask for information or make an inquiry, especially through online customer service or a website.",
@@ -31763,8 +31754,7 @@
       "atsakymas",
       "pagalbos tarnyba"
     ],
-    "translation": "to inquire, to ask about",
-    "qaNote": "'domėtis' (to be interested in / to take an interest in) expresses a state of curiosity rather than the act of making formal or directed enquiries. It is semantically related but not synonymous with 'teirautis' (to inquire/ask about formally). Removed."
+    "translation": "to inquire, to ask about"
   },
   {
     "term": "trukti",
@@ -32142,7 +32132,7 @@
     "term": "mokytis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To acquire knowledge or a skill through study or experience.",
@@ -32405,7 +32395,7 @@
     "term": "ilsėtis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To stop working or exerting oneself, and spend time in relaxation.",
@@ -32479,7 +32469,7 @@
     "term": "Kaimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A small settlement in a rural area, smaller than a town.",
@@ -32503,7 +32493,8 @@
       "ūkis",
       "gamta"
     ],
-    "translation": "village / countryside"
+    "translation": "village / countryside",
+    "qaNote": "Term is incorrectly capitalised: Lithuanian common nouns use lowercase; should be 'kaimas'. Synonym 'provincija' is a hypernym/cultural concept (the provinces vs. the capital) rather than a synonym for 'kaimas' (a specific village settlement); remove from synonyms — no standard single-word synonym exists for 'kaimas'."
   },
   {
     "term": "sodyba",
@@ -32707,7 +32698,7 @@
     "term": "žolė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Low-growing green plant covering meadows, fields, and lawns; grass.",
@@ -32740,8 +32731,7 @@
       "augalas",
       "žolynai"
     ],
-    "translation": "grass / herb",
-    "qaNote": "Nominative singular: žolė. Two distinct senses: grass (uncountable) and herb (countable)."
+    "translation": "grass / herb"
   },
   {
     "term": "ąsotis",
@@ -32758,7 +32748,7 @@
     "term": "saulėgrąža",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A tall annual plant (Helianthus annuus) with large yellow flower heads that follow the sun; cultivated for oil and seeds.",
@@ -32780,8 +32770,7 @@
       "augalas",
       "sėkla"
     ],
-    "translation": "sunflower",
-    "qaNote": "Compound: saulė (sun) + grąža (turn). Nominative singular: saulėgrąža."
+    "translation": "sunflower"
   },
   {
     "term": "būda",
@@ -32809,7 +32798,7 @@
     "term": "daržas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A plot of cultivated land where vegetables, herbs, and root crops are grown.",
@@ -32832,14 +32821,13 @@
       "daržovės",
       "auginti"
     ],
-    "translation": "vegetable garden",
-    "qaNote": "Nominative singular: daržas. Distinct from sodas (fruit garden/orchard)."
+    "translation": "vegetable garden"
   },
   {
     "term": "darželis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A school or class for young children before they start primary school.",
@@ -32865,7 +32853,7 @@
     "term": "tvenkinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A small, enclosed body of still water, often man-made; a habitat for aquatic wildlife.",
@@ -32887,14 +32875,13 @@
       "upelis",
       "vanduo"
     ],
-    "translation": "pond",
-    "qaNote": "Nominative singular: tvenkinys. Smaller than ežeras (lake); often artificial."
+    "translation": "pond"
   },
   {
     "term": "augti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Of a plant: to develop from seed or root and increase in size.",
@@ -32925,14 +32912,13 @@
       "augalas",
       "daigas"
     ],
-    "translation": "to grow",
-    "qaNote": "Imperfective verb. 3rd person present: auga. Past: augo."
+    "translation": "to grow"
   },
   {
     "term": "auginti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To cause plants to grow; to cultivate crops or garden plants.",
@@ -32964,14 +32950,13 @@
       "daržas",
       "sodas"
     ],
-    "translation": "to grow / to cultivate / to raise",
-    "qaNote": "Causative of augti. 3rd person present: augina. Very versatile verb."
+    "translation": "to grow / to cultivate / to raise"
   },
   {
     "term": "obelis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A deciduous fruit tree (Malus domestica) cultivated for its apples; a common orchard tree.",
@@ -32993,8 +32978,7 @@
       "vaismedis",
       "sodas"
     ],
-    "translation": "apple tree",
-    "qaNote": "Nominative singular: obelis (feminine). Genitive: obels."
+    "translation": "apple tree"
   },
   {
     "term": "slyva",
@@ -33011,7 +32995,7 @@
     "term": "vaismedis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A tree cultivated primarily for its edible fruit, such as apples, pears, or plums.",
@@ -33034,8 +33018,7 @@
       "slyva",
       "sodas"
     ],
-    "translation": "fruit tree",
-    "qaNote": "Compound: vaisius (fruit) + medis (tree). Nominative singular: vaismedis."
+    "translation": "fruit tree"
   },
   {
     "term": "vyšnia",
@@ -33107,7 +33090,7 @@
     "term": "miesto planas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A map showing the streets, buildings, and key landmarks of a city.",
@@ -33133,7 +33116,7 @@
     "term": "turistas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A person who travels to places for pleasure or leisure.",
@@ -33159,7 +33142,7 @@
     "term": "turistė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A female person who travels to places for pleasure or leisure.",
@@ -33185,7 +33168,7 @@
     "term": "viza",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An official endorsement in a passport permitting entry into or exit from a country.",
@@ -33211,7 +33194,7 @@
     "term": "žemėlapis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A flat representation of an area showing its features, roads, and landmarks.",
@@ -33237,7 +33220,7 @@
     "term": "kalva",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A naturally raised area of land that is smaller and less steep than a mountain.",
@@ -33268,7 +33251,7 @@
     "term": "krantas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The land along the edge of a river, lake, or sea.",
@@ -33297,7 +33280,7 @@
     "term": "lyguma",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A large area of flat or gently rolling land without significant hills or mountains.",
@@ -33326,7 +33309,7 @@
     "term": "pajūris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The area of land next to or near the sea; the coastal region.",
@@ -33355,7 +33338,7 @@
     "term": "pieva",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An open area of grass, often found in the countryside and used for grazing or recreation.",
@@ -33384,7 +33367,7 @@
     "term": "sala",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A piece of land entirely surrounded by water.",
