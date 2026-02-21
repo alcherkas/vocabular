@@ -17812,7 +17812,7 @@
     "term": "virdulys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Indas su snapeliu ir rankena, skirtas vandeniui virti; šiandien dažniausiai elektrinis.",
@@ -17827,7 +17827,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "arbatinukas",
+      "puodas",
+      "kaitlentė"
+    ],
     "translation": "kettle"
   },
   {
@@ -18035,7 +18039,7 @@
     "term": "mokėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Perduoti pinigus kaip atlyginimą ar apmokėjimą už prekes ar paslaugas",
@@ -18057,9 +18061,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "gebėti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokestis",
+      "mokėjimas",
+      "gebėjimas"
+    ],
     "translation": "to pay"
   },
   {
@@ -18140,7 +18150,7 @@
     "term": "siūlyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pateikti kaip galimybę ar pasiūlymą; kviesti priimti",
@@ -18162,16 +18172,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "rekomenduoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pasiūlymas",
+      "rekomendacija",
+      "patarimas"
+    ],
     "translation": "to offer"
   },
   {
     "term": "užsisakyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pateikti užsakymą prekėms ar paslaugoms gauti",
@@ -18193,9 +18209,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "rezervuoti"
+    ],
+    "antonymTerms": [
+      "atšaukti"
+    ],
+    "relatedTerms": [
+      "užsakymas",
+      "rezervacija",
+      "pristatymas"
+    ],
     "translation": "to order"
   },
   {
@@ -18396,7 +18420,7 @@
     "term": "didžkukuliai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tradicinis lietuviškas patiekalas – dideli bulvių kukuliai su mėsos ar varškės įdaru, patiekiami su grietine.",
@@ -18410,9 +18434,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "cepelinai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "bulvės",
+      "mėsa",
+      "lietuviška virtuvė"
+    ],
     "translation": "cepelinai"
   },
   {
@@ -19289,7 +19319,7 @@
     "term": "sąskaita",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dokumentas, kuriame nurodytos prekių ar paslaugų kainos ir mokėtina suma",
@@ -19313,14 +19343,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokėjimas",
+      "bankas",
+      "skola"
+    ],
     "translation": "bill"
   },
   {
     "term": "nuolaidų kortelė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Parduotuvės išduodama kortelė, suteikianti nuolaidas ar taškus lojaliam pirkėjui",
@@ -19333,16 +19367,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "lojalumo kortelė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nuolaida",
+      "parduotuvė",
+      "pirkėjas"
+    ],
     "translation": "loyalty card"
   },
   {
     "term": "grynieji",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Fiziniai pinigai – banknotai ir monetos, naudojami atsiskaitymui",
@@ -19355,9 +19395,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "grynpinigiai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "banknotas",
+      "moneta",
+      "mokėjimas"
+    ],
     "translation": "cash"
   },
   {
@@ -19375,7 +19421,7 @@
     "term": "arbatpinigiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Savanoriškai mokama papildoma suma padavėjui ar kitam paslaugų teikėjui kaip padėka",
@@ -19390,7 +19436,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "padavėjas",
+      "aptarnavimas",
+      "restoranas"
+    ],
     "translation": "tip"
   },
   {
@@ -19408,7 +19458,7 @@
     "term": "pirkėjas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, kuris perka prekes parduotuvėje ar iš pardavėjo",
@@ -19430,16 +19480,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "klientas"
+    ],
+    "antonymTerms": [
+      "pardavėjas"
+    ],
+    "relatedTerms": [
+      "parduotuvė",
+      "sandoris",
+      "vartotojas"
+    ],
     "translation": "buyer"
   },
   {
     "term": "grąža",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pinigai, grąžinami pirkėjui, kai jis sumoka daugiau nei kainuoja prekė",
@@ -19454,7 +19512,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kaina",
+      "mokėjimas",
+      "pinigai"
+    ],
     "translation": "change"
   },
   {
@@ -19850,7 +19912,7 @@
     "term": "aplankyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Keliauti į konkrečią vietą ir ten lankytis trumpą laiką.",
@@ -19872,16 +19934,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "apsilankyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lankytojas",
+      "kelionė",
+      "viešnagė"
+    ],
     "translation": "to visit"
   },
   {
     "term": "grąžinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atiduoti atgal; grąžinti prekę parduotuvei",
@@ -19905,8 +19973,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "paimti"
+    ],
+    "relatedTerms": [
+      "grąža",
+      "pristatymas",
+      "atgal"
+    ],
     "translation": "to return"
   },
   {
@@ -20017,7 +20091,7 @@
     "term": "palydėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Lydėti ką nors iki tam tikros vietos ir atsisveikinti prieš kelionę.",
@@ -20039,9 +20113,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "lydėti"
+    ],
+    "antonymTerms": [
+      "pasitikti"
+    ],
+    "relatedTerms": [
+      "palydovas",
+      "atsisveikinti",
+      "kelionė"
+    ],
     "translation": "to see off, to escort"
   },
   {
@@ -20059,7 +20141,7 @@
     "term": "pasitikti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atvykti į vietą, kad sutiktum ten atvykstantį asmenį.",
@@ -20081,9 +20163,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sutikti"
+    ],
+    "antonymTerms": [
+      "palydėti"
+    ],
+    "relatedTerms": [
+      "susitikimas",
+      "svečias",
+      "kelionė"
+    ],
     "translation": "to meet, to welcome, to pick up"
   },
   {
@@ -20218,7 +20308,7 @@
     "term": "vežti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gabenti keleivius arba krovinius transporto priemone iš vienos vietos į kitą.",
@@ -20241,9 +20331,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "gabenti",
+      "transportuoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "transportas",
+      "krovinys",
+      "vairuoti"
+    ],
     "translation": "to transport, to carry, to drive"
   },
   {
@@ -20568,7 +20665,7 @@
     "term": "motociklas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dviratė motorinė transporto priemonė su varikliu, skirta kelionėms ar sportui.",
@@ -20582,7 +20679,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dviratis",
+      "automobilis",
+      "transporto priemonė"
+    ],
     "translation": "motorcycle"
   },
   {
@@ -21135,7 +21236,7 @@
     "term": "kilometrai per valandą (km/h)",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Greičio matavimo vienetas, nurodantis, kiek kilometrų įveikiama per vieną valandą.",
@@ -21150,7 +21251,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "greitis",
+      "atstumai",
+      "kelionė"
+    ],
     "translation": "kilometres per hour (km/h)"
   },
   {
@@ -21354,7 +21459,7 @@
     "term": "arti",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nedideliu atstumu nuo ko nors; netoli.",
@@ -21376,16 +21481,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "netoliese",
+      "šalia"
+    ],
+    "antonymTerms": [
+      "toli"
+    ],
+    "relatedTerms": [
+      "atstumas",
+      "kaimynas",
+      "artumas"
+    ],
     "translation": "near, close"
   },
   {
     "term": "toli",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dideliu atstumu nuo ko nors; ne arti.",
@@ -21399,15 +21513,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "arti"
+    ],
+    "relatedTerms": [
+      "atstumas",
+      "kelionė",
+      "erdvė"
+    ],
     "translation": "far, far away"
   },
   {
     "term": "dešinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dešinioji pusė arba kryptis priešinga kairei.",
@@ -21421,15 +21541,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "kairė"
+    ],
+    "relatedTerms": [
+      "kryptis",
+      "pusė",
+      "orientacija"
+    ],
     "translation": "right (side)"
   },
   {
     "term": "kairė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kairioji pusė arba kryptis priešinga dešinei.",
@@ -21443,15 +21569,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "dešinė"
+    ],
+    "relatedTerms": [
+      "kryptis",
+      "pusė",
+      "orientacija"
+    ],
     "translation": "left (side)"
   },
   {
     "term": "dešinėn",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kryptis į dešinę pusę; naudojama judėjimo krypčiai nurodyti.",
@@ -21465,15 +21597,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "kairėn"
+    ],
+    "relatedTerms": [
+      "kryptis",
+      "dešinė",
+      "sukti"
+    ],
     "translation": "to the right"
   },
   {
     "term": "kairėn",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kryptis į kairę pusę; naudojama judėjimo krypčiai žodžiu nurodyti.",
@@ -21487,8 +21625,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "dešinėn"
+    ],
+    "relatedTerms": [
+      "kryptis",
+      "kairė",
+      "sukti"
+    ],
     "translation": "to the left"
   },
   {
@@ -21517,7 +21661,7 @@
     "term": "pirmyn",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Į priekį, toliau einamos krypties link.",
@@ -21530,16 +21674,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "priekin"
+    ],
+    "antonymTerms": [
+      "atgal"
+    ],
+    "relatedTerms": [
+      "kryptis",
+      "judėjimas",
+      "progresas"
+    ],
     "translation": "forward, ahead"
   },
   {
     "term": "atgal",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Į priešingą kryptį arba sugrįžtant į ankstesnę vietą.",
@@ -21563,15 +21715,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "pirmyn"
+    ],
+    "relatedTerms": [
+      "kryptis",
+      "grįžimas",
+      "judėjimas"
+    ],
     "translation": "back, backwards"
   },
   {
     "term": "tiesiai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Toliau ta pačia kryptimi, nesukant į šoną.",
@@ -21584,16 +21742,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "priekin"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kryptis",
+      "kelias",
+      "judėjimas"
+    ],
     "translation": "straight ahead"
   },
   {
     "term": "laiptai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kopimo konstrukcija iš nuoseklių laiptelių, skirta pereiti tarp skirtingų aukštų.",
@@ -21617,14 +21781,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "liftas",
+      "aukštas",
+      "pastatas"
+    ],
     "translation": "stairs, steps"
   },
   {
     "term": "liftas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mechaninis prietaisas pastate, skirtas žmonėms ar kroviniams kelti tarp aukštų.",
@@ -21649,7 +21817,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "laiptai",
+      "aukštas",
+      "pastatas"
+    ],
     "translation": "elevator, lift"
   },
   {
@@ -22794,7 +22966,7 @@
     "term": "vaikų kambarys",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Patalpa, skirta vaikams žaisti, ilsėtis ar praleisti laiką.",
@@ -22807,9 +22979,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "žaidimų kambarys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "miegamasis",
+      "žaislai",
+      "vaikas"
+    ],
     "translation": "children's room, playroom"
   },
   {
@@ -22860,7 +23038,7 @@
     "term": "vonia",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ovalus indas, pripildomas vandens maudymuisi.",
@@ -22882,9 +23060,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vonios kambarys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dušas",
+      "tualetas",
+      "kriauklė"
+    ],
     "translation": "bathtub, bathroom"
   },
   {
@@ -23059,7 +23243,7 @@
     "term": "siena",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pastato statybinė dalis, atskirianti patalpas arba ribojanti erdvę.",
@@ -23082,7 +23266,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "riba",
+      "tvora",
+      "stogas"
+    ],
     "translation": "wall, border"
   },
   {
@@ -23367,7 +23555,7 @@
     "term": "lova",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Baldas miegui, sudarytas iš rėmo, čiužinio ir pagalvių.",
@@ -23392,7 +23580,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "čiužinys",
+      "pagalvė",
+      "miegamasis"
+    ],
     "translation": "bed"
   },
   {
@@ -23410,7 +23602,7 @@
     "term": "antklodė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Storas audeklas arba plūksninė danga, kuria apsiklojama miegant.",
@@ -23425,14 +23617,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "paklodė",
+      "pagalvė",
+      "lova"
+    ],
     "translation": "blanket, duvet"
   },
   {
     "term": "paklodė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plono audeklo lakštas, tiesiamas ant čiužinio arba naudojamas apsitraukti.",
@@ -23447,7 +23643,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "antklodė",
+      "čiužinys",
+      "lova"
+    ],
     "translation": "bed sheet"
   },
   {
