@@ -1468,3 +1468,45 @@ Six entries (modularity, overconfidence, quasirationality, dielectric, perovskit
 - `carnivalesque` enriched as `adjective` (its primary grammatical function in Bakhtin criticism), consistent with the valid POS set.
 - `antonymTerms` set to conceptually contrasting terms where no true linguistic antonym exists (e.g., `organum` → `monophony, plainchant`), matching existing file conventions.
 - No duplicate terms introduced; all 35 were previously status `stub` with empty `meanings`.
+
+## Session retro — vocab/qa-19
+
+**Date:** 2025-07-25
+**Branch:** vocab/qa-19
+**Commit:** 6d22ce5
+
+### What was done
+- Preflight JSON validation on both staging files: `words_staging.json` (EN) and `words_lt_staging.json` (LT) — both parsed without errors.
+- Reviewed all 31 EN `relations-added` entries and all 35 LT `relations-added` entries.
+- Ran automated checks (self-reference, cross-array duplicates, -ą/-ų inflected endings in LT arrays, POS/register validity) — no structural violations detected.
+- Performed semantic synonym accuracy review; identified 4 issues across both files.
+- Applied status updates: `approved` or `enriched` with `qaNote`.
+- Executed `validate_words.py --staging` on both files; all reported failures are pre-existing (prior batches), zero new errors introduced.
+
+### Stats
+
+| File | Total reviewed | Approved | Enriched |
+|------|---------------|----------|---------|
+| EN (`words_staging.json`) | 31 | 28 | 3 |
+| LT (`words_lt_staging.json`) | 35 | 34 | 1 |
+| **Total** | **66** | **62** | **4** |
+
+### Enriched entries (issues found)
+
+| Term | Lang | Issue | Action |
+|------|------|-------|--------|
+| `vassalage` | EN | "serfdom" listed as synonym — serfs (unfree peasants bound to land) and vassals (free knights/lords holding fiefs) occupy entirely different positions in the feudal hierarchy | Removed "serfdom" from synonyms |
+| `encomienda` | EN | "tributum" listed as synonym — *tributum* is a Roman fiscal term unrelated to the Spanish colonial encomienda institution | Removed "tributum" from synonyms |
+| `hagiography` | EN | "panegyric" listed as synonym — a panegyric is a speech/text of elaborate praise and does not narrate a life; hagiography specifically denotes a written life of a saint or an uncritically flattering biography | Removed "panegyric" from synonyms |
+| `lėtas` | LT | "nerūpestingas" (careless/carefree) listed as synonym for "slow" — semantic mismatch; the word describes absence of worry, not low speed | Removed "nerūpestingas" from synonyms |
+
+### Checks performed
+1. **Self-reference** — term must not appear in its own synonym/antonym/related arrays: ✅ pass (all 66)
+2. **LT nominative forms** — no -ą/-ų (accusative/genitive plural) endings in arrays: ✅ pass (all 35 LT)
+3. **Synonym semantic accuracy** — manual review against domain knowledge: 4 issues found and corrected
+4. **Cross-array duplicates** — no entry appearing in two or more relation arrays simultaneously: ✅ pass (all 66)
+5. **POS validity** — all values within allowed set: ✅ pass (all 66)
+6. **Register validity** — all values within allowed set: ✅ pass (all 66)
+
+### Validator result
+`validate_words.py --staging` executed on both files. EN: 26 pre-existing errors (synonym-count on earlier stubs). LT: 10 pre-existing errors (inflected forms in earlier entries). **Zero new errors introduced by batch 19.**
