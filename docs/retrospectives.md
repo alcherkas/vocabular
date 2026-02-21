@@ -40,3 +40,20 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 ---
 
 <!-- Agents: append entries below this line -->
+
+## [2025-07-15] [enricher-lt] [enrich-lt-batch-1-3]
+
+### What went well
+- The pipeline protocol was clear and easy to follow: pick stubs, enrich, validate, commit.
+- Validation script caught issues early and gave clear feedback; all 3 batches passed on first attempt.
+- The first 15 Lithuanian entries were common greetings/phrases, so definitions were straightforward.
+
+### What was harder than expected
+- Several early entries (labas, labanakt, sudie, etc.) had empty `partOfSpeech`; deciding between "phrase" and "adverb" for single-word expressions like "taip", "ne", "gerai" required judgment.
+- "prašom" has multiple distinct uses (you're welcome / please go ahead) — collapsing into one meaning felt lossy but kept the batch moving.
+
+### Process friction
+- None significant this iteration. The staging file structure and validation script worked smoothly.
+
+### Suggested improvement
+- Consider adding a `partOfSpeech` value like "particle" or "interjection" to `VALID_PARTS_OF_SPEECH` — many Lithuanian A1 words (taip, ne, ačiū) are particles, not true adverbs.
