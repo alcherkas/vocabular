@@ -702,3 +702,29 @@ Enrich 35 English stubs from three domains: epistemology/philosophy of science, 
 - No new stubs were seeded; existing stubs from the staging file were enriched only.
 - No merge performed as instructed.
 - Technical register used throughout; `neutral` used for typographic sense of ellipsis.
+## Session: enricher-lt-38 — Enrich 35 LT Environment/Ecology Stubs
+
+**Branch**: `vocab/enricher-lt-38`
+**Commit**: `bcb2bca` — vocab(enricher-lt-38): enrich 35 Lithuanian stubs
+**Role**: Enricher (LT)
+**Batch**: 35 stubs → enriched
+
+### What was done
+Enriched 35 Lithuanian stub entries focused on environment/ecology vocabulary at B1/B2 level:
+- **Weather verbs (19)**: lyti, lyja, lijo, snigti, sninga, snigo, pūsti, pučia, pūtė, atšilti, atšyla, atšilo, atšalti, atšąla, atšalo, šviesti, šviečia, švietė, žaibuoti
+- **Weather nouns (10)**: bala, šlapdriba, pragiedruliai, laipsnis, šiaurė, rytai, vakarai, vėjelis, sinoptikas, sinoptikė
+- **Weather adjectives (5)**: lietingas, sausas, slidus, šlapias, tirštas
+- **Nature (1)**: kalnas
+
+Each entry received: `translation` (EN gloss), `meanings` (definition + natural example sentence + register + tags), `status: "enriched"`.
+
+### Validation
+`validate_words.py --errors-for enriched` → **PASSED** — 1995 words valid ✓
+All warnings were pre-existing in approved-status entries unrelated to this batch.
+
+### Notes
+- Many entries are conjugated verb forms (present/past tense: lyja/lijo, sninga/snigo, etc.). These are distinct stubs in the staging file and were enriched as-is per protocol.
+- `laipsnis` and `kalnas` received two meanings each (temperature degree vs. academic degree; mountain vs. figurative pile) to capture distinct senses.
+- `sausas`, `šlapias`, `tirštas` received two meanings each (general + weather/nature domain) for genuine semantic distinctness.
+- Compass directions (šiaurė, rytai, vakarai) each received a second meaning for the cultural/regional sense (e.g. "the West") where applicable.
+- No merge performed per instructions.
