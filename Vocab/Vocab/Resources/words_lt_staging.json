@@ -26579,7 +26579,7 @@
     "term": "rašomasis stalas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A desk or table used for writing and office work, typically found in an office or study.",
@@ -26591,9 +26591,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "darbo stalas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kėdė",
+      "biuras",
+      "kompiuteris"
+    ],
     "translation": "writing desk, office desk"
   },
   {
@@ -26611,7 +26617,7 @@
     "term": "kompiuteris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An electronic device used to process, store, and display information, essential for modern office work.",
@@ -26623,9 +26629,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "skaičiuotuvas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nešiojamas kompiuteris",
+      "klaviatūra",
+      "ekranas"
+    ],
     "translation": "computer"
   },
   {
@@ -26797,7 +26809,7 @@
     "term": "nešiojamas kompiuteris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A portable computer that can be used anywhere, commonly used for work and remote working.",
@@ -26809,9 +26821,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "laptopas"
+    ],
+    "antonymTerms": [
+      "stacionarus kompiuteris"
+    ],
+    "relatedTerms": [
+      "kompiuteris",
+      "baterija",
+      "klaviatūra"
+    ],
     "translation": "laptop"
   },
   {
@@ -26829,7 +26849,7 @@
     "term": "elektroninis laiškas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A digital message sent and received over the internet, widely used for professional communication.",
@@ -26842,16 +26862,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "el. laiškas"
+    ],
+    "antonymTerms": [
+      "popierinis laiškas"
+    ],
+    "relatedTerms": [
+      "elektroninis paštas",
+      "priedas",
+      "siuntėjas"
+    ],
     "translation": "email"
   },
   {
     "term": "elektroninis paštas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The system or service for sending and receiving electronic messages; also refers to an email address.",
@@ -26864,9 +26892,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "el. paštas"
+    ],
+    "antonymTerms": [
+      "tradicinis paštas"
+    ],
+    "relatedTerms": [
+      "elektroninis laiškas",
+      "internetas",
+      "serveris"
+    ],
     "translation": "email address, email system"
   },
   {
@@ -26884,7 +26920,7 @@
     "term": "kopijavimo aparatas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A machine used in offices to make copies of documents and papers quickly.",
@@ -26896,16 +26932,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kopiatorius"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "spausdintuvas",
+      "skaitytuvas",
+      "biuro technika"
+    ],
     "translation": "photocopier"
   },
   {
     "term": "Skyrius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A division or section within a company or organisation that handles a specific area of work.",
@@ -26917,9 +26959,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "padalinys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "įmonė",
+      "darbuotojas",
+      "vadovas"
+    ],
     "translation": "department"
   },
   {
@@ -26955,7 +27003,7 @@
     "term": "atostogos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A period of time when an employee is allowed to be away from work for rest or personal matters.",
@@ -26967,16 +27015,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "poilsis"
+    ],
+    "antonymTerms": [
+      "darbas"
+    ],
+    "relatedTerms": [
+      "kelionė",
+      "šventė",
+      "poilsiadienis"
+    ],
     "translation": "vacation, leave"
   },
   {
     "term": "darbuotojas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man employed by an organisation or employer to perform work in exchange for payment.",
@@ -26989,16 +27045,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tarnautojas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "darbuotoja",
+      "darbdavys",
+      "kolega"
+    ],
     "translation": "employee"
   },
   {
     "term": "darbuotoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman employed by an organisation or employer to perform work in exchange for payment.",
@@ -27011,9 +27073,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tarnautoja"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "darbuotojas",
+      "darbdavė",
+      "kolegė"
+    ],
     "translation": "employee (female)"
   },
   {
@@ -27096,7 +27164,7 @@
     "term": "vedėjas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who heads or leads a department, section, or organisation.",
@@ -27108,16 +27176,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vadovas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vedėja",
+      "skyrius",
+      "pavaldinys"
+    ],
     "translation": "head, manager"
   },
   {
     "term": "vedėja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who heads or leads a department, section, or organisation.",
@@ -27129,16 +27203,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vadovė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vedėjas",
+      "skyrius",
+      "pavaldinė"
+    ],
     "translation": "head, manager (female)"
   },
   {
     "term": "viršininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who is in charge of and manages employees or a department.",
@@ -27150,16 +27230,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vadovas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "viršininkė",
+      "pavaldinys",
+      "komanda"
+    ],
     "translation": "boss, manager"
   },
   {
     "term": "viršininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who is in charge of and manages employees or a department.",
@@ -27171,16 +27257,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vadovė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "viršininkas",
+      "pavaldinė",
+      "komanda"
+    ],
     "translation": "boss, manager (female)"
   },
   {
     "term": "kolega",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who works with you in the same workplace or profession.",
@@ -27192,16 +27284,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "bendradarbis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kolegė",
+      "komanda",
+      "darbas"
+    ],
     "translation": "colleague"
   },
   {
     "term": "kolegė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who works with you in the same workplace or profession.",
@@ -27213,16 +27311,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "bendradarbė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kolega",
+      "komanda",
+      "darbas"
+    ],
     "translation": "colleague (female)"
   },
   {
     "term": "bedarbis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who does not have a job and is seeking employment.",
@@ -27234,9 +27338,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "neturintis darbo"
+    ],
+    "antonymTerms": [
+      "darbuotojas"
+    ],
+    "relatedTerms": [
+      "nedarbas",
+      "darbas",
+      "išmoka"
+    ],
     "translation": "unemployed person"
   },
   {
@@ -27287,7 +27399,7 @@
     "term": "komandiruotė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A work-related trip to another city or country made by an employee on behalf of their employer.",
@@ -27299,16 +27411,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tarnybinė kelionė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kelionė",
+      "viešbutis",
+      "konferencija"
+    ],
     "translation": "business trip"
   },
   {
     "term": "konferencija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large formal meeting where professionals gather to discuss topics in their field.",
@@ -27320,9 +27438,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "forumas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "seminaras",
+      "pranešimas",
+      "posėdis"
+    ],
     "translation": "conference"
   },
   {
@@ -27340,7 +27464,7 @@
     "term": "posėdis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formal official meeting or session, typically in a governmental, institutional, or corporate setting.",
@@ -27353,16 +27477,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sesija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "susirinkimas",
+      "darbotvarkė",
+      "protokolas"
+    ],
     "translation": "session, formal meeting"
   },
   {
     "term": "seminaras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A training or educational meeting where participants discuss a topic or develop professional skills.",
@@ -27374,16 +27504,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "mokymai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "konferencija",
+      "pranešimas",
+      "dirbtuvės"
+    ],
     "translation": "seminar"
   },
   {
     "term": "susirinkimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A gathering of colleagues or staff to discuss work matters or make decisions.",
@@ -27395,16 +27531,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "susitikimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "posėdis",
+      "darbotvarkė",
+      "komanda"
+    ],
     "translation": "meeting, gathering"
   },
   {
     "term": "susitikimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A prearranged occasion when two or more people meet, often for a specific professional purpose.",
@@ -27416,16 +27558,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "susirinkimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "darbotvarkė",
+      "biuras",
+      "klientas"
+    ],
     "translation": "appointment, meeting"
   },
   {
     "term": "alga",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The regular payment received by an employee for work done, usually paid monthly.",
@@ -27437,16 +27585,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atlyginimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "darbas",
+      "mokestis",
+      "bankas"
+    ],
     "translation": "wage, pay"
   },
   {
     "term": "atlyginimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The total pay or compensation received by an employee for their work.",
@@ -27458,16 +27612,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "alga"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "darbas",
+      "mokestis",
+      "pensija"
+    ],
     "translation": "salary, remuneration"
   },
   {
     "term": "dokumentas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A written or printed item that provides official information or evidence, used in a work context.",
@@ -27480,16 +27640,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "raštas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "parašas",
+      "biuras",
+      "sutartis"
+    ],
     "translation": "document"
   },
   {
     "term": "gyvenimo aprašymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A written summary of a person's education, work experience, and skills, submitted when applying for a job.",
@@ -27501,16 +27667,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "CV"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "darbas",
+      "prašymas",
+      "interviu"
+    ],
     "translation": "CV, résumé"
   },
   {
     "term": "parašas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person's name written by hand to authorise documents or confirm identity.",
@@ -27522,9 +27694,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "autografas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dokumentas",
+      "sutartis",
+      "vardas"
+    ],
     "translation": "signature"
   },
   {
@@ -27553,7 +27731,7 @@
     "term": "prašymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formal written request submitted to an authority, employer, or institution for a particular purpose.",
@@ -27565,16 +27743,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pareiškimas"
+    ],
+    "antonymTerms": [
+      "atsisakymas"
+    ],
+    "relatedTerms": [
+      "dokumentas",
+      "sutartis",
+      "forma"
+    ],
     "translation": "application, request"
   },
   {
     "term": "sutartis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formal written agreement between two or more parties, especially an employment agreement.",
@@ -27587,9 +27773,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kontraktas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "parašas",
+      "dokumentas",
+      "teisė"
+    ],
     "translation": "contract"
   },
   {
@@ -34016,7 +34208,7 @@
   },
   {
     "term": "gaisrininkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -34033,9 +34225,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "ugniagesys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "gesintuvas",
+      "gaisrinė",
+      "pavojus"
+    ]
   },
   {
     "term": "gaisrininkė",
@@ -34046,7 +34244,7 @@
   },
   {
     "term": "statybininkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -34062,9 +34260,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "darbininkas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "statyba",
+      "namas",
+      "įrankiai"
+    ]
   },
   {
     "term": "statybininkė",
@@ -34075,7 +34279,7 @@
   },
   {
     "term": "sodininkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -34092,9 +34296,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "daržininkas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "sodas",
+      "gėlės",
+      "medis"
+    ]
   },
   {
     "term": "sodininkė",
@@ -34105,7 +34315,7 @@
   },
   {
     "term": "mechanikas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -34121,9 +34331,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "technikas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "automobilis",
+      "variklis",
+      "remontas"
+    ]
   },
   {
     "term": "mechanikė",
@@ -34134,7 +34350,7 @@
   },
   {
     "term": "kepėjas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -34151,9 +34367,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "duonkepys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "duona",
+      "kepykla",
+      "miltai"
+    ]
   },
   {
     "term": "kepėja",
