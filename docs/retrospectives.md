@@ -413,3 +413,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a small canonical LT phrase synonym/antonym reference list to reduce wording variance across relation batches.
+
+## [2026-02-21] [vocab-seeder-agent] [seeder-en-1]
+
+### What went well
+- Added exactly 100 new C1+ English stub terms to `Vocab/Vocab/Resources/words_staging.json` in one pass.
+- Pre-checked terms against both staging and production word lists to avoid introducing duplicates.
+
+### What was harder than expected
+- Curating a domain-balanced list that stayed fully outside existing staging/production vocab required an extra candidate pass.
+
+### Process friction
+- None.
+
+### Suggested improvement
+- Keep a reusable vetted candidate bank by domain to speed up future fixed-size seeding tasks.
