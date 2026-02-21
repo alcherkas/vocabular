@@ -13596,387 +13596,1074 @@
   {
     "term": "patinka",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Third-person form of 'patikti'; expresses that something is pleasing or appealing to someone.",
+        "example": "Man patinka kava su pienu.",
+        "register": "general",
+        "tags": [
+          "feeling",
+          "preference",
+          "daily"
+        ]
+      }
+    ],
+    "synonyms": [
+      "patikti",
+      "mėgti"
+    ],
+    "antonymTerms": [
+      "nepatikti",
+      "nemėgti"
+    ],
+    "relatedTerms": [
+      "mėgstamas",
+      "mėgstamiausias",
+      "noras"
+    ],
+    "translation": "likes / is pleasing"
   },
   {
     "term": "ragauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To sample or taste food or drink, usually in small amounts.",
+        "example": "Ar galiu paragauti šio sūrio?",
+        "register": "general",
+        "tags": [
+          "food",
+          "cooking",
+          "tasting"
+        ]
+      }
+    ],
+    "synonyms": [
+      "paragauti",
+      "pabandyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "skonis",
+      "valgyti",
+      "kepti"
+    ],
+    "translation": "to taste / to try (food)"
   },
   {
     "term": "valgyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To consume food by chewing and swallowing.",
+        "example": "Mes valgome pusryčius kiekvieną rytą.",
+        "register": "general",
+        "tags": [
+          "food",
+          "daily",
+          "nutrition"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ėsti",
+      "maitintis"
+    ],
+    "antonymTerms": [
+      "badauti"
+    ],
+    "relatedTerms": [
+      "maistas",
+      "pusryčiai",
+      "pietūs",
+      "vakarienė"
+    ],
+    "translation": "to eat"
   },
   {
     "term": "gerti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To consume a liquid by swallowing.",
+        "example": "Jis geria vandenį kiekvieną rytą.",
+        "register": "general",
+        "tags": [
+          "drink",
+          "daily",
+          "hydration"
+        ]
+      }
+    ],
+    "synonyms": [
+      "atsigerti",
+      "gurkšnoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vanduo",
+      "pienas",
+      "sultys",
+      "kava"
+    ],
+    "translation": "to drink"
   },
   {
     "term": "pusryčiauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To eat the first meal of the day, typically in the morning.",
+        "example": "Mes pusryčiaujame sekmadienį kartu.",
+        "register": "general",
+        "tags": [
+          "meal",
+          "morning",
+          "daily"
+        ]
+      }
+    ],
+    "synonyms": [
+      "valgyti pusryčius"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pusryčiai",
+      "rytas",
+      "valgyti",
+      "pietauti"
+    ],
+    "translation": "to have breakfast"
   },
   {
     "term": "pietauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To eat the midday meal, typically around noon.",
+        "example": "Ar pietausite su mumis šiandien?",
+        "register": "general",
+        "tags": [
+          "meal",
+          "midday",
+          "daily"
+        ]
+      }
+    ],
+    "synonyms": [
+      "valgyti pietus"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pietūs",
+      "valgyti",
+      "pusryčiauti",
+      "vakarieniauti"
+    ],
+    "translation": "to have lunch"
   },
   {
     "term": "vakarieniauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To eat the evening meal, usually the last main meal of the day.",
+        "example": "Šeima vakarieniavo kartu kiekvieną vakarą.",
+        "register": "general",
+        "tags": [
+          "meal",
+          "evening",
+          "daily"
+        ]
+      }
+    ],
+    "synonyms": [
+      "valgyti vakarienę"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vakarienė",
+      "vakaras",
+      "valgyti",
+      "pietauti"
+    ],
+    "translation": "to have dinner / to have supper"
   },
   {
     "term": "kviesti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To ask someone to come, attend an event, or participate in something.",
+        "example": "Noriu pakviesti tave į savo gimtadienio vakarėlį.",
+        "register": "general",
+        "tags": [
+          "social",
+          "communication",
+          "event"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pakviesti",
+      "prašyti ateiti"
+    ],
+    "antonymTerms": [
+      "atsisakyti",
+      "atmesti"
+    ],
+    "relatedTerms": [
+      "kvietimas",
+      "svečias",
+      "vakarėlis",
+      "susitikimas"
+    ],
+    "translation": "to invite"
   },
   {
     "term": "laukti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To remain in a place or state until a particular time or event occurs.",
+        "example": "Palaukite, prašau – aš tuoj ateisiu.",
+        "register": "general",
+        "tags": [
+          "time",
+          "action",
+          "daily"
+        ]
+      }
+    ],
+    "synonyms": [
+      "palaukti",
+      "lūkuriuoti"
+    ],
+    "antonymTerms": [
+      "skubėti"
+    ],
+    "relatedTerms": [
+      "laikas",
+      "eilė",
+      "kantrybė",
+      "trukti"
+    ],
+    "translation": "to wait"
   },
   {
     "term": "virti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To cook food in boiling water or another liquid; also describes the process of liquid reaching boiling point.",
+        "example": "Ji verda sriubą su daržovėmis.",
+        "register": "general",
+        "tags": [
+          "cooking",
+          "food",
+          "kitchen"
+        ]
+      }
+    ],
+    "synonyms": [
+      "išvirti",
+      "gaminti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kepti",
+      "maistas",
+      "sriuba",
+      "vanduo",
+      "kaisti"
+    ],
+    "translation": "to boil / to cook"
   },
   {
     "term": "kepti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To cook food using dry heat, in an oven, on a pan, or over a fire.",
+        "example": "Mama kepa pyragą šį sekmadienį.",
+        "register": "general",
+        "tags": [
+          "cooking",
+          "food",
+          "kitchen"
+        ]
+      }
+    ],
+    "synonyms": [
+      "iškepti",
+      "skrudinti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "virti",
+      "pyragas",
+      "duona",
+      "orkaitė",
+      "keptuvė"
+    ],
+    "translation": "to bake / to fry / to roast"
   },
   {
     "term": "daryti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To perform an action, carry out a task, or create something.",
+        "example": "Ką tu darai šiandien vakare?",
+        "register": "general",
+        "tags": [
+          "action",
+          "daily",
+          "general"
+        ]
+      }
+    ],
+    "synonyms": [
+      "gaminti",
+      "atlikti",
+      "vykdyti"
+    ],
+    "antonymTerms": [
+      "nedaryti"
+    ],
+    "relatedTerms": [
+      "veikla",
+      "užduotis",
+      "rezultatas",
+      "darbas"
+    ],
+    "translation": "to do / to make"
   },
   {
     "term": "imti",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To grasp, pick up, or receive something with the hands or figuratively.",
+        "example": "Paimk lėkštę nuo stalo.",
+        "register": "general",
+        "tags": [
+          "action",
+          "daily",
+          "physical"
+        ]
+      }
+    ],
+    "synonyms": [
+      "paimti",
+      "paimti",
+      "griebti"
+    ],
+    "antonymTerms": [
+      "duoti",
+      "paleisti"
+    ],
+    "relatedTerms": [
+      "nešti",
+      "laikyti",
+      "gauti"
+    ],
+    "translation": "to take"
   },
   {
     "term": "duoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To hand over, provide, or offer something to someone.",
+        "example": "Ar gali man duoti druską?",
+        "register": "general",
+        "tags": [
+          "action",
+          "daily",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "atiduoti",
+      "perduoti",
+      "teikti"
+    ],
+    "antonymTerms": [
+      "imti",
+      "atimti"
+    ],
+    "relatedTerms": [
+      "dovana",
+      "padėkoti",
+      "gauti"
+    ],
+    "translation": "to give"
   },
   {
     "term": "pilti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To cause a liquid or loose substance to flow from a container.",
+        "example": "Prašau, pilk man kavos.",
+        "register": "general",
+        "tags": [
+          "action",
+          "kitchen",
+          "drink"
+        ]
+      }
+    ],
+    "synonyms": [
+      "supilti",
+      "išpilti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "stiklinė",
+      "puodelis",
+      "skystis",
+      "vanduo"
+    ],
+    "translation": "to pour"
   },
   {
     "term": "dėti",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To put an object in a particular position or location.",
+        "example": "Padėk duoną ant stalo.",
+        "register": "general",
+        "tags": [
+          "action",
+          "daily",
+          "physical"
+        ]
+      }
+    ],
+    "synonyms": [
+      "padėti",
+      "krauti",
+      "įdėti"
+    ],
+    "antonymTerms": [
+      "imti",
+      "kelti"
+    ],
+    "relatedTerms": [
+      "vieta",
+      "stalas",
+      "lentyna",
+      "dėžė"
+    ],
+    "translation": "to put / to place"
   },
   {
     "term": "maišyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To combine or stir ingredients or substances together.",
+        "example": "Maišyk kiaušinius su miltais.",
+        "register": "general",
+        "tags": [
+          "cooking",
+          "action",
+          "kitchen"
+        ]
+      }
+    ],
+    "synonyms": [
+      "sumaišyti",
+      "išmaišyti",
+      "gramzdinti"
+    ],
+    "antonymTerms": [
+      "atskirti"
+    ],
+    "relatedTerms": [
+      "kepti",
+      "virti",
+      "ingredientai",
+      "tešla"
+    ],
+    "translation": "to mix / to stir"
   },
   {
     "term": "pjaustyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To divide food or other material into pieces using a knife or similar tool.",
+        "example": "Pjaustyk daržoves smulkiai.",
+        "register": "general",
+        "tags": [
+          "cooking",
+          "action",
+          "kitchen"
+        ]
+      }
+    ],
+    "synonyms": [
+      "supjaustyti",
+      "pjovyti",
+      "riekti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "peilis",
+      "pjautuvas",
+      "daržovės",
+      "duona"
+    ],
+    "translation": "to cut / to slice"
   },
   {
     "term": "pašildyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To make food or a liquid slightly warmer, typically by reheating leftovers.",
+        "example": "Pašildyk sriubą prieš valgant.",
+        "register": "general",
+        "tags": [
+          "cooking",
+          "action",
+          "kitchen"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kaitinti",
+      "įkaitinti",
+      "pašildinti"
+    ],
+    "antonymTerms": [
+      "atvėsinti",
+      "atšaldyti"
+    ],
+    "relatedTerms": [
+      "mikrobanginė",
+      "orkaitė",
+      "maistas",
+      "likučiai"
+    ],
+    "translation": "to warm up / to heat"
   },
   {
     "term": "atrodyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To give a particular impression or appearance; to seem to be a certain way.",
+        "example": "Tas patiekalas atrodo labai skanus.",
+        "register": "general",
+        "tags": [
+          "perception",
+          "appearance",
+          "general"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pasirodyti",
+      "regėtis",
+      "reikštis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "išvaizda",
+      "reginys",
+      "įspūdis",
+      "manykime"
+    ],
+    "translation": "to seem / to look / to appear"
   },
   {
     "term": "manyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To hold an opinion, believe, or suppose something to be true.",
+        "example": "Manau, kad šis receptas yra puikus.",
+        "register": "general",
+        "tags": [
+          "thought",
+          "opinion",
+          "mental"
+        ]
+      }
+    ],
+    "synonyms": [
+      "galvoti",
+      "tikėti",
+      "spėti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "nuomonė",
+      "mintis",
+      "svarstyti",
+      "tikėtis"
+    ],
+    "translation": "to think / to suppose / to believe"
   },
   {
     "term": "prašyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To express a desire for something or ask someone to do something politely.",
+        "example": "Prašau, paduokite man druskos.",
+        "register": "general",
+        "tags": [
+          "communication",
+          "politeness",
+          "daily"
+        ]
+      }
+    ],
+    "synonyms": [
+      "paprašyti",
+      "reikalauti",
+      "maldauti"
+    ],
+    "antonymTerms": [
+      "atsisakyti",
+      "neleisti"
+    ],
+    "relatedTerms": [
+      "malonė",
+      "leidimas",
+      "kviesti",
+      "atsakyti"
+    ],
+    "translation": "to ask / to request"
   },
   {
     "term": "rašyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To form letters, words, or symbols on a surface; to compose text.",
+        "example": "Ji rašo laišką draugui.",
+        "register": "general",
+        "tags": [
+          "communication",
+          "literacy",
+          "language"
+        ]
+      }
+    ],
+    "synonyms": [
+      "parašyti",
+      "įrašyti",
+      "surašyti"
+    ],
+    "antonymTerms": [
+      "skaityti"
+    ],
+    "relatedTerms": [
+      "laiškas",
+      "dienoraštis",
+      "knyga",
+      "žodis"
+    ],
+    "translation": "to write"
   },
   {
     "term": "skaityti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To look at and comprehend written or printed text.",
+        "example": "Jis skaito knygą kiekvieną vakarą.",
+        "register": "general",
+        "tags": [
+          "literacy",
+          "learning",
+          "language"
+        ]
+      }
+    ],
+    "synonyms": [
+      "perskaityti",
+      "nagrinėti"
+    ],
+    "antonymTerms": [
+      "rašyti"
+    ],
+    "relatedTerms": [
+      "knyga",
+      "žurnalas",
+      "laikraštis",
+      "rašyti"
+    ],
+    "translation": "to read"
   },
   {
     "term": "Pietūs",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The main meal eaten in the middle of the day, typically around noon.",
+        "example": "Pietūs yra patiekiami nuo dvylikos iki antros.",
+        "register": "general",
+        "tags": [
+          "meal",
+          "food",
+          "midday"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pietus"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pusryčiai",
+      "vakarienė",
+      "pietauti",
+      "valgykla"
+    ],
+    "translation": "lunch / midday meal"
   },
   {
     "term": "pusryčiai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The first meal of the day, eaten in the morning.",
+        "example": "Rytą valgome pusryčius su kiaušiniais ir duona.",
+        "register": "general",
+        "tags": [
+          "meal",
+          "morning",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ryto maistas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "rytas",
+      "pietūs",
+      "vakarienė",
+      "pusryčiauti"
+    ],
+    "translation": "breakfast"
   },
   {
     "term": "vakarienė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The evening meal, typically the last main meal of the day.",
+        "example": "Vakarienė mūsų šeimoje paprastai būna septintą valandą.",
+        "register": "general",
+        "tags": [
+          "meal",
+          "evening",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [
+      "vakaras"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vakaras",
+      "pietūs",
+      "pusryčiai",
+      "vakarieniauti"
+    ],
+    "translation": "dinner / supper"
   },
   {
     "term": "Grietinė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A thick, soured dairy product made from cream, widely used in Lithuanian cuisine.",
+        "example": "Įdėk šaukštą grietinės į barščius.",
+        "register": "general",
+        "tags": [
+          "dairy",
+          "food",
+          "ingredient"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rūgštinė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "grietinėlė",
+      "pienas",
+      "sūris",
+      "barščiai"
+    ],
+    "translation": "sour cream"
   },
   {
     "term": "grietinėlė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The high-fat portion of milk that rises to the top; used in cooking and desserts.",
+        "example": "Įpilk grietinėlės į kavą.",
+        "register": "general",
+        "tags": [
+          "dairy",
+          "food",
+          "ingredient"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kremas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "grietinė",
+      "pienas",
+      "kava",
+      "desertas"
+    ],
+    "translation": "cream / heavy cream"
   },
   {
     "term": "jogurtas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A thick, creamy dairy product made by fermenting milk with bacteria.",
+        "example": "Aš kasdien valgau jogurtą su uogomis.",
+        "register": "general",
+        "tags": [
+          "dairy",
+          "food",
+          "breakfast"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pienas",
+      "grietinė",
+      "kefyras",
+      "rūgpienis"
+    ],
+    "translation": "yogurt"
   },
   {
     "term": "kefyras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A fermented milk drink with a tangy flavor and probiotic properties.",
+        "example": "Geriu kefyrą rytais gerai savijautai.",
+        "register": "general",
+        "tags": [
+          "dairy",
+          "drink",
+          "probiotic"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "jogurtas",
+      "rūgpienis",
+      "pienas",
+      "fermentas"
+    ],
+    "translation": "kefir"
   },
   {
     "term": "rūgpienis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Naturally soured milk; a traditional fermented dairy product in Lithuanian cuisine.",
+        "example": "Rūgpienis yra geras priedas prie lietuviško juodos duonos.",
+        "register": "general",
+        "tags": [
+          "dairy",
+          "traditional",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rūgštus pienas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kefyras",
+      "jogurtas",
+      "pienas",
+      "grietinė"
+    ],
+    "translation": "soured milk / buttermilk"
   },
   {
     "term": "ledai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A sweet frozen dessert made from cream or milk, often flavoured.",
+        "example": "Vasarą vaikai labai mėgsta ledus.",
+        "register": "general",
+        "tags": [
+          "dessert",
+          "food",
+          "sweet"
+        ]
+      }
+    ],
+    "synonyms": [
+      "saldainiai",
+      "valgomieji ledai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "desertas",
+      "vaflis",
+      "šokoladas",
+      "grietinėlė"
+    ],
+    "translation": "ice cream"
   },
   {
     "term": "pienas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A white liquid produced by mammals, used as a drink and in cooking.",
+        "example": "Mėgstu kavą su pienu.",
+        "register": "general",
+        "tags": [
+          "dairy",
+          "drink",
+          "ingredient"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "grietinė",
+      "sūris",
+      "jogurtas",
+      "kefyras",
+      "kava"
+    ],
+    "translation": "milk"
   },
   {
     "term": "sūris",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A solid dairy food made from curdled milk, available in many varieties.",
+        "example": "Ant sumuštinio uždėk šiek tiek sūrio.",
+        "register": "general",
+        "tags": [
+          "dairy",
+          "food",
+          "ingredient"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pienas",
+      "grietinė",
+      "sumuštinis",
+      "rūgpienis"
+    ],
+    "translation": "cheese"
   },
   {
     "term": "sviestas",
