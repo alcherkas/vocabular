@@ -18608,7 +18608,7 @@
   {
     "term": "deixis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20601,7 +20601,7 @@
   {
     "term": "catachresis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20642,7 +20642,7 @@
   {
     "term": "diatribe",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20687,7 +20687,7 @@
   {
     "term": "encomium",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20732,7 +20732,7 @@
   {
     "term": "epideictic",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -20774,7 +20774,7 @@
   {
     "term": "hendiadys",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20804,7 +20804,7 @@
   {
     "term": "isocolon",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20834,7 +20834,7 @@
   {
     "term": "paraenesis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20864,7 +20864,7 @@
   {
     "term": "polyptoton",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20894,7 +20894,7 @@
   {
     "term": "prosopopoeia",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20933,7 +20933,7 @@
   {
     "term": "sententia",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20964,7 +20964,7 @@
   {
     "term": "sorites",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21004,7 +21004,7 @@
   {
     "term": "antistrophe",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21045,7 +21045,7 @@
   {
     "term": "syllepsis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21075,7 +21075,7 @@
   {
     "term": "epicheireme",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23709,7 +23709,7 @@
   {
     "term": "indexicality",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23898,7 +23898,7 @@
   {
     "term": "entailment",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23978,7 +23978,7 @@
   {
     "term": "polysemy",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24010,7 +24010,7 @@
   {
     "term": "parataxis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24053,7 +24053,7 @@
   {
     "term": "hypotaxis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24086,7 +24086,7 @@
   {
     "term": "ostension",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24128,7 +24128,7 @@
   {
     "term": "allophone",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24155,12 +24155,13 @@
       "variant",
       "complementary distribution",
       "free variation"
-    ]
+    ],
+    "qa_notes": "antonymTerms contains 'phoneme', which is the abstract type of which allophones are realisations—a hypernym/related concept, not a semantic antonym. Move 'phoneme' from antonymTerms to relatedTerms and supply a genuine antonym (e.g. 'phoneme' already covered in relatedTerms) or leave antonymTerms empty."
   },
   {
     "term": "circumlocution",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24205,7 +24206,7 @@
   {
     "term": "syntagmatic",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -24237,7 +24238,7 @@
   {
     "term": "paradigmatic",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -24278,7 +24279,7 @@
   {
     "term": "codeswitching",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24318,7 +24319,7 @@
   {
     "term": "mirativity",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24380,7 +24381,7 @@
   {
     "term": "felicity",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24418,7 +24419,8 @@
       "pragmatics",
       "performative",
       "condition"
-    ]
+    ],
+    "qa_notes": "Synonyms 'happiness' and 'bliss' and antonyms 'misery'/'unhappiness' refer to an everyday emotional-state sense that is absent from both defined meanings (speech-act theory; aptness of expression). Remove those and supply synonyms/antonyms that match the defined senses, e.g. synonyms: ['aptness', 'appropriateness'], antonyms: ['infelicity', 'inappropriateness']."
   },
   {
     "term": "sememe",
@@ -24691,7 +24693,7 @@
   {
     "term": "abduction",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24728,7 +24730,8 @@
       "reasoning",
       "hypothesis",
       "logic"
-    ]
+    ],
+    "qa_notes": "Two issues: (1) Synonym 'kidnapping' maps to a physical-abduction sense not covered by either meaning—remove it. (2) antonymTerms ['deduction', 'induction'] are contrasting types of inference (as the second meaning itself notes), not semantic opposites of abduction; move them to relatedTerms and leave antonymTerms empty."
   },
   {
     "term": "qualisign",
@@ -24761,7 +24764,7 @@
   {
     "term": "legisign",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24822,7 +24825,7 @@
   {
     "term": "rheme",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24864,7 +24867,7 @@
   {
     "term": "veridiction",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -25805,7 +25808,7 @@
   {
     "term": "emergence",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26369,7 +26372,7 @@
   {
     "term": "alethic",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -26401,7 +26404,7 @@
   {
     "term": "doxastic",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "meanings": [
       {
