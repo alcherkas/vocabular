@@ -318,3 +318,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Pre-calculate target count before generation to avoid trim step.
+
+## [2026-02-21] [feat-agent] [lt-quiz-modes]
+
+### What went well
+- Quiz mode refactor fit cleanly into a new `QuizService`, so QuizView changes stayed focused on rendering/state.
+- Build passed after the refactor on an available simulator target.
+
+### What was harder than expected
+- The requested `iPhone 16 Pro` simulator destination is not available in this environment, so strict build-command verification had to use a nearby fallback target.
+
+### Process friction
+- Build validation commands in tasks can be brittle across Xcode/simulator versions when they hardcode a specific device name.
+
+### Suggested improvement
+- Prefer `Any iOS Simulator Device` (or document a fallback device-selection step) for acceptance build commands.
