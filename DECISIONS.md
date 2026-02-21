@@ -109,3 +109,22 @@ Vocab/
 
 ---
 *Last updated: January 18, 2026*
+
+## Retro — enricher-lt-12 (30 LT stubs)
+
+**Date:** 2026-01-18
+**Batch:** 30 entries enriched in a single pass.
+
+### What was enriched
+- **Numerals 0–10** (nulis → dešimt): all tagged A1/number, partOfSpeech `numeral`.
+- **Core family vocabulary** (žmona, brolis, sesuo, pusseserė, vaikas, kūdikis, anūkas, anūkė, motina, mama, tėvas, tėtis, tėvai, sūnus, duktė, senelis, senelė): tagged A1/family (pusseserė, anūkas, anūkė at A2).
+- **Time adverb** kasdien (A1) and **noun** savaitgalis (A1).
+
+### Decisions
+- Used `numeral` partOfSpeech for all cardinal numbers (valid enum value).
+- `mama`/`motina` and `tėtis`/`tėvas` pairs cross-reference each other in `synonyms`.
+- Register `informal` applied to colloquial forms (mama, tėtis); `neutral` elsewhere.
+- `Nulis` kept with original capitalisation from the stub to avoid term-key mismatch.
+
+### Validator result
+143 enriched entries — all passed ✓
