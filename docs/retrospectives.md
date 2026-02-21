@@ -413,3 +413,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a small canonical LT phrase synonym/antonym reference list to reduce wording variance across relation batches.
+
+## [2026-02-21] [enricher-lt-4] [enrich-lt-25-stubs]
+
+### What went well
+- The next 25 stub terms formed a coherent A1 set (jobs, address forms, and question words), so enrichment was consistent and fast.
+
+### What was harder than expected
+- Assigning allowed validator part-of-speech values for pronoun-like items (`mano`, `kieno`, `kas`) required using the closest supported category.
+
+### Process friction
+- The task template suggested enum values (`neutral`, `pronoun`) that do not match `validate_words.py` constraints.
+
+### Suggested improvement
+- Add a short enum-reference note to enrichment task templates so prompts stay aligned with validator rules.
