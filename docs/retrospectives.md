@@ -1021,3 +1021,29 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 ### Suggested improvement
 - Add a homoglyph check to `validate_words.py` that flags strings containing characters outside the expected Unicode blocks for a given language (Latin + Lithuanian diacritics for LT, plain ASCII/Latin for EN).
 - Track `enriched` entry counts per file in a CI summary so agents know before starting how many entries are actually available for the target batch size.
+
+## [2026-02-24] [enricher-lt-17] [vocab/enricher-lt-17]
+
+### What went well
+- Preflight JSON check passed immediately: 1960 LT entries loaded, valid structure confirmed, 1510 stubs identified in a single parse.
+- All 35 stub entries located in the first contiguous block of stubs; no index scanning or secondary pass needed.
+- Enrichment script ran in a single pass with zero key mismatches — all 35 `term` values matched exactly including capitalised forms (`Pietūs`, `Grietinė`).
+- POS and register validation passed with zero errors across all 35 entries.
+- Remaining stub count decreased from 1510 to 1475; approved count increased from 293 to 328.
+
+### What was harder than expected
+- Two terms carry capitalised headwords (`Pietūs`, `Grietinė`) that differ from the canonical lowercase convention seen in most other entries; enrichment script matched on exact term string so no correction was applied — capitalisation issue is pre-existing and out of scope here.
+- `patinka` (3rd-person present of `patikti`) is syntactically a conjugated form rather than an infinitive headword; enriched with verb POS and a note-style definition clarifying the form, as the entry already existed in this shape upstream.
+- `ragauti` is an iterative/frequentative verb form alongside the more common `paragauti`; both listed with synonyms cross-referencing each other.
+
+### Decisions
+- Status set to `approved` (not `enriched`) for all 35 entries, consistent with the single-stage enricher pipeline used for this branch series.
+- Capitalised headwords left as-is; term normalisation is a separate QA concern.
+- `ledai` enriched as "ice cream" (primary culinary meaning) rather than the literal "ice" meaning, as surrounding context entries are all food/dairy items.
+
+### Process friction
+- No validator script (`validate_words.py`) present on this branch; validation performed inline in the enrichment script by checking POS and register values against the allowed enum sets.
+
+### Suggested improvement
+- Add a pre-commit hook or CI step that enforces lowercase headwords for Lithuanian entries (except proper nouns) to catch the `Pietūs`/`Grietinė` capitalisation pattern at source.
+- Consider splitting `ledai` into two separate entries (ice cream vs ice) in a future seeder pass to avoid meaning ambiguity.
