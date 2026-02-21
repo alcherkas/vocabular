@@ -24,6 +24,8 @@ class Word {
     var language: String = "en"
     var translation: String?
     @Attribute(.unique) var uniqueKey: String
+    @Relationship(deleteRule: .nullify) var antonyms: [Word] = []
+    @Relationship(deleteRule: .nullify) var relatedWords: [Word] = []
 
     // Spaced repetition (SM-2)
     var nextReview: Date?

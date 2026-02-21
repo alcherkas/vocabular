@@ -361,3 +361,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Update build docs to include a simulator-discovery step and an accepted fallback destination policy.
+## [2026-02-21] [feat-agent] [word-relations]
+
+### What went well
+- Relationship fields and relation-term decoding were added with small, isolated changes in `Word.swift` and `WordService.swift`.
+- Build verification succeeded with the requested simulator destination command.
+
+### What was harder than expected
+- Ensuring relations are resolved only after all `Word` instances are inserted required a second pass structure.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- None.

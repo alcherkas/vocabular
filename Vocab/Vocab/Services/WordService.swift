@@ -13,6 +13,8 @@ struct WordData: Codable {
     let meanings: [MeaningData]?
     let definition: String?
     let synonyms: [String]?
+    let antonymTerms: [String]?
+    let relatedTerms: [String]?
     let example: String?
     let partOfSpeech: String
     let tags: [String]?
@@ -42,6 +44,8 @@ class WordService {
         do {
             let data = try Data(contentsOf: url)
             let wordData = try JSONDecoder().decode([WordData].self, from: data)
+            var insertedByTerm: [String: Word] = [:]
+            var pendingRelations: [(word: Word, antonymTerms: [String], relatedTerms: [String])] = []
 
             for wd in wordData {
                 let meanings: [WordMeaning]
@@ -77,6 +81,13 @@ class WordService {
                     meanings: meanings
                 )
                 context.insert(word)
+                insertedByTerm[wd.term] = word
+                pendingRelations.append((word, wd.antonymTerms ?? [], wd.relatedTerms ?? []))
+            }
+
+            for relation in pendingRelations {
+                relation.word.antonyms = relation.antonymTerms.compactMap { insertedByTerm[$0] }
+                relation.word.relatedWords = relation.relatedTerms.compactMap { insertedByTerm[$0] }
             }
 
             print("WordService: Loaded \(wordData.count) \(language) words")
