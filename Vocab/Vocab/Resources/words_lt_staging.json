@@ -22298,68 +22298,172 @@
   {
     "term": "Šiukšlės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Discarded or unwanted materials; household, street, or outdoor waste.",
+        "example": "Reikia išnešti šiukšles – šiandien atvažiuoja šiukšliavežis.",
+        "register": "neutral",
+        "tags": [
+          "environment",
+          "sustainability",
+          "waste",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šiukšlių dėžė",
+      "rūšiuoti",
+      "konteineris"
+    ],
+    "translation": "rubbish / waste",
+    "qaNote": "Plural-only noun in everyday use. Nominative plural: šiukšlės."
   },
   {
     "term": "šiukšlių dėžė",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A container placed indoors or outdoors for collecting household or public waste.",
+        "example": "Išmeskite popieriaus skiauteles į šiukšlių dėžę, o ne ant grindų.",
+        "register": "neutral",
+        "tags": [
+          "environment",
+          "home",
+          "sustainability",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šiukšlės",
+      "konteineris",
+      "rūšiuoti"
+    ],
+    "translation": "rubbish bin / waste bin",
+    "qaNote": "Compound noun phrase: šiukšlių (genitive plural of šiukšlės) + dėžė (box/bin)."
   },
   {
     "term": "konteineris",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large outdoor bin used for collecting sorted waste or recyclable materials.",
+        "example": "Kieme stovi trys konteineriai: žalias – stiklui, mėlynas – popieriui, geltonas – plastikui.",
+        "register": "neutral",
+        "tags": [
+          "environment",
+          "recycling",
+          "waste",
+          "sustainability",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šiukšlės",
+      "rūšiuoti",
+      "atliekos"
+    ],
+    "translation": "container / recycling bin",
+    "qaNote": "Also used for shipping containers in a logistics context."
   },
   {
     "term": "išmesti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To dispose of something no longer needed by placing it in a bin or throwing it out.",
+        "example": "Prieš išmesdami seną telefoną, ištrinkite visus asmeninius duomenis.",
+        "register": "neutral",
+        "tags": [
+          "action",
+          "environment",
+          "sustainability",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šiukšlės",
+      "rūšiuoti",
+      "išnešti"
+    ],
+    "translation": "to throw away / to discard",
+    "qaNote": "Perfective verb; imperfective pair: mesti. Infinitive: išmesti."
   },
   {
     "term": "išnešti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To carry something out of an enclosed space; commonly used for taking rubbish outside.",
+        "example": "Ar gali išnešti šiukšles prieš eidamas miegoti?",
+        "register": "neutral",
+        "tags": [
+          "action",
+          "home",
+          "environment",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šiukšlės",
+      "išmesti",
+      "nešti"
+    ],
+    "translation": "to take out / to carry out",
+    "qaNote": "Perfective; imperfective: nešti. Very common household instruction."
   },
   {
     "term": "rūšiuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To separate waste materials into categories (plastic, glass, paper, organic) for recycling or proper disposal.",
+        "example": "Lietuva aktyviai ragina piliečius rūšiuoti atliekas ir mažinti sąvartynų apkrovą.",
+        "register": "neutral",
+        "tags": [
+          "environment",
+          "recycling",
+          "sustainability",
+          "ecology",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "atliekos",
+      "konteineris",
+      "perdirbimas"
+    ],
+    "translation": "to sort / to separate for recycling",
+    "qaNote": "Imperfective verb. Central word in Lithuanian sustainability discourse."
   },
   {
     "term": "kabėti",
@@ -22937,24 +23041,60 @@
   {
     "term": "krūmas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A woody plant smaller than a tree, typically with several stems from the base; a shrub or bush.",
+        "example": "Prie kelio augo tankus krūmynas, kuriame paukščiai susisuko lizdus.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "plants",
+          "ecology",
+          "environment",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "medis",
+      "augalas",
+      "miškas"
+    ],
+    "translation": "shrub / bush",
+    "qaNote": "Nominative singular: krūmas. krūmynas = a thicket of shrubs."
   },
   {
     "term": "veja",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An area of closely mown or naturally short grass in a garden, park, or yard.",
+        "example": "Parke vaikai žaidė ir raitėsi ant žalios vejos.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "garden",
+          "ecology",
+          "environment",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žolė",
+      "sodas",
+      "kiemas"
+    ],
+    "translation": "lawn",
+    "qaNote": "Nominative singular: veja. Distinct from žolė (grass in general)."
   },
   {
     "term": "gėlynas",
@@ -23025,24 +23165,80 @@
   {
     "term": "sodas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A piece of private or public land cultivated with fruit trees, flowers, or ornamental plants.",
+        "example": "Tėvų sodas kasmet gausiai derėdavo: obuoliai, kriaušės ir slyvos.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "gardening",
+          "sustainability",
+          "ecology",
+          "A2"
+        ]
+      },
+      {
+        "definition": "A public park or garden (especially in place names, e.g. Vinco Kudirkos sodas).",
+        "example": "Miesto centre yra gražus sodas su suolais ir fontanu.",
+        "register": "neutral",
+        "tags": [
+          "urban",
+          "public space",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "daržas",
+      "vaismedis",
+      "auginti"
+    ],
+    "translation": "garden / orchard",
+    "qaNote": "Nominative singular: sodas. Covers both private orchard/garden and public park in Lithuanian."
   },
   {
     "term": "medis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large perennial woody plant with a main trunk, branches, and leaves.",
+        "example": "Gatvę puošė seni ąžuolai ir klevai, teikiantys pavėsį karštą dieną.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "trees",
+          "ecology",
+          "environment",
+          "A1"
+        ]
+      },
+      {
+        "definition": "Wood as a material.",
+        "example": "Namas buvo pastatytas iš tvirto medžio.",
+        "register": "neutral",
+        "tags": [
+          "material",
+          "construction",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "miškas",
+      "šaka",
+      "lapas"
+    ],
+    "translation": "tree",
+    "qaNote": "Nominative singular: medis. Two senses: tree (animate) and wood (material)."
   },
   {
     "term": "suolas",
@@ -23058,13 +23254,31 @@
   {
     "term": "gėlė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The reproductive blossom of a flowering plant; also cultivated for its beauty and fragrance.",
+        "example": "Vaikai surinko laukinių gėlių puokštę ir padovanojo ją mokytojui.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "plants",
+          "ecology",
+          "environment",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žiedas",
+      "augalas",
+      "gėlynas"
+    ],
+    "translation": "flower",
+    "qaNote": "Nominative singular: gėlė. Distinct from žiedas, which refers specifically to a blossom."
   },
   {
     "term": "kuris",
@@ -23239,24 +23453,70 @@
   {
     "term": "pūga",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A severe snowstorm combined with strong winds and very low visibility.",
+        "example": "Pūga užvertė kelius, todėl traukinių eismą teko laikinai sustabdyti.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "nature",
+          "winter",
+          "climate",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "sniegas",
+      "vėjas",
+      "žiema"
+    ],
+    "translation": "blizzard / snowstorm",
+    "qaNote": "Nominative singular: pūga. Typically implies both snow and wind together."
   },
   {
     "term": "ledas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Frozen water; the solid state of water formed at temperatures at or below 0 °C.",
+        "example": "Upės paviršius buvo padengtas plonu ledu, tačiau eiti ant jo buvo pavojinga.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "weather",
+          "climate",
+          "environment",
+          "A2"
+        ]
+      },
+      {
+        "definition": "Ice cream or an ice lolly (colloquial, informal usage).",
+        "example": "Vasarą vaikai mėgsta valgyti ledus gatvėje.",
+        "register": "informal",
+        "tags": [
+          "food",
+          "colloquial",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "sniegas",
+      "vanduo",
+      "šaltis"
+    ],
+    "translation": "ice",
+    "qaNote": "Two distinct senses: natural ice (singular) vs. ice cream (usually plural: ledai)."
   },
   {
     "term": "šlapdriba",
@@ -23373,13 +23633,40 @@
   {
     "term": "šiluma",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Thermal energy; the physical sensation of warmth; high temperature.",
+        "example": "Rugsėjį dar jaučiama paskutinė vasaros šiluma, bet vakarais vėsta.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "climate",
+          "environment",
+          "nature",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Emotional warmth; the quality of being kind, friendly, and welcoming.",
+        "example": "Šeimoje visada jautėsi šiluma ir meilė.",
+        "register": "neutral",
+        "tags": [
+          "emotion",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "temperatūra",
+      "karštas",
+      "šiltas"
+    ],
+    "translation": "warmth / heat",
+    "qaNote": "Nominative singular: šiluma. Both physical and metaphorical meanings are common."
   },
   {
     "term": "atšilti",
@@ -23511,13 +23798,30 @@
   {
     "term": "griaustinis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The loud rumbling or crashing sound produced by a lightning discharge during a thunderstorm.",
+        "example": "Vaikai išsigando stipraus griaustinio ir pabėgo žaisti į vidų.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "nature",
+          "environment",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žaibas",
+      "lietus",
+      "audra"
+    ],
+    "translation": "thunder",
+    "qaNote": "Nominative singular: griaustinis. Perkūnas (mythological god of thunder) is related culturally."
   },
   {
     "term": "žaibas",
@@ -23627,13 +23931,40 @@
   {
     "term": "dangus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The expanse of atmosphere visible from the earth's surface; the sky.",
+        "example": "Vasaros vakarą dangus nusidažė oranžine ir rožine spalva.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "weather",
+          "environment",
+          "A2"
+        ]
+      },
+      {
+        "definition": "In religious or poetic contexts: heaven, the celestial realm.",
+        "example": "Poetai dažnai vaizdavo dangų kaip laimingą amžinybę.",
+        "register": "literary",
+        "tags": [
+          "religion",
+          "poetry",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "debesys",
+      "saulė",
+      "žvaigždės"
+    ],
+    "translation": "sky",
+    "qaNote": "Nominative singular: dangus. Two clearly distinct senses."
   },
   {
     "term": "debesis",
@@ -23664,13 +23995,30 @@
   {
     "term": "vaivorykštė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An arc of spectral colours appearing in the sky when sunlight passes through rain droplets.",
+        "example": "Po audros danguje išryškėjo graži septynių spalvų vaivorykštė.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "weather",
+          "environment",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "lietus",
+      "dangus",
+      "saulė"
+    ],
+    "translation": "rainbow",
+    "qaNote": "Nominative singular: vaivorykštė. Often used symbolically for diversity."
   },
   {
     "term": "rūkas",
@@ -23733,24 +24081,64 @@
   {
     "term": "drėgnas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Slightly wet; having notable moisture in the air, ground, or on a surface.",
+        "example": "Po lietaus žolė buvo drėgna ir slidžiai po kojomis.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "nature",
+          "environment",
+          "climate",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "sausas"
+    ],
+    "relatedTerms": [
+      "drėgmė",
+      "šlapias",
+      "lietus"
+    ],
+    "translation": "damp / humid / moist",
+    "qaNote": "Positive degree: drėgnas. Comparative: drėgnesnis."
   },
   {
     "term": "giedras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Describes weather or sky that is clear, bright, and free of clouds.",
+        "example": "Giedras dangus žadėjo puikią dieną pasivaikščiojimui gamtoje.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "nature",
+          "environment",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "debesuotas",
+      "lietingas"
+    ],
+    "relatedTerms": [
+      "saulėtas",
+      "dangus",
+      "oras"
+    ],
+    "translation": "clear / bright / cloudless",
+    "qaNote": "Positive degree: giedras. Also used in figurative contexts: giedra nuotaika (bright mood)."
   },
   {
     "term": "lietingas",
@@ -23838,13 +24226,32 @@
   {
     "term": "vėjuotas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Characterised by strong or frequent wind; exposed to the wind.",
+        "example": "Pajūryje visada vėjuota, todėl reikia pasiimti striukę net vasarą.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "nature",
+          "environment",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "ramus"
+    ],
+    "relatedTerms": [
+      "vėjas",
+      "oras",
+      "pajūris"
+    ],
+    "translation": "windy",
+    "qaNote": "Derived from vėjas (wind) + -uotas suffix indicating 'characterised by'."
   },
   {
     "term": "šiaurė",
@@ -31614,13 +32021,42 @@
   {
     "term": "žolė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Low-growing green plant covering meadows, fields, and lawns; grass.",
+        "example": "Pievoje žaliavo šviežia žolė, o ore sklandė drugeliai.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "plants",
+          "ecology",
+          "environment",
+          "A2"
+        ]
+      },
+      {
+        "definition": "An edible or medicinal herb used in cooking or traditional medicine.",
+        "example": "Močiutė džiovino žoles: mėtas, ramunes ir raudonėlius.",
+        "register": "neutral",
+        "tags": [
+          "plants",
+          "herbal",
+          "ecology",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "veja",
+      "augalas",
+      "žolynai"
+    ],
+    "translation": "grass / herb",
+    "qaNote": "Nominative singular: žolė. Two distinct senses: grass (uncountable) and herb (countable)."
   },
   {
     "term": "ąsotis",
@@ -31636,13 +32072,31 @@
   {
     "term": "saulėgrąža",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A tall annual plant (Helianthus annuus) with large yellow flower heads that follow the sun; cultivated for oil and seeds.",
+        "example": "Laukuose augo ryškios saulėgrąžos, pritraukiančios bites ir kitus vabzdžius.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "plants",
+          "ecology",
+          "environment",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "gėlė",
+      "augalas",
+      "sėkla"
+    ],
+    "translation": "sunflower",
+    "qaNote": "Compound: saulė (sun) + grąža (turn). Nominative singular: saulėgrąža."
   },
   {
     "term": "būda",
@@ -31669,13 +32123,32 @@
   {
     "term": "daržas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A plot of cultivated land where vegetables, herbs, and root crops are grown.",
+        "example": "Senelis ryte laisty daržą ir skynė brandžius pomidorus.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "gardening",
+          "sustainability",
+          "food",
+          "ecology",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "sodas",
+      "daržovės",
+      "auginti"
+    ],
+    "translation": "vegetable garden",
+    "qaNote": "Nominative singular: daržas. Distinct from sodas (fruit garden/orchard)."
   },
   {
     "term": "darželis",
@@ -31708,46 +32181,137 @@
   {
     "term": "tvenkinys",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A small, enclosed body of still water, often man-made; a habitat for aquatic wildlife.",
+        "example": "Kaimo tvenkinys pritraukia įvairius paukščius, varlytes ir vandens vabzdžius.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "ecology",
+          "water",
+          "environment",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "ežeras",
+      "upelis",
+      "vanduo"
+    ],
+    "translation": "pond",
+    "qaNote": "Nominative singular: tvenkinys. Smaller than ežeras (lake); often artificial."
   },
   {
     "term": "augti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Of a plant: to develop from seed or root and increase in size.",
+        "example": "Ant palangės augo smulkūs žolelių daigai.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "plants",
+          "ecology",
+          "A2"
+        ]
+      },
+      {
+        "definition": "Of a person, animal, or organisation: to develop and become larger over time.",
+        "example": "Vaikas greitai auga – kas mėnesį matuojame jo ūgį.",
+        "register": "neutral",
+        "tags": [
+          "general",
+          "development",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "auginti",
+      "augalas",
+      "daigas"
+    ],
+    "translation": "to grow",
+    "qaNote": "Imperfective verb. 3rd person present: auga. Past: augo."
   },
   {
     "term": "auginti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To cause plants to grow; to cultivate crops or garden plants.",
+        "example": "Ji augina žolelių daigus balkone ir persodina juos į daržą.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "gardening",
+          "sustainability",
+          "ecology",
+          "B1"
+        ]
+      },
+      {
+        "definition": "To raise animals or children.",
+        "example": "Kaimo ūkyje augino kiaules ir vištas.",
+        "register": "neutral",
+        "tags": [
+          "farming",
+          "ecology",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "augti",
+      "daržas",
+      "sodas"
+    ],
+    "translation": "to grow / to cultivate / to raise",
+    "qaNote": "Causative of augti. 3rd person present: augina. Very versatile verb."
   },
   {
     "term": "obelis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A deciduous fruit tree (Malus domestica) cultivated for its apples; a common orchard tree.",
+        "example": "Sename sode augo stora obelis, kasmet duodanti gausų derlių.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "trees",
+          "fruit",
+          "ecology",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "obuolys",
+      "vaismedis",
+      "sodas"
+    ],
+    "translation": "apple tree",
+    "qaNote": "Nominative singular: obelis (feminine). Genitive: obels."
   },
   {
     "term": "slyva",
@@ -31763,13 +32327,32 @@
   {
     "term": "vaismedis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A tree cultivated primarily for its edible fruit, such as apples, pears, or plums.",
+        "example": "Sode sodinta keletas vaismedžių: obelų, kriaušių ir slyvų.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "trees",
+          "fruit",
+          "ecology",
+          "sustainability",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "obelis",
+      "slyva",
+      "sodas"
+    ],
+    "translation": "fruit tree",
+    "qaNote": "Compound: vaisius (fruit) + medis (tree). Nominative singular: vaismedis."
   },
   {
     "term": "vyšnia",
@@ -32270,13 +32853,31 @@
   {
     "term": "laužas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An open outdoor fire built from stacked logs, used for warmth, cooking, or ritual purposes while in nature.",
+        "example": "Stovyklos vakarą visi rinkdavosi aplink laužą, dainuodavo ir pasakodavo istorijas.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "outdoors",
+          "ecology",
+          "camping",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "ugnis",
+      "miškas",
+      "stovykla"
+    ],
+    "translation": "campfire / bonfire",
+    "qaNote": "Nominative singular: laužas. kurti laužą = to make/build a campfire."
   },
   {
     "term": "musmirė",
@@ -32442,12 +33043,30 @@
     "term": "grybauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To gather wild mushrooms in the forest, a traditional autumn activity in Lithuania.",
+        "example": "Rugsėjį šeima išvyko grybauti ir parsinešė pilną krepšį baravykų.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "foraging",
+          "ecology",
+          "outdoors",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "grybas",
+      "miškas",
+      "uogauti"
+    ],
+    "translation": "to pick mushrooms / to go mushrooming",
+    "qaNote": "Imperfective denominal verb from grybas (mushroom). 3rd person: grybauoja."
   },
   {
     "term": "kurti laužą",
@@ -32486,23 +33105,59 @@
     "term": "uogauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To gather wild berries in the forest or countryside; a traditional summer activity.",
+        "example": "Vasarą vaikai mielai uogauja miške ir parsineša pintinę miško uogų.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "foraging",
+          "ecology",
+          "outdoors",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "uogos",
+      "miškas",
+      "grybauti"
+    ],
+    "translation": "to pick berries / to go berry-picking",
+    "qaNote": "Imperfective denominal verb from uoga (berry). 3rd person: uogauja."
   },
   {
     "term": "žvejoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To catch fish with a rod, net, or other means, as a sport, hobby, or for food.",
+        "example": "Kas šeštadienio rytą jis eina žvejoti prie ežero su meškerė ir kibiru.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "outdoors",
+          "ecology",
+          "leisure",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žuvis",
+      "ežeras",
+      "meškerė"
+    ],
+    "translation": "to fish / to go fishing",
+    "qaNote": "Imperfective; 3rd person: žvejoja. Derived from žvejas (fisherman)."
   },
   {
     "term": "Badmintonas",
@@ -33809,13 +34464,41 @@
   {
     "term": "eglė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An evergreen coniferous tree (Picea abies) common in Lithuanian forests; also used as a Christmas tree.",
+        "example": "Lietuvos miškuose gausu eglių – jos sudaro didelę dalį šalies miško fondo.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "trees",
+          "ecology",
+          "environment",
+          "A2"
+        ]
+      },
+      {
+        "definition": "A traditional Lithuanian female given name.",
+        "example": "Mergaitė Eglė turėjo begalę klausimų apie gamtą ir gyvūnus.",
+        "register": "neutral",
+        "tags": [
+          "name",
+          "culture",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "miškas",
+      "pušis",
+      "eglutė"
+    ],
+    "translation": "spruce / fir tree",
+    "qaNote": "Nominative singular: eglė. Also the protagonist of the Lithuanian folk tale 'Eglė žalčių karalienė'."
   },
   {
     "term": "eglutė",
@@ -34387,13 +35070,31 @@
   {
     "term": "papartis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A flowerless vascular plant with large, divided fronds, common in shaded Lithuanian forests.",
+        "example": "Miškas buvo gausiai apaugęs paparčiais ir samanomis.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "plants",
+          "ecology",
+          "botany",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "miškas",
+      "augalas",
+      "samanos"
+    ],
+    "translation": "fern",
+    "qaNote": "Nominative singular: papartis. Mythological paparčio žiedas (fern flower) is linked to Joninės midsummer festival."
   },
   {
     "term": "paparčio žiedas",
@@ -34410,12 +35111,39 @@
     "term": "žydėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Of a plant: to produce flowers; to be in full bloom.",
+        "example": "Pavasarį sodas žydėjo – obelys buvo padengtos baltais žiedais.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "plants",
+          "ecology",
+          "environment",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Figuratively: to thrive, to flourish.",
+        "example": "Miestas žydėjo: atsidarė naujos kavinės, kultūros centrai ir parkai.",
+        "register": "neutral",
+        "tags": [
+          "figurative",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žiedas",
+      "gėlė",
+      "pavasaris"
+    ],
+    "translation": "to bloom / to blossom / to flower",
+    "qaNote": "Imperfective; 3rd person present: žydi; past: žydėjo."
   },
   {
     "term": "žydi",

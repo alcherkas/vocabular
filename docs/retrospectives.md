@@ -1890,3 +1890,34 @@ domains: ethics, sociology, and anthropology.
 - `angina` in Lithuanian means tonsillitis/strep throat (not cardiac angina); disambiguated in qaNote.
 - `skaudėti` is used impersonally in Lithuanian (`man skauda galvą`) — this grammatical pattern is documented in the qaNote.
 - 3 female specialist forms (`chirurgė`, `neurologė`, `kardiologė`, etc.) remain as stubs; they share their male-form qaNote cross-reference but were not enriched here to stay within the 35-entry limit.
+## Session: enricher-lt-34 — Lithuanian environment/ecology/sustainability enrichment
+**Date**: 2025-07-23
+**Agent**: enricher-lt-34 (Copilot)
+**Branch**: vocab/enricher-lt-34
+**Commit**: cf1362f
+
+### Summary
+Enriched 35 Lithuanian stubs targeting environment, ecology, and sustainability vocabulary at B1/B2 level.
+
+### Words enriched by theme
+
+| Theme | Count | Terms |
+|---|---|---|
+| Waste / sustainability | 6 | Šiukšlės, šiukšlių dėžė, konteineris, išmesti, išnešti, rūšiuoti |
+| Weather / climate | 9 | dangus, vaivorykštė, griaustinis, pūga, ledas, šiluma, drėgnas, giedras, vėjuotas |
+| Gardens / farming / foraging | 10 | daržas, tvenkinys, augti, auginti, obelis, vaismedis, grybauti, uogauti, laužas, žvejoti |
+| Flora / botany | 10 | žolė, medis, papartis, žydėti, eglė, saulėgrąža, gėlė, krūmas, veja, sodas |
+| **Total** | **35** | |
+
+### What went well
+- All 35 target stubs confirmed present before editing; no missing-term errors.
+- Thematic coherence is strong: waste-management terms cross-link (Šiukšlės ↔ rūšiuoti ↔ konteineris); flora terms cross-link (medis ↔ miškas ↔ krūmas ↔ eglė).
+- Several words received two distinct senses where warranted (ledas: ice vs. ice cream; dangus: sky vs. heaven; medis: tree vs. wood; augti/auginti: plants vs. people; žolė: grass vs. herb; žydėti: bloom vs. flourish figuratively).
+- Validator passed on first run with exit 0 — no self-references, no cross-array duplicates, all enum values valid.
+- Avoided all health/medical vocabulary (reserved for lt-33 sibling batch).
+
+### Issues / notes
+- `ledas` has a common informal sense (ice cream, usually plural *ledai*); single-entry stub covers both with a qaNote distinguishing singular vs. plural forms.
+- `eglė` is also a common Lithuanian female given name and the heroine of the folk tale *Eglė žalčių karalienė* — this cultural note is recorded in qaNote.
+- `papartis` carries mythological significance (paparčio žiedas — the fern flower of Joninės); noted in qaNote without inflating the linguistic entry.
+- No merge performed per task instructions.
