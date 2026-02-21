@@ -1173,3 +1173,30 @@ Pre-existing warnings only in approved-status entries; zero errors in newly enri
 - EN had only 11 enriched entries vs. 35 target; all were processed. Remaining enriched budget could not be filled from EN alone — would require another Enricher pass first.
 - Several LT phrases (e.g., `nosies ir gerklės gydytojas`) are unique specialist terms with no close LT synonyms; `otorinolaringologas` / `otolaringologas` are valid technical equivalents added as synonyms.
 - `leisti vaistus` (administer injection): `švirkšti` added as a synonym captures the injecting action; the phrase is also broader (any route), but this is the closest single-word LT equivalent.
+## Session retro — enricher-en-30 (vocab/enricher-en-30)
+
+**Date**: 2025-08-04
+**Agent**: Enricher (English)
+**Branch**: vocab/enricher-en-30
+**Commit**: 76ca629
+
+### Work done
+- Preflight JSON on `words_staging.json` — valid (930 entries, JSON OK).
+- Counted 110 EN stub entries available.
+- Enriched **35 EN stubs** → status `enriched`, covering two thematic domains:
+  - **Music theory/composition** (20 terms): aleatory, antiphony, arpeggiation, atonality, cadenza, cantus firmus, coda, counterpoint, dissonance, fugue, glissando, homophony, isorhythm, klangfarbenmelodie, modulation, passacaglia, rubato, syncopation, tritone, tremolo.
+  - **Film theory/cinema studies** (15 terms): apparatus theory, continuity editing, deep focus, depth of field, fabulation, haptic visuality, intertitle, long take, match cut, montage, offscreen space, point-of-view shot, shot-reverse shot, spectacle, tracking shot.
+- Each entry has 1–2 genuinely distinct meanings with `definition`, `example`, `register`, and `tags`; `status` set to `enriched`.
+
+### Validation
+`validate_words.py --errors-for enriched` → **PASSED** (exit 0).
+- 930 words validated; 91 pre-existing warnings in `approved`-status entries only; zero errors in newly enriched batch.
+
+### Decisions & tradeoffs
+- `aleatory` stub was already tagged `adjective` (correct); enriched with two senses — the music-specific chance-composition sense and the broader philosophical/legal sense of contingency.
+- `coda` and `counterpoint` each received two meanings: the primary musical sense and a well-established extended metaphorical sense in rhetoric/narrative, both genuinely standard in academic usage.
+- `modulation` enriched with two technically distinct senses: the harmonic music sense and the electronics/acoustics signal-processing sense; both are established uses of the same term.
+- `fabulation` enriched with two senses: the narratological sense (imaginative embellishment) and the Deleuzian film-theory sense (postcolonial myth-making as resistance); both are active in film/narrative scholarship.
+- `spectacle` enriched with the Mulvey/film-theory sense and the general visual-excess sense — both are widely used in cultural and film studies discourse.
+- For highly specialised single-sense terms (arpeggiation, cantus firmus, deep focus, haptic visuality, isorhythm, klangfarbenmelodie, long take, match cut, offscreen space, passacaglia, point-of-view shot, shot-reverse shot, tracking shot, tritone, continuity editing, apparatus theory), a single richly developed meaning was provided rather than forcing a second sense that would be artificial or inaccurate.
+- 75 stubs remain in the file for subsequent enricher sessions.
