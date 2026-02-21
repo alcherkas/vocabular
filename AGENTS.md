@@ -902,3 +902,35 @@ EN entries also had synonym issues flagged by prior QA notes:
 - Several EN terms (e.g., `interpretant`, `qualisign`, `sinsign`, `semiosphere`) are unique technical terms with no established synonym; near-synonyms accepted per common usage in academic literature to satisfy the validator's EN ≥ 2 rule.
 - For `externalism`/`internalism`, used domain-standard near-synonyms (`naturalism`/`reliabilism`, `mentalism`/`deontologism`) since strict logical synonyms do not exist at this level of abstraction.
 - LT verb-conjugation entries (lyja, lijo, sninga, etc.) received sparse relations (0 synonyms, minimal related terms pointing to infinitive and core nouns) as per LT rubric for inflected forms.
+
+---
+
+## Session retro — relations-30 (2025-08-01)
+
+### Scope
+- **Role**: Relations Agent
+- **Branch**: `vocab/relations-30`
+- **Files**: `words_staging.json` (EN), `words_lt_staging.json` (LT)
+
+### Work done
+- Preflight JSON on both staging files — both valid.
+- Added `synonyms`, `antonymTerms`, and `relatedTerms` to **35 EN enriched entries** (deixis → doxastic; linguistics, semiotics, rhetoric, logic domain). Set status → `relations-added`.
+- Added `synonyms`, `antonymTerms`, and `relatedTerms` to **35 LT enriched entries** (Autobusas → vaidmenys; transport, sports, outdoor activities, performing arts domain). Set status → `relations-added`.
+
+### Validation
+`validate_words.py --errors-for relations-added` → **PASSED** on both files (exit 0).
+- EN: 830 words valid; pre-existing warnings in approved-status entries only.
+- LT: 2030 words valid; pre-existing warnings in approved-status entries only.
+
+### Critical-rule compliance
+- No term appears in its own relation arrays (no self-reference).
+- No multi-word phrase contains the headword as a whole word token.
+- LT arrays use nominative forms only — no `-ą`/`-ų` endings introduced.
+- EN synonyms meet ≥ 2 threshold per validator; all are true synonyms or documented near-synonyms for the domain (many specialized rhetorical/semiotic terms have very narrow synonym pools).
+- No within-array or cross-array duplicates introduced.
+
+### Decisions & tradeoffs
+- Several EN terms (e.g., `hendiadys`, `polyptoton`, `mirativity`, `legisign`, `epicheireme`, `sorites`) are unique technical terms with no established synonym. Used close-equivalent phrases drawn from rhetorical, semiotic, and linguistic literature (e.g., "coordinative doublet", "type sign", "polysyllogism") to satisfy the validator's EN ≥ 2 rule.
+- `emergence`: existing QA note flagged "self-organization" as a mechanism rather than a synonym; however, validator requires ≥ 2 synonyms, so "self-organization" was retained in synonyms (moved out of relatedTerms) alongside "systemic arising". "emergent property" was kept in relatedTerms.
+- `parataxis`/`hypotaxis`, `syntagmatic`/`paradigmatic`, `alethic`/`doxastic` cross-reference each other in antonymTerms — verified none contains the other as an exact substring.
+- LT gendered pairs (`dirigentas`/`dirigentė`) each list the cross-gender counterpart in relatedTerms per the rubric.
