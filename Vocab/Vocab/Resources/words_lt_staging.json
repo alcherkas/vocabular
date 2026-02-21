@@ -10518,7 +10518,7 @@
     "term": "žaisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To engage in play or a game for fun; to take part in a sport or recreational activity.",
@@ -10530,14 +10530,19 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "žaidžioti",
+      "sportuoti"
+    ],
     "antonymTerms": [
       "dirbti"
     ],
     "relatedTerms": [
       "žaidimas",
       "sportas",
-      "vaikas"
+      "vaikas",
+      "pramogos",
+      "rungtynės"
     ],
     "translation": "to play",
     "qaNote": "\"pramogauti\" removed from synonyms: pramogauti means to have fun or entertain oneself (a broader leisure concept), while žaisti specifically means to play a game or sport; the two overlap but are not synonymous. Entry now has 0 synonyms; at least 1–2 synonyms needed (e.g., \"žaidžioti\", \"sportuoti\")."
@@ -14863,7 +14868,7 @@
     "term": "duona",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A staple food made by baking a dough of flour and water, often leavened with yeast.",
@@ -14876,12 +14881,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kepalas",
+      "kepinys"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "batonas",
       "miltai",
-      "sviestas"
+      "sviestas",
+      "kepimas"
     ],
     "translation": "bread"
   },
@@ -15494,7 +15503,7 @@
     "term": "kiaušinis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An oval or round object laid by a female bird, especially a hen, used as food.",
@@ -15506,12 +15515,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vištos kiaušinis"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "vištiena",
       "sviestas",
-      "pusryčiai"
+      "pusryčiai",
+      "maistas",
+      "virti"
     ],
     "translation": "egg"
   },
@@ -15519,7 +15532,7 @@
     "term": "pipirai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A pungent spice from dried peppercorns; also sweet or hot bell peppers used as a vegetable.",
@@ -15532,12 +15545,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "prieskoniai",
+      "aitrioji paprika"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "druska",
       "prieskoniai",
-      "garstyčios"
+      "garstyčios",
+      "maistas",
+      "kvapas"
     ],
     "translation": "pepper; peppers"
   },
@@ -15545,7 +15563,7 @@
     "term": "druska",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A white crystalline substance used to season or preserve food.",
@@ -15558,12 +15576,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "valgomoji druska",
+      "jūros druska"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "pipirai",
       "cukrus",
-      "prieskoniai"
+      "prieskoniai",
+      "skonis",
+      "konservavimas"
     ],
     "translation": "salt"
   },
@@ -15571,7 +15594,7 @@
     "term": "aliejus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A viscous liquid derived from plants, used in cooking.",
@@ -15584,12 +15607,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "augalinis aliejus",
+      "alyva"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "sviestas",
       "druska",
-      "virti"
+      "virti",
+      "kepimas",
+      "mityba"
     ],
     "translation": "oil"
   },
@@ -15597,7 +15625,7 @@
     "term": "cukrus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A sweet crystalline substance obtained from sugar cane or beet, used to sweeten food and drinks.",
@@ -15610,12 +15638,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sacharozė",
+      "saldiklis"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "druska",
       "medus",
-      "arbata"
+      "arbata",
+      "saldainis",
+      "kepimas"
     ],
     "translation": "sugar"
   },
@@ -15623,7 +15656,7 @@
     "term": "makaronai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A food made from flour and water shaped into various forms and boiled before eating.",
@@ -15635,12 +15668,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pasta",
+      "vermišeliai"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "ryžiai",
       "bulvės",
-      "padažas"
+      "padažas",
+      "miltai"
     ],
     "translation": "pasta, noodles"
   },
@@ -15659,7 +15696,7 @@
     "term": "ryžiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A cereal grain that is a staple food in many countries, cooked by boiling or steaming.",
@@ -15672,12 +15709,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "grūdai",
+      "baltieji ryžiai"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "makaronai",
       "grikiai",
-      "bulvės"
+      "bulvės",
+      "maistas",
+      "Azija"
     ],
     "translation": "rice"
   },
@@ -15883,7 +15925,7 @@
     "term": "Vanduo",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A clear, colourless liquid essential for all life forms; the most common drink.",
@@ -15896,12 +15938,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "H₂O",
+      "geriamasis vanduo"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "arbata",
       "sultys",
-      "mineralinis vanduo"
+      "mineralinis vanduo",
+      "gėrimas",
+      "baseinas"
     ],
     "translation": "water"
   },
@@ -15909,7 +15956,7 @@
     "term": "arbata",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A hot drink made by infusing dried tea leaves in boiling water.",
@@ -15922,12 +15969,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "arbatėlė",
+      "žalioji arbata"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "vanduo",
       "cukrus",
-      "puodukas"
+      "puodukas",
+      "gėrimas",
+      "arbatinukas"
     ],
     "translation": "tea"
   },
@@ -16360,7 +16412,7 @@
     "term": "tuščias",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Containing nothing; not filled or occupied.",
@@ -16372,13 +16424,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "laisvas",
+      "neužpildytas"
+    ],
     "antonymTerms": [
       "pilnas"
     ],
     "relatedTerms": [
       "pilnas",
-      "erdvus"
+      "erdvus",
+      "vieta"
     ],
     "translation": "empty"
   },
@@ -16734,7 +16790,7 @@
     "term": "Kainuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To have a specified price.",
@@ -16747,12 +16803,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "mokėti",
+      "atsieiti"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "kaina",
       "pirkti",
-      "mokėti"
+      "mokėti",
+      "vertė",
+      "pirkimas"
     ],
     "translation": "to cost"
   },
@@ -16771,7 +16832,7 @@
     "term": "parduoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To exchange something for money; to give in return for payment.",
@@ -16784,14 +16845,19 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "realizuoti",
+      "perleisti"
+    ],
     "antonymTerms": [
       "pirkti"
     ],
     "relatedTerms": [
       "pirkti",
       "kainuoti",
-      "parduotuvė"
+      "parduotuvė",
+      "prekyba",
+      "sandoris"
     ],
     "translation": "to sell"
   },
@@ -17810,7 +17876,7 @@
     "term": "skristi",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To travel through the air, as in an airplane or bird.",
@@ -17823,12 +17889,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "skraidyti",
+      "lėktuvuoti"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "lėktuvas",
       "oro uostas",
-      "keliauti"
+      "keliauti",
+      "kelionė",
+      "bilietas"
     ],
     "translation": "to fly"
   },
@@ -17836,7 +17907,7 @@
     "term": "plaukti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To move through water using the body.",
@@ -17859,12 +17930,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "irkloti",
+      "plaukioti"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "laivas",
       "jūra",
-      "baseinas"
+      "baseinas",
+      "sportas",
+      "vanduo"
     ],
     "translation": "to swim; to sail"
   },
@@ -17872,7 +17948,7 @@
     "term": "vairuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To operate and control a motor vehicle.",
@@ -17884,12 +17960,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "valdyti",
+      "važiuoti"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "automobilis",
       "kelias",
-      "vairuotojas"
+      "vairuotojas",
+      "eismas",
+      "gatvė"
     ],
     "translation": "to drive"
   },
@@ -17908,7 +17989,7 @@
     "term": "sustoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To cease moving or operating; to come to a halt.",
@@ -17921,14 +18002,19 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "liautis",
+      "stabtelėti"
+    ],
     "antonymTerms": [
       "judėti"
     ],
     "relatedTerms": [
       "stotelė",
       "kelias",
-      "vairuoti"
+      "vairuoti",
+      "laukti",
+      "stabdyti"
     ],
     "translation": "to stop"
   },
@@ -18046,7 +18132,7 @@
     "term": "nešti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To hold and support something while moving from one place to another.",
@@ -18060,13 +18146,16 @@
       }
     ],
     "synonyms": [
-      "gabenti"
+      "gabenti",
+      "tempti"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "kelias",
       "dėžė",
-      "paimti"
+      "paimti",
+      "krovinys",
+      "rankos"
     ],
     "translation": "to carry"
   },
@@ -18140,7 +18229,7 @@
     "term": "sumokėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To give money in exchange for goods or services.",
@@ -18155,13 +18244,17 @@
       }
     ],
     "synonyms": [
-      "mokėti"
+      "mokėti",
+      "apmokėti",
+      "susimokėti"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "kainuoti",
       "pirkti",
-      "pinigai"
+      "pinigai",
+      "sąskaita",
+      "kaina"
     ],
     "translation": "to pay"
   },
@@ -18224,7 +18317,7 @@
     "term": "Autobusas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large road vehicle that carries passengers on fixed routes and stops.",
@@ -18238,13 +18331,16 @@
       }
     ],
     "synonyms": [
-      "viešasis transportas"
+      "viešasis transportas",
+      "troleibusas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "autobusų stotis",
       "bilietai",
-      "stotelė"
+      "stotelė",
+      "bilietas",
+      "maršrutas"
     ],
     "translation": "bus"
   },
@@ -18252,7 +18348,7 @@
     "term": "automobilis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A four-wheeled motor vehicle used for personal transport.",
@@ -18266,13 +18362,16 @@
       }
     ],
     "synonyms": [
-      "mašina"
+      "mašina",
+      "transporto priemonė"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "vairuoti",
       "garažas",
-      "kelias"
+      "kelias",
+      "benzinas",
+      "avarinė pagalba"
     ],
     "translation": "car"
   },
@@ -18291,7 +18390,7 @@
     "term": "metro",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An underground urban rail transit system.",
@@ -18305,13 +18404,16 @@
       }
     ],
     "synonyms": [
-      "požeminis traukinys"
+      "požeminis traukinys",
+      "metropolitenas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "stotis",
       "traukinys",
-      "miestas"
+      "miestas",
+      "eismas",
+      "bilietas"
     ],
     "translation": "metro / subway"
   },
@@ -18319,7 +18421,7 @@
     "term": "taksi",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A vehicle available for hire with a driver, used to carry passengers.",
@@ -18332,12 +18434,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "taksis",
+      "nuomojamas automobilis"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "automobilis",
       "vairuotojas",
-      "kelias"
+      "kelias",
+      "miestai"
     ],
     "translation": "taxi"
   },
@@ -18356,7 +18462,7 @@
     "term": "laivas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large vessel that travels on water, used for transport or travel.",
@@ -18370,13 +18476,16 @@
       }
     ],
     "synonyms": [
-      "valtis"
+      "valtis",
+      "keltas",
+      "garlaivas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "jūra",
       "upė",
-      "uostas"
+      "uostas",
+      "jūreivis"
     ],
     "translation": "ship / boat"
   },
@@ -18395,7 +18504,7 @@
     "term": "traukinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A series of connected railway carriages or wagons pulled by a locomotive.",
@@ -18408,12 +18517,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "greitasis traukinys",
+      "ekspresinis traukinys"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "traukinių stotis",
       "bilietas",
-      "bėgiai"
+      "bėgiai",
+      "geležinkelis",
+      "keleiviai"
     ],
     "translation": "train"
   },
@@ -18432,7 +18546,7 @@
     "term": "lėktuvas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A powered flying vehicle with fixed wings, used to carry passengers or cargo.",
@@ -18445,12 +18559,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "orlaivis",
+      "reaktyvinis lėktuvas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "skristi",
       "oro uostas",
-      "pilotas"
+      "pilotas",
+      "sparnai",
+      "tarptautinis"
     ],
     "translation": "airplane / aircraft"
   },
@@ -18458,7 +18577,7 @@
     "term": "dviratis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A two-wheeled pedal-driven vehicle.",
@@ -18471,12 +18590,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "velosipedas",
+      "dviratukas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "šalmas",
       "dviračių takas",
-      "pedalai"
+      "pedalai",
+      "sportas",
+      "aplinkosauginis transportas"
     ],
     "translation": "bicycle / bike"
   },
@@ -18495,7 +18619,7 @@
     "term": "kelionė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An act of travelling from one place to another.",
@@ -18509,13 +18633,17 @@
       }
     ],
     "synonyms": [
-      "ekskursija"
+      "ekskursija",
+      "išvyka",
+      "turne"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "keliauti",
       "lagaminas",
-      "bilietas"
+      "bilietas",
+      "atostogos",
+      "maršrutas"
     ],
     "translation": "journey / trip"
   },
@@ -18523,7 +18651,7 @@
     "term": "kelias",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A hard surface built for vehicles to travel on; a route or path from one place to another.",
@@ -18537,13 +18665,17 @@
       }
     ],
     "synonyms": [
-      "gatvė"
+      "gatvė",
+      "takas",
+      "keliukas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "gatvė",
       "takas",
-      "vairuoti"
+      "vairuoti",
+      "transportas",
+      "ženklas"
     ],
     "translation": "road; way; journey"
   },
@@ -18551,7 +18683,7 @@
     "term": "greitkelis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A wide road designed for fast-moving traffic over long distances.",
@@ -18564,7 +18696,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "autostrada",
+      "magistralė"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "kelias",
@@ -18772,7 +18907,7 @@
     "term": "laikas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The indefinite continued progress of existence; a measured or measurable period.",
@@ -18784,12 +18919,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "trukmė",
+      "momentas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "valanda",
       "minutė",
-      "mėnuo"
+      "mėnuo",
+      "diena"
     ],
     "translation": "time"
   },
@@ -21921,7 +22060,7 @@
     "term": "perkūnija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A storm with lightning, thunder, and heavy rain.",
@@ -21934,12 +22073,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "griaustinis",
+      "perkūnas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "žaibas",
       "audra",
-      "griaustinis"
+      "griaustinis",
+      "oras",
+      "pavojus"
     ],
     "translation": "thunderstorm"
   },
@@ -22017,7 +22161,7 @@
     "term": "saulė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The star at the centre of our solar system, the source of light and heat.",
@@ -22030,14 +22174,19 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "žvaigždė",
+      "saulutė"
+    ],
     "antonymTerms": [
       "mėnulis"
     ],
     "relatedTerms": [
       "saulėtas",
       "šviesa",
-      "vasara"
+      "vasara",
+      "šiluma",
+      "rytas"
     ],
     "translation": "sun"
   },
@@ -25220,7 +25369,7 @@
     "term": "sirgti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To suffer from an illness or disease.",
@@ -25232,14 +25381,19 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "negaluoti",
+      "blogai jaustis"
+    ],
     "antonymTerms": [
       "sveikti"
     ],
     "relatedTerms": [
       "liga",
       "gydytojas",
-      "vaistai"
+      "vaistai",
+      "ligoninė",
+      "poilsis"
     ],
     "translation": "to be ill, to be sick"
   },
