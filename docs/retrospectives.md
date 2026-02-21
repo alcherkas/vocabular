@@ -610,3 +610,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a QA utility mode in `scripts/validate_words.py` to list `relations-added` entries and flag stale `qaNote` text after relation edits.
+
+## [2026-02-21] [enricher-lt-9] [vocab/enricher-lt-9]
+
+### What went well
+- Preflight JSON check and enriched-status validation both passed, so the 30-word batch landed cleanly in one pass.
+
+### What was harder than expected
+- Maintaining consistent glossary phrasing across masculine/feminine profession pairs required extra review for natural examples.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- Add a small reusable template for profession-pair entries (male/female forms) to speed up LT enrichment batches.
