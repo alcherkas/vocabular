@@ -3045,3 +3045,33 @@ brangus, pigus, mokėti, siūlyti, užsisakyti, sąskaita, nuolaidų kortelė, g
 ### Doubts / meta-notes
 - The synonym accuracy problem is likely partially attributable to the validator's ≥2 synonym requirement for EN entries: agents over-include to satisfy the count. A future cycle could consider whether the threshold causes quality pressure that outweighs the diversity benefit. Not changed this cycle (≤3 limit; would need retro evidence first).
 - Confidence: 90% — the rules are clear and evidence is unambiguous.
+
+---
+
+## seeder-en-10 — 2025-07-25
+
+**Agent**: seeder-en-10 | **Branch**: vocab/seeder-en-10 | **Task**: Add 100 new EN stubs
+
+### What was done
+- Preflight JSON check on `words_staging.json` — passed (930 entries, valid JSON).
+- Audited all existing terms across `words_staging.json` (930) and `words.json` (196) to identify gaps in target domains.
+- Generated and appended 100 new `status="stub"` entries covering five under-represented academic domains:
+  - **Philosophy of mind** (15): consciousness, dualism, philosophical zombie, multiple realizability, eliminative materialism, property dualism, higher-order theory, folk psychology, propositional attitude, mental causation, token identity, type identity, hard problem, absent qualia, inverted qualia.
+  - **Cognitive science** (16): working memory, executive function, cognitive load, inhibitory control, priming, cognitive bias, dual-process theory, framing effect, availability heuristic, representativeness heuristic, embodied cognition, situated cognition, scaffolding, theory of mind, mental rotation, cognitive dissonance.
+  - **Political philosophy** (19): legitimacy, sovereignty, social contract, deliberative democracy, republicanism, liberalism, civil disobedience, rule of law, constitutional democracy, separation of powers, checks and balances, majority rule, tyranny of the majority, positive liberty, negative liberty, veil of ignorance, contractualism, proportional representation, gerrymandering.
+  - **Economics / game theory** (19): moral hazard, adverse selection, rent-seeking, public good, free rider, Nash equilibrium, zero-sum game, deadweight loss, price discrimination, marginal cost, opportunity cost, sunk cost, comparative advantage, economies of scale, market failure, information asymmetry, screening, regulatory capture, allocative efficiency.
+  - **Law / jurisprudence** (20): mens rea, habeas corpus, due process, precedent, stare decisis, tort, standing, jurisdiction, judicial review, equal protection, substantive due process, procedural due process, strict scrutiny, rational basis, burden of proof, actus reus, res judicata, ultra vires, proportionality, subsidiarity.
+  - **Ethics / additional** (11): affidavit, prima facie, double jeopardy, meta-ethics, virtue ethics, normative ethics, moral luck, free will, epistemic injustice, eudaimonia, natural monopoly.
+- Ran `validate_words.py --status stub` — PASSED (140 stubs valid; 40 pre-existing + 100 new).
+- Committed as `vocab(seeder-en-10): add 100 new English word stubs`.
+
+### What went well
+- Pre-checking all 100 candidates against both staging and production before writing prevented any conflicts (0 duplicates).
+- Grouping by domain made it straightforward to verify coverage gaps and reach exactly 100.
+
+### What was tricky
+- Several originally-planned terms already existed in staging under slight variants (e.g. `prisoner's dilemma`, `deontology`, `consequentialism`, `monopsony`, `injunction`, `subpoena`, `estoppel`). Needed two rounds of candidate checking to arrive at a clean 100.
+- `prima facie` is a borderline case for `partOfSpeech`; used `adjective` (most common syntactic role in legal usage) per valid POS list.
+
+### Doubts / confidence
+- Confidence: 98% — all terms are well-established in their domains, all validated, no ambiguity.
