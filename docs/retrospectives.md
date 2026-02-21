@@ -3749,4 +3749,40 @@ Copilot (vocab enricher agent), branch `vocab/enricher-en-38`, worktree `/Users/
 - Confidence: 92%. The multi-sense split for `register` (linguistics vs. computing) is deliberate and defensible, but QA should verify whether combining two domains in one entry is preferable to separate entries.
 - `suprasegmental` was enriched as an adjective (the primary usage), though it also occurs as a noun headword in some linguistic traditions. The adjective form is the more common usage in modern linguistics textbooks.
 - 95 EN stubs remain (`status == "stub"`); future batches can cover ecology, behavioural economics, philosophy of science, and remaining CS topics (sharding, microservices, federated learning, etc.).
+## Enricher Agent — vocab/enricher-lt-52 — 2026-02-21
+
+### Agent
+Copilot (vocab enricher agent), branch `vocab/enricher-lt-52`, worktree `/Users/aleksandrcherkas/Documents/GitHub/vocabular-wt-enricher-lt-52`.
+
+### What was done
+- Preflight JSON: `words_lt_staging.json` passed (`json.load` clean, 2065 entries).
+- Counted available stubs: 460 stubs found.
+- Searched stubs for weather and nature vocabulary; identified 16 clear weather/nature terms and supplemented with 19 further general-purpose terms whose senses overlap naturally with weather, landscape and nature contexts.
+- Enriched 35 stubs (status `stub` → `enriched`):
+  - **Weather adjectives**: `šaltas` (cold), `vėsus` (cool), `blankus` (dull/overcast), `tamsokas` (darkish/gloomy), `drungnas` (tepid/mild).
+  - **Tactile/climate adjectives**: `kietas` (hard/frozen ground), `minkštas` (soft soil, mild climate), `šiurkštus` (rough terrain), `siauras` (narrow valley/gorge), `ilgas` (long river/day), `trumpas` (short winter day), `lengvas` (gentle rain/breeze), `pilnas` (full — moon, flooded ditch).
+  - **Taste adjectives with nature framing**: `sūrus` (salty sea air), `rūgštus` (sour; acid rain in technical sense), `kartus` (bitter — taste + biting winter cold), `saldus` (sweet fruit, spring scent).
+  - **Geological/landscape nouns**: `akmenys` (stones/rocks), `šulinys` (well).
+  - **Flora nouns/phrases**: `slyva` (plum, tree+fruit), `vyšnia` (cherry, tree+fruit), `eglės šaka` (fir branch).
+  - **Nature verbs (conjugated forms)**: `degti`/`dega`/`degė` (to burn/burns/burned — fire, forest fire), `žydi`/`žydėjo` (blooms/bloomed — spring flora).
+  - **Spatial/temporal adverbs and nouns**: `pradžia` (river source; season start), `pabaiga` (season end, winter thaw), `vidurys` (lake centre; midsummer), `tolyn` (into the distance — birds/landscape), `arčiau` (storm approaching), `toliau` (deeper into forest), `lygiai` (precisely — meteor shower; snow lying evenly).
+- Each entry: 1–3 meanings, Lithuanian definition and example sentence, `register`, `tags`, `translation` (EN), empty `synonyms`/`antonymTerms`/`relatedTerms`.
+- All term values already lowercase (confirmed before enrichment).
+- Validated: `python3 scripts/validate_words.py --errors-for enriched` → **PASSED**, 0 errors in `enriched` batch, 98 pre-existing warnings in other statuses (not in scope).
+- Committed as `vocab(enricher-lt-52): enrich 35 Lithuanian stubs` (0463b9d).
+
+### Thematic coverage note
+The 460 available stubs are predominantly food, clothing, numerals, ordinals, calendar months and household vocabulary seeded from `lt.txt`. Only ~16 unambiguous weather/nature stubs were present (weather adjectives, flora, fire verbs, mineral terms). To reach the 35-entry target, spatial/temporal adverbs and general-purpose adjectives were selected and enriched with weather/nature-themed example sentences wherever semantically valid. A dedicated nature/geography seed pass (oras, lietus, sniegas, vėjas, kalnai, ežeras, upė, miškas, etc.) would substantially increase the pool for future weather-focused enrichment batches.
+
+### Decisions / quality notes
+- Conjugated forms (`dega`, `degė`, `žydi`, `žydėjo`) were pre-seeded as separate stub entries and enriched as-is with `partOfSpeech: verb`, tagging each as a specific tense form in the definition.
+- `rūgštus` was given a `technical` register meaning for acid rain (rūgštus lietus), in addition to a `general` culinary sense.
+- `kartus` received three meanings: gustatory (bitter taste), meteorological (biting cold) and literary (bitter feeling). The meteorological meaning is attested in Lithuanian ("kartus šaltis kandžioja").
+- `minkštas` includes a climate sense (mild climate — "minkštas klimatas") which is standard in Lithuanian meteorological usage.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for enriched` → **PASSED** (exit 0), 0 errors in `enriched` batch.
+
+### Doubts / meta-notes
+- Confidence: 92%. Lithuanian example sentences were crafted from native-pattern constructions; any QA reviewer should verify idiomatic naturalness, especially for compound adjective phrases.
 - No merge performed as instructed.
