@@ -18096,12 +18096,33 @@
     "term": "pradėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To start or begin an action, process, application, or download.",
+        "example": "Pradėk atsisiuntimą paspausdamas mygtuką ekrane.",
+        "register": "general",
+        "tags": [
+          "technology",
+          "process",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "paleisti",
+      "inicijuoti"
+    ],
+    "antonymTerms": [
+      "baigti",
+      "sustabdyti"
+    ],
+    "relatedTerms": [
+      "programa",
+      "procesas",
+      "įjungti"
+    ],
+    "translation": "to start, to begin"
   },
   {
     "term": "prasidėti",
@@ -18118,12 +18139,33 @@
     "term": "baigti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To finish or complete an action, process, or session on a device.",
+        "example": "Baigk darbą kompiuteryje ir išjunk jį prieš išeidamas.",
+        "register": "general",
+        "tags": [
+          "technology",
+          "process",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "užbaigti",
+      "pabaigti"
+    ],
+    "antonymTerms": [
+      "pradėti",
+      "tęsti"
+    ],
+    "relatedTerms": [
+      "procesas",
+      "sesija",
+      "išjungti"
+    ],
+    "translation": "to finish, to complete, to end"
   },
   {
     "term": "pasibaigti",
@@ -18162,12 +18204,30 @@
     "term": "ieškoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To look for information, a file, or data, especially using a search engine or application.",
+        "example": "Naudokis paieška, kad greičiau rastum norimą failą kompiuteryje.",
+        "register": "general",
+        "tags": [
+          "internet",
+          "search",
+          "technology",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "paieška vykdyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "rasti",
+      "naršyklė",
+      "paieška"
+    ],
+    "translation": "to search, to look for"
   },
   {
     "term": "išsikviesti",
@@ -18215,12 +18275,33 @@
     "term": "pakeisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To modify, update, or replace data, settings, or a file with a new version.",
+        "example": "Reguliariai keisk slaptažodį, kad apsaugotum savo paskyrą.",
+        "register": "general",
+        "tags": [
+          "technology",
+          "settings",
+          "security",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "keisti",
+      "atnaujinti"
+    ],
+    "antonymTerms": [
+      "palikti"
+    ],
+    "relatedTerms": [
+      "nustatymai",
+      "versija",
+      "atnaujinimas"
+    ],
+    "translation": "to change, to replace, to update"
   },
   {
     "term": "palydėti",
@@ -18259,23 +18340,64 @@
     "term": "patikrinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To verify or inspect data, an account, or a system to ensure it is correct or working.",
+        "example": "Patikrink el. pašto dėžutę – gali būti naujų žinučių.",
+        "register": "general",
+        "tags": [
+          "internet",
+          "technology",
+          "security",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tikrinti",
+      "peržiūrėti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "saugumas",
+      "slaptažodis",
+      "paskyra"
+    ],
+    "translation": "to check, to verify"
   },
   {
     "term": "rasti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To locate or discover information, files, or data after searching online or on a device.",
+        "example": "Ar radai atsakymą į savo klausimą internete?",
+        "register": "general",
+        "tags": [
+          "internet",
+          "search",
+          "technology",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "aptikti",
+      "surasti"
+    ],
+    "antonymTerms": [
+      "prarasti",
+      "pamesti"
+    ],
+    "relatedTerms": [
+      "ieškoti",
+      "paieška",
+      "rezultatai"
+    ],
+    "translation": "to find"
   },
   {
     "term": "sumokėti",
@@ -18314,12 +18436,33 @@
     "term": "užsakyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To place an order for a product or service, especially through an online store.",
+        "example": "Užsakykite prekę interneto parduotuvėje ir ji bus pristatyta namo.",
+        "register": "general",
+        "tags": [
+          "e-commerce",
+          "internet",
+          "shopping",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rezervuoti",
+      "pirkti internetu"
+    ],
+    "antonymTerms": [
+      "atšaukti"
+    ],
+    "relatedTerms": [
+      "interneto parduotuvė",
+      "pristatymas",
+      "mokėjimas"
+    ],
+    "translation": "to order"
   },
   {
     "term": "vežti",
@@ -18832,12 +18975,30 @@
     "term": "elektroninis bilietas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A ticket for travel or events stored digitally on a device rather than printed on paper.",
+        "example": "Nusipirkau elektroninį bilietą internetu ir išsaugojau telefone.",
+        "register": "technical",
+        "tags": [
+          "digital",
+          "travel",
+          "technology",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "e-bilietas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "bilietai",
+      "išmanusis telefonas",
+      "QR kodas"
+    ],
+    "translation": "electronic ticket, e-ticket"
   },
   {
     "term": "bilietas pirmyn ir atgal",
@@ -20839,13 +21000,31 @@
   {
     "term": "televizorius",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An electronic device that receives and displays broadcast or streamed video and audio content.",
+        "example": "Vakare jie žiūri filmus per televizorių arba planšetę.",
+        "register": "general",
+        "tags": [
+          "electronics",
+          "media",
+          "streaming",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "TV"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "ekranas",
+      "nuotolinis valdymas",
+      "kanalas"
+    ],
+    "translation": "television, TV"
   },
   {
     "term": "lovytė",
@@ -21203,23 +21382,62 @@
     "term": "įjungti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To activate or switch on a device, application, or system.",
+        "example": "Įjunk kompiuterį paspausdamas maitinimo mygtuką.",
+        "register": "general",
+        "tags": [
+          "technology",
+          "device",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "suaktyvinti",
+      "paleisti"
+    ],
+    "antonymTerms": [
+      "išjungti"
+    ],
+    "relatedTerms": [
+      "išjungti",
+      "perkrauti",
+      "maitinimas"
+    ],
+    "translation": "to turn on, to switch on, to enable"
   },
   {
     "term": "išjungti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To deactivate or switch off a device, application, or system.",
+        "example": "Išjunk Wi-Fi, kai nesinaudoji internetu, kad taupytum bateriją.",
+        "register": "general",
+        "tags": [
+          "technology",
+          "device",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "deaktyvuoti"
+    ],
+    "antonymTerms": [
+      "įjungti"
+    ],
+    "relatedTerms": [
+      "įjungti",
+      "perkrauti",
+      "energijos taupymas"
+    ],
+    "translation": "to turn off, to switch off, to disable"
   },
   {
     "term": "siurbti",
@@ -26676,13 +26894,29 @@
   {
     "term": "pelė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A small handheld input device used to move the cursor and interact with a computer graphical interface.",
+        "example": "Spustelėk pelės dešiniuoju mygtuku ant failo, kad pamatytum parinktis.",
+        "register": "technical",
+        "tags": [
+          "computer",
+          "hardware",
+          "peripheral",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "klaviatūra",
+      "ekranas",
+      "kompiuteris"
+    ],
+    "translation": "mouse (computer)"
   },
   {
     "term": "tušinukas",
@@ -26871,12 +27105,30 @@
     "term": "planšetinis kompiuteris",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A portable flat touchscreen computing device, larger than a smartphone, typically used for browsing, reading, and media.",
+        "example": "Ji skaito knygas planšetiniame kompiuteryje prieš miegą.",
+        "register": "technical",
+        "tags": [
+          "computer",
+          "device",
+          "mobile",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "planšetė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kompiuteris",
+      "išmanusis telefonas",
+      "ekranas"
+    ],
+    "translation": "tablet computer"
   },
   {
     "term": "elektroninis laiškas",
@@ -26943,13 +27195,33 @@
   {
     "term": "kopija",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A duplicate of a document or file; also the text or data copied to the clipboard for pasting.",
+        "example": "Padarykite failo kopiją prieš jį redaguodami.",
+        "register": "general",
+        "tags": [
+          "computer",
+          "document",
+          "office",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dublikatas"
+    ],
+    "antonymTerms": [
+      "originalas"
+    ],
+    "relatedTerms": [
+      "kopijuoti",
+      "klijuoti",
+      "failas"
+    ],
+    "translation": "copy"
   },
   {
     "term": "kopijavimo aparatas",
@@ -27492,13 +27764,32 @@
   {
     "term": "kursai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A series of lessons or training sessions, often delivered online or through a learning platform.",
+        "example": "Ji mokosi programavimo per nuotolinius kursus vakarais.",
+        "register": "general",
+        "tags": [
+          "education",
+          "e-learning",
+          "internet",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mokymai",
+      "pamokos"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "mokymasis",
+      "sertifikatas",
+      "platforma"
+    ],
+    "translation": "courses"
   },
   {
     "term": "posėdis",
@@ -27841,13 +28132,42 @@
   {
     "term": "laiškas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An electronic message sent via email.",
+        "example": "Gavau laišką el. paštu su patvirtinimo kodu.",
+        "register": "general",
+        "tags": [
+          "communication",
+          "email",
+          "internet",
+          "A2"
+        ]
+      },
+      {
+        "definition": "A written message sent by post.",
+        "example": "Ji parašė laišką savo draugui užsienyje.",
+        "register": "general",
+        "tags": [
+          "communication",
+          "post",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "el. laiškas",
+      "žinutė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "el. paštas",
+      "siųsti",
+      "gauti"
+    ],
+    "translation": "letter; email"
   },
   {
     "term": "pašto ženklas",
@@ -27863,35 +28183,95 @@
   {
     "term": "siuntinys",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A parcel or package sent by post or courier; often ordered through an online store.",
+        "example": "Internetu užsakytas siuntinys atkeliavo per dvi dienas.",
+        "register": "general",
+        "tags": [
+          "e-commerce",
+          "delivery",
+          "internet",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "paketas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pristatymas",
+      "sekti siuntą",
+      "interneto parduotuvė"
+    ],
+    "translation": "parcel, package"
   },
   {
     "term": "gauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To receive or obtain something, such as an email, message, or file sent electronically.",
+        "example": "Ar gavai mano el. laišką su priedu?",
+        "register": "general",
+        "tags": [
+          "communication",
+          "email",
+          "internet",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "priimti",
+      "sulaukti"
+    ],
+    "antonymTerms": [
+      "siųsti"
+    ],
+    "relatedTerms": [
+      "el. paštas",
+      "pašto dėžutė",
+      "žinutė"
+    ],
+    "translation": "to receive, to get"
   },
   {
     "term": "siųsti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To transmit a message, file, or data to a recipient electronically.",
+        "example": "Siųsk man dokumentą el. paštu iki pietų.",
+        "register": "general",
+        "tags": [
+          "communication",
+          "email",
+          "internet",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "perduoti",
+      "išsiųsti"
+    ],
+    "antonymTerms": [
+      "gauti"
+    ],
+    "relatedTerms": [
+      "el. paštas",
+      "žinutė",
+      "failas"
+    ],
+    "translation": "to send"
   },
   {
     "term": "Banknotas",
@@ -27907,13 +28287,32 @@
   {
     "term": "blankas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A form or template with fields to be filled in, often submitted online.",
+        "example": "Užpildyk registracijos blanką internetu ir nusiųsk el. paštu.",
+        "register": "general",
+        "tags": [
+          "document",
+          "online",
+          "form",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "forma",
+      "anketa"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pildyti",
+      "dokumentas",
+      "paraiška"
+    ],
+    "translation": "form, blank"
   },
   {
     "term": "čekis",
@@ -27929,46 +28328,144 @@
   {
     "term": "kursas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The exchange rate of a currency, often checked on banking or financial websites.",
+        "example": "Patikrinkite valiutos kursą prieš pirkdami internetu iš užsienio parduotuvės.",
+        "register": "general",
+        "tags": [
+          "finance",
+          "banking",
+          "internet",
+          "A2"
+        ]
+      },
+      {
+        "definition": "An educational course or programme, often delivered online.",
+        "example": "Ji baigė programavimo kursą nuotoliniu būdu.",
+        "register": "general",
+        "tags": [
+          "education",
+          "e-learning",
+          "internet",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "norma",
+      "programa"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "valiuta",
+      "mokymasis",
+      "sertifikatas"
+    ],
+    "translation": "rate; course"
   },
   {
     "term": "mokėjimo kortelė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A bank-issued card used to make electronic payments in shops or online.",
+        "example": "Aš sumokėjau mokėjimo kortele interneto parduotuvėje.",
+        "register": "technical",
+        "tags": [
+          "finance",
+          "banking",
+          "digital",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "banko kortelė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "PIN kodas",
+      "atsiskaitymas",
+      "internetinė bankininkystė"
+    ],
+    "translation": "payment card, bank card"
   },
   {
     "term": "moneta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A digital token used in cryptocurrency systems.",
+        "example": "Jis nusipirko keletą kriptovaliutos monetų biržoje.",
+        "register": "technical",
+        "tags": [
+          "finance",
+          "cryptocurrency",
+          "digital",
+          "B1"
+        ]
+      },
+      {
+        "definition": "A small metal disc used as money.",
+        "example": "Ji rado monetą ant šaligatvio.",
+        "register": "general",
+        "tags": [
+          "everyday",
+          "money",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "žetonas"
+    ],
+    "antonymTerms": [
+      "banknotas"
+    ],
+    "relatedTerms": [
+      "kriptovaliuta",
+      "valiuta",
+      "skaitmeninis pinigas"
+    ],
+    "translation": "coin; (crypto) token"
   },
   {
     "term": "paskola",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A sum of money borrowed from a bank or lender, often applied for through an online banking platform.",
+        "example": "Paraiška paskolai buvo pateikta per banko internetinę bankininkystę.",
+        "register": "general",
+        "tags": [
+          "finance",
+          "banking",
+          "internet",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kreditas"
+    ],
+    "antonymTerms": [
+      "indėlis"
+    ],
+    "relatedTerms": [
+      "bankas",
+      "palūkanos",
+      "internetinė bankininkystė"
+    ],
+    "translation": "loan"
   },
   {
     "term": "pinigai",
@@ -27995,13 +28492,31 @@
   {
     "term": "valiuta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A system of money in use in a country; also includes digital and cryptocurrencies.",
+        "example": "Bitcoin yra populiari skaitmeninė valiuta, naudojama internete.",
+        "register": "general",
+        "tags": [
+          "finance",
+          "digital",
+          "internet",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pinigai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kriptovaliuta",
+      "kursas",
+      "bankas"
+    ],
+    "translation": "currency"
   },
   {
     "term": "atiduoti",
@@ -28051,12 +28566,30 @@
     "term": "užpildyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To complete a form or questionnaire with the required information, often submitted online.",
+        "example": "Prašome užpildyti registracijos formą mūsų svetainėje.",
+        "register": "general",
+        "tags": [
+          "document",
+          "online",
+          "form",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pildyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "forma",
+      "registracija",
+      "blankas"
+    ],
+    "translation": "to fill in, to fill out"
   },
   {
     "term": "Atleisti",
@@ -28115,12 +28648,33 @@
     "term": "dalyvauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To take part in an event, meeting, or online activity.",
+        "example": "Dalyvaukite nuotoliniame susitikime naudodami vaizdo skambučio programą.",
+        "register": "general",
+        "tags": [
+          "communication",
+          "online",
+          "meeting",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "įsitraukti",
+      "prisijungti"
+    ],
+    "antonymTerms": [
+      "atsisakyti"
+    ],
+    "relatedTerms": [
+      "susitikimas",
+      "konferencija",
+      "vaizdo skambutis"
+    ],
+    "translation": "to participate, to take part"
   },
   {
     "term": "derėtis",
@@ -28136,24 +28690,61 @@
   {
     "term": "kreiptis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To contact someone or submit an application, often through digital channels or a website.",
+        "example": "Klientai gali kreiptis į pagalbos tarnybą el. paštu arba pokalbio lange.",
+        "register": "general",
+        "tags": [
+          "communication",
+          "internet",
+          "customer-service",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "susisiekti",
+      "prašyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pagalba",
+      "kontaktai",
+      "el. paštas"
+    ],
+    "translation": "to contact, to apply, to appeal to"
   },
   {
     "term": "pasirašyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To provide a signature, including digitally, to authorize a document or agreement.",
+        "example": "Sutartį galima pasirašyti elektroniniu parašu internetu.",
+        "register": "general",
+        "tags": [
+          "document",
+          "digital",
+          "legal",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "patvirtinti parašu"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "elektroninis parašas",
+      "dokumentas",
+      "sutartis"
+    ],
+    "translation": "to sign"
   },
   {
     "term": "priimti",
@@ -28181,12 +28772,33 @@
     "term": "susirinkti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To gather or assemble, including for an online meeting or conference call.",
+        "example": "Komanda susirinkta aptarti projekto eigą vaizdo skambučio metu.",
+        "register": "general",
+        "tags": [
+          "communication",
+          "meeting",
+          "online",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "susitikti",
+      "rinktis"
+    ],
+    "antonymTerms": [
+      "išsiskirstyti"
+    ],
+    "relatedTerms": [
+      "susitikimas",
+      "vaizdo skambutis",
+      "programa"
+    ],
+    "translation": "to gather, to assemble, to meet"
   },
   {
     "term": "tartis",
@@ -28202,13 +28814,32 @@
   {
     "term": "teirautis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To ask for information or make an inquiry, especially through online customer service or a website.",
+        "example": "Teiraukitės papildomos informacijos per mūsų svetainę arba el. paštu.",
+        "register": "formal",
+        "tags": [
+          "communication",
+          "internet",
+          "customer-service",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "klausti",
+      "domėtis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "klausimas",
+      "atsakymas",
+      "pagalbos tarnyba"
+    ],
+    "translation": "to inquire, to ask about"
   },
   {
     "term": "trukti",
@@ -28225,12 +28856,34 @@
     "term": "veikti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To function or operate correctly; used to describe how devices or software behave.",
+        "example": "Internetas šiandien neveikia – reikia patikrinti ryšį.",
+        "register": "general",
+        "tags": [
+          "technology",
+          "device",
+          "system",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "funkcionuoti",
+      "dirbti"
+    ],
+    "antonymTerms": [
+      "neveikti",
+      "gesti"
+    ],
+    "relatedTerms": [
+      "sistema",
+      "programa",
+      "internetas"
+    ],
+    "translation": "to work, to function, to operate"
   },
   {
     "term": "kirpti",
@@ -28247,23 +28900,72 @@
     "term": "klijuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In computing, to insert copied text or data from the clipboard into a document or field.",
+        "example": "Nukopijuok nuorodą iš naršyklės ir įklijuok ją į el. laišką.",
+        "register": "technical",
+        "tags": [
+          "computer",
+          "editing",
+          "A2"
+        ]
+      },
+      {
+        "definition": "To attach or stick something with adhesive.",
+        "example": "Jis klijavo pašto ženklą ant voko.",
+        "register": "general",
+        "tags": [
+          "everyday",
+          "physical",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "įklijuoti"
+    ],
+    "antonymTerms": [
+      "iškirpti"
+    ],
+    "relatedTerms": [
+      "kopijuoti",
+      "buferis",
+      "tekstas"
+    ],
+    "translation": "to paste; to glue"
   },
   {
     "term": "kopijuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To duplicate text, a file, or data so it can be pasted or reused elsewhere.",
+        "example": "Pažymėk tekstą ir kopijuok jį naudodamas Ctrl+C.",
+        "register": "general",
+        "tags": [
+          "computer",
+          "editing",
+          "keyboard-shortcut",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dubliuoti"
+    ],
+    "antonymTerms": [
+      "ištrinti"
+    ],
+    "relatedTerms": [
+      "klijuoti",
+      "buferis",
+      "failas"
+    ],
+    "translation": "to copy"
   },
   {
     "term": "susegti",
@@ -28280,12 +28982,43 @@
     "term": "trinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To remove or delete data, text, or a file from a device or document.",
+        "example": "Ištrink senus failus, kad atlaisvintum vietos diske.",
+        "register": "general",
+        "tags": [
+          "computer",
+          "editing",
+          "data",
+          "A2"
+        ]
+      },
+      {
+        "definition": "To rub or erase a surface.",
+        "example": "Trynė lentą šlapia kempine.",
+        "register": "general",
+        "tags": [
+          "everyday",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ištrinti",
+      "naikinti"
+    ],
+    "antonymTerms": [
+      "įrašyti",
+      "išsaugoti"
+    ],
+    "relatedTerms": [
+      "failas",
+      "šiukšlinė",
+      "anuliuoti"
+    ],
+    "translation": "to erase, to delete, to rub"
   },
   {
     "term": "Autis",
