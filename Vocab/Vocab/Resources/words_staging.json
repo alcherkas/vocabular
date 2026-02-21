@@ -1542,7 +1542,7 @@
   },
   {
     "term": "iatrogenic",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1580,7 +1580,7 @@
   },
   {
     "term": "nosocomial",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1600,8 +1600,7 @@
     ],
     "synonyms": [
       "hospital-acquired",
-      "hospital-borne",
-      "clinical"
+      "hospital-borne"
     ],
     "antonymTerms": [
       "community-acquired",
@@ -1613,12 +1612,14 @@
       "pathogen",
       "antibiotic resistance",
       "iatrogenic",
-      "hygiene"
-    ]
+      "hygiene",
+      "clinical"
+    ],
+    "qaNote": "\"clinical\" removed from synonyms: \"clinical\" broadly describes anything relating to a clinic or hospital setting and does not specifically mean \"hospital-acquired\". Moved to relatedTerms."
   },
   {
     "term": "pathognomonic",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -6056,7 +6057,7 @@
   },
   {
     "term": "bioaccumulation",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -6192,7 +6193,7 @@
   },
   {
     "term": "afforestation",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8649,7 +8650,7 @@
   },
   {
     "term": "pilaster",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8684,7 +8685,7 @@
   },
   {
     "term": "buttress",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8721,7 +8722,7 @@
   },
   {
     "term": "spandrel",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8756,7 +8757,7 @@
   },
   {
     "term": "mullion",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8792,7 +8793,7 @@
   },
   {
     "term": "cornice",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8829,7 +8830,7 @@
   },
   {
     "term": "cupola",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8864,7 +8865,7 @@
   },
   {
     "term": "cantilever",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8901,7 +8902,7 @@
   },
   {
     "term": "colonnade",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8916,11 +8917,7 @@
         ]
       }
     ],
-    "synonyms": [
-      "arcade",
-      "peristyle",
-      "portico"
-    ],
+    "synonyms": [],
     "antonymTerms": [
       "blank wall",
       "solid façade"
@@ -8933,11 +8930,12 @@
       "peristyle",
       "atrium",
       "entablature"
-    ]
+    ],
+    "qaNote": "\"arcade\", \"peristyle\", and \"portico\" removed from synonyms: these are distinct architectural forms (arcade uses arches; peristyle encloses a courtyard; portico is a roofed entrance porch) rather than true synonyms of colonnade. All three are retained in relatedTerms."
   },
   {
     "term": "julienne",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8972,7 +8970,7 @@
   },
   {
     "term": "chiffonade",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8993,8 +8991,7 @@
       "herb ribbon"
     ],
     "antonymTerms": [
-      "rough chop",
-      "julienne"
+      "rough chop"
     ],
     "relatedTerms": [
       "julienne",
@@ -9004,11 +9001,12 @@
       "garnish",
       "knife technique",
       "leafy greens"
-    ]
+    ],
+    "qaNote": "\"julienne\" removed from antonymTerms: julienne is another fine-cut precision technique closely related to chiffonade, not its opposite. Retained in relatedTerms."
   },
   {
     "term": "confit",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9045,7 +9043,7 @@
   },
   {
     "term": "blanching",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9061,7 +9059,6 @@
       }
     ],
     "synonyms": [
-      "parboiling",
       "scalding",
       "quick boiling"
     ],
@@ -9076,11 +9073,12 @@
       "vegetables",
       "preservation",
       "mise en place"
-    ]
+    ],
+    "qaNote": "\"parboiling\" removed from synonyms: parboiling is partial cooking in boiling water without the cold-water shock step that is essential to blanching; the two techniques share the hot-water stage but are distinct. Retained in relatedTerms."
   },
   {
     "term": "emulsification",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9117,7 +9115,7 @@
   },
   {
     "term": "mirepoix",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9139,7 +9137,6 @@
       "flavor base"
     ],
     "antonymTerms": [
-      "bouquet garni",
       "spice blend"
     ],
     "relatedTerms": [
@@ -9151,11 +9148,12 @@
       "onion",
       "carrot",
       "celery"
-    ]
+    ],
+    "qaNote": "\"bouquet garni\" removed from antonymTerms: bouquet garni is also a flavoring foundation used alongside mirepoix in many preparations; it is a complementary tool, not an opposite. Retained in relatedTerms."
   },
   {
     "term": "gastrique",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9192,7 +9190,7 @@
   },
   {
     "term": "deglazing",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9229,7 +9227,7 @@
   },
   {
     "term": "tempering",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9266,7 +9264,7 @@
   },
   {
     "term": "roux",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9284,8 +9282,7 @@
     ],
     "synonyms": [
       "thickening base",
-      "fat-flour paste",
-      "liaison"
+      "fat-flour paste"
     ],
     "antonymTerms": [
       "slurry",
@@ -9298,12 +9295,14 @@
       "thickening agent",
       "sauce",
       "gumbo",
-      "Cajun cooking"
-    ]
+      "Cajun cooking",
+      "liaison"
+    ],
+    "qaNote": "\"liaison\" removed from synonyms: a liaison (egg yolk + cream) is a different thickening/enriching agent from a roux (fat + flour) and the two are not interchangeable. Added to relatedTerms."
   },
   {
     "term": "umami",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9341,7 +9340,7 @@
   },
   {
     "term": "starboard",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9377,7 +9376,7 @@
   },
   {
     "term": "portside",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -9413,7 +9412,7 @@
   },
   {
     "term": "gunwale",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9450,7 +9449,7 @@
   },
   {
     "term": "scupper",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9486,7 +9485,7 @@
   },
   {
     "term": "hawser",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9522,7 +9521,7 @@
   },
   {
     "term": "capstan",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9538,7 +9537,6 @@
       }
     ],
     "synonyms": [
-      "windlass",
       "drum winch",
       "cable drum"
     ],
@@ -9554,11 +9552,12 @@
       "bollard",
       "mooring",
       "chain"
-    ]
+    ],
+    "qaNote": "\"windlass\" removed from synonyms: a windlass operates on a horizontal axis while a capstan operates on a vertical axis; they are analogous but mechanically distinct devices. Retained in relatedTerms."
   },
   {
     "term": "keelson",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9594,7 +9593,7 @@
   },
   {
     "term": "binnacle",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9630,7 +9629,7 @@
   },
   {
     "term": "mizzenmast",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9652,8 +9651,7 @@
       "jigger mast"
     ],
     "antonymTerms": [
-      "foremast",
-      "bowsprit"
+      "foremast"
     ],
     "relatedTerms": [
       "foremast",
@@ -9663,12 +9661,14 @@
       "ketch",
       "yawl",
       "yard",
-      "spanker"
-    ]
+      "spanker",
+      "bowsprit"
+    ],
+    "qaNote": "\"bowsprit\" removed from antonymTerms: a bowsprit is a spar projecting from the bow, not a mast, and is therefore not a structural antonym of the mizzenmast. Added to relatedTerms."
   },
   {
     "term": "boatswain",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9706,7 +9706,7 @@
   },
   {
     "term": "freeboard",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
