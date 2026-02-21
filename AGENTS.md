@@ -1051,3 +1051,37 @@ Custom batch check (self-reference, nominative forms, duplicate detection) — *
 - `emergence`: existing QA note flagged "self-organization" as a mechanism rather than a synonym; however, validator requires ≥ 2 synonyms, so "self-organization" was retained in synonyms (moved out of relatedTerms) alongside "systemic arising". "emergent property" was kept in relatedTerms.
 - `parataxis`/`hypotaxis`, `syntagmatic`/`paradigmatic`, `alethic`/`doxastic` cross-reference each other in antonymTerms — verified none contains the other as an exact substring.
 - LT gendered pairs (`dirigentas`/`dirigentė`) each list the cross-gender counterpart in relatedTerms per the rubric.
+
+---
+
+## Retro — vocab/qa-30 (QA agent run)
+
+**Date:** 2026-02-21
+**Branch:** vocab/qa-30
+**Commit:** 1ab4982
+
+### What was done
+- Preflight JSON validation on both `words_staging.json` and `words_lt_staging.json` — both valid JSON.
+- Reviewed all 35 EN and 35 LT `relations-added` entries for the 4 required checks:
+  (1) self-reference, (2) LT nominative forms, (3) synonym semantic accuracy, (4) duplicates.
+- Ran automated duplicate/self-ref/POS/register checks via Python script — no automated failures found.
+- Applied semantic QA manually; found 4 issues across both files.
+- Committed results: 32 EN approved, 3 EN → enriched+qaNote; 34 LT approved, 1 LT → enriched+qaNote.
+- Validation scoped with `--errors-for approved` — exit 0 for our batch (pre-existing errors in other batches unchanged).
+
+### Stats
+| File | Approved | Returned to enriched | Total reviewed |
+|------|----------|---------------------|----------------|
+| words_staging.json (EN) | 32 | 3 | 35 |
+| words_lt_staging.json (LT) | 34 | 1 | 35 |
+
+### Issues found
+- **EN allophone**: `antonymTerms: ["phoneme"]` — phoneme is the abstract type of which allophones are realisations (hypernym/type-token), not a semantic antonym. Needs removal from antonymTerms.
+- **EN felicity**: `synonyms: ["happiness", "bliss"]` and `antonyms: ["misery", "unhappiness"]` correspond to an everyday emotional sense absent from both defined meanings (speech-act theory; aptness). Needs synonyms/antonyms aligned to defined senses.
+- **EN abduction**: (a) `synonyms: ["kidnapping"]` covers a physical-abduction sense not present in either meaning; (b) `antonymTerms: ["deduction", "induction"]` are contrasting inference modes explicitly named in the second meaning—not semantic antonyms. Both need correction.
+- **LT baidarė**: `synonyms: ["kanoja"]` — the definition specifies a double-bladed paddle and covered deck (kayak), while kanoja is an open canoe with single-blade paddle. Move kanoja to relatedTerms.
+
+### Process notes
+- Automated script catches structural issues (self-ref, -ą/-ų, duplicates, POS/register). Semantic synonym accuracy still requires manual review.
+- "Contrast" ≠ "antonym": types within a taxonomy (phoneme/allophone, deduction/abduction) are not antonyms even when commonly juxtaposed.
+- Synonym sense-alignment: multi-sense entries need synonyms scoped to the senses actually defined — not all senses a word can have in the wild.
