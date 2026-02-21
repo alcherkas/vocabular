@@ -902,3 +902,35 @@ EN entries also had synonym issues flagged by prior QA notes:
 - Several EN terms (e.g., `interpretant`, `qualisign`, `sinsign`, `semiosphere`) are unique technical terms with no established synonym; near-synonyms accepted per common usage in academic literature to satisfy the validator's EN ≥ 2 rule.
 - For `externalism`/`internalism`, used domain-standard near-synonyms (`naturalism`/`reliabilism`, `mentalism`/`deontologism`) since strict logical synonyms do not exist at this level of abstraction.
 - LT verb-conjugation entries (lyja, lijo, sninga, etc.) received sparse relations (0 synonyms, minimal related terms pointing to infinitive and core nouns) as per LT rubric for inflected forms.
+
+## Session: enricher-lt-40 — 2025-08-02
+
+**Agent role**: Enricher (Lithuanian)
+**Branch**: `vocab/enricher-lt-40`
+**Files modified**: `words_lt_staging.json`
+
+### Work done
+- Preflight JSON on `words_lt_staging.json` — valid (845 stubs available).
+- Enriched **35 Lithuanian stubs** in the health/medicine domain (B1/B2 level). Status → `enriched`.
+- Categories covered:
+  - **Body parts (9)**: kaklas, pečiai, nugara, pėda, skruostas, kakta, smakras, lūpos, ausis
+  - **Medical staff & facilities (12)**: registratūra, registratorė, ligonė, pacientė, Alergologas, alergologė, chirurgė, kardiologė, neurologė, odontologė, psichiatras, šeimos gydytoja, nosies ir gerklės gydytojas
+  - **Conditions & symptoms (5)**: akių uždegimas, ausų uždegimas, peršalimas, apsinuodijimas, čiaudulys
+  - **Medicine & procedures (9)**: vaistai nuo skausmo, vitaminai, gerti vaistus, leisti vaistus, ampulė, tabletė, tirti, matuoti
+
+### Validation
+`validate_words.py --errors-for enriched` → **PASSED** (exit 0). 2030 words valid; 98 pre-existing warnings in approved-status entries only (not introduced by this session).
+
+### Critical-rule compliance
+- All `partOfSpeech` values are from the valid enum (`noun`, `verb`, `phrase`).
+- All `register` values are from the valid enum (`general`, `technical`, `literary`).
+- `translation` filled for all 35 entries (English gloss).
+- Each meaning has `definition`, `example`, `register`, and `tags`.
+- Example sentences are natural Lithuanian, not dictionary boilerplate.
+- Technical register used for medical specialist titles and clinical procedures; `general` for common health vocabulary.
+
+### Decisions & tradeoffs
+- `Alergologas` retained capital A as found in staging (original seeder capitalisation).
+- Entries for female-gendered specialist titles (alergologė, chirurgė, etc.) share the same semantic domain but were enriched as distinct entries with gender-appropriate example sentences.
+- `tirti` and `matuoti` received two meanings each (medical + broader figurative/scientific) to reflect genuine polysemy at B1/B2 level.
+- No merge performed per task instructions.
