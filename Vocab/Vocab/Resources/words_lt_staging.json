@@ -26460,13 +26460,23 @@
   {
     "term": "rašomasis stalas",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A desk or table used for writing and office work, typically found in an office or study.",
+        "example": "Ant rašomojo stalo yra kompiuteris ir keletas dokumentų.",
+        "register": "general",
+        "tags": [
+          "office",
+          "furniture"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "writing desk, office desk"
   },
   {
     "term": "stalinis kalendorius",
@@ -26482,13 +26492,23 @@
   {
     "term": "kompiuteris",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An electronic device used to process, store, and display information, essential for modern office work.",
+        "example": "Kiekvienas darbuotojas turi savo kompiuterį.",
+        "register": "general",
+        "tags": [
+          "technology",
+          "office"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "computer"
   },
   {
     "term": "pelė",
@@ -26655,13 +26675,23 @@
   {
     "term": "nešiojamas kompiuteris",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A portable computer that can be used anywhere, commonly used for work and remote working.",
+        "example": "Dirbu iš namų su nešiojamu kompiuteriu.",
+        "register": "general",
+        "tags": [
+          "technology",
+          "office"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "laptop"
   },
   {
     "term": "planšetinis kompiuteris",
@@ -26677,24 +26707,46 @@
   {
     "term": "elektroninis laiškas",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A digital message sent and received over the internet, widely used for professional communication.",
+        "example": "Atsiuntiau elektroninį laišką savo viršininkui.",
+        "register": "general",
+        "tags": [
+          "technology",
+          "office",
+          "communication"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "email"
   },
   {
     "term": "elektroninis paštas",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The system or service for sending and receiving electronic messages; also refers to an email address.",
+        "example": "Parašykite savo elektroninio pašto adresą šioje formoje.",
+        "register": "general",
+        "tags": [
+          "technology",
+          "office",
+          "communication"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "email address, email system"
   },
   {
     "term": "kopija",
@@ -26710,24 +26762,44 @@
   {
     "term": "kopijavimo aparatas",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A machine used in offices to make copies of documents and papers quickly.",
+        "example": "Kopijavimo aparatas yra koridoriuje šalia spausdintuvo.",
+        "register": "general",
+        "tags": [
+          "office",
+          "equipment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "photocopier"
   },
   {
     "term": "Skyrius",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A division or section within a company or organisation that handles a specific area of work.",
+        "example": "Ji dirba apskaitos skyriuje.",
+        "register": "general",
+        "tags": [
+          "work",
+          "office"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "department"
   },
   {
     "term": "pertrauka",
@@ -26760,35 +26832,67 @@
   {
     "term": "atostogos",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A period of time when an employee is allowed to be away from work for rest or personal matters.",
+        "example": "Šią vasarą išeinu atostogų trims savaitėms.",
+        "register": "general",
+        "tags": [
+          "work",
+          "time-off"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "vacation, leave"
   },
   {
     "term": "darbuotojas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A man employed by an organisation or employer to perform work in exchange for payment.",
+        "example": "Mūsų įmonėje dirba dvidešimt darbuotojų.",
+        "register": "general",
+        "tags": [
+          "work",
+          "job",
+          "people"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "employee"
   },
   {
     "term": "darbuotoja",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A woman employed by an organisation or employer to perform work in exchange for payment.",
+        "example": "Ji yra geriausia darbuotoja mūsų skyriuje.",
+        "register": "general",
+        "tags": [
+          "work",
+          "job",
+          "people"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "employee (female)"
   },
   {
     "term": "direktorius",
@@ -26865,79 +26969,149 @@
   {
     "term": "vedėjas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A man who heads or leads a department, section, or organisation.",
+        "example": "Skyriaus vedėjas patvirtino mūsų naują projektą.",
+        "register": "general",
+        "tags": [
+          "work",
+          "management"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "head, manager"
   },
   {
     "term": "vedėja",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A woman who heads or leads a department, section, or organisation.",
+        "example": "Vedėja pasirašė naują darbo sutartį su kandidatu.",
+        "register": "general",
+        "tags": [
+          "work",
+          "management"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "head, manager (female)"
   },
   {
     "term": "viršininkas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A man who is in charge of and manages employees or a department.",
+        "example": "Mano viršininkas kiekvieną rytą ateina į darbą anksti.",
+        "register": "general",
+        "tags": [
+          "work",
+          "management"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "boss, manager"
   },
   {
     "term": "viršininkė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A woman who is in charge of and manages employees or a department.",
+        "example": "Viršininkė sušaukė susirinkimą pirmadienio rytui.",
+        "register": "general",
+        "tags": [
+          "work",
+          "management"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "boss, manager (female)"
   },
   {
     "term": "kolega",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A man who works with you in the same workplace or profession.",
+        "example": "Mano kolega padėjo man išspręsti sunkią darbo užduotį.",
+        "register": "general",
+        "tags": [
+          "work",
+          "people"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "colleague"
   },
   {
     "term": "kolegė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A woman who works with you in the same workplace or profession.",
+        "example": "Kolegė pakvietė mane į verslo pietus.",
+        "register": "general",
+        "tags": [
+          "work",
+          "people"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "colleague (female)"
   },
   {
     "term": "bedarbis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A man who does not have a job and is seeking employment.",
+        "example": "Po įmonės bankroto jis tapo bedarbiu.",
+        "register": "general",
+        "tags": [
+          "work",
+          "employment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "unemployed person"
   },
   {
     "term": "bedarbė",
@@ -26986,24 +27160,44 @@
   {
     "term": "komandiruotė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A work-related trip to another city or country made by an employee on behalf of their employer.",
+        "example": "Kitą savaitę vykstu į komandiruotę į Vilnių.",
+        "register": "general",
+        "tags": [
+          "work",
+          "travel"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "business trip"
   },
   {
     "term": "konferencija",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large formal meeting where professionals gather to discuss topics in their field.",
+        "example": "Dalyvausiu tarptautinėje konferencijoje Berlyne.",
+        "register": "general",
+        "tags": [
+          "work",
+          "events"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "conference"
   },
   {
     "term": "kursai",
@@ -27019,101 +27213,193 @@
   {
     "term": "posėdis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A formal official meeting or session, typically in a governmental, institutional, or corporate setting.",
+        "example": "Valdybos posėdis prasidės penktą valandą.",
+        "register": "formal",
+        "tags": [
+          "work",
+          "office",
+          "formal"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "session, formal meeting"
   },
   {
     "term": "seminaras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A training or educational meeting where participants discuss a topic or develop professional skills.",
+        "example": "Dalyvavau mokymo seminare apie projektų valdymą.",
+        "register": "general",
+        "tags": [
+          "work",
+          "education"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "seminar"
   },
   {
     "term": "susirinkimas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A gathering of colleagues or staff to discuss work matters or make decisions.",
+        "example": "Rytoj turime susirinkimą dešimtą valandą.",
+        "register": "general",
+        "tags": [
+          "work",
+          "office"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "meeting, gathering"
   },
   {
     "term": "susitikimas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A prearranged occasion when two or more people meet, often for a specific professional purpose.",
+        "example": "Turiu susitikimą su klientu trečiadienį.",
+        "register": "general",
+        "tags": [
+          "work",
+          "office"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "appointment, meeting"
   },
   {
     "term": "alga",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The regular payment received by an employee for work done, usually paid monthly.",
+        "example": "Jis gauna gerą algą šiame darbe.",
+        "register": "general",
+        "tags": [
+          "work",
+          "money"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "wage, pay"
   },
   {
     "term": "atlyginimas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The total pay or compensation received by an employee for their work.",
+        "example": "Jos mėnesinis atlyginimas padidėjo šiais metais.",
+        "register": "general",
+        "tags": [
+          "work",
+          "money"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "salary, remuneration"
   },
   {
     "term": "dokumentas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A written or printed item that provides official information or evidence, used in a work context.",
+        "example": "Prašau atsiųsti man šį dokumentą elektroniniu paštu.",
+        "register": "general",
+        "tags": [
+          "work",
+          "office",
+          "documents"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "document"
   },
   {
     "term": "gyvenimo aprašymas",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A written summary of a person's education, work experience, and skills, submitted when applying for a job.",
+        "example": "Atsiuntiau savo gyvenimo aprašymą darbdaviui.",
+        "register": "general",
+        "tags": [
+          "work",
+          "job-application"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "CV, résumé"
   },
   {
     "term": "parašas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A person's name written by hand to authorise documents or confirm identity.",
+        "example": "Sutartis įsigalioja po abiejų šalių parašo.",
+        "register": "general",
+        "tags": [
+          "work",
+          "documents"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "signature"
   },
   {
     "term": "pasas",
@@ -27140,24 +27426,45 @@
   {
     "term": "prašymas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A formal written request submitted to an authority, employer, or institution for a particular purpose.",
+        "example": "Pateikiau prašymą dėl kasmetinių atostogų.",
+        "register": "general",
+        "tags": [
+          "work",
+          "documents"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "application, request"
   },
   {
     "term": "sutartis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A formal written agreement between two or more parties, especially an employment agreement.",
+        "example": "Prieš pradedant dirbti, pasirašiau darbo sutartį.",
+        "register": "general",
+        "tags": [
+          "work",
+          "legal",
+          "documents"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "contract"
   },
   {
     "term": "Atvirukas",
@@ -32953,10 +33260,26 @@
   },
   {
     "term": "gaisrininkas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "firefighter",
+    "meanings": [
+      {
+        "definition": "A person whose job is to extinguish fires and rescue people from dangerous situations.",
+        "example": "Gaisrininkai greitai atvyko į degantį pastatą.",
+        "register": "general",
+        "tags": [
+          "job",
+          "profession",
+          "emergency"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "gaisrininkė",
@@ -32967,10 +33290,25 @@
   },
   {
     "term": "statybininkas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "construction worker",
+    "meanings": [
+      {
+        "definition": "A person who works in building and construction, erecting structures such as houses and roads.",
+        "example": "Statybininkas dirba naujame daugiabučio projekte.",
+        "register": "general",
+        "tags": [
+          "job",
+          "profession"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "statybininkė",
@@ -32981,10 +33319,26 @@
   },
   {
     "term": "sodininkas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "gardener",
+    "meanings": [
+      {
+        "definition": "A person who tends and cultivates a garden, growing plants, flowers, and vegetables.",
+        "example": "Sodininkas sodina gėles miesto parke.",
+        "register": "general",
+        "tags": [
+          "job",
+          "profession",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "sodininkė",
@@ -32995,10 +33349,25 @@
   },
   {
     "term": "mechanikas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "mechanic",
+    "meanings": [
+      {
+        "definition": "A person whose job is to repair and maintain machines, engines, and vehicles.",
+        "example": "Mechanikas greitai suremontavo mano automobilį.",
+        "register": "general",
+        "tags": [
+          "job",
+          "profession"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "mechanikė",
@@ -33009,10 +33378,26 @@
   },
   {
     "term": "kepėjas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "baker",
+    "meanings": [
+      {
+        "definition": "A person whose job is to bake and sell bread, cakes, and other baked goods.",
+        "example": "Kepėjas kiekvieną rytą kepa šviežią duoną.",
+        "register": "general",
+        "tags": [
+          "job",
+          "profession",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": []
   },
   {
     "term": "kepėja",
