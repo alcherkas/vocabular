@@ -21933,7 +21933,7 @@
     "term": "patogus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "suteikiantis fizinį komfortą, malonus kūnui",
@@ -21955,16 +21955,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "jaukus",
+      "malonus"
+    ],
+    "antonymTerms": [
+      "nepatogus"
+    ],
+    "relatedTerms": [
+      "patogumas",
+      "poilsis"
+    ],
     "translation": "comfortable"
   },
   {
     "term": "nepatogus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "sukeliantis fizinį diskomfortą, nemalonus kūnui",
@@ -21985,16 +21993,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nemalonus",
+      "varginantis"
+    ],
+    "antonymTerms": [
+      "patogus"
+    ],
+    "relatedTerms": [
+      "nepatogumas",
+      "diskomfortas"
+    ],
     "translation": "uncomfortable"
   },
   {
     "term": "atsargus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "veikiantis apdairiai, vengiантis rizikos ir klaidų",
@@ -22015,16 +22031,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "apdairus",
+      "santūrus"
+    ],
+    "antonymTerms": [
+      "neatsargus"
+    ],
+    "relatedTerms": [
+      "atsargumas",
+      "apdairumas"
+    ],
     "translation": "careful"
   },
   {
     "term": "neatsargus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "nekreipiantis pakankamai dėmesio į galimas pasekmes ar pavojų, aplaidus",
@@ -22036,9 +22060,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nerūpestingas",
+      "aplaidus"
+    ],
+    "antonymTerms": [
+      "atsargus"
+    ],
+    "relatedTerms": [
+      "neatsargumas",
+      "aplaidumas"
+    ],
     "translation": "careless"
   },
   {
@@ -36022,7 +36054,7 @@
     "term": "sektis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "klotis, vykti gerai; pasiekti norimus rezultatus",
@@ -36035,9 +36067,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "klotis",
+      "pavykti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sėkmė",
+      "pasisekimas"
+    ],
     "translation": "to succeed, to go well"
   },
   {
@@ -39617,7 +39655,7 @@
     "term": "kurti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To produce or bring into existence an artistic, literary, or musical work.",
@@ -39631,15 +39669,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "kūrybiškai dirbti"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
+      "kūryba",
       "kūrinys",
-      "tapyba",
-      "rašytojas",
-      "kompozitorius"
+      "kūrėjas",
+      "kūrybingumas"
     ],
     "translation": "to create, to compose, to produce",
     "qaNote": "Imperfective verb. Infinitive: kurti. Related noun: kūryba (creation/creative work), kūrinys (a work)."
@@ -39648,7 +39684,7 @@
     "term": "filmuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To record moving images with a camera to make a film or video.",
@@ -39667,10 +39703,9 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "fotografuoti",
       "filmas",
       "kamera",
-      "režisierius"
+      "fotografuoti"
     ],
     "translation": "to film, to shoot (video)",
     "qaNote": "Imperfective verb. Infinitive: filmuoti. Related noun: filmas. Also used as 'šaudyti filmą' colloquially."
@@ -39679,7 +39714,7 @@
     "term": "fotografuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To take photographs using a camera.",
@@ -39696,10 +39731,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "filmuoti",
+      "fotografija",
       "fotoaparatas",
-      "nuotrauka",
-      "dailė"
+      "filmuoti"
     ],
     "translation": "to photograph, to take photos",
     "qaNote": "Imperfective verb. Infinitive: fotografuoti. Related noun: fotografija (photography/photograph)."
@@ -39708,7 +39742,7 @@
     "term": "klausytis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To pay attention to a sound; to hear something with concentration.",
@@ -39721,13 +39755,13 @@
       }
     ],
     "synonyms": [
-      "girdėti"
+      "klausyti"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "kalbėti",
-      "suprasti",
-      "klausti"
+      "girdėti",
+      "kalbėtis",
+      "muzika"
     ],
     "translation": "to listen"
   },
@@ -39735,7 +39769,7 @@
     "term": "piešti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To make a picture or diagram using a pencil, pen, or similar instrument.",
@@ -39748,12 +39782,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "braižyti"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "pieštukas",
-      "dailė",
-      "spalvoti"
+      "piešinys",
+      "dažyti",
+      "tapyti"
     ],
     "translation": "to draw"
   },
@@ -39761,7 +39797,7 @@
     "term": "sportuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To practise a sport or physical exercise regularly.",
@@ -39780,10 +39816,9 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "treneris",
+      "sportas",
       "sveikata",
-      "bėgioti",
-      "plaukimas"
+      "gimnastika"
     ],
     "translation": "to do sports, to exercise"
   },
@@ -39791,7 +39826,7 @@
     "term": "vakarėlis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An informal social gathering in the evening for enjoyment, often with music and food.",
@@ -39809,10 +39844,9 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "draugai",
-      "gimtadienis",
-      "muzika",
-      "šokti"
+      "vakaronė",
+      "susibūrimas",
+      "pramoga"
     ],
     "translation": "party, gathering"
   },
@@ -39820,7 +39854,7 @@
     "term": "vakaronė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An informal evening social gathering with friends or family, often involving music, singing, or dancing.",
@@ -39838,8 +39872,9 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "švęsti",
-      "susirinkimas"
+      "vakaras",
+      "susibūrimas",
+      "renginys"
     ],
     "translation": "evening gathering, soirée"
   },
@@ -39847,7 +39882,7 @@
     "term": "linksmintis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To enjoy oneself and have a good time, especially in a social or playful setting.",
@@ -39862,14 +39897,11 @@
     "synonyms": [
       "džiaugtis"
     ],
-    "antonymTerms": [
-      "liūdėti"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
-      "žaisti",
-      "juoktis",
-      "vakarėlis",
-      "draugai"
+      "linksmas",
+      "džiaugsmas",
+      "pramoga"
     ],
     "translation": "to have fun, to enjoy oneself"
   },
@@ -39877,7 +39909,7 @@
     "term": "šokti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To move the body rhythmically, usually in time to music, as a form of expression or entertainment.",
@@ -39891,15 +39923,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "šokinėti"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
+      "šokis",
       "muzika",
       "ritmas",
-      "vakarėlis",
-      "scena"
+      "choreografija"
     ],
     "translation": "to dance"
   },
@@ -39907,7 +39937,7 @@
     "term": "švęsti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To mark a special occasion, holiday, or achievement with festive activities and joy.",
@@ -39926,7 +39956,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "šventė",
-      "renginys"
+      "ceremonija",
+      "tradicija"
     ],
     "translation": "to celebrate"
   },
@@ -39945,7 +39976,7 @@
     "term": "šventė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A public holiday, festival, or special occasion marked by festivity, gatherings, and celebration.",
@@ -39958,13 +39989,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "šventadienis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "švęsti",
-      "tradicija"
+      "šventimas",
+      "tradicija",
+      "ceremonija",
+      "švęsti"
     ],
     "translation": "holiday, celebration, festival"
   },
@@ -39972,7 +40003,7 @@
     "term": "Kūčios",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The Lithuanian Christmas Eve celebration on December 24th, featuring a 12-dish meatless supper, kalėdaičiai (Christmas wafers), and family traditions.",
@@ -39990,8 +40021,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "Kalėdos",
-      "kalėdaitis",
-      "žvakelė"
+      "šventė",
+      "tradicija"
     ],
     "translation": "Christmas Eve (Lithuanian tradition)"
   },
@@ -39999,7 +40030,7 @@
     "term": "Kalėdos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The Christian festival celebrated on December 25th, also a major cultural and family holiday in Lithuania.",
@@ -40016,8 +40047,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "Kūčios",
-      "Kalėdų senelis",
-      "eglutė",
+      "Naujieji metai",
+      "šventė",
       "dovana"
     ],
     "translation": "Christmas"
@@ -40026,7 +40057,7 @@
     "term": "Naujieji metai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The celebration of the beginning of a new calendar year, marked on January 1st with fireworks, gatherings, and festivities.",
@@ -40042,8 +40073,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "fejerverkas",
-      "šventė"
+      "Kalėdos",
+      "šventė",
+      "sausio pirma"
     ],
     "translation": "New Year"
   },
@@ -40051,7 +40083,7 @@
     "term": "eglė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An evergreen coniferous tree (Picea abies) common in Lithuanian forests; also used as a Christmas tree.",
@@ -40080,8 +40112,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "miškas",
+      "medis",
       "pušis",
-      "eglutė"
+      "kėnis"
     ],
     "translation": "spruce / fir tree",
     "qaNote": "Nominative singular: eglė. Also the protagonist of the Lithuanian folk tale 'Eglė žalčių karalienė'."
@@ -40200,7 +40233,7 @@
     "term": "Kalėdų senelis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The legendary gift-giver associated with Christmas, depicted as a jolly old man in a red coat who brings presents to children on Christmas Eve.",
@@ -40218,7 +40251,7 @@
     "relatedTerms": [
       "Kalėdos",
       "dovana",
-      "eglutė"
+      "tradicija"
     ],
     "translation": "Santa Claus, Father Christmas"
   },
@@ -40226,7 +40259,7 @@
     "term": "dovana",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Something given voluntarily to someone as a token of affection, appreciation, or to mark a celebration.",
@@ -40243,8 +40276,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "dovanoti",
-      "gimtadienis",
-      "šventė"
+      "šventė",
+      "įteikimas"
     ],
     "translation": "gift, present"
   },
@@ -40252,7 +40285,7 @@
     "term": "dovanoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To give something to someone as a gift, without expecting anything in return.",
@@ -40269,7 +40302,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "dovana",
-      "gimtadienis"
+      "dovanojimas",
+      "teikti"
     ],
     "translation": "to give (as a gift), to present"
   },
@@ -40277,7 +40311,7 @@
     "term": "dovanoja",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "teikia dovaną kaip dėmesio, meilės ar pagarbos ženklą",
@@ -40292,14 +40326,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dovanoti",
+      "dovana"
+    ],
     "translation": "gives a gift"
   },
   {
     "term": "dovanojo",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "teikė dovaną kaip dėmesio, meilės ar pagarbos ženklą (praeities forma)",
@@ -40314,14 +40351,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dovanoti",
+      "dovana"
+    ],
     "translation": "gave a gift"
   },
   {
     "term": "pakuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dėti daiktus į lagaminą ar kelioninį krepšį prieš kelionę.",
@@ -40335,7 +40375,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lagaminas",
+      "kelionė",
+      "krovimas"
+    ],
     "translation": "to pack"
   },
   {
@@ -40364,7 +40408,7 @@
     "term": "eilėraštis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A piece of writing arranged in short lines, often with rhythm and rhyme, expressing feelings or ideas.",
@@ -40378,14 +40422,13 @@
       }
     ],
     "synonyms": [
-      "poema"
+      "eilės"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "knyga",
-      "skaitymas",
-      "rašymas",
-      "literatūra"
+      "poezija",
+      "strofa",
+      "rimas"
     ],
     "translation": "poem"
   },
@@ -40425,7 +40468,7 @@
     "term": "susitaiko",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "sutaria po kivirčo, atkuria santykius su kitu žmogumi",
@@ -40439,14 +40482,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "susitaikti",
+      "taika",
+      "taikytis"
+    ],
     "translation": "reconciles"
   },
   {
     "term": "susitaikė",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "sutarė po kivirčo, atstatė santykius (praeities forma)",
@@ -40460,14 +40507,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "susitaikti",
+      "taika"
+    ],
     "translation": "reconciled"
   },
   {
     "term": "atleidžia",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "nebelaiko kito žmogaus kaltu, atsisako pykčio ar nuoskaudos",
@@ -40481,14 +40531,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atleisti",
+      "atleidimas",
+      "nuodėmė"
+    ],
     "translation": "forgives"
   },
   {
     "term": "atleido",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "nebelaikė kito žmogaus kaltu, atsisakė pykčio ar nuoskaudos (praeities forma)",
@@ -40502,7 +40556,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atleisti",
+      "atleidimas"
+    ],
     "translation": "forgave"
   },
   {
@@ -40541,7 +40598,7 @@
     "term": "gerbia",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "vertina kitą žmogų, elgiasi su juo pagarbiai",
@@ -40555,14 +40612,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gerbti",
+      "garbė",
+      "pagarba"
+    ],
     "translation": "respects"
   },
   {
     "term": "gerbė",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "vertino kitą žmogų, elgėsi su juo pagarbiai (praeities forma)",
@@ -40576,14 +40637,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gerbti",
+      "garbė",
+      "pagarba"
+    ],
     "translation": "respected"
   },
   {
     "term": "Velykos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The Christian festival celebrating the resurrection of Jesus Christ, also marked in Lithuania with painted Easter eggs, pussy willows, and spring traditions.",
@@ -40599,9 +40664,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "margutis",
-      "verba",
-      "šventė"
+      "Kalėdos",
+      "šventė",
+      "prisikėlimas"
     ],
     "translation": "Easter"
   },

@@ -3423,3 +3423,26 @@ JSON preflight passed. 705 stubs available before session.
 ### Doubts / meta-notes
 - Confidence: 98%. All 35 terms are core everyday Lithuanian vocabulary with clear, standard definitions.
 - 565 stubs remain for subsequent sessions.
+## Relations Agent — 2025-07-27 — vocab/relations-37
+
+**Agent role**: Relations Agent
+**Branch**: `vocab/relations-37`
+
+### What was done
+- Preflighted both `words_staging.json` and `words_lt_staging.json` — both valid JSON.
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to 35 EN entries (colour theory, cognitive/developmental psychology, political philosophy, game theory/economics cluster) and 35 LT entries (adjective pairs, everyday verbs, cultural/seasonal vocabulary, conjugated forms), setting each to `status: relations-added`.
+- EN: initial run had 30 validator errors — all "EN word should have at least 2 synonyms" plus two `liberalism` relatedTerms containing the headword as a token (`social liberalism`, `classical liberalism`). Fixed in a patch pass before committing. Also fixed cross-array duplicate: `freedom from constraint` was in both synonyms and relatedTerms of `negative liberty`; removed from relatedTerms.
+
+### Semantic quality decisions
+- **EN synonyms ≥2 rule**: For highly specific technical phrases with no standard near-synonyms, used descriptive academic equivalents verified against usage: e.g. `civic constitutionalism`/`civic humanism` (republicanism); `hypothetical impartiality`/`epistemic veil` (veil of ignorance); `agreement-based ethics`/`principled agreement theory` (contractualism); `hidden action problem`/`incentive distortion` (moral hazard); `strictly competitive game`/`fixed-pie competition` (zero-sum game).
+- **Antonyms**: Direct semantic opposites only — `cognitive consonance` (cognitive dissonance); `illegitimacy` (legitimacy); `fusion of powers` (separation of powers); `minority rule` (majority rule); `positive liberty`↔`negative liberty` (Berlin's paired concepts); `private good` (public good); `positive-sum game` (zero-sum game). All other entries received `antonymTerms: []`. Negation-prefixed forms were avoided throughout.
+- **Hypernym avoidance**: `non-violent resistance` (hypernym of civil disobedience) placed in `relatedTerms` only. `common good` not used as synonym of `public good` (it has a distinct meaning in political philosophy — the general welfare). `constant-sum game` placed in `relatedTerms`, not synonyms of `zero-sum game` (broader category).
+- **LT relations**: 0–2 synonyms per entry per rubric. Conjugated verb forms (dovanoja/dovanojo, susitaiko/susitaikė, atleidžia/atleido, gerbia/gerbė) received `relatedTerms` pointing to the infinitive (citation form) as required by the nominative rule. Proper nouns (Kūčios, Kalėdos, Naujieji metai, Kalėdų senelis, Velykos) received empty synonym/antonym arrays as appropriate. All relation values are nominative — no `-ą` or `-ų` endings.
+- **Self-reference avoidance**: `liberalism` relatedTerms scrubbed of `social liberalism` and `classical liberalism`; replaced with `laissez-faire` and `Whiggism`.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for relations-added` passed for both EN and LT staging files with 0 errors in the `relations-added` batch.
+
+### Doubts / meta-notes
+- Confidence: 94%. Some EN synonyms for highly abstract political philosophy terms are near-equivalents rather than strict synonyms (e.g. `liberal philosophy`/`liberal doctrine` for liberalism; `civic constitutionalism`/`civic humanism` for republicanism). QA should review these for co-extensiveness.
+- LT conjugated-form entries (present/past 3sg) are unusual vocabulary entries; treated each as independent with minimal relations pointing back to the infinitive. QA may wish to reconsider whether these merit their own entries or should be collapsed.
