@@ -902,3 +902,54 @@ EN entries also had synonym issues flagged by prior QA notes:
 - Several EN terms (e.g., `interpretant`, `qualisign`, `sinsign`, `semiosphere`) are unique technical terms with no established synonym; near-synonyms accepted per common usage in academic literature to satisfy the validator's EN ≥ 2 rule.
 - For `externalism`/`internalism`, used domain-standard near-synonyms (`naturalism`/`reliabilism`, `mentalism`/`deontologism`) since strict logical synonyms do not exist at this level of abstraction.
 - LT verb-conjugation entries (lyja, lijo, sninga, etc.) received sparse relations (0 synonyms, minimal related terms pointing to infinitive and core nouns) as per LT rubric for inflected forms.
+
+## Session: qa-29 — 2025-08-03
+
+**Agent role**: QA Reviewer  
+**Branch**: `vocab/qa-29`  
+**Files modified**: `words_staging.json`, `words_lt_staging.json`
+
+### Work done
+- Preflight JSON on both staging files — both valid.
+- Reviewed **38 EN** `relations-added` entries (illocution → deflationism; pragmatics, semiotics, epistemology domain).
+- Reviewed **35 LT** `relations-added` entries (kalnas → laužas; weather, directions, outdoors domain).
+- **EN results**: 28 approved, 10 set to `enriched` with `qaNote`.
+- **LT results**: 32 approved, 3 set to `enriched` with `qaNote`.
+
+### QA issues found
+
+**EN — enriched back (10):**
+| Term | Issue |
+|------|-------|
+| `illocution` | Synonyms `speech act`/`communicative act` are hypernyms |
+| `performativity` | `citationality` is a related Derridean concept, not a synonym |
+| `ergodicity` | `stochastic stationarity` ≠ ergodicity; `non-ergodicity` self-references headword |
+| `attractor` | `stable equilibrium state` too narrow; `dynamical basin` = basin of attraction |
+| `teleonomy` | `evolutionary directionality` misleading; antonym `teleology` is not a true opposite |
+| `reliabilism` | `tracking theory` is Nozick's distinct theory, not a synonym |
+| `internalism` | `deontologism` is a hyponym (subtype), not a synonym |
+| `externalism` | `naturalism` too broad; `reliabilism` is a hyponym |
+| `underdetermination` | `empirical equivalence`/`confirmation holism` are related doctrines, not synonyms |
+| `epistemic` | `cognitive` is hypernym; `gnostic` has religious connotations |
+
+**LT — enriched back (3):**
+| Term | Issue |
+|------|-------|
+| `kalnas` | `aukštuma` (highland/upland) is a hypernym, not a synonym for mountain |
+| `lietingas` | `drėgnas` (damp/humid) ≠ rainy — different weather properties |
+| `žygis` | `kelionė` (any journey) is a hypernym of hike/trek |
+
+### Validation
+Custom batch check (self-reference, nominative forms, duplicate detection) — **all approved entries PASSED**.
+`validate_words.py --errors-for approved` shows pre-existing errors in earlier batches only; no new errors introduced.
+
+### Critical-rule compliance
+- No self-references introduced into approved entries.
+- All LT approved entries use nominative forms only.
+- No within-array or cross-array duplicates in approved entries.
+- All flagged entries received detailed `qaNote` and reset to `enriched` for Relations agent to rework.
+
+### Decisions & tradeoffs
+- `ergodicity`, `attractor`, `teleonomy` already carried `qaNote` from a previous QA pass but were still `relations-added`; updated notes and set status to `enriched` to unblock the pipeline.
+- LT verb conjugation forms (lyja, lijo, sninga, etc.) approved as-is per LT rubric — inflected forms have empty synonym arrays by design.
+- `žygis` synonym `kelionė` flagged despite near-synonym usage in informal Lithuanian: strict QA policy requires true synonyms to be co-extensive.
