@@ -837,79 +837,187 @@
   {
     "term": "gyvena",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person present tense of 'gyventi'; resides in a place",
+        "example": "Ji gyvena Vilniuje.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "daily life"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "lives",
+    "tags": [
+      "A1",
+      "daily life"
+    ]
   },
   {
     "term": "gyveno",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Past tense of 'gyventi'; lived or resided",
+        "example": "Jie gyveno kaime prie ežero.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "daily life"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "lived",
+    "tags": [
+      "A1",
+      "daily life"
+    ]
   },
   {
     "term": "kalbėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To express thoughts or communicate using words",
+        "example": "Ar tu moki kalbėti lietuviškai?",
+        "register": "general",
+        "tags": [
+          "A1",
+          "communication"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šnekėti"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to speak, to talk",
+    "tags": [
+      "A1",
+      "communication"
+    ]
   },
   {
     "term": "kalba",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person present tense of 'kalbėti'; to speak or talk",
+        "example": "Ji kalba tris kalbas.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "communication"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šneka"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "speaks, talks",
+    "tags": [
+      "A1",
+      "communication"
+    ]
   },
   {
     "term": "kalbėjo",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Past tense of 'kalbėti'; spoke or talked",
+        "example": "Jis kalbėjo apie savo kelionę.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "communication"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šnekėjo"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "spoke, talked",
+    "tags": [
+      "A1",
+      "communication"
+    ]
   },
   {
     "term": "studijuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To engage in learning, especially at a university",
+        "example": "Ji nori studijuoti mediciną.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "education"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mokytis"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to study",
+    "tags": [
+      "A1",
+      "education"
+    ]
   },
   {
     "term": "studijuoja",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person present tense of 'studijuoti'; studies at a university",
+        "example": "Jis studijuoja teisę Vilniaus universitete.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "education"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mokosi"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "studies",
+    "tags": [
+      "A1",
+      "education"
+    ]
   },
   {
     "term": "studijavo",
@@ -926,34 +1034,82 @@
     "term": "suprasti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To comprehend the meaning of something",
+        "example": "Ar tu gali suprasti šį tekstą?",
+        "register": "general",
+        "tags": [
+          "A1",
+          "communication"
+        ]
+      }
+    ],
+    "synonyms": [
+      "suvokti"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to understand",
+    "tags": [
+      "A1",
+      "communication"
+    ]
   },
   {
     "term": "supranta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person present tense of 'suprasti'; understands",
+        "example": "Ji gerai supranta lietuvių kalbą.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "communication"
+        ]
+      }
+    ],
+    "synonyms": [
+      "suvokia"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "understands",
+    "tags": [
+      "A1",
+      "communication"
+    ]
   },
   {
     "term": "suprato",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Past tense of 'suprasti'; understood",
+        "example": "Jis suprato klausimą ir atsakė.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "communication"
+        ]
+      }
+    ],
+    "synonyms": [
+      "suvokė"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "understood",
+    "tags": [
+      "A1",
+      "communication"
+    ]
   },
   {
     "term": "Administratorius",
@@ -1024,24 +1180,56 @@
   {
     "term": "draugas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A male friend or companion",
+        "example": "Mano draugas gyvena Vilniuje.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "people"
+        ]
+      }
+    ],
+    "synonyms": [
+      "bičiulis"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "friend (male)",
+    "tags": [
+      "A1",
+      "people"
+    ]
   },
   {
     "term": "draugė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A female friend or companion",
+        "example": "Ji yra mano geriausia draugė.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "people"
+        ]
+      }
+    ],
+    "synonyms": [
+      "bičiulė"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "friend (female)",
+    "tags": [
+      "A1",
+      "people"
+    ]
   },
   {
     "term": "klientas",
@@ -1112,35 +1300,81 @@
   {
     "term": "studentas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A male student enrolled in a school or university",
+        "example": "Jis yra universiteto studentas.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "education"
+        ]
+      }
+    ],
+    "synonyms": [
+      "moksleivis"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "student (male)",
+    "tags": [
+      "A1",
+      "education"
+    ]
   },
   {
     "term": "studentė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A female student enrolled in a school or university",
+        "example": "Studentė skaito knygą bibliotekoje.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "education"
+        ]
+      }
+    ],
+    "synonyms": [
+      "moksleivė"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "student (female)",
+    "tags": [
+      "A1",
+      "education"
+    ]
   },
   {
     "term": "Miestas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large town; an urban settlement",
+        "example": "Vilnius yra gražus miestas.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "city",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "senamiestis",
@@ -1156,13 +1390,27 @@
   {
     "term": "universitetas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An institution of higher education and research",
+        "example": "Jis studijuoja Vilniaus universitete.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "education"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "university",
+    "tags": [
+      "A1",
+      "education"
+    ]
   },
   {
     "term": "auditorija",
@@ -1178,101 +1426,229 @@
   {
     "term": "darbas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Employment or a task that one performs; occupation",
+        "example": "Mano darbas yra labai įdomus.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "work"
+        ]
+      }
+    ],
+    "synonyms": [
+      "užsiėmimas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "work, job",
+    "tags": [
+      "A1",
+      "work"
+    ]
   },
   {
     "term": "Aš",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "particle",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "First person singular pronoun referring to oneself",
+        "example": "Aš esu iš Lietuvos.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "pronouns"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "I",
+    "tags": [
+      "A1",
+      "pronouns"
+    ]
   },
   {
     "term": "tu",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "particle",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Second person singular pronoun, used informally",
+        "example": "Tu kalbi lietuviškai?",
+        "register": "general",
+        "tags": [
+          "A1",
+          "pronouns"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "you (singular, informal)",
+    "tags": [
+      "A1",
+      "pronouns"
+    ]
   },
   {
     "term": "jis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "particle",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person singular masculine pronoun",
+        "example": "Jis dirba ligoninėje.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "pronouns"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "he",
+    "tags": [
+      "A1",
+      "pronouns"
+    ]
   },
   {
     "term": "ji",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "particle",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person singular feminine pronoun",
+        "example": "Ji mėgsta skaityti knygas.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "pronouns"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "she",
+    "tags": [
+      "A1",
+      "pronouns"
+    ]
   },
   {
     "term": "mes",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "particle",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "First person plural pronoun",
+        "example": "Mes gyvename Kaune.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "pronouns"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "we",
+    "tags": [
+      "A1",
+      "pronouns"
+    ]
   },
   {
     "term": "jūs",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "particle",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Second person plural or formal singular pronoun",
+        "example": "Ar jūs kalbate angliškai?",
+        "register": "general",
+        "tags": [
+          "A1",
+          "pronouns"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "you (plural/formal)",
+    "tags": [
+      "A1",
+      "pronouns"
+    ]
   },
   {
     "term": "jie",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "particle",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person plural masculine pronoun",
+        "example": "Jie žaidžia futbolą parke.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "pronouns"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "they (masculine)",
+    "tags": [
+      "A1",
+      "pronouns"
+    ]
   },
   {
     "term": "jos",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "particle",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person plural feminine pronoun",
+        "example": "Jos mokosi universitete.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "pronouns"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "they (feminine)",
+    "tags": [
+      "A1",
+      "pronouns"
+    ]
   },
   {
     "term": "mano",

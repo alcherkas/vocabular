@@ -283,3 +283,19 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - A target word-count-per-category guideline in AGENTS.md would prevent overshoot on future vocabulary batches.
+---
+
+## lt-enricher-3 — Enrich 25 Lithuanian stubs (batch 3)
+
+### What went well
+- Enriched 25 A1 words (pronouns, verbs, nouns) in one pass.
+- Validation script caught register/partOfSpeech mismatches quickly.
+
+### What was harder than expected
+- Allowed values for `register` and `partOfSpeech` differ from the task prompt (e.g., no "pronoun" or "neutral"); had to check validator output and remap.
+
+### Process friction
+- None.
+
+### Suggested improvement
+- Include exact allowed enum values in the agent task prompt to avoid validation round-trips.
