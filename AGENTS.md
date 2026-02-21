@@ -256,3 +256,40 @@ Include the ambiguity type in your `decisions-pending.md` entry (see format in e
 - Rule (2) LT nominative forms: no `-ą` or `-ų` endings introduced; `sėdint` in the phrase `ilsėtis sėdint` (adverbial participle, ends in `-t`) does not violate the rule.
 - Rule (3) semantic accuracy: `tėvo motina` was the only synonym flagged as semantically inaccurate (paternal-only gloss for a gender-neutral headword); replaced with `močiutė`.
 - EN entries with duplicate antonym↔relatedTerms (e.g., `pharmacokinetics`/`pharmacodynamics`) were left as-is — the validator does not flag cross-field overlap and prior enrichment intentionally cross-linked these complementary concepts.
+
+## Session retro — vocab/seeder-en-6
+
+### Task
+Seed 100 new English C1+ vocabulary stubs into `words_staging.json` across 9 specialist domains: music theory, art history, literary theory, film studies, game theory, neuroscience, immunology, astronomy, climate science.
+
+### Process
+1. Extracted all 530 existing terms from `words_staging.json` and built a de-dup set.
+2. Compiled 100 candidate terms across 9 domains — verified zero overlap with existing set before writing.
+3. Appended stubs as `{"term": "...", "language": "en", "status": "stub"}` objects.
+4. Re-parsed file to confirm JSON validity and 630 unique terms (no duplicates).
+5. Committed on `vocab/seeder-en-6` with Co-authored-by trailer.
+
+### Term breakdown
+| Domain | Count | Sample terms |
+|--------|-------|--------------|
+| Music theory | 12 | tessitura, leitmotif, dodecaphony, heterophony, organum |
+| Art history | 12 | sfumato, tenebrism, contrapposto, pentimento, grisaille |
+| Literary theory | 12 | narratology, defamiliarization, heteroglossia, paratext, carnivalesque |
+| Film studies | 12 | auteurism, scopophilia, interpellation, diegesis, profilmic |
+| Game theory | 11 | minimax, brinkmanship, metagame, stratagem, dominance |
+| Neuroscience | 11 | optogenetics, engram, tractography, neuropil, depolarization |
+| Immunology | 11 | epitope, opsonization, cytokine, tolerogenesis, hematopoiesis |
+| Astronomy | 11 | quasar, magnetar, nucleosynthesis, asteroseismology, syzygy |
+| Climate science | 8 | thermohaline, paleoclimate, teleconnection, phenology, cryosphere |
+
+### Stats
+- Pre-seed entries: 530
+- New stubs added: 100
+- Post-seed entries: 630
+- Duplicate collisions: 0
+- JSON validation: pass
+
+### Issues / notes
+- All 100 terms are genuinely C1+ in their domain context.
+- No multi-word phrases used; all stubs are single-word headwords suitable for enrichment.
+- Stub format is minimal per spec: term + language + status only.
