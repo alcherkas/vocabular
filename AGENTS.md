@@ -8,8 +8,8 @@ This is the entry point for all AI agents working on this repository.
 2. **Claim a task** in [`docs/TASKS.md`](docs/TASKS.md): change `[ ]` to `[in-progress: <agent-id>]`.
 3. **Read relevant docs** for your task (see index below).
 4. **Set up a worktree** — see [`docs/WORKTREES.md`](docs/WORKTREES.md).
-5. **Implement** the task in your worktree.
-6. **Verify** with `xcodebuild test` — see [`docs/BUILD.md`](docs/BUILD.md).
+5. **Implement** the task in your worktree. Add or update unit tests covering your changes (see [`docs/BUILD.md`](docs/BUILD.md) for test conventions).
+6. **Verify** all tests pass with `xcodebuild test` — see [`docs/BUILD.md`](docs/BUILD.md).
 7. **Merge back** into `main` and mark task `[done]` in `TASKS.md`.
 
 ## Docs Index
