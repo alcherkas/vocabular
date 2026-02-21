@@ -1095,3 +1095,31 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 ### Suggested improvement
 - Add a pre-commit hook or CI step that enforces lowercase headwords for Lithuanian entries (except proper nouns) to catch the `Pietūs`/`Grietinė` capitalisation pattern at source.
 - Consider splitting `ledai` into two separate entries (ice cream vs ice) in a future seeder pass to avoid meaning ambiguity.
+
+## [2026-02-24] [qa-13] [vocab/qa-13]
+
+### What went well
+- Preflight JSON validation clean for both files: LT staging passed with 1960 valid entries; EN staging pre-existing errors confined entirely to prior-batch approved entries (26 errors, all unrelated to this batch).
+- All 35 EN and 35 LT "relations-added" entries located and reviewed without index scanning; entries were well-structured with populated meanings, registers, and relation arrays.
+- The prior enricher/relations agents had already fixed the majority of quality issues (11 of 35 EN entries and 20 of 35 LT entries carried existing qaNotes documenting corrections); QA confirmed those fixes were sound.
+- Validator accepted all 35 LT entries after QA decisions applied (0 errors); EN validator errors reduced from 1 (baroclinic synonym count) to 0 within the batch.
+
+### What was harder than expected
+- One colonnade entry had a qaNote claiming "peristyle", "portico", and "arcade" were removed from synonyms, but all three terms were still present in the synonyms array — the documented fix had not been applied. Required both applying the fix and updating the qaNote to reflect the discrepancy.
+- Several EN entries required careful domain knowledge to distinguish wrong antonyms from valid contrasting terms (e.g., `advection` vs convection; `triangulation` vs trilateration; `toponymy` antonym space).
+- Lithuanian synonym quality required understanding of grammatical nuance: `jaunoji` (definite/bridal form), `tupėti` (squat vs sit), `pažinti` (know vs meet), and `mylėti` (love vs like) were all incorrectly listed as synonyms.
+
+### Decisions
+- **EN approved (27/35):** chiffonade, blanching, mirepoix, roux, capstan, mizzenmast, choropleth, isoline, geodesy, georeferencing, cartouche, graticule, orthophoto, planimetry, anemometer, hygrometer, virga, derecho, foehn, cumulonimbus, anticyclone, occlusion, isobar, paronomasia, aposiopesis, hypophora, exogamy.
+- **EN enriched (8/35):** nosocomial (false antonym "outpatient"), colonnade (synonyms not actually removed despite qaNote), toponymy (sibling-field antonym "anthroponymy"), bathymetry ("hypsometry (underwater)" not a valid synonym), triangulation ("trilateration" ≠ synonym), baroclinic (only 1 synonym; EN requires ≥2), advection ("convective transport" conflates vertical/horizontal transport), endogamy ("inbreeding (cultural)" incorrect synonym).
+- **LT approved (28/35):** savaitgalis, nulis, vienas, dešimt, žmona, brolis, sesuo, pusseserė, vaikas, tėvai, sūnus, duktė, stovėti, turėti, žiūrėti, girdėti, senas, sena, linksmas, linksma, liūdnas, liūdna, gražus, graži, negražus, negraži, šviesus, šviesi.
+- **LT enriched (7/35):** senelė ("tėvo motina" is paternal-only, not covering maternal grandmother), sėdėti ("tupėti" = squat, not sit), mėgti ("mylėti" = love, not like), susipažinti ("pažinti" = know, not meet), žaisti ("pramogauti" = entertain, not play), jaunas (capitalisation "Jaunas" corrected to "jaunas"), jauna ("jaunoji" = bride/definite form, not plain adjective synonym).
+- Pre-existing 26 EN "approved" synonym-count errors left untouched; they originate from prior batches and are out of scope.
+
+### Process friction
+- The colonnade inconsistency (qaNote vs. actual data) required additional investigation to confirm the fix had not been applied before correcting it; a post-relations-agent validation step would catch this pattern automatically.
+- Synonym quality for highly technical EN terms (baroclinic, advection, triangulation) required domain-specific reasoning that is hard to automate; short synonym lists in these specialist areas may warrant a specialist enrichment pass.
+
+### Suggested improvement
+- Add a validator check that flags when a qaNote contains language like "removed from synonyms" but the named term still appears in the synonyms array — this would have caught the colonnade issue automatically.
+- Consider a minimum-synonym enforcement gate between the relations-agent stage and the QA stage so synonym-count failures are caught before QA review.

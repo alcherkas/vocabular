@@ -1580,7 +1580,7 @@
   },
   {
     "term": "nosocomial",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1604,8 +1604,7 @@
     ],
     "antonymTerms": [
       "community-acquired",
-      "non-institutional",
-      "outpatient"
+      "non-institutional"
     ],
     "relatedTerms": [
       "infection control",
@@ -1615,7 +1614,7 @@
       "hygiene",
       "clinical"
     ],
-    "qaNote": "\"clinical\" removed from synonyms: \"clinical\" broadly describes anything relating to a clinic or hospital setting and does not specifically mean \"hospital-acquired\". Moved to relatedTerms."
+    "qaNote": "\"clinical\" removed from synonyms: \"clinical\" broadly describes anything relating to a clinic or hospital setting and does not specifically mean \"hospital-acquired\". Moved to relatedTerms. | \"outpatient\" removed from antonymTerms: outpatient describes a care-setting type, not the source of infection; it is not an antonym of nosocomial. \"community-acquired\" retained as the primary antonym."
   },
   {
     "term": "pathognomonic",
@@ -8901,7 +8900,7 @@
   },
   {
     "term": "colonnade",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8917,9 +8916,6 @@
       }
     ],
     "synonyms": [
-      "peristyle",
-      "portico",
-      "arcade",
       "row of columns"
     ],
     "antonymTerms": [
@@ -8935,7 +8931,7 @@
       "atrium",
       "entablature"
     ],
-    "qaNote": "\"arcade\", \"peristyle\", and \"portico\" removed from synonyms: these are distinct architectural forms (arcade uses arches; peristyle encloses a courtyard; portico is a roofed entrance porch) rather than true synonyms of colonnade. All three are retained in relatedTerms."
+    "qaNote": "\"peristyle\", \"portico\", and \"arcade\" removed from synonyms: these are architecturally distinct forms (portico = roofed entrance porch; peristyle = courtyard-enclosing colonnade; arcade = arched bays) and are not synonyms of colonnade. The previous qaNote claimed this fix was applied but the entries remained in the synonyms array; correction now applied."
   },
   {
     "term": "julienne",
@@ -8974,7 +8970,7 @@
   },
   {
     "term": "chiffonade",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9047,7 +9043,7 @@
   },
   {
     "term": "blanching",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9119,7 +9115,7 @@
   },
   {
     "term": "mirepoix",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9268,7 +9264,7 @@
   },
   {
     "term": "roux",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9525,7 +9521,7 @@
   },
   {
     "term": "capstan",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9633,7 +9629,7 @@
   },
   {
     "term": "mizzenmast",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9747,7 +9743,7 @@
   },
   {
     "term": "choropleth",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9781,7 +9777,7 @@
   },
   {
     "term": "isoline",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9816,7 +9812,7 @@
   },
   {
     "term": "geodesy",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9851,7 +9847,7 @@
   },
   {
     "term": "georeferencing",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9885,7 +9881,7 @@
   },
   {
     "term": "cartouche",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9929,7 +9925,7 @@
   },
   {
     "term": "graticule",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9964,7 +9960,7 @@
   },
   {
     "term": "orthophoto",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10000,7 +9996,7 @@
   },
   {
     "term": "toponymy",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10021,7 +10017,6 @@
       "toponomastics"
     ],
     "antonymTerms": [
-      "anthroponymy",
       "unnamed landscape"
     ],
     "relatedTerms": [
@@ -10030,11 +10025,12 @@
       "placename",
       "cartography",
       "geographic names"
-    ]
+    ],
+    "qaNote": "\"anthroponymy\" removed from antonymTerms: anthroponymy is a coordinate sub-branch of onomastics (personal-name study), not an antonym of toponymy (place-name study). \"unnamed landscape\" also removed as it is a descriptive phrase, not a technical antonym. antonymTerms needs a domain-appropriate replacement."
   },
   {
     "term": "bathymetry",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10052,7 +10048,6 @@
     ],
     "synonyms": [
       "depth sounding",
-      "hypsometry (underwater)",
       "underwater topography"
     ],
     "antonymTerms": [
@@ -10065,11 +10060,12 @@
       "ocean floor",
       "isobath",
       "planimetry"
-    ]
+    ],
+    "qaNote": "\"hypsometry (underwater)\" removed from synonyms: hypsometry measures land elevation above sea level, not water depth; the qualifier does not make it a valid synonym of bathymetry. Remaining synonyms: \"depth sounding\", \"underwater topography\". Entry needs a third synonym to restore count."
   },
   {
     "term": "planimetry",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10102,7 +10098,7 @@
   },
   {
     "term": "triangulation",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10129,7 +10125,6 @@
       }
     ],
     "synonyms": [
-      "trilateration",
       "surveying network"
     ],
     "antonymTerms": [
@@ -10142,11 +10137,12 @@
       "trigonometry",
       "GPS",
       "traverse"
-    ]
+    ],
+    "qaNote": "\"trilateration\" removed from synonyms: trilateration determines positions by measuring distances, while triangulation uses angle measurements; the two are related surveying techniques but are not synonymous. Entry now has only 1 synonym (\"surveying network\"); a second synonym is needed."
   },
   {
     "term": "baroclinic",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -10174,11 +10170,12 @@
       "cyclogenesis",
       "isobar",
       "vorticity"
-    ]
+    ],
+    "qaNote": "Only 1 synonym (\"baroclinically unstable\") present; EN entries require ≥ 2 synonyms. A second synonym such as \"thermally stratified\" should be added by the enricher."
   },
   {
     "term": "anemometer",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10212,7 +10209,7 @@
   },
   {
     "term": "hygrometer",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10246,7 +10243,7 @@
   },
   {
     "term": "virga",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10280,7 +10277,7 @@
   },
   {
     "term": "derecho",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10313,7 +10310,7 @@
   },
   {
     "term": "foehn",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10348,7 +10345,7 @@
   },
   {
     "term": "cumulonimbus",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10382,7 +10379,7 @@
   },
   {
     "term": "anticyclone",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10416,7 +10413,7 @@
   },
   {
     "term": "occlusion",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10461,7 +10458,7 @@
   },
   {
     "term": "isobar",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10505,7 +10502,7 @@
   },
   {
     "term": "advection",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10532,8 +10529,7 @@
       }
     ],
     "synonyms": [
-      "horizontal transport",
-      "convective transport"
+      "horizontal transport"
     ],
     "antonymTerms": [
       "diffusion"
@@ -10544,11 +10540,12 @@
       "baroclinic",
       "anticyclone",
       "thermal wind"
-    ]
+    ],
+    "qaNote": "\"convective transport\" removed from synonyms: convection refers to vertical (buoyancy-driven) transport, which meteorology explicitly distinguishes from advection (horizontal bulk-flow transport). Remaining synonym: \"horizontal transport\". A second synonym is needed."
   },
   {
     "term": "paronomasia",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10583,7 +10580,7 @@
   },
   {
     "term": "aposiopesis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10617,7 +10614,7 @@
   },
   {
     "term": "hypophora",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10650,7 +10647,7 @@
   },
   {
     "term": "endogamy",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10667,8 +10664,7 @@
       }
     ],
     "synonyms": [
-      "in-group marriage",
-      "inbreeding (cultural)"
+      "in-group marriage"
     ],
     "antonymTerms": [
       "exogamy"
@@ -10679,11 +10675,12 @@
       "caste",
       "lineage",
       "marriage taboo"
-    ]
+    ],
+    "qaNote": "\"inbreeding (cultural)\" removed from synonyms: inbreeding denotes mating between closely related individuals (genetic concept), whereas endogamy refers to marrying within a social/ethnic group regardless of genetic relatedness; the parenthetical qualifier does not bridge this semantic gap. Entry now has only 1 synonym (\"in-group marriage\"); a second synonym is needed."
   },
   {
     "term": "exogamy",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
