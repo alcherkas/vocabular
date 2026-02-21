@@ -361,3 +361,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Update build docs to include a simulator-discovery step and an accepted fallback destination policy.
+## [2026-02-21] [feat-agent] [word-of-day-lt]
+
+### What went well
+- SessionStartView already had a clean idle-state split, so adding the card was a focused change in one file.
+- Existing `Word` fields (`language`, `translation`, `definition`, `example`) mapped directly to EN/LT card variants.
+
+### What was harder than expected
+- `xcodebuild` initially failed because `xcode-select` pointed to CommandLineTools; needed `DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer`.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- None.
