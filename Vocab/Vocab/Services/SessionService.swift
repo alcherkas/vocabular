@@ -58,19 +58,7 @@ class SessionService {
 
         do {
             let allWords = try context.fetch(descriptor)
-            let now = Date.now
-
-            // Partition: overdue, new, upcoming
-            let overdue = allWords
-                .filter { $0.nextReview != nil && $0.nextReview! < now }
-                .sorted { ($0.nextReview ?? .distantFuture) < ($1.nextReview ?? .distantFuture) }
-            let new_ = allWords.filter { $0.nextReview == nil }
-
-            var selected: [Word] = []
-            selected.append(contentsOf: overdue.prefix(Self.maxOverdue))
-            let remaining = Self.maxSessionSize - selected.count
-            let newLimit = min(remaining, Self.maxNew)
-            selected.append(contentsOf: new_.shuffled().prefix(newLimit))
+            let selected = buildSession(from: allWords)
 
             if selected.isEmpty {
                 emptyReason = allWords.isEmpty ? .noWordsForLanguage : .allCaughtUp
@@ -86,6 +74,25 @@ class SessionService {
             print("SessionService: Error fetching words - \(error)")
             state = .idle
         }
+    }
+
+    private func buildSession(from allWords: [Word], now: Date = .now) -> [Word] {
+        let overdue = allWords
+            .filter { $0.nextReview != nil && $0.nextReview! < now }
+            .sorted { ($0.nextReview ?? .distantFuture) < ($1.nextReview ?? .distantFuture) }
+        let newWords = allWords.filter { $0.nextReview == nil }
+        let isZeroHistory = allWords.allSatisfy { $0.nextReview == nil && $0.timesSeen == 0 }
+
+        var selected: [Word] = []
+        selected.append(contentsOf: overdue.prefix(Self.maxOverdue))
+
+        let remaining = Self.maxSessionSize - selected.count
+        if remaining > 0 {
+            let newLimit = isZeroHistory ? remaining : min(remaining, Self.maxNew)
+            selected.append(contentsOf: newWords.shuffled().prefix(newLimit))
+        }
+
+        return selected.shuffled()
     }
 
     func recordAnswer(correct: Bool) {
