@@ -687,3 +687,15 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 ### Suggested improvement
 - Add a validator mode that lists relation self-references/duplicates explicitly to speed up QA pass/fail decisions.
 - None.
+
+## [2026-02-21] [enricher-lt-10] [vocab/enricher-lt-10]
+
+### What went well
+- Preflight JSON check passed before edits, and enriched-stage validation passed after updates.
+- Enriched exactly 30 LT stub entries in one batch with validator-compliant POS/register values.
+
+### What was harder than expected
+- Keeping occupation-pair entries (masculine/feminine forms) consistent while keeping examples natural and non-duplicative took extra review.
+
+### Suggested improvement
+- Add a small helper script to print the next N LT stubs plus neighboring gender-pair terms before enrichment begins.
