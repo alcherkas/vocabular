@@ -1393,3 +1393,29 @@ Each entry received: `partOfSpeech`, `translation`, `meanings` (definition + Lit
 
 ### Validator result
 `validate_words.py --errors-for enriched` → **PASSED** — 1960 entries, 10 pre-existing warnings (approved status, outside scope), 0 errors ✓
+
+## Session retro — vocab/enricher-en-18
+
+**Date:** 2025-07-25
+**Branch:** vocab/enricher-en-18
+**Commit:** 07a96fa
+
+### What was done
+- Preflight JSON validation on `words_staging.json` — 630 entries loaded, 125 stubs present, no errors in enriched scope.
+- Identified 35 stubs belonging to music theory (12), art history (12), and literary theory (11) from the seeder-en-6 batch.
+- Enriched each entry: set `partOfSpeech`, added one `meanings` object (definition, example, register, domain tags), and populated `synonyms` (≥2), `antonymTerms`, and `relatedTerms`.
+- Post-update validation: `validate_words.py --errors-for enriched` → **PASSED** (exit 0); 26 pre-existing warnings on `approved` entries, outside scope.
+
+### Stats
+| Domain | Terms enriched |
+|--------|---------------|
+| Music theory | 12 (tessitura, leitmotif, melisma, microtonal, serialism, dodecaphony, polyrhythm, ostinato, enharmonic, heterophony, organum, continuo) |
+| Art history | 12 (tenebrism, sfumato, impasto, pentimento, iconoclasm, contrapposto, grisaille, veduta, verism, sgraffito, encaustic, triptych) |
+| Literary theory | 11 (narratology, anachrony, focalization, heteroglossia, intertextuality, defamiliarization, paratext, carnivalesque, dialogism, prolepsis, analepsis) |
+| **Total** | **35** |
+
+### Issues / notes
+- All 35 terms are C1+ in their domain context; register set to `technical` except `iconoclasm` (set to `formal` reflecting its broader historical/political usage).
+- `carnivalesque` enriched as `adjective` (its primary grammatical function in Bakhtin criticism), consistent with the valid POS set.
+- `antonymTerms` set to conceptually contrasting terms where no true linguistic antonym exists (e.g., `organum` → `monophony, plainchant`), matching existing file conventions.
+- No duplicate terms introduced; all 35 were previously status `stub` with empty `meanings`.
