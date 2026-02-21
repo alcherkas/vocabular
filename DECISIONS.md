@@ -255,3 +255,30 @@ Vocab/
 
 ### Validator result
 125 enriched entries — all passed ✓ | 1960 total entries — all passed ✓
+
+---
+
+## Retro — seeder-en-5 · 100 English C1+ stubs ($(date -u +"%Y-%m-%d"))
+
+### What was done
+- Preflighted `words_staging.json` (430 entries, 0 duplicates confirmed).
+- Added **100 new English C1+ vocabulary stubs** spanning 8 domains:
+  - **Cognitive Science (15):** affordance, apophenia, confabulation, automaticity, modularity, sensorimotor, perseveration, apperception, pareidolia, hypnagogia, volition, ideation, anosognosia, phenomenology, prospection
+  - **Behavioral Economics (10):** satisficing, intertemporal, precommitment, reciprocity, herding, salience, anchoring, overconfidence, hyperbolic, quasirationality
+  - **Materials Science (15):** annealing, crystallography, dendrite, dielectric, sintering, passivation, perovskite, piezoelectric, plasticity, porosity, superalloy, tensile, wettability, magnetostriction, martensitic
+  - **Environmental Science (15):** albedo, aquifer, benthic, biogeochemistry, denitrification, ecotone, edaphic, evapotranspiration, geoengineering, leachate, limnology, methanogenesis, pedogenesis, riparian, thermocline
+  - **Urban Planning (10):** agglomeration, brownfield, cadastral, densification, gentrification, conurbation, placemaking, pedestrianization, urbanism, wayfinding
+  - **Law (15):** abatement, certiorari, chattel, comity, conveyance, derogation, easement, encumbrance, fiduciary, laches, mandamus, novation, rescission, subrogation, surety
+  - **History (15):** appanage, decolonization, diaspora, encomienda, feudalism, hagiography, historiography, interregnum, irredentism, mercantilism, periodization, primogeniture, provenance, syncretism, vassalage
+  - **Political Theory (5):** biopolitics, constitutionalism, hegemony, majoritarianism, neoliberalism
+
+### Validation
+- Zero collisions with existing 430 terms (Python set-diff check).
+- JSON parsed successfully post-write; total entries: **530**.
+- No duplicate terms in file.
+
+### Decisions
+- Stub format used: `{"term": "…", "language": "en", "status": "stub"}` per spec.
+- Terms selected at C1+ register: domain-specific, multi-syllabic, not found in common word lists.
+- Domains balanced to avoid over-indexing any single field.
+- No merges performed; branch left for PR review.
