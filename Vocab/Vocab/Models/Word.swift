@@ -1,12 +1,18 @@
 import Foundation
 import SwiftData
 
+struct WordMeaning: Codable {
+    var definition: String
+    var example: String
+    var register: String?
+    var tags: [String]
+}
+
 @Model
 class Word {
     var term: String
-    var definition: String
+    var meaningsData: Data
     var synonyms: [String]
-    var example: String
     var partOfSpeech: String
     var tags: [String] = []
     var isFavorite: Bool = false
@@ -25,11 +31,51 @@ class Word {
     var interval: Int = 0
     var repetitions: Int = 0
 
-    init(term: String, definition: String, synonyms: [String], example: String, partOfSpeech: String, tags: [String] = [], language: String = "en", translation: String? = nil) {
+    var meanings: [WordMeaning] {
+        get {
+            guard !meaningsData.isEmpty,
+                  let decoded = try? JSONDecoder().decode([WordMeaning].self, from: meaningsData) else {
+                return []
+            }
+            return decoded
+        }
+        set {
+            meaningsData = (try? JSONEncoder().encode(newValue)) ?? Data()
+        }
+    }
+
+    var definition: String {
+        get { meanings.first?.definition ?? "" }
+        set {
+            var currentMeanings = meanings
+            if currentMeanings.isEmpty {
+                currentMeanings = [WordMeaning(definition: newValue, example: "", register: nil, tags: [])]
+            } else {
+                currentMeanings[0].definition = newValue
+            }
+            meanings = currentMeanings
+        }
+    }
+
+    var example: String {
+        get { meanings.first?.example ?? "" }
+        set {
+            var currentMeanings = meanings
+            if currentMeanings.isEmpty {
+                currentMeanings = [WordMeaning(definition: "", example: newValue, register: nil, tags: [])]
+            } else {
+                currentMeanings[0].example = newValue
+            }
+            meanings = currentMeanings
+        }
+    }
+
+    init(term: String, definition: String, synonyms: [String], example: String, partOfSpeech: String, tags: [String] = [], language: String = "en", translation: String? = nil, meanings: [WordMeaning]? = nil) {
         self.term = term
-        self.definition = definition
+        let resolvedMeanings = meanings ?? [WordMeaning(definition: definition, example: example, register: nil, tags: tags)]
+        let persistedMeanings = resolvedMeanings.isEmpty ? [WordMeaning(definition: definition, example: example, register: nil, tags: tags)] : resolvedMeanings
+        self.meaningsData = (try? JSONEncoder().encode(persistedMeanings)) ?? Data()
         self.synonyms = synonyms
-        self.example = example
         self.partOfSpeech = partOfSpeech
         self.tags = tags
         self.language = language

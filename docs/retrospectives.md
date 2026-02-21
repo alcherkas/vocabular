@@ -318,3 +318,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Pre-calculate target count before generation to avoid trim step.
+
+## [2026-02-21] [feat-agent] [word-meanings-model]
+
+### What went well
+- Kept View layer unchanged by preserving `definition` and `example` as computed compatibility properties on `Word`.
+- Implemented dual-schema decoding in `WordService` so both legacy flat JSON and `meanings[]` JSON load with one path.
+
+### What was harder than expected
+- SwiftData attribute-based transformable declaration failed to compile cleanly in this environment, requiring a pivot to explicit JSON `Data` persistence.
+
+### Process friction
+- Requested build destination (`iPhone 16 Pro`) is unavailable on this machine; validation needed a fallback destination (`iPhone 17 Pro`) after running the requested command.
+
+### Suggested improvement
+- Update build docs to include a simulator-discovery step and an accepted fallback destination policy.
