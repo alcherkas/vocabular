@@ -158,6 +158,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Process friction
 - None. Task was minimal complexity with clear insertion points.
+## [2025-07-23] [enricher-en] [enrich-en-batch-1-3]
+
+### What went well
+- Protocol was clear and easy to follow; all 3 batches (15 words) passed validation on first attempt.
+- The validation script gave immediate, actionable feedback — no ambiguity about what fields were required.
+- C1+ academic words had well-established definitions, making enrichment straightforward with high confidence.
+
+### What was harder than expected
+- Deciding between one vs. two meanings per word: most C1 adjectives/verbs had a single dominant sense, but "conflagration" warranted two (literal fire + figurative conflict). Kept it simple where one meaning was sufficient.
+
+### Process friction
+- None this iteration. Staging schema, validation, and commit flow all worked smoothly.
 
 ### Suggested improvement
 - None.
