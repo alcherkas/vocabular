@@ -54,11 +54,14 @@ Make **≤3 changes** per cycle. Each change must be:
 - **Traceable**: you can point to the retro entries or audit-log entries that motivated it
 
 Types of changes you can make:
-- Edit agent protocol docs (AGENTS.md, *-AGENT.md, VOCAB-AGENT.md)
+- Edit agent protocol docs (AGENTS.md, *-AGENT.md, VOCAB-AGENT.md) — **you are the only agent permitted to write actionable guidance to these files**
 - Edit convention/architecture docs (CONVENTIONS.md, ARCHITECTURE.md)
 - Edit guardrail docs (REVERSIBILITY.md)
 - Add/edit validation scripts in `scripts/`
 - Update TASKS.md task descriptions for clarity
+
+> **Important**: only write distilled, actionable guidance to `AGENTS.md` and other protocol docs.
+> Never copy raw retrospective entries there — raw retros live only in `docs/retrospectives.md`.
 
 ### 2. Process changelog entry
 
