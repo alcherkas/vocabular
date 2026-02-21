@@ -595,3 +595,17 @@ Selected 35 stubs covering jobs/professions and work/office vocabulary at A1/A2 
 - Enrichment script accidentally wrote to the wrong repo (`vocabular`) on the first run due to CWD mismatch; reverted immediately via `git checkout`, then re-applied to the correct repo (`vocabular-wt-enricher-lt-27`). No lasting impact on `vocabular`.
 - Several terms (e.g. `klijuoti`, `trinti`, `moneta`, `laiškas`, `kursas`) were given two meanings where the tech sense and the everyday sense differ meaningfully.
 - Synonyms `paieška vykdyti` (ieškoti) and `patvirtinti parašu` (pasirašyti) are descriptive phrases rather than single-word headwords; acceptable at A2/B1 where true single-word synonyms are sparse.
+
+## relations-22 retro
+
+**What went well**
+- Preflight caught 2 existing `relations-added` errors upfront (`defamiliarization`, `equilibrium`) that were fixed in the same commit.
+- Python script applied all changes atomically; validator confirmed PASS on both files after two quick iterations.
+- EN: all 35 enriched entries had relations already; required only cleanup (self-refs, cross-array dups) + status bump.
+- LT: first-pass script introduced 3 new errors (2 cross-array dups from added antonyms, 1 inflected suffix); caught by immediate re-validation and fixed in same session.
+
+**What to watch**
+- When adding antonyms to LT entries, always check `relatedTerms` first — "darbdavys/darbdavė" were already in `relatedTerms`, causing cross-array duplicates.
+- LT verb+object phrases in synonyms/relatedTerms frequently carry accusative `-ą` endings; prefer nominative noun phrases or bare infinitives.
+- Self-referential synonyms (e.g. "stellar nucleosynthesis", "atmospheric teleconnection") are a recurring pattern when an enrichment agent qualifies the headword rather than replacing it — validate before committing.
+- Multi-word headwords (e.g. "paso numeris") bypass the word-token self-ref check; they can still silently carry their constituent tokens in relations without triggering the validator.
