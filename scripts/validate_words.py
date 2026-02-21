@@ -1,0 +1,181 @@
+#!/usr/bin/env python3
+"""
+validate_words.py — Stage-aware word data validator.
+
+Usage:
+    python3 scripts/validate_words.py --staging Resources/words_staging.json
+    python3 scripts/validate_words.py --staging Resources/words_staging.json --status enriched
+    python3 scripts/validate_words.py --production Resources/words.json
+
+Exit code 0 = all valid. Exit code 1 = validation errors found.
+"""
+
+import json
+import sys
+import argparse
+from pathlib import Path
+
+VALID_PARTS_OF_SPEECH = {"noun", "verb", "adjective", "adverb", "phrase"}
+VALID_REGISTERS = {"general", "technical", "formal", "literary"}
+VALID_STATUSES = {"stub", "enriched", "relations-added", "approved"}
+
+
+def load_json(path: str) -> list:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"ERROR: File not found: {path}")
+        sys.exit(1)
+    except json.JSONDecodeError as e:
+        print(f"ERROR: Invalid JSON in {path}: {e}")
+        sys.exit(1)
+
+
+def collect_existing_terms(production_files: list[str]) -> set:
+    """Collect all terms already in production files (for dedup)."""
+    terms = set()
+    for path in production_files:
+        if Path(path).exists():
+            for word in load_json(path):
+                if "term" in word:
+                    terms.add(word["term"].lower())
+    return terms
+
+
+def validate_stub(word: dict, idx: int, errors: list):
+    """Validate minimum fields for stub status."""
+    for field in ("term", "language", "partOfSpeech"):
+        if not word.get(field, "").strip():
+            errors.append(f"[{idx}] '{word.get('term', '?')}': missing required field '{field}'")
+    pos = word.get("partOfSpeech", "")
+    if pos and pos not in VALID_PARTS_OF_SPEECH:
+        errors.append(f"[{idx}] '{word.get('term')}': invalid partOfSpeech '{pos}' — must be one of {sorted(VALID_PARTS_OF_SPEECH)}")
+    lang = word.get("language", "")
+    if lang and lang not in ("en", "lt"):
+        errors.append(f"[{idx}] '{word.get('term')}': invalid language '{lang}' — must be 'en' or 'lt'")
+
+
+def validate_enriched(word: dict, idx: int, errors: list):
+    """Validate meanings array is populated."""
+    meanings = word.get("meanings", [])
+    if not meanings:
+        errors.append(f"[{idx}] '{word.get('term')}': 'meanings' array is empty — enricher must add at least 1 meaning")
+        return
+    for m_idx, meaning in enumerate(meanings):
+        for field in ("definition", "example", "register"):
+            if not meaning.get(field, "").strip():
+                errors.append(f"[{idx}] '{word.get('term')}' meaning[{m_idx}]: missing '{field}'")
+        reg = meaning.get("register", "")
+        if reg and reg not in VALID_REGISTERS:
+            errors.append(f"[{idx}] '{word.get('term')}' meaning[{m_idx}]: invalid register '{reg}' — must be one of {sorted(VALID_REGISTERS)}")
+        if not isinstance(meaning.get("tags", []), list):
+            errors.append(f"[{idx}] '{word.get('term')}' meaning[{m_idx}]: 'tags' must be an array")
+        # Check for duplicate meanings
+        if len(meanings) > 1:
+            defs = [m.get("definition", "").lower().strip() for m in meanings]
+            if len(defs) != len(set(defs)):
+                errors.append(f"[{idx}] '{word.get('term')}': duplicate meaning definitions detected")
+    # LT words must have translation
+    if word.get("language") == "lt" and not word.get("translation", "").strip():
+        errors.append(f"[{idx}] '{word.get('term')}': LT word missing 'translation' field")
+
+
+def validate_relations(word: dict, idx: int, errors: list):
+    """Validate synonyms/antonyms/relatedTerms are lists (may be empty for LT)."""
+    for field in ("synonyms", "antonymTerms", "relatedTerms"):
+        val = word.get(field)
+        if val is None:
+            errors.append(f"[{idx}] '{word.get('term')}': missing field '{field}' — must be an array (can be [])")
+        elif not isinstance(val, list):
+            errors.append(f"[{idx}] '{word.get('term')}': '{field}' must be an array")
+    # EN words should have at least some synonyms
+    if word.get("language") == "en":
+        synonyms = word.get("synonyms", [])
+        if len(synonyms) < 2:
+            errors.append(f"[{idx}] '{word.get('term')}': EN word should have at least 2 synonyms, found {len(synonyms)}")
+
+
+def validate_production(word: dict, idx: int, errors: list):
+    """Validate a fully production-ready word (no status field)."""
+    validate_stub(word, idx, errors)
+    validate_enriched(word, idx, errors)
+    validate_relations(word, idx, errors)
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Validate vocabulary word JSON files.")
+    parser.add_argument("--staging", help="Path to staging JSON file (words_staging.json)")
+    parser.add_argument("--production", help="Path to production JSON file (words.json)")
+    parser.add_argument("--status", help="Only validate entries with this status (e.g. enriched)")
+    parser.add_argument("--dedup-against", nargs="*", default=[], help="Production files to check for duplicate terms")
+    args = parser.parse_args()
+
+    if not args.staging and not args.production:
+        print("ERROR: Provide --staging or --production")
+        sys.exit(1)
+
+    errors = []
+    warnings = []
+
+    # Load production files for dedup
+    existing_terms = collect_existing_terms(args.dedup_against)
+
+    if args.staging:
+        words = load_json(args.staging)
+        if args.status:
+            words = [w for w in words if w.get("status") == args.status]
+            print(f"Validating {len(words)} '{args.status}' entries in {args.staging}")
+        else:
+            print(f"Validating {len(words)} entries in {args.staging}")
+
+        # Check for duplicates within staging file
+        seen_terms = {}
+        for idx, word in enumerate(words):
+            term = word.get("term", "").lower().strip()
+            if term in seen_terms:
+                errors.append(f"[{idx}] '{word.get('term')}': duplicate term (also at index {seen_terms[term]})")
+            else:
+                seen_terms[term] = idx
+
+            # Check dedup against production
+            if term in existing_terms:
+                errors.append(f"[{idx}] '{word.get('term')}': term already exists in production file")
+
+            status = word.get("status", "stub")
+            if status not in VALID_STATUSES:
+                errors.append(f"[{idx}] '{word.get('term')}': invalid status '{status}'")
+                continue
+
+            validate_stub(word, idx, errors)
+            if status in ("enriched", "relations-added", "approved"):
+                validate_enriched(word, idx, errors)
+            if status in ("relations-added", "approved"):
+                validate_relations(word, idx, errors)
+
+    elif args.production:
+        words = load_json(args.production)
+        print(f"Validating {len(words)} production entries in {args.production}")
+        seen_terms = {}
+        for idx, word in enumerate(words):
+            term = word.get("term", "").lower().strip()
+            if term in seen_terms:
+                errors.append(f"[{idx}] '{word.get('term')}': duplicate term")
+            else:
+                seen_terms[term] = idx
+            validate_production(word, idx, errors)
+
+    # Report
+    print()
+    if errors:
+        print(f"FAILED — {len(errors)} error(s):")
+        for e in errors:
+            print(f"  ✗ {e}")
+        sys.exit(1)
+    else:
+        print(f"PASSED — {len(words)} word(s) valid ✓")
+        sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()

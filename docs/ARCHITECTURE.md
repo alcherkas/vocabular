@@ -76,36 +76,97 @@ Stores per-session quiz outcomes: score, total, date, words attempted.
 
 ## JSON Schema
 
-### `words.json` (English)
+### Production files (`words.json`, `words_lt.json`)
+
+Words in production use a `meanings` array to capture multiple senses of a word:
 
 ```json
 [
   {
-    "term": "ubiquitous",
-    "definition": "Present, appearing, or found everywhere",
-    "synonyms": ["omnipresent", "pervasive"],
-    "example": "Mobile phones have become ubiquitous.",
+    "term": "ephemeral",
+    "language": "en",
     "partOfSpeech": "adjective",
-    "tags": ["academic"]
+    "meanings": [
+      {
+        "definition": "Lasting for a very short time",
+        "example": "The ephemeral beauty of cherry blossoms makes them precious.",
+        "register": "general",
+        "tags": ["time", "academic"]
+      },
+      {
+        "definition": "Existing only briefly; used in computing for short-lived resources",
+        "example": "Ephemeral containers are destroyed after each use.",
+        "register": "technical",
+        "tags": ["technology", "computing"]
+      }
+    ],
+    "synonyms": ["transient", "fleeting", "momentary"],
+    "antonymTerms": ["permanent", "enduring", "perpetual"],
+    "relatedTerms": ["transience", "impermanence"]
   }
 ]
 ```
 
-### `words_lt.json` (Lithuanian)
+**Field rules:**
+- `meanings`: array, minimum 1 entry. Add all genuinely distinct senses.
+- `meanings[].register`: one of `"general"` | `"technical"` | `"formal"` | `"literary"`
+- `meanings[].tags`: lowercase, hyphen-separated (e.g. `"word-family"`)
+- `partOfSpeech`: one of `"noun"` | `"verb"` | `"adjective"` | `"adverb"` | `"phrase"`
+- `synonyms`: 2–5 entries for EN; typically `[]` for LT
+- `antonymTerms`, `relatedTerms`: string arrays, may be `[]`
+- `language`: `"en"` or `"lt"`
+
+### Lithuanian additions
+
+LT words add a `translation` field (EN gloss) and typically have 1 meaning:
 
 ```json
-[
-  {
-    "term": "katė",
-    "definition": "A small domesticated carnivorous mammal",
-    "translation": "cat",
-    "synonyms": [],
-    "example": "Katė miega ant sofos.",
-    "partOfSpeech": "noun",
-    "tags": ["animals", "basic"]
-  }
-]
+{
+  "term": "katė",
+  "language": "lt",
+  "partOfSpeech": "noun",
+  "translation": "cat",
+  "meanings": [
+    {
+      "definition": "A small domesticated carnivorous mammal kept as a pet",
+      "example": "Katė miega ant sofos.",
+      "register": "general",
+      "tags": ["animals", "basic"]
+    }
+  ],
+  "synonyms": [],
+  "antonymTerms": [],
+  "relatedTerms": ["šuo", "gyvūnas"]
+}
 ```
+
+### Staging files (`words_staging.json`, `words_lt_staging.json`)
+
+Staging files live in `Resources/` and track curation progress via a `status` field:
+
+```json
+{
+  "term": "ephemeral",
+  "language": "en",
+  "partOfSpeech": "adjective",
+  "status": "stub",
+  "meanings": [],
+  "synonyms": [],
+  "antonymTerms": [],
+  "relatedTerms": [],
+  "translation": null
+}
+```
+
+**Status values** (pipeline stages):
+| Status | Set by | Fields populated |
+|--------|--------|-----------------|
+| `stub` | Seeder agent | `term`, `language`, `partOfSpeech` |
+| `enriched` | Enricher agent | + `meanings` (all senses) |
+| `relations-added` | Relations agent | + `synonyms`, `antonymTerms`, `relatedTerms` |
+| `approved` | QA agent | All fields verified |
+| *(removed)* | Publisher script | Moved to `words.json`, deleted from staging |
+
 
 ## What NOT to Change
 

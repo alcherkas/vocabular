@@ -16,6 +16,7 @@ This is the entry point for all AI agents working on this repository.
 
 | File | Read when... |
 |------|-------------|
+| [`docs/VOCAB-AGENT.md`](docs/VOCAB-AGENT.md) | You are running a continuous vocabulary pipeline agent (Seeder, Enricher, Relations, QA, or Publisher) |
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | You need to understand the data model, app structure, or design constraints |
 | [`docs/CONVENTIONS.md`](docs/CONVENTIONS.md) | You are writing Swift code or editing JSON word data |
 | [`docs/BUILD.md`](docs/BUILD.md) | You need to build, run, or test the app |

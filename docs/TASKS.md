@@ -10,7 +10,74 @@
 
 ---
 
-## Model & Data Tasks
+## Vocabulary Pipeline Tasks
+
+> These are **continuous-loop** tasks. See `docs/VOCAB-AGENT.md` for the full protocol.
+> Vocab agents use branch prefix `vocab/` not `feature/`.
+
+### `vocab-seeder-en`
+**Status**: `[ ]`
+**Role**: Seeder (English)
+**Description**: Continuously add C1+ English word stubs to `words_staging.json`. Run the Seeder loop from `docs/VOCAB-AGENT.md`.
+**Files to touch**: `Vocab/Vocab/Resources/words_staging.json`
+**Target**: 500+ stubs (current production: 96 words)
+
+---
+
+### `vocab-seeder-lt`
+**Status**: `[ ]`
+**Role**: Seeder (Lithuanian)
+**Description**: Continuously add A1/A2 Lithuanian word stubs to `words_lt_staging.json`. Run the Seeder loop from `docs/VOCAB-AGENT.md`.
+**Files to touch**: `Vocab/Vocab/Resources/words_lt_staging.json` (create if absent)
+**Target**: 200 stubs
+
+---
+
+### `vocab-enricher-en`
+**Status**: `[ ]`
+**Role**: Enricher (English)
+**Description**: Pick up `stub` entries in `words_staging.json` and add all meanings (definitions, examples, register, tags). Run the Enricher loop from `docs/VOCAB-AGENT.md`.
+**Files to touch**: `Vocab/Vocab/Resources/words_staging.json`
+
+---
+
+### `vocab-enricher-lt`
+**Status**: `[ ]`
+**Role**: Enricher (Lithuanian)
+**Description**: Pick up `stub` entries in `words_lt_staging.json` and add meanings + translation. Run the Enricher loop.
+**Files to touch**: `Vocab/Vocab/Resources/words_lt_staging.json`
+
+---
+
+### `vocab-relations`
+**Status**: `[ ]`
+**Role**: Relations
+**Description**: Pick up `enriched` entries in staging files and add synonyms, antonyms, relatedTerms. Run the Relations loop from `docs/VOCAB-AGENT.md`.
+**Files to touch**: `Vocab/Vocab/Resources/words_staging.json`, `words_lt_staging.json`
+
+---
+
+### `vocab-qa`
+**Status**: `[ ]`
+**Role**: QA Reviewer
+**Description**: Review `relations-added` entries. Approve or send back for rework. Run the QA loop from `docs/VOCAB-AGENT.md`.
+**Files to touch**: `Vocab/Vocab/Resources/words_staging.json`, `words_lt_staging.json`
+
+---
+
+### `word-meanings-model`
+**Status**: `[ ]`
+**Description**: Update `Word.swift` and `WordService.swift` to support the `meanings` array schema (replaces flat `definition`/`example` fields). Update all Views that reference `.definition` or `.example`.
+**Files to touch**: `Vocab/Vocab/Models/Word.swift`, `Vocab/Vocab/Services/WordService.swift`, all View files that use `.definition`/`.example`
+**Acceptance criteria**:
+- `Word` model has `meanings: [WordMeaning]` where `WordMeaning` has `definition`, `example`, `register`, `tags`
+- `WordData` codable struct updated to match new JSON schema
+- All views compile and show primary meaning (first entry) by default
+- App builds without errors, existing words still load
+
+---
+
+## App Model & Feature Tasks
 
 ### `word-relations`
 **Status**: `[ ]`
