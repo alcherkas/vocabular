@@ -662,3 +662,19 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a small rubric in `docs/VOCAB-AGENT.md` for relation density by category (proper noun, phrase, technical term) to reduce variability across batches.
+
+## [2026-02-21] [vocab-qa-agent] [vocab/qa-5]
+
+### What went well
+- Preflight JSON checks passed for both staging files, and all `relations-added` entries were reviewed in one pass.
+- Approved all 35 EN and 35 LT reviewed entries after confirming valid `partOfSpeech` and meaning `register` values.
+- Approved-status validation passed for both staging files after status transitions.
+
+### What was harder than expected
+- There is no built-in semantic scoring for relation quality, so review still depends on manual judgment beyond schema-level checks.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- Add a validator mode that lists relation self-references/duplicates explicitly to speed up QA pass/fail decisions.
