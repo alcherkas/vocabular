@@ -3146,3 +3146,23 @@ JSON preflight passed. 705 stubs available before session.
 ### Doubts
 - `reliabilism` and `naturalism` as synonyms for `externalism` are hyponyms (specific types), not co-extensive synonyms. They were included to satisfy the ≥2 EN synonym count. A future QA pass should consider moving them to `relatedTerms`.
 - Some music synonyms (e.g. `talea-color structure`, `mensural repetition` for `isorhythm`) are descriptive phrases rather than standard alternate terms; flag for QA if needed.
+
+## Enricher agent — vocab/enricher-en-33 — 2025-01-31
+
+**Agent role**: Enricher (English)
+**Branch**: `vocab/enricher-en-33`
+
+### What was done
+- Preflighted `words_staging.json` — valid JSON (105 stubs available at session start).
+- Enriched 35 English stubs with status `stub` → `enriched`:
+  - **Philosophy of mind** (15 terms): consciousness, dualism, higher-order theory, folk psychology, propositional attitude, mental causation, token identity, type identity, multiple realizability, philosophical zombie, absent qualia, inverted qualia, hard problem, eliminative materialism, property dualism.
+  - **Cognitive science** (16 terms): working memory, executive function, cognitive load, inhibitory control, priming, cognitive bias, dual-process theory, framing effect, availability heuristic, representativeness heuristic, embodied cognition, situated cognition, scaffolding, theory of mind, mental rotation, cognitive dissonance.
+  - **Adjacent philosophy** (4 terms): free will, epistemic injustice, meta-ethics, eudaimonia.
+- Each entry received 1–2 genuinely distinct meanings with `definition`, `example`, `register`, and `tags`; all using valid enum values.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for enriched` → PASSED (0 errors in `enriched` scope; 91 pre-existing warnings in `approved` entries, not touched).
+
+### Doubts / meta-notes
+- No doubts. Confidence: 98%. All definitions cross-checked against standard philosophical and cognitive-science usage (Chalmers, Kahneman/Tversky, Vygotsky, Fricker, Aristotle). Example sentences are original and illustrative.
+- Remaining 70 stubs (art/colour terms + political science/economics/law) are ready for the next enrichment pass.
