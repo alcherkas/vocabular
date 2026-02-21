@@ -20428,7 +20428,7 @@
     "term": "kalnas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Didelis natūralus žemės paviršiaus pakilimas; aukšta gamtinė erdvė.",
@@ -24740,7 +24740,7 @@
     "term": "lietingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pasižymintis dažnais ar stipriais lietumis; daug kritulių turintis.",
@@ -26574,7 +26574,7 @@
     "term": "kaklas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kūno dalis, jungianti galvą su liemeniu.",
@@ -26596,14 +26596,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gerklė",
+      "sprandas",
+      "smakras"
+    ],
     "translation": "neck"
   },
   {
     "term": "pečiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kūno dalis ties rankų prisijungimo prie liemens vieta.",
@@ -26625,7 +26629,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nugara",
+      "rankos",
+      "mentės"
+    ],
     "translation": "shoulders"
   },
   {
@@ -26750,7 +26758,7 @@
     "term": "nugara",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Užpakalinė kūno dalis nuo pečių iki juosmens.",
@@ -26771,8 +26779,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "pilvas"
+    ],
+    "relatedTerms": [
+      "stuburas",
+      "pečiai",
+      "juosmuo"
+    ],
     "translation": "back"
   },
   {
@@ -26810,7 +26824,7 @@
     "term": "pėda",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Apatinė kojos dalis, kuria stovime ir einame.",
@@ -26832,7 +26846,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kulnas",
+      "pirštai",
+      "koja"
+    ],
     "translation": "foot"
   },
   {
@@ -26923,7 +26941,7 @@
     "term": "skruostas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Veido šoninė dalis tarp akies ir burnos kampučio.",
@@ -26937,7 +26955,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "veidas",
+      "kakta",
+      "smakras"
+    ],
     "translation": "cheek"
   },
   {
@@ -26973,7 +26995,7 @@
     "term": "kakta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Viršutinė veido dalis virš akių, žemiau plaukų linijos.",
@@ -26987,7 +27009,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "veidas",
+      "skruostas",
+      "nosis"
+    ],
     "translation": "forehead"
   },
   {
@@ -27023,7 +27049,7 @@
     "term": "smakras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Apatinė veido dalis, esanti žemiau burnos.",
@@ -27037,7 +27063,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lūpos",
+      "veidas",
+      "kaklas"
+    ],
     "translation": "chin"
   },
   {
@@ -27197,7 +27227,7 @@
     "term": "lūpos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Minkštosios kūno dalys, supančios burnos angą, dalyvaujančios kalboje ir valgyme.",
@@ -27219,7 +27249,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "burna",
+      "dantys",
+      "liežuvis"
+    ],
     "translation": "lips"
   },
   {
@@ -27237,7 +27271,7 @@
     "term": "ausis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Klausos organas, esantis galvos šonuose.",
@@ -27259,7 +27293,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "klausa",
+      "klausytis",
+      "būgnelis"
+    ],
     "translation": "ear"
   },
   {
@@ -27612,7 +27650,7 @@
     "term": "registratūra",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Poliklinikos ar ligoninės skyrius, kuriame pacientai registruojami vizitui pas gydytoją.",
@@ -27624,9 +27662,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "priimamasis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "registratorė",
+      "poliklinika",
+      "kabinetas"
+    ],
     "translation": "reception desk"
   },
   {
@@ -27644,7 +27688,7 @@
     "term": "registratorė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moteris, dirbanti medicinos įstaigos registratūroje ir priimanti pacientų vizitų prašymus.",
@@ -27656,9 +27700,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "administratorė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "registratorius",
+      "registratūra",
+      "sekretorė"
+    ],
     "translation": "receptionist"
   },
   {
@@ -27696,7 +27746,7 @@
     "term": "ligonė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moteris, kuri serga arba gydosi ligoninėje.",
@@ -27708,9 +27758,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pacientė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ligonis",
+      "gydytoja",
+      "ligoninė"
+    ],
     "translation": "sick woman"
   },
   {
@@ -27748,7 +27804,7 @@
     "term": "pacientė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moteris, gaunanti medicininę pagalbą arba gydymąsi iš sveikatos priežiūros specialisto.",
@@ -27760,9 +27816,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "ligonė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pacientas",
+      "gydytoja",
+      "registratūra"
+    ],
     "translation": "patient (female)"
   },
   {
@@ -27960,7 +28022,7 @@
     "term": "Alergologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytojas, specializuojantis alergijų ir imuninės sistemos sutrikimų diagnostikoje bei gydyme.",
@@ -27975,14 +28037,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "alergologė",
+      "alergija",
+      "gydytojas"
+    ],
     "translation": "allergist"
   },
   {
     "term": "alergologė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytoja, specializuojanti alergijų ir imuninės sistemos sutrikimų diagnostikoje bei gydyme.",
@@ -27997,7 +28063,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Alergologas",
+      "alergija",
+      "gydytoja"
+    ],
     "translation": "allergist (female)"
   },
   {
@@ -28015,7 +28085,7 @@
     "term": "nosies ir gerklės gydytojas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytojas, specializuojantis ausų, nosies ir gerklės ligų diagnostikoje bei gydyme (otorinolaringologas).",
@@ -28028,9 +28098,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "otorinolaringologas",
+      "otolaringologas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gerklė",
+      "nosis",
+      "chirurgas"
+    ],
     "translation": "ENT doctor"
   },
   {
@@ -28067,7 +28144,7 @@
     "term": "chirurgė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytoja, atliekanti chirurgines operacijas.",
@@ -28082,7 +28159,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "chirurgas",
+      "operacija",
+      "ligoninė"
+    ],
     "translation": "surgeon (female)"
   },
   {
@@ -28160,7 +28241,7 @@
     "term": "kardiologė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytoja, specializuojanti širdies ir kraujagyslių ligų diagnostikoje bei gydyme.",
@@ -28175,7 +28256,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kardiologas",
+      "širdis",
+      "kraujotaka"
+    ],
     "translation": "cardiologist (female)"
   },
   {
@@ -28212,7 +28297,7 @@
     "term": "neurologė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytoja, specializuojanti nervų sistemos ligų diagnostikoje bei gydyme.",
@@ -28227,7 +28312,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "neurologas",
+      "nervai",
+      "smegenys"
+    ],
     "translation": "neurologist (female)"
   },
   {
@@ -28265,7 +28354,7 @@
     "term": "odontologė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytoja, diagnozuojanti ir gydanti dantų, dantenų bei burnos ligas.",
@@ -28280,7 +28369,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "odontologas",
+      "dantys",
+      "burnos higiena"
+    ],
     "translation": "dentist (female)"
   },
   {
@@ -28309,7 +28402,7 @@
     "term": "psichiatras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytojas, diagnozuojantis ir gydantis psichikos bei elgesio sutrikimus.",
@@ -28324,7 +28417,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "psichiatrė",
+      "psichologas",
+      "psichiatrija"
+    ],
     "translation": "psychiatrist"
   },
   {
@@ -28374,7 +28471,7 @@
     "term": "šeimos gydytoja",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytoja, teikianti pirminę sveikatos priežiūrą ir esanti pirmasis kontaktas su sveikatos sistema.",
@@ -28387,9 +28484,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "bendrosios praktikos gydytoja"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šeimos gydytojas",
+      "terapeutas",
+      "poliklinika"
+    ],
     "translation": "family doctor (female)"
   },
   {
@@ -28792,7 +28895,7 @@
     "term": "akių uždegimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Akių gleivinės ar vokų uždegimas, pasireiškiantis paraudimu, niežuliu ir ašarojimu.",
@@ -28807,14 +28910,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "akys",
+      "uždegimas",
+      "konjunktyvitas"
+    ],
     "translation": "eye inflammation"
   },
   {
     "term": "ausų uždegimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ausų kanalo ar vidurinės ausies uždegimas, sukeliantis skausmą ir galintis sutrikdyti klausą.",
@@ -28827,9 +28934,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "otitas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ausys",
+      "uždegimas",
+      "skausmas"
+    ],
     "translation": "ear infection"
   },
   {
@@ -29004,7 +29117,7 @@
     "term": "vaistai nuo skausmo",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vaistai, skirti mažinti ar malšinti skausmą.",
@@ -29017,9 +29130,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "analgetikai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "skausmas",
+      "tabletė",
+      "receptas"
+    ],
     "translation": "painkillers"
   },
   {
@@ -29055,7 +29174,7 @@
     "term": "vitaminai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Organiniai junginiai, reikalingi normaliam organizmo funkcionavimui, gaunami su maistu ar papildais.",
@@ -29070,14 +29189,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mineralai",
+      "maisto papildai",
+      "sveikata"
+    ],
     "translation": "vitamins"
   },
   {
     "term": "gerti vaistus",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vartoti vaistus per burną pagal gydytojo paskyrimus.",
@@ -29090,9 +29213,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vartoti vaistus"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vaistai",
+      "dozė",
+      "receptas"
+    ],
     "translation": "to take medicine"
   },
   {
@@ -29110,7 +29239,7 @@
     "term": "leisti vaistus",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Suleisti vaistus į organizmą injekcijos būdu – į veną, raumenį ar po oda.",
@@ -29123,9 +29252,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "švirkšti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "injekcija",
+      "švirkštas",
+      "vaistai"
+    ],
     "translation": "to administer injection"
   },
   {
@@ -29255,7 +29390,7 @@
     "term": "ampulė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nedidelis hermetiškas stiklo indas, skirtas skystoms vaistų formoms laikyti ir vartoti.",
@@ -29268,9 +29403,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "fiola"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vaistai",
+      "švirkštas",
+      "dozė"
+    ],
     "translation": "ampoule"
   },
   {
@@ -29399,7 +29540,7 @@
     "term": "matuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nustatyti dydį, kiekį ar intensyvumą naudojant matavimo prietaisus.",
@@ -29421,7 +29562,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "išmatuoti",
+      "matavimas",
+      "tikslumas"
+    ],
     "translation": "to measure"
   },
   {
@@ -29500,7 +29645,7 @@
     "term": "tirti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atlikti medicininius tyrimus ar apžiūrą, siekiant nustatyti diagnozę ar sveikatos būklę.",
@@ -29521,9 +29666,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "nagrinėti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tyrimas",
+      "ištirti",
+      "analizuoti"
+    ],
     "translation": "to examine"
   },
   {
@@ -34003,7 +34154,7 @@
     "term": "žygis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A long walk through nature, especially in hills or forests, usually for recreation.",
@@ -35360,7 +35511,7 @@
     "term": "žiūrovas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male person who watches a performance, film, or sporting event as a member of the audience.",
@@ -35374,7 +35525,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "stebėtojas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "žiūrovė",

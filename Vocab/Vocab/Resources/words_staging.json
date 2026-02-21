@@ -23535,7 +23535,7 @@
   {
     "term": "illocution",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23550,8 +23550,8 @@
       }
     ],
     "synonyms": [
-      "speech act",
-      "communicative act"
+      "speech function",
+      "utterance function"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -23753,7 +23753,7 @@
   {
     "term": "performativity",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -25281,7 +25281,7 @@
   {
     "term": "ergodicity",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -25672,7 +25672,7 @@
   {
     "term": "attractor",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -25934,7 +25934,7 @@
   {
     "term": "teleonomy",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26154,7 +26154,7 @@
   {
     "term": "reliabilism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26185,7 +26185,7 @@
   {
     "term": "internalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26216,7 +26216,7 @@
   {
     "term": "externalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26232,7 +26232,7 @@
     ],
     "synonyms": [
       "naturalism",
-      "reliabilism"
+      "anti-internalism"
     ],
     "antonymTerms": [
       "internalism"
@@ -26310,7 +26310,7 @@
   {
     "term": "underdetermination",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26433,7 +26433,7 @@
   {
     "term": "metalinguistic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -26456,12 +26456,24 @@
           "cognition"
         ]
       }
+    ],
+    "synonyms": [
+      "reflexive",
+      "self-referential"
+    ],
+    "antonymTerms": [
+      "object-level"
+    ],
+    "relatedTerms": [
+      "metalanguage",
+      "reflexivity",
+      "autonymy"
     ]
   },
   {
     "term": "epistemic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "meanings": [
       {
