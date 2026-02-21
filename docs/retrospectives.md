@@ -498,3 +498,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a small helper script for QA workflow: list entries by status and apply approved/enriched+qaNote updates safely.
+## [2026-02-21] [vocab-seeder-agent] [seeder-en-2]
+
+### What went well
+- Added 100 new C1/C2 English stub terms in one pass while preserving the required stub schema.
+- Pre-checked candidate terms against both staging and production lists, so no duplicates were introduced.
+
+### What was harder than expected
+- Existing staging already covered many advanced technical domains, so candidate selection needed a filtered replacement pass.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- Add a reusable CLI helper that proposes domain-balanced, deduplicated candidates before writing stubs.
