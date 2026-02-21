@@ -101,3 +101,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a "Current vs. Target" section to ARCHITECTURE.md that explicitly marks which schema changes are aspirational vs. implemented, to reduce confusion for architecture/feature agents.
+
+## [2025-07-17] [feat-haptics] [haptics]
+
+### What went well
+- Minimal-complexity task; the selectAnswer method was the clear insertion point for haptic feedback.
+
+### What was harder than expected
+- Xcode not available in the environment, so build verification was skipped. Change is trivial (2 lines of UIKit API).
+
+### Process friction
+- None. Task was well-scoped with clear acceptance criteria.
+
+### Suggested improvement
+- None.

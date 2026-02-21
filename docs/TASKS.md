@@ -220,7 +220,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `haptics`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `low`
 **Complexity**: `minimal`
 **Description**: Add haptic feedback on quiz correct/wrong answers.

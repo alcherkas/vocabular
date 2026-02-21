@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import UIKit
 
 struct QuizView: View {
     @Environment(\.modelContext) private var context
@@ -336,6 +337,9 @@ struct QuizView: View {
         if answer == currentWord.definition {
             score += 1
             currentWord.timesCorrect += 1
+            UINotificationFeedbackGenerator().notificationOccurred(.success)
+        } else {
+            UINotificationFeedbackGenerator().notificationOccurred(.error)
         }
     }
     
