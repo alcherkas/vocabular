@@ -149,3 +149,27 @@ Vocab/
 - EN entries: ensured ≥ 2 synonyms per validator rule; antonymTerms/relatedTerms populated from domain knowledge.
 - LT entries: synonyms/antonymTerms/relatedTerms as arrays (empty where linguistically appropriate); gendered pairs cross-referenced in relatedTerms.
 - No merges performed; branch left for PR review.
+
+## Retro — vocab/enricher-lt-13 (LT Enricher)
+
+**Date:** 2025-07-18
+**Branch:** vocab/enricher-lt-13
+
+### What was done
+- Preflighted `words_lt_staging.json` — 1960 entries, all valid (1635 stubs at start).
+- Enriched **30 Lithuanian stub entries** covering:
+  - **Family nouns (6):** močiutė, prosenelis, prosenelė, dėdė, teta, pusbrolis
+  - **Marital / state adjectives (6):** Vedęs, ištekėjusi, išsiskyręs, išsiskyrusi, miręs, mirusi
+  - **Common verbs (12):** Galėti, mylėti, norėti, pasiilgti, sėdėti, stovėti, turėti, žiūrėti, girdėti, mėgti, susipažinti, žaisti
+  - **Adjective pairs (6):** Jaunas/jauna, senas/sena, linksmas/linksma
+- Each entry received: `partOfSpeech`, `translation`, `meanings` (definition + Lithuanian example sentence + register + tags), `synonyms`, `antonymTerms`, `relatedTerms`. Status set to `enriched`.
+
+### Validation
+- `validate_words.py --status enriched` passed — 139 enriched entries valid ✓
+- `validate_words.py` (full file) passed — 1960 entries valid ✓
+
+### Decisions
+- Gendered adjective pairs (e.g. jaunas/jauna) each received their own entry with masculine/feminine note in definition and translation; cross-referenced via `relatedTerms`.
+- Register set to `neutral` for family/state terms, `general` for verbs and descriptive adjectives, `formal` for death-related adjectives (miręs/mirusi).
+- Empty `synonyms`/`antonymTerms` arrays retained as `[]` where linguistically appropriate (validator allows this for LT).
+- No merges performed; branch left for PR review.

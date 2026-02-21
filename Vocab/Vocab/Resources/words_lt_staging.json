@@ -8647,332 +8647,853 @@
   {
     "term": "močiutė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Affectionate diminutive form of 'senelė', used to address or refer to one's grandmother.",
+        "example": "Močiutė kepa pyragą kiekvieną sekmadienį.",
+        "register": "informal",
+        "tags": [
+          "family",
+          "affectionate"
+        ]
+      }
+    ],
+    "synonyms": [
+      "senelė",
+      "bobutė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "senelis",
+      "šeima",
+      "vaikaitė"
+    ],
+    "translation": "granny, grandma"
   },
   {
     "term": "prosenelis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The father of one's grandfather or grandmother; a male ancestor two generations above the grandparents.",
+        "example": "Mano prosenelis gyveno kaime ir dirbo žemę.",
+        "register": "neutral",
+        "tags": [
+          "family",
+          "ancestry"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "proanūkė"
+    ],
+    "relatedTerms": [
+      "prosenelė",
+      "senelis",
+      "šeima"
+    ],
+    "translation": "great-grandfather"
   },
   {
     "term": "prosenelė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The mother of one's grandfather or grandmother; a female ancestor two generations above the grandparents.",
+        "example": "Prosenelė išgyveno abu pasaulinius karus.",
+        "register": "neutral",
+        "tags": [
+          "family",
+          "ancestry"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "proanūkis"
+    ],
+    "relatedTerms": [
+      "prosenelis",
+      "senelė",
+      "šeima"
+    ],
+    "translation": "great-grandmother"
   },
   {
     "term": "dėdė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The brother of one's mother or father, or the husband of one's aunt.",
+        "example": "Dėdė Jonas atvyko pas mus per Kalėdas.",
+        "register": "neutral",
+        "tags": [
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "teta"
+    ],
+    "relatedTerms": [
+      "teta",
+      "šeima",
+      "pusbrolis",
+      "pusseserė"
+    ],
+    "translation": "uncle"
   },
   {
     "term": "teta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The sister of one's mother or father, or the wife of one's uncle.",
+        "example": "Teta Ona visada atnešdavo saldainių.",
+        "register": "neutral",
+        "tags": [
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "dėdė"
+    ],
+    "relatedTerms": [
+      "dėdė",
+      "šeima",
+      "pusseserė",
+      "pusbrolis"
+    ],
+    "translation": "aunt"
   },
   {
     "term": "pusbrolis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A male child of one's uncle or aunt; a first cousin of the male gender.",
+        "example": "Mano pusbrolis gyvena kitame mieste, bet mes dažnai susitinkame.",
+        "register": "neutral",
+        "tags": [
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "pusseserė"
+    ],
+    "relatedTerms": [
+      "pusseserė",
+      "dėdė",
+      "teta",
+      "šeima"
+    ],
+    "translation": "male cousin"
   },
   {
     "term": "Vedęs",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Describes a man who is legally bound in marriage to a woman.",
+        "example": "Jis yra vedęs dvidešimt metų.",
+        "register": "neutral",
+        "tags": [
+          "marital status",
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "išsiskyręs",
+      "nevedęs"
+    ],
+    "relatedTerms": [
+      "ištekėjusi",
+      "santuoka",
+      "šeima"
+    ],
+    "translation": "married (of a man)"
   },
   {
     "term": "ištekėjusi",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Describes a woman who is legally bound in marriage to a man.",
+        "example": "Ji yra ištekėjusi ir turi du vaikus.",
+        "register": "neutral",
+        "tags": [
+          "marital status",
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "išsiskyrusi",
+      "netekėjusi"
+    ],
+    "relatedTerms": [
+      "vedęs",
+      "santuoka",
+      "šeima"
+    ],
+    "translation": "married (of a woman)"
   },
   {
     "term": "išsiskyręs",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Describes a man whose marriage has been legally dissolved.",
+        "example": "Jis išsiskyręs ir augina vaikus vienas.",
+        "register": "neutral",
+        "tags": [
+          "marital status",
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "vedęs"
+    ],
+    "relatedTerms": [
+      "išsiskyrusi",
+      "skyrybos",
+      "santuoka"
+    ],
+    "translation": "divorced (of a man)"
   },
   {
     "term": "išsiskyrusi",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Describes a woman whose marriage has been legally dissolved.",
+        "example": "Ji išsiskyrusi prieš penkerius metus.",
+        "register": "neutral",
+        "tags": [
+          "marital status",
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "ištekėjusi"
+    ],
+    "relatedTerms": [
+      "išsiskyręs",
+      "skyrybos",
+      "santuoka"
+    ],
+    "translation": "divorced (of a woman)"
   },
   {
     "term": "miręs",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Describes a male person who has died; no longer living.",
+        "example": "Jo tėvas jau miręs.",
+        "register": "formal",
+        "tags": [
+          "death",
+          "state"
+        ]
+      }
+    ],
+    "synonyms": [
+      "negyvas",
+      "žuvęs"
+    ],
+    "antonymTerms": [
+      "gyvas"
+    ],
+    "relatedTerms": [
+      "mirusi",
+      "mirtis",
+      "laidotuvės"
+    ],
+    "translation": "deceased, dead (of a man)"
   },
   {
     "term": "mirusi",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Describes a female person who has died; no longer living.",
+        "example": "Jo motina mirusi jau keletą metų.",
+        "register": "formal",
+        "tags": [
+          "death",
+          "state"
+        ]
+      }
+    ],
+    "synonyms": [
+      "negyvа",
+      "žuvusi"
+    ],
+    "antonymTerms": [
+      "gyva"
+    ],
+    "relatedTerms": [
+      "miręs",
+      "mirtis",
+      "laidotuvės"
+    ],
+    "translation": "deceased, dead (of a woman)"
   },
   {
     "term": "Galėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To have the ability, permission, or possibility to do something.",
+        "example": "Ar gali ateiti rytoj?",
+        "register": "general",
+        "tags": [
+          "modal",
+          "ability"
+        ]
+      }
+    ],
+    "synonyms": [
+      "sugebėti",
+      "mokėti"
+    ],
+    "antonymTerms": [
+      "negalėti"
+    ],
+    "relatedTerms": [
+      "sugebėjimas",
+      "leidimas"
+    ],
+    "translation": "to be able to, can"
   },
   {
     "term": "mylėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To feel deep affection, attachment, or romantic love for someone or something.",
+        "example": "Jis labai myli savo šeimą.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "relationship"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mėgti",
+      "branginti"
+    ],
+    "antonymTerms": [
+      "nekęsti"
+    ],
+    "relatedTerms": [
+      "meilė",
+      "jausmas",
+      "šeima"
+    ],
+    "translation": "to love"
   },
   {
     "term": "norėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To have a desire or wish for something; to feel inclined to do something.",
+        "example": "Aš noriu išmokti lietuvių kalbą.",
+        "register": "general",
+        "tags": [
+          "desire",
+          "intention"
+        ]
+      }
+    ],
+    "synonyms": [
+      "troškti",
+      "geidauti"
+    ],
+    "antonymTerms": [
+      "nenorėti"
+    ],
+    "relatedTerms": [
+      "noras",
+      "troškimas",
+      "tikslas"
+    ],
+    "translation": "to want, to wish"
   },
   {
     "term": "pasiilgti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To feel longing or sadness because of the absence of a person, place, or thing.",
+        "example": "Ji pasiilgo namų, kai išvyko studijuoti į užsienį.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "longing"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ilgėtis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "ilgesys",
+      "nostalgija",
+      "išsiilgimas"
+    ],
+    "translation": "to miss (someone or something)"
   },
   {
     "term": "sėdėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To be in a seated position; to rest with the weight of the body on the buttocks.",
+        "example": "Vaikai sėdi prie stalo ir piešia.",
+        "register": "general",
+        "tags": [
+          "posture",
+          "action"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "stovėti",
+      "gulėti"
+    ],
+    "relatedTerms": [
+      "kėdė",
+      "suolas",
+      "stovėti"
+    ],
+    "translation": "to sit, to be sitting"
   },
   {
     "term": "stovėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To be in an upright position on one's feet without moving.",
+        "example": "Jis stovi prie lango ir žiūri į lauką.",
+        "register": "general",
+        "tags": [
+          "posture",
+          "action"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "sėdėti",
+      "gulėti"
+    ],
+    "relatedTerms": [
+      "ėjimas",
+      "judėjimas",
+      "laikysena"
+    ],
+    "translation": "to stand, to be standing"
   },
   {
     "term": "turėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To own or possess something; to hold something as a property or attribute.",
+        "example": "Aš turiu du brolius ir vieną seserį.",
+        "register": "general",
+        "tags": [
+          "possession",
+          "modal"
+        ]
+      }
+    ],
+    "synonyms": [
+      "valdyti",
+      "disponuoti"
+    ],
+    "antonymTerms": [
+      "neturėti"
+    ],
+    "relatedTerms": [
+      "nuosavybė",
+      "galėti",
+      "privalėti"
+    ],
+    "translation": "to have, to possess"
   },
   {
     "term": "žiūrėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To direct one's gaze at something; to watch attentively.",
+        "example": "Vakare mėgstame žiūrėti filmus.",
+        "register": "general",
+        "tags": [
+          "perception",
+          "action"
+        ]
+      }
+    ],
+    "synonyms": [
+      "stebėti",
+      "matyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "akys",
+      "vaizdas",
+      "televizorius"
+    ],
+    "translation": "to look, to watch"
   },
   {
     "term": "girdėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To perceive sounds through the sense of hearing.",
+        "example": "Ar girdi, kaip paukščiai gieda?",
+        "register": "general",
+        "tags": [
+          "perception",
+          "sense"
+        ]
+      }
+    ],
+    "synonyms": [
+      "klausyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "ausys",
+      "garsas",
+      "klausymas"
+    ],
+    "translation": "to hear"
   },
   {
     "term": "mėgti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To find something pleasing or enjoyable; to have a preference for something.",
+        "example": "Ji mėgsta skaityti knygas prieš miegą.",
+        "register": "general",
+        "tags": [
+          "preference",
+          "emotion"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mylėti",
+      "pamėgti"
+    ],
+    "antonymTerms": [
+      "nemėgti"
+    ],
+    "relatedTerms": [
+      "pomėgis",
+      "hobis",
+      "malonumas"
+    ],
+    "translation": "to like, to enjoy"
   },
   {
     "term": "susipažinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To meet someone for the first time and introduce oneself; to become familiar with someone or something.",
+        "example": "Mes susipažinome universitete pirmojo kurso pradžioje.",
+        "register": "general",
+        "tags": [
+          "social",
+          "introduction"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pažinti",
+      "prisistatyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "draugystė",
+      "pažintis",
+      "draugas"
+    ],
+    "translation": "to get acquainted, to meet (for the first time)"
   },
   {
     "term": "žaisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To engage in play or a game for fun; to take part in a sport or recreational activity.",
+        "example": "Vaikai žaidžia kieme visą popietę.",
+        "register": "general",
+        "tags": [
+          "activity",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pramogauti"
+    ],
+    "antonymTerms": [
+      "dirbti"
+    ],
+    "relatedTerms": [
+      "žaidimas",
+      "sportas",
+      "vaikas"
+    ],
+    "translation": "to play"
   },
   {
     "term": "Jaunas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Having lived or existed for only a short time; not old. Masculine form.",
+        "example": "Jaunas žmogus turi daug galimybių.",
+        "register": "general",
+        "tags": [
+          "age",
+          "description"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "senas"
+    ],
+    "relatedTerms": [
+      "jauna",
+      "jaunystė",
+      "amžius"
+    ],
+    "translation": "young (masculine)"
   },
   {
     "term": "jauna",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Having lived or existed for only a short time; not old. Feminine form.",
+        "example": "Ji yra jauna ir pilna energijos.",
+        "register": "general",
+        "tags": [
+          "age",
+          "description"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "sena"
+    ],
+    "relatedTerms": [
+      "jaunas",
+      "jaunystė",
+      "amžius"
+    ],
+    "translation": "young (feminine)"
   },
   {
     "term": "senas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Having lived or existed for a long time; advanced in age. Masculine form.",
+        "example": "Senas žmogus išmintingas, nes daug matęs.",
+        "register": "general",
+        "tags": [
+          "age",
+          "description"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pasenęs",
+      "senyvas"
+    ],
+    "antonymTerms": [
+      "jaunas"
+    ],
+    "relatedTerms": [
+      "sena",
+      "senatvė",
+      "amžius"
+    ],
+    "translation": "old (masculine)"
   },
   {
     "term": "sena",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Having lived or existed for a long time; advanced in age. Feminine form.",
+        "example": "Sena moteris sėdėjo suole ir mezgė.",
+        "register": "general",
+        "tags": [
+          "age",
+          "description"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pasenusi",
+      "senyva"
+    ],
+    "antonymTerms": [
+      "jauna"
+    ],
+    "relatedTerms": [
+      "senas",
+      "senatvė",
+      "amžius"
+    ],
+    "translation": "old (feminine)"
   },
   {
     "term": "linksmas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Feeling or showing happiness and high spirits; merry. Masculine form.",
+        "example": "Linksmas vaikas bėgioja po sodą.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "character"
+        ]
+      }
+    ],
+    "synonyms": [
+      "džiaugsmingas",
+      "žvalus"
+    ],
+    "antonymTerms": [
+      "liūdnas"
+    ],
+    "relatedTerms": [
+      "linksma",
+      "linksmumas",
+      "džiaugsmas"
+    ],
+    "translation": "cheerful, merry (masculine)"
   },
   {
     "term": "linksma",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Feeling or showing happiness and high spirits; merry. Feminine form.",
+        "example": "Ji visada linksma ir šypsosi.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "character"
+        ]
+      }
+    ],
+    "synonyms": [
+      "džiaugsminga",
+      "žvali"
+    ],
+    "antonymTerms": [
+      "liūdna"
+    ],
+    "relatedTerms": [
+      "linksmas",
+      "linksmumas",
+      "džiaugsmas"
+    ],
+    "translation": "cheerful, merry (feminine)"
   },
   {
     "term": "liūdnas",
