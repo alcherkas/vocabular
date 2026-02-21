@@ -672,3 +672,33 @@ Batch: medical vocabulary (gulėti ligoninėje, sveikatos draudimas, išrašyti 
 
 ### Commit
 `b489c29` — `vocab(qa-27): QA review batch 27`
+## Session: enricher-en-27 — EN enrichment (epistemology / pragmatics / semiotics)
+
+**Date:** 2025-07-28
+**Agent:** enricher-en-27
+**Branch:** vocab/enricher-en-27
+
+### Task
+Enrich 35 English stubs from three domains: epistemology/philosophy of science, pragmatics/discourse analysis, and semiotics.
+
+### What was done
+- Preflight JSON check passed immediately (`JSON OK`).
+- Identified all EN stubs in `words_staging.json` (115 total); selected 35 belonging to the three target domains.
+- **Epistemology/philosophy of science (12):** fallibilism, foundationalism, coherentism, reliabilism, internalism, externalism, defeasibility, incommensurability, underdetermination, epistemology, epistemic, deflationism.
+- **Pragmatics/discourse analysis (12):** illocution, perlocution, locution, implicature, presupposition, evidentiality, performativity, cataphora, ellipsis, cohesion, accommodation, hedging.
+- **Semiotics (11):** sememe, semiosphere, iconicity, semiosis, interpretant, signifier, signified, denotation, connotation, qualisign, sinsign.
+- Each entry enriched with `partOfSpeech`, one or two distinct `meanings` (definition + example + register + tags), and `status` set to `"enriched"`.
+- All register values drawn strictly from the allowed enum; all POS values likewise.
+- Multi-sense entries given to `ellipsis` (linguistic vs typographic) and `performativity` (speech-act theory vs gender/cultural theory) and `accommodation` (pragmatics vs sociolinguistics).
+
+### Validation
+`validate_words.py --errors-for enriched` → **PASSED** (exit 0), 830 words valid.
+- 91 pre-existing warnings in `approved`-status entries; none in the enriched batch.
+
+### Commit
+`ec6ce87` — `vocab(enricher-en-27): enrich 35 English stubs`
+
+### Notes
+- No new stubs were seeded; existing stubs from the staging file were enriched only.
+- No merge performed as instructed.
+- Technical register used throughout; `neutral` used for typographic sense of ellipsis.
