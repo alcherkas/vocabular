@@ -18310,22 +18310,134 @@
   {
     "term": "auteurism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A critical theory in film studies that attributes a film's creative vision and authorship primarily to its director, treating the director as the dominant creative force whose personal style and thematic preoccupations persist across different productions.",
+        "example": "Auteurism shaped the French New Wave, positioning directors like Godard and Truffaut as sole artistic visionaries rather than hired craftsmen serving the studio system.",
+        "register": "technical",
+        "tags": [
+          "film theory",
+          "film criticism",
+          "director theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "auteur theory",
+      "director-as-author theory",
+      "film authorship theory"
+    ],
+    "antonymTerms": [
+      "collaborative filmmaking",
+      "producer-driven cinema"
+    ],
+    "relatedTerms": [
+      "mise-en-scène",
+      "auteur",
+      "cinephilia",
+      "diegesis"
+    ]
   },
   {
     "term": "suture",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In psychoanalytic film theory, the process by which cinema positions and integrates the viewer into the narrative by concealing the apparatus of production and creating the illusion of continuous subjectivity, primarily through editing structures such as shot/reverse-shot.",
+        "example": "The reverse-shot technique is the primary mechanism of suture, binding the spectator's gaze to the narrative by making the off-screen source of each look legible and containable.",
+        "register": "technical",
+        "tags": [
+          "psychoanalytic film theory",
+          "editing",
+          "spectatorship"
+        ]
+      }
+    ],
+    "synonyms": [
+      "spectatorial positioning",
+      "narrative integration",
+      "cinematic binding"
+    ],
+    "antonymTerms": [
+      "alienation effect",
+      "Brechtian distancing"
+    ],
+    "relatedTerms": [
+      "gaze",
+      "interpellation",
+      "scopophilia",
+      "diegesis"
+    ]
   },
   {
     "term": "interpellation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In film and cultural theory, the ideological process by which texts and media address and construct subjects, causing individuals to recognise themselves in the subject positions offered, derived from Althusser's account of how ideology reproduces itself through institutions and discourses.",
+        "example": "The documentary's direct address to camera functions as interpellation, constituting viewers as responsible citizens already implicated in the injustice being depicted.",
+        "register": "technical",
+        "tags": [
+          "ideology",
+          "cultural theory",
+          "film theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ideological hailing",
+      "subject positioning",
+      "discursive address"
+    ],
+    "antonymTerms": [
+      "alienation",
+      "critical distanciation"
+    ],
+    "relatedTerms": [
+      "suture",
+      "scopophilia",
+      "apparatus theory",
+      "auteurism"
+    ]
   },
   {
     "term": "verisimilitude",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The quality of appearing true or realistic in narrative and representational art; the internal coherence and plausibility that makes a fictional world credible according to its own established conventions, distinct from documentary accuracy.",
+        "example": "The film's meticulous period costuming and authentic locations produce a high degree of verisimilitude that immerses the audience in the historical setting without demanding strict factual fidelity.",
+        "register": "formal",
+        "tags": [
+          "narrative theory",
+          "aesthetics",
+          "realism"
+        ]
+      }
+    ],
+    "synonyms": [
+      "realism",
+      "plausibility",
+      "lifelikeness"
+    ],
+    "antonymTerms": [
+      "artificiality",
+      "implausibility"
+    ],
+    "relatedTerms": [
+      "diegesis",
+      "profilmic",
+      "mimesis",
+      "suspension of disbelief"
+    ]
   },
   {
     "term": "cinematheque",
@@ -18335,12 +18447,68 @@
   {
     "term": "decoupage",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The systematic breakdown of a screenplay into individual shots and scenes for production; more broadly, the total editing structure and visual organisation of a finished film, encompassing the selection, duration, and sequencing of shots.",
+        "example": "Eisenstein's decoupage in the Odessa Steps sequence relies on metric montage and temporal manipulation to produce an intensity that transcends the literal duration of events.",
+        "register": "technical",
+        "tags": [
+          "film production",
+          "editing",
+          "cinematography"
+        ]
+      }
+    ],
+    "synonyms": [
+      "shot breakdown",
+      "editing plan",
+      "cinematic decomposition"
+    ],
+    "antonymTerms": [
+      "long take",
+      "sequence shot"
+    ],
+    "relatedTerms": [
+      "montage",
+      "mise-en-scène",
+      "continuity editing",
+      "profilmic"
+    ]
   },
   {
     "term": "scopophilia",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The pleasure derived from looking, theorised in psychoanalytic film studies as the voyeuristic visual pleasure inherent in cinematic spectatorship, in which the darkened theatre and projected image replicate the conditions of scopophilic desire.",
+        "example": "Mulvey's essay argues that mainstream Hollywood cinema structures scopophilia around a male gaze, rendering female characters as passive spectacle for heterosexual visual consumption.",
+        "register": "technical",
+        "tags": [
+          "psychoanalytic film theory",
+          "spectatorship",
+          "gender theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "voyeurism",
+      "visual pleasure",
+      "scopic drive"
+    ],
+    "antonymTerms": [
+      "visual aversion",
+      "averting the gaze"
+    ],
+    "relatedTerms": [
+      "suture",
+      "interpellation",
+      "male gaze",
+      "diegesis"
+    ]
   },
   {
     "term": "paracinema",
@@ -18360,37 +18528,233 @@
   {
     "term": "diegesis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The story-world of a film or narrative work, comprising all elements that exist within the fictional universe as perceived by the characters; the totality of the represented world as distinct from the discourse through which it is narrated.",
+        "example": "The melancholic score functions as a non-diegetic intervention, underscoring the protagonist's grief without being audible to any character within the diegesis.",
+        "register": "technical",
+        "tags": [
+          "narratology",
+          "film theory",
+          "sound theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "story world",
+      "narrative space",
+      "fictional universe"
+    ],
+    "antonymTerms": [
+      "extradiegetic",
+      "non-diegetic"
+    ],
+    "relatedTerms": [
+      "profilmic",
+      "verisimilitude",
+      "suture",
+      "decoupage"
+    ]
   },
   {
     "term": "profilmic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Relating to or denoting everything that physically exists in front of the camera during filming—actors, sets, costumes, locations—as distinct from post-production interventions, camera movement, or editing.",
+        "example": "The director insisted on profilmic authenticity, using real slaughterhouses and untrained workers rather than constructed sets, to confront the audience with unmediated reality.",
+        "register": "technical",
+        "tags": [
+          "film production",
+          "mise-en-scène",
+          "film theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pre-cinematic",
+      "staged reality",
+      "in-camera"
+    ],
+    "antonymTerms": [
+      "post-production",
+      "digital composite"
+    ],
+    "relatedTerms": [
+      "mise-en-scène",
+      "diegesis",
+      "decoupage",
+      "verisimilitude"
+    ]
   },
   {
     "term": "minimax",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A decision rule used in game theory and artificial intelligence that selects the action minimising the maximum possible loss; in two-player zero-sum games, the optimal strategy for a player assuming the opponent always makes the worst-case move against them.",
+        "example": "The chess engine applies minimax search with alpha-beta pruning, evaluating positions several plies deep and selecting the move that maximises the worst-case outcome against any opponent reply.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "decision theory",
+          "artificial intelligence"
+        ]
+      }
+    ],
+    "synonyms": [
+      "maximin strategy",
+      "minimax algorithm",
+      "saddle-point strategy"
+    ],
+    "antonymTerms": [
+      "maximax",
+      "risk-seeking strategy"
+    ],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "dominance",
+      "zero-sum game",
+      "metagame"
+    ]
   },
   {
     "term": "signaling",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In game theory and information economics, the mechanism by which an informed party undertakes costly or verifiable actions to credibly communicate private information to an uninformed party, where the signal's value lies precisely in its being too expensive for low-type agents to mimic.",
+        "example": "A university degree functions as a signaling mechanism: its costly acquisition credibly communicates worker ability to employers who cannot directly observe productivity during hiring.",
+        "register": "technical",
+        "tags": [
+          "information economics",
+          "game theory",
+          "mechanism design"
+        ]
+      }
+    ],
+    "synonyms": [
+      "costly signaling",
+      "credible communication",
+      "signal transmission"
+    ],
+    "antonymTerms": [
+      "pooling equilibrium",
+      "screening"
+    ],
+    "relatedTerms": [
+      "equilibrium",
+      "dominance",
+      "brinkmanship",
+      "deterrence"
+    ]
   },
   {
     "term": "brinkmanship",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A coercive strategy in which a party deliberately pushes a confrontation toward the threshold of catastrophe in order to compel the opponent to concede, relying on the opponent's greater aversion to the worst outcome to generate leverage.",
+        "example": "During the Cuban Missile Crisis, both superpowers engaged in nuclear brinkmanship, each calculating that the other would retreat before crossing the threshold of actual armed conflict.",
+        "register": "formal",
+        "tags": [
+          "strategic studies",
+          "negotiation",
+          "international relations"
+        ]
+      }
+    ],
+    "synonyms": [
+      "coercive diplomacy",
+      "compellence",
+      "edge strategy"
+    ],
+    "antonymTerms": [
+      "compromise",
+      "de-escalation"
+    ],
+    "relatedTerms": [
+      "deterrence",
+      "signaling",
+      "stratagem",
+      "metagame"
+    ]
   },
   {
     "term": "deterrence",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A strategic doctrine in which a party prevents an adversary from taking an unwanted action by credibly threatening to impose costs that exceed any anticipated gains, thereby altering the opponent's cost-benefit calculus without necessarily having to act on the threat.",
+        "example": "Nuclear deterrence rests on the doctrine of mutually assured destruction: the credible threat of catastrophic retaliation deters rational adversaries from launching first strikes.",
+        "register": "formal",
+        "tags": [
+          "strategic studies",
+          "international relations",
+          "game theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "strategic dissuasion",
+      "coercive deterrence",
+      "strategic deterrence"
+    ],
+    "antonymTerms": [
+      "compellence",
+      "appeasement"
+    ],
+    "relatedTerms": [
+      "brinkmanship",
+      "signaling",
+      "equilibrium",
+      "dominance"
+    ]
   },
   {
     "term": "collusion",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In game theory and economics, a cooperative agreement or tacit understanding among nominally competing players to coordinate strategies—typically fixing prices, dividing markets, or suppressing output—at the expense of market efficiency or third-party welfare.",
+        "example": "The antitrust investigation uncovered collusion between the dominant carriers, who had coordinated fare increases through simultaneous public price announcements without any direct communication.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "game theory",
+          "competition law"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cartelisation",
+      "price-fixing",
+      "tacit coordination"
+    ],
+    "antonymTerms": [
+      "competition",
+      "price war"
+    ],
+    "relatedTerms": [
+      "equilibrium",
+      "dominance",
+      "metagame",
+      "stratagem"
+    ]
   },
   {
     "term": "incentivization",
@@ -18405,37 +18769,233 @@
   {
     "term": "stratagem",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A plan or scheme designed to outwit or deceive an opponent through misdirection, feinting, or exploitation of informational asymmetries; in game theory, a contingent plan that accounts for anticipated responses, distinguishing it from a simple action.",
+        "example": "Sun Tzu elevates the stratagem above brute force: the highest form of military skill is defeating the enemy without direct combat through superior deception and anticipation.",
+        "register": "formal",
+        "tags": [
+          "strategy",
+          "game theory",
+          "military theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ruse",
+      "gambit",
+      "ploy"
+    ],
+    "antonymTerms": [
+      "straightforward action",
+      "direct confrontation"
+    ],
+    "relatedTerms": [
+      "metagame",
+      "brinkmanship",
+      "signaling",
+      "dominance"
+    ]
   },
   {
     "term": "metagame",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The strategic environment that exists around or above a primary game's explicit rules, encompassing players' higher-order reasoning about opponents' likely strategies, community conventions, and choices shaped by expectations of what others will play.",
+        "example": "In competitive card games, understanding the metagame is as important as mastering card interactions: skilled players adjust decks based on which strategies they expect opponents to bring to a tournament.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "competitive gaming",
+          "strategic reasoning"
+        ]
+      }
+    ],
+    "synonyms": [
+      "meta-strategy",
+      "strategic ecosystem",
+      "competitive meta"
+    ],
+    "antonymTerms": [
+      "base game",
+      "object-level play"
+    ],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "dominance",
+      "signaling",
+      "stratagem"
+    ]
   },
   {
     "term": "equilibrium",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In game theory, a state in which each player's strategy is a best response to the strategies of all other players, such that no individual has an incentive to unilaterally deviate; the Nash equilibrium is the central solution concept formalising this condition.",
+        "example": "The two competing firms reach a Nash equilibrium in advertising budgets: neither can profitably reduce spending given that the other maintains its campaign at the current level.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "economics",
+          "decision theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Nash equilibrium",
+      "strategic balance",
+      "stable state"
+    ],
+    "antonymTerms": [
+      "disequilibrium",
+      "strategic instability"
+    ],
+    "relatedTerms": [
+      "dominance",
+      "minimax",
+      "collusion",
+      "signaling"
+    ]
   },
   {
     "term": "dominance",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In game theory, the property of a strategy that yields an outcome at least as good—and strictly better in some cases—than an alternative strategy regardless of what other players choose; iterated elimination of dominated strategies is a fundamental solution procedure.",
+        "example": "Defection is a dominant strategy in the one-shot prisoner's dilemma: regardless of the other player's choice, defection yields a higher individual payoff than cooperation.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "decision theory",
+          "strategic reasoning"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dominant strategy",
+      "strategic superiority",
+      "strategy dominance"
+    ],
+    "antonymTerms": [
+      "dominated strategy",
+      "weakly dominated strategy"
+    ],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "minimax",
+      "equilibrium",
+      "metagame"
+    ]
   },
   {
     "term": "optogenetics",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A biological technique that uses light-sensitive proteins (opsins) genetically introduced into specific neurons to enable precise, millisecond-scale control of neural activity through illumination, allowing targeted activation or silencing of defined cell populations in living animals.",
+        "example": "Using optogenetics, the researchers selectively activated dopaminergic neurons in the ventral tegmental area and immediately observed reinforcement behaviour in freely moving mice.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neurotechnology",
+          "molecular biology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "light-activated neural control",
+      "opsin-based neuroscience",
+      "photostimulation"
+    ],
+    "antonymTerms": [
+      "pharmacological manipulation",
+      "lesion studies"
+    ],
+    "relatedTerms": [
+      "connectomics",
+      "engram",
+      "neuromodulation",
+      "channelrhodopsin"
+    ]
   },
   {
     "term": "connectomics",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The comprehensive mapping and analysis of all neural connections within a nervous system or brain region, producing a complete wiring diagram—the connectome—that describes the structural organisation of neural circuits at synaptic resolution.",
+        "example": "The complete connectome of C. elegans—302 neurons and approximately 7,000 synapses—was the first finished connectomics project and remains a reference for understanding circuit-behaviour relationships.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuroanatomy",
+          "systems neuroscience"
+        ]
+      }
+    ],
+    "synonyms": [
+      "neural circuit mapping",
+      "brain wiring analysis",
+      "synaptic mapping"
+    ],
+    "antonymTerms": [
+      "single-unit recording",
+      "population-level analysis"
+    ],
+    "relatedTerms": [
+      "optogenetics",
+      "neuropil",
+      "axonogenesis",
+      "tractography"
+    ]
   },
   {
     "term": "neuromodulation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The alteration of neuronal activity and synaptic transmission through chemical signals—such as dopamine, serotonin, or acetylcholine—or physical means such as electrical or magnetic stimulation, modifying the gain and dynamics of neural circuit processing.",
+        "example": "Deep brain stimulation is a clinical application of neuromodulation that delivers precisely controlled electrical pulses to basal ganglia nuclei, dramatically reducing motor symptoms in Parkinson's disease.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neurophysiology",
+          "clinical neuroscience"
+        ]
+      }
+    ],
+    "synonyms": [
+      "neural modulation",
+      "synaptic gain control",
+      "neurostimulation"
+    ],
+    "antonymTerms": [
+      "lesioning",
+      "ablation"
+    ],
+    "relatedTerms": [
+      "optogenetics",
+      "engram",
+      "depolarization",
+      "electrotonic"
+    ]
   },
   {
     "term": "tractography",
@@ -18445,32 +19005,200 @@
   {
     "term": "exteroception",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The sensory system's capacity to detect and process stimuli arising from the external environment, encompassing vision, hearing, touch, taste, and smell, as distinct from interoception (internal body signals) and proprioception (body position and movement).",
+        "example": "Children with sensory processing disorders may exhibit atypical exteroception, showing heightened sensitivity to external tactile or auditory stimuli that the neurotypical nervous system filters automatically.",
+        "register": "technical",
+        "tags": [
+          "sensory neuroscience",
+          "perception",
+          "neuroscience"
+        ]
+      }
+    ],
+    "synonyms": [
+      "external sensation",
+      "exteroceptive sensing",
+      "environmental perception"
+    ],
+    "antonymTerms": [
+      "interoception",
+      "proprioception"
+    ],
+    "relatedTerms": [
+      "neuropil",
+      "neuromodulation",
+      "sensory cortex",
+      "afferent pathway"
+    ]
   },
   {
     "term": "neuropil",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The dense meshwork of axonal and dendritic processes, synaptic terminals, and glial cell processes that fills the space between neuronal cell bodies in grey matter, constituting the primary substrate for synaptic connectivity in the brain.",
+        "example": "Electron microscopy revealed unusually dense neuropil in the prefrontal cortex of the specimens, suggesting elevated synaptic connectivity in regions associated with working memory.",
+        "register": "technical",
+        "tags": [
+          "neuroanatomy",
+          "histology",
+          "neuroscience"
+        ]
+      }
+    ],
+    "synonyms": [
+      "neural meshwork",
+      "synaptic matrix",
+      "grey matter tissue"
+    ],
+    "antonymTerms": [
+      "white matter",
+      "cell body layer"
+    ],
+    "relatedTerms": [
+      "connectomics",
+      "axonogenesis",
+      "synapse",
+      "dendrite"
+    ]
   },
   {
     "term": "engram",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The physical or biochemical substrate of a memory trace in the nervous system; the hypothesised set of neurons and synaptic modifications that encode a specific memory, whose reactivation is sufficient to produce recall of that memory.",
+        "example": "Using optogenetics to reactivate tagged hippocampal neurons, the team showed that stimulating engram cells alone is sufficient to trigger fear memory recall, even without the original contextual cues.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "memory",
+          "molecular neuroscience"
+        ]
+      }
+    ],
+    "synonyms": [
+      "memory trace",
+      "mnemonic substrate",
+      "memory engram"
+    ],
+    "antonymTerms": [
+      "memory erasure",
+      "synaptic depression"
+    ],
+    "relatedTerms": [
+      "optogenetics",
+      "connectomics",
+      "long-term potentiation",
+      "hippocampus"
+    ]
   },
   {
     "term": "saltatory",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Describing the mode of nerve impulse conduction in which an action potential jumps between successive nodes of Ranvier along a myelinated axon rather than propagating continuously, dramatically increasing transmission speed and metabolic efficiency.",
+        "example": "Saltatory conduction allows large myelinated motor neurons to transmit action potentials at speeds exceeding 70 m/s, enabling rapid voluntary movement responses that unmyelinated fibres cannot achieve.",
+        "register": "technical",
+        "tags": [
+          "neurophysiology",
+          "electrophysiology",
+          "myelination"
+        ]
+      }
+    ],
+    "synonyms": [
+      "nodal",
+      "discontinuous",
+      "leaping"
+    ],
+    "antonymTerms": [
+      "continuous conduction",
+      "unmyelinated propagation"
+    ],
+    "relatedTerms": [
+      "depolarization",
+      "electrotonic",
+      "axonogenesis",
+      "myelin"
+    ]
   },
   {
     "term": "depolarization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The reduction of the transmembrane potential difference of a neuron from its resting negative value toward zero or beyond, driven by an influx of positively charged ions—primarily sodium—and constituting the rising phase of an action potential.",
+        "example": "Voltage-gated sodium channels open in response to local depolarization, creating a positive feedback loop that generates the rapid upswing of the action potential and its propagation along the axon.",
+        "register": "technical",
+        "tags": [
+          "neurophysiology",
+          "electrophysiology",
+          "neuroscience"
+        ]
+      }
+    ],
+    "synonyms": [
+      "membrane depolarisation",
+      "action potential initiation",
+      "sodium influx"
+    ],
+    "antonymTerms": [
+      "hyperpolarization",
+      "repolarization"
+    ],
+    "relatedTerms": [
+      "saltatory",
+      "electrotonic",
+      "axonogenesis",
+      "action potential"
+    ]
   },
   {
     "term": "axonogenesis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The developmental process by which neurons extend axonal projections through cytoskeletal dynamics and external guidance cues, encompassing initiation of an axonal process, elongation of the growth cone, and directed navigation toward synaptic targets.",
+        "example": "Disruptions in axonogenesis during critical developmental windows produce faulty connectivity underlying conditions such as corpus callosum agenesis and certain forms of autism spectrum disorder.",
+        "register": "technical",
+        "tags": [
+          "developmental neuroscience",
+          "neuroanatomy",
+          "neurodevelopment"
+        ]
+      }
+    ],
+    "synonyms": [
+      "axon formation",
+      "axonal outgrowth",
+      "neuritic extension"
+    ],
+    "antonymTerms": [
+      "axon retraction",
+      "axonal pruning"
+    ],
+    "relatedTerms": [
+      "connectomics",
+      "depolarization",
+      "neuropil",
+      "growth cone"
+    ]
   },
   {
     "term": "electrotonic",
@@ -18480,47 +19208,299 @@
   {
     "term": "epitope",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The specific molecular site or region on an antigen—typically a short peptide sequence, carbohydrate motif, or conformational surface—that is recognised and bound by the complementary paratope of an antibody or T-cell receptor, determining the specificity of the immune response.",
+        "example": "Vaccine designers map immunodominant epitopes on the spike protein to focus antibody responses on conserved regions the virus cannot easily mutate without losing its functional capacity.",
+        "register": "technical",
+        "tags": [
+          "immunology",
+          "molecular immunology",
+          "vaccine design"
+        ]
+      }
+    ],
+    "synonyms": [
+      "antigenic determinant",
+      "antibody-binding site",
+      "immunodominant site"
+    ],
+    "antonymTerms": [
+      "paratope",
+      "non-immunogenic region"
+    ],
+    "relatedTerms": [
+      "hapten",
+      "antigen",
+      "paratope",
+      "antibody"
+    ]
   },
   {
     "term": "hapten",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A small molecule that is immunogenic only when conjugated to a larger carrier protein; once antibodies are generated against the hapten-carrier complex, those antibodies can bind the free hapten independently of the carrier.",
+        "example": "Penicillin derivatives act as haptens, binding to host proteins in some individuals and generating antibodies that cause hypersensitivity reactions upon subsequent exposure.",
+        "register": "technical",
+        "tags": [
+          "immunology",
+          "allergy",
+          "molecular immunology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "incomplete antigen",
+      "partial antigen",
+      "immunogenic small molecule"
+    ],
+    "antonymTerms": [
+      "complete antigen",
+      "immunogen"
+    ],
+    "relatedTerms": [
+      "epitope",
+      "antigen",
+      "opsonization",
+      "antibody"
+    ]
   },
   {
     "term": "opsonization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The process by which antibodies or complement proteins coat a pathogen or foreign particle, marking it for enhanced recognition and engulfment by phagocytes through Fc receptors or complement receptors on the phagocyte surface.",
+        "example": "Encapsulated bacteria such as Streptococcus pneumoniae resist phagocytosis until opsonization by specific anti-capsular antibodies enables macrophages to recognise and efficiently engulf them.",
+        "register": "technical",
+        "tags": [
+          "immunology",
+          "innate immunity",
+          "phagocytosis"
+        ]
+      }
+    ],
+    "synonyms": [
+      "antibody opsonisation",
+      "immune coating",
+      "phagocytic priming"
+    ],
+    "antonymTerms": [
+      "immune evasion",
+      "complement resistance"
+    ],
+    "relatedTerms": [
+      "phagocytosis",
+      "epitope",
+      "hapten",
+      "complement"
+    ]
   },
   {
     "term": "phagocytosis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The receptor-mediated cellular process by which phagocytes—macrophages, neutrophils, dendritic cells—engulf and internalise large particles, pathogens, dead cells, or debris through membrane extensions, forming an internal phagosome that subsequently fuses with lysosomes for enzymatic digestion.",
+        "example": "Macrophages patrol tissue barriers and rapidly initiate phagocytosis upon encountering opsonised bacteria, sequestering them within phagosomes before lysosomal fusion neutralises the threat.",
+        "register": "technical",
+        "tags": [
+          "immunology",
+          "cell biology",
+          "innate immunity"
+        ]
+      }
+    ],
+    "synonyms": [
+      "phagocytic engulfment",
+      "cellular ingestion",
+      "immune phagocytosis"
+    ],
+    "antonymTerms": [
+      "exocytosis",
+      "immune evasion"
+    ],
+    "relatedTerms": [
+      "opsonization",
+      "cytokine",
+      "autoimmunity",
+      "macrophage"
+    ]
   },
   {
     "term": "cytokine",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A class of small signalling proteins secreted by immune and other cells that regulate immune responses, inflammation, cell growth, and differentiation by binding to specific receptors on target cells and modulating gene expression and cellular behaviour.",
+        "example": "The cytokine storm triggered by the infection caused widespread organ damage as uncontrolled production of pro-inflammatory cytokines created a self-amplifying cascade of systemic inflammation.",
+        "register": "technical",
+        "tags": [
+          "immunology",
+          "cell signaling",
+          "inflammation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "immune mediator",
+      "inflammatory signalling protein",
+      "lymphokine"
+    ],
+    "antonymTerms": [
+      "anti-inflammatory mediator",
+      "immunosuppressant"
+    ],
+    "relatedTerms": [
+      "chemokine",
+      "interleukin",
+      "immunosuppression",
+      "phagocytosis"
+    ]
   },
   {
     "term": "chemokine",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A subfamily of cytokines that function as chemoattractants, directing immune cell migration to sites of infection or inflammation by establishing concentration gradients that guide the chemotaxis of lymphocytes, neutrophils, and other leukocytes.",
+        "example": "CXCL8 (IL-8) is a chemokine released by damaged epithelial cells that recruits neutrophils by establishing a gradient along which they migrate toward the infection site.",
+        "register": "technical",
+        "tags": [
+          "immunology",
+          "cell migration",
+          "inflammation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "chemotactic cytokine",
+      "chemoattractant protein",
+      "migration signal"
+    ],
+    "antonymTerms": [
+      "chemorepellent",
+      "anti-migratory factor"
+    ],
+    "relatedTerms": [
+      "cytokine",
+      "phagocytosis",
+      "autoimmunity",
+      "neutrophil"
+    ]
   },
   {
     "term": "immunosuppression",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The reduction or inhibition of the immune system's normal responsiveness, whether induced therapeutically to prevent organ rejection or treat autoimmune disease, caused by pathological processes such as HIV infection, or physiologically as in pregnancy.",
+        "example": "Patients on calcineurin inhibitor immunosuppression following renal transplantation face significantly higher risks of opportunistic infections and post-transplant lymphoproliferative disease.",
+        "register": "technical",
+        "tags": [
+          "immunology",
+          "transplantation",
+          "clinical medicine"
+        ]
+      }
+    ],
+    "synonyms": [
+      "immune suppression",
+      "immune dampening",
+      "immunoablation"
+    ],
+    "antonymTerms": [
+      "immunostimulation",
+      "immune activation"
+    ],
+    "relatedTerms": [
+      "autoimmunity",
+      "cytokine",
+      "tolerogenesis",
+      "transplant rejection"
+    ]
   },
   {
     "term": "autoimmunity",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A pathological condition in which the immune system fails to maintain tolerance to self-antigens and mounts adaptive immune responses against the body's own tissues and organs, resulting in chronic inflammatory and destructive disease.",
+        "example": "In type 1 diabetes, autoimmunity against pancreatic beta cells leads to their progressive destruction by autoreactive T lymphocytes, ultimately abolishing endogenous insulin production.",
+        "register": "technical",
+        "tags": [
+          "immunology",
+          "immunopathology",
+          "clinical immunology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "autoimmune response",
+      "self-reactivity",
+      "autoreactivity"
+    ],
+    "antonymTerms": [
+      "immune tolerance",
+      "self-tolerance"
+    ],
+    "relatedTerms": [
+      "immunosuppression",
+      "tolerogenesis",
+      "cytokine",
+      "anaphylaxis"
+    ]
   },
   {
     "term": "anaphylaxis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A severe, rapidly developing, and potentially life-threatening systemic hypersensitivity reaction triggered by re-exposure to a specific allergen in a sensitised individual, characterised by IgE-mediated mast cell degranulation producing vascular collapse, bronchoconstriction, and urticaria.",
+        "example": "Epinephrine is the first-line treatment for anaphylaxis because it rapidly reverses bronchoconstriction, restores vascular tone, and inhibits further mast cell mediator release.",
+        "register": "technical",
+        "tags": [
+          "immunology",
+          "allergy",
+          "emergency medicine"
+        ]
+      }
+    ],
+    "synonyms": [
+      "anaphylactic shock",
+      "severe allergic reaction",
+      "systemic hypersensitivity"
+    ],
+    "antonymTerms": [
+      "immune tolerance",
+      "desensitisation"
+    ],
+    "relatedTerms": [
+      "autoimmunity",
+      "cytokine",
+      "immunosuppression",
+      "mast cell"
+    ]
   },
   {
     "term": "tolerogenesis",

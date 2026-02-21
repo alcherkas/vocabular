@@ -1510,3 +1510,31 @@ Six entries (modularity, overconfidence, quasirationality, dielectric, perovskit
 
 ### Validator result
 `validate_words.py --staging` executed on both files. EN: 26 pre-existing errors (synonym-count on earlier stubs). LT: 10 pre-existing errors (inflected forms in earlier entries). **Zero new errors introduced by batch 19.**
+## Session retro — vocab/enricher-en-19
+
+**Date:** 2025-07-26
+**Branch:** vocab/enricher-en-19
+**Commit:** 4760760
+
+### What was done
+- Preflight validation on `words_staging.json` — 630 entries loaded, 90 English stubs present (55 outside target domains), exit 0 on enriched scope.
+- Identified 35 stubs from four target domains: film studies (8), game theory (9), neuroscience (9), immunology (9).
+- Enriched each entry: set `partOfSpeech`, added one `meanings` object (definition, example, register, domain tags), and populated `synonyms` (≥3), `antonymTerms`, and `relatedTerms`.
+- Post-update validation: `validate_words.py --errors-for enriched` → **PASSED** (exit 0); 26 pre-existing warnings on `approved` entries, all outside scope and untouched.
+
+### Stats
+| Domain | Terms enriched |
+|--------|---------------|
+| Film studies | 8 (auteurism, suture, interpellation, verisimilitude, decoupage, scopophilia, diegesis, profilmic) |
+| Game theory | 9 (minimax, signaling, brinkmanship, deterrence, collusion, stratagem, metagame, equilibrium, dominance) |
+| Neuroscience | 9 (optogenetics, connectomics, neuromodulation, engram, saltatory, depolarization, axonogenesis, neuropil, exteroception) |
+| Immunology | 9 (epitope, hapten, opsonization, phagocytosis, cytokine, chemokine, immunosuppression, autoimmunity, anaphylaxis) |
+| **Total** | **35** |
+
+### Issues / notes
+- Register set to `technical` for all 35 terms; all belong to specialised academic or scientific discourse.
+- `saltatory` enriched as `adjective` (its canonical grammatical use, as in "saltatory conduction").
+- `profilmic` enriched as `adjective`, consistent with its standard usage in film theory literature.
+- `verisimilitude` register set to `formal` (broader aesthetic/literary usage beyond pure technical film studies vocabulary).
+- All definitions disambiguate domain-specific meaning (e.g. `suture` as film theory term, not surgical; `equilibrium` as game theory, not physics).
+- No self-references in synonym/antonym/related arrays; no stubs outside target domains modified; 55 non-domain English stubs remain at `stub` status.
