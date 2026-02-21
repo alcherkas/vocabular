@@ -20645,13 +20645,31 @@
   {
     "term": "mokestis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A mandatory financial contribution levied by the government on individuals or businesses.",
+        "example": "Kiekvienas pilietis privalo mokėti mokesčius valstybei.",
+        "register": "formal",
+        "tags": [
+          "finance",
+          "civic",
+          "government"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rinkliava",
+      "įmoka"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "biudžetas",
+      "pajamos",
+      "valstybė"
+    ],
+    "translation": "tax"
   },
   {
     "term": "viduje",
@@ -25197,34 +25215,85 @@
     "term": "sveikatos pažyma",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An official document issued by a medical professional certifying a person's state of health, often required for employment or study.",
+        "example": "Norint pradėti dirbti, reikia pateikti gydytojo išduotą sveikatos pažymą.",
+        "register": "formal",
+        "tags": [
+          "civic",
+          "health",
+          "documents"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "gydytojas",
+      "nedarbingumo pažymėjimas",
+      "dokumentas"
+    ],
+    "translation": "health certificate"
   },
   {
     "term": "sveikatos draudimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A mandatory or voluntary system of insurance that covers the cost of medical care and healthcare services.",
+        "example": "Visi dirbantys gyventojai privalo mokėti privalomąjį sveikatos draudimą.",
+        "register": "formal",
+        "tags": [
+          "civic",
+          "social",
+          "health",
+          "government"
+        ]
+      }
+    ],
+    "synonyms": [
+      "privalomasis sveikatos draudimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "mokestis",
+      "gydytojas",
+      "ligoninė"
+    ],
+    "translation": "health insurance"
   },
   {
     "term": "nedarbingumo pažymėjimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An official medical document issued by a doctor confirming that an employee is unable to work due to illness or injury.",
+        "example": "Gydytojas išdavė nedarbingumo pažymėjimą ligoniui, kad jis galėtų laikinai nedirbti.",
+        "register": "formal",
+        "tags": [
+          "civic",
+          "health",
+          "work",
+          "bureaucracy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ligos lapas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "sveikatos pažyma",
+      "gydytojas",
+      "darbdavys"
+    ],
+    "translation": "sick leave certificate"
   },
   {
     "term": "receptas",
@@ -27665,46 +27734,114 @@
   {
     "term": "bedarbė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A woman who is without paid employment and is registered as seeking work.",
+        "example": "Bedarbė kreipėsi į užimtumo tarnybą dėl socialinės paramos.",
+        "register": "general",
+        "tags": [
+          "civic",
+          "social",
+          "employment"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "darbuotoja"
+    ],
+    "relatedTerms": [
+      "nedarbas",
+      "darbo birža",
+      "parama"
+    ],
+    "translation": "unemployed woman"
   },
   {
     "term": "dalyvis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A person who takes part in an activity, event, or public process such as elections or civic discussions.",
+        "example": "Rinkimų dalyvis privalo turėti Lietuvos pilietybę.",
+        "register": "general",
+        "tags": [
+          "civic",
+          "participation",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "narys",
+      "dalyvaujantysis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "dalyvė",
+      "dalyvavimas",
+      "rinkimai"
+    ],
+    "translation": "participant"
   },
   {
     "term": "dalyvė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A woman who takes part in an activity, meeting, or civic process.",
+        "example": "Ji buvo aktyvi visuomeninių diskusijų dalyvė.",
+        "register": "general",
+        "tags": [
+          "civic",
+          "participation",
+          "social"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "dalyvis",
+      "dalyvavimas",
+      "narė"
+    ],
+    "translation": "participant (female)"
   },
   {
     "term": "išsilavinimas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The level of academic or professional training and qualifications a person has acquired through formal schooling.",
+        "example": "Darbdavys paprašė dokumentais patvirtinti aukštąjį išsilavinimą.",
+        "register": "general",
+        "tags": [
+          "civic",
+          "education",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "išmokslinimas",
+      "kvalifikacija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "mokykla",
+      "universitetas",
+      "diplomas"
+    ],
+    "translation": "education"
   },
   {
     "term": "komandiruotė",
@@ -28041,24 +28178,54 @@
   {
     "term": "pasas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An official government-issued travel document certifying the holder's identity and citizenship, required for international travel.",
+        "example": "Keliaujant į kitą šalį reikia turėti galiojantį pasą.",
+        "register": "formal",
+        "tags": [
+          "civic",
+          "documents",
+          "travel"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "paso numeris",
+      "dokumentas",
+      "pilietybė"
+    ],
+    "translation": "passport"
   },
   {
     "term": "paso numeris",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The unique alphanumeric identifier printed in a passport, used for official registration and identification purposes.",
+        "example": "Viešbučio registratūroje paprašė nurodyti paso numerį.",
+        "register": "formal",
+        "tags": [
+          "civic",
+          "documents",
+          "travel"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pasas",
+      "dokumentas",
+      "asmens kodas"
+    ],
+    "translation": "passport number"
   },
   {
     "term": "prašymas",
@@ -32232,13 +32399,30 @@
   {
     "term": "kapinės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A designated area of land where the bodies of deceased people are buried; a graveyard.",
+        "example": "Vėlinių metu šeimos lanko artimųjų kapus kapinėse.",
+        "register": "general",
+        "tags": [
+          "civic",
+          "culture",
+          "infrastructure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kapinynas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kapas",
+      "laidotuvės",
+      "Vėlinės"
+    ],
+    "translation": "cemetery"
   },
   {
     "term": "kapas",
@@ -32254,13 +32438,31 @@
   {
     "term": "vestuvės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A formal ceremony in which two people are united in marriage, often followed by a celebration.",
+        "example": "Vestuvės vyko bažnyčioje, o puota – restorane.",
+        "register": "general",
+        "tags": [
+          "civic",
+          "social",
+          "celebration"
+        ]
+      }
+    ],
+    "synonyms": [
+      "santuoka",
+      "jungtuvės"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "nuotaka",
+      "jaunikis",
+      "santuokos liudijimas"
+    ],
+    "translation": "wedding"
   },
   {
     "term": "nuotaka",
@@ -32452,13 +32654,30 @@
   {
     "term": "krikštynos",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A Christian ceremony in which a person, usually a baby, is baptized and formally given a name, welcomed into the church and community.",
+        "example": "Krikštynų proga šeima susirinko pagerbti naujagimio ir švęsti.",
+        "register": "general",
+        "tags": [
+          "civic",
+          "religious",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "krikštas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "krikšto tėvai",
+      "bažnyčia",
+      "krikšto mama"
+    ],
+    "translation": "baptism / christening"
   },
   {
     "term": "krikšto tėvai",
@@ -32647,34 +32866,85 @@
     "term": "Naujųjų metų diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The first day of the calendar year, January 1, observed as a public holiday.",
+        "example": "Naujųjų metų dieną daugelis šeimų ilsisi ir leidžia laiką kartu.",
+        "register": "general",
+        "tags": [
+          "national-holiday",
+          "civic",
+          "celebration"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Naujieji metai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šventė",
+      "Kalėdos",
+      "Naujieji metai"
+    ],
+    "translation": "New Year's Day (January 1)"
   },
   {
     "term": "Lietuvos valstybės atkūrimo diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "National public holiday on February 16 commemorating the declaration of the re-establishment of the independent Lithuanian state in 1918.",
+        "example": "Vasario šešioliktoji – Lietuvos valstybės atkūrimo diena – švenčiama su parada ir ceremonijomis.",
+        "register": "formal",
+        "tags": [
+          "national-holiday",
+          "civic",
+          "history"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Vasario šešioliktoji"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "nepriklausomybė",
+      "valstybė",
+      "Lietuvos Nepriklausomybės atkūrimo diena"
+    ],
+    "translation": "State Restoration Day (February 16)"
   },
   {
     "term": "Lietuvos Nepriklausomybės atkūrimo diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "National public holiday on March 11 commemorating the restoration of Lithuanian independence declared by the Supreme Council in 1990.",
+        "example": "Kovo vienuoliktoji yra Lietuvos Nepriklausomybės atkūrimo diena.",
+        "register": "formal",
+        "tags": [
+          "national-holiday",
+          "civic",
+          "history"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Kovo vienuoliktoji"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "nepriklausomybė",
+      "valstybė",
+      "Lietuvos valstybės atkūrimo diena"
+    ],
+    "translation": "Independence Restoration Day (March 11)"
   },
   {
     "term": "Motinos diena",
@@ -32702,56 +32972,139 @@
     "term": "Valstybės diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "National public holiday on July 6 commemorating the coronation of King Mindaugas in 1253 and the founding of the medieval Lithuanian state.",
+        "example": "Liepos šeštoji švenčiama kaip Valstybės diena.",
+        "register": "formal",
+        "tags": [
+          "national-holiday",
+          "civic",
+          "history"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Liepos šeštoji"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "nepriklausomybė",
+      "valstybė",
+      "Lietuvos karaliaus Mindaugo karūnavimo diena"
+    ],
+    "translation": "Statehood Day (July 6)"
   },
   {
     "term": "Lietuvos karaliaus Mindaugo karūnavimo diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Day observed on July 6 commemorating the coronation of Mindaugas, the first and only King of Lithuania, in 1253, when Lithuania was recognized as a kingdom.",
+        "example": "Liepos šeštoji – Lietuvos karaliaus Mindaugo karūnavimo diena – minima kaip valstybingumo simbolis.",
+        "register": "formal",
+        "tags": [
+          "national-holiday",
+          "civic",
+          "history"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Mindaugas",
+      "Valstybės diena",
+      "Lietuva"
+    ],
+    "translation": "King Mindaugas Coronation Day (July 6)"
   },
   {
     "term": "Žolinė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Traditional Lithuanian folk and religious holiday on August 15 (Assumption of the Virgin Mary) when people bring bundles of grain, herbs, and flowers to church to be blessed.",
+        "example": "Žolinei žmonės pina vainikus iš javų ir žolių ir neša juos į bažnyčią.",
+        "register": "general",
+        "tags": [
+          "national-holiday",
+          "folk",
+          "religion",
+          "civic"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Žolinės"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šventė",
+      "tradicija",
+      "bažnyčia"
+    ],
+    "translation": "Assumption Day / Herb Blessing Day (August 15)"
   },
   {
     "term": "Laisvės gynėjų diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "National public holiday on January 13 commemorating those who defended Lithuania against Soviet troops at the Vilnius TV Tower in 1991.",
+        "example": "Sausio tryliktoji – Laisvės gynėjų diena – žymi tragišką kovą už laisvę.",
+        "register": "formal",
+        "tags": [
+          "national-holiday",
+          "civic",
+          "history"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Sausio tryliktoji"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "nepriklausomybė",
+      "laisvė",
+      "Gedulo ir vilties diena"
+    ],
+    "translation": "Freedom Defenders' Day (January 13)"
   },
   {
     "term": "Spaudos atgavimo",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "National day on May 7 commemorating the lifting of the Russian-imposed Lithuanian press ban in 1904, which had forbidden publication in the Latin script.",
+        "example": "Gegužės septintoji – Spaudos atgavimo, kalbos ir knygos diena – švenčia lietuvių kalbos ir raštijos laisvę.",
+        "register": "formal",
+        "tags": [
+          "national-day",
+          "civic",
+          "culture",
+          "language"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kalba",
+      "spauda",
+      "kultūra"
+    ],
+    "translation": "Day of Restoration of the Press (May 7)"
   },
   {
     "term": "kalbos ir knygos diena",
@@ -32768,89 +33121,223 @@
     "term": "Gedulo ir vilties diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "National day of mourning on June 14 commemorating the mass deportations of Lithuanian citizens to Siberia by Soviet authorities in 1941.",
+        "example": "Birželio keturioliktoji – Gedulo ir vilties diena – skirta tremtinių atminimui.",
+        "register": "formal",
+        "tags": [
+          "national-holiday",
+          "civic",
+          "history"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Birželio keturioliktoji"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tremtis",
+      "istorija",
+      "Laisvės gynėjų diena"
+    ],
+    "translation": "Day of Mourning and Hope (June 14)"
   },
   {
     "term": "Rasos diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Traditional Lithuanian midsummer celebration on June 24, associated with bonfires, gathering of herbs, and ancient folk rituals.",
+        "example": "Rasos dieną žmonės kuria laužus ir renka rytinę rasą nuo žolių.",
+        "register": "general",
+        "tags": [
+          "national-holiday",
+          "folk",
+          "civic"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Joninių diena",
+      "Rasos"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Joninės",
+      "tradicija",
+      "laužas"
+    ],
+    "translation": "Dew Day / Midsummer (June 24)"
   },
   {
     "term": "Joninių diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Lithuanian midsummer public holiday on June 24 (St. John's Day), celebrated with bonfires, folk songs, and ancient traditions.",
+        "example": "Joninių dieną visi linksminasi prie laužo ir ieško paparčio žiedo.",
+        "register": "general",
+        "tags": [
+          "national-holiday",
+          "folk",
+          "civic"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Joninės",
+      "Rasos diena"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "laužas",
+      "tradicija",
+      "šventė"
+    ],
+    "translation": "St. John's Day / Midsummer (June 24)"
   },
   {
     "term": "Žalgirio mūšio diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Commemorative day on July 15 marking the anniversary of the Battle of Grunwald in 1410, where Lithuanian and Polish forces defeated the Teutonic Knights.",
+        "example": "Liepos penkioliktoji – Žalgirio mūšio diena – žymi pergalę prieš Kryžiuočių ordiną.",
+        "register": "formal",
+        "tags": [
+          "national-day",
+          "civic",
+          "history"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "Lietuva",
+      "istorija",
+      "kariuomenė"
+    ],
+    "translation": "Battle of Žalgiris Day (July 15)"
   },
   {
     "term": "Juodojo kaspino diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Day of commemoration on August 23 marking the anniversary of the Molotov–Ribbentrop Pact (1939) and honoring victims of Nazi and Soviet totalitarianism.",
+        "example": "Rugpjūčio dvidešimt trečioji – Juodojo kaspino diena – primena pakto pasekmes Baltijos šalims.",
+        "register": "formal",
+        "tags": [
+          "national-day",
+          "civic",
+          "history"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "istorija",
+      "laisvė",
+      "Gedulo ir vilties diena"
+    ],
+    "translation": "Black Ribbon Day (August 23)"
   },
   {
     "term": "Konstitucijos diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "National public holiday on October 25 marking the adoption of the Lithuanian Constitution by referendum in 1992.",
+        "example": "Spalio dvidešimt penktoji – Konstitucijos diena – švenčia Lietuvos pagrindinį įstatymą.",
+        "register": "formal",
+        "tags": [
+          "national-holiday",
+          "civic",
+          "law"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "konstitucija",
+      "įstatymas",
+      "valstybė"
+    ],
+    "translation": "Constitution Day (October 25)"
   },
   {
     "term": "Mirusiųjų atminimo diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Day observed in Lithuania around November 1–2 to honor deceased relatives, when families visit cemeteries and light candles on graves.",
+        "example": "Mirusiųjų atminimo dieną kapinės apšviestos tūkstančiais žvakių.",
+        "register": "general",
+        "tags": [
+          "civic",
+          "culture",
+          "commemoration"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Vėlinių diena"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kapinės",
+      "Vėlinės",
+      "tradicija"
+    ],
+    "translation": "All Souls' Day / Day of Remembrance of the Deceased"
   },
   {
     "term": "Vėlinių diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Traditional Lithuanian day of commemorating the deceased, observed on or around November 2, when families gather at graves to remember those who have passed.",
+        "example": "Vėlinių dieną šeimos susirenka kapinėse pagerbti mirusiųjų atminimą.",
+        "register": "general",
+        "tags": [
+          "civic",
+          "culture",
+          "folk",
+          "commemoration"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Mirusiųjų atminimo diena",
+      "Vėlinės"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kapinės",
+      "žvakė",
+      "tradicija"
+    ],
+    "translation": "All Souls' Day (Vėlinės)"
   },
   {
     "term": "džiaugsmas",
@@ -33096,35 +33583,88 @@
   {
     "term": "laidotuvės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A ceremony held after someone's death, often religious or civic, during which the body of the deceased is buried or cremated.",
+        "example": "Laidotuvėse dalyvavo visa šeima ir artimieji.",
+        "register": "general",
+        "tags": [
+          "civic",
+          "culture",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "laidojimas",
+      "laidotuvių apeigos"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kapinės",
+      "kapas",
+      "gedulas"
+    ],
+    "translation": "funeral"
   },
   {
     "term": "vėliava",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A piece of cloth used as the official symbol of a country or organization.",
+        "example": "Valstybinės šventės proga gyventojai iškabino trispalves vėliavas.",
+        "register": "general",
+        "tags": [
+          "national",
+          "civic",
+          "symbol"
+        ]
+      }
+    ],
+    "synonyms": [
+      "trispalvė",
+      "ženklas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "himnas",
+      "herbas",
+      "valstybė"
+    ],
+    "translation": "flag"
   },
   {
     "term": "himnas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An official song that represents and is sung on behalf of a nation or group.",
+        "example": "Sporto varžybų pradžioje sugiedotas valstybinis himnas.",
+        "register": "formal",
+        "tags": [
+          "national",
+          "civic",
+          "music"
+        ]
+      }
+    ],
+    "synonyms": [
+      "giesmė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vėliava",
+      "herbas",
+      "valstybė"
+    ],
+    "translation": "anthem"
   },
   {
     "term": "žaibuoti",
@@ -35385,17 +35925,57 @@
   },
   {
     "term": "teisėjas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "translation": "judge",
+    "meanings": [
+      {
+        "definition": "A public official who presides over a court of law and administers justice.",
+        "example": "Teisėjas paskelbė galutinį nuosprendį po ilgo proceso.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "civic",
+          "profession"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "teismas",
+      "teisėja",
+      "prokuroras",
+      "advokatas"
+    ]
   },
   {
     "term": "teisėja",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "translation": "judge (female)",
+    "meanings": [
+      {
+        "definition": "A female public official who presides over a court and renders legal judgments.",
+        "example": "Teisėja nagrinėjo šią civilinę bylą kelis mėnesius.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "civic",
+          "profession"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "teismas",
+      "teisėjas",
+      "prokuroras",
+      "advokatas"
+    ]
   },
   {
     "term": "gaisrininkas",
@@ -36473,10 +37053,32 @@
   },
   {
     "term": "paradas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "translation": "parade",
+    "meanings": [
+      {
+        "definition": "A public procession, especially one involving military units or celebrating a national event.",
+        "example": "Nepriklausomybės dieną per miesto centą praėjo kariuomenės paradas.",
+        "register": "general",
+        "tags": [
+          "civic",
+          "celebration",
+          "military"
+        ]
+      }
+    ],
+    "synonyms": [
+      "eisena",
+      "procesija"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "šventė",
+      "vėliava",
+      "kariuomenė"
+    ]
   },
   {
     "term": "stovykla",
