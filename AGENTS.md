@@ -728,3 +728,42 @@ All warnings were pre-existing in approved-status entries unrelated to this batc
 - `sausas`, `šlapias`, `tirštas` received two meanings each (general + weather/nature domain) for genuine semantic distinctness.
 - Compass directions (šiaurė, rytai, vakarai) each received a second meaning for the cultural/regional sense (e.g. "the West") where applicable.
 - No merge performed per instructions.
+## Session retro — relations-28 (vocab/relations-28)
+
+**Date**: 2025-07-18
+**Branch**: `vocab/relations-28`
+**Agent role**: Relations
+**Files touched**: `words_staging.json`, `words_lt_staging.json`
+
+### What was done
+- Preflight JSON check passed on both staging files.
+- EN staging had only 2 enriched entries (functionalism, prescriptivism); both promoted to `relations-added`.
+- LT staging had 314 enriched entries; first 35 promoted to `relations-added`.
+- Total: 37 entries set to `relations-added` (2 EN + 35 LT).
+
+### Synonym quality fixes applied
+Six entries had incorrect synonyms that violated rule 3 (must be true synonyms):
+
+| Entry | Bad synonym | Reason | Fix |
+|---|---|---|---|
+| `varškė` | `tvartas` | "shed/stall" — completely unrelated word | removed → `[]` |
+| `Autobusas` | `viešasis transportas` | hypernym (public transport ⊃ bus) | removed → `[]` |
+| `moneta` | `apyvartinis piniginis ženklas` | definition paraphrase, not a lexical synonym | removed → `[]` |
+| `atleisti` | `išleisti` | wrong word ("to release/publish" ≠ "to forgive/dismiss") | replaced with `dovanoti` |
+| `pasirašyti` | `patvirtinti parašu` | descriptive paraphrase of the action | removed → `[]` |
+| `darželis` | `ikimokyklinis ugdymas` | process description, not synonym for the institution | removed → `[]` |
+
+EN entries also had synonym issues flagged by prior QA notes:
+- `functionalism`: replaced `Parsonian sociology` (hyponym school), `systems theory` (distinct framework), `organic analogy` (metaphor) with `consensus theory` and `social systems theory`.
+- `prescriptivism`: replaced `Hare's metaethics` (proper-noun reference, not general synonym) with `imperativist metaethics`.
+
+### Validation
+`validate_words.py --errors-for relations-added` → **PASSED** on both files (exit 0).
+- EN: 830 words valid; pre-existing warnings in approved-status entries only.
+- LT: 1995 words valid; pre-existing warnings in approved-status entries only.
+
+### Notes
+- Many LT entries already had clean, populated relations from the enricher; only status change was needed.
+- LT relation arrays verified: no -ą/-ų endings introduced; all values in nominative dictionary forms.
+- No within-array or cross-array duplicates introduced.
+- No self-referential or headword-token-containing phrases added.
