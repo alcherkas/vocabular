@@ -722,3 +722,31 @@ Selected 35 stubs covering jobs/professions and work/office vocabulary at A1/A2 
 - `tapyti` vs `dažyti`: both mean "to paint" but `tapyti` is for artistic painting; `dažyti` is for painting surfaces (walls). Note added to qaNote.
 - `vaidmenys` is the nominative plural of `vaidmuo`; enriched as a separate entry since it appears independently in the stub list.
 - LT gender pairs (dirigentas/dirigentė, žiūrovas/žiūrovė, etc.) each need independent enrichment — avoid relatedTerms inflected forms ending in `-ą` or `-ų`.
+## relations-24 retro
+
+**Batch stats**
+- EN: 35 entries reviewed → 28 approved, 7 enriched
+- LT: 35 entries reviewed → 30 approved, 5 enriched
+- Both JSON files passed preflight (`python3 -m json.tool`); no new `validate_words.py` errors introduced.
+
+**EN issues found**
+- *functionalism*: self-reference — `'structural-functionalism'` contains the headword as a hyphen-separated word-token; the automated word-token check correctly flagged this.
+- *emotivism* + *noncognitivism*: `'expressivist metaethics'` was used as a synonym in **both** entries (cross-entry duplication) and is too broad a category (subsumes quasi-realism). Named-category synonyms should replace specific theory names, not broader umbrella labels.
+- *prescriptivism*: `'imperative ethics'` conflates Hare's prescriptivism with Kantian deontology — a recurring risk when using phrase synonyms built from translated sub-concepts.
+- *noncognitivism*: `'moral anti-realism'` is a broader genus (error theory is anti-realist but cognitivist); genus-not-species synonyms are a pattern to watch in metaethics entries.
+- *perfectionism*: `'objective list theory'` is a theory of well-being, not of perfectionism — distinct sub-disciplines in ethics require careful synonym scoping.
+- *othering*: `'dehumanisation'` is a qualitatively more extreme concept; synonyms drawn from adjacent critical-theory vocabulary need careful grading.
+- *creolization*: `'creolisation'` is the British spelling of the headword — the automated self-ref check missed it because the character strings differ; spelling-variant self-references must be caught by semantic review.
+
+**LT issues found**
+- *meilė*: `'meilikaujimas'` (flattery) shares the `meil-` root but is semantically remote; root-sharing words in Lithuanian are easily confused with synonyms.
+- *ramybė*: `'romus'` is an adjective; for noun headwords every synonym must be a noun — POS agreement check should be explicit in the LT review step.
+- *gėda*: `'sugėdinimas'` (the act of shaming another) is a different lexical eventuality from the stative noun `'gėda'` (shame); verbal nouns in `-imas` often denote process/action rather than state.
+- *pavydas*: `'godumas'` (greed) is a co-hyponym of 'negative emotion', not a synonym of envy — neighbouring emotion vocabulary requires careful semantic boundary-checking.
+- *smalsus*: `'imlus'` (receptive/absorbent) describes a learning capacity rather than curiosity; cognitive-attribute adjectives blur easily.
+
+**What to watch next batch**
+- Spelling-variant self-references (e.g. `-ize` vs `-ise`) bypass the word-token check; add a normalisation step to the pre-commit hook.
+- When the same phrase appears as a synonym for two distinct terms, flag the cross-entry duplicate — it usually signals a category label masquerading as a synonym.
+- For LT noun headwords, enforce same-POS synonyms explicitly; verbal nouns in `-imas/-ymas` deserve particular scrutiny.
+- Metaethics and philosophy of mind entries carry dense terminological overlap; genus/species distinctions must be checked against a reference hierarchy before approving.
