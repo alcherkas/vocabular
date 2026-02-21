@@ -32,6 +32,8 @@ class SessionService {
     }
 
     // Configurable constants
+    static let maxOverdue = 10
+    static let maxNew = 5
     static let maxSessionSize = 15
 
     var itemsReviewed: Int { results.count }
@@ -56,7 +58,24 @@ class SessionService {
 
         do {
             let allWords = try context.fetch(descriptor)
-            let selected = Array(allWords.shuffled().prefix(Self.maxSessionSize))
+            let now = Date.now
+
+            // Partition: overdue, new, upcoming
+            let overdue = allWords
+                .filter { $0.nextReview != nil && $0.nextReview! < now }
+                .sorted { ($0.nextReview ?? .distantFuture) < ($1.nextReview ?? .distantFuture) }
+            let new_ = allWords.filter { $0.nextReview == nil }
+
+            var selected: [Word] = []
+            selected.append(contentsOf: overdue.prefix(Self.maxOverdue))
+            let remaining = Self.maxSessionSize - selected.count
+            selected.append(contentsOf: new_.shuffled().prefix(remaining))
+
+            // If no overdue or new words, pull from upcoming
+            if selected.isEmpty {
+                let upcoming = allWords.filter { $0.nextReview != nil && $0.nextReview! >= now }
+                selected = Array(upcoming.shuffled().prefix(Self.maxSessionSize))
+            }
 
             if selected.isEmpty {
                 emptyReason = allWords.isEmpty ? .noWordsForLanguage : .allCaughtUp
@@ -83,6 +102,10 @@ class SessionService {
         if correct {
             word.timesCorrect += 1
         }
+
+        // Update spaced repetition schedule
+        let quality = correct ? 4 : 1
+        SpacedRepetitionService.nextReview(for: word, quality: quality)
 
         results.append((word: word, correct: correct))
 

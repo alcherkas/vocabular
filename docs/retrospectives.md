@@ -238,6 +238,20 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Process friction
 - None this iteration.
+---
+
+## spaced-rep — SM-2 Spaced Repetition
+
+### What went well
+- Architecture doc had exact field names, algorithm, and file list — implementation was straightforward.
+- SM-2 algorithm is simple to implement; all three files (Word.swift, SpacedRepetitionService.swift, SessionService.swift) integrated cleanly.
+- Build succeeded on first attempt.
+
+### What was harder than expected
+- Nothing significant. The architecture doc provided clear guidance.
+
+### Process friction
+- xcodebuild required full path due to xcode-select pointing to CommandLineTools; iPhone 16 simulator not available (used iPhone 17 Pro).
 
 ### Suggested improvement
 - None.
