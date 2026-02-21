@@ -472,3 +472,36 @@ Selected 35 stubs covering jobs/professions and work/office vocabulary at A1/A2 
 
 ### Validation
 `validate_words.py --errors-for enriched` → **PASSED** (10 pre-existing warnings on *approved* entries, unchanged from baseline).
+
+---
+
+## enricher-lt-25 — Emotions & Personality Traits (35 stubs)
+
+### Scope
+35 Lithuanian stubs enriched focusing on emotions and personality traits, A1/A2 level with several B1 entries.
+
+| Category | Terms |
+|---|---|
+| Core emotion nouns | džiaugsmas, laimė, meilė, liūdesys, pyktis, baimė, nerimas, gėda, pavydas, pasididžiavimas |
+| Personality/state nouns | kantrybė, sėkmė, nuostaba, susidomėjimas, ramybė, draugiškumas, palinkėjimas, proga |
+| Personality adjectives | švelnus, mandagus, ramus, smalsus, šiltas |
+| Emotion/personality verbs | džiaugtis, jaudintis, nervintis, rūpintis, stengtis, tikėtis, domėtis, susitaikyti, gerbti, sveikinti, linkėti, Atleisti |
+
+### Decisions
+
+**POS: mixed** — nouns, adjectives, and reflexive verbs all included because emotions and personality traits in Lithuanian are expressed through all three classes.
+
+**Reflexive verbs (-tis suffix)** — *džiaugtis, jaudintis, nervintis, rūpintis, stengtis, tikėtis, domėtis, susitaikyti* are all genuine Lithuanian reflexive verbs; tagged as `verb` (no separate `reflexive` POS exists in the valid set).
+
+**Atleisti: two meanings** — *atleisti* covers both "to forgive" (emotional/moral sense, register: general) and "to dismiss from employment" (workplace sense, register: formal). Both senses are high-frequency at A2/B1 level and were included in the same entry.
+
+**šiltas: two meanings** — physical warmth (temperature, A1) and emotional warmth (personality, A2/B1) included as separate meanings; both senses are commonly encountered and strongly linked.
+
+**Synonyms use nominative headwords only** — no accusative (-ą) or genitive (-ų) forms appear in synonyms, antonymTerms, or relatedTerms, in compliance with validator rules for Lithuanian.
+
+**Relation arrays populated** — unlike the previous batch, synonyms/antonymTerms/relatedTerms were filled in at the *enriched* stage to provide richer data. The validator does not require them at this stage but does check for inflected forms and self-references when present; all arrays pass cleanly.
+
+**proga included** — while *proga* (occasion/opportunity) is not a pure emotion word, it appears in many emotional/social contexts (birthday greetings, celebrations) and is closely related to the social-expression cluster of this batch.
+
+### Validation
+`validate_words.py --errors-for enriched` → **PASSED** (10 pre-existing warnings on *approved* entries, unchanged from baseline).
