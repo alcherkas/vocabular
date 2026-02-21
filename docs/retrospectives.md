@@ -413,3 +413,19 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a small canonical LT phrase synonym/antonym reference list to reduce wording variance across relation batches.
+
+## [2026-02-21] [reflection-agent] [reflection-3]
+
+### What went well
+- New retros since cycle 2 had clear repeated signal around simulator destination failures and command-line environment drift.
+- The required changes were all doc-level and surgical (3 files), so risk remained low.
+
+### What was harder than expected
+- Retrospective entry formatting is inconsistent in older sections, so identifying "new since cycle 2" required filtering by cycle boundary/date rather than strict heading format.
+
+### Process friction
+- BUILD guidance was improved in cycle 1, but a stale hardcoded simulator command remained in WORKTREES.md, so agents still hit destination failures.
+- High same-day append volume across retros/audit/changelog creates practical merge-conflict pressure for append-only files.
+
+### Suggested improvement
+- Add a tiny helper script for append-only writes (`scripts/append_entry.py`) to auto-rebase, append, and preserve chronological ordering.

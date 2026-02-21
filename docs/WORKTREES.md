@@ -31,10 +31,11 @@ git worktree add ../vocabular-wt-spaced-rep -b feature/spaced-rep
 cd ../vocabular-wt-<task-id>
 
 # Make changes, then verify:
+# Pick DEVICE from: xcrun simctl list devices available | grep -E "iPhone|iPad"
 xcodebuild test \
   -project Vocab/Vocab.xcodeproj \
   -scheme Vocab \
-  -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest'
+  -destination 'platform=iOS Simulator,name=DEVICE,OS=latest'
 ```
 
 ## Merge Back to Main
@@ -58,8 +59,10 @@ git branch -d feature/<task-id>
 - If `main` has moved forward, rebase your branch before merging:
   ```bash
   cd ../vocabular-wt-<task-id>
-  git rebase main
+  git fetch origin main
+  git rebase origin/main
   ```
+- For append-only files (`docs/retrospectives.md`, `docs/audit-log.md`, `docs/process-changelog.md`), rebase right before appending; if a conflict occurs, keep both entries and preserve chronological order.
 - Word JSON files (`words.json`, `words_lt.json`) are agent-owned — only the designated agent edits them. If two agents both modify the same JSON, the integration lead resolves the conflict manually.
 
 ## List Active Worktrees

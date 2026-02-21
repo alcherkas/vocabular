@@ -81,3 +81,33 @@ This file answers: "Why does the process work the way it does now?" and "What ch
 - [2025-07-22] [data-agent] [lt-vocab-initial] — "Balancing exactly 200 words across categories required a trim pass after initial generation overshot to 229."
 - [2025-07-22] [feature/en-words-expansion] [en-words-expansion] — "Initial word list had 107 entries instead of 100; required trimming."
 - [2025-07-22] [lt-enricher-3] [enrich-lt-batch-3] — "Allowed values for `register` and `partOfSpeech` differ from the task prompt … had to check validator output and remap."
+
+## [2026-02-21] Reflection cycle #3
+
+### Pattern observed
+1. **Repeated simulator destination friction persists outside BUILD.md** — recent feature retros still report unavailable hardcoded simulator names (`iPhone 16 Pro`) and fallback retries.
+2. **Append-only process files now receive high-concurrency writes** — cycles 4–6 produced many same-day retro/audit/changelog append operations, increasing conflict risk during rebases.
+3. **Schema-compatibility confusion risk** — recent model migration retro noted dual-schema loading (`meanings[]` + legacy flat fields), but architecture docs still presented only the target schema path.
+
+### Change 1
+- **File**: `docs/BUILD.md`
+- **What changed**: Added a task destination fallback policy: run requested command once, then rerun with discovered/`Any iOS Simulator Device` destination and report both.
+- **Why**: Standardizes build/test validation when task prompts hardcode unavailable simulator names.
+
+### Change 2
+- **File**: `docs/WORKTREES.md`
+- **What changed**: Replaced hardcoded `iPhone 16` test destination with dynamic `DEVICE` guidance, updated rebase command to `origin/main`, and added explicit append-only conflict handling guidance.
+- **Why**: Removes stale simulator defaults and reduces avoidable merge conflicts on frequently appended process logs.
+
+### Change 3
+- **File**: `docs/ARCHITECTURE.md`
+- **What changed**: Added explicit current-vs-target JSON schema note (legacy flat fields accepted, `meanings[]` canonical for new writes) and aligned part-of-speech enum with validator values.
+- **Why**: Reduces schema drift confusion between staging/production expectations and documented architecture constraints.
+
+### Retro entries that triggered this
+- [2026-02-21] [feat-agent] [lt-quiz-modes] — "requested `iPhone 16 Pro` simulator destination is not available … had to use a nearby fallback target."
+- [2026-02-21] [feat-agent] [word-meanings-model] — "Requested build destination (`iPhone 16 Pro`) is unavailable … fallback destination (`iPhone 17 Pro`)."
+- [2026-02-21] [feature-agent] [widget] — "`xcodebuild` is unavailable in this environment because the active developer directory points to CommandLineTools."
+- [2026-02-21] [feat-agent] [word-meanings-model] — "updated WordService to decode both `meanings[]` and legacy flat fields."
+- [2026-02-21] [feat-agent] [lt-session-timer] — "Build verification succeeded immediately after the change." (same-day parallel retro volume indicates append-only collision risk)
+- [2026-02-21] [feat-agent] [word-of-day-lt] — "`xcodebuild` initially failed because `xcode-select` pointed to CommandLineTools; needed `DEVELOPER_DIR`."

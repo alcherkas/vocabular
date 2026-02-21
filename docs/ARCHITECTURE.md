@@ -78,6 +78,9 @@ Stores per-session quiz outcomes: score, total, date, words attempted.
 
 ### Production files (`words.json`, `words_lt.json`)
 
+Current state: the app loader accepts both legacy flat fields (`definition`, `example`, `tags`, `register`) and `meanings[]` for backward compatibility.
+Target/write state: all new staging and production entries should use `meanings[]` as the canonical schema.
+
 Words in production use a `meanings` array to capture multiple senses of a word:
 
 ```json
@@ -111,7 +114,7 @@ Words in production use a `meanings` array to capture multiple senses of a word:
 - `meanings`: array, minimum 1 entry. Add all genuinely distinct senses.
 - `meanings[].register`: one of `"general"` | `"technical"` | `"formal"` | `"literary"`
 - `meanings[].tags`: lowercase, hyphen-separated (e.g. `"word-family"`)
-- `partOfSpeech`: one of `"noun"` | `"verb"` | `"adjective"` | `"adverb"` | `"phrase"`
+- `partOfSpeech`: one of `"noun"` | `"verb"` | `"adjective"` | `"adverb"` | `"phrase"` | `"particle"` | `"interjection"`
 - `synonyms`: 2–5 entries for EN; typically `[]` for LT
 - `antonymTerms`, `relatedTerms`: string arrays, may be `[]`
 - `language`: `"en"` or `"lt"`

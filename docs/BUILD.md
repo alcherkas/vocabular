@@ -17,6 +17,14 @@ xcrun simctl list devices available | grep -E "iPhone|iPad"
 
 Pick an available iPhone simulator from the output (e.g. `iPhone 17 Pro`). Simulator names change across Xcode versions — always run this command first instead of hardcoding a device name.
 
+## Task Destination Fallback Policy
+
+If a task or acceptance criteria hardcodes a simulator destination (for example `iPhone 16 Pro`):
+
+1. Run the requested command once as written.
+2. If it fails with "Unable to find a device matching the provided destination specifier", rerun using an available simulator from the discovery step above (or `name=Any iOS Simulator Device`).
+3. Report both the requested destination and the fallback destination in your task summary/retro.
+
 ## Build (compile only)
 
 ```bash
