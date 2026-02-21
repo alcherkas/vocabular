@@ -23068,7 +23068,7 @@
   {
     "term": "illocution",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23081,12 +23081,23 @@
           "speech-act theory"
         ]
       }
+    ],
+    "synonyms": [
+      "speech act",
+      "communicative act"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "locution",
+      "perlocution",
+      "utterance",
+      "pragmatic force"
     ]
   },
   {
     "term": "perlocution",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23099,12 +23110,23 @@
           "speech-act theory"
         ]
       }
+    ],
+    "synonyms": [
+      "rhetorical effect",
+      "conversational effect"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "illocution",
+      "locution",
+      "persuasion",
+      "utterance"
     ]
   },
   {
     "term": "locution",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23117,12 +23139,23 @@
           "speech-act theory"
         ]
       }
+    ],
+    "synonyms": [
+      "utterance",
+      "expression"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "illocution",
+      "perlocution",
+      "sentence",
+      "phoneme"
     ]
   },
   {
     "term": "implicature",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23134,12 +23167,23 @@
           "linguistics"
         ]
       }
+    ],
+    "synonyms": [
+      "conversational implication",
+      "pragmatic inference"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "presupposition",
+      "entailment",
+      "inference",
+      "pragmatics"
     ]
   },
   {
     "term": "presupposition",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23152,12 +23196,23 @@
           "semantics"
         ]
       }
+    ],
+    "synonyms": [
+      "background assumption",
+      "tacit assumption"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "implicature",
+      "assertion",
+      "entailment",
+      "context"
     ]
   },
   {
     "term": "evidentiality",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23170,6 +23225,17 @@
           "typology"
         ]
       }
+    ],
+    "synonyms": [
+      "evidential marking",
+      "epistemic marking"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "modality",
+      "mirativity",
+      "source marking",
+      "epistemicity"
     ]
   },
   {
@@ -23180,7 +23246,7 @@
   {
     "term": "performativity",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23203,12 +23269,24 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "enactment",
+      "citationality"
+    ],
+    "antonymTerms": [
+      "constative"
+    ],
+    "relatedTerms": [
+      "speech act",
+      "performative",
+      "iterability"
     ]
   },
   {
     "term": "cataphora",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23221,12 +23299,25 @@
           "grammar"
         ]
       }
+    ],
+    "synonyms": [
+      "forward reference",
+      "anticipatory reference"
+    ],
+    "antonymTerms": [
+      "anaphora"
+    ],
+    "relatedTerms": [
+      "coreference",
+      "deixis",
+      "pronoun",
+      "discourse"
     ]
   },
   {
     "term": "ellipsis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23249,12 +23340,25 @@
           "punctuation"
         ]
       }
+    ],
+    "synonyms": [
+      "deletion",
+      "omission"
+    ],
+    "antonymTerms": [
+      "pleonasm"
+    ],
+    "relatedTerms": [
+      "cohesion",
+      "anaphora",
+      "zero anaphora",
+      "discourse"
     ]
   },
   {
     "term": "cohesion",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23267,6 +23371,20 @@
           "text linguistics"
         ]
       }
+    ],
+    "synonyms": [
+      "text connectivity",
+      "discourse connectivity"
+    ],
+    "antonymTerms": [
+      "incoherence",
+      "fragmentation"
+    ],
+    "relatedTerms": [
+      "coherence",
+      "discourse",
+      "texture",
+      "register"
     ]
   },
   {
@@ -23277,7 +23395,7 @@
   {
     "term": "accommodation",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23298,6 +23416,17 @@
           "linguistics"
         ]
       }
+    ],
+    "synonyms": [
+      "pragmatic uptake",
+      "contextual adjustment"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "presupposition",
+      "common ground",
+      "discourse",
+      "context update"
     ]
   },
   {
@@ -23353,7 +23482,7 @@
   {
     "term": "hedging",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23366,6 +23495,20 @@
           "academic discourse"
         ]
       }
+    ],
+    "synonyms": [
+      "mitigation",
+      "qualification"
+    ],
+    "antonymTerms": [
+      "boosting",
+      "intensification"
+    ],
+    "relatedTerms": [
+      "modality",
+      "epistemic marker",
+      "register",
+      "vagueness"
     ]
   },
   {
@@ -23376,7 +23519,7 @@
   {
     "term": "sememe",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23389,12 +23532,23 @@
           "linguistics"
         ]
       }
+    ],
+    "synonyms": [
+      "semantic unit",
+      "minimal meaning unit"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "morpheme",
+      "lexeme",
+      "seme",
+      "semantics"
     ]
   },
   {
     "term": "semiosphere",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23406,12 +23560,23 @@
           "cultural theory"
         ]
       }
+    ],
+    "synonyms": [
+      "semiotic space",
+      "sign universe"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "semiotics",
+      "biosphere",
+      "noosphere",
+      "culture"
     ]
   },
   {
     "term": "iconicity",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23423,12 +23588,26 @@
           "linguistics"
         ]
       }
+    ],
+    "synonyms": [
+      "iconic resemblance",
+      "mimesis"
+    ],
+    "antonymTerms": [
+      "arbitrariness",
+      "conventionality"
+    ],
+    "relatedTerms": [
+      "icon",
+      "index",
+      "symbol",
+      "semiotics"
     ]
   },
   {
     "term": "semiosis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23440,12 +23619,23 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "sign process",
+      "signification process"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "semiotics",
+      "sign",
+      "signifier",
+      "interpretant"
     ]
   },
   {
     "term": "interpretant",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23457,12 +23647,23 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "sign effect",
+      "meaning effect"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sign",
+      "signifier",
+      "representamen",
+      "semiosis"
     ]
   },
   {
     "term": "signifier",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23474,12 +23675,25 @@
           "linguistics"
         ]
       }
+    ],
+    "synonyms": [
+      "sign vehicle",
+      "expression plane"
+    ],
+    "antonymTerms": [
+      "signified"
+    ],
+    "relatedTerms": [
+      "sign",
+      "symbol",
+      "phoneme",
+      "sememe"
     ]
   },
   {
     "term": "signified",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23491,12 +23705,25 @@
           "linguistics"
         ]
       }
+    ],
+    "synonyms": [
+      "meaning content",
+      "concept plane"
+    ],
+    "antonymTerms": [
+      "signifier"
+    ],
+    "relatedTerms": [
+      "sign",
+      "referent",
+      "denotation",
+      "semantics"
     ]
   },
   {
     "term": "denotation",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23509,12 +23736,26 @@
           "linguistics"
         ]
       }
+    ],
+    "synonyms": [
+      "literal meaning",
+      "referential meaning",
+      "extension"
+    ],
+    "antonymTerms": [
+      "connotation"
+    ],
+    "relatedTerms": [
+      "signified",
+      "reference",
+      "semantics",
+      "meaning"
     ]
   },
   {
     "term": "connotation",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23527,6 +23768,20 @@
           "linguistics"
         ]
       }
+    ],
+    "synonyms": [
+      "implied meaning",
+      "associative meaning",
+      "secondary meaning"
+    ],
+    "antonymTerms": [
+      "denotation"
+    ],
+    "relatedTerms": [
+      "sememe",
+      "pragmatics",
+      "register",
+      "meaning"
     ]
   },
   {
@@ -23537,7 +23792,7 @@
   {
     "term": "qualisign",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23549,6 +23804,17 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "qualitative sign",
+      "sign quality"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sinsign",
+      "legisign",
+      "sign",
+      "quality"
     ]
   },
   {
@@ -23559,7 +23825,7 @@
   {
     "term": "sinsign",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23571,6 +23837,17 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "token sign",
+      "occurrence sign"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "qualisign",
+      "legisign",
+      "sign",
+      "token"
     ]
   },
   {
@@ -23596,7 +23873,6 @@
   {
     "term": "embodiment",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23630,7 +23906,6 @@
   {
     "term": "construal",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23660,7 +23935,6 @@
   {
     "term": "schematization",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23690,7 +23964,6 @@
   {
     "term": "entrenchment",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23722,7 +23995,6 @@
   {
     "term": "trajector",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23753,7 +24025,6 @@
   {
     "term": "profiling",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23783,7 +24054,6 @@
   {
     "term": "grounding",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23813,7 +24083,6 @@
   {
     "term": "prototype",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23845,7 +24114,6 @@
   {
     "term": "schema",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23875,7 +24143,6 @@
   {
     "term": "categorization",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23905,7 +24172,6 @@
   {
     "term": "entropy",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23939,7 +24205,6 @@
   {
     "term": "compressibility",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23971,7 +24236,6 @@
   {
     "term": "ergodicity",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24004,7 +24268,6 @@
   {
     "term": "equivocation",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24043,7 +24306,6 @@
   {
     "term": "transinformation",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24073,7 +24335,6 @@
   {
     "term": "perplexity",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24112,7 +24373,6 @@
   {
     "term": "tokenization",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24145,7 +24405,6 @@
   {
     "term": "codebook",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24176,7 +24435,6 @@
   {
     "term": "losslessness",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24209,7 +24467,6 @@
   {
     "term": "stochasticity",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24243,7 +24500,6 @@
   {
     "term": "homeostasis",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24277,7 +24533,6 @@
   {
     "term": "autopoiesis",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24310,7 +24565,6 @@
   {
     "term": "equifinality",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24342,7 +24596,6 @@
   {
     "term": "morphogenesis",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24373,7 +24626,6 @@
   {
     "term": "attractor",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24406,7 +24658,6 @@
   {
     "term": "bifurcation",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24437,7 +24688,6 @@
   {
     "term": "perturbation",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24476,7 +24726,6 @@
   {
     "term": "synergy",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24542,7 +24791,6 @@
   {
     "term": "holism",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24575,7 +24823,6 @@
   {
     "term": "reductionism",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24608,7 +24855,6 @@
   {
     "term": "feedforward",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24641,7 +24887,6 @@
   {
     "term": "teleonomy",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24674,7 +24919,6 @@
   {
     "term": "fractal",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24709,7 +24953,6 @@
   {
     "term": "criticality",
     "language": "en",
-    "status": "approved",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24770,7 +25013,7 @@
   {
     "term": "fallibilism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24782,12 +25025,26 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "corrigibilism",
+      "revisionism"
+    ],
+    "antonymTerms": [
+      "infallibilism",
+      "dogmatism"
+    ],
+    "relatedTerms": [
+      "epistemology",
+      "pragmatism",
+      "defeasibility",
+      "inquiry"
     ]
   },
   {
     "term": "foundationalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24799,12 +25056,26 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "basic belief theory",
+      "grounding theory"
+    ],
+    "antonymTerms": [
+      "coherentism",
+      "infinitism"
+    ],
+    "relatedTerms": [
+      "epistemology",
+      "basic belief",
+      "regress argument",
+      "justification"
     ]
   },
   {
     "term": "coherentism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24816,12 +25087,26 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "web of belief theory",
+      "mutual support theory"
+    ],
+    "antonymTerms": [
+      "foundationalism",
+      "infinitism"
+    ],
+    "relatedTerms": [
+      "epistemology",
+      "justification",
+      "holism",
+      "coherence"
     ]
   },
   {
     "term": "reliabilism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24833,12 +25118,25 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "reliable process theory",
+      "tracking theory"
+    ],
+    "antonymTerms": [
+      "internalism"
+    ],
+    "relatedTerms": [
+      "epistemology",
+      "externalism",
+      "justification",
+      "knowledge"
     ]
   },
   {
     "term": "internalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24850,12 +25148,25 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "mentalism",
+      "deontologism"
+    ],
+    "antonymTerms": [
+      "externalism"
+    ],
+    "relatedTerms": [
+      "epistemology",
+      "justification",
+      "access",
+      "introspection"
     ]
   },
   {
     "term": "externalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24868,12 +25179,25 @@
           "philosophy of language"
         ]
       }
+    ],
+    "synonyms": [
+      "naturalism",
+      "reliabilism"
+    ],
+    "antonymTerms": [
+      "internalism"
+    ],
+    "relatedTerms": [
+      "epistemology",
+      "content",
+      "justification",
+      "knowledge"
     ]
   },
   {
     "term": "defeasibility",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24886,12 +25210,26 @@
           "logic"
         ]
       }
+    ],
+    "synonyms": [
+      "rebuttability",
+      "overridability"
+    ],
+    "antonymTerms": [
+      "indefeasibility",
+      "conclusiveness"
+    ],
+    "relatedTerms": [
+      "fallibilism",
+      "justification",
+      "epistemology",
+      "prima facie"
     ]
   },
   {
     "term": "incommensurability",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24903,12 +25241,25 @@
           "epistemology"
         ]
       }
+    ],
+    "synonyms": [
+      "incomparability",
+      "radical difference"
+    ],
+    "antonymTerms": [
+      "commensurability"
+    ],
+    "relatedTerms": [
+      "paradigm",
+      "underdetermination",
+      "relativism",
+      "translation"
     ]
   },
   {
     "term": "underdetermination",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24920,12 +25271,25 @@
           "epistemology"
         ]
       }
+    ],
+    "synonyms": [
+      "empirical equivalence",
+      "confirmation holism"
+    ],
+    "antonymTerms": [
+      "overdetermination"
+    ],
+    "relatedTerms": [
+      "incommensurability",
+      "theory",
+      "evidence",
+      "empiricism"
     ]
   },
   {
     "term": "epistemology",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24937,6 +25301,17 @@
           "epistemology"
         ]
       }
+    ],
+    "synonyms": [
+      "gnoseology",
+      "theory of knowledge"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ontology",
+      "metaphysics",
+      "justification",
+      "knowledge"
     ]
   },
   {
@@ -24957,7 +25332,7 @@
   {
     "term": "epistemic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -24969,12 +25344,24 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "epistemological",
+      "cognitive",
+      "gnostic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "doxastic",
+      "alethic",
+      "deontic",
+      "propositional"
     ]
   },
   {
     "term": "deflationism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24987,6 +25374,20 @@
           "philosophy of language"
         ]
       }
+    ],
+    "synonyms": [
+      "minimalism",
+      "deflationary theory"
+    ],
+    "antonymTerms": [
+      "inflationism",
+      "substantivism"
+    ],
+    "relatedTerms": [
+      "truth",
+      "disquotationalism",
+      "redundancy theory",
+      "pragmatism"
     ]
   }
 ]
