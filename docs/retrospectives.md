@@ -1200,3 +1200,39 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 
 ### Suggested improvement
 - Relations agents should include a second pass to deduplicate relatedTerms arrays before committing, to avoid simple copy-paste duplicates reaching the QA stage.
+
+---
+
+## Retro — vocab/enricher-en-15 (enricher agent run)
+
+**Date:** 2025-07-18
+**Branch:** vocab/enricher-en-15
+**Commit:** 40e4bd9
+
+### What was done
+- Preflight JSON validation on `words_staging.json` — 530 entries, valid JSON.
+- Counted 130 stubs; identified 35 targets from three specified domains.
+- Enriched 35 stubs across cognitive science (15), behavioral economics (10), and materials science (10) domains.
+- Each entry received: correct `partOfSpeech`, 1–2 semantically distinct `meanings` each with `definition`, `example`, `register`, and `tags`.
+- `status` set to `"enriched"` for all 35 entries.
+- Ran `validate_words.py --errors-for enriched` — 530 entries passed; 26 pre-existing warnings in `approved` entries outside scope (unchanged).
+
+### Stats
+| Domain | Terms enriched |
+|--------|---------------|
+| Cognitive science | 15 (affordance → prospection) |
+| Behavioral economics | 10 (satisficing → quasirationality) |
+| Materials science | 10 (annealing → porosity) |
+| **Total** | **35** |
+
+### Issues / notes
+- All 35 target stubs had blank `partOfSpeech`; assigned during enrichment based on primary grammatical usage.
+- Several terms are cross-domain: `dendrite` (materials science + neuroscience), `plasticity` (materials + neuroscience), `phenomenology` (philosophy + materials science) — both senses captured in distinct meaning entries with appropriate tags.
+- `hyperbolic` carries both the behavioral-economics technical sense (hyperbolic discounting) and the everyday rhetorical sense; both enriched since the term appears at C1+ level in both contexts.
+- 26 pre-existing `approved` entries with synonym-count warnings are out-of-scope and untouched.
+
+### What was harder than expected
+- None; domain vocabulary was well-defined and terms were unambiguous.
+
+### Decisions
+- For cross-domain terms, included both senses as separate meaning entries rather than choosing one domain, to maximize educational value.
