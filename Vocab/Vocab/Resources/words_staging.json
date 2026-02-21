@@ -19426,7 +19426,7 @@
   {
     "term": "engram",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19458,7 +19458,7 @@
   {
     "term": "saltatory",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -19491,7 +19491,7 @@
   {
     "term": "depolarization",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19507,8 +19507,7 @@
     ],
     "synonyms": [
       "membrane depolarisation",
-      "action potential initiation",
-      "sodium influx"
+      "action potential initiation"
     ],
     "antonymTerms": [
       "hyperpolarization",
@@ -19519,12 +19518,13 @@
       "electrotonic",
       "axonogenesis",
       "action potential"
-    ]
+    ],
+    "qaNote": "'sodium influx' is the ionic mechanism that drives depolarization, not a synonym for the reduction of transmembrane potential. Removed."
   },
   {
     "term": "axonogenesis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19557,7 +19557,7 @@
   {
     "term": "electrotonic",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -19590,7 +19590,7 @@
   {
     "term": "epitope",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19606,8 +19606,7 @@
     ],
     "synonyms": [
       "antigenic determinant",
-      "antibody-binding site",
-      "immunodominant site"
+      "antibody-binding site"
     ],
     "antonymTerms": [
       "paratope",
@@ -19617,12 +19616,13 @@
       "hapten",
       "antigen",
       "antibody"
-    ]
+    ],
+    "qaNote": "'immunodominant site' refers to the highest-affinity sub-class of epitope rather than epitopes in general; it is a hyponym, not a synonym. Removed."
   },
   {
     "term": "hapten",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19638,8 +19638,7 @@
     ],
     "synonyms": [
       "incomplete antigen",
-      "partial antigen",
-      "immunogenic small molecule"
+      "partial antigen"
     ],
     "antonymTerms": [
       "complete antigen",
@@ -19650,12 +19649,13 @@
       "antigen",
       "opsonization",
       "antibody"
-    ]
+    ],
+    "qaNote": "'immunogenic small molecule' is factually incorrect: haptens are non-immunogenic on their own and require conjugation to a carrier protein to elicit an immune response. Removed."
   },
   {
     "term": "opsonization",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19670,7 +19670,6 @@
       }
     ],
     "synonyms": [
-      "antibody opsonisation",
       "immune coating",
       "phagocytic priming"
     ],
@@ -19683,12 +19682,13 @@
       "epitope",
       "hapten",
       "complement"
-    ]
+    ],
+    "qaNote": "'antibody opsonisation' is (a) a near-self-reference (British spelling variant of the headword) and (b) a hyponym covering only antibody-mediated opsonization, excluding complement-mediated opsonization. Removed."
   },
   {
     "term": "phagocytosis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19720,7 +19720,7 @@
   {
     "term": "cytokine",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19735,9 +19735,7 @@
       }
     ],
     "synonyms": [
-      "immune mediator",
-      "inflammatory signalling protein",
-      "lymphokine"
+      "immune mediator"
     ],
     "antonymTerms": [
       "anti-inflammatory mediator",
@@ -19748,12 +19746,13 @@
       "interleukin",
       "immunosuppression",
       "phagocytosis"
-    ]
+    ],
+    "qaNote": "'lymphokine' is a hyponym (cytokines produced specifically by lymphocytes). 'Inflammatory signalling protein' is inaccurate as the cytokine class includes anti-inflammatory mediators such as IL-10 and TGF-β. Both removed."
   },
   {
     "term": "chemokine",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19786,7 +19785,7 @@
   {
     "term": "immunosuppression",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19802,8 +19801,7 @@
     ],
     "synonyms": [
       "immune suppression",
-      "immune dampening",
-      "immunoablation"
+      "immune dampening"
     ],
     "antonymTerms": [
       "immunostimulation",
@@ -19814,12 +19812,13 @@
       "cytokine",
       "tolerogenesis",
       "transplant rejection"
-    ]
+    ],
+    "qaNote": "'immunoablation' denotes complete destruction of immune function (as in myeloablative pre-transplant conditioning), a distinct and more extreme clinical procedure, not a synonym for general reduction of immune responsiveness. Removed."
   },
   {
     "term": "autoimmunity",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19852,7 +19851,7 @@
   {
     "term": "anaphylaxis",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19867,7 +19866,6 @@
       }
     ],
     "synonyms": [
-      "anaphylactic shock",
       "severe allergic reaction",
       "systemic hypersensitivity"
     ],
@@ -19880,12 +19878,13 @@
       "cytokine",
       "immunosuppression",
       "mast cell"
-    ]
+    ],
+    "qaNote": "'anaphylactic shock' refers specifically to the cardiovascular collapse phase; anaphylaxis encompasses the full systemic hypersensitivity reaction, which may not always progress to haemodynamic shock. It is a severe sub-manifestation, not a synonym. Removed."
   },
   {
     "term": "tolerogenesis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19919,7 +19918,7 @@
   {
     "term": "hematopoiesis",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19934,7 +19933,6 @@
       }
     ],
     "synonyms": [
-      "haematopoiesis",
       "blood cell production"
     ],
     "antonymTerms": [
@@ -19947,12 +19945,13 @@
       "leukopoiesis",
       "myelopoiesis"
     ],
-    "tags": []
+    "tags": [],
+    "qaNote": "'haematopoiesis' is the British English spelling variant of the same term and constitutes a self-reference. Removed."
   },
   {
     "term": "redshift",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19984,7 +19983,7 @@
   {
     "term": "parallax",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20015,7 +20014,7 @@
   {
     "term": "parsec",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20030,8 +20029,7 @@
       }
     ],
     "synonyms": [
-      "parallax second",
-      "3.26 light-years"
+      "parallax second"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -20041,12 +20039,13 @@
       "megaparsec",
       "astrometry"
     ],
-    "tags": []
+    "tags": [],
+    "qaNote": "'3.26 light-years' is the approximate numerical equivalence of one parsec expressed in a different unit, not a synonym for the unit itself. Removed."
   },
   {
     "term": "quasar",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20077,7 +20076,7 @@
   {
     "term": "pulsar",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20108,7 +20107,7 @@
   {
     "term": "magnetar",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20139,7 +20138,7 @@
   {
     "term": "nucleosynthesis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20169,7 +20168,7 @@
   {
     "term": "asteroseismology",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20200,7 +20199,7 @@
   {
     "term": "exoplanet",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20231,7 +20230,7 @@
   {
     "term": "perihelion",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20263,7 +20262,7 @@
   {
     "term": "syzygy",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20278,8 +20277,7 @@
       }
     ],
     "synonyms": [
-      "celestial alignment",
-      "orbital conjunction"
+      "celestial alignment"
     ],
     "antonymTerms": [
       "quadrature"
@@ -20291,12 +20289,13 @@
       "lunar cycle",
       "gravitational alignment"
     ],
-    "tags": []
+    "tags": [],
+    "qaNote": "'orbital conjunction' covers only the case where aligned bodies lie on the same side (0°); syzygy includes both conjunction and opposition (180°). It is a hyponym covering half the concept. Removed."
   },
   {
     "term": "thermohaline",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -20311,8 +20310,8 @@
       }
     ],
     "synonyms": [
-      "density-driven circulation",
-      "abyssal circulation"
+      "density-driven",
+      "halothermal"
     ],
     "antonymTerms": [
       "wind-driven circulation"
@@ -20324,12 +20323,13 @@
       "deep water formation",
       "climate regulation"
     ],
-    "tags": []
+    "tags": [],
+    "qaNote": "Synonyms 'density-driven circulation' and 'abyssal circulation' are noun phrases inconsistent with the adjective part of speech. Replaced with adjective equivalents: 'density-driven' and 'halothermal'."
   },
   {
     "term": "permafrost",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20347,21 +20347,20 @@
       "permanently frozen ground",
       "pergelisol"
     ],
-    "antonymTerms": [
-      "active layer"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
       "cryosphere",
       "thermokarst",
       "methane emission",
       "Arctic amplification"
     ],
-    "tags": []
+    "tags": [],
+    "qaNote": "'active layer' is the seasonally thawed surface layer directly overlying permafrost; it is spatially adjacent and dependent on permafrost, not its antonym. Removed from antonyms."
   },
   {
     "term": "cryosphere",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20392,7 +20391,7 @@
   {
     "term": "paleoclimate",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20407,8 +20406,7 @@
       }
     ],
     "synonyms": [
-      "past climate",
-      "ancient climate record"
+      "past climate"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -20418,12 +20416,13 @@
       "Holocene",
       "climate forcing"
     ],
-    "tags": []
+    "tags": [],
+    "qaNote": "'ancient climate record' refers to proxy data sources (ice cores, sediment cores, tree rings) used to reconstruct past climates, not to paleoclimate itself. It is an evidentiary concept, not a synonym. Removed."
   },
   {
     "term": "teleconnection",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20456,7 +20455,7 @@
   {
     "term": "insolation",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20489,7 +20488,7 @@
   {
     "term": "phenology",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20504,7 +20503,6 @@
       }
     ],
     "synonyms": [
-      "seasonal ecology",
       "biological seasonality study"
     ],
     "antonymTerms": [],
@@ -20515,12 +20513,13 @@
       "climate indicators",
       "biological timing"
     ],
-    "tags": []
+    "tags": [],
+    "qaNote": "'seasonal ecology' is too broad: ecology encompasses all organism-environment relationships, whereas phenology is specifically the study of cyclic and seasonal biological events (flowering, migration, hatching). Removed."
   },
   {
     "term": "aerosol",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20535,7 +20534,6 @@
       }
     ],
     "synonyms": [
-      "atmospheric particulate",
       "airborne particle suspension"
     ],
     "antonymTerms": [],
@@ -20544,7 +20542,8 @@
       "cloud condensation nuclei",
       "air quality"
     ],
-    "tags": []
+    "tags": [],
+    "qaNote": "'atmospheric particulate' typically denotes solid particles only; aerosols include both solid particles and liquid droplets suspended in a gas medium. Removed to avoid misrepresenting the class."
   },
   {
     "term": "catachresis",

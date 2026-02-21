@@ -14700,24 +14700,63 @@
   {
     "term": "sviestas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A solid dairy product made by churning cream, used as a spread or in cooking.",
+        "example": "Užtepiau sviesto ant duonos ir išgėriau stiklinę pieno.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "dairy",
+          "ingredient",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "grietinė",
+      "pienas",
+      "aliejus",
+      "duona"
+    ],
+    "translation": "butter",
+    "qaNote": "Basic dairy ingredient central to Lithuanian cooking. Nominative singular: sviestas."
   },
   {
     "term": "varškė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A soft, fresh dairy product made from curdled milk, used in traditional Lithuanian cooking and baking.",
+        "example": "Iš varškės gaminu sūrelius ir valgau juos su grietine.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "dairy",
+          "ingredient",
+          "Lithuanian",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tvartas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pienas",
+      "grietinė",
+      "sūris",
+      "varškėčiai"
+    ],
+    "translation": "cottage cheese, curd",
+    "qaNote": "Core ingredient in Lithuanian cuisine; used in varškėčiai (curd pancakes) and many desserts."
   },
   {
     "term": "Dešra",
@@ -14744,46 +14783,120 @@
   {
     "term": "jautiena",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Meat from a cow or bull, used in cooking.",
+        "example": "Jautienos troškinys su daržovėmis yra mano mėgstamiausias patiekalas.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "meat",
+          "ingredient",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kiauliena",
+      "vištiena",
+      "mėsa",
+      "troškinys"
+    ],
+    "translation": "beef",
+    "qaNote": "Nominative singular: jautiena. Not to be confused with 'veršiena' (veal)."
   },
   {
     "term": "kiauliena",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Meat from a pig, the most widely used meat in Lithuanian traditional cooking.",
+        "example": "Lietuviai dažnai gamina kiaulienos kepsnius ir dešras.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "meat",
+          "ingredient",
+          "Lithuanian",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "jautiena",
+      "kumpis",
+      "lašiniai",
+      "mėsa"
+    ],
+    "translation": "pork",
+    "qaNote": "Most common meat in Lithuanian cuisine. Nominative singular: kiauliena."
   },
   {
     "term": "kumpis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Cured or smoked pork leg, eaten as a cold cut or used in cooking.",
+        "example": "Per Velykas ant stalo tradiciškai dedamas virtas kumpis.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "meat",
+          "Lithuanian",
+          "cured",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kiauliena",
+      "dešra",
+      "rūkytas",
+      "šaltiena"
+    ],
+    "translation": "ham",
+    "qaNote": "Especially associated with Easter (Velykos) in Lithuanian tradition."
   },
   {
     "term": "vištiena",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Meat from a chicken, widely used in everyday Lithuanian cooking.",
+        "example": "Vištienos sriuba su daržovėmis — populiarus pietų patiekalas.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "meat",
+          "ingredient",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "jautiena",
+      "kiauliena",
+      "mėsa",
+      "sriuba"
+    ],
+    "translation": "chicken (meat)",
+    "qaNote": "Refers to the meat, not the live bird ('višta')."
   },
   {
     "term": "žuvis",
@@ -14810,35 +14923,90 @@
   {
     "term": "lašiša",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large saltwater fish with pink flesh, valued for its flavour and nutritional content.",
+        "example": "Kepta lašiša su citrina ir žolelėmis labai skani.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "fish",
+          "seafood",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žuvis",
+      "silkė",
+      "upėtakis",
+      "jūros gėrybės"
+    ],
+    "translation": "salmon",
+    "qaNote": "Nominative singular: lašiša."
   },
   {
     "term": "paštetas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A smooth, spreadable paste made from minced meat, liver, or fish, used as a spread or appetiser.",
+        "example": "Užtepiau pašteto ant duonos ir padėjau ant stalo.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "spread",
+          "ingredient",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kepenų paštetas",
+      "duona",
+      "sviestas",
+      "sumuštinis"
+    ],
+    "translation": "pâté, paste",
+    "qaNote": "Common in Lithuanian households; liver pâté (kepenų paštetas) is especially popular."
   },
   {
     "term": "silkė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A saltwater fish of the herring family, traditionally eaten pickled or salted in Lithuania.",
+        "example": "Silkė su virtomis bulvėmis — klasikinis lietuviškas patiekalas.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "fish",
+          "seafood",
+          "Lithuanian",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žuvis",
+      "lašiša",
+      "karpis",
+      "marinuotas"
+    ],
+    "translation": "herring",
+    "qaNote": "Staple in Lithuanian traditional diet. Often served salted or marinated with potatoes."
   },
   {
     "term": "Bandelė",
@@ -15682,13 +15850,31 @@
   {
     "term": "miltai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A fine powder made by grinding grain, used as a basic ingredient in bread, cakes, and dumplings.",
+        "example": "Supyliau miltus į dubenį ir pradėjau minkti tešlą.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "ingredient",
+          "baking",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tešla",
+      "duona",
+      "kepimas",
+      "kvietiniai miltai"
+    ],
+    "translation": "flour",
+    "qaNote": "Plural-only noun (plurale tantum) in standard usage. Nominative plural: miltai."
   },
   {
     "term": "ryžiai",
@@ -15735,13 +15921,32 @@
   {
     "term": "grikiai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A plant whose seeds are used as a grain substitute; a traditional staple in Lithuanian cooking, often eaten as a side dish.",
+        "example": "Virtus grikius patiekiame su keptu svogūnu ir grybais.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "grain",
+          "ingredient",
+          "Lithuanian",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "manai",
+      "avižiniai dribsniai",
+      "košė",
+      "ryžiai"
+    ],
+    "translation": "buckwheat",
+    "qaNote": "Traditional Lithuanian grain; typically plural in usage (grikiai). Buckwheat groats are a popular side dish."
   },
   {
     "term": "manai",
@@ -15757,35 +15962,90 @@
   {
     "term": "actas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A sour liquid made by fermenting ethanol, used as a condiment and preservative in cooking.",
+        "example": "Įpyliau šiek tiek acto į salotas ir sumaišiau.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "condiment",
+          "ingredient",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "obuolių actas",
+      "marinatas",
+      "raugintas",
+      "padažas"
+    ],
+    "translation": "vinegar",
+    "qaNote": "Used in pickling (marinavimas) and as a salad dressing base. Nominative singular: actas."
   },
   {
     "term": "garstyčios",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A condiment made from mustard seeds, typically yellow or Dijon style, used as a spread or in sauces.",
+        "example": "Užtepiau garstyčių ant dešros ir suvyniojau į bandelę.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "condiment",
+          "ingredient",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "krienai",
+      "majonezas",
+      "padažas",
+      "prieskoniai"
+    ],
+    "translation": "mustard",
+    "qaNote": "Plural-only form in standard Lithuanian usage: garstyčios. Commonly paired with dešra (sausage)."
   },
   {
     "term": "krienai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A pungent root vegetable used as a sharp condiment, especially with meat and fish dishes.",
+        "example": "Prie kepto kumpukio tradiciškai patiekiami tarkuoti krienai.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "condiment",
+          "ingredient",
+          "Lithuanian",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "garstyčios",
+      "prieskoniai",
+      "kumpis",
+      "silkė"
+    ],
+    "translation": "horseradish",
+    "qaNote": "Plural-only form in standard Lithuanian: krienai. Traditional condiment for cured meats and fish."
   },
   {
     "term": "majonezas",
@@ -15801,24 +16061,61 @@
   {
     "term": "padažas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A liquid or semi-liquid preparation served with food to add flavour or moisture.",
+        "example": "Užpyliau pomidorų padažo ant makaronų.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "condiment",
+          "cooking",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "sultinys",
+      "majonezas",
+      "garstyčios",
+      "prieskoniai"
+    ],
+    "translation": "sauce, gravy, dressing",
+    "qaNote": "General term for sauces; covers gravies, dressings, and cooking sauces."
   },
   {
     "term": "Medus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A sweet, viscous food substance produced by bees from flower nectar, used as a sweetener and traditional remedy.",
+        "example": "Įpyliau šaukštą medaus į arbatą.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "sweetener",
+          "ingredient",
+          "Lithuanian",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "bičių medus",
+      "arbata",
+      "cukrus",
+      "namų gamybos"
+    ],
+    "translation": "honey",
+    "qaNote": "Term capitalised ('Medus') in source — should be 'medus'. Lithuania has a strong beekeeping tradition; honey is used in cuisine and folk medicine."
   },
   {
     "term": "pyragaitis",
@@ -16361,35 +16658,94 @@
   {
     "term": "keptas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Cooked by dry heat in an oven or pan with fat; baked or fried.",
+        "example": "Keptos bulvės su grietine labai skanios.",
+        "register": "neutral",
+        "tags": [
+          "cooking",
+          "technique",
+          "food",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "virtas"
+    ],
+    "relatedTerms": [
+      "keptuvė",
+      "orkaitė",
+      "kepsnys",
+      "riebalas"
+    ],
+    "translation": "fried, baked, roasted",
+    "qaNote": "Past passive participle of 'kepti' used as adjective. Covers frying in a pan and baking in the oven."
   },
   {
     "term": "virtas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Cooked in boiling water or liquid.",
+        "example": "Virtos bulvės su krapais — tradicinis lietuviškas garnyras.",
+        "register": "neutral",
+        "tags": [
+          "cooking",
+          "technique",
+          "food",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "keptas"
+    ],
+    "relatedTerms": [
+      "virti",
+      "puodas",
+      "vanduo",
+      "košė"
+    ],
+    "translation": "boiled, cooked",
+    "qaNote": "Past passive participle of 'virti'. Antonym 'keptas' (fried/baked) added as direct contrast."
   },
   {
     "term": "rūkytas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Preserved or flavoured by exposure to smoke, typically applied to meat, fish, or cheese.",
+        "example": "Rūkytos dešros kvapas sklido per visą turgų.",
+        "register": "neutral",
+        "tags": [
+          "cooking",
+          "technique",
+          "food",
+          "preservation",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kumpis",
+      "dešra",
+      "lašiša",
+      "konservavimas"
+    ],
+    "translation": "smoked",
+    "qaNote": "Past passive participle of 'rūkyti' (to smoke). Smoking is a key preservation technique in Lithuanian charcuterie tradition."
   },
   {
     "term": "džiovintas",
@@ -16405,35 +16761,93 @@
   {
     "term": "raugintas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Preserved through natural fermentation using salt water or other acidic liquids, without the use of vinegar.",
+        "example": "Raugintas kopūstas žiemą yra tradicinis lietuviškas patiekalas.",
+        "register": "neutral",
+        "tags": [
+          "cooking",
+          "technique",
+          "food",
+          "preservation",
+          "Lithuanian",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "marinuotas",
+      "sūdytas",
+      "rauginimas",
+      "kopūstas"
+    ],
+    "translation": "fermented, lacto-pickled",
+    "qaNote": "Distinct from 'marinuotas' (marinated with vinegar); 'raugintas' uses lactic fermentation. Central to Lithuanian winter food preservation."
   },
   {
     "term": "marinuotas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Preserved or flavoured by soaking in a seasoned acidic liquid (marinade), typically with vinegar, oil, and spices.",
+        "example": "Marinuoti grybai su svogūnu ir prieskoniais labai gardūs.",
+        "register": "neutral",
+        "tags": [
+          "cooking",
+          "technique",
+          "food",
+          "preservation",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "raugintas",
+      "actas",
+      "marinatavimas",
+      "konservavimas"
+    ],
+    "translation": "marinated, pickled (with vinegar)",
+    "qaNote": "Contrast with 'raugintas' (lacto-fermented); 'marinuotas' implies acidification with vinegar."
   },
   {
     "term": "sūdytas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Preserved or seasoned by applying salt.",
+        "example": "Sūdyta silkė laikoma šaldytuve ir valgoma su bulvėmis.",
+        "register": "neutral",
+        "tags": [
+          "cooking",
+          "technique",
+          "food",
+          "preservation",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "druska",
+      "rūkytas",
+      "raugintas",
+      "konservavimas"
+    ],
+    "translation": "salted",
+    "qaNote": "Past passive participle of 'sūdyti' (to salt). Salting is one of the oldest food preservation methods in Lithuanian tradition."
   },
   {
     "term": "žalias",
@@ -16976,68 +17390,182 @@
   {
     "term": "Barščiai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A traditional Eastern European soup made with beetroot, often served with sour cream; a staple in Lithuanian and broader Baltic cuisine.",
+        "example": "Mama nuvirė barščius su grietine ir šviežiais krapais.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "soup",
+          "Lithuanian",
+          "traditional",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šaltibarščiai",
+      "sriuba",
+      "burokėlis",
+      "grietinė"
+    ],
+    "translation": "borscht, beetroot soup",
+    "qaNote": "Term capitalised ('Barščiai') in source — should be 'barščiai'. Plural-only form in Lithuanian. Hot barščiai (winter version) should be distinguished from šaltibarščiai (cold summer soup)."
   },
   {
     "term": "sriuba",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A liquid dish made by boiling vegetables, meat, or fish in water or broth, typically served as a first course.",
+        "example": "Per pietus visada valgome sriubą su duona.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "soup",
+          "cooking",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "sultinys",
+      "barščiai",
+      "troškinys",
+      "daržovės"
+    ],
+    "translation": "soup",
+    "qaNote": "General term for soup. 'Sultinys' (broth/stock) is more specific — a clear liquid base."
   },
   {
     "term": "sultinys",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A clear liquid broth made by simmering meat, bones, or vegetables in water, used as a soup base or drink.",
+        "example": "Viriau vištienos sultinį ir naudojau jį kaip sriubos pagrindą.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "soup",
+          "cooking",
+          "ingredient",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "sriuba",
+      "vištiena",
+      "mėsa",
+      "bazė"
+    ],
+    "translation": "broth, stock, consommé",
+    "qaNote": "Distinct from 'sriuba' (soup) — sultinys is a clear liquid base, not a complete dish on its own."
   },
   {
     "term": "šaltibarščiai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A traditional Lithuanian cold soup made from kefir or buttermilk with cooked beetroot, cucumber, boiled eggs, and dill, served chilled in summer.",
+        "example": "Vasarą dažnai valgome šaltibarščius su virtomis bulvėmis.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "soup",
+          "Lithuanian",
+          "traditional",
+          "summer",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "barščiai",
+      "burokėlis",
+      "kefyras",
+      "krapai"
+    ],
+    "translation": "cold beet soup (Lithuanian cold soup)",
+    "qaNote": "Iconic Lithuanian summer dish. Plural-only noun. Literally 'cold barščiai'. The pink colour comes from beetroot mixed with kefir."
   },
   {
     "term": "balandėliai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Stuffed cabbage rolls filled with minced meat and rice or buckwheat, simmered in tomato sauce; a traditional Lithuanian main course.",
+        "example": "Močiutė gamino balandėlius su kiauliena ir ryžiais.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "dish",
+          "Lithuanian",
+          "traditional",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kopūstas",
+      "malta mėsa",
+      "ryžiai",
+      "pomidorų padažas"
+    ],
+    "translation": "stuffed cabbage rolls",
+    "qaNote": "Diminutive of 'balandis' (pigeon) — the rolls resemble little doves. Plural-only form."
   },
   {
     "term": "blynai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Thin flat cakes made from a batter of flour, eggs, and milk and cooked in a pan; a popular everyday and festive food in Lithuania.",
+        "example": "Sekmadienį mama kepa blynus su uogiene arba grietine.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "dish",
+          "Lithuanian",
+          "traditional",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tešla",
+      "keptuvė",
+      "varškė",
+      "uogienė"
+    ],
+    "translation": "pancakes, crêpes",
+    "qaNote": "Lithuanian blynai are thinner than American pancakes, closer to crêpes. Plural-only form. Often served with jam (uogienė) or curd (varškė)."
   },
   {
     "term": "didžkukuliai",
@@ -17053,35 +17581,95 @@
   {
     "term": "cepelinai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Large oval dumplings made from grated and boiled potato dough, stuffed with minced meat or curd, and served with sour cream and bacon sauce; the national dish of Lithuania.",
+        "example": "Cepelinai su mėsos įdaru ir spirgučiais yra tradicinis lietuviškas patiekalas.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "dish",
+          "Lithuanian",
+          "traditional",
+          "national",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "didžkukuliai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "bulvės",
+      "malta mėsa",
+      "grietinė",
+      "spirgučiai"
+    ],
+    "translation": "cepelinai (Lithuanian potato dumplings)",
+    "qaNote": "National dish of Lithuania. Named after zeppelin airships due to their shape. 'Didžkukuliai' is the older/regional synonym."
   },
   {
     "term": "kepsnys",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A piece of meat or fish cooked by frying or roasting, often served as the main course.",
+        "example": "Kiaulienos kepsnys su bulvėmis ir padažu yra geras pietų patiekalas.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "dish",
+          "meat",
+          "cooking",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "keptas",
+      "mėsa",
+      "keptuvė",
+      "orkaitė"
+    ],
+    "translation": "roast, steak, fried cutlet",
+    "qaNote": "Derived from 'kepti' (to fry/bake). Broad term covering pan-fried and oven-roasted meat portions."
   },
   {
     "term": "kiaušinienė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A dish of eggs cooked by breaking and frying them in a pan, either as fried eggs (sunny-side up) or scrambled.",
+        "example": "Ryte iškepu kiaušinienę su pomidorais ir sumuštinį.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "dish",
+          "breakfast",
+          "cooking",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kiaušinis",
+      "omletas",
+      "keptuvė",
+      "pusryčiai"
+    ],
+    "translation": "fried eggs, scrambled eggs",
+    "qaNote": "Derived from 'kiaušinis' (egg). Covers both sunny-side up and scrambled preparations."
   },
   {
     "term": "koldūnai",
@@ -17097,24 +17685,61 @@
   {
     "term": "košė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A thick, soft dish made by cooking grain or vegetables in liquid until soft; also used for mashed potatoes.",
+        "example": "Virtus grikius sutrinu į košę ir patiekiu prie kepsnio.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "dish",
+          "cooking",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "bulvių košė",
+      "grikiai",
+      "avižiniai dribsniai",
+      "pienas"
+    ],
+    "translation": "porridge, mash, purée",
+    "qaNote": "Covers both grain porridges (grikių košė, avižinė košė) and mashed vegetables (bulvių košė = mashed potatoes)."
   },
   {
     "term": "kotletas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A shaped patty of minced meat, mixed with onion, egg, and breadcrumbs, then fried; a common home-cooked dish in Lithuania.",
+        "example": "Mama padarė kiaulienos kotletus su bulvių koše.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "dish",
+          "meat",
+          "cooking",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "malta mėsa",
+      "keptas",
+      "blynai",
+      "kepsnys"
+    ],
+    "translation": "meat patty, rissole, kotlet",
+    "qaNote": "Loanword from Russian/French. In Lithuanian context, kotletas is a pan-fried minced-meat patty, not a bone-in chop."
   },
   {
     "term": "omletas",
@@ -17130,24 +17755,64 @@
   {
     "term": "troškinys",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A dish of meat and/or vegetables cooked slowly in a small amount of liquid over low heat.",
+        "example": "Troškinu jautieną su morkomis ir svogūnais valandą.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "dish",
+          "cooking",
+          "technique",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "troškinimas",
+      "mėsa",
+      "daržovės",
+      "kepsnys"
+    ],
+    "translation": "stew, braise",
+    "qaNote": "Derived from 'troškinti' (to stew/braise). A fundamental cooking method in Lithuanian home cuisine."
   },
   {
     "term": "virtiniai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Small boiled dumplings made from unleavened dough stuffed with minced meat, mushrooms, or berries.",
+        "example": "Virtiniai su mėsa patiekiami su grietine ir svogūnais.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "dish",
+          "Lithuanian",
+          "traditional",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "koldūnai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "cepelinai",
+      "tešla",
+      "mėsa",
+      "grietinė"
+    ],
+    "translation": "boiled dumplings",
+    "qaNote": "Plural-only form. 'Koldūnai' is a close synonym (often used interchangeably). Distinct from cepelinai (potato dough) — virtiniai use flour dough."
   },
   {
     "term": "Raudonas",
@@ -27823,7 +28488,7 @@
     "term": "darbuotojas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man employed by an organisation or employer to perform work in exchange for payment.",
@@ -27846,14 +28511,13 @@
       "darbuotoja",
       "kolega"
     ],
-    "translation": "employee",
-    "qaNote": "Synonym 'tarnautojas' primarily denotes a white-collar official or civil servant rather than a general employee. It is not an accurate general synonym for 'darbuotojas', which refers to any employee regardless of role or sector. Replace with a more accurate synonym."
+    "translation": "employee"
   },
   {
     "term": "darbuotoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman employed by an organisation or employer to perform work in exchange for payment.",
@@ -27876,8 +28540,7 @@
       "darbuotojas",
       "kolegė"
     ],
-    "translation": "employee (female)",
-    "qaNote": "Synonym 'tarnautoja' carries the same problem as 'tarnautojas' for the masculine form: it primarily denotes a female civil servant or white-collar official, not a general female employee. Replace with a more accurate synonym."
+    "translation": "employee (female)"
   },
   {
     "term": "direktorius",
@@ -28150,7 +28813,7 @@
     "term": "bedarbė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who is without paid employment and is registered as seeking work.",
@@ -28180,7 +28843,7 @@
     "term": "dalyvis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A person who takes part in an activity, event, or public process such as elections or civic discussions.",
@@ -28209,7 +28872,7 @@
     "term": "dalyvė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who takes part in an activity, meeting, or civic process.",
@@ -28237,7 +28900,7 @@
     "term": "išsilavinimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The level of academic or professional training and qualifications a person has acquired through formal schooling.",
@@ -28251,8 +28914,7 @@
       }
     ],
     "synonyms": [
-      "išmokslinimas",
-      "kvalifikacija"
+      "išmokslinimas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -28260,7 +28922,8 @@
       "universitetas",
       "diplomas"
     ],
-    "translation": "education"
+    "translation": "education",
+    "qaNote": "'kvalifikacija' (qualification/professional credentials) denotes specific competency recognition rather than educational attainment in general; it is a related but semantically distinct concept. Removed."
   },
   {
     "term": "komandiruotė",
@@ -28293,7 +28956,7 @@
     "term": "konferencija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A large formal meeting where professionals gather to discuss topics in their field.",
@@ -28315,14 +28978,13 @@
       "pranešimas",
       "posėdis"
     ],
-    "translation": "conference",
-    "qaNote": "Synonym 'forumas' (forum) is not synonymous with 'konferencija' (conference): a forum is an open discussion platform or assembly, whereas a conference is a structured professional gathering with scheduled presentations and sessions. Replace with an accurate synonym."
+    "translation": "conference"
   },
   {
     "term": "kursai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A series of lessons or training sessions, often delivered online or through a learning platform.",
@@ -28380,7 +29042,7 @@
     "term": "seminaras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A training or educational meeting where participants discuss a topic or develop professional skills.",
@@ -28401,8 +29063,7 @@
       "pranešimas",
       "dirbtuvės"
     ],
-    "translation": "seminar",
-    "qaNote": "Synonym 'mokymai' (training, plural) is broader than 'seminaras': mokymai encompasses all forms of training including on-the-job instruction and workshops, while a seminar is a specific structured educational event. Replace with a more precise synonym."
+    "translation": "seminar"
   },
   {
     "term": "susirinkimas",
@@ -28571,7 +29232,7 @@
     "term": "parašas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A person's name written by hand to authorise documents or confirm identity.",
@@ -28583,9 +29244,7 @@
         ]
       }
     ],
-    "synonyms": [
-      "rankinis ženklas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "dokumentas",
@@ -28593,13 +29252,13 @@
       "vardas"
     ],
     "translation": "signature",
-    "qaNote": "Synonym 'autografas' is inaccurate: in Lithuanian, 'autografas' typically refers to a celebrity's keepsake autograph rather than a general handwritten signature. 'Parašas' is the everyday term for any signature. Replace 'autografas' with a more accurate synonym."
+    "qaNote": "'rankinis ženklas' (hand mark/sign) is not a natural or established synonym for 'parašas' in contemporary Lithuanian and may be confused with a hand gesture. Removed; 'parašas' has no widely accepted single-word synonym."
   },
   {
     "term": "pasas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An official government-issued travel document certifying the holder's identity and citizenship, required for international travel.",
@@ -28628,7 +29287,7 @@
     "term": "paso numeris",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The unique alphanumeric identifier printed in a passport, used for official registration and identification purposes.",
@@ -28641,23 +29300,21 @@
         ]
       }
     ],
-    "synonyms": [
-      "paso eilės numeris",
-      "dokumento numeris"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "pasas",
       "dokumentas",
       "asmens kodas"
     ],
-    "translation": "passport number"
+    "translation": "passport number",
+    "qaNote": "Both synonyms 'paso eilės numeris' and 'dokumento numeris' share word tokens with the term 'paso numeris' ('paso', 'numeris'), constituting self-references. Both removed."
   },
   {
     "term": "prašymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A formal written request submitted to an authority, employer, or institution for a particular purpose.",
@@ -28670,7 +29327,7 @@
       }
     ],
     "synonyms": [
-      "peticija"
+      "paraiška"
     ],
     "antonymTerms": [
       "atsisakymas"
@@ -28681,7 +29338,7 @@
       "forma"
     ],
     "translation": "application, request",
-    "qaNote": "Synonym 'pareiškimas' (declaration/statement) is semantically distinct from 'prašymas' (request/application): a pareiškimas declares or announces something, while a prašymas formally requests something. They are related administrative document types but not synonymous. Replace with an accurate synonym."
+    "qaNote": "'peticija' (petition) is a specific sub-type of formal request typically collective and addressed to authorities, not a general synonym for 'prašymas' (any request or application). Replaced with 'paraiška' (application/request form)."
   },
   {
     "term": "sutartis",
@@ -28726,7 +29383,7 @@
     "term": "laiškas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "An electronic message sent via email.",
@@ -28751,7 +29408,6 @@
       }
     ],
     "synonyms": [
-      "žinutė",
       "epistolė"
     ],
     "antonymTerms": [],
@@ -28760,7 +29416,8 @@
       "siųsti",
       "gauti"
     ],
-    "translation": "letter; email"
+    "translation": "letter; email",
+    "qaNote": "'žinutė' (short message/text note) refers to a brief informal communication, not synonymous with 'laiškas' (a letter, typically longer and more formally structured). Removed."
   },
   {
     "term": "pašto ženklas",
@@ -28777,7 +29434,7 @@
     "term": "siuntinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A parcel or package sent by post or courier; often ordered through an online store.",
@@ -28806,7 +29463,7 @@
     "term": "gauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To receive or obtain something, such as an email, message, or file sent electronically.",
@@ -28838,7 +29495,7 @@
     "term": "siųsti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To transmit a message, file, or data to a recipient electronically.",
@@ -28881,7 +29538,7 @@
     "term": "blankas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A form or template with fields to be filled in, often submitted online.",
@@ -28922,7 +29579,7 @@
     "term": "kursas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The exchange rate of a currency, often checked on banking or financial websites.",
@@ -28963,7 +29620,7 @@
     "term": "mokėjimo kortelė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A bank-issued card used to make electronic payments in shops or online.",
@@ -28977,23 +29634,21 @@
         ]
       }
     ],
-    "synonyms": [
-      "banko kortelė",
-      "debeto kortelė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "PIN kodas",
       "atsiskaitymas",
       "internetinė bankininkystė"
     ],
-    "translation": "payment card, bank card"
+    "translation": "payment card, bank card",
+    "qaNote": "Both synonyms 'banko kortelė' and 'debeto kortelė' contain 'kortelė', a word token of the term 'mokėjimo kortelė', constituting self-references. Additionally, 'debeto kortelė' is a hyponym (debit card is one type of payment card). Both removed."
   },
   {
     "term": "moneta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A digital token used in cryptocurrency systems.",
@@ -29018,7 +29673,6 @@
       }
     ],
     "synonyms": [
-      "žetonas",
       "apyvartinis piniginis ženklas"
     ],
     "antonymTerms": [
@@ -29029,13 +29683,14 @@
       "valiuta",
       "skaitmeninis pinigas"
     ],
-    "translation": "coin; (crypto) token"
+    "translation": "coin; (crypto) token",
+    "qaNote": "'žetonas' (token) refers to a coin-shaped token used in place of money (e.g., arcade or transit token), not to a genuine coin or cryptocurrency unit. It is a related but semantically distinct item. Removed."
   },
   {
     "term": "paskola",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A sum of money borrowed from a bank or lender, often applied for through an online banking platform.",
@@ -29089,7 +29744,7 @@
     "term": "valiuta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A system of money in use in a country; also includes digital and cryptocurrencies.",
@@ -29103,17 +29758,15 @@
         ]
       }
     ],
-    "synonyms": [
-      "pinigai",
-      "mokėjimo priemonė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "kriptovaliuta",
       "kursas",
       "bankas"
     ],
-    "translation": "currency"
+    "translation": "currency",
+    "qaNote": "'pinigai' (money in general) is a hypernym of 'valiuta' (a specific currency system); 'mokėjimo priemonė' (means of payment) is broader still, encompassing cards, cheques, and other instruments. Neither is a precise synonym. Both removed."
   },
   {
     "term": "atiduoti",
@@ -29163,7 +29816,7 @@
     "term": "užpildyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To complete a form or questionnaire with the required information, often submitted online.",
@@ -29189,10 +29842,10 @@
     "translation": "to fill in, to fill out"
   },
   {
-    "term": "Atleisti",
+    "term": "atleisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "To stop feeling angry about an offence and no longer hold it against someone; to forgive.",
@@ -29216,7 +29869,6 @@
       }
     ],
     "synonyms": [
-      "dovanoti",
       "išleisti"
     ],
     "antonymTerms": [
@@ -29228,7 +29880,8 @@
       "susitaikyti",
       "kaltė"
     ],
-    "translation": "to forgive; to dismiss (from a job)"
+    "translation": "to forgive; to dismiss (from a job)",
+    "qaNote": "Term was incorrectly capitalised; corrected to 'atleisti'. Synonym 'dovanoti' removed: its primary meaning is 'to give as a gift'; 'to forgive' is a secondary archaic/literary usage, making it unsuitable as a general synonym for 'atleisti'."
   },
   {
     "term": "baigtis",
@@ -29245,7 +29898,7 @@
     "term": "dalyvauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To take part in an event, meeting, or online activity.",
@@ -29288,7 +29941,7 @@
     "term": "kreiptis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To contact someone or submit an application, often through digital channels or a website.",
@@ -29318,7 +29971,7 @@
     "term": "pasirašyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "To provide a signature, including digitally, to authorize a document or agreement.",
@@ -29333,8 +29986,7 @@
       }
     ],
     "synonyms": [
-      "patvirtinti parašu",
-      "ratifikuoti"
+      "patvirtinti parašu"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -29342,7 +29994,8 @@
       "dokumentas",
       "sutartis"
     ],
-    "translation": "to sign"
+    "translation": "to sign",
+    "qaNote": "'ratifikuoti' (to ratify) is a narrowly defined legal term for the formal confirmation of treaties or constitutional amendments by a legislative body, not a general synonym for 'pasirašyti' (to sign any document). Removed."
   },
   {
     "term": "priimti",
@@ -29370,7 +30023,7 @@
     "term": "susirinkti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To gather or assemble, including for an online meeting or conference call.",
@@ -29413,7 +30066,7 @@
     "term": "teirautis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "To ask for information or make an inquiry, especially through online customer service or a website.",
@@ -29428,8 +30081,7 @@
       }
     ],
     "synonyms": [
-      "klausti",
-      "domėtis"
+      "klausti"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -29437,7 +30089,8 @@
       "atsakymas",
       "pagalbos tarnyba"
     ],
-    "translation": "to inquire, to ask about"
+    "translation": "to inquire, to ask about",
+    "qaNote": "'domėtis' (to be interested in / to take an interest in) expresses a state of curiosity rather than the act of making formal or directed enquiries. It is semantically related but not synonymous with 'teirautis' (to inquire/ask about formally). Removed."
   },
   {
     "term": "trukti",
@@ -29454,7 +30107,7 @@
     "term": "veikti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To function or operate correctly; used to describe how devices or software behave.",
@@ -29498,7 +30151,7 @@
     "term": "klijuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "In computing, to insert copied text or data from the clipboard into a document or field.",
@@ -29538,7 +30191,7 @@
     "term": "kopijuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To duplicate text, a file, or data so it can be pasted or reused elsewhere.",
@@ -29581,7 +30234,7 @@
     "term": "trinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To remove or delete data, text, or a file from a device or document.",
@@ -29645,7 +30298,7 @@
     "term": "domėtis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To show curiosity or interest in something; to engage actively with a topic.",
