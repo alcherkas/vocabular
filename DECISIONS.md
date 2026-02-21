@@ -282,3 +282,26 @@ Vocab/
 - Terms selected at C1+ register: domain-specific, multi-syllabic, not found in common word lists.
 - Domains balanced to avoid over-indexing any single field.
 - No merges performed; branch left for PR review.
+## Retro — vocab/enricher-lt-19 (35 LT stubs)
+
+**Date:** 2026-01-19
+**Branch:** vocab/enricher-lt-19
+
+### What was enriched
+- **Transport nouns (8):** Autobusas (bus), automobilis (car), metro (subway), taksi (taxi), laivas (ship), traukinys (train), lėktuvas (airplane), dviratis (bicycle) — all A1, tagged `transport`/`vehicle`.
+- **Travel verbs & nouns (5):** keliauti (to travel), skristi (to fly), plaukti (to swim/sail), kelionė (journey), greitkelis (motorway) — A2, tagged `travel`/`movement`/`road`.
+- **Place nouns (7):** Kaimas (village), darželis (kindergarten), kinas (cinema), autobusų stotis (bus station), traukinių stotis (train station), prekybos centras (shopping centre), turgaus aikštė (market square) — A1/A2, tagged `place`/`transport`/`education`/`entertainment`/`shopping`.
+- **Weather nouns (10):** lietus (rain), sniegas (snow), vėjas (wind), audra (storm), šaltis (cold/frost), perkūnija (thunderstorm), saulė (sun), debesis (cloud), rūkas (fog/mist), žaibas (lightning) — A1/A2, tagged `weather`/`nature`.
+- **Weather adjectives (2):** debesuotas (cloudy), saulėtas (sunny) — A1, tagged `weather`/`sky`.
+- **Measurement noun (1):** temperatūra (temperature) — A2, tagged `weather`/`measurement`.
+- **Calendar/month nouns (2):** vasaris (February), rugsėjis (September) — A1, tagged `calendar`/`month`/`winter`/`autumn`.
+
+### Decisions
+- Register `neutral` used throughout; all entries are core A1/A2 everyday vocabulary.
+- `plaukti` given two meanings (to swim / to sail) to capture both senses of the verb.
+- `antonymTerms` used for direct weather opposites: šaltis ↔ karštis, debesuotas ↔ saulėtas, saulė ↔ mėnulis, lietus ↔ saulė.
+- Empty `synonyms`/`antonymTerms` arrays kept as `[]` where linguistically no clean equivalent exists (taksi, lėktuvas, traukinys, etc.).
+- Capitalised stub terms matched by lower-cased key lookup to preserve original casing (Autobusas, Kaimas).
+
+### Validator result
+132 enriched entries — all passed ✓ | 1960 total entries — all passed ✓

@@ -17782,34 +17782,91 @@
     "term": "keliauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To go on a journey, especially over a long distance.",
+        "example": "Mes planuojame keliauti į Italiją šią vasarą.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "A2",
+          "movement"
+        ]
+      }
+    ],
+    "synonyms": [
+      "vykti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kelionė",
+      "lagaminas",
+      "viešbučiai"
+    ],
+    "translation": "to travel"
   },
   {
     "term": "skristi",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To travel through the air, as in an airplane or bird.",
+        "example": "Mes skrisime į Paryžių rytoj ryte.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "A2",
+          "air"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "lėktuvas",
+      "oro uostas",
+      "keliauti"
+    ],
+    "translation": "to fly"
   },
   {
     "term": "plaukti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To move through water using the body.",
+        "example": "Vaikai plaukia baseine kiekvieną savaitę.",
+        "register": "neutral",
+        "tags": [
+          "sport",
+          "A1",
+          "water"
+        ]
+      },
+      {
+        "definition": "To travel by boat or ship on water.",
+        "example": "Laivas plaukia per Baltijos jūrą.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "A2",
+          "water"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "laivas",
+      "jūra",
+      "baseinas"
+    ],
+    "translation": "to swim; to sail"
   },
   {
     "term": "vairuoti",
@@ -18166,24 +18223,58 @@
   {
     "term": "Autobusas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large road vehicle that carries passengers on fixed routes and stops.",
+        "example": "Autobusas atvyko į stotelę laiku.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "A1",
+          "vehicle"
+        ]
+      }
+    ],
+    "synonyms": [
+      "viešasis transportas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "autobusų stotis",
+      "bilietai",
+      "stotelė"
+    ],
+    "translation": "bus"
   },
   {
     "term": "automobilis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A four-wheeled motor vehicle used for personal transport.",
+        "example": "Tėtis sėda į automobilį ir važiuoja į darbą.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "A1",
+          "vehicle"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mašina"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vairuoti",
+      "garažas",
+      "kelias"
+    ],
+    "translation": "car"
   },
   {
     "term": "keltas",
@@ -18199,24 +18290,56 @@
   {
     "term": "metro",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An underground urban rail transit system.",
+        "example": "Greičiau į centrą nuvažiuosime metro.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "A2",
+          "city"
+        ]
+      }
+    ],
+    "synonyms": [
+      "požeminis traukinys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "stotis",
+      "traukinys",
+      "miestas"
+    ],
+    "translation": "metro / subway"
   },
   {
     "term": "taksi",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A vehicle available for hire with a driver, used to carry passengers.",
+        "example": "Ji iššaukė taksi, nes praleido paskutinį autobusą.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "A1",
+          "service"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "automobilis",
+      "vairuotojas",
+      "kelias"
+    ],
+    "translation": "taxi"
   },
   {
     "term": "tramvajus",
@@ -18232,13 +18355,30 @@
   {
     "term": "laivas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large vessel that travels on water, used for transport or travel.",
+        "example": "Laivas išplaukė iš uosto ankstų rytą.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "A2",
+          "water"
+        ]
+      }
+    ],
+    "synonyms": [
+      "valtis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "jūra",
+      "upė",
+      "uostas"
+    ],
+    "translation": "ship / boat"
   },
   {
     "term": "motociklas",
@@ -18254,13 +18394,28 @@
   {
     "term": "traukinys",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A series of connected railway carriages or wagons pulled by a locomotive.",
+        "example": "Traukinys išvyko iš stoties trečią valandą.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "A1",
+          "railway"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "traukinių stotis",
+      "bilietas",
+      "bėgiai"
+    ],
+    "translation": "train"
   },
   {
     "term": "troleibusas",
@@ -18276,24 +18431,54 @@
   {
     "term": "lėktuvas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A powered flying vehicle with fixed wings, used to carry passengers or cargo.",
+        "example": "Lėktuvas nusileido oro uoste pavėlavęs valanda.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "A1",
+          "air"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "skristi",
+      "oro uostas",
+      "pilotas"
+    ],
+    "translation": "airplane / aircraft"
   },
   {
     "term": "dviratis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A two-wheeled pedal-driven vehicle.",
+        "example": "Vasarą važinėju dviračiu po parką.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "A1",
+          "cycling"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šalmas",
+      "dviračių takas",
+      "pedalai"
+    ],
+    "translation": "bicycle / bike"
   },
   {
     "term": "keleivis",
@@ -18309,13 +18494,30 @@
   {
     "term": "kelionė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An act of travelling from one place to another.",
+        "example": "Kelionė į Vilnių užtruko tris valandas.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "A2",
+          "event"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ekskursija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "keliauti",
+      "lagaminas",
+      "bilietas"
+    ],
+    "translation": "journey / trip"
   },
   {
     "term": "kelias",
@@ -18348,13 +18550,28 @@
   {
     "term": "greitkelis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A wide road designed for fast-moving traffic over long distances.",
+        "example": "Greitkeliu galima greitai pasiekti kitą miestą.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "A2",
+          "road"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kelias",
+      "automobilis",
+      "ženklas"
+    ],
+    "translation": "motorway / highway"
   },
   {
     "term": "takas",
@@ -19542,13 +19759,29 @@
   {
     "term": "vasaris",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The second month of the year, the shortest month, in the middle of winter.",
+        "example": "Vasaris yra šalčiausias mėnuo Lietuvoje.",
+        "register": "neutral",
+        "tags": [
+          "calendar",
+          "A1",
+          "month",
+          "winter"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "sausis",
+      "kovas",
+      "žiema"
+    ],
+    "translation": "February"
   },
   {
     "term": "kovas",
@@ -19619,13 +19852,29 @@
   {
     "term": "rugsėjis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The ninth month of the year, marking the start of autumn and the new school year.",
+        "example": "Rugsėjo pirmą dieną vaikai grįžta į mokyklą.",
+        "register": "neutral",
+        "tags": [
+          "calendar",
+          "A1",
+          "month",
+          "autumn"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "rugpjūtis",
+      "spalis",
+      "ruduo"
+    ],
+    "translation": "September"
   },
   {
     "term": "spalis",
@@ -21333,13 +21582,32 @@
   {
     "term": "lietus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Water that falls from clouds in drops.",
+        "example": "Lauke lyja lietus, todėl pasiimk skėtį.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A1",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [
+      "krituliai"
+    ],
+    "antonymTerms": [
+      "saulė"
+    ],
+    "relatedTerms": [
+      "skėtis",
+      "debesis",
+      "vėjas"
+    ],
+    "translation": "rain"
   },
   {
     "term": "bala",
@@ -21388,13 +21656,28 @@
   {
     "term": "sniegas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "White frozen water that falls from the sky in winter.",
+        "example": "Vaikai džiaugiasi pirmuoju sniegu ir stato sniego senį.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A1",
+          "winter"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žiema",
+      "šaltis",
+      "rogelės"
+    ],
+    "translation": "snow"
   },
   {
     "term": "pūga",
@@ -21465,24 +21748,56 @@
   {
     "term": "vėjas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The natural movement of air from an area of high pressure to one of low pressure.",
+        "example": "Šiandien labai stiprus vėjas — žvakė užgeso lauke.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A1",
+          "nature"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "audra",
+      "debesis",
+      "oras"
+    ],
+    "translation": "wind"
   },
   {
     "term": "audra",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A violent disturbance of the atmosphere with strong winds, heavy rain, or thunder.",
+        "example": "Naktį kilo stipri audra ir nutraukė elektros tiekimą.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A2",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [
+      "neganda"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "perkūnija",
+      "žaibas",
+      "lietus"
+    ],
+    "translation": "storm"
   },
   {
     "term": "laipsnis",
@@ -21542,13 +21857,32 @@
   {
     "term": "šaltis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A low temperature; the feeling of cold weather.",
+        "example": "Žiemos šaltis privertė visus užsimaukšlinti kepures.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A1",
+          "winter"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šalnas"
+    ],
+    "antonymTerms": [
+      "karštis"
+    ],
+    "relatedTerms": [
+      "žiema",
+      "sniegas",
+      "temperatura"
+    ],
+    "translation": "cold / frost"
   },
   {
     "term": "atšalti",
@@ -21586,13 +21920,28 @@
   {
     "term": "perkūnija",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A storm with lightning, thunder, and heavy rain.",
+        "example": "Perkūnija prasidėjo staiga ir vaikai subėgo į namus.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A2",
+          "nature"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žaibas",
+      "audra",
+      "griaustinis"
+    ],
+    "translation": "thunderstorm"
   },
   {
     "term": "griaustinis",
@@ -21608,13 +21957,28 @@
   {
     "term": "žaibas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A flash of very bright light in the sky during a thunderstorm.",
+        "example": "Žaibas nutrenkė medį prie kelio.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A2",
+          "nature"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "perkūnija",
+      "griaustinis",
+      "audra"
+    ],
+    "translation": "lightning"
   },
   {
     "term": "šviesti",
@@ -21652,13 +22016,30 @@
   {
     "term": "saulė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The star at the centre of our solar system, the source of light and heat.",
+        "example": "Saulė šviečia ir šildo — tobula diena paplūdimyje.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A1",
+          "nature"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "mėnulis"
+    ],
+    "relatedTerms": [
+      "saulėtas",
+      "šviesa",
+      "vasara"
+    ],
+    "translation": "sun"
   },
   {
     "term": "pragiedruliai",
@@ -21685,13 +22066,28 @@
   {
     "term": "debesis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A visible mass of condensed water vapour floating in the sky.",
+        "example": "Danguje plaukia balti debesys, bet lietus nekrenta.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A1",
+          "nature"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "lietus",
+      "debesuotas",
+      "dangus"
+    ],
+    "translation": "cloud"
   },
   {
     "term": "vaivorykštė",
@@ -21707,24 +22103,60 @@
   {
     "term": "rūkas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Thick cloud of tiny water droplets close to the ground that reduces visibility.",
+        "example": "Rytas buvo labai rūkanas — nesimatė nė kelių metrų.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A2",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [
+      "migla"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "debesuotas",
+      "vairuoti",
+      "matomumas"
+    ],
+    "translation": "fog / mist"
   },
   {
     "term": "debesuotas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Covered with clouds; lacking sunshine.",
+        "example": "Šiandien debesuota, bet lietaus tikimybė maža.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A1",
+          "sky"
+        ]
+      }
+    ],
+    "synonyms": [
+      "apsiniaukęs"
+    ],
+    "antonymTerms": [
+      "saulėtas"
+    ],
+    "relatedTerms": [
+      "debesis",
+      "lietus",
+      "oras"
+    ],
+    "translation": "cloudy / overcast"
   },
   {
     "term": "drėgnas",
@@ -21762,13 +22194,30 @@
   {
     "term": "saulėtas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Bright with sunlight; having much sunshine.",
+        "example": "Saulėtą dieną labai malonu pasivaikščioti parke.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A1",
+          "sky"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "debesuotas"
+    ],
+    "relatedTerms": [
+      "saulė",
+      "šiltas",
+      "vasara"
+    ],
+    "translation": "sunny"
   },
   {
     "term": "sausas",
@@ -26447,13 +26896,32 @@
   {
     "term": "Kaimas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A small settlement in a rural area, smaller than a town.",
+        "example": "Senelis gyvena mažame kaime netoli miško.",
+        "register": "neutral",
+        "tags": [
+          "place",
+          "A1",
+          "rural"
+        ]
+      }
+    ],
+    "synonyms": [
+      "provincija"
+    ],
+    "antonymTerms": [
+      "miestas"
+    ],
+    "relatedTerms": [
+      "laukas",
+      "ūkis",
+      "gamta"
+    ],
+    "translation": "village / countryside"
   },
   {
     "term": "sodyba",
@@ -26722,13 +27190,30 @@
   {
     "term": "darželis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A school or class for young children before they start primary school.",
+        "example": "Mano duktė eina į darželį kiekvieną rytą.",
+        "register": "neutral",
+        "tags": [
+          "place",
+          "A1",
+          "education"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ikimokyklinis ugdymas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "mokykla",
+      "vaikai",
+      "mokytojas"
+    ],
+    "translation": "kindergarten"
   },
   {
     "term": "tvenkinys",
@@ -27503,13 +27988,30 @@
   {
     "term": "kinas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A theatre where films are shown to an audience.",
+        "example": "Šį vakarą einame į kiną žiūrėti naujo filmo.",
+        "register": "neutral",
+        "tags": [
+          "place",
+          "A1",
+          "entertainment"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kino teatras"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "filmas",
+      "ekranas",
+      "bilietas"
+    ],
+    "translation": "cinema / movie theatre"
   },
   {
     "term": "koncertas",
@@ -29453,31 +29955,115 @@
   },
   {
     "term": "autobusų stotis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "bus station",
+    "meanings": [
+      {
+        "definition": "A building or area where buses stop to allow passengers to get on and off.",
+        "example": "Susitinkame prie autobusų stoties po pietų.",
+        "register": "neutral",
+        "tags": [
+          "place",
+          "transport",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "autobusas",
+      "bilietas",
+      "tvarkaraštis"
+    ]
   },
   {
     "term": "traukinių stotis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "train station / railway station",
+    "meanings": [
+      {
+        "definition": "A building where trains stop and passengers board or alight.",
+        "example": "Traukinių stotis yra miesto centre.",
+        "register": "neutral",
+        "tags": [
+          "place",
+          "transport",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "geležinkelio stotis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "traukinys",
+      "peronis",
+      "bilietas"
+    ]
   },
   {
     "term": "prekybos centras",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "shopping centre / mall",
+    "meanings": [
+      {
+        "definition": "A large building containing many shops and sometimes restaurants and other facilities.",
+        "example": "Savaitgalį šeima važiuoja į prekybos centrą apsipirkti.",
+        "register": "neutral",
+        "tags": [
+          "place",
+          "shopping",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "parduotuvė",
+      "pirkti",
+      "turgus"
+    ]
   },
   {
     "term": "turgaus aikštė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "market square",
+    "meanings": [
+      {
+        "definition": "An open area in a town where an outdoor market is held.",
+        "example": "Kiekvieną sekmadienį turgaus aikštėje pardavinėjami šviežūs daržovės.",
+        "register": "neutral",
+        "tags": [
+          "place",
+          "market",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "turgus"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pardavėjas",
+      "apsipirkti",
+      "miesto centras"
+    ]
   },
   {
     "term": "krepšelis",
@@ -29621,10 +30207,30 @@
   },
   {
     "term": "temperatūra",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "temperature",
+    "meanings": [
+      {
+        "definition": "The degree of heat or cold in the atmosphere or in a body, measured in degrees.",
+        "example": "Ryto temperatūra nukrito žemiau nulio.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "A2",
+          "measurement"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "šaltis",
+      "karštis",
+      "oras"
+    ]
   },
   {
     "term": "karščiavimas",
