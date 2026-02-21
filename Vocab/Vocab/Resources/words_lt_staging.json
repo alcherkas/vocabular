@@ -4471,332 +4471,788 @@
   {
     "term": "turgus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An open or covered place where goods are sold by many vendors.",
+        "example": "Šeštadienį einame į turgų pirkti daržovių.",
+        "register": "general",
+        "tags": [
+          "places",
+          "commerce"
+        ]
+      }
+    ],
+    "synonyms": [
+      "turgavietė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "parduotuvė",
+      "prekyba",
+      "prekės"
+    ],
+    "translation": "market"
   },
   {
     "term": "restoranas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A place where meals are prepared and served to customers.",
+        "example": "Vakarienę valgėme jaukiame restorane senamiestyje.",
+        "register": "general",
+        "tags": [
+          "places",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [
+      "užkandinė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kavinė",
+      "padavėjas",
+      "meniu"
+    ],
+    "translation": "restaurant"
   },
   {
     "term": "viešbutis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A building that provides accommodation for travelers.",
+        "example": "Kelionės metu apsistojome netoli centro esančiame viešbutyje.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "places"
+        ]
+      }
+    ],
+    "synonyms": [
+      "hotelis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kambarys",
+      "registratūra",
+      "kelionė"
+    ],
+    "translation": "hotel"
   },
   {
     "term": "ministerija",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A government department responsible for a specific area of public policy.",
+        "example": "Ministerija paskelbė naujas švietimo taisykles.",
+        "register": "general",
+        "tags": [
+          "government",
+          "institutions"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "valdžia",
+      "ministras",
+      "įstatymas"
+    ],
+    "translation": "ministry"
   },
   {
     "term": "paštas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A service or place where letters and parcels are sent and received.",
+        "example": "Po darbo užsukau į paštą atsiimti siuntos.",
+        "register": "general",
+        "tags": [
+          "services",
+          "daily"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "laiškas",
+      "siunta",
+      "paštininkas"
+    ],
+    "translation": "post office"
   },
   {
     "term": "kavinė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A small restaurant where coffee, drinks, and light meals are served.",
+        "example": "Susitikome kavinėje puodeliui kavos.",
+        "register": "general",
+        "tags": [
+          "places",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kavine"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kava",
+      "desertas",
+      "restoranas"
+    ],
+    "translation": "cafe"
   },
   {
     "term": "kioskas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A small booth or shop selling newspapers, snacks, or other small items.",
+        "example": "Laikraštį nusipirkau kioske prie stotelės.",
+        "register": "general",
+        "tags": [
+          "places",
+          "commerce"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "spauda",
+      "pardavėjas",
+      "gatvė"
+    ],
+    "translation": "kiosk"
   },
   {
     "term": "kino teatras",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A place where films are shown to an audience.",
+        "example": "Vakare einame į kino teatrą žiūrėti naujo filmo.",
+        "register": "general",
+        "tags": [
+          "places",
+          "entertainment"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kinas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "filmas",
+      "bilietas",
+      "seansas"
+    ],
+    "translation": "cinema"
   },
   {
     "term": "Atostogauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To spend time away from work or studies for rest and leisure.",
+        "example": "Vasarą mėgstame atostogauti prie jūros.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "lifestyle"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ilsėtis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "atostogos",
+      "kelionė",
+      "poilsis"
+    ],
+    "translation": "to go on vacation"
   },
   {
     "term": "eiti",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To move from one place to another, usually on foot.",
+        "example": "Kasdien į darbą einu pėsčiomis.",
+        "register": "general",
+        "tags": [
+          "movement",
+          "daily"
+        ]
+      }
+    ],
+    "synonyms": [
+      "žingsniuoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vaikščioti",
+      "kelias",
+      "judėti"
+    ],
+    "translation": "to go"
   },
   {
     "term": "skambinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To contact someone by telephone or make a ringing sound.",
+        "example": "Prašau man skambinti vakare po darbo.",
+        "register": "general",
+        "tags": [
+          "communication",
+          "daily"
+        ]
+      }
+    ],
+    "synonyms": [
+      "paskambinti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "telefonas",
+      "ryšys",
+      "kalbėti"
+    ],
+    "translation": "to call"
   },
   {
     "term": "skubėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To do something quickly because there is little time.",
+        "example": "Ryte dažnai tenka skubėti į autobusą.",
+        "register": "general",
+        "tags": [
+          "time",
+          "daily"
+        ]
+      }
+    ],
+    "synonyms": [
+      "lėkti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "greitai",
+      "vėluoti",
+      "laikas"
+    ],
+    "translation": "to hurry"
   },
   {
     "term": "susitikti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To come together with someone at an agreed place or by chance.",
+        "example": "Susitiksime rytoj prie universiteto bibliotekos.",
+        "register": "general",
+        "tags": [
+          "social",
+          "daily"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pasimatyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "draugas",
+      "susitikimas",
+      "kalbėtis"
+    ],
+    "translation": "to meet"
   },
   {
     "term": "važiuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To travel using a car, bus, train, or other vehicle.",
+        "example": "Į Kauną važiuojame traukiniu.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "movement"
+        ]
+      }
+    ],
+    "synonyms": [
+      "keliauti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "automobilis",
+      "traukinys",
+      "kelionė"
+    ],
+    "translation": "to go by vehicle"
   },
   {
     "term": "vėluoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To arrive or happen after the expected time.",
+        "example": "Atsiprašau, šiandien šiek tiek vėluoju į paskaitą.",
+        "register": "general",
+        "tags": [
+          "time",
+          "daily"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "laikas",
+      "skubėti",
+      "vėlavimas"
+    ],
+    "translation": "to be late"
   },
   {
     "term": "Žmogus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A human being.",
+        "example": "Tas žmogus man labai padėjo.",
+        "register": "general",
+        "tags": [
+          "people",
+          "basic"
+        ]
+      }
+    ],
+    "synonyms": [
+      "asmuo"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vyras",
+      "moteris",
+      "vaikas"
+    ],
+    "translation": "person"
   },
   {
     "term": "mergaitė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A female child.",
+        "example": "Maža mergaitė žaidė kieme su kamuoliu.",
+        "register": "general",
+        "tags": [
+          "people",
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "berniukas",
+      "vaikas",
+      "mokykla"
+    ],
+    "translation": "girl"
   },
   {
     "term": "mergina",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A young female person.",
+        "example": "Toje klasėje mokosi labai gabi mergina.",
+        "register": "general",
+        "tags": [
+          "people",
+          "basic"
+        ]
+      }
+    ],
+    "synonyms": [
+      "panelė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vaikinas",
+      "moteris",
+      "draugė"
+    ],
+    "translation": "young woman"
   },
   {
     "term": "moteris",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An adult female person.",
+        "example": "Ta moteris dirba ligoninėje gydytoja.",
+        "register": "general",
+        "tags": [
+          "people",
+          "basic"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "vyras",
+      "mergina",
+      "šeima"
+    ],
+    "translation": "woman"
   },
   {
     "term": "berniukas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A male child.",
+        "example": "Berniukas mokosi važiuoti dviračiu.",
+        "register": "general",
+        "tags": [
+          "people",
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "mergaitė",
+      "vaikas",
+      "mokykla"
+    ],
+    "translation": "boy"
   },
   {
     "term": "vaikinas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A young male person; in context, also a boyfriend.",
+        "example": "Tas vaikinas yra mano kurso draugas.",
+        "register": "general",
+        "tags": [
+          "people",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "jaunuolis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "mergina",
+      "vyras",
+      "draugas"
+    ],
+    "translation": "young man"
   },
   {
     "term": "vyras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An adult male person; also means husband in family context.",
+        "example": "Jos vyras dirba inžinieriumi.",
+        "register": "general",
+        "tags": [
+          "people",
+          "family"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "moteris",
+      "vaikinas",
+      "šeima"
+    ],
+    "translation": "man"
   },
   {
     "term": "mokinys",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A boy or man who studies at school.",
+        "example": "Mokinys atidžiai klausėsi mokytojo paaiškinimo.",
+        "register": "general",
+        "tags": [
+          "education",
+          "people"
+        ]
+      }
+    ],
+    "synonyms": [
+      "moksleivis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "mokytojas",
+      "mokykla",
+      "pamoka"
+    ],
+    "translation": "male student"
   },
   {
     "term": "mokinė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A girl or woman who studies at school.",
+        "example": "Mokinė parašė puikų rašinį lietuvių kalba.",
+        "register": "general",
+        "tags": [
+          "education",
+          "people"
+        ]
+      }
+    ],
+    "synonyms": [
+      "moksleivė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "mokytoja",
+      "mokykla",
+      "pamoka"
+    ],
+    "translation": "female student"
   },
   {
     "term": "pensininkas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A retired man receiving a pension.",
+        "example": "Pensininkas kiekvieną rytą vaikšto parke.",
+        "register": "general",
+        "tags": [
+          "people",
+          "society"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pensija",
+      "senjoras",
+      "poilsis"
+    ],
+    "translation": "male pensioner"
   },
   {
     "term": "pensininkė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A retired woman receiving a pension.",
+        "example": "Pensininkė augina gėles savo sode.",
+        "register": "general",
+        "tags": [
+          "people",
+          "society"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pensija",
+      "senjorė",
+      "poilsis"
+    ],
+    "translation": "female pensioner"
   },
   {
     "term": "Aktorius",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A male performer who plays roles in theatre, film, or television.",
+        "example": "Žinomas aktorius atvyko į filmo premjerą.",
+        "register": "general",
+        "tags": [
+          "professions",
+          "arts"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "aktorė",
+      "teatras",
+      "filmas"
+    ],
+    "translation": "actor"
   },
   {
     "term": "aktorė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A female performer who plays roles in theatre, film, or television.",
+        "example": "Jauna aktorė debiutavo nacionaliniame teatre.",
+        "register": "general",
+        "tags": [
+          "professions",
+          "arts"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "aktorius",
+      "teatras",
+      "scena"
+    ],
+    "translation": "actress"
   },
   {
     "term": "dailininkas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A male artist who creates paintings or visual artwork.",
+        "example": "Dailininkas surengė savo darbų parodą galerijoje.",
+        "register": "general",
+        "tags": [
+          "professions",
+          "arts"
+        ]
+      }
+    ],
+    "synonyms": [
+      "menininkas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "dailininkė",
+      "paveikslas",
+      "galerija"
+    ],
+    "translation": "male painter"
   },
   {
     "term": "dailininkė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A female artist who creates paintings or visual artwork.",
+        "example": "Dailininkė piešia peizažus akvarele.",
+        "register": "general",
+        "tags": [
+          "professions",
+          "arts"
+        ]
+      }
+    ],
+    "synonyms": [
+      "menininkė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "dailininkas",
+      "paveikslas",
+      "kūryba"
+    ],
+    "translation": "female painter"
   },
   {
     "term": "dainininkas",
