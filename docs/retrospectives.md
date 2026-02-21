@@ -255,3 +255,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - None.
+
+## [2025-07-22] data-agent lt-vocab-initial
+
+### What went well
+- Created 200 Lithuanian A1/A2 words covering 12+ categories (numbers, colors, family, food, animals, body, verbs, adjectives, greetings, time, places, clothing) in the flat production schema matching words.json format.
+
+### What was harder than expected
+- Balancing exactly 200 words across categories required a trim pass after initial generation overshot to 229.
+
+### Process friction
+- None significant; existing words.json and words_lt_staging.json provided clear schema references.
+
+### Suggested improvement
+- A target word-count-per-category guideline in AGENTS.md would prevent overshoot on future vocabulary batches.
