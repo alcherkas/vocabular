@@ -36995,7 +36995,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A statistical framework in which the probability of a hypothesis is updated as new evidence is gathered, using Bayes' theorem to combine prior probabilities with likelihoods derived from observed data.",
@@ -37008,9 +37008,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "bayesian updating",
+      "bayesian analysis"
+    ],
+    "antonymTerms": [
+      "frequentist inference"
+    ],
+    "relatedTerms": [
+      "bayes' theorem",
+      "prior probability",
+      "posterior probability",
+      "markov chain"
+    ],
     "translation": null
   },
   {
@@ -37018,7 +37028,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A stochastic model in which a sequence of possible states transitions between them according to fixed probabilities, with future states depending only on the current state and not on the history of past states.",
@@ -37031,9 +37041,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "markov model",
+      "markov sequence"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "stochastic process",
+      "transition matrix",
+      "markov process",
+      "bayesian inference"
+    ],
     "translation": null
   },
   {
@@ -37041,7 +37059,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A branch of mathematics concerned with counting, arranging, and selecting objects from discrete sets, including topics such as permutations, combinations, and graph enumeration.",
@@ -37053,9 +37071,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "combinatorial mathematics",
+      "combinatorial analysis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "graph theory",
+      "number theory",
+      "discrete mathematics",
+      "permutation"
+    ],
     "translation": null
   },
   {
@@ -37063,7 +37089,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A branch of abstract algebra that studies algebraic structures called groups — sets equipped with an associative binary operation that has an identity element and inverses for every element.",
@@ -37075,9 +37101,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "theory of groups",
+      "theory of invariants"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "abstract algebra",
+      "ring theory",
+      "set theory",
+      "symmetry group"
+    ],
     "translation": null
   },
   {
@@ -37085,7 +37119,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A branch of mathematical logic that studies collections of objects called sets and their operations, providing the foundational language and framework for virtually all of modern mathematics.",
@@ -37097,9 +37131,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "theory of sets",
+      "theory of collections"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mathematical logic",
+      "cardinality",
+      "group theory",
+      "number theory"
+    ],
     "translation": null
   },
   {
@@ -37107,7 +37149,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A measure of the size of a set, equal to the number of elements in finite sets and extended to infinite sets through the concept of bijections (one-to-one correspondences).",
@@ -37119,9 +37161,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "set size",
+      "cardinal number"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "set theory",
+      "bijection",
+      "countability",
+      "ordinal number"
+    ],
     "translation": null
   },
   {
@@ -37129,7 +37179,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A branch of mathematics that studies graphs — abstract structures consisting of vertices (nodes) connected by edges — and their combinatorial, algebraic, and algorithmic properties.",
@@ -37141,9 +37191,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "theory of graphs",
+      "network theory"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "combinatorics",
+      "discrete mathematics",
+      "algorithm",
+      "topology"
+    ],
     "translation": null
   },
   {
@@ -37151,7 +37209,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A branch of pure mathematics devoted to studying the properties and relationships of integers, including prime numbers, divisibility, congruences, and Diophantine equations.",
@@ -37162,9 +37220,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "higher arithmetic",
+      "theory of numbers"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "combinatorics",
+      "abstract algebra",
+      "cryptography",
+      "set theory"
+    ],
     "translation": null
   },
   {

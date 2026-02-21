@@ -22000,7 +22000,7 @@
     "term": "aukštyn",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kylant arba judant vertikalia kryptimi link viršaus.",
@@ -22015,15 +22015,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "žemyn"
+    ],
+    "relatedTerms": [
+      "viršus",
+      "aukštai"
+    ],
     "translation": "upward, up"
   },
   {
     "term": "žemyn",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Judant arba einant vertikalia kryptimi link apačios.",
@@ -22039,8 +22044,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "aukštyn"
+    ],
+    "relatedTerms": [
+      "apačia",
+      "žemai"
+    ],
     "translation": "downward, down"
   },
   {
@@ -22528,7 +22538,7 @@
     "term": "saugus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nekelia pavojaus; apsaugotas nuo rizikos ar žalos.",
@@ -22553,15 +22563,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "pavojingas"
+    ],
+    "relatedTerms": [
+      "apsauga",
+      "saugoti",
+      "saugumas"
+    ],
     "translation": "safe, secure"
   },
   {
     "term": "pavojingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Keliantis pavojų sveikatai, gyvybei ar nuosavybei.",
@@ -22577,8 +22593,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "saugus"
+    ],
+    "relatedTerms": [
+      "pavojus",
+      "rizika",
+      "grėsmingas"
+    ],
     "translation": "dangerous, hazardous"
   },
   {
@@ -23916,7 +23938,7 @@
     "term": "pastatas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žmogaus pastatyta statinys, skirtas gyventi, dirbti ar kitoms funkcijoms.",
@@ -23932,7 +23954,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "statinys",
+      "namas",
+      "statyba"
+    ],
     "translation": "building"
   },
   {
@@ -24086,7 +24112,7 @@
     "term": "viduje",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pastato ar uždaro erdvės vidinėje dalyje; ne lauke.",
@@ -24101,15 +24127,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "lauke"
+    ],
+    "relatedTerms": [
+      "vidus",
+      "patalpa",
+      "interjeras"
+    ],
     "translation": "inside, indoors"
   },
   {
     "term": "lauke",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pastato ar patalpų išorinėje erdvėje; atviro oro aplinkoje.",
@@ -24125,8 +24157,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "viduje"
+    ],
+    "relatedTerms": [
+      "laukas",
+      "gamta",
+      "oras"
+    ],
     "translation": "outside, outdoors"
   },
   {
@@ -24398,7 +24436,7 @@
     "term": "persikelti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pakeisti gyvenamąją vietą ar biurą, persikraustyti į kitą adresą.",
@@ -24411,16 +24449,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "persikraustyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kraustytis",
+      "keltis",
+      "persikraustymas"
+    ],
     "translation": "to move, to relocate"
   },
   {
     "term": "statyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Statybos darbais kurti statinius ar konstrukcijas.",
@@ -24443,9 +24487,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "konstruoti",
+      "parkuoti"
+    ],
+    "antonymTerms": [
+      "griauti"
+    ],
+    "relatedTerms": [
+      "statyba",
+      "pastatas",
+      "parkavimas"
+    ],
     "translation": "to build, to park"
   },
   {
@@ -24542,7 +24595,7 @@
     "term": "atrakinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atidaryti užraktą, kad būtų galima patekti į patalpą ar atidaryti daiktą.",
@@ -24557,15 +24610,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "užrakinti"
+    ],
+    "relatedTerms": [
+      "raktas",
+      "spyna",
+      "prieiga"
+    ],
     "translation": "to unlock"
   },
   {
     "term": "užrakinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Uždaryti užraktą, kad durys ar daiktai nebūtų galima atidaryti be rakto.",
@@ -24580,8 +24639,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "atrakinti"
+    ],
+    "relatedTerms": [
+      "raktas",
+      "spyna",
+      "saugumas"
+    ],
     "translation": "to lock"
   },
   {
@@ -25529,7 +25594,7 @@
     "term": "ventiliatorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Elektrinis prietaisas, skirtas orui judinti ir vėdinti patalpas.",
@@ -25546,7 +25611,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vėdinimas",
+      "oras",
+      "kondicionierius"
+    ],
     "translation": "fan, ventilator"
   },
   {
@@ -25851,7 +25920,7 @@
     "term": "aukštis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vertikalus objekto ar konstrukcijos matmuo nuo žemės iki viršaus.",
@@ -25878,14 +25947,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ilgis",
+      "plotis",
+      "matmuo"
+    ],
     "translation": "height"
   },
   {
     "term": "ilgis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Objekto horizontalus matmuo; atstumas nuo vieno galo iki kito.",
@@ -25901,14 +25974,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "plotis",
+      "aukštis",
+      "atstumas"
+    ],
     "translation": "length"
   },
   {
     "term": "plotis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Objekto skersinės krypties matmuo; atstumas tarp šonų.",
@@ -25924,14 +26001,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ilgis",
+      "aukštis",
+      "plotas"
+    ],
     "translation": "width"
   },
   {
     "term": "plotas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plokščio paviršiaus dydis, matuojamas kvadratiniais vienetais.",
@@ -25958,14 +26039,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kvadratiniai metrai",
+      "erdvė",
+      "teritorija"
+    ],
     "translation": "area, space"
   },
   {
     "term": "kvadratiniai metrai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ploto matavimo vienetas, naudojamas aprašant patalpų ar žemės dydį nekilnojamojo turto srityje.",
@@ -25982,7 +26067,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "plotas",
+      "matavimas",
+      "nekilnojamasis turtas"
+    ],
     "translation": "square meters"
   },
   {
@@ -26051,7 +26140,7 @@
     "term": "jaukus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Teikiantis šilumos, komforto ir ramybės jausmą; malonus ir patogus būnant.",
@@ -26067,7 +26156,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "komfortiškas",
+      "malonus",
+      "šiltas"
+    ],
     "translation": "cozy, snug"
   },
   {
@@ -26106,7 +26199,7 @@
     "term": "atskiras",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nesujungtas su kitu; turintis savo atskirą erdvę ar funkciją.",
@@ -26130,15 +26223,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "bendras"
+    ],
+    "relatedTerms": [
+      "savarankiškas",
+      "nepriklausomas",
+      "individualus"
+    ],
     "translation": "separate, individual"
   },
   {
     "term": "bendras",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Naudojamas ar valdomas kelių asmenų ar grupių kartu.",
@@ -26164,15 +26263,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "atskiras"
+    ],
+    "relatedTerms": [
+      "kolektyvinis",
+      "bendruomeninis",
+      "visuotinis"
+    ],
     "translation": "shared, common, general"
   },
   {
     "term": "tvankus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Stokojantis gryno oro; slegiantis dėl karščio ir drėgmės trūkumo.",
@@ -26189,7 +26294,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "karštas",
+      "drėgnas",
+      "vėdinimas"
+    ],
     "translation": "stuffy, muggy"
   },
   {
@@ -26268,7 +26377,7 @@
     "term": "medinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pagamintas arba pastatytas iš medienos.",
@@ -26285,14 +26394,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mediena",
+      "medis",
+      "plytinis"
+    ],
     "translation": "wooden"
   },
   {
     "term": "ąžuolinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pagamintas iš ąžuolo medienos; susijęs su ąžuolu kaip medžiaga.",
@@ -26309,14 +26422,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ąžuolas",
+      "medinis",
+      "mediena"
+    ],
     "translation": "oak, made of oak"
   },
   {
     "term": "plytinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pastatytas arba pagamintas iš plytų; būdingas tradicinei plytų statybai.",
@@ -26333,14 +26450,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "plyta",
+      "medinis",
+      "betoninis"
+    ],
     "translation": "brick"
   },
   {
     "term": "blokinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pastatytas iš surenkamų betono blokų; dažniausiai apibūdina sovietmečio daugiabučius namus.",
@@ -26357,14 +26478,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "betoninis",
+      "daugiabutis",
+      "plytinis"
+    ],
     "translation": "panel-built, prefab block"
   },
   {
     "term": "stiklinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pagamintas iš stiklo arba daugiausia stiklo naudojantis kaip pagrindinę medžiagą.",
@@ -26381,7 +26506,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "stiklas",
+      "skaidrus",
+      "metalinis"
+    ],
     "translation": "glass"
   },
   {
@@ -26399,7 +26528,7 @@
     "term": "molinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pagamintas iš molio arba molio žaliavų.",
@@ -26416,14 +26545,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "molis",
+      "keraminis",
+      "medinis"
+    ],
     "translation": "clay, earthen"
   },
   {
     "term": "naminis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gaminamas arba auginamas namuose; susijęs su namų ūkiu.",
@@ -26449,15 +26582,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "laukinis"
+    ],
+    "relatedTerms": [
+      "namas",
+      "buitis",
+      "augintinis"
+    ],
     "translation": "domestic, homemade"
   },
   {
     "term": "kambarinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Skirtas auginti arba laikyti kambaryje; tinkamas vidaus aplinkai.",
@@ -26484,14 +26623,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kambarys",
+      "augalas",
+      "patalpa"
+    ],
     "translation": "indoor, room"
   },
   {
     "term": "kiemas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atvirasis plotas tarp daugiabučių ar aplink namą, skirtas poilsiui ir žaidimams.",
@@ -26517,7 +26660,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sodas",
+      "tvora",
+      "vartai"
+    ],
     "translation": "yard, courtyard"
   },
   {
@@ -26614,7 +26761,7 @@
     "term": "vartai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Didelės judančios durys, pro kurias įvažiuojama į kiemą ar garažą.",
@@ -26640,14 +26787,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tvora",
+      "kiemas",
+      "varteliai"
+    ],
     "translation": "gate, goal"
   },
   {
     "term": "varteliai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mažos durys tvoros ar sienos dalyje, skirtos pėstiesiems praeiti į kiemą.",
@@ -26663,14 +26814,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vartai",
+      "tvora",
+      "durys"
+    ],
     "translation": "wicket gate, small gate"
   },
   {
     "term": "tvora",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Statinys, skirtas apriboti žemės plotą, atskirti teritorijas ar apsaugoti nuosavybę.",
@@ -26687,7 +26842,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vartai",
+      "kiemas",
+      "siena"
+    ],
     "translation": "fence"
   },
   {
@@ -33199,7 +33358,7 @@
     "term": "odos uždegimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Odos reakcija į dirginančias medžiagas ar alergenus, pasireiškianti paraudimu, niežuliu ar bėrimu.",
@@ -33212,9 +33371,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "dermatitas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "oda",
+      "alergenas",
+      "niežtinė"
+    ],
     "translation": "skin inflammation, dermatitis"
   },
   {
@@ -33489,7 +33654,7 @@
     "term": "vartoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Reguliariai gerti ar ryti vaistus ar kitas medžiagas pagal gydytojo nurodymus.",
@@ -33510,9 +33675,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "naudoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vartojimas",
+      "žodynas",
+      "kalba"
+    ],
     "translation": "to take, to consume"
   },
   {

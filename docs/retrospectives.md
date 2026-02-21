@@ -3785,4 +3785,32 @@ The 460 available stubs are predominantly food, clothing, numerals, ordinals, ca
 
 ### Doubts / meta-notes
 - Confidence: 92%. Lithuanian example sentences were crafted from native-pattern constructions; any QA reviewer should verify idiomatic naturalness, especially for compound adjective phrases.
+## Relations Agent — vocab/relations-41 — 2025-07-25
+
+### Agent
+Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/aleksandrcherkas/Documents/GitHub/vocabular-wt-relations-41`.
+
+### What was done
+- Preflight JSON: both `words_staging.json` and `words_lt_staging.json` loaded cleanly (`json.load` — no syntax errors).
+- EN: 8 remaining enriched entries (all mathematics/physics) set to `relations-added`: `bayesian inference`, `markov chain`, `combinatorics`, `group theory`, `set theory`, `cardinality`, `graph theory`, `number theory`.
+- LT: first 35 enriched entries set to `relations-added`: direction/safety adjectival pairs (`aukštyn`/`žemyn`, `saugus`/`pavojingas`, `viduje`/`lauke`, `atskiras`/`bendras`), building/spatial vocabulary (`pastatas`, `ventiliatorius`, `aukštis`, `ilgis`, `plotis`, `plotas`, `kvadratiniai metrai`, `jaukus`, `tvankus`), construction material adjectives (`medinis`, `ąžuolinis`, `plytinis`, `blokinis`, `stiklinis`, `molinis`, `naminis`, `kambarinis`), outdoor structures (`kiemas`, `vartai`, `varteliai`, `tvora`), verbs (`persikelti`, `statyti`, `atrakinti`, `užrakinti`, `vartoti`), and a medical phrase (`odos uždegimas`).
+- First validation pass caught 10 errors: EN entries had 0–1 synonyms (validator requires ≥2 per EN entry); LT `aukštyn` and `žemyn` synonyms `"į viršų"` and `"į apačią"` flagged as accusative forms; `"network theory"` appeared in both `synonyms` and `relatedTerms` of `graph theory`. All fixed in a second pass.
+- Both files pass `python3 scripts/validate_words.py --errors-for relations-added` → PASSED.
+- Committed as `vocab(relations-41): add relations to enriched entries` (31e34c8).
+
+### Semantic quality decisions
+- **EN ≥2 synonyms, math disciplines**: used classical alternative phrasings: `"bayesian updating"` / `"bayesian analysis"` (both standard in literature); `"markov model"` / `"markov sequence"`; `"combinatorial mathematics"` / `"combinatorial analysis"`; `"theory of groups"` / `"theory of invariants"` (the latter is the 19th-century Kleinian name for what became group theory); `"theory of sets"` / `"theory of collections"`; `"set size"` / `"cardinal number"` for `cardinality`; `"theory of graphs"` / `"network theory"` for `graph theory`; `"higher arithmetic"` / `"theory of numbers"` for `number theory` (both established historical synonyms).
+- **EN antonyms**: `"frequentist inference"` as antonym of `"bayesian inference"` (direct methodological opposite); all other math branches received `antonymTerms: []` (no direct semantic opposites for abstract disciplines).
+- **LT antonym pairs**: `aukštyn`↔`žemyn`, `saugus`↔`pavojingas`, `viduje`↔`lauke`, `atskiras`↔`bendras`, `atrakinti`↔`užrakinti`, `statyti`↔`griauti`, `naminis`↔`laukinis` — all direct semantic opposites. No negation-prefixed forms used.
+- **LT accusative removal**: prepositional phrases `"į viršų"` and `"į apačią"` (which use accusative case) were removed from `aukštyn`/`žemyn` synonyms. 0 synonyms is valid for LT adverbs per the rubric.
+- **LT synonyms used**: `persikraustyti` for `persikelti` (near-equivalent verb); `konstruoti`/`parkuoti` for the two senses of `statyti`; `dermatitas` for `odos uždegimas` (medical term co-extensive with "skin inflammation"); `naudoti` for `vartoti` sense 2 (language use).
+- **Hypernym avoidance**: `statinys` (any built structure — hypernym of `pastatas`) placed in `relatedTerms`, not `synonyms`. All `relatedTerms` for LT entries use nominative forms only; no `-ą`/`-ų` endings.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for relations-added` → PASSED for both EN (1230 entries) and LT (2065 entries) with 0 errors in the `relations-added` batch.
+
+### Doubts / meta-notes
+- Confidence: 90%. The `"theory of invariants"` synonym for `group theory` is historically accurate (Felix Klein's framing) but may be unfamiliar to modern readers who associate "theory of invariants" with invariant theory (a related but distinct subfield). QA should verify.
+- `"theory of collections"` for `set theory` is informal; standard mathematical alternatives are limited to `"theory of sets"`. Acceptable as a lay synonym.
+- LT 363 enriched entries remain; 35 processed this session.
 - No merge performed as instructed.
