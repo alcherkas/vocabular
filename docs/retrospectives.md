@@ -647,3 +647,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 ### Suggested improvement
 - Add a lightweight relation-quality checklist to `docs/VOCAB-AGENT.md` (e.g., when to keep LT synonyms empty vs when to add related terms).
 - Add a lightweight command in `docs/VOCAB-AGENT.md` to print the next 30 stub terms before enrichment starts.
+## [2026-02-21] [vocab-relations-agent] [relations-5]
+
+### What went well
+- Ran JSON preflight checks on both staging files before edits and completed one-pass relation updates safely.
+- Added `synonyms`, `antonymTerms`, and `relatedTerms` for exactly 35 enriched entries in EN and 35 in LT, then set status to `relations-added`.
+- Validation passed for both files on `relations-added` entries.
+
+### What was harder than expected
+- Balancing concise but useful LT relation sets for proper nouns and phrase-level entries required consistency review.
+
+### Process friction
+- Relation quality expectations remain mostly implicit beyond validator constraints, so semantic depth still depends on operator judgment.
+
+### Suggested improvement
+- Add a small rubric in `docs/VOCAB-AGENT.md` for relation density by category (proper noun, phrase, technical term) to reduce variability across batches.

@@ -1822,7 +1822,7 @@
   },
   {
     "term": "stoichiometric",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1841,16 +1841,21 @@
       }
     ],
     "synonyms": [
-      "stoichiometric",
-      "stoichiometric term"
+      "quantitative",
+      "molar"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "antonymTerms": [
+      "nonstoichiometric"
+    ],
+    "relatedTerms": [
+      "stoichiometry",
+      "mole ratio",
+      "reaction yield"
+    ]
   },
   {
     "term": "spectroscopic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1869,16 +1874,19 @@
       }
     ],
     "synonyms": [
-      "spectroscopic",
-      "spectroscopic term"
+      "spectral",
+      "spectrum-based"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "spectroscopy",
+      "absorbance",
+      "wavelength"
+    ]
   },
   {
     "term": "thermodynamic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1897,16 +1905,21 @@
       }
     ],
     "synonyms": [
-      "thermodynamic",
-      "thermodynamic term"
+      "heat-related",
+      "energy-transfer"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "antonymTerms": [
+      "athermal"
+    ],
+    "relatedTerms": [
+      "entropy",
+      "enthalpy",
+      "temperature"
+    ]
   },
   {
     "term": "electrophoresis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -1925,16 +1938,19 @@
       }
     ],
     "synonyms": [
-      "electrophoresis",
-      "electrophoresis term"
+      "electrokinetic separation",
+      "gel separation"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "anode",
+      "cathode",
+      "migration"
+    ]
   },
   {
     "term": "chromatographic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -1953,16 +1969,19 @@
       }
     ],
     "synonyms": [
-      "chromatographic",
-      "chromatographic term"
+      "chromatography-based",
+      "separation-analytic"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "chromatography",
+      "elution",
+      "retention time"
+    ]
   },
   {
     "term": "neuroplasticity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -1981,16 +2000,19 @@
       }
     ],
     "synonyms": [
-      "neuroplasticity",
-      "neuroplasticity term"
+      "brain plasticity",
+      "neuronal adaptability"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "synaptic remodeling",
+      "learning",
+      "rehabilitation"
+    ]
   },
   {
     "term": "bioluminescence",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2009,16 +2031,19 @@
       }
     ],
     "synonyms": [
-      "bioluminescence",
-      "bioluminescence term"
+      "living light emission",
+      "natural luminescence"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "luciferin",
+      "marine organisms",
+      "glow"
+    ]
   },
   {
     "term": "cryogenic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -2037,16 +2062,21 @@
       }
     ],
     "synonyms": [
-      "cryogenic",
-      "cryogenic term"
+      "ultra-cold",
+      "low-temperature"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "antonymTerms": [
+      "high-temperature"
+    ],
+    "relatedTerms": [
+      "liquid nitrogen",
+      "cryostat",
+      "superconductivity"
+    ]
   },
   {
     "term": "astrophysical",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -2065,16 +2095,19 @@
       }
     ],
     "synonyms": [
-      "astrophysical",
-      "astrophysical term"
+      "cosmological",
+      "space-physics"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "astronomy",
+      "stellar dynamics",
+      "cosmic radiation"
+    ]
   },
   {
     "term": "geochronology",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2093,16 +2126,19 @@
       }
     ],
     "synonyms": [
-      "geochronology",
-      "geochronology term"
+      "geological dating",
+      "earth-age analysis"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "radiometric dating",
+      "stratigraphy",
+      "timescale"
+    ]
   },
   {
     "term": "interoperability",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2121,16 +2157,21 @@
       }
     ],
     "synonyms": [
-      "interoperability",
-      "interoperability term"
+      "compatibility",
+      "cross-system integration"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "antonymTerms": [
+      "incompatibility"
+    ],
+    "relatedTerms": [
+      "standards",
+      "data exchange",
+      "API"
+    ]
   },
   {
     "term": "virtualization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2149,16 +2190,19 @@
       }
     ],
     "synonyms": [
-      "virtualization",
-      "virtualization term"
+      "hardware abstraction",
+      "VM provisioning"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "hypervisor",
+      "virtual machine",
+      "resource isolation"
+    ]
   },
   {
     "term": "containerization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2177,16 +2221,19 @@
       }
     ],
     "synonyms": [
-      "containerization",
-      "containerization term"
+      "container deployment",
+      "application packaging"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "Docker",
+      "orchestration",
+      "image"
+    ]
   },
   {
     "term": "encapsulation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2205,16 +2252,21 @@
       }
     ],
     "synonyms": [
-      "encapsulation",
-      "encapsulation term"
+      "information hiding",
+      "data bundling"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "antonymTerms": [
+      "exposure"
+    ],
+    "relatedTerms": [
+      "object-oriented design",
+      "abstraction",
+      "access control"
+    ]
   },
   {
     "term": "polymorphism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2233,16 +2285,19 @@
       }
     ],
     "synonyms": [
-      "polymorphism",
-      "polymorphism term"
+      "type flexibility",
+      "multiple-form behavior"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "inheritance",
+      "method override",
+      "interface"
+    ]
   },
   {
     "term": "concurrency",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2261,16 +2316,21 @@
       }
     ],
     "synonyms": [
-      "concurrency",
-      "concurrency term"
+      "parallel execution",
+      "simultaneous processing"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "antonymTerms": [
+      "sequential execution"
+    ],
+    "relatedTerms": [
+      "threads",
+      "asynchrony",
+      "race condition"
+    ]
   },
   {
     "term": "idempotency",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2289,16 +2349,21 @@
       }
     ],
     "synonyms": [
-      "idempotency",
-      "idempotency term"
+      "safe retry behavior",
+      "repeatable-effect invariance"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "antonymTerms": [
+      "non-idempotency"
+    ],
+    "relatedTerms": [
+      "HTTP PUT",
+      "retries",
+      "state consistency"
+    ]
   },
   {
     "term": "serialization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2317,16 +2382,19 @@
       }
     ],
     "synonyms": [
-      "serialization",
-      "serialization term"
+      "object encoding",
+      "data marshalling"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "JSON",
+      "protocol buffers",
+      "byte stream"
+    ]
   },
   {
     "term": "deserialization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2345,16 +2413,19 @@
       }
     ],
     "synonyms": [
-      "deserialization",
-      "deserialization term"
+      "object decoding",
+      "data unmarshalling"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "parser",
+      "schema validation",
+      "byte stream"
+    ]
   },
   {
     "term": "cryptographic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -2373,16 +2444,21 @@
       }
     ],
     "synonyms": [
-      "cryptographic",
-      "cryptographic term"
+      "cipher-related",
+      "encryption-based"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "antonymTerms": [
+      "plaintext"
+    ],
+    "relatedTerms": [
+      "encryption",
+      "hashing",
+      "key exchange"
+    ]
   },
   {
     "term": "oligopoly",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2401,16 +2477,21 @@
       }
     ],
     "synonyms": [
-      "oligopoly",
-      "oligopoly term"
+      "few-firm market",
+      "concentrated market"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "antonymTerms": [
+      "perfect competition"
+    ],
+    "relatedTerms": [
+      "market power",
+      "cartel",
+      "barriers to entry"
+    ]
   },
   {
     "term": "monopsony",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2429,16 +2510,21 @@
       }
     ],
     "synonyms": [
-      "monopsony",
-      "monopsony term"
+      "single-buyer market",
+      "buyer monopoly"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "antonymTerms": [
+      "competitive labor market"
+    ],
+    "relatedTerms": [
+      "wage setting",
+      "labor demand",
+      "purchasing power"
+    ]
   },
   {
     "term": "arbitrage",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2457,16 +2543,19 @@
       }
     ],
     "synonyms": [
-      "arbitrage",
-      "arbitrage term"
+      "price-differential trading",
+      "spread capture"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "mispricing",
+      "market efficiency",
+      "risk-neutral trade"
+    ]
   },
   {
     "term": "securitization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2485,16 +2574,19 @@
       }
     ],
     "synonyms": [
-      "securitization",
-      "securitization term"
+      "asset-backed structuring",
+      "debt repackaging"
     ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "relatedTerms": [
+      "tranches",
+      "ABS",
+      "cash flow"
+    ]
   },
   {
     "term": "disintermediation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2513,12 +2605,17 @@
       }
     ],
     "synonyms": [
-      "disintermediation",
-      "disintermediation term"
+      "middleman removal",
+      "direct market access"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "qaNote": "Synonyms include the head term; remove self-reference"
+    "antonymTerms": [
+      "intermediation"
+    ],
+    "relatedTerms": [
+      "peer-to-peer finance",
+      "platform economy",
+      "distribution channels"
+    ]
   },
   {
     "term": "conglomerate",
@@ -3701,7 +3798,7 @@
   },
   {
     "term": "determinism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -3721,13 +3818,20 @@
     ],
     "synonyms": [
       "causal necessity",
-      "predestination",
-      "fatalism"
+      "preordination"
+    ],
+    "antonymTerms": [
+      "indeterminism"
+    ],
+    "relatedTerms": [
+      "causality",
+      "free will",
+      "predictability"
     ]
   },
   {
     "term": "utilitarianism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -3747,13 +3851,20 @@
     ],
     "synonyms": [
       "consequentialism",
-      "greatest-good principle",
-      "utility ethics"
+      "greatest-happiness principle"
+    ],
+    "antonymTerms": [
+      "deontology"
+    ],
+    "relatedTerms": [
+      "utility",
+      "moral calculus",
+      "well-being"
     ]
   },
   {
     "term": "metaphysics",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -3772,14 +3883,19 @@
       }
     ],
     "synonyms": [
-      "first philosophy",
       "ontology",
-      "speculative philosophy"
+      "first philosophy"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "being",
+      "substance",
+      "reality"
     ]
   },
   {
     "term": "existentialism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -3798,14 +3914,21 @@
       }
     ],
     "synonyms": [
-      "existential philosophy",
-      "philosophy of existence",
-      "subjectivism"
+      "existence-centered philosophy",
+      "existential thought"
+    ],
+    "antonymTerms": [
+      "essentialism"
+    ],
+    "relatedTerms": [
+      "authenticity",
+      "absurdity",
+      "freedom"
     ]
   },
   {
     "term": "nihilism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -3824,14 +3947,21 @@
       }
     ],
     "synonyms": [
-      "negationism",
+      "meaninglessness doctrine",
+      "value negation"
+    ],
+    "antonymTerms": [
+      "affirmationism"
+    ],
+    "relatedTerms": [
       "pessimism",
-      "meaninglessness doctrine"
+      "skepticism",
+      "void"
     ]
   },
   {
     "term": "solipsism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -3850,14 +3980,21 @@
       }
     ],
     "synonyms": [
-      "egocentric idealism",
-      "subjective idealism",
-      "self-only doctrine"
+      "self-only epistemology",
+      "ego-centric idealism"
+    ],
+    "antonymTerms": [
+      "intersubjectivism"
+    ],
+    "relatedTerms": [
+      "subjectivity",
+      "consciousness",
+      "external world"
     ]
   },
   {
     "term": "pluralism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -3876,14 +4013,21 @@
       }
     ],
     "synonyms": [
-      "diversity",
-      "multiplicity",
-      "variety"
+      "multiplicity doctrine",
+      "diversity of principles"
+    ],
+    "antonymTerms": [
+      "monism"
+    ],
+    "relatedTerms": [
+      "tolerance",
+      "coexistence",
+      "heterogeneity"
     ]
   },
   {
     "term": "aporia",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -3902,14 +4046,21 @@
       }
     ],
     "synonyms": [
+      "philosophical impasse",
+      "logical puzzlement"
+    ],
+    "antonymTerms": [
+      "clarity"
+    ],
+    "relatedTerms": [
+      "paradox",
       "doubt",
-      "impasse",
-      "perplexity"
+      "dialectic"
     ]
   },
   {
     "term": "casuistry",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -3928,14 +4079,19 @@
       }
     ],
     "synonyms": [
-      "sophistry",
-      "quibbling",
-      "specious reasoning"
+      "case-based ethics",
+      "applied moral reasoning"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ethical dilemma",
+      "precedent",
+      "practical judgment"
     ]
   },
   {
     "term": "epigenetic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -3955,8 +4111,15 @@
     ],
     "synonyms": [
       "gene-regulatory",
-      "chromatin-mediated",
-      "non-sequence-based"
+      "chromatin-mediated"
+    ],
+    "antonymTerms": [
+      "genetic-sequence-only"
+    ],
+    "relatedTerms": [
+      "DNA methylation",
+      "histone modification",
+      "gene expression"
     ]
   },
   {

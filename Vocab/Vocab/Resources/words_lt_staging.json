@@ -268,7 +268,7 @@
     "term": "nėra už ką",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A response to thanks meaning 'you're welcome' or 'don't mention it', literally 'there's nothing to thank for'.",
@@ -281,17 +281,15 @@
       }
     ],
     "synonyms": [
-      "prašom",
-      "nesvarbu"
+      "prašom"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "ačiū",
       "mandagumas",
-      "atsakas"
+      "atsakymas"
     ],
-    "translation": "you're welcome / don't mention it",
-    "qaNote": "Synonym \"nesvarbu\" is not valid for this gratitude response; replace with a true equivalent (e.g., \"prašom\")."
+    "translation": "you're welcome / don't mention it"
   },
   {
     "term": "labai malonu",
@@ -3229,7 +3227,7 @@
     "term": "Amerika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A continent in the Western Hemisphere, often used to refer to the United States.",
@@ -3241,16 +3239,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "JAV"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žemynas",
+      "valstybė",
+      "geografija"
+    ],
     "translation": "America"
   },
   {
     "term": "amerikietis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man from the United States of America.",
@@ -3262,16 +3266,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "JAV pilietis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Amerika",
+      "tautybė",
+      "žmogus"
+    ],
     "translation": "American man"
   },
   {
     "term": "amerikietė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman from the United States of America.",
@@ -3283,16 +3293,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "JAV pilietė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Amerika",
+      "tautybė",
+      "moteris"
+    ],
     "translation": "American woman"
   },
   {
     "term": "Rusija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large country in Eastern Europe and Northern Asia.",
@@ -3304,16 +3320,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "Rusijos Federacija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šalis",
+      "Europa",
+      "Azija"
+    ],
     "translation": "Russia"
   },
   {
     "term": "rusas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man from Russia.",
@@ -3325,16 +3347,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "rusų tautybės vyras"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Rusija",
+      "tautybė",
+      "vyras"
+    ],
     "translation": "Russian man"
   },
   {
     "term": "rusė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman from Russia.",
@@ -3346,16 +3374,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "rusų tautybės moteris"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Rusija",
+      "tautybė",
+      "moteris"
+    ],
     "translation": "Russian woman"
   },
   {
     "term": "rusiškai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In the Russian language.",
@@ -3367,16 +3401,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "rusų kalba"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kalba",
+      "Rusija",
+      "vertimas"
+    ],
     "translation": "in Russian"
   },
   {
     "term": "Italija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A country in Southern Europe.",
@@ -3388,16 +3428,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "Italijos Respublika"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šalis",
+      "Europa",
+      "Roma"
+    ],
     "translation": "Italy"
   },
   {
     "term": "italas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man from Italy.",
@@ -3409,16 +3455,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "italų tautybės vyras"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Italija",
+      "tautybė",
+      "vyras"
+    ],
     "translation": "Italian man"
   },
   {
     "term": "italė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman from Italy.",
@@ -3430,16 +3482,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "italų tautybės moteris"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Italija",
+      "tautybė",
+      "moteris"
+    ],
     "translation": "Italian woman"
   },
   {
     "term": "itališkai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In the Italian language.",
@@ -3451,16 +3509,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "italų kalba"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kalba",
+      "Italija",
+      "vertimas"
+    ],
     "translation": "in Italian"
   },
   {
     "term": "Kaip sekasi",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Question used to ask how someone is doing.",
@@ -3472,9 +3536,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "Kaip einasi"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pasisveikinimas",
+      "klausimas",
+      "savijauta"
+    ],
     "translation": "how is it going",
     "tags": [
       "A1",
@@ -3485,7 +3555,7 @@
     "term": "kaip gyveni",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Informal question asking how someone is doing in life.",
@@ -3497,9 +3567,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kaip sekasi"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pasisveikinimas",
+      "klausimas",
+      "savijauta"
+    ],
     "translation": "how are you",
     "tags": [
       "A1",
@@ -3510,7 +3586,7 @@
     "term": "sveikas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Being in good health; not ill.",
@@ -3522,16 +3598,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "labas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pasisveikinimas",
+      "vyras",
+      "draugiškai"
+    ],
     "translation": "healthy"
   },
   {
     "term": "sveika",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Being in good health; not ill (feminine form).",
@@ -3543,16 +3625,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "labas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pasisveikinimas",
+      "moteris",
+      "draugiškai"
+    ],
     "translation": "healthy"
   },
   {
     "term": "neblogai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Fairly well; reasonably good.",
@@ -3564,16 +3652,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "visai gerai"
+    ],
+    "antonymTerms": [
+      "blogai"
+    ],
+    "relatedTerms": [
+      "savijauta",
+      "atsakymas",
+      "kasdienybė"
+    ],
     "translation": "not bad"
   },
   {
     "term": "puikiai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Very well; excellently.",
@@ -3585,16 +3681,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "labai gerai"
+    ],
+    "antonymTerms": [
+      "prastai"
+    ],
+    "relatedTerms": [
+      "savijauta",
+      "atsakymas",
+      "teigiamai"
+    ],
     "translation": "great"
   },
   {
     "term": "šiaip sau",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Expression used to say that something is average or not very good.",
@@ -3606,9 +3710,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "taip sau"
+    ],
+    "antonymTerms": [
+      "puikiai"
+    ],
+    "relatedTerms": [
+      "savijauta",
+      "atsakymas",
+      "neutralu"
+    ],
     "translation": "so-so",
     "tags": [
       "A1",
@@ -3619,7 +3731,7 @@
     "term": "sėkmės",
     "language": "lt",
     "partOfSpeech": "interjection",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An expression used to wish someone success.",
@@ -3631,16 +3743,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "geros kloties"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "palinkėjimas",
+      "atsisveikinimas",
+      "mandagumas"
+    ],
     "translation": "good luck"
   },
   {
     "term": "gero savaitgalio",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Polite wish said before the weekend.",
@@ -3652,9 +3770,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "smagaus savaitgalio"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "palinkėjimas",
+      "poilsis",
+      "mandagumas"
+    ],
     "translation": "have a good weekend",
     "tags": [
       "A1",
@@ -3665,7 +3789,7 @@
     "term": "nieko tokio",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Expression used to reassure someone that a mistake or problem is not serious.",
@@ -3677,9 +3801,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "nesvarbu"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atsakymas",
+      "paguoda",
+      "mandagumas"
+    ],
     "translation": "it is okay; no problem",
     "tags": [
       "A1",
@@ -3690,7 +3820,7 @@
     "term": "viso gero",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Common farewell expression used when parting.",
@@ -3702,9 +3832,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "iki pasimatymo"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atsisveikinimas",
+      "mandagumas",
+      "kalba"
+    ],
     "translation": "goodbye",
     "tags": [
       "A1",
@@ -3715,7 +3851,7 @@
     "term": "iki",
     "language": "lt",
     "partOfSpeech": "interjection",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Short farewell used when saying goodbye.",
@@ -3727,9 +3863,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "iki pasimatymo"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atsisveikinimas",
+      "trumpinys",
+      "mandagumas"
+    ],
     "translation": "see you; bye",
     "tags": [
       "A1",
@@ -3740,7 +3882,7 @@
     "term": "kada",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "At what time; on what occasion.",
@@ -3752,16 +3894,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kuomet"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "klausiamasis žodis",
+      "laikas",
+      "klausimas"
+    ],
     "translation": "when"
   },
   {
     "term": "adresas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The details of where someone lives or where a place is located.",
@@ -3773,16 +3921,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "gyvenamoji vieta"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gatvė",
+      "namo numeris",
+      "kontaktai"
+    ],
     "translation": "address"
   },
   {
     "term": "telefono numeris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A sequence of digits used to call someone by phone.",
@@ -3794,9 +3948,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "numeris"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "telefonas",
+      "kontaktai",
+      "skambutis"
+    ],
     "translation": "phone number",
     "tags": [
       "A1",
@@ -3807,7 +3967,7 @@
     "term": "Bankas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A financial institution where money is kept and managed.",
@@ -3819,16 +3979,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "finansų įstaiga"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pinigai",
+      "sąskaita",
+      "bankomatas"
+    ],
     "translation": "bank"
   },
   {
     "term": "baras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place where drinks are served.",
@@ -3840,16 +4006,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "užeiga"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gėrimai",
+      "kavinė",
+      "laisvalaikis"
+    ],
     "translation": "bar"
   },
   {
     "term": "baseinas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place or structure filled with water for swimming.",
@@ -3861,16 +4033,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "plaukimo baseinas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vanduo",
+      "plaukimas",
+      "sportas"
+    ],
     "translation": "swimming pool"
   },
   {
     "term": "biblioteka",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place where books are kept for reading or borrowing.",
@@ -3882,16 +4060,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "skaitykla"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "knygos",
+      "skaitymas",
+      "mokymasis"
+    ],
     "translation": "library"
   },
   {
     "term": "bokštas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A tall, narrow building or structure.",
@@ -3903,16 +4087,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "aukštas statinys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pastatas",
+      "miestas",
+      "architektūra"
+    ],
     "translation": "tower"
   },
   {
     "term": "fontanas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A decorative structure that sends water into the air.",
@@ -3924,16 +4114,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vandens čiurkšlė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vanduo",
+      "aikštė",
+      "miestas"
+    ],
     "translation": "fountain"
   },
   {
     "term": "kirpykla",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A place where people have their hair cut or styled.",
@@ -3945,16 +4141,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "plaukų salonas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "plaukai",
+      "kirpėjas",
+      "paslaugos"
+    ],
     "translation": "hair salon"
   },
   {
     "term": "knygynas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A shop where books are sold.",
@@ -3966,9 +4168,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "knygų parduotuvė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "knygos",
+      "parduotuvė",
+      "skaitymas"
+    ],
     "translation": "bookstore"
   },
   {
