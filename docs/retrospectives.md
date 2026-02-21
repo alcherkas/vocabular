@@ -1468,3 +1468,30 @@ Six entries (modularity, overconfidence, quasirationality, dielectric, perovskit
 - `carnivalesque` enriched as `adjective` (its primary grammatical function in Bakhtin criticism), consistent with the valid POS set.
 - `antonymTerms` set to conceptually contrasting terms where no true linguistic antonym exists (e.g., `organum` → `monophony, plainchant`), matching existing file conventions.
 - No duplicate terms introduced; all 35 were previously status `stub` with empty `meanings`.
+
+## Session retro — vocab/enricher-lt-26
+
+**Date:** 2025-07-26
+**Branch:** vocab/enricher-lt-26
+**Commit:** 5a7084a
+
+### What was done
+- Preflight JSON validation on `words_lt_staging.json` — 1960 entries loaded, valid JSON.
+- Identified 35 stub entries across three thematic clusters (city life, nature, environment) at A2/B1 level.
+- Enriched each entry: set `partOfSpeech`, added one `meanings` object (`definition`, `example`, `register`, `tags`), populated `synonyms`, `antonymTerms`, `relatedTerms`, and `translation` (EN gloss).
+- All 35 promoted from `stub` → `enriched`.
+- Post-update validation: `validate_words.py --errors-for enriched` → **PASSED** (exit 0); 10 pre-existing warnings on `approved` entries outside scope.
+
+### Stats
+| Cluster | Count | Sample terms |
+|---------|-------|--------------|
+| City life | 11 | tramvajus, troleibusas, šaligatvis, priemiestis, maršrutas, aplinkkelis, ryto spūstis |
+| Nature | 16 | kalva, pajūris, pieva, sala, slėnis, samanos, rasa, klevas, ąžuolas, beržas, pušis |
+| Environment / weather | 8 | drėgmė, atšilimas, liūtis, speigas, vėtra, šerkšnas, orų prognozė |
+| **Total** | **35** | |
+
+### Issues / notes
+- All Lithuanian relatedTerms/synonyms/antonymTerms verified as nominative dictionary forms — no `-ą` or `-ų` endings introduced.
+- `ryto spūstis` and `orų prognozė` are multi-word headwords; `partOfSpeech` set to `noun` (compound noun phrases referring to a single concept).
+- `register` set to `informal` for `ryto spūstis` (colloquial traffic term); all others `neutral`.
+- `antonymTerms` left empty (`[]`) where no natural lexical antonym exists (tramvajus, troleibusas, pėsčiųjų perėja, sala, etc.), consistent with existing file conventions.
