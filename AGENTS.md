@@ -630,3 +630,45 @@ Batch: medical vocabulary (gulėti ligoninėje, sveikatos draudimas, išrašyti 
 - LT medical domain entries rarely have true single-word synonyms (e.g. chirurgas, dermatologas, kardiologas, neurologas, skrandis, kraujas, antibiotikai, lašai, kosėti, peršalti); synonyms left as [] where no genuine alternative exists. LT has no minimum synonym count.
 - "nervų sistema" in neurologas relatedTerms contains genitive "nervų" (-ų in non-final position); this is pre-existing and passes the validator's endswith(-ų) check; left as-is per scope boundaries.
 - All newly added LT relation values are in nominative dictionary form; no -ą/-ų endings introduced.
+
+---
+
+## Retrospective — vocab/qa-27 (QA Reviewer, batch 27)
+
+**Session**: QA review of batch 27 — all `relations-added` entries in both staging files.
+
+### Results
+
+| File | Reviewed | Approved | Enriched (issues) |
+|---|---|---|---|
+| `words_staging.json` (EN) | 35 | 34 | 1 |
+| `words_lt_staging.json` (LT) | 35 | 35 | 0 |
+
+### Checks performed
+1. **Preflight JSON** — both staging files valid (`python3 -c "import json; json.load(...)"`)
+2. **Self-reference** (exact and phrase-containing-token) — none found
+3. **LT nominative forms** (`endswith(-ą/-ų)` on full relation string) — all clear
+4. **Semantic accuracy of synonyms** — one issue found (see below)
+5. **Duplicates** (within-array and cross-array) — none found
+6. **Valid POS/register enums** — all valid
+7. **Validator** (`--errors-for relations-added`) — PASSED on both files
+
+### Issues flagged
+
+| Term | Language | Issue | Action |
+|---|---|---|---|
+| `emergence` | EN | Synonyms `'emergent property'` (hyponym: the product of emergence, not the process itself) and `'self-organization'` (related but distinct concept: a mechanism that can produce emergence, not its synonym) are not true synonyms | Reset to `enriched`; `qaNote` added for Enricher |
+
+### EN batch notes
+- Batch covers three semantic domains: cognitive linguistics (embodiment, construal, schematization …), information theory (entropy, ergodicity, transinformation …), and systems/complexity science (homeostasis, bifurcation, emergence …).
+- All entries are C1+ academic/professional terms appropriate for the EN vocabulary level.
+- `'stochastic stationarity'` as a synonym of `ergodicity` is slightly imprecise (stationarity ≠ ergodicity), but accepted as borderline-adequate for this technical register.
+- `antonymTerms: ['non-ergodicity']` for `ergodicity` — "non-ergodicity" is a single compound word (no space), so word-token self-reference check does not apply; accepted.
+
+### LT batch notes
+- All 35 entries are A1/A2 medical and office/tech vocabulary. Semantic quality is high throughout.
+- No LT non-nominative issues: all full relation strings end in nominative forms; `nervų sistema` (in pre-existing approved batch, not this batch) contains internal genitive as compound modifier — already noted in previous retro and passes validator.
+- Synonym pairs like `tabletės/piliulės`, `angina/tonzilitas`, `gripas/influenca`, `karščiuoti/karščiuotis` are all genuine near-synonyms appropriate for A1/A2 level.
+
+### Commit
+`b489c29` — `vocab(qa-27): QA review batch 27`
