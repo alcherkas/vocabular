@@ -28,7 +28,7 @@ Add an entry below using this format, then save and commit. The Requirements Age
 ## Goals
 
 ### `lt-vocab-app`
-**Status**: `[ ]`
+**Status**: `[requirements-done]`
 **Goal**: Build a dual-language vocabulary learning app (extend EN vocab + learn LT from scratch) designed for short 5-minute micro-sessions throughout the day.
 **Notes**:
 - User selects which language to study (EN or LT) at session start
