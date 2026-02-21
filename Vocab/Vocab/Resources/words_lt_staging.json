@@ -18838,7 +18838,7 @@
     "term": "mėnuo",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "One of the twelve periods into which a year is divided, lasting 28 to 31 days.",
@@ -18860,13 +18860,14 @@
       "data",
       "kalendorius"
     ],
-    "translation": "month"
+    "translation": "month",
+    "qaNote": "Term already exists in the production file (words_lt.json). This staging entry is a duplicate — resolve before publishing."
   },
   {
     "term": "metai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A period of twelve months, especially from 1 January to 31 December.",
@@ -18888,7 +18889,8 @@
       "sezonas",
       "kalendorius"
     ],
-    "translation": "year"
+    "translation": "year",
+    "qaNote": "Term already exists in the production file (words_lt.json). This staging entry is a duplicate — resolve before publishing."
   },
   {
     "term": "vidurdienis",
@@ -19176,7 +19178,7 @@
     "term": "Platus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Having a great extent from one side to the other.",
@@ -19200,7 +19202,8 @@
       "didelis",
       "plotis"
     ],
-    "translation": "wide, broad"
+    "translation": "wide, broad",
+    "qaNote": "Term 'Platus' is incorrectly capitalised; dictionary headwords should be lowercase ('platus'). Correct the term field."
   },
   {
     "term": "siauras",
@@ -19393,7 +19396,7 @@
     "term": "po to",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Following something in time; subsequently.",
@@ -19908,7 +19911,7 @@
     "term": "vasaris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The second month of the year, the shortest month, in the middle of winter.",
@@ -20001,7 +20004,7 @@
     "term": "rugsėjis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The ninth month of the year, marking the start of autumn and the new school year.",
@@ -20336,7 +20339,7 @@
     "term": "namas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A building designed for people to live in; one's place of residence.",
@@ -20360,7 +20363,8 @@
       "kambaris",
       "garažas"
     ],
-    "translation": "house; home; building"
+    "translation": "house; home; building",
+    "qaNote": "Term already exists in the production file (words_lt.json). This staging entry is a duplicate — resolve before publishing."
   },
   {
     "term": "butas",
@@ -20564,7 +20568,7 @@
     "term": "atidaryti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To move so as to uncover or allow access; to make open.",
@@ -20593,7 +20597,7 @@
     "term": "uždaryti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To move so as to cover an opening; to shut.",
@@ -21293,7 +21297,7 @@
     "term": "Švarus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Free from dirt, marks, or stains.",
@@ -21318,13 +21322,14 @@
       "valyti",
       "higiena"
     ],
-    "translation": "clean"
+    "translation": "clean",
+    "qaNote": "Term 'Švarus' is incorrectly capitalised; dictionary headwords should be lowercase ('švarus'). Correct the term field."
   },
   {
     "term": "tvarkingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Arranged neatly and in order; well organised.",
@@ -21739,7 +21744,7 @@
     "term": "lietus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Water that falls from clouds in drops.",
@@ -21763,7 +21768,8 @@
       "debesis",
       "vėjas"
     ],
-    "translation": "rain"
+    "translation": "rain",
+    "qaNote": "Term already exists in the production file (words_lt.json). This staging entry is a duplicate — resolve before publishing."
   },
   {
     "term": "bala",
@@ -21813,7 +21819,7 @@
     "term": "sniegas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "White frozen water that falls from the sky in winter.",
@@ -21835,7 +21841,8 @@
       "ledas",
       "pusnis"
     ],
-    "translation": "snow"
+    "translation": "snow",
+    "qaNote": "Term already exists in the production file (words_lt.json). This staging entry is a duplicate — resolve before publishing."
   },
   {
     "term": "pūga",
@@ -21907,7 +21914,7 @@
     "term": "vėjas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The natural movement of air from an area of high pressure to one of low pressure.",
@@ -21935,7 +21942,7 @@
     "term": "audra",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A violent disturbance of the atmosphere with strong winds, heavy rain, or thunder.",
@@ -22019,7 +22026,7 @@
     "term": "šaltis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A low temperature; the feeling of cold weather.",
@@ -22124,7 +22131,7 @@
     "term": "žaibas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A flash of very bright light in the sky during a thunderstorm.",
@@ -22240,7 +22247,7 @@
     "term": "debesis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A visible mass of condensed water vapour floating in the sky.",
@@ -22277,7 +22284,7 @@
     "term": "rūkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Thick cloud of tiny water droplets close to the ground that reduces visibility.",
@@ -22305,7 +22312,7 @@
     "term": "debesuotas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Covered with clouds; lacking sunshine.",
@@ -22368,7 +22375,7 @@
     "term": "saulėtas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Bright with sunlight; having much sunshine.",
@@ -23657,7 +23664,7 @@
     "term": "kuprinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A bag with shoulder straps worn on the back, typically used by students to carry books and supplies.",
@@ -26288,7 +26295,7 @@
     "term": "pieštukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A thin writing instrument with a graphite core, used for drawing or writing.",
@@ -26317,7 +26324,7 @@
     "term": "popieriaus lapas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A single flat piece of paper used for writing or drawing.",
@@ -26345,7 +26352,7 @@
     "term": "sąsiuvinis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A book of blank or ruled pages used by students for writing notes or completing exercises.",
@@ -26372,7 +26379,7 @@
     "term": "segtuvas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A device that fastens sheets of paper together using metal staples.",
@@ -26407,7 +26414,7 @@
     "term": "skaičiuoklė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An electronic device used to perform arithmetic calculations.",
@@ -26445,7 +26452,7 @@
     "term": "trintukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A small piece of rubber used to remove pencil marks from paper.",
@@ -26547,7 +26554,7 @@
     "term": "tušinukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A pen that uses a small rotating ball to apply ink to paper.",
@@ -26575,7 +26582,7 @@
     "term": "žirklės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A cutting tool consisting of two blades joined at a pivot, used to cut paper, fabric, or other materials.",
@@ -26602,7 +26609,7 @@
     "term": "liniuotė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A straight-edged measuring tool used for drawing lines or measuring distances.",
@@ -26662,7 +26669,7 @@
     "term": "rašiklis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A writing instrument that applies ink to a surface, used for writing or signing.",
@@ -26830,7 +26837,7 @@
     "term": "pertrauka",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A short period of time between lessons when pupils rest or play.",
@@ -26924,7 +26931,7 @@
     "term": "direktorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The person in charge of a school or organisation.",
@@ -26951,7 +26958,7 @@
     "term": "direktorė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who is the head of a school or organisation.",

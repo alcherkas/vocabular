@@ -12192,7 +12192,7 @@
   },
   {
     "term": "solfatara",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -12223,7 +12223,7 @@
   },
   {
     "term": "phreatomagmatic",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -12257,7 +12257,7 @@
   },
   {
     "term": "lapilli",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -12413,7 +12413,7 @@
   },
   {
     "term": "drumlin",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -12445,7 +12445,7 @@
   },
   {
     "term": "esker",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -12477,7 +12477,7 @@
   },
   {
     "term": "periglacial",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -12508,11 +12508,12 @@
       "patterned ground",
       "frost heave",
       "thermokarst"
-    ]
+    ],
+    "qaNote": "Synonym 'paraglacial' is inaccurate: 'paraglacial' describes non-glacial processes conditioned by former glaciation, while 'periglacial' refers to frost-dominated environments near current ice margins — related but not synonymous. Remove or replace 'paraglacial'."
   },
   {
     "term": "subglacial",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -12547,7 +12548,7 @@
   },
   {
     "term": "nunatak",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -12575,7 +12576,8 @@
       "refugium",
       "periglacial",
       "alpine terrain"
-    ]
+    ],
+    "qaNote": "Synonym 'rock outcrop' is too generic; any exposed rock is an outcrop, whereas a nunatak specifically protrudes above surrounding glacial ice. Replace with a more precise alternative."
   },
   {
     "term": "hypocenter",
@@ -12640,7 +12642,7 @@
   },
   {
     "term": "isoseismal",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -12671,7 +12673,7 @@
   },
   {
     "term": "microseism",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13806,7 +13808,7 @@
   {
     "term": "modularity",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -13843,8 +13845,7 @@
       "Fodor",
       "language module",
       "localization of function"
-    ],
-    "qaNote": "Synonym 'domain specificity' duplicated in relatedTerms; remove from one array. Also 'mental modularity' in synonyms is self-referential."
+    ]
   },
   {
     "term": "sensorimotor",
@@ -14493,7 +14494,7 @@
   {
     "term": "overconfidence",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -14521,8 +14522,7 @@
       "risk assessment",
       "decision-making",
       "metacognition"
-    ],
-    "qaNote": "Antonym 'calibration' duplicated in relatedTerms; remove from one array."
+    ]
   },
   {
     "term": "hyperbolic",
@@ -14570,7 +14570,7 @@
   {
     "term": "quasirationality",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -14598,8 +14598,7 @@
       "heuristic",
       "satisficing",
       "dual-process theory"
-    ],
-    "qaNote": "Synonym 'bounded rationality' duplicated in relatedTerms; remove from one array."
+    ]
   },
   {
     "term": "annealing",
@@ -14722,7 +14721,7 @@
   {
     "term": "dielectric",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -14751,8 +14750,7 @@
       "polarization",
       "piezoelectric",
       "insulation"
-    ],
-    "qaNote": "Synonym 'dielectric material' is self-referential (term + generic noun 'material')."
+    ]
   },
   {
     "term": "sintering",
@@ -14826,7 +14824,7 @@
   {
     "term": "perovskite",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -14851,8 +14849,7 @@
       "piezoelectric",
       "crystal structure",
       "photovoltaic"
-    ],
-    "qaNote": "Synonyms 'perovskite material' and 'perovskite oxide' are self-referential; 'perovskite oxide' is a subtype, not a synonym."
+    ]
   },
   {
     "term": "piezoelectric",
@@ -14891,7 +14888,7 @@
   {
     "term": "plasticity",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -14930,8 +14927,7 @@
       "annealing",
       "stress-strain curve",
       "deformation"
-    ],
-    "qaNote": "Synonym 'ductility' duplicated in relatedTerms; remove from one array."
+    ]
   },
   {
     "term": "porosity",
@@ -14995,7 +14991,7 @@
   {
     "term": "albedo",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15029,7 +15025,7 @@
   {
     "term": "aquifer",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15063,7 +15059,7 @@
   {
     "term": "benthic",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -15098,7 +15094,7 @@
   {
     "term": "biogeochemistry",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15129,7 +15125,7 @@
   {
     "term": "denitrification",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15158,12 +15154,13 @@
       "nitrous oxide",
       "wetland ecology",
       "nitrate"
-    ]
+    ],
+    "qaNote": "Synonym 'nitrogen mineralisation' is incorrect: mineralisation converts organic nitrogen to ammonium (NH4+), a separate nitrogen-cycle step from denitrification (NO3⁻ → N2/N2O). Replace with an accurate synonym."
   },
   {
     "term": "ecotone",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15192,12 +15189,13 @@
       "biodiversity hotspot",
       "biome",
       "ecotype"
-    ]
+    ],
+    "qaNote": "Antonym 'climax community' is inaccurate; a climax community is a stable successional endpoint, not the spatial opposite of a transition zone. Replace with 'homogeneous interior habitat' or remove."
   },
   {
     "term": "edaphic",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -15231,7 +15229,7 @@
   {
     "term": "evapotranspiration",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15265,7 +15263,7 @@
   {
     "term": "geoengineering",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15299,7 +15297,7 @@
   {
     "term": "leachate",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15330,7 +15328,7 @@
   {
     "term": "limnology",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15363,7 +15361,7 @@
   {
     "term": "methanogenesis",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15392,12 +15390,13 @@
       "carbon cycle",
       "greenhouse gas",
       "biogas"
-    ]
+    ],
+    "qaNote": "Synonym 'archaeal methanogenesis' is self-referential — it contains the term itself ('methanogenesis'). Remove or replace."
   },
   {
     "term": "pedogenesis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15431,7 +15430,7 @@
   {
     "term": "riparian",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -15460,12 +15459,13 @@
       "wetland",
       "bank erosion",
       "hyporheic zone"
-    ]
+    ],
+    "qaNote": "Antonym 'terrestrial' is incorrect: riparian zones are themselves terrestrial land-based environments bordering water. A proper antonym is 'upland' or 'aquatic'."
   },
   {
     "term": "thermocline",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15499,7 +15499,7 @@
   {
     "term": "agglomeration",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15534,7 +15534,7 @@
   {
     "term": "brownfield",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15568,7 +15568,7 @@
   {
     "term": "cadastral",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -15598,7 +15598,7 @@
   {
     "term": "densification",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
