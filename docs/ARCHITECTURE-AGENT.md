@@ -62,7 +62,7 @@ Create `docs/architecture/<goal-id>.md` with this structure:
 
 ## When in Doubt → Decision Pending
 
-Same protocol as Requirements Agent — write options to `docs/decisions-pending.md`, set goal to `[blocked: decision-pending]`, stop.
+Same protocol as Requirements Agent — write to `docs/decisions-pending.md` with ambiguity type and options, set goal to `[blocked: decision-pending]`, stop. Only resume after `**Choice: X** — human`.
 
 ## Quality Bar
 - Every AC from the requirements doc must map to at least one task.
@@ -80,5 +80,5 @@ Stop and write to `docs/decisions-pending.md` if:
 
 Append to `docs/audit-log.md` after committing your output:
 ```
-[YYYY-MM-DD] [architecture-agent] [<goal-id>] [commit] [<confidence>%] Technical design for <goal-id> | doubts: <none or reason>
+[YYYY-MM-DD] [architecture-agent] [<goal-id>] [commit] [completed] [<ambiguity>] [<confidence>%] Technical design for <goal-id> | doubts: <none or reason>
 ```

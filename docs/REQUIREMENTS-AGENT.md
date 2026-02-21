@@ -63,6 +63,8 @@ If you encounter a design ambiguity, **do not guess**. Instead:
 1. Add an entry to `docs/decisions-pending.md`:
    ```markdown
    ## [<goal-id>] — <short question title>
+   **Ambiguity type**: <clear-instructions | implementation-choices | vague-requirements | open-ended-task>
+   **Human needs to provide**: <what kind of input resolves this>
    **Context**: <why this decision matters>
    **Options**:
    - A) ...
@@ -72,8 +74,8 @@ If you encounter a design ambiguity, **do not guess**. Instead:
    ```
 2. Set goal status in `GOALS.md` to `[blocked: decision-pending]`.
 3. Commit what you have.
-4. Stop. Wait for human to pick an option in `docs/decisions-pending.md`.
-5. When you see `**Choice: X**` written by the human: apply it, move entry to `docs/decisions-log.md`, resume.
+4. Stop. Wait for human to add `**Choice: X** — human` to the entry.
+5. When you see `**Choice: X** — human`: apply it, move entry to `docs/decisions-log.md`, resume.
 
 ## Quality Bar
 - Acceptance criteria must be **testable** — a Verification Agent should be able to check each one by reading code or running the app.
@@ -90,5 +92,5 @@ Stop and write to `docs/decisions-pending.md` if:
 
 Append to `docs/audit-log.md` after committing your output:
 ```
-[YYYY-MM-DD] [requirements-agent] [<goal-id>] [commit] [<confidence>%] Defined requirements for <goal-id> | doubts: <none or reason>
+[YYYY-MM-DD] [requirements-agent] [<goal-id>] [commit] [completed] [<ambiguity>] [<confidence>%] Defined requirements for <goal-id> | doubts: <none or reason>
 ```

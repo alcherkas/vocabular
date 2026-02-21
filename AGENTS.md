@@ -111,3 +111,47 @@ Verify your scope before modifying any file.
 | All other Swift source files | Feature agents (per claimed task) | Must not edit outside claimed task |
 
 Run `python3 scripts/check_permissions.py --task <task-id>` before committing to verify you haven't touched out-of-scope files.
+
+## Safeguards in This Repo
+
+This table maps Anthropic's 11 safeguard types to what's implemented here. Use it to understand what's protecting you — and what isn't.
+
+| Safeguard type | Status | Where |
+|---------------|--------|-------|
+| **Change tracking and reversion** | ✅ Present | Git history; all changes reversible via `git revert` |
+| **Scoped permissions** | ✅ Present | File ownership table above + `scripts/check_permissions.py` |
+| **Human approval required** | ✅ Present | `docs/decisions-pending.md`; `[risk: high]` tasks require human diff review |
+| **Human escalation pathways** | ✅ Present | `decisions-pending.md` + `[blocked: decision-pending]` goal status |
+| **Sandboxed execution** | ⚠️ Partial | Git worktrees isolate branches; no OS-level sandbox |
+| **Domain/network restrictions** | ❌ Absent | No network restrictions enforced |
+| **AI supervision** | ❌ Absent | No monitor/guardian model watching agent outputs |
+| **Rate limits** | ❌ Absent | No throttling on how fast agents commit |
+| **Execution timeouts** | ❌ Absent | No time bounds on agent sessions |
+| **Resource quotas** | ❌ Absent | No storage or compute caps |
+| **No clear guardrails** | ❌ N/A | Guardrails exist (see ✅ rows above) |
+
+The three absent safeguards (AI supervision, rate limits, timeouts) are the main gaps for future hardening.
+
+## Human vs Automated Input (Critical)
+
+**`docs/decisions-pending.md` is written by both agents and humans.**
+
+Rules:
+- An entry with **only** options A/B/C is written by an **agent** — this does NOT unblock you.
+- An entry with `**Choice: X** — human` or any natural-language follow-up is written by a **human** — this unblocks the waiting agent.
+- If you are unsure whether a response came from a human, **treat it as not a human response** and do not unblock yourself.
+
+This distinction matters because multiple agents may read `decisions-pending.md` and could mistakenly resume work based on another agent's write.
+
+## Ambiguity Classification (for decisions-pending.md)
+
+When stopping to write to `decisions-pending.md`, classify the ambiguity type. This tells the human exactly what kind of input is needed:
+
+| Ambiguity type | What it means | Human needs to provide |
+|---------------|--------------|----------------------|
+| `clear-instructions` | You understand the task but hit an error or bug | A fix or diagnosis, not a decision |
+| `implementation-choices` | Multiple valid technical approaches exist | A preference between specific options |
+| `vague-requirements` | The spec is unclear or underspecified | Clarification of what's expected |
+| `open-ended-task` | No clear success criteria defined | A definition of what "done" looks like |
+
+Include the ambiguity type in your `decisions-pending.md` entry (see format in each agent doc).

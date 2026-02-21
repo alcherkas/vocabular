@@ -18,6 +18,17 @@ Each task has a `[risk: low/medium/high]` label.
 | `medium` | Touches shared model or multiple files | Tests pass + append to `audit-log.md` |
 | `high` | Breaking schema change, large surface area | Tests pass + append to `audit-log.md` + write to `decisions-pending.md` for human diff review |
 
+## Complexity Levels
+
+Each task also has a `[complexity: minimal/low/intermediate/high]` label based on how many subgoals and interdependencies it involves.
+
+| Complexity | Meaning | Agent behavior |
+|-----------|---------|---------------|
+| `minimal` | Single direct action, no decomposition | Proceed end-to-end |
+| `low` | Single goal, multi-step sequence | Proceed; commit each step |
+| `intermediate` | Complex goal broken into clear subgoals | Stop after each subgoal, confirm before next |
+| `high` | Many subgoals with interdependencies | Stop after each subgoal; write to `audit-log.md` at each checkpoint; escalate any uncertainty |
+
 ---
 
 ## Vocabulary Pipeline Tasks
@@ -28,6 +39,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `vocab-seeder-en`
 **Status**: `[ ]`
 **Risk**: `low`
+**Complexity**: `low`
 **Role**: Seeder (English)
 **Description**: Continuously add C1+ English word stubs to `words_staging.json`. Run the Seeder loop from `docs/VOCAB-AGENT.md`.
 **Files to touch**: `Vocab/Vocab/Resources/words_staging.json`
@@ -38,6 +50,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `vocab-seeder-lt`
 **Status**: `[ ]`
 **Risk**: `low`
+**Complexity**: `minimal`
 **Role**: Seeder (Lithuanian)
 **Description**: Continuously add A1/A2 Lithuanian word stubs to `words_lt_staging.json`. Run the Seeder loop from `docs/VOCAB-AGENT.md`.
 **Files to touch**: `Vocab/Vocab/Resources/words_lt_staging.json` (create if absent)
@@ -48,6 +61,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `vocab-enricher-en`
 **Status**: `[ ]`
 **Risk**: `low`
+**Complexity**: `low`
 **Role**: Enricher (English)
 **Description**: Pick up `stub` entries in `words_staging.json` and add all meanings (definitions, examples, register, tags). Run the Enricher loop from `docs/VOCAB-AGENT.md`.
 **Files to touch**: `Vocab/Vocab/Resources/words_staging.json`
@@ -57,6 +71,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `vocab-enricher-lt`
 **Status**: `[ ]`
 **Risk**: `low`
+**Complexity**: `low`
 **Role**: Enricher (Lithuanian)
 **Description**: Pick up `stub` entries in `words_lt_staging.json` and add meanings + translation. Run the Enricher loop.
 **Files to touch**: `Vocab/Vocab/Resources/words_lt_staging.json`
@@ -66,6 +81,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `vocab-relations`
 **Status**: `[ ]`
 **Risk**: `low`
+**Complexity**: `low`
 **Role**: Relations
 **Description**: Pick up `enriched` entries in staging files and add synonyms, antonyms, relatedTerms. Run the Relations loop from `docs/VOCAB-AGENT.md`.
 **Files to touch**: `Vocab/Vocab/Resources/words_staging.json`, `words_lt_staging.json`
@@ -75,6 +91,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `vocab-qa`
 **Status**: `[ ]`
 **Risk**: `medium`
+**Complexity**: `low`
 **Role**: QA Reviewer
 **Description**: Review `relations-added` entries. Approve or send back for rework. Run the QA loop from `docs/VOCAB-AGENT.md`.
 **Files to touch**: `Vocab/Vocab/Resources/words_staging.json`, `words_lt_staging.json`
@@ -84,6 +101,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `word-meanings-model`
 **Status**: `[ ]`
 **Risk**: `high`
+**Complexity**: `high`
 **Description**: Update `Word.swift` and `WordService.swift` to support the `meanings` array schema (replaces flat `definition`/`example` fields). Update all Views that reference `.definition` or `.example`.
 **Files to touch**: `Vocab/Vocab/Models/Word.swift`, `Vocab/Vocab/Services/WordService.swift`, all View files that use `.definition`/`.example`
 **Acceptance criteria**:
@@ -99,6 +117,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `word-relations`
 **Status**: `[ ]`
 **Risk**: `medium`
+**Complexity**: `intermediate`
 **Description**: Add `antonyms` and `relatedWords` as SwiftData `@Relationship` fields to `Word.swift`.
 **Files to touch**: `Vocab/Vocab/Models/Word.swift`, `Vocab/Vocab/Services/WordService.swift` (update `WordData` struct + loader)
 **Acceptance criteria**:
@@ -111,6 +130,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `language-field`
 **Status**: `[ ]`
 **Risk**: `medium`
+**Complexity**: `low`
 **Description**: Add `language: String` and `translation: String?` fields to `Word.swift` and update `WordService` to support loading `words_lt.json`.
 **Files to touch**: `Vocab/Vocab/Models/Word.swift`, `Vocab/Vocab/Services/WordService.swift`
 **Acceptance criteria**:
@@ -125,6 +145,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `en-words-expansion`
 **Status**: `[ ]`
 **Risk**: `low`
+**Complexity**: `low`
 **Description**: Expand `words.json` from current count toward 1000 C1+ English words. Add 100 words per batch.
 **Files to touch**: `Vocab/Vocab/Resources/words.json`
 **Acceptance criteria**:
@@ -137,6 +158,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `lt-vocab-initial`
 **Status**: `[ ]`
 **Risk**: `low`
+**Complexity**: `low`
 **Description**: Create `words_lt.json` with 200 Lithuanian A1/A2 basic words.
 **Files to touch**: `Vocab/Vocab/Resources/words_lt.json` (create new)
 **Acceptance criteria**:
@@ -151,6 +173,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `spaced-rep`
 **Status**: `[ ]`
 **Risk**: `high`
+**Complexity**: `high`
 **Description**: Implement SM-2 spaced repetition algorithm for word scheduling.
 **Files to touch**: `Vocab/Vocab/Models/Word.swift` (add `nextReview: Date?`, `easeFactor: Double`), new `Vocab/Vocab/Services/SpacedRepetitionService.swift`, `Vocab/Vocab/Views/FlashcardsView.swift` (surface due words first)
 **Acceptance criteria**:
@@ -163,6 +186,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `lt-ui-filter`
 **Status**: `[ ]`
 **Risk**: `low`
+**Complexity**: `low`
 **Description**: Add language filter to `WordListView` so user can browse EN or LT words separately.
 **Depends on**: `language-field` task must be done first.
 **Files to touch**: `Vocab/Vocab/Views/WordListView.swift`
@@ -176,6 +200,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `word-of-day-lt`
 **Status**: `[ ]`
 **Risk**: `low`
+**Complexity**: `minimal`
 **Description**: Extend `HomeView` to show a Lithuanian Word of the Day alongside the English one (or as a toggle).
 **Depends on**: `language-field` and `lt-vocab-initial` must be done first.
 **Files to touch**: `Vocab/Vocab/Views/HomeView.swift`
@@ -188,6 +213,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `haptics`
 **Status**: `[ ]`
 **Risk**: `low`
+**Complexity**: `minimal`
 **Description**: Add haptic feedback on quiz correct/wrong answers.
 **Files to touch**: `Vocab/Vocab/Views/QuizView.swift`
 **Acceptance criteria**:
@@ -199,6 +225,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `widget`
 **Status**: `[ ]`
 **Risk**: `medium`
+**Complexity**: `intermediate`
 **Description**: Add a WidgetKit extension for Word of the Day home screen widget.
 **Files to touch**: New `VocabWidget/` target (create in Xcode)
 **Acceptance criteria**:
@@ -213,6 +240,7 @@ Each task has a `[risk: low/medium/high]` label.
 ### `tests-wordservice`
 **Status**: `[ ]`
 **Risk**: `low`
+**Complexity**: `low`
 **Description**: Add unit tests for `WordService` (requires `VocabTests` target — see `docs/BUILD.md`).
 **Files to touch**: `Vocab/VocabTests/WordServiceTests.swift` (create)
 **Acceptance criteria**:

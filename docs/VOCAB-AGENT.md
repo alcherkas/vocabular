@@ -246,7 +246,7 @@ When stopping, commit your current work, write to `decisions-pending.md` with co
 
 Append to `docs/audit-log.md` after every commit:
 ```
-[YYYY-MM-DD] [<agent-id>] [<task-id>] [commit] [<confidence>%] <description> | doubts: <none or reason>
+[YYYY-MM-DD] [<agent-id>] [<task-id>] [commit] [<stop-reason>] [<ambiguity>] [<confidence>%] <description> | doubts: <none or reason>
 ```
 
 See `docs/REVERSIBILITY.md` for full rules on irreversible actions (especially Publisher).

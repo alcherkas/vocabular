@@ -81,5 +81,5 @@ Stop and write to `docs/decisions-pending.md` if:
 
 Append to `docs/audit-log.md` after committing your output:
 ```
-[YYYY-MM-DD] [verification-agent] [<goal-id>] [commit] [<confidence>%] Verification <PASSED|FAILED> for <goal-id> | doubts: <none or reason>
+[YYYY-MM-DD] [verification-agent] [<goal-id>] [commit] [completed] [<ambiguity>] [<confidence>%] Verification <PASSED|FAILED> for <goal-id> | doubts: <none or reason>
 ```
