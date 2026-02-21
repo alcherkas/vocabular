@@ -665,3 +665,60 @@ Selected 35 stubs covering jobs/professions and work/office vocabulary at A1/A2 
 - LT verb+object phrases in synonyms/relatedTerms frequently carry accusative `-ą` endings; prefer nominative noun phrases or bare infinitives.
 - Self-referential synonyms (e.g. "stellar nucleosynthesis", "atmospheric teleconnection") are a recurring pattern when an enrichment agent qualifies the headword rather than replacing it — validate before committing.
 - Multi-word headwords (e.g. "paso numeris") bypass the word-token self-ref check; they can still silently carry their constituent tokens in relations without triggering the validator.
+
+## enricher-lt-35 retro
+
+**Batch**: 35 Lithuanian stubs → `enriched`; arts and culture (theater, cinema, literature, music); B1/B2 level.
+**Commit**: `vocab(enricher-lt-35): enrich 35 Lithuanian stubs` on branch `vocab/enricher-lt-35`.
+
+**Terms enriched**
+| Term | POS | Translation |
+|------|-----|-------------|
+| salė | noun | hall, auditorium |
+| eilė | noun | row, line, queue |
+| dirigentas | noun | conductor (male) |
+| dirigentė | noun | conductor (female) |
+| koncertuoti | verb | to perform, to tour |
+| baletas | noun | ballet |
+| opera | noun | opera |
+| spektaklis | noun | performance, show, play |
+| vaidmuo | noun | role, part |
+| vaidmenys | noun | roles, parts (plural) |
+| žiūrovas | noun | spectator (male) |
+| žiūrovė | noun | spectator (female) |
+| ploti | verb | to applaud, to clap |
+| vaidinti | verb | to act, to perform |
+| scena | noun | stage, scene |
+| dailė | noun | fine arts, visual arts |
+| grafika | noun | graphic art, graphics |
+| grafikas | noun | graphic artist (male) |
+| grafikė | noun | graphic artist (female) |
+| kūrinys | noun | work (of art/literature) |
+| paroda | noun | exhibition, show |
+| skulptorius | noun | sculptor (male) |
+| skulptorė | noun | sculptor (female) |
+| skulptūra | noun | sculpture |
+| tapyba | noun | painting (the art) |
+| tapytojas | noun | painter (male) |
+| tapytoja | noun | painter (female) |
+| Tapyti | verb | to paint (art) |
+| kurti | verb | to create, to compose |
+| filmuoti | verb | to film, to shoot |
+| fotografuoti | verb | to photograph |
+| trimitas | noun | trumpet |
+| fleita | noun | flute |
+| akordeonas | noun | accordion |
+| klavišai | noun | keys (keyboard instrument) |
+
+**What went well**
+- Preflight (`--errors-for enriched`) passed clean with 0 enriched-status errors before starting; only pre-existing approved warnings were present.
+- All 35 target stubs identified in a single pass from stub list; no accidental misses.
+- A typo in the `kurti` example sentence ("kursto kuria") was caught by inspection before committing and corrected in place.
+- Validator passed on first run after enrichment with 0 errors for enriched status.
+
+**What to watch**
+- `Tapyti` has a capitalised headword (convention in this file for some verbs); preserve case exactly when matching stubs.
+- `grafikas` is ambiguous: means both "graphic artist" and "schedule/timetable" — the arts sense was used; qaNote flags this.
+- `tapyti` vs `dažyti`: both mean "to paint" but `tapyti` is for artistic painting; `dažyti` is for painting surfaces (walls). Note added to qaNote.
+- `vaidmenys` is the nominative plural of `vaidmuo`; enriched as a separate entry since it appears independently in the stub list.
+- LT gender pairs (dirigentas/dirigentė, žiūrovas/žiūrovė, etc.) each need independent enrichment — avoid relatedTerms inflected forms ending in `-ą` or `-ų`.
