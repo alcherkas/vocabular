@@ -27864,24 +27864,63 @@
   {
     "term": "poilsis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Time spent relaxing or recovering from work and activity; a period of ease and recreation.",
+        "example": "Po ilgo darbo reikia gerai pailsėti.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "atostogos",
+      "laisvalaikis"
+    ],
+    "antonymTerms": [
+      "darbas"
+    ],
+    "relatedTerms": [
+      "miegas",
+      "ilsėtis",
+      "atostogos",
+      "sveikata"
+    ],
+    "translation": "rest, leisure"
   },
   {
     "term": "ilsėtis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To stop working or exerting oneself, and spend time in relaxation.",
+        "example": "Vakare mėgstu ilsėtis ant sofos ir skaityti knygą.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "atsipalaiduoti"
+    ],
+    "antonymTerms": [
+      "dirbti"
+    ],
+    "relatedTerms": [
+      "poilsis",
+      "miegas",
+      "laisvalaikis",
+      "atostogos"
+    ],
+    "translation": "to rest, to relax"
   },
   {
     "term": "leisti",
@@ -28747,13 +28786,31 @@
   {
     "term": "futbolas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A team sport played between two teams of eleven players who kick a round ball, aiming to score goals.",
+        "example": "Vaikai žaidžia futbolą kieme po pamokų.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "sport",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "sokkeris"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kamuolys",
+      "stadionas",
+      "varžybos",
+      "sportas"
+    ],
+    "translation": "football, soccer"
   },
   {
     "term": "krepšinis",
@@ -28802,13 +28859,31 @@
   {
     "term": "kamuolys",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A round object used in many sports such as football and basketball.",
+        "example": "Berniukas spardė kamuolį sode.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "sport",
+          "toy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rutulys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "futbolas",
+      "krepšinis",
+      "žaidimas",
+      "sportas"
+    ],
+    "translation": "ball"
   },
   {
     "term": "raketė",
@@ -28868,57 +28943,149 @@
   {
     "term": "aikštelė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A marked outdoor or indoor area used for playing sports or as a children's playground.",
+        "example": "Vaikai žaidžia krepšinį aikštelėje.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "place"
+        ]
+      }
+    ],
+    "synonyms": [
+      "laukas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "stadionas",
+      "krepšinis",
+      "futbolas",
+      "žaidimas"
+    ],
+    "translation": "court, playing field, playground"
   },
   {
     "term": "čiuožykla",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An area of ice prepared for skating, either outdoors in winter or in a covered building.",
+        "example": "Žiemą mes einame į čiuožyklą pačiūžomis.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "place",
+          "winter"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pačiūžos",
+      "čiuožti",
+      "žiema",
+      "ledas"
+    ],
+    "translation": "ice rink"
   },
   {
     "term": "stadionas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large sports arena with tiered seating for spectators, used for matches and athletic events.",
+        "example": "Šeštadienį eisime į stadioną žiūrėti futbolo.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "place"
+        ]
+      }
+    ],
+    "synonyms": [
+      "arena"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "futbolas",
+      "varžybos",
+      "aikštelė",
+      "sportas"
+    ],
+    "translation": "stadium"
   },
   {
     "term": "varžybos",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An organised contest or match between athletes or teams competing for a prize or title.",
+        "example": "Mokyklos sporto varžybos vyks kitą savaitę.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport"
+        ]
+      }
+    ],
+    "synonyms": [
+      "turnyras",
+      "rungtynės"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "sportas",
+      "komanda",
+      "stadionas",
+      "čempionatas"
+    ],
+    "translation": "competition, match, contest"
   },
   {
     "term": "bėgioti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To run at a steady, gentle pace for exercise or fitness on a regular basis.",
+        "example": "Ji bėgioja parke kiekvieną rytą.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "exercise",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "bėgti"
+    ],
+    "antonymTerms": [
+      "vaikščioti"
+    ],
+    "relatedTerms": [
+      "sportuoti",
+      "treniruotis",
+      "parkas",
+      "sveikata"
+    ],
+    "translation": "to jog, to run (habitually)"
   },
   {
     "term": "čiuožinėti",
@@ -28990,12 +29157,31 @@
     "term": "slidinėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To travel on skis down snow-covered slopes for sport or recreation.",
+        "example": "Kalnuose mums labai patinka slidinėti žiemą.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "winter",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "važinėti slidėmis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "slidės",
+      "kalnai",
+      "žiema",
+      "sportuoti"
+    ],
+    "translation": "to ski, to go skiing"
   },
   {
     "term": "važinėti",
@@ -29011,13 +29197,30 @@
   {
     "term": "pačiūžos",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Boots with metal blades attached to the soles, used for gliding on ice.",
+        "example": "Ji apsiavė pačiūžas ir išėjo ant ledo čiuožyklos.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "winter",
+          "equipment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "čiuožykla",
+      "čiuožti",
+      "žiema",
+      "ledas"
+    ],
+    "translation": "ice skates"
   },
   {
     "term": "kinas",
@@ -29050,13 +29253,31 @@
   {
     "term": "koncertas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A live musical performance given in public by one or more musicians.",
+        "example": "Vakare eisime į džiazo koncertą.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "music",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pasirodymas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "muzika",
+      "scena",
+      "orkestras",
+      "bilietas"
+    ],
+    "translation": "concert"
   },
   {
     "term": "salė",
@@ -29083,13 +29304,30 @@
   {
     "term": "choras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An organised group of singers who perform together, often as part of a church or school.",
+        "example": "Ji dainuoja mokyklos chore kiekvieną savaitę.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "music"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ansamblis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "muzika",
+      "dainuoti",
+      "orkestras",
+      "koncertas"
+    ],
+    "translation": "choir, chorus"
   },
   {
     "term": "grupė",
@@ -29105,13 +29343,30 @@
   {
     "term": "orkestras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large ensemble of musicians playing various instruments, typically including strings, woodwind, brass, and percussion.",
+        "example": "Simfoninis orkestras grojo Bethoveno simfoniją.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "music"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ansamblis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "muzika",
+      "dirigentas",
+      "koncertas",
+      "choras"
+    ],
+    "translation": "orchestra"
   },
   {
     "term": "dirigentas",
@@ -29165,12 +29420,30 @@
     "term": "groti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To produce music by performing on a musical instrument.",
+        "example": "Ji groja gitara kiekvieną vakarą.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "music",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "muzikuoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "gitara",
+      "smuikas",
+      "muzika",
+      "instrumentas"
+    ],
+    "translation": "to play (a musical instrument)"
   },
   {
     "term": "koncertuoti",
@@ -29515,23 +29788,60 @@
     "term": "sportuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To practise a sport or physical exercise regularly.",
+        "example": "Svarbu sportuoti bent tris kartus per savaitę.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "health",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "treniruotis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "treneris",
+      "sveikata",
+      "bėgioti",
+      "plaukimas"
+    ],
+    "translation": "to do sports, to exercise"
   },
   {
     "term": "vakarėlis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An informal social gathering in the evening for enjoyment, often with music and food.",
+        "example": "Draugas surengė vakarėlį savo gimtadienio proga.",
+        "register": "informal",
+        "tags": [
+          "A2",
+          "leisure",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pobūvis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "draugai",
+      "gimtadienis",
+      "muzika",
+      "šokti"
+    ],
+    "translation": "party, gathering"
   },
   {
     "term": "vakaronė",
@@ -29547,24 +29857,62 @@
   {
     "term": "linksmintis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To enjoy oneself and have a good time, especially in a social or playful setting.",
+        "example": "Vaikai linksminasi žaisdami lauke.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "džiaugtis"
+    ],
+    "antonymTerms": [
+      "liūdėti"
+    ],
+    "relatedTerms": [
+      "žaisti",
+      "juoktis",
+      "vakarėlis",
+      "draugai"
+    ],
+    "translation": "to have fun, to enjoy oneself"
   },
   {
     "term": "šokti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To move the body rhythmically, usually in time to music, as a form of expression or entertainment.",
+        "example": "Ji mėgsta šokti salsa šokius su draugais.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "music",
+          "leisure",
+          "dance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šokinėti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "muzika",
+      "ritmas",
+      "vakarėlis",
+      "scena"
+    ],
+    "translation": "to dance"
   },
   {
     "term": "švęsti",
@@ -29844,13 +30192,31 @@
   {
     "term": "eilėraštis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A piece of writing arranged in short lines, often with rhythm and rhyme, expressing feelings or ideas.",
+        "example": "Vaikai mokosi eilėraštį mintinai per lietuvių kalbos pamoką.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "reading",
+          "literature"
+        ]
+      }
+    ],
+    "synonyms": [
+      "poema"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "knyga",
+      "skaitymas",
+      "rašymas",
+      "literatūra"
+    ],
+    "translation": "poem"
   },
   {
     "term": "susitaikyti",
@@ -32317,10 +32683,34 @@
   },
   {
     "term": "plaukimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The activity or sport of propelling oneself through water using the body.",
+        "example": "Plaukimas baseine stiprina raumenis ir pagerina savijautą.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "swimming",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [
+      "maudymasis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "baseinas",
+      "vanduo",
+      "sportuoti",
+      "treneris"
+    ],
+    "translation": "swimming"
   },
   {
     "term": "bėgimas",
@@ -32506,10 +32896,33 @@
   },
   {
     "term": "treneris",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A person who trains and guides athletes or sports teams to improve their skills.",
+        "example": "Treneris moko vaikus plaukti baseine.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "people"
+        ]
+      }
+    ],
+    "synonyms": [
+      "instruktorius"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sportas",
+      "treniruotė",
+      "sportuoti",
+      "plaukimas"
+    ],
+    "translation": "trainer, coach"
   },
   {
     "term": "trenerė",
@@ -32688,10 +33101,31 @@
   },
   {
     "term": "kočėlas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A cylindrical kitchen tool used to flatten and roll out dough when baking.",
+        "example": "Mama naudoja kočėlą, kad iškočiotų tešlą pyragui.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "cooking",
+          "kitchen"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kepimas",
+      "tešla",
+      "virtuvė",
+      "mentelė"
+    ],
+    "translation": "rolling pin"
   },
   {
     "term": "kiaurasamtis",
@@ -32732,10 +33166,31 @@
   },
   {
     "term": "mentelė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A flat kitchen utensil used for turning or lifting food during cooking.",
+        "example": "Apversk blyną mentele, kad iškeptų iš abiejų pusių.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "cooking",
+          "kitchen"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kepimas",
+      "keptuvė",
+      "virtuvė",
+      "kočėlas"
+    ],
+    "translation": "spatula"
   },
   {
     "term": "sietelis",
@@ -32799,24 +33254,91 @@
   },
   {
     "term": "prieskonis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A plant-based substance, such as pepper or cinnamon, added to food to give it flavour.",
+        "example": "Kepsnys gardus, nes įdėjome daug prieskonių.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "cooking",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pagardas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "maistas",
+      "kepimas",
+      "druska",
+      "padažas"
+    ],
+    "translation": "spice, seasoning"
   },
   {
     "term": "pagardas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A sauce, relish, or garnish added to food to enhance its flavour.",
+        "example": "Garstyčios yra populiarus pagardas prie dešros.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "cooking",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [
+      "prieskonis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "maistas",
+      "padažas",
+      "garstyčios",
+      "kepimas"
+    ],
+    "translation": "condiment, garnish, flavouring"
   },
   {
     "term": "užkandis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A small amount of food eaten between meals or served before a main course.",
+        "example": "Pietų pertraukos metu valgėme lengvus užkandžius.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "food",
+          "cooking"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "maistas",
+      "sumuštinis",
+      "vakarėlis",
+      "valgymas"
+    ],
+    "translation": "snack, appetiser"
   },
   {
     "term": "blynas",
@@ -32850,10 +33372,33 @@
   },
   {
     "term": "apkepas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A dish of mixed ingredients cooked slowly together in the oven.",
+        "example": "Mama gamino traškų bulvių apkepą vakarienei.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "cooking",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [
+      "troškinys"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "orkaitė",
+      "kepimas",
+      "bulvės",
+      "virtuvė"
+    ],
+    "translation": "casserole, baked dish"
   },
   {
     "term": "užvirti",
@@ -32864,24 +33409,90 @@
   },
   {
     "term": "nata",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A symbol in written music representing the pitch and duration of a single sound; also the sound itself.",
+        "example": "Pradedantysis pianistas mokosi skaityti natas.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "music"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "muzika",
+      "melodija",
+      "groti",
+      "instrumentas"
+    ],
+    "translation": "(musical) note"
   },
   {
     "term": "ritmas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A strong, regular pattern of sounds or beats in music or movement.",
+        "example": "Vaikai šoka pagal ritmą.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "music",
+          "dance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "taktas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "muzika",
+      "melodija",
+      "šokti",
+      "daina"
+    ],
+    "translation": "rhythm, beat"
   },
   {
     "term": "melodija",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A sequence of musical notes forming a recognisable, pleasing tune.",
+        "example": "Ši melodija labai graži ir lengvai įsimenama.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "music"
+        ]
+      }
+    ],
+    "synonyms": [
+      "motyvas",
+      "tema"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "muzika",
+      "ritmas",
+      "daina",
+      "nata"
+    ],
+    "translation": "melody, tune"
   },
   {
     "term": "dainelė",
@@ -32892,24 +33503,87 @@
   },
   {
     "term": "smuikas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A bowed stringed instrument held under the chin, widely used in classical and folk music.",
+        "example": "Vaikai mokosi groti smuiku muzikos mokykloje.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "music",
+          "instrument"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "groti",
+      "muzika",
+      "gitara",
+      "orkestras"
+    ],
+    "translation": "violin"
   },
   {
     "term": "gitara",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A stringed musical instrument with a long neck, played by plucking or strumming the strings.",
+        "example": "Jis moka groti gitara ir dainuoti.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "music",
+          "instrument"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "groti",
+      "muzika",
+      "smuikas",
+      "instrumentas"
+    ],
+    "translation": "guitar"
   },
   {
     "term": "būgnas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A percussion instrument consisting of a hollow cylinder with a membrane stretched over one or both ends, struck with sticks.",
+        "example": "Grupėje jis groja būgnu ir nustato ritmą.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "music",
+          "instrument"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "groti",
+      "ritmas",
+      "muzika",
+      "orkestras"
+    ],
+    "translation": "drum"
   },
   {
     "term": "trimitas",
@@ -33018,10 +33692,31 @@
   },
   {
     "term": "piknikas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An outdoor meal eaten in a pleasant natural setting, typically in a park or countryside.",
+        "example": "Sekmadienį šeima surengė pikniką parke prie ežero.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "leisure",
+          "outdoor"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "parkas",
+      "gamta",
+      "maistas",
+      "poilsis"
+    ],
+    "translation": "picnic"
   },
   {
     "term": "komoda",
