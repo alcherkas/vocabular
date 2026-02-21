@@ -16715,24 +16715,64 @@
   {
     "term": "brangus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kainuojantis daug pinigų; aukštos kainos",
+        "example": "Šioje parduotuvėje drabužiai labai brangūs, todėl perkame kitur.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "prices",
+          "money"
+        ]
+      },
+      {
+        "definition": "Labai vertinamas, mylimas; turintis didelę emocinę vertę",
+        "example": "Senelio dovanotas laikrodis man labai brangus.",
+        "register": "general",
+        "tags": [
+          "emotions",
+          "value"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "expensive"
   },
   {
     "term": "pigus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Nedaug kainuojantis; žemos kainos",
+        "example": "Turguje galima rasti pigių daržovių ir vaisių.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "prices",
+          "money"
+        ]
+      },
+      {
+        "definition": "Prastų savybių, nekokybiško gamybos lygio",
+        "example": "Pigūs batai greitai suplyšo per pirmą savaitę.",
+        "register": "informal",
+        "tags": [
+          "quality",
+          "shopping"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "cheap"
   },
   {
     "term": "šviežias",
@@ -17800,12 +17840,32 @@
     "term": "mokėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Perduoti pinigus kaip atlyginimą ar apmokėjimą už prekes ar paslaugas",
+        "example": "Ar galiu mokėti kortele, ar tik grynaisiais?",
+        "register": "general",
+        "tags": [
+          "payment",
+          "shopping",
+          "banking"
+        ]
+      },
+      {
+        "definition": "Turėti įgūdžių ar gebėjimų ką nors daryti",
+        "example": "Ji gerai moka derėtis dėl kainų turguje.",
+        "register": "general",
+        "tags": [
+          "skills",
+          "ability"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to pay"
   },
   {
     "term": "parduoti",
@@ -17885,23 +17945,63 @@
     "term": "siūlyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pateikti kaip galimybę ar pasiūlymą; kviesti priimti",
+        "example": "Pardavėja siūlė nuolaidą perkant du gaminius.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "stores",
+          "discount"
+        ]
+      },
+      {
+        "definition": "Rekomenduoti; patarti rinktis ką nors",
+        "example": "Bankininkas siūlė atidaryti taupomąją sąskaitą.",
+        "register": "formal",
+        "tags": [
+          "banking",
+          "advice"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to offer"
   },
   {
     "term": "užsisakyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pateikti užsakymą prekėms ar paslaugoms gauti",
+        "example": "Užsisakiau naujus batus internetu ir laukiu pristatymo.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "online",
+          "stores"
+        ]
+      },
+      {
+        "definition": "Rezervuoti vietą ar paslaugą iš anksto",
+        "example": "Svarbu iš anksto užsisakyti stalą restorane savaitgalio vakarienei.",
+        "register": "general",
+        "tags": [
+          "restaurants",
+          "reservation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to order"
   },
   {
     "term": "Barščiai",
@@ -18993,35 +19093,77 @@
   {
     "term": "sąskaita",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Dokumentas, kuriame nurodytos prekių ar paslaugų kainos ir mokėtina suma",
+        "example": "Padavėjas atnešė sąskaitą, ir mes pasidalinome mokestį.",
+        "register": "general",
+        "tags": [
+          "payment",
+          "restaurants",
+          "shopping"
+        ]
+      },
+      {
+        "definition": "Banko sąskaita – finansinis įrašas, kuriame laikomi kliento pinigai",
+        "example": "Ji atidarė atskirą taupomąją banko sąskaitą atostogų fondui.",
+        "register": "technical",
+        "tags": [
+          "banking",
+          "finance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "bill"
   },
   {
     "term": "nuolaidų kortelė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Parduotuvės išduodama kortelė, suteikianti nuolaidas ar taškus lojaliam pirkėjui",
+        "example": "Su nuolaidų kortele gaunu dešimt procentų nuolaidą kiekvienam pirkiniui.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "discount",
+          "stores"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "loyalty card"
   },
   {
     "term": "grynieji",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Fiziniai pinigai – banknotai ir monetos, naudojami atsiskaitymui",
+        "example": "Kai kurios mažos parduotuvės priima tik grynuosius, ne korteles.",
+        "register": "general",
+        "tags": [
+          "payment",
+          "money",
+          "shopping"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "cash"
   },
   {
     "term": "pica",
@@ -19037,13 +19179,24 @@
   {
     "term": "arbatpinigiai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Savanoriškai mokama papildoma suma padavėjui ar kitam paslaugų teikėjui kaip padėka",
+        "example": "Palikome penkių eurų arbatpinigius už puikų aptarnavimą.",
+        "register": "general",
+        "tags": [
+          "restaurants",
+          "payment",
+          "service"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "tip"
   },
   {
     "term": "staliukas",
@@ -19059,24 +19212,55 @@
   {
     "term": "pirkėjas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Asmuo, kuris perka prekes parduotuvėje ar iš pardavėjo",
+        "example": "Parduotuvėje buvo daug pirkėjų, laukiančių išpardavimo pradžios.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "stores",
+          "consumer"
+        ]
+      },
+      {
+        "definition": "Versle – asmuo, atsakingas už įmonės pirkimų sprendimus",
+        "example": "Pirkėjas derėjosi dėl didesnio kiekio nuolaidos su tiekėju.",
+        "register": "technical",
+        "tags": [
+          "business",
+          "procurement"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "buyer"
   },
   {
     "term": "grąža",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pinigai, grąžinami pirkėjui, kai jis sumoka daugiau nei kainuoja prekė",
+        "example": "Daviau dvidešimt eurų, o grąža buvo trys eurai.",
+        "register": "general",
+        "tags": [
+          "payment",
+          "shopping",
+          "cash"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "change"
   },
   {
     "term": "vykti",
@@ -19482,12 +19666,33 @@
     "term": "grąžinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Atiduoti atgal; grąžinti prekę parduotuvei",
+        "example": "Grąžinau striukę, nes ji netiko ir atgavau pinigus.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "refund",
+          "stores"
+        ]
+      },
+      {
+        "definition": "Grąžinti skolą ar pasiskolintus pinigus",
+        "example": "Jis pažadėjo grąžinti skolą per tris mėnesius.",
+        "register": "general",
+        "tags": [
+          "banking",
+          "debt",
+          "finance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to return"
   },
   {
     "term": "ieškoti",
@@ -25911,12 +26116,23 @@
     "term": "pasimatuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Apsivilkti drabužį ar apsiausti batus parduotuvėje, norint patikrinti, ar tinka",
+        "example": "Prieš perkant rekomenduoju pasimatuoti, ar dydis tinkamas.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "clothing",
+          "stores"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to try on"
   },
   {
     "term": "pasimatuoja",
@@ -25944,12 +26160,32 @@
     "term": "parodyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Leisti pamatyti; demonstruoti prekę ar informaciją",
+        "example": "Pardavėja parodė mums naujausią kolekciją.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "stores",
+          "communication"
+        ]
+      },
+      {
+        "definition": "Nurodyti kryptį ar vietą",
+        "example": "Ar galite parodyti, kur yra kasa?",
+        "register": "general",
+        "tags": [
+          "navigation",
+          "stores"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to show"
   },
   {
     "term": "parodo",
@@ -25977,12 +26213,32 @@
     "term": "tikti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Būti tinkamo dydžio ar formos; derėti",
+        "example": "Šie batai tikrai tinka – nei per dideli, nei per maži.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "clothing",
+          "sizes"
+        ]
+      },
+      {
+        "definition": "Būti tinkamam tikslui ar situacijai; atitikti reikalavimus",
+        "example": "Ši kaina tikrai tinka mūsų biudžetui.",
+        "register": "general",
+        "tags": [
+          "budget",
+          "suitability"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to fit"
   },
   {
     "term": "tinka",
@@ -26010,12 +26266,33 @@
     "term": "patarti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Suteikti rekomendaciją ar patarimą; pasiūlyti geresnį sprendimą",
+        "example": "Pardavėjas patarė pirkti natūralios odos dirbinį, o ne sintetinį.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "advice",
+          "stores"
+        ]
+      },
+      {
+        "definition": "Finansiškai konsultuoti; duoti bankinį ar investicinį patarimą",
+        "example": "Finansų patarėjas patarė diversifikuoti investicijų portfelį.",
+        "register": "formal",
+        "tags": [
+          "banking",
+          "finance",
+          "advice"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to advise"
   },
   {
     "term": "pataria",
@@ -26108,24 +26385,55 @@
   {
     "term": "dydis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Drabužio ar avalynės standartas, nurodantis tinkamą matmenį",
+        "example": "Kokio dydžio jums reikia – S, M ar L?",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "clothing",
+          "stores"
+        ]
+      },
+      {
+        "definition": "Objekto ar kiekio mastas, apimtis",
+        "example": "Pirkinio dydis lėmė pristatymo mokestį.",
+        "register": "general",
+        "tags": [
+          "measurement",
+          "shopping"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "size"
   },
   {
     "term": "madingas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Atitinkantis dabartinę madą; populiarus tarp pirkėjų",
+        "example": "Šios spalvos paltai šiais metais labai madingi.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "fashion",
+          "clothing"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "fashionable"
   },
   {
     "term": "senamadiškas",
@@ -26862,13 +27170,24 @@
   {
     "term": "Krepšys",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pirkinių arba asmeninis krepšys, naudojamas daiktams nešti",
+        "example": "Pasiėmiau didelį audinį krepšį, kad būtų kur sudėti visus pirkinius.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "stores",
+          "accessories"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "bag"
   },
   {
     "term": "kuprinė",
@@ -26900,35 +27219,77 @@
   {
     "term": "piniginė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Maža odinė ar audinė dėklas pinigams, kortelėms ir dokumentams",
+        "example": "Aš visada laikau piniginę rankinėje, o ne kišenėje.",
+        "register": "general",
+        "tags": [
+          "money",
+          "accessories",
+          "payment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "wallet"
   },
   {
     "term": "portfelis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kietas rankinės tipo krepšys dokumentams ir verslo reikalams",
+        "example": "Jis atėjo į banką su odiniu portfeliu, pilnu sutarčių.",
+        "register": "formal",
+        "tags": [
+          "business",
+          "accessories"
+        ]
+      },
+      {
+        "definition": "Investicijų rinkinys; visuma asmens ar institucijos finansinių aktyvų",
+        "example": "Bankas valdė didžiulį investicijų portfelį įvairiuose sektoriuose.",
+        "register": "technical",
+        "tags": [
+          "banking",
+          "finance",
+          "investment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "briefcase"
   },
   {
     "term": "rankinė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Moters naudojamas rankinis krepšys asmeniniams daiktams",
+        "example": "Ji nusipirko odinę rankinę išpardavimo metu.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "fashion",
+          "accessories"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "handbag"
   },
   {
     "term": "saga",
@@ -27076,13 +27437,24 @@
   {
     "term": "sidabras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Baltas taurusis metalas, naudojamas papuošalams ir pramonėje",
+        "example": "Ji nusipirko sidabrinę grandinėlę už puikią kainą.",
+        "register": "general",
+        "tags": [
+          "jewelry",
+          "shopping",
+          "materials"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "silver"
   },
   {
     "term": "sidabrinis",
@@ -27098,13 +27470,34 @@
   {
     "term": "auksas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Geltonas taurusis metalas, naudojamas papuošalams ir investicijoms",
+        "example": "Papuošalų parduotuvė siūlė aukso žiedus ir apyrankes.",
+        "register": "general",
+        "tags": [
+          "jewelry",
+          "shopping",
+          "investment"
+        ]
+      },
+      {
+        "definition": "Investicinis turtas, laikomas vertės išsaugojimo priemone",
+        "example": "Finansinės krizės metu daug investuotojų pirko aukso lydinių.",
+        "register": "technical",
+        "tags": [
+          "banking",
+          "investment",
+          "finance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "gold"
   },
   {
     "term": "auksinis",
@@ -32624,13 +33017,24 @@
   {
     "term": "Banknotas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Centrinio banko išleistas popieriaus pinigas, turintis nominalią vertę",
+        "example": "Kasininkas patikrino, ar banknotas nėra padirbtas.",
+        "register": "general",
+        "tags": [
+          "money",
+          "banking",
+          "payment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "banknote"
   },
   {
     "term": "blankas",
@@ -32665,13 +33069,34 @@
   {
     "term": "čekis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Banko rašytinis nurodymas sumokėti nurodytą sumą nurodytam asmeniui",
+        "example": "Nuomotojas prašė mokėti čekiu, o ne grynaisiais.",
+        "register": "formal",
+        "tags": [
+          "banking",
+          "payment",
+          "finance"
+        ]
+      },
+      {
+        "definition": "Kasos čekis – pirkimo patvirtinimo dokumentas parduotuvėje",
+        "example": "Išsaugokite kasos čekį, jei norėsite grąžinti prekę.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "receipt",
+          "stores"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "cheque"
   },
   {
     "term": "kursas",
@@ -32815,24 +33240,65 @@
   {
     "term": "pinigai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Mainų ir mokėjimo priemonė, naudojama prekėms ir paslaugoms įsigyti",
+        "example": "Ar turite pakankamai pinigų šiems pirkiniams?",
+        "register": "general",
+        "tags": [
+          "money",
+          "payment",
+          "budget"
+        ]
+      },
+      {
+        "definition": "Santaupos ar turtas; sukauptos finansinės lėšos",
+        "example": "Jie taupė pinigus naujam automobiliui įsigyti.",
+        "register": "general",
+        "tags": [
+          "savings",
+          "budget",
+          "finance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "money"
   },
   {
     "term": "skola",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Suma pinigų, kurią reikia grąžinti asmeniui ar institucijai",
+        "example": "Jis grąžino visą skolą bankui per penkerius metus.",
+        "register": "general",
+        "tags": [
+          "banking",
+          "finance",
+          "budget"
+        ]
+      },
+      {
+        "definition": "Moralinė ar socialinė pareiga; dėkingumas",
+        "example": "Jaučiu skolą savo mokytojui, kuris padėjo man sėkmingai baigti mokyklą.",
+        "register": "formal",
+        "tags": [
+          "morality",
+          "social"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "debt"
   },
   {
     "term": "valiuta",
@@ -32865,45 +33331,107 @@
     "term": "atiduoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Grąžinti; perduoti atgal tai, kas buvo pasiskolinta ar paimta",
+        "example": "Jis atiduos skolą, kai gaus atlyginimą.",
+        "register": "general",
+        "tags": [
+          "debt",
+          "banking",
+          "payment"
+        ]
+      },
+      {
+        "definition": "Padėti; skirti laiką ar pastangas kažkam",
+        "example": "Ji atidavė visas jėgas, kad atiduotų namų paskolą greičiau.",
+        "register": "general",
+        "tags": [
+          "effort",
+          "finance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to give back"
   },
   {
     "term": "keisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Valiutos keitimas; konvertuoti vieną valiutą į kitą",
+        "example": "Prieš kelionę keičiau eurus į svarus sterlingų.",
+        "register": "general",
+        "tags": [
+          "banking",
+          "currency",
+          "travel"
+        ]
+      },
+      {
+        "definition": "Pakeisti; pasikeisti vienu daiktu su kitu",
+        "example": "Norėjau keisti pirktą suknelę į kitą spalvą.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "exchange"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to exchange"
   },
   {
     "term": "skolinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Suteikti pinigus ar daiktą laikinai naudotis su sąlyga grąžinti",
+        "example": "Bankas skolina pinigus su palūkanomis.",
+        "register": "general",
+        "tags": [
+          "banking",
+          "finance",
+          "credit"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to lend"
   },
   {
     "term": "skolintis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Paimti pinigus ar daiktus laikinai naudotis, įsipareigojant grąžinti",
+        "example": "Ji skolinosi pinigus iš banko, kad galėtų nusipirkti butą.",
+        "register": "general",
+        "tags": [
+          "banking",
+          "credit",
+          "finance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to borrow"
   },
   {
     "term": "užpildyti",
@@ -33022,13 +33550,34 @@
   {
     "term": "derėtis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Tartis dėl kainos ar sąlygų, siekiant geresnio sandorio",
+        "example": "Turguje įprasta derėtis dėl kainos, kol randamas abiem pusėms priimtinas susitarimas.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "negotiation",
+          "prices"
+        ]
+      },
+      {
+        "definition": "Versle derėtis dėl sutarties sąlygų ar kainų",
+        "example": "Įmonės atstovai derėjosi su tiekėjais dėl kainų mažinimo.",
+        "register": "formal",
+        "tags": [
+          "business",
+          "negotiation",
+          "budget"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to bargain"
   },
   {
     "term": "kreiptis",
@@ -33879,12 +34428,32 @@
     "term": "leisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Išleisti pinigus pirkimams ar išlaidoms padengti",
+        "example": "Stengiuosi per mėnesį leisti ne daugiau nei numatytas biudžetas.",
+        "register": "general",
+        "tags": [
+          "spending",
+          "budget",
+          "money"
+        ]
+      },
+      {
+        "definition": "Leisti – suteikti leidimą ar teisę ką nors daryti",
+        "example": "Parduotuvė leidžia grąžinti prekes per keturiolika dienų.",
+        "register": "general",
+        "tags": [
+          "permission",
+          "stores"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to spend"
   },
   {
     "term": "leisti laiką",
@@ -33901,12 +34470,23 @@
     "term": "nuspręsti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Priimti sprendimą; pasirinkti iš alternatyvų",
+        "example": "Pagaliau nusprendžiau pirkti kortelę, o ne mokėti grynaisiais.",
+        "register": "general",
+        "tags": [
+          "decision",
+          "shopping",
+          "payment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to decide"
   },
   {
     "term": "sumanyti",
