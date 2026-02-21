@@ -12308,7 +12308,7 @@
     "term": "lėtas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Moving or acting with little speed; not fast.",
@@ -13105,7 +13105,7 @@
     "term": "kokie",
     "language": "lt",
     "partOfSpeech": "pronoun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Interrogative pronoun asking about the quality or type of something (masculine plural nominative form).",
@@ -13158,7 +13158,7 @@
     "term": "kiek",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An interrogative adverb asking about quantity or degree.",
@@ -16238,7 +16238,7 @@
     "term": "švelnus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Mild and kind in temperament or behaviour; not rough or harsh.",
@@ -16292,7 +16292,7 @@
     "term": "šiltas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Having a moderately high temperature; not cold.",
@@ -16334,7 +16334,7 @@
     "term": "karštas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Having a high temperature.",
@@ -16346,9 +16346,7 @@
         ]
       }
     ],
-    "synonyms": [
-      "šiltas"
-    ],
+    "synonyms": [],
     "antonymTerms": [
       "šaltas"
     ],
@@ -16357,7 +16355,8 @@
       "kaitra",
       "vėsa"
     ],
-    "translation": "hot"
+    "translation": "hot",
+    "qaNote": "'šiltas' (warm) removed from synonyms: it denotes a lower temperature degree than 'karštas' (hot) — different degrees on the same scale, not synonymous. Entry requires an accurate synonym."
   },
   {
     "term": "keptas",
@@ -16503,7 +16502,7 @@
     "term": "sunkus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Of great weight; needing much effort to lift or move.",
@@ -16915,7 +16914,7 @@
     "term": "pirkti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To obtain something in exchange for money.",
@@ -17858,7 +17857,7 @@
     "term": "vykti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To travel or go to a particular destination.",
@@ -17891,7 +17890,7 @@
     "term": "grįžti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To come or go back to a place or person after being away.",
@@ -17920,7 +17919,7 @@
     "term": "keliauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To go on a journey, especially over a long distance.",
@@ -18116,7 +18115,7 @@
     "term": "pradėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To start or begin an action, process, application, or download.",
@@ -18159,7 +18158,7 @@
     "term": "baigti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To finish or complete an action, process, or session on a device.",
@@ -18224,7 +18223,7 @@
     "term": "ieškoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "To look for information, a file, or data, especially using a search engine or application.",
@@ -18238,16 +18237,15 @@
         ]
       }
     ],
-    "synonyms": [
-      "paieška vykdyti"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "rasti",
       "naršyklė",
       "paieška"
     ],
-    "translation": "to search, to look for"
+    "translation": "to search, to look for",
+    "qaNote": "'paieška vykdyti' removed: this is a grammatically inverted phrase (object before verb) that does not constitute a standard synonym for the infinitive verb 'ieškoti' (to search). Entry requires an accurate synonym."
   },
   {
     "term": "išsikviesti",
@@ -18295,7 +18293,7 @@
     "term": "pakeisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To modify, update, or replace data, settings, or a file with a new version.",
@@ -18360,7 +18358,7 @@
     "term": "patikrinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To verify or inspect data, an account, or a system to ensure it is correct or working.",
@@ -18390,7 +18388,7 @@
     "term": "rasti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To locate or discover information, files, or data after searching online or on a device.",
@@ -18456,7 +18454,7 @@
     "term": "užsakyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To place an order for a product or service, especially through an online store.",
@@ -18499,7 +18497,7 @@
     "term": "lipti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To board or get onto a vehicle such as a bus, train, or boat.",
@@ -18541,7 +18539,7 @@
     "term": "pakilti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To leave the ground and become airborne; to take off.",
@@ -18575,7 +18573,7 @@
     "term": "nusileisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To land — of an aircraft, to come down and touch the ground; to descend.",
@@ -18608,7 +18606,7 @@
     "term": "Autobusas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A large road vehicle that carries passengers on fixed routes and stops.",
@@ -18622,19 +18620,17 @@
       }
     ],
     "synonyms": [
-      "viešasis transportas",
-      "troleibusas"
+      "viešasis transportas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "stotis",
-      "bilietai",
       "stotelė",
       "bilietas",
       "maršrutas"
     ],
     "translation": "bus",
-    "qaNote": "\"autobusų stotis\" replaced with nominative \"stotis\": genitive-plural modifier \"autobusų\" (-ų ending) is non-nominative. Nominative single-word form used per LT relation rules."
+    "qaNote": "'troleibusas' removed from synonyms: a trolleybus (electric, overhead-wire-guided) is a distinct vehicle type from a bus (combustion-engine, freesteering) — not synonymous. 'bilietai' (plural) removed from relatedTerms: 'bilietas' (singular) already covers the concept. Term capitalisation ('Autobusas') should be corrected to 'autobusas'."
   },
   {
     "term": "automobilis",
@@ -18671,7 +18667,7 @@
     "term": "keltas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A boat or ship that regularly carries passengers and vehicles across a body of water.",
@@ -18763,7 +18759,7 @@
     "term": "tramvajus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An electric rail vehicle running on fixed tracks in city streets, used for public transport.",
@@ -18832,7 +18828,7 @@
     "term": "traukinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A series of connected railway carriages or wagons pulled by a locomotive.",
@@ -18861,7 +18857,7 @@
     "term": "troleibusas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An electric bus powered by overhead wires, running on city streets without fixed rails.",
@@ -18919,7 +18915,7 @@
     "term": "dviratis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A two-wheeled pedal-driven vehicle.",
@@ -18951,7 +18947,7 @@
     "term": "keleivis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A person travelling in a vehicle, aircraft, or ship who is not the driver or crew.",
@@ -19076,7 +19072,7 @@
     "term": "takas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A narrow path or track through an outdoor area such as a forest or park.",
@@ -19107,7 +19103,7 @@
     "term": "dviračių takas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A designated lane or path set aside for cyclists.",
@@ -19139,7 +19135,7 @@
     "term": "bilietas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A document giving the holder the right to travel on public transport or enter a venue.",
@@ -19153,8 +19149,7 @@
       }
     ],
     "synonyms": [
-      "talonas",
-      "kvitas"
+      "talonas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -19163,13 +19158,14 @@
       "kaina",
       "rezervacija"
     ],
-    "translation": "ticket"
+    "translation": "ticket",
+    "qaNote": "'kvitas' (receipt) removed from synonyms: a kvitas is a proof-of-purchase/transaction document, not a travel or entry ticket — semantically distinct. 'talonas' (coupon/token) retained as synonym."
   },
   {
     "term": "elektroninis bilietas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A ticket for travel or events stored digitally on a device rather than printed on paper.",
@@ -19196,7 +19192,7 @@
     "term": "bilietas pirmyn ir atgal",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A ticket covering a journey to a destination and the return trip back.",
@@ -19227,7 +19223,7 @@
     "term": "nuolaida",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A reduction in the usual price of something.",
@@ -19259,7 +19255,7 @@
     "term": "vieta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A particular position, point, or area in space.",
@@ -19342,7 +19338,7 @@
     "term": "mėnuo",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "One of the twelve periods into which a year is divided, lasting 28 to 31 days.",
@@ -19371,7 +19367,7 @@
     "term": "metai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A period of twelve months, especially from 1 January to 31 December.",
@@ -19682,7 +19678,7 @@
     "term": "Platus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Having a great extent from one side to the other.",
@@ -20711,7 +20707,7 @@
     "term": "miegamasis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A room in a house or hotel primarily used for sleeping.",
@@ -20750,7 +20746,7 @@
     "term": "balkonas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An elevated outdoor platform projecting from the wall of a building, enclosed by a railing.",
@@ -20856,7 +20852,7 @@
     "term": "prieškambaris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A small hall or room just inside the main entrance of a building or apartment.",
@@ -20896,7 +20892,7 @@
     "term": "namas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A building designed for people to live in; one's place of residence.",
@@ -20960,7 +20956,7 @@
     "term": "mokestis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A mandatory financial contribution levied by the government on individuals or businesses.",
@@ -21057,7 +21053,7 @@
     "term": "raktas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A small shaped piece of metal inserted into a lock to open or close it.",
@@ -21107,7 +21103,7 @@
     "term": "Apsigyventi",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "To move into and settle in a place; to check in to accommodation.",
@@ -21138,7 +21134,7 @@
     "term": "nakvoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To stay and sleep somewhere overnight; to spend the night in a place.",
@@ -21189,7 +21185,7 @@
     "term": "nuomoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To pay for the temporary use of something such as a flat, car, or equipment.",
@@ -21411,7 +21407,7 @@
     "term": "televizorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An electronic device that receives and displays broadcast or streamed video and audio content.",
@@ -21792,7 +21788,7 @@
     "term": "įjungti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To activate or switch on a device, application, or system.",
@@ -21823,7 +21819,7 @@
     "term": "išjungti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To deactivate or switch off a device, application, or system.",
@@ -22007,7 +22003,7 @@
     "term": "Švarus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Free from dirt, marks, or stains.",
@@ -22080,7 +22076,7 @@
     "term": "ramus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Free from disturbance; tranquil in manner or temperament.",
@@ -22475,7 +22471,7 @@
     "term": "lietus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Water that falls from clouds in drops.",
@@ -22550,7 +22546,7 @@
     "term": "sniegas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "White frozen water that falls from the sky in winter.",
@@ -25607,7 +25603,7 @@
     "term": "sveikatos pažyma",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An official document issued by a medical professional certifying a person's state of health, often required for employment or study.",
@@ -25636,7 +25632,7 @@
     "term": "sveikatos draudimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A mandatory or voluntary system of insurance that covers the cost of medical care and healthcare services.",
@@ -25650,9 +25646,7 @@
         ]
       }
     ],
-    "synonyms": [
-      "privalomasis sveikatos draudimas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "mokestis",
@@ -25661,13 +25655,14 @@
       "polisas",
       "įmoka"
     ],
-    "translation": "health insurance"
+    "translation": "health insurance",
+    "qaNote": "'privalomasis sveikatos draudimas' (mandatory health insurance) removed from synonyms: it is a specific sub-type of health insurance, not a synonym for the broader term 'sveikatos draudimas'. Entry requires accurate synonyms."
   },
   {
     "term": "nedarbingumo pažymėjimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An official medical document issued by a doctor confirming that an employee is unable to work due to illness or injury.",
@@ -25697,7 +25692,7 @@
     "term": "receptas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A written instruction from a doctor authorising a patient to be issued a specific medicine.",
@@ -26632,7 +26627,7 @@
     "term": "Tikrinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "To examine or inspect something to confirm its correctness or condition.",
@@ -26890,7 +26885,7 @@
     "term": "linkėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To express a wish that someone will have good fortune, health, or happiness.",
@@ -27052,7 +27047,7 @@
     "term": "Aplankas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A flat cardboard or plastic cover used to hold loose papers or documents together.",
@@ -27081,7 +27076,7 @@
     "term": "klijai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A sticky substance used to join materials together.",
@@ -27341,7 +27336,7 @@
     "term": "kompiuteris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "An electronic device used to process, store, and display information, essential for modern office work.",
@@ -27370,7 +27365,7 @@
     "term": "pelė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A small handheld input device used to move the cursor and interact with a computer graphical interface.",
@@ -27583,7 +27578,7 @@
     "term": "planšetinis kompiuteris",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A portable flat touchscreen computing device, larger than a smartphone, typically used for browsing, reading, and media.",
@@ -27615,7 +27610,7 @@
     "term": "elektroninis laiškas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A digital message sent and received over the internet, widely used for professional communication.",
@@ -27648,7 +27643,7 @@
     "term": "elektroninis paštas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The system or service for sending and receiving electronic messages; also refers to an email address.",
@@ -27680,7 +27675,7 @@
     "term": "kopija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A duplicate of a document or file; also the text or data copied to the clipboard for pasting.",
@@ -27739,7 +27734,7 @@
     "term": "Skyrius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A division or section within a company or organisation that handles a specific area of work.",
@@ -27797,7 +27792,7 @@
     "term": "atostogos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A period of time when an employee is allowed to be away from work for rest or personal matters.",
