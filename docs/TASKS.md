@@ -89,7 +89,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `vocab-qa`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `medium`
 **Complexity**: `low`
 **Role**: QA Reviewer
