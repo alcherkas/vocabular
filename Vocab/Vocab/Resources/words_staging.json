@@ -9743,248 +9743,1192 @@
   },
   {
     "term": "choropleth",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A type of thematic map in which areas are shaded or patterned in proportion to the value of a statistical variable being represented.",
+        "example": "The choropleth clearly showed that voter turnout was highest in the northern counties.",
+        "register": "technical",
+        "tags": [
+          "cartography",
+          "statistics",
+          "GIS"
+        ]
+      }
+    ],
+    "synonyms": [
+      "choropleth map",
+      "shaded map"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "thematic map",
+      "cartography",
+      "GIS",
+      "isoline",
+      "legend"
+    ]
   },
   {
     "term": "isoline",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A line on a map connecting points of equal value for a given variable, such as elevation, temperature, or pressure.",
+        "example": "The closely spaced isolines on the topographic map indicated a steep cliff face.",
+        "register": "technical",
+        "tags": [
+          "cartography",
+          "meteorology",
+          "GIS"
+        ]
+      }
+    ],
+    "synonyms": [
+      "contour line",
+      "isopleth",
+      "isogram"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "isobar",
+      "isotherm",
+      "contour interval",
+      "choropleth",
+      "topography"
+    ]
   },
   {
     "term": "geodesy",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The scientific discipline concerned with measuring and understanding the Earth's geometric shape, orientation in space, and gravitational field.",
+        "example": "Advances in satellite geodesy have allowed scientists to detect millimetre-scale shifts in tectonic plates.",
+        "register": "technical",
+        "tags": [
+          "cartography",
+          "earth science",
+          "surveying"
+        ]
+      }
+    ],
+    "synonyms": [
+      "geodetics",
+      "earth measurement"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "geoid",
+      "datum",
+      "ellipsoid",
+      "triangulation",
+      "cartography",
+      "GPS"
+    ]
   },
   {
     "term": "georeferencing",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The process of aligning geographic data to a known coordinate system so that it can be viewed, queried, and analysed with other geographic data.",
+        "example": "Georeferencing the scanned historical map required identifying at least four control points matching known locations.",
+        "register": "technical",
+        "tags": [
+          "GIS",
+          "cartography",
+          "remote sensing"
+        ]
+      }
+    ],
+    "synonyms": [
+      "spatial referencing",
+      "map registration"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "coordinate system",
+      "datum",
+      "GIS",
+      "orthophoto",
+      "control point"
+    ]
   },
   {
     "term": "cartouche",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An ornamental panel or frame on a map that contains the map's title, legend, scale, or other explanatory text.",
+        "example": "The seventeenth-century cartouche was elaborately decorated with sea monsters and allegorical figures.",
+        "register": "technical",
+        "tags": [
+          "cartography",
+          "history",
+          "design"
+        ]
+      },
+      {
+        "definition": "In Egyptology, an oval or oblong enclosure containing the hieroglyphic name of a royal or divine figure.",
+        "example": "Archaeologists identified the pharaoh by deciphering the cartouche inscribed on the stone lintel.",
+        "register": "technical",
+        "tags": [
+          "Egyptology",
+          "archaeology",
+          "hieroglyphs"
+        ]
+      }
+    ],
+    "synonyms": [
+      "map panel",
+      "title block"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "legend",
+      "map title",
+      "scale bar",
+      "hieroglyph",
+      "epigraphy"
+    ]
   },
   {
     "term": "graticule",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The network of lines representing meridians and parallels drawn on a map or globe to indicate latitude and longitude.",
+        "example": "The Mercator projection distorts the graticule so that meridians appear as parallel vertical lines.",
+        "register": "technical",
+        "tags": [
+          "cartography",
+          "geography",
+          "projection"
+        ]
+      }
+    ],
+    "synonyms": [
+      "grid",
+      "coordinate grid",
+      "latitude-longitude grid"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "meridian",
+      "parallel",
+      "projection",
+      "datum",
+      "coordinate system"
+    ]
   },
   {
     "term": "orthophoto",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An aerial or satellite photograph geometrically corrected so that the scale is uniform throughout, enabling accurate distance and area measurements.",
+        "example": "The urban planners used the orthophoto as a basemap for digitising road network updates.",
+        "register": "technical",
+        "tags": [
+          "remote sensing",
+          "GIS",
+          "cartography",
+          "photogrammetry"
+        ]
+      }
+    ],
+    "synonyms": [
+      "orthophotograph",
+      "orthoimage",
+      "orthophotomap"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "aerial photograph",
+      "photogrammetry",
+      "GIS",
+      "georeferencing",
+      "basemap"
+    ]
   },
   {
     "term": "toponymy",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The study of place names, including their origins, meanings, use, and typology.",
+        "example": "Toponymy reveals that many English village names ending in '-by' have Norse origins.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "geography",
+          "etymology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "place-name study",
+      "toponomastics"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "etymology",
+      "onomastics",
+      "placename",
+      "cartography",
+      "geographic names"
+    ]
   },
   {
     "term": "bathymetry",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The measurement and mapping of the depth of water bodies, particularly oceans and seas, to produce detailed charts of the underwater terrain.",
+        "example": "High-resolution bathymetry from multibeam sonar revealed previously unknown seamounts in the abyssal plain.",
+        "register": "technical",
+        "tags": [
+          "oceanography",
+          "cartography",
+          "surveying"
+        ]
+      }
+    ],
+    "synonyms": [
+      "depth sounding",
+      "hypsometry (underwater)",
+      "underwater topography"
+    ],
+    "antonymTerms": [
+      "topography"
+    ],
+    "relatedTerms": [
+      "sonar",
+      "multibeam",
+      "hydrography",
+      "ocean floor",
+      "isobath",
+      "planimetry"
+    ]
   },
   {
     "term": "planimetry",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The measurement and representation of horizontal distances and areas on a map, without regard to relief or elevation.",
+        "example": "The planimetry of the urban survey was complete, but contour lines still needed to be added for the vertical dimension.",
+        "register": "technical",
+        "tags": [
+          "cartography",
+          "surveying",
+          "GIS"
+        ]
+      }
+    ],
+    "synonyms": [
+      "horizontal mapping",
+      "area measurement"
+    ],
+    "antonymTerms": [
+      "hypsometry"
+    ],
+    "relatedTerms": [
+      "cartography",
+      "surveying",
+      "bathymetry",
+      "topography",
+      "GIS"
+    ]
   },
   {
     "term": "triangulation",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A surveying technique for determining the position of a point by measuring angles from known points at either end of a fixed baseline rather than measuring distances directly.",
+        "example": "Before GPS, triangulation from hilltop beacons was the primary method for mapping large territories.",
+        "register": "technical",
+        "tags": [
+          "surveying",
+          "cartography",
+          "mathematics"
+        ]
+      },
+      {
+        "definition": "In research methodology, the use of multiple methods, data sources, or perspectives to increase the validity of findings.",
+        "example": "The sociologist employed triangulation by combining surveys, interviews, and observational data.",
+        "register": "technical",
+        "tags": [
+          "research",
+          "methodology",
+          "social science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "trilateration",
+      "surveying network"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "baseline",
+      "geodesy",
+      "trigonometry",
+      "GPS",
+      "traverse"
+    ]
   },
   {
     "term": "baroclinic",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Describing an atmospheric or oceanic state in which density surfaces are tilted relative to pressure surfaces, leading to horizontal temperature gradients and wind shear.",
+        "example": "The baroclinic instability of the mid-latitude atmosphere drives the development of large weather systems.",
+        "register": "technical",
+        "tags": [
+          "meteorology",
+          "oceanography",
+          "atmospheric science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "baroclinically unstable"
+    ],
+    "antonymTerms": [
+      "barotropic"
+    ],
+    "relatedTerms": [
+      "thermal wind",
+      "frontal system",
+      "cyclogenesis",
+      "isobar",
+      "vorticity"
+    ]
   },
   {
     "term": "anemometer",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An instrument used to measure wind speed and sometimes wind direction.",
+        "example": "The cup anemometer on the weather station recorded a peak gust of 120 kilometres per hour during the storm.",
+        "register": "technical",
+        "tags": [
+          "meteorology",
+          "instrumentation",
+          "weather"
+        ]
+      }
+    ],
+    "synonyms": [
+      "wind gauge",
+      "wind meter"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "hygrometer",
+      "barometer",
+      "wind vane",
+      "meteorology",
+      "Beaufort scale"
+    ]
   },
   {
     "term": "hygrometer",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An instrument for measuring the humidity of the atmosphere or of a gas.",
+        "example": "The conservator used a hygrometer to ensure the manuscript room was maintained at optimal humidity levels.",
+        "register": "technical",
+        "tags": [
+          "meteorology",
+          "instrumentation",
+          "physics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "humidity gauge",
+      "moisture meter"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "anemometer",
+      "psychrometer",
+      "dew point",
+      "relative humidity",
+      "meteorology"
+    ]
   },
   {
     "term": "virga",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Precipitation that falls from clouds but evaporates or sublimes before reaching the ground, appearing as streaks or wisps beneath a cloud base.",
+        "example": "Over the arid desert, virga was frequently visible beneath the afternoon thunderclouds without any rain reaching the surface.",
+        "register": "technical",
+        "tags": [
+          "meteorology",
+          "precipitation",
+          "weather phenomena"
+        ]
+      }
+    ],
+    "synonyms": [
+      "phantom precipitation",
+      "fallstreaks"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "precipitation",
+      "evaporation",
+      "cumulonimbus",
+      "dry air",
+      "derecho"
+    ]
   },
   {
     "term": "derecho",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A widespread, long-lived wind storm associated with a band of rapidly moving showers or thunderstorms, causing extensive straight-line wind damage.",
+        "example": "The derecho that swept across the Midwest left a swath of downed trees and power outages stretching over 800 kilometres.",
+        "register": "technical",
+        "tags": [
+          "meteorology",
+          "weather phenomena",
+          "severe weather"
+        ]
+      }
+    ],
+    "synonyms": [
+      "bow echo",
+      "straight-line wind event"
+    ],
+    "antonymTerms": [
+      "tornado"
+    ],
+    "relatedTerms": [
+      "mesoscale convective system",
+      "squall line",
+      "virga",
+      "cumulonimbus",
+      "anticyclone"
+    ]
   },
   {
     "term": "foehn",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A warm, dry wind that descends on the leeward side of a mountain range, resulting from adiabatic heating as air subsides.",
+        "example": "The foehn raised temperatures in the Alpine valleys by 15 degrees within a matter of hours, rapidly melting the snow.",
+        "register": "technical",
+        "tags": [
+          "meteorology",
+          "climatology",
+          "Alpine"
+        ]
+      }
+    ],
+    "synonyms": [
+      "föhn",
+      "chinook",
+      "Santa Ana wind"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "orographic lift",
+      "adiabatic lapse rate",
+      "advection",
+      "rain shadow",
+      "katabatic wind"
+    ]
   },
   {
     "term": "cumulonimbus",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A dense, towering vertical cloud associated with thunderstorms, heavy rain, lightning, and sometimes hail, extending from the lower troposphere to the tropopause.",
+        "example": "Pilots are trained to route around cumulonimbus cells to avoid severe turbulence and icing.",
+        "register": "technical",
+        "tags": [
+          "meteorology",
+          "cloud classification",
+          "severe weather"
+        ]
+      }
+    ],
+    "synonyms": [
+      "thundercloud",
+      "Cb"
+    ],
+    "antonymTerms": [
+      "stratus"
+    ],
+    "relatedTerms": [
+      "cumulus",
+      "anvil cloud",
+      "derecho",
+      "virga",
+      "lightning",
+      "hail"
+    ]
   },
   {
     "term": "anticyclone",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A weather system characterised by high atmospheric pressure at its centre, with winds spiralling outward clockwise in the Northern Hemisphere and anticlockwise in the Southern Hemisphere.",
+        "example": "The persistent anticyclone over Scandinavia blocked the passage of Atlantic fronts for three weeks.",
+        "register": "technical",
+        "tags": [
+          "meteorology",
+          "synoptic meteorology",
+          "pressure systems"
+        ]
+      }
+    ],
+    "synonyms": [
+      "high-pressure system",
+      "high"
+    ],
+    "antonymTerms": [
+      "cyclone",
+      "depression"
+    ],
+    "relatedTerms": [
+      "isobar",
+      "barometric pressure",
+      "occlusion",
+      "advection",
+      "foehn"
+    ]
   },
   {
     "term": "occlusion",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A meteorological process in which a cold front overtakes a warm front, lifting the warm air sector off the surface and producing a complex frontal system.",
+        "example": "The depression deepened rapidly and the occlusion extended 600 kilometres ahead of the low's centre.",
+        "register": "technical",
+        "tags": [
+          "meteorology",
+          "frontal systems",
+          "weather"
+        ]
+      },
+      {
+        "definition": "In medicine and dentistry, the way in which the upper and lower teeth meet when the mouth is closed, or the blockage of an opening or passage in the body.",
+        "example": "The orthodontist corrected the patient's malocclusion to improve both bite function and facial symmetry.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "dentistry",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "occluded front",
+      "blockage",
+      "obstruction"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "cold front",
+      "warm front",
+      "cyclone",
+      "anticyclone",
+      "malocclusion"
+    ]
   },
   {
     "term": "isobar",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A line on a weather map or chart connecting points of equal atmospheric pressure at a given time.",
+        "example": "Tightly packed isobars on the chart indicated strong pressure gradients and high winds.",
+        "register": "technical",
+        "tags": [
+          "meteorology",
+          "cartography",
+          "pressure"
+        ]
+      },
+      {
+        "definition": "In nuclear physics, one of two or more atomic nuclei having the same mass number but different atomic numbers.",
+        "example": "Carbon-14 and nitrogen-14 are isobars, both having a mass number of 14.",
+        "register": "technical",
+        "tags": [
+          "nuclear physics",
+          "chemistry",
+          "isotopes"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pressure contour",
+      "isopiestic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "isoline",
+      "anticyclone",
+      "baroclinic",
+      "pressure gradient",
+      "synoptic chart"
+    ]
   },
   {
     "term": "advection",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The horizontal transfer of heat, moisture, or other atmospheric properties by the movement of air masses.",
+        "example": "Cold air advection behind the front caused temperatures to plummet by 10 degrees overnight.",
+        "register": "technical",
+        "tags": [
+          "meteorology",
+          "fluid dynamics",
+          "heat transfer"
+        ]
+      },
+      {
+        "definition": "In fluid dynamics, the transport of a scalar quantity such as heat or salinity by bulk fluid motion.",
+        "example": "Advection of warm saline water from the tropics moderates the climate of northwestern Europe.",
+        "register": "technical",
+        "tags": [
+          "oceanography",
+          "fluid dynamics",
+          "physics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "horizontal transport",
+      "convective transport"
+    ],
+    "antonymTerms": [
+      "diffusion"
+    ],
+    "relatedTerms": [
+      "convection",
+      "foehn",
+      "baroclinic",
+      "anticyclone",
+      "thermal wind"
+    ]
   },
   {
     "term": "paronomasia",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A rhetorical figure that exploits similarities in sound between words with different meanings, commonly known as a pun.",
+        "example": "The headline 'Time Flies Like an Arrow; Fruit Flies Like a Banana' is a classic example of paronomasia.",
+        "register": "formal",
+        "tags": [
+          "rhetoric",
+          "linguistics",
+          "wordplay"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pun",
+      "wordplay",
+      "punning"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "homophone",
+      "polysemy",
+      "aposiopesis",
+      "hypophora",
+      "rhetoric"
+    ]
   },
   {
     "term": "aposiopesis",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A rhetorical device in which a speaker or writer deliberately stops short and leaves a statement unfinished, implying strong emotion, threat, or a meaning too obvious to complete.",
+        "example": "The general's words— 'If you fail me again, so help me…'—trailed off in unmistakable aposiopesis.",
+        "register": "formal",
+        "tags": [
+          "rhetoric",
+          "stylistics",
+          "linguistics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rhetorical interruption",
+      "sudden silence"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ellipsis",
+      "hypophora",
+      "paronomasia",
+      "reticence",
+      "figures of speech"
+    ]
   },
   {
     "term": "hypophora",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A rhetorical device in which a speaker or writer poses a question and then immediately proceeds to answer it.",
+        "example": "The orator's speech was structured around hypophora: 'What do we want? Justice. When do we want it? Now.'",
+        "register": "formal",
+        "tags": [
+          "rhetoric",
+          "oratory",
+          "stylistics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "anthypophora",
+      "self-answering question"
+    ],
+    "antonymTerms": [
+      "rhetorical question"
+    ],
+    "relatedTerms": [
+      "paronomasia",
+      "aposiopesis",
+      "anaphora",
+      "oratory",
+      "figures of speech"
+    ]
   },
   {
     "term": "endogamy",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The practice or custom of marrying only within the limits of a local community, clan, or tribe, as required by social norms.",
+        "example": "Endogamy within certain castes has led to distinct genetic populations that can be traced through genomic analysis.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "sociology",
+          "genetics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "in-group marriage",
+      "inbreeding (cultural)"
+    ],
+    "antonymTerms": [
+      "exogamy"
+    ],
+    "relatedTerms": [
+      "exogamy",
+      "kinship",
+      "caste",
+      "lineage",
+      "marriage taboo"
+    ]
   },
   {
     "term": "exogamy",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The custom or practice of marrying outside one's own social group, clan, or community.",
+        "example": "Exogamy between rival clans historically served as a mechanism for alliance-building and conflict resolution.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "sociology",
+          "kinship"
+        ]
+      }
+    ],
+    "synonyms": [
+      "out-group marriage",
+      "cross-group marriage"
+    ],
+    "antonymTerms": [
+      "endogamy"
+    ],
+    "relatedTerms": [
+      "endogamy",
+      "kinship",
+      "lineage",
+      "alliance theory",
+      "marriage rule"
+    ]
   },
   {
     "term": "cladistics",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A method of biological classification that groups organisms based on shared derived characteristics inherited from a common ancestor, emphasising evolutionary relationships.",
+        "example": "Using cladistics, researchers determined that birds are properly classified as a subgroup of dinosaurs.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "taxonomy",
+          "evolutionary biology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "phylogenetic systematics",
+      "cladistic analysis"
+    ],
+    "antonymTerms": [
+      "phenetics"
+    ],
+    "relatedTerms": [
+      "clade",
+      "phylogeny",
+      "synapomorphy",
+      "parsimony",
+      "taxonomy"
+    ]
   },
   {
     "term": "oligodendrocyte",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A type of glial cell in the central nervous system that produces and maintains the myelin sheath around axons, enabling rapid transmission of nerve impulses.",
+        "example": "Damage to oligodendrocytes is a hallmark of multiple sclerosis, resulting in impaired neural signal propagation.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "cell biology",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "oligodendroglia"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "myelin",
+      "Schwann cell",
+      "axon",
+      "neurocircuitry",
+      "astrocyte",
+      "glia"
+    ]
   },
   {
     "term": "neurocircuitry",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The complex network of interconnected neurons and synaptic pathways in the nervous system that underlie specific behaviours, cognitive functions, or physiological processes.",
+        "example": "Researchers mapped the fear-response neurocircuitry of the amygdala in unprecedented detail using optogenetics.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuroanatomy",
+          "cognitive science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "neural circuit",
+      "neural network (biological)",
+      "brain circuit"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "synapse",
+      "neuron",
+      "oligodendrocyte",
+      "connectome",
+      "axon",
+      "optogenetics"
+    ]
   },
   {
     "term": "architrave",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "In classical architecture, the lowest part of an entablature, resting directly on top of the capitals of the columns.",
+        "example": "The Doric architrave is characterised by its plain, undecorated surface, in contrast to the more ornate Ionic version.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "classical architecture",
+          "construction"
+        ]
+      },
+      {
+        "definition": "The moulded frame surrounding a door or window opening.",
+        "example": "The carpenter installed a simple pine architrave around the new doorway to give it a finished appearance.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "joinery",
+          "interior design"
+        ]
+      }
+    ],
+    "synonyms": [
+      "epistyle",
+      "door moulding",
+      "window surround"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "entablature",
+      "frieze",
+      "cornice",
+      "voussoir",
+      "column",
+      "capital"
+    ]
   },
   {
     "term": "voussoir",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "One of the wedge-shaped stones or blocks used to construct an arch, with each stone being wider at the top than at the bottom so that they lock together under load.",
+        "example": "The central voussoir, known as the keystone, is the last to be placed and locks the arch in compression.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "masonry",
+          "structural engineering"
+        ]
+      }
+    ],
+    "synonyms": [
+      "arch stone",
+      "wedge stone"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "keystone",
+      "arch",
+      "architrave",
+      "intrados",
+      "extrados",
+      "masonry"
+    ]
   },
   {
     "term": "veloute",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "One of the five classical French mother sauces, made from a light stock (veal, chicken, or fish) thickened with a blonde roux, characterised by its smooth, velvety texture.",
+        "example": "The chef reduced the velouté and finished it with cream and tarragon to create a classic sauce suprême.",
+        "register": "technical",
+        "tags": [
+          "culinary",
+          "French cuisine",
+          "sauces"
+        ]
+      }
+    ],
+    "synonyms": [
+      "velouté sauce"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "béchamel",
+      "espagnole",
+      "roux",
+      "mother sauce",
+      "fond",
+      "stock"
+    ]
   },
   {
     "term": "larboard",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The left-hand side of a ship when facing forward; the historical term for what is now called port.",
+        "example": "The old logbook recorded the iceberg as sighted two points off the larboard bow.",
+        "register": "formal",
+        "tags": [
+          "nautical",
+          "maritime",
+          "archaic"
+        ]
+      }
+    ],
+    "synonyms": [
+      "port",
+      "left side"
+    ],
+    "antonymTerms": [
+      "starboard"
+    ],
+    "relatedTerms": [
+      "starboard",
+      "port",
+      "bow",
+      "stern",
+      "rhumbline",
+      "navigation"
+    ]
   },
   {
     "term": "rhumbline",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A path on the surface of a sphere that crosses all meridians at the same angle, appearing as a straight line on a Mercator projection but as a spiral on a globe.",
+        "example": "A ship sailing along a rhumbline maintains a constant compass bearing, simplifying navigation at the cost of following a longer route than the great circle.",
+        "register": "technical",
+        "tags": [
+          "navigation",
+          "cartography",
+          "maritime"
+        ]
+      }
+    ],
+    "synonyms": [
+      "loxodrome",
+      "rhumb line"
+    ],
+    "antonymTerms": [
+      "great circle route"
+    ],
+    "relatedTerms": [
+      "Mercator projection",
+      "great circle",
+      "bearing",
+      "navigation",
+      "larboard",
+      "geodesy"
+    ]
   },
   {
     "term": "apophatic",
