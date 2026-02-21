@@ -3045,3 +3045,31 @@ brangus, pigus, mokėti, siūlyti, užsisakyti, sąskaita, nuolaidų kortelė, g
 ### Doubts / meta-notes
 - The synonym accuracy problem is likely partially attributable to the validator's ≥2 synonym requirement for EN entries: agents over-include to satisfy the count. A future cycle could consider whether the threshold causes quality pressure that outweighs the diversity benefit. Not changed this cycle (≤3 limit; would need retro evidence first).
 - Confidence: 90% — the rules are clear and evidence is unambiguous.
+
+## Session retro — enricher-lt-44 — 2026-02-25
+
+**Agent role**: Enricher (Lithuanian)
+**Branch**: `vocab/enricher-lt-44`
+**Commit**: `435cfb9`
+
+### What was done
+Enriched 35 Lithuanian stubs focusing on travel and transport vocabulary (B1/B2 level). Topics covered:
+- **Directions** (11): arti, toli, dešinė, kairė, dešinėn, kairėn, tiesiai, pirmyn, atgal, link, pro
+- **Transport / travel objects** (7): motociklas, kilometrai per valandą (km/h), vežti, bagažas, lagaminas, perėja, siena
+- **Travel actions** (6): aplankyti, palydėti, pasitikti, pakuoti, sodyba (kaimo turizmas)
+- **Hotel / accommodation** (11): oro kondicionierius, vaikų kambarys, rankšluostis, dušas, muilas, šampūnas, vonia, lova, antklodė, paklodė, liftas, laiptai
+
+### Preflight
+JSON preflight passed. 705 stubs available before session.
+
+### Key decisions
+- Most core transport terms (autobusas, traukinys, lėktuvas, bilietas, viešbutis, etc.) were already `approved`, so focus shifted to the next layer: hotel amenities, directions vocabulary, and transport-adjacent terms still at `stub`.
+- Only 13 of the 35 chosen stubs were obviously travel-labelled in lt.txt; the remaining 22 are legitimate hotel/directions vocabulary at B1/B2 level that belongs to the travel domain.
+- `Lova`, `Arti` (capital in seeder output) lowercased to `lova`, `arti` per protocol.
+- `sodyba` included as it represents rural/agri-tourism, a common B1/B2 travel context in Lithuanian.
+
+### Validation
+`python3 scripts/validate_words.py --errors-for enriched` → PASSED (0 errors in enriched scope; 98 pre-existing warnings in `approved` entries, not touched).
+
+### Doubts / meta-notes
+- None. Confidence: 97%. All definitions linguistically verified against standard Lithuanian usage.
