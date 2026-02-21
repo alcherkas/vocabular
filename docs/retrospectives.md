@@ -895,3 +895,25 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - For tightly coupled M/F noun pairs (e.g. vertėjas/vertėja), consider a `grammaticalVariant` field to explicitly cross-reference gender forms rather than relying on relatedTerms for that link.
+## [2026-02-21] [enricher-lt-15] [vocab/enricher-lt-15]
+
+### What went well
+- Preflight JSON check passed immediately; staging file was valid before and after enrichment.
+- All 30 stubs were gendered adjective pairs (masculine/feminine) covering core everyday vocabulary: new, strange, interesting, boring, friendly, intelligent, strong, weak, quiet, noisy, slow, fast, excellent, good, bad.
+- Single-pass enrichment script enriched all 30 in one run — zero validator errors on 138 enriched entries.
+- `validate_words.py --status enriched` passed with 138 entries valid ✓.
+
+### What was harder than expected
+- Feminine forms required careful wording to be genuinely distinct definitions while remaining accurate (not just a copy of the masculine entry).
+- `synonyms` for some adjective pairs (e.g. lėtas/lėta) had limited single-word Lithuanian alternatives; compound descriptors avoided in favour of the closest single-word equivalents.
+
+### Decisions
+- All 30 stubs are basic A1/A2 adjective pairs; register set to `general` throughout — no formal/technical/literary usage for this vocabulary tier.
+- `antonymTerms` cross-reference within the 30 where a direct opposite exists (e.g. greitas ↔ lėtas, geras ↔ blogas), otherwise standard Lithuanian antonyms used.
+- Feminine forms note their gender in the definition for clarity and cross-reference the masculine base in `relatedTerms`.
+
+### Process friction
+- None. Conventions, schema, and tooling were stable from prior enricher iterations.
+
+### Suggested improvement
+- A `genderForm` metadata field (masc/fem) on adjective entries would eliminate the need for gender notes in free-text definitions and simplify downstream QA.
