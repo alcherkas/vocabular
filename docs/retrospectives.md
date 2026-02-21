@@ -1149,3 +1149,28 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 ### Suggested improvement
 - A `--ignore-preexisting` flag or a baseline snapshot mechanism in `validate_words.py` would allow the full file to be validated without noise from known upstream issues.
 - Add a preflight count of available stubs by domain tag so future enricher agents can immediately confirm whether target domains are represented in the stub pool.
+## [2026-02-24] [relations-13] [vocab/relations-13]
+
+### What went well
+- Preflight JSON check passed immediately for both staging files (words_staging.json 430 entries, words_lt_staging.json 1960 entries).
+- EN batch: exactly 35 enriched entries had all three relation fields empty — clean one-to-one mapping with no ambiguity about which entries to process.
+- LT batch: 32 enriched entries had at least one relation field empty; the remaining 3 slots filled from the first complete enriched entries (tamsus, tamsi, žemas) requiring only a status bump.
+- validate_words.py passed on both files (70 relations-added entries each) after a single minor fix to a pre-existing entry.
+- Commit and retrospective completed without merge.
+
+### What was harder than expected
+- EN theological terms (soteriology, pneumatology, ecclesiology, theodicy) required care to distinguish synonymous phrasing from actual lexical synonyms; settled on descriptive two-word phrases where single-word synonyms did not exist in common usage.
+- LT demonstrative pronouns (Šis/ši/šie/šios, tas/ta/tie/tos) and case-form numerals (viena–devynis) have no practical synonyms or antonyms — empty arrays are correct and valid per the LT protocol (0–2 synonyms allowed).
+- Pre-existing `baroclinic` entry (from relations-12 batch) had only 1 synonym, causing validation failure on the full relations-added set; added a second synonym to bring it into compliance.
+
+### Decisions
+- EN synonyms: minimum 2 per entry as required by the validator; chose widely-recognised equivalents over obscure technical variants.
+- LT pronouns and numerals: synonyms and antonymTerms set to [] where no linguistic equivalents exist; this is semantically correct and passes validation.
+- pasiilgti antonymTerms: ["pamiršti", "nerūpėti"] — "to forget" and "to not care about" as conceptual opposites of "to miss someone".
+- prosenelis/prosenelė synonyms: minimal single-word entry (["protėvis"]/["protėvė"]) reflecting the general-ancestor sense; gender-pair antonym maintained.
+
+### Process friction
+- The baroclinic pre-existing error surfaced only because the validator runs over all relations-added entries, not just the new batch. This is the correct behaviour but required an out-of-scope fix.
+
+### Suggested improvement
+- Add a --since-commit flag to validate_words.py so agents can scope validation to only the entries changed in the current session, reducing noise from pre-existing issues in earlier batches.
