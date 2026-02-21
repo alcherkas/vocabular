@@ -953,3 +953,40 @@ Custom batch check (self-reference, nominative forms, duplicate detection) — *
 - `ergodicity`, `attractor`, `teleonomy` already carried `qaNote` from a previous QA pass but were still `relations-added`; updated notes and set status to `enriched` to unblock the pipeline.
 - LT verb conjugation forms (lyja, lijo, sninga, etc.) approved as-is per LT rubric — inflected forms have empty synonym arrays by design.
 - `žygis` synonym `kelionė` flagged despite near-synonym usage in informal Lithuanian: strict QA policy requires true synonyms to be co-extensive.
+## Session: seeder-en-9 — 2026-02-21
+
+**Agent role**: Seeder (English)
+**Branch**: `vocab/seeder-en-9`
+**Files modified**: `Vocab/Vocab/Resources/words_staging.json`
+
+### Work done
+- Preflight JSON check passed: 830 entries, valid JSON.
+- Collected all 830 existing terms to avoid collisions.
+- Added **100 new EN stubs** (status="stub") across 6 under-represented advanced/academic domains:
+  - Literary theory and criticism (20): bathos, bildungsroman, catharsis, chronotope, deconstruction, denouement, dysphemism, fabula, foregrounding, kenning, metalepsis, mise en abyme, mythopoeia, peripeteia, peritext, sjuzhet, unreliable narrator, zeugma, logocentrism, subaltern
+  - Visual arts and aesthetics (20): chroma, colorism, decalcomania, foreshortening, frottage, gestalt, gouache, grattage, grotesque, intaglio, pastiche, patina, photorealism, plein air, pointillism, scumbling, sublime, tondo, underpainting, vanitas
+  - Music theory and composition (20): aleatory, antiphony, arpeggiation, atonality, cadenza, cantus firmus, coda, counterpoint, dissonance, fugue, glissando, homophony, isorhythm, klangfarbenmelodie, modulation, passacaglia, rubato, syncopation, tritone, tremolo
+  - Film theory and cinema studies (15): apparatus theory, continuity editing, deep focus, depth of field, fabulation, haptic visuality, intertitle, long take, match cut, montage, offscreen space, point-of-view shot, shot-reverse shot, spectacle, tracking shot
+  - Architecture and urban theory (15): agora, arcade, atrium, brutalism, cladding, fluting, frieze, geodesic, metope, parametric design, plinth, portico, stoa, transept, tympanum
+  - Game theory and decision theory (10): backward induction, correlated equilibrium, dominant strategy, focal point, mixed strategy, pareto optimality, payoff matrix, prisoner's dilemma, rationalizability, zero-sum
+
+### Validation
+
+| Metric | Value |
+|--------|-------|
+| Stubs added | 100 |
+| Collisions | 0 |
+| Total staging entries | 930 |
+| Total stubs (after) | 145 |
+| validate_words.py --status stub | PASSED (exit 0) |
+
+### What went well
+- All 100 candidate terms confirmed absent from staging before adding — zero collisions.
+- Preflight JSON validation passed cleanly before edits.
+- Validator passed on first run (exit 0) across all 145 stubs.
+- Each stub includes `language`, `partOfSpeech`, and `register` fields per task spec.
+- Multi-word terms use POS `phrase` consistently.
+
+### Issues / notes
+- No issues encountered. All domains covered to exact target counts.
+- No merge performed per task instructions.
