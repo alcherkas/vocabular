@@ -6360,7 +6360,7 @@
   },
   {
     "term": "injectivity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -6374,11 +6374,24 @@
           "functions"
         ]
       }
+    ],
+    "synonyms": [
+      "one-to-one property"
+    ],
+    "antonymTerms": [
+      "surjectivity",
+      "non-injectivity"
+    ],
+    "relatedTerms": [
+      "bijection",
+      "function",
+      "injection",
+      "mapping"
     ]
   },
   {
     "term": "bijectivity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -6392,11 +6405,23 @@
           "functions"
         ]
       }
+    ],
+    "synonyms": [
+      "one-to-one correspondence"
+    ],
+    "antonymTerms": [
+      "non-bijectivity"
+    ],
+    "relatedTerms": [
+      "injectivity",
+      "surjectivity",
+      "isomorphism",
+      "function"
     ]
   },
   {
     "term": "idempotence",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -6410,11 +6435,23 @@
           "computing"
         ]
       }
+    ],
+    "synonyms": [
+      "idempotency"
+    ],
+    "antonymTerms": [
+      "non-idempotence"
+    ],
+    "relatedTerms": [
+      "operation",
+      "function",
+      "retry safety",
+      "immutability"
     ]
   },
   {
     "term": "nilpotence",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -6428,11 +6465,21 @@
           "algebra"
         ]
       }
+    ],
+    "synonyms": [
+      "nilpotency"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "idempotence",
+      "algebra",
+      "matrix",
+      "zero element"
     ]
   },
   {
     "term": "orthogonality",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -6446,11 +6493,25 @@
           "statistics"
         ]
       }
+    ],
+    "synonyms": [
+      "perpendicularity",
+      "independence"
+    ],
+    "antonymTerms": [
+      "collinearity",
+      "dependence"
+    ],
+    "relatedTerms": [
+      "vector",
+      "linear algebra",
+      "basis",
+      "inner product"
     ]
   },
   {
     "term": "commutativity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -6464,11 +6525,23 @@
           "algebra"
         ]
       }
+    ],
+    "synonyms": [
+      "commutative property"
+    ],
+    "antonymTerms": [
+      "non-commutativity"
+    ],
+    "relatedTerms": [
+      "associativity",
+      "distributivity",
+      "algebra",
+      "operation"
     ]
   },
   {
     "term": "associativity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -6482,11 +6555,23 @@
           "algebra"
         ]
       }
+    ],
+    "synonyms": [
+      "grouping property"
+    ],
+    "antonymTerms": [
+      "non-associativity"
+    ],
+    "relatedTerms": [
+      "commutativity",
+      "distributivity",
+      "group theory",
+      "operation"
     ]
   },
   {
     "term": "convexity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -6500,11 +6585,24 @@
           "optimization"
         ]
       }
+    ],
+    "synonyms": [
+      "convex property"
+    ],
+    "antonymTerms": [
+      "concavity",
+      "non-convexity"
+    ],
+    "relatedTerms": [
+      "optimization",
+      "geometry",
+      "set theory",
+      "curvature"
     ]
   },
   {
     "term": "nonlinearity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -6518,11 +6616,23 @@
           "systems"
         ]
       }
+    ],
+    "synonyms": [
+      "non-linearity"
+    ],
+    "antonymTerms": [
+      "linearity"
+    ],
+    "relatedTerms": [
+      "chaos theory",
+      "differential equations",
+      "superposition",
+      "dynamics"
     ]
   },
   {
     "term": "tribology",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -6536,11 +6646,21 @@
           "materials"
         ]
       }
+    ],
+    "synonyms": [
+      "friction science"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "friction",
+      "lubrication",
+      "wear",
+      "surface engineering"
     ]
   },
   {
     "term": "mechatronics",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6557,11 +6677,18 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "robotics",
+      "electronics",
+      "mechanical engineering",
+      "control systems"
+    ]
   },
   {
     "term": "metrology",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6578,11 +6705,20 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "measurement science"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "calibration",
+      "precision",
+      "standards",
+      "instrumentation"
+    ]
   },
   {
     "term": "electromechanical",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -6599,11 +6735,20 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "electromechanical system"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mechatronics",
+      "actuator",
+      "transducer",
+      "solenoid"
+    ]
   },
   {
     "term": "aerodynamics",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6620,11 +6765,18 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "fluid dynamics",
+      "lift",
+      "drag",
+      "hydrodynamics"
+    ]
   },
   {
     "term": "hydrodynamics",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6641,11 +6793,20 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "fluid dynamics"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "aerodynamics",
+      "fluid mechanics",
+      "viscosity",
+      "turbulence"
+    ]
   },
   {
     "term": "cryogenics",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6662,11 +6823,20 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "low-temperature physics"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "superconductivity",
+      "liquid nitrogen",
+      "absolute zero",
+      "refrigeration"
+    ]
   },
   {
     "term": "photolithography",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6683,11 +6853,20 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "optical lithography"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nanofabrication",
+      "semiconductor",
+      "etching",
+      "microelectronics"
+    ]
   },
   {
     "term": "nanofabrication",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6704,11 +6883,22 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "nanomanufacturing"
+    ],
+    "antonymTerms": [
+      "macrofabrication"
+    ],
+    "relatedTerms": [
+      "photolithography",
+      "nanotechnology",
+      "semiconductor",
+      "MEMS"
+    ]
   },
   {
     "term": "redundancy",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6736,12 +6926,22 @@
     ],
     "synonyms": [
       "backup",
-      "duplication"
+      "duplication",
+      "replication"
+    ],
+    "antonymTerms": [
+      "single point of failure"
+    ],
+    "relatedTerms": [
+      "fault tolerance",
+      "reliability",
+      "failover",
+      "resilience"
     ]
   },
   {
     "term": "scalability",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6758,11 +6958,24 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "elasticity",
+      "scale"
+    ],
+    "antonymTerms": [
+      "rigidity",
+      "inflexibility"
+    ],
+    "relatedTerms": [
+      "performance",
+      "load balancing",
+      "distributed systems",
+      "capacity"
+    ]
   },
   {
     "term": "robustness",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6781,12 +6994,22 @@
     ],
     "synonyms": [
       "resilience",
-      "durability"
+      "hardiness"
+    ],
+    "antonymTerms": [
+      "fragility",
+      "brittleness"
+    ],
+    "relatedTerms": [
+      "fault tolerance",
+      "stability",
+      "error handling",
+      "redundancy"
     ]
   },
   {
     "term": "demarche",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6804,13 +7027,20 @@
       }
     ],
     "synonyms": [
-      "initiative",
+      "diplomatic approach",
       "representation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "diplomacy",
+      "foreign policy",
+      "note verbale",
+      "embassy"
     ]
   },
   {
     "term": "rapprochement",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6829,12 +7059,22 @@
     ],
     "synonyms": [
       "reconciliation",
-      "détente"
+      "detente"
+    ],
+    "antonymTerms": [
+      "estrangement",
+      "rupture"
+    ],
+    "relatedTerms": [
+      "diplomacy",
+      "normalization",
+      "bilateral relations",
+      "foreign policy"
     ]
   },
   {
     "term": "nonalignment",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6854,11 +7094,21 @@
     "synonyms": [
       "neutrality",
       "non-alignment"
+    ],
+    "antonymTerms": [
+      "alignment",
+      "alliance"
+    ],
+    "relatedTerms": [
+      "multilateralism",
+      "sovereignty",
+      "Cold War",
+      "foreign policy"
     ]
   },
   {
     "term": "multilateralism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6875,11 +7125,23 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "multinational cooperation"
+    ],
+    "antonymTerms": [
+      "unilateralism",
+      "bilateralism"
+    ],
+    "relatedTerms": [
+      "international relations",
+      "United Nations",
+      "treaty",
+      "diplomacy"
+    ]
   },
   {
     "term": "detente",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6899,11 +7161,20 @@
     "synonyms": [
       "rapprochement",
       "thaw"
+    ],
+    "antonymTerms": [
+      "escalation"
+    ],
+    "relatedTerms": [
+      "diplomacy",
+      "arms control",
+      "Cold War",
+      "normalization"
     ]
   },
   {
     "term": "nonproliferation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6920,11 +7191,22 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "arms control"
+    ],
+    "antonymTerms": [
+      "proliferation"
+    ],
+    "relatedTerms": [
+      "nuclear weapons",
+      "treaty",
+      "disarmament",
+      "IAEA"
+    ]
   },
   {
     "term": "consular",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -6941,11 +7223,20 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "consular affairs"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "embassy",
+      "diplomacy",
+      "visa",
+      "consul"
+    ]
   },
   {
     "term": "extradition",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6962,11 +7253,24 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "surrender",
+      "transfer"
+    ],
+    "antonymTerms": [
+      "asylum",
+      "refuge"
+    ],
+    "relatedTerms": [
+      "international law",
+      "treaty",
+      "fugitive",
+      "jurisdiction"
+    ]
   },
   {
     "term": "repatriation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -6985,12 +7289,21 @@
     ],
     "synonyms": [
       "return",
-      "reintegration"
+      "restitution"
+    ],
+    "antonymTerms": [
+      "exile"
+    ],
+    "relatedTerms": [
+      "citizenship",
+      "refugee",
+      "diaspora",
+      "nationality"
     ]
   },
   {
     "term": "armistice",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -7010,11 +7323,21 @@
     "synonyms": [
       "ceasefire",
       "truce"
+    ],
+    "antonymTerms": [
+      "warfare",
+      "hostilities"
+    ],
+    "relatedTerms": [
+      "peace treaty",
+      "negotiation",
+      "conflict resolution",
+      "demilitarization"
     ]
   },
   {
     "term": "protectorate",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -7031,11 +7354,24 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "dependent territory",
+      "vassal state"
+    ],
+    "antonymTerms": [
+      "sovereign state",
+      "independent nation"
+    ],
+    "relatedTerms": [
+      "colonialism",
+      "sovereignty",
+      "mandate",
+      "imperialism"
+    ]
   },
   {
     "term": "realpolitik",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -7053,13 +7389,22 @@
       }
     ],
     "synonyms": [
-      "pragmatism",
-      "power politics"
+      "power politics",
+      "pragmatic politics"
+    ],
+    "antonymTerms": [
+      "idealism"
+    ],
+    "relatedTerms": [
+      "geostrategy",
+      "diplomacy",
+      "national interest",
+      "balance of power"
     ]
   },
   {
     "term": "geostrategy",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -7076,11 +7421,20 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "geopolitical strategy"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "realpolitik",
+      "geopolitics",
+      "national security",
+      "foreign policy"
+    ]
   },
   {
     "term": "bilateralism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -7097,7 +7451,19 @@
         ]
       }
     ],
-    "synonyms": []
+    "synonyms": [
+      "bilateral cooperation"
+    ],
+    "antonymTerms": [
+      "multilateralism",
+      "unilateralism"
+    ],
+    "relatedTerms": [
+      "treaty",
+      "diplomacy",
+      "trade agreement",
+      "foreign policy"
+    ]
   },
   {
     "term": "ethnogenesis",

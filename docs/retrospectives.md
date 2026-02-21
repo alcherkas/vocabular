@@ -785,3 +785,20 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Grouping thematically adjacent stubs into named clusters (e.g., "sensory neuroscience", "chromosomal genetics") before enrichment would further reduce the risk of repetitive definitions across closely related terms.
+## [2026-02-21] [relations-8] [vocab/relations-8]
+
+### What went well
+- Preflight JSON validation on both files passed immediately; both parsed cleanly with no repair needed.
+- All 35 EN enriched entries (math/engineering/diplomacy terms: injectivity → bilateralism) received non-trivial synonyms, antonymTerms, and relatedTerms in a single pass.
+- All 35 LT enriched entries (profession M/F pairs: siuvėjas → verslininkė, plus Atostogauti which already held relations) updated to `relations-added` cleanly; Lithuanian-language relation terms used throughout.
+- POS and register validation passed with zero errors across both files.
+
+### What was harder than expected
+- Generating meaningful Lithuanian synonyms for profession pairs was constrained: true synonym alternatives are sparse in LT, so related professions or compound descriptors were used where single-word synonyms do not exist.
+- Many EN math-property terms (nilpotence, tribology, mechatronics) have no established synonym; empty `synonyms` arrays were used rather than forcing invented terms.
+
+### Process friction
+- None this iteration. Staging file structure, status conventions, and relation field names were all clearly documented.
+
+### Suggested improvement
+- Add a validation rule that warns when `synonyms` is empty for entries with `partOfSpeech: noun` in EN — helps surface terms that might benefit from a second enrichment pass or a domain-expert review.
