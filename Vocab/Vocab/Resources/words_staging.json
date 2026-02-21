@@ -13059,7 +13059,7 @@
   },
   {
     "term": "etiological",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -13084,6 +13084,16 @@
           "causation"
         ]
       }
+    ],
+    "synonyms": [
+      "causal",
+      "causative"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "etiology",
+      "pathogenesis",
+      "causation"
     ]
   },
   {
@@ -13248,7 +13258,7 @@
   },
   {
     "term": "teratogen",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13264,11 +13274,21 @@
           "toxicology"
         ]
       }
+    ],
+    "synonyms": [
+      "teratogenic agent",
+      "developmental toxicant"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "teratogenicity",
+      "teratogenesis",
+      "mutagen"
     ]
   },
   {
     "term": "excipient",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13283,11 +13303,21 @@
           "medicine"
         ]
       }
+    ],
+    "synonyms": [
+      "vehicle",
+      "carrier"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "binder",
+      "filler",
+      "diluent"
     ]
   },
   {
     "term": "prodrug",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13302,6 +13332,16 @@
           "biochemistry"
         ]
       }
+    ],
+    "synonyms": [
+      "pharmacological precursor",
+      "bioreversible derivative"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bioactivation",
+      "metabolism",
+      "pharmacokinetics"
     ]
   },
   {
@@ -13496,7 +13536,7 @@
   },
   {
     "term": "adenocarcinoma",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13511,11 +13551,21 @@
           "pathology"
         ]
       }
+    ],
+    "synonyms": [
+      "glandular carcinoma",
+      "glandular malignancy"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "carcinoma",
+      "adenoma",
+      "metastasis"
     ]
   },
   {
     "term": "lymphoma",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13530,11 +13580,21 @@
           "medicine"
         ]
       }
+    ],
+    "synonyms": [
+      "lymphoid neoplasm",
+      "lymphocytic malignancy"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "leukemia",
+      "lymphocyte",
+      "lymphadenopathy"
     ]
   },
   {
     "term": "sarcoma",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13549,6 +13609,16 @@
           "pathology"
         ]
       }
+    ],
+    "synonyms": [
+      "mesenchymal malignancy",
+      "connective tissue cancer"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "carcinoma",
+      "mesenchyme",
+      "neoplasm"
     ]
   },
   {
@@ -13815,7 +13885,7 @@
   },
   {
     "term": "endocarditis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13830,6 +13900,16 @@
           "infectious disease"
         ]
       }
+    ],
+    "synonyms": [
+      "heart valve inflammation",
+      "valvular inflammation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "myocarditis",
+      "pericarditis",
+      "valvulopathy"
     ]
   },
   {
@@ -13867,7 +13947,7 @@
   },
   {
     "term": "psoriasis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13882,11 +13962,21 @@
           "autoimmune"
         ]
       }
+    ],
+    "synonyms": [
+      "chronic plaque disease",
+      "psoriatic dermatosis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dermatitis",
+      "eczema",
+      "keratinocyte"
     ]
   },
   {
     "term": "desquamation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13901,11 +13991,21 @@
           "physiology"
         ]
       }
+    ],
+    "synonyms": [
+      "exfoliation",
+      "skin peeling"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "epidermis",
+      "keratinocyte",
+      "scaling"
     ]
   },
   {
     "term": "urticaria",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13920,11 +14020,21 @@
           "medicine"
         ]
       }
+    ],
+    "synonyms": [
+      "hives",
+      "nettle rash"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "angioedema",
+      "pruritus",
+      "histamine"
     ]
   },
   {
     "term": "seborrheic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -13939,11 +14049,21 @@
           "physiology"
         ]
       }
+    ],
+    "synonyms": [
+      "seborrhoeal",
+      "sebaceous"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "seborrhea",
+      "sebum",
+      "acne"
     ]
   },
   {
     "term": "hyperpigmentation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13958,6 +14078,18 @@
           "pigmentation"
         ]
       }
+    ],
+    "synonyms": [
+      "hypermelanosis",
+      "skin darkening"
+    ],
+    "antonymTerms": [
+      "hypopigmentation"
+    ],
+    "relatedTerms": [
+      "melanin",
+      "melanocyte",
+      "depigmentation"
     ]
   },
   {
@@ -18947,7 +19079,7 @@
   {
     "term": "cinematheque",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -18970,6 +19102,16 @@
           "exhibition"
         ]
       }
+    ],
+    "synonyms": [
+      "film archive",
+      "film library"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "cinephilia",
+      "film preservation",
+      "repertory cinema"
     ]
   },
   {
@@ -19041,7 +19183,7 @@
   {
     "term": "paracinema",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19054,12 +19196,24 @@
           "genre"
         ]
       }
+    ],
+    "synonyms": [
+      "trash cinema",
+      "outsider cinema"
+    ],
+    "antonymTerms": [
+      "mainstream cinema"
+    ],
+    "relatedTerms": [
+      "cult film",
+      "exploitation film",
+      "B-movie"
     ]
   },
   {
     "term": "cinephilia",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19072,6 +19226,16 @@
           "film studies"
         ]
       }
+    ],
+    "synonyms": [
+      "film passion",
+      "film fanaticism"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "cinephile",
+      "cinematheque",
+      "film criticism"
     ]
   },
   {
@@ -19341,7 +19505,7 @@
   {
     "term": "incentivization",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19354,12 +19518,22 @@
           "policy"
         ]
       }
+    ],
+    "synonyms": [
+      "inducement",
+      "motivation design"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "incentive",
+      "reward system",
+      "gamification"
     ]
   },
   {
     "term": "arbitration",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -19382,6 +19556,16 @@
           "governance"
         ]
       }
+    ],
+    "synonyms": [
+      "adjudication",
+      "binding resolution"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mediation",
+      "dispute resolution",
+      "arbitral award"
     ]
   },
   {
@@ -21357,7 +21541,7 @@
   {
     "term": "eliminativism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21370,12 +21554,22 @@
           "cognitive science"
         ]
       }
+    ],
+    "synonyms": [
+      "eliminative materialism",
+      "folk-psychological error theory"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "folk psychology",
+      "intentionality",
+      "neuroscience"
     ]
   },
   {
     "term": "epiphenomenalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21388,12 +21582,22 @@
           "consciousness"
         ]
       }
+    ],
+    "synonyms": [
+      "causal redundancy theory",
+      "byproduct theory of mind"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "physicalism",
+      "mental causation",
+      "consciousness"
     ]
   },
   {
     "term": "qualia",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21406,12 +21610,22 @@
           "philosophy of mind"
         ]
       }
+    ],
+    "synonyms": [
+      "phenomenal properties",
+      "phenomenal character"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "consciousness",
+      "phenomenology",
+      "sense data"
     ]
   },
   {
     "term": "supervenience",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21424,12 +21638,22 @@
           "philosophy of mind"
         ]
       }
+    ],
+    "synonyms": [
+      "property dependence",
+      "covariance relation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "physicalism",
+      "emergentism",
+      "multiple realizability"
     ]
   },
   {
     "term": "panpsychism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21442,12 +21666,22 @@
           "metaphysics"
         ]
       }
+    ],
+    "synonyms": [
+      "panexperientialism",
+      "psychicalism"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "consciousness",
+      "idealism",
+      "animism"
     ]
   },
   {
     "term": "illusionism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21470,12 +21704,22 @@
           "visual perception"
         ]
       }
+    ],
+    "synonyms": [
+      "trompe-l'œil",
+      "perspectival simulation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "qualia",
+      "consciousness",
+      "representationalism"
     ]
   },
   {
     "term": "computationalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21489,12 +21733,22 @@
           "philosophy of mind"
         ]
       }
+    ],
+    "synonyms": [
+      "computational theory of mind",
+      "machine functionalism"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "cognitive science",
+      "functionalism",
+      "connectionism"
     ]
   },
   {
     "term": "intentionality",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21517,12 +21771,22 @@
           "action theory"
         ]
       }
+    ],
+    "synonyms": [
+      "aboutness",
+      "mental directedness"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "consciousness",
+      "phenomenology",
+      "representation"
     ]
   },
   {
     "term": "physicalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21535,12 +21799,24 @@
           "philosophy of mind"
         ]
       }
+    ],
+    "synonyms": [
+      "materialism",
+      "physical monism"
+    ],
+    "antonymTerms": [
+      "dualism"
+    ],
+    "relatedTerms": [
+      "reductionism",
+      "supervenience",
+      "monism"
     ]
   },
   {
     "term": "representationalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21563,12 +21839,24 @@
           "philosophy of art"
         ]
       }
+    ],
+    "synonyms": [
+      "indirect realism",
+      "mediated perception theory"
+    ],
+    "antonymTerms": [
+      "direct realism"
+    ],
+    "relatedTerms": [
+      "intentionality",
+      "qualia",
+      "mental representation"
     ]
   },
   {
     "term": "emergentism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21582,12 +21870,24 @@
           "complex systems"
         ]
       }
+    ],
+    "synonyms": [
+      "emergence theory",
+      "strong emergence view"
+    ],
+    "antonymTerms": [
+      "reductionism"
+    ],
+    "relatedTerms": [
+      "supervenience",
+      "holism",
+      "complexity theory"
     ]
   },
   {
     "term": "disjunctivism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -21600,6 +21900,16 @@
           "perception"
         ]
       }
+    ],
+    "synonyms": [
+      "naive realism",
+      "anti-common-factor view"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "perception",
+      "veridical experience",
+      "hallucination"
     ]
   },
   {
@@ -26662,7 +26972,7 @@
   {
     "term": "percolation",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26685,6 +26995,16 @@
           "network theory"
         ]
       }
+    ],
+    "synonyms": [
+      "filtration",
+      "seepage"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "osmosis",
+      "diffusion",
+      "porous medium"
     ]
   },
   {
@@ -26752,7 +27072,7 @@
   {
     "term": "dissipation",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26775,6 +27095,16 @@
           "lifestyle"
         ]
       }
+    ],
+    "synonyms": [
+      "debauchery",
+      "profligacy"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "entropy",
+      "thermodynamics",
+      "hedonism"
     ]
   },
   {
@@ -26811,7 +27141,7 @@
   {
     "term": "renormalization",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26824,6 +27154,16 @@
           "mathematics"
         ]
       }
+    ],
+    "synonyms": [
+      "divergence absorption",
+      "parameter redefinition"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "quantum field theory",
+      "perturbation theory",
+      "regularization"
     ]
   },
   {
@@ -26872,7 +27212,7 @@
   {
     "term": "viability",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26895,6 +27235,16 @@
           "obstetrics"
         ]
       }
+    ],
+    "synonyms": [
+      "feasibility",
+      "sustainability"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "survivability",
+      "resilience",
+      "solvency"
     ]
   },
   {
@@ -27847,7 +28197,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The paratextual elements physically attached to the main body of a book—including titles, prefaces, dedications, epigraphs, footnotes, and indices—that frame and mediate the reader's interpretation.",
@@ -27859,6 +28209,18 @@
           "paratext"
         ]
       }
+    ],
+    "synonyms": [
+      "attached paratext",
+      "internal paratext"
+    ],
+    "antonymTerms": [
+      "epitext"
+    ],
+    "relatedTerms": [
+      "paratext",
+      "front matter",
+      "paratextuality"
     ]
   },
   {

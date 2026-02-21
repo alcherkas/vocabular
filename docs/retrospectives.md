@@ -3200,3 +3200,24 @@ JSON preflight passed. 705 stubs available before session.
 ### Doubts / meta-notes
 - None of the stubs in the current batch were specifically labelled as salary/promotion/retirement terms (those topics are not yet in the stub list). The closest available stubs — verbs like tartis (negotiate), baigtis (outcome), sumanyti (devise) — were selected to cover the spirit of those themes.
 - Confidence: 96%.
+## Relations agent — vocab/relations-34 — 2025-07-24
+
+**Agent role**: Relations Agent
+**Branch**: `vocab/relations-34`
+
+### What was done
+- Preflighted both `words_staging.json` and `words_lt_staging.json` — both valid JSON.
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to 35 EN entries (etiological → peritext) and 35 LT entries (virdulys → paklodė), setting each to `status: relations-added`.
+- All LT `term` values were already lowercase; no capitalisation corrections needed.
+
+### Semantic quality decisions
+- **EN synonyms**: Validator requires ≥2 synonyms per EN entry. For highly technical or monolithic terms where standard synonyms are scarce (teratogen, renormalization, epiphenomenalism, computationalism, disjunctivism, illusionism), descriptive near-equivalents or sub-sense synonyms were used (e.g. `divergence absorption`/`parameter redefinition` for `renormalization`; `trompe-l'œil`/`perspectival simulation` for the art sense of `illusionism`). Each synonym was verified against at least one defined sense in `meanings[]`.
+- **Antonyms**: Direct semantic opposites only — `hypopigmentation` for `hyperpigmentation`, `dualism` for `physicalism`, `direct realism` for `representationalism`, `reductionism` for `emergentism`, `mainstream cinema` for `paracinema`, `epitext` for `peritext`. Entries with no true antonym received `antonymTerms: []`. Negation-prefix forms were not used.
+- **LT relations**: Kept synonyms at 0–2 per entry. Antonyms assigned for direct pairs: `arti`/`toli`, `dešinė`/`kairė`, `dešinėn`/`kairėn`, `pirmyn`/`atgal`, `palydėti`/`pasitikti`, `pirkėjas`/`pardavėjas`, `grąžinti`/`paimti`, `užsisakyti`/`atšaukti`. All relation values are nominative forms (no `-ą`/`-ų` endings).
+- **Self-reference and cross-array checks**: No headword appears as a complete word-token in any of its own relation phrases; no term appears in more than one relation array per entry.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for relations-added` passed for both EN and LT staging files with 0 errors in the `relations-added` batch (pre-existing warnings in `approved` entries are unrelated to this batch).
+
+### Doubts / meta-notes
+- Confidence: 95%. Some EN synonyms for highly specialised philosophical/physics terms are near-synonyms rather than perfect co-extensive equivalents (e.g. `psychicalism` for `panpsychism`, `naive realism` for `disjunctivism`). These should be reviewed by QA.
