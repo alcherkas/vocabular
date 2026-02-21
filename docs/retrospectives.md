@@ -1095,3 +1095,30 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 ### Suggested improvement
 - Add a pre-commit hook or CI step that enforces lowercase headwords for Lithuanian entries (except proper nouns) to catch the `Pietūs`/`Grietinė` capitalisation pattern at source.
 - Consider splitting `ledai` into two separate entries (ice cream vs ice) in a future seeder pass to avoid meaning ambiguity.
+
+## [2026-02-25] [enricher-en-14] [vocab/enricher-en-14]
+
+### What went well
+- Preflight JSON check passed immediately: 430 EN entries loaded, valid structure confirmed, 65 stubs identified in a single parse.
+- All 35 target terms matched exactly by `term` key in the enrichment script — zero mismatches.
+- Enrichment script ran in a single pass, updating status, partOfSpeech, meanings, synonyms, antonymTerms, and relatedTerms atomically.
+- `validate_words.py --status enriched` passed for all 78 enriched entries (35 new + 43 pre-existing) with zero errors.
+- Domain coverage extended into volcanology, glaciology, seismology, epidemiology, pharmacology, oncology, and cardiology — all scientifically precise with contextually authentic examples.
+
+### What was harder than expected
+- The 65 stubs were exclusively specialised scientific/medical terms (not from the requested diplomacy/economics/linguistics/philosophy/psychology domains), so the domain focus was adapted to the available stub pool rather than the suggested domains.
+- 27 pre-existing validation failures (`EN word should have at least 2 synonyms`) appear in `relations-added`/`approved` entries from earlier batches — confirmed pre-existing via `git stash` check; not related to this enrichment pass.
+
+### Decisions
+- Status set to `enriched` (not `approved`) consistent with the two-stage pipeline on this branch series; relations pass will follow separately.
+- Register set to `technical` throughout — all 35 terms are specialist scientific vocabulary with no general-register equivalents.
+- Top-level `tags` array left as `[]` on all enriched entries, consistent with the established pattern for this stage; domain tags are carried inside `meanings[].tags` only.
+- Synonyms included even though not validated at `enriched` stage, to reduce friction in the downstream relations pass.
+- Antonym arrays left `[]` for terms with no meaningful lexical antonym (e.g. pure process nouns like `carcinogenesis`, `angiogenesis`).
+
+### Process friction
+- Full `validate_words.py` run (without `--status` filter) exits with code 1 due to 27 pre-existing synonym-count errors in earlier entries; running with `--status enriched` is necessary to get a clean signal on the current batch.
+
+### Suggested improvement
+- A `--ignore-preexisting` flag or a baseline snapshot mechanism in `validate_words.py` would allow the full file to be validated without noise from known upstream issues.
+- Add a preflight count of available stubs by domain tag so future enricher agents can immediately confirm whether target domains are represented in the stub pool.
