@@ -128,3 +128,24 @@ Vocab/
 
 ### Validator result
 143 enriched entries — all passed ✓
+---
+
+## Retro — vocab/relations-7 (Relations Agent)
+
+**Date:** 2025-07-17
+**Branch:** vocab/relations-7
+
+### What was done
+- Preflighted both staging JSON files — both valid (330 EN, 1960 LT entries).
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to **35 enriched EN entries** in `words_staging.json` (economics, sociology, ecology, mathematics domains).
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to **35 enriched LT entries** in `words_lt_staging.json` (everyday vocabulary: people, occupations, verbs of motion/action).
+- Set `status → relations-added` for all 70 processed entries.
+- Remaining 10 enriched EN entries and 78 enriched LT entries left untouched (per 35-per-file cap).
+
+### Validation
+- `validate_words.py --status relations-added` passed for both files (70 entries each).
+
+### Decisions
+- EN entries: ensured ≥ 2 synonyms per validator rule; antonymTerms/relatedTerms populated from domain knowledge.
+- LT entries: synonyms/antonymTerms/relatedTerms as arrays (empty where linguistically appropriate); gendered pairs cross-referenced in relatedTerms.
+- No merges performed; branch left for PR review.

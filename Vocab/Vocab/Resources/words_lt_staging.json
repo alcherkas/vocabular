@@ -3586,7 +3586,7 @@
     "term": "sveikas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "qaNote": "Synonym/related terms are greeting-oriented (e.g., labas) but this adjective entry is about health; replace with health-related relations.",
     "meanings": [
       {
@@ -3600,13 +3600,17 @@
       }
     ],
     "synonyms": [
-      "labas"
+      "stiprus",
+      "tvirtas"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "ligonis",
+      "serga"
+    ],
     "relatedTerms": [
-      "pasisveikinimas",
-      "vyras",
-      "draugiškai"
+      "sveikata",
+      "gydytojas",
+      "ligoninė"
     ],
     "translation": "healthy"
   },
@@ -3614,7 +3618,7 @@
     "term": "sveika",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "qaNote": "Synonym/related terms are greeting-oriented (e.g., labas) but this adjective entry is about health; replace with health-related relations.",
     "meanings": [
       {
@@ -3628,13 +3632,17 @@
       }
     ],
     "synonyms": [
-      "labas"
+      "stipri",
+      "tvirtą"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "serganti",
+      "ligota"
+    ],
     "relatedTerms": [
-      "pasisveikinimas",
-      "moteris",
-      "draugiškai"
+      "sveikata",
+      "gydytojas",
+      "moteris"
     ],
     "translation": "healthy"
   },
@@ -5258,7 +5266,7 @@
     "term": "eiti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To move from one place to another, usually on foot.",
@@ -5271,13 +5279,18 @@
       }
     ],
     "synonyms": [
-      "žingsniuoti"
+      "žingsniuoti",
+      "vaikščioti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "stovėti",
+      "bėgti"
+    ],
     "relatedTerms": [
-      "vaikščioti",
       "kelias",
-      "judėti"
+      "eismas",
+      "pėsčiomis",
+      "vaikščiojimas"
     ],
     "translation": "to go"
   },
@@ -5285,7 +5298,7 @@
     "term": "skambinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To contact someone by telephone or make a ringing sound.",
@@ -5298,13 +5311,17 @@
       }
     ],
     "synonyms": [
-      "paskambinti"
+      "paskambinti",
+      "telefonuoti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "nutylėti"
+    ],
     "relatedTerms": [
       "telefonas",
-      "ryšys",
-      "kalbėti"
+      "pokalbis",
+      "žinutė",
+      "komunikacija"
     ],
     "translation": "to call"
   },
@@ -5312,7 +5329,7 @@
     "term": "skubėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To do something quickly because there is little time.",
@@ -5325,13 +5342,18 @@
       }
     ],
     "synonyms": [
-      "lėkti"
+      "bėgti",
+      "paskubėti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "gaišti",
+      "vėluoti"
+    ],
     "relatedTerms": [
-      "greitai",
-      "vėluoti",
-      "laikas"
+      "laikas",
+      "vėlavimas",
+      "greitis",
+      "tempas"
     ],
     "translation": "to hurry"
   },
@@ -5339,7 +5361,7 @@
     "term": "susitikti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To come together with someone at an agreed place or by chance.",
@@ -5352,13 +5374,18 @@
       }
     ],
     "synonyms": [
-      "pasimatyti"
+      "pasimatyti",
+      "susiburti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "išsiskirti",
+      "atsisveikinti"
+    ],
     "relatedTerms": [
-      "draugas",
+      "draugai",
       "susitikimas",
-      "kalbėtis"
+      "vieta",
+      "laikas"
     ],
     "translation": "to meet"
   },
@@ -5366,7 +5393,7 @@
     "term": "važiuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To travel using a car, bus, train, or other vehicle.",
@@ -5379,13 +5406,18 @@
       }
     ],
     "synonyms": [
-      "keliauti"
+      "keliauti",
+      "vykti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "sustoti",
+      "grįžti"
+    ],
     "relatedTerms": [
       "automobilis",
-      "traukinys",
-      "kelionė"
+      "autobusas",
+      "kelias",
+      "transportas"
     ],
     "translation": "to go by vehicle"
   },
@@ -5393,7 +5425,7 @@
     "term": "vėluoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To arrive or happen after the expected time.",
@@ -5405,12 +5437,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "užsibūti",
+      "atsilikti"
+    ],
+    "antonymTerms": [
+      "skubėti",
+      "atvykti laiku"
+    ],
     "relatedTerms": [
       "laikas",
-      "skubėti",
-      "vėlavimas"
+      "tvarkaraštis",
+      "punktualumas",
+      "atsiprašymas"
     ],
     "translation": "to be late"
   },
@@ -5418,7 +5457,7 @@
     "term": "Žmogus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A human being.",
@@ -5431,13 +5470,15 @@
       }
     ],
     "synonyms": [
-      "asmuo"
+      "asmuo",
+      "individas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "vyras",
-      "moteris",
-      "vaikas"
+      "žmonija",
+      "visuomenė",
+      "gyventojas",
+      "pilietis"
     ],
     "translation": "person"
   },
@@ -5445,7 +5486,7 @@
     "term": "mergaitė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female child.",
@@ -5457,12 +5498,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "mažoji moteris",
+      "dukrytė"
+    ],
+    "antonymTerms": [
+      "berniukas"
+    ],
     "relatedTerms": [
-      "berniukas",
       "vaikas",
-      "mokykla"
+      "moteris",
+      "jaunimas",
+      "šeima"
     ],
     "translation": "girl"
   },
@@ -5470,7 +5517,7 @@
     "term": "mergina",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A young female person.",
@@ -5483,13 +5530,18 @@
       }
     ],
     "synonyms": [
+      "jauna moteris",
       "panelė"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [
+    "antonymTerms": [
       "vaikinas",
+      "vyras"
+    ],
+    "relatedTerms": [
+      "draugė",
       "moteris",
-      "draugė"
+      "jaunimas",
+      "partnerė"
     ],
     "translation": "young woman"
   },
@@ -5497,7 +5549,7 @@
     "term": "moteris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An adult female person.",
@@ -5509,12 +5561,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [
+    "synonyms": [
+      "ponia",
+      "dama"
+    ],
+    "antonymTerms": [
       "vyras",
+      "vaikinas"
+    ],
+    "relatedTerms": [
+      "šeima",
       "mergina",
-      "šeima"
+      "žmogus",
+      "suaugusi"
     ],
     "translation": "woman"
   },
@@ -5522,7 +5581,7 @@
     "term": "berniukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male child.",
@@ -5534,11 +5593,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "jaunuolis",
+      "mažasis vyras"
+    ],
+    "antonymTerms": [
+      "mergaitė"
+    ],
     "relatedTerms": [
-      "mergaitė",
       "vaikas",
+      "vyras",
+      "jaunimas",
       "mokykla"
     ],
     "translation": "boy"
@@ -5547,7 +5612,7 @@
     "term": "vaikinas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A young male person; in context, also a boyfriend.",
@@ -5560,13 +5625,18 @@
       }
     ],
     "synonyms": [
-      "jaunuolis"
+      "jaunikaitis",
+      "jaunas vyras"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [
+    "antonymTerms": [
       "mergina",
+      "moteris"
+    ],
+    "relatedTerms": [
+      "draugas",
+      "jaunimas",
       "vyras",
-      "draugas"
+      "partneris"
     ],
     "translation": "young man"
   },
@@ -5574,7 +5644,7 @@
     "term": "vyras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An adult male person; also means husband in family context.",
@@ -5586,12 +5656,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "ponas",
+      "vyriškis"
+    ],
+    "antonymTerms": [
+      "moteris"
+    ],
     "relatedTerms": [
-      "moteris",
-      "vaikinas",
-      "šeima"
+      "šeima",
+      "tėvas",
+      "vyriškumas",
+      "suaugęs"
     ],
     "translation": "man"
   },
@@ -5599,7 +5675,7 @@
     "term": "mokinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A boy or man who studies at school.",
@@ -5612,13 +5688,17 @@
       }
     ],
     "synonyms": [
-      "moksleivis"
+      "studentas",
+      "besimokantysis"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "mokytojas"
+    ],
     "relatedTerms": [
-      "mokytojas",
       "mokykla",
-      "pamoka"
+      "klasė",
+      "mokslas",
+      "mokinė"
     ],
     "translation": "male student"
   },
@@ -5626,7 +5706,7 @@
     "term": "mokinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A girl or woman who studies at school.",
@@ -5639,13 +5719,17 @@
       }
     ],
     "synonyms": [
-      "moksleivė"
+      "studentė",
+      "besimokančioji"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "mokytoja"
+    ],
     "relatedTerms": [
-      "mokytoja",
       "mokykla",
-      "pamoka"
+      "klasė",
+      "mokslas",
+      "mokinys"
     ],
     "translation": "female student"
   },
@@ -5653,7 +5737,7 @@
     "term": "pensininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A retired man receiving a pension.",
@@ -5665,12 +5749,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "išėjęs į pensiją",
+      "veteranas"
+    ],
+    "antonymTerms": [
+      "dirbantysis",
+      "darbininkas"
+    ],
     "relatedTerms": [
       "pensija",
-      "senjoras",
-      "poilsis"
+      "senatvė",
+      "poilsis",
+      "pensininkė"
     ],
     "translation": "male pensioner"
   },
@@ -5678,7 +5769,7 @@
     "term": "pensininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A retired woman receiving a pension.",
@@ -5690,12 +5781,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "pensijoje esanti moteris"
+    ],
+    "antonymTerms": [
+      "dirbančioji",
+      "darbininkė"
+    ],
     "relatedTerms": [
       "pensija",
-      "senjorė",
-      "poilsis"
+      "senatvė",
+      "poilsis",
+      "pensininkas"
     ],
     "translation": "female pensioner"
   },
@@ -5703,7 +5800,7 @@
     "term": "Aktorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male performer who plays roles in theatre, film, or television.",
@@ -5715,12 +5812,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "artistas",
+      "vaidytojas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "aktorė",
       "teatras",
-      "filmas"
+      "kinas",
+      "vaidmuo",
+      "spektaklis",
+      "aktorė"
     ],
     "translation": "actor"
   },
@@ -5728,7 +5830,7 @@
     "term": "aktorė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female performer who plays roles in theatre, film, or television.",
@@ -5740,12 +5842,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "artistė",
+      "vaidytoja"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "aktorius",
       "teatras",
-      "scena"
+      "kinas",
+      "vaidmuo",
+      "spektaklis",
+      "aktorius"
     ],
     "translation": "actress"
   },
@@ -5753,7 +5860,7 @@
     "term": "dailininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male artist who creates paintings or visual artwork.",
@@ -5766,13 +5873,15 @@
       }
     ],
     "synonyms": [
+      "tapytojas",
       "menininkas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "dailininkė",
+      "dailė",
       "paveikslas",
-      "galerija"
+      "menas",
+      "dailininkė"
     ],
     "translation": "male painter"
   },
@@ -5780,7 +5889,7 @@
     "term": "dailininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female artist who creates paintings or visual artwork.",
@@ -5793,13 +5902,15 @@
       }
     ],
     "synonyms": [
+      "tapytoja",
       "menininkė"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "dailininkas",
+      "dailė",
       "paveikslas",
-      "kūryba"
+      "menas",
+      "dailininkas"
     ],
     "translation": "female painter"
   },
@@ -5807,7 +5918,7 @@
     "term": "dainininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who sings songs, often as a performer.",
@@ -5819,16 +5930,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atlikėjas",
+      "solistas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "muzika",
+      "daina",
+      "koncertas",
+      "dainininkė"
+    ],
     "translation": "singer"
   },
   {
     "term": "dainininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who sings songs, often as a performer.",
@@ -5840,16 +5959,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atlikėja",
+      "solistė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "muzika",
+      "daina",
+      "koncertas",
+      "dainininkas"
+    ],
     "translation": "singer"
   },
   {
     "term": "sportininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who practices sports, often competitively.",
@@ -5861,16 +5988,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atletas",
+      "žaidėjas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sportas",
+      "treniruotė",
+      "rungtynės",
+      "sportininkė"
+    ],
     "translation": "athlete"
   },
   {
     "term": "sportininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who practices sports, often competitively.",
@@ -5882,16 +6017,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atletė",
+      "žaidėja"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sportas",
+      "treniruotė",
+      "rungtynės",
+      "sportininkas"
+    ],
     "translation": "athlete"
   },
   {
     "term": "mokslininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who studies science and does research.",
@@ -5903,16 +6046,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tyrinėtojas",
+      "akademikas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokslas",
+      "tyrimas",
+      "laboratorija",
+      "mokslininkė"
+    ],
     "translation": "scientist"
   },
   {
     "term": "mokslininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who studies science and does research.",
@@ -5924,16 +6075,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tyrinėtoja",
+      "akademikė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokslas",
+      "tyrimas",
+      "laboratorija",
+      "mokslininkas"
+    ],
     "translation": "scientist"
   },
   {
     "term": "darbininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who does manual or practical work.",
@@ -5945,16 +6104,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "darbuotojas",
+      "samdinys"
+    ],
+    "antonymTerms": [
+      "darbdavys",
+      "valdytojas"
+    ],
+    "relatedTerms": [
+      "darbas",
+      "fabrikas",
+      "atlyginimas",
+      "darbininkė"
+    ],
     "translation": "worker"
   },
   {
     "term": "darbininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who does manual or practical work.",
@@ -5966,16 +6136,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "darbuotoja",
+      "samdinė"
+    ],
+    "antonymTerms": [
+      "darbdavė",
+      "vadovė"
+    ],
+    "relatedTerms": [
+      "darbas",
+      "fabrikas",
+      "atlyginimas",
+      "darbininkas"
+    ],
     "translation": "worker"
   },
   {
     "term": "policininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man whose job is to enforce the law and keep public order.",
@@ -5987,16 +6168,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pareigūnas",
+      "teisėsaugos darbuotojas"
+    ],
+    "antonymTerms": [
+      "nusikaltėlis"
+    ],
+    "relatedTerms": [
+      "policija",
+      "tvarka",
+      "įstatymas",
+      "policininkė"
+    ],
     "translation": "police officer"
   },
   {
     "term": "policininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman whose job is to enforce the law and keep public order.",
@@ -6008,16 +6199,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pareigūnė",
+      "teisėsaugos darbuotoja"
+    ],
+    "antonymTerms": [
+      "nusikaltėlė"
+    ],
+    "relatedTerms": [
+      "policija",
+      "tvarka",
+      "įstatymas",
+      "policininkas"
+    ],
     "translation": "police officer"
   },
   {
     "term": "ūkininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who works in agriculture and manages a farm.",
@@ -6029,16 +6230,25 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "žemdirbys",
+      "fermeris"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ūkis",
+      "žemė",
+      "gyvuliai",
+      "derlius",
+      "ūkininkė"
+    ],
     "translation": "farmer"
   },
   {
     "term": "ūkininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who works in agriculture and manages a farm.",
@@ -6050,9 +6260,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "žemdirbė",
+      "fermerė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ūkis",
+      "žemė",
+      "gyvuliai",
+      "derlius",
+      "ūkininkas"
+    ],
     "translation": "farmer"
   },
   {
