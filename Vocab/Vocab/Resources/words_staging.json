@@ -1580,7 +1580,7 @@
   },
   {
     "term": "nosocomial",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -8901,7 +8901,7 @@
   },
   {
     "term": "colonnade",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -8916,7 +8916,12 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "peristyle",
+      "portico",
+      "arcade",
+      "row of columns"
+    ],
     "antonymTerms": [
       "blank wall",
       "solid façade"
@@ -8969,7 +8974,7 @@
   },
   {
     "term": "chiffonade",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9042,7 +9047,7 @@
   },
   {
     "term": "blanching",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9114,7 +9119,7 @@
   },
   {
     "term": "mirepoix",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9263,7 +9268,7 @@
   },
   {
     "term": "roux",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9520,7 +9525,7 @@
   },
   {
     "term": "capstan",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9628,7 +9633,7 @@
   },
   {
     "term": "mizzenmast",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9742,7 +9747,7 @@
   },
   {
     "term": "choropleth",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9762,7 +9767,10 @@
       "choropleth map",
       "shaded map"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "dot density map",
+      "proportional symbol map"
+    ],
     "relatedTerms": [
       "thematic map",
       "cartography",
@@ -9773,7 +9781,7 @@
   },
   {
     "term": "isoline",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9794,7 +9802,10 @@
       "isopleth",
       "isogram"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "choropleth",
+      "point symbol map"
+    ],
     "relatedTerms": [
       "isobar",
       "isotherm",
@@ -9805,7 +9816,7 @@
   },
   {
     "term": "geodesy",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9825,7 +9836,10 @@
       "geodetics",
       "earth measurement"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "local plane survey",
+      "planimetry"
+    ],
     "relatedTerms": [
       "geoid",
       "datum",
@@ -9837,7 +9851,7 @@
   },
   {
     "term": "georeferencing",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9857,7 +9871,10 @@
       "spatial referencing",
       "map registration"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "unreferenced imagery",
+      "unlocated data"
+    ],
     "relatedTerms": [
       "coordinate system",
       "datum",
@@ -9868,7 +9885,7 @@
   },
   {
     "term": "cartouche",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9898,7 +9915,10 @@
       "map panel",
       "title block"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "blank margin",
+      "plain title space"
+    ],
     "relatedTerms": [
       "legend",
       "map title",
@@ -9909,7 +9929,7 @@
   },
   {
     "term": "graticule",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9930,7 +9950,10 @@
       "coordinate grid",
       "latitude-longitude grid"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "local coordinate grid",
+      "planimetric grid"
+    ],
     "relatedTerms": [
       "meridian",
       "parallel",
@@ -9941,7 +9964,7 @@
   },
   {
     "term": "orthophoto",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9963,7 +9986,10 @@
       "orthoimage",
       "orthophotomap"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "oblique photograph",
+      "non-rectified image"
+    ],
     "relatedTerms": [
       "aerial photograph",
       "photogrammetry",
@@ -9974,7 +10000,7 @@
   },
   {
     "term": "toponymy",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9994,7 +10020,10 @@
       "place-name study",
       "toponomastics"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "anthroponymy",
+      "unnamed landscape"
+    ],
     "relatedTerms": [
       "etymology",
       "onomastics",
@@ -10005,7 +10034,7 @@
   },
   {
     "term": "bathymetry",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10040,7 +10069,7 @@
   },
   {
     "term": "planimetry",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10073,7 +10102,7 @@
   },
   {
     "term": "triangulation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10103,7 +10132,10 @@
       "trilateration",
       "surveying network"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "GPS survey",
+      "traverse"
+    ],
     "relatedTerms": [
       "baseline",
       "geodesy",
@@ -10114,7 +10146,7 @@
   },
   {
     "term": "baroclinic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -10146,7 +10178,7 @@
   },
   {
     "term": "anemometer",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10166,7 +10198,10 @@
       "wind gauge",
       "wind meter"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "barograph",
+      "stillness indicator"
+    ],
     "relatedTerms": [
       "hygrometer",
       "barometer",
@@ -10177,7 +10212,7 @@
   },
   {
     "term": "hygrometer",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10197,7 +10232,10 @@
       "humidity gauge",
       "moisture meter"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "desiccation indicator",
+      "aridity probe"
+    ],
     "relatedTerms": [
       "anemometer",
       "psychrometer",
@@ -10208,7 +10246,7 @@
   },
   {
     "term": "virga",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10228,7 +10266,10 @@
       "phantom precipitation",
       "fallstreaks"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "surface precipitation",
+      "ground rainfall"
+    ],
     "relatedTerms": [
       "precipitation",
       "evaporation",
@@ -10239,7 +10280,7 @@
   },
   {
     "term": "derecho",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10272,7 +10313,7 @@
   },
   {
     "term": "foehn",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10293,7 +10334,10 @@
       "chinook",
       "Santa Ana wind"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "katabatic wind",
+      "sea breeze"
+    ],
     "relatedTerms": [
       "orographic lift",
       "adiabatic lapse rate",
@@ -10304,7 +10348,7 @@
   },
   {
     "term": "cumulonimbus",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10338,7 +10382,7 @@
   },
   {
     "term": "anticyclone",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10372,7 +10416,7 @@
   },
   {
     "term": "occlusion",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10403,7 +10447,10 @@
       "blockage",
       "obstruction"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "open wave",
+      "clear air mass"
+    ],
     "relatedTerms": [
       "cold front",
       "warm front",
@@ -10414,7 +10461,7 @@
   },
   {
     "term": "isobar",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10444,7 +10491,10 @@
       "pressure contour",
       "isopiestic"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "pressure gradient zone",
+      "non-uniform pressure field"
+    ],
     "relatedTerms": [
       "isoline",
       "anticyclone",
@@ -10455,7 +10505,7 @@
   },
   {
     "term": "advection",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10498,7 +10548,7 @@
   },
   {
     "term": "paronomasia",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10519,7 +10569,10 @@
       "wordplay",
       "punning"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "literal language",
+      "plain speech"
+    ],
     "relatedTerms": [
       "homophone",
       "polysemy",
@@ -10530,7 +10583,7 @@
   },
   {
     "term": "aposiopesis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10550,7 +10603,10 @@
       "rhetorical interruption",
       "sudden silence"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "complete utterance",
+      "explicit statement"
+    ],
     "relatedTerms": [
       "ellipsis",
       "hypophora",
@@ -10561,7 +10617,7 @@
   },
   {
     "term": "hypophora",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10594,7 +10650,7 @@
   },
   {
     "term": "endogamy",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10627,7 +10683,7 @@
   },
   {
     "term": "exogamy",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
