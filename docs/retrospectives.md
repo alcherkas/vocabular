@@ -484,3 +484,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a preflight step in task prompts that reports current stub count before assigning a fixed enrichment target.
+## [2026-02-21] [vocab-qa-agent] [vocab-qa-1]
+
+### What went well
+- Reviewed all `relations-added` entries in both EN and LT staging files and completed status transitions in one pass.
+- Validation checks passed after updates (`approved` EN and LT, plus LT `enriched`).
+
+### What was harder than expected
+- A malformed EN staging JSON entry (`derealization`) blocked parsing and had to be corrected before QA processing.
+
+### Process friction
+- No quick script exists to list and diff only target-status entries with structured QA notes, so review relied on manual inspection.
+
+### Suggested improvement
+- Add a small helper script for QA workflow: list entries by status and apply approved/enriched+qaNote updates safely.
