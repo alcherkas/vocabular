@@ -36,3 +36,4 @@ Agents append one entry here **after each commit** and **after every irreversibl
 ---
 
 <!-- Agents append below this line -->
+[2025-07-17] [requirements-agent] [lt-vocab-app] [commit] [completed] [clear] [92%] Defined requirements for lt-vocab-app: 8 user stories, 21 acceptance criteria, 6 task stubs | doubts: session item count (10-15) is an estimate; may need tuning after implementation

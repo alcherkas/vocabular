@@ -71,3 +71,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Consider adding a `--dedup-against` flag to the validate command in the seeder instructions so production dedup is checked automatically during validation.
+## [2025-07-17] [requirements-agent] [lt-vocab-app]
+
+### What went well
+- Goal description and notes in GOALS.md were detailed and specific — made writing acceptance criteria straightforward.
+- ARCHITECTURE.md already documented the data model, JSON schema, and LT word structure, so requirements could reference concrete fields and files.
+
+### What was harder than expected
+- Deciding the right session size (10–15 items) required balancing the 5-minute constraint against spaced repetition needs — no prior data to calibrate against.
+
+### Process friction
+- None this iteration. Protocol was clear and all referenced docs existed.
+
+### Suggested improvement
+- None.

@@ -247,3 +247,93 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 - `test_loadInitialWords_emptyDatabase` — verifies words are inserted
 - `test_loadInitialWords_alreadyLoaded` — verifies no duplicates on second load
 - All tests pass with `xcodebuild test`
+
+---
+
+## lt-vocab-app Feature Tasks
+
+> These tasks implement the `lt-vocab-app` goal. See `docs/requirements/lt-vocab-app.md` for full requirements.
+
+### `lt-session-flow`
+**Status**: `[ ]`
+**Risk**: `medium`
+**Complexity**: `intermediate`
+**Description**: Implement session start screen with language picker and session orchestration (select language → load words → present flashcards/quiz → show summary).
+**Depends on**: `language-field`
+**Files to touch**: new `Vocab/Vocab/Views/SessionStartView.swift`, new `Vocab/Vocab/Views/SessionSummaryView.swift`, `Vocab/Vocab/Services/WordService.swift`, `Vocab/Vocab/ContentView.swift`
+**Acceptance criteria**:
+- Language picker (EN / LT) shown at session start
+- Selected language filters all session content
+- Session ends with summary (items reviewed, correct/incorrect)
+- Partial progress saved if session exited early
+
+---
+
+### `lt-spaced-rep-per-lang`
+**Status**: `[ ]`
+**Risk**: `high`
+**Complexity**: `high`
+**Description**: Extend spaced repetition to be per-language — each word tracks its own SR state; session word selection filters by language and prioritizes overdue words.
+**Depends on**: `spaced-rep`, `language-field`
+**Files to touch**: `Vocab/Vocab/Models/Word.swift`, `Vocab/Vocab/Services/SpacedRepetitionService.swift`
+**Acceptance criteria**:
+- Each word has independent SR state (next review date, ease factor)
+- Session selects overdue words for chosen language first, then new words
+- Skipping a language does not reset or penalize SR intervals
+- Overdue words capped per session (~10) to maintain 5-minute target
+
+---
+
+### `lt-quiz-modes`
+**Status**: `[ ]`
+**Risk**: `medium`
+**Complexity**: `intermediate`
+**Description**: Add Lithuanian-specific quiz modes (LT→EN translation, EN→LT translation) alongside existing EN definition-matching quiz.
+**Depends on**: `language-field`, `lt-vocab-initial`
+**Files to touch**: `Vocab/Vocab/Views/QuizView.swift`, possibly new `Vocab/Vocab/Services/QuizService.swift`
+**Acceptance criteria**:
+- EN quiz: term → definition and definition → term modes
+- LT quiz: LT term → EN translation and EN translation → LT term modes
+- Quiz mode auto-selected based on session language
+
+---
+
+### `lt-stats-per-lang`
+**Status**: `[ ]`
+**Risk**: `low`
+**Complexity**: `low`
+**Description**: Add per-language stats breakdown to StatsView and per-language field to QuizResult.
+**Depends on**: `language-field`
+**Files to touch**: `Vocab/Vocab/Views/StatsView.swift`, `Vocab/Vocab/Models/QuizResult.swift`
+**Acceptance criteria**:
+- QuizResult model has `language` field
+- StatsView shows per-language breakdown: words seen, words mastered, accuracy
+- Stats filterable by language (EN / LT / All)
+
+---
+
+### `lt-session-timer`
+**Status**: `[ ]`
+**Risk**: `medium`
+**Complexity**: `intermediate`
+**Description**: Implement session sizing logic — cap sessions at ~10–15 items with overdue-word prioritization and 5-minute target.
+**Depends on**: `lt-spaced-rep-per-lang`
+**Files to touch**: new `Vocab/Vocab/Services/SessionService.swift`
+**Acceptance criteria**:
+- Session selects 10–15 items max
+- Overdue words prioritized (most overdue first), remaining slots filled with new words
+- "All caught up" state when no overdue and no new words remain
+
+---
+
+### `lt-empty-states`
+**Status**: `[ ]`
+**Risk**: `low`
+**Complexity**: `low`
+**Description**: Handle all empty/edge states — no words loaded, no overdue words, all caught up, first-time user guidance.
+**Depends on**: `lt-session-flow`
+**Files to touch**: `Vocab/Vocab/Views/SessionStartView.swift`, `Vocab/Vocab/Views/StatsView.swift`, various Views
+**Acceptance criteria**:
+- Language option disabled with message if no words available for that language
+- "You're all caught up!" message when no words due and no new words
+- First-time user sees guidance to pick a language
