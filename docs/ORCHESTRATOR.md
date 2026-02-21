@@ -14,7 +14,31 @@ When the human says something like _"start the team"_ or _"run the agents"_:
 2. Read `docs/TASKS.md` — find unclaimed tasks.
 3. Determine the **agent roster** (see below).
 4. Spawn agents using the `task` tool with `mode: "background"`.
-5. Monitor, merge, and repeat.
+5. Monitor, merge, and repeat **indefinitely** — do NOT pause between cycles.
+
+## Terse Mode (Default)
+
+To maximize session length, minimize output. The context window is your scarcest resource.
+
+**Rules:**
+- Do NOT print full agent results. Only print a one-line status: `✅ agent-name — summary` or `❌ agent-name — error`
+- Do NOT print merge diff stats. Just: `merged: branch-name`
+- Do NOT print checkpoint summaries unless cycle % 10 == 0
+- Do NOT ask the user questions between cycles. Just keep going.
+- Save full details to `docs/audit-log.md` (append), not to terminal output
+- Suppress bash output: use `2>&1 | tail -1` or `--quiet` flags
+
+**Example terse cycle output:**
+```
+── Cycle 4 ──
+Spawned: lt-quiz-modes, lt-session-timer, lt-enricher-3, en-enricher-2
+✅ lt-quiz-modes — 3 quiz modes added
+✅ lt-session-timer — 5-min timer with countdown
+✅ lt-enricher-3 — 25 words enriched
+✅ en-enricher-2 — 15 words enriched
+Merged: 4 branches, 0 conflicts
+Tasks: 12 done / 11 remaining
+```
 
 ---
 
