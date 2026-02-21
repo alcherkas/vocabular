@@ -665,3 +665,17 @@ Selected 35 stubs covering jobs/professions and work/office vocabulary at A1/A2 
 - LT verb+object phrases in synonyms/relatedTerms frequently carry accusative `-ą` endings; prefer nominative noun phrases or bare infinitives.
 - Self-referential synonyms (e.g. "stellar nucleosynthesis", "atmospheric teleconnection") are a recurring pattern when an enrichment agent qualifies the headword rather than replacing it — validate before committing.
 - Multi-word headwords (e.g. "paso numeris") bypass the word-token self-ref check; they can still silently carry their constituent tokens in relations without triggering the validator.
+
+## Retro — seeder-en-8 · 100 English C1+ stubs
+
+**What went well**
+- Preflight confirmed exactly 730 entries in `words_staging.json`; zero duplicates found among the 100 candidates against existing terms and no internal duplicates.
+- Domain spread balanced across 8 target areas: linguistics/pragmatics (25), semiotics (17), cognitive linguistics (10), information theory (10), systems theory/complexity science/cybernetics (23), epistemology (15).
+- All stubs serialised in `{"term": …, "language": "en", "status": "stub"}` minimal format; JSON validated cleanly via `json.load` round-trip. Total grew 730 → 830.
+- Single-commit, single-file change; no merge required.
+
+**What to watch**
+- Several terms (e.g. `abduction`, `accommodation`, `grounding`) are polysemous — enrichment should pin the domain-specific sense (Peircean, pragmatic, cognitive-linguistic respectively) to avoid ambiguity.
+- Terms borrowed from formal logic/philosophy (alethic, doxastic, deflationism) may need register tags (`academic`/`technical`) and example sentences from specialist literature during enrichment.
+- `codeswitching` is often hyphenated or spaced in the literature; normalise to one-word form at enrichment time.
+- Pairs like signifier/signified, denotation/connotation, internalism/externalism share tight semantic relations — add explicit `relatedTerms` cross-links during enrichment to aid learner navigation.
