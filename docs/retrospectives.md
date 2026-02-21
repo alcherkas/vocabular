@@ -3303,3 +3303,41 @@ JSON preflight passed. 705 stubs available before session.
 ### Doubts / meta-notes
 - Confidence: 94%. Some EN synonyms for very domain-specific film/architecture terms are descriptive near-equivalents rather than fully established co-extensive technical terms (e.g. `Doric square`/`frieze panel` for `metope`; `channeling`/`cannelure` for `fluting`). QA should verify these.
 - `spectacle` antonym `narrative` is context-specific (Mulvey's film theory dichotomy), not a general-language antonym; this is correctly scoped to the defined sense.
+## Session: enricher-lt-47 — Emotions & psychology vocabulary enrichment (B1/B2)
+
+**Date**: 2025-07-27
+**Agent role**: Enricher (Lithuanian)
+**Branch**: `vocab/enricher-lt-47`
+
+### What was done
+- Read `docs/VOCAB-AGENT.md` for protocol.
+- Preflighted `words_lt_staging.json` — valid JSON (635 stubs present).
+- Selected and enriched 35 stubs from the staging file covering emotions, moods, mental states, personality, and relationships (B1/B2 level).
+- All `term` values are lowercase; no proper nouns included.
+- Ran `python3 scripts/validate_words.py --errors-for enriched` — PASSED (0 errors in `enriched` batch; 98 pre-existing warnings in `approved` entries are out of scope).
+- Committed: `vocab(enricher-lt-47): enrich 35 Lithuanian stubs`.
+
+### Coverage
+| Category | Terms |
+|---|---|
+| Emotional interactions | susitaiko, susitaikė (reconcile); atleidžia, atleido (forgive); gerbia, gerbė (respect) |
+| Social expressions | linki, linkėjo (wish); sveikina, sveikino (congratulate); dovanoja, dovanojo (give a gift) |
+| Marriage & family | tuokiasi, tuokėsi; tekėti, teka, tekėjo; vesti, veda, vedė; jaunoji, jaunasis |
+| Godparent relations | krikšto mama, krikšto tėvas, krikšto sūnus, krikšto duktė |
+| Celebrations | vardo diena, gimimo diena |
+| Cultural/symbolic | rūta (rue plant — wedding symbol), kapas (grave — mourning) |
+| Personality traits | patogus, nepatogus, atsargus, neatsargus |
+| Wellbeing | sektis |
+
+### Quality decisions
+- Conjugated verb forms (present/past 3rd person) treated as separate stubs with their own meanings and examples.
+- Multi-word terms (krikšto mama, krikšto tėvas, etc.) assigned `partOfSpeech: "phrase"`.
+- `patogus` and `nepatogus` given two senses each: physical comfort and social/emotional comfort.
+- `atsargus` given two senses: cautious behaviour and careful social manner.
+- `rūta` and `kapas` included because they carry significant emotional/cultural weight in Lithuanian cultural vocabulary.
+- `register` kept as `general` throughout — all terms are everyday B1/B2 vocabulary.
+
+### Doubts / meta-notes
+- Confidence: 97%. All terms are standard B1/B2 Lithuanian vocabulary verified against common usage.
+- The conjugated-form stubs (susitaiko/susitaikė etc.) are stored as separate entries in the staging file; enriched each independently with appropriate past/present framing in definitions and examples.
+- 600 stubs remain for subsequent sessions.
