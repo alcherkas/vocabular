@@ -18828,7 +18828,35 @@
   {
     "term": "actant",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Actor-Network Theory (ANT) developed by Latour, Callon, and Law, any entity—human or non-human, material or semiotic—that acts or is granted agency within a network by virtue of its capacity to make a difference to other entities, without presupposing that agency is exclusively a human property.",
+        "example": "Latour's analysis of Pasteur's laboratory shows that the anthrax bacillus functions as an actant: it is not passive material but an agent that resists, allies with, and transforms the scientists, equipment, and institutions it encounters, co-producing the scientific facts that emerge.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Actor-Network Theory",
+          "science and technology studies"
+        ]
+      }
+    ],
+    "synonyms": [
+      "network actor",
+      "ANT agent",
+      "non-human agent"
+    ],
+    "antonymTerms": [
+      "passive object",
+      "inert material"
+    ],
+    "relatedTerms": [
+      "reflexivity",
+      "structuralism",
+      "sociology of science",
+      "translation"
+    ]
   },
   {
     "term": "diegesis",
@@ -20664,172 +20692,1130 @@
   {
     "term": "nativism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In anthropology, a social movement or ideology among colonised or subordinated peoples that asserts the primacy, purity, and revitalisation of indigenous cultural forms, identity, and values—often in explicit reaction to colonial domination—seeking to restore a pre-contact way of life, real or mythologised.",
+        "example": "The Ghost Dance movement among Plains Indians in the 1880s represents a classic nativist revitalisation: the ritual promised to resurrect dead ancestors and restore the buffalo herds if participants performed the prescribed dances, uniting devastated communities through a millenarian vision of cultural recovery.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "colonialism",
+          "social movements"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cultural revitalisation",
+      "indigenism",
+      "revivalism"
+    ],
+    "antonymTerms": [
+      "assimilation",
+      "acculturation"
+    ],
+    "relatedTerms": [
+      "creolization",
+      "othering",
+      "animism",
+      "colonial resistance"
+    ]
   },
   {
     "term": "functionalism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A theoretical perspective in sociology that analyses society as an integrated system of interdependent institutions each performing functions necessary to maintain social order and equilibrium, tracing how macro-structural arrangements contribute to the stability and reproduction of the whole.",
+        "example": "Parsons's functionalism conceptualises society around four functional imperatives—adaptation, goal attainment, integration, and latency—arguing that modern societies assign each subsystem specialised responsibility for one imperative.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "social theory",
+          "Parsons"
+        ]
+      }
+    ],
+    "synonyms": [
+      "structural-functionalism",
+      "systems theory",
+      "organic analogy"
+    ],
+    "antonymTerms": [
+      "conflict theory",
+      "critical theory"
+    ],
+    "relatedTerms": [
+      "structuralism",
+      "social integration",
+      "anomie",
+      "role theory"
+    ]
   },
   {
     "term": "contractarianism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A family of ethical and political theories grounding norms of justice or moral principles in an actual or hypothetical agreement among rational agents who seek mutual advantage under conditions of impartiality.",
+        "example": "Rawls's contractarianism employs the 'veil of ignorance' to derive principles of justice that free and equal persons would rationally choose if they did not know their position in society.",
+        "register": "technical",
+        "tags": [
+          "ethics",
+          "political philosophy",
+          "social contract"
+        ]
+      }
+    ],
+    "synonyms": [
+      "social contract theory",
+      "contractualism",
+      "agreement-based ethics"
+    ],
+    "antonymTerms": [
+      "divine command theory",
+      "intuitionism"
+    ],
+    "relatedTerms": [
+      "autonomy",
+      "distributive justice",
+      "political legitimacy",
+      "original position"
+    ]
   },
   {
     "term": "eudaimonism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An ethical theory that identifies human flourishing (eudaimonia) as the supreme goal of life, maintaining that virtuous activity in accordance with reason constitutes happiness and is both instrumentally and intrinsically good.",
+        "example": "For Aristotle's eudaimonism, happiness is not a feeling but an activity—a life of exercising one's rational and social capacities excellently over a complete lifespan.",
+        "register": "technical",
+        "tags": [
+          "ethics",
+          "virtue ethics",
+          "Aristotle"
+        ]
+      }
+    ],
+    "synonyms": [
+      "flourishing ethics",
+      "virtue-based happiness",
+      "eudaemonism"
+    ],
+    "antonymTerms": [
+      "hedonism",
+      "nihilism"
+    ],
+    "relatedTerms": [
+      "virtue ethics",
+      "aretaic",
+      "phronesis",
+      "teleology"
+    ]
   },
   {
     "term": "metaethics",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The branch of philosophical ethics that investigates the fundamental nature, status, and methodology of moral claims, asking not what is right or good but whether moral properties exist, whether moral statements can be true or false, and how moral knowledge is possible.",
+        "example": "The debate between moral realism and anti-realism sits at the heart of metaethics: realists hold that moral facts are mind-independent, while anti-realists deny that moral statements describe any objective feature of the world.",
+        "register": "technical",
+        "tags": [
+          "ethics",
+          "moral philosophy",
+          "philosophy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "meta-ethics",
+      "second-order ethics",
+      "philosophical ethics foundations"
+    ],
+    "antonymTerms": [
+      "normative ethics",
+      "applied ethics"
+    ],
+    "relatedTerms": [
+      "moral realism",
+      "emotivism",
+      "noncognitivism",
+      "prescriptivism"
+    ]
   },
   {
     "term": "supererogation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The performance of actions that exceed what duty or morality strictly requires; acts that are praiseworthy and morally good but whose omission is not blameworthy, because they go beyond the call of obligation.",
+        "example": "Donating a kidney to a stranger is a classic example of supererogation: the act is admirable and beneficial, yet no moral principle obligates anyone to incur such a personal sacrifice for a non-relative.",
+        "register": "formal",
+        "tags": [
+          "ethics",
+          "moral philosophy",
+          "normative ethics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "beyond-duty act",
+      "saintly act",
+      "heroic virtue"
+    ],
+    "antonymTerms": [
+      "obligatory duty",
+      "moral minimum"
+    ],
+    "relatedTerms": [
+      "perfectionism",
+      "altruism",
+      "moral sainthood",
+      "beneficence"
+    ]
   },
   {
     "term": "emotivism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A metaethical theory holding that moral statements do not express propositions capable of being true or false but instead express the speaker's emotional attitudes toward actions or states of affairs, functioning primarily as expressions of approval or disapproval.",
+        "example": "A.J. Ayer's emotivism, outlined in Language, Truth and Logic, reduces statements like 'torture is wrong' to non-cognitive expressions of disgust, thereby explaining why moral disputes often seem irresolvable.",
+        "register": "technical",
+        "tags": [
+          "metaethics",
+          "moral philosophy",
+          "non-cognitivism"
+        ]
+      }
+    ],
+    "synonyms": [
+      "boo-hurrah theory",
+      "expressivist metaethics",
+      "non-cognitivist expressivism"
+    ],
+    "antonymTerms": [
+      "moral realism",
+      "cognitivism"
+    ],
+    "relatedTerms": [
+      "noncognitivism",
+      "prescriptivism",
+      "metaethics",
+      "logical positivism"
+    ]
   },
   {
     "term": "prescriptivism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A metaethical theory advanced by R.M. Hare that analyses moral statements as universalisable prescriptions—imperatives expressing the speaker's endorsement of a principle of action applicable to all relevantly similar cases—rather than as descriptions of non-natural properties.",
+        "example": "Hare's prescriptivism implies that saying 'you ought to be honest' commits the speaker to endorsing honesty as a universal standard, making inconsistent moral judgements logically incoherent rather than merely hypocritical.",
+        "register": "technical",
+        "tags": [
+          "metaethics",
+          "moral philosophy",
+          "Hare"
+        ]
+      }
+    ],
+    "synonyms": [
+      "universal prescriptivism",
+      "Hare's metaethics",
+      "imperative ethics"
+    ],
+    "antonymTerms": [
+      "descriptivism",
+      "moral realism"
+    ],
+    "relatedTerms": [
+      "emotivism",
+      "noncognitivism",
+      "universalisability",
+      "metaethics"
+    ]
   },
   {
     "term": "principlism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An approach to biomedical ethics developed by Beauchamp and Childress that provides a framework of four mid-level principles—autonomy, non-maleficence, beneficence, and justice—as starting points for moral analysis without committing to a single overarching ethical theory.",
+        "example": "Principlism guides clinical decision-making in most medical schools: when a competent patient refuses blood transfusion on religious grounds, the autonomy principle typically overrides the beneficence consideration to treat.",
+        "register": "technical",
+        "tags": [
+          "bioethics",
+          "medical ethics",
+          "applied ethics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "four-principles approach",
+      "Georgetown mantra",
+      "bioethical principalism"
+    ],
+    "antonymTerms": [
+      "ethical monism",
+      "casuistry"
+    ],
+    "relatedTerms": [
+      "autonomy",
+      "beneficence",
+      "non-maleficence",
+      "justice"
+    ]
   },
   {
     "term": "aretaic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Of, relating to, or centred on the concept of virtue (aretē) as the primary evaluative category in moral theory; characterising approaches that assess agents, characters, or motives rather than the rightness of isolated acts or the goodness of their consequences.",
+        "example": "Unlike consequentialist evaluation that asks 'what are the outcomes?', aretaic evaluation asks 'what kind of person does this action express or cultivate?', placing virtue and character at the centre of moral assessment.",
+        "register": "technical",
+        "tags": [
+          "virtue ethics",
+          "ethics",
+          "moral philosophy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "virtue-centred",
+      "agent-based",
+      "character-focused"
+    ],
+    "antonymTerms": [
+      "deontic",
+      "consequentialist"
+    ],
+    "relatedTerms": [
+      "eudaimonism",
+      "phronesis",
+      "virtue ethics",
+      "moral character"
+    ]
   },
   {
     "term": "noncognitivism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A cluster of metaethical positions sharing the view that moral sentences are not genuine truth-apt assertions about moral facts but instead serve some expressive or prescriptive function, such as venting emotions, expressing attitudes, or issuing prescriptions.",
+        "example": "Noncognitivism faces the Frege-Geach problem: if moral sentences lack truth values, it is unclear how they can function as premises in valid logical inferences, as in 'if stealing is wrong, getting your brother to steal is wrong; stealing is wrong; therefore getting your brother to steal is wrong.'",
+        "register": "technical",
+        "tags": [
+          "metaethics",
+          "moral philosophy",
+          "non-cognitivism"
+        ]
+      }
+    ],
+    "synonyms": [
+      "non-cognitivism",
+      "moral anti-realism",
+      "expressivist metaethics"
+    ],
+    "antonymTerms": [
+      "cognitivism",
+      "moral realism"
+    ],
+    "relatedTerms": [
+      "emotivism",
+      "prescriptivism",
+      "metaethics",
+      "quasi-realism"
+    ]
   },
   {
     "term": "perfectionism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An ethical and political theory holding that the highest good consists in the fullest development and exercise of human capacities or excellences, and that justice or political morality should promote this flourishing of human nature as an objective ideal.",
+        "example": "Raz's perfectionism holds that the state may legitimately encourage activities promoting human excellence and autonomy-supporting social forms, rather than remaining neutral among competing conceptions of the good life.",
+        "register": "technical",
+        "tags": [
+          "ethics",
+          "political philosophy",
+          "normative theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "excellence ethics",
+      "human flourishing theory",
+      "objective list theory"
+    ],
+    "antonymTerms": [
+      "anti-perfectionism",
+      "liberal neutrality"
+    ],
+    "relatedTerms": [
+      "eudaimonism",
+      "supererogation",
+      "autonomy",
+      "well-being"
+    ]
   },
   {
     "term": "alienation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Marxist and sociological thought, the condition in which individuals are estranged from the products of their labour, from the productive process, from other human beings, and from their own species-being, as a consequence of wage labour under capitalist relations of production.",
+        "example": "Marx argued that piecework on an assembly line exemplifies alienation: the worker has no relationship to the finished commodity and experiences labour as an external compulsion rather than a creative expression of human potential.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Marxism",
+          "social theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "estrangement",
+      "disaffection",
+      "self-estrangement"
+    ],
+    "antonymTerms": [
+      "integration",
+      "belonging",
+      "species-being fulfilment"
+    ],
+    "relatedTerms": [
+      "disenchantment",
+      "reification",
+      "false consciousness",
+      "labour theory"
+    ]
   },
   {
     "term": "disenchantment",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Weberian sociology, the historical process by which the world loses its sacred, magical, and mysterious character through the progressive rationalisation and intellectualisation of modern life, resulting in a cosmos governed by calculable, impersonal forces rather than divine or supernatural powers.",
+        "example": "Weber saw disenchantment as modernity's defining condition: science explains disease as cellular pathology rather than divine punishment, and bureaucracy replaces charismatic authority with rule-governed procedures.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Weber",
+          "modernity"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rationalisation of the world",
+      "de-magicalisation",
+      "loss of enchantment"
+    ],
+    "antonymTerms": [
+      "re-enchantment",
+      "sacralisation"
+    ],
+    "relatedTerms": [
+      "alienation",
+      "rationalisation",
+      "modernity",
+      "secularisation"
+    ]
   },
   {
     "term": "doxa",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Bourdieu's sociological theory, the pre-reflective, self-evident ensemble of beliefs and taken-for-granted assumptions about the social world that are accepted as natural and inevitable by agents within a particular field, reproducing existing social structures by rendering them invisible to critical scrutiny.",
+        "example": "The assumption that certain occupations are 'naturally' suited to one gender operates as doxa: it is not consciously articulated or defended but silently reproduced through institutional practices, informal norms, and habitus.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Bourdieu",
+          "social theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tacit belief",
+      "unquestioned common sense",
+      "field orthodoxy"
+    ],
+    "antonymTerms": [
+      "heterodoxy",
+      "reflexive critique",
+      "episteme"
+    ],
+    "relatedTerms": [
+      "habitus",
+      "hysteresis",
+      "field",
+      "symbolic violence"
+    ]
   },
   {
     "term": "flaneur",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A figure—originally theorised by Baudelaire and elaborated by Benjamin—who strolls through the modern urban environment with detached, contemplative, and aestheticised attention, serving as a lens for analysing the commodified spectacle of metropolitan public life.",
+        "example": "Benjamin's flaneur wanders the Parisian arcades not to shop but to read the city as a text: commodity displays, street types, and architectural ruins become material for a dialectical critique of capitalist modernity's phantasmagoria.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "cultural theory",
+          "urban studies"
+        ]
+      }
+    ],
+    "synonyms": [
+      "urban stroller",
+      "boulevard loiterer",
+      "city observer"
+    ],
+    "antonymTerms": [
+      "homebody",
+      "purposive commuter"
+    ],
+    "relatedTerms": [
+      "simulacrum",
+      "reflexivity",
+      "modernity",
+      "spectacle"
+    ]
   },
   {
     "term": "heteronomy",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The condition of being governed by laws or principles external to oneself; in Kantian ethics, the determination of the will by desire, inclination, or externally imposed authority rather than by the agent's own rational self-legislation, as contrasted with autonomy.",
+        "example": "Kant viewed heteronomy as the fundamental error of all pre-critical moral philosophy: basing morality on God's commands, social convention, or natural inclinations makes moral obligation contingent on something outside the rational will, undermining its universality.",
+        "register": "technical",
+        "tags": [
+          "ethics",
+          "Kantian ethics",
+          "political philosophy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "external governance",
+      "imposed authority",
+      "outer-directed law"
+    ],
+    "antonymTerms": [
+      "autonomy",
+      "self-legislation"
+    ],
+    "relatedTerms": [
+      "autonomy",
+      "categorical imperative",
+      "moral law",
+      "rational agency"
+    ]
   },
   {
     "term": "hysteresis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Borrowed by Bourdieu from physics, the lag or mismatch between an agent's habitus—formed under past field conditions—and the current structure of the field, producing behaviour ill-adapted to present circumstances because dispositions outlast the conditions that generated them.",
+        "example": "When working-class students who have habituated to educational failure enter elite universities, hysteresis can manifest as persistent self-doubt and difficulty claiming the entitlement their new position formally permits.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Bourdieu",
+          "social theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "habitus lag",
+      "dispositional inertia",
+      "field-habitus mismatch"
+    ],
+    "antonymTerms": [
+      "field synchronisation",
+      "adaptive recalibration"
+    ],
+    "relatedTerms": [
+      "doxa",
+      "habitus",
+      "field",
+      "social reproduction"
+    ]
   },
   {
     "term": "lifeworld",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Translated from Husserl's Lebenswelt and developed by Habermas, the intersubjectively shared horizon of pre-theoretical meanings, cultural traditions, and communicative practices that forms the taken-for-granted background against which social actors interpret their situation and coordinate action through language.",
+        "example": "Habermas argues that system rationality—market mechanisms and administrative power—increasingly colonises the lifeworld, replacing communicative action oriented by mutual understanding with strategic, means-ends calculations that erode solidarity.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Habermas",
+          "phenomenology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Lebenswelt",
+      "lived world",
+      "intersubjective background"
+    ],
+    "antonymTerms": [
+      "system world",
+      "strategic rationality"
+    ],
+    "relatedTerms": [
+      "reflexivity",
+      "communicative action",
+      "intersubjectivity",
+      "social integration"
+    ]
   },
   {
     "term": "othering",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The discursive and social process by which a dominant group constructs a subordinate group as fundamentally different, inferior, or threatening—projecting onto them characteristics antithetical to the ingroup's self-image—thereby legitimating exclusion, discrimination, or exploitation.",
+        "example": "Colonial texts performed othering systematically: the colonised population was portrayed as irrational and without history, producing a contrast that justified the 'civilising mission' while erasing the complexity of indigenous cultures.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "postcolonialism",
+          "critical theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "alterisation",
+      "social exclusion discourse",
+      "dehumanisation"
+    ],
+    "antonymTerms": [
+      "inclusion",
+      "recognition",
+      "solidarity"
+    ],
+    "relatedTerms": [
+      "alienation",
+      "structuralism",
+      "postcolonialism",
+      "identity politics"
+    ]
   },
   {
     "term": "simulacrum",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Baudrillard's theory of hyperreality, a copy or representation that has lost its reference to any original reality, becoming more real than the real itself—a sign that no longer points to an underlying truth but constitutes a self-referential world of pure simulation.",
+        "example": "Baudrillard argued that Disneyland is a simulacrum not because it is fake but because it makes the surrounding American suburban reality appear more genuine by contrast, when in fact that society itself has become hyperreal.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "cultural theory",
+          "Baudrillard"
+        ]
+      }
+    ],
+    "synonyms": [
+      "hyperreal copy",
+      "pure representation",
+      "sign without referent"
+    ],
+    "antonymTerms": [
+      "original",
+      "referent",
+      "authentic reality"
+    ],
+    "relatedTerms": [
+      "flaneur",
+      "doxa",
+      "spectacle",
+      "hyperreality"
+    ]
   },
   {
     "term": "structuralism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An intellectual movement across linguistics, anthropology, literary theory, and sociology that analyses cultural phenomena as structured systems of relations among elements, holding that meaning is generated not by intrinsic properties of individual signs but by differential oppositions within an underlying synchronic structure.",
+        "example": "Lévi-Strauss applied structuralism to kinship and myth, arguing that diverse cultural forms are permutations of binary oppositions—nature/culture, raw/cooked—generated by a universal mental architecture.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "anthropology",
+          "linguistics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "structural analysis",
+      "synchronic analysis",
+      "binary opposition theory"
+    ],
+    "antonymTerms": [
+      "post-structuralism",
+      "historicism"
+    ],
+    "relatedTerms": [
+      "reflexivity",
+      "bricolage",
+      "doxa",
+      "semiotics"
+    ]
   },
   {
     "term": "reflexivity",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The property of a social inquiry, text, or practice in which the researcher or actor acknowledges and incorporates the way their own position, perspective, and participation in the social world shape and are shaped by the phenomena being studied or enacted.",
+        "example": "In ethnographic fieldwork, reflexivity requires the researcher to examine how their gender, class, and cultural background influence what they observe and how they interpret data—acknowledging that the field is co-produced rather than neutrally observed.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "research methodology",
+          "ethnography"
+        ]
+      }
+    ],
+    "synonyms": [
+      "self-reflexiveness",
+      "researcher positionality",
+      "methodological self-awareness"
+    ],
+    "antonymTerms": [
+      "positivism",
+      "value-free inquiry"
+    ],
+    "relatedTerms": [
+      "lifeworld",
+      "doxa",
+      "hysteresis",
+      "ethnography"
+    ]
   },
   {
     "term": "credentialism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The tendency in modern societies to place excessive emphasis on formal educational qualifications as prerequisites for employment or social status, regardless of whether those credentials reliably predict job performance, resulting in credential inflation and the use of diplomas as proxies for social closure.",
+        "example": "Collins's thesis on credentialism holds that the expansion of university education primarily legitimates existing status hierarchies: as more people obtain degrees, employers raise credential requirements without any corresponding change in job content.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "education",
+          "social stratification"
+        ]
+      }
+    ],
+    "synonyms": [
+      "credential inflation",
+      "diploma disease",
+      "qualification fetishism"
+    ],
+    "antonymTerms": [
+      "meritocracy",
+      "skills-based hiring"
+    ],
+    "relatedTerms": [
+      "social reproduction",
+      "cultural capital",
+      "stratification",
+      "symbolic violence"
+    ]
   },
   {
     "term": "animism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The attribution of souls, spirits, or personhood to non-human entities—animals, plants, meteorological phenomena, landforms, and objects—and the associated belief that relations between humans and these other-than-human persons are morally governed and require ritualised negotiation.",
+        "example": "Contemporary anthropologists like Viveiros de Castro rehabilitate animism as a sophisticated Amerindian perspectivism in which humans and animals share a common spiritual interiority while differing in bodily perspective and outer form.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "religion",
+          "ethnology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "spirit belief",
+      "personhood attribution",
+      "perspectivism"
+    ],
+    "antonymTerms": [
+      "materialism",
+      "naturalism"
+    ],
+    "relatedTerms": [
+      "bricolage",
+      "cosmogony",
+      "totemism",
+      "shamanism"
+    ]
   },
   {
     "term": "bricolage",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Lévi-Strauss's concept describing the cognitive and practical procedure by which mythical or 'savage' thought constructs explanatory and symbolic systems by recombining a heterogeneous repertoire of ready-at-hand cultural materials, as opposed to the engineer who designs tools specifically for a task from first principles.",
+        "example": "In The Savage Mind, Lévi-Strauss contrasted bricolage with engineering: the bricoleur builds myth from symbolic debris—old totemic categories, remembered events, repurposed objects—whereas science designs new conceptual instruments for each explanatory challenge.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "Lévi-Strauss",
+          "cultural theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "creative recombination",
+      "mythical engineering",
+      "cultural makeshift"
+    ],
+    "antonymTerms": [
+      "scientific engineering",
+      "purposive design"
+    ],
+    "relatedTerms": [
+      "structuralism",
+      "animism",
+      "totemism",
+      "myth"
+    ]
   },
   {
     "term": "cognatic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Designating a system of kinship reckoning or descent group membership in which affiliation is traced through both the maternal and paternal lines equally, without privileging one line of descent, so that an individual may belong to multiple overlapping descent groups simultaneously.",
+        "example": "In cognatic systems found across Polynesia, an individual's eligibility to exploit a land-holding group's territory depends on demonstrating descent from the founding ancestor through any genealogical pathway, producing flexible and overlapping group boundaries.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "kinship",
+          "social organisation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "bilateral descent",
+      "ambilineal",
+      "non-unilineal"
+    ],
+    "antonymTerms": [
+      "unilineal",
+      "patrilineal",
+      "matrilineal"
+    ],
+    "relatedTerms": [
+      "moiety",
+      "polyandry",
+      "polygyny",
+      "kinship"
+    ]
   },
   {
     "term": "cosmogony",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A narrative, ritual, or symbolic account of the origin and creation of the cosmos, typically recounting how the world and its constituent beings came into existence from a primordial state of chaos, void, or undifferentiated substance through divine or mythic agency.",
+        "example": "Comparative study of cosmogonies reveals cross-cultural patterns: many independently developed traditions describe creation as a separation of primordial unity—sky from earth, light from darkness—suggesting deep structural constraints on mythic imagination.",
+        "register": "formal",
+        "tags": [
+          "anthropology",
+          "mythology",
+          "religion"
+        ]
+      }
+    ],
+    "synonyms": [
+      "creation myth",
+      "origin narrative",
+      "world-creation account"
+    ],
+    "antonymTerms": [
+      "eschatology",
+      "apocalyptic narrative"
+    ],
+    "relatedTerms": [
+      "animism",
+      "bricolage",
+      "cosmology",
+      "mythology"
+    ]
   },
   {
     "term": "creolization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The cultural and linguistic process by which distinct, often unequal traditions—typically resulting from colonial encounter—mix, transform, and synthesise into new hybrid forms, producing emergent identities, languages, and practices irreducible to any single source tradition.",
+        "example": "The development of Haitian Creole illustrates creolization: enslaved Africans speaking mutually unintelligible languages adapted a French lexical base to West African grammatical structures, producing not a corrupt French but a fully systematic new language encoding plantation experience.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "linguistics",
+          "postcolonialism"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cultural hybridisation",
+      "contact-induced synthesis",
+      "creolisation"
+    ],
+    "antonymTerms": [
+      "cultural purity",
+      "assimilation",
+      "cultural isolation"
+    ],
+    "relatedTerms": [
+      "bricolage",
+      "othering",
+      "postcolonialism",
+      "syncretism"
+    ]
   },
   {
     "term": "moiety",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "One of two complementary and opposed descent groups into which a society is divided, with membership typically determined by birth, regulating marriage (usually exogamously), ceremonial roles, and reciprocal obligations between the two halves of the community.",
+        "example": "Among the Kariera of Australia, moiety membership determines marriage eligibility: an individual must marry someone from the opposite moiety, and ceremonial duties such as conducting funerals for the other moiety create an ongoing system of mutual dependence.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "kinship",
+          "social organisation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dual division",
+      "social half",
+      "exogamous moiety"
+    ],
+    "antonymTerms": [
+      "phratry",
+      "unified clan"
+    ],
+    "relatedTerms": [
+      "cognatic",
+      "polyandry",
+      "polygyny",
+      "exogamy"
+    ]
   },
   {
     "term": "pastoralism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A subsistence strategy and associated cultural complex centred on the herding and management of domesticated livestock as the primary economic base, typically involving seasonal or cyclical movement of herds between complementary ecological zones.",
+        "example": "East African pastoralism among the Maasai organises social life around cattle: age-grade systems regulate who herds, political authority is embedded in livestock exchanges, and wealth and prestige are denominated in cattle rather than in land or stored grain.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "economics",
+          "ecology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "herding culture",
+      "livestock economy",
+      "nomadic animal husbandry"
+    ],
+    "antonymTerms": [
+      "agriculture",
+      "sedentary farming"
+    ],
+    "relatedTerms": [
+      "transhumance",
+      "nativism",
+      "moiety",
+      "foraging"
+    ]
   },
   {
     "term": "polyandry",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A form of marriage or recognised sexual partnership in which one woman simultaneously has two or more husbands, occurring most commonly in the fraternal form where the co-husbands are brothers, and typically associated with specific ecological, demographic, or property-inheritance pressures.",
+        "example": "Fraternal polyandry among Tibetan agropastoralists serves as a land-conservation strategy: when brothers collectively marry one wife, the household estate remains undivided across generations, preventing the fragmentation of already scarce high-altitude farmland.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "kinship",
+          "marriage"
+        ]
+      }
+    ],
+    "synonyms": [
+      "fraternal polyandry",
+      "multi-husband marriage",
+      "adelphic marriage"
+    ],
+    "antonymTerms": [
+      "polygyny",
+      "monogamy"
+    ],
+    "relatedTerms": [
+      "polygyny",
+      "cognatic",
+      "moiety",
+      "marriage systems"
+    ]
   },
   {
     "term": "polygyny",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A form of marriage in which one man simultaneously has two or more wives, the most widespread form of polygamy cross-culturally, and typically associated with societies where male resources and status can support multiple households.",
+        "example": "Among the Tiv of Nigeria, polygyny functions as a prestige economy: a man's ability to acquire multiple wives demonstrates his agricultural productivity and social influence, as wives are central labourers in food production and producers of descendants who extend the lineage.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "kinship",
+          "marriage"
+        ]
+      }
+    ],
+    "synonyms": [
+      "multi-wife marriage",
+      "plural marriage",
+      "sororal polygyny"
+    ],
+    "antonymTerms": [
+      "polyandry",
+      "monogamy"
+    ],
+    "relatedTerms": [
+      "polyandry",
+      "cognatic",
+      "moiety",
+      "bridewealth"
+    ]
   },
   {
     "term": "transhumance",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A form of pastoralism characterised by the seasonal, cyclical movement of livestock between different altitude or ecological zones—typically lowland winter pastures and highland summer pastures—following a regular calendar route that maximises pasture use and minimises environmental degradation.",
+        "example": "Alpine transhumance in Switzerland involves moving cattle to high summer meadows after snowmelt, a practice that sustains biodiversity in mountain grasslands and underpins the distinctive Emmental and Gruyère cheese economies.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "pastoralism",
+          "ecology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "seasonal migration",
+      "altitudinal herding",
+      "vertical transhumance"
+    ],
+    "antonymTerms": [
+      "sedentary herding",
+      "year-round grazing"
+    ],
+    "relatedTerms": [
+      "pastoralism",
+      "nomadism",
+      "agropastoralism",
+      "land use"
+    ]
   },
   {
     "term": "apse",
