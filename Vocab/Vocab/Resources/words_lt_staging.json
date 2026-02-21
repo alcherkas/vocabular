@@ -23870,7 +23870,7 @@
     "term": "dušas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vonios kambario įrenginys, teikiantis vandens srovę kūnui nuplauti.",
@@ -23885,14 +23885,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vonia",
+      "rankšluostis",
+      "muilas"
+    ],
     "translation": "shower"
   },
   {
     "term": "rankšluostis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Audinys, naudojamas kūnui ar rankoms nusausinti po dušo arba maudymosi.",
@@ -23917,7 +23921,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dušas",
+      "vonia",
+      "muilas"
+    ],
     "translation": "towel"
   },
   {
@@ -23946,7 +23954,7 @@
     "term": "muilas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Valymo priemonė rankoms ar kūnui plauti.",
@@ -23961,14 +23969,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šampūnas",
+      "rankšluostis",
+      "dušas"
+    ],
     "translation": "soap"
   },
   {
     "term": "šampūnas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Skystoji priemonė plaukams plauti ir prižiūrėti.",
@@ -23983,7 +23995,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "muilas",
+      "kondicionierius",
+      "plaukai"
+    ],
     "translation": "shampoo"
   },
   {
@@ -24240,7 +24256,7 @@
     "term": "oro kondicionierius",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Prietaisas, reguliuojantis kambario oro temperatūrą ir drėgmę.",
@@ -24262,9 +24278,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kondicionierius"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šildymas",
+      "ventiliacija",
+      "temperatūra"
+    ],
     "translation": "air conditioner"
   },
   {
@@ -26334,7 +26356,7 @@
     "term": "lietingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pasižymintis dažnais ar stipriais lietumis; daug kritulių turintis.",
@@ -26348,9 +26370,7 @@
         ]
       }
     ],
-    "synonyms": [
-      "drėgnas"
-    ],
+    "synonyms": [],
     "antonymTerms": [
       "sausas"
     ],
@@ -26939,7 +26959,7 @@
     "term": "pasimatuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Apsivilkti drabužį ar apsiausti batus parduotuvėje, norint patikrinti, ar tinka",
@@ -26952,9 +26972,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "matuotis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "apsivilkti",
+      "nusirengti",
+      "dydis"
+    ],
     "translation": "to try on"
   },
   {
@@ -26983,7 +27009,7 @@
     "term": "parodyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Leisti pamatyti; demonstruoti prekę ar informaciją",
@@ -27005,9 +27031,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "demonstruoti"
+    ],
+    "antonymTerms": [
+      "paslėpti"
+    ],
+    "relatedTerms": [
+      "rodyti",
+      "paaiškinti",
+      "nurodyti"
+    ],
     "translation": "to show"
   },
   {
@@ -27036,7 +27070,7 @@
     "term": "tikti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Būti tinkamo dydžio ar formos; derėti",
@@ -27058,9 +27092,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "derėti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tinkamas",
+      "dydis",
+      "priimtinas"
+    ],
     "translation": "to fit"
   },
   {
@@ -27089,7 +27129,7 @@
     "term": "patarti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Suteikti rekomendaciją ar patarimą; pasiūlyti geresnį sprendimą",
@@ -27112,9 +27152,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "rekomenduoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "patarimas",
+      "konsultuoti",
+      "patarėjas",
+      "siūlyti"
+    ],
     "translation": "to advise"
   },
   {
@@ -27209,7 +27256,7 @@
     "term": "dydis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Drabužio ar avalynės standartas, nurodantis tinkamą matmenį",
@@ -27233,14 +27280,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "matmuo",
+      "formatas",
+      "numeris",
+      "matuoti"
+    ],
     "translation": "size"
   },
   {
     "term": "madingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atitinkantis dabartinę madą; populiarus tarp pirkėjų",
@@ -27253,9 +27305,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "stilingas"
+    ],
+    "antonymTerms": [
+      "pasenęs"
+    ],
+    "relatedTerms": [
+      "mada",
+      "stilius",
+      "naujoviškas",
+      "sezonas"
+    ],
     "translation": "fashionable"
   },
   {
@@ -27991,10 +28052,10 @@
     "translation": null
   },
   {
-    "term": "Krepšys",
+    "term": "krepšys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pirkinių arba asmeninis krepšys, naudojamas daiktams nešti",
@@ -28009,7 +28070,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "rankinė",
+      "portfelis",
+      "piniginė",
+      "kišenė"
+    ],
     "translation": "bag"
   },
   {
@@ -28043,7 +28109,7 @@
     "term": "piniginė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Maža odinė ar audinė dėklas pinigams, kortelėms ir dokumentams",
@@ -28058,14 +28124,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "krepšys",
+      "portfelis",
+      "kortelė",
+      "pinigai"
+    ],
     "translation": "wallet"
   },
   {
     "term": "portfelis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kietas rankinės tipo krepšys dokumentams ir verslo reikalams",
@@ -28089,14 +28160,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "krepšys",
+      "rankinė",
+      "piniginė",
+      "investicija"
+    ],
     "translation": "briefcase"
   },
   {
     "term": "rankinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moters naudojamas rankinis krepšys asmeniniams daiktams",
@@ -28111,7 +28187,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "krepšys",
+      "portfelis",
+      "piniginė",
+      "aksesuaras"
+    ],
     "translation": "handbag"
   },
   {
@@ -28261,7 +28342,7 @@
     "term": "sidabras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Baltas taurusis metalas, naudojamas papuošalams ir pramonėje",
@@ -28276,7 +28357,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "auksas",
+      "metalas",
+      "juvelyrika",
+      "investicija"
+    ],
     "translation": "silver"
   },
   {
@@ -28294,7 +28380,7 @@
     "term": "auksas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Geltonas taurusis metalas, naudojamas papuošalams ir investicijoms",
@@ -28319,7 +28405,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sidabras",
+      "metalas",
+      "juvelyrika",
+      "investicija"
+    ],
     "translation": "gold"
   },
   {
@@ -29518,7 +29609,7 @@
     "term": "kabinetas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atskiras kambarys darbo vietoje, skirtas vadovo ar specialisto darbui.",
@@ -29541,9 +29632,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "biuras"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kanceliarija",
+      "ministerija",
+      "valdyba",
+      "darbo vieta"
+    ],
     "translation": "office"
   },
   {
@@ -29606,7 +29704,7 @@
     "term": "registratorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Darbuotojas, priimantis lankytojus, fiksuojantis apsilankymus ir atliekantis administracines užduotis prie įstaigos ar biuro įėjimo.",
@@ -29621,14 +29719,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "registratorė",
+      "administracija",
+      "registratūra",
+      "sekretorius"
+    ],
     "translation": "receptionist"
   },
   {
     "term": "registratorė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moteris, dirbanti medicinos įstaigos registratūroje ir priimanti pacientų vizitų prašymus.",
@@ -29640,12 +29743,11 @@
         ]
       }
     ],
-    "synonyms": [
-      "administratorė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "registratorius",
+      "administracija",
       "registratūra",
       "sekretorė"
     ],
@@ -29960,10 +30062,10 @@
     "qaNote": "Phrase: išrašyti (perfective: to write out) + receptą (accusative of receptas). The perfective form signals completion — the prescription has been issued."
   },
   {
-    "term": "Alergologas",
+    "term": "alergologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytojas, specializuojantis alergijų ir imuninės sistemos sutrikimų diagnostikoje bei gydyme.",
@@ -29980,8 +30082,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "alergologė",
-      "alergija",
-      "gydytojas"
+      "imunologas",
+      "gydytojas",
+      "alergija"
     ],
     "translation": "allergist",
     "qaNote": "Term has incorrect capitalisation: Lithuanian common nouns are lowercase. Correct to 'alergologas'. Also check that relatedTerms in the 'alergologė' entry is updated accordingly."
@@ -30413,7 +30516,7 @@
     "term": "šeimos gydytoja",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytoja, teikianti pirminę sveikatos priežiūrą ir esanti pirmasis kontaktas su sveikatos sistema.",
@@ -30426,14 +30529,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "bendrosios praktikos gydytoja"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "šeimos gydytojas",
-      "terapeutas",
-      "poliklinika"
+      "gydytoja",
+      "specialistė",
+      "pirminė priežiūra",
+      "klinika"
     ],
     "translation": "family doctor (female)",
     "qaNote": "relatedTerms contains 'šeimos gydytojas' which includes the headword 'šeimos gydytoja' as a substring (self-reference). Move the masculine counterpart to a different relation key or rephrase so the headword does not appear as a substring."
@@ -31483,7 +31585,7 @@
     "term": "matuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nustatyti dydį, kiekį ar intensyvumą naudojant matavimo prietaisus.",
@@ -31506,8 +31608,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "išmatuoti",
-      "matavimas",
+      "matavimai",
+      "matmuo",
+      "dydis",
       "tikslumas"
     ],
     "translation": "to measure",
@@ -31589,7 +31692,7 @@
     "term": "tirti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atlikti medicininius tyrimus ar apžiūrą, siekiant nustatyti diagnozę ar sveikatos būklę.",
@@ -31616,8 +31719,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "tyrimas",
-      "ištirti",
-      "analizuoti"
+      "diagnozė",
+      "analizuoti",
+      "laboratorija"
     ],
     "translation": "to examine",
     "qaNote": "relatedTerms contains 'ištirti' which includes the headword 'tirti' as a substring (self-reference via prefixed perfective form). Remove 'ištirti' from relatedTerms or replace with a morphologically distinct related form."
@@ -32267,7 +32371,7 @@
     "term": "stalinė lempa",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nedidelė, reguliuojama lempa, statoma ant darbastalio ir skirta vietiniam apšvietimui dirbant.",
@@ -32282,7 +32386,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lempa",
+      "apšvietimas",
+      "stalas",
+      "energija"
+    ],
     "translation": "desk lamp"
   },
   {
@@ -32316,7 +32425,7 @@
     "term": "užrašų knygelė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mažas sąsiuvinis, naudojamas užrašyti pastaboms, idėjoms ar susitikimų santraukoms darbe.",
@@ -32329,9 +32438,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "bloknotas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sąsiuvinis",
+      "pieštukas",
+      "rašiklis",
+      "darbastalio priemonės"
+    ],
     "translation": "notebook"
   },
   {
@@ -32365,7 +32481,7 @@
     "term": "stalinis kalendorius",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Popierinis arba plastikinis kalendorius, stovintis ant darbastalio ir padedantis planuoti darbo laiką.",
@@ -32380,7 +32496,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kalendorius",
+      "planuotojas",
+      "stalas",
+      "darbo diena"
+    ],
     "translation": "desk calendar"
   },
   {
@@ -32528,7 +32649,7 @@
     "term": "stalčius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Slenkamas dėklas stale arba spintoje, kuriame laikomi dokumentai, raštinės priemonės ar asmeniniai daiktai.",
@@ -32543,14 +32664,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "spinta",
+      "stalas",
+      "dokumentai",
+      "raštinės reikmenys"
+    ],
     "translation": "drawer"
   },
   {
     "term": "sąvaržėlė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mažas metalinis arba plastikinis elementas, naudojamas sulaikyti keliems lapams kartu.",
@@ -32565,14 +32691,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "smeigtukas",
+      "juostelė",
+      "dokumentai",
+      "popierius"
+    ],
     "translation": "paperclip"
   },
   {
     "term": "vokas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Popierinis maišelis, naudojamas laiškams ar dokumentams siųsti paštu.",
@@ -32587,7 +32718,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "laiškas",
+      "paštas",
+      "dokumentas",
+      "antspaudas"
+    ],
     "translation": "envelope"
   },
   {
@@ -32622,7 +32758,7 @@
     "term": "smeigtukai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Maži metaliniai kaiščiai su plokščia galvute, naudojami prikabinti lapus ar skelbimus prie skelbimų lentos.",
@@ -32637,7 +32773,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sąvaržėlė",
+      "skelbimų lenta",
+      "popierius",
+      "kabinetas"
+    ],
     "translation": "thumbtacks"
   },
   {
@@ -33025,7 +33166,7 @@
     "term": "direktoriaus pavaduotojas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Darbuotojas, einantis direktoriaus pareigas jo nesant arba padedantis jam valdyti organizaciją.",
@@ -33040,14 +33181,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pavaduotojas",
+      "direktorius",
+      "vadovas",
+      "administracija"
+    ],
     "translation": "deputy director"
   },
   {
     "term": "pavaduotoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moteris, laikinai einanti kito asmens pareigas arba padedanti jam vykdyti darbo funkcijas.",
@@ -33062,7 +33208,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "direktorius",
+      "vadovė",
+      "administracija",
+      "pareigos"
+    ],
     "translation": "deputy (female)"
   },
   {
@@ -33969,10 +34120,10 @@
     "translation": "to send"
   },
   {
-    "term": "Banknotas",
+    "term": "banknotas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Centrinio banko išleistas popieriaus pinigas, turintis nominalią vertę",
@@ -33985,9 +34136,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kupiūra"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "moneta",
+      "pinigai",
+      "valiuta",
+      "nominalas"
+    ],
     "translation": "banknote"
   },
   {
