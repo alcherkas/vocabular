@@ -753,3 +753,21 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - A pre-enrichment helper that groups thematically related stubs would make it easier to write consistent, cross-referencing definitions for term clusters.
+
+## [2026-02-21] [enricher-en-10] [vocab/enricher-en-10]
+
+### What went well
+- Preflight JSON validation passed immediately (330 entries, all valid).
+- All 30 EN stubs enriched in a single batch; `validate_words.py --status enriched` passed on the first run with all 330 entries valid.
+- Domain coverage was coherent: anthropology (acculturation, enculturation, liminality, totemism, diffusionism, ethnocentrism), genetics (pleiotropy, epistasis, haplotype, penetrance, expressivity, codominance, aneuploidy, euploidy, recombination, translocation, heterozygosity), neuroscience (connectome, synaptogenesis, myelination, nociception, proprioception, interoception, neurogenesis, lateralization, astrocyte, microglia), and architecture (fenestration, clerestory, entablature).
+- All entries use `technical` or `formal` register, consistent with the academic nature of the vocabulary set.
+
+### What was harder than expected
+- Several neuroscience terms have closely related meanings (nociception vs. proprioception vs. interoception) requiring careful differentiation to avoid definition overlap.
+- Genetics cluster (aneuploidy/euploidy, penetrance/expressivity, codominance) needed distinct wording despite conceptual proximity.
+
+### Process friction
+- None this iteration; field names (`language`, `partOfSpeech`, `meanings`) were consistent with the established schema.
+
+### Suggested improvement
+- Grouping thematically adjacent stubs into named clusters (e.g., "sensory neuroscience", "chromosomal genetics") before enrichment would further reduce the risk of repetitive definitions across closely related terms.
