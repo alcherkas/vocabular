@@ -14701,7 +14701,7 @@
     "term": "sviestas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A solid dairy product made by churning cream, used as a spread or in cooking.",
@@ -14716,12 +14716,16 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "margarinas"
+    ],
     "relatedTerms": [
       "grietinė",
       "pienas",
       "aliejus",
-      "duona"
+      "duona",
+      "riebalas",
+      "kepimas"
     ],
     "translation": "butter",
     "qaNote": "Basic dairy ingredient central to Lithuanian cooking. Nominative singular: sviestas."
@@ -14730,7 +14734,7 @@
     "term": "varškė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A soft, fresh dairy product made from curdled milk, used in traditional Lithuanian cooking and baking.",
@@ -14753,7 +14757,9 @@
       "pienas",
       "grietinė",
       "sūris",
-      "varškėčiai"
+      "varškėčiai",
+      "kefyras",
+      "desertas"
     ],
     "translation": "cottage cheese, curd",
     "qaNote": "Core ingredient in Lithuanian cuisine; used in varškėčiai (curd pancakes) and many desserts."
@@ -14784,7 +14790,7 @@
     "term": "jautiena",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Meat from a cow or bull, used in cooking.",
@@ -14798,13 +14804,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "galvijiena"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "kiauliena",
       "vištiena",
       "mėsa",
-      "troškinys"
+      "troškinys",
+      "stekas",
+      "kepsnys"
     ],
     "translation": "beef",
     "qaNote": "Nominative singular: jautiena. Not to be confused with 'veršiena' (veal)."
@@ -14813,7 +14823,7 @@
     "term": "kiauliena",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Meat from a pig, the most widely used meat in Lithuanian traditional cooking.",
@@ -14834,7 +14844,9 @@
       "jautiena",
       "kumpis",
       "lašiniai",
-      "mėsa"
+      "mėsa",
+      "šonkauliai",
+      "kotletas"
     ],
     "translation": "pork",
     "qaNote": "Most common meat in Lithuanian cuisine. Nominative singular: kiauliena."
@@ -14843,7 +14855,7 @@
     "term": "kumpis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Cured or smoked pork leg, eaten as a cold cut or used in cooking.",
@@ -14864,7 +14876,9 @@
       "kiauliena",
       "dešra",
       "rūkytas",
-      "šaltiena"
+      "šaltiena",
+      "prosciutto",
+      "šlaunys"
     ],
     "translation": "ham",
     "qaNote": "Especially associated with Easter (Velykos) in Lithuanian tradition."
@@ -14873,7 +14887,7 @@
     "term": "vištiena",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Meat from a chicken, widely used in everyday Lithuanian cooking.",
@@ -14893,7 +14907,9 @@
       "jautiena",
       "kiauliena",
       "mėsa",
-      "sriuba"
+      "sriuba",
+      "višta",
+      "troškinys"
     ],
     "translation": "chicken (meat)",
     "qaNote": "Refers to the meat, not the live bird ('višta')."
@@ -14924,7 +14940,7 @@
     "term": "lašiša",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large saltwater fish with pink flesh, valued for its flavour and nutritional content.",
@@ -14944,7 +14960,9 @@
       "žuvis",
       "silkė",
       "upėtakis",
-      "jūros gėrybės"
+      "jūros gėrybės",
+      "ikrai",
+      "skumbrė"
     ],
     "translation": "salmon",
     "qaNote": "Nominative singular: lašiša."
@@ -14953,7 +14971,7 @@
     "term": "paštetas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A smooth, spreadable paste made from minced meat, liver, or fish, used as a spread or appetiser.",
@@ -14970,10 +14988,11 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "kepenų paštetas",
       "duona",
       "sviestas",
-      "sumuštinis"
+      "sumuštinis",
+      "kepenėlės",
+      "terinas"
     ],
     "translation": "pâté, paste",
     "qaNote": "Common in Lithuanian households; liver pâté (kepenų paštetas) is especially popular."
@@ -14982,7 +15001,7 @@
     "term": "silkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A saltwater fish of the herring family, traditionally eaten pickled or salted in Lithuania.",
@@ -15003,7 +15022,9 @@
       "žuvis",
       "lašiša",
       "karpis",
-      "marinuotas"
+      "marinuotas",
+      "aukšlė",
+      "skumbrė"
     ],
     "translation": "herring",
     "qaNote": "Staple in Lithuanian traditional diet. Often served salted or marinated with potatoes."
@@ -15851,7 +15872,7 @@
     "term": "miltai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A fine powder made by grinding grain, used as a basic ingredient in bread, cakes, and dumplings.",
@@ -15871,7 +15892,8 @@
       "tešla",
       "duona",
       "kepimas",
-      "kvietiniai miltai"
+      "kruopos",
+      "mielės"
     ],
     "translation": "flour",
     "qaNote": "Plural-only noun (plurale tantum) in standard usage. Nominative plural: miltai."
@@ -15922,7 +15944,7 @@
     "term": "grikiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A plant whose seeds are used as a grain substitute; a traditional staple in Lithuanian cooking, often eaten as a side dish.",
@@ -15943,7 +15965,9 @@
       "manai",
       "avižiniai dribsniai",
       "košė",
-      "ryžiai"
+      "ryžiai",
+      "kruopos",
+      "sveika mityba"
     ],
     "translation": "buckwheat",
     "qaNote": "Traditional Lithuanian grain; typically plural in usage (grikiai). Buckwheat groats are a popular side dish."
@@ -15963,7 +15987,7 @@
     "term": "actas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A sour liquid made by fermenting ethanol, used as a condiment and preservative in cooking.",
@@ -15980,10 +16004,11 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "obuolių actas",
       "marinatas",
       "raugintas",
-      "padažas"
+      "padažas",
+      "prieskoniai",
+      "citrinos sultys"
     ],
     "translation": "vinegar",
     "qaNote": "Used in pickling (marinavimas) and as a salad dressing base. Nominative singular: actas."
@@ -15992,7 +16017,7 @@
     "term": "garstyčios",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A condiment made from mustard seeds, typically yellow or Dijon style, used as a spread or in sauces.",
@@ -16012,7 +16037,9 @@
       "krienai",
       "majonezas",
       "padažas",
-      "prieskoniai"
+      "prieskoniai",
+      "kečupas",
+      "sojos padažas"
     ],
     "translation": "mustard",
     "qaNote": "Plural-only form in standard Lithuanian usage: garstyčios. Commonly paired with dešra (sausage)."
@@ -16021,7 +16048,7 @@
     "term": "krienai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A pungent root vegetable used as a sharp condiment, especially with meat and fish dishes.",
@@ -16042,7 +16069,9 @@
       "garstyčios",
       "prieskoniai",
       "kumpis",
-      "silkė"
+      "silkė",
+      "česnakas",
+      "svogūnas"
     ],
     "translation": "horseradish",
     "qaNote": "Plural-only form in standard Lithuanian: krienai. Traditional condiment for cured meats and fish."
@@ -16062,7 +16091,7 @@
     "term": "padažas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A liquid or semi-liquid preparation served with food to add flavour or moisture.",
@@ -16082,7 +16111,9 @@
       "sultinys",
       "majonezas",
       "garstyčios",
-      "prieskoniai"
+      "prieskoniai",
+      "grietinėlė",
+      "kečupas"
     ],
     "translation": "sauce, gravy, dressing",
     "qaNote": "General term for sauces; covers gravies, dressings, and cooking sauces."
@@ -16091,7 +16122,7 @@
     "term": "Medus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A sweet, viscous food substance produced by bees from flower nectar, used as a sweetener and traditional remedy.",
@@ -16109,10 +16140,12 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "bičių medus",
       "arbata",
       "cukrus",
-      "namų gamybos"
+      "bitės produktas",
+      "nektaras",
+      "sirupas",
+      "desertai"
     ],
     "translation": "honey",
     "qaNote": "Term capitalised ('Medus') in source — should be 'medus'. Lithuania has a strong beekeeping tradition; honey is used in cuisine and folk medicine."
@@ -16631,7 +16664,7 @@
     "term": "karštas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having a high temperature.",
@@ -16643,14 +16676,20 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "įkaitęs",
+      "degantis"
+    ],
     "antonymTerms": [
-      "šaltas"
+      "šaltas",
+      "vėsus"
     ],
     "relatedTerms": [
       "temperatūra",
       "kaitra",
-      "vėsa"
+      "vėsa",
+      "ugnis",
+      "karštis"
     ],
     "translation": "hot",
     "qaNote": "'šiltas' (warm) removed from synonyms: it denotes a lower temperature degree than 'karštas' (hot) — different degrees on the same scale, not synonymous. Entry requires an accurate synonym."
@@ -16659,7 +16698,7 @@
     "term": "keptas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Cooked by dry heat in an oven or pan with fat; baked or fried.",
@@ -16673,15 +16712,20 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "skrudintas"
+    ],
     "antonymTerms": [
-      "virtas"
+      "virtas",
+      "žalias"
     ],
     "relatedTerms": [
       "keptuvė",
       "orkaitė",
       "kepsnys",
-      "riebalas"
+      "riebalas",
+      "alyva",
+      "mėsa"
     ],
     "translation": "fried, baked, roasted",
     "qaNote": "Past passive participle of 'kepti' used as adjective. Covers frying in a pan and baking in the oven."
@@ -16690,7 +16734,7 @@
     "term": "virtas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Cooked in boiling water or liquid.",
@@ -16704,15 +16748,20 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "išvirtas"
+    ],
     "antonymTerms": [
-      "keptas"
+      "keptas",
+      "žalias"
     ],
     "relatedTerms": [
       "virti",
       "puodas",
       "vanduo",
-      "košė"
+      "košė",
+      "sriuba",
+      "makaronai"
     ],
     "translation": "boiled, cooked",
     "qaNote": "Past passive participle of 'virti'. Antonym 'keptas' (fried/baked) added as direct contrast."
@@ -16721,7 +16770,7 @@
     "term": "rūkytas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Preserved or flavoured by exposure to smoke, typically applied to meat, fish, or cheese.",
@@ -16737,12 +16786,16 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "šviežias"
+    ],
     "relatedTerms": [
       "kumpis",
       "dešra",
       "lašiša",
-      "konservavimas"
+      "konservavimas",
+      "dūmai",
+      "vytintas"
     ],
     "translation": "smoked",
     "qaNote": "Past passive participle of 'rūkyti' (to smoke). Smoking is a key preservation technique in Lithuanian charcuterie tradition."
@@ -16762,7 +16815,7 @@
     "term": "raugintas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Preserved through natural fermentation using salt water or other acidic liquids, without the use of vinegar.",
@@ -16778,13 +16831,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "fermentuotas"
+    ],
+    "antonymTerms": [
+      "šviežias"
+    ],
     "relatedTerms": [
       "marinuotas",
       "sūdytas",
       "rauginimas",
-      "kopūstas"
+      "kopūstas",
+      "bakterija",
+      "rūgštis"
     ],
     "translation": "fermented, lacto-pickled",
     "qaNote": "Distinct from 'marinuotas' (marinated with vinegar); 'raugintas' uses lactic fermentation. Central to Lithuanian winter food preservation."
@@ -16793,7 +16852,7 @@
     "term": "marinuotas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Preserved or flavoured by soaking in a seasoned acidic liquid (marinade), typically with vinegar, oil, and spices.",
@@ -16809,12 +16868,16 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "šviežias"
+    ],
     "relatedTerms": [
       "raugintas",
       "actas",
       "marinatavimas",
-      "konservavimas"
+      "konservavimas",
+      "prieskoniai",
+      "aliejus"
     ],
     "translation": "marinated, pickled (with vinegar)",
     "qaNote": "Contrast with 'raugintas' (lacto-fermented); 'marinuotas' implies acidification with vinegar."
@@ -16823,7 +16886,7 @@
     "term": "sūdytas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Preserved or seasoned by applying salt.",
@@ -16839,12 +16902,16 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "nesūdytas"
+    ],
     "relatedTerms": [
       "druska",
       "rūkytas",
       "raugintas",
-      "konservavimas"
+      "konservavimas",
+      "silkė",
+      "grybas"
     ],
     "translation": "salted",
     "qaNote": "Past passive participle of 'sūdyti' (to salt). Salting is one of the oldest food preservation methods in Lithuanian tradition."
@@ -17391,7 +17458,7 @@
     "term": "Barščiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A traditional Eastern European soup made with beetroot, often served with sour cream; a staple in Lithuanian and broader Baltic cuisine.",
@@ -17412,7 +17479,9 @@
       "šaltibarščiai",
       "sriuba",
       "burokėlis",
-      "grietinė"
+      "grietinė",
+      "morkos",
+      "kopūstas"
     ],
     "translation": "borscht, beetroot soup",
     "qaNote": "Term capitalised ('Barščiai') in source — should be 'barščiai'. Plural-only form in Lithuanian. Hot barščiai (winter version) should be distinguished from šaltibarščiai (cold summer soup)."
@@ -17421,7 +17490,7 @@
     "term": "sriuba",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A liquid dish made by boiling vegetables, meat, or fish in water or broth, typically served as a first course.",
@@ -17441,7 +17510,9 @@
       "sultinys",
       "barščiai",
       "troškinys",
-      "daržovės"
+      "daržovės",
+      "lėkštė",
+      "puodas"
     ],
     "translation": "soup",
     "qaNote": "General term for soup. 'Sultinys' (broth/stock) is more specific — a clear liquid base."
@@ -17450,7 +17521,7 @@
     "term": "sultinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A clear liquid broth made by simmering meat, bones, or vegetables in water, used as a soup base or drink.",
@@ -17465,13 +17536,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "nuoviras"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "sriuba",
       "vištiena",
       "mėsa",
-      "bazė"
+      "bazė",
+      "kaulai",
+      "daržovės"
     ],
     "translation": "broth, stock, consommé",
     "qaNote": "Distinct from 'sriuba' (soup) — sultinys is a clear liquid base, not a complete dish on its own."
@@ -17480,7 +17555,7 @@
     "term": "šaltibarščiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A traditional Lithuanian cold soup made from kefir or buttermilk with cooked beetroot, cucumber, boiled eggs, and dill, served chilled in summer.",
@@ -17502,7 +17577,9 @@
       "barščiai",
       "burokėlis",
       "kefyras",
-      "krapai"
+      "krapai",
+      "agurkas",
+      "grietinė"
     ],
     "translation": "cold beet soup (Lithuanian cold soup)",
     "qaNote": "Iconic Lithuanian summer dish. Plural-only noun. Literally 'cold barščiai'. The pink colour comes from beetroot mixed with kefir."
@@ -17511,7 +17588,7 @@
     "term": "balandėliai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Stuffed cabbage rolls filled with minced meat and rice or buckwheat, simmered in tomato sauce; a traditional Lithuanian main course.",
@@ -17532,7 +17609,9 @@
       "kopūstas",
       "malta mėsa",
       "ryžiai",
-      "pomidorų padažas"
+      "pomidoras",
+      "troškinys",
+      "grietinė"
     ],
     "translation": "stuffed cabbage rolls",
     "qaNote": "Diminutive of 'balandis' (pigeon) — the rolls resemble little doves. Plural-only form."
@@ -17541,7 +17620,7 @@
     "term": "blynai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Thin flat cakes made from a batter of flour, eggs, and milk and cooked in a pan; a popular everyday and festive food in Lithuania.",
@@ -17562,7 +17641,9 @@
       "tešla",
       "keptuvė",
       "varškė",
-      "uogienė"
+      "uogienė",
+      "sviestas",
+      "grietinė"
     ],
     "translation": "pancakes, crêpes",
     "qaNote": "Lithuanian blynai are thinner than American pancakes, closer to crêpes. Plural-only form. Often served with jam (uogienė) or curd (varškė)."
@@ -17582,7 +17663,7 @@
     "term": "cepelinai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Large oval dumplings made from grated and boiled potato dough, stuffed with minced meat or curd, and served with sour cream and bacon sauce; the national dish of Lithuania.",
@@ -17606,7 +17687,9 @@
       "bulvės",
       "malta mėsa",
       "grietinė",
-      "spirgučiai"
+      "spirgučiai",
+      "varškė",
+      "tarka"
     ],
     "translation": "cepelinai (Lithuanian potato dumplings)",
     "qaNote": "National dish of Lithuania. Named after zeppelin airships due to their shape. 'Didžkukuliai' is the older/regional synonym."
@@ -17615,7 +17698,7 @@
     "term": "kepsnys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A piece of meat or fish cooked by frying or roasting, often served as the main course.",
@@ -17630,13 +17713,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "stekas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "keptas",
       "mėsa",
       "keptuvė",
-      "orkaitė"
+      "orkaitė",
+      "grilis",
+      "šakutė"
     ],
     "translation": "roast, steak, fried cutlet",
     "qaNote": "Derived from 'kepti' (to fry/bake). Broad term covering pan-fried and oven-roasted meat portions."
@@ -17645,7 +17732,7 @@
     "term": "kiaušinienė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A dish of eggs cooked by breaking and frying them in a pan, either as fried eggs (sunny-side up) or scrambled.",
@@ -17666,7 +17753,9 @@
       "kiaušinis",
       "omletas",
       "keptuvė",
-      "pusryčiai"
+      "pusryčiai",
+      "sviestas",
+      "druska"
     ],
     "translation": "fried eggs, scrambled eggs",
     "qaNote": "Derived from 'kiaušinis' (egg). Covers both sunny-side up and scrambled preparations."
@@ -17686,7 +17775,7 @@
     "term": "košė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A thick, soft dish made by cooking grain or vegetables in liquid until soft; also used for mashed potatoes.",
@@ -17700,13 +17789,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tyrė"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "bulvių košė",
       "grikiai",
       "avižiniai dribsniai",
-      "pienas"
+      "pienas",
+      "bulvės",
+      "manai",
+      "sviestas"
     ],
     "translation": "porridge, mash, purée",
     "qaNote": "Covers both grain porridges (grikių košė, avižinė košė) and mashed vegetables (bulvių košė = mashed potatoes)."
@@ -17715,7 +17808,7 @@
     "term": "kotletas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A shaped patty of minced meat, mixed with onion, egg, and breadcrumbs, then fried; a common home-cooked dish in Lithuania.",
@@ -17736,7 +17829,9 @@
       "malta mėsa",
       "keptas",
       "blynai",
-      "kepsnys"
+      "kepsnys",
+      "duona",
+      "svogūnas"
     ],
     "translation": "meat patty, rissole, kotlet",
     "qaNote": "Loanword from Russian/French. In Lithuanian context, kotletas is a pan-fried minced-meat patty, not a bone-in chop."
@@ -17756,7 +17851,7 @@
     "term": "troškinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A dish of meat and/or vegetables cooked slowly in a small amount of liquid over low heat.",
@@ -17771,13 +17866,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "ragū"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "troškinimas",
       "mėsa",
       "daržovės",
-      "kepsnys"
+      "kepsnys",
+      "puodas",
+      "sultinys"
     ],
     "translation": "stew, braise",
     "qaNote": "Derived from 'troškinti' (to stew/braise). A fundamental cooking method in Lithuanian home cuisine."

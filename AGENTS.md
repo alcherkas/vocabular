@@ -474,3 +474,64 @@ All LT synonyms/antonyms are in nominative dictionary form; no -ą/-ų endings p
 - The validator runs `validate_relations` only for `relations-added` and `approved` statuses, not `enriched` — so enriched entries with relation issues are silent until promotion. This means promotion must include a pre-promotion issue scan.
 - Hyphenated synonyms (e.g., "structural-functionalism") are treated as single tokens by the validator (space-split only); they are not flagged as self-referential even when the base term appears after the hyphen. This is by design.
 - EN requires ≥ 2 synonyms for relations-added; LT has no minimum. The 3 additional LT entries were completed to 2 synonyms for quality consistency.
+
+## Session retro — vocab/relations-25
+
+**Date:** 2025-07-27
+**Branch:** vocab/relations-25
+**Commit:** 3ea61a4
+
+### Task
+Promote 35 enriched → relations-added per file (words_staging.json, words_lt_staging.json).
+
+### Preflight
+Both files parsed cleanly (730 EN, 1960 LT entries). Only pre-existing `approved`-status warnings present; zero blockers for the current batch.
+
+### EN — 35 entries promoted
+Batch: verism, triptych, heteroglossia, defamiliarization, paratext, equilibrium, depolarization, epitope, hapten, opsonization, cytokine, immunosuppression, anaphylaxis, hematopoiesis, parsec, syzygy, thermohaline, permafrost, paleoclimate, phenology, aerosol, apse, balustrade, belvedere, coffering, crenellation, finial, impost, keystone, loggia, lunette, narthex, brunoise, charcuterie, duxelles.
+
+8 entries had fewer than 2 synonyms (required minimum for EN) and were completed before promotion:
+
+| Entry | Added synonyms |
+|---|---|
+| `paratext` | "peritextual apparatus", "threshold text" |
+| `cytokine` | "signaling protein", "immune signaling molecule" |
+| `hematopoiesis` | "haemopoiesis", "blood formation" |
+| `parsec` | "parallax arcsecond unit", "stellar distance measure" |
+| `syzygy` | "planetary alignment", "linear orbital arrangement" |
+| `paleoclimate` | "ancient climate record", "historical climate" |
+| `phenology` | "ecological timing science", "seasonal ecology" |
+| `aerosol` | "airborne colloid", "fine particulate matter" |
+
+`aerosol` also received 2 additional `relatedTerms` ("smog", "PM2.5") as its existing array was sparse (3 items).
+
+No self-referential phrases found in EN entries prior to promotion.
+
+### LT — 35 entries promoted
+Batch: sviestas, varškė, jautiena, kiauliena, kumpis, vištiena, lašiša, paštetas, silkė, miltai, grikiai, actas, garstyčios, krienai, padažas, Medus, karštas, keptas, virtas, rūkytas, raugintas, marinuotas, sūdytas, Barščiai, sriuba, sultinys, šaltibarščiai, balandėliai, blynai, cepelinai, kepsnys, kiaušinienė, košė, kotletas, troškinys.
+
+**5 self-referential violations fixed** (token-in-phrase) before promotion:
+
+| Entry | Violation | Fix |
+|---|---|---|
+| `paštetas` | "kepenų paštetas" in relatedTerms | Replaced with "kepenėlės", "terinas" |
+| `miltai` | "kvietiniai miltai" in relatedTerms | Replaced with "kruopos", "mielės" |
+| `actas` | "obuolių actas" in relatedTerms | Replaced with "prieskoniai", "citrinos sultys" |
+| `Medus` | "bičių medus" in relatedTerms; "namų gamybos" has non-nominative "namų" | Replaced both with "bitės produktas", "nektaras", "sirupas", "desertai" |
+| `košė` | "bulvių košė" in relatedTerms | Replaced with "bulvės", "manai", "sviestas" |
+
+Also fixed `balandėliai`: "pomidorų padažas" (contains non-nominative genitive "pomidorų") replaced with "pomidoras" + "troškinys", "grietinė".
+
+Synonyms added where semantically clear (sultinys→"nuoviras", košė→"tyrė", kepsnys→"stekas", troškinys→"ragū", raugintas→"fermentuotas", karštas→"įkaitęs"/"degantis", keptas→"skrudintas", virtas→"išvirtas").
+LT minimum synonym count is 0; additions were quality-driven, not validation-driven.
+
+### Validation
+`validate_words.py --errors-for relations-added` → **PASSED** on both files (exit 0).
+- EN: 730 words valid; 91 pre-existing warnings in other statuses.
+- LT: 1960 words valid; 98 pre-existing warnings in other statuses.
+
+### Notes
+- All LT synonyms/antonyms/relatedTerms are in nominative dictionary form; no -ą/-ų endings in any added value.
+- Food domain terms (entries 0–34 of LT enriched) rarely have true single-word synonyms; synonym arrays were populated only where a genuine alternative exists.
+- Genitive-modified compound relatedTerms (e.g. "pomidorų padažas") whose last word ends in -s technically pass the validator's `endswith(-ų)` check, but violate the user's "no -ą/-ų endings" rule — these were fixed regardless.
+- EN `parsec` has no antonyms (it is a physical unit); antonymTerms left as `[]`, which is valid.
