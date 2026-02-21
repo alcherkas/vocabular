@@ -204,3 +204,28 @@ Vocab/
 - Stub format `{"term":"…","status":"stub","language":"en","partOfSpeech":"","tags":[]}` used verbatim per spec.
 - Domain spread (9–7 terms per category) chosen to reach exactly 100 while avoiding known existing terms (e.g. `cladistics`, `tachycardia`, `contraindication`, `comorbidity`, `iatrogenic`, `nosocomial` already present).
 - No merges performed; branch left for PR review.
+
+---
+
+## Retro — vocab/enricher-lt-16 (35 LT stubs)
+
+**Date:** 2026-01-18
+**Branch:** vocab/enricher-lt-16
+
+### What was enriched
+- **Adjective pairs (6):** didelis/didelė (big), vidutinis/vidutinė (medium/average), mažas/maža (small) — tagged A1/size.
+- **Demonstrative pronouns (8):** Šis/ši (this m./f. sg.), šie/šios (these m./f. pl.), tas/ta (that m./f. sg.), tie/tos (those m./f. pl.) — tagged A1/demonstrative.
+- **Possessive pronouns (2):** mūsų (our), jų (their) — tagged A1/possessive.
+- **Interrogative pronouns (2):** kokie/kokios (what kind of, m./f. pl.) — tagged A2/interrogative.
+- **Adverb (1):** kiek (how much/how many) — tagged A1/quantity.
+- **Numerals accusative forms (16):** viena/vieną (one f./acc.), dvi (two f.), tris (three acc.), keturios/keturis (four f./m. acc.), penkios/penkis (five f./m. acc.), šešios/šešis (six f./m. acc.), septynios/septynis (seven f./m. acc.), aštuonios/aštuonis (eight f./m. acc.), devynios/devynis (nine f./m. acc.) — all tagged A1/cardinal/accusative.
+
+### Decisions
+- Register `neutral` used throughout; all terms are common everyday vocabulary.
+- Gendered adjective pairs cross-referenced in `antonymTerms` (size opposites) and `relatedTerms`.
+- Demonstrative pronouns cross-reference their near/far counterparts in `antonymTerms` and full paradigm in `relatedTerms`.
+- Numeral accusative forms (keturios, penkios, etc.) treated as `numeral` partOfSpeech; translations note case and gender explicitly.
+- `synonyms`/`antonymTerms` kept `[]` where linguistically no clean equivalent exists (pronouns, numerals).
+
+### Validator result
+144 enriched entries — all passed ✓ | 1960 total entries — all passed ✓
