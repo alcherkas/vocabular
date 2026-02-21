@@ -12977,7 +12977,7 @@
   },
   {
     "term": "virulence",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13019,7 +13019,7 @@
   },
   {
     "term": "pharmacokinetics",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13043,15 +13043,15 @@
     ],
     "relatedTerms": [
       "bioavailability",
-      "pharmacodynamics",
       "half-life",
       "clearance",
       "volume of distribution"
-    ]
+    ],
+    "qaNote": "\"pharmacodynamics\" appeared in both antonymTerms and relatedTerms (duplicate across arrays); removed from relatedTerms, retained as antonym only."
   },
   {
     "term": "pharmacodynamics",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13074,16 +13074,16 @@
       "pharmacokinetics"
     ],
     "relatedTerms": [
-      "pharmacokinetics",
       "agonist",
       "antagonist",
       "receptor binding",
       "dose-response curve"
-    ]
+    ],
+    "qaNote": "\"pharmacokinetics\" appeared in both antonymTerms and relatedTerms (duplicate across arrays); removed from relatedTerms, retained as antonym only."
   },
   {
     "term": "bioavailability",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13113,7 +13113,7 @@
   },
   {
     "term": "agonist",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13137,16 +13137,16 @@
       "antagonist"
     ],
     "relatedTerms": [
-      "antagonist",
       "pharmacodynamics",
       "receptor",
       "ligand",
       "partial agonist"
-    ]
+    ],
+    "qaNote": "\"antagonist\" appeared in both antonymTerms and relatedTerms (duplicate across arrays); removed from relatedTerms, retained as antonym only."
   },
   {
     "term": "antagonist",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13170,12 +13170,12 @@
       "agonist"
     ],
     "relatedTerms": [
-      "agonist",
       "pharmacodynamics",
       "competitive inhibition",
       "receptor",
       "inverse agonist"
-    ]
+    ],
+    "qaNote": "\"agonist\" appeared in both antonymTerms and relatedTerms (duplicate across arrays); removed from relatedTerms, retained as antonym only."
   },
   {
     "term": "teratogen",
@@ -13200,7 +13200,7 @@
   },
   {
     "term": "bioequivalence",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13231,7 +13231,7 @@
   },
   {
     "term": "metastasis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13261,7 +13261,7 @@
   },
   {
     "term": "angiogenesis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13294,7 +13294,7 @@
   },
   {
     "term": "carcinogenesis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13333,7 +13333,7 @@
   },
   {
     "term": "neoplasm",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13385,7 +13385,7 @@
   },
   {
     "term": "malignancy",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13419,7 +13419,7 @@
   },
   {
     "term": "arrhythmia",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13452,7 +13452,7 @@
   },
   {
     "term": "bradycardia",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13468,8 +13468,7 @@
       }
     ],
     "synonyms": [
-      "slow heart rate",
-      "cardiac bradycardia"
+      "slow heart rate"
     ],
     "antonymTerms": [
       "tachycardia"
@@ -13480,11 +13479,12 @@
       "pacemaker",
       "sinus node",
       "vagal tone"
-    ]
+    ],
+    "qaNote": "\"cardiac bradycardia\" removed from synonyms: tautological — bradycardia already denotes a cardiac arrhythmia; the qualifier adds no semantic distinction."
   },
   {
     "term": "stenosis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13518,7 +13518,7 @@
   },
   {
     "term": "ischemia",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13551,7 +13551,7 @@
   },
   {
     "term": "fibrillation",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -13567,13 +13567,10 @@
       }
     ],
     "synonyms": [
-      "cardiac fibrillation",
-      "ventricular fibrillation",
-      "atrial fibrillation"
+      "cardiac fibrillation"
     ],
     "antonymTerms": [
-      "normal sinus rhythm",
-      "cardioversion"
+      "normal sinus rhythm"
     ],
     "relatedTerms": [
       "arrhythmia",
@@ -13581,7 +13578,8 @@
       "defibrillation",
       "cardiomyopathy",
       "ECG"
-    ]
+    ],
+    "qaNote": "\"ventricular fibrillation\" and \"atrial fibrillation\" are subtypes (hyponyms) of fibrillation, not synonyms; removed. \"cardioversion\" removed from antonymTerms: it is a treatment procedure that restores rhythm, not the conceptual opposite of fibrillation."
   },
   {
     "term": "cardiomyopathy",
@@ -15844,7 +15842,7 @@
   {
     "term": "abatement",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15879,7 +15877,7 @@
   {
     "term": "certiorari",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15911,7 +15909,7 @@
   {
     "term": "chattel",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15946,7 +15944,7 @@
   {
     "term": "comity",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15981,7 +15979,7 @@
   {
     "term": "conveyance",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16013,7 +16011,7 @@
   {
     "term": "derogation",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16049,7 +16047,7 @@
   {
     "term": "easement",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16084,7 +16082,7 @@
   {
     "term": "encumbrance",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16119,7 +16117,7 @@
   {
     "term": "fiduciary",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16151,7 +16149,7 @@
   {
     "term": "laches",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16166,9 +16164,7 @@
       }
     ],
     "synonyms": [
-      "estoppel by delay",
-      "delay",
-      "tardiness"
+      "estoppel by delay"
     ],
     "antonymTerms": [
       "diligence",
@@ -16181,12 +16177,13 @@
       "prejudice",
       "prescription"
     ],
-    "tags": []
+    "tags": [],
+    "qaNote": "\"delay\" and \"tardiness\" removed from synonyms: both are generic terms for lateness and do not capture the specific equitable doctrine of laches, which requires unreasonable delay causing prejudice to the opposing party. Retained \"estoppel by delay\" which is a recognised legal equivalent."
   },
   {
     "term": "mandamus",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16218,7 +16215,7 @@
   {
     "term": "novation",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16234,8 +16231,7 @@
     ],
     "synonyms": [
       "substitution",
-      "contract replacement",
-      "assignment"
+      "contract replacement"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -16245,12 +16241,13 @@
       "consent",
       "privity of contract"
     ],
-    "tags": []
+    "tags": [],
+    "qaNote": "\"assignment\" appeared in both synonyms and relatedTerms (duplicate across arrays); removed from synonyms. Additionally, assignment transfers contractual rights without extinguishing the original obligation, whereas novation replaces it entirely — not true synonyms."
   },
   {
     "term": "rescission",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16285,7 +16282,7 @@
   {
     "term": "subrogation",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16317,7 +16314,7 @@
   {
     "term": "surety",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16349,7 +16346,7 @@
   {
     "term": "appanage",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16381,7 +16378,7 @@
   {
     "term": "decolonization",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -16417,7 +16414,7 @@
   {
     "term": "diaspora",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
