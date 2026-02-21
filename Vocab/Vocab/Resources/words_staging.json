@@ -28396,21 +28396,90 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The purity or saturation of a colour; the quality that distinguishes a pure hue from a grey of the same lightness.",
+        "example": "The designer boosted the chroma of the accent colours so they would pop against the neutral background.",
+        "register": "technical",
+        "tags": [
+          "colour science",
+          "design",
+          "art"
+        ]
+      },
+      {
+        "definition": "In the Munsell colour system, the numerical value expressing a colour's departure from a neutral grey of the same value.",
+        "example": "A chroma of 14 indicates a highly saturated red in the Munsell notation.",
+        "register": "technical",
+        "tags": [
+          "Munsell",
+          "colour measurement",
+          "colorimetry"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "colorism",
     "language": "en",
     "partOfSpeech": "noun",
-    "register": "technical",
-    "status": "stub"
+    "register": "formal",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Discrimination or prejudice against individuals based on the relative lightness or darkness of their skin tone, typically operating within the same racial or ethnic group.",
+        "example": "Scholars studying colorism have documented how lighter-skinned individuals often receive preferential treatment in hiring and housing compared to darker-skinned peers of the same racial background.",
+        "register": "formal",
+        "tags": [
+          "sociology",
+          "race",
+          "discrimination",
+          "social justice"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "decalcomania",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An artistic technique in which paint is squeezed between two surfaces and then separated to produce random, organic patterns; adopted by Surrealist artists as a method for generating automatic imagery.",
+        "example": "Max Ernst used decalcomania to create eerie, biomorphic landscapes by pressing pigment-laden paper onto a canvas and peeling it away.",
+        "register": "technical",
+        "tags": [
+          "art technique",
+          "Surrealism",
+          "painting"
+        ]
+      },
+      {
+        "definition": "The craft of transferring designs, images, or lettering from specially prepared paper onto ceramics, glass, or other surfaces.",
+        "example": "The ceramic workshop sold decalcomania kits so hobbyists could apply vintage floral motifs to their pottery.",
+        "register": "general",
+        "tags": [
+          "craft",
+          "ceramics",
+          "decorative arts"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "foreshortening",
@@ -28750,7 +28819,33 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An art movement and style in which paintings or drawings are executed with such meticulous detail and accuracy that they resemble high-resolution photographs.",
+        "example": "Chuck Close's large-scale portraits became landmarks of photorealism, capturing every pore and strand of hair with extraordinary fidelity.",
+        "register": "technical",
+        "tags": [
+          "art movement",
+          "painting",
+          "20th century art"
+        ]
+      },
+      {
+        "definition": "In computer graphics, the generation of images that are visually indistinguishable from photographs by accurately simulating light, shadow, texture, and perspective.",
+        "example": "Advances in ray-tracing technology have brought real-time photorealism within reach of modern gaming hardware.",
+        "register": "technical",
+        "tags": [
+          "computer graphics",
+          "rendering",
+          "CGI"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "plein air",
@@ -28789,7 +28884,24 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A Post-Impressionist painting technique in which small, distinct dots of pure colour are applied in patterns to form an image, relying on optical mixing rather than blending on the palette.",
+        "example": "Seurat's Sunday on La Grande Jatte is the canonical example of pointillism, constructed entirely from thousands of tiny colour dots.",
+        "register": "technical",
+        "tags": [
+          "art technique",
+          "Post-Impressionism",
+          "painting",
+          "colour theory"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "scumbling",
@@ -32815,9 +32927,40 @@
     "term": "screening",
     "language": "en",
     "partOfSpeech": "noun",
-    "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "register": "general",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The process of showing a film, programme, or other visual content to an audience, especially as a preview or public presentation.",
+        "example": "The documentary received a standing ovation at its first screening at the international film festival.",
+        "register": "general",
+        "tags": [
+          "film",
+          "cinema",
+          "broadcasting"
+        ]
+      },
+      {
+        "definition": "A medical examination or test performed on a large population to detect early signs of a disease or condition before symptoms appear.",
+        "example": "The national cancer screening programme offers free mammograms to women over fifty every three years.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "public health",
+          "diagnostics"
+        ]
+      },
+      {
+        "definition": "The systematic evaluation or examination of candidates, applicants, or items to select those meeting specific criteria.",
+        "example": "HR ran an initial screening of the five hundred applications to identify the twenty most qualified candidates.",
+        "register": "formal",
+        "tags": [
+          "recruitment",
+          "security",
+          "evaluation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32826,10 +32969,22 @@
   {
     "term": "regulatory capture",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A form of government failure in which a regulatory agency, created to act in the public interest, instead advances the commercial or political concerns of the industry it is meant to regulate.",
+        "example": "Critics argued that the telecommunications regulator had experienced regulatory capture, routinely approving mergers that reduced competition and harmed consumers.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "political science",
+          "public policy",
+          "regulation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32838,10 +32993,21 @@
   {
     "term": "allocative efficiency",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A state of the economy in which resources are distributed among producers and consumers so as to maximise total surplus, achieved when every good is produced up to the point where marginal cost equals marginal benefit.",
+        "example": "Perfect competition tends towards allocative efficiency because firms cannot influence prices and must respond directly to consumer demand.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "microeconomics",
+          "welfare economics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32850,10 +33016,21 @@
   {
     "term": "mens rea",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The mental element of a crime; the intention or knowledge of wrongdoing that constitutes part of a criminal offence, as distinguished from the physical act (actus reus).",
+        "example": "The prosecution had to prove beyond reasonable doubt that the defendant had the requisite mens rea—namely, that he intended to permanently deprive the owner of the property.",
+        "register": "technical",
+        "tags": [
+          "criminal law",
+          "legal Latin",
+          "jurisprudence"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32862,10 +33039,22 @@
   {
     "term": "habeas corpus",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A legal writ requiring a person under arrest to be brought before a judge or into court to secure the person's release unless lawful grounds are shown for their detention.",
+        "example": "The detainee's lawyer filed a writ of habeas corpus, arguing that his client was being held without charge in violation of constitutional rights.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "constitutional law",
+          "civil liberties",
+          "legal Latin"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32874,10 +33063,22 @@
   {
     "term": "due process",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The principle that the government must respect all of the legal rights owed to a person under the law, ensuring fair treatment through the normal judicial system.",
+        "example": "The court held that dismissing the employee without a hearing violated her right to due process under the Fourteenth Amendment.",
+        "register": "technical",
+        "tags": [
+          "constitutional law",
+          "civil procedure",
+          "human rights",
+          "US law"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32887,9 +33088,31 @@
     "term": "precedent",
     "language": "en",
     "partOfSpeech": "noun",
-    "register": "formal",
-    "status": "stub",
-    "meanings": [],
+    "register": "technical",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An earlier event, case, or legal decision that serves as an example or rule to be followed in subsequent similar cases.",
+        "example": "The landmark ruling set a precedent that lower courts were obliged to follow when deciding comparable discrimination claims.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "common law",
+          "jurisprudence",
+          "stare decisis"
+        ]
+      },
+      {
+        "definition": "An action, situation, or decision that has already occurred and can be used to justify a similar action or decision in the future.",
+        "example": "Granting one team flexible hours without a formal policy created an awkward precedent that other departments quickly sought to invoke.",
+        "register": "formal",
+        "tags": [
+          "general usage",
+          "management",
+          "policy"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32898,10 +33121,22 @@
   {
     "term": "stare decisis",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The legal doctrine obligating courts to follow precedents established in earlier decisions when the same points of law arise again, ensuring consistency and predictability in the application of law.",
+        "example": "Invoking stare decisis, the appellate court declined to overturn the thirty-year-old ruling, reasoning that stability in commercial law outweighed any doctrinal inconvenience.",
+        "register": "technical",
+        "tags": [
+          "common law",
+          "jurisprudence",
+          "legal Latin",
+          "precedent"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32912,8 +33147,20 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A civil wrong, other than a breach of contract, for which a court provides a remedy in the form of damages; encompasses negligence, nuisance, defamation, and related wrongs.",
+        "example": "The driver's failure to stop at the red light and the resulting injury to the cyclist constituted a tort actionable in civil court.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "civil law",
+          "tort law",
+          "negligence"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32924,8 +33171,30 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The legal capacity of a party to bring or contest an action in court; the requirement that a plaintiff must have a sufficient connection to and harm from the law or action challenged.",
+        "example": "The environmental group was denied standing because it could not demonstrate that its members had suffered a concrete and particularised injury from the proposed development.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "civil procedure",
+          "constitutional law",
+          "locus standi"
+        ]
+      },
+      {
+        "definition": "One's reputation, position, or relative status within a community or organisation.",
+        "example": "His standing in the academic community suffered after several of his published results could not be replicated.",
+        "register": "formal",
+        "tags": [
+          "social status",
+          "reputation",
+          "general usage"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32936,8 +33205,30 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The official power of a court or other legal authority to hear and decide cases, interpret and apply the law, and enforce legal decisions within a defined territory or over certain types of cases.",
+        "example": "The federal district court declined to hear the case, ruling that the dispute fell within the exclusive jurisdiction of state courts.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "civil procedure",
+          "courts",
+          "international law"
+        ]
+      },
+      {
+        "definition": "A territorial area or political unit within which a particular legal system or authority operates.",
+        "example": "Cryptocurrency regulation varies enormously depending on the jurisdiction, with some countries imposing strict controls and others maintaining a permissive environment.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "geography",
+          "governance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32946,10 +33237,22 @@
   {
     "term": "judicial review",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The power of a court to examine decisions made by public bodies, and to declare legislation or administrative actions unconstitutional, unlawful, or otherwise invalid.",
+        "example": "Environmental campaigners sought judicial review of the planning minister's decision to approve the new motorway, arguing it violated statutory environmental obligations.",
+        "register": "technical",
+        "tags": [
+          "constitutional law",
+          "administrative law",
+          "courts",
+          "public law"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32958,10 +33261,22 @@
   {
     "term": "equal protection",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The constitutional principle, most prominent in the US Fourteenth Amendment, requiring that the government treat similarly situated individuals in a like manner and that any differential treatment must be justified by a sufficient governmental interest.",
+        "example": "The Supreme Court struck down the policy under the equal protection clause, finding no rational basis for treating same-sex couples differently from opposite-sex couples in the distribution of survivor benefits.",
+        "register": "technical",
+        "tags": [
+          "constitutional law",
+          "civil rights",
+          "US law",
+          "Fourteenth Amendment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32970,10 +33285,22 @@
   {
     "term": "substantive due process",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A constitutional doctrine holding that certain fundamental rights are so deeply rooted in the nation's history and tradition that legislation cannot infringe them regardless of the fairness of the procedures used, even when the legislature follows proper form.",
+        "example": "The court applied substantive due process to strike down the statute, holding that the right to make intimate personal decisions was a fundamental liberty that the government could not extinguish without a compelling justification.",
+        "register": "technical",
+        "tags": [
+          "constitutional law",
+          "US law",
+          "civil liberties",
+          "Fourteenth Amendment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32982,10 +33309,22 @@
   {
     "term": "procedural due process",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The aspect of due process concerned with the adequacy of governmental procedures used before depriving a person of life, liberty, or property, requiring appropriate notice and an opportunity to be heard.",
+        "example": "The agency's failure to give the licence-holder prior notice and a chance to contest the revocation was a textbook violation of procedural due process.",
+        "register": "technical",
+        "tags": [
+          "constitutional law",
+          "administrative law",
+          "US law",
+          "civil procedure"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -32994,10 +33333,22 @@
   {
     "term": "strict scrutiny",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The most rigorous standard of judicial review applied by US courts to legislation that burdens fundamental rights or targets suspect classifications such as race, requiring the government to show that the law is narrowly tailored to serve a compelling governmental interest.",
+        "example": "Because the admissions policy classified applicants by race, the court subjected it to strict scrutiny and ultimately found that the university had not demonstrated a sufficiently compelling interest.",
+        "register": "technical",
+        "tags": [
+          "constitutional law",
+          "US law",
+          "equal protection",
+          "judicial review"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33006,10 +33357,22 @@
   {
     "term": "rational basis",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The most deferential standard of judicial review in US constitutional law, under which a law will be upheld if it is rationally related to any legitimate governmental purpose, regardless of whether the court finds the policy wise.",
+        "example": "Because the regulation addressed economic activity rather than a fundamental right, the court applied the rational basis test and quickly sustained the legislation.",
+        "register": "technical",
+        "tags": [
+          "constitutional law",
+          "US law",
+          "judicial review",
+          "equal protection"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33018,10 +33381,22 @@
   {
     "term": "burden of proof",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The obligation to present sufficient evidence to establish the truth of a disputed factual claim; in criminal cases this rests with the prosecution (beyond reasonable doubt), while in civil cases it typically rests with the claimant (balance of probabilities).",
+        "example": "Defence counsel reminded the jury that the burden of proof lies entirely with the state, and that any reasonable doubt must result in acquittal.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "evidence",
+          "criminal law",
+          "civil procedure"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33030,10 +33405,21 @@
   {
     "term": "actus reus",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The physical act or unlawful omission that forms the external element of a criminal offence, as distinguished from the mental element (mens rea).",
+        "example": "The prosecution proved actus reus by showing that the defendant had physically removed the wallet from the victim's jacket, but the defence disputed whether he had the requisite mental intent.",
+        "register": "technical",
+        "tags": [
+          "criminal law",
+          "legal Latin",
+          "jurisprudence"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33042,10 +33428,22 @@
   {
     "term": "res judicata",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A matter that has already been adjudicated by a competent court; a legal doctrine barring re-litigation of a claim or issue that has been finally decided between the same parties.",
+        "example": "The second lawsuit was dismissed on the ground of res judicata because the identical claim had already been adjudicated to final judgment in the earlier proceedings.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "civil procedure",
+          "legal Latin",
+          "preclusion"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33054,10 +33452,22 @@
   {
     "term": "ultra vires",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Beyond the legal powers or authority of a person, corporation, or governmental body; used to describe acts that exceed the scope of the power granted by statute, constitution, or corporate charter.",
+        "example": "The council's decision to invest in derivatives was declared ultra vires because local authorities are prohibited by statute from engaging in such speculative financial transactions.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "administrative law",
+          "company law",
+          "legal Latin"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33068,8 +33478,30 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A legal principle requiring that the means used to achieve a legitimate aim must not be excessive in relation to the importance of that aim; widely applied in European human rights and EU law to assess whether a restriction on a right is justified.",
+        "example": "The court found that the lifetime ban on practising medicine failed the proportionality test because the regulator had not considered whether a shorter suspension would adequately protect the public.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "human rights",
+          "EU law",
+          "administrative law"
+        ]
+      },
+      {
+        "definition": "The quality of being in correct or suitable proportion; a correspondence of size, degree, or intensity between different elements.",
+        "example": "Critics questioned the proportionality of the police response to a peaceful protest, arguing that riot gear and water cannons were a gross overreaction.",
+        "register": "formal",
+        "tags": [
+          "general",
+          "ethics",
+          "political science"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33080,8 +33512,20 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The political and legal principle that matters should be handled by the smallest, most local competent authority, with higher-level bodies intervening only when lower-level action would be insufficient; a cornerstone of EU governance.",
+        "example": "The Commission invoked subsidiarity to argue that member states were better placed to regulate housing markets than a centralised European authority.",
+        "register": "technical",
+        "tags": [
+          "EU law",
+          "political science",
+          "federalism",
+          "governance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33092,8 +33536,20 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A written statement of facts, sworn or affirmed to be true by the deponent before a person authorised to administer oaths, used as evidence in legal proceedings.",
+        "example": "Three employees submitted affidavits confirming that the supervisor had made the threats described in the complaint.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "evidence",
+          "legal documents",
+          "civil procedure"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33102,10 +33558,32 @@
   {
     "term": "prima facie",
     "language": "en",
-    "partOfSpeech": "adjective",
-    "register": "formal",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "On the face of it; at first sight; accepted as correct until proved otherwise. In law, denoting evidence sufficient to establish a fact or raise a presumption unless disproved or rebutted.",
+        "example": "The applicant's documentary evidence established a prima facie case of age discrimination, shifting the burden to the employer to provide a non-discriminatory explanation.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "legal Latin",
+          "evidence",
+          "civil procedure"
+        ]
+      },
+      {
+        "definition": "Used more broadly to describe something that appears to be true based on an initial examination before further investigation.",
+        "example": "There is a prima facie tension between the government's stated commitment to free speech and its proposed restrictions on online content.",
+        "register": "formal",
+        "tags": [
+          "philosophy",
+          "general usage",
+          "argumentation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33114,10 +33592,22 @@
   {
     "term": "double jeopardy",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The constitutional and common law prohibition against prosecuting a person twice for the same offence following an acquittal or conviction, protecting individuals from being subjected to repeated trials at the government's discretion.",
+        "example": "After the jury returned a not-guilty verdict, the prosecution was barred from retrying the defendant on the same charge under the principle of double jeopardy.",
+        "register": "technical",
+        "tags": [
+          "criminal law",
+          "constitutional law",
+          "civil liberties",
+          "US law"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33149,10 +33639,22 @@
   {
     "term": "virtue ethics",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A normative ethical theory that focuses on the character of the moral agent rather than on rules or consequences, holding that a person acts rightly when acting as a virtuous person would act.",
+        "example": "A virtue ethics approach to the dilemma asks not 'what rule applies?' but 'what would an honest, compassionate, and courageous person do in this situation?'",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "ethics",
+          "moral philosophy",
+          "Aristotle"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33161,10 +33663,21 @@
   {
     "term": "normative ethics",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The branch of moral philosophy concerned with establishing standards or norms for how people ought to act, encompassing theories such as consequentialism, deontology, and virtue ethics.",
+        "example": "Normative ethics differs from metaethics in that it seeks to prescribe conduct rather than analyse the meaning and justification of moral claims.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "ethics",
+          "moral philosophy"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33173,10 +33686,22 @@
   {
     "term": "moral luck",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The phenomenon in which factors beyond a person's control influence the moral judgements we make of them and the degree of moral praise or blame they receive, challenging Kantian notions of pure autonomy.",
+        "example": "The two drivers both ran the red light, but one hit a child who ran into the road while the other drove through safely; moral luck determines that we judge them very differently despite identical negligence.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "ethics",
+          "moral philosophy",
+          "responsibility"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -33266,10 +33791,22 @@
   {
     "term": "natural monopoly",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An industry in which the most efficient number of producers is one because the technology has high fixed costs and low marginal costs, so a single firm can supply the entire market at lower average cost than two or more competing firms.",
+        "example": "Water distribution is typically treated as a natural monopoly because the enormous cost of laying a second pipe network means competition between providers is economically infeasible.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "microeconomics",
+          "regulation",
+          "industrial organisation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
