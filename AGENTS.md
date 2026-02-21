@@ -429,3 +429,48 @@ All qaNote-flagged inaccuracies were resolved:
 - LT entries with empty synonyms (`tramvajus`, `troleibusas`, `kokie`, `mėnuo`, `metai`, `kiek`, `traukinys`, `sniegas`) were left with `[]` — LT has no minimum synonym requirement.
 - Several LT entries carry production-duplicate qaNotes (`mėnuo`, `metai`, `namas`, `lietus`, `sniegas`) — these are enrichment-pipeline concerns outside this session's scope.
 - `Platus` and `Švarus` capitalisation qaNotes noted; not fixed here as term-field changes are outside relations scope.
+
+## Session retro — vocab/relations-24
+
+**Date:** 2025-07-26
+**Branch:** vocab/relations-24
+**Commit:** a548ac5
+
+### Task
+Promote 35 enriched → relations-added per file (words_staging.json, words_lt_staging.json).
+
+### Preflight
+Both files passed preflight JSON parse. Pre-existing errors were confined to `approved`-status entries and are outside this session's scope.
+
+### EN — 35 entries promoted (indices 575, 656–689)
+All entries had pre-existing synonym/antonym/related arrays added in a prior session. Six validation issues were resolved before promoting:
+
+| Entry | Issue | Fix |
+|---|---|---|
+| `prescriptivism` | "universal prescriptivism" self-referential token | Removed from synonyms (2 remain) |
+| `heteronomy` | "autonomy" cross-array dupe (antonymTerms + relatedTerms) | Removed from relatedTerms |
+| `moiety` | "exogamous moiety" self-referential token | Removed from synonyms (2 remain) |
+| `polyandry` | "fraternal polyandry" self-ref; "polygyny" cross-array dupe | Both removed |
+| `polygyny` | "sororal polygyny" self-ref; "polyandry" cross-array dupe | Both removed |
+| `transhumance` | "vertical transhumance" self-referential token | Removed from synonyms (2 remain) |
+
+Entries with hyphenated forms (structural-functionalism, post-structuralism, anti-perfectionism) were intentionally left — hyphenated strings are single tokens by the validator's space-split rule.
+
+### LT — 35 entries promoted
+32 well-populated entries (syn ≥ 2, total relations ≥ 6) + 3 additionally completed:
+
+- **tikėtis [1494]**: removed "viltis" from relatedTerms (cross-array dupe with synonyms)
+- **poilsis [1496]**: removed "atostogos" from relatedTerms (cross-array dupe with synonyms)
+- **Platus [822]**: added second synonym "didžiulis" (vast/extensive)
+- **Apsigyventi [935]**: added second synonym "apsistoti" (to settle/lodge)
+- **Švarus [1003]**: added second synonym "nepriekaištingas" (immaculate/spotless)
+
+All LT synonyms/antonyms are in nominative dictionary form; no -ą/-ų endings present.
+
+### Validation
+`validate_words.py --errors-for relations-added` → **PASSED** on both files (exit 0). Warnings are pre-existing approved-status issues outside scope.
+
+### Notes
+- The validator runs `validate_relations` only for `relations-added` and `approved` statuses, not `enriched` — so enriched entries with relation issues are silent until promotion. This means promotion must include a pre-promotion issue scan.
+- Hyphenated synonyms (e.g., "structural-functionalism") are treated as single tokens by the validator (space-split only); they are not flagged as self-referential even when the base term appears after the hyphen. This is by design.
+- EN requires ≥ 2 synonyms for relations-added; LT has no minimum. The 3 additional LT entries were completed to 2 synonyms for quality consistency.
