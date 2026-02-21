@@ -3634,3 +3634,31 @@ JSON preflight passed. 705 stubs available before session.
 - `paleomammalian cortex` and `visceral brain` for `limbic system` are older/informal terms that are approximately co-extensive; modern neuroscience discourages MacLean's triune brain model. QA may wish to refine.
 - `Sewall Wright effect` for `genetic drift` is valid but uncommonly used in contemporary literature; QA may prefer a different second synonym.
 - No merge performed as instructed.
+
+## Seeder Agent — vocab/seeder-en-12
+
+**Date**: 2025-07-30
+**Agent**: Seeder Agent
+**Branch**: `vocab/seeder-en-12`
+
+### What was done
+- Loaded `words_staging.json` (1,130 existing entries) and extracted all existing terms into a de-duplication set.
+- Cross-checked every planned term against the existing list before writing. Identified 5 conflicts that required substitution: `generative adversarial network` → `contrastive learning`; `gradient descent` → `federated learning`; `information asymmetry` and `moral hazard` → `Arrow's impossibility theorem` / `Pareto efficiency`; `representativeness heuristic` → `affect heuristic`.
+- Also confirmed pre-existing coverage of: neural network, backpropagation, activation function, transformer, reinforcement learning, pragmatics, morphology, allomorph, allophone, deixis, diglossia, prosody, illocution, implicature, presupposition, underdetermination, abduction, anchoring, anomie, cognitive dissonance, habitus, stratification, structuralism, functionalism, hegemony, biogeochemistry, eutrophication.
+- Added 100 new EN C1+ stubs across 6 topic clusters: computer science/AI (25), linguistics (20), philosophy of science (15), economics/behavioral (15), sociology (15), environmental science (10).
+- First validation attempt failed: stubs were written with only `{term, status}` but the validator requires `language` as a mandatory stub field. Fixed all 100 entries to include `"language": "en"`.
+- Final validation: `python3 scripts/validate_words.py --errors-for stub` → **PASSED** (0 stub errors; 91 pre-existing warnings in other statuses, all pre-existing and out of scope).
+
+### Topic coverage
+| Cluster | Count | Example terms |
+|---|---|---|
+| CS/AI | 25 | convolutional neural network, autoencoder, CAP theorem, zero-knowledge proof, just-in-time compilation |
+| Linguistics | 20 | phonology, morpheme, sandhi, discourse analysis, politeness theory |
+| Philosophy of science | 15 | falsificationism, paradigm shift, Duhem-Quine thesis, theory-ladenness |
+| Economics/behavioral | 15 | prospect theory, loss aversion, hyperbolic discounting, conjunction fallacy |
+| Sociology | 15 | social capital, symbolic interactionism, mechanical solidarity |
+| Environmental science | 10 | carbon cycle, trophic level, climax community, ecosystem services |
+
+### Decisions / meta-notes
+- Stub format used: `{term, language: "en", status: "stub"}` — minimal valid format per validator; partOfSpeech left blank (permitted at stub stage per validator logic).
+- No merge performed as instructed.
