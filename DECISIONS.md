@@ -537,3 +537,61 @@ Selected 35 stubs covering jobs/professions and work/office vocabulary at A1/A2 
 - Rule (3) synonyms semantic accuracy: three EN entries had <2 synonyms due to QA pruning in a prior pass (enricher's original synonyms were removed as subtypes or tautologies); replacements chosen as genuine co-extensive terms.
 - Rule (4) no cross-array duplicates: `didelis`/`didelė` each had one synonym duplicated in relatedTerms; removed from relatedTerms.
 - EN enriched count was 31, not 35 — all available enriched entries processed; batch size limited by available enriched entries.
+
+---
+
+## Retro — enricher-lt-27: enrich 35 Lithuanian stubs (technology/computers/internet)
+
+**Date:** 2025-02-21
+**Branch:** vocab/enricher-lt-27
+**Commit:** 6244fc0
+
+### What was done
+- Enriched 35 stubs in `words_lt_staging.json` focusing on technology, computers, and internet vocabulary at A2/B1 level.
+- Selected terms span hardware/devices, digital transactions, file operations, device control, internet/communication verbs, online interaction, digital documents, and fintech/e-learning.
+- All 35 entries validated clean under `validate_words.py --errors-for enriched` (exit 0).
+
+### Terms enriched (35)
+| Term | POS | Focus area |
+|------|-----|------------|
+| pelė | noun | hardware — computer mouse |
+| planšetinis kompiuteris | phrase | hardware — tablet device |
+| televizorius | noun | electronics — streaming/media |
+| mokėjimo kortelė | phrase | fintech — digital payment |
+| elektroninis bilietas | phrase | digital — e-ticket |
+| kopija | noun | file operations |
+| kopijuoti | verb | file operations — copy |
+| klijuoti | verb | file operations — paste / glue |
+| trinti | verb | file operations — delete/erase |
+| įjungti | verb | device control — power on |
+| išjungti | verb | device control — power off |
+| siųsti | verb | internet/email — send |
+| gauti | verb | internet/email — receive |
+| ieškoti | verb | internet — search |
+| rasti | verb | internet — find |
+| patikrinti | verb | security/internet — verify |
+| pakeisti | verb | settings/security — update |
+| veikti | verb | device/system — function |
+| dalyvauti | verb | online meeting — participate |
+| kreiptis | verb | online interaction — contact |
+| pasirašyti | verb | digital document — sign |
+| susirinkti | verb | online meeting — gather |
+| pradėti | verb | process — start |
+| baigti | verb | process — finish |
+| užsakyti | verb | e-commerce — order |
+| laiškas | noun | email/post |
+| siuntinys | noun | e-commerce — parcel |
+| valiuta | noun | fintech — currency |
+| moneta | noun | fintech — coin/crypto token |
+| paskola | noun | fintech — loan |
+| blankas | noun | online form |
+| kursas | noun | fintech/e-learning — rate/course |
+| kursai | noun | e-learning — courses |
+| užpildyti | verb | online form — fill in |
+| teirautis | verb | online inquiry |
+
+### Issues / notes
+- No terms required correction post-validation; all 35 enriched entries passed on first run.
+- Enrichment script accidentally wrote to the wrong repo (`vocabular`) on the first run due to CWD mismatch; reverted immediately via `git checkout`, then re-applied to the correct repo (`vocabular-wt-enricher-lt-27`). No lasting impact on `vocabular`.
+- Several terms (e.g. `klijuoti`, `trinti`, `moneta`, `laiškas`, `kursas`) were given two meanings where the tech sense and the everyday sense differ meaningfully.
+- Synonyms `paieška vykdyti` (ieškoti) and `patvirtinti parašu` (pasirašyti) are descriptive phrases rather than single-word headwords; acceptable at A2/B1 where true single-word synonyms are sparse.
