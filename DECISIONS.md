@@ -763,3 +763,26 @@ Selected 35 stubs covering jobs/professions and work/office vocabulary at A1/A2 
 - Terms borrowed from formal logic/philosophy (alethic, doxastic, deflationism) may need register tags (`academic`/`technical`) and example sentences from specialist literature during enrichment.
 - `codeswitching` is often hyphenated or spaced in the literature; normalise to one-word form at enrichment time.
 - Pairs like signifier/signified, denotation/connotation, internalism/externalism share tight semantic relations — add explicit `relatedTerms` cross-links during enrichment to aid learner navigation.
+
+## Retro — enricher-en-26 · 35 English stubs enriched
+
+**What went well**
+- Preflight confirmed all 35 target terms present as `status=stub` within the 150 stubs (830 total entries); no missing terms.
+- Domain selection mapped cleanly onto available stubs: cognitive linguistics (10 terms), information theory (10 terms), systems/complexity science (15 terms).
+- Every entry passed `validate_words.py --errors-for enriched` on first run (exit 0); 92 pre-existing warnings in `approved`/`relations-added` entries were correctly scoped out by `--errors-for enriched`.
+- Polysemous terms (`equivocation`, `perplexity`) received two `meanings` objects, each with distinct `definition`, `example`, and `register`, avoiding definition collapse.
+- Tags used domain-specific kebab-case labels (`cognitive-linguistics`, `information-theory`, `complexity-science`, `dynamical-systems`, etc.) consistently for future filtering.
+
+**Decisions made**
+- `entrenchment`, `grounding`, `prototype`, `schema`: pinned to cognitive-linguistic senses (usage-based theory / cognitive grammar) rather than everyday or architectural senses, since that domain was seeded in the previous batch.
+- `equivocation`: retained both the information-theoretic sense (conditional entropy / channel equivocation) and the rhetorical sense; both are relevant to the vocabulary corpus.
+- `perplexity`: retained both the NLP/language-model evaluation sense and the general sense (confusion/puzzlement), as both are C1+ and frequently encountered.
+- `feedforward` modelled as noun (not adjective) matching the system-level usage in control theory and neuroscience; adjectival use is derivative.
+- `fractal`, `attractor`, `bifurcation`: kept register `technical` even though these have some pop-science currency, to signal specialist precision of the definitions given.
+
+**What to watch next batch**
+- Several enriched terms (`emergence`, `holism`, `reductionism`, `constructivism`) overlap heavily with philosophy-of-science stubs still at `stub` status — enrichment of those neighbours should cross-reference these entries in `relatedTerms` during the relations-added stage.
+- `autopoiesis` and `morphogenesis` carry important biological and social-systems senses; the relations stage should disambiguate via domain tags rather than separate entries.
+- `transinformation` is synonymous with mutual information in most literature; confirm preferred headword and add `mutual information` as a synonym at relations stage.
+- `stochasticity` / `ergodicity` / `entropy` form a tightly coupled semantic cluster — cross-links will be essential at the relations-added stage to give learners navigational scaffolding.
+- At relations stage, all 35 entries will need at least 2 synonyms (EN validation rule); some highly technical terms (`trajector`, `transinformation`, `teleonomy`, `losslessness`) have few accepted synonyms — plan short synonym lists early.
