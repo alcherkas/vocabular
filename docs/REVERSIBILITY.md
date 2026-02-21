@@ -76,3 +76,4 @@ Before taking any irreversible action:
 | Architecture Agent | Updating `docs/ARCHITECTURE.md` global schema |
 | Verification Agent | Setting goal `[verified]` or `[needs-rework]` |
 | Reflection Agent | Editing agent protocol docs/scripts (changes rules governing all agents) — **always `[risk: high]`; branch only, human merges** |
+| Orchestrator (Team Lead) | Merging worktree branches to `main`, spawning agents — **`[risk: medium]`; merges are reversible via `git revert`** |

@@ -66,6 +66,10 @@ TASK_PERMISSIONS: dict[str, list[str]] = {
                              "docs/TASKS.md", "docs/process-changelog.md", "docs/retrospectives.md",
                              "docs/audit-log.md", "docs/decisions-pending.md", "docs/decisions-log.md",
                              "scripts/"],
+
+    # Orchestrator (Team Lead) — merges branches, coordinates agents
+    "orchestrator":        ["GOALS.md", "docs/TASKS.md", "docs/audit-log.md", "docs/retrospectives.md",
+                             "docs/decisions-pending.md", "docs/decisions-log.md"],
 }
 
 # Files any agent may always read or minimally append to (never flagged as violations)

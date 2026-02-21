@@ -2,6 +2,16 @@
 
 This is the entry point for all AI agents working on this repository.
 
+## Orchestrator Mode (Recommended)
+
+Run all agents from a **single terminal**. One session acts as team lead, spawning and coordinating all other agents automatically.
+
+```
+You are the team lead. Read docs/ORCHESTRATOR.md and start the agent team.
+```
+
+See [`docs/ORCHESTRATOR.md`](docs/ORCHESTRATOR.md) for the full protocol: agent roster, spawn templates, dependency graph, monitoring loop, and merge coordination.
+
 ## Agent Protocol
 
 ### Product Development Agents (goal-driven)
@@ -41,6 +51,7 @@ For task-driven work (claimed from `TASKS.md`):
 | File | Read when... |
 |------|-------------|
 | [`GOALS.md`](GOALS.md) | You are starting a new session — find what needs doing |
+| [`docs/ORCHESTRATOR.md`](docs/ORCHESTRATOR.md) | You are the team lead running all agents from one terminal |
 | [`docs/REQUIREMENTS-AGENT.md`](docs/REQUIREMENTS-AGENT.md) | You are the Requirements Agent |
 | [`docs/ARCHITECTURE-AGENT.md`](docs/ARCHITECTURE-AGENT.md) | You are the Architecture Agent |
 | [`docs/VERIFICATION-AGENT.md`](docs/VERIFICATION-AGENT.md) | You are the Verification Agent |
