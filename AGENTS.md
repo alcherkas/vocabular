@@ -323,3 +323,55 @@ Seed 100 new English C1+ vocabulary stubs into `words_staging.json` across 9 spe
 - The validator's self-reference check uses exact string equality (case-insensitive); phrases embedding the term (e.g. "potential evapotranspiration") are not caught automatically — manual inspection was applied to all 70 entries.
 - The validator does not check cross-array duplicates; Rule 4 was enforced manually by inspecting every entry's syn/ant/rel arrays together.
 - EN entries without data changes needed only a status bump (phreatomagmatic, drumlin, esker, periglacial, subglacial, nunatak, isoseismal, microseism, aquifer, benthic, biogeochemistry, ecotone, edaphic, geoengineering, leachate, limnology, methanogenesis, pedogenesis, thermocline, brownfield — all had clean pre-existing relations).
+
+---
+
+## Retro — vocab/qa-20 (QA review batch 20)
+
+**Date:** 2025-07-25
+**Branch:** vocab/qa-20
+**Commit:** 84cb63f
+
+### What was done
+- Preflight JSON validation on both `words_staging.json` and `words_lt_staging.json` — both valid JSON (630 EN, 1960 LT entries).
+- Reviewed all 35 `relations-added` entries in each file against five QA checks: (1) no self-references, (2) LT nominative forms only, (3) semantically accurate synonyms, (4) no cross-array duplicates, (5) valid POS and register values.
+- **EN (`words_staging.json`):** 9 approved, 26 enriched.
+  - 6 entries already carried a `qaNote` from a prior stage; status promoted to `enriched`.
+  - 20 new `qaNote`s written for issues found during this review.
+- **LT (`words_lt_staging.json`):** 20 approved, 15 enriched.
+  - All 35 entries had valid POS, register, and nominative-form relational arrays.
+  - 15 entries received new `qaNote`s.
+- `validate_words.py --status enriched` passed for both files (EN 70/70, LT 206/206).
+- Pre-existing failures (EN 26, LT 10) confirmed unrelated to batch-20 entries.
+
+### Stats
+| File | Approved | Enriched | Pre-existing failures (unrelated) |
+|------|----------|----------|------------------------------------|
+| words_staging.json | 9 | 26 | 26 |
+| words_lt_staging.json | 20 | 15 | 10 |
+
+### Issue breakdown
+
+**EN — self-referential synonyms (7 entries):**
+`melisma` ("melismatic passage"), `enharmonic` ("enharmonically equivalent"), `organum` ("parallel organum"), `impasto` ("heavy impasto"), `encaustic` ("encaustic painting"), `triptych` ("triptyque" — French form), `grisaille` ("en grisaille" — French form), `serialism` ("serial composition").
+
+**EN — synonym too broad or too narrow (8 entries):**
+`tessitura` ("vocal range" ≠ prevalent pitch zone), `leitmotif` ("musical motif" too broad), `microtonal` ("quarter-tone" is a subtype), `serialism` ("twelve-tone technique" is narrower), `dodecaphony` ("serial music" is broader), `ostinato` ("ground bass" is a subtype; "riff" is genre-specific), `tenebrism` ("chiaroscuro painting" broader; "Caravaggism" broader), `verism` ("hyper-realism" is a distinct 20th-c. movement).
+
+**EN — wrong concept as synonym or antonym (5 entries):**
+`polyrhythm` ("polymeter" is a distinct concept), `iconoclasm` ("aniconism" is distinct), `enharmonic` ("homophonic pitch" wrong — homophonic = texture), `heteroglossia` ("polyphony" is a related but distinct Bakhtinian concept), `focalization` ("zero focalization" is a subtype, not an antonym), `contrapposto` ("classical pose" too vague), `triptych` ("diptych"/"polyptych" are variants not antonyms).
+
+**LT — self-referential abbreviations (2 entries):**
+`elektroninis laiškas` ("el. laiškas"), `elektroninis paštas` ("el. paštas").
+
+**LT — inaccurate synonyms (12 entries):**
+`kompiuteris` ("skaičiuotuvas" = calculator), `atostogos` ("poilsis" = rest, not leave), `darbuotojas`/`darbuotoja` ("tarnautojas"/"tarnautoja" = civil servant), `konferencija` ("forumas" ≠ conference), `seminaras` ("mokymai" too broad), `parašas` ("autografas" = celebrity autograph), `prašymas` ("pareiškimas" = declaration not request), `statybininkas` ("darbininkas" too broad), `sodininkas` ("daržininkas" = vegetable gardener only), `mechanikas` ("technikas" too broad), `kepėjas` ("duonkepys" = bread baker only).
+
+**LT — data quality (1 entry):**
+`Skyrius` — term improperly capitalised; should be `skyrius`.
+
+### Issues / notes
+- No `-ą`/`-ų` nominative violations were introduced or found in batch-20 LT entries.
+- The validator does not detect cross-language self-references (e.g. French cognates like "triptyque", "en grisaille"); these required manual inspection.
+- `skaičiuotuvas` is a historical false-friend: it was the official coinage for "computer" in early Lithuanian computing but is now the standard term for "calculator". Context-dependent; flagged as inaccurate for a modern learner audience.
+- `susirinkimas`↔`susitikimas` and `alga`↔`atlyginimas` list each other as mutual synonyms — this is acceptable and consistent with existing file conventions.
