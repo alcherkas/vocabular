@@ -3,7 +3,20 @@ import SwiftData
 
 struct SessionStartView: View {
     @Environment(\.modelContext) private var context
+    @Query private var allWords: [Word]
     @Bindable var sessionService: SessionService
+
+    private var hasEverStudied: Bool {
+        allWords.contains { $0.timesSeen > 0 }
+    }
+
+    private func wordCount(for language: String) -> Int {
+        allWords.filter { $0.language == language }.count
+    }
+
+    private var selectedLanguageName: String {
+        sessionService.language == "en" ? "English" : "Lithuanian"
+    }
 
     var body: some View {
         NavigationStack {
@@ -33,24 +46,44 @@ struct SessionStartView: View {
                 .foregroundStyle(.tint)
 
             VStack(spacing: 8) {
-                Text("Start a Session")
-                    .font(.title)
-                    .fontWeight(.bold)
+                if !hasEverStudied {
+                    Text("Welcome! 👋")
+                        .font(.title)
+                        .fontWeight(.bold)
 
-                Text("Pick a language and begin learning")
-                    .foregroundStyle(.secondary)
+                    Text("Pick a language and start your first session")
+                        .foregroundStyle(.secondary)
+                        .multilineTextAlignment(.center)
+                } else {
+                    Text("Start a Session")
+                        .font(.title)
+                        .fontWeight(.bold)
+
+                    Text("Pick a language and begin learning")
+                        .foregroundStyle(.secondary)
+                }
             }
 
             // Language picker
             Picker("Language", selection: Binding(
                 get: { sessionService.language },
-                set: { sessionService.language = $0 }
+                set: {
+                    sessionService.language = $0
+                    sessionService.emptyReason = .none
+                }
             )) {
                 Text("🇬🇧 English").tag("en")
                 Text("🇱🇹 Lithuanian").tag("lt")
             }
             .pickerStyle(.segmented)
             .padding(.horizontal)
+
+            // Empty state messages
+            if wordCount(for: sessionService.language) == 0 {
+                emptyLanguageView
+            } else if sessionService.emptyReason == .allCaughtUp {
+                allCaughtUpView
+            }
 
             Spacer()
 
@@ -63,9 +96,49 @@ struct SessionStartView: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .padding(.horizontal)
+            .disabled(wordCount(for: sessionService.language) == 0)
 
             Spacer()
         }
+    }
+
+    // MARK: - Empty Language View
+    private var emptyLanguageView: some View {
+        VStack(spacing: 12) {
+            Image(systemName: "tray")
+                .font(.system(size: 36))
+                .foregroundStyle(.secondary)
+
+            Text("No words available for \(selectedLanguageName) yet")
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
+
+            Text("Add words in the Words tab to get started")
+                .font(.caption)
+                .foregroundStyle(.tertiary)
+        }
+        .padding()
+        .background(Color(.systemGray6))
+        .clipShape(RoundedRectangle(cornerRadius: 16))
+        .padding(.horizontal)
+    }
+
+    // MARK: - All Caught Up View
+    private var allCaughtUpView: some View {
+        VStack(spacing: 12) {
+            Text("You're all caught up! 🎉")
+                .font(.headline)
+
+            Text("No words due for review right now.\nCheck back later or try another language.")
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
+        }
+        .padding()
+        .background(Color(.systemGray6))
+        .clipShape(RoundedRectangle(cornerRadius: 16))
+        .padding(.horizontal)
     }
 
     // MARK: - Active Session View
