@@ -1297,3 +1297,34 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 
 ### Suggested improvement
 - Consider adding a "school" theme filter to the seeder so future enricher agents can more easily locate topically coherent stub clusters without manual keyword scanning.
+
+## [2025-07-14] [qa-15] [vocab/qa-15]
+
+### Summary
+QA review of batch 15: all `relations-added` entries in both EN and LT staging files.
+
+### Stats
+| File | relations-added reviewed | approved | enriched (fixed) |
+|---|---|---|---|
+| words_staging.json (EN) | 35 | 35 | 0 |
+| words_lt_staging.json (LT) | 35 | 32 | 3 |
+
+### What went well
+- Both JSON files passed preflight (valid JSON, correct structure).
+- All 35 EN entries were clean: no self-references in synonyms/antonyms/related, valid POS and register throughout.
+- 32 of 35 LT entries were clean on first pass; fixes were localised and unambiguous.
+- `validate_words.py --staging` confirmed the 3 fixed entries no longer trigger warnings; all remaining errors were pre-existing `approved`-status issues outside this batch's scope.
+
+### Issues fixed
+- **Autobusas** `relatedTerms`: `autobusų stotis` → `stotis` (genitive plural `-ų` ending on modifier is non-nominative).
+- **traukinys** `relatedTerms`: `traukinių stotis` → `stotis` (same pattern).
+- **dviratis** `relatedTerms`: `dviračių takas` → `takas` (same pattern).
+
+All three cases shared the same root cause: Lithuanian compound-noun phrases using a genitive-plural modifier (e.g. `autobusų`, `traukinių`, `dviračių`) were stored verbatim as relation items. The fix drops the genitive modifier and keeps only the nominative head noun.
+
+### Pre-existing warnings (out of scope)
+- EN: 26 entries with fewer than 2 synonyms (all `enriched`/earlier-batch status, not touched).
+- LT: 10 entries with inflected forms in `approved`-status entries (not touched).
+
+### Suggested improvement
+- The enricher/relations agent should be prompted with an explicit reminder that **all LT relation array items must be the nominative singular (or nominative plural) headword**. Compound phrases with genitive modifiers are a recurring mistake pattern across batches.
