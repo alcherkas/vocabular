@@ -37232,8 +37232,28 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A computational model loosely inspired by the brain, consisting of interconnected layers of nodes (neurons) that learn to map inputs to outputs by adjusting connection weights during training.",
+        "example": "The neural network learned to classify handwritten digits with over 99% accuracy after training on 60,000 labeled examples.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "deep learning",
+          "AI"
+        ]
+      },
+      {
+        "definition": "In neuroscience, the biological system of interconnected nerve cells through which signals are transmitted in the brain and nervous system.",
+        "example": "Researchers mapped the neural network responsible for processing visual motion cues in the primate cortex.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "biology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37244,8 +37264,19 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An iterative first-order optimization algorithm that updates parameters by moving them in the direction opposite to the gradient of the objective function, reducing the loss incrementally.",
+        "example": "Stochastic gradient descent samples a random mini-batch at each step, enabling efficient optimization on datasets too large to process at once.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "optimization",
+          "mathematics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37256,8 +37287,19 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A phenomenon in which a model learns the training data too specifically—capturing noise and idiosyncrasies—resulting in poor generalization to new, unseen examples.",
+        "example": "The near-perfect training accuracy alongside poor validation performance was a textbook sign of overfitting.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "model evaluation",
+          "statistics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37268,8 +37310,28 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A set of techniques that add a penalty term to the training objective to constrain model complexity, discouraging overfitting and improving generalization.",
+        "example": "L2 regularization penalizes large weight magnitudes, nudging the optimizer toward simpler models that are less likely to overfit.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "optimization",
+          "statistics"
+        ]
+      },
+      {
+        "definition": "In mathematics and numerical analysis, the process of converting an ill-posed problem into a well-posed one by incorporating additional constraints or prior information.",
+        "example": "Tikhonov regularization stabilizes matrix inversion by adding a small positive constant to the diagonal, preventing numerical instability.",
+        "register": "technical",
+        "tags": [
+          "mathematics",
+          "numerical analysis"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37280,8 +37342,19 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A component in neural networks that allows the model to dynamically weight the relevance of different positions in the input when computing each output representation.",
+        "example": "The attention mechanism let the translation model align each generated French word with the most relevant English source words, rather than relying on a single fixed context vector.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "NLP",
+          "deep learning"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37292,8 +37365,28 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A neural network architecture based on self-attention mechanisms that process entire sequences in parallel, enabling large-scale pretraining and state-of-the-art performance on language and vision tasks.",
+        "example": "The transformer architecture introduced in 'Attention Is All You Need' replaced recurrent layers with multi-head self-attention, dramatically accelerating training.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "NLP",
+          "deep learning"
+        ]
+      },
+      {
+        "definition": "An electrical device that transfers energy between circuits through electromagnetic induction, typically to step voltage up or down.",
+        "example": "The step-down transformer at the substation reduced the transmission voltage from 132 kV to the 240 V supplied to homes.",
+        "register": "technical",
+        "tags": [
+          "electrical engineering",
+          "physics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37304,8 +37397,19 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An algorithm for training neural networks that computes the gradient of the loss function with respect to each weight by applying the chain rule, propagating errors backward from the output layer to the input layer.",
+        "example": "Without backpropagation, training deep networks would require impractically expensive numerical gradient estimates for each weight.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "deep learning",
+          "optimization"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37364,8 +37468,19 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A configuration value that governs the training process or model architecture, set before training begins and not updated by the optimizer, in contrast to model parameters learned from data.",
+        "example": "The learning rate is the most critical hyperparameter: too high causes divergence, while too low results in unacceptably slow convergence.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "model tuning",
+          "optimization"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37376,8 +37491,19 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A function that quantifies the discrepancy between a model's predictions and the true target values, providing the scalar objective that optimization algorithms minimize during training.",
+        "example": "Cross-entropy loss is the standard loss function for multi-class classification, penalizing low predicted probability assigned to the correct class.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "optimization",
+          "mathematics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37388,8 +37514,28 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A dense, low-dimensional vector representation of a discrete object (word, token, entity) learned by a model so that semantically similar objects are placed close together in the vector space.",
+        "example": "Word embeddings trained on large corpora captured analogies: the vector for 'Paris' minus 'France' plus 'Germany' approximated the embedding for 'Berlin'.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "NLP",
+          "representation learning"
+        ]
+      },
+      {
+        "definition": "In mathematics, an injective structure-preserving map from one mathematical object into another, such as a graph or manifold embedded in Euclidean space.",
+        "example": "The embedding of the Möbius band into three-dimensional space preserves its topological structure while allowing geometric visualization.",
+        "register": "technical",
+        "tags": [
+          "mathematics",
+          "topology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37424,8 +37570,19 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A neural network that applies learned convolutional filters across spatial or temporal positions in the input, detecting local patterns and building up hierarchical feature representations.",
+        "example": "The convolutional network recognized edges and textures in early layers before assembling them into object parts and complete objects in deeper layers.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "deep learning",
+          "computer vision"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37460,8 +37617,19 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A mathematical function that transforms a vector of real-valued scores into a probability distribution over discrete outcomes, with each output value between 0 and 1 and all outputs summing to 1.",
+        "example": "After passing the logits through the softmax layer, each class received a probability score that the model used to select the most likely label.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "mathematics",
+          "deep learning"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37469,13 +37637,49 @@
   },
   {
     "term": "convolutional neural network",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A deep learning architecture designed for grid-structured data such as images, using convolutional layers with shared weights to learn translation-invariant spatial features.",
+        "example": "Convolutional neural networks achieved human-level accuracy on the ImageNet benchmark, catalyzing the modern deep learning era.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "deep learning",
+          "computer vision"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "recurrent neural network",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A class of neural networks with directed cyclic connections allowing hidden state to persist across time steps, making them naturally suited to sequential data such as text, speech, and time series.",
+        "example": "Recurrent neural networks dominated sequence-to-sequence machine translation tasks before the transformer architecture largely replaced them.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "deep learning",
+          "NLP"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "long short-term memory",
@@ -37484,8 +37688,26 @@
   },
   {
     "term": "autoencoder",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "An unsupervised neural network trained to compress its input into a compact latent representation (encoding) and then reconstruct the original input from it (decoding), learning efficient data representations.",
+        "example": "The autoencoder learned a bottleneck embedding of customer purchase histories that captured underlying preferences without any labeled training data.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "deep learning",
+          "representation learning"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "contrastive learning",
@@ -37564,8 +37786,36 @@
   },
   {
     "term": "hash function",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A function that maps data of arbitrary size to a fixed-size output value, used in hash tables, checksums, and data deduplication.",
+        "example": "A good hash function distributes keys uniformly across the table's buckets, minimizing collisions and maintaining O(1) average lookup time.",
+        "register": "technical",
+        "tags": [
+          "data structures",
+          "programming",
+          "algorithms"
+        ]
+      },
+      {
+        "definition": "A cryptographic one-way function that produces a fixed-length digest of an input message, designed to be collision-resistant and computationally irreversible.",
+        "example": "SHA-256 is a cryptographic hash function used to verify file integrity and to securely store password hashes.",
+        "register": "technical",
+        "tags": [
+          "cryptography",
+          "security",
+          "algorithms"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "zero-knowledge proof",
@@ -37574,43 +37824,213 @@
   },
   {
     "term": "abstract syntax tree",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A tree data structure representing the hierarchical syntactic structure of source code, where each node corresponds to a language construct, used by compilers, interpreters, and static analysis tools.",
+        "example": "The linter traversed the abstract syntax tree to detect all variable declarations that were never subsequently used.",
+        "register": "technical",
+        "tags": [
+          "compilers",
+          "programming",
+          "static analysis"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "type inference",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The ability of a compiler or type checker to automatically deduce the types of expressions and bindings without requiring explicit type annotations from the programmer.",
+        "example": "Haskell's Hindley–Milner type inference assigns precise polymorphic types to most expressions without a single explicit annotation.",
+        "register": "technical",
+        "tags": [
+          "programming languages",
+          "type theory",
+          "compilers"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "just-in-time compilation",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A technique in which bytecode or intermediate representation is compiled to native machine code at runtime, immediately before execution, allowing programs to benefit from both portability and native performance.",
+        "example": "The JVM's just-in-time compilation identifies frequently executed code paths and compiles them to optimized native instructions after profiling.",
+        "register": "technical",
+        "tags": [
+          "compilers",
+          "runtime systems",
+          "performance"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "garbage collection",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "An automatic memory management technique in which a runtime system identifies and reclaims memory occupied by objects that are no longer reachable by the executing program.",
+        "example": "The garbage collection pause interrupted request handling for 200 milliseconds, causing latency spikes in the real-time API.",
+        "register": "technical",
+        "tags": [
+          "programming",
+          "memory management",
+          "runtime systems"
+        ]
+      },
+      {
+        "definition": "The municipal or institutional process of collecting and removing solid waste from homes, businesses, and public spaces.",
+        "example": "Garbage collection in the district runs every Wednesday morning for residential areas.",
+        "register": "general",
+        "tags": [
+          "everyday",
+          "municipal services"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "phonology",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The branch of linguistics that studies the abstract, rule-governed sound system of a language, including the inventory of phonemes, syllable structure, and prosodic patterns.",
+        "example": "English phonology prohibits certain consonant clusters word-initially; speakers resolve violations through vowel insertion or cluster reduction.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "phonology"
+        ]
+      },
+      {
+        "definition": "The sound patterns specific to a particular language, viewed as an object of study distinct from universal phonetic possibilities.",
+        "example": "The phonology of Japanese disallows syllable-final stop consonants, in contrast to English, which permits complex codas.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "phonology",
+          "language typology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "phoneme",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The smallest contrastive unit of sound in a language's phonological system, whose substitution can change word meaning, as demonstrated by minimal pairs.",
+        "example": "The phonemes /p/ and /b/ are contrastive in English, shown by the minimal pair 'pat' versus 'bat'.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "phonology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "suprasegmental",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "Pertaining to phonological features—such as tone, stress, intonation, and rhythm—that extend over sequences of more than one segment and cannot be assigned to a single consonant or vowel in isolation.",
+        "example": "In Mandarin, suprasegmental tones are phonemically contrastive: the same segmental sequence /ma/ carries four distinct meanings depending on which tone is applied.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "phonology",
+          "prosody"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "metathesis",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A phonological process in which two sounds or syllables within a word exchange positions, occurring as a historical change, a synchronic alternation, or a speech error.",
+        "example": "The Old English form 'brid' underwent metathesis of /r/ and /i/ to yield the modern English word 'bird'.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "phonology",
+          "historical linguistics"
+        ]
+      },
+      {
+        "definition": "In chemistry, a reaction in which two molecules exchange bonding partners, yielding two new compounds; particularly important in olefin metathesis for constructing carbon–carbon double bonds.",
+        "example": "Ring-closing metathesis enabled chemists to efficiently synthesize the macrocyclic core of the anticancer compound epothilone.",
+        "register": "technical",
+        "tags": [
+          "chemistry",
+          "organic chemistry"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "phonological assimilation",
@@ -37624,58 +38044,292 @@
   },
   {
     "term": "morpheme",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The smallest unit of language that carries meaning or grammatical function and cannot be divided further without losing that meaning.",
+        "example": "The word 'unhelpful' contains three morphemes: the prefix 'un-', the root 'help', and the suffix '-ful'.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "morphology"
+        ]
+      },
+      {
+        "definition": "Classified as free (capable of standing alone as a word) or bound (only occurring attached to another morpheme).",
+        "example": "The morpheme '-ness' is bound and cannot appear independently, whereas 'help' is a free morpheme that constitutes a complete word.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "morphology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "inflectional morphology",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The area of morphology that deals with grammatical modifications of a word—such as tense, number, case, or agreement—that do not alter its core lexical meaning or change its syntactic category.",
+        "example": "Russian inflectional morphology marks six noun cases through suffixal alternations, with distinct paradigms for masculine, feminine, and neuter genders.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "morphology",
+          "grammar"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "derivational morphology",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The component of morphology concerned with the formation of new lexical items, often changing word class or core meaning through the addition of derivational affixes.",
+        "example": "Derivational morphology in English converts the verb 'teach' into the noun 'teacher' and the adjective 'teachable' by adding category-changing suffixes.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "morphology",
+          "word formation"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "clitic",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A morpheme that has word-like syntactic properties but is phonologically dependent on an adjacent host word, unable to bear its own stress or stand in isolation.",
+        "example": "The contracted form 'll in 'I'll go' is an enclitic: it attaches to the preceding pronoun and cannot appear independently.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "morphology",
+          "syntax"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "agglutination",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A morphological process in which successive, individually meaningful affixes are appended to a root, each expressing a distinct grammatical category with minimal phonological fusion between them.",
+        "example": "Turkish demonstrates agglutination: 'geliyorsunuz' combines root 'gel-' (come), progressive suffix, second-person plural, and politeness marker in a single word form.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "morphology",
+          "language typology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "syllable structure",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The internal organization of a syllable into constituents—typically onset (initial consonants), nucleus (vowel), and coda (final consonants)—subject to language-specific phonotactic constraints.",
+        "example": "The word 'strengths' displays maximal syllable structure in English: the onset cluster /str/ is followed by the nucleus /ɛ/ and the complex coda /ŋkθs/.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "phonology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "discourse analysis",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A field of linguistics and social science that examines language use beyond the sentence level, investigating how coherence, context, power relations, and social factors shape extended communication.",
+        "example": "Discourse analysis of parliamentary debates revealed systematic use of passive constructions to obscure political responsibility.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "sociolinguistics",
+          "pragmatics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "discourse marker",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A word or phrase that signals discourse-level structure, coherence relations, or the speaker's pragmatic stance without contributing to the propositional content of the utterance.",
+        "example": "'Well,' 'anyway,' and 'so' are discourse markers that manage turn-taking, signal topic shifts, or index the speaker's attitude toward subsequent content.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "pragmatics",
+          "discourse analysis"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "speech act",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "An utterance considered as a social action—such as asserting, promising, requesting, or declaring—analysed in terms of its illocutionary force and perlocutionary effect, following Austin and Searle.",
+        "example": "When the officiant says 'I now pronounce you married,' the utterance is a performative speech act that constitutes the marriage rather than merely describing it.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "pragmatics",
+          "philosophy of language"
+        ]
+      },
+      {
+        "definition": "In computational linguistics, a classification assigned to an utterance indicating the speaker's communicative intent, used in dialogue systems and NLU.",
+        "example": "The dialogue system classified the user utterance as a 'book-flight' speech act and triggered the reservation workflow.",
+        "register": "technical",
+        "tags": [
+          "NLP",
+          "dialogue systems",
+          "pragmatics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "coherence",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The property of a discourse or text whereby individual sentences and clauses combine into a unified, interpretable whole through logical, semantic, and referential continuity.",
+        "example": "The essay failed coherence: its paragraphs introduced unrelated points with no connective thread linking them to the central argument.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "discourse analysis",
+          "pragmatics"
+        ]
+      },
+      {
+        "definition": "In physics, the property of waves or fields maintaining a constant phase relationship over time or space, enabling stable interference patterns.",
+        "example": "Laser light is temporally and spatially coherent, which is why it can form sharp interference fringes in holographic applications.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "optics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "register",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A variety of language defined by the social situation or communicative purpose of its use, distinguished by characteristic choices of vocabulary, grammar, and style.",
+        "example": "Physicians shift register when addressing patients, replacing clinical terminology with accessible plain-language equivalents to ensure understanding.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "sociolinguistics",
+          "pragmatics"
+        ]
+      },
+      {
+        "definition": "In computing, a small, high-speed storage location within the CPU that holds operands, addresses, or intermediate values during instruction execution.",
+        "example": "The compiler allocated the frequently accessed loop counter to a CPU register to avoid repeated memory read operations.",
+        "register": "technical",
+        "tags": [
+          "computer architecture",
+          "programming",
+          "hardware"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null
   },
   {
     "term": "genre",
