@@ -348,3 +348,42 @@ PASSED — 530 word(s) valid ✓ (validate_words.py --errors-for enriched, exit 
 - LT synonyms for highly specific body-part terms (e.g. *oda*, *pirštas*) are limited to one diminutive/near-synonym, as no true synonym exists; validator imposes no minimum-synonym rule for LT entries.
 - Self-reference guard applied manually: no term appears in its own relation arrays.
 - Commit follows conventional-commits prefix `vocab(relations-15):`.
+
+## qa-16 retro
+
+**Date:** 2025-07-24  
+**Branch:** vocab/qa-16  
+**Agent:** Vocab QA Agent
+
+### What was done
+- Preflight JSON validation: both `words_staging.json` and `words_lt_staging.json` passed `python3 -m json.tool`.
+- Reviewed all **35 EN** and **35 LT** `relations-added` entries from batch 16 (relations-15 output).
+- Ran `validate_words.py --staging` on both files; 26 EN + 10 LT pre-existing failures noted, none in batch 16 entries.
+
+### Decisions per check
+
+**Check 1 — Self-reference in arrays**
+- No exact self-references found. Near-self-references evaluated case-by-case.
+
+**Check 2 — LT nominative forms**
+- No bare -ą/-ų endings found in array items. Compound phrases like `dantų šepetėlis` and `medicinos reikmenys` use genitive as grammatical modifier; the phrase head is nominative — accepted.
+
+**Check 3 — Cross-array duplicates**
+- `modularity`: `domain specificity` appeared in both `synonyms` and `relatedTerms` → enriched.
+- `quasirationality`: `bounded rationality` appeared in both `synonyms` and `relatedTerms` → enriched.
+- `plasticity`: `ductility` appeared in both `synonyms` and `relatedTerms` → enriched.
+- `overconfidence`: `calibration` appeared in both `antonymTerms` and `relatedTerms` → enriched.
+
+**Check 4 — Self-referential synonyms (term contained in synonym string)**
+- `dielectric`: synonym `dielectric material` = term + generic noun, not a distinct synonym → enriched.
+- `perovskite`: `perovskite material` = term + generic noun; `perovskite oxide` = subtype, not synonym → enriched.
+
+**Check 5 — LT semantic accuracy**
+- `jaustis`: synonym `jausti` is the transitive (non-reflexive) counterpart — different verb class, should be relatedTerms → enriched.
+- `receptas`: synonyms `vaistų receptas` and `medicinos receptas` are qualified forms of the term itself, not independent synonyms → enriched.
+
+### Outcome
+| Language | Total | Approved | Enriched |
+|---|---|---|---|
+| EN | 35 | 29 | 6 |
+| LT | 35 | 33 | 2 |
