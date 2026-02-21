@@ -22679,27 +22679,96 @@
   {
     "term": "oculus",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A circular opening at the crown of a dome or vault, admitting light and air to the interior below.",
+        "example": "The Pantheon's oculus, nine metres in diameter, is the building's sole source of natural light.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "classical",
+          "fenestration"
+        ]
+      }
+    ]
   },
   {
     "term": "pendentive",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A concave triangular section of masonry or vaulting that mediates between a circular dome and its square or polygonal substructure, distributing the dome's load to the supporting piers.",
+        "example": "Byzantine architects used pendentives to transition smoothly from the square nave to the circular dome above.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "structural",
+          "Byzantine",
+          "vaulting"
+        ]
+      }
+    ]
   },
   {
     "term": "quoin",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Dressed stones or bricks forming the external corner of a building, often projecting or contrasting in material with the surrounding wall surface for structural reinforcement and ornamental effect.",
+        "example": "The Georgian townhouse featured alternating large and small quoins in pale limestone set against the red-brick facade.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "masonry",
+          "classical",
+          "ornament"
+        ]
+      }
+    ]
   },
   {
     "term": "rustication",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A masonry treatment in which blocks of stone are given a rough or boldly projecting face with deeply incised joints, creating a weighty, fortress-like effect typically used on the lower storeys of classical buildings.",
+        "example": "The rustication of the palazzo's ground floor conveyed an impression of power and solidity before the refined piano nobile above.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "masonry",
+          "classical",
+          "Renaissance"
+        ]
+      }
+    ]
   },
   {
     "term": "soffit",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The exposed underside of any overhead architectural element, such as an arch, lintel, staircase, balcony, or ceiling recess.",
+        "example": "The painted soffit of the loggia depicted scenes from classical mythology executed in vivid fresco.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "structural",
+          "ornament",
+          "ceiling"
+        ]
+      }
+    ]
   },
   {
     "term": "brunoise",
@@ -25832,7 +25901,32 @@
   {
     "term": "recursion",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A method of defining or solving problems in which a function refers to itself, with each call reducing the problem to a simpler instance until a base case terminates the process.",
+        "example": "The Fibonacci sequence is elegantly expressed through recursion: each term is defined as the sum of the two preceding terms, with base cases of 0 and 1.",
+        "register": "technical",
+        "tags": [
+          "computer science",
+          "mathematics",
+          "algorithms",
+          "programming"
+        ]
+      },
+      {
+        "definition": "The linguistic or logical property by which a syntactic structure or concept can be embedded within another instance of the same structure, in principle without limit.",
+        "example": "The sentence 'She said that he knew that they believed that...' illustrates linguistic recursion through indefinitely nestable subordinate clauses.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "cognitive science",
+          "logic",
+          "syntax"
+        ]
+      }
+    ]
   },
   {
     "term": "synergy",
@@ -26094,7 +26188,22 @@
   {
     "term": "panarchy",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A systems-theory framework describing how natural and social systems undergo nested, cross-scale cycles of growth, conservation, creative collapse, and renewal, with dynamics at each scale influencing and being influenced by those above and below.",
+        "example": "The collapse of the regional fishing industry was analysed through panarchy as a rigidity trap: accumulated stability at the local scale prevented the adaptive reorganisation that resilience required.",
+        "register": "technical",
+        "tags": [
+          "systems theory",
+          "ecology",
+          "complexity",
+          "urban theory",
+          "resilience"
+        ]
+      }
+    ]
   },
   {
     "term": "dissipation",
@@ -26104,7 +26213,21 @@
   {
     "term": "metastability",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The condition of a physical, chemical, or complex system that persists in an apparently stable state that is not the global energy minimum, remaining vulnerable to an abrupt transition to a more stable configuration when sufficiently perturbed.",
+        "example": "Supercooled water is a classic example of metastability: it remains liquid below 0 °C until disturbed, then crystallises rapidly.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "chemistry",
+          "systems theory",
+          "complexity"
+        ]
+      }
+    ]
   },
   {
     "term": "renormalization",
@@ -26114,7 +26237,33 @@
   {
     "term": "constructivism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A revolutionary Russian avant-garde movement of the 1920s that promoted abstract geometric form, industrial materials, and rational construction as instruments of social and political transformation.",
+        "example": "Housing blocks designed under the influence of constructivism rejected ornament in favour of exposed structure, dynamic diagonal lines, and primary colours.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "art history",
+          "20th century",
+          "Russia",
+          "avant-garde"
+        ]
+      },
+      {
+        "definition": "An epistemological theory holding that individuals actively construct knowledge through experience and social interaction rather than passively receiving objective truths from the external world.",
+        "example": "Constructivism in education encourages students to discover principles for themselves through direct experimentation and collaborative problem-solving.",
+        "register": "technical",
+        "tags": [
+          "epistemology",
+          "education",
+          "philosophy",
+          "cognitive science"
+        ]
+      }
+    ]
   },
   {
     "term": "viability",
@@ -27207,7 +27356,30 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In postcolonial and critical theory, a person belonging to a social group that is systematically marginalised, oppressed, and denied the capacity to speak or be heard within dominant power structures.",
+        "example": "Spivak's essay asked whether the subaltern—the colonised woman in particular—could ever articulate her experience on her own terms within hegemonic discourses.",
+        "register": "technical",
+        "tags": [
+          "postcolonial theory",
+          "critical theory",
+          "politics",
+          "Spivak"
+        ]
+      },
+      {
+        "definition": "A junior commissioned officer below the rank of captain, especially in the British Army.",
+        "example": "The young subaltern received his first independent command only weeks after joining the regiment.",
+        "register": "formal",
+        "tags": [
+          "military",
+          "historical",
+          "British Army"
+        ]
+      }
+    ]
   },
   {
     "term": "chroma",
@@ -28655,174 +28827,591 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An open public space in ancient Greek city-states that served as the centre of political, commercial, judicial, and social activity, typically flanked by stoas and civic buildings.",
+        "example": "The Athenian agora was surrounded by stoas and public buildings where citizens debated, traded, and governed.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "urban planning",
+          "classical",
+          "ancient Greece"
+        ]
+      },
+      {
+        "definition": "By extension, any open civic space designed to foster public congregation and democratic discourse.",
+        "example": "The urban designer envisioned the new plaza as a contemporary agora for the surrounding neighbourhood.",
+        "register": "formal",
+        "tags": [
+          "urban planning",
+          "public space",
+          "civic design"
+        ]
+      }
+    ]
   },
   {
     "term": "arcade",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A covered walkway formed by a series of arches supported on columns or piers, typically lining the ground floor of a building and sheltering pedestrians.",
+        "example": "Shoppers strolled through the Victorian arcade, sheltered from the rain beneath its ornate iron-and-glass canopy.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "urban",
+          "retail",
+          "classical"
+        ]
+      },
+      {
+        "definition": "A commercial establishment containing rows of coin-operated video games and amusement machines.",
+        "example": "He spent his afternoons at the arcade, working to improve his score on the pinball machines.",
+        "register": "general",
+        "tags": [
+          "leisure",
+          "popular culture",
+          "gaming"
+        ]
+      }
+    ]
   },
   {
     "term": "atrium",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The central open-air courtyard of an ancient Roman house, typically featuring a shallow pool (impluvium) beneath the roof opening (compluvium) to collect rainwater.",
+        "example": "The Roman villa's atrium was the social heart of the household, where clients gathered each morning to greet the paterfamilias.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "classical",
+          "Roman",
+          "domestic"
+        ]
+      },
+      {
+        "definition": "A tall, skylit central space rising through multiple floors of a contemporary building, used as a circulation hub and social gathering area.",
+        "example": "Natural light flooded down through the glass-roofed atrium, animating the network of bridges and balconies rising above the lobby.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "modern",
+          "commercial",
+          "circulation"
+        ]
+      }
+    ]
   },
   {
     "term": "brutalism",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A mid-twentieth-century architectural movement characterised by monumental massing, raw exposed concrete (béton brut), and the honest expression of structural and functional elements without decorative concealment.",
+        "example": "The university's library—a brutalist monument in board-formed concrete—remains controversial among students and critics alike.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "20th century",
+          "style",
+          "urban",
+          "concrete"
+        ]
+      }
+    ]
   },
   {
     "term": "cladding",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An external layer of material—such as stone, brick, metal panel, or timber—applied to the surface of a building to provide weather protection, thermal insulation, or decorative finish.",
+        "example": "The tower block's aluminium cladding was replaced after fire-safety investigations revealed that the original panels did not meet current standards.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "construction",
+          "facade",
+          "materials"
+        ]
+      }
+    ]
   },
   {
     "term": "fluting",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A series of shallow, parallel concave grooves running vertically along the shaft of a classical column or pilaster, serving both a decorative function and visually enhancing the impression of height and slenderness.",
+        "example": "The Doric columns retained their sharp fluting even where the upper drums had weathered smooth over the centuries.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "classical",
+          "ornament",
+          "column"
+        ]
+      }
+    ]
   },
   {
     "term": "frieze",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The broad horizontal band forming the middle section of a classical entablature, between the architrave below and the cornice above, typically decorated with continuous relief carving or painted ornament.",
+        "example": "The Parthenon's frieze depicted the Panathenaic procession in low relief running continuously around the cella wall.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "classical",
+          "ornament",
+          "entablature"
+        ]
+      },
+      {
+        "definition": "Any horizontal band of decorative ornament—painted, carved, or applied—running along the upper part of an interior wall or piece of furniture.",
+        "example": "A frieze of stylised acanthus leaves ran below the plaster cornice in the Georgian dining room.",
+        "register": "general",
+        "tags": [
+          "interior design",
+          "decoration",
+          "ornament"
+        ]
+      }
+    ]
   },
   {
     "term": "geodesic",
     "language": "en",
     "partOfSpeech": "adjective",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Relating to or denoting the shortest path between two points on a curved surface, analogous to a straight line in Euclidean space.",
+        "example": "The geodesic distance between the two cities on the globe differed substantially from their straight-line Euclidean separation.",
+        "register": "technical",
+        "tags": [
+          "mathematics",
+          "geometry",
+          "differential geometry"
+        ]
+      },
+      {
+        "definition": "Describing a dome or structural surface composed of a network of triangular or polygonal elements arranged along great-circle arcs, achieving maximum strength with minimum material.",
+        "example": "Fuller's geodesic dome at the Montreal Expo enclosed the largest possible volume with the least structural material.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "structural engineering",
+          "Buckminster Fuller"
+        ]
+      }
+    ]
   },
   {
     "term": "metope",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "One of the square panels, plain or carved with figurative relief, filling the spaces between the triglyphs in a Doric entablature.",
+        "example": "The metopes of the Parthenon depicted battles between Lapiths and Centaurs, carved in vigorous high relief.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "classical",
+          "ornament",
+          "ancient Greece"
+        ]
+      }
+    ]
   },
   {
     "term": "parametric design",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A design methodology in which geometry, structure, and spatial relationships are governed by variable parameters and algorithmic rules, enabling rapid exploration and optimisation of form through computational modelling.",
+        "example": "Using parametric design software, the architect tested hundreds of facade configurations before settling on the final perforated-aluminium lattice.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "computational design",
+          "digital fabrication",
+          "algorithms"
+        ]
+      }
+    ]
   },
   {
     "term": "plinth",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The lowest projecting square slab at the base of a column, pedestal, or wall in classical architecture, forming the transition between the column and its foundation.",
+        "example": "The plinth raised each column several inches above the stylobate, emphasising the vertical thrust of the Doric order.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "classical",
+          "column",
+          "base"
+        ]
+      },
+      {
+        "definition": "A solid block serving as a base or platform on which a statue, vase, or other object is mounted.",
+        "example": "The bronze figure stood on a rough-hewn granite plinth at the centre of the memorial garden.",
+        "register": "general",
+        "tags": [
+          "sculpture",
+          "monument",
+          "display"
+        ]
+      }
+    ]
   },
   {
     "term": "portico",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An entrance porch or vestibule formed by a roof supported on columns, attached to or forming the principal facade of a building, used in classical and neoclassical architecture.",
+        "example": "Visitors approached the museum through a neoclassical portico of six Ionic columns surmounted by a triangular pediment.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "classical",
+          "entrance",
+          "neoclassical"
+        ]
+      }
+    ]
   },
   {
     "term": "stoa",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An ancient Greek covered walkway with a colonnaded front open to the public, serving as a marketplace, meeting place, or shelter, and often forming one side of an agora.",
+        "example": "The reconstructed Stoa of Attalos once again lines the eastern edge of the Athenian agora, housing an archaeological museum.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "classical",
+          "ancient Greece",
+          "urban",
+          "public space"
+        ]
+      }
+    ]
   },
   {
     "term": "transept",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Either of the two lateral arms of a cruciform church plan, extending transversely across the main axis and intersecting the nave to form the cross shape.",
+        "example": "The north transept housed an elaborate fifteenth-century funerary chapel added by the local nobility.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "ecclesiastical",
+          "medieval",
+          "church plan"
+        ]
+      }
+    ]
   },
   {
     "term": "tympanum",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The vertical triangular or semicircular recessed panel enclosed within the frame of a pediment, frequently decorated with sculptural relief.",
+        "example": "The cathedral's west portal tympanum depicted the Last Judgement in vivid high relief, visible from across the square.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "classical",
+          "ornament",
+          "pediment"
+        ]
+      },
+      {
+        "definition": "The thin membrane separating the outer ear canal from the middle ear; the eardrum.",
+        "example": "A perforated tympanum typically heals without intervention within a few weeks of the initial injury.",
+        "register": "technical",
+        "tags": [
+          "anatomy",
+          "medicine",
+          "ear"
+        ]
+      }
+    ]
   },
   {
     "term": "backward induction",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A technique for solving extensive-form sequential games in which one starts at the terminal nodes and works backward through the decision tree, substituting each player's optimal response at each prior stage until the first move is determined.",
+        "example": "Applying backward induction to the finite repeated prisoner's dilemma shows that cooperation unravels in every period, as defection dominates in the final round and this reasoning propagates backwards.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "decision theory",
+          "economics",
+          "sequential games"
+        ]
+      }
+    ]
   },
   {
     "term": "correlated equilibrium",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A solution concept in game theory in which an external correlating device issues strategy recommendations to players such that no player has an incentive to unilaterally deviate, given that others follow their recommendations.",
+        "example": "The correlated equilibrium allowed the two firms to coordinate on complementary market segments without direct communication, using a public randomising device as a coordinator.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "economics",
+          "decision theory",
+          "equilibrium"
+        ]
+      }
+    ]
   },
   {
     "term": "dominant strategy",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A strategy that yields a player a weakly or strictly higher payoff than any other available strategy, regardless of the strategies chosen by all other players.",
+        "example": "Confessing is the dominant strategy for both suspects in the prisoner's dilemma, even though mutual silence would leave both better off.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "economics",
+          "decision theory",
+          "strategy"
+        ]
+      }
+    ]
   },
   {
     "term": "focal point",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In game theory (also called a Schelling point), a strategy or outcome that stands out as an obvious or natural choice enabling players to coordinate without communication, through shared expectations or cultural salience.",
+        "example": "When asked independently where to meet a stranger in New York City with no prior arrangement, most people chose Grand Central Terminal—a classic focal point.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "coordination",
+          "behavioural economics",
+          "Schelling"
+        ]
+      },
+      {
+        "definition": "The element or point in a visual composition, architectural space, or discussion that draws the most attention and serves as the dominant centre of interest.",
+        "example": "The fireplace served as the focal point of the drawing room, anchoring the furniture arrangement and drawing the eye on entry.",
+        "register": "general",
+        "tags": [
+          "design",
+          "visual arts",
+          "interior design"
+        ]
+      }
+    ]
   },
   {
     "term": "mixed strategy",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A strategy in which a player randomises over their available pure strategies according to a specified probability distribution, preventing opponents from exploiting any predictable pattern of behaviour.",
+        "example": "The penalty-taker played a mixed strategy, choosing left, centre, or right with calibrated probabilities so the goalkeeper could not anticipate the shot.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "economics",
+          "probability",
+          "strategy"
+        ]
+      }
+    ]
   },
   {
     "term": "pareto optimality",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A state of resource allocation or strategic outcome in which no reallocation can improve the welfare of any one individual without reducing the welfare of at least one other, representing a standard of allocative efficiency.",
+        "example": "The negotiated trade agreement reached pareto optimality: any further concession by one party would have reduced its own welfare without compensating gains elsewhere.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "game theory",
+          "welfare economics",
+          "efficiency"
+        ]
+      }
+    ]
   },
   {
     "term": "payoff matrix",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A tabular representation used in game theory in which rows correspond to one player's strategies, columns to another's, and each cell displays the payoffs received by all players from that particular combination of choices.",
+        "example": "Examining the payoff matrix for the coordination game revealed two pure-strategy Nash equilibria located along the main diagonal.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "economics",
+          "decision theory",
+          "matrix"
+        ]
+      }
+    ]
   },
   {
     "term": "prisoner's dilemma",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A canonical two-player game in which each player's individually rational dominant strategy is to defect, producing an outcome inferior for both compared with mutual cooperation, illustrating the tension between individual and collective rationality.",
+        "example": "Arms races between nations instantiate the prisoner's dilemma: each side finds arming rational given the other's uncertainty, yet both end up less secure than if neither had built up its arsenal.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "economics",
+          "social dilemma",
+          "cooperation"
+        ]
+      }
+    ]
   },
   {
     "term": "rationalizability",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A solution concept in game theory according to which a strategy is rationalizable if it survives iterated elimination of strictly dominated strategies, representing the minimal requirement of common knowledge of rationality.",
+        "example": "In the beauty-contest game, the only rationalizable strategy is to choose zero, arrived at by eliminating dominated choices in successive rounds of reasoning.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "economics",
+          "decision theory",
+          "rationality"
+        ]
+      }
+    ]
   },
   {
     "term": "zero-sum",
     "language": "en",
     "partOfSpeech": "adjective",
     "register": "technical",
-    "status": "stub"
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Describing a game or interaction in which the total payoff to all participants is constant, so that any gain achieved by one player is exactly offset by an equivalent loss to another.",
+        "example": "Classical chess is a zero-sum contest: every positional advantage White gains comes at a precisely equal cost to Black.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "economics",
+          "competition",
+          "strategy"
+        ]
+      },
+      {
+        "definition": "Used loosely to describe any competitive situation perceived as inherently win-lose, where one side's success is seen to come at the direct expense of the other.",
+        "example": "Politicians frequently portray international trade as a zero-sum competition, even though economists argue that mutual gains are generally available.",
+        "register": "informal",
+        "tags": [
+          "politics",
+          "economics",
+          "rhetoric"
+        ]
+      }
+    ]
   }
 ]
