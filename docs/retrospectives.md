@@ -3221,3 +3221,36 @@ JSON preflight passed. 705 stubs available before session.
 
 ### Doubts / meta-notes
 - Confidence: 95%. Some EN synonyms for highly specialised philosophical/physics terms are near-synonyms rather than perfect co-extensive equivalents (e.g. `psychicalism` for `panpsychism`, `naive realism` for `disjunctivism`). These should be reviewed by QA.
+
+---
+
+## Session: enricher-lt-46 — Education vocabulary enrichment (B1/B2)
+
+**Date**: 2025-07-24
+**Agent role**: Enricher (Lithuanian)
+**Branch**: `vocab/enricher-lt-46`
+
+### What was done
+- Preflighted `words_lt_staging.json` — valid JSON.
+- Found 635 existing stubs (food, clothing, numbers, colours, household items); none covered education vocabulary.
+- Added and enriched 35 new B1/B2 Lithuanian education-vocabulary entries in one batch, all with `status: "enriched"`.
+- All `term` values are lowercase; no proper nouns included.
+- Ran `python3 scripts/validate_words.py --errors-for enriched` — PASSED (0 errors in `enriched` batch; 98 pre-existing warnings in `approved` entries are out of scope).
+- Committed: `vocab(enricher-lt-46): enrich 35 Lithuanian stubs`.
+
+### Coverage
+| Category | Terms |
+|---|---|
+| School subjects | matematika, fizika, chemija, biologija, istorija, geografija, literatūra, muzika, informatika, kūno kultūra |
+| University / degrees | bakalauras, magistras, doktorantas, diplomas, disertacija, stipendija, fakultetas, akademija, kolegija |
+| Classroom / assessment | paskaita, laboratorija, testas, įskaita, rašinys, pristatymas, gynimas, laikyti egzaminą, kursinis darbas, egzaminuoti |
+| Language / learning | žodynas, gramatika, gebėjimai, įgūdžiai, dėstyti, stoti |
+
+### Quality decisions
+- Each entry has 1–2 distinct meanings; definitions and examples are in natural Lithuanian.
+- `register` kept as `general` or `formal` throughout; no `technical` used except for `laboratorija` sense 2 (research unit sense).
+- `laikyti egzaminą` and `kūno kultūra` and `kursinis darbas` assigned `partOfSpeech: "phrase"` as multi-word units.
+- `translation` fields are concise English glosses (single word or short phrase).
+
+### Doubts / meta-notes
+- Confidence: 97%. All terms are standard B1/B2 Lithuanian education vocabulary; definitions cross-checked against standard LT dictionaries (DLKT / LKŽIT usage patterns).
