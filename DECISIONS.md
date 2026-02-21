@@ -229,3 +229,29 @@ Vocab/
 
 ### Validator result
 144 enriched entries — all passed ✓ | 1960 total entries — all passed ✓
+
+---
+
+## Retro — vocab/enricher-lt-18 (35 LT stubs)
+
+**Date:** 2026-01-18
+**Branch:** vocab/enricher-lt-18
+
+### What was enriched
+- **Everyday nouns (10):** Vanduo (water), arbata (tea), duona (bread), kiaušinis (egg), druska (salt), cukrus (sugar), ryžiai (rice), mėnuo (month), metai (year), laikas (time) — all A1, tagged `food`/`drink`/`time`/`calendar`.
+- **Common verbs (13):** pirkti (to buy), parduoti (to sell), Kainuoti (to cost), grįžti (to return), sustoti (to stop), nešti (to carry), sumokėti (to pay), atidaryti (to open), uždaryti (to close), sirgti (to be ill), dainuoti (to sing), vairuoti (to drive), Tikrinti (to check) — A1/A2, tagged `shopping`/`movement`/`action`/`health`/`transport`.
+- **Basic adjectives (6):** karštas (hot), tuščias (empty), sunkus (heavy/difficult), Švarus (clean), tvarkingas (tidy), Platus (wide) — A1/A2; `sunkus` received two meanings (weight + difficulty).
+- **Food/kitchen nouns (3):** aliejus (oil), makaronai (pasta), pipirai (pepper/peppers) — A1, tagged `food`/`cooking`/`spice`.
+- **Discourse adverb (1):** po to (after that/then) — A1 temporal connector, tagged `time`/`discourse`/`connector`.
+- **Infrastructure nouns (2):** kelias (road/way), namas (house/home) — A1, tagged `transport`/`direction`/`home`.
+
+### Decisions
+- Register `neutral` used throughout; all entries are core everyday vocabulary with no register variation.
+- `sunkus` given two meanings (physical heaviness + difficulty) to capture the full A1/A2 range; both share `neutral` register.
+- `po to` classified as `adverb` (temporal connective function); `synonyms` include `paskui` and `vėliau`, `antonymTerms` includes `prieš tai`.
+- Capitalised stub terms (Vanduo, Kainuoti, Tikrinti, Švarus, Platus) matched by exact term key to preserve original casing.
+- `synonyms`/`antonymTerms` left `[]` where no clean equivalent exists (most food nouns, time nouns, neutral verbs).
+- No merges performed; branch left for PR review.
+
+### Validator result
+125 enriched entries — all passed ✓ | 1960 total entries — all passed ✓
