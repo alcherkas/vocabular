@@ -750,3 +750,16 @@ Selected 35 stubs covering jobs/professions and work/office vocabulary at A1/A2 
 - When the same phrase appears as a synonym for two distinct terms, flag the cross-entry duplicate — it usually signals a category label masquerading as a synonym.
 - For LT noun headwords, enforce same-POS synonyms explicitly; verbal nouns in `-imas/-ymas` deserve particular scrutiny.
 - Metaethics and philosophy of mind entries carry dense terminological overlap; genus/species distinctions must be checked against a reference hierarchy before approving.
+## Retro — seeder-en-8 · 100 English C1+ stubs
+
+**What went well**
+- Preflight confirmed exactly 730 entries in `words_staging.json`; zero duplicates found among the 100 candidates against existing terms and no internal duplicates.
+- Domain spread balanced across 8 target areas: linguistics/pragmatics (25), semiotics (17), cognitive linguistics (10), information theory (10), systems theory/complexity science/cybernetics (23), epistemology (15).
+- All stubs serialised in `{"term": …, "language": "en", "status": "stub"}` minimal format; JSON validated cleanly via `json.load` round-trip. Total grew 730 → 830.
+- Single-commit, single-file change; no merge required.
+
+**What to watch**
+- Several terms (e.g. `abduction`, `accommodation`, `grounding`) are polysemous — enrichment should pin the domain-specific sense (Peircean, pragmatic, cognitive-linguistic respectively) to avoid ambiguity.
+- Terms borrowed from formal logic/philosophy (alethic, doxastic, deflationism) may need register tags (`academic`/`technical`) and example sentences from specialist literature during enrichment.
+- `codeswitching` is often hyphenated or spaced in the literature; normalise to one-word form at enrichment time.
+- Pairs like signifier/signified, denotation/connotation, internalism/externalism share tight semantic relations — add explicit `relatedTerms` cross-links during enrichment to aid learner navigation.
