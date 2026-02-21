@@ -14762,10 +14762,10 @@
     "translation": "cottage cheese, curd"
   },
   {
-    "term": "Dešra",
+    "term": "dešra",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mėsos gaminys iš maltos mėsos ir prieskonių, supakuotas į natūralią ar dirbtinę odelę.",
@@ -14789,7 +14789,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mėsa",
+      "skilandis",
+      "kumpis",
+      "šaltiena"
+    ],
     "translation": "sausage"
   },
   {
@@ -14935,7 +14940,7 @@
     "term": "žuvis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vandens stuburinis gyvūnas su žvynais ir pelekais, valgomas kaip maistas.",
@@ -14959,14 +14964,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "karpis",
+      "lydeka",
+      "žvejyba",
+      "žvejys"
+    ],
     "translation": "fish"
   },
   {
     "term": "karpis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Didelė gėlavandenė žuvis su auksiniais žvynais, populiari Lietuvos virtuvėje.",
@@ -14982,7 +14992,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žuvis",
+      "lydeka",
+      "ežeras",
+      "žvejyba"
+    ],
     "translation": "carp"
   },
   {
@@ -15093,7 +15108,7 @@
     "term": "batonas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pailgo formos kvietinės duonos kepalas iš baltų miltų.",
@@ -15109,7 +15124,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "duona",
+      "kepykla",
+      "riestainis",
+      "bandelė"
+    ],
     "translation": "loaf of bread"
   },
   {
@@ -15146,7 +15166,7 @@
     "term": "riestainis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žiediko formos duonos gaminys, dažnai su aguonomis ar druska, tradicinis Lietuvoje.",
@@ -15162,14 +15182,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "duona",
+      "batonas",
+      "bandelė",
+      "kepykla"
+    ],
     "translation": "bagel"
   },
   {
     "term": "džiūvėsis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Išdžiovintas ar pakepintas duonos gabalėlis, valgomas kaip užkandis arba naudojamas patiekalams.",
@@ -15184,14 +15209,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "duona",
+      "sausainis",
+      "kepinys",
+      "batonas"
+    ],
     "translation": "rusk"
   },
   {
     "term": "spurga",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Minkštas apvalus kepinys iš mielinės tešlos, keptas aliejuje, dažnai apibarstytas cukrumi.",
@@ -15207,7 +15237,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kepinys",
+      "sausainis",
+      "pyragaitis",
+      "tešla"
+    ],
     "translation": "doughnut"
   },
   {
@@ -15673,10 +15708,10 @@
     "translation": null
   },
   {
-    "term": "Bazilikai",
+    "term": "bazilikai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kvapni žolelė su žaliaisiais lapais, plačiai naudojama virtuvėje salotoms ir padažams.",
@@ -15692,14 +15727,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prieskoniai",
+      "čiobreliai",
+      "petražolės",
+      "žolelės"
+    ],
     "translation": "basil"
   },
   {
     "term": "čiobreliai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kvapni žolelė mažais lapeliais, naudojama mėsos, sriubų ir padažų gardinimui.",
@@ -15715,14 +15755,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prieskoniai",
+      "bazilikai",
+      "rozmarinas",
+      "žolelės"
+    ],
     "translation": "thyme"
   },
   {
     "term": "kmynai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Augalo sėklos su stipriu aromatu, tradiciškai naudojamos lietuviškoje duonoje ir sūryje.",
@@ -15737,14 +15782,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prieskoniai",
+      "pankoliai",
+      "krapai",
+      "žolelės"
+    ],
     "translation": "caraway seeds"
   },
   {
     "term": "krapai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žalia kvapni žolelė su plonais lapeliais, populiari Lietuvos virtuvėje sriuboms ir salotoms.",
@@ -15760,14 +15810,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prieskoniai",
+      "petražolės",
+      "žolelės",
+      "kmynai"
+    ],
     "translation": "dill"
   },
   {
     "term": "mėtos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kvapni žolelė su stipriu gaiviu aromatu, naudojama arbatai, desertams ir gėrimams.",
@@ -15782,14 +15837,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prieskoniai",
+      "žolelės",
+      "arbata",
+      "pipirmėtė"
+    ],
     "translation": "mint"
   },
   {
     "term": "petražolės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žalia žolelė su ryškiu aromatu, naudojama patiekalams puošti ir gardinti.",
@@ -15804,7 +15864,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prieskoniai",
+      "krapai",
+      "žolelės",
+      "bazilikai"
+    ],
     "translation": "parsley"
   },
   {
@@ -15833,7 +15898,7 @@
     "term": "cinamonas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Medžio žievės prieskonas su saldžiu šiltu aromatu, naudojamas kepiniams, kavai ir desertams.",
@@ -15848,14 +15913,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prieskoniai",
+      "vanilė",
+      "kepiniai",
+      "arbata"
+    ],
     "translation": "cinnamon"
   },
   {
     "term": "vanilė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Orchidėjos ankštis arba iš jos išgautas ekstraktas, naudojamas konditeriniams gaminiams gardinti.",
@@ -15871,7 +15941,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prieskoniai",
+      "cinamonas",
+      "kepiniai",
+      "konditerija"
+    ],
     "translation": "vanilla"
   },
   {
@@ -16342,7 +16417,7 @@
     "term": "pyragaitis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nedidelis kepinys iš tešlos su saldžiu ar riebiu įdaru, dažnai valgomas kaip užkandis.",
@@ -16358,14 +16433,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kepinys",
+      "sausainis",
+      "tortas",
+      "pyragas"
+    ],
     "translation": "pastry"
   },
   {
     "term": "sausainis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sausas kepinys iš miltų, sviesto ir cukraus, dažnai valgomas prie kavos ar arbatos.",
@@ -16381,14 +16461,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kepinys",
+      "pyragaitis",
+      "tortas",
+      "vaflis"
+    ],
     "translation": "cookie"
   },
   {
     "term": "tortas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Iškilmingas sluoksniuotas kepinys su kremu ar uogiene, skirtas šventėms ir ypatingoms progoms.",
@@ -16404,14 +16489,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kepinys",
+      "pyragas",
+      "kremas",
+      "pyragaitis"
+    ],
     "translation": "cake"
   },
   {
     "term": "pyragas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kepinys iš tešlos su saldžiu ar nesaldžiu įdaru, kepamas orkaitėje.",
@@ -16426,14 +16516,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kepinys",
+      "tortas",
+      "tešla",
+      "įdaras"
+    ],
     "translation": "pie"
   },
   {
     "term": "uogienė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tirštai virintas vaisių ar uogų ir cukraus mišinys, naudojamas duonai tepti ar kepiniams.",
@@ -16446,9 +16541,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "džemas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "uogos",
+      "vaisiai",
+      "cukrus",
+      "marmeladas"
+    ],
     "translation": "jam"
   },
   {
@@ -16583,7 +16685,7 @@
     "term": "gira",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tradicinis lietuviškas fermentuotas gėrimas, gaminamas iš duonos, vandens ir cukraus.",
@@ -16599,7 +16701,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "alus",
+      "gėrimas",
+      "fermentacija",
+      "duona"
+    ],
     "translation": "kvass"
   },
   {
@@ -16669,10 +16776,10 @@
     "translation": null
   },
   {
-    "term": "Alkanas",
+    "term": "alkanas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Jaučiantis alkio pojūtį, norą valgyti.",
@@ -16686,15 +16793,22 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "sotus"
+    ],
+    "relatedTerms": [
+      "apetitas",
+      "valgis",
+      "alkis",
+      "mityba"
+    ],
     "translation": "hungry"
   },
   {
     "term": "sotus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Jaučiantis pilvo sotumą po valgio, nebenorintis valgyti.",
@@ -16708,15 +16822,22 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "alkanas"
+    ],
+    "relatedTerms": [
+      "valgis",
+      "apetitas",
+      "maistas",
+      "pilvas"
+    ],
     "translation": "full"
   },
   {
     "term": "brangus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kainuojantis daug pinigų; aukštos kainos",
@@ -16739,15 +16860,22 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "pigus"
+    ],
+    "relatedTerms": [
+      "kaina",
+      "prabangus",
+      "vertė",
+      "rinkos kaina"
+    ],
     "translation": "expensive"
   },
   {
     "term": "pigus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nedaug kainuojantis; žemos kainos",
@@ -16770,15 +16898,22 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "brangus"
+    ],
+    "relatedTerms": [
+      "kaina",
+      "nuolaida",
+      "kokybė",
+      "ekonomiškas"
+    ],
     "translation": "cheap"
   },
   {
     "term": "šviežias",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Neseniai pagamintas ar surinktas, nepraradęs natūralios kokybės ir aromato.",
@@ -16801,15 +16936,22 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "pasenęs"
+    ],
+    "relatedTerms": [
+      "šviežumas",
+      "gaivus",
+      "natūralus",
+      "ekologiškas"
+    ],
     "translation": "fresh"
   },
   {
     "term": "riebus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turintis daug riebalų; keptas ar gamintas naudojant daug aliejaus.",
@@ -16824,8 +16966,15 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "liesas"
+    ],
+    "relatedTerms": [
+      "riebalai",
+      "kalorijingas",
+      "cholesterolis",
+      "maistas"
+    ],
     "translation": "fatty"
   },
   {
@@ -16843,7 +16992,7 @@
     "term": "skanus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turintis malonų skonį, teikiantis malonumą valgant.",
@@ -16856,9 +17005,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "gardus"
+    ],
+    "antonymTerms": [
+      "šlykštus"
+    ],
+    "relatedTerms": [
+      "skoningumas",
+      "maistas",
+      "receptas",
+      "aromatas"
+    ],
     "translation": "delicious"
   },
   {
@@ -16898,7 +17056,7 @@
     "term": "aštrus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turintis gerai pjaunantį, smailų kraštą (apie įrankius).",
@@ -16921,8 +17079,15 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "bukas"
+    ],
+    "relatedTerms": [
+      "karštas",
+      "prieskoniai",
+      "ašmenys",
+      "peilis"
+    ],
     "translation": "sharp; spicy"
   },
   {
@@ -17425,10 +17590,10 @@
     "translation": null
   },
   {
-    "term": "Keptuvė",
+    "term": "keptuvė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plačiadugnis metalinis indas su žemais kraštais, skirtas maistui kepti riebaluose arba sausai ant viryklės.",
@@ -17444,7 +17609,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "puodas",
+      "gruzdintuvė",
+      "viryklė",
+      "indas"
+    ],
     "translation": "frying pan"
   },
   {
@@ -17473,7 +17643,7 @@
     "term": "puodas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gilus metalinis ar emaliuotas indas su dangčiu, skirtas virti ar troškinti maistą.",
@@ -17489,14 +17659,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "keptuvė",
+      "indas",
+      "virimas",
+      "dangtis"
+    ],
     "translation": "pot"
   },
   {
     "term": "peilis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Metalinis aštrialapis įrankis su rankena, skirtas pjauti, smulkinti ar luoti maistą.",
@@ -17520,7 +17695,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šakutė",
+      "šaukštas",
+      "ašmenys",
+      "stalo įrankiai"
+    ],
     "translation": "knife"
   },
   {
@@ -17549,7 +17729,7 @@
     "term": "šaukštelis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mažas šaukštas, naudojamas kavai ar arbatai maišyti arba nedideliems kiekiams matuoti.",
@@ -17565,14 +17745,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šaukštas",
+      "šakutė",
+      "peilis",
+      "valgomasis šaukštas"
+    ],
     "translation": "teaspoon"
   },
   {
     "term": "šakutė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Stalo įrankis su keliomis dantytomis šakelėmis, skirtas maistui pakelti ir neštis prie burnos.",
@@ -17588,14 +17773,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "peilis",
+      "šaukštas",
+      "šaukštelis",
+      "stalo įrankiai"
+    ],
     "translation": "fork"
   },
   {
     "term": "šaukštas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Stalo įrankis su apvalia ovaline dalimi ant rankenos, skirtas skysčiams ar birai maisto valgyti.",
@@ -17610,7 +17800,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šakutė",
+      "peilis",
+      "šaukštelis",
+      "kaušas"
+    ],
     "translation": "spoon"
   },
   {
