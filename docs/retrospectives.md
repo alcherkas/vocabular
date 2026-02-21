@@ -895,3 +895,39 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - For tightly coupled M/F noun pairs (e.g. vertėjas/vertėja), consider a `grammaticalVariant` field to explicitly cross-reference gender forms rather than relying on relatedTerms for that link.
+
+## [2026-02-21] [qa-10] [vocab/qa-10]
+
+### Summary
+Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscience/architecture cluster) and 35 LT (`relations-added` → profession M/F pairs, seasons, weekdays, rytas) entries.
+
+**EN:** 34 approved, 1 enriched  
+**LT:** 29 approved, 6 enriched
+
+### Issues found and fixed
+
+**English (1):**
+- **euploidy** — `antonymTerms` contained `"polyploidy"`, which the entry's own example sentence explicitly describes as *"a form of euploidy"*. A subtype cannot be an antonym of its parent. Removed `"polyploidy"` from `antonymTerms`; `"aneuploidy"` retained as the sole correct antonym.
+
+**Lithuanian (6):**
+- **slaugytojas** & **slaugytoja** — `relatedTerms` contained `"palatą"` (accusative case). Relation lists store headword forms (nominative); corrected to `"palata"` in both entries.
+- **fotografas** — `synonyms` contained `"fotogrataras"`, a clear misspelling (likely garbling of `"fotografas"`, the term itself). Removed the erroneous synonym.
+- **Pavasaris** — `term` was stored as `"Pavasaris"` with a capital P. Common nouns in the vocab corpus are stored lowercase; corrected to `"pavasaris"`.
+- **ruduo** — `synonyms` contained `"lapkritis"`, which is the Lithuanian word for *November* (the month), not a synonym for autumn. Removed.
+- **žiema** — `synonyms` contained `"žiemasergis"`, not a recognised modern or archaic Lithuanian word (the expected archaic analogue of `"vasarmetis"` / `"rudenmetis"` would be `"žiemametis"`). Removed.
+
+### What went well
+- Both JSON files passed preflight validation with no parse errors.
+- The 34 EN approvals and 29 LT approvals required no edits; all POS values and registers were within the valid enumeration.
+- Issues were caught through systematic cross-checking of synonym/antonymTerm content against definitions and examples, and through case/spelling inspection of term fields.
+
+### What was harder than expected
+- Detecting the `euploidy`/`polyploidy` antonym contradiction required reading the example sentence carefully; the structural fields (POS, register) were all valid.
+- Lithuanian inflected forms in relation lists (`"palatą"`) are easy to miss because the form is phonetically close to the nominative; only a morphological check reveals the mismatch.
+
+### Process friction
+- None. The workflow (preflight → review → approve/enrich + qaNote → commit → retro) is now well-established and ran cleanly.
+
+### Suggested improvement
+- Add a validation rule to the `validate_words.py` script that checks all values in `relatedTerms` and `synonyms` against a nominative-form word list (or at minimum flags non-nominative Lithuanian noun endings such as `-ą`, `-ų`, `-ui`).
+- Consider a linter check that flags when a term's own string appears verbatim (or near-verbatim) inside its `synonyms` array.
