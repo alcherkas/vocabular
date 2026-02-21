@@ -29,7 +29,9 @@ struct ContentView: View {
         }
         .onAppear {
             if !hasLoadedWords {
-                WordService.loadInitialWords(into: context)
+                WordService.migrateExistingWords(context: context)
+                WordService.loadWords(language: "en", resourceName: "words", into: context)
+                WordService.loadWords(language: "lt", resourceName: "words_lt", into: context)
                 hasLoadedWords = true
             }
         }

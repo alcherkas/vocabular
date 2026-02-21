@@ -128,7 +128,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `language-field`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `medium`
 **Complexity**: `low`
 **Description**: Add `language: String`, `translation: String?`, and `uniqueKey: String` fields to `Word.swift`. Update `WordService` to support per-language loading. Update `SpeechService` to accept a language parameter.

@@ -6,14 +6,17 @@ class SpeechService {
     
     private init() {}
     
-    func speak(_ text: String, rate: Float = 0.45) {
+    func speak(_ text: String, language: String = "en", rate: Float = 0.45) {
         // Stop any current speech
         if synthesizer.isSpeaking {
             synthesizer.stopSpeaking(at: .immediate)
         }
         
+        let localeMap = ["en": "en-US", "lt": "lt-LT"]
+        let locale = localeMap[language] ?? "en-US"
+        
         let utterance = AVSpeechUtterance(string: text)
-        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        utterance.voice = AVSpeechSynthesisVoice(language: locale)
         utterance.rate = rate
         utterance.pitchMultiplier = 1.0
         utterance.volume = 1.0
