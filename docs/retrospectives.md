@@ -318,3 +318,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Pre-calculate target count before generation to avoid trim step.
+
+## [2026-02-21] [feat-agent] [lt-session-timer]
+
+### What went well
+- SessionService already had the SR partitioning/cap structure, so only a small targeted update was needed.
+- Build verification succeeded immediately after the change.
+
+### What was harder than expected
+- Balancing the "max 5 new words" rule with the "new users can get up to 15" requirement needed explicit zero-history handling.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- None.
