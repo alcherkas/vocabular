@@ -2962,3 +2962,30 @@ Pre-existing warnings only in approved-status entries; zero errors in newly enri
 - EN had only 11 enriched entries vs. 35 target; all were processed. Remaining enriched budget could not be filled from EN alone — would require another Enricher pass first.
 - Several LT phrases (e.g., `nosies ir gerklės gydytojas`) are unique specialist terms with no close LT synonyms; `otorinolaringologas` / `otolaringologas` are valid technical equivalents added as synonyms.
 - `leisti vaistus` (administer injection): `švirkšti` added as a synonym captures the injecting action; the phrase is also broader (any route), but this is the closest single-word LT equivalent.
+
+## Reflection cycle 6 — 2026-02-25
+
+**Agent role**: Reflection Agent
+**Branch**: `process/reflection-6`
+
+### Trigger
+3 new retros since Cycle 5 cutoff (qa-28, qa-29, qa-30), plus enricher-lt-40 and relations-30 contributing to the patterns.
+
+### Inputs read
+- `docs/retrospectives.md` (all entries since Cycle 5)
+- `docs/process-changelog.md`
+- `docs/VOCAB-AGENT.md`, `AGENTS.md` (current protocol docs)
+
+### Patterns found
+1. **LT capitalisation** — `Autobusas`, `Kaimas`, `Alergologas` passed three pipeline stages without correction. enricher-lt-40 explicitly preserved the seeder capitalisation; qa-28 caught them. No rule existed directing Enrichers to fix it.
+2. **Hypernym-as-synonym** — Every post-cycle-5 QA session returned 3–10 entries for this reason. The validator does not check semantic breadth; the only fix is explicit guidance at the Relations stage.
+3. **Antonym misuse** — Taxonomic contrasts (phoneme/allophone, deduction/abduction) and negation forms (non-ergodicity) in `antonymTerms` appeared in qa-28, qa-29, qa-30. No rule explicitly defined what a valid antonym is.
+
+### Changes made
+1. `docs/VOCAB-AGENT.md`: LT term capitalisation rule added to Seeder; fix-it instruction added to Enricher loop.
+2. `docs/VOCAB-AGENT.md`: Semantic quality rules block added to Relations section (hypernym rule, sense-scoping rule, antonym rule).
+3. `AGENTS.md`: Hard Rules bullet added summarising the three semantic checks as a pre-commit reminder for Relations agents.
+
+### Doubts / meta-notes
+- The synonym accuracy problem is likely partially attributable to the validator's ≥2 synonym requirement for EN entries: agents over-include to satisfy the count. A future cycle could consider whether the threshold causes quality pressure that outweighs the diversity benefit. Not changed this cycle (≤3 limit; would need retro evidence first).
+- Confidence: 90% — the rules are clear and evidence is unambiguous.
