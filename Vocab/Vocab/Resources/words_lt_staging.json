@@ -2217,7 +2217,7 @@
     "term": "mano",
     "language": "lt",
     "partOfSpeech": "particle",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Possessive word showing that something belongs to the speaker",
@@ -2230,8 +2230,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "tavo"
+    ],
+    "relatedTerms": [
+      "aš",
+      "manoji"
+    ],
     "translation": "my",
     "tags": [
       "A1",
@@ -2242,7 +2247,7 @@
     "term": "tavo",
     "language": "lt",
     "partOfSpeech": "particle",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Possessive word showing that something belongs to one informal addressee",
@@ -2255,8 +2260,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "mano"
+    ],
+    "relatedTerms": [
+      "tu",
+      "tavasis"
+    ],
     "translation": "your (singular)",
     "tags": [
       "A1",
@@ -2267,7 +2277,7 @@
     "term": "jūsų",
     "language": "lt",
     "partOfSpeech": "particle",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Possessive word showing that something belongs to several people or to one person formally",
@@ -2281,7 +2291,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "jūs",
+      "mandagus kreipinys"
+    ],
     "translation": "your (plural/formal)",
     "tags": [
       "A1",
@@ -2292,7 +2305,7 @@
     "term": "jo",
     "language": "lt",
     "partOfSpeech": "particle",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Possessive word showing that something belongs to a male person",
@@ -2305,8 +2318,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "jos"
+    ],
+    "relatedTerms": [
+      "jis",
+      "jam"
+    ],
     "translation": "his",
     "tags": [
       "A1",
@@ -2317,7 +2335,7 @@
     "term": "kieno",
     "language": "lt",
     "partOfSpeech": "particle",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Question word used to ask who owns something",
@@ -2329,9 +2347,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kurio"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kas",
+      "nuosavybė"
+    ],
     "translation": "whose",
     "tags": [
       "A1",
@@ -2342,7 +2365,7 @@
     "term": "kas",
     "language": "lt",
     "partOfSpeech": "particle",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Question word used to ask about a person or a thing",
@@ -2356,7 +2379,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kieno",
+      "kur"
+    ],
     "translation": "who; what",
     "tags": [
       "A1",
@@ -2367,7 +2393,7 @@
     "term": "ar",
     "language": "lt",
     "partOfSpeech": "particle",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Particle used to form yes-no questions",
@@ -2381,7 +2407,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "klausimas",
+      "ne"
+    ],
     "translation": "whether; if (question marker)",
     "tags": [
       "A1",
@@ -2392,7 +2421,7 @@
     "term": "kur",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Question adverb used to ask about place",
@@ -2406,7 +2435,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "iš kur",
+      "ten"
+    ],
     "translation": "where",
     "tags": [
       "A1",
@@ -2417,7 +2449,7 @@
     "term": "iš kur",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Question phrase used to ask about origin or starting place",
@@ -2431,7 +2463,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kur",
+      "atvykti"
+    ],
     "translation": "where from",
     "tags": [
       "A1",
@@ -2442,7 +2477,7 @@
     "term": "koks",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Question adjective used to ask about type or quality of a masculine noun",
@@ -2456,7 +2491,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kokia",
+      "tipas"
+    ],
     "translation": "what kind of (masculine)",
     "tags": [
       "A1",
@@ -2467,7 +2505,7 @@
     "term": "kokia",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Interrogative word used to ask about the type or quality of a feminine noun.",
@@ -2481,7 +2519,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "koks",
+      "tipas"
+    ],
     "translation": "what kind of (feminine)",
     "tags": [
       "A1",
@@ -2492,7 +2533,7 @@
     "term": "Lietuva",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A country in the Baltic region of Europe.",
@@ -2506,7 +2547,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lietuvis",
+      "lietuvė",
+      "lietuviškai"
+    ],
     "translation": "Lithuania",
     "tags": [
       "A1",
@@ -2517,7 +2562,7 @@
     "term": "lietuvis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male person from Lithuania.",
@@ -2531,7 +2576,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Lietuva",
+      "lietuvė",
+      "lietuviškai"
+    ],
     "translation": "Lithuanian man",
     "tags": [
       "A1",
@@ -2542,7 +2591,7 @@
     "term": "lietuvė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female person from Lithuania.",
@@ -2556,7 +2605,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Lietuva",
+      "lietuvis",
+      "lietuviškai"
+    ],
     "translation": "Lithuanian woman",
     "tags": [
       "A1",
@@ -2567,7 +2620,7 @@
     "term": "lietuviškai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In the Lithuanian language.",
@@ -2581,7 +2634,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Lietuva",
+      "lietuvis",
+      "lietuvė"
+    ],
     "translation": "in Lithuanian",
     "tags": [
       "A1",
@@ -2592,7 +2649,7 @@
     "term": "Anglija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A country that is part of the United Kingdom.",
@@ -2606,7 +2663,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "anglas",
+      "anglė",
+      "angliškai"
+    ],
     "translation": "England",
     "tags": [
       "A1",
@@ -2617,7 +2678,7 @@
     "term": "anglas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male person from England.",
@@ -2631,7 +2692,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Anglija",
+      "anglė",
+      "angliškai"
+    ],
     "translation": "Englishman",
     "tags": [
       "A1",
@@ -2642,7 +2707,7 @@
     "term": "anglė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female person from England.",
@@ -2656,7 +2721,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Anglija",
+      "anglas",
+      "angliškai"
+    ],
     "translation": "Englishwoman",
     "tags": [
       "A1",
@@ -2667,7 +2736,7 @@
     "term": "angliškai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In the English language.",
@@ -2681,7 +2750,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Anglija",
+      "anglas",
+      "anglė"
+    ],
     "translation": "in English",
     "tags": [
       "A1",
@@ -2692,7 +2765,7 @@
     "term": "Vokietija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A country in Central Europe.",
@@ -2706,7 +2779,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vokietis",
+      "vokietė",
+      "vokiškai"
+    ],
     "translation": "Germany",
     "tags": [
       "A1",
@@ -2717,7 +2794,7 @@
     "term": "vokietis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male person from Germany.",
@@ -2731,7 +2808,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Vokietija",
+      "vokietė",
+      "vokiškai"
+    ],
     "translation": "German man",
     "tags": [
       "A1",
@@ -2742,7 +2823,7 @@
     "term": "vokietė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female person from Germany.",
@@ -2756,7 +2837,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Vokietija",
+      "vokietis",
+      "vokiškai"
+    ],
     "translation": "German woman",
     "tags": [
       "A1",
@@ -2767,7 +2852,7 @@
     "term": "vokiškai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In the German language.",
@@ -2781,7 +2866,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Vokietija",
+      "vokietis",
+      "vokietė"
+    ],
     "translation": "in German",
     "tags": [
       "A1",
@@ -2792,7 +2881,7 @@
     "term": "Lenkija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A country in Central Europe.",
@@ -2806,7 +2895,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lenkas",
+      "lenkė",
+      "lenkiškai"
+    ],
     "translation": "Poland",
     "tags": [
       "A1",
@@ -2817,7 +2910,7 @@
     "term": "lenkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male person from Poland.",
@@ -2831,7 +2924,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Lenkija",
+      "lenkė",
+      "lenkiškai"
+    ],
     "translation": "Polish man",
     "tags": [
       "A1",
@@ -2842,7 +2939,7 @@
     "term": "lenkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female person from Poland.",
@@ -2856,7 +2953,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Lenkija",
+      "lenkas",
+      "lenkiškai"
+    ],
     "translation": "Polish woman",
     "tags": [
       "A1",
@@ -2867,7 +2968,7 @@
     "term": "lenkiškai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In the Polish language.",
@@ -2881,7 +2982,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Lenkija",
+      "lenkas",
+      "lenkė"
+    ],
     "translation": "in Polish",
     "tags": [
       "A1",
@@ -2892,7 +2997,7 @@
     "term": "Prancūzija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A country in Western Europe.",
@@ -2906,7 +3011,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prancūzas",
+      "prancūzė",
+      "prancūziškai"
+    ],
     "translation": "France",
     "tags": [
       "A1",
@@ -2917,7 +3026,7 @@
     "term": "prancūzas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male person from France.",
@@ -2931,7 +3040,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Prancūzija",
+      "prancūzė",
+      "prancūziškai"
+    ],
     "translation": "Frenchman",
     "tags": [
       "A1",
@@ -2942,7 +3055,7 @@
     "term": "prancūzė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female person from France.",
@@ -2956,7 +3069,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Prancūzija",
+      "prancūzas",
+      "prancūziškai"
+    ],
     "translation": "Frenchwoman",
     "tags": [
       "A1",
@@ -2967,7 +3084,7 @@
     "term": "prancūziškai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In the French language.",
@@ -2981,7 +3098,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Prancūzija",
+      "prancūzas",
+      "prancūzė"
+    ],
     "translation": "in French",
     "tags": [
       "A1",
@@ -2992,7 +3113,7 @@
     "term": "Latvija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A country in the Baltic region of Europe.",
@@ -3006,7 +3127,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "latvis",
+      "latvė",
+      "latviškai"
+    ],
     "translation": "Latvia",
     "tags": [
       "A1",
@@ -3017,7 +3142,7 @@
     "term": "latvis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male person from Latvia.",
@@ -3031,7 +3156,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Latvija",
+      "latvė",
+      "latviškai"
+    ],
     "translation": "Latvian man",
     "tags": [
       "A1",
@@ -3042,7 +3171,7 @@
     "term": "latvė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female person from Latvia.",
@@ -3056,7 +3185,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Latvija",
+      "latvis",
+      "latviškai"
+    ],
     "translation": "Latvian woman",
     "tags": [
       "A1",
@@ -3067,7 +3200,7 @@
     "term": "latviškai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In the Latvian language.",
@@ -3081,7 +3214,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Latvija",
+      "latvis",
+      "latvė"
+    ],
     "translation": "in Latvian",
     "tags": [
       "A1",

@@ -2497,7 +2497,7 @@
   },
   {
     "term": "conglomerate",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2514,11 +2514,25 @@
           "business"
         ]
       }
+    ],
+    "synonyms": [
+      "corporation",
+      "multinational",
+      "business group"
+    ],
+    "antonymTerms": [
+      "startup",
+      "sole proprietorship"
+    ],
+    "relatedTerms": [
+      "subsidiary",
+      "holding company",
+      "diversification"
     ]
   },
   {
     "term": "amortization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2535,11 +2549,24 @@
           "finance"
         ]
       }
+    ],
+    "synonyms": [
+      "cost allocation",
+      "debt repayment",
+      "write-off schedule"
+    ],
+    "antonymTerms": [
+      "balloon payment"
+    ],
+    "relatedTerms": [
+      "depreciation",
+      "loan principal",
+      "interest"
     ]
   },
   {
     "term": "capitalization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2556,11 +2583,24 @@
           "finance"
         ]
       }
+    ],
+    "synonyms": [
+      "market value",
+      "capital structure",
+      "equity valuation"
+    ],
+    "antonymTerms": [
+      "decapitalization"
+    ],
+    "relatedTerms": [
+      "equity",
+      "debt",
+      "shares outstanding"
     ]
   },
   {
     "term": "leveraged",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [
@@ -2577,11 +2617,25 @@
           "finance"
         ]
       }
+    ],
+    "synonyms": [
+      "geared",
+      "debt-financed",
+      "highly financed"
+    ],
+    "antonymTerms": [
+      "unleveraged",
+      "debt-free"
+    ],
+    "relatedTerms": [
+      "leverage",
+      "borrowed capital",
+      "risk exposure"
     ]
   },
   {
     "term": "accretion",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -2598,11 +2652,25 @@
           "finance"
         ]
       }
+    ],
+    "synonyms": [
+      "buildup",
+      "accumulation",
+      "incremental growth"
+    ],
+    "antonymTerms": [
+      "erosion",
+      "depletion"
+    ],
+    "relatedTerms": [
+      "increment",
+      "aggregation",
+      "compounding"
     ]
   },
   {
     "term": "exegesis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -2619,11 +2687,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "interpretation",
+      "commentary",
+      "explication"
+    ],
+    "antonymTerms": [
+      "misreading",
+      "obscurity"
+    ],
+    "relatedTerms": [
+      "hermeneutics",
+      "textual analysis",
+      "annotation"
+    ]
   },
   {
     "term": "metacognition",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -2640,11 +2721,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "self-reflection",
+      "thinking about thinking",
+      "cognitive awareness"
+    ],
+    "antonymTerms": [
+      "mindlessness",
+      "automaticity"
+    ],
+    "relatedTerms": [
+      "self-regulation",
+      "executive function",
+      "learning strategies"
+    ]
   },
   {
     "term": "interdisciplinary",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "meanings": [
@@ -2661,11 +2755,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "cross-disciplinary",
+      "multidisciplinary",
+      "integrative"
+    ],
+    "antonymTerms": [
+      "single-discipline",
+      "specialized"
+    ],
+    "relatedTerms": [
+      "collaboration",
+      "field integration",
+      "research methods"
+    ]
   },
   {
     "term": "correlative",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "meanings": [
@@ -2682,11 +2789,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "corresponding",
+      "associated",
+      "interrelated"
+    ],
+    "antonymTerms": [
+      "unrelated",
+      "independent"
+    ],
+    "relatedTerms": [
+      "correlation",
+      "covariance",
+      "mutual relation"
+    ]
   },
   {
     "term": "methodological",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "meanings": [
@@ -2703,11 +2823,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "systematic",
+      "procedural",
+      "method-based"
+    ],
+    "antonymTerms": [
+      "unsystematic",
+      "ad hoc"
+    ],
+    "relatedTerms": [
+      "methodology",
+      "research design",
+      "protocol"
+    ]
   },
   {
     "term": "corollary",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -2724,11 +2857,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "consequence",
+      "inference",
+      "byproduct"
+    ],
+    "antonymTerms": [
+      "premise",
+      "cause"
+    ],
+    "relatedTerms": [
+      "theorem",
+      "implication",
+      "deduction"
+    ]
   },
   {
     "term": "syllabus",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -2745,11 +2891,21 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "curriculum outline",
+      "course plan",
+      "course outline"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "coursework",
+      "learning objectives",
+      "assessment"
+    ]
   },
   {
     "term": "chiaroscuro",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -2766,11 +2922,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "light-dark contrast",
+      "tonal contrast",
+      "shadow modeling"
+    ],
+    "antonymTerms": [
+      "flat lighting",
+      "even illumination"
+    ],
+    "relatedTerms": [
+      "tenebrism",
+      "shading",
+      "composition"
+    ]
   },
   {
     "term": "diegetic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "meanings": [
@@ -2787,11 +2956,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "in-world",
+      "narrative-internal",
+      "story-world"
+    ],
+    "antonymTerms": [
+      "non-diegetic",
+      "external"
+    ],
+    "relatedTerms": [
+      "diegesis",
+      "soundtrack",
+      "narration"
+    ]
   },
   {
     "term": "nonfigurative",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "meanings": [
@@ -2808,11 +2990,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "abstract",
+      "nonrepresentational",
+      "nonobjective"
+    ],
+    "antonymTerms": [
+      "figurative",
+      "representational"
+    ],
+    "relatedTerms": [
+      "abstraction",
+      "modernism",
+      "visual form"
+    ]
   },
   {
     "term": "expressionistic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "meanings": [
@@ -2829,11 +3024,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "emotion-driven",
+      "subjective",
+      "stylized"
+    ],
+    "antonymTerms": [
+      "naturalistic",
+      "realist"
+    ],
+    "relatedTerms": [
+      "expressionism",
+      "distortion",
+      "intensity"
+    ]
   },
   {
     "term": "contrapuntal",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "meanings": [
@@ -2850,11 +3058,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "polyphonic",
+      "counterpoint-based",
+      "interwoven"
+    ],
+    "antonymTerms": [
+      "homophonic",
+      "unison"
+    ],
+    "relatedTerms": [
+      "counterpoint",
+      "fugue",
+      "voice leading"
+    ]
   },
   {
     "term": "orchestration",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -2871,11 +3092,21 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "scoring",
+      "arrangement",
+      "instrumentation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "orchestra",
+      "composer",
+      "timbre"
+    ]
   },
   {
     "term": "dramaturgical",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "meanings": [
@@ -2892,11 +3123,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "theatrical",
+      "dramatic-structural",
+      "playwriting-related"
+    ],
+    "antonymTerms": [
+      "nondramatic",
+      "improvisational"
+    ],
+    "relatedTerms": [
+      "dramaturgy",
+      "staging",
+      "plot structure"
+    ]
   },
   {
     "term": "iconography",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -2913,11 +3157,23 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "symbolism",
+      "visual motifs",
+      "imagery system"
+    ],
+    "antonymTerms": [
+      "iconoclasm"
+    ],
+    "relatedTerms": [
+      "icons",
+      "motifs",
+      "semiotics"
+    ]
   },
   {
     "term": "ekphrastic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "meanings": [
@@ -2934,11 +3190,21 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "descriptive of art",
+      "art-responsive",
+      "image-evoking"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ekphrasis",
+      "poetry",
+      "visual art"
+    ]
   },
   {
     "term": "palimpsest",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -2955,11 +3221,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "layered text",
+      "overwritten manuscript",
+      "stratified record"
+    ],
+    "antonymTerms": [
+      "clean slate",
+      "blank page"
+    ],
+    "relatedTerms": [
+      "manuscript",
+      "erasure",
+      "historical layering"
+    ]
   },
   {
     "term": "anhedonia",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -2976,11 +3255,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "loss of pleasure",
+      "inability to enjoy",
+      "emotional blunting"
+    ],
+    "antonymTerms": [
+      "hedonia",
+      "enjoyment"
+    ],
+    "relatedTerms": [
+      "depression",
+      "reward system",
+      "motivation"
+    ]
   },
   {
     "term": "alexithymia",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -2997,11 +3289,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "emotional inarticulacy",
+      "affect-labeling deficit",
+      "emotion-blindness"
+    ],
+    "antonymTerms": [
+      "emotional awareness",
+      "emotional fluency"
+    ],
+    "relatedTerms": [
+      "affect",
+      "emotional regulation",
+      "interoception"
+    ]
   },
   {
     "term": "dissociation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -3018,11 +3323,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "detachment",
+      "disconnection",
+      "depersonalization"
+    ],
+    "antonymTerms": [
+      "integration",
+      "groundedness"
+    ],
+    "relatedTerms": [
+      "trauma",
+      "derealization",
+      "identity fragmentation"
+    ]
   },
   {
     "term": "rumination",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -3039,11 +3357,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "brooding",
+      "overthinking",
+      "mental replay"
+    ],
+    "antonymTerms": [
+      "mindfulness",
+      "letting go"
+    ],
+    "relatedTerms": [
+      "anxiety",
+      "depression",
+      "cognitive loops"
+    ]
   },
   {
     "term": "catastrophizing",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -3060,11 +3391,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "worst-case thinking",
+      "doom thinking",
+      "magnification"
+    ],
+    "antonymTerms": [
+      "realistic appraisal",
+      "balanced thinking"
+    ],
+    "relatedTerms": [
+      "cognitive distortion",
+      "anxiety",
+      "CBT"
+    ]
   },
   {
     "term": "neuroticism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -3081,11 +3425,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "emotional instability",
+      "negative affectivity",
+      "anxiety-proneness"
+    ],
+    "antonymTerms": [
+      "emotional stability",
+      "equanimity"
+    ],
+    "relatedTerms": [
+      "personality trait",
+      "Big Five",
+      "stress reactivity"
+    ]
   },
   {
     "term": "cognitivism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -3102,11 +3459,23 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "cognitive theory",
+      "mentalism",
+      "information-processing view"
+    ],
+    "antonymTerms": [
+      "behaviorism"
+    ],
+    "relatedTerms": [
+      "schema",
+      "memory",
+      "learning theory"
+    ]
   },
   {
     "term": "behaviorism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -3123,11 +3492,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "behavioral theory",
+      "stimulus-response theory",
+      "conditioning model"
+    ],
+    "antonymTerms": [
+      "cognitivism",
+      "mentalism"
+    ],
+    "relatedTerms": [
+      "reinforcement",
+      "conditioning",
+      "observable behavior"
+    ]
   },
   {
     "term": "psychoanalytic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "meanings": [
@@ -3144,11 +3526,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "Freudian",
+      "depth-psychological",
+      "analytic"
+    ],
+    "antonymTerms": [
+      "behavioral",
+      "nonanalytic"
+    ],
+    "relatedTerms": [
+      "psychoanalysis",
+      "unconscious",
+      "interpretation"
+    ]
   },
   {
     "term": "transference",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -3165,11 +3560,21 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "emotional displacement",
+      "therapeutic projection",
+      "relational carryover"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "psychoanalysis",
+      "countertransference",
+      "therapeutic alliance"
+    ]
   },
   {
     "term": "deontology",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -3186,11 +3591,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "duty ethics",
+      "rule-based ethics",
+      "Kantian ethics"
+    ],
+    "antonymTerms": [
+      "consequentialism",
+      "utilitarianism"
+    ],
+    "relatedTerms": [
+      "moral duty",
+      "categorical imperative",
+      "rights"
+    ]
   },
   {
     "term": "consequentialism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -3207,11 +3625,24 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "outcome-based ethics",
+      "teleological ethics",
+      "result-oriented ethics"
+    ],
+    "antonymTerms": [
+      "deontology",
+      "duty ethics"
+    ],
+    "relatedTerms": [
+      "utility",
+      "moral outcomes",
+      "cost-benefit ethics"
+    ]
   },
   {
     "term": "compatibilism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -3228,7 +3659,20 @@
     "tags": [
       "C1"
     ],
-    "synonyms": []
+    "synonyms": [
+      "soft determinism",
+      "free-will compatibilism",
+      "reconciling view"
+    ],
+    "antonymTerms": [
+      "incompatibilism",
+      "hard determinism"
+    ],
+    "relatedTerms": [
+      "free will",
+      "determinism",
+      "moral responsibility"
+    ]
   },
   {
     "term": "determinism",
