@@ -99,14 +99,37 @@ def validate_relations(word: dict, idx: int, errors: list):
         elif not isinstance(val, list):
             errors.append(f"[{idx}] '{word.get('term')}': '{field}' must be an array")
         else:
-            # Self-reference check: term must not appear in its own relation arrays
+            # Exact self-reference check: term must not appear in its own relation arrays
             if term_lower and any(isinstance(v, str) and v.lower().strip() == term_lower for v in val):
                 errors.append(f"[{idx}] '{word.get('term')}': '{field}' contains the term itself — remove self-reference")
+            # Substring self-reference: multi-word relation item that contains the headword as a whole word token
+            # Only flags phrases (items with spaces) to avoid false positives on compound single words.
+            if term_lower:
+                for v in val:
+                    if isinstance(v, str) and " " in v:
+                        tokens = v.lower().split()
+                        if term_lower in tokens:
+                            errors.append(f"[{idx}] '{word.get('term')}': '{field}' item '{v}' contains the headword as a word token — likely a self-referential phrase")
+            # Within-array duplicate check: same value appearing twice in one array
+            lower_vals = [v.lower().strip() for v in val if isinstance(v, str)]
+            if len(lower_vals) != len(set(lower_vals)):
+                errors.append(f"[{idx}] '{word.get('term')}': '{field}' contains duplicate entries — remove duplicates")
             # LT: flag accusative/genitive forms (non-nominative headwords) in relation arrays
             if word.get("language") == "lt":
                 for v in val:
                     if isinstance(v, str) and (v.endswith("ą") or v.endswith("ų")):
                         errors.append(f"[{idx}] '{word.get('term')}' {field}: '{v}' appears to be an inflected (non-nominative) form — use nominative headword")
+    # Cross-array duplicate check: same term must not appear in more than one relation array
+    cross_seen: dict = {}
+    for field in ("synonyms", "antonymTerms", "relatedTerms"):
+        for v in (word.get(field) or []):
+            if isinstance(v, str):
+                key = v.lower().strip()
+                if field not in cross_seen.get(key, []):
+                    cross_seen.setdefault(key, []).append(field)
+    for v_lower, fields in cross_seen.items():
+        if len(fields) > 1:
+            errors.append(f"[{idx}] '{word.get('term')}': '{v_lower}' appears in multiple relation arrays ({', '.join(fields)}) — remove cross-array duplicate")
     # EN words should have at least some synonyms
     if word.get("language") == "en":
         synonyms = word.get("synonyms", [])

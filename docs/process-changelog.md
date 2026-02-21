@@ -144,3 +144,31 @@ This file answers: "Why does the process work the way it does now?" and "What ch
 - [2026-02-24] [qa-13] [vocab/qa-13] — "Several LT synonyms were incorrectly conjugated/declined forms rather than nominative headwords."
 - [2026-02-21] [vocab-qa-agent] [vocab/qa-2] — "Add an orchestrator preflight guard that skips spawning QA when relations-added count is zero."
 - [2026-02-21] [enricher-en-8] [enrich-en-8-30-stubs] — "Add a validator mode that lists relation self-references/duplicates explicitly to speed up QA pass/fail decisions."
+
+## [2026-02-21] Reflection cycle #5
+
+### Pattern observed
+1. **Cross-array and within-array duplicates in relation fields** — relations-19 found 11 EN entries where the Enricher placed the same term in both a primary relation array and `relatedTerms`; qa-14 found two LT entries (jų, kokie) where the same string appeared twice in `relatedTerms`. Neither pattern was caught by the existing validator. The relations-19 retro explicitly requested a cross-array dedup check.
+2. **Substring self-references reach QA** — qa-18 caught `"archaeal methanogenesis"` listed as a synonym for `"methanogenesis"`. The cycle-4 self-reference check only matches the exact headword; it does not catch phrases containing the headword as a substring.
+3. **Inflected-form errors persist in new variants** — the cycle-4 `-ą`/`-ų` word-final check has reduced obvious accusative forms, but qa-15 found a new sub-pattern: compound LT phrases where a genitive-plural modifier precedes a head noun (`autobusų stotis`, `traukinių stotis`, `dviračių stotis`). These pass the existing character-ending check because the full string does not end in `-ų`. Enrichers are now explicitly noting they verified nominative forms, indicating rising awareness, but the pattern still reaches QA.
+
+**Answers to specific questions:**
+- **QA still catching cross-array duplicates and self-references?** Yes, in every cycle post-4. Exact self-reference is largely prevented by the cycle-4 rule, but substring self-reference and cross-array/within-array duplicates are new variants that bypass it.
+- **New failure modes?** (1) Cross-array duplicates (same term in synonyms + relatedTerms). (2) Within-array duplicates (same string twice in one array). (3) Substring self-referential phrases.
+- **Validator improvements?** All three patterns above are mechanically detectable and are now addressed (see Change 1).
+
+### Change 1
+- **File**: `scripts/validate_words.py`
+- **What changed**: Added three new checks to `validate_relations`: (a) substring self-reference (headword appears as substring of any relation item); (b) within-array duplicate detection (same string twice in one array); (c) cross-array duplicate detection (same string in two or more of the three relation arrays).
+- **Why**: Cross-array dups found in 11 entries by relations-19; within-array dups in qa-14; substring self-reference in qa-18 — all patterns that the existing validator did not catch.
+
+### Change 2
+- **File**: `docs/VOCAB-AGENT.md`
+- **What changed**: Expanded the "Rules that the validator now enforces" block in the Relations section to document the three new checks (substring self-reference, cross-array duplicates, within-array duplicates).
+- **Why**: Agents will now see the complete rule set before writing relation arrays, preventing the errors rather than just catching them at validate time.
+
+### Retro entries that triggered this
+- [2025-07-14] [qa-14] [vocab/qa-14] — "relatedTerms contained duplicate entry 'jos' / 'koks' — simple copy-paste duplicates reaching QA stage."
+- [2025-07-18] [qa-18] [vocab/qa-18] — "'archaeal methanogenesis' listed as synonym for 'methanogenesis' — self-referential phrase not caught by exact-match check."
+- [2025-07-14] [qa-15] [vocab/qa-15] — "autobusų stotis/traukinių stotis/dviračių stotis in relatedTerms — genitive-plural modifier in compound phrase not flagged by -ų word-final check."
+- [2025-02-21] [relations-19] [vocab/relations-19] — "11 EN entries had cross-array duplicates (same term in synonyms/antonyms AND relatedTerms); consider adding a cross-array dedup check to the validator."

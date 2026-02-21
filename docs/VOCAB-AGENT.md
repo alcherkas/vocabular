@@ -186,6 +186,9 @@ git commit -m "vocab(seed-lt): add N new stubs from lt.txt"
 
 **Rules that the validator now enforces (will fail validation if violated):**
 - A term must not appear in its own `synonyms`, `antonymTerms`, or `relatedTerms` (self-reference).
+- A relation item that contains the headword as a **substring** is also flagged (e.g. `"archaeal methanogenesis"` in synonyms of `"methanogenesis"`).
+- A term must not appear in **more than one** relation array (cross-array duplicate). E.g. `"riff"` in both `synonyms` and `relatedTerms` will be flagged — keep it in the most precise array only.
+- A term must not appear **twice in the same** relation array (within-array duplicate). De-duplicate arrays before committing.
 - LT relation arrays must use **nominative headword** forms. Words ending in `-ą` (accusative) or `-ų` (genitive plural) will be flagged — use the nominative form instead (e.g. `palata` not `palatą`).
 
 ### Preflight stub count
