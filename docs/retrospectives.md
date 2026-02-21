@@ -996,3 +996,28 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 ### Suggested improvement
 - Add a lint rule that rejects "nepažįstamasis/nepažįstamoji/nepažįstamieji" as antonymTerms for any family/kinship noun — this pattern recurred across five entries and is never semantically valid.
 - Consider a validator check that flags ordinal-form synonyms paired with cardinal-form headwords (e.g. "pirmas" in synonyms of "vienas") by comparing the `-as`/`-a` suffix pattern against the headword's numeral type.
+## [2026-02-23] [relations-11] [vocab/relations-11]
+
+### What went well
+- Preflight JSON check passed on both staging files immediately (1960 LT entries, 430 EN entries valid).
+- LT: 35 enriched entries processed cleanly in a single-pass script — 15 qaNote entries (relations already corrected by prior enricher passes, status just needed advancing) plus 20 family/state vocabulary entries with sparse or missing relations.
+- EN: 1 available enriched entry (euploidy) had a resolved qaNote; promoted cleanly to relations-added.
+- All targeted entries passed `validate_words.py --status relations-added` with zero errors (LT: 70 total, EN: 36 total).
+- Fixed three secondary data-quality issues discovered during inspection: encoding bug in `mirusi` synonyms (Cyrillic 'а' U+0430 → Latin 'a' U+0061), typo in `norėti` synonyms (`troškti` → `trokšti`), and improper capitalisation on three terms (`Atostogauti`, `Vedęs`, `Galėti`).
+
+### What was harder than expected
+- EN staging file had only 1 enriched entry available; all other entries were either stub, approved, or already relations-added — the 35-per-file target could not be met for EN. Processed all 1 available.
+- Several LT entries had relation fields populated but `status` still `enriched` (same status-stale pattern from relations-10); preflight analysis was essential to detect this before overwriting good data.
+- The Cyrillic/Latin homoglyph in `mirusi` synonyms would silently pass JSON validation and display identically in most editors — only caught via `hex(ord(c))` inspection.
+
+### Decisions
+- Processed all 35 available LT enriched entries and the 1 available EN enriched entry; did not promote `approved` entries backward to fill the 35-per-file target for EN, as that would violate the pipeline order.
+- qaNote fields removed only after verifying the noted issue was already resolved in the data.
+- Term capitalisation fixes (`Atostogauti` → `atostogauti`, `Vedęs` → `vedęs`, `Galėti` → `galėti`) applied as part of this pass since the validator does not enforce case and these were blocking correct lookup.
+
+### Process friction
+- 26 pre-existing validation errors in `approved` entries of words_staging.json (insufficient synonyms) surfaced during full-file validation — unrelated to this task, not fixed here. Should be addressed by a dedicated QA pass.
+
+### Suggested improvement
+- Add a homoglyph check to `validate_words.py` that flags strings containing characters outside the expected Unicode blocks for a given language (Latin + Lithuanian diacritics for LT, plain ASCII/Latin for EN).
+- Track `enriched` entry counts per file in a CI summary so agents know before starting how many entries are actually available for the target batch size.

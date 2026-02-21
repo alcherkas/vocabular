@@ -3586,8 +3586,7 @@
     "term": "sveikas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
-    "qaNote": "antonymTerms contain wrong POS: \"ligonis\" is a noun (ill person) and \"serga\" is a third-person verb conjugation, not an adjective. Replace with adjective forms, e.g. \"sergantis\" (ailing) and \"ligotas\" (sickly).",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Being in good health; not ill.",
@@ -3604,8 +3603,8 @@
       "tvirtas"
     ],
     "antonymTerms": [
-      "ligonis",
-      "serga"
+      "sergantis",
+      "ligotas"
     ],
     "relatedTerms": [
       "sveikata",
@@ -5231,10 +5230,10 @@
     "translation": "cinema"
   },
   {
-    "term": "Atostogauti",
+    "term": "atostogauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To spend time away from work or studies for rest and leisure.",
@@ -5258,14 +5257,13 @@
       "kelionė",
       "poilsis"
     ],
-    "translation": "to go on vacation",
-    "qaNote": "Term capitalized incorrectly; should be lowercase \"atostogauti\""
+    "translation": "to go on vacation"
   },
   {
     "term": "eiti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To move from one place to another, usually on foot.",
@@ -5283,7 +5281,7 @@
     ],
     "antonymTerms": [
       "stovėti",
-      "bėgti"
+      "sustoti"
     ],
     "relatedTerms": [
       "kelias",
@@ -5291,8 +5289,7 @@
       "pėsčiomis",
       "vaikščiojimas"
     ],
-    "translation": "to go",
-    "qaNote": "\"bėgti\" (to run) is not an antonym of \"eiti\" (to go) — both express forward movement; replace with \"sustoti\" (to stop) or \"grįžti\" (to return)."
+    "translation": "to go"
   },
   {
     "term": "skambinti",
@@ -5486,7 +5483,7 @@
     "term": "mergaitė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female child.",
@@ -5499,8 +5496,8 @@
       }
     ],
     "synonyms": [
-      "mažoji moteris",
-      "dukrytė"
+      "mergytė",
+      "mergūnė"
     ],
     "antonymTerms": [
       "berniukas"
@@ -5511,8 +5508,7 @@
       "jaunimas",
       "šeima"
     ],
-    "translation": "girl",
-    "qaNote": "synonyms \"mažoji moteris\" (little woman) and \"dukrytė\" (little daughter) are not accurate synonyms for \"girl\"; replace with \"mergytė\" or \"mergūnė\"."
+    "translation": "girl"
   },
   {
     "term": "mergina",
@@ -5676,7 +5672,7 @@
     "term": "mokinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A boy or man who studies at school.",
@@ -5701,14 +5697,13 @@
       "mokslas",
       "mokinė"
     ],
-    "translation": "male student",
-    "qaNote": "\"studentas\" (university student) is not a synonym for \"mokinys\" (school pupil); replace with \"moksleivis\"."
+    "translation": "male student"
   },
   {
     "term": "mokinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A girl or woman who studies at school.",
@@ -5733,14 +5728,13 @@
       "mokslas",
       "mokinys"
     ],
-    "translation": "female student",
-    "qaNote": "\"studentė\" (university student) is not a synonym for \"mokinė\" (female school pupil); replace with \"moksleivė\"."
+    "translation": "female student"
   },
   {
     "term": "pensininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A retired man receiving a pension.",
@@ -5766,8 +5760,7 @@
       "poilsis",
       "pensininkė"
     ],
-    "translation": "male pensioner",
-    "qaNote": "\"veteranas\" typically denotes a military/war veteran in Lithuanian, not a retired person; remove or replace with \"senjonas\"."
+    "translation": "male pensioner"
   },
   {
     "term": "pensininkė",
@@ -6870,7 +6863,7 @@
     "term": "jūrininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who works on ships or travels by sea professionally.",
@@ -6895,8 +6888,7 @@
       "plaukiojimas",
       "uostas"
     ],
-    "translation": "sailor (woman)",
-    "qaNote": "Synonym 'laivininke' corrected to 'laivininkė' (missing ė diacritic on final syllable)."
+    "translation": "sailor (woman)"
   },
   {
     "term": "lakūnas",
@@ -7314,7 +7306,7 @@
     "term": "verslininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who owns, runs, or invests in businesses.",
@@ -7340,8 +7332,7 @@
       "pelnas",
       "rinka"
     ],
-    "translation": "businesswoman",
-    "qaNote": "Synonym 'komerciante' corrected to 'komerciantė' (final plain 'e' U+0065 replaced with 'ė' U+0117)."
+    "translation": "businesswoman"
   },
   {
     "term": "vertėjas",
@@ -7551,7 +7542,7 @@
     "term": "slaugytojas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who provides nursing care to patients.",
@@ -7578,14 +7569,13 @@
       "priežiūra",
       "palata"
     ],
-    "translation": "nurse (man)",
-    "qaNote": "relatedTerms contains \"palatą\" (accusative); corrected to nominative \"palata\""
+    "translation": "nurse (man)"
   },
   {
     "term": "slaugytoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who provides nursing care to patients.",
@@ -7612,8 +7602,7 @@
       "priežiūra",
       "palata"
     ],
-    "translation": "nurse (woman)",
-    "qaNote": "relatedTerms contains \"palatą\" (accusative); corrected to nominative \"palata\""
+    "translation": "nurse (woman)"
   },
   {
     "term": "vairuotojas",
@@ -7755,7 +7744,7 @@
     "term": "fotografas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who takes photographs professionally.",
@@ -7768,7 +7757,8 @@
       }
     ],
     "synonyms": [
-      "nuotraukų meistras"
+      "nuotraukų meistras",
+      "fotoreporteris"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -7779,8 +7769,7 @@
       "studija",
       "šviesa"
     ],
-    "translation": "photographer (man)",
-    "qaNote": "\"fotogrataras\" in synonyms is a misspelling (likely of \"fotografas\", the term itself); removed"
+    "translation": "photographer (man)"
   },
   {
     "term": "fotografė",
@@ -8080,7 +8069,7 @@
     "term": "pavasaris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The spring season, when weather gets warmer and plants begin to grow.",
@@ -8107,8 +8096,7 @@
       "vasara",
       "Velykos"
     ],
-    "translation": "spring",
-    "qaNote": "term \"Pavasaris\" is improperly capitalised for a common noun; corrected to \"pavasaris\""
+    "translation": "spring"
   },
   {
     "term": "vasara",
@@ -8147,7 +8135,7 @@
     "term": "ruduo",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The autumn season, when leaves change color and temperatures drop.",
@@ -8173,14 +8161,13 @@
       "žiema",
       "derlius"
     ],
-    "translation": "autumn",
-    "qaNote": "\"lapkritis\" is the Lithuanian word for November (a month), not a synonym for autumn; removed"
+    "translation": "autumn"
   },
   {
     "term": "žiema",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The winter season, usually the coldest part of the year.",
@@ -8206,8 +8193,7 @@
       "Kalėdos",
       "ledas"
     ],
-    "translation": "winter",
-    "qaNote": "\"žiemasergis\" is not a recognised Lithuanian word (expected archaic form would be \"žiemametis\"); removed"
+    "translation": "winter"
   },
   {
     "term": "savaitė",
@@ -9512,7 +9498,7 @@
     "term": "motina",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who has given birth to a child.",
@@ -9525,10 +9511,19 @@
       }
     ],
     "synonyms": [
-      "mama"
+      "mama",
+      "gimdytoja"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "tėvas"
+    ],
+    "relatedTerms": [
+      "tėvas",
+      "vaikas",
+      "šeima",
+      "dukra",
+      "sūnus"
+    ],
     "translation": "mother",
     "tags": [
       "A1"
@@ -9538,7 +9533,7 @@
     "term": "mama",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An informal word for mother.",
@@ -9553,8 +9548,15 @@
     "synonyms": [
       "motina"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "tėtis"
+    ],
+    "relatedTerms": [
+      "tėtis",
+      "vaikas",
+      "šeima",
+      "motina"
+    ],
     "translation": "mom",
     "tags": [
       "A1"
@@ -9564,7 +9566,7 @@
     "term": "tėvas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who has begotten a child.",
@@ -9577,10 +9579,19 @@
       }
     ],
     "synonyms": [
-      "tėtis"
+      "tėtis",
+      "gimdytojas"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "motina"
+    ],
+    "relatedTerms": [
+      "motina",
+      "vaikas",
+      "šeima",
+      "sūnus",
+      "dukra"
+    ],
     "translation": "father",
     "tags": [
       "A1"
@@ -9590,7 +9601,7 @@
     "term": "tėtis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An informal word for father.",
@@ -9605,8 +9616,15 @@
     "synonyms": [
       "tėvas"
     ],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "mama"
+    ],
+    "relatedTerms": [
+      "mama",
+      "vaikas",
+      "šeima",
+      "tėvas"
+    ],
     "translation": "dad",
     "tags": [
       "A1"
@@ -9793,7 +9811,7 @@
     "term": "močiutė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Affectionate diminutive form of 'senelė', used to address or refer to one's grandmother.",
@@ -9809,11 +9827,15 @@
       "senelė",
       "bobutė"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "senelis"
+    ],
     "relatedTerms": [
       "senelis",
       "šeima",
-      "vaikaitė"
+      "vaikaitė",
+      "anūkas",
+      "anūkė"
     ],
     "translation": "granny, grandma"
   },
@@ -9821,7 +9843,7 @@
     "term": "prosenelis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The father of one's grandfather or grandmother; a male ancestor two generations above the grandparents.",
@@ -9840,7 +9862,9 @@
     "relatedTerms": [
       "prosenelė",
       "senelis",
-      "šeima"
+      "šeima",
+      "proanūkis",
+      "proanūkė"
     ],
     "translation": "great-grandfather"
   },
@@ -9848,7 +9872,7 @@
     "term": "prosenelė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The mother of one's grandfather or grandmother; a female ancestor two generations above the grandparents.",
@@ -9867,7 +9891,9 @@
     "relatedTerms": [
       "prosenelis",
       "senelė",
-      "šeima"
+      "šeima",
+      "proanūkis",
+      "proanūkė"
     ],
     "translation": "great-grandmother"
   },
@@ -9875,7 +9901,7 @@
     "term": "dėdė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The brother of one's mother or father, or the husband of one's aunt.",
@@ -9894,7 +9920,9 @@
       "teta",
       "šeima",
       "pusbrolis",
-      "pusseserė"
+      "pusseserė",
+      "brolis",
+      "sesuo"
     ],
     "translation": "uncle"
   },
@@ -9902,7 +9930,7 @@
     "term": "teta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The sister of one's mother or father, or the wife of one's uncle.",
@@ -9921,7 +9949,9 @@
       "dėdė",
       "šeima",
       "pusseserė",
-      "pusbrolis"
+      "pusbrolis",
+      "sesuo",
+      "brolis"
     ],
     "translation": "aunt"
   },
@@ -9929,7 +9959,7 @@
     "term": "pusbrolis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male child of one's uncle or aunt; a first cousin of the male gender.",
@@ -9948,15 +9978,16 @@
       "pusseserė",
       "dėdė",
       "teta",
-      "šeima"
+      "šeima",
+      "giminaitis"
     ],
     "translation": "male cousin"
   },
   {
-    "term": "Vedęs",
+    "term": "vedęs",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Describes a man who is legally bound in marriage to a woman.",
@@ -9968,7 +9999,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "susituokęs"
+    ],
     "antonymTerms": [
       "išsiskyręs",
       "nevedęs"
@@ -9976,7 +10009,9 @@
     "relatedTerms": [
       "ištekėjusi",
       "santuoka",
-      "šeima"
+      "šeima",
+      "žmona",
+      "vyras"
     ],
     "translation": "married (of a man)"
   },
@@ -9984,7 +10019,7 @@
     "term": "ištekėjusi",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Describes a woman who is legally bound in marriage to a man.",
@@ -9996,7 +10031,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "susituokusi"
+    ],
     "antonymTerms": [
       "išsiskyrusi",
       "netekėjusi"
@@ -10004,7 +10041,9 @@
     "relatedTerms": [
       "vedęs",
       "santuoka",
-      "šeima"
+      "šeima",
+      "vyras",
+      "žmona"
     ],
     "translation": "married (of a woman)"
   },
@@ -10012,7 +10051,7 @@
     "term": "išsiskyręs",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Describes a man whose marriage has been legally dissolved.",
@@ -10031,7 +10070,8 @@
     "relatedTerms": [
       "išsiskyrusi",
       "skyrybos",
-      "santuoka"
+      "santuoka",
+      "santuokos iširimas"
     ],
     "translation": "divorced (of a man)"
   },
@@ -10039,7 +10079,7 @@
     "term": "išsiskyrusi",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Describes a woman whose marriage has been legally dissolved.",
@@ -10058,7 +10098,8 @@
     "relatedTerms": [
       "išsiskyręs",
       "skyrybos",
-      "santuoka"
+      "santuoka",
+      "santuokos iširimas"
     ],
     "translation": "divorced (of a woman)"
   },
@@ -10066,7 +10107,7 @@
     "term": "miręs",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Describes a male person who has died; no longer living.",
@@ -10088,7 +10129,9 @@
     "relatedTerms": [
       "mirusi",
       "mirtis",
-      "laidotuvės"
+      "laidotuvės",
+      "kapas",
+      "atminimas"
     ],
     "translation": "deceased, dead (of a man)"
   },
@@ -10096,7 +10139,7 @@
     "term": "mirusi",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Describes a female person who has died; no longer living.",
@@ -10109,7 +10152,7 @@
       }
     ],
     "synonyms": [
-      "negyvа",
+      "negyva",
       "žuvusi"
     ],
     "antonymTerms": [
@@ -10118,15 +10161,17 @@
     "relatedTerms": [
       "miręs",
       "mirtis",
-      "laidotuvės"
+      "laidotuvės",
+      "kapas",
+      "atminimas"
     ],
     "translation": "deceased, dead (of a woman)"
   },
   {
-    "term": "Galėti",
+    "term": "galėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To have the ability, permission, or possibility to do something.",
@@ -10147,7 +10192,9 @@
     ],
     "relatedTerms": [
       "sugebėjimas",
-      "leidimas"
+      "leidimas",
+      "galia",
+      "galimybė"
     ],
     "translation": "to be able to, can"
   },
@@ -10155,7 +10202,7 @@
     "term": "mylėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To feel deep affection, attachment, or romantic love for someone or something.",
@@ -10177,7 +10224,9 @@
     "relatedTerms": [
       "meilė",
       "jausmas",
-      "šeima"
+      "šeima",
+      "santykiai",
+      "aistra"
     ],
     "translation": "to love"
   },
@@ -10185,7 +10234,7 @@
     "term": "norėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To have a desire or wish for something; to feel inclined to do something.",
@@ -10198,7 +10247,7 @@
       }
     ],
     "synonyms": [
-      "troškti",
+      "trokšti",
       "geidauti"
     ],
     "antonymTerms": [
@@ -10207,7 +10256,9 @@
     "relatedTerms": [
       "noras",
       "troškimas",
-      "tikslas"
+      "tikslas",
+      "poreikis",
+      "motyvacija"
     ],
     "translation": "to want, to wish"
   },
@@ -10215,7 +10266,7 @@
     "term": "pasiilgti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To feel longing or sadness because of the absence of a person, place, or thing.",
@@ -10234,7 +10285,8 @@
     "relatedTerms": [
       "ilgesys",
       "nostalgija",
-      "išsiilgimas"
+      "išsiilgimas",
+      "atsiilgimas"
     ],
     "translation": "to miss (someone or something)"
   },
