@@ -26611,7 +26611,7 @@
     "term": "rašomasis stalas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A desk or table used for writing and office work, typically found in an office or study.",
@@ -26649,7 +26649,7 @@
     "term": "kompiuteris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "An electronic device used to process, store, and display information, essential for modern office work.",
@@ -26670,7 +26670,8 @@
       "klaviatūra",
       "ekranas"
     ],
-    "translation": "computer"
+    "translation": "computer",
+    "qaNote": "Synonym 'skaičiuotuvas' is inaccurate in modern Lithuanian: the term primarily denotes a calculator (arithmetic device), not a computer. While historically used for computer, current standard usage reserves 'kompiuteris' for computer and 'skaičiuotuvas' for calculator. Replace with an accurate synonym."
   },
   {
     "term": "pelė",
@@ -26841,7 +26842,7 @@
     "term": "nešiojamas kompiuteris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A portable computer that can be used anywhere, commonly used for work and remote working.",
@@ -26881,7 +26882,7 @@
     "term": "elektroninis laiškas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A digital message sent and received over the internet, widely used for professional communication.",
@@ -26905,13 +26906,14 @@
       "priedas",
       "siuntėjas"
     ],
-    "translation": "email"
+    "translation": "email",
+    "qaNote": "Synonym 'el. laiškas' is a self-referential abbreviation of the head term 'elektroninis laiškas'. Abbreviations of the defined term do not qualify as synonyms. Remove or replace with a genuinely distinct synonym."
   },
   {
     "term": "elektroninis paštas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The system or service for sending and receiving electronic messages; also refers to an email address.",
@@ -26935,7 +26937,8 @@
       "internetas",
       "serveris"
     ],
-    "translation": "email address, email system"
+    "translation": "email address, email system",
+    "qaNote": "Synonym 'el. paštas' is a self-referential abbreviation of the head term 'elektroninis paštas'. Remove or replace with a genuinely distinct synonym."
   },
   {
     "term": "kopija",
@@ -26952,7 +26955,7 @@
     "term": "kopijavimo aparatas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A machine used in offices to make copies of documents and papers quickly.",
@@ -26979,7 +26982,7 @@
     "term": "Skyrius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A division or section within a company or organisation that handles a specific area of work.",
@@ -27000,7 +27003,8 @@
       "darbuotojas",
       "vadovas"
     ],
-    "translation": "department"
+    "translation": "department",
+    "qaNote": "Term is improperly capitalised as 'Skyrius'; Lithuanian common nouns in nominative citation form should be lowercase. Correct the term to 'skyrius'."
   },
   {
     "term": "pertrauka",
@@ -27035,7 +27039,7 @@
     "term": "atostogos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A period of time when an employee is allowed to be away from work for rest or personal matters.",
@@ -27058,13 +27062,14 @@
       "šventė",
       "poilsiadienis"
     ],
-    "translation": "vacation, leave"
+    "translation": "vacation, leave",
+    "qaNote": "Synonym 'poilsis' means 'rest' or 'relaxation' and is thematically related but not synonymous with 'atostogos' (leave/vacation). 'Poilsis' refers to any restful activity; 'atostogos' specifically denotes a formally granted period of leave from work or study. Replace with an accurate synonym."
   },
   {
     "term": "darbuotojas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A man employed by an organisation or employer to perform work in exchange for payment.",
@@ -27086,13 +27091,14 @@
       "darbdavys",
       "kolega"
     ],
-    "translation": "employee"
+    "translation": "employee",
+    "qaNote": "Synonym 'tarnautojas' primarily denotes a white-collar official or civil servant rather than a general employee. It is not an accurate general synonym for 'darbuotojas', which refers to any employee regardless of role or sector. Replace with a more accurate synonym."
   },
   {
     "term": "darbuotoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A woman employed by an organisation or employer to perform work in exchange for payment.",
@@ -27114,7 +27120,8 @@
       "darbdavė",
       "kolegė"
     ],
-    "translation": "employee (female)"
+    "translation": "employee (female)",
+    "qaNote": "Synonym 'tarnautoja' carries the same problem as 'tarnautojas' for the masculine form: it primarily denotes a female civil servant or white-collar official, not a general female employee. Replace with a more accurate synonym."
   },
   {
     "term": "direktorius",
@@ -27196,7 +27203,7 @@
     "term": "vedėjas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who heads or leads a department, section, or organisation.",
@@ -27223,7 +27230,7 @@
     "term": "vedėja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who heads or leads a department, section, or organisation.",
@@ -27250,7 +27257,7 @@
     "term": "viršininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who is in charge of and manages employees or a department.",
@@ -27277,7 +27284,7 @@
     "term": "viršininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who is in charge of and manages employees or a department.",
@@ -27304,7 +27311,7 @@
     "term": "kolega",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who works with you in the same workplace or profession.",
@@ -27331,7 +27338,7 @@
     "term": "kolegė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A woman who works with you in the same workplace or profession.",
@@ -27358,7 +27365,7 @@
     "term": "bedarbis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A man who does not have a job and is seeking employment.",
@@ -27431,7 +27438,7 @@
     "term": "komandiruotė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A work-related trip to another city or country made by an employee on behalf of their employer.",
@@ -27458,7 +27465,7 @@
     "term": "konferencija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A large formal meeting where professionals gather to discuss topics in their field.",
@@ -27479,7 +27486,8 @@
       "pranešimas",
       "posėdis"
     ],
-    "translation": "conference"
+    "translation": "conference",
+    "qaNote": "Synonym 'forumas' (forum) is not synonymous with 'konferencija' (conference): a forum is an open discussion platform or assembly, whereas a conference is a structured professional gathering with scheduled presentations and sessions. Replace with an accurate synonym."
   },
   {
     "term": "kursai",
@@ -27496,7 +27504,7 @@
     "term": "posėdis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A formal official meeting or session, typically in a governmental, institutional, or corporate setting.",
@@ -27524,7 +27532,7 @@
     "term": "seminaras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A training or educational meeting where participants discuss a topic or develop professional skills.",
@@ -27545,13 +27553,14 @@
       "pranešimas",
       "dirbtuvės"
     ],
-    "translation": "seminar"
+    "translation": "seminar",
+    "qaNote": "Synonym 'mokymai' (training, plural) is broader than 'seminaras': mokymai encompasses all forms of training including on-the-job instruction and workshops, while a seminar is a specific structured educational event. Replace with a more precise synonym."
   },
   {
     "term": "susirinkimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A gathering of colleagues or staff to discuss work matters or make decisions.",
@@ -27578,7 +27587,7 @@
     "term": "susitikimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A prearranged occasion when two or more people meet, often for a specific professional purpose.",
@@ -27605,7 +27614,7 @@
     "term": "alga",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The regular payment received by an employee for work done, usually paid monthly.",
@@ -27632,7 +27641,7 @@
     "term": "atlyginimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The total pay or compensation received by an employee for their work.",
@@ -27659,7 +27668,7 @@
     "term": "dokumentas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A written or printed item that provides official information or evidence, used in a work context.",
@@ -27687,7 +27696,7 @@
     "term": "gyvenimo aprašymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A written summary of a person's education, work experience, and skills, submitted when applying for a job.",
@@ -27714,7 +27723,7 @@
     "term": "parašas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A person's name written by hand to authorise documents or confirm identity.",
@@ -27735,7 +27744,8 @@
       "sutartis",
       "vardas"
     ],
-    "translation": "signature"
+    "translation": "signature",
+    "qaNote": "Synonym 'autografas' is inaccurate: in Lithuanian, 'autografas' typically refers to a celebrity's keepsake autograph rather than a general handwritten signature. 'Parašas' is the everyday term for any signature. Replace 'autografas' with a more accurate synonym."
   },
   {
     "term": "pasas",
@@ -27763,7 +27773,7 @@
     "term": "prašymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A formal written request submitted to an authority, employer, or institution for a particular purpose.",
@@ -27786,13 +27796,14 @@
       "sutartis",
       "forma"
     ],
-    "translation": "application, request"
+    "translation": "application, request",
+    "qaNote": "Synonym 'pareiškimas' (declaration/statement) is semantically distinct from 'prašymas' (request/application): a pareiškimas declares or announces something, while a prašymas formally requests something. They are related administrative document types but not synonymous. Replace with an accurate synonym."
   },
   {
     "term": "sutartis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A formal written agreement between two or more parties, especially an employment agreement.",
@@ -34655,7 +34666,7 @@
   },
   {
     "term": "gaisrininkas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -34691,7 +34702,7 @@
   },
   {
     "term": "statybininkas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -34715,7 +34726,8 @@
       "statyba",
       "namas",
       "įrankiai"
-    ]
+    ],
+    "qaNote": "Synonym 'darbininkas' (worker/labourer) is too broad: it denotes any manual worker regardless of trade, whereas 'statybininkas' specifically refers to a construction worker. Replace with a more specific synonym."
   },
   {
     "term": "statybininkė",
@@ -34726,7 +34738,7 @@
   },
   {
     "term": "sodininkas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -34751,7 +34763,8 @@
       "sodas",
       "gėlės",
       "medis"
-    ]
+    ],
+    "qaNote": "Synonym 'daržininkas' is inaccurate: 'daržininkas' specifically refers to a vegetable gardener (daržas = kitchen garden), whereas 'sodininkas' refers to a gardener or orchardist (sodas = garden/orchard). They are related but distinct specialisations. Replace with a more accurate synonym."
   },
   {
     "term": "sodininkė",
@@ -34762,7 +34775,7 @@
   },
   {
     "term": "mechanikas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -34786,7 +34799,8 @@
       "automobilis",
       "variklis",
       "remontas"
-    ]
+    ],
+    "qaNote": "Synonym 'technikas' (technician) is broader than 'mechanikas' (mechanic): a technician may work in any technical field, while a mechanic specifically repairs and maintains machines, engines, and vehicles. Replace with a more specific synonym."
   },
   {
     "term": "mechanikė",
@@ -34797,7 +34811,7 @@
   },
   {
     "term": "kepėjas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -34822,7 +34836,8 @@
       "duona",
       "kepykla",
       "miltai"
-    ]
+    ],
+    "qaNote": "Synonym 'duonkepys' is too specific: 'duonkepys' literally means bread baker (duona = bread), whereas 'kepėjas' denotes a baker of any goods including cakes and pastries. A hyponym cannot serve as a synonym for its hypernym. Replace with a more accurate synonym."
   },
   {
     "term": "kepėja",
