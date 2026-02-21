@@ -305,3 +305,26 @@ Vocab/
 
 ### Validator result
 132 enriched entries — all passed ✓ | 1960 total entries — all passed ✓
+
+---
+
+## relations-15 retro
+
+**Date:** 2025-07-24  
+**Branch:** vocab/relations-15  
+**Agent:** Vocab Relations Agent
+
+### What was done
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to **35 EN enriched entries** (cognitive science cluster: affordance→quasirationality; materials science cluster: annealing→porosity) — each with ≥2 synonyms as required by validator.
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to **35 LT enriched entries** (body-parts cluster: oda/Galva/ranka…; medical vocabulary cluster: receptas/sveikata/karščiavimas…) — using nominative-only headwords, no -ą/-ų inflected forms.
+- Status flipped `enriched` → `relations-added` for all 70 entries.
+
+### Validation
+- Preflight: both staging files PASSED `--errors-for relations-added` (pre-existing approved-status warnings only).
+- Post-update: PASSED on both files, no new errors introduced.
+
+### Decisions & notes
+- EN entries that already had all three relation fields from the enricher (first 17: virulence…fibrillation) were skipped; the 35 targeted were those with all-empty arrays.
+- LT synonyms for highly specific body-part terms (e.g. *oda*, *pirštas*) are limited to one diminutive/near-synonym, as no true synonym exists; validator imposes no minimum-synonym rule for LT entries.
+- Self-reference guard applied manually: no term appears in its own relation arrays.
+- Commit follows conventional-commits prefix `vocab(relations-15):`.
