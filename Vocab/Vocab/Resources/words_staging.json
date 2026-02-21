@@ -11719,31 +11719,122 @@
   },
   {
     "term": "lahar",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A fast-moving volcanic mudflow composed of pyroclastic material, rock debris, and water that flows down the slopes of a volcano.",
+        "example": "The lahar unleashed by the eruption travelled at over 60 km/h, burying entire villages in thick volcanic sediment.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "volcanology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "volcanic mudflow",
+      "volcanic debris flow"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tephra",
+      "caldera",
+      "pyroclastic flow",
+      "volcanic hazard"
+    ]
   },
   {
     "term": "fumarole",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A vent in the Earth's crust, typically near a volcano, from which hot gases and steam are continuously emitted.",
+        "example": "Geochemists sampled gas emissions from the active fumaroles to track changes in the volcano's hydrothermal system.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "volcanology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "gas vent",
+      "volcanic vent",
+      "solfatara"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "solfatara",
+      "caldera",
+      "hydrothermal system",
+      "volcanic degassing"
+    ]
   },
   {
     "term": "caldera",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A large, roughly circular volcanic depression formed by the collapse of a magma chamber following a major eruption.",
+        "example": "The Yellowstone Caldera, one of the world's largest supervolcanic structures, is monitored continuously for signs of renewed activity.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "volcanology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "volcanic crater",
+      "collapse crater"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "magma chamber",
+      "tephra",
+      "lahar",
+      "supervolcano",
+      "volcanic arc"
+    ]
   },
   {
     "term": "tephra",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "All fragmental material ejected into the atmosphere during a volcanic eruption, including ash, lapilli, and volcanic bombs.",
+        "example": "Tephra deposits from the Minoan eruption of Santorini have been identified in ice cores and marine sediments across the eastern Mediterranean.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "volcanology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "volcanic ejecta",
+      "pyroclastic debris"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "lapilli",
+      "ash fall",
+      "pyroclastic flow",
+      "lahar",
+      "volcanic hazard"
+    ]
   },
   {
     "term": "solfatara",
@@ -11768,31 +11859,128 @@
   },
   {
     "term": "ablation",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The process by which mass is lost from a glacier or ice sheet through melting, sublimation, calving, or wind erosion.",
+        "example": "Satellite measurements confirmed that annual ablation on the Greenland Ice Sheet now exceeds accumulation, resulting in a net loss of ice mass.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "glaciology",
+          "climate"
+        ]
+      }
+    ],
+    "synonyms": [
+      "glacial melting",
+      "ice loss",
+      "wastage"
+    ],
+    "antonymTerms": [
+      "accumulation"
+    ],
+    "relatedTerms": [
+      "firn",
+      "moraine",
+      "mass balance",
+      "glacial retreat",
+      "sublimation"
+    ]
   },
   {
     "term": "firn",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Granular, partially compacted snow that has survived at least one summer melt season, representing an intermediate stage between fresh snow and glacial ice.",
+        "example": "Ice cores drilled through the firn layer yielded a detailed atmospheric record stretching back hundreds of thousands of years.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "glaciology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "névé",
+      "granular snow"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ablation",
+      "glacial ice",
+      "accumulation zone",
+      "névé",
+      "ice core"
+    ]
   },
   {
     "term": "moraine",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An accumulation of unsorted rock debris, sediment, and soil transported and deposited by a glacier.",
+        "example": "The terminal moraine visible across the valley floor marks the maximum advance of the glacier during the Last Glacial Maximum.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "glaciology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "glacial deposit",
+      "glacial drift"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "cirque",
+      "drumlin",
+      "esker",
+      "ablation",
+      "glacial landform"
+    ]
   },
   {
     "term": "cirque",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A steep-walled, bowl-shaped hollow carved into a mountainside by glacial erosion, often occupied by a small lake after ice retreat.",
+        "example": "The glacial cirque above the valley still holds a deep tarn whose waters reflect the surrounding peaks.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "glaciology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "corrie",
+      "cwm",
+      "glacial hollow"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "moraine",
+      "drumlin",
+      "arête",
+      "tarn",
+      "glacial erosion"
+    ]
   },
   {
     "term": "drumlin",
@@ -11831,17 +12019,64 @@
   },
   {
     "term": "hypocenter",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The point within the Earth where an earthquake originates, located directly below the epicenter on the surface.",
+        "example": "The hypocenter of the devastating earthquake was found at a depth of 18 kilometres beneath the ocean floor.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "seismology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "focus",
+      "seismic focus"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "epicenter",
+      "seismicity",
+      "fault",
+      "seismograph",
+      "magnitude"
+    ]
   },
   {
     "term": "liquefaction",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A phenomenon in which saturated, loosely packed sediment temporarily loses its shear strength and behaves like a fluid due to seismic shaking.",
+        "example": "Liquefaction during the Christchurch earthquake caused widespread foundation failure as the water-saturated silts beneath the city turned fluid.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "seismology",
+          "geotechnical engineering"
+        ]
+      }
+    ],
+    "synonyms": [
+      "soil liquefaction",
+      "ground liquefaction"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "hypocenter",
+      "seismicity",
+      "aftershock",
+      "ground failure",
+      "pore pressure"
+    ]
   },
   {
     "term": "isoseismal",
@@ -11859,59 +12094,261 @@
   },
   {
     "term": "seismicity",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The frequency, geographic distribution, and magnitude characteristics of earthquakes within a given region over a specified time period.",
+        "example": "Elevated seismicity along the fault system prompted authorities to reassess building codes in surrounding municipalities.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "seismology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "earthquake activity",
+      "seismic activity"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "hypocenter",
+      "aftershock",
+      "fault",
+      "tectonic plate",
+      "seismograph"
+    ]
   },
   {
     "term": "aftershock",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A smaller earthquake that follows a larger main earthquake and originates in or near the same rupture zone.",
+        "example": "A series of strong aftershocks hampered rescue operations in the days following the main seismic event.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "seismology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "secondary earthquake",
+      "seismic aftershock"
+    ],
+    "antonymTerms": [
+      "foreshock"
+    ],
+    "relatedTerms": [
+      "hypocenter",
+      "seismicity",
+      "magnitude",
+      "Omori's law",
+      "fault rupture"
+    ]
   },
   {
     "term": "attenuation",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The gradual reduction in the amplitude, intensity, or strength of a signal or wave as it propagates through a medium.",
+        "example": "Seismic attenuation increases with temperature in the mantle, providing evidence for partial melting in the asthenosphere.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "physics",
+          "seismology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dampening",
+      "signal decay",
+      "wave absorption"
+    ],
+    "antonymTerms": [
+      "amplification"
+    ],
+    "relatedTerms": [
+      "seismograph",
+      "seismicity",
+      "propagation",
+      "wave dispersion",
+      "absorption"
+    ]
   },
   {
     "term": "seismograph",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An instrument that detects, measures, and records the motions of the ground caused by seismic waves from earthquakes or other sources.",
+        "example": "The global network of seismographs allowed scientists to locate the earthquake's epicenter within minutes of the first tremor.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "seismology",
+          "technology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "seismometer",
+      "seismic recorder"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "seismogram",
+      "seismicity",
+      "magnitude",
+      "Richter scale",
+      "waveform"
+    ]
   },
   {
     "term": "incidence",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The rate at which new cases of a disease or condition occur in a defined population during a specified period of time.",
+        "example": "The incidence of tuberculosis in the region declined sharply following the introduction of a mass vaccination programme.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "epidemiology",
+          "public health"
+        ]
+      }
+    ],
+    "synonyms": [
+      "occurrence rate",
+      "case rate",
+      "new-case rate"
+    ],
+    "antonymTerms": [
+      "prevalence"
+    ],
+    "relatedTerms": [
+      "morbidity",
+      "seroprevalence",
+      "mortality",
+      "epidemiology",
+      "risk factor"
+    ]
   },
   {
     "term": "seroprevalence",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The proportion of individuals in a defined population who test positive for specific antibodies in their blood serum, indicating past or current infection or vaccination.",
+        "example": "Seroprevalence surveys revealed that approximately 40% of the urban population had been exposed to the pathogen before the outbreak was officially detected.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "epidemiology",
+          "immunology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "antibody prevalence",
+      "serological prevalence"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "serology",
+      "incidence",
+      "morbidity",
+      "herd immunity",
+      "antibody titer"
+    ]
   },
   {
     "term": "morbidity",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The state or condition of suffering from a disease or medical condition, or the incidence of disease within a population.",
+        "example": "High morbidity from preventable chronic conditions placed an unsustainable burden on the country's primary healthcare system.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "epidemiology",
+          "public health"
+        ]
+      }
+    ],
+    "synonyms": [
+      "illness rate",
+      "disease burden",
+      "sickliness"
+    ],
+    "antonymTerms": [
+      "health",
+      "wellness"
+    ],
+    "relatedTerms": [
+      "mortality",
+      "incidence",
+      "comorbidity",
+      "disability",
+      "seroprevalence"
+    ]
   },
   {
     "term": "zoonosis",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A disease or infection that is naturally transmissible from vertebrate animals to humans, either directly or through vectors.",
+        "example": "Ebola virus disease is classified as a zoonosis, with evidence pointing to fruit bats as its probable reservoir host.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "biology",
+          "public health"
+        ]
+      }
+    ],
+    "synonyms": [
+      "zoonotic disease",
+      "animal-borne disease"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "virulence",
+      "pathogenesis",
+      "reservoir host",
+      "vector-borne disease",
+      "spillover event"
+    ]
   },
   {
     "term": "serology",
@@ -11929,10 +12366,38 @@
   },
   {
     "term": "virulence",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The degree of pathogenicity of a microorganism, reflecting its capacity to cause severe disease, overcome host defences, and spread within a population.",
+        "example": "The novel variant's increased virulence prompted public health authorities to accelerate the rollout of updated vaccines.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "biology",
+          "microbiology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pathogenicity",
+      "infectiveness",
+      "lethality"
+    ],
+    "antonymTerms": [
+      "attenuation",
+      "avirulence"
+    ],
+    "relatedTerms": [
+      "pathogenesis",
+      "zoonosis",
+      "toxin",
+      "host resistance",
+      "transmission rate"
+    ]
   },
   {
     "term": "etiological",
@@ -11943,38 +12408,163 @@
   },
   {
     "term": "pharmacokinetics",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The branch of pharmacology that studies the absorption, distribution, metabolism, and excretion of drugs within the body over time.",
+        "example": "Pharmacokinetics studies demonstrated that hepatic impairment significantly prolonged the drug's half-life, necessitating dose adjustments.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "pharmacology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "drug kinetics",
+      "ADME"
+    ],
+    "antonymTerms": [
+      "pharmacodynamics"
+    ],
+    "relatedTerms": [
+      "bioavailability",
+      "pharmacodynamics",
+      "half-life",
+      "clearance",
+      "volume of distribution"
+    ]
   },
   {
     "term": "pharmacodynamics",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The study of the biochemical and physiological effects of drugs on the body and the mechanisms by which these effects are produced.",
+        "example": "Understanding the pharmacodynamics of the compound enabled researchers to predict its therapeutic window and minimise adverse effects.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "pharmacology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "drug action",
+      "drug effect study"
+    ],
+    "antonymTerms": [
+      "pharmacokinetics"
+    ],
+    "relatedTerms": [
+      "pharmacokinetics",
+      "agonist",
+      "antagonist",
+      "receptor binding",
+      "dose-response curve"
+    ]
   },
   {
     "term": "bioavailability",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The proportion of an administered drug or other substance that reaches systemic circulation in an active form and is available to exert its intended effect.",
+        "example": "The oral bioavailability of the drug was only 15%, prompting the development of an intravenous formulation for critically ill patients.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "pharmacology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "systemic availability",
+      "drug absorption fraction"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pharmacokinetics",
+      "bioequivalence",
+      "first-pass metabolism",
+      "absorption",
+      "prodrug"
+    ]
   },
   {
     "term": "agonist",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A chemical substance that binds to a specific receptor and activates it, producing a biological response that mimics the effect of the body's natural ligand.",
+        "example": "Beta-2 agonists are the mainstay of bronchospasm treatment, relaxing smooth muscle in the airways within minutes of administration.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "pharmacology",
+          "biochemistry"
+        ]
+      }
+    ],
+    "synonyms": [
+      "receptor activator",
+      "receptor stimulant"
+    ],
+    "antonymTerms": [
+      "antagonist"
+    ],
+    "relatedTerms": [
+      "antagonist",
+      "pharmacodynamics",
+      "receptor",
+      "ligand",
+      "partial agonist"
+    ]
   },
   {
     "term": "antagonist",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A substance that binds to a receptor without activating it, thereby blocking or reducing the activity of an agonist or endogenous ligand.",
+        "example": "Naloxone, an opioid receptor antagonist, rapidly reverses respiratory depression caused by opioid overdose.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "pharmacology",
+          "biochemistry"
+        ]
+      }
+    ],
+    "synonyms": [
+      "receptor blocker",
+      "inhibitor"
+    ],
+    "antonymTerms": [
+      "agonist"
+    ],
+    "relatedTerms": [
+      "agonist",
+      "pharmacodynamics",
+      "competitive inhibition",
+      "receptor",
+      "inverse agonist"
+    ]
   },
   {
     "term": "teratogen",
@@ -11999,31 +12589,129 @@
   },
   {
     "term": "bioequivalence",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The condition in which two pharmaceutical formulations containing the same active ingredient exhibit comparable bioavailability, such that they are considered therapeutically interchangeable.",
+        "example": "Regulatory approval of the generic drug required rigorous bioequivalence trials demonstrating that its absorption profile matched the branded original.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "pharmacology",
+          "regulation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pharmaceutical equivalence",
+      "therapeutic equivalence"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bioavailability",
+      "pharmacokinetics",
+      "generic drug",
+      "AUC",
+      "Cmax"
+    ]
   },
   {
     "term": "metastasis",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The process by which cancer cells detach from a primary tumour and spread to distant organs or tissues via the bloodstream, lymphatic system, or direct invasion.",
+        "example": "Once metastasis to the liver had been confirmed, the treatment plan shifted from curative surgery to systemic chemotherapy.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "oncology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cancer spread",
+      "secondary tumour formation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "carcinogenesis",
+      "angiogenesis",
+      "neoplasm",
+      "malignancy",
+      "lymphoma"
+    ]
   },
   {
     "term": "angiogenesis",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The physiological process by which new blood vessels develop from pre-existing vasculature, essential for tumour growth, wound healing, and tissue repair.",
+        "example": "Anti-angiogenic therapy disrupts the tumour's blood supply, limiting its ability to grow beyond a few millimetres in diameter.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "biology",
+          "oncology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "vascularisation",
+      "neovascularisation"
+    ],
+    "antonymTerms": [
+      "anti-angiogenesis"
+    ],
+    "relatedTerms": [
+      "metastasis",
+      "VEGF",
+      "tumour microenvironment",
+      "vasculogenesis",
+      "carcinogenesis"
+    ]
   },
   {
     "term": "carcinogenesis",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The multistage biological process by which normal cells are transformed into malignant cancer cells through the accumulation of genetic mutations and epigenetic changes.",
+        "example": "Chronic exposure to tobacco smoke initiates carcinogenesis in bronchial epithelial cells through direct DNA adduct formation.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "oncology",
+          "biology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "oncogenesis",
+      "tumourigenesis",
+      "malignant transformation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "metastasis",
+      "angiogenesis",
+      "neoplasm",
+      "mutagen",
+      "tumour suppressor gene"
+    ]
   },
   {
     "term": "cytotoxic",
@@ -12034,10 +12722,34 @@
   },
   {
     "term": "neoplasm",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An abnormal mass of tissue that results from uncontrolled or dysregulated cell proliferation and may be either benign or malignant.",
+        "example": "The biopsy confirmed that the neoplasm was a high-grade malignant glioma requiring urgent neurosurgical intervention.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "oncology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tumour",
+      "growth",
+      "mass"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "malignancy",
+      "metastasis",
+      "carcinogenesis",
+      "adenocarcinoma",
+      "benign tumour"
+    ]
   },
   {
     "term": "adenocarcinoma",
@@ -12062,45 +12774,203 @@
   },
   {
     "term": "malignancy",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A cancerous condition characterised by invasive and uncontrolled cellular growth with the potential to spread to other tissues and organs.",
+        "example": "Early detection of malignancy through routine screening dramatically improves five-year survival rates for most solid tumours.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "oncology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cancer",
+      "malignant tumour",
+      "malignant neoplasm"
+    ],
+    "antonymTerms": [
+      "benignity",
+      "benign growth"
+    ],
+    "relatedTerms": [
+      "neoplasm",
+      "metastasis",
+      "carcinogenesis",
+      "malignant",
+      "oncology"
+    ]
   },
   {
     "term": "arrhythmia",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Any abnormality in the rate, regularity, or sequence of the heartbeat, ranging from benign irregularities to life-threatening conditions.",
+        "example": "The patient was referred to a cardiologist after a Holter monitor detected episodes of nocturnal arrhythmia.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "cardiology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cardiac arrhythmia",
+      "dysrhythmia",
+      "irregular heartbeat"
+    ],
+    "antonymTerms": [
+      "normal sinus rhythm"
+    ],
+    "relatedTerms": [
+      "fibrillation",
+      "bradycardia",
+      "tachycardia",
+      "cardiomyopathy",
+      "ECG"
+    ]
   },
   {
     "term": "bradycardia",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An abnormally slow heart rate, generally defined as fewer than 60 beats per minute in adults, which may cause dizziness, syncope, or haemodynamic compromise.",
+        "example": "Severe bradycardia unresponsive to atropine required emergency pacemaker implantation to restore adequate cardiac output.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "cardiology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "slow heart rate",
+      "cardiac bradycardia"
+    ],
+    "antonymTerms": [
+      "tachycardia"
+    ],
+    "relatedTerms": [
+      "arrhythmia",
+      "heart block",
+      "pacemaker",
+      "sinus node",
+      "vagal tone"
+    ]
   },
   {
     "term": "stenosis",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The abnormal narrowing of a body passage or orifice, such as a blood vessel or heart valve, that impedes normal flow.",
+        "example": "Severe mitral stenosis caused exertional dyspnoea and pulmonary hypertension, ultimately necessitating valve replacement.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "cardiology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "narrowing",
+      "stricture",
+      "constriction"
+    ],
+    "antonymTerms": [
+      "dilation",
+      "patency"
+    ],
+    "relatedTerms": [
+      "atherosclerosis",
+      "ischemia",
+      "arrhythmia",
+      "angioplasty",
+      "restenosis"
+    ]
   },
   {
     "term": "ischemia",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Inadequate blood supply to a tissue or organ, resulting in oxygen and nutrient deprivation that can cause reversible dysfunction or irreversible cell death.",
+        "example": "Prompt reperfusion therapy is critical in myocardial ischemia to minimise infarct size and preserve cardiac function.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "cardiology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "oxygen deprivation",
+      "blood flow restriction"
+    ],
+    "antonymTerms": [
+      "reperfusion",
+      "hyperaemia"
+    ],
+    "relatedTerms": [
+      "stenosis",
+      "arrhythmia",
+      "infarction",
+      "atherosclerosis",
+      "angina"
+    ]
   },
   {
     "term": "fibrillation",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Rapid, chaotic, and uncoordinated contractions of individual muscle fibres in the heart, preventing effective pumping action.",
+        "example": "Ventricular fibrillation is immediately life-threatening and requires defibrillation within minutes to prevent irreversible brain damage.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "cardiology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cardiac fibrillation",
+      "ventricular fibrillation",
+      "atrial fibrillation"
+    ],
+    "antonymTerms": [
+      "normal sinus rhythm",
+      "cardioversion"
+    ],
+    "relatedTerms": [
+      "arrhythmia",
+      "bradycardia",
+      "defibrillation",
+      "cardiomyopathy",
+      "ECG"
+    ]
   },
   {
     "term": "cardiomyopathy",
