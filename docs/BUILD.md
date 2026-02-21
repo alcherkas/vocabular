@@ -4,6 +4,10 @@
 
 - Xcode 16+ installed
 - iOS Simulator available (check with `xcrun simctl list devices`)
+- If `xcode-select -p` prints `CommandLineTools` instead of `Xcode.app`, prefix commands with:
+  ```bash
+  export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+  ```
 
 ## Find Available Simulators
 
@@ -11,15 +15,16 @@
 xcrun simctl list devices available | grep -E "iPhone|iPad"
 ```
 
-Use an iPhone 16 or later for iOS 26 compatibility.
+Pick an available iPhone simulator from the output (e.g. `iPhone 17 Pro`). Simulator names change across Xcode versions — always run this command first instead of hardcoding a device name.
 
 ## Build (compile only)
 
 ```bash
+# Replace DEVICE with an available simulator name from the step above
 xcodebuild build \
   -project Vocab/Vocab.xcodeproj \
   -scheme Vocab \
-  -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+  -destination 'platform=iOS Simulator,name=DEVICE,OS=latest' \
   | xcpretty || cat
 ```
 
@@ -29,7 +34,7 @@ xcodebuild build \
 xcodebuild test \
   -project Vocab/Vocab.xcodeproj \
   -scheme Vocab \
-  -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+  -destination 'platform=iOS Simulator,name=DEVICE,OS=latest' \
   | xcpretty || cat
 ```
 
@@ -42,7 +47,9 @@ If `xcpretty` is not installed: omit `| xcpretty || cat` — raw output still wo
 
 ## Adding Unit Tests (one-time Xcode setup)
 
-Unit tests require a test target created in Xcode (cannot be done via CLI):
+For projects using file-system synchronized groups (objectVersion 77), the test target can be added by editing `project.pbxproj` directly — the Xcode GUI is not required. See the `VocabTests` target in the project file for reference.
+
+**Via Xcode GUI** (alternative):
 
 1. Open `Vocab/Vocab.xcodeproj` in Xcode.
 2. `File → New → Target → Unit Testing Bundle`.

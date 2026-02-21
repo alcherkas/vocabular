@@ -40,7 +40,7 @@ context.insert(Word(...))
 
 - All terms must be **unique** across their language file.
 - `tags` must be lowercase strings, no spaces (use hyphens: `"word-family"`).
-- `partOfSpeech` values: `"noun"`, `"verb"`, `"adjective"`, `"adverb"`, `"phrase"`.
+- `partOfSpeech` values: `"noun"`, `"verb"`, `"adjective"`, `"adverb"`, `"phrase"`, `"particle"`, `"interjection"`.
 - EN words: `synonyms` should have 2–5 entries. Leave empty `[]` only if truly none.
 - LT words: `synonyms` is typically `[]`. Always populate `translation` (EN gloss).
 - Do not duplicate terms already in the file — check before adding.
