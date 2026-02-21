@@ -1021,3 +1021,29 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 ### Suggested improvement
 - Add a homoglyph check to `validate_words.py` that flags strings containing characters outside the expected Unicode blocks for a given language (Latin + Lithuanian diacritics for LT, plain ASCII/Latin for EN).
 - Track `enriched` entry counts per file in a CI summary so agents know before starting how many entries are actually available for the target batch size.
+## [2026-02-24] [qa-12] [vocab/qa-12]
+
+### What went well
+- Preflight JSON validation passed on both files immediately; 430 EN entries and 1960 LT entries parsed without errors.
+- EN: 1 `relations-added` entry (euploidy) reviewed and approved without issue — POS `noun`, register `technical`, all relation fields well-formed.
+- LT: 35 `relations-added` entries reviewed in a single structured pass. 32 approved cleanly.
+- All POS and register values across all 36 entries were valid (no schema violations).
+- Content QA detected three subtle data-quality issues that would otherwise silently propagate into `approved` state.
+
+### What was harder than expected
+- **antonymTerms pattern analysis**: prosenelis/prosenelė used a cross-gender generational pairing (great-grandfather ↔ great-granddaughter, great-grandmother ↔ great-grandson) that looks plausible in isolation but is inconsistent with every other family-noun entry which uses same-gender antonym pairs. Detecting this required reviewing the entire family-term set holistically rather than entry-by-entry.
+- **False-friend in relatedTerms**: "atsiilgimas" (rest/recovery from fatigue) vs "ilgesys/ilgėtis/pasiilgti" (longing/to miss). The words share the root `il-` but have opposite emotional valence; the contamination was introduced at the enricher step.
+
+### Decisions
+- prosenelis antonymTerms: `["proanūkė"]` → `["prosenelė"]` (gender-pair pattern enforced).
+- prosenelė antonymTerms: `["proanūkis"]` → `["prosenelis"]` (same correction, symmetric).
+- pasiilgti relatedTerms: `"atsiilgimas"` removed; remaining three terms (`ilgesys`, `nostalgija`, `išsiilgimas`) are all semantically valid.
+- No entries were blocked (enriched entries have corrections applied inline, not left as stubs).
+
+### Process friction
+- No pre-existing validator errors surfaced during this pass; the baseline is clean for these 36 entries.
+- EN batch size remains constrained to 1 (only 1 `relations-added` entry available); the 35-per-file target is structurally unachievable for EN until the upstream enricher/relations agents produce more entries.
+
+### Suggested improvement
+- Add a lint rule that enforces symmetric gender-pair antonyms for family-noun entries: if entry A lists entry B in antonymTerms, and both are gendered variants of the same role, B should also list A (and not a third cross-gender term).
+- Flag relatedTerms entries that share an etymological root with the headword but differ in register or semantic domain (e.g. `atsiilgimas` ≠ `pasiilgti` in meaning despite shared root); a root-similarity check combined with a definition-distance check could catch these automatically.
