@@ -737,3 +737,19 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a pre-commit lint rule that rejects entries whose `term` starts with an uppercase letter unless the word is a proper noun (detectable by the absence of a `properNoun: true` flag or by tag).
+
+## [2026-02-21] [enricher-en-9] [vocab/enricher-en-9]
+
+### What went well
+- Preflight JSON validation passed immediately with no repair needed.
+- All 30 EN stubs enriched in a single batch; `validate_words.py --status enriched` passed on the first run with 75 valid entries.
+- Domain coverage was broad: engineering (mechatronics, aerodynamics, cryogenics, photolithography, nanofabrication), systems design (redundancy, scalability, robustness), diplomacy and geopolitics (demarche, rapprochement, détente, nonproliferation, multilateralism, realpolitik, geostrategy, bilateralism, nonalignment, consular, extradition, repatriation, armistice, protectorate), and anthropology (ethnogenesis, ethnography, kinship, matriliny, patriliny).
+
+### What was harder than expected
+- Several geopolitical and anthropological terms share subtle conceptual distinctions (e.g., matriliny vs. patrilineality, bilateralism vs. multilateralism) that required careful, differentiated definition wording to avoid repetition.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- A pre-enrichment helper that groups thematically related stubs would make it easier to write consistent, cross-referencing definitions for term clusters.

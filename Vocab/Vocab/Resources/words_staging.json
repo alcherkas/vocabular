@@ -6024,213 +6024,684 @@
   },
   {
     "term": "mechatronics",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1"
+    ],
+    "meanings": [
+      {
+        "definition": "An interdisciplinary field combining mechanical engineering, electronics, computer science, and control systems to design intelligent machines.",
+        "example": "The robotics lab hired engineers with backgrounds in mechatronics to build the automated assembly line.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "engineering"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "metrology",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1"
+    ],
+    "meanings": [
+      {
+        "definition": "The scientific study of measurement, including the establishment of standards and the accurate determination of physical quantities.",
+        "example": "The national institute of metrology calibrates instruments used in industrial and scientific research.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "science"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "electromechanical",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [
+      "C1"
+    ],
+    "meanings": [
+      {
+        "definition": "Relating to or denoting a device or system that is operated by electricity and produces mechanical movement.",
+        "example": "The electromechanical relay switches the circuit whenever the sensor detects a threshold voltage.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "engineering"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "aerodynamics",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1"
+    ],
+    "meanings": [
+      {
+        "definition": "The branch of mechanics concerned with the motion of air and other gases, and with the forces acting on bodies moving through such fluids.",
+        "example": "The car's sleek body was designed with aerodynamics in mind to reduce drag at high speeds.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "physics"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "hydrodynamics",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1"
+    ],
+    "meanings": [
+      {
+        "definition": "The branch of physics that studies the motion of fluids and the forces acting on solid bodies immersed in or moving through fluids.",
+        "example": "Understanding hydrodynamics is essential for designing efficient ship hulls and underwater turbines.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "physics"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "cryogenics",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "The branch of physics dealing with the production and effects of very low temperatures, typically below −150 °C.",
+        "example": "Cryogenics is used in medical imaging to cool the superconducting magnets inside MRI machines.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "physics"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "photolithography",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "A process in semiconductor manufacturing that uses light to transfer a geometric pattern from a photomask onto a light-sensitive chemical coated substrate.",
+        "example": "Modern chips require extreme-ultraviolet photolithography to etch features just a few nanometres wide.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "technology"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "nanofabrication",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "The design and manufacture of devices and structures at the nanometre scale, typically using techniques such as lithography or self-assembly.",
+        "example": "Nanofabrication techniques have made it possible to create transistors smaller than a virus.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "technology"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "redundancy",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1"
+    ],
+    "meanings": [
+      {
+        "definition": "In engineering and systems design, the inclusion of extra components or pathways that are not strictly necessary for functioning but serve as a backup in case of failure.",
+        "example": "The spacecraft was designed with redundancy so that a single hardware failure would not endanger the crew.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "engineering"
+        ]
+      },
+      {
+        "definition": "The state of being superfluous or no longer needed, especially in the context of employment.",
+        "example": "Following the merger, hundreds of workers were told their positions had become redundancies.",
+        "register": "formal",
+        "tags": [
+          "C1",
+          "workplace"
+        ]
+      }
+    ],
+    "synonyms": [
+      "backup",
+      "duplication"
+    ]
   },
   {
     "term": "scalability",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1"
+    ],
+    "meanings": [
+      {
+        "definition": "The capacity of a system, network, or process to handle a growing amount of work or to be enlarged to accommodate that growth.",
+        "example": "The startup chose a cloud-based architecture primarily for its scalability as user numbers grew.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "technology"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "robustness",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1"
+    ],
+    "meanings": [
+      {
+        "definition": "The quality of being strong and resilient, especially the ability of a system to function correctly under a wide range of conditions or in the face of errors.",
+        "example": "The robustness of the algorithm was tested by feeding it noisy, incomplete datasets.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "engineering"
+        ]
+      }
+    ],
+    "synonyms": [
+      "resilience",
+      "durability"
+    ]
   },
   {
     "term": "demarche",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "A political step or initiative, especially a formal diplomatic representation or protest delivered by one government to another.",
+        "example": "The ambassador was summoned to receive a demarche over the disputed maritime boundary.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "diplomacy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "initiative",
+      "representation"
+    ]
   },
   {
     "term": "rapprochement",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "The establishment or resumption of harmonious relations, especially between countries after a period of hostility.",
+        "example": "The historic handshake marked the beginning of a rapprochement between the two rival nations.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "diplomacy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "reconciliation",
+      "détente"
+    ]
   },
   {
     "term": "nonalignment",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "The policy or practice of a state not formally aligning itself with or against any major power bloc, especially during the Cold War.",
+        "example": "India championed nonalignment as a way to maintain sovereignty while navigating superpower rivalry.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "neutrality",
+      "non-alignment"
+    ]
   },
   {
     "term": "multilateralism",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "The principle or practice of conducting international relations through agreements or organisations involving three or more nations.",
+        "example": "Climate change is a challenge that demands multilateralism rather than isolated national efforts.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "detente",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "The easing of hostility or strained relations, especially between countries, through negotiation and mutual concessions.",
+        "example": "The signing of the arms-reduction treaty was seen as the high point of East–West détente.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "diplomacy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rapprochement",
+      "thaw"
+    ]
   },
   {
     "term": "nonproliferation",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "The prevention of an increase in the number of countries possessing nuclear weapons or other weapons of mass destruction.",
+        "example": "The treaty on nonproliferation obliges nuclear states to pursue disarmament while non-nuclear states refrain from acquiring such weapons.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "consular",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [
+      "C1"
+    ],
+    "meanings": [
+      {
+        "definition": "Relating to a consul or to the duties, premises, or jurisdiction of a consulate.",
+        "example": "She visited the consular section of the embassy to apply for a visa.",
+        "register": "formal",
+        "tags": [
+          "C1",
+          "diplomacy"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "extradition",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1"
+    ],
+    "meanings": [
+      {
+        "definition": "The formal process by which one jurisdiction delivers a person accused or convicted of a crime to another jurisdiction which has requested them.",
+        "example": "The suspect was held pending extradition to the country where the fraud had been committed.",
+        "register": "formal",
+        "tags": [
+          "C1",
+          "law"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "repatriation",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1"
+    ],
+    "meanings": [
+      {
+        "definition": "The action of returning someone or something, especially a person, to their country of origin.",
+        "example": "The government negotiated the repatriation of citizens stranded abroad after the airport closed.",
+        "register": "formal",
+        "tags": [
+          "C1",
+          "diplomacy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "return",
+      "reintegration"
+    ]
   },
   {
     "term": "armistice",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "A formal agreement by warring parties to stop fighting, typically while a peace treaty is negotiated.",
+        "example": "The armistice of 1918 ended the fighting on the Western Front before the peace treaty was signed.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "history"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ceasefire",
+      "truce"
+    ]
   },
   {
     "term": "protectorate",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "A state that is controlled and protected by another, stronger state, with the protecting state typically managing its foreign affairs and defence.",
+        "example": "After the agreement, the small island nation became a British protectorate and retained internal self-governance.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "realpolitik",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "A system of politics based on practical considerations rather than moral or ideological objectives, typically involving the ruthless pursuit of national interest.",
+        "example": "The alliance with the authoritarian regime was defended as a matter of realpolitik rather than shared values.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pragmatism",
+      "power politics"
+    ]
   },
   {
     "term": "geostrategy",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "A branch of both geopolitics and strategic studies concerned with how geographic factors influence a country's foreign policy and military strategy.",
+        "example": "Control of the strait was central to the nation's geostrategy because it dominated access to oil exports.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "bilateralism",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "A policy or practice of conducting relations, especially trade or diplomacy, between two states or parties on terms of mutual benefit.",
+        "example": "Both countries preferred bilateralism to avoid the compromises required in multilateral trade forums.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "ethnogenesis",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "The process by which a distinct ethnic group or people comes into existence, typically through a combination of cultural, linguistic, and social factors.",
+        "example": "Scholars debate the ethnogenesis of the Slavic peoples and whether it occurred in one region or across a broad area.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "anthropology"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "ethnography",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "The systematic study and description of the culture of a particular human society, typically based on extended fieldwork and participant observation.",
+        "example": "Her ethnography of the fishing village captured the subtle ways in which gender roles shaped daily life.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "anthropology"
+        ]
+      }
+    ],
+    "synonyms": []
   },
   {
     "term": "kinship",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C1"
+    ],
+    "meanings": [
+      {
+        "definition": "The state of being related by blood, marriage, or adoption; the network of social relationships based on such connections.",
+        "example": "Anthropologists study how kinship systems determine inheritance and political succession in traditional societies.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "anthropology"
+        ]
+      },
+      {
+        "definition": "A feeling of being close or connected to someone, even without a family relationship.",
+        "example": "She felt an immediate kinship with her new colleague who shared the same dry sense of humour.",
+        "register": "neutral",
+        "tags": [
+          "C1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "relatedness",
+      "affinity"
+    ]
   },
   {
     "term": "matriliny",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "A system of tracing descent and inheriting property or titles through the female line.",
+        "example": "In societies practising matriliny, a man's heirs are typically his sister's children rather than his own.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "anthropology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "matrilineality"
+    ]
   },
   {
     "term": "patriliny",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [
+      "C2"
+    ],
+    "meanings": [
+      {
+        "definition": "A system of tracing descent and inheriting property or titles through the male line.",
+        "example": "Under patriliny, land and the family name passed from father to son across generations.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "anthropology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "patrilineality"
+    ]
   },
   {
     "term": "acculturation",
