@@ -1173,3 +1173,47 @@ Pre-existing warnings only in approved-status entries; zero errors in newly enri
 - EN had only 11 enriched entries vs. 35 target; all were processed. Remaining enriched budget could not be filled from EN alone — would require another Enricher pass first.
 - Several LT phrases (e.g., `nosies ir gerklės gydytojas`) are unique specialist terms with no close LT synonyms; `otorinolaringologas` / `otolaringologas` are valid technical equivalents added as synonyms.
 - `leisti vaistus` (administer injection): `švirkšti` added as a synonym captures the injecting action; the phrase is also broader (any route), but this is the closest single-word LT equivalent.
+
+---
+
+## Retro — vocab/qa-31 (QA agent run)
+
+**Date:** 2025-07-15
+**Branch:** vocab/qa-31
+**Commit:** 14cac23
+
+### What was done
+- Preflight JSON validation on both staging files — both valid JSON.
+- Reviewed all 11 EN `relations-added` entries and all 35 LT `relations-added` entries.
+- Applied four checks per entry: (1) self-reference (headword as substring of any relation item), (2) LT nominative forms (no -ą/-ų endings), (3) synonym semantic accuracy (true synonyms only, not hypernyms/hyponyms), (4) cross/within-array duplicates.
+- Ran `validate_words.py` — pre-existing errors only; all newly approved entries passed clean.
+
+### Stats
+
+| File | Approved | Enriched (returned) | Total reviewed |
+|------|----------|---------------------|----------------|
+| words_staging.json (EN) | 6 | 5 | 11 |
+| words_lt_staging.json (LT) | 28 | 7 | 35 |
+
+### Issues found
+
+**EN enriched (5):**
+- **ergodicity**: antonym `non-ergodicity` contains headword as substring (self-reference).
+- **internalism**: synonyms `mentalism` / `deontologism` are a near-hypernym and a hyponym, not true synonyms.
+- **externalism**: synonym `naturalism` is a related but distinct philosophical position; `anti-internalism` is a negation, not a proper synonym term.
+- **underdetermination**: synonyms `empirical equivalence` and `confirmation holism` are related concepts that support or instantiate underdetermination, not synonyms for it.
+- **epistemic**: synonym `cognitive` is a hypernym (all mental processes); `gnostic` primarily denotes Gnosticism and is misleading in philosophical context.
+
+**LT enriched (7):**
+- **lietingas**: synonym `drėgnas` (damp/moist) is not equivalent to `rainy`; different semantic field.
+- **registratorė**: synonym `administratorė` is a different role (receptionist vs administrator).
+- **Alergologas**: incorrect capitalisation — Lithuanian common nouns are lowercase (`alergologas`).
+- **šeimos gydytoja**: related term `šeimos gydytojas` contains the headword as a substring.
+- **matuoti**: related term `išmatuoti` (perfective prefix form) contains headword as substring.
+- **tirti**: related term `ištirti` (perfective prefix form) contains headword as substring.
+- **žygis**: synonym `kelionė` (journey/trip) is a hypernym — `žygis` specifically implies hiking or a physical march.
+
+### Process notes
+- The self-reference check on perfective LT verb pairs (išmatuoti/matuoti, ištirti/tirti) is a recurring pattern. Relations agent should avoid listing prefixed perfective forms as related terms and instead prefer morphologically distinct derivations (e.g. the noun `matavimas` rather than `išmatuoti`).
+- The EN synonym quality issues suggest the Relations agent may be listing closely associated concepts rather than true synonyms for technical/philosophical terms. Clarifying the rubric for philosophical vocabulary would reduce re-work.
+- All 91 EN and 98 LT pre-existing validator errors are from earlier batches and are out of scope for this QA pass.
