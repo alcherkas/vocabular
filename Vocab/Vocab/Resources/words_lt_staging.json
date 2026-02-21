@@ -30895,66 +30895,264 @@
   },
   {
     "term": "krepšelis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "basket, shopping basket",
+    "meanings": [
+      {
+        "definition": "A small handheld container used to carry items while shopping in a store.",
+        "example": "Paimu krepšelį prie parduotuvės įėjimo.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "shopping"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pirkinių krepšelis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vežimėlis",
+      "parduotuvė",
+      "pirkiniai"
+    ]
   },
   {
     "term": "vežimėlis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "shopping cart, trolley",
+    "meanings": [
+      {
+        "definition": "A large metal cart on wheels provided by a supermarket for customers to place items in while shopping.",
+        "example": "Stumiu vežimėlį per parduotuvę.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "shopping"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pirkinių vežimėlis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "krepšelis",
+      "parduotuvė",
+      "kasos aparatas"
+    ]
   },
   {
     "term": "išpardavimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "sale, clearance sale",
+    "meanings": [
+      {
+        "definition": "A period when a shop sells goods at reduced prices.",
+        "example": "Sezoninis išpardavimas prasideda sausio pirmą dieną.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "shopping",
+          "money"
+        ]
+      }
+    ],
+    "synonyms": [
+      "nuolaidų akcija"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nuolaida",
+      "kaina",
+      "parduotuvė"
+    ]
   },
   {
     "term": "kainoraštis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "price list",
+    "meanings": [
+      {
+        "definition": "A document or list showing the prices of goods or services offered by a business.",
+        "example": "Peržiūrėjau kainoraštį prieš užsakydamas.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "shopping",
+          "money"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kainų sąrašas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kaina",
+      "sąskaita",
+      "parduotuvė"
+    ]
   },
   {
     "term": "etiketė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "label, price tag",
+    "meanings": [
+      {
+        "definition": "A small piece of card or paper attached to an item showing its price, size, or other information.",
+        "example": "Nuimu etiketę nuo naujos suknelės.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "shopping"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kainų kortelė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kaina",
+      "prekė",
+      "parduotuvė"
+    ]
   },
   {
     "term": "kvitas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "receipt",
+    "meanings": [
+      {
+        "definition": "A printed document given to a buyer after a purchase, showing the items bought and the amount paid.",
+        "example": "Išsaugok kvitą, jei norėsi grąžinti prekę.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "shopping",
+          "money"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pirkimo čekis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sąskaita",
+      "mokėjimas",
+      "kasos aparatas"
+    ]
   },
   {
     "term": "banko kortelė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "bank card, payment card",
+    "meanings": [
+      {
+        "definition": "A plastic card issued by a bank that allows the holder to make payments or withdraw cash.",
+        "example": "Ar galima mokėti banko kortele?",
+        "register": "general",
+        "tags": [
+          "A2",
+          "money",
+          "shopping"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mokėjimo kortelė"
+    ],
+    "antonymTerms": [
+      "grynieji pinigai"
+    ],
+    "relatedTerms": [
+      "bankas",
+      "pinigai",
+      "mokėjimas"
+    ]
   },
   {
     "term": "pirkėja",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "buyer, female shopper",
+    "meanings": [
+      {
+        "definition": "A woman who buys goods or services, especially in a shop.",
+        "example": "Pardavėjas padėjo pirkėjai rasti reikiamą prekę.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "shopping"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kliente"
+    ],
+    "antonymTerms": [
+      "pardavėja"
+    ],
+    "relatedTerms": [
+      "pirkėjas",
+      "parduotuvė",
+      "prekė"
+    ]
   },
   {
     "term": "matavimosi kabina",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "fitting room, changing room",
+    "meanings": [
+      {
+        "definition": "A small enclosed space in a clothing shop where customers can try on clothes before buying.",
+        "example": "Ji nuėjo į matavimosi kabiną apsivilkti suknelę.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "shopping",
+          "clothing"
+        ]
+      }
+    ],
+    "synonyms": [
+      "persirengimo kabina"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "drabužiai",
+      "parduotuvė",
+      "dydis"
+    ]
   },
   {
     "term": "pamoka",
@@ -31474,80 +31672,332 @@
   },
   {
     "term": "semtuvėlis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "dustpan",
+    "meanings": [
+      {
+        "definition": "A flat pan with a short handle used to collect swept-up dust and dirt from the floor.",
+        "example": "Ji šluoja grindis ir renka šiukšles į semtuvėlį.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "household",
+          "cleaning"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šiukšlių semtuvėlis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "šluota",
+      "valymas",
+      "grindys"
+    ]
   },
   {
     "term": "kempinė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "sponge",
+    "meanings": [
+      {
+        "definition": "A soft, porous object used for washing dishes or cleaning surfaces.",
+        "example": "Aš plaunu lėkštes kempine.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "household",
+          "cleaning"
+        ]
+      }
+    ],
+    "synonyms": [
+      "plovimo kempinė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "indaplovė",
+      "ploviklis",
+      "švara"
+    ]
   },
   {
     "term": "muilinė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "soap dish",
+    "meanings": [
+      {
+        "definition": "A small container or tray used to hold a bar of soap in the bathroom or kitchen.",
+        "example": "Muilas padėtas ant muilinės prie kriauklės.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "household",
+          "bathroom"
+        ]
+      }
+    ],
+    "synonyms": [
+      "muilo dėklas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "muilas",
+      "kriauklė",
+      "rankšluostis"
+    ]
   },
   {
     "term": "džiovyklė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "dryer, tumble dryer",
+    "meanings": [
+      {
+        "definition": "An electrical appliance that removes moisture from washed laundry by tumbling it in hot air.",
+        "example": "Skalbiniai jau džiovinami džiovyklėje.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "household",
+          "appliance",
+          "laundry"
+        ]
+      }
+    ],
+    "synonyms": [
+      "skalbinių džiovyklė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "skalbimo mašina",
+      "skalbiniai",
+      "lygintuvas"
+    ]
   },
   {
     "term": "lygintuvas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "iron (for clothes)",
+    "meanings": [
+      {
+        "definition": "An electrical household appliance with a flat heated base used to press wrinkles out of clothes.",
+        "example": "Ji lygina marškinius lygintuvu.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "household",
+          "appliance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "elektrinė lygintuvė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "lyginimo lenta",
+      "drabužiai",
+      "skalbiniai"
+    ]
   },
   {
     "term": "siurblys",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "vacuum cleaner",
+    "meanings": [
+      {
+        "definition": "An electrical household appliance that sucks up dust and dirt from floors and carpets.",
+        "example": "Kiekvieną savaitę siurbiu grindis siurbliu.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "household",
+          "appliance",
+          "cleaning"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dulkių siurblys"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "grindys",
+      "kilimas",
+      "švara",
+      "valymas"
+    ]
   },
   {
     "term": "samtuvas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "ladle",
+    "meanings": [
+      {
+        "definition": "A large, long-handled spoon with a deep bowl, used for serving soup or stew.",
+        "example": "Mama semia sriubą samtuvu.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "kitchen",
+          "cooking",
+          "utensil"
+        ]
+      }
+    ],
+    "synonyms": [
+      "sriubos samtis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sriuba",
+      "puodas",
+      "virtuvė"
+    ]
   },
   {
     "term": "pjaustymo lenta",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "cutting board, chopping board",
+    "meanings": [
+      {
+        "definition": "A flat board made of wood or plastic on which food is cut or chopped.",
+        "example": "Pjaustymo lentoje pjaustau daržoves.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "kitchen",
+          "cooking"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pjaustyklė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "peilis",
+      "daržovės",
+      "virtuvė"
+    ]
   },
   {
     "term": "druskinė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "salt shaker",
+    "meanings": [
+      {
+        "definition": "A small container with holes in the top, used for sprinkling salt on food.",
+        "example": "Paduok man druskinę, prašau.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "kitchen",
+          "table",
+          "condiment"
+        ]
+      }
+    ],
+    "synonyms": [
+      "druskos indelis"
+    ],
+    "antonymTerms": [
+      "pipirinė"
+    ],
+    "relatedTerms": [
+      "druska",
+      "pipirinė",
+      "stalas"
+    ]
   },
   {
     "term": "pipirinė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "pepper shaker",
+    "meanings": [
+      {
+        "definition": "A small container with holes in the top, used for sprinkling ground pepper on food.",
+        "example": "Ant stalo stovi druskinė ir pipirinė.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "kitchen",
+          "table",
+          "condiment"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pipirų indelis"
+    ],
+    "antonymTerms": [
+      "druskinė"
+    ],
+    "relatedTerms": [
+      "pipirai",
+      "druskinė",
+      "stalas"
+    ]
   },
   {
     "term": "puodelis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "cup, mug",
+    "meanings": [
+      {
+        "definition": "A small container with a handle, used for drinking hot beverages such as tea or coffee.",
+        "example": "Rytu išgeriu puodelį kavos.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "kitchen",
+          "daily-routine"
+        ]
+      }
+    ],
+    "synonyms": [
+      "taurė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kava",
+      "arbata",
+      "pusryčiai"
+    ]
   },
   {
     "term": "plaukimas",
@@ -31558,45 +32008,185 @@
   },
   {
     "term": "bėgimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "running",
+    "meanings": [
+      {
+        "definition": "The activity of moving quickly on foot as a form of exercise or sport.",
+        "example": "Rytinį bėgimą pradedu septintą valandą.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "sport",
+          "daily-routine",
+          "exercise"
+        ]
+      }
+    ],
+    "synonyms": [
+      "jogingas"
+    ],
+    "antonymTerms": [
+      "ėjimas"
+    ],
+    "relatedTerms": [
+      "sportas",
+      "mankšta",
+      "treniruotė"
+    ]
   },
   {
     "term": "ėjimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "walking",
+    "meanings": [
+      {
+        "definition": "The activity of moving at a regular pace on foot.",
+        "example": "Vakarinis ėjimas parke padeda atsipalaiduoti.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "daily-routine",
+          "movement"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pasivaikščiojimas"
+    ],
+    "antonymTerms": [
+      "bėgimas"
+    ],
+    "relatedTerms": [
+      "sportas",
+      "pasivaikščiojimas",
+      "parkas"
+    ]
   },
   {
     "term": "gimnastika",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "gymnastics, exercise",
+    "meanings": [
+      {
+        "definition": "Physical exercises involving stretching, bending and balancing movements, done to keep fit or as a sport.",
+        "example": "Ji lanko gimnastiką du kartus per savaitę.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "exercise"
+        ]
+      }
+    ],
+    "synonyms": [
+      "aerobika"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sportas",
+      "mankšta",
+      "treniruotė"
+    ]
   },
   {
     "term": "mankšta",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "exercise, workout",
+    "meanings": [
+      {
+        "definition": "Physical activity performed to improve health and fitness.",
+        "example": "Rytinė mankšta suteikia energijos visai dienai.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "health",
+          "daily-routine"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pratybos"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sportas",
+      "treniruotė",
+      "sveikata"
+    ]
   },
   {
     "term": "apšilimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "warm-up",
+    "meanings": [
+      {
+        "definition": "A period of gentle exercise done before a more strenuous workout to prepare the body.",
+        "example": "Prieš bėgimą visada darau dešimties minučių apšilimą.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "exercise"
+        ]
+      }
+    ],
+    "synonyms": [
+      "įšilimas"
+    ],
+    "antonymTerms": [
+      "atsipalaidavimas"
+    ],
+    "relatedTerms": [
+      "treniruotė",
+      "sportas",
+      "mankšta"
+    ]
   },
   {
     "term": "treniruotė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "training session, workout",
+    "meanings": [
+      {
+        "definition": "A session of physical exercise or practice of a sport.",
+        "example": "Po darbo einu į treniruotę sporto salėje.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "sport",
+          "daily-routine"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pratybos"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sportas",
+      "treneris",
+      "sporto salė"
+    ]
   },
   {
     "term": "treneris",
@@ -31796,10 +32386,33 @@
   },
   {
     "term": "šluotelė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "whisk",
+    "meanings": [
+      {
+        "definition": "A kitchen utensil with a series of wire loops used to beat and mix ingredients such as eggs or cream.",
+        "example": "Plakau kiaušinius šluotele.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "kitchen",
+          "cooking",
+          "utensil"
+        ]
+      }
+    ],
+    "synonyms": [
+      "plaktuvas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kiaušinis",
+      "grietinėlė",
+      "kepimas"
+    ]
   },
   {
     "term": "mentelė",
@@ -31810,17 +32423,63 @@
   },
   {
     "term": "sietelis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "sieve, strainer",
+    "meanings": [
+      {
+        "definition": "A kitchen tool with a mesh surface used to strain liquids or sift dry ingredients.",
+        "example": "Ji sijoja miltus per sietelio.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "kitchen",
+          "cooking",
+          "utensil"
+        ]
+      }
+    ],
+    "synonyms": [
+      "sietas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "miltai",
+      "kepimas",
+      "virtuvė"
+    ]
   },
   {
     "term": "dangtis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "lid, cover",
+    "meanings": [
+      {
+        "definition": "A removable cover for a pot, pan, or other container, used to keep in heat or prevent spillage.",
+        "example": "Uždėk dangtį ant puodo, kad greičiau užvirtų.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "kitchen",
+          "cooking",
+          "utensil"
+        ]
+      }
+    ],
+    "synonyms": [
+      "uždangalas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "puodas",
+      "keptuvė",
+      "virtuvė"
+    ]
   },
   {
     "term": "prieskonis",
@@ -31845,10 +32504,33 @@
   },
   {
     "term": "blynas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "pancake, crepe",
+    "meanings": [
+      {
+        "definition": "A thin flat cake made from batter and fried in a pan, typically eaten for breakfast or dessert.",
+        "example": "Sekmadienį mama kepa blynus su uogiene.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "food",
+          "cooking",
+          "breakfast"
+        ]
+      }
+    ],
+    "synonyms": [
+      "plokštainis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kepimas",
+      "pusryčiai",
+      "uogienė"
+    ]
   },
   {
     "term": "apkepas",
@@ -32055,24 +32737,91 @@
   },
   {
     "term": "drabužinė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "wardrobe, closet",
+    "meanings": [
+      {
+        "definition": "A tall cupboard or set of drawers in which clothes are stored.",
+        "example": "Pakabinu striukę į drabužinę.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "home",
+          "furniture",
+          "clothing"
+        ]
+      }
+    ],
+    "synonyms": [
+      "spinta"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "drabužiai",
+      "miegamasis",
+      "spintelė"
+    ]
   },
   {
     "term": "lempa",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "lamp, light",
+    "meanings": [
+      {
+        "definition": "A device that produces light, especially one that sits on a table or stands on the floor.",
+        "example": "Vakare įjungiu lempą prie lovos.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "home",
+          "furniture"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šviestuvas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "šviesa",
+      "kambarys",
+      "naktstaliukas"
+    ]
   },
   {
     "term": "užuolaida",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "curtain",
+    "meanings": [
+      {
+        "definition": "A piece of material hung at a window or door to block light or provide privacy.",
+        "example": "Ryte atitraukiu užuolaidas ir žiūriu pro langą.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "home",
+          "furniture"
+        ]
+      }
+    ],
+    "synonyms": [
+      "uždanga"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "langas",
+      "kambarys",
+      "miegamasis"
+    ]
   },
   {
     "term": "pagalvėlė",
@@ -32083,17 +32832,62 @@
   },
   {
     "term": "lovatiesė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "bedspread, bed cover",
+    "meanings": [
+      {
+        "definition": "A decorative cover spread over a bed, usually on top of sheets and blankets.",
+        "example": "Ant lovos yra gražia lovatiesė.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "home",
+          "bedroom"
+        ]
+      }
+    ],
+    "synonyms": [
+      "antklodės užvalkalas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "lova",
+      "antklodė",
+      "pagalvė"
+    ]
   },
   {
     "term": "naktstaliukas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "nightstand, bedside table",
+    "meanings": [
+      {
+        "definition": "A small table or cabinet placed beside a bed, used to hold items like a lamp, glass of water, or alarm clock.",
+        "example": "Knyga guli ant naktstaliuko šalia lovos.",
+        "register": "general",
+        "tags": [
+          "A2",
+          "home",
+          "furniture",
+          "bedroom"
+        ]
+      }
+    ],
+    "synonyms": [
+      "naktinė spintelė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "lova",
+      "miegamasis",
+      "lempa"
+    ]
   },
   {
     "term": "sekcija",
