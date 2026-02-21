@@ -1132,3 +1132,44 @@ Pre-existing warnings only in approved-status entries; zero errors in newly enri
 - `šachmatai` / `šaškės` included as mind sports/competitive games per B1 curriculum convention.
 - `kilogramas` included as the measurement unit central to weight-category sports (boxing, weightlifting, wrestling).
 - `lipdyti` and `kurti laužą` included under outdoor/winter activities (snowman building, bonfire — culturally significant physical activities in Lithuanian context).
+## Session retro — relations-31 (vocab/relations-31)
+
+**Date**: 2025-07-14
+**Agent**: Relations (Copilot)
+**Branch**: vocab/relations-31
+**Commit**: 322eee0
+
+### Work done
+- Preflight JSON check passed on both staging files (EN: 930 entries, LT: 2030 entries).
+- EN file had **11 enriched entries** (fewer than the 35 target; all 11 were processed).
+- LT file had **320 enriched entries**; first 35 were processed.
+- Set `status` → `relations-added` on all 46 entries.
+
+### EN changes
+- **illocution**: replaced hypernyms `speech act`/`communicative act` (flagged by QA note) with `speech function` / `utterance function`.
+- **externalism**: replaced hyponym `reliabilism` in synonyms with `anti-internalism`; true synonym `naturalism` retained.
+- **metalinguistic**: arrays were fully empty; filled with `synonyms: [reflexive, self-referential]`, `antonymTerms: [object-level]`, `relatedTerms: [metalanguage, reflexivity, autonymy]`.
+- Remaining 8 entries had well-formed relations already; status only was updated.
+
+### LT changes
+- **kalnas**, **lietingas**, **žygis**: had partial pre-existing relations; validated clean and status set.
+- **žiūrovas**: added synonym `stebėtojas`; kept existing relatedTerms (female counterpart `žiūrovė` already present).
+- **31 fully empty entries**: filled with nominative-form relations; medical gendered pairs each include cross-gender counterpart in `relatedTerms` per rubric.
+- No `-ą`/`-ų` accusative/genitive plural endings introduced.
+
+### Validation
+`validate_words.py --errors-for relations-added` → **PASSED** on both files (exit 0).
+- EN: 930 words valid; 91 pre-existing warnings in approved-status entries only.
+- LT: 2030 words valid; 98 pre-existing warnings in approved-status entries only.
+
+### Critical-rule compliance
+- No self-reference in any relation array.
+- No multi-word relation phrase contains the headword as an exact word token.
+- LT arrays nominative only.
+- EN synonyms ≥ 2 on all processed entries.
+- No within-array or cross-array duplicates introduced.
+
+### Tradeoffs
+- EN had only 11 enriched entries vs. 35 target; all were processed. Remaining enriched budget could not be filled from EN alone — would require another Enricher pass first.
+- Several LT phrases (e.g., `nosies ir gerklės gydytojas`) are unique specialist terms with no close LT synonyms; `otorinolaringologas` / `otolaringologas` are valid technical equivalents added as synonyms.
+- `leisti vaistus` (administer injection): `švirkšti` added as a synonym captures the injecting action; the phrase is also broader (any route), but this is the closest single-word LT equivalent.
