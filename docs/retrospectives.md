@@ -1921,3 +1921,46 @@ Enriched 35 Lithuanian stubs targeting environment, ecology, and sustainability 
 - `eglė` is also a common Lithuanian female given name and the heroine of the folk tale *Eglė žalčių karalienė* — this cultural note is recorded in qaNote.
 - `papartis` carries mythological significance (paparčio žiedas — the fern flower of Joninės); noted in qaNote without inflating the linguistic entry.
 - No merge performed per task instructions.
+
+## Session: enricher-lt-37 — Lithuanian communication & media enrichment
+**Date**: 2025-07-24
+**Agent**: enricher-lt-37 (Copilot)
+**Branch**: vocab/enricher-lt-37
+**Commit**: 106718f
+
+### Summary
+Enriched 35 new Lithuanian stubs targeting communication and media vocabulary at B1/B2 level, covering journalism, news, broadcasting, digital/social media, and public discourse.
+
+### Words enriched by theme
+
+| Theme | Count | Terms |
+|---|---|---|
+| Journalism / print media | 9 | laikraštis, žurnalas, žinios, reportažas, interviu, straipsnis, antraštė, žurnalistika, spauda |
+| Editorial & profession | 4 | redaktorius, redakcija, korespondentas, žiniasklaida |
+| Broadcasting | 5 | televizija, radijas, transliacija, transliuoti, laida |
+| Digital / social media | 7 | internetas, tinklalapis, socialiniai tinklai, komentaras, sekėjas, tinklaraštis, reklama |
+| Public discourse | 10 | skelbimas, diskusija, debatai, pranešimas, pareiškimas, visuomenė, nuomonė, komentatorius, apklausa, klausytojas |
+| **Total** | **35** | |
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Stubs enriched | 35 |
+| Remaining stubs | 880 |
+| Validation errors (enriched scope) | 0 |
+| Pre-existing warnings (approved scope) | 98 |
+
+### What went well
+- All 35 target terms confirmed absent from staging before adding — no collisions.
+- Preflight JSON validation passed cleanly before and after edits.
+- Validator passed on first run with exit 0; all new enriched entries are error-free.
+- Thematic coherence strong: journalism terms cross-link (laikraštis ↔ redakcija ↔ straipsnis ↔ žurnalistas); media terms cross-link (televizija ↔ transliacija ↔ laida ↔ žiūrovas).
+- Multi-sense entries where warranted: žurnalas (magazine vs. log), žinios (news vs. knowledge), straipsnis (article vs. legal clause), laida (programme vs. edition), komentaras (online comment vs. expert commentary), reklama (ad vs. advertising industry), skelbimas (announcement vs. classified ad), apklausa (survey vs. interrogation).
+- qaNote used throughout to capture gender variants, declension tips, compound collocations, and disambiguation notes.
+
+### Issues / notes
+- `žiūrovas` (viewer) was already enriched — not re-added; klausytojas included as the audio counterpart instead.
+- `konferencija` was already approved — not re-added; spaudos konferencija noted only as a qaNote collocation under spauda.
+- `debatai` is a plural-only noun in Lithuanian; POS set to noun with disambiguation in qaNote.
+- `socialiniai tinklai` uses POS phrase (multi-word noun phrase) consistent with existing file conventions.
+- No merge performed per task instructions.
