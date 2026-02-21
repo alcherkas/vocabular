@@ -554,3 +554,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a lightweight JSON syntax check step before enrichment tasks to surface structural file issues immediately.
+## [2026-02-21] [enricher-lt-6] [vocab/enricher-lt-6]
+
+### What went well
+- Enriched 30 Lithuanian stubs in one contiguous section, which kept schema edits consistent and easy to verify.
+- Targeted validation with `scripts/validate_words.py --status enriched` passed cleanly for the selected 30 entries.
+
+### What was harder than expected
+- Prompt POS enum and repository validator enum differ, so POS choices had to be kept in their overlap for clean validation.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- Keep enrichment prompt enum lists synchronized with `scripts/validate_words.py` to avoid ambiguity.
