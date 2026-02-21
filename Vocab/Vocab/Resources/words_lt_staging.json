@@ -18503,13 +18503,29 @@
   {
     "term": "tramvajus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An electric rail vehicle running on fixed tracks in city streets, used for public transport.",
+        "example": "Tramvajus Nr. 5 važiuoja tiesiai į centrinę stotį.",
+        "register": "neutral",
+        "tags": [
+          "city",
+          "transport",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "troleibusas",
+      "autobusas",
+      "bilietas",
+      "stotelė"
+    ],
+    "translation": "tram, streetcar"
   },
   {
     "term": "laivas",
@@ -18588,13 +18604,29 @@
   {
     "term": "troleibusas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An electric bus powered by overhead wires, running on city streets without fixed rails.",
+        "example": "Troleibusas sustojo ties autobusų stotelė ir išlaipino keleivius.",
+        "register": "neutral",
+        "tags": [
+          "city",
+          "transport",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "tramvajus",
+      "autobusas",
+      "bilietas",
+      "stotelė"
+    ],
+    "translation": "trolleybus"
   },
   {
     "term": "lėktuvas",
@@ -29096,68 +29128,176 @@
   {
     "term": "kalva",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A naturally raised area of land that is smaller and less steep than a mountain.",
+        "example": "Nuo kalvos viršūnės matėsi visas miestas ir aplinkiniai miškai.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "landscape",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "aukštuma"
+    ],
+    "antonymTerms": [
+      "slėnis",
+      "lyguma"
+    ],
+    "relatedTerms": [
+      "kalnas",
+      "pieva",
+      "miškas"
+    ],
+    "translation": "hill"
   },
   {
     "term": "krantas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The land along the edge of a river, lake, or sea.",
+        "example": "Vaikai žaidė smėlio prie upės kranto ir maudėsi.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "water",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pakrantė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "upė",
+      "ežeras",
+      "jūra",
+      "pajūris"
+    ],
+    "translation": "shore, bank, coast"
   },
   {
     "term": "lyguma",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large area of flat or gently rolling land without significant hills or mountains.",
+        "example": "Lietuva yra daugiausia lygumų šalis, be aukštų kalnų.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "landscape",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "antonymTerms": [
+      "kalva",
+      "kalnas"
+    ],
+    "relatedTerms": [
+      "slėnis",
+      "pieva",
+      "laukas"
+    ],
+    "translation": "plain, flatland"
   },
   {
     "term": "pajūris",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The area of land next to or near the sea; the coastal region.",
+        "example": "Vasarą daugelis lietuvių vyksta pailsėti į pajūrį.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "geography",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "jūros krantas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "jūra",
+      "krantas",
+      "paplūdimys",
+      "pakrantė"
+    ],
+    "translation": "seaside, seashore, coast"
   },
   {
     "term": "pieva",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An open area of grass, often found in the countryside and used for grazing or recreation.",
+        "example": "Vaikai žaidė ir bėgiojo plačioje žalioje pievoje.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "landscape",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "laukas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žolė",
+      "lyguma",
+      "miškas",
+      "gėlė"
+    ],
+    "translation": "meadow, grassland"
   },
   {
     "term": "sala",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A piece of land entirely surrounded by water.",
+        "example": "Mažoje saloje gyveno tik kelios žvejų šeimos.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "geography",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "krantas",
+      "jūra",
+      "ežeras",
+      "upė"
+    ],
+    "translation": "island"
   },
   {
     "term": "erkė",
@@ -32059,10 +32199,34 @@
   },
   {
     "term": "drėgmė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The amount of water vapour present in the air or the level of wetness in a material or environment.",
+        "example": "Rudeniop oro drėgmė padidėja ir rūkai tampa dažnesni.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "environment",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "sausra",
+      "sausumas"
+    ],
+    "relatedTerms": [
+      "lietus",
+      "samanos",
+      "rasa",
+      "oras"
+    ],
+    "translation": "humidity, moisture, dampness"
   },
   {
     "term": "sinoptikas",
@@ -32080,31 +32244,131 @@
   },
   {
     "term": "atšilimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A period when temperatures rise, or the global process of the Earth's average temperature increasing.",
+        "example": "Klimato atšilimas kelia didelį susirūpinimą gamtosaugininkams.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "environment",
+          "climate",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "atvėsimas",
+      "šaltis"
+    ],
+    "relatedTerms": [
+      "klimatas",
+      "temperatūra",
+      "atvėsimas",
+      "šiluma"
+    ],
+    "translation": "warming, warm spell, thaw"
   },
   {
     "term": "atvėsimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A period when temperatures drop or the process of something becoming cooler.",
+        "example": "Vakare prognozuojamas atvėsimas – naktį temperatūra nukris iki nulio.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "environment",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "atšilimas",
+      "šiluma"
+    ],
+    "relatedTerms": [
+      "temperatūra",
+      "atšilimas",
+      "vėjas",
+      "oras"
+    ],
+    "translation": "cooling, cool spell"
   },
   {
     "term": "liūtis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A sudden and very heavy fall of rain.",
+        "example": "Liūtis užklupo mus viduryje parko visiškai be skėčio.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "rain",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "lietus"
+    ],
+    "antonymTerms": [
+      "sausra"
+    ],
+    "relatedTerms": [
+      "vėtra",
+      "drėgmė",
+      "perkūnija",
+      "oras"
+    ],
+    "translation": "downpour, heavy rain, torrential rain"
   },
   {
     "term": "speigas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Extremely cold weather with temperatures well below freezing.",
+        "example": "Per speigas termometras rodė minus dvidešimt laipsnių.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "winter",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šaltis",
+      "šalna"
+    ],
+    "antonymTerms": [
+      "šiluma",
+      "karštis"
+    ],
+    "relatedTerms": [
+      "ledas",
+      "žiema",
+      "šerkšnas"
+    ],
+    "translation": "hard frost, severe cold, freeze"
   },
   {
     "term": "vėjelis",
@@ -32115,24 +32379,94 @@
   },
   {
     "term": "vėtra",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A violent storm with very strong winds and often heavy rain or snow.",
+        "example": "Stipri vėtra išvertė kelis senus medžius mieste.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "nature",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "audra",
+      "škvalas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vėjas",
+      "liūtis",
+      "griaustinis"
+    ],
+    "translation": "storm, gale, tempest"
   },
   {
     "term": "šerkšnas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A white icy coating that forms on surfaces when moisture in the air freezes on contact with very cold objects.",
+        "example": "Rytas buvo nuostabus – šerkšnas padengė medžius ir žolę baltai.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "winter",
+          "nature",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šalna"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "speigas",
+      "ledas",
+      "rasa",
+      "žiema"
+    ],
+    "translation": "hoarfrost, frost, rime"
   },
   {
     "term": "orų prognozė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A prediction of future weather conditions based on meteorological data.",
+        "example": "Pagal orų prognozę rytoj visą dieną lys lietus.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "environment",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "prognozė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "oras",
+      "sinoptikas",
+      "lietus",
+      "temperatūra"
+    ],
+    "translation": "weather forecast"
   },
   {
     "term": "tvarkaraštis",
@@ -32164,17 +32498,60 @@
   },
   {
     "term": "persėdimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The act of changing from one public transport vehicle or line to another during a journey.",
+        "example": "Kelionė iki oro uosto reikalauja vieno persėdimo – autobusų stotyje.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "city",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "maršrutas",
+      "stotis",
+      "bilietas"
+    ],
+    "translation": "transfer, connection, change"
   },
   {
     "term": "maršrutas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A fixed or planned path or course taken by a vehicle or traveller from one place to another.",
+        "example": "Autobusas važiuoja maršrutu Nr. 12 nuo stoties iki oro uosto.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "city",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kelias",
+      "trasa"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kelionė",
+      "bilietas",
+      "stotelė"
+    ],
+    "translation": "route, itinerary"
   },
   {
     "term": "keleivė",
@@ -32185,10 +32562,33 @@
   },
   {
     "term": "pėsčiųjų perėja",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A marked area on a road where pedestrians have the right of way to cross.",
+        "example": "Perėkite gatvę tik per pėsčiųjų perėją, kai žalia šviesa.",
+        "register": "neutral",
+        "tags": [
+          "city",
+          "traffic",
+          "safety",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "perėja"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "šaligatvis",
+      "gatvė",
+      "šviesoforas"
+    ],
+    "translation": "pedestrian crossing, crosswalk"
   },
   {
     "term": "dviratininkas",
@@ -32213,17 +32613,64 @@
   },
   {
     "term": "priemiestis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A residential area located on the edge of a city, outside the city centre.",
+        "example": "Jie persikėlė gyventi į priemiestį, kur namai pigesni.",
+        "register": "neutral",
+        "tags": [
+          "city",
+          "area",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "užmiestis"
+    ],
+    "antonymTerms": [
+      "centras"
+    ],
+    "relatedTerms": [
+      "miestas",
+      "rajonas",
+      "centras"
+    ],
+    "translation": "suburb, outskirts"
   },
   {
     "term": "ryto spūstis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Heavy road traffic congestion that occurs in the morning when many people commute to work.",
+        "example": "Ryto spūstis mieste trunka nuo septynių iki devynių valandos.",
+        "register": "informal",
+        "tags": [
+          "city",
+          "traffic",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kamštis",
+      "spūstis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "eismas",
+      "transportas",
+      "gatvė"
+    ],
+    "translation": "morning rush hour, morning traffic jam"
   },
   {
     "term": "autobusų stotis",
@@ -34178,73 +34625,289 @@
   },
   {
     "term": "samanos",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Small, soft, flowerless plants that grow in dense green mats on moist ground, rocks, or trees.",
+        "example": "Akmenys miške buvo apaugę samanomis ir atrodė labai seni.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "plant",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "augalas",
+      "miškas",
+      "drėgmė",
+      "žolė"
+    ],
+    "translation": "moss"
   },
   {
     "term": "rasa",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Tiny droplets of water that form on surfaces during cool nights when moisture in the air condenses.",
+        "example": "Anksti rytą ant žolės blizgėjo sidabrinė rasa.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "weather",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "drėgmė",
+      "rytas",
+      "žolė",
+      "šerkšnas"
+    ],
+    "translation": "dew"
   },
   {
     "term": "šešėlis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A dark area produced when an object blocks light; also the cool shaded area under a tree or building.",
+        "example": "Karštu vasaros metu sėdėjome medžio šešėlyje.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "light",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "šviesa",
+      "saulė"
+    ],
+    "relatedTerms": [
+      "medis",
+      "saulė",
+      "šviesa"
+    ],
+    "translation": "shadow, shade"
   },
   {
     "term": "smėlis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Fine granular material consisting of tiny rock or mineral particles, found on beaches and in deserts.",
+        "example": "Vaikai statė pilis iš smėlio prie jūros kranto.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "material",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "paplūdimys",
+      "krantas",
+      "akmuo",
+      "pajūris"
+    ],
+    "translation": "sand"
   },
   {
     "term": "pakrantė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The area of land immediately beside a river, lake, or sea.",
+        "example": "Pakrantėje augo gluosniai, o nendrės siūbavo vėjyje.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "water",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "krantas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "upė",
+      "ežeras",
+      "pajūris",
+      "žolė"
+    ],
+    "translation": "shoreline, waterside, bank"
   },
   {
     "term": "slėnis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A low-lying area of land between hills or mountains, often with a river running through it.",
+        "example": "Upė ramiai tekėjo per žaliąjį slėnį tarp kalvų.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "landscape",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "kalva",
+      "kalnas"
+    ],
+    "relatedTerms": [
+      "upė",
+      "lyguma",
+      "pieva"
+    ],
+    "translation": "valley"
   },
   {
     "term": "klevas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A deciduous tree known for its distinctive lobed leaves that turn bright red and orange in autumn.",
+        "example": "Rugsėjį klevas nudažo savo lapus raudonai ir oranžiškai.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "tree",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ąžuolas",
+      "beržas",
+      "lapas",
+      "medis"
+    ],
+    "translation": "maple tree"
   },
   {
     "term": "ąžuolas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A large, long-lived deciduous tree that produces acorns and is valued for its strong, hard wood.",
+        "example": "Šimtametis ąžuolas stovėjo miško viduryje kaip senas sargas.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "tree",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "klevas",
+      "beržas",
+      "pušis",
+      "medis"
+    ],
+    "translation": "oak tree"
   },
   {
     "term": "beržas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A slender deciduous tree with white or silver bark, very common in Lithuanian forests and parks.",
+        "example": "Beržo balti kamienai puikiai matėsi tamsame miške.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "tree",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ąžuolas",
+      "klevas",
+      "pušis",
+      "medis"
+    ],
+    "translation": "birch tree"
   },
   {
     "term": "pušis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An evergreen conifer tree with long needle-like leaves and a distinctive resinous scent.",
+        "example": "Pušys lieka žalios visus metus, net ir žiemos speiguose.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "tree",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "eglė",
+      "ąžuolas",
+      "beržas",
+      "medis"
+    ],
+    "translation": "pine tree"
   },
   {
     "term": "kočėlas",
@@ -35155,17 +35818,60 @@
   },
   {
     "term": "posūkis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A point where a road curves or where a vehicle must change direction.",
+        "example": "Pasukite į kairę prie antro posūkio po sankryžos.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "city",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kairė",
+      "dešinė",
+      "kelias",
+      "aplinkkelis"
+    ],
+    "translation": "turn, bend, turning"
   },
   {
     "term": "aplinkkelis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A road built around a town or obstacle to allow traffic to avoid the centre.",
+        "example": "Sunkvežimiai turi važiuoti aplinkkeliu, o ne miesto centru.",
+        "register": "neutral",
+        "tags": [
+          "city",
+          "transport",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "apvažiavimas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kelias",
+      "maršrutas",
+      "posūkis"
+    ],
+    "translation": "bypass road, ring road, detour"
   },
   {
     "term": "perėja",
@@ -35176,17 +35882,60 @@
   },
   {
     "term": "šaligatvis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A paved path alongside a road intended for pedestrians.",
+        "example": "Vaikai ėjo šaligatviu, o mašinos važiavo gatve.",
+        "register": "neutral",
+        "tags": [
+          "city",
+          "street",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "takas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gatvė",
+      "pėsčiųjų perėja",
+      "kelkraštis"
+    ],
+    "translation": "pavement, sidewalk"
   },
   {
     "term": "kelkraštis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The strip of land or paved edge at the side of a road, outside the main driving lane.",
+        "example": "Automobilis sugedo ir turėjo sustoti ant kelkraščio.",
+        "register": "neutral",
+        "tags": [
+          "city",
+          "transport",
+          "traffic",
+          "B1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "šaligatvis",
+      "gatvė",
+      "kelias"
+    ],
+    "translation": "roadside, verge, hard shoulder"
   },
   {
     "term": "pro",
