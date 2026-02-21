@@ -3323,23 +3323,51 @@
     "term": "Kaip sekasi",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Question used to ask how someone is doing.",
+        "example": "Labas, kaip sekasi šiandien?",
+        "register": "general",
+        "tags": [
+          "A1",
+          "questions"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "how is it going",
+    "tags": [
+      "A1",
+      "questions"
+    ]
   },
   {
     "term": "kaip gyveni",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Informal question asking how someone is doing in life.",
+        "example": "Seniai nesimatėme, kaip gyveni?",
+        "register": "general",
+        "tags": [
+          "A1",
+          "questions"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "how are you",
+    "tags": [
+      "A1",
+      "questions"
+    ]
   },
   {
     "term": "sveikas",
@@ -3429,12 +3457,26 @@
     "term": "šiaip sau",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Expression used to say that something is average or not very good.",
+        "example": "Kaip nuotaika? Šiaip sau.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "communication"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "so-so",
+    "tags": [
+      "A1",
+      "communication"
+    ]
   },
   {
     "term": "sėkmės",
@@ -3461,45 +3503,101 @@
     "term": "gero savaitgalio",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Polite wish said before the weekend.",
+        "example": "Iki, gero savaitgalio!",
+        "register": "general",
+        "tags": [
+          "A1",
+          "politeness"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "have a good weekend",
+    "tags": [
+      "A1",
+      "politeness"
+    ]
   },
   {
     "term": "nieko tokio",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Expression used to reassure someone that a mistake or problem is not serious.",
+        "example": "Atsiprašau, kad pavėlavau. Nieko tokio.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "politeness"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "it is okay; no problem",
+    "tags": [
+      "A1",
+      "politeness"
+    ]
   },
   {
     "term": "viso gero",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Common farewell expression used when parting.",
+        "example": "Ačiū už pagalbą, viso gero!",
+        "register": "general",
+        "tags": [
+          "A1",
+          "politeness"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "goodbye",
+    "tags": [
+      "A1",
+      "politeness"
+    ]
   },
   {
     "term": "iki",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "interjection",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Short farewell used when saying goodbye.",
+        "example": "Gerai, iki!",
+        "register": "general",
+        "tags": [
+          "A1",
+          "politeness"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "see you; bye",
+    "tags": [
+      "A1",
+      "politeness"
+    ]
   },
   {
     "term": "kada",
@@ -3546,13 +3644,27 @@
   {
     "term": "telefono numeris",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A sequence of digits used to call someone by phone.",
+        "example": "Koks tavo telefono numeris?",
+        "register": "general",
+        "tags": [
+          "A1",
+          "communication"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "phone number",
+    "tags": [
+      "A1",
+      "communication"
+    ]
   },
   {
     "term": "Bankas",
@@ -3788,24 +3900,52 @@
   {
     "term": "operos teatras",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A theater where operas are performed.",
+        "example": "Vakare einame į operos teatrą.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "opera house",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "oro uostas",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A place where airplanes take off and land.",
+        "example": "Autobusas važiuoja į oro uostą.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "airport",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "sankryža",
@@ -3831,222 +3971,502 @@
   {
     "term": "sporto klubas",
     "language": "lt",
-    "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A place where people exercise and do sports.",
+        "example": "Po darbo einu į sporto klubą.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "sports club; gym",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "stotelė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A designated place where buses or other public transport stop.",
+        "example": "Lauksiu tavęs autobusų stotelėje.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "stop",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "stotis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A main place for trains or buses to arrive and depart.",
+        "example": "Traukinys atvyksta į stotį vakare.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "station",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "šviesoforas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A road signal with colored lights controlling traffic.",
+        "example": "Prie šviesoforo reikia sustoti.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "traffic light",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "teatras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A building where plays and performances are shown.",
+        "example": "Šį vakarą teatre rodo naują spektaklį.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "theater",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "uostas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A place where ships dock to load and unload passengers or goods.",
+        "example": "Klaipėdos uostas yra prie jūros.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "port",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "ežeras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large area of water surrounded by land.",
+        "example": "Vasarą maudomės ežere.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "lake",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "jūra",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large body of salt water.",
+        "example": "Vasarą važiuojame prie jūros.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "sea",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "aikštė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An open public area in a town or city.",
+        "example": "Susitinkame miesto aikštėje.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "square",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "ambasada",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The official office representing one country in another country.",
+        "example": "Ambasada išduoda vizas.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "embassy",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "bažnyčia",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A Christian place of worship.",
+        "example": "Sekmadienį jie eina į bažnyčią.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "church",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "bendrabutis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A building where students live.",
+        "example": "Studentai gyvena bendrabutyje netoli universiteto.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "dormitory",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "gatvė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A public road in a town or city.",
+        "example": "Mūsų biuras yra pagrindinėje gatvėje.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "street",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "upė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A natural stream of water flowing toward a sea or lake.",
+        "example": "Per miestą teka plati upė.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "river",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "parkas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A public green area for walking and recreation.",
+        "example": "Po pietų vaikštome parke.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "park",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "ligoninė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A medical institution where sick or injured people are treated.",
+        "example": "Jį nuvežė į ligoninę apžiūrai.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "hospital",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "vaistinė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A shop where medicine is sold.",
+        "example": "Vaistus pirkau vaistinėje prie namų.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "pharmacy",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "parduotuvė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A place where goods are sold to customers.",
+        "example": "Duoną perku mažoje parduotuvėje.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "shop; store",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "pilis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large fortified building, often historical.",
+        "example": "Ant kalno stovi sena pilis.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "castle",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "tiltas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A structure built to cross a river, road, or valley.",
+        "example": "Per upę eina ilgas tiltas.",
+        "register": "general",
+        "tags": [
+          "A1",
+          "places"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "bridge",
+    "tags": [
+      "A1",
+      "places"
+    ]
   },
   {
     "term": "turgus",
