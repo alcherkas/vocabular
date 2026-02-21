@@ -1709,3 +1709,64 @@ Relations Agent — `vocab/relations-19`
 - `teisėjas` and `teisėja` had a non-standard stub schema (missing `meanings`, `synonyms`, etc.); the enrichment script added all required fields.
 - National holidays account for 16 of the 35 terms — all are officially observed Lithuanian public or commemorative days, directly relevant to civic and governmental life.
 - No merge performed per task instructions.
+
+---
+
+## QA session: qa-22
+
+**Date:** 2025-02-21
+**Agent:** QA Agent
+**Branch:** vocab/qa-22
+
+### Scope
+Full QA review of all 70 EN and 70 LT entries with status `relations-added`.
+
+### Checks applied
+1. **Self-reference** — exact match or multi-word phrase containing the head term as a word token.
+2. **LT nominative forms** — relation items ending in `-ą`/`-ų` rejected.
+3. **Semantic accuracy** — synonyms must genuinely share meaning with the head term.
+4. **Duplicate detection** — within-array and cross-array duplicates removed.
+
+### EN results (70 entries reviewed)
+
+| Outcome | Count |
+|---|---|
+| Approved | 64 |
+| Enriched (issues found/remaining) | 6 |
+
+Issues fixed / flagged:
+| Term | Issue | Action |
+|---|---|---|
+| verism | 'hyper-realism' inaccurate (distinct 20th-c photorealistic movement) | Removed; enriched |
+| triptych | 'triptyque' self-referential (French form of same term); 'diptych'/'polyptych' misclassified as antonyms | Removed 'triptyque'; relocated 'diptych'/'polyptych' to relatedTerms; enriched |
+| heteroglossia | 'polyphony' conceptually distinct in Bakhtinian theory | Removed; enriched |
+| defamiliarization | 'automatization' cross-array duplicate (antonymTerms ∩ relatedTerms) | Removed from relatedTerms; enriched |
+| paratext | 'peritext' and 'epitext' are hyponyms (sub-categories), not synonyms | Removed; enriched |
+| equilibrium | 'Nash equilibrium' self-referential (contains head term as word token) | Removed; enriched |
+
+### LT results (70 entries reviewed)
+
+| Outcome | Count |
+|---|---|
+| Approved | 50 |
+| Enriched (new issues) | 5 |
+| Enriched (pre-existing issues retained) | 15 |
+
+New issues found:
+| Term | Issue | Action |
+|---|---|---|
+| karštas | 'šiltas' (warm) ≠ 'karštas' (hot) — different temperature degrees | Removed; enriched |
+| ieškoti | 'paieška vykdyti' is a grammatically inverted non-standard phrase | Removed; enriched |
+| Autobusas | 'troleibusas' is a distinct vehicle type; 'bilietai' near-dup of 'bilietas' in relatedTerms | Removed both; enriched |
+| bilietas | 'kvitas' (receipt/proof-of-purchase) ≠ 'bilietas' (ticket) | Removed; enriched |
+| sveikatos draudimas | 'privalomasis sveikatos draudimas' is a specific sub-type (hyponym), not a synonym | Removed; enriched |
+
+Pre-existing enriched entries retained (15): capitalisation issues (Platus, Apsigyventi, Švarus, Tikrinti, Aplankas, Skyrius), production-duplicate entries (mėnuo, metai, namas, lietus, sniegas), semantic issues (kompiuteris, elektroninis laiškas, elektroninis paštas, atostogos), and new issue (Autobusas).
+
+### Validation
+`validate_words.py` run on both staging files. Zero errors in QA-22 batch entries for both EN and LT. Remaining validator errors are all pre-existing issues in entries from prior enricher batches (outside this QA scope).
+
+### Notes
+- Several EN entries already had qaNotes from previous enricher cycles describing issues that had been fixed; these were approved after confirming the bad data was absent.
+- LT compound noun phrases with genitive modifiers (e.g. `nuolaidų kortelė`, `dviračių juosta`) were accepted: the validator's `-ą`/`-ų` check applies to whole-string endings, and these are established Lithuanian multi-word lexical items.
+- No merge performed per task instructions.
