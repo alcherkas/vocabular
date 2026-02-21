@@ -71,3 +71,15 @@ Only include genuine debt: missing tests, shortcuts taken, convention violations
 - Evidence must be specific: reference file names and line numbers where relevant.
 - Tech debt must be actionable: vague entries like "code could be cleaner" are not acceptable.
 - Do not reopen tasks for style issues — only for functional gaps against ACs.
+
+## When to Stop (Uncertainty Protocol)
+
+Stop and write to `docs/decisions-pending.md` if:
+- You can't determine whether an AC is met without running the app (and you can't run it)
+- You find a potential security or data-loss bug — do not mark verified; escalate immediately
+- The code diverged so significantly from the architecture doc that you can't map ACs to code
+
+Append to `docs/audit-log.md` after committing your output:
+```
+[YYYY-MM-DD] [verification-agent] [<goal-id>] [commit] [<confidence>%] Verification <PASSED|FAILED> for <goal-id> | doubts: <none or reason>
+```

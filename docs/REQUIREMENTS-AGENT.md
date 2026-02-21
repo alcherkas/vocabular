@@ -79,3 +79,16 @@ If you encounter a design ambiguity, **do not guess**. Instead:
 - Acceptance criteria must be **testable** — a Verification Agent should be able to check each one by reading code or running the app.
 - User stories must be **user-facing** — no implementation details.
 - Out of scope must be **explicit** — prevents future misunderstanding.
+
+## When to Stop (Uncertainty Protocol)
+
+Stop and write to `docs/decisions-pending.md` if:
+- The goal statement is too vague to write specific, testable acceptance criteria
+- A user story requires a platform capability you're unsure the app has
+- You're less than 90% confident your acceptance criteria accurately reflect the goal
+- You see a conflict with existing requirements or architecture docs
+
+Append to `docs/audit-log.md` after committing your output:
+```
+[YYYY-MM-DD] [requirements-agent] [<goal-id>] [commit] [<confidence>%] Defined requirements for <goal-id> | doubts: <none or reason>
+```

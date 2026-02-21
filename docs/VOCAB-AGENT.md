@@ -197,7 +197,9 @@ git commit -m "vocab(seed-lt): add N new stubs from lt.txt"
    ```bash
    python3 scripts/publish_words.py \
      --staging Vocab/Vocab/Resources/words_staging.json \
-     --production Vocab/Vocab/Resources/words.json
+     --production Vocab/Vocab/Resources/words.json \
+     --confirm
+   ```
    ```
 3. Verify production:
    ```bash
@@ -227,3 +229,24 @@ If there are conflicts on staging JSON: keep both sets of changes (the file is a
 ## Stopping
 
 An agent can stop at any point mid-loop. Work is committed in small batches so nothing is lost. Another agent (or the same agent in a new session) can resume from where the staging file left off.
+
+---
+
+## When to Stop (Uncertainty Protocol)
+
+Stop immediately and write to `docs/decisions-pending.md` if:
+
+- You're unsure whether a word's definition is accurate (< 90% confident) — do not guess
+- Validation fails and you don't understand why
+- You're about to run `publish_words.py` but less than 90% confident in the approved batch
+- Any word could be offensive, politically sensitive, or legally problematic
+- You see unexpected data in the staging file (corrupted entries, suspicious edits)
+
+When stopping, commit your current work, write to `decisions-pending.md` with context, and stop.
+
+Append to `docs/audit-log.md` after every commit:
+```
+[YYYY-MM-DD] [<agent-id>] [<task-id>] [commit] [<confidence>%] <description> | doubts: <none or reason>
+```
+
+See `docs/REVERSIBILITY.md` for full rules on irreversible actions (especially Publisher).

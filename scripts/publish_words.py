@@ -8,13 +8,17 @@ to the production file, and removes them from staging.
 Usage:
     python3 scripts/publish_words.py \
         --staging Resources/words_staging.json \
-        --production Resources/words.json
+        --production Resources/words.json \
+        --confirm
 
     # Dry run (preview what would be published):
     python3 scripts/publish_words.py \
         --staging Resources/words_staging.json \
         --production Resources/words.json \
         --dry-run
+
+--confirm is REQUIRED for live runs (prevents accidental execution).
+This is an irreversible action — see docs/REVERSIBILITY.md.
 
 Exit code 0 = success. Exit code 1 = error.
 """
@@ -51,7 +55,14 @@ def main():
     parser.add_argument("--staging", required=True, help="Path to staging JSON (e.g. Resources/words_staging.json)")
     parser.add_argument("--production", required=True, help="Path to production JSON (e.g. Resources/words.json)")
     parser.add_argument("--dry-run", action="store_true", help="Preview without writing changes")
+    parser.add_argument("--confirm", action="store_true", help="Required for live runs (prevents accidental execution)")
     args = parser.parse_args()
+
+    if not args.dry_run and not args.confirm:
+        print("ERROR: --confirm is required for live runs. This is an irreversible action.")
+        print("Use --dry-run to preview, or --confirm to proceed.")
+        print("See docs/REVERSIBILITY.md for the full protocol.")
+        sys.exit(1)
 
     staging = load_json(args.staging)
     production = load_json(args.production)

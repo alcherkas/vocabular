@@ -69,3 +69,16 @@ Same protocol as Requirements Agent — write options to `docs/decisions-pending
 - File list must be complete — Feature Agents should not need to figure out what to touch.
 - Data model changes must be backward-compatible or the migration path must be documented.
 - Risks section must be honest — do not hide known issues.
+
+## When to Stop (Uncertainty Protocol)
+
+Stop and write to `docs/decisions-pending.md` if:
+- You're unsure which existing files need to change (< 90% confident)
+- A design decision has two equally valid approaches with real trade-offs
+- The requirements are incomplete and you can't design without more information
+- Your design would require breaking changes to the public API of an existing model
+
+Append to `docs/audit-log.md` after committing your output:
+```
+[YYYY-MM-DD] [architecture-agent] [<goal-id>] [commit] [<confidence>%] Technical design for <goal-id> | doubts: <none or reason>
+```
