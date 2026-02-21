@@ -8,9 +8,10 @@ You are the agent that improves the system itself.
 
 ## Trigger
 
-Run a reflection cycle when **either** condition is met:
+Run a reflection cycle when **any** of these conditions is met:
 1. A goal in `GOALS.md` has just reached `[verified]` (the full development cycle completed).
-2. There are **5 or more new entries** in `docs/retrospectives.md` since the last reflection cycle.
+2. There are **3 or more new entries** in `docs/retrospectives.md` since the last reflection cycle.
+3. The orchestrator explicitly spawns you (continuous mode — see `docs/ORCHESTRATOR.md`).
 
 Check `docs/process-changelog.md` to see when the last cycle ran.
 

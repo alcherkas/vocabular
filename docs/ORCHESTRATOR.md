@@ -305,7 +305,9 @@ ON FINISH:
 After spawning agents, enter a monitoring loop:
 
 ```
-WHILE any agent is still running:
+merges_since_last_reflection = 0
+
+WHILE any agent is still running OR unclaimed tasks remain:
   1. Wait 30 seconds
   2. Check each agent status via read_agent
   3. If an agent completed successfully:
@@ -315,31 +317,58 @@ WHILE any agent is still running:
         git merge <branch> --no-ff -m "<merge message>"
         git worktree remove ../vocabular-wt-<id>
         git branch -d <branch>
-     c. Check if this unblocks the next pipeline stage (see dependency table)
-     d. If yes, spawn the next agent
+     c. merges_since_last_reflection += 1
+     d. Check if this unblocks the next pipeline stage (see dependency table)
+     e. If yes, spawn the next agent
   4. If an agent failed:
      a. Read the error output
      b. Decide: retry with refined prompt, or write to decisions-pending.md for human
   5. Check docs/decisions-pending.md for new entries:
      a. If human has responded (look for "**Choice: X** — human"), relay to blocked agent
      b. If no response yet, note it and continue
+  6. REFLECTION CHECK (after every merge batch):
+     a. Count new retro entries since last reflection (grep "^## \[" docs/retrospectives.md)
+     b. If new_retros >= 3 AND no Reflection Agent is currently running:
+        - Spawn Reflection Agent (see template above)
+        - It runs IN PARALLEL with other agents — does not block
+        - merges_since_last_reflection = 0
+     c. When Reflection Agent completes:
+        - Review its branch (process/reflection-<N>)
+        - If changes are docs-only (no Swift/JSON): auto-merge to main
+        - If changes touch scripts: merge but verify scripts still work
+        - This ensures the NEXT batch of agents benefits from improvements
 ```
+
+### Reflection Cycle Timing
+
+```
+  Agents run ──► Merge batch ──► Reflection triggers ──► Process docs improve
+       │                              │ (parallel)              │
+       │                              ▼                         ▼
+       └──────── Next agents spawned with improved protocols ◄──┘
+```
+
+The orchestrator should aim for a reflection cycle every 3–5 agent completions. This keeps the feedback loop tight without drowning in meta-work.
 
 ### Dependency Graph (what to spawn next)
 
 ```
 Requirements Agent completes
   └─► Spawn Architecture Agent
+  └─► (if 3+ retros) Spawn Reflection Agent in parallel
 
 Architecture Agent completes
   └─► Spawn Feature Agents (one per unclaimed task, respecting file conflicts)
+
+After each Feature Agent merge batch
+  └─► (if 3+ new retros) Spawn Reflection Agent in parallel
 
 All Feature Agents complete
   └─► Set goal to [needs-verification]
   └─► Spawn Verification Agent
 
 Verification Agent completes with [verified]
-  └─► Spawn Reflection Agent (if retros ≥ 5)
+  └─► Final Reflection Agent cycle (always, regardless of retro count)
 
 Verification Agent completes with [needs-rework]
   └─► Respawn Feature Agents for failed tasks
