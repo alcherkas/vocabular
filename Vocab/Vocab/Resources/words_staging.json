@@ -23535,7 +23535,7 @@
   {
     "term": "illocution",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23559,8 +23559,7 @@
       "perlocution",
       "utterance",
       "pragmatic force"
-    ],
-    "qaNote": "Synonyms 'speech act' and 'communicative act' are hypernyms: an illocution is a specific type of speech act (the intended function), not co-extensive with the category. Replace with true synonyms such as 'illocutionary act' or 'illocutionary force'."
+    ]
   },
   {
     "term": "perlocution",
@@ -23753,7 +23752,7 @@
   {
     "term": "performativity",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23788,8 +23787,7 @@
       "speech act",
       "performative",
       "iterability"
-    ],
-    "qaNote": "Synonym 'citationality' is not a synonym: it is a Derridean concept about the iterability and quotability of signs, which Butler uses as a component of performativity theory — not an equivalent term. Remove 'citationality' and replace with a true synonym such as 'constitutive enactment'."
+    ]
   },
   {
     "term": "cataphora",
@@ -25351,7 +25349,7 @@
   {
     "term": "ergodicity",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -25379,7 +25377,7 @@
       "ensemble average",
       "statistical mechanics"
     ],
-    "qaNote": "Synonym 'stochastic stationarity' is incorrect: stationarity means statistical properties do not vary over time, whereas ergodicity means time averages equal ensemble averages — an ergodic process is stationary but not vice versa. 'time-space equivalence' is also non-standard. Replace with 'mean-ergodic property' or remove the inaccurate synonyms. Additionally, antonym 'non-ergodicity' contains the headword as a word-token (self-reference); remove or replace it."
+    "qaNote": "antonymTerms contains 'non-ergodicity' which includes the headword 'ergodicity' as a substring (self-reference). Replace with a proper antonym term that does not contain the headword, e.g. 'non-stationarity' or remove."
   },
   {
     "term": "equivocation",
@@ -25742,7 +25740,7 @@
   {
     "term": "attractor",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -25769,8 +25767,7 @@
       "phase space",
       "limit cycle",
       "basin of attraction"
-    ],
-    "qaNote": "Synonym 'stable equilibrium state' is too narrow: attractors include limit cycles and strange attractors, not only fixed-point equilibria. Synonym 'dynamical basin' conflates the attractor with its basin of attraction. Replace with accurate synonyms such as 'invariant attracting set'."
+    ]
   },
   {
     "term": "bifurcation",
@@ -26004,7 +26001,7 @@
   {
     "term": "teleonomy",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26031,8 +26028,7 @@
       "functional organization",
       "evolutionary purpose",
       "fitness"
-    ],
-    "qaNote": "Synonym 'evolutionary directionality' is misleading: it implies orthogenesis or actual goal-directed evolution, which teleonomy explicitly denies. Teleonomy describes only the appearance of purposiveness arising from natural selection. Replace with 'apparent purposiveness' or 'functional goal-directedness'. Also: antonym 'teleology' is not a true antonym — teleology (intentional purpose/design) is the concept teleonomy contrasts with, but they are not semantic opposites; consider moving it to relatedTerms."
+    ]
   },
   {
     "term": "fractal",
@@ -26224,7 +26220,7 @@
   {
     "term": "reliabilism",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26249,13 +26245,12 @@
       "externalism",
       "justification",
       "knowledge"
-    ],
-    "qaNote": "Synonym 'tracking theory' refers to Nozick's distinct sensitivity/tracking account of knowledge, which is a separate epistemological theory, not a synonym for reliabilism (Goldman's reliable-process account of justification). Remove 'tracking theory' and replace with 'process reliabilism' or keep only 'reliable process theory'."
+    ]
   },
   {
     "term": "internalism",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26281,12 +26276,12 @@
       "access",
       "introspection"
     ],
-    "qaNote": "Synonym 'deontologism' is a hyponym: deontologism is one specific variety of internalism (emphasising epistemic duties), not co-extensive with internalism as a whole. Replace with 'access internalism' or 'mentalist internalism' for a truer synonym."
+    "qaNote": "Synonyms 'mentalism' and 'deontologism' are not true synonyms of internalism: 'deontologism' is a subtype (hyponym), not a synonym; 'mentalism' overlaps with internalism in philosophy of mind but is not an equivalent epistemological term. Replace with genuine near-synonyms such as 'access internalism' or 'subjective justification theory'."
   },
   {
     "term": "externalism",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26313,7 +26308,7 @@
       "justification",
       "knowledge"
     ],
-    "qaNote": "Synonym 'naturalism' is too broad: naturalism encompasses many positions beyond epistemic externalism. Synonym 'reliabilism' is a hyponym of externalism (a specific type), not a co-extensive synonym. Replace both; consider 'non-mentalism' or 'environment-dependent justification'."
+    "qaNote": "Synonyms 'naturalism' and 'anti-internalism' are not true synonyms: 'naturalism' is a broader metaphysical position that often co-occurs with externalism but is not equivalent; 'anti-internalism' is merely a negation description, not a recognised philosophical synonym. Replace with terms like 'content externalism' or 'process externalism'."
   },
   {
     "term": "defeasibility",
@@ -26380,7 +26375,7 @@
   {
     "term": "underdetermination",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26406,7 +26401,7 @@
       "evidence",
       "empiricism"
     ],
-    "qaNote": "Synonyms 'empirical equivalence' and 'confirmation holism' are related but distinct doctrines, not synonyms: empirical equivalence is a condition that makes underdetermination possible, while confirmation holism (Quine-Duhem) is a thesis about holistic evidence. Neither is interchangeable with underdetermination. Replace with more precise synonyms or remove."
+    "qaNote": "Synonyms 'empirical equivalence' and 'confirmation holism' are related concepts, not synonyms: 'empirical equivalence' is a condition that produces underdetermination; 'confirmation holism' (Duhem–Quine thesis) is a distinct (though related) epistemological thesis. Replace with genuine synonyms or remove synonyms array if none exist."
   },
   {
     "term": "epistemology",
@@ -26503,7 +26498,7 @@
   {
     "term": "metalinguistic",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -26543,7 +26538,7 @@
   {
     "term": "epistemic",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -26568,7 +26563,7 @@
       "deontic",
       "propositional"
     ],
-    "qaNote": "Synonym 'cognitive' is a hypernym: cognitive covers all mental processing, not only knowledge-related aspects. Synonym 'gnostic' carries religious connotations (Gnostic traditions) and is not a standard philosophical synonym. Replace with 'knowledge-related' or restrict to 'epistemological'."
+    "qaNote": "Synonyms 'cognitive' (hypernym — covers all mental processing, not just knowledge) and 'gnostic' (primarily denotes Gnosticism; archaic and misleading in philosophical context) are inaccurate. Retain 'epistemological' and add only true near-synonyms, e.g. 'epistemic' is often its own best label; consider removing the other two."
   },
   {
     "term": "deflationism",
