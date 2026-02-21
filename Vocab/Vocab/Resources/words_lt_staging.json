@@ -16241,13 +16241,34 @@
   {
     "term": "švelnus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Mild and kind in temperament or behaviour; not rough or harsh.",
+        "example": "Ji švelniai paglostė vaiko galvą.",
+        "register": "general",
+        "tags": [
+          "personality",
+          "positive",
+          "character"
+        ]
+      }
+    ],
+    "synonyms": [
+      "meilus",
+      "romus"
+    ],
+    "antonymTerms": [
+      "šiurkštus",
+      "žiaurus"
+    ],
+    "relatedTerms": [
+      "švelnumas",
+      "meilė",
+      "jautrumas"
+    ],
+    "translation": "gentle, tender, soft"
   },
   {
     "term": "šaltas",
@@ -16274,13 +16295,44 @@
   {
     "term": "šiltas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Having a moderately high temperature; not cold.",
+        "example": "Šiltas oras leido vaikams žaisti lauke.",
+        "register": "general",
+        "tags": [
+          "temperature",
+          "weather",
+          "physical"
+        ]
+      },
+      {
+        "definition": "Showing affection, friendliness, and emotional warmth.",
+        "example": "Ji sutiko svečius šiltu šypsniu ir apkabinimu.",
+        "register": "general",
+        "tags": [
+          "personality",
+          "positive",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "šiltutis",
+      "malonus"
+    ],
+    "antonymTerms": [
+      "šaltas",
+      "vėsus"
+    ],
+    "relatedTerms": [
+      "šiluma",
+      "draugiškumas",
+      "meilė"
+    ],
+    "translation": "warm; warm-hearted"
   },
   {
     "term": "karštas",
@@ -21364,13 +21416,34 @@
   {
     "term": "ramus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Free from disturbance; tranquil in manner or temperament.",
+        "example": "Net krizės metu jis išliko ramus ir mąstė aiškiai.",
+        "register": "general",
+        "tags": [
+          "personality",
+          "positive",
+          "mental-state"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tylus",
+      "santūrus"
+    ],
+    "antonymTerms": [
+      "neramus",
+      "audringas"
+    ],
+    "relatedTerms": [
+      "ramybė",
+      "taika",
+      "kantrus"
+    ],
+    "translation": "calm, quiet, peaceful"
   },
   {
     "term": "atskiras",
@@ -26091,12 +26164,30 @@
     "term": "linkėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To express a wish that someone will have good fortune, health, or happiness.",
+        "example": "Norėčiau linkėti tau sėkmės ir laimės naujuosiuose namuose.",
+        "register": "general",
+        "tags": [
+          "social",
+          "expression",
+          "positive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "palinkėti",
+      "sveikinti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "palinkėjimas",
+      "linkėjimas",
+      "proga"
+    ],
+    "translation": "to wish (someone well)"
   },
   {
     "term": "pasveikti",
@@ -27731,12 +27822,43 @@
     "term": "Atleisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To stop feeling angry about an offence and no longer hold it against someone; to forgive.",
+        "example": "Ji sugebėjo atleisti jam už seną įžeidimą.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "social",
+          "moral"
+        ]
+      },
+      {
+        "definition": "To formally end someone's employment; to dismiss or let go from a job.",
+        "example": "Dėl ekonominės krizės įmonė turėjo atleisti dalį darbuotojų.",
+        "register": "formal",
+        "tags": [
+          "work",
+          "formal",
+          "administrative"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dovanoti",
+      "išleisti"
+    ],
+    "antonymTerms": [
+      "kaltinti",
+      "kerštauti"
+    ],
+    "relatedTerms": [
+      "atleidimas",
+      "susitaikyti",
+      "kaltė"
+    ],
+    "translation": "to forgive; to dismiss (from a job)"
   },
   {
     "term": "baigtis",
@@ -27950,24 +28072,66 @@
   {
     "term": "domėtis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To show curiosity or interest in something; to engage actively with a topic.",
+        "example": "Jis visada domėjosi astronomija ir skaitė apie žvaigždes.",
+        "register": "general",
+        "tags": [
+          "attitude",
+          "cognitive",
+          "reflexive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "smalsuoti",
+      "gilinntis"
+    ],
+    "antonymTerms": [
+      "nepaisyti",
+      "ignoruoti"
+    ],
+    "relatedTerms": [
+      "susidomėjimas",
+      "smalsumas",
+      "hobis"
+    ],
+    "translation": "to be interested in, to take an interest in"
   },
   {
     "term": "džiaugtis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To feel or show great happiness or pleasure.",
+        "example": "Ji džiaugiasi kiekviena šilta diena.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "positive",
+          "reflexive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "linksmintis",
+      "gėrėtis"
+    ],
+    "antonymTerms": [
+      "liūdėti",
+      "sielvartauti"
+    ],
+    "relatedTerms": [
+      "džiaugsmas",
+      "laimė",
+      "juoktis"
+    ],
+    "translation": "to rejoice, to be happy (about something)"
   },
   {
     "term": "gultis",
@@ -27983,13 +28147,34 @@
   {
     "term": "jaudintis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To feel emotional agitation, excitement, or anxiety; to be stirred emotionally.",
+        "example": "Jis jaudinosi prieš pirmąjį pasirodymą scenoje.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "reflexive",
+          "psychological"
+        ]
+      }
+    ],
+    "synonyms": [
+      "nerimauti",
+      "susijaudinti"
+    ],
+    "antonymTerms": [
+      "ramintis",
+      "nusiraminti"
+    ],
+    "relatedTerms": [
+      "jaudulys",
+      "nerimas",
+      "baimė"
+    ],
+    "translation": "to be excited, to be nervous, to worry"
   },
   {
     "term": "jaustis",
@@ -28086,13 +28271,34 @@
   {
     "term": "nervintis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To become anxious, tense, or irritated; to feel nervous stress.",
+        "example": "Ji nervintis dėl kiekvienos smulkmenos ir tai sekino kitus.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "negative",
+          "reflexive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "irzti",
+      "nerimauti"
+    ],
+    "antonymTerms": [
+      "ramintis",
+      "atsipalaiduoti"
+    ],
+    "relatedTerms": [
+      "nerimas",
+      "stresas",
+      "irzlumas"
+    ],
+    "translation": "to be nervous, to get irritated"
   },
   {
     "term": "praustis",
@@ -28119,13 +28325,35 @@
   {
     "term": "rūpintis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To look after or attend to the needs of someone or something; to feel concern or responsibility for.",
+        "example": "Mama visada rūpinasi, kad visi namuose būtų sotūs.",
+        "register": "general",
+        "tags": [
+          "action",
+          "emotion",
+          "reflexive",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "globoti",
+      "prižiūrėti"
+    ],
+    "antonymTerms": [
+      "aplaidžiai elgtis",
+      "ignoruoti"
+    ],
+    "relatedTerms": [
+      "rūpestis",
+      "atsakomybė",
+      "globa"
+    ],
+    "translation": "to care for, to take care of, to be concerned about"
   },
   {
     "term": "sektis",
@@ -28152,13 +28380,34 @@
   {
     "term": "stengtis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To make serious efforts or put in hard work to achieve something.",
+        "example": "Ji visada stengiasi atlikti savo darbą kuo geriau.",
+        "register": "general",
+        "tags": [
+          "action",
+          "personality",
+          "reflexive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "siekti",
+      "pastangos dėti"
+    ],
+    "antonymTerms": [
+      "tingėti",
+      "nusimesti"
+    ],
+    "relatedTerms": [
+      "pastangos",
+      "tikslas",
+      "valia"
+    ],
+    "translation": "to try, to strive, to make an effort"
   },
   {
     "term": "suktis",
@@ -28185,13 +28434,34 @@
   {
     "term": "tikėtis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To feel that something desirable will happen or is likely; to expect.",
+        "example": "Tikimės, kad atostogos bus saulėtos ir linksmos.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "attitude",
+          "reflexive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "laukti",
+      "viltis"
+    ],
+    "antonymTerms": [
+      "nusivysti",
+      "bijoti"
+    ],
+    "relatedTerms": [
+      "viltis",
+      "lūkesčiai",
+      "tikėjimas"
+    ],
+    "translation": "to hope, to expect"
   },
   {
     "term": "valytis",
@@ -30565,12 +30835,33 @@
     "term": "susitaikyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To settle a disagreement and restore a friendly relationship; to accept an unpleasant situation.",
+        "example": "Po ilgo ginčo jie galiausiai susitaikė ir apsikabino.",
+        "register": "general",
+        "tags": [
+          "social",
+          "emotion",
+          "reflexive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "taikytis",
+      "sutaikintis"
+    ],
+    "antonymTerms": [
+      "konfliktuoti",
+      "nesutarti"
+    ],
+    "relatedTerms": [
+      "atleidimas",
+      "taika",
+      "santykiai"
+    ],
+    "translation": "to reconcile, to make peace, to come to terms"
   },
   {
     "term": "susitaiko",
@@ -30620,12 +30911,33 @@
     "term": "gerbti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To feel or show deep admiration for someone because of their good qualities or achievements.",
+        "example": "Mokiniai gerbia savo mokytoją dėl jos išminties.",
+        "register": "general",
+        "tags": [
+          "social",
+          "attitude",
+          "positive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "vertinti",
+      "branginti"
+    ],
+    "antonymTerms": [
+      "niekinti",
+      "žeminti"
+    ],
+    "relatedTerms": [
+      "pagarba",
+      "vertybės",
+      "etika"
+    ],
+    "translation": "to respect, to esteem"
   },
   {
     "term": "gerbia",
@@ -31203,12 +31515,30 @@
     "term": "sveikinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To address someone with words of welcome or goodwill on a special occasion; to congratulate.",
+        "example": "Draugai atėjo sveikinti jo gimtadienio proga.",
+        "register": "general",
+        "tags": [
+          "social",
+          "action",
+          "positive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "linkėti",
+      "pasveikinti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "sveikinimas",
+      "proga",
+      "palinkėjimas"
+    ],
+    "translation": "to greet, to congratulate"
   },
   {
     "term": "sveikina",
@@ -31444,68 +31774,188 @@
   {
     "term": "džiaugsmas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A feeling of great pleasure and happiness.",
+        "example": "Vaikų veidai spindinčiai atspindėjo grynąjį džiaugsmą.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "positive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "linksmumas",
+      "laimė"
+    ],
+    "antonymTerms": [
+      "liūdesys",
+      "sielvartas"
+    ],
+    "relatedTerms": [
+      "džiaugtis",
+      "juokas",
+      "šypsena"
+    ],
+    "translation": "joy, happiness"
   },
   {
     "term": "kantrybė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The capacity to accept or tolerate delay, problems, or suffering without becoming annoyed or anxious.",
+        "example": "Mokytoja niekada neprarado kantrybės su vaikais.",
+        "register": "general",
+        "tags": [
+          "personality",
+          "virtue"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ištvermė",
+      "pakantumas"
+    ],
+    "antonymTerms": [
+      "nekantrumas",
+      "irzlumas"
+    ],
+    "relatedTerms": [
+      "kantrus",
+      "tolerancija",
+      "ramybė"
+    ],
+    "translation": "patience"
   },
   {
     "term": "laimė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A state of well-being and contentment; a feeling of great satisfaction and pleasure.",
+        "example": "Šeimos artumas teikia jai tikrą laimę.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "positive",
+          "well-being"
+        ]
+      }
+    ],
+    "synonyms": [
+      "džiaugsmas",
+      "palaima"
+    ],
+    "antonymTerms": [
+      "nelaimė",
+      "liūdesys"
+    ],
+    "relatedTerms": [
+      "laimingas",
+      "sėkmė",
+      "ramybė"
+    ],
+    "translation": "happiness, luck"
   },
   {
     "term": "meilė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A deep feeling of affection, care, and attachment toward another person.",
+        "example": "Jų meilė išliko stipri net po daugelio metų.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "positive",
+          "relationship"
+        ]
+      }
+    ],
+    "synonyms": [
+      "prisirišimas",
+      "meilikaujimas"
+    ],
+    "antonymTerms": [
+      "neapykanta",
+      "abejingumas"
+    ],
+    "relatedTerms": [
+      "mylėti",
+      "širdis",
+      "jausmas"
+    ],
+    "translation": "love"
   },
   {
     "term": "proga",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A particular time when something happens; a special event or suitable moment.",
+        "example": "Gimtadienis yra puiki proga surinkti visą šeimą.",
+        "register": "general",
+        "tags": [
+          "social",
+          "event",
+          "time"
+        ]
+      }
+    ],
+    "synonyms": [
+      "galimybė",
+      "atvejis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "šventė",
+      "sveikinti",
+      "palinkėjimas"
+    ],
+    "translation": "occasion, opportunity"
   },
   {
     "term": "sėkmė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The accomplishment of an aim or purpose; a favourable outcome.",
+        "example": "Palinkime vienas kitam sėkmės šiame projekte.",
+        "register": "general",
+        "tags": [
+          "positive",
+          "achievement"
+        ]
+      }
+    ],
+    "synonyms": [
+      "laimė",
+      "pasisekimas"
+    ],
+    "antonymTerms": [
+      "nesėkmė",
+      "pralaimėjimas"
+    ],
+    "relatedTerms": [
+      "tikslas",
+      "pastangos",
+      "proga"
+    ],
+    "translation": "success, luck"
   },
   {
     "term": "sveikata",
@@ -32620,80 +33070,351 @@
   },
   {
     "term": "liūdesys",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A feeling of unhappiness, sorrow, or grief.",
+        "example": "Akimis pilnomis liūdesio ji žiūrėjo pro langą.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "negative"
+        ]
+      }
+    ],
+    "synonyms": [
+      "sielvartas",
+      "nusiminimas"
+    ],
+    "antonymTerms": [
+      "džiaugsmas",
+      "linksmumas"
+    ],
+    "relatedTerms": [
+      "liūdėti",
+      "ašaros",
+      "gedulas"
+    ],
+    "translation": "sadness, sorrow"
   },
   {
     "term": "pyktis",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A strong feeling of displeasure and hostility in response to perceived wrong.",
+        "example": "Jis nesugebėjo nuslėpti savo pykčio po nesąžiningo sprendimo.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "negative"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rūstybė",
+      "įniršis"
+    ],
+    "antonymTerms": [
+      "ramybė",
+      "pakantumas"
+    ],
+    "relatedTerms": [
+      "pykti",
+      "irzlumas",
+      "konfliktas"
+    ],
+    "translation": "anger, rage"
   },
   {
     "term": "baimė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An unpleasant emotion caused by the threat of danger, pain, or harm.",
+        "example": "Baimė surakino jo kojas ir jis negalėjo pajudėti.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "negative"
+        ]
+      }
+    ],
+    "synonyms": [
+      "išgąstis",
+      "siaubas"
+    ],
+    "antonymTerms": [
+      "drąsa",
+      "pasitikėjimas"
+    ],
+    "relatedTerms": [
+      "bijoti",
+      "nerimas",
+      "pavojus"
+    ],
+    "translation": "fear, fright"
   },
   {
     "term": "nuostaba",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A feeling of amazement and admiration caused by something unexpected or unfamiliar.",
+        "example": "Vaikai žiūrėjo į stebuklą su didele nuostaba.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "reaction"
+        ]
+      }
+    ],
+    "synonyms": [
+      "nustebimas",
+      "stebėjimasis"
+    ],
+    "antonymTerms": [
+      "abejingumas",
+      "nuobodulys"
+    ],
+    "relatedTerms": [
+      "nustebti",
+      "stebuklas",
+      "susidomėjimas"
+    ],
+    "translation": "surprise, astonishment, wonder"
   },
   {
     "term": "ramybė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A state of mental calm and freedom from agitation or anxiety.",
+        "example": "Po ilgos dienos ji ieškojo ramybės prie ežero.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "positive",
+          "mental-state"
+        ]
+      }
+    ],
+    "synonyms": [
+      "taika",
+      "romus"
+    ],
+    "antonymTerms": [
+      "nerimas",
+      "sumaištis"
+    ],
+    "relatedTerms": [
+      "ramus",
+      "tyla",
+      "meditacija"
+    ],
+    "translation": "peace, tranquility, calm"
   },
   {
     "term": "nerimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A feeling of worry, unease, or apprehension about an uncertain outcome.",
+        "example": "Prieš egzaminą ją apėmė didelis nerimas.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "negative",
+          "psychological"
+        ]
+      }
+    ],
+    "synonyms": [
+      "susirūpinimas",
+      "neramumas"
+    ],
+    "antonymTerms": [
+      "ramybė",
+      "ramus"
+    ],
+    "relatedTerms": [
+      "jaudintis",
+      "baimė",
+      "stresas"
+    ],
+    "translation": "anxiety, worry"
   },
   {
     "term": "gėda",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A painful feeling of humiliation or distress caused by awareness of wrong or foolish behaviour.",
+        "example": "Jis pajuto gėdą dėl savo blogo elgesio.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "negative",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "susigėdinimas",
+      "sugėdinimas"
+    ],
+    "antonymTerms": [
+      "pasididžiavimas",
+      "drąsa"
+    ],
+    "relatedTerms": [
+      "gėdytis",
+      "orumas",
+      "kaltė"
+    ],
+    "translation": "shame, embarrassment"
   },
   {
     "term": "pavydas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A feeling of resentment or discontent aroused by another person's possessions, qualities, or luck.",
+        "example": "Pavydas neleidžia jam džiaugtis kitų sėkme.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "negative",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pavyduliavimas",
+      "godumas"
+    ],
+    "antonymTerms": [
+      "dosnumas",
+      "džiaugsmas"
+    ],
+    "relatedTerms": [
+      "pavydėti",
+      "gėda",
+      "konkurencija"
+    ],
+    "translation": "jealousy, envy"
   },
   {
     "term": "pasididžiavimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A feeling of deep pleasure or satisfaction derived from one's own achievements, or those of someone with whom one is closely associated.",
+        "example": "Tėvų akys spindėjo pasididžiavimu žiūrint į dukters diplomą.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "positive",
+          "self-esteem"
+        ]
+      }
+    ],
+    "synonyms": [
+      "išdidumas",
+      "savigarba"
+    ],
+    "antonymTerms": [
+      "gėda",
+      "kuklumas"
+    ],
+    "relatedTerms": [
+      "pasididžiuoti",
+      "orumas",
+      "sėkmė"
+    ],
+    "translation": "pride"
   },
   {
     "term": "draugiškumas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The quality of being kind, pleasant, and easy to talk to.",
+        "example": "Jo draugiškumas iš karto sužavėjo naujus bendradarbius.",
+        "register": "general",
+        "tags": [
+          "personality",
+          "social",
+          "positive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "nuoširdumas",
+      "malonumas"
+    ],
+    "antonymTerms": [
+      "priešiškumas",
+      "atšalimas"
+    ],
+    "relatedTerms": [
+      "draugas",
+      "draugiškas",
+      "bendravimas"
+    ],
+    "translation": "friendliness, sociability"
   },
   {
     "term": "susidomėjimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The state of wanting to learn or know more about something or someone.",
+        "example": "Ji parodė didelį susidomėjimą lietuvių literatūra.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "attitude",
+          "cognitive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "domėjimasis",
+      "smalsumas"
+    ],
+    "antonymTerms": [
+      "abejingumas",
+      "nuobodulys"
+    ],
+    "relatedTerms": [
+      "domėtis",
+      "nuostaba",
+      "smalsus"
+    ],
+    "translation": "interest, curiosity"
   },
   {
     "term": "semtuvėlis",
@@ -34064,10 +34785,32 @@
   },
   {
     "term": "palinkėjimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An expression of hope that someone will have good fortune or happiness.",
+        "example": "Šventiniai palinkėjimai sušildė jos širdį.",
+        "register": "general",
+        "tags": [
+          "social",
+          "expression",
+          "positive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "linkėjimas",
+      "sveikinimas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "linkėti",
+      "sveikinti",
+      "proga"
+    ],
+    "translation": "wish, good wishes, greeting"
   },
   {
     "term": "siurprizas",
@@ -34688,17 +35431,67 @@
   },
   {
     "term": "smalsus",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Eager to know or learn about something; showing interest in things.",
+        "example": "Smalsus vaikas užduodavo begales klausimų.",
+        "register": "general",
+        "tags": [
+          "personality",
+          "cognitive",
+          "positive"
+        ]
+      }
+    ],
+    "synonyms": [
+      "domėjimosi kupinas",
+      "imlus"
+    ],
+    "antonymTerms": [
+      "abejingas",
+      "tingus"
+    ],
+    "relatedTerms": [
+      "smalsumas",
+      "domėtis",
+      "susidomėjimas"
+    ],
+    "translation": "curious, inquisitive"
   },
   {
     "term": "mandagus",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Having or showing good manners and respect for other people.",
+        "example": "Mandagus jaunuolis visada atidarydavo duris moterims.",
+        "register": "general",
+        "tags": [
+          "personality",
+          "positive",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [
+      "taktiškas",
+      "kultūringas"
+    ],
+    "antonymTerms": [
+      "nemandagus",
+      "grubūs"
+    ],
+    "relatedTerms": [
+      "mandagumas",
+      "pagarba",
+      "etiketas"
+    ],
+    "translation": "polite, courteous"
   },
   {
     "term": "netvarkingas",
