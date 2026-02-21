@@ -1653,3 +1653,34 @@ Relations Agent — `vocab/relations-19`
 - Minimal stub format `{"term", "language", "en", "status": "stub"}` used, consistent with seeder-en-6 convention; enricher agents will populate `partOfSpeech`, `meanings`, `synonyms`, etc.
 - `aretaic` (adj.) and `epideictic` (adj.) are adjective-form entries — correct C1+ scholarly vocabulary; `partOfSpeech` left for enricher.
 - No multi-word compound terms introduced; all headwords are single tokens or hyphen-free forms for validator compatibility.
+## Session retro — vocab/enricher-lt-28
+
+**Branch:** `vocab/enricher-lt-28`
+**Date:** 2025-07-15
+**Agent:** Enricher (LT stubs → enriched)
+
+### What was done
+- Ran preflight validation (`validate_words.py --errors-for enriched`) on `words_lt_staging.json` — **PASSED** (1960 entries, exit 0).
+- Identified 35 Lithuanian stubs focused on travel, tourism, and accommodation vocabulary at A2/B1 level.
+- Enriched all 35 entries: set `partOfSpeech`, added at least one `meaning` (definition, example, register, tags), filled `translation`, and populated `synonyms`/`antonymTerms`/`relatedTerms` arrays.
+- Post-enrichment validation: `validate_words.py --errors-for enriched` → **PASSED** (exit 0).
+- Committed as `vocab(enricher-lt-28): enrich 35 Lithuanian stubs`.
+
+### Stats
+| Domain group | Terms enriched |
+|---|---|
+| Transport / travel verbs | 7 (vykti, lipti, pakilti, nusileisti, keltas, keleivis, keleivė) |
+| Ticketing / navigation | 6 (bilietas, bilietas pirmyn ir atgal, nuolaida, vieta, žemėlapis, miesto planas) |
+| Tourism | 7 (turistas, turistė, viza, suvenyras, išvyka, žygis, takas) |
+| Paths / cycling | 2 (takas already counted; dviračių takas) |
+| Outdoor / camping | 6 (stovykla, palapinė, miegmaišis, pliažas, paplūdimys, valtis, baidarė) |
+| Accommodation | 7 (nakvoti, Apsigyventi, nuomoti, miegamasis, balkonas, prieškambaris, raktas) |
+| **Total** | **35** |
+
+### Issues / notes
+- All 35 target stubs were confirmed present in the file before enrichment; no missing-term errors.
+- Relation arrays were kept strictly in Lithuanian nominative (dictionary) form; no `-ą`/`-ų` inflected forms were used.
+- Multi-word relation items (e.g. `nuolaidų kortelė`, `oro uostas`, `miesto planas`) were checked: none contain the headword as a word token, so no self-referential-phrase errors.
+- `pliažas` ↔ `paplūdimys` list each other as mutual synonyms; this is semantically accurate (both mean "beach") and consistent with file conventions.
+- `pakilti` ↔ `nusileisti` are listed as mutual antonyms (take off vs land), which is correct.
+- Terms with very few natural Lithuanian synonyms (keltas, turistas, viza, palapinė, miegmaišis, etc.) were given empty `synonyms: []` rather than forcing inaccurate entries.

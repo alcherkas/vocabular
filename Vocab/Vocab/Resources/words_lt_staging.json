@@ -17860,12 +17860,29 @@
     "term": "vykti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To travel or go to a particular destination.",
+        "example": "Rytoj vyksiu į Kauną verslo reikalais.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "movement",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "keliauti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kelionė",
+      "atvykti",
+      "išvykti"
+    ],
+    "translation": "to go, to travel, to head to"
   },
   {
     "term": "grįžti",
@@ -18479,34 +18496,98 @@
     "term": "lipti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To board or get onto a vehicle such as a bus, train, or boat.",
+        "example": "Lipame į autobusą prie trečios stotelės.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "travel",
+          "A2"
+        ]
+      },
+      {
+        "definition": "To climb upward, ascending steps or a surface.",
+        "example": "Vaikai lipa laiptais į viršų.",
+        "register": "neutral",
+        "tags": [
+          "movement",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kopti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "laiptai",
+      "autobusas",
+      "traukinys"
+    ],
+    "translation": "to board, to climb, to get on"
   },
   {
     "term": "pakilti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To leave the ground and become airborne; to take off.",
+        "example": "Lėktuvas pakilo tiksliai laiku.",
+        "register": "neutral",
+        "tags": [
+          "aviation",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kilti"
+    ],
+    "antonymTerms": [
+      "nusileisti"
+    ],
+    "relatedTerms": [
+      "lėktuvas",
+      "oro uostas",
+      "skrydis"
+    ],
+    "translation": "to take off, to lift off, to rise"
   },
   {
     "term": "nusileisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To land — of an aircraft, to come down and touch the ground; to descend.",
+        "example": "Lėktuvas sėkmingai nusileido Vilniaus oro uoste.",
+        "register": "neutral",
+        "tags": [
+          "aviation",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "leistis"
+    ],
+    "antonymTerms": [
+      "pakilti"
+    ],
+    "relatedTerms": [
+      "lėktuvas",
+      "oro uostas",
+      "skrydis"
+    ],
+    "translation": "to land, to descend, to come down"
   },
   {
     "term": "Autobusas",
@@ -18574,13 +18655,29 @@
   {
     "term": "keltas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A boat or ship that regularly carries passengers and vehicles across a body of water.",
+        "example": "Keltas per Kuršių marias plaukia kas valandą.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "travel",
+          "water",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "laivas",
+      "uostas",
+      "valtis"
+    ],
+    "translation": "ferry"
   },
   {
     "term": "metro",
@@ -18837,13 +18934,28 @@
   {
     "term": "keleivis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A person travelling in a vehicle, aircraft, or ship who is not the driver or crew.",
+        "example": "Autobuse buvo daug keleivių.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "transport",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "keleivė",
+      "kelionė",
+      "transportas"
+    ],
+    "translation": "passenger (male)"
   },
   {
     "term": "kelionė",
@@ -18941,35 +19053,86 @@
   {
     "term": "takas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A narrow path or track through an outdoor area such as a forest or park.",
+        "example": "Pėsčiųjų takas eina per mišką iki ežero.",
+        "register": "neutral",
+        "tags": [
+          "outdoors",
+          "travel",
+          "nature",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "takelis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kelias",
+      "miškas",
+      "žygis"
+    ],
+    "translation": "path, trail, track"
   },
   {
     "term": "dviračių takas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A designated lane or path set aside for cyclists.",
+        "example": "Miestuose yra daug dviračių takų.",
+        "register": "neutral",
+        "tags": [
+          "cycling",
+          "transport",
+          "outdoors",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "dviratis",
+      "takas",
+      "maršrutas"
+    ],
+    "translation": "bicycle path, cycle lane"
   },
   {
     "term": "bilietas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A document giving the holder the right to travel on public transport or enter a venue.",
+        "example": "Nusipirkau traukinio bilietą į Vilnių.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "transport",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "talonas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kelionė",
+      "traukinys",
+      "kaina"
+    ],
+    "translation": "ticket"
   },
   {
     "term": "elektroninis bilietas",
@@ -19004,34 +19167,92 @@
     "term": "bilietas pirmyn ir atgal",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A ticket covering a journey to a destination and the return trip back.",
+        "example": "Pirkau bilietą pirmyn ir atgal į Paryžių.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "transport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "bilietas",
+      "kelionė",
+      "maršrutas"
+    ],
+    "translation": "return ticket, round-trip ticket"
   },
   {
     "term": "nuolaida",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A reduction in the usual price of something.",
+        "example": "Su studento kortele galiu gauti nuolaidą bilietui.",
+        "register": "neutral",
+        "tags": [
+          "shopping",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "lengvata"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kaina",
+      "nuolaidų kortelė",
+      "mokėti"
+    ],
+    "translation": "discount, reduction"
   },
   {
     "term": "vieta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A particular position, point, or area in space.",
+        "example": "Ar ši vieta laisva?",
+        "register": "neutral",
+        "tags": [
+          "location",
+          "A2"
+        ]
+      },
+      {
+        "definition": "A reserved seat on a vehicle or at an event.",
+        "example": "Užsisakiau vietą traukinyje.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "transport",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "erdvė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "bilietas",
+      "rezervacija",
+      "kelionė"
+    ],
+    "translation": "place, spot; seat"
   },
   {
     "term": "bauda",
@@ -20449,13 +20670,28 @@
   {
     "term": "miegamasis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A room in a house or hotel primarily used for sleeping.",
+        "example": "Kambaryje buvo du miegamieji su dvigulėmis lovomis.",
+        "register": "neutral",
+        "tags": [
+          "accommodation",
+          "home",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "lova",
+      "kambarys",
+      "butas"
+    ],
+    "translation": "bedroom"
   },
   {
     "term": "svetainė",
@@ -20471,13 +20707,29 @@
   {
     "term": "balkonas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An elevated outdoor platform projecting from the wall of a building, enclosed by a railing.",
+        "example": "Iš balkono matėsi jūros vaizdas.",
+        "register": "neutral",
+        "tags": [
+          "accommodation",
+          "home",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "terasa",
+      "langas",
+      "butas"
+    ],
+    "translation": "balcony"
   },
   {
     "term": "vaikų kambarys",
@@ -20559,13 +20811,28 @@
   {
     "term": "prieškambaris",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A small hall or room just inside the main entrance of a building or apartment.",
+        "example": "Nusiavome batus prieškambaryje.",
+        "register": "neutral",
+        "tags": [
+          "accommodation",
+          "home",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "durys",
+      "koridorius",
+      "butas"
+    ],
+    "translation": "entrance hall, vestibule, foyer"
   },
   {
     "term": "pastatas",
@@ -20722,13 +20989,28 @@
   {
     "term": "raktas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A small shaped piece of metal inserted into a lock to open or close it.",
+        "example": "Palikau rakto kopiją kaimynui.",
+        "register": "neutral",
+        "tags": [
+          "accommodation",
+          "everyday",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "durys",
+      "spyna",
+      "atrakinti"
+    ],
+    "translation": "key"
   },
   {
     "term": "langas",
@@ -20756,23 +21038,53 @@
     "term": "Apsigyventi",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To move into and settle in a place; to check in to accommodation.",
+        "example": "Apsigyvenom viešbutyje tiesiai atvykę.",
+        "register": "neutral",
+        "tags": [
+          "accommodation",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "nakvoti",
+      "viešbutis",
+      "nuomoti"
+    ],
+    "translation": "to move in, to check in, to settle"
   },
   {
     "term": "nakvoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To stay and sleep somewhere overnight; to spend the night in a place.",
+        "example": "Nakvojome nedideliame viešbutyje miesto centre.",
+        "register": "neutral",
+        "tags": [
+          "accommodation",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "viešbutis",
+      "kambarys",
+      "apsigyventi"
+    ],
+    "translation": "to stay overnight, to spend the night"
   },
   {
     "term": "persikelti",
@@ -20800,12 +21112,29 @@
     "term": "nuomoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To pay for the temporary use of something such as a flat, car, or equipment.",
+        "example": "Atostogoms nuomojome butą prie jūros.",
+        "register": "neutral",
+        "tags": [
+          "accommodation",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "išsinuomoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "nuoma",
+      "butas",
+      "mokėti"
+    ],
+    "translation": "to rent, to hire"
   },
   {
     "term": "atidaryti",
@@ -30010,56 +30339,131 @@
     "term": "miesto planas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A map showing the streets, buildings, and key landmarks of a city.",
+        "example": "Informaciniame centre gavome miesto planą.",
+        "register": "neutral",
+        "tags": [
+          "navigation",
+          "tourism",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "žemėlapis",
+      "miestas",
+      "maršrutas"
+    ],
+    "translation": "city map, street map"
   },
   {
     "term": "turistas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A person who travels to places for pleasure or leisure.",
+        "example": "Vilniuje daug turistų aplanko Gedimino pilį.",
+        "register": "neutral",
+        "tags": [
+          "tourism",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "turistė",
+      "kelionė",
+      "ekskursija"
+    ],
+    "translation": "tourist (male)"
   },
   {
     "term": "turistė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A female person who travels to places for pleasure or leisure.",
+        "example": "Turistė fotografavo senamiestį.",
+        "register": "neutral",
+        "tags": [
+          "tourism",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "turistas",
+      "kelionė",
+      "ekskursija"
+    ],
+    "translation": "tourist (female)"
   },
   {
     "term": "viza",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An official endorsement in a passport permitting entry into or exit from a country.",
+        "example": "Norėdamas keliauti į JAV, turėjau gauti vizą.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "official",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "pasas",
+      "kelionė",
+      "siena"
+    ],
+    "translation": "visa"
   },
   {
     "term": "žemėlapis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A flat representation of an area showing its features, roads, and landmarks.",
+        "example": "Pasiėmiau žemėlapį, kad nepasiklysčiau mieste.",
+        "register": "neutral",
+        "tags": [
+          "navigation",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "maršrutas",
+      "miesto planas",
+      "navigacija"
+    ],
+    "translation": "map"
   },
   {
     "term": "kalva",
@@ -30271,35 +30675,84 @@
   {
     "term": "žygis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A long walk through nature, especially in hills or forests, usually for recreation.",
+        "example": "Savaitgalį ėjome žygin į Aukštaitijos nacionalinį parką.",
+        "register": "neutral",
+        "tags": [
+          "outdoors",
+          "tourism",
+          "nature",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "takas",
+      "miškas",
+      "kuprinė"
+    ],
+    "translation": "hike, trek"
   },
   {
     "term": "išvyka",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A short journey or trip made for pleasure, sightseeing, or as part of a group activity.",
+        "example": "Mokykla organizuoja išvyką į muziejų.",
+        "register": "neutral",
+        "tags": [
+          "tourism",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ekskursija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "kelionė",
+      "grupė",
+      "turistas"
+    ],
+    "translation": "trip, excursion, outing"
   },
   {
     "term": "palapinė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A portable shelter made of fabric stretched over a frame of poles, used for camping.",
+        "example": "Pastatėme palapinę prie upės ir nakvojo ten.",
+        "register": "neutral",
+        "tags": [
+          "camping",
+          "outdoors",
+          "tourism",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "stovykla",
+      "miegmaišis",
+      "žygis"
+    ],
+    "translation": "tent"
   },
   {
     "term": "žuvienė",
@@ -30348,57 +30801,140 @@
   {
     "term": "valtis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A small watercraft used for rowing or paddling on lakes, rivers, or calm coastal waters.",
+        "example": "Irklavome valtimi per ežerą.",
+        "register": "neutral",
+        "tags": [
+          "water",
+          "outdoors",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "baidarė",
+      "keltas",
+      "irklas"
+    ],
+    "translation": "boat, rowing boat"
   },
   {
     "term": "baidarė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A narrow, covered boat propelled by a double-bladed paddle, used for water sport and touring.",
+        "example": "Baidarėmis plaukiojome Nemuno upe.",
+        "register": "neutral",
+        "tags": [
+          "water",
+          "outdoors",
+          "sport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "valtis",
+      "irklas",
+      "upė"
+    ],
+    "translation": "kayak, canoe"
   },
   {
     "term": "miegmaišis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A padded bag designed to sleep in, used when camping or travelling without a bed.",
+        "example": "Šaltą naktį miegmaišis labai pravertė.",
+        "register": "neutral",
+        "tags": [
+          "camping",
+          "outdoors",
+          "travel",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "palapinė",
+      "stovykla",
+      "žygis"
+    ],
+    "translation": "sleeping bag"
   },
   {
     "term": "pliažas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An area of sand or pebbles along a coast or lakeshore, typically used for swimming and sunbathing.",
+        "example": "Vasarą pliažas būna pilnas žmonių.",
+        "register": "neutral",
+        "tags": [
+          "tourism",
+          "summer",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "paplūdimys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "jūra",
+      "smėlis",
+      "atostogos"
+    ],
+    "translation": "beach"
   },
   {
     "term": "paplūdimys",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
-    "synonyms": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A sandy or pebbly shore beside water, used for recreation and swimming.",
+        "example": "Palanga turi ilgą paplūdimį prie Baltijos jūros.",
+        "register": "neutral",
+        "tags": [
+          "tourism",
+          "summer",
+          "nature",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pliažas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
-    "translation": null
+    "relatedTerms": [
+      "jūra",
+      "smėlis",
+      "atostogos"
+    ],
+    "translation": "beach, shore"
   },
   {
     "term": "grybauti",
@@ -33491,10 +34027,30 @@
   },
   {
     "term": "keleivė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A female person travelling in a vehicle, aircraft, or ship who is not the driver or crew.",
+        "example": "Keleivė paprašė vairuotojo sustoti.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "transport",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "keleivis",
+      "kelionė",
+      "transportas"
+    ],
+    "translation": "passenger (female)"
   },
   {
     "term": "pėsčiųjų perėja",
@@ -36480,17 +37036,58 @@
   },
   {
     "term": "stovykla",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A temporary site where people stay in tents or shelters, especially for recreation or organised activities.",
+        "example": "Vasarą vaikai gyveno stovykloje prie ežero.",
+        "register": "neutral",
+        "tags": [
+          "outdoors",
+          "tourism",
+          "accommodation",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "palapinė",
+      "laužas",
+      "miškas"
+    ],
+    "translation": "camp, campsite"
   },
   {
     "term": "suvenyras",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An object kept as a reminder or memento of a place visited or a special event.",
+        "example": "Iš Paryžiaus parsivežiau suvenyrą — maži Eifelio bokšto maketą.",
+        "register": "neutral",
+        "tags": [
+          "tourism",
+          "shopping",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dovanėlė",
+      "kelionė",
+      "turistas"
+    ],
+    "translation": "souvenir, memento"
   },
   {
     "term": "piknikas",
