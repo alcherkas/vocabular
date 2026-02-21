@@ -989,4 +989,34 @@ Custom batch check (self-reference, nominative forms, duplicate detection) — *
 
 ### Issues / notes
 - No issues encountered. All domains covered to exact target counts.
+## Session: enricher-lt-40 — 2025-08-02
+
+**Agent role**: Enricher (Lithuanian)
+**Branch**: `vocab/enricher-lt-40`
+**Files modified**: `words_lt_staging.json`
+
+### Work done
+- Preflight JSON on `words_lt_staging.json` — valid (845 stubs available).
+- Enriched **35 Lithuanian stubs** in the health/medicine domain (B1/B2 level). Status → `enriched`.
+- Categories covered:
+  - **Body parts (9)**: kaklas, pečiai, nugara, pėda, skruostas, kakta, smakras, lūpos, ausis
+  - **Medical staff & facilities (12)**: registratūra, registratorė, ligonė, pacientė, Alergologas, alergologė, chirurgė, kardiologė, neurologė, odontologė, psichiatras, šeimos gydytoja, nosies ir gerklės gydytojas
+  - **Conditions & symptoms (5)**: akių uždegimas, ausų uždegimas, peršalimas, apsinuodijimas, čiaudulys
+  - **Medicine & procedures (9)**: vaistai nuo skausmo, vitaminai, gerti vaistus, leisti vaistus, ampulė, tabletė, tirti, matuoti
+
+### Validation
+`validate_words.py --errors-for enriched` → **PASSED** (exit 0). 2030 words valid; 98 pre-existing warnings in approved-status entries only (not introduced by this session).
+
+### Critical-rule compliance
+- All `partOfSpeech` values are from the valid enum (`noun`, `verb`, `phrase`).
+- All `register` values are from the valid enum (`general`, `technical`, `literary`).
+- `translation` filled for all 35 entries (English gloss).
+- Each meaning has `definition`, `example`, `register`, and `tags`.
+- Example sentences are natural Lithuanian, not dictionary boilerplate.
+- Technical register used for medical specialist titles and clinical procedures; `general` for common health vocabulary.
+
+### Decisions & tradeoffs
+- `Alergologas` retained capital A as found in staging (original seeder capitalisation).
+- Entries for female-gendered specialist titles (alergologė, chirurgė, etc.) share the same semantic domain but were enriched as distinct entries with gender-appropriate example sentences.
+- `tirti` and `matuoti` received two meanings each (medical + broader figurative/scientific) to reflect genuine polysemy at B1/B2 level.
 - No merge performed per task instructions.

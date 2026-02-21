@@ -26575,24 +26575,60 @@
   {
     "term": "kaklas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kūno dalis, jungianti galvą su liemeniu.",
+        "example": "Man skauda kaklą po ilgo darbo prie kompiuterio.",
+        "register": "general",
+        "tags": [
+          "body",
+          "anatomy"
+        ]
+      },
+      {
+        "definition": "Perkeltine prasme – pažeidžiama vieta arba sąsiauris.",
+        "example": "Butelio kaklas buvo siauras ir sunkiai atidarytas.",
+        "register": "general",
+        "tags": [
+          "figurative"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "neck"
   },
   {
     "term": "pečiai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kūno dalis ties rankų prisijungimo prie liemens vieta.",
+        "example": "Jis pakėlė pečius, rodydamas, kad nežino atsakymo.",
+        "register": "general",
+        "tags": [
+          "body",
+          "anatomy"
+        ]
+      },
+      {
+        "definition": "Perkeltine prasme – atsakomybės ar naštos nešimas.",
+        "example": "Ant jo pečių gulėjo visa šeimos atsakomybė.",
+        "register": "general",
+        "tags": [
+          "figurative"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "shoulders"
   },
   {
     "term": "krūtinė",
@@ -26715,13 +26751,31 @@
   {
     "term": "nugara",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Užpakalinė kūno dalis nuo pečių iki juosmens.",
+        "example": "Gydytojas patarė mankštintis, kad nebeskaudėtų nugaros.",
+        "register": "general",
+        "tags": [
+          "body",
+          "anatomy"
+        ]
+      },
+      {
+        "definition": "Objekto galinė arba nematoma pusė.",
+        "example": "Jis sėdėjo nugarą atsukęs į duris.",
+        "register": "general",
+        "tags": [
+          "direction"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "back"
   },
   {
     "term": "koja",
@@ -26757,13 +26811,31 @@
   {
     "term": "pėda",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Apatinė kojos dalis, kuria stovime ir einame.",
+        "example": "Po ilgo pasivaikščiojimo skaudo pėdos.",
+        "register": "general",
+        "tags": [
+          "body",
+          "anatomy"
+        ]
+      },
+      {
+        "definition": "Matavimo vienetas, lygus apie 30 cm (paplitęs anglosaksiškuose šalyse).",
+        "example": "Aukštis nurodytas pėdomis ir coliais.",
+        "register": "technical",
+        "tags": [
+          "measurement"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "foot"
   },
   {
     "term": "kūnas",
@@ -26852,13 +26924,23 @@
   {
     "term": "skruostas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Veido šoninė dalis tarp akies ir burnos kampučio.",
+        "example": "Vaikas paraudo skruostais, gėdindamasis prieš klasę.",
+        "register": "general",
+        "tags": [
+          "body",
+          "face"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "cheek"
   },
   {
     "term": "burna",
@@ -26892,13 +26974,23 @@
   {
     "term": "kakta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Viršutinė veido dalis virš akių, žemiau plaukų linijos.",
+        "example": "Mama pridėjo ranką prie vaiko kaktos, norėdama patikrinti, ar nėra karščio.",
+        "register": "general",
+        "tags": [
+          "body",
+          "face"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "forehead"
   },
   {
     "term": "dantis",
@@ -26932,13 +27024,23 @@
   {
     "term": "smakras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Apatinė veido dalis, esanti žemiau burnos.",
+        "example": "Gydytojas paprašė pakelti smakrą, kad galėtų apžiūrėti gerklę.",
+        "register": "general",
+        "tags": [
+          "body",
+          "face"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "chin"
   },
   {
     "term": "veidas",
@@ -27096,13 +27198,31 @@
   {
     "term": "lūpos",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Minkštosios kūno dalys, supančios burnos angą, dalyvaujančios kalboje ir valgyme.",
+        "example": "Sausa oda ant lūpų gali rodyti dehidrataciją.",
+        "register": "general",
+        "tags": [
+          "body",
+          "face"
+        ]
+      },
+      {
+        "definition": "Perkeltine prasme – kalba ar žodžiai.",
+        "example": "Iš jo lūpų nesigirdėjo nė žodžio.",
+        "register": "literary",
+        "tags": [
+          "figurative"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "lips"
   },
   {
     "term": "blakstienos",
@@ -27118,13 +27238,31 @@
   {
     "term": "ausis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Klausos organas, esantis galvos šonuose.",
+        "example": "Vaikui skauda ausį – greičiausiai prasidėjo uždegimas.",
+        "register": "general",
+        "tags": [
+          "body",
+          "anatomy"
+        ]
+      },
+      {
+        "definition": "Sugebėjimas skirti muzikinius tonus ar kalbos niuansus.",
+        "example": "Ji turi gerą ausį muzikai ir greitai išmoksta dainų.",
+        "register": "general",
+        "tags": [
+          "figurative"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "ear"
   },
   {
     "term": "tiesi nosis",
@@ -27475,13 +27613,23 @@
   {
     "term": "registratūra",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Poliklinikos ar ligoninės skyrius, kuriame pacientai registruojami vizitui pas gydytoją.",
+        "example": "Norėdamas patekti pas specialistą, pirmiausia kreipkis į registratūrą.",
+        "register": "general",
+        "tags": [
+          "health",
+          "hospital"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "reception desk"
   },
   {
     "term": "registratorius",
@@ -27497,13 +27645,23 @@
   {
     "term": "registratorė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Moteris, dirbanti medicinos įstaigos registratūroje ir priimanti pacientų vizitų prašymus.",
+        "example": "Registratorė paprašė pateikti draudimo polisą ir užpildyti anketą.",
+        "register": "general",
+        "tags": [
+          "health",
+          "profession"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "receptionist"
   },
   {
     "term": "ligonis",
@@ -27539,13 +27697,23 @@
   {
     "term": "ligonė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Moteris, kuri serga arba gydosi ligoninėje.",
+        "example": "Ligonė trečia savaitė gulėjo ligoninėje po operacijos.",
+        "register": "general",
+        "tags": [
+          "health",
+          "patient"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "sick woman"
   },
   {
     "term": "pacientas",
@@ -27581,13 +27749,23 @@
   {
     "term": "pacientė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Moteris, gaunanti medicininę pagalbą arba gydymąsi iš sveikatos priežiūros specialisto.",
+        "example": "Gydytoja atidžiai išklausė pacientę ir užrašė visus simptomus.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "medicine"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "patient (female)"
   },
   {
     "term": "gulėti ligoninėje",
@@ -27783,24 +27961,46 @@
   {
     "term": "Alergologas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gydytojas, specializuojantis alergijų ir imuninės sistemos sutrikimų diagnostikoje bei gydyme.",
+        "example": "Alergologas paskyrė odos tyrimus, siekdamas nustatyti alergeno rūšį.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "doctor",
+          "specialization"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "allergist"
   },
   {
     "term": "alergologė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gydytoja, specializuojanti alergijų ir imuninės sistemos sutrikimų diagnostikoje bei gydyme.",
+        "example": "Alergologė patarė vengti žiedadulkių pavasarį ir skirti antihistamininius vaistus.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "doctor",
+          "specialization"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "allergist (female)"
   },
   {
     "term": "ausų",
@@ -27817,12 +28017,23 @@
     "term": "nosies ir gerklės gydytojas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gydytojas, specializuojantis ausų, nosies ir gerklės ligų diagnostikoje bei gydyme (otorinolaringologas).",
+        "example": "Nosies ir gerklės gydytojas diagnozavo sinusitą ir paskyrė antibiotikų kursą.",
+        "register": "general",
+        "tags": [
+          "health",
+          "doctor",
+          "ENT"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "ENT doctor"
   },
   {
     "term": "chirurgas",
@@ -27857,13 +28068,24 @@
   {
     "term": "chirurgė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gydytoja, atliekanti chirurgines operacijas.",
+        "example": "Chirurgė sėkmingai atliko sudėtingą pilvo operaciją.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "doctor",
+          "surgery"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "surgeon (female)"
   },
   {
     "term": "dermatologas",
@@ -27939,13 +28161,24 @@
   {
     "term": "kardiologė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gydytoja, specializuojanti širdies ir kraujagyslių ligų diagnostikoje bei gydyme.",
+        "example": "Kardiologė paskyrė EKG tyrimą ir rekomendavo keisti mitybą.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "doctor",
+          "specialization"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "cardiologist (female)"
   },
   {
     "term": "neurologas",
@@ -27980,13 +28213,24 @@
   {
     "term": "neurologė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gydytoja, specializuojanti nervų sistemos ligų diagnostikoje bei gydyme.",
+        "example": "Neurologė paskyrė MRT tyrimą dėl pasikartojančių galvos skausmų.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "doctor",
+          "specialization"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "neurologist (female)"
   },
   {
     "term": "odontologas",
@@ -28022,13 +28266,24 @@
   {
     "term": "odontologė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gydytoja, diagnozuojanti ir gydanti dantų, dantenų bei burnos ligas.",
+        "example": "Odontologė rekomendavo dantis valyti du kartus per dieną ir naudoti siūlą.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "doctor",
+          "dental"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "dentist (female)"
   },
   {
     "term": "oftalmologas",
@@ -28055,13 +28310,24 @@
   {
     "term": "psichiatras",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gydytojas, diagnozuojantis ir gydantis psichikos bei elgesio sutrikimus.",
+        "example": "Psichiatras paskyrė terapijos seansus ir medikamentus nuo depresijos.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "doctor",
+          "mental health"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "psychiatrist"
   },
   {
     "term": "psichiatrė",
@@ -28110,12 +28376,23 @@
     "term": "šeimos gydytoja",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gydytoja, teikianti pirminę sveikatos priežiūrą ir esanti pirmasis kontaktas su sveikatos sistema.",
+        "example": "Šeimos gydytoja išrašė nedarbingumo lapelį ir nukreipė pas kardiologą.",
+        "register": "general",
+        "tags": [
+          "health",
+          "doctor",
+          "primary care"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "family doctor (female)"
   },
   {
     "term": "Širdis",
@@ -28517,23 +28794,45 @@
     "term": "akių uždegimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Akių gleivinės ar vokų uždegimas, pasireiškiantis paraudimu, niežuliu ir ašarojimu.",
+        "example": "Gydytojas paskyrė lašus nuo akių uždegimo, kurį sukėlė bakterinė infekcija.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "illness",
+          "eye"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "eye inflammation"
   },
   {
     "term": "ausų uždegimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ausų kanalo ar vidurinės ausies uždegimas, sukeliantis skausmą ir galintis sutrikdyti klausą.",
+        "example": "Vaikams ausų uždegimas dažnai atsiranda po peršalimo ar anginos.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "illness",
+          "ear"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "ear infection"
   },
   {
     "term": "odos uždegimas",
@@ -28707,12 +29006,23 @@
     "term": "vaistai nuo skausmo",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Vaistai, skirti mažinti ar malšinti skausmą.",
+        "example": "Gydytojas rekomendavo naudoti vaistus nuo skausmo trumpą laiką ir tik reikalui esant.",
+        "register": "general",
+        "tags": [
+          "health",
+          "medicine",
+          "treatment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "painkillers"
   },
   {
     "term": "antibiotikai",
@@ -28746,24 +29056,46 @@
   {
     "term": "vitaminai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Organiniai junginiai, reikalingi normaliam organizmo funkcionavimui, gaunami su maistu ar papildais.",
+        "example": "Gydytojas patarė žiemą vartoti vitamino D papildus dėl jo stokos.",
+        "register": "general",
+        "tags": [
+          "health",
+          "nutrition",
+          "medicine"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "vitamins"
   },
   {
     "term": "gerti vaistus",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Vartoti vaistus per burną pagal gydytojo paskyrimus.",
+        "example": "Labai svarbu gerti vaistus nustatytomis valandomis ir nepraleisti dozių.",
+        "register": "general",
+        "tags": [
+          "health",
+          "medicine",
+          "treatment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to take medicine"
   },
   {
     "term": "vartoti",
@@ -28780,12 +29112,23 @@
     "term": "leisti vaistus",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Suleisti vaistus į organizmą injekcijos būdu – į veną, raumenį ar po oda.",
+        "example": "Slaugytoja turėjo leisti vaistus du kartus per dieną tiesiai į veną.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "medicine",
+          "treatment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to administer injection"
   },
   {
     "term": "tabletės",
@@ -28913,13 +29256,24 @@
   {
     "term": "ampulė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Nedidelis hermetiškas stiklo indas, skirtas skystoms vaistų formoms laikyti ir vartoti.",
+        "example": "Gydytojas paskyrė injekcijas, kurių kiekvienai naudojama atskira ampulė.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "medicine",
+          "equipment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "ampoule"
   },
   {
     "term": "tvarstis",
@@ -29047,12 +29401,30 @@
     "term": "matuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Nustatyti dydį, kiekį ar intensyvumą naudojant matavimo prietaisus.",
+        "example": "Slaugytoja matuoja paciento kraujospūdį kas valandą.",
+        "register": "general",
+        "tags": [
+          "health",
+          "procedure"
+        ]
+      },
+      {
+        "definition": "Perkeltine prasme – vertinti ar lyginti pagal tam tikrus standartus.",
+        "example": "Sunku matuoti žmogaus sveikatą vien tik skaičiais.",
+        "register": "general",
+        "tags": [
+          "figurative"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to measure"
   },
   {
     "term": "kraujospūdis",
@@ -29130,12 +29502,31 @@
     "term": "tirti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Atlikti medicininius tyrimus ar apžiūrą, siekiant nustatyti diagnozę ar sveikatos būklę.",
+        "example": "Gydytojas nusprendė tirti pacientą išsamesniais laboratoriniais tyrimais.",
+        "register": "general",
+        "tags": [
+          "health",
+          "medical procedure"
+        ]
+      },
+      {
+        "definition": "Moksliškai analizuoti ar nagrinėti faktus ar reiškinius.",
+        "example": "Mokslininkai tiria naujų vaistų poveikį žmogaus organizmui.",
+        "register": "technical",
+        "tags": [
+          "science",
+          "research"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to examine"
   },
   {
     "term": "apsinuodyti",
@@ -39449,10 +39840,22 @@
   },
   {
     "term": "čiaudulys",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "sneezing",
+    "meanings": [
+      {
+        "definition": "Staigus oro išpūtimas per nosį ir burną kaip refleksas į nosies gleivinės dirginimą.",
+        "example": "Dažnas čiaudulys pavasarį dažniausiai yra alergijos žiedadulkėms požymis.",
+        "register": "general",
+        "tags": [
+          "health",
+          "symptom"
+        ]
+      }
+    ]
   },
   {
     "term": "vaistininkas",
@@ -39495,10 +39898,22 @@
   },
   {
     "term": "tabletė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "tablet",
+    "meanings": [
+      {
+        "definition": "Kieta, supresuota vaistų forma, skirta vartoti per burną.",
+        "example": "Gydytojas paskyrė po dvi tabletes ryte ir vakare po valgio.",
+        "register": "general",
+        "tags": [
+          "health",
+          "medicine"
+        ]
+      }
+    ]
   },
   {
     "term": "gipsas",
@@ -39562,17 +39977,43 @@
   },
   {
     "term": "peršalimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "cold",
+    "meanings": [
+      {
+        "definition": "Viršutinių kvėpavimo takų virusinis susirgimas, pasireiškiantis sloga, kosuliu ir silpnumu.",
+        "example": "Žiemą susirgau peršalimu ir savaitę negalėjau eiti į darbą.",
+        "register": "general",
+        "tags": [
+          "health",
+          "illness",
+          "respiratory"
+        ]
+      }
+    ]
   },
   {
     "term": "apsinuodijimas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "poisoning",
+    "meanings": [
+      {
+        "definition": "Organizmo sutrikimas, atsiradęs patekus nuodingoms ar kenksmingoms medžiagoms.",
+        "example": "Maisto produktų apsinuodijimas sukėlė pykinimą, vėmimą ir skrandžio skausmą.",
+        "register": "general",
+        "tags": [
+          "health",
+          "illness",
+          "emergency"
+        ]
+      }
+    ]
   },
   {
     "term": "sumušimas",
