@@ -1393,3 +1393,53 @@ Each entry received: `partOfSpeech`, `translation`, `meanings` (definition + Lit
 
 ### Validator result
 `validate_words.py --errors-for enriched` → **PASSED** — 1960 entries, 10 pre-existing warnings (approved status, outside scope), 0 errors ✓
+
+---
+
+## Retro — vocab/qa-18 (QA review batch 18)
+
+**Date:** 2025-07-18
+**Branch:** vocab/qa-18
+**Commit:** 2828cbe
+
+### Scope
+Full QA pass on all 35 EN and 35 LT entries carrying `status: "relations-added"`.
+
+### Decisions — EN (words_staging.json)
+
+| Result | Count | Terms |
+|--------|-------|-------|
+| approved | 29 | solfatara, phreatomagmatic, lapilli, drumlin, esker, subglacial, isoseismal, microseism, albedo, aquifer, benthic, biogeochemistry, edaphic, evapotranspiration, geoengineering, leachate, limnology, pedogenesis, thermocline, agglomeration, brownfield, cadastral, densification + modularity/overconfidence/quasirationality/dielectric/perovskite/plasticity (stale qaNotes cleared) |
+| enriched | 6 | periglacial, nunatak, denitrification, ecotone, methanogenesis, riparian |
+
+**Enriched rationale:**
+- `periglacial`: synonym `paraglacial` rejected — the two terms describe distinct geomorphological regimes (frost-dominated current margins vs. post-glacial adjustment); they are related, not synonymous.
+- `nunatak`: synonym `rock outcrop` too generic — any exposed rock qualifies, while a nunatak specifically protrudes above surrounding glacial ice.
+- `denitrification`: synonym `nitrogen mineralisation` is factually wrong — mineralisation converts organic N → NH₄⁺, a separate nitrogen-cycle step from denitrification (NO₃⁻ → N₂/N₂O).
+- `ecotone`: antonym `climax community` rejected — a climax community is a successional endpoint concept, not the spatial opposite of a transition zone.
+- `methanogenesis`: synonym `archaeal methanogenesis` is self-referential (contains the headword itself).
+- `riparian`: antonym `terrestrial` rejected — riparian zones are themselves terrestrial; a proper antonym is `upland` or `aquatic`.
+
+Six entries (modularity, overconfidence, quasirationality, dielectric, perovskite, plasticity) had stale `qaNote` fields from a prior partial pass; those issues were already resolved in the data, so qaNotes were removed and status set to `approved`.
+
+### Decisions — LT (words_lt_staging.json)
+
+| Result | Count | Terms |
+|--------|-------|-------|
+| approved | 28 | po to, vasaris, rugsėjis, atidaryti, uždaryti, tvarkingas, audra, šaltis, žaibas, debesis, rūkas, debesuotas, saulėtas, kuprinė, pieštukas, popieriaus lapas, sąsiuvinis, segtuvas, skaičiuoklė, trintukas, tušinukas, žirklės, liniuotė, rašiklis, pertrauka, direktorius, direktorė, vėjas |
+| enriched | 7 | Platus, Švarus (capitalisation), mėnuo, metai, namas, lietus, sniegas (production duplicates) |
+
+**Enriched rationale:**
+- `Platus` / `Švarus`: headwords incorrectly capitalised — dictionary entries must use lowercase nominative forms (`platus`, `švarus`).
+- `mėnuo`, `metai`, `namas`, `lietus`, `sniegas`: `validate_words.py` confirmed these five terms already exist in the production file (`words_lt.json`); staging duplicates must be resolved before publishing.
+
+### Checks performed
+1. ✅ No self-references in any array (programmatic + manual)
+2. ✅ LT array values: no `-ą` / `-ų` accusative/genitive-plural endings detected
+3. ✅ Synonym semantic accuracy (manual review — 6 EN issues found and flagged)
+4. ✅ No cross-array duplicates (same exact string in synonyms AND relatedTerms etc.)
+5. ✅ POS values: all valid (`noun`, `verb`, `adjective`, `adverb`, `phrase`)
+6. ✅ Register values: all valid (`neutral`, `technical`, `formal`)
+
+### Validator result
+`validate_words.py --staging` executed on both files. Pre-existing errors (prior batches) left untouched. Batch-18 EN entries: **0 new errors**. Batch-18 LT errors: **5 production-duplicate entries flagged as enriched** above.
