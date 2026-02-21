@@ -1200,3 +1200,30 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 
 ### Suggested improvement
 - Relations agents should include a second pass to deduplicate relatedTerms arrays before committing, to avoid simple copy-paste duplicates reaching the QA stage.
+
+## [2025-07-14] [enricher-lt-21] [vocab/enricher-lt-21]
+
+### What went well
+- Preflight JSON validation passed immediately (1960 entries, valid JSON).
+- No sibling branch (vocab/enricher-lt-20) had diverged from main, so no collision avoidance was needed.
+- All 35 target stubs were confirmed as status=="stub" before writing; assertion guards prevented accidental double-enrichment.
+- Validator ran cleanly with exit code 0; all 10 warnings were pre-existing issues in approved/other-status entries outside this batch's scope.
+- Theme was coherent: classroom supplies (pieštukas, sąsiuvinis, tušinukas, trintukas, liniuotė, žirklės, rašiklis, klijai, segtuvas, skaičiuoklė, aplankas, popieriaus lapas), school people and places (kuprinė, pertrauka, direktorius, direktorė, klasė, klasiokas, klasiokė), school activities (pamoka, vadovėlis, pratybos, užduotis, namų darbai, pažymys, egzaminas, kontrolinis, tvarkaraštis), and classroom communication verbs (mokytis, klausytis, piešti, kalbėtis, klausti, atsakyti, paaiškinti).
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Stubs enriched | 35 |
+| Enriched total (file) | 170 |
+| Stubs remaining | 1370 |
+| Validator errors on enriched | 0 |
+| Pre-existing warnings (other statuses) | 10 |
+
+### Issues / notes
+- `Aplankas` term starts with a capital letter (original seeder capitalisation); preserved as-is to match existing convention in the file.
+- `kontrolinis` is used as a noun (the test itself) in Lithuanian school context even though its adjective form also exists; noun POS chosen as most common standalone usage.
+- `bloknōtas` used as synonym for `sąsiuvinis` — the ō diacritic reflects correct Lithuanian borrowing; retained as written.
+- `tvarkaraštis` (timetable) added as 35th term after discovering `skaičiuoklė` was accidentally duplicated in the initial target list.
+
+### Suggested improvement
+- Consider adding a "school" theme filter to the seeder so future enricher agents can more easily locate topically coherent stub clusters without manual keyword scanning.
