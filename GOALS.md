@@ -29,6 +29,14 @@ Add an entry below using this format, then save and commit. The Requirements Age
 
 ### `lt-vocab-app`
 **Status**: `[ ]`
-**Goal**: Add Lithuanian vocabulary learning to the app — users should be able to browse, study, and quiz themselves on basic Lithuanian words alongside English.
-**Notes**: LT is A1/A2 level (basic words). Keep it simple — same quiz/flashcard UI, just filtered by language.
+**Goal**: Build a dual-language vocabulary learning app (extend EN vocab + learn LT from scratch) designed for short 5-minute micro-sessions throughout the day.
+**Notes**:
+- User selects which language to study (EN or LT) at session start
+- Sessions are ~5 minutes each; user does multiple sessions per day
+- Time allocation between languages may be uneven (e.g., 3 EN sessions, 1 LT session) — the app should track per-language progress independently
+- EN goal: expand existing C1+ vocabulary (user already knows English, wants deeper/rarer words)
+- LT goal: learn Lithuanian from scratch (A1/A2 basics first)
+- App should adapt to uneven practice patterns — don't penalize skipping a language for a day
+- Spaced repetition or similar should be per-language, not global
+- Quick session flow: launch → pick language → study/quiz → done in 5 min
 
