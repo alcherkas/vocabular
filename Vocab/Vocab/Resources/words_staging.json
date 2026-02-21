@@ -4124,7 +4124,7 @@
   },
   {
     "term": "genomics",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4143,14 +4143,23 @@
       }
     ],
     "synonyms": [
+      "genetics",
       "genome science",
-      "genome research",
-      "whole-genome study"
+      "genome analysis"
+    ],
+    "antonymTerms": [
+      "phenotypic observation",
+      "non-genetic analysis"
+    ],
+    "relatedTerms": [
+      "genome",
+      "DNA sequencing",
+      "bioinformatics"
     ]
   },
   {
     "term": "adjudication",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4172,11 +4181,20 @@
       "judgment",
       "arbitration",
       "ruling"
+    ],
+    "antonymTerms": [
+      "mediation",
+      "conciliation"
+    ],
+    "relatedTerms": [
+      "litigation",
+      "tribunal",
+      "verdict"
     ]
   },
   {
     "term": "tortfeasor",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4196,13 +4214,22 @@
     ],
     "synonyms": [
       "wrongdoer",
-      "defendant",
-      "liable party"
+      "liable party",
+      "offender"
+    ],
+    "antonymTerms": [
+      "victim",
+      "injured party"
+    ],
+    "relatedTerms": [
+      "tort",
+      "liability",
+      "negligence"
     ]
   },
   {
     "term": "obfuscation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4221,14 +4248,23 @@
       }
     ],
     "synonyms": [
-      "confusion",
       "obscuring",
-      "complication"
+      "confusion",
+      "clouding"
+    ],
+    "antonymTerms": [
+      "clarification",
+      "elucidation"
+    ],
+    "relatedTerms": [
+      "ambiguity",
+      "evasion",
+      "jargon"
     ]
   },
   {
     "term": "derealization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4247,14 +4283,23 @@
       }
     ],
     "synonyms": [
+      "unreality",
+      "dissociative detachment",
+      "perceptual estrangement"
+    ],
+    "antonymTerms": [
+      "groundedness",
+      "presence"
+    ],
+    "relatedTerms": [
       "dissociation",
-      "unreality feeling",
-      "perceptual detachment"
+      "depersonalization",
+      "anxiety"
     ]
   },
   {
     "term": "synecdoche",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4274,13 +4319,22 @@
     ],
     "synonyms": [
       "trope",
-      "figure of substitution",
-      "figurative substitution"
+      "figure of speech",
+      "part-whole substitution"
+    ],
+    "antonymTerms": [
+      "literal expression",
+      "direct naming"
+    ],
+    "relatedTerms": [
+      "metonymy",
+      "metaphor",
+      "rhetoric"
     ]
   },
   {
     "term": "metonymy",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4299,14 +4353,23 @@
       }
     ],
     "synonyms": [
+      "associative substitution",
       "trope",
-      "name substitution",
-      "associative reference"
+      "figure of speech"
+    ],
+    "antonymTerms": [
+      "literal naming",
+      "direct reference"
+    ],
+    "relatedTerms": [
+      "synecdoche",
+      "metaphor",
+      "rhetoric"
     ]
   },
   {
     "term": "anaphora",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4325,14 +4388,23 @@
       }
     ],
     "synonyms": [
+      "epanaphora",
       "initial repetition",
-      "rhetorical repetition",
-      "parallel opening"
+      "opening repetition"
+    ],
+    "antonymTerms": [
+      "epistrophe",
+      "nonrepetition"
+    ],
+    "relatedTerms": [
+      "parallelism",
+      "oratory",
+      "rhetoric"
     ]
   },
   {
     "term": "epistrophe",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4351,14 +4423,23 @@
       }
     ],
     "synonyms": [
-      "ending repetition",
       "epiphora",
+      "ending repetition",
       "terminal repetition"
+    ],
+    "antonymTerms": [
+      "anaphora",
+      "nonrepetition"
+    ],
+    "relatedTerms": [
+      "parallelism",
+      "oratory",
+      "rhetoric"
     ]
   },
   {
     "term": "chiasmus",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4379,12 +4460,21 @@
     "synonyms": [
       "inverted parallelism",
       "crossed structure",
-      "ABBA pattern"
+      "reversed symmetry"
+    ],
+    "antonymTerms": [
+      "linear order",
+      "direct parallelism"
+    ],
+    "relatedTerms": [
+      "antimetabole",
+      "parallelism",
+      "rhetoric"
     ]
   },
   {
     "term": "antimetabole",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4404,13 +4494,22 @@
     ],
     "synonyms": [
       "reversed repetition",
-      "inverted echo",
-      "word-order reversal"
+      "word inversion",
+      "mirrored phrasing"
+    ],
+    "antonymTerms": [
+      "straight order",
+      "nonrepetition"
+    ],
+    "relatedTerms": [
+      "chiasmus",
+      "parallelism",
+      "rhetoric"
     ]
   },
   {
     "term": "asyndeton",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4431,12 +4530,21 @@
     "synonyms": [
       "conjunction omission",
       "compressed listing",
-      "rapid sequencing"
+      "coordination ellipsis"
+    ],
+    "antonymTerms": [
+      "polysyndeton",
+      "conjunction-heavy style"
+    ],
+    "relatedTerms": [
+      "parataxis",
+      "rhetoric",
+      "coordination"
     ]
   },
   {
     "term": "polysyndeton",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4455,14 +4563,23 @@
       }
     ],
     "synonyms": [
-      "conjunction repetition",
-      "extended coordination",
-      "linked phrasing"
+      "repeated conjunctions",
+      "conjunction-heavy style",
+      "serial coordination"
+    ],
+    "antonymTerms": [
+      "asyndeton",
+      "conjunction omission"
+    ],
+    "relatedTerms": [
+      "parataxis",
+      "rhetoric",
+      "emphasis"
     ]
   },
   {
     "term": "litotes",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4482,13 +4599,22 @@
     ],
     "synonyms": [
       "understatement",
-      "negative assertion",
-      "ironic understatement"
+      "ironic understatement",
+      "negated affirmation"
+    ],
+    "antonymTerms": [
+      "hyperbole",
+      "overstatement"
+    ],
+    "relatedTerms": [
+      "irony",
+      "meiosis",
+      "rhetoric"
     ]
   },
   {
     "term": "paralepsis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4508,13 +4634,22 @@
     ],
     "synonyms": [
       "apophasis",
-      "pretense of omission",
-      "rhetorical bypass"
+      "preterition",
+      "feigned omission"
+    ],
+    "antonymTerms": [
+      "direct assertion",
+      "explicit mention"
+    ],
+    "relatedTerms": [
+      "insinuation",
+      "rhetoric",
+      "emphasis"
     ]
   },
   {
     "term": "enthymeme",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4533,14 +4668,23 @@
       }
     ],
     "synonyms": [
+      "rhetorical syllogism",
       "truncated syllogism",
-      "implicit argument",
-      "rhetorical syllogism"
+      "informal syllogism"
+    ],
+    "antonymTerms": [
+      "formal syllogism",
+      "fully stated argument"
+    ],
+    "relatedTerms": [
+      "premise",
+      "logic",
+      "persuasion"
     ]
   },
   {
     "term": "apophasis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4560,13 +4704,22 @@
     ],
     "synonyms": [
       "paralepsis",
-      "feigned omission",
-      "rhetorical denial"
+      "preterition",
+      "feigned denial"
+    ],
+    "antonymTerms": [
+      "direct statement",
+      "explicit declaration"
+    ],
+    "relatedTerms": [
+      "insinuation",
+      "rhetoric",
+      "paralepsis"
     ]
   },
   {
     "term": "pragmatics",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4585,14 +4738,23 @@
       }
     ],
     "synonyms": [
-      "contextual semantics",
-      "language use analysis",
-      "context theory"
+      "contextual linguistics",
+      "language-use theory",
+      "pragmatic analysis"
+    ],
+    "antonymTerms": [
+      "decontextual semantics",
+      "formalism"
+    ],
+    "relatedTerms": [
+      "implicature",
+      "speech acts",
+      "context"
     ]
   },
   {
     "term": "morphosyntax",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4611,14 +4773,23 @@
       }
     ],
     "synonyms": [
-      "grammatical interface",
-      "morphology-syntax interaction",
-      "structural grammar"
+      "morphology-syntax interface",
+      "form-syntax interaction",
+      "grammatical interface"
+    ],
+    "antonymTerms": [
+      "phonology",
+      "lexical semantics"
+    ],
+    "relatedTerms": [
+      "morphology",
+      "syntax",
+      "agreement"
     ]
   },
   {
     "term": "phonotactics",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [
@@ -4638,13 +4809,22 @@
     ],
     "synonyms": [
       "sound-pattern constraints",
-      "phonological sequencing rules",
-      "syllable-structure rules"
+      "phonological sequencing",
+      "syllable constraints"
+    ],
+    "antonymTerms": [
+      "free sound sequencing",
+      "random phoneme order"
+    ],
+    "relatedTerms": [
+      "phonology",
+      "phoneme",
+      "syllable structure"
     ]
   },
   {
     "term": "diglossia",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4655,11 +4835,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "high-low variety split",
+      "functional language split",
+      "dual-variety system"
+    ],
+    "antonymTerms": [
+      "monoglossia",
+      "single-variety usage"
+    ],
+    "relatedTerms": [
+      "sociolinguistics",
+      "language variety",
+      "code-switching"
     ]
   },
   {
     "term": "idiolect",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4670,11 +4864,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "personal dialect",
+      "individual speech pattern",
+      "individual lect"
+    ],
+    "antonymTerms": [
+      "standard dialect",
+      "shared norm"
+    ],
+    "relatedTerms": [
+      "sociolect",
+      "register",
+      "style"
     ]
   },
   {
     "term": "sociolect",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4685,11 +4893,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "social dialect",
+      "group lect",
+      "class dialect"
+    ],
+    "antonymTerms": [
+      "idiolect",
+      "standard language"
+    ],
+    "relatedTerms": [
+      "sociolinguistics",
+      "register",
+      "dialect"
     ]
   },
   {
     "term": "isogloss",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4700,11 +4922,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "dialect boundary",
+      "linguistic boundary",
+      "feature boundary"
+    ],
+    "antonymTerms": [
+      "linguistic continuum",
+      "boundaryless variation"
+    ],
+    "relatedTerms": [
+      "dialectology",
+      "geolinguistics",
+      "language map"
     ]
   },
   {
     "term": "metalanguage",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4715,11 +4951,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "language about language",
+      "analytic terminology",
+      "descriptive vocabulary"
+    ],
+    "antonymTerms": [
+      "object language",
+      "ordinary language"
+    ],
+    "relatedTerms": [
+      "linguistics",
+      "grammar terms",
+      "annotation"
     ]
   },
   {
     "term": "allomorph",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4730,11 +4980,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "morpheme variant",
+      "morph variant",
+      "alternant form"
+    ],
+    "antonymTerms": [
+      "invariant morpheme",
+      "fixed form"
+    ],
+    "relatedTerms": [
+      "morpheme",
+      "morphology",
+      "phonological conditioning"
     ]
   },
   {
     "term": "suppletion",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4745,11 +5009,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "root replacement",
+      "suppletive alternation",
+      "irregular stem substitution"
+    ],
+    "antonymTerms": [
+      "regular inflection",
+      "predictable morphology"
+    ],
+    "relatedTerms": [
+      "inflection",
+      "paradigm",
+      "morphology"
     ]
   },
   {
     "term": "grammaticalization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4760,11 +5038,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "grammatical evolution",
+      "functional shift",
+      "syntacticization"
+    ],
+    "antonymTerms": [
+      "lexicalization",
+      "degrammaticalization"
+    ],
+    "relatedTerms": [
+      "language change",
+      "cliticization",
+      "semantic bleaching"
     ]
   },
   {
     "term": "lexicography",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4775,11 +5067,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "dictionary making",
+      "dictionary compilation",
+      "dictionary science"
+    ],
+    "antonymTerms": [
+      "oral transmission",
+      "undocumented usage"
+    ],
+    "relatedTerms": [
+      "lexicology",
+      "dictionary",
+      "corpus"
     ]
   },
   {
     "term": "onomastics",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4790,11 +5096,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "name studies",
+      "onomatology",
+      "naming science"
+    ],
+    "antonymTerms": [
+      "anonymous usage",
+      "unnamed reference"
+    ],
+    "relatedTerms": [
+      "toponymy",
+      "anthroponymy",
+      "etymology"
     ]
   },
   {
     "term": "oligopsony",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4805,11 +5125,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "few-buyer market",
+      "buyer concentration",
+      "buyer-dominated market"
+    ],
+    "antonymTerms": [
+      "perfect competition",
+      "many-buyer market"
+    ],
+    "relatedTerms": [
+      "monopsony",
+      "oligopoly",
+      "market power"
     ]
   },
   {
     "term": "stagflation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4820,11 +5154,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "inflationary stagnation",
+      "stagnant inflation",
+      "high-inflation slowdown"
+    ],
+    "antonymTerms": [
+      "stable growth",
+      "disinflationary expansion"
+    ],
+    "relatedTerms": [
+      "inflation",
+      "recession",
+      "unemployment"
     ]
   },
   {
     "term": "disinflation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4835,11 +5183,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "slowing inflation",
+      "inflation moderation",
+      "decelerating inflation"
+    ],
+    "antonymTerms": [
+      "reflation",
+      "accelerating inflation"
+    ],
+    "relatedTerms": [
+      "inflation",
+      "monetary policy",
+      "price stability"
     ]
   },
   {
     "term": "seigniorage",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4850,11 +5212,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "money-creation revenue",
+      "currency issuance profit",
+      "minting income"
+    ],
+    "antonymTerms": [
+      "issuance loss",
+      "negative carry"
+    ],
+    "relatedTerms": [
+      "central bank",
+      "fiat money",
+      "inflation tax"
     ]
   },
   {
     "term": "rentier",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4865,6 +5241,20 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "annuitant",
+      "investment income earner",
+      "property-income holder"
+    ],
+    "antonymTerms": [
+      "wage earner",
+      "laborer"
+    ],
+    "relatedTerms": [
+      "passive income",
+      "capital",
+      "property income"
     ]
   },
   {

@@ -699,3 +699,16 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a small helper script to print the next N LT stubs plus neighboring gender-pair terms before enrichment begins.
+## [2026-02-21] [relations-6] [vocab-relations-6]
+
+### What went well
+- Preflight and staged validation checks made it straightforward to update both EN and LT files safely in one pass.
+
+### What was harder than expected
+- Ensuring consistent, non-trivial relation sets across 70 entries required careful term-by-term curation.
+
+### Process friction
+- None this iteration.
+
+### Suggested improvement
+- Add an optional helper script for Relations agents to preselect the next N enriched terms and verify relation-field completeness before commit.
