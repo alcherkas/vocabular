@@ -767,3 +767,55 @@ EN entries also had synonym issues flagged by prior QA notes:
 - LT relation arrays verified: no -ą/-ų endings introduced; all values in nominative dictionary forms.
 - No within-array or cross-array duplicates introduced.
 - No self-referential or headword-token-containing phrases added.
+
+## Session retro — enricher-lt-39 (vocab/enricher-lt-39)
+
+**Date**: 2025-07-24
+**Branch**: `vocab/enricher-lt-39`
+**Agent role**: Enricher
+**Files touched**: `words_lt_staging.json`
+
+### What was done
+- Preflight JSON check passed (2030 entries valid).
+- Added and enriched 35 new Lithuanian technology/computers vocabulary entries at B1/B2 level.
+- All 35 target terms confirmed absent from staging before adding — no collisions.
+- Validated with `validate_words.py --errors-for enriched` → PASSED (exit 0).
+
+### Words enriched by theme
+
+| Theme | Count | Terms |
+|---|---|---|
+| Hardware | 7 | planšetė, išmanusis telefonas, ekranas, klaviatūra, monitorius, spausdintuvas, procesorius |
+| Software | 8 | programa, programinė įranga, operacinė sistema, naršyklė, failas, diegti, atnaujinti, parsisiųsti |
+| Software / files | 1 | išsaugoti |
+| Internet / identity | 6 | Wi-Fi, slaptažodis, vartotojas, prisijungti, naršyti, el. paštas |
+| Networking / infrastructure | 4 | tinklas, serveris, debesija, saugykla |
+| Data / storage | 2 | duomenys, duomenų bazė |
+| Programming | 4 | programavimas, kodas, algoritmas, programuoti |
+| General tech | 3 | technologija, skaitmeninis, virusas |
+| **Total** | **35** | |
+
+### Stats
+
+| Metric | Value |
+|--------|-------|
+| Stubs enriched | 35 |
+| Remaining stubs | 845 |
+| New total entries | 2030 |
+| Validation errors (enriched scope) | 0 |
+| Pre-existing warnings (approved scope) | 98 |
+
+### What went well
+- All 35 target terms confirmed absent from staging before adding — no collisions.
+- Preflight JSON validation passed cleanly before and after edits.
+- Validator passed on first run with exit 0; all new enriched entries are error-free.
+- Thematic coherence strong: hardware terms cross-link (ekranas ↔ monitorius ↔ klaviatūra); internet terms cross-link (internetas ↔ naršyklė ↔ tinklalapis ↔ naršyti); programming terms cross-link (programavimas ↔ kodas ↔ algoritmas ↔ programuoti).
+- Multi-sense entries where warranted: ekranas (display vs. projection screen), programa (software program vs. event schedule), diegti (to install vs. to instil values), atnaujinti (to update software vs. to refresh documents), naršyti (to browse the web vs. to browse a shop), kodas (source code vs. identifier/barcode), technologija (technology in general vs. a specific technology), virusas (computer virus vs. biological virus), tinklas (computer network vs. social/professional network), vartotojas (system user vs. consumer), prisijungti (to log in vs. to join a group), išsaugoti (to save a file vs. to preserve something), saugykla (digital storage vs. physical storage facility).
+- qaNote used throughout for gender variants, genitive forms, loanword notes, and disambiguation.
+
+### Issues / notes
+- Smart-quote characters in Python heredoc caused a syntax error; resolved by writing entries as a separate JSON file.
+- Trimmed initial draft from 41 to exactly 35 entries; removed atsijungti, antivirusinė programa, maršrutizatorius, atsarginė kopija, kietasis diskas, operatyvioji atmintis (most technical/least accessible at B1/B2).
+- `el. paštas` uses POS phrase (multi-word) consistent with file conventions.
+- `Wi-Fi` is indeclinable; noted in qaNote.
+- No merge performed per task instructions.
