@@ -540,3 +540,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Keep enrichment prompt enum lists synchronized with `validate_words.py` to avoid avoidable rework.
+## [2026-02-21] [vocab-relations-2] [relations-2]
+
+### What went well
+- Updated both staging files in one pass and moved exactly 30 enriched entries per file to `relations-added`.
+- Validation passed for all updated `relations-added` entries in EN and LT files.
+
+### What was harder than expected
+- `words_staging.json` had a malformed tail entry that had to be corrected before relation updates/validation.
+
+### Process friction
+- Permission check task IDs are strict; branch/task naming can differ from accepted script IDs.
+
+### Suggested improvement
+- Add branch-name-to-task-id mapping guidance in `docs/VOCAB-AGENT.md` for permission checks.
