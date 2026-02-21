@@ -15667,7 +15667,7 @@
     "term": "grybai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Grybų karalystei priklausantys organizmai; valgomieji grybai renkami miške.",
@@ -15682,14 +15682,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "baravykas",
+      "voveraitė"
+    ],
     "translation": "mushrooms"
   },
   {
     "term": "baravykas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vertingiausias valgomasis grybas su ruda kepure ir balta koteliu.",
@@ -15705,14 +15708,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "grybai",
+      "voveraitė"
+    ],
     "translation": "porcini mushroom"
   },
   {
     "term": "voveraitė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Geltono arba oranžinio atspalvio valgomasis grybas, augantis lapuočių ir spygliuočių miškuose.",
@@ -15728,14 +15734,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "grybai",
+      "baravykas"
+    ],
     "translation": "chanterelle"
   },
   {
     "term": "pievagrybis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dažnas valgomasis grybas, augantis pievose ir atvirose žolėtose vietose.",
@@ -15750,7 +15759,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "grybai",
+      "baravykas"
+    ],
     "translation": "field mushroom"
   },
   {
@@ -22819,7 +22831,7 @@
     "term": "liepa",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Lapuotis medis su širdies formos lapais ir kvapniais gelsvais žiedais.",
@@ -22844,7 +22856,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "medis",
+      "vasara"
+    ],
     "translation": "linden tree"
   },
   {
@@ -25666,7 +25681,7 @@
     "term": "gėlynas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sodo ar parko dalis, skirta gėlėms auginti.",
@@ -25681,7 +25696,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gėlė",
+      "sodas"
+    ],
     "translation": "flower bed"
   },
   {
@@ -29592,7 +29610,7 @@
     "term": "išvaizda",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žmogaus ar daikto išorinis vaizdas, bendras pavidalas, kurį suvokiame vizualiai.",
@@ -29604,9 +29622,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "išorė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "veidas",
+      "bruožai"
+    ],
     "translation": "appearance"
   },
   {
@@ -29884,7 +29907,7 @@
     "term": "veidas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Priekinė galvos dalis su akimis, nosimi, burna ir kitais bruožais.",
@@ -29898,14 +29921,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "galva",
+      "išvaizda"
+    ],
     "translation": "face"
   },
   {
     "term": "apvalus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turintis apvalią formą; apie veidą – švelnių bruožų, be ryškių kampų.",
@@ -29918,15 +29944,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "kampuotas"
+    ],
+    "relatedTerms": [
+      "pailgas"
+    ],
     "translation": "round"
   },
   {
     "term": "pailgas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pailgos ovalios formos; apie veidą – ilgesnis nei platesnis.",
@@ -29940,14 +29970,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "apvalus",
+      "kampuotas"
+    ],
     "translation": "oval, elongated"
   },
   {
     "term": "kampuotas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turintis ryškius, aštrius kampus; apie veidą – išreikštais žandikauliais.",
@@ -29960,15 +29993,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "apvalus"
+    ],
+    "relatedTerms": [
+      "pailgas"
+    ],
     "translation": "angular"
   },
   {
     "term": "strazdanos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Smulkios rusvos dėmelės ant odos, ypač ant veido ir rankų, kurias sukelia melanino perteklius.",
@@ -29983,14 +30020,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "strazdanotas",
+      "oda"
+    ],
     "translation": "freckles"
   },
   {
     "term": "strazdanotas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turintis strazdanų; apibūdinamas smulkiomis rusvomis dėmelėmis ant odos.",
@@ -30004,7 +30044,9 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "strazdanos"
+    ],
     "translation": "freckled"
   },
   {
@@ -30131,7 +30173,7 @@
     "term": "blakstienos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plonos plaukų formos dariniai ant viršutinių ir apatinių vokų kraštų, saugantys akis.",
@@ -30146,7 +30188,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "akis",
+      "antakiai"
+    ],
     "translation": "eyelashes"
   },
   {
@@ -30186,7 +30231,7 @@
     "term": "tiesi nosis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nosis be ryškių išlinkimų, einanti tiesia linija nuo kaktos iki galo.",
@@ -30200,15 +30245,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "riesta nosis"
+    ],
+    "relatedTerms": [
+      "nosis",
+      "kumpa nosis"
+    ],
     "translation": "straight nose"
   },
   {
     "term": "riesta nosis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nosis, kurios galiukas natūraliai paklotas šiek tiek aukštyn.",
@@ -30222,15 +30272,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "tiesi nosis"
+    ],
+    "relatedTerms": [
+      "nosis",
+      "kumpa nosis"
+    ],
     "translation": "turned-up nose"
   },
   {
     "term": "kumpa nosis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nosis su ryškiu išgaubtumu ar lenkimu vidurinėje dalyje.",
@@ -30245,14 +30300,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nosis",
+      "tiesi nosis"
+    ],
     "translation": "hooked nose"
   },
   {
     "term": "banguoti plaukai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plaukai, kurie natūraliai formuoja minkštas, plačias bangas.",
@@ -30265,15 +30323,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "tiesūs plaukai"
+    ],
+    "relatedTerms": [
+      "plaukai",
+      "garbanoti plaukai"
+    ],
     "translation": "wavy hair"
   },
   {
     "term": "garbanoti plaukai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plaukai, susivijantys spiralės ar kilpų forma.",
@@ -30286,15 +30349,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "tiesūs plaukai"
+    ],
+    "relatedTerms": [
+      "plaukai",
+      "banguoti plaukai"
+    ],
     "translation": "curly hair"
   },
   {
     "term": "tiesūs plaukai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plaukai be bangų ar garbanų, krintantys tiesiai žemyn.",
@@ -30307,15 +30375,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "garbanoti plaukai"
+    ],
+    "relatedTerms": [
+      "plaukai",
+      "banguoti plaukai"
+    ],
     "translation": "straight hair"
   },
   {
     "term": "kasa",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plaukai supinti į juostelę susukant tris ar daugiau sruogų.",
@@ -30329,14 +30402,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "plaukai",
+      "šukuosena"
+    ],
     "translation": "braid, plait"
   },
   {
     "term": "kirpčiukai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Trumpi plaukai ant kaktos, paprastai nukirpti tiesiai ties antakiais ar aukščiau.",
@@ -30350,14 +30426,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "plaukai",
+      "šukuosena"
+    ],
     "translation": "bangs, fringe"
   },
   {
     "term": "arklio uodega",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plaukai surišti gumyte į vieną ryšulį galvos gale ar viduryje.",
@@ -30371,14 +30450,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šukuosena",
+      "kasa"
+    ],
     "translation": "ponytail"
   },
   {
     "term": "ežiukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mažas laukinis žinduolis, kūnas padengtas dygiais spygliais.",
@@ -30392,14 +30474,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žinduolis",
+      "spygliai"
+    ],
     "translation": "hedgehog"
   },
   {
     "term": "plikas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Neturintis plaukų ant galvos arba turintis labai mažai.",
@@ -30414,14 +30499,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "plaukai",
+      "nuplikimas"
+    ],
     "translation": "bald"
   },
   {
     "term": "ūsai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plaukai, augantys virš viršutinės lūpos.",
@@ -30436,14 +30524,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "barzda",
+      "plaukai"
+    ],
     "translation": "mustache"
   },
   {
     "term": "barzda",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plaukai, augantys ant smakro, skruostų ir žandų.",
@@ -30458,7 +30549,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ūsai",
+      "plaukai"
+    ],
     "translation": "beard"
   },
   {
@@ -30495,7 +30589,7 @@
     "term": "šukuosena",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plaukų formos, kirpimo ir tvarkymo būdas, atspindintis asmeninį stilių.",
@@ -30509,14 +30603,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "plaukai",
+      "kasa"
+    ],
     "translation": "hairstyle"
   },
   {
     "term": "kuodas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plaukų kuokštas, pakeltas ir surištas ar sukištas ant galvos viršaus.",
@@ -30530,14 +30627,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šukuosena",
+      "kasa"
+    ],
     "translation": "topknot, bun"
   },
   {
     "term": "žilas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turintis pilkų arba baltų plaukų dėl amžiaus ar kitų priežasčių (vyriška forma).",
@@ -30552,14 +30652,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žila",
+      "plaukai"
+    ],
     "translation": "gray-haired"
   },
   {
     "term": "žila",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turintis pilkų arba baltų plaukų (moteriška forma).",
@@ -30574,7 +30677,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žilas",
+      "plaukai"
+    ],
     "translation": "gray-haired (female)"
   },
   {
@@ -31306,7 +31412,7 @@
     "term": "dermatologė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytoja, specializuojanti odos, plaukų ir nagų ligų diagnostikoje ir gydyme.",
@@ -31322,7 +31428,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dermatologas",
+      "gydytoja"
+    ],
     "translation": "dermatologist (female)"
   },
   {
@@ -31498,7 +31607,7 @@
     "term": "oftalmologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytojas, specializuojantis akių ligų diagnostikoje ir gydyme.",
@@ -31514,14 +31623,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "oftalmologė",
+      "akys"
+    ],
     "translation": "ophthalmologist (male)"
   },
   {
     "term": "oftalmologė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytoja, specializuojanti akių ligų diagnostikoje ir gydyme.",
@@ -31537,7 +31649,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "oftalmologas",
+      "akys"
+    ],
     "translation": "ophthalmologist (female)"
   },
   {
@@ -31570,7 +31685,7 @@
     "term": "psichiatrė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytoja, specializuojanti psichikos sutrikimų diagnostikoje ir gydyme.",
@@ -31586,7 +31701,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "psichiatras",
+      "gydytoja"
+    ],
     "translation": "psychiatrist (female)"
   },
   {
