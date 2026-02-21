@@ -1806,3 +1806,44 @@ domains: ethics, sociology, and anthropology.
 - `flaneur` retains the original French accent on final -e as the term
   is used untransliterated in English academic writing.
 - No merge performed per task instructions.
+
+## Session retro — vocab/enricher-lt-33
+
+**Date:** 2025-07-28
+**Branch:** vocab/enricher-lt-33
+**Commit:** 4e5d857
+
+### What was done
+- Preflight JSON validation on `words_lt_staging.json` — 1960 entries, JSON valid, 985 stubs confirmed before enrichment.
+- Identified 38 health/medical/body stubs; selected 35 most linguistically rich B1/B2 targets.
+- Enriched all 35: set `partOfSpeech`, added `meanings` (definition, example, register, tags), `translation` (EN gloss), `synonyms`, `antonymTerms`, `relatedTerms`, `qaNote`.
+- Post-enrichment validation: `validate_words.py --errors-for enriched` → **PASSED** (exit 0); 98 pre-existing warnings on `approved` entries outside scope.
+
+### Term breakdown
+
+| Domain | Terms | Count |
+|--------|-------|-------|
+| Medical facilities | greitoji pagalba, klinika, poliklinika, palata | 4 |
+| Patients / clinical acts | ligonis, pacientas, gulėti ligoninėje, išrašyti receptą | 4 |
+| Medical specialists | chirurgas, kardiologas, neurologas, dermatologas, odontologas | 5 |
+| Anatomy | gerklė, skrandis, kraujas | 3 |
+| Diseases / conditions | angina, gripas, plaučių uždegimas | 3 |
+| Medications | antibiotikai, skiepai, tabletės, tepalas, pleistras, lašai, mikstūra | 7 |
+| Diagnostics | rentgeno nuotrauka | 1 |
+| Symptom verbs | karščiuoti, kosėti, peršalti, skaudėti, užsikrėsti, pasveikti | 6 |
+| Injuries | gipsas, sumušimas | 2 |
+| **Total** | | **35** |
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Stubs enriched | 35 |
+| Remaining stubs | 950 |
+| Validation errors (enriched scope) | 0 |
+| Pre-existing warnings (approved scope) | 98 |
+
+### Issues / notes
+- `plaučių uždegimas` and `rentgeno nuotrauka` use POS `phrase` (multi-word noun phrases); `gulėti ligoninėje` and `išrašyti receptą` similarly use `phrase` (verbal phrases). This is consistent with existing file conventions for multi-word headwords.
+- `angina` in Lithuanian means tonsillitis/strep throat (not cardiac angina); disambiguated in qaNote.
+- `skaudėti` is used impersonally in Lithuanian (`man skauda galvą`) — this grammatical pattern is documented in the qaNote.
+- 3 female specialist forms (`chirurgė`, `neurologė`, `kardiologė`, etc.) remain as stubs; they share their male-form qaNote cross-reference but were not enriched here to stay within the 35-entry limit.
