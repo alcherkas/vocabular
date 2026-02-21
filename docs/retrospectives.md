@@ -953,3 +953,20 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 
 ### Suggested improvement
 - A `genderForm` metadata field (masc/fem) on adjective entries would eliminate the need for gender notes in free-text definitions and simplify downstream QA.
+## [2026-02-22] [relations-10] [vocab/relations-10]
+
+### What went well
+- Preflight JSON validation passed on both files immediately; 330 EN entries and 1960 LT entries parsed cleanly.
+- LT: all 35 target entries had a clean separation — exactly 35 `enriched` entries were missing all three relation fields, making selection unambiguous; synonyms/antonymTerms/relatedTerms added fully in Lithuanian with appropriate semantic coverage across time/frequency adverbs, numerals 0–10, and core family nouns.
+- EN: the 32 `enriched` entries were already fully populated with relations from a prior pass but had not had their status advanced; these were efficiently promoted to `relations-added`. Three `approved` medical-vocabulary entries (iatrogenic, nosocomial, pathognomonic) had synonyms but lacked antonymTerms and relatedTerms — these were completed, bringing the EN batch to exactly 35.
+- POS and register validation passed with zero errors across both files (EN: 70 total `relations-added`; LT: 70 total `relations-added`).
+
+### What was harder than expected
+- Lithuanian numerals (Nulis–dešimt) have very few conventional single-word synonyms; collective/ordinal forms (e.g. "dveji", "treji") and descriptive labels ("dešimtis") were used as the closest equivalents.
+- Lithuanian antonymTerms for numerals required adjacent-number antonyms (n−1, n+1) rather than true semantic opposites, since abstract numeric antonymy is context-dependent.
+
+### Process friction
+- EN `enriched` entries were already complete but status-stale; the preflight analysis step was essential to detect this mismatch before writing incorrect data.
+
+### Suggested improvement
+- Add a CI lint rule that flags entries where all three relation fields are non-empty but `status` is still `enriched` — this would catch status-stale entries before they accumulate across batches.
