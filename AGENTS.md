@@ -767,3 +767,27 @@ EN entries also had synonym issues flagged by prior QA notes:
 - LT relation arrays verified: no -ą/-ų endings introduced; all values in nominative dictionary forms.
 - No within-array or cross-array duplicates introduced.
 - No self-referential or headword-token-containing phrases added.
+
+---
+
+## Retro — enricher-en-28 session (2025-07-26)
+
+**Agent**: enricher-en-28
+**Task**: Enrich 35 EN stubs in rhetoric/argumentation, philosophy of language, and logic/semiotics domains.
+
+### What was done
+- Ran preflight JSON check: `words_staging.json` valid.
+- Found 80 EN stubs remaining in staging.
+- Selected 35 stubs fitting the three target domains:
+  - **Rhetoric/argumentation (16)**: catachresis, diatribe, encomium, epideictic, hendiadys, isocolon, paraenesis, polyptoton, prosopopoeia, sententia, sorites, antistrophe, syllepsis, epicheireme, circumlocution, deixis
+  - **Philosophy of language (13)**: indexicality, entailment, polysemy, parataxis, hypotaxis, ostension, allophone, syntagmatic, paradigmatic, codeswitching, mirativity, felicity, metalinguistic
+  - **Logic/semiotics (6)**: abduction, alethic, doxastic, legisign, rheme, veridiction
+- Each entry given 1–2 genuinely distinct meanings with definition, natural example sentence, correct register, and domain tags.
+- Ran `validate_words.py --errors-for enriched` → **PASSED** (exit 0); 91 pre-existing warnings in `approved`-status entries only, none attributable to this batch.
+- Committed as `vocab(enricher-en-28): enrich 35 English stubs`.
+
+### Observations
+- Terms were primarily drawn from classical rhetoric (epideictic, hendiadys, etc.), Peircean semiotics (legisign, rheme, abduction), and philosophy-of-language pragmatics (deixis, felicity, ostension).
+- `sorites` covered both logic (polysyllogism) and philosophy (vagueness paradox) — two genuine, distinct meanings.
+- `epideictic` and `paradigmatic` each warranted a second meaning covering broader/general usage beyond the technical linguistic sense.
+- 45 EN stubs remain after this session; they span medical (etiological, teratogen, psoriasis…), architecture (oculus, pendentive…), philosophy of mind (qualia, supervenience…), cinema, and complex systems.
