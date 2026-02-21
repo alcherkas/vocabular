@@ -1806,3 +1806,47 @@ domains: ethics, sociology, and anthropology.
 - `flaneur` retains the original French accent on final -e as the term
   is used untransliterated in English academic writing.
 - No merge performed per task instructions.
+
+---
+
+## enricher-en-24 · batch N+1 · 35 geology + architecture + culinary stubs
+
+**Date:** 2025-07-17
+**Branch:** vocab/enricher-en-24
+**Operator:** Copilot
+
+### Scope
+
+| Domain | Count | Terms |
+|---|---|---|
+| Geology | 14 | alluvium, anticline, batholith, diagenesis, diapir, geomorphology, graben, horst, ignimbrite, isostasy, karst, mylonite, orogeny, petrology |
+| Architecture | 11 | apse, balustrade, belvedere, coffering, crenellation, finial, impost, keystone, loggia, lunette, narthex |
+| Culinary | 10 | brunoise, charcuterie, duxelles, nappe, quenelle, salpicon, macedoine, flambe, caramelization, concasse |
+| **Total** | **35** | |
+
+### What went well
+- All 35 target stubs were present in the file; no missing-term errors.
+- Geology entries cross-link tightly (e.g. `anticline`/`diapir`/`orogeny`/`batholith`
+  form a coherent structural-geology cluster; `karst`/`geomorphology`/`alluvium`
+  connect via fluvial and dissolution processes).
+- Architecture terms interlock naturally: `impost`→`keystone`→`voussoir`
+  (arch anatomy); `apse`↔`narthex` as liturgical antonyms; `loggia`/`belvedere`
+  share garden-architecture relatedTerms.
+- Culinary terms share mise-en-place cross-links (`brunoise`, `concasse`,
+  `macedoine`, `salpicon` all reference each other appropriately without
+  duplicating across arrays).
+- Validator passed on first run with exit 0 — no self-references, no
+  cross-array duplicates, all EN entries carry ≥ 2 synonyms.
+- 91 pre-existing warnings on `approved`-status entries remained unchanged;
+  none introduced by this batch.
+
+### Issues / notes
+- `flambe` is entered as a verb (the cooking action); the noun/adjective
+  senses ("flambéed dish") are secondary in professional kitchen usage.
+- `nappe` has a distinct mathematical meaning (cone nappe); the culinary
+  sense (sauce consistency) was chosen to match the surrounding culinary
+  domain cluster.
+- `petrology` and `geomorphology` carry empty antonymTerms arrays — no
+  meaningful antonyms exist for these discipline-names; validator does not
+  require non-empty antonymTerms.
+- No merge performed per task instructions.
