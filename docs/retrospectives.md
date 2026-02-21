@@ -819,3 +819,21 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add an automated check for Lithuanian entries that validates final characters of synonyms/antonymTerms against known declension endings (e.g., masculine nominative -as/-is, feminine -a/-ė) to catch missing diacritics without relying on manual review.
+## [2026-02-21] [enricher-en-11] [vocab/enricher-en-11]
+
+### What went well
+- Preflight JSON validation passed immediately (330 entries, zero parse errors).
+- All 30 EN stubs enriched in a single batch; `validate_words.py --status enriched` passed on the first run (67 enriched entries, 0 errors).
+- Domain coverage was coherent across three tightly themed clusters: architecture (pilaster, buttress, spandrel, mullion, cornice, cupola, cantilever, colonnade), culinary arts (julienne, chiffonade, confit, blanching, emulsification, mirepoix, gastrique, deglazing, tempering, roux, umami), and nautical terminology (starboard, portside, gunwale, scupper, hawser, capstan, keelson, binnacle, mizzenmast, boatswain, freeboard).
+- All entries use `technical` or `general` register appropriate to domain; every entry has ≥3 synonyms, non-trivial antonymTerms, and ≥5 relatedTerms with strong cross-linking within clusters (e.g., roux ↔ béchamel ↔ velouté; capstan ↔ hawser ↔ bollard).
+
+### What was harder than expected
+- Several culinary terms have closely overlapping meanings (julienne vs. chiffonade, deglazing vs. gastrique) requiring careful differentiation to avoid definition repetition.
+- "portside" required a POS decision (adjective rather than noun) to accurately reflect its most common usage as an attributive modifier.
+- 22 pre-existing validation failures in relations-added entries (insufficient synonyms for math/diplomacy terms from relations-8) were present at preflight; confirmed as out-of-scope and not touched.
+
+### Process friction
+- None this iteration; schema, status conventions, and validation tooling were all consistent with prior sessions.
+
+### Suggested improvement
+- Consider adding a cross-cluster link lint step: for culinary terms that reference other culinary terms in `relatedTerms`, a quick check that those terms also exist in the staging file would catch dangling references early.
