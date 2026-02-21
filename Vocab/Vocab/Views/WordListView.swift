@@ -5,7 +5,22 @@ struct WordListView: View {
     @Query(sort: \Word.term) private var words: [Word]
     @State private var searchText = ""
     @State private var selectedFilter: WordFilter = .all
-    
+    @State private var selectedLanguage: LanguageFilter = .all
+
+    enum LanguageFilter: String, CaseIterable {
+        case all = "All"
+        case english = "English"
+        case lithuanian = "Lithuanian"
+
+        var code: String? {
+            switch self {
+            case .all: return nil
+            case .english: return "en"
+            case .lithuanian: return "lt"
+            }
+        }
+    }
+
     enum WordFilter: String, CaseIterable {
         case all = "All"
         case favorites = "Favorites"
@@ -15,6 +30,11 @@ struct WordListView: View {
     
     var filteredWords: [Word] {
         var result = words
+        
+        // Apply language filter
+        if let code = selectedLanguage.code {
+            result = result.filter { $0.language == code }
+        }
         
         // Apply search filter
         if !searchText.isEmpty {
@@ -42,6 +62,16 @@ struct WordListView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 0) {
+                // Language filter
+                Picker("Language", selection: $selectedLanguage) {
+                    ForEach(LanguageFilter.allCases, id: \.self) { lang in
+                        Text(lang.rawValue).tag(lang)
+                    }
+                }
+                .pickerStyle(.segmented)
+                .padding(.horizontal)
+                .padding(.top, 8)
+
                 // Filter pills
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 8) {

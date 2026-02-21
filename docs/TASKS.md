@@ -193,7 +193,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 ---
 
 ### `lt-ui-filter`
-**Status**: `[ ]`
+**Status**: `[done]`
 **Risk**: `low`
 **Complexity**: `low`
 **Description**: Add language filter to `WordListView` so user can browse EN or LT words separately.
