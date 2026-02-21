@@ -3303,3 +3303,26 @@ JSON preflight passed. 705 stubs available before session.
 ### Doubts / meta-notes
 - Confidence: 94%. Some EN synonyms for very domain-specific film/architecture terms are descriptive near-equivalents rather than fully established co-extensive technical terms (e.g. `Doric square`/`frieze panel` for `metope`; `channeling`/`cannelure` for `fluting`). QA should verify these.
 - `spectacle` antonym `narrative` is context-specific (Mulvey's film theory dichotomy), not a general-language antonym; this is correctly scoped to the defined sense.
+## Relations Agent — 2025-07-26 — vocab/relations-36
+
+**Agent role**: Relations Agent
+**Branch**: `vocab/relations-36`
+
+### What was done
+- Preflighted both `words_staging.json` and `words_lt_staging.json` — both valid JSON.
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to 35 EN entries (game theory, philosophy of mind, cognitive psychology clusters) and 35 LT entries (banking/finance and visual arts clusters), setting each to `status: relations-added`.
+- Fixed capitalisation on 1 LT term: `Tapyti` → `tapyti`.
+- Fixed one validator error post-initial-run: `priming` relatedTerms had `associative priming` and `repetition priming` which contain the headword as a word token; replaced with `spreading activation`, `schema activation`, `semantic memory`.
+
+### Semantic quality decisions
+- **EN synonyms**: ≥2 per entry as required. For game-theory phrases (dominant strategy, payoff matrix, etc.) synonyms were kept narrow: e.g. `dominant choice`/`dominant action`; `outcome matrix`/`reward matrix`; `Schelling point`/`salient option` for `focal point`. For philosophy-of-mind terms: `token physicalism`/`token materialism` (token identity); `attribute dualism`/`emergent property view` (property dualism); `p-zombie`/`functional zombie` (philosophical zombie). For cognitive-psychology terms: `active memory`/`immediate memory` (working memory); `cognitive control`/`executive control` (executive function); `dual-system theory`/`two-system theory` (dual-process theory).
+- **Antonyms**: Direct semantic opposites only — `dominated strategy` (dominant strategy); `pure strategy` (mixed strategy); `Pareto suboptimality` (pareto optimality); `monism` (dualism); `type identity` (multiple realizability); `long-term memory` (working memory); `cognitive ease` (cognitive load); `reductive materialism` (property dualism); `single-process theory` (dual-process theory); `abstract cognition` (embodied cognition); `positive-sum` (zero-sum); `unconsciousness` (consciousness). Entries with no clear direct antonym received `antonymTerms: []`. Negation-prefix forms (`non-X`, `un-X`) were avoided except `unconsciousness` which is an independent established medical term.
+- **Hypernym avoidance**: `speech act` and `social dilemma` were placed in `relatedTerms` (not synonyms) for `prisoner's dilemma` because they are broader categories. `allocative efficiency` placed in `relatedTerms` (not synonyms) for `pareto optimality`.
+- **LT relations**: 0–2 synonyms per entry per rubric. Gendered pairs (grafikas/grafikė, skulptorius/skulptorė, tapytojas/tapytoja) cross-reference each other in `relatedTerms`. All relation values are nominative — no `-ą` or `-ų` endings. Verbs use infinitive form. Mutual synonyms: `derėtis`↔`tartis`.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for relations-added` passed for both EN and LT staging files with 0 errors in the `relations-added` batch (pre-existing warnings in `approved` entries are unrelated to this batch).
+
+### Doubts / meta-notes
+- Confidence: 95%. Most EN synonym choices are well-established in the literature. A few are descriptive near-equivalents for highly technical entries (e.g. `consciousness gap` alongside `explanatory gap` for `hard problem`; `rationalizable play`/`rationalizable choice` for `rationalizability`). QA should verify these.
+- LT `baigtis` is tagged as `noun` with translation "outcome" but the Lithuanian infinitive form is identical to the noun. Treated as noun per the existing enriched entry.
