@@ -535,3 +535,49 @@ LT minimum synonym count is 0; additions were quality-driven, not validation-dri
 - Food domain terms (entries 0–34 of LT enriched) rarely have true single-word synonyms; synonym arrays were populated only where a genuine alternative exists.
 - Genitive-modified compound relatedTerms (e.g. "pomidorų padažas") whose last word ends in -s technically pass the validator's `endswith(-ų)` check, but violate the user's "no -ą/-ų endings" rule — these were fixed regardless.
 - EN `parsec` has no antonyms (it is a physical unit); antonymTerms left as `[]`, which is valid.
+
+---
+
+## Session retro — vocab/relations-27
+
+**Date:** 2025-07-27
+**Branch:** vocab/relations-27
+**Commit:** affabbd
+
+### Task
+Promote 35 enriched → relations-added per file (words_staging.json, words_lt_staging.json).
+
+### Preflight
+EN staging file obtained from unmerged `vocab/enricher-en-26` branch (35 new enriched entries in cognitive linguistics, information theory, and systems/complexity science domains). Both files passed preflight JSON parse. Pre-existing errors confined to `approved`-status entries — one pre-existing error in `relations-added` status (`prescriptivism`) was also fixed.
+
+### EN — 35 entries promoted
+Batch: embodiment, construal, schematization, entrenchment, trajector, profiling, grounding, prototype, schema, categorization (cognitive linguistics); entropy, compressibility, ergodicity, equivocation, transinformation, perplexity, tokenization, codebook, losslessness, stochasticity (information theory); homeostasis, autopoiesis, equifinality, morphogenesis, attractor, bifurcation, perturbation, synergy, emergence, holism, reductionism, feedforward, teleonomy, fractal, criticality (systems/complexity science).
+
+All 35 entries received full `synonyms` (≥2), `antonymTerms` (empty where no true antonym exists), and `relatedTerms` (≥4 entries each).
+
+**Pre-existing error fixed (relations-added scope):**
+- `prescriptivism`: "universal prescriptivism" self-referential token in synonyms → replaced with "universal imperativism"
+
+### LT — 35 entries promoted
+Batch: medical vocabulary (gulėti ligoninėje, sveikatos draudimas, išrašyti receptą, chirurgas, dermatologas, kardiologas, neurologas, odontologas, gerklė, skrandis, kraujas, angina, gripas, plaučių uždegimas, antibiotikai, tabletės, lašai, mikstūra, tepalas, pleistras, skiepai, rentgeno nuotrauka, karščiuoti, kosėti, peršalti, skaudėti, užsikrėsti, pasveikti) and office/tech terms (Aplankas, kompiuteris, elektroninis laiškas, elektroninis paštas, Skyrius, atostogos, išsilavinimas).
+
+**Violations fixed before promotion:**
+
+| Entry | Issue | Fix |
+|---|---|---|
+| `elektroninis laiškas` | "el. laiškas" (syn), "popierinis laiškas" (ant) contained token "laiškas"; "elektroninis paštas" (rel) contained token "elektroninis" | All three removed; clean relations set |
+| `elektroninis paštas` | "el. paštas" (syn) contained token "paštas"; "tradicinis paštas" (ant) contained token "paštas"; "elektroninis laiškas" (rel) contained token "elektroninis" | All three removed; clean relations set |
+| `kompiuteris` | "skaičiuotuvas" in synonyms — historically incorrect (now means "calculator") per qa-20 qaNote | Removed; synonyms set to [] |
+| `atostogos` | "poilsis" in synonyms — inaccurate (means "rest", not "leave") per qa-20 qaNote | Removed; synonyms set to [] |
+
+### Validation
+`validate_words.py --errors-for relations-added` → **PASSED** on both files (exit 0).
+- EN: 830 words valid; pre-existing warnings in approved-status entries only.
+- LT: 1960 words valid; pre-existing warnings in approved-status entries only.
+
+### Notes
+- EN staging file was sourced from the unmerged `vocab/enricher-en-26` branch via `git checkout vocab/enricher-en-26 -- words_staging.json` since that branch (35 new enriched entries) had not yet been merged into main at the time this session started. The "No merge" instruction refers to not merging this relations branch into main, not to cherry-picking source material.
+- All 35 EN new entries had empty synonyms/antonymTerms/relatedTerms arrays from the enricher; all were fully populated here.
+- LT medical domain entries rarely have true single-word synonyms (e.g. chirurgas, dermatologas, kardiologas, neurologas, skrandis, kraujas, antibiotikai, lašai, kosėti, peršalti); synonyms left as [] where no genuine alternative exists. LT has no minimum synonym count.
+- "nervų sistema" in neurologas relatedTerms contains genitive "nervų" (-ų in non-final position); this is pre-existing and passes the validator's endswith(-ų) check; left as-is per scope boundaries.
+- All newly added LT relation values are in nominative dictionary form; no -ą/-ų endings introduced.
