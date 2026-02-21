@@ -2990,3 +2990,32 @@ Enriched 35 English stubs from `words_staging.json` in a single commit. Two them
 
 ### Preflight note
 Script was initially run from `/tmp` rather than the project root; the file was overwritten correctly on the second execution from the correct working directory. No data loss occurred.
+## Session retro — enricher-lt-43 (vocab/enricher-lt-43)
+
+**Date**: 2025-07-17
+**Agent**: Enricher (Copilot)
+**Branch**: vocab/enricher-lt-43
+**Commit**: 9ec4af2
+
+### Work done
+- Preflight JSON check passed: 2030 entries, 740 stubs available.
+- Identified and enriched **35 stubs** focused on shopping and money vocabulary (B1/B2 level): stores, prices, payment, banking, budget, spending.
+- All 35 entries: `partOfSpeech` filled, `translation` (EN gloss) added, `meanings[]` populated with `definition`, `example`, `register`, `tags`. `status` set to `enriched`.
+
+### Terms enriched
+brangus, pigus, mokėti, siūlyti, užsisakyti, sąskaita, nuolaidų kortelė, grynieji, arbatpinigiai, pirkėjas, grąža, grąžinti, pasimatuoti, parodyti, tikti, patarti, dydis, madingas, Krepšys, piniginė, portfelis, rankinė, Banknotas, čekis, pinigai, skola, atiduoti, keisti, skolinti, skolintis, derėtis, leisti, nuspręsti, auksas, sidabras.
+
+### Validation
+`validate_words.py --errors-for enriched` → **PASSED** (exit 0).
+- 2030 words validated; 98 pre-existing warnings in `approved`-status entries only; zero errors in enriched batch.
+
+### Decisions & tradeoffs
+- `mokėti` given two senses: financial payment (primary) and ability/skill — genuinely polysemous in Lithuanian.
+- `leisti` given two senses: to spend (money/budget) and to permit — both B1/B2 usages common in shopping/retail context.
+- `keisti` given two senses: currency exchange and item exchange/return — both relevant to shopping/banking.
+- `portfelis` given two senses: physical briefcase (banking visit context) and financial portfolio — both B2 usages.
+- `čekis` given two senses: bank cheque and store receipt (kasos čekis) — standard polysemy for this term.
+- `nuspręsti` included as decision-making is central to shopping (choosing payment method, product selection).
+- `auksas`/`sidabras` included as both are relevant to jewelry shopping and investment/banking at B2 level.
+- `pasimatuoti`, `tikti`, `patarti`, `parodyti`, `dydis`, `madingas` grouped under clothing store context — core B1 shopping scenario.
+- Krepšys (capitalized in source data): enriched as shopping/carrier bag — primary sense for shopping context.
