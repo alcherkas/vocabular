@@ -20945,7 +20945,7 @@
     ],
     "synonyms": [
       "Hare's metaethics",
-      "universal prescriptivism"
+      "universal imperativism"
     ],
     "antonymTerms": [
       "descriptivism",
@@ -23280,6 +23280,7 @@
     "term": "embodiment",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23292,12 +23293,28 @@
           "embodied-cognition"
         ]
       }
+    ],
+    "synonyms": [
+      "sensorimotor grounding",
+      "bodily cognition"
+    ],
+    "antonymTerms": [
+      "abstract symbolism",
+      "disembodied cognition"
+    ],
+    "relatedTerms": [
+      "phenomenology",
+      "construal",
+      "image schema",
+      "affordance",
+      "perception"
     ]
   },
   {
     "term": "construal",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23309,12 +23326,25 @@
           "semantics"
         ]
       }
+    ],
+    "synonyms": [
+      "mental framing",
+      "conceptual structuring"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "figure-ground",
+      "profiling",
+      "perspective",
+      "salience",
+      "trajector"
     ]
   },
   {
     "term": "schematization",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23326,12 +23356,25 @@
           "cognitive-science"
         ]
       }
+    ],
+    "synonyms": [
+      "pattern abstraction",
+      "schema induction"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "schema",
+      "prototype",
+      "categorization",
+      "entrenchment",
+      "abstraction"
     ]
   },
   {
     "term": "entrenchment",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23343,12 +23386,27 @@
           "usage-based-theory"
         ]
       }
+    ],
+    "synonyms": [
+      "cognitive routinization",
+      "mental automatization"
+    ],
+    "antonymTerms": [
+      "deautomatization"
+    ],
+    "relatedTerms": [
+      "frequency",
+      "schematization",
+      "conventionalization",
+      "usage-based theory",
+      "activation"
     ]
   },
   {
     "term": "trajector",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23360,12 +23418,26 @@
           "cognitive-grammar"
         ]
       }
+    ],
+    "synonyms": [
+      "figure",
+      "primary focus"
+    ],
+    "antonymTerms": [
+      "landmark"
+    ],
+    "relatedTerms": [
+      "profiling",
+      "construal",
+      "figure-ground",
+      "relational profile"
     ]
   },
   {
     "term": "profiling",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23377,12 +23449,25 @@
           "cognitive-grammar"
         ]
       }
+    ],
+    "synonyms": [
+      "conceptual highlighting",
+      "domain selection"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "construal",
+      "trajector",
+      "schema",
+      "salience",
+      "base"
     ]
   },
   {
     "term": "grounding",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23394,12 +23479,25 @@
           "cognitive-grammar"
         ]
       }
+    ],
+    "synonyms": [
+      "contextual anchoring",
+      "situational anchoring"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "reference",
+      "deixis",
+      "indexicality",
+      "construal",
+      "embodiment"
     ]
   },
   {
     "term": "prototype",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23411,12 +23509,27 @@
           "categorization"
         ]
       }
+    ],
+    "synonyms": [
+      "best exemplar",
+      "central instance"
+    ],
+    "antonymTerms": [
+      "peripheral member"
+    ],
+    "relatedTerms": [
+      "categorization",
+      "schema",
+      "typicality effect",
+      "radial category",
+      "family resemblance"
     ]
   },
   {
     "term": "schema",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23428,12 +23541,25 @@
           "cognitive-science"
         ]
       }
+    ],
+    "synonyms": [
+      "mental template",
+      "cognitive frame"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "schematization",
+      "categorization",
+      "mental model",
+      "script",
+      "embodiment"
     ]
   },
   {
     "term": "categorization",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23445,12 +23571,25 @@
           "cognitive-science"
         ]
       }
+    ],
+    "synonyms": [
+      "conceptual grouping",
+      "category formation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "prototype",
+      "schema",
+      "basic-level category",
+      "family resemblance",
+      "taxonomy"
     ]
   },
   {
     "term": "entropy",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23463,12 +23602,28 @@
           "statistics"
         ]
       }
+    ],
+    "synonyms": [
+      "information uncertainty",
+      "Shannon measure"
+    ],
+    "antonymTerms": [
+      "negentropy",
+      "syntropy"
+    ],
+    "relatedTerms": [
+      "information theory",
+      "uncertainty",
+      "compression",
+      "channel capacity",
+      "mutual information"
     ]
   },
   {
     "term": "compressibility",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23480,12 +23635,27 @@
           "data-compression"
         ]
       }
+    ],
+    "synonyms": [
+      "data reducibility",
+      "coding efficiency"
+    ],
+    "antonymTerms": [
+      "incompressibility"
+    ],
+    "relatedTerms": [
+      "entropy",
+      "losslessness",
+      "redundancy",
+      "information density",
+      "Kolmogorov complexity"
     ]
   },
   {
     "term": "ergodicity",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23498,12 +23668,27 @@
           "stochastic-processes"
         ]
       }
+    ],
+    "synonyms": [
+      "stochastic stationarity",
+      "time-space equivalence"
+    ],
+    "antonymTerms": [
+      "non-ergodicity"
+    ],
+    "relatedTerms": [
+      "stochasticity",
+      "Markov process",
+      "time average",
+      "ensemble average",
+      "statistical mechanics"
     ]
   },
   {
     "term": "equivocation",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23524,12 +23709,25 @@
           "logic"
         ]
       }
+    ],
+    "synonyms": [
+      "conditional entropy",
+      "channel noise measure"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mutual information",
+      "channel capacity",
+      "transinformation",
+      "noise",
+      "Shannon limit"
     ]
   },
   {
     "term": "transinformation",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23541,12 +23739,25 @@
           "channel-theory"
         ]
       }
+    ],
+    "synonyms": [
+      "mutual information",
+      "information gain"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "equivocation",
+      "channel capacity",
+      "joint entropy",
+      "Kullback-Leibler divergence",
+      "redundancy"
     ]
   },
   {
     "term": "perplexity",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23567,12 +23778,25 @@
           "general"
         ]
       }
+    ],
+    "synonyms": [
+      "prediction difficulty",
+      "cross-entropy exponent"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "entropy",
+      "language model",
+      "cross-entropy",
+      "probability distribution",
+      "token prediction"
     ]
   },
   {
     "term": "tokenization",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23585,12 +23809,27 @@
           "computational-linguistics"
         ]
       }
+    ],
+    "synonyms": [
+      "text segmentation",
+      "lexical decomposition"
+    ],
+    "antonymTerms": [
+      "detokenization"
+    ],
+    "relatedTerms": [
+      "token",
+      "vocabulary",
+      "subword segmentation",
+      "byte pair encoding",
+      "word embedding"
     ]
   },
   {
     "term": "codebook",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23603,12 +23842,25 @@
           "coding-theory"
         ]
       }
+    ],
+    "synonyms": [
+      "code table",
+      "encoding dictionary"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "encoding",
+      "decoding",
+      "entropy",
+      "Huffman coding",
+      "compression algorithm"
     ]
   },
   {
     "term": "losslessness",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23620,12 +23872,28 @@
           "data-compression"
         ]
       }
+    ],
+    "synonyms": [
+      "perfect fidelity",
+      "exact data preservation"
+    ],
+    "antonymTerms": [
+      "lossy compression",
+      "information loss"
+    ],
+    "relatedTerms": [
+      "compression",
+      "entropy",
+      "compressibility",
+      "Huffman coding",
+      "reversibility"
     ]
   },
   {
     "term": "stochasticity",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23638,12 +23906,28 @@
           "systems-theory"
         ]
       }
+    ],
+    "synonyms": [
+      "randomness",
+      "probabilistic variation"
+    ],
+    "antonymTerms": [
+      "determinism",
+      "deterministic behavior"
+    ],
+    "relatedTerms": [
+      "probability",
+      "ergodicity",
+      "entropy",
+      "Markov chain",
+      "variance"
     ]
   },
   {
     "term": "homeostasis",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23656,12 +23940,28 @@
           "cybernetics"
         ]
       }
+    ],
+    "synonyms": [
+      "self-regulation",
+      "dynamic equilibrium"
+    ],
+    "antonymTerms": [
+      "dysregulation",
+      "disequilibrium"
+    ],
+    "relatedTerms": [
+      "feedback",
+      "attractor",
+      "autopoiesis",
+      "stability",
+      "adaptation"
     ]
   },
   {
     "term": "autopoiesis",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23674,12 +23974,27 @@
           "complexity-science"
         ]
       }
+    ],
+    "synonyms": [
+      "self-production",
+      "organizational closure"
+    ],
+    "antonymTerms": [
+      "allopoiesis"
+    ],
+    "relatedTerms": [
+      "homeostasis",
+      "emergence",
+      "self-organization",
+      "living systems",
+      "structural coupling"
     ]
   },
   {
     "term": "equifinality",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23691,12 +24006,27 @@
           "complexity-science"
         ]
       }
+    ],
+    "synonyms": [
+      "goal convergence",
+      "path-independent outcome"
+    ],
+    "antonymTerms": [
+      "multifinality"
+    ],
+    "relatedTerms": [
+      "systems theory",
+      "attractor",
+      "homeostasis",
+      "open systems",
+      "von Bertalanffy"
     ]
   },
   {
     "term": "morphogenesis",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23709,12 +24039,25 @@
           "complexity-science"
         ]
       }
+    ],
+    "synonyms": [
+      "form generation",
+      "pattern formation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Turing instability",
+      "emergence",
+      "differentiation",
+      "developmental biology",
+      "self-organization"
     ]
   },
   {
     "term": "attractor",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23727,12 +24070,27 @@
           "chaos-theory"
         ]
       }
+    ],
+    "synonyms": [
+      "stable equilibrium state",
+      "dynamical basin"
+    ],
+    "antonymTerms": [
+      "repeller"
+    ],
+    "relatedTerms": [
+      "bifurcation",
+      "chaos theory",
+      "phase space",
+      "limit cycle",
+      "basin of attraction"
     ]
   },
   {
     "term": "bifurcation",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23745,12 +24103,25 @@
           "complexity-science"
         ]
       }
+    ],
+    "synonyms": [
+      "critical transition",
+      "dynamical branch point"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "chaos theory",
+      "attractor",
+      "criticality",
+      "nonlinear dynamics",
+      "tipping point"
     ]
   },
   {
     "term": "perturbation",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23763,6 +24134,21 @@
           "applied-mathematics"
         ]
       }
+    ],
+    "synonyms": [
+      "disturbance",
+      "system displacement"
+    ],
+    "antonymTerms": [
+      "equilibrium",
+      "stability"
+    ],
+    "relatedTerms": [
+      "attractor",
+      "chaos theory",
+      "sensitivity",
+      "robustness",
+      "homeostasis"
     ]
   },
   {
@@ -23774,6 +24160,7 @@
     "term": "synergy",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23785,12 +24172,28 @@
           "complexity-science"
         ]
       }
+    ],
+    "synonyms": [
+      "cooperative interaction",
+      "emergent gain"
+    ],
+    "antonymTerms": [
+      "antagonism",
+      "interference effect"
+    ],
+    "relatedTerms": [
+      "emergence",
+      "holism",
+      "collective effect",
+      "complementarity",
+      "amplification"
     ]
   },
   {
     "term": "emergence",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23803,12 +24206,27 @@
           "philosophy-of-mind"
         ]
       }
+    ],
+    "synonyms": [
+      "emergent property",
+      "self-organization"
+    ],
+    "antonymTerms": [
+      "reductionism"
+    ],
+    "relatedTerms": [
+      "autopoiesis",
+      "complexity",
+      "holism",
+      "synergy",
+      "nonlinear dynamics"
     ]
   },
   {
     "term": "holism",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23820,12 +24238,28 @@
           "philosophy-of-science"
         ]
       }
+    ],
+    "synonyms": [
+      "systems thinking",
+      "integrative worldview"
+    ],
+    "antonymTerms": [
+      "reductionism",
+      "atomism"
+    ],
+    "relatedTerms": [
+      "emergence",
+      "synergy",
+      "gestalt",
+      "complexity theory",
+      "organicism"
     ]
   },
   {
     "term": "reductionism",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23837,12 +24271,28 @@
           "systems-theory"
         ]
       }
+    ],
+    "synonyms": [
+      "analytic decomposition",
+      "mechanistic analysis"
+    ],
+    "antonymTerms": [
+      "holism",
+      "emergentism"
+    ],
+    "relatedTerms": [
+      "atomism",
+      "emergence",
+      "eliminativism",
+      "physicalism",
+      "bottom-up causation"
     ]
   },
   {
     "term": "feedforward",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23855,12 +24305,27 @@
           "neuroscience"
         ]
       }
+    ],
+    "synonyms": [
+      "anticipatory control",
+      "predictive regulation"
+    ],
+    "antonymTerms": [
+      "feedback"
+    ],
+    "relatedTerms": [
+      "homeostasis",
+      "control theory",
+      "prediction",
+      "motor control",
+      "open-loop control"
     ]
   },
   {
     "term": "teleonomy",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23873,12 +24338,27 @@
           "philosophy-of-science"
         ]
       }
+    ],
+    "synonyms": [
+      "adaptive purposiveness",
+      "evolutionary directionality"
+    ],
+    "antonymTerms": [
+      "teleology"
+    ],
+    "relatedTerms": [
+      "natural selection",
+      "adaptation",
+      "functional organization",
+      "evolutionary purpose",
+      "fitness"
     ]
   },
   {
     "term": "fractal",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23890,6 +24370,18 @@
           "mathematics"
         ]
       }
+    ],
+    "synonyms": [
+      "self-similar structure",
+      "scaling geometry"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "chaos theory",
+      "Hausdorff dimension",
+      "self-similarity",
+      "bifurcation",
+      "Mandelbrot set"
     ]
   },
   {
@@ -23901,6 +24393,7 @@
     "term": "criticality",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23913,6 +24406,18 @@
           "systems-theory"
         ]
       }
+    ],
+    "synonyms": [
+      "critical point",
+      "phase boundary state"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bifurcation",
+      "phase transition",
+      "power law",
+      "scale invariance",
+      "tipping point"
     ]
   },
   {
