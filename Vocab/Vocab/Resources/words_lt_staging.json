@@ -34250,7 +34250,7 @@
     "term": "čekis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Banko rašytinis nurodymas sumokėti nurodytą sumą nurodytam asmeniui",
@@ -34273,9 +34273,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kvitas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sąskaita",
+      "mokėjimas"
+    ],
     "translation": "cheque"
   },
   {
@@ -34421,7 +34426,7 @@
     "term": "pinigai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mainų ir mokėjimo priemonė, naudojama prekėms ir paslaugoms įsigyti",
@@ -34444,16 +34449,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "lėšos"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sąskaita",
+      "mokestis",
+      "skola"
+    ],
     "translation": "money"
   },
   {
     "term": "skola",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Suma pinigų, kurią reikia grąžinti asmeniui ar institucijai",
@@ -34475,9 +34486,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "įsiskolinimas"
+    ],
+    "antonymTerms": [
+      "turtas"
+    ],
+    "relatedTerms": [
+      "paskola",
+      "kreditas",
+      "palūkanos"
+    ],
     "translation": "debt"
   },
   {
@@ -34511,7 +34530,7 @@
     "term": "atiduoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Grąžinti; perduoti atgal tai, kas buvo pasiskolinta ar paimta",
@@ -34533,16 +34552,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "grąžinti"
+    ],
+    "antonymTerms": [
+      "paimti"
+    ],
+    "relatedTerms": [
+      "skolintis",
+      "grąžinimas"
+    ],
     "translation": "to give back"
   },
   {
     "term": "keisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Valiutos keitimas; konvertuoti vieną valiutą į kitą",
@@ -34564,16 +34590,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "mainyti"
+    ],
+    "antonymTerms": [
+      "išlaikyti"
+    ],
+    "relatedTerms": [
+      "valiuta",
+      "keitykla"
+    ],
     "translation": "to exchange"
   },
   {
     "term": "skolinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Suteikti pinigus ar daiktą laikinai naudotis su sąlyga grąžinti",
@@ -34586,16 +34619,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "paskolinti"
+    ],
+    "antonymTerms": [
+      "skolintis"
+    ],
+    "relatedTerms": [
+      "paskola",
+      "grąžinti",
+      "palūkanos"
+    ],
     "translation": "to lend"
   },
   {
     "term": "skolintis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Paimti pinigus ar daiktus laikinai naudotis, įsipareigojant grąžinti",
@@ -34608,9 +34649,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pasiskolinti"
+    ],
+    "antonymTerms": [
+      "skolinti"
+    ],
+    "relatedTerms": [
+      "paskola",
+      "skola",
+      "grąžinti"
+    ],
     "translation": "to borrow"
   },
   {
@@ -34688,7 +34737,7 @@
     "term": "baigtis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Proceso, projekto ar veiklos galutinis rezultatas ar pabaigos momentas.",
@@ -34701,9 +34750,16 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pabaiga"
+    ],
+    "antonymTerms": [
+      "pradžia"
+    ],
+    "relatedTerms": [
+      "rezultatas",
+      "išvada"
+    ],
     "translation": "outcome"
   },
   {
@@ -34742,7 +34798,7 @@
     "term": "derėtis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tartis dėl kainos ar sąlygų, siekiant geresnio sandorio",
@@ -34765,9 +34821,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tartis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sandoris",
+      "sutartis",
+      "kompromisas"
+    ],
     "translation": "to bargain"
   },
   {
@@ -34831,7 +34893,7 @@
     "term": "priimti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Oficialiai patvirtinti asmens priėmimą į darbą ar organizaciją; įdarbinti.",
@@ -34854,16 +34916,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "įdarbinti"
+    ],
+    "antonymTerms": [
+      "atleisti"
+    ],
+    "relatedTerms": [
+      "darbuotojas",
+      "sutartis",
+      "interviu"
+    ],
     "translation": "to hire"
   },
   {
     "term": "ruoštis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atlikti reikiamus paruošiamuosius veiksmus prieš svarbų įvykį, egzaminą ar darbo pokalbį.",
@@ -34876,9 +34946,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pasirengti"
+    ],
+    "antonymTerms": [
+      "atsipalaiduoti"
+    ],
+    "relatedTerms": [
+      "planavimas",
+      "mokymas",
+      "egzaminas"
+    ],
     "translation": "to prepare"
   },
   {
@@ -34917,7 +34995,7 @@
     "term": "tartis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Derėtis arba konsultuotis su kitu asmeniu siekiant susitarimo dėl sąlygų ar sprendimo.",
@@ -34930,9 +35008,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "derėtis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "susitarimas",
+      "derybos",
+      "sandoris"
+    ],
     "translation": "to negotiate"
   },
   {
@@ -34968,7 +35052,7 @@
     "term": "trukti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Užimti tam tikrą laiko tarpą; tęstis nurodytą laikotarpį.",
@@ -34981,9 +35065,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "tęstis"
+    ],
+    "antonymTerms": [
+      "sustoti"
+    ],
+    "relatedTerms": [
+      "laikas",
+      "trukmė",
+      "procesas"
+    ],
     "translation": "to last"
   },
   {
@@ -35684,7 +35776,7 @@
     "term": "leisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Išleisti pinigus pirkimams ar išlaidoms padengti",
@@ -35706,9 +35798,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "išleisti"
+    ],
+    "antonymTerms": [
+      "taupyti"
+    ],
+    "relatedTerms": [
+      "biudžetas",
+      "pinigai",
+      "leidimas"
+    ],
     "translation": "to spend"
   },
   {
@@ -35726,7 +35826,7 @@
     "term": "nuspręsti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Priimti sprendimą; pasirinkti iš alternatyvų",
@@ -35739,16 +35839,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "apsispręsti"
+    ],
+    "antonymTerms": [
+      "svyruoti"
+    ],
+    "relatedTerms": [
+      "sprendimas",
+      "pasirinkimas",
+      "alternatyva"
+    ],
     "translation": "to decide"
   },
   {
     "term": "sumanyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sugalvoti ir planuoti ką nors daryti; sukurti idėją ar strategiją.",
@@ -35761,9 +35869,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sugalvoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "planas",
+      "strategija",
+      "kūrybiškumas"
+    ],
     "translation": "to devise"
   },
   {
@@ -35800,7 +35914,7 @@
     "term": "sodyba",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kaimo vietovėje esantis sodybos pastatas su kiemu ir žeme, dažnai siūlantis kaimo turizmo paslaugas.",
@@ -35825,7 +35939,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ūkis",
+      "kaimas",
+      "namas"
+    ],
     "translation": "rural homestead, countryside estate"
   },
   {
@@ -36389,7 +36507,7 @@
     "term": "bagažas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kelionei parengti daiktai, supakuoti į lagaminą ar krepšį.",
@@ -36414,14 +36532,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lagaminas",
+      "kuprinė",
+      "kelionė"
+    ],
     "translation": "luggage, baggage"
   },
   {
     "term": "lagaminas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kietas arba minkštas dėklas su rankenėle, skirtas kelioniniams daiktams laikyti ir vežti.",
@@ -36445,7 +36567,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "bagažas",
+      "kuprinė",
+      "kelionė"
+    ],
     "translation": "suitcase"
   },
   {
@@ -36789,7 +36915,7 @@
     "term": "žygis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A long walk through nature, especially in hills or forests, usually for recreation.",
@@ -36803,15 +36929,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "kelionė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "išvyka",
-      "maršrutas",
+      "kelionė",
       "gamta",
-      "poilsis"
+      "turizmas"
     ],
     "translation": "hike, trek",
     "qaNote": "Synonym 'kelionė' (journey/trip) is a hypernym of 'žygis' (hike/trek/campaign): 'kelionė' covers any journey while 'žygis' specifically implies physical effort or an organised march. Replace with a closer near-synonym or use an empty synonyms array."
@@ -38207,7 +38330,7 @@
     "term": "grupė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Keli žmonės, dirbantys kartu ar susivieniję bendram tikslui; komanda.",
@@ -38220,9 +38343,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "komanda"
+    ],
+    "antonymTerms": [
+      "individas"
+    ],
+    "relatedTerms": [
+      "narys",
+      "kolektyvas",
+      "organizacija"
+    ],
     "translation": "group"
   },
   {
@@ -38650,7 +38781,7 @@
     "term": "vaidinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To portray a character in a theatrical performance, film, or other dramatic production.",
@@ -38665,14 +38796,14 @@
       }
     ],
     "synonyms": [
-      "atlikti vaidmenį"
+      "atlikti",
+      "inscenizuoti"
     ],
     "antonymTerms": [],
     "relatedTerms": [
+      "teatras",
       "vaidmuo",
-      "spektaklis",
-      "aktorius",
-      "scena"
+      "scenarijus"
     ],
     "translation": "to act, to perform, to play (a role)",
     "qaNote": "Imperfective verb. Infinitive: vaidinti. Related noun: vaidyba (acting)."
@@ -38681,7 +38812,7 @@
     "term": "dailė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The visual arts including painting, sculpture, and drawing, especially as a subject of study or cultural practice.",
@@ -38696,14 +38827,13 @@
       }
     ],
     "synonyms": [
-      "vaizduojamoji dailė"
+      "vaizduojamasis menas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "tapyba",
       "skulptūra",
-      "grafika",
-      "paroda"
+      "grafika"
     ],
     "translation": "fine arts, visual arts",
     "qaNote": "Nominative singular: dailė. Broad term for visual arts; 'vaizduojamoji dailė' is the more precise term."
@@ -38712,7 +38842,7 @@
     "term": "grafika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A branch of the visual arts involving the creation of images using drawing, engraving, or printmaking techniques.",
@@ -38730,9 +38860,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "dailė",
-      "tapyba",
-      "kūrinys",
-      "paroda"
+      "iliustracija",
+      "dizainas"
     ],
     "translation": "graphic art, graphics",
     "qaNote": "Nominative singular: grafika. Can also mean computer graphics in technical contexts."
@@ -38741,7 +38870,7 @@
     "term": "grafikas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male artist who specialises in graphic art, illustration, or visual design.",
@@ -38759,9 +38888,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "grafikė",
-      "grafika",
       "dailininkas",
-      "dailė"
+      "dizaineris"
     ],
     "translation": "graphic artist (male), graphic designer (male)",
     "qaNote": "Masculine form. Feminine: grafikė. Nominative singular: grafikas. Note: 'grafikas' also means 'schedule/timetable' — context distinguishes."
@@ -38770,7 +38898,7 @@
     "term": "grafikė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female artist who specialises in graphic art, illustration, or visual design.",
@@ -38788,9 +38916,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "grafikas",
-      "grafika",
       "dailininkė",
-      "dailė"
+      "dizainerė"
     ],
     "translation": "graphic artist (female), graphic designer (female)",
     "qaNote": "Feminine form of grafikas (artist sense). Nominative singular: grafikė."
@@ -38799,7 +38926,7 @@
     "term": "kūrinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An artistic or literary work produced by an author, composer, or artist.",
@@ -38818,10 +38945,9 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "kurti",
       "autorius",
-      "paroda",
-      "tapyba"
+      "kūryba",
+      "menas"
     ],
     "translation": "work (of art or literature), creation",
     "qaNote": "Nominative singular: kūrinys. Used for works of art, music, and literature."
@@ -38830,7 +38956,7 @@
     "term": "paroda",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A public display of artworks, artefacts, or products arranged for people to view.",
@@ -38850,9 +38976,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "galerija",
-      "kūrinys",
-      "skulptūra",
-      "tapyba"
+      "muziejus",
+      "dailė"
     ],
     "translation": "exhibition, show, exposition",
     "qaNote": "Nominative singular: paroda. Common in cultural contexts; also used for trade fairs."
@@ -38861,7 +38986,7 @@
     "term": "skulptorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male artist who creates sculptures by carving, modelling, or assembling materials.",
@@ -38879,9 +39004,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "skulptorė",
-      "skulptūra",
-      "dailė",
-      "kūrinys"
+      "dailininkas",
+      "skulptūra"
     ],
     "translation": "sculptor (male)",
     "qaNote": "Masculine form. Feminine: skulptorė. Nominative singular: skulptorius."
@@ -38890,7 +39014,7 @@
     "term": "skulptorė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female artist who creates sculptures by carving, modelling, or assembling materials.",
@@ -38908,9 +39032,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "skulptorius",
-      "skulptūra",
-      "dailė",
-      "kūrinys"
+      "dailininkė",
+      "skulptūra"
     ],
     "translation": "sculptor (female)",
     "qaNote": "Feminine form of skulptorius. Nominative singular: skulptorė."
@@ -38919,7 +39042,7 @@
     "term": "skulptūra",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A three-dimensional work of art created by carving stone or wood, moulding clay, or assembling materials.",
@@ -38933,15 +39056,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "statula"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "skulptorius",
-      "dailė",
-      "paroda",
-      "kūrinys"
+      "tapyba",
+      "dailė"
     ],
     "translation": "sculpture",
     "qaNote": "Nominative singular: skulptūra. 'Statula' is more specific (freestanding statue)."
@@ -38950,7 +39070,7 @@
     "term": "tapyba",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The art of applying paint to a surface to create images or decorative works.",
@@ -38968,9 +39088,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "tapytojas",
-      "Tapyti",
       "dailė",
-      "paveikslai"
+      "dažai"
     ],
     "translation": "painting (the art of)",
     "qaNote": "Nominative singular: tapyba. Refers to the art form, not a single painting (which is 'paveikslas')."
@@ -38979,7 +39098,7 @@
     "term": "tapytojas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male artist who creates paintings using paint on canvas, paper, or other surfaces.",
@@ -38998,7 +39117,6 @@
     "relatedTerms": [
       "tapytoja",
       "tapyba",
-      "Tapyti",
       "dailininkas"
     ],
     "translation": "painter (male artist)",
@@ -39008,7 +39126,7 @@
     "term": "tapytoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female artist who creates paintings using paint on canvas, paper, or other surfaces.",
@@ -39027,17 +39145,16 @@
     "relatedTerms": [
       "tapytojas",
       "tapyba",
-      "Tapyti",
       "dailininkė"
     ],
     "translation": "painter (female artist)",
     "qaNote": "Feminine form of tapytojas. Nominative singular: tapytoja."
   },
   {
-    "term": "Tapyti",
+    "term": "tapyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To create an image or picture by applying paint to a surface using brushes or other tools.",
@@ -39051,15 +39168,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "dažyti"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "tapyba",
       "tapytojas",
-      "dailė",
-      "kūrinys"
+      "piešti"
     ],
     "translation": "to paint (art)",
     "qaNote": "Imperfective verb. Infinitive: tapyti. Note: heading uses capital T by convention in this file. 'dažyti' is more 'to paint/colour' (walls etc.), 'tapyti' is specifically artistic painting."

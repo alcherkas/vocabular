@@ -30987,7 +30987,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A strategy that yields a player a weakly or strictly higher payoff than any other available strategy, regardless of the strategies chosen by all other players.",
@@ -31000,6 +31000,18 @@
           "strategy"
         ]
       }
+    ],
+    "synonyms": [
+      "dominant choice",
+      "dominant action"
+    ],
+    "antonymTerms": [
+      "dominated strategy"
+    ],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "payoff matrix",
+      "rationalizability"
     ]
   },
   {
@@ -31007,7 +31019,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In game theory (also called a Schelling point), a strategy or outcome that stands out as an obvious or natural choice enabling players to coordinate without communication, through shared expectations or cultural salience.",
@@ -31030,6 +31042,16 @@
           "interior design"
         ]
       }
+    ],
+    "synonyms": [
+      "Schelling point",
+      "salient option"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "coordination game",
+      "common knowledge",
+      "salience"
     ]
   },
   {
@@ -31037,7 +31059,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A strategy in which a player randomises over their available pure strategies according to a specified probability distribution, preventing opponents from exploiting any predictable pattern of behaviour.",
@@ -31050,6 +31072,18 @@
           "strategy"
         ]
       }
+    ],
+    "synonyms": [
+      "randomised strategy",
+      "probabilistic strategy"
+    ],
+    "antonymTerms": [
+      "pure strategy"
+    ],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "expected payoff",
+      "game theory"
     ]
   },
   {
@@ -31057,7 +31091,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A state of resource allocation or strategic outcome in which no reallocation can improve the welfare of any one individual without reducing the welfare of at least one other, representing a standard of allocative efficiency.",
@@ -31070,6 +31104,18 @@
           "efficiency"
         ]
       }
+    ],
+    "synonyms": [
+      "Pareto efficiency",
+      "Pareto optimal state"
+    ],
+    "antonymTerms": [
+      "Pareto suboptimality"
+    ],
+    "relatedTerms": [
+      "deadweight loss",
+      "social welfare",
+      "allocative efficiency"
     ]
   },
   {
@@ -31077,7 +31123,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A tabular representation used in game theory in which rows correspond to one player's strategies, columns to another's, and each cell displays the payoffs received by all players from that particular combination of choices.",
@@ -31090,6 +31136,16 @@
           "matrix"
         ]
       }
+    ],
+    "synonyms": [
+      "outcome matrix",
+      "reward matrix"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "payoff function",
+      "strategy profile",
+      "normal form game"
     ]
   },
   {
@@ -31097,7 +31153,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A canonical two-player game in which each player's individually rational dominant strategy is to defect, producing an outcome inferior for both compared with mutual cooperation, illustrating the tension between individual and collective rationality.",
@@ -31110,6 +31166,16 @@
           "cooperation"
         ]
       }
+    ],
+    "synonyms": [
+      "cooperation dilemma",
+      "defection game"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dominant strategy",
+      "Nash equilibrium",
+      "social dilemma"
     ]
   },
   {
@@ -31117,7 +31183,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A solution concept in game theory according to which a strategy is rationalizable if it survives iterated elimination of strictly dominated strategies, representing the minimal requirement of common knowledge of rationality.",
@@ -31130,6 +31196,16 @@
           "rationality"
         ]
       }
+    ],
+    "synonyms": [
+      "rationalizable play",
+      "rationalizable choice"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "iterated dominance",
+      "Nash equilibrium",
+      "game theory"
     ]
   },
   {
@@ -31137,7 +31213,7 @@
     "language": "en",
     "partOfSpeech": "adjective",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Describing a game or interaction in which the total payoff to all participants is constant, so that any gain achieved by one player is exactly offset by an equivalent loss to another.",
@@ -31160,6 +31236,18 @@
           "rhetoric"
         ]
       }
+    ],
+    "synonyms": [
+      "constant-sum",
+      "fixed-sum"
+    ],
+    "antonymTerms": [
+      "positive-sum"
+    ],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "payoff matrix",
+      "prisoner's dilemma"
     ]
   },
   {
@@ -31167,7 +31255,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The state of being aware of and able to think about one's own existence, thoughts, and surroundings; subjective, phenomenal experience.",
@@ -31189,9 +31277,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "awareness",
+      "sentience"
+    ],
+    "antonymTerms": [
+      "unconsciousness"
+    ],
+    "relatedTerms": [
+      "qualia",
+      "phenomenal experience",
+      "self-awareness"
+    ],
     "translation": null
   },
   {
@@ -31199,7 +31296,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The philosophical thesis that mind and body are fundamentally distinct kinds of substance or property, neither reducible to the other.",
@@ -31221,9 +31318,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "two-substance doctrine",
+      "dichotomism"
+    ],
+    "antonymTerms": [
+      "monism"
+    ],
+    "relatedTerms": [
+      "physicalism",
+      "idealism",
+      "interactionism"
+    ],
     "translation": null
   },
   {
@@ -31231,7 +31337,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A theory of consciousness holding that a mental state is conscious only when it is represented by a higher-order mental state — a thought or perception directed at that state.",
@@ -31243,9 +31349,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "HOT theory",
+      "higher-order thought theory"
+    ],
+    "antonymTerms": [
+      "first-order theory"
+    ],
+    "relatedTerms": [
+      "consciousness",
+      "higher-order representation",
+      "introspection"
+    ],
     "translation": null
   },
   {
@@ -31253,7 +31368,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The everyday practice of explaining and predicting behavior by attributing mental states such as beliefs, desires, and intentions to agents; the commonsense theory of mind.",
@@ -31266,9 +31381,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "commonsense psychology",
+      "belief-desire psychology"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "eliminative materialism",
+      "propositional attitude",
+      "intentional stance"
+    ],
     "translation": null
   },
   {
@@ -31276,7 +31398,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mental state constituted by an agent's bearing a specific attitude (belief, desire, fear, hope) toward a proposition; the basic unit of folk-psychological explanation.",
@@ -31289,9 +31411,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "intentional mental state",
+      "attitudinal state"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "belief",
+      "desire",
+      "folk psychology"
+    ],
     "translation": null
   },
   {
@@ -31299,7 +31428,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The philosophical problem of how mental states — characterized by their content or phenomenal quality — can cause physical events, given that physics appears causally closed.",
@@ -31312,9 +31441,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "psychophysical causation",
+      "mind-body causation"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "epiphenomenalism",
+      "dualism",
+      "physicalism"
+    ],
     "translation": null
   },
   {
@@ -31322,7 +31458,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The view that each particular instance (token) of a mental event is identical to some particular physical event in the brain, without claiming that the corresponding types must be identical.",
@@ -31335,9 +31471,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "token physicalism",
+      "token materialism"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "type identity",
+      "multiple realizability",
+      "physicalism"
+    ],
     "translation": null
   },
   {
@@ -31345,7 +31488,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The thesis that mental state types are identical to brain state types; every instance of a given mental state kind corresponds to a specific physical state kind.",
@@ -31357,9 +31500,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "type physicalism",
+      "type materialism"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "token identity",
+      "multiple realizability",
+      "physicalism"
+    ],
     "translation": null
   },
   {
@@ -31367,7 +31517,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The property of a mental state or functional kind that can be physically instantiated by a variety of different underlying substrates across species or systems.",
@@ -31380,9 +31530,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "multiple realisability",
+      "functional multiplicity"
+    ],
+    "antonymTerms": [
+      "type identity"
+    ],
+    "relatedTerms": [
+      "functionalism",
+      "physicalism",
+      "token identity"
+    ],
     "translation": null
   },
   {
@@ -31390,7 +31549,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A thought-experiment concept designating a being physically and behaviorally identical to a conscious human but entirely lacking inner subjective experience or qualia.",
@@ -31403,9 +31562,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "p-zombie",
+      "functional zombie"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "consciousness",
+      "qualia",
+      "hard problem"
+    ],
     "translation": null
   },
   {
@@ -31413,7 +31579,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A thought-experiment scenario in which a functional duplicate of a conscious being has absolutely no phenomenal experience — the lights are on functionally but nobody is home experientially.",
@@ -31426,9 +31592,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "phenomenal blindness",
+      "experiential absence"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "inverted qualia",
+      "qualia",
+      "philosophical zombie"
+    ],
     "translation": null
   },
   {
@@ -31436,7 +31609,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A thought-experiment scenario in which the phenomenal character of experiences (e.g., color sensations) is systematically reversed between individuals while their functional roles remain identical.",
@@ -31449,9 +31622,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "spectral inversion",
+      "qualia inversion"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "absent qualia",
+      "qualia",
+      "colour inversion"
+    ],
     "translation": null
   },
   {
@@ -31459,7 +31639,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "David Chalmers's term for the explanatory gap between physical or functional accounts of the brain and the fact that there is subjective, phenomenal experience at all — the question of why there is 'something it is like' to be a conscious being.",
@@ -31471,9 +31651,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "explanatory gap",
+      "consciousness gap"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "consciousness",
+      "qualia",
+      "physicalism"
+    ],
     "translation": null
   },
   {
@@ -31481,7 +31668,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The radical physicalist view that the ontology of folk psychology — beliefs, desires, qualia — consists of theoretical fictions that will eventually be replaced or eliminated by a mature neuroscientific theory.",
@@ -31494,9 +31681,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "eliminativism",
+      "eliminative physicalism"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "folk psychology",
+      "physicalism",
+      "neuroscience"
+    ],
     "translation": null
   },
   {
@@ -31504,7 +31698,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The view that while there is only one kind of substance (physical), mental properties are ontologically distinct from and irreducible to physical properties.",
@@ -31517,9 +31711,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "attribute dualism",
+      "emergent property view"
+    ],
+    "antonymTerms": [
+      "reductive materialism"
+    ],
+    "relatedTerms": [
+      "substance dualism",
+      "supervenience",
+      "epiphenomenalism"
+    ],
     "translation": null
   },
   {
@@ -31527,7 +31730,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A limited-capacity cognitive system that temporarily holds and manipulates information needed for ongoing reasoning, comprehension, and goal-directed action.",
@@ -31549,9 +31752,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "active memory",
+      "immediate memory"
+    ],
+    "antonymTerms": [
+      "long-term memory"
+    ],
+    "relatedTerms": [
+      "executive function",
+      "cognitive load",
+      "phonological loop"
+    ],
     "translation": null
   },
   {
@@ -31559,7 +31771,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A cluster of high-level cognitive processes — including planning, cognitive flexibility, inhibitory control, and working memory — that regulate and direct goal-oriented behavior.",
@@ -31572,9 +31784,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "cognitive control",
+      "executive control"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "working memory",
+      "inhibitory control",
+      "planning"
+    ],
     "translation": null
   },
   {
@@ -31582,7 +31801,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The total amount of mental effort imposed on working memory at a given moment; distinguished between intrinsic load (task complexity), extraneous load (poor design), and germane load (schema formation).",
@@ -31595,9 +31814,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "mental load",
+      "cognitive burden"
+    ],
+    "antonymTerms": [
+      "cognitive ease"
+    ],
+    "relatedTerms": [
+      "working memory",
+      "intrinsic load",
+      "germane load"
+    ],
     "translation": null
   },
   {
@@ -31605,7 +31833,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The executive cognitive ability to suppress prepotent responses, irrelevant stimuli, or intrusive thoughts in order to act in accordance with a current goal.",
@@ -31618,9 +31846,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "response inhibition",
+      "cognitive inhibition"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "executive function",
+      "working memory",
+      "impulse control"
+    ],
     "translation": null
   },
   {
@@ -31628,7 +31863,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A memory and perception phenomenon in which prior exposure to a stimulus influences the speed or accuracy of processing a subsequent, related stimulus, typically below the level of conscious awareness.",
@@ -31650,9 +31885,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "perceptual facilitation",
+      "associative facilitation"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "spreading activation",
+      "schema activation",
+      "semantic memory"
+    ],
     "translation": null
   },
   {
@@ -31660,7 +31902,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A systematic, predictable deviation from rationality in judgment or decision-making, arising from the use of mental shortcuts, motivational factors, or limitations of information processing.",
@@ -31673,9 +31915,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "mental bias",
+      "systematic error"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "heuristic",
+      "dual-process theory",
+      "bounded rationality"
+    ],
     "translation": null
   },
   {
@@ -31683,7 +31932,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A theoretical framework proposing that human cognition involves two qualitatively distinct processing modes: System 1 (fast, automatic, associative) and System 2 (slow, deliberate, analytical).",
@@ -31696,9 +31945,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "dual-system theory",
+      "two-system theory"
+    ],
+    "antonymTerms": [
+      "single-process theory"
+    ],
+    "relatedTerms": [
+      "System 1",
+      "System 2",
+      "cognitive bias"
+    ],
     "translation": null
   },
   {
@@ -31706,7 +31964,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A cognitive bias in which decisions and judgments are systematically influenced by how information is presented — as a gain or a loss, as a percentage or a frequency — even when the underlying facts are equivalent.",
@@ -31719,9 +31977,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "framing bias",
+      "presentation effect"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "cognitive bias",
+      "prospect theory",
+      "anchoring"
+    ],
     "translation": null
   },
   {
@@ -31729,7 +31994,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mental shortcut in which the estimated probability or frequency of an event is based on how easily examples come to mind, leading to systematic biases when memorable events are unrepresentative.",
@@ -31742,9 +32007,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "availability bias",
+      "recall heuristic"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "cognitive bias",
+      "representativeness heuristic",
+      "base rate neglect"
+    ],
     "translation": null
   },
   {
@@ -31752,7 +32024,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A cognitive shortcut in which the probability that an instance belongs to a category is judged by how closely it resembles the prototype of that category, often causing neglect of base rates.",
@@ -31765,9 +32037,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "similarity heuristic",
+      "prototype heuristic"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "cognitive bias",
+      "availability heuristic",
+      "base rate fallacy"
+    ],
     "translation": null
   },
   {
@@ -31775,7 +32054,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The theoretical view that cognitive processes are fundamentally shaped by the bodily form, sensorimotor capacities, and physical interactions of an organism with its environment.",
@@ -31788,9 +32067,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "body-based cognition",
+      "embodied mind"
+    ],
+    "antonymTerms": [
+      "abstract cognition"
+    ],
+    "relatedTerms": [
+      "situated cognition",
+      "extended mind",
+      "enactivism"
+    ],
     "translation": null
   },
   {
@@ -31798,7 +32086,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The view that cognitive processes cannot be fully understood in isolation from the specific physical, social, and cultural context in which they are embedded and enacted.",
@@ -31811,9 +32099,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "situated action",
+      "context-dependent cognition"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "embodied cognition",
+      "distributed cognition",
+      "ecological psychology"
+    ],
     "translation": null
   },
   {
