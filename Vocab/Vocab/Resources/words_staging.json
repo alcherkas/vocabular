@@ -23069,32 +23069,109 @@
   {
     "term": "illocution",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The intended communicative act performed in uttering a sentence, such as asserting, promising, requesting, or warning.",
+        "example": "The illocution of 'Can you open the window?' is typically a polite request rather than a genuine inquiry about ability.",
+        "register": "technical",
+        "tags": [
+          "pragmatics",
+          "linguistics",
+          "speech-act theory"
+        ]
+      }
+    ]
   },
   {
     "term": "perlocution",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The actual effect that an utterance has on the listener, such as persuading, startling, or frightening, regardless of the speaker's intention.",
+        "example": "The perlocution of the lawyer's closing argument was to persuade the jury, though not all perlocutionary effects are intentionally produced.",
+        "register": "technical",
+        "tags": [
+          "pragmatics",
+          "linguistics",
+          "speech-act theory"
+        ]
+      }
+    ]
   },
   {
     "term": "locution",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The basic act of uttering a sentence with a definite sense and reference, considered independently of its communicative purpose.",
+        "example": "Austin distinguished the locution of an utterance—its grammatical and semantic content—from its illocutionary force.",
+        "register": "technical",
+        "tags": [
+          "pragmatics",
+          "linguistics",
+          "speech-act theory"
+        ]
+      }
+    ]
   },
   {
     "term": "implicature",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A meaning conveyed by an utterance that goes beyond its literal semantic content, typically derived by the listener using principles of cooperative conversation.",
+        "example": "When the professor says 'Some students passed,' the implicature—based on Gricean maxims—is that not all students passed.",
+        "register": "technical",
+        "tags": [
+          "pragmatics",
+          "linguistics"
+        ]
+      }
+    ]
   },
   {
     "term": "presupposition",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A background assumption that must be true for an utterance to be felicitous, surviving under negation and questioning.",
+        "example": "The question 'Have you stopped practising law?' carries the presupposition that the addressee once practised law.",
+        "register": "technical",
+        "tags": [
+          "pragmatics",
+          "linguistics",
+          "semantics"
+        ]
+      }
+    ]
   },
   {
     "term": "evidentiality",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A grammatical category that encodes the source or evidential basis of a speaker's information about a proposition.",
+        "example": "In languages with grammatical evidentiality, speakers must mark whether they witnessed an event directly or learned of it through hearsay.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "pragmatics",
+          "typology"
+        ]
+      }
+    ]
   },
   {
     "term": "indexicality",
@@ -23104,22 +23181,94 @@
   {
     "term": "performativity",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The capacity of certain utterances or acts to enact the state of affairs they name rather than merely describe it.",
+        "example": "Austin's notion of performativity shows that saying 'I apologise' in the right context constitutes the act of apologising.",
+        "register": "technical",
+        "tags": [
+          "pragmatics",
+          "linguistics",
+          "speech-act theory"
+        ]
+      },
+      {
+        "definition": "In gender and cultural theory, the idea that identity categories such as gender are constituted through repeated stylised performances.",
+        "example": "Butler's concept of performativity challenges the view that gender is a stable inner essence, arguing instead that it is produced through iterative acts.",
+        "register": "technical",
+        "tags": [
+          "gender theory",
+          "cultural theory",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "cataphora",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A co-referential relation in which a pronoun or other anaphor precedes the full noun phrase that provides its referent.",
+        "example": "In 'When she entered, the detective looked up,' the pronoun 'she' is cataphoric, anticipating the later noun phrase.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "discourse analysis",
+          "grammar"
+        ]
+      }
+    ]
   },
   {
     "term": "ellipsis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The omission of words from a sentence when the meaning can be recovered from linguistic or situational context.",
+        "example": "In 'She can play violin, and he can too,' the phrase 'play violin' is elided in the second clause by ellipsis.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "grammar",
+          "discourse analysis"
+        ]
+      },
+      {
+        "definition": "A punctuation mark consisting of three dots (...) used to indicate an omission, a pause, or an unfinished thought in written text.",
+        "example": "The editor replaced the repetitive passage with an ellipsis to indicate where lines had been cut from the original transcript.",
+        "register": "neutral",
+        "tags": [
+          "typography",
+          "writing",
+          "punctuation"
+        ]
+      }
+    ]
   },
   {
     "term": "cohesion",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The linguistic devices—such as pronoun reference, conjunction, and lexical reiteration—that link elements of a text into a unified whole.",
+        "example": "The essay's cohesion was strengthened by consistent pronoun chains and carefully chosen connective adverbs.",
+        "register": "technical",
+        "tags": [
+          "discourse analysis",
+          "linguistics",
+          "text linguistics"
+        ]
+      }
+    ]
   },
   {
     "term": "entailment",
@@ -23129,7 +23278,28 @@
   {
     "term": "accommodation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The pragmatic process by which a listener updates their common-ground knowledge to accept a presupposition introduced in an utterance without prior establishment.",
+        "example": "When the speaker referred to 'my colleague's mistake,' listeners accommodated the presupposition that the colleague had made an error.",
+        "register": "technical",
+        "tags": [
+          "pragmatics",
+          "linguistics"
+        ]
+      },
+      {
+        "definition": "In sociolinguistics, the adjustment of one's speech style toward or away from an interlocutor's speech patterns.",
+        "example": "Speakers often show accommodation by unconsciously adopting the accent or vocabulary of the person they are conversing with.",
+        "register": "technical",
+        "tags": [
+          "sociolinguistics",
+          "linguistics"
+        ]
+      }
+    ]
   },
   {
     "term": "polysemy",
@@ -23184,7 +23354,20 @@
   {
     "term": "hedging",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The use of linguistic devices such as modal verbs, approximators, or qualifiers to reduce the force of an assertion and signal epistemic tentativeness.",
+        "example": "Academic prose relies on hedging—phrases like 'it appears that' and 'may suggest'—to convey appropriate uncertainty about claims.",
+        "register": "technical",
+        "tags": [
+          "pragmatics",
+          "linguistics",
+          "academic discourse"
+        ]
+      }
+    ]
   },
   {
     "term": "felicity",
@@ -23194,47 +23377,158 @@
   {
     "term": "sememe",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The minimal unit of meaning associated with a morpheme or lexical item, representing its semantic content as a bundle of semantic features.",
+        "example": "The sememe of 'bachelor' can be decomposed into semantic features such as [+human], [+adult], [+male], [−married].",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "semantics",
+          "linguistics"
+        ]
+      }
+    ]
   },
   {
     "term": "semiosphere",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The totality of sign processes and semiotic communication that constitutes and sustains a culture or living system, analogous to the biosphere.",
+        "example": "Lotman's concept of the semiosphere depicts culture as a bounded semiotic space within which meaning is generated and transformed.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "cultural theory"
+        ]
+      }
+    ]
   },
   {
     "term": "iconicity",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The property of a sign that functions by resembling or imitating the entity it represents, as in a picture, diagram, or onomatopoeia.",
+        "example": "Iconicity is especially prominent in signed languages, where handshapes often visually depict the shape or movement of their referents.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "linguistics"
+        ]
+      }
+    ]
   },
   {
     "term": "semiosis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Any process in which something functions as a sign by standing for something else for some interpreter, encompassing all sign activity.",
+        "example": "For Peirce, semiosis is an irreducibly triadic process involving a representamen, an object, and an interpretant in dynamic interplay.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "interpretant",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Peirce's semiotics, the meaning or effect—whether a thought, action, or sign—produced in a mind by a sign in relation to its object.",
+        "example": "The interpretant of a red traffic light is the driver's understanding that they must stop, which may in turn generate further sign relations.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "signifier",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Saussurean linguistics, the acoustic image or material form that, paired with a concept (signified), constitutes the linguistic sign.",
+        "example": "The spoken sound sequence /kæt/ is the signifier, while the mental concept of a small domesticated feline is the signified.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "linguistics"
+        ]
+      }
+    ]
   },
   {
     "term": "signified",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Saussurean linguistics, the mental concept or content that a signifier evokes and that together with the signifier constitutes the linguistic sign.",
+        "example": "The signified of 'rose' includes culturally loaded associations of love and beauty that extend far beyond its botanical referent.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "linguistics"
+        ]
+      }
+    ]
   },
   {
     "term": "denotation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The primary, literal meaning of a word or sign, independent of emotional, cultural, or associative overtones.",
+        "example": "The denotation of 'serpent' is simply a legless reptile; its sinister connotations arise from cultural and literary context.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "semantics",
+          "linguistics"
+        ]
+      }
+    ]
   },
   {
     "term": "connotation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The secondary, associative meanings a word or sign carries beyond its literal denotation, shaped by cultural, emotional, or contextual factors.",
+        "example": "The word 'home' carries warm connotations of comfort and belonging that the more neutral 'residence' lacks.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "semantics",
+          "linguistics"
+        ]
+      }
+    ]
   },
   {
     "term": "abduction",
@@ -23244,7 +23538,19 @@
   {
     "term": "qualisign",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Peirce's typology of signs, a sign that functions by virtue of an intrinsic quality alone, prior to any particular instantiation.",
+        "example": "A pure, abstract redness considered as a potential sign of danger or warmth—before any actual red thing exists—is a qualisign.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "legisign",
@@ -23254,7 +23560,19 @@
   {
     "term": "sinsign",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Peirce's typology of signs, a sign that is an actual individual occurrence or thing, functioning as a sign through its concrete existence.",
+        "example": "A particular weathervane at a given moment pointing north is a sinsign: it signifies wind direction by virtue of that specific event.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "rheme",
@@ -23279,7 +23597,6 @@
   {
     "term": "embodiment",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23313,7 +23630,6 @@
   {
     "term": "construal",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23343,7 +23659,6 @@
   {
     "term": "schematization",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23373,7 +23688,6 @@
   {
     "term": "entrenchment",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23405,7 +23719,6 @@
   {
     "term": "trajector",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23436,7 +23749,6 @@
   {
     "term": "profiling",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23466,7 +23778,6 @@
   {
     "term": "grounding",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23496,7 +23807,6 @@
   {
     "term": "prototype",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23528,7 +23838,6 @@
   {
     "term": "schema",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23558,7 +23867,6 @@
   {
     "term": "categorization",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23588,7 +23896,6 @@
   {
     "term": "entropy",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23622,7 +23929,6 @@
   {
     "term": "compressibility",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23654,7 +23960,6 @@
   {
     "term": "ergodicity",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23687,7 +23992,6 @@
   {
     "term": "equivocation",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23726,7 +24030,6 @@
   {
     "term": "transinformation",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23756,7 +24059,6 @@
   {
     "term": "perplexity",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23795,7 +24097,6 @@
   {
     "term": "tokenization",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23828,7 +24129,6 @@
   {
     "term": "codebook",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23859,7 +24159,6 @@
   {
     "term": "losslessness",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23892,7 +24191,6 @@
   {
     "term": "stochasticity",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23926,7 +24224,6 @@
   {
     "term": "homeostasis",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23960,7 +24257,6 @@
   {
     "term": "autopoiesis",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -23993,7 +24289,6 @@
   {
     "term": "equifinality",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24025,7 +24320,6 @@
   {
     "term": "morphogenesis",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24056,7 +24350,6 @@
   {
     "term": "attractor",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24089,7 +24382,6 @@
   {
     "term": "bifurcation",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24120,7 +24412,6 @@
   {
     "term": "perturbation",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24159,7 +24450,6 @@
   {
     "term": "synergy",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24192,7 +24482,6 @@
   {
     "term": "emergence",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24225,7 +24514,6 @@
   {
     "term": "holism",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24258,7 +24546,6 @@
   {
     "term": "reductionism",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24291,7 +24578,6 @@
   {
     "term": "feedforward",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24324,7 +24610,6 @@
   {
     "term": "teleonomy",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24357,7 +24642,6 @@
   {
     "term": "fractal",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24392,7 +24676,6 @@
   {
     "term": "criticality",
     "language": "en",
-    "status": "enriched",
     "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
@@ -24453,52 +24736,174 @@
   {
     "term": "fallibilism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The epistemological thesis that any belief, however well justified, could in principle be false and is open to revision.",
+        "example": "Fallibilism is central to scientific inquiry; even our best-confirmed theories remain revisable in light of new evidence.",
+        "register": "technical",
+        "tags": [
+          "epistemology",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "foundationalism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The view that knowledge rests on a bedrock of basic, non-inferentially justified beliefs from which all other beliefs are derived.",
+        "example": "Classical foundationalism holds that sensory experience provides the bedrock upon which all empirical knowledge is built.",
+        "register": "technical",
+        "tags": [
+          "epistemology",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "coherentism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The theory of justification according to which a belief is justified if and only if it coheres with a comprehensive system of mutually supporting beliefs.",
+        "example": "Under coherentism no belief stands alone; each derives its warrant from its fit within a web of mutually reinforcing beliefs.",
+        "register": "technical",
+        "tags": [
+          "epistemology",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "reliabilism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An externalist epistemological theory that identifies justified belief with belief produced by a reliable cognitive process.",
+        "example": "Reliabilism sidesteps the justificatory regress by anchoring knowledge in reliable belief-forming faculties such as perception and memory.",
+        "register": "technical",
+        "tags": [
+          "epistemology",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "internalism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The epistemological view that the factors that justify a belief are all internally accessible to the believer through reflection.",
+        "example": "Internalism requires that a believer be able to identify and evaluate her own grounds for belief from a first-person perspective.",
+        "register": "technical",
+        "tags": [
+          "epistemology",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "externalism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The view that justification or mental content can depend on factors external to the believer's subjective mental states or environment.",
+        "example": "Putnam's twin-earth thought experiment supports semantic externalism: what a word refers to is partly fixed by the external environment.",
+        "register": "technical",
+        "tags": [
+          "epistemology",
+          "philosophy",
+          "philosophy of language"
+        ]
+      }
+    ]
   },
   {
     "term": "defeasibility",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The property of a belief, justification, or legal claim of being capable of being overridden or undermined by new evidence or additional considerations.",
+        "example": "The defeasibility of prima facie justification means that previously adequate grounds for belief can be defeated by contrary evidence.",
+        "register": "technical",
+        "tags": [
+          "epistemology",
+          "philosophy",
+          "logic"
+        ]
+      }
+    ]
   },
   {
     "term": "incommensurability",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The condition of two theories or conceptual schemes that cannot be directly compared or measured against a shared rational standard.",
+        "example": "Kuhn argued that incommensurability between successive scientific paradigms makes straightforward rational choice between them impossible.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "epistemology"
+        ]
+      }
+    ]
   },
   {
     "term": "underdetermination",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The thesis that the available empirical evidence is insufficient to uniquely determine which of several competing theories is true.",
+        "example": "The underdetermination of theory by data implies that two empirically equivalent theories may differ in their unobservable posits.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "epistemology"
+        ]
+      }
+    ]
   },
   {
     "term": "epistemology",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The branch of philosophy that investigates the nature, sources, scope, and limits of human knowledge and justified belief.",
+        "example": "Epistemology asks fundamental questions such as what distinguishes knowledge from mere true belief and whether scepticism can be answered.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "epistemology"
+        ]
+      }
+    ]
   },
   {
     "term": "alethic",
@@ -24518,11 +24923,36 @@
   {
     "term": "epistemic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Of or relating to knowledge, or to the conditions required for a belief to count as knowledge.",
+        "example": "The epistemic value of eyewitness testimony depends on the witness's reliability and the circumstances of observation.",
+        "register": "technical",
+        "tags": [
+          "epistemology",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "deflationism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The philosophical view that truth (or meaning, or reference) requires no substantive metaphysical analysis beyond a minimal disquotational or equivalence schema.",
+        "example": "Under deflationism, asserting 'Snow is white is true' adds nothing to asserting 'Snow is white'; truth is merely a logical device.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "epistemology",
+          "philosophy of language"
+        ]
+      }
+    ]
   }
 ]
