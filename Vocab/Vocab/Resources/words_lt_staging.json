@@ -23074,7 +23074,7 @@
     "term": "rūsys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "požeminė patalpa pastate, naudojama maisto produktams ar daiktams laikyti",
@@ -23096,8 +23096,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "palėpė"
+    ],
+    "relatedTerms": [
+      "sandėliukas",
+      "pastatas",
+      "grindys"
+    ],
     "translation": "basement"
   },
   {
@@ -23132,7 +23138,7 @@
     "term": "svetainė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "pagrindinis namo ar buto kambaryis, skirtas ilsitiesi ir svečių priėmimui",
@@ -23146,7 +23152,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "miegamasis",
+      "virtuvė",
+      "kambarys",
+      "sofa"
+    ],
     "translation": "living room"
   },
   {
@@ -23210,7 +23221,7 @@
     "term": "virtuvė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "kambaryis namuose, skirtas maistui gaminti, su virykle, orkaitė ir kriaukle",
@@ -23234,14 +23245,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "valgomasis",
+      "viryklė",
+      "orkaitė",
+      "kriauklė"
+    ],
     "translation": "kitchen"
   },
   {
     "term": "palėpė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "negyvenama arba mažai naudojama erdvė po pastato stogu, dažnai naudojama daiktų laikymui",
@@ -23254,15 +23270,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "rūsys"
+    ],
+    "relatedTerms": [
+      "stogas",
+      "pastatas",
+      "sandėliukas"
+    ],
     "translation": "attic"
   },
   {
     "term": "stogas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "viršutinė pastato dalis, apsauganti nuo lietaus, sniego ir vėjo",
@@ -23276,14 +23298,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "palėpė",
+      "kaminas",
+      "siena",
+      "pastatas"
+    ],
     "translation": "roof"
   },
   {
     "term": "kaminas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "vertikali mūro konstrukcija, per kurią dūmai iš krosnies ar židinio patenka į lauką",
@@ -23306,7 +23333,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ugnis",
+      "krosnis",
+      "stogas",
+      "pastatas"
+    ],
     "translation": "chimney"
   },
   {
@@ -23350,7 +23382,7 @@
     "term": "tualetas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "kambaryis su sanitarine įranga – unitazu ir kriaukle – asmeninei higienai",
@@ -23373,7 +23405,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vonios kambarys",
+      "kriauklė",
+      "higiena"
+    ],
     "translation": "toilet"
   },
   {
@@ -23451,7 +23487,7 @@
     "term": "butas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "atskiras gyvenamas vienetas daugiabučiame name su savo įėjimu, kambariais ir virtuve",
@@ -23465,14 +23501,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "namas",
+      "kambarys",
+      "nuoma",
+      "pastatas"
+    ],
     "translation": "apartment"
   },
   {
     "term": "garažas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "uždengta patalpa automobiliui ar kitiems transporto priemonėms laikyti",
@@ -23495,14 +23536,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "automobilis",
+      "stoginė",
+      "pastatas"
+    ],
     "translation": "garage"
   },
   {
     "term": "laiptinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "bendra erdvė daugiabučiame name, kurioje yra laiptai ir kurios naudoja visi gyventojai",
@@ -23516,7 +23561,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "liftas",
+      "pastatas",
+      "koridorius"
+    ],
     "translation": "staircase"
   },
   {
@@ -23610,7 +23659,7 @@
     "term": "lubos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "viršutinis kambario paviršius, ribojantis erdvę iš viršaus",
@@ -23624,15 +23673,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "grindys"
+    ],
+    "relatedTerms": [
+      "siena",
+      "kambarys",
+      "šviestuvas"
+    ],
     "translation": "ceiling"
   },
   {
     "term": "grindys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "apatinis horizontalus kambario paviršius, kuriuo vaikščiojama",
@@ -23646,15 +23701,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "lubos"
+    ],
+    "relatedTerms": [
+      "kilimas",
+      "parketai",
+      "siena"
+    ],
     "translation": "floor"
   },
   {
     "term": "durys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "judamas užtvaras angoje, per kurį įeinama į patalpą arba išeinama iš jos",
@@ -23668,7 +23729,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "langas",
+      "siena",
+      "raktas",
+      "įėjimas"
+    ],
     "translation": "door"
   },
   {
@@ -23703,7 +23769,7 @@
     "term": "langas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "stiklu užpildyta anga sienoje, leidžianti šviesą ir orą į patalpą",
@@ -23726,14 +23792,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "durys",
+      "siena",
+      "palangė",
+      "stiklas"
+    ],
     "translation": "window"
   },
   {
     "term": "palangė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "horizontali plokštuma lango apačioje, viduje ar išorėje, ant kurios galima dėti daiktus",
@@ -23747,7 +23818,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "langas",
+      "siena",
+      "gėlė"
+    ],
     "translation": "windowsill"
   },
   {
@@ -24048,7 +24123,7 @@
     "term": "spinta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "aukštas baldas su durimis drabužiams ir kita asmenine aprangai laikyti",
@@ -24063,14 +24138,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lentyna",
+      "stalčius",
+      "drabužiai"
+    ],
     "translation": "wardrobe"
   },
   {
     "term": "sofa",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "platus minkštas baldas su atlošu ir porankiais, skirtas sėdėti ar ilsėtis, dažniausiai svetainėje",
@@ -24083,16 +24162,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kanapa"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "fotelis",
+      "svetainė",
+      "baldas"
+    ],
     "translation": "sofa"
   },
   {
     "term": "kilimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "stora tekstilinė danga, klojama ant grindų šilumai ir estetikai",
@@ -24106,14 +24191,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "grindys",
+      "kilimėlis",
+      "tekstilė"
+    ],
     "translation": "carpet"
   },
   {
     "term": "fotelis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "minkštas baldas su atlošu ir porankiais vienam žmogui sėdėti ir ilsėtis",
@@ -24128,14 +24217,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sofa",
+      "kėdė",
+      "baldas"
+    ],
     "translation": "armchair"
   },
   {
     "term": "šviestuvas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "elektros lempos korpusas ir jos montavimo konstrukcija, naudojama patalpai apšviesti",
@@ -24148,9 +24241,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "lempa"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "elektra",
+      "šviesa",
+      "lubos"
+    ],
     "translation": "lamp"
   },
   {
@@ -24219,7 +24318,7 @@
     "term": "lentyna",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "horizontali lenta ar plokštuma, tvirtinama prie sienos ar spintos, skirta daiktams laikyti",
@@ -24234,14 +24333,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "spinta",
+      "siena",
+      "knyga"
+    ],
     "translation": "shelf"
   },
   {
     "term": "viryklė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "buitinis prietaisas su kaitinimo elementais ar degikliais maistui virti ir kepti",
@@ -24256,14 +24359,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "orkaitė",
+      "puodas",
+      "virtuvė"
+    ],
     "translation": "stove"
   },
   {
     "term": "orkaitė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "uždara šiluminė kamera viryklėje arba atskiras prietaisas maistui kepti karštame ore",
@@ -24278,14 +24385,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "viryklė",
+      "kepimas",
+      "virtuvė"
+    ],
     "translation": "oven"
   },
   {
     "term": "kriauklė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "vonios ar virtuvės dubuo su vandens čiaupu ir kanalizacijos lataku, naudojamas plovimui",
@@ -24301,14 +24412,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "čiaupas",
+      "vanduo",
+      "tualetas",
+      "virtuvė"
+    ],
     "translation": "sink"
   },
   {
     "term": "šaldytuvas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "buitinis elektros prietaisas maistui laikyti žemoje temperatūroje, kad ilgiau nesugenda",
@@ -24323,7 +24439,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šaldiklis",
+      "maistas",
+      "virtuvė"
+    ],
     "translation": "refrigerator"
   },
   {
@@ -24341,7 +24461,7 @@
     "term": "veidrodis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "lygi stiklinė plokštuma su metaliniu sluoksniu, atspindinti atvaizdą",
@@ -24356,7 +24476,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "stiklas",
+      "vonios kambarys",
+      "atspindys"
+    ],
     "translation": "mirror"
   },
   {
@@ -24749,7 +24873,7 @@
     "term": "indaplovė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "buitinis prietaisas, automatiškai plaunantis indus karštu vandeniu ir plovikliu",
@@ -24764,14 +24888,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "skalbyklė",
+      "kriauklė",
+      "indas",
+      "virtuvė"
+    ],
     "translation": "dishwasher"
   },
   {
     "term": "skalbyklė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "buitinis prietaisas, automatiškai skalbiąntis drabužius vandeniu ir skalbikliu",
@@ -24784,9 +24913,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "skalbimo mašina"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "indaplovė",
+      "skalbiniai",
+      "džiovintuvas"
+    ],
     "translation": "washing machine"
   },
   {
@@ -24841,7 +24976,7 @@
     "term": "šildytuvas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "elektrinis ar dujinis prietaisas patalpai šildyti, kai centrinis šildymas nepakanka",
@@ -24856,14 +24991,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "radiatorius",
+      "šildymas",
+      "temperatūra",
+      "elektra"
+    ],
     "translation": "heater"
   },
   {
     "term": "dulkių siurblys",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "elektrinis prietaisas, siurbiąntis dulkes, trupučius ir nešvarumus nuo grindų ir kilimų",
@@ -24878,7 +25018,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šluota",
+      "valymas",
+      "grindys"
+    ],
     "translation": "vacuum cleaner"
   },
   {
@@ -24979,7 +25123,7 @@
     "term": "šluota",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "rankinis įrankis su ilga kota ir šakelių ar sintetinių šerių ryšuliu grindims ir kiemui šluoti",
@@ -24994,14 +25138,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dulkių siurblys",
+      "šlavimas",
+      "grindys"
+    ],
     "translation": "broom"
   },
   {
     "term": "šluostė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "minkštas audinys paviršiams nuvalyti, dulkėms šluostyti ar daiktams džiovinti",
@@ -25016,14 +25164,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šluota",
+      "valymas",
+      "kibiras"
+    ],
     "translation": "cloth"
   },
   {
     "term": "kibiras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "cilindro formos indas su rankena skysčiams nešti arba valymo priemonėms maišyti",
@@ -25038,14 +25190,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šluostė",
+      "vanduo",
+      "valymas"
+    ],
     "translation": "bucket"
   },
   {
     "term": "šluoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "valyti grindis ar kiemą šluota, šalinant dulkes ir nešvarumus",
@@ -25060,14 +25216,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "valyti",
+      "šluota",
+      "grindys"
+    ],
     "translation": "to sweep"
   },
   {
     "term": "tvarkyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "dėti daiktus į jiems skirtas vietas ir šalinti netvarkę patalpoje",
@@ -25088,9 +25248,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "valyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šluoti",
+      "rūpintis",
+      "švara"
+    ],
     "translation": "to tidy"
   },
   {
