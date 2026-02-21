@@ -173,3 +173,19 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - None.
+## [2025-07-22] [enricher-lt-2] [enrich-lt-batch-4-8]
+
+### What went well
+- Pipeline protocol was smooth: 5 batches of 5 words each, all validated on first attempt.
+- Validation script is reliable — caught the correct count (40 enriched) and passed cleanly every batch.
+- Words in this range (dabar through gyventi) formed natural clusters (time adverbs, būti conjugations, dirbti conjugations), making definitions consistent.
+
+### What was harder than expected
+- Deciding `partOfSpeech` for conjugated verb forms (esu, esi, yra, etc.) — they are verb forms, not standalone verbs, but "verb" is the closest valid category.
+- "tik" can function as an adverb, conjunction, or particle depending on context; had to pick the most common usage.
+
+### Process friction
+- None significant. The worktree setup, validation, and commit flow all worked as documented.
+
+### Suggested improvement
+- Consider adding "particle" or "verb form" to `VALID_PARTS_OF_SPEECH` — Lithuanian has many conjugated forms listed as separate entries, and "verb" is imprecise for forms like "esu" or "dirba".

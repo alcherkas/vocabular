@@ -316,277 +316,523 @@
   {
     "term": "dabar",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "At the present time or moment.",
+        "example": "Dabar aš einu namo.",
+        "register": "general",
+        "tags": [
+          "time"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "now"
   },
   {
     "term": "taip pat",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In addition; likewise.",
+        "example": "Aš taip pat noriu eiti į kiną.",
+        "register": "general",
+        "tags": [
+          "connector"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "also; as well"
   },
   {
     "term": "tik",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "No more than; merely; exclusively.",
+        "example": "Aš tik norėjau paklausti.",
+        "register": "general",
+        "tags": [
+          "restriction"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "only; just"
   },
   {
     "term": "truputį",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To a small extent or degree.",
+        "example": "Aš truputį pavargau po darbo.",
+        "register": "general",
+        "tags": [
+          "quantity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "a little; a bit"
   },
   {
     "term": "šiek tiek",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A small amount or to a small degree.",
+        "example": "Ar galėtum šiek tiek palaukti?",
+        "register": "general",
+        "tags": [
+          "quantity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "a little bit; somewhat"
   },
   {
     "term": "vardas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A word or set of words by which a person is known; a first name.",
+        "example": "Mano vardas yra Jonas.",
+        "register": "general",
+        "tags": [
+          "identity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "name; first name"
   },
   {
     "term": "pavardė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A hereditary family name passed down from one generation to the next.",
+        "example": "Kokia jūsų pavardė?",
+        "register": "general",
+        "tags": [
+          "identity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "surname; last name"
   },
   {
     "term": "Būti",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To exist or live; used as a copula linking a subject with a predicate.",
+        "example": "Būti ar nebūti – štai klausimas.",
+        "register": "general",
+        "tags": [
+          "auxiliary",
+          "existence"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to be"
   },
   {
     "term": "esu",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "First person singular present tense form of 'būti' (to be).",
+        "example": "Aš esu studentas.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "auxiliary"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "I am"
   },
   {
     "term": "esi",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Second person singular present tense form of 'būti' (to be).",
+        "example": "Tu esi labai drąsus.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "auxiliary"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "you are"
   },
   {
     "term": "yra",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person singular and plural present tense form of 'būti' (to be).",
+        "example": "Jis yra geras mokytojas.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "auxiliary"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "is; are"
   },
   {
     "term": "esame",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "First person plural present tense form of 'būti' (to be).",
+        "example": "Mes esame pasiruošę kelionei.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "auxiliary"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "we are"
   },
   {
     "term": "esate",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Second person plural present tense form of 'būti' (to be); also used as a formal singular.",
+        "example": "Jūs esate labai malonūs.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "auxiliary"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "you are (plural)"
   },
   {
     "term": "buvo",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person past tense form of 'būti' (to be); used for all persons in the past.",
+        "example": "Vakar buvo labai šalta.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "auxiliary",
+          "past tense"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "was; were"
   },
   {
     "term": "nebūti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The negated infinitive form of 'būti'; to not exist or not be.",
+        "example": "Geriau nebūti naiviam.",
+        "register": "general",
+        "tags": [
+          "negation",
+          "auxiliary"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "not to be"
   },
   {
     "term": "nesu",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "First person singular present negative form of 'būti' (to be).",
+        "example": "Aš nesu iš Vilniaus.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "negation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "I am not"
   },
   {
     "term": "nesi",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Second person singular present negative form of 'būti' (to be).",
+        "example": "Tu nesi kaltas dėl to.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "negation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "you are not"
   },
   {
     "term": "nėra",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person present negative form of 'būti' (to be); also expresses absence or non-existence.",
+        "example": "Šiandien nėra pamokų.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "negation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "is not; there is no"
   },
   {
     "term": "nesame",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "First person plural present negative form of 'būti' (to be).",
+        "example": "Mes nesame tikri dėl to.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "negation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "we are not"
   },
   {
     "term": "nesate",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Second person plural present negative form of 'būti' (to be); also used as a formal singular.",
+        "example": "Jūs nesate čia registruoti.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "negation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "you are not (plural)"
   },
   {
     "term": "nebuvo",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person past negative form of 'būti' (to be); indicates absence or non-existence in the past.",
+        "example": "Vakar nebuvo jokių naujienų.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "negation",
+          "past tense"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "was not; were not"
   },
   {
     "term": "dirbti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To engage in physical or mental activity in order to achieve a result; to be employed.",
+        "example": "Aš noriu dirbti šioje įmonėje.",
+        "register": "general",
+        "tags": [
+          "employment",
+          "activity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to work"
   },
   {
     "term": "dirba",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person singular/plural present tense form of 'dirbti' (to work).",
+        "example": "Ji dirba ligoninėje.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "employment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "works; work"
   },
   {
     "term": "dirbo",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third person past tense form of 'dirbti' (to work).",
+        "example": "Jis dirbo mokykloje dešimt metų.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "past tense",
+          "employment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "worked"
   },
   {
     "term": "gyventi",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To be alive; to reside in a particular place.",
+        "example": "Mes norime gyventi prie jūros.",
+        "register": "general",
+        "tags": [
+          "residence",
+          "existence"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to live"
   },
   {
     "term": "gyvena",
