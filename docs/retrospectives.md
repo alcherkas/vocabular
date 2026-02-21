@@ -146,3 +146,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Update `docs/BUILD.md` to note that for projects using file-system synchronized groups (objectVersion 77), test targets can be added by editing `project.pbxproj` directly without the Xcode GUI.
+
+## [2025-07-21] [feat-lt-ui-filter] [lt-ui-filter]
+
+### What went well
+- Task was well-scoped: single file change with clear acceptance criteria. Existing `filteredWords` computed property made adding the language filter trivial.
+- Word model already had `language: String` field from the `language-field` task.
+
+### What was harder than expected
+- Xcode not available in the environment, so build verification was skipped. The change is straightforward SwiftUI (enum + Picker + filter).
+
+### Process friction
+- None. Task was minimal complexity with clear insertion points.
+
+### Suggested improvement
+- None.
