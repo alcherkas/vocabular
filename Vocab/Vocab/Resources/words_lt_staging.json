@@ -26955,7 +26955,7 @@
     "term": "gulėti ligoninėje",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To stay in hospital as an inpatient receiving treatment.",
@@ -26968,12 +26968,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "hospitalizuotis"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "ligoninė",
       "palata",
-      "išrašymas"
+      "išrašymas",
+      "operacija",
+      "gydymas"
     ],
     "translation": "to be hospitalised / to be in hospital",
     "qaNote": "Phrase: gulėti (to lie/stay, imperfective) + ligoninėje (localative of ligoninė). Aspect is imperfective — describes the ongoing state of being hospitalised."
@@ -27011,7 +27015,7 @@
     "term": "sveikatos draudimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mandatory or voluntary system of insurance that covers the cost of medical care and healthcare services.",
@@ -27032,7 +27036,8 @@
       "gydytojas",
       "ligoninė",
       "polisas",
-      "įmoka"
+      "įmoka",
+      "pacientas"
     ],
     "translation": "health insurance",
     "qaNote": "'privalomasis sveikatos draudimas' (mandatory health insurance) removed from synonyms: it is a specific sub-type of health insurance, not a synonym for the broader term 'sveikatos draudimas'. Entry requires accurate synonyms."
@@ -27112,7 +27117,7 @@
     "term": "išrašyti receptą",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "For a doctor to write a medical prescription authorising a patient to obtain medication.",
@@ -27130,7 +27135,9 @@
     "relatedTerms": [
       "receptas",
       "vaistai",
-      "vaistinė"
+      "vaistinė",
+      "gydytojas",
+      "paskyra"
     ],
     "translation": "to prescribe / to write a prescription",
     "qaNote": "Phrase: išrašyti (perfective: to write out) + receptą (accusative of receptas). The perfective form signals completion — the prescription has been issued."
@@ -27183,7 +27190,7 @@
     "term": "chirurgas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A medical specialist who performs surgical operations to treat injuries, diseases, or deformities.",
@@ -27202,7 +27209,9 @@
     "relatedTerms": [
       "chirurgė",
       "operacija",
-      "ligoninė"
+      "ligoninė",
+      "skalpelis",
+      "anestezija"
     ],
     "translation": "surgeon",
     "qaNote": "Nominative singular: chirurgas (masc). Feminine form: chirurgė. Stress: chi-RUR-gas. B2 term — medical specialist vocabulary."
@@ -27222,7 +27231,7 @@
     "term": "dermatologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A physician specialising in the diagnosis and treatment of skin, hair, and nail diseases.",
@@ -27241,7 +27250,9 @@
     "relatedTerms": [
       "dermatologė",
       "oda",
-      "egzema"
+      "egzema",
+      "aknė",
+      "psoriazė"
     ],
     "translation": "dermatologist",
     "qaNote": "Nominative singular: dermatologas (masc). Feminine: dermatologė. Root: dermato- (skin) + logos (study). B2 medical specialist term."
@@ -27261,7 +27272,7 @@
     "term": "kardiologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A physician specialising in the diagnosis and treatment of heart and cardiovascular diseases.",
@@ -27280,7 +27291,9 @@
     "relatedTerms": [
       "kardiologė",
       "širdis",
-      "kraujagyslė"
+      "kraujagyslė",
+      "infarktas",
+      "elektrokardiograma"
     ],
     "translation": "cardiologist",
     "qaNote": "Nominative singular: kardiologas (masc). Feminine: kardiologė. Root: kardio- (heart) + logos (study). B2 medical specialist term."
@@ -27300,7 +27313,7 @@
     "term": "neurologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A medical specialist who diagnoses and treats disorders of the nervous system, including the brain and spinal cord.",
@@ -27319,7 +27332,9 @@
     "relatedTerms": [
       "neurologė",
       "nervų sistema",
-      "psichiatras"
+      "psichiatras",
+      "smegenys",
+      "epilepsija"
     ],
     "translation": "neurologist",
     "qaNote": "Nominative singular: neurologas (masc). Feminine: neurologė. Root: neuro- (nerve) + logos (study). B2 medical specialist term."
@@ -27339,7 +27354,7 @@
     "term": "odontologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A dental specialist who diagnoses and treats diseases of the teeth, gums, and oral cavity.",
@@ -27359,7 +27374,9 @@
     "relatedTerms": [
       "odontologė",
       "dantys",
-      "burnos priežiūra"
+      "burnos priežiūra",
+      "ėduonis",
+      "protinis dantis"
     ],
     "translation": "dentist",
     "qaNote": "Nominative singular: odontologas (masc). Feminine: odontologė. 'Dantistas' is an informal synonym. B1 term — commonly used in daily life."
@@ -27496,7 +27513,7 @@
     "term": "gerklė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The internal passage at the back of the mouth, connecting to the oesophagus and larynx; commonly aches during respiratory illness.",
@@ -27516,7 +27533,9 @@
     "relatedTerms": [
       "burna",
       "tonzilės",
-      "angina"
+      "angina",
+      "kosulys",
+      "skausmas"
     ],
     "translation": "throat",
     "qaNote": "Nominative singular: gerklė. Genitive: gerklės. Common anatomical term used in everyday medical communication."
@@ -27525,7 +27544,7 @@
     "term": "skrandis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The muscular organ of the digestive system in which food is broken down by gastric juices.",
@@ -27544,7 +27563,9 @@
     "relatedTerms": [
       "žarnos",
       "kepenys",
-      "virškinimas"
+      "virškinimas",
+      "pykinimas",
+      "pilvas"
     ],
     "translation": "stomach",
     "qaNote": "Nominative singular: skrandis. Genitive: skrandžio (note stem change: skrandi- → skrandž-). B1 anatomical term."
@@ -27673,7 +27694,7 @@
     "term": "kraujas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The red fluid that circulates in the arteries and veins, carrying oxygen, nutrients, and immune cells throughout the body.",
@@ -27691,7 +27712,9 @@
     "relatedTerms": [
       "kraujagyslė",
       "kraujospūdis",
-      "hemoglobinas"
+      "hemoglobinas",
+      "eritrocitas",
+      "leukocitas"
     ],
     "translation": "blood",
     "qaNote": "Nominative singular: kraujas. Genitive: kraujo. Core anatomical vocabulary; B1 level. Derivatives: kraujagyslė (blood vessel), kraujospūdis (blood pressure)."
@@ -27732,7 +27755,7 @@
     "term": "angina",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A bacterial or viral infection of the tonsils characterised by severe throat pain, high fever, and difficulty swallowing.",
@@ -27752,7 +27775,9 @@
     "relatedTerms": [
       "gerklė",
       "antibiotikai",
-      "karščiavimas"
+      "karščiavimas",
+      "temperatūra",
+      "rijimas"
     ],
     "translation": "tonsillitis / strep throat",
     "qaNote": "Nominative singular: angina. In Lithuanian medical usage, 'angina' refers specifically to acute tonsillitis, not to cardiac angina pectoris (which is 'krūtinės angina')."
@@ -27761,7 +27786,7 @@
     "term": "gripas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A highly contagious viral respiratory infection causing fever, body aches, fatigue, and respiratory symptoms.",
@@ -27782,7 +27807,9 @@
     "relatedTerms": [
       "peršalimas",
       "skiepai",
-      "kosulys"
+      "kosulys",
+      "karščiavimas",
+      "virusas"
     ],
     "translation": "flu / influenza",
     "qaNote": "Nominative singular: gripas. Genitive: gripo. B1 — very common medical term. Distinguished from 'peršalimas' (common cold): gripas is more severe and systemic."
@@ -27821,7 +27848,7 @@
     "term": "plaučių uždegimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A serious infection of one or both lungs in which the air sacs fill with fluid or pus, impairing breathing.",
@@ -27841,7 +27868,9 @@
     "relatedTerms": [
       "plaučiai",
       "antibiotikai",
-      "rentgeno nuotrauka"
+      "rentgeno nuotrauka",
+      "karščiavimas",
+      "kvėpavimas"
     ],
     "translation": "pneumonia",
     "qaNote": "Phrase: plaučių (genitive plural of plaučiai) + uždegimas (inflammation/infection). The formal medical term is 'pneumonija'. B2 medical vocabulary."
@@ -28051,7 +28080,7 @@
     "term": "antibiotikai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Medicines used to treat bacterial infections by killing bacteria or inhibiting their growth; ineffective against viruses.",
@@ -28069,7 +28098,9 @@
     "relatedTerms": [
       "tabletės",
       "receptas",
-      "bakterija"
+      "bakterija",
+      "gydymas",
+      "penicilinas"
     ],
     "translation": "antibiotics",
     "qaNote": "Nominative plural: antibiotikai (used almost always in plural). Singular: antibiotikas. B2 medical vocabulary. Key cultural note: in Lithuania antibiotics require a prescription."
@@ -28122,7 +28153,7 @@
     "term": "tabletės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Solid, compressed doses of medicine intended to be swallowed with water.",
@@ -28142,7 +28173,9 @@
     "relatedTerms": [
       "lašai",
       "mikstūra",
-      "tepalas"
+      "tepalas",
+      "kapsulė",
+      "dozė"
     ],
     "translation": "tablets / pills",
     "qaNote": "Nominative plural: tabletės. Singular: tabletė. B1 — everyday medical vocabulary used in pharmacies and prescriptions."
@@ -28151,7 +28184,7 @@
     "term": "lašai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Liquid medication administered in small measured drops, typically for eyes, ears, or nose.",
@@ -28169,7 +28202,9 @@
     "relatedTerms": [
       "tabletės",
       "mikstūra",
-      "šnervė"
+      "šnervė",
+      "akys",
+      "ausys"
     ],
     "translation": "drops (medication)",
     "qaNote": "Nominative plural: lašai. Singular: lašas (drop). In a medical context, almost always used in plural. B1 medical vocabulary."
@@ -28178,7 +28213,7 @@
     "term": "mikstūra",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Liquid oral medication, often sweetened, containing dissolved or suspended active ingredients.",
@@ -28198,7 +28233,9 @@
     "relatedTerms": [
       "tabletės",
       "lašai",
-      "vaistai"
+      "vaistai",
+      "skystis",
+      "dozė"
     ],
     "translation": "liquid medicine / syrup / mixture",
     "qaNote": "Nominative singular: mikstūra. Genitive: mikstūros. More formal/clinical than 'sirupas'. B2 — used in prescriptions and pharmacy settings."
@@ -28207,7 +28244,7 @@
     "term": "tepalas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A semi-solid medicinal preparation applied to the skin to treat skin conditions, wounds, or inflammation.",
@@ -28228,7 +28265,9 @@
     "relatedTerms": [
       "pleistras",
       "tvarsčiai",
-      "oda"
+      "oda",
+      "žaizda",
+      "dermatologas"
     ],
     "translation": "ointment / cream",
     "qaNote": "Nominative singular: tepalas. Genitive: tepalo. Broad term covering ointments, creams, and salves. More technical than everyday 'kremas'. B2 medical register."
@@ -28279,7 +28318,7 @@
     "term": "pleistras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An adhesive bandage used to cover and protect minor cuts, wounds, or blisters.",
@@ -28297,7 +28336,9 @@
     "relatedTerms": [
       "tvarsčiai",
       "žaizda",
-      "tepalas"
+      "tepalas",
+      "dezinfekcija",
+      "kraujavimas"
     ],
     "translation": "plaster / adhesive bandage",
     "qaNote": "Nominative singular: pleistras. Genitive: pleistrо. B1 — common first-aid vocabulary. Also used as 'nicotine patch' context: nikotino pleistras."
@@ -28306,7 +28347,7 @@
     "term": "skiepai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Biological preparations that stimulate the immune system to provide protection against specific infectious diseases.",
@@ -28326,7 +28367,9 @@
     "relatedTerms": [
       "imunitetas",
       "profilaktika",
-      "injekcija"
+      "injekcija",
+      "liga",
+      "prevencija"
     ],
     "translation": "vaccines / vaccinations",
     "qaNote": "Nominative plural: skiepai. Singular: skiepas. Also used in the sense of 'vaccination' (the act). B1 — widely used in public health communication."
@@ -28418,7 +28461,7 @@
     "term": "rentgeno nuotrauka",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A diagnostic image produced by X-ray radiation, used to examine bones, lungs, and other internal structures.",
@@ -28438,7 +28481,9 @@
     "relatedTerms": [
       "ultragarsas",
       "tyrimai",
-      "diagnozė"
+      "diagnozė",
+      "radiologija",
+      "plaučiai"
     ],
     "translation": "X-ray (image)",
     "qaNote": "Phrase: rentgeno (genitive of rentgenas, from Röntgen) + nuotrauka (photograph/image). B2 diagnostic vocabulary. Short form: 'rentgenas' (also used colloquially for the procedure)."
@@ -28469,7 +28514,7 @@
     "term": "karščiuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To have an abnormally elevated body temperature as a symptom of illness or infection.",
@@ -28489,7 +28534,9 @@
     "relatedTerms": [
       "karščiavimas",
       "temperatūra",
-      "gripas"
+      "gripas",
+      "termometras",
+      "vaistai"
     ],
     "translation": "to have a fever / to run a fever",
     "qaNote": "Infinitive: karščiuoti. 3rd person present: karščiuoja. Imperfective aspect (ongoing state). B1 symptom verb — very common in medical complaints."
@@ -28498,7 +28545,7 @@
     "term": "kosėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To expel air from the lungs suddenly and noisily, typically as a reflex to clear the airway.",
@@ -28516,7 +28563,9 @@
     "relatedTerms": [
       "kosulys",
       "gerklė",
-      "plaučiai"
+      "plaučiai",
+      "virusas",
+      "sloga"
     ],
     "translation": "to cough",
     "qaNote": "Infinitive: kosėti. 3rd person present: kosi. Derived noun: kosulys (cough, n). B1 — common symptom verb used in medical and everyday contexts."
@@ -28536,7 +28585,7 @@
     "term": "peršalti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To become ill with a cold as a result of exposure to cold, damp, or draughts.",
@@ -28556,7 +28605,9 @@
     "relatedTerms": [
       "peršalimas",
       "sloga",
-      "kosulys"
+      "kosulys",
+      "karščiavimas",
+      "vaistai"
     ],
     "translation": "to catch a cold",
     "qaNote": "Infinitive: peršalti (perfective). Imperfective counterpart: peršalinėti. Derived noun: peršalimas (cold, the illness). B1 — extremely common in Lithuanian everyday speech."
@@ -28597,7 +28648,7 @@
     "term": "skaudėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To feel pain; used impersonally to indicate that a specific body part causes pain (e.g., man skaudėjo galvą).",
@@ -28617,7 +28668,9 @@
     "relatedTerms": [
       "skausmas",
       "nuskausminimas",
-      "vaistai nuo skausmo"
+      "vaistai nuo skausmo",
+      "trauma",
+      "gydymas"
     ],
     "translation": "to hurt / to ache",
     "qaNote": "Infinitive: skaudėti. 3rd person present: skauda (impersonal). Pattern: man skauda [body part accusative] — 'my [body part] hurts'. B1 — essential symptom vocabulary."
@@ -28659,7 +28712,7 @@
     "term": "užsikrėsti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To contract a disease or infection from another person, animal, or environment.",
@@ -28681,7 +28734,9 @@
     "relatedTerms": [
       "infekcija",
       "virusas",
-      "bakterija"
+      "bakterija",
+      "imunitetas",
+      "karantinas"
     ],
     "translation": "to get infected / to contract (a disease)",
     "qaNote": "Infinitive: užsikrėsti (perfective reflexive). Imperfective: užsikrėtinėti (rare). Reflexive particle -si- indicates action on oneself. B2 medical verb."
@@ -28731,7 +28786,7 @@
     "term": "pasveikti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To return to good health after illness or injury; to convalesce fully.",
@@ -28753,7 +28808,9 @@
     "relatedTerms": [
       "sveikata",
       "gydymas",
-      "reabilitacija"
+      "reabilitacija",
+      "vaistai",
+      "poilsis"
     ],
     "translation": "to recover / to get better",
     "qaNote": "Infinitive: pasveikti (perfective). Imperfective: sveikti (gradual recovery). B1 — common in both medical and everyday contexts. Distinguish: 'pasveikti' (to recover fully) vs 'sveikti' (to be getting better)."
@@ -28883,7 +28940,7 @@
     "term": "Aplankas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A flat cardboard or plastic cover used to hold loose papers or documents together.",
@@ -28904,7 +28961,9 @@
       "sąsiuvinis",
       "segtuvas",
       "dokumentai",
-      "byla"
+      "byla",
+      "failas",
+      "rinkmena"
     ],
     "translation": "folder"
   },
@@ -29172,7 +29231,7 @@
     "term": "kompiuteris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An electronic device used to process, store, and display information, essential for modern office work.",
@@ -29184,15 +29243,15 @@
         ]
       }
     ],
-    "synonyms": [
-      "skaičiuotuvas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "klaviatūra",
       "ekranas",
       "internetas",
-      "programa"
+      "programa",
+      "procesorius",
+      "atmintis"
     ],
     "translation": "computer",
     "qaNote": "Synonym 'skaičiuotuvas' is inaccurate in modern Lithuanian: the term primarily denotes a calculator (arithmetic device), not a computer. While historically used for computer, current standard usage reserves 'kompiuteris' for computer and 'skaičiuotuvas' for calculator. Replace with an accurate synonym."
@@ -29446,7 +29505,7 @@
     "term": "elektroninis laiškas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A digital message sent and received over the internet, widely used for professional communication.",
@@ -29459,18 +29518,15 @@
         ]
       }
     ],
-    "synonyms": [
-      "el. laiškas"
-    ],
-    "antonymTerms": [
-      "popierinis laiškas"
-    ],
+    "synonyms": [],
+    "antonymTerms": [],
     "relatedTerms": [
-      "elektroninis paštas",
       "priedas",
       "siuntėjas",
       "gavėjas",
-      "tema"
+      "tema",
+      "paštas",
+      "komunikacija"
     ],
     "translation": "email",
     "qaNote": "Synonym 'el. laiškas' is a self-referential abbreviation of the head term 'elektroninis laiškas'. Abbreviations of the defined term do not qualify as synonyms. Remove or replace with a genuinely distinct synonym."
@@ -29479,7 +29535,7 @@
     "term": "elektroninis paštas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The system or service for sending and receiving electronic messages; also refers to an email address.",
@@ -29492,17 +29548,14 @@
         ]
       }
     ],
-    "synonyms": [
-      "el. paštas"
-    ],
-    "antonymTerms": [
-      "tradicinis paštas"
-    ],
+    "synonyms": [],
+    "antonymTerms": [],
     "relatedTerms": [
-      "elektroninis laiškas",
       "internetas",
       "serveris",
-      "slaptažodis"
+      "slaptažodis",
+      "komunikacija",
+      "tinklas"
     ],
     "translation": "email address, email system",
     "qaNote": "Synonym 'el. paštas' is a self-referential abbreviation of the head term 'elektroninis paštas'. Remove or replace with a genuinely distinct synonym."
@@ -29570,7 +29623,7 @@
     "term": "Skyrius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A division or section within a company or organisation that handles a specific area of work.",
@@ -29590,7 +29643,9 @@
       "įmonė",
       "darbuotojas",
       "vadovas",
-      "organizacija"
+      "organizacija",
+      "kolega",
+      "struktūra"
     ],
     "translation": "department",
     "qaNote": "Term is improperly capitalised as 'Skyrius'; Lithuanian common nouns in nominative citation form should be lowercase. Correct the term to 'skyrius'."
@@ -29628,7 +29683,7 @@
     "term": "atostogos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A period of time when an employee is allowed to be away from work for rest or personal matters.",
@@ -29640,9 +29695,7 @@
         ]
       }
     ],
-    "synonyms": [
-      "poilsis"
-    ],
+    "synonyms": [],
     "antonymTerms": [
       "darbas"
     ],
@@ -29650,7 +29703,8 @@
       "kelionė",
       "šventė",
       "poilsiadienis",
-      "savaitgalis"
+      "savaitgalis",
+      "laisvadieniai"
     ],
     "translation": "vacation, leave",
     "qaNote": "Synonym 'poilsis' means 'rest' or 'relaxation' and is thematically related but not synonymous with 'atostogos' (leave/vacation). 'Poilsis' refers to any restful activity; 'atostogos' specifically denotes a formally granted period of leave from work or study. Replace with an accurate synonym."
@@ -30071,7 +30125,7 @@
     "term": "išsilavinimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The level of academic or professional training and qualifications a person has acquired through formal schooling.",
@@ -30091,7 +30145,9 @@
     "relatedTerms": [
       "mokykla",
       "universitetas",
-      "diplomas"
+      "diplomas",
+      "žinios",
+      "kvalifikacija"
     ],
     "translation": "education",
     "qaNote": "'kvalifikacija' (qualification/professional credentials) denotes specific competency recognition rather than educational attainment in general; it is a related but semantically distinct concept. Removed."
