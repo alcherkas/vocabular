@@ -12963,17 +12963,65 @@
   },
   {
     "term": "serology",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The scientific study and diagnostic use of blood serum, particularly the detection and measurement of antibodies, antigens, and other immunological markers as indicators of infection, autoimmune disease, or immune status.",
+        "example": "Serology confirmed prior infection with SARS-CoV-2 in thousands of participants who had tested negative by PCR at the time of illness, revealing the true extent of undetected community transmission.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "immunology",
+          "diagnostics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "serological testing",
+      "immunoserology"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "antibody",
+      "antigen",
+      "ELISA",
+      "immunoglobulin",
+      "seroprevalence"
+    ]
   },
   {
     "term": "pathogenesis",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The sequence of events, cellular processes, and molecular mechanisms by which a pathological condition originates and develops, from the initial causative agent to the fully expressed clinical manifestation.",
+        "example": "Understanding the pathogenesis of type 2 diabetes — encompassing insulin resistance, progressive beta-cell dysfunction, and chronic low-grade inflammation — has guided development of targeted agents acting at multiple steps of the disease cascade.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "pathology",
+          "biology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "disease mechanism",
+      "disease development process"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "aetiology",
+      "pathophysiology",
+      "disease progression",
+      "molecular mechanism",
+      "clinical manifestation"
+    ]
   },
   {
     "term": "virulence",
@@ -13326,10 +13374,36 @@
   },
   {
     "term": "cytotoxic",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "adjective",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Toxic to living cells; describing agents — including chemotherapy drugs, immune effector cells, and certain natural compounds — that cause cellular death through mechanisms such as DNA damage, apoptosis induction, or membrane disruption.",
+        "example": "Cytotoxic T lymphocytes patrol the body for cells displaying abnormal peptides on their surface, killing virus-infected or malignant cells by delivering perforin and granzyme into the target cell.",
+        "register": "technical",
+        "tags": [
+          "pharmacology",
+          "oncology",
+          "immunology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cell-killing",
+      "cytolytic"
+    ],
+    "antonymTerms": [
+      "cytoprotective"
+    ],
+    "relatedTerms": [
+      "apoptosis",
+      "chemotherapy",
+      "natural killer cell",
+      "antitumour agent",
+      "immunotoxin"
+    ]
   },
   {
     "term": "neoplasm",
@@ -13585,17 +13659,65 @@
   },
   {
     "term": "cardiomyopathy",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A disease of the heart muscle that impairs its ability to pump blood effectively, classified as dilated, hypertrophic, or restrictive based on structural changes, and arising from genetic, inflammatory, ischaemic, or toxic causes.",
+        "example": "Hypertrophic cardiomyopathy, the most common cause of sudden cardiac death in young athletes, results from mutations in sarcomere protein genes that cause pathological thickening of the ventricular walls.",
+        "register": "technical",
+        "tags": [
+          "cardiology",
+          "medicine",
+          "heart disease"
+        ]
+      }
+    ],
+    "synonyms": [
+      "heart muscle disease",
+      "myocardiopathy"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dilated cardiomyopathy",
+      "hypertrophic cardiomyopathy",
+      "heart failure",
+      "arrhythmia",
+      "ejection fraction"
+    ]
   },
   {
     "term": "atherosclerosis",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A chronic inflammatory disease of the arteries characterised by the formation of plaques — accumulations of lipids, macrophages, and fibrous tissue within arterial walls — leading to stenosis, thrombosis, and ischaemic events.",
+        "example": "Long-term statin therapy reduces the risk of atherosclerosis-related events by lowering circulating LDL cholesterol and stabilising existing plaques, reducing the likelihood of rupture and acute myocardial infarction.",
+        "register": "technical",
+        "tags": [
+          "cardiology",
+          "vascular medicine",
+          "pathology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "arterial plaque disease",
+      "arteriosclerosis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "plaque",
+      "coronary artery disease",
+      "myocardial infarction",
+      "LDL cholesterol",
+      "endothelial dysfunction"
+    ]
   },
   {
     "term": "endocarditis",
@@ -13606,10 +13728,36 @@
   },
   {
     "term": "erythema",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Superficial reddening of the skin resulting from dilation of the capillaries, occurring as a response to inflammation, infection, allergy, sunburn, or as a manifestation of systemic disease.",
+        "example": "The characteristic erythema migrans rash — an expanding red circle with central clearing resembling a bull's-eye — is the hallmark early sign of Lyme disease, appearing at the site of a tick bite.",
+        "register": "technical",
+        "tags": [
+          "dermatology",
+          "medicine",
+          "skin"
+        ]
+      }
+    ],
+    "synonyms": [
+      "skin redness",
+      "cutaneous erythema"
+    ],
+    "antonymTerms": [
+      "pallor"
+    ],
+    "relatedTerms": [
+      "inflammation",
+      "urticaria",
+      "vasodilation",
+      "rash",
+      "dermis"
+    ]
   },
   {
     "term": "psoriasis",
@@ -13648,10 +13796,34 @@
   },
   {
     "term": "pruritus",
-    "status": "stub",
+    "status": "enriched",
     "language": "en",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The subjective sensation of itching, arising from stimulation of cutaneous C-fibre afferents by histamine, proteases, or other mediators, and associated with conditions ranging from atopic dermatitis to hepatic disease and haematological malignancy.",
+        "example": "Cholestatic pruritus — the intractable itching caused by bile salt accumulation in the skin of patients with liver disease — can be severe enough to constitute a primary indication for liver transplantation.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "dermatology",
+          "neurology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "itch",
+      "cutaneous itch sensation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "histamine",
+      "atopic dermatitis",
+      "neuropathic itch",
+      "antipruritic",
+      "C-fibre"
+    ]
   },
   {
     "term": "affordance",
@@ -14968,27 +15140,164 @@
   {
     "term": "superalloy",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A high-performance metallic alloy — typically nickel-, cobalt-, or iron-based — engineered to maintain mechanical strength, creep resistance, and oxidation resistance at temperatures approaching or exceeding 1,000°C.",
+        "example": "The turbine blades of jet engines are manufactured from single-crystal nickel superalloys, allowing them to withstand continuous operation at temperatures that would melt conventional steel.",
+        "register": "technical",
+        "tags": [
+          "materials science",
+          "metallurgy",
+          "engineering"
+        ]
+      }
+    ],
+    "synonyms": [
+      "high-temperature alloy",
+      "heat-resistant alloy"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nickel alloy",
+      "creep resistance",
+      "turbine blade",
+      "single-crystal alloy",
+      "refractory metal"
+    ],
+    "tags": []
   },
   {
     "term": "tensile",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Of or relating to tension; describing the stress, strength, or mechanical properties of a material when subjected to pulling or stretching forces along its length.",
+        "example": "The tensile strength of structural steel is typically 400–550 MPa, making it far superior to concrete when loads are applied in tension rather than compression.",
+        "register": "technical",
+        "tags": [
+          "engineering",
+          "materials science",
+          "mechanics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tension-related",
+      "extensional"
+    ],
+    "antonymTerms": [
+      "compressive"
+    ],
+    "relatedTerms": [
+      "tensile strength",
+      "compressive stress",
+      "yield point",
+      "Young's modulus",
+      "stress-strain curve"
+    ],
+    "tags": []
   },
   {
     "term": "wettability",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The tendency of a solid surface to be wetted by a liquid, quantified by the contact angle between the liquid droplet and the surface, and governing processes such as adhesion, coating, lubrication, and oil recovery from porous media.",
+        "example": "Superhydrophobic coatings inspired by the lotus leaf achieve extremely low wettability by creating microscale surface textures that cause water droplets to bead and roll off, carrying contaminants with them.",
+        "register": "technical",
+        "tags": [
+          "materials science",
+          "surface chemistry",
+          "physics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "surface wetting tendency",
+      "contact angle behaviour"
+    ],
+    "antonymTerms": [
+      "non-wettability"
+    ],
+    "relatedTerms": [
+      "contact angle",
+      "hydrophobicity",
+      "hydrophilicity",
+      "surface energy",
+      "capillary action"
+    ],
+    "tags": []
   },
   {
     "term": "magnetostriction",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The change in shape or dimensions of a ferromagnetic material when subjected to a magnetic field, arising from reorientation of magnetic domains, with the inverse effect (Villari effect) producing a change in magnetisation under mechanical strain.",
+        "example": "The low-frequency hum emitted by electrical transformers is primarily caused by magnetostriction, as the laminated iron core alternately expands and contracts in response to the alternating magnetic field.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "materials science",
+          "electromagnetism"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Joule magnetostriction",
+      "magnetic strain effect"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ferromagnetism",
+      "magnetic domain",
+      "piezoelectricity",
+      "Villari effect",
+      "magnetomechanical coupling"
+    ],
+    "tags": []
   },
   {
     "term": "martensitic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Of, relating to, or exhibiting martensite — the hard, brittle microstructure formed in steel and other alloys by rapid quenching, involving a diffusionless shear transformation that produces a body-centred tetragonal crystal lattice.",
+        "example": "Stainless steel surgical instruments undergo martensitic transformation during heat treatment to achieve the combination of hardness and corrosion resistance required for clinical use.",
+        "register": "technical",
+        "tags": [
+          "materials science",
+          "metallurgy",
+          "steel"
+        ]
+      }
+    ],
+    "synonyms": [
+      "martensite-forming",
+      "quench-hardened"
+    ],
+    "antonymTerms": [
+      "austenitic",
+      "ferritic"
+    ],
+    "relatedTerms": [
+      "martensite",
+      "austenite",
+      "quenching",
+      "steel heat treatment",
+      "phase transformation"
+    ],
+    "tags": []
   },
   {
     "term": "albedo",
@@ -19005,7 +19314,33 @@
   {
     "term": "tractography",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A computational neuroimaging technique that uses diffusion-weighted MRI data to reconstruct the trajectories of white-matter fibre tracts in the brain, enabling non-invasive mapping of structural neural connectivity.",
+        "example": "Tractography revealed disruption of the arcuate fasciculus — the white-matter pathway connecting Broca's and Wernicke's areas — in patients with conduction aphasia, confirming its predicted role in speech repetition.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "neuroimaging",
+          "MRI"
+        ]
+      }
+    ],
+    "synonyms": [
+      "fibre tracking",
+      "diffusion tensor tractography"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "diffusion tensor imaging",
+      "white matter",
+      "connectome",
+      "neural pathway",
+      "diffusion MRI"
+    ],
+    "tags": []
   },
   {
     "term": "exteroception",
@@ -19208,7 +19543,35 @@
   {
     "term": "electrotonic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Of or relating to electrotonus — the passive, graded spread of electrical potential through neural tissue without generation of action potentials, governed by the cable properties of dendrites and axons.",
+        "example": "Electrotonic coupling between neurons through gap junctions allows rapid synchronisation of neural activity in oscillating networks, bypassing the synaptic delay inherent in chemical transmission.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "electrophysiology",
+          "neural circuits"
+        ]
+      }
+    ],
+    "synonyms": [
+      "electrotonically coupled",
+      "passive electrical spread"
+    ],
+    "antonymTerms": [
+      "action-potential-driven"
+    ],
+    "relatedTerms": [
+      "cable theory",
+      "gap junction",
+      "length constant",
+      "dendritic integration",
+      "neural synchrony"
+    ],
+    "tags": []
   },
   {
     "term": "epitope",
@@ -19510,106 +19873,671 @@
   {
     "term": "tolerogenesis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The induction of immunological tolerance — a state of specific non-reactivity towards a particular antigen — through mechanisms involving regulatory T cells, clonal deletion, or anergy, applied therapeutically to prevent rejection or autoimmunity.",
+        "example": "Researchers are investigating tolerogenesis-based therapies for autoimmune diseases such as multiple sclerosis, aiming to selectively suppress pathological immune responses while preserving protective immunity against infection.",
+        "register": "technical",
+        "tags": [
+          "immunology",
+          "transplantation",
+          "autoimmunity"
+        ]
+      }
+    ],
+    "synonyms": [
+      "immune tolerance induction",
+      "tolerance generation"
+    ],
+    "antonymTerms": [
+      "immunisation",
+      "sensitisation"
+    ],
+    "relatedTerms": [
+      "regulatory T cell",
+      "clonal deletion",
+      "anergy",
+      "autoimmunity",
+      "graft tolerance"
+    ],
+    "tags": []
   },
   {
     "term": "hematopoiesis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The continuous process by which all blood cell lineages — erythrocytes, leukocytes, and platelets — are produced from haematopoietic stem cells, occurring primarily in the bone marrow in adults.",
+        "example": "Disruption of hematopoiesis by myelosuppressive chemotherapy necessitates careful monitoring of blood counts, as neutrophil depletion leaves patients highly susceptible to life-threatening infections.",
+        "register": "technical",
+        "tags": [
+          "hematology",
+          "immunology",
+          "stem cell biology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "haematopoiesis",
+      "blood cell production"
+    ],
+    "antonymTerms": [
+      "myelosuppression"
+    ],
+    "relatedTerms": [
+      "bone marrow",
+      "haematopoietic stem cell",
+      "erythropoiesis",
+      "leukopoiesis",
+      "myelopoiesis"
+    ],
+    "tags": []
   },
   {
     "term": "redshift",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The increase in wavelength of electromagnetic radiation emitted by a celestial object moving away from the observer, caused by the Doppler effect or the expansion of the universe.",
+        "example": "The redshift of distant galaxies provided Edwin Hubble with key evidence for an expanding universe, as more distant galaxies exhibited proportionally greater redshifts.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "cosmology",
+          "spectroscopy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Doppler redshift",
+      "cosmological redshift"
+    ],
+    "antonymTerms": [
+      "blueshift"
+    ],
+    "relatedTerms": [
+      "blueshift",
+      "Hubble constant",
+      "spectral shift",
+      "recessional velocity",
+      "cosmic expansion"
+    ],
+    "tags": []
   },
   {
     "term": "parallax",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The apparent displacement of a celestial object against the background stars when observed from two different positions, used as a fundamental method to determine the distances of nearby stars.",
+        "example": "Astronomers measured the annual parallax of the nearby star 61 Cygni to calculate its distance from Earth, establishing the first reliable stellar distance measurement in 1838.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "astrometry",
+          "measurement"
+        ]
+      }
+    ],
+    "synonyms": [
+      "stellar parallax",
+      "trigonometric parallax"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "parsec",
+      "light-year",
+      "astrometry",
+      "proper motion",
+      "distance modulus"
+    ],
+    "tags": []
   },
   {
     "term": "parsec",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A unit of astronomical distance equal to the distance at which one astronomical unit subtends an angle of one arcsecond, approximately 3.26 light-years or 3.09 × 10¹³ kilometres.",
+        "example": "The nearest star system, Alpha Centauri, lies approximately 1.34 parsecs from the Sun, making it one of the few stellar objects close enough for direct parallax measurement.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "measurement",
+          "distance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "parallax second",
+      "3.26 light-years"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "parallax",
+      "light-year",
+      "kiloparsec",
+      "megaparsec",
+      "astrometry"
+    ],
+    "tags": []
   },
   {
     "term": "quasar",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An extremely luminous active galactic nucleus powered by a supermassive black hole accreting matter, observable at cosmological distances and among the brightest and most energetic objects in the observable universe.",
+        "example": "The quasar 3C 273, discovered in 1963, was the first to be identified as such; it emits roughly 40 trillion times the luminosity of the Sun and lies over two billion light-years from Earth.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "cosmology",
+          "astrophysics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "quasi-stellar object",
+      "QSO"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "black hole",
+      "accretion disc",
+      "active galactic nucleus",
+      "blazar",
+      "radio galaxy"
+    ],
+    "tags": []
   },
   {
     "term": "pulsar",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A highly magnetised rotating neutron star that emits beams of electromagnetic radiation from its magnetic poles, detectable as extremely regular pulses as the beam sweeps past Earth.",
+        "example": "The pulsar PSR B1919+21, discovered by Jocelyn Bell Burnell in 1967, was so regular in its pulsations that it was initially nicknamed 'LGM-1', hinting at an artificial origin before its natural nature was confirmed.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "stellar physics",
+          "neutron star"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rotating neutron star",
+      "radio pulsar"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "neutron star",
+      "magnetar",
+      "supernova remnant",
+      "radio astronomy",
+      "spin period"
+    ],
+    "tags": []
   },
   {
     "term": "magnetar",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A neutron star with an exceptionally powerful magnetic field — orders of magnitude stronger than that of an ordinary pulsar — capable of releasing enormous bursts of X-ray and gamma-ray energy.",
+        "example": "The magnetar SGR 1806-20 released more energy in a 0.2-second burst in 2004 than the Sun emits in 250,000 years, briefly saturating gamma-ray detectors across the solar system.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "stellar physics",
+          "neutron star"
+        ]
+      }
+    ],
+    "synonyms": [
+      "soft gamma repeater",
+      "anomalous X-ray pulsar"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pulsar",
+      "neutron star",
+      "gamma-ray burst",
+      "magnetic field",
+      "stellar remnant"
+    ],
+    "tags": []
   },
   {
     "term": "nucleosynthesis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The process by which atomic nuclei heavier than hydrogen are created from pre-existing nucleons in stellar interiors, supernovae, and neutron star mergers, accounting for the observed cosmic abundances of the elements.",
+        "example": "Carbon and oxygen, essential for life, are produced by nucleosynthesis within massive stars through successive fusion reactions and are dispersed into the interstellar medium when those stars explode as supernovae.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "astrophysics",
+          "nuclear physics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "stellar nucleosynthesis",
+      "element synthesis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "stellar evolution",
+      "supernova",
+      "Big Bang nucleosynthesis",
+      "nuclear fusion",
+      "element abundance"
+    ],
+    "tags": []
   },
   {
     "term": "asteroseismology",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The study of oscillations within stars, analogous to terrestrial seismology, used to probe stellar interiors and determine fundamental properties such as mass, radius, age, and internal chemical composition.",
+        "example": "NASA's Kepler space telescope provided asteroseismology data for thousands of stars simultaneously, enabling precise measurements of stellar ages that constrained models of galactic evolution.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "stellar physics",
+          "helioseismology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "stellar seismology",
+      "stellar oscillation study"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "helioseismology",
+      "stellar oscillation",
+      "p-modes",
+      "g-modes",
+      "stellar interior"
+    ],
+    "tags": []
   },
   {
     "term": "exoplanet",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A planet that orbits a star other than the Sun, detected by methods including the transit technique and radial velocity measurements, with thousands now catalogued across a wide range of masses and orbital configurations.",
+        "example": "The first confirmed exoplanet around a sun-like star, 51 Pegasi b, was discovered in 1995 using the radial velocity method and found to be a 'hot Jupiter' — a gas giant orbiting far closer to its host star than Mercury orbits the Sun.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "planetary science",
+          "astrobiology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "extrasolar planet",
+      "extra-solar planet"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "transit photometry",
+      "radial velocity",
+      "habitable zone",
+      "hot Jupiter",
+      "planetary atmosphere"
+    ],
+    "tags": []
   },
   {
     "term": "perihelion",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The point in the orbit of a planet, comet, or other solar-system body at which it is closest to the Sun, contrasted with aphelion at the farthest point.",
+        "example": "Earth reaches its perihelion in early January each year at approximately 147 million kilometres from the Sun — illustrating that axial tilt, not orbital distance, governs terrestrial seasons.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "orbital mechanics",
+          "solar system"
+        ]
+      }
+    ],
+    "synonyms": [
+      "closest solar approach",
+      "periapsis"
+    ],
+    "antonymTerms": [
+      "aphelion"
+    ],
+    "relatedTerms": [
+      "aphelion",
+      "orbital eccentricity",
+      "Kepler's laws",
+      "orbital mechanics",
+      "apsides"
+    ],
+    "tags": []
   },
   {
     "term": "syzygy",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An alignment of three or more celestial bodies in a straight or nearly straight configuration, such as the Sun, Earth, and Moon during an eclipse or at full and new moon phases.",
+        "example": "The total solar eclipse of 2017 was the result of a precise syzygy in which the Moon passed directly between Earth and the Sun, casting a narrow shadow across the continental United States.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "orbital mechanics",
+          "eclipse"
+        ]
+      }
+    ],
+    "synonyms": [
+      "celestial alignment",
+      "orbital conjunction"
+    ],
+    "antonymTerms": [
+      "quadrature"
+    ],
+    "relatedTerms": [
+      "eclipse",
+      "conjunction",
+      "opposition",
+      "lunar cycle",
+      "gravitational alignment"
+    ],
+    "tags": []
   },
   {
     "term": "thermohaline",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Relating to oceanic circulation driven by differences in water density arising from variations in temperature and salinity, forming a global conveyor belt of deep and surface ocean currents that redistributes heat across the planet.",
+        "example": "The thermohaline circulation transports warm surface water from the tropics northward into the North Atlantic, where it cools, becomes denser, and sinks to drive a deep ocean return flow.",
+        "register": "technical",
+        "tags": [
+          "oceanography",
+          "climate science",
+          "ocean circulation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "density-driven circulation",
+      "thermohaline overturning"
+    ],
+    "antonymTerms": [
+      "wind-driven circulation"
+    ],
+    "relatedTerms": [
+      "Atlantic meridional overturning circulation",
+      "salinity",
+      "ocean heat transport",
+      "deep water formation",
+      "climate regulation"
+    ],
+    "tags": []
   },
   {
     "term": "permafrost",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Ground — including soil, sediment, and rock — that remains at or below 0°C for at least two consecutive years, covering approximately 24% of Earth's land surface and acting as a large reservoir of organic carbon.",
+        "example": "As Arctic temperatures rise at more than twice the global average rate, permafrost thaw is releasing previously locked stores of methane and carbon dioxide, creating a positive feedback loop that accelerates climate change.",
+        "register": "technical",
+        "tags": [
+          "climate science",
+          "cryosphere",
+          "Arctic"
+        ]
+      }
+    ],
+    "synonyms": [
+      "permanently frozen ground",
+      "pergelisol"
+    ],
+    "antonymTerms": [
+      "active layer"
+    ],
+    "relatedTerms": [
+      "cryosphere",
+      "active layer",
+      "thermokarst",
+      "methane emission",
+      "Arctic amplification"
+    ],
+    "tags": []
   },
   {
     "term": "cryosphere",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The component of the Earth system comprising all frozen water, including sea ice, glaciers, ice sheets, ice shelves, permafrost, and seasonal snow cover, playing a critical role in regulating global climate, sea level, and freshwater supply.",
+        "example": "Satellite observations have documented a decline in cryosphere extent over recent decades, with Arctic summer sea-ice area shrinking by roughly 13% per decade since reliable records began in 1979.",
+        "register": "technical",
+        "tags": [
+          "climate science",
+          "glaciology",
+          "sea ice"
+        ]
+      }
+    ],
+    "synonyms": [
+      "frozen water sphere",
+      "ice component of Earth system"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "permafrost",
+      "sea ice",
+      "glacier",
+      "ice sheet",
+      "albedo feedback"
+    ],
+    "tags": []
   },
   {
     "term": "paleoclimate",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The climate of a past geological period, reconstructed from proxy records such as ice cores, tree rings, pollen, coral skeletons, and sediment layers, used to understand natural climate variability and calibrate projections of future change.",
+        "example": "Ice core records from Antarctica extend paleoclimate reconstruction back 800,000 years, revealing a tight correlation between atmospheric CO₂ concentration and global temperature across multiple glacial–interglacial cycles.",
+        "register": "technical",
+        "tags": [
+          "climate science",
+          "geology",
+          "climate history"
+        ]
+      }
+    ],
+    "synonyms": [
+      "past climate",
+      "ancient climate record"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ice core",
+      "proxy record",
+      "glacial cycle",
+      "Holocene",
+      "climate forcing"
+    ],
+    "tags": []
   },
   {
     "term": "teleconnection",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A statistically significant correlation between climate anomalies in geographically remote regions, arising from large-scale patterns in atmospheric or oceanic circulation that transmit climate signals across thousands of kilometres.",
+        "example": "The El Niño teleconnection links sea-surface temperature anomalies in the tropical Pacific to drought in Australia, heavy rainfall in South America, and altered storm tracks across North America and Europe.",
+        "register": "technical",
+        "tags": [
+          "climate science",
+          "meteorology",
+          "atmospheric dynamics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "remote climate link",
+      "atmospheric teleconnection"
+    ],
+    "antonymTerms": [
+      "local climate pattern"
+    ],
+    "relatedTerms": [
+      "El Niño",
+      "ENSO",
+      "atmospheric circulation",
+      "North Atlantic Oscillation",
+      "climate variability"
+    ],
+    "tags": []
   },
   {
     "term": "insolation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The amount of solar radiation received per unit area at a given location on Earth's surface or atmosphere, varying with latitude, season, time of day, and atmospheric conditions, and serving as the primary driver of Earth's climate system.",
+        "example": "Variations in Earth's orbital parameters modulate insolation at high northern latitudes over tens to hundreds of thousands of years, driving the glacial–interglacial cycles documented in paleoclimate records.",
+        "register": "technical",
+        "tags": [
+          "climate science",
+          "meteorology",
+          "solar radiation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "solar irradiance",
+      "incoming solar radiation"
+    ],
+    "antonymTerms": [
+      "outgoing longwave radiation"
+    ],
+    "relatedTerms": [
+      "Milankovitch cycles",
+      "albedo",
+      "radiative forcing",
+      "shortwave radiation",
+      "solar constant"
+    ],
+    "tags": []
   },
   {
     "term": "phenology",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The study of cyclic and seasonal natural phenomena, particularly the timing of biological events such as flowering, leaf-out, migration, and breeding, and their relationship to climate and environmental conditions.",
+        "example": "Long-term phenology records show that spring flowering dates for many plant species in the UK have advanced by roughly two to three weeks over the past century, consistent with the documented warming trend.",
+        "register": "technical",
+        "tags": [
+          "climate science",
+          "ecology",
+          "biology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "seasonal ecology",
+      "biological seasonality study"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "growing season",
+      "spring bloom",
+      "ecological mismatch",
+      "climate indicators",
+      "biological timing"
+    ],
+    "tags": []
   },
   {
     "term": "aerosol",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A suspension of fine solid particles or liquid droplets in a gas, particularly the atmosphere, encompassing naturally occurring particles (sea salt, dust, volcanic ash) and anthropogenic emissions (soot, sulfate), which affect climate by scattering solar radiation and altering cloud properties.",
+        "example": "The 1991 eruption of Mount Pinatubo injected approximately 20 million tonnes of sulfur dioxide into the stratosphere, forming a global aerosol layer that cooled global mean temperatures by roughly 0.5°C for the following two years.",
+        "register": "technical",
+        "tags": [
+          "climate science",
+          "atmospheric chemistry",
+          "pollution"
+        ]
+      }
+    ],
+    "synonyms": [
+      "atmospheric particulate",
+      "airborne particle suspension"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "radiative forcing",
+      "sulfate aerosol",
+      "cloud condensation nuclei",
+      "direct aerosol effect",
+      "air quality"
+    ],
+    "tags": []
   }
 ]
