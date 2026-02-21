@@ -18840,7 +18840,7 @@
     "term": "mėnuo",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "One of the twelve periods into which a year is divided, lasting 28 to 31 days.",
@@ -18858,7 +18858,9 @@
     "relatedTerms": [
       "metai",
       "savaitė",
-      "diena"
+      "diena",
+      "data",
+      "kalendorius"
     ],
     "translation": "month"
   },
@@ -18866,7 +18868,7 @@
     "term": "metai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A period of twelve months, especially from 1 January to 31 December.",
@@ -18884,7 +18886,9 @@
     "relatedTerms": [
       "mėnuo",
       "savaitė",
-      "diena"
+      "diena",
+      "sezonas",
+      "kalendorius"
     ],
     "translation": "year"
   },
@@ -19174,7 +19178,7 @@
     "term": "Platus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having a great extent from one side to the other.",
@@ -19194,9 +19198,9 @@
       "siauras"
     ],
     "relatedTerms": [
-      "siauras",
       "ilgas",
-      "didelis"
+      "didelis",
+      "plotis"
     ],
     "translation": "wide, broad"
   },
@@ -19391,7 +19395,7 @@
     "term": "po to",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Following something in time; subsequently.",
@@ -19413,8 +19417,8 @@
     ],
     "relatedTerms": [
       "tada",
-      "paskui",
-      "pirma"
+      "pirma",
+      "tuomet"
     ],
     "translation": "after that, then, afterwards"
   },
@@ -19906,7 +19910,7 @@
     "term": "vasaris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The second month of the year, the shortest month, in the middle of winter.",
@@ -19999,7 +20003,7 @@
     "term": "rugsėjis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The ninth month of the year, marking the start of autumn and the new school year.",
@@ -20334,7 +20338,7 @@
     "term": "namas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A building designed for people to live in; one's place of residence.",
@@ -20354,7 +20358,9 @@
     "relatedTerms": [
       "butas",
       "svetainė",
-      "virtuvė"
+      "virtuvė",
+      "kambaris",
+      "garažas"
     ],
     "translation": "house; home; building"
   },
@@ -20560,7 +20566,7 @@
     "term": "atidaryti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To move so as to uncover or allow access; to make open.",
@@ -20572,14 +20578,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atverti"
+    ],
     "antonymTerms": [
       "uždaryti"
     ],
     "relatedTerms": [
-      "uždaryti",
       "durys",
-      "langas"
+      "langas",
+      "spyna"
     ],
     "translation": "to open"
   },
@@ -20587,7 +20595,7 @@
     "term": "uždaryti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To move so as to cover an opening; to shut.",
@@ -20606,9 +20614,9 @@
       "atidaryti"
     ],
     "relatedTerms": [
-      "atidaryti",
       "durys",
-      "langas"
+      "langas",
+      "spyna"
     ],
     "translation": "to close"
   },
@@ -21287,7 +21295,7 @@
     "term": "Švarus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Free from dirt, marks, or stains.",
@@ -21300,7 +21308,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tyras"
+    ],
     "antonymTerms": [
       "nešvarus",
       "purvinas"
@@ -21308,7 +21318,7 @@
     "relatedTerms": [
       "tvarkingas",
       "valyti",
-      "purvinas"
+      "higiena"
     ],
     "translation": "clean"
   },
@@ -21316,7 +21326,7 @@
     "term": "tvarkingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Arranged neatly and in order; well organised.",
@@ -21329,14 +21339,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sutvarkytas"
+    ],
     "antonymTerms": [
       "netvarkingas"
     ],
     "relatedTerms": [
       "švarus",
       "tvarka",
-      "netvarkingas"
+      "organizuotas"
     ],
     "translation": "tidy, neat, orderly"
   },
@@ -21729,7 +21741,7 @@
     "term": "lietus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Water that falls from clouds in drops.",
@@ -21803,7 +21815,7 @@
     "term": "sniegas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "White frozen water that falls from the sky in winter.",
@@ -21821,7 +21833,9 @@
     "relatedTerms": [
       "žiema",
       "šaltis",
-      "rogelės"
+      "rogelės",
+      "ledas",
+      "pusnis"
     ],
     "translation": "snow"
   },
@@ -21895,7 +21909,7 @@
     "term": "vėjas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The natural movement of air from an area of high pressure to one of low pressure.",
@@ -21913,7 +21927,9 @@
     "relatedTerms": [
       "audra",
       "debesis",
-      "oras"
+      "oras",
+      "gūsis",
+      "viesulas"
     ],
     "translation": "wind"
   },
@@ -21921,7 +21937,7 @@
     "term": "audra",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A violent disturbance of the atmosphere with strong winds, heavy rain, or thunder.",
@@ -21935,7 +21951,8 @@
       }
     ],
     "synonyms": [
-      "neganda"
+      "neganda",
+      "vėtra"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -22004,7 +22021,7 @@
     "term": "šaltis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A low temperature; the feeling of cold weather.",
@@ -22109,7 +22126,7 @@
     "term": "žaibas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A flash of very bright light in the sky during a thunderstorm.",
@@ -22127,7 +22144,9 @@
     "relatedTerms": [
       "perkūnija",
       "griaustinis",
-      "audra"
+      "audra",
+      "lietus",
+      "dangus"
     ],
     "translation": "lightning"
   },
@@ -22223,7 +22242,7 @@
     "term": "debesis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A visible mass of condensed water vapour floating in the sky.",
@@ -22260,7 +22279,7 @@
     "term": "rūkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Thick cloud of tiny water droplets close to the ground that reduces visibility.",
@@ -22288,7 +22307,7 @@
     "term": "debesuotas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Covered with clouds; lacking sunshine.",
@@ -22351,7 +22370,7 @@
     "term": "saulėtas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Bright with sunlight; having much sunshine.",
@@ -23640,7 +23659,7 @@
     "term": "kuprinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A bag with shoulder straps worn on the back, typically used by students to carry books and supplies.",
@@ -26271,7 +26290,7 @@
     "term": "pieštukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A thin writing instrument with a graphite core, used for drawing or writing.",
@@ -26291,7 +26310,8 @@
     "relatedTerms": [
       "trintukas",
       "piešti",
-      "rašiklis"
+      "rašiklis",
+      "liniuotė"
     ],
     "translation": "pencil"
   },
@@ -26299,7 +26319,7 @@
     "term": "popieriaus lapas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A single flat piece of paper used for writing or drawing.",
@@ -26327,7 +26347,7 @@
     "term": "sąsiuvinis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A book of blank or ruled pages used by students for writing notes or completing exercises.",
@@ -26340,7 +26360,7 @@
       }
     ],
     "synonyms": [
-      "bloknōtas"
+      "bloknotas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -26354,7 +26374,7 @@
     "term": "segtuvas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A device that fastens sheets of paper together using metal staples.",
@@ -26389,7 +26409,7 @@
     "term": "skaičiuoklė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An electronic device used to perform arithmetic calculations.",
@@ -26406,7 +26426,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "matematika",
-      "egzaminas"
+      "egzaminas",
+      "skaičiavimas",
+      "formulė"
     ],
     "translation": "calculator"
   },
@@ -26425,7 +26447,7 @@
     "term": "trintukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small piece of rubber used to remove pencil marks from paper.",
@@ -26442,7 +26464,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "pieštukas",
-      "trinti"
+      "trinti",
+      "klaida",
+      "popierius"
     ],
     "translation": "eraser, rubber"
   },
@@ -26505,7 +26529,7 @@
     "term": "tušinukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A pen that uses a small rotating ball to apply ink to paper.",
@@ -26524,8 +26548,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "pieštukas",
-      "rašiklis",
-      "rašyti"
+      "rašyti",
+      "popierius"
     ],
     "translation": "ballpoint pen"
   },
@@ -26533,7 +26557,7 @@
     "term": "žirklės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A cutting tool consisting of two blades joined at a pivot, used to cut paper, fabric, or other materials.",
@@ -26551,7 +26575,8 @@
     "relatedTerms": [
       "klijai",
       "popieriaus lapas",
-      "dailė"
+      "dailė",
+      "pjaustyti"
     ],
     "translation": "scissors"
   },
@@ -26559,7 +26584,7 @@
     "term": "liniuotė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A straight-edged measuring tool used for drawing lines or measuring distances.",
@@ -26576,7 +26601,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "pieštukas",
-      "matematika"
+      "matematika",
+      "matavimas",
+      "brėžinys"
     ],
     "translation": "ruler"
   },
@@ -26617,7 +26644,7 @@
     "term": "rašiklis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A writing instrument that applies ink to a surface, used for writing or signing.",
@@ -26733,7 +26760,7 @@
     "term": "pertrauka",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A short period of time between lessons when pupils rest or play.",
@@ -26752,8 +26779,9 @@
       "pamoka"
     ],
     "relatedTerms": [
-      "pamoka",
-      "tvarkaraštis"
+      "tvarkaraštis",
+      "poilsis",
+      "žaidimas"
     ],
     "translation": "break, recess"
   },
@@ -26794,7 +26822,7 @@
     "term": "direktorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The person in charge of a school or organisation.",
@@ -26806,7 +26834,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vadovas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "direktorė",
@@ -26819,7 +26849,7 @@
     "term": "direktorė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who is the head of a school or organisation.",
@@ -26831,7 +26861,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vadovė"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "direktorius",
