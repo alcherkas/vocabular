@@ -12477,7 +12477,7 @@
   },
   {
     "term": "periglacial",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -12548,7 +12548,7 @@
   },
   {
     "term": "nunatak",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -15127,7 +15127,7 @@
   {
     "term": "denitrification",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15162,7 +15162,7 @@
   {
     "term": "ecotone",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15363,7 +15363,7 @@
   {
     "term": "methanogenesis",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -15432,7 +15432,7 @@
   {
     "term": "riparian",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -17037,7 +17037,7 @@
   {
     "term": "tessitura",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17066,12 +17066,13 @@
       "voice type",
       "mezzo-soprano",
       "timbre"
-    ]
+    ],
+    "qaNote": "Synonym 'vocal range' is inaccurate: vocal range denotes the full span of pitches a voice can produce, whereas tessitura is the portion of that range where the notes of a particular role or piece predominantly lie. Replace 'vocal range' with a more precise term. Additionally, 'natural register' conflates tessitura with vocal register (chest, head), which denotes a qualitatively different resonance area, not the prevalent pitch zone of a piece."
   },
   {
     "term": "leitmotif",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17100,12 +17101,13 @@
       "program music",
       "opera",
       "Wagner"
-    ]
+    ],
+    "qaNote": "Synonym 'musical motif' is too broad: all leitmotifs are motifs, but not all motifs are leitmotifs. A leitmotif is specifically a recurring theme with a fixed dramatic association; a motif is simply any short musical idea. Remove or replace 'musical motif' with a more precise term."
   },
   {
     "term": "melisma",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17134,12 +17136,13 @@
       "ornamentation",
       "neumatic",
       "plainchant"
-    ]
+    ],
+    "qaNote": "Synonym 'melismatic passage' is self-referential: 'melismatic' is the adjectival form of 'melisma', making the phrase a restatement of the defined term rather than a true synonym. Remove or replace."
   },
   {
     "term": "microtonal",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "adjective",
     "tags": [],
     "meanings": [
@@ -17168,12 +17171,13 @@
       "microtonality",
       "just intonation",
       "temperament"
-    ]
+    ],
+    "qaNote": "Synonym 'quarter-tone' is too specific: quarter-tone music is one subtype of microtonal music; microtonal encompasses any interval smaller than a semitone, not only quarter-tones. Replace 'quarter-tone' with a more general synonym."
   },
   {
     "term": "serialism",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17203,12 +17207,13 @@
       "Schoenberg",
       "pitch class set",
       "integral serialism"
-    ]
+    ],
+    "qaNote": "Synonym 'twelve-tone technique' is narrower than serialism: serialism can organise pitch, rhythm, dynamics, and timbre into fixed series, whereas twelve-tone technique serialises pitch only. The two terms are not interchangeable. Additionally, 'serial composition' is a self-referential adjectival form of the head term. Replace or clarify."
   },
   {
     "term": "dodecaphony",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17239,12 +17244,13 @@
       "Webern",
       "Berg",
       "pitch class"
-    ]
+    ],
+    "qaNote": "Synonym 'serial music' is broader than dodecaphony: serial music encompasses any use of fixed parametric series (pitch, rhythm, dynamics), whereas dodecaphony specifically organises the twelve chromatic pitches into an ordered row. Replace 'serial music' with a more precise synonym."
   },
   {
     "term": "polyrhythm",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17275,12 +17281,13 @@
       "rhythm",
       "polyphony",
       "African music"
-    ]
+    ],
+    "qaNote": "Synonym 'polymeter' is a distinct concept: polymeter is the simultaneous use of different time signatures (e.g. 3/4 against 4/4), whereas polyrhythm is the simultaneous use of conflicting rhythmic patterns within a shared metric framework. Replace 'polymeter' with an accurate synonym."
   },
   {
     "term": "ostinato",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17310,12 +17317,13 @@
       "chaconne",
       "pedal point",
       "groove"
-    ]
+    ],
+    "qaNote": "Synonym 'ground bass' is a subtype of ostinato confined to the bass voice and cannot serve as a generic synonym for ostinato, which may appear in any voice or instrument. Synonym 'riff' is an informal, genre-specific term (jazz/rock) with different connotations from the classical ostinato concept. Replace both with more accurate synonyms."
   },
   {
     "term": "enharmonic",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "adjective",
     "tags": [],
     "meanings": [
@@ -17345,12 +17353,13 @@
       "chromatic scale",
       "accidental",
       "respelling"
-    ]
+    ],
+    "qaNote": "Synonym 'enharmonically equivalent' is self-referential (adjectival form of 'enharmonic'). Synonym 'homophonic pitch' is incorrect: 'homophonic' denotes a musical texture (melody with chordal accompaniment), not pitch equivalence — the intended concept is pitch identity at different notational spellings. Remove both and replace with accurate synonyms."
   },
   {
     "term": "heterophony",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17385,7 +17394,7 @@
   {
     "term": "organum",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17416,12 +17425,13 @@
       "melisma",
       "Leonin",
       "Perotin"
-    ]
+    ],
+    "qaNote": "Synonym 'parallel organum' is self-referential: it contains 'organum', the very term being defined. Remove or replace."
   },
   {
     "term": "continuo",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17455,7 +17465,7 @@
   {
     "term": "tenebrism",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17486,12 +17496,13 @@
       "Baroque painting",
       "shadow",
       "contrast"
-    ]
+    ],
+    "qaNote": "Synonym 'chiaroscuro painting' is too broad: chiaroscuro is any use of strong light–shadow contrast, whereas tenebrism is the extreme form in which figures emerge from near-total background darkness. Synonym 'Caravaggism' encompasses the full stylistic legacy of Caravaggio, which extends beyond the single technique of tenebrism. Replace both with more precise synonyms."
   },
   {
     "term": "sfumato",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17528,7 +17539,7 @@
   {
     "term": "impasto",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17560,12 +17571,13 @@
       "oil painting",
       "Van Gogh",
       "expressionism"
-    ]
+    ],
+    "qaNote": "Synonym 'heavy impasto' is self-referential, containing the term being defined. Remove or replace."
   },
   {
     "term": "pentimento",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17601,7 +17613,7 @@
   {
     "term": "iconoclasm",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17632,12 +17644,13 @@
       "iconophile",
       "Reformation",
       "Byzantine art"
-    ]
+    ],
+    "qaNote": "Synonym 'aniconism' is a distinct concept: aniconism is the principled avoidance or prohibition of figurative representation, whereas iconoclasm is the active destruction of existing religious images. The two terms are not synonymous. Replace 'aniconism' with an accurate synonym."
   },
   {
     "term": "contrapposto",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17669,12 +17682,13 @@
       "Michelangelo",
       "relief",
       "anatomical realism"
-    ]
+    ],
+    "qaNote": "Synonym 'classical pose' is too vague: many classical poses (frontal, hieratic, etc.) are not contrapposto. The defining feature — shifted weight distribution causing opposing hip-shoulder tilt — is not captured by 'classical pose'. Replace with a more specific descriptor."
   },
   {
     "term": "grisaille",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17705,12 +17719,13 @@
       "camaïeu",
       "predella",
       "altarpiece"
-    ]
+    ],
+    "qaNote": "Synonym 'en grisaille' is the French orthographic form of the same term and is therefore self-referential rather than a true synonym. Remove or replace."
   },
   {
     "term": "veduta",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17745,7 +17760,7 @@
   {
     "term": "verism",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17777,12 +17792,13 @@
       "mimesis",
       "social realism",
       "trompe-l'oeil"
-    ]
+    ],
+    "qaNote": "Synonym 'hyper-realism' refers to a distinct 20th-century artistic movement (photorealistic painting and sculpture) and should not be conflated with verism, which denotes the ancient and early modern tradition of unidealized portraiture. Replace 'hyper-realism' with an accurate synonym."
   },
   {
     "term": "sgraffito",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17818,7 +17834,7 @@
   {
     "term": "encaustic",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17848,12 +17864,13 @@
       "Fayum portraits",
       "pigment",
       "wax medium"
-    ]
+    ],
+    "qaNote": "Synonym 'encaustic painting' is self-referential, containing the term being defined. Remove or replace."
   },
   {
     "term": "triptych",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17883,12 +17900,13 @@
       "predella",
       "panel painting",
       "wings"
-    ]
+    ],
+    "qaNote": "Synonym 'triptyque' is the French orthographic form of 'triptych' and is therefore self-referential rather than a genuine synonym. Remove or replace. Additionally, antonyms 'diptych' and 'polyptych' are parallel panel-count variants in the same category rather than true antonyms; consider relocating them to relatedTerms."
   },
   {
     "term": "narratology",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17925,7 +17943,7 @@
   {
     "term": "anachrony",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17962,7 +17980,7 @@
   {
     "term": "focalization",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -17992,12 +18010,13 @@
       "Genette",
       "internal focalization",
       "diegesis"
-    ]
+    ],
+    "qaNote": "Antonym 'zero focalization' is misclassified: in Genette's narratological taxonomy, zero focalization (unlimited omniscient access) is a type of focalization, not its antonym. Remove from antonymTerms or relocate to relatedTerms."
   },
   {
     "term": "heteroglossia",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
@@ -18028,12 +18047,13 @@
       "carnivalesque",
       "register",
       "social language"
-    ]
+    ],
+    "qaNote": "Synonym 'polyphony' is inaccurate: in Bakhtinian theory, polyphony describes a novel in which characters speak with fully independent, equally weighted voices, while heteroglossia denotes the coexistence of multiple social registers and languages within a single text. They are related but conceptually distinct terms. Replace 'polyphony' with a more accurate synonym."
   },
   {
     "term": "intertextuality",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "tags": [],
     "meanings": [
