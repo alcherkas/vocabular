@@ -17709,7 +17709,7 @@
     "term": "kilogramas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pagrindinė masės matavimo vienetų sistemos (SI) vienetas, lygus tūkstančiui gramų.",
@@ -17724,7 +17724,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gramas",
+      "tona",
+      "svoris",
+      "svėrimas"
+    ],
     "translation": "kilogram"
   },
   {
@@ -19313,7 +19318,7 @@
     "term": "vaikščioti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Eisena pėsčiomis kaip kasdienė veikla ar mankšta.",
@@ -19336,16 +19341,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "žingsniuoti"
+    ],
+    "antonymTerms": [
+      "stovėti",
+      "sėdėti"
+    ],
+    "relatedTerms": [
+      "ėjimas",
+      "žingsnis",
+      "kelias"
+    ],
     "translation": "to walk"
   },
   {
     "term": "eiti pasivaikščioti",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Išeiti iš namų pasivaikščioti lauke dėl malonumo ar sveikatos.",
@@ -19360,7 +19374,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pasivaikščiojimas",
+      "parkas",
+      "gamta"
+    ],
     "translation": "to go for a walk"
   },
   {
@@ -20546,7 +20564,7 @@
     "term": "bauda",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Piniginė ar kitokia sankcija už taisyklių pažeidimą, pvz., sporto varžybose ar eisme.",
@@ -20569,16 +20587,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nuobauda"
+    ],
+    "antonymTerms": [
+      "atlygis",
+      "premija"
+    ],
+    "relatedTerms": [
+      "bausmė",
+      "teisėjas",
+      "taisyklė"
+    ],
     "translation": "penalty"
   },
   {
     "term": "greitis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Judėjimo sparta; keliu ar trasą nueinamas atstumas per laiko vienetą.",
@@ -20600,9 +20627,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sparta"
+    ],
+    "antonymTerms": [
+      "lėtumas"
+    ],
+    "relatedTerms": [
+      "greitumas",
+      "pagreitis",
+      "kilometras"
+    ],
     "translation": "speed"
   },
   {
@@ -26294,7 +26329,7 @@
     "term": "sportbačiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Specialūs batai sportui ir fizinei veiklai, užtikrinantys amortizaciją ir patogumą.",
@@ -26309,7 +26344,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "batai",
+      "kojinės",
+      "sportas",
+      "bėgimas"
+    ],
     "translation": "sports shoes"
   },
   {
@@ -26514,7 +26554,7 @@
     "term": "maudymosi kostiumėlis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Apranga plaukimui ar maudymuisi, pritaikyta vandeniui.",
@@ -26529,7 +26569,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "maudymasis",
+      "baseinas",
+      "paplūdimys",
+      "plaukimas"
+    ],
     "translation": "swimsuit"
   },
   {
@@ -27450,7 +27495,7 @@
     "term": "figūra",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kūno forma ir išvaizda, ypač raumenų ir riebalų santykis.",
@@ -27473,16 +27518,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "siluetas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "forma",
+      "kūnas",
+      "linija",
+      "geometrija"
+    ],
     "translation": "figure"
   },
   {
     "term": "lieknas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turintis ploną, proporcingą kūno sudėjimą; neturintis perteklinio svorio.",
@@ -27495,16 +27547,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "plonas",
+      "grakštus"
+    ],
+    "antonymTerms": [
+      "storas",
+      "nutukęs"
+    ],
+    "relatedTerms": [
+      "sveikata",
+      "kūnas",
+      "svoris"
+    ],
     "translation": "slim"
   },
   {
     "term": "ūgis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žmogaus kūno aukštis nuo žemės iki galvos viršaus, matuojamas centimetrais.",
@@ -27519,14 +27581,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "svoris",
+      "kūnas",
+      "augimas",
+      "centimetras"
+    ],
     "translation": "height"
   },
   {
     "term": "svoris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kūno masė, matuojama kilogramais; svarbūs skaičiai sveikatai ir sportui.",
@@ -27550,9 +27617,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "masė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kilogramas",
+      "ūgis",
+      "svėrimas",
+      "kūnas"
+    ],
     "translation": "weight"
   },
   {
@@ -33461,7 +33535,7 @@
     "term": "mankštintis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atlikti fizinius pratimus sveikatos, formos palaikymui ar sportiniam pasirengimui.",
@@ -33484,9 +33558,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "treniruotis"
+    ],
+    "antonymTerms": [
+      "tingėti"
+    ],
+    "relatedTerms": [
+      "sportas",
+      "fizinis aktyvumas",
+      "pratimas"
+    ],
     "translation": "to exercise"
   },
   {
@@ -34938,7 +35020,7 @@
     "term": "meškerė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ilga lazda su meškere ir kabliuku, naudojama žvejybai.",
@@ -34953,7 +35035,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žvejyba",
+      "žuvis",
+      "tvenkinys",
+      "vanduo"
+    ],
     "translation": "fishing rod"
   },
   {
@@ -34990,7 +35077,7 @@
     "term": "baidarė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A narrow, covered boat propelled by a double-bladed paddle, used for water sport and touring.",
@@ -35014,8 +35101,7 @@
       "upė",
       "ežeras"
     ],
-    "translation": "kayak, canoe",
-    "qa_notes": "Synonym 'kanoja' (canoe) is not a true synonym: the entry definition specifies a double-bladed paddle and covered deck—i.e., a kayak. A canoe uses a single-blade paddle and is open. Remove 'kanoja' from synonyms and add it to relatedTerms instead."
+    "translation": "kayak, canoe"
   },
   {
     "term": "miegmaišis",
@@ -35138,7 +35224,7 @@
     "term": "kurti laužą",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sudėti malkas ir uždegti laužą lauke, pvz., stovyklavietėje.",
@@ -35153,14 +35239,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "laužas",
+      "malka",
+      "ugnis",
+      "gamta"
+    ],
     "translation": "to build a bonfire"
   },
   {
     "term": "pasiklysti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Prarasti orientaciją ir nežinoti kelio; nuklysti nuo maršruto.",
@@ -35174,15 +35265,22 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "orientuotis"
+    ],
+    "relatedTerms": [
+      "kelias",
+      "miškas",
+      "žemėlapis",
+      "pagalba"
+    ],
     "translation": "to get lost"
   },
   {
     "term": "plaukioti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Reguliariai arba laisvalaikiu plaukti vandenyje.",
@@ -35205,9 +35303,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "plaukti"
+    ],
+    "antonymTerms": [
+      "skęsti"
+    ],
+    "relatedTerms": [
+      "vanduo",
+      "baseinas",
+      "maudymasis",
+      "sportas"
+    ],
     "translation": "to swim"
   },
   {
@@ -35276,7 +35383,7 @@
     "term": "Badmintonas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žaidimas su raketėmis ir plunksnuotu kamuoliuku per tinklą; olimpinė sporto šaka.",
@@ -35292,7 +35399,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "raketė",
+      "pluoštelis",
+      "sportas",
+      "tenisas"
+    ],
     "translation": "badminton"
   },
   {
@@ -35326,7 +35438,7 @@
     "term": "krepšinis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Komandinis sportas, kuriame žaidėjai meta kamuolį į priešininko krepšį.",
@@ -35351,14 +35463,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kamuolys",
+      "krepšys",
+      "sportas",
+      "komanda"
+    ],
     "translation": "basketball"
   },
   {
     "term": "tenisas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Raketinis sportas, kuriame žaidėjai muša kamuoliuką per tinklą kortą.",
@@ -35373,14 +35490,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "raketė",
+      "kamuoliukas",
+      "kortai",
+      "sportas"
+    ],
     "translation": "tennis"
   },
   {
     "term": "tinklinis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Komandinis sportas, kuriame dvi komandos muša kamuolį per tinklą rankomis.",
@@ -35395,14 +35517,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tinklas",
+      "kamuolys",
+      "komanda",
+      "sportas"
+    ],
     "translation": "volleyball"
   },
   {
     "term": "kamuoliukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mažas apvalus kamuolys, naudojamas sporto žaidimuose, pvz., tenise ar stalo tenise.",
@@ -35425,9 +35552,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kamuolys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sportas",
+      "žaidimas",
+      "tenisas",
+      "futbolas"
+    ],
     "translation": "small ball"
   },
   {
@@ -35461,7 +35595,7 @@
     "term": "raketė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sporto įrankis su rankena ir ovalia virvelių arka, naudojamas tenise, badmintone ar panašiuose žaidimuose.",
@@ -35486,14 +35620,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tenisas",
+      "badmintonas",
+      "stygos",
+      "sportas"
+    ],
     "translation": "racket"
   },
   {
     "term": "rogutės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nedidelė žieminė transporto priemonė ant bėgių, naudojama važinėtis nuo kalnų.",
@@ -35506,16 +35645,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "rogės"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žiema",
+      "sniegas",
+      "slidės",
+      "kalnas"
+    ],
     "translation": "sled"
   },
   {
     "term": "slidės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ilgi plokšti lentai, tvirtinami prie batų slidinėjimui ant sniego.",
@@ -35530,14 +35676,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žiema",
+      "sniegas",
+      "slidinėjimas",
+      "kalnas"
+    ],
     "translation": "skis"
   },
   {
     "term": "šachmatai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Strateginis stalo žaidimas, kuriame du žaidėjai judina figūras 64 langelių lentoje, siekdami patikrinti priešininko karalių.",
@@ -35552,14 +35703,19 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šaškės",
+      "lenta",
+      "strategija",
+      "žaidimas"
+    ],
     "translation": "chess"
   },
   {
     "term": "šaškės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Stalo žaidimas su apvaliais žetonais ant languotos lentos, kuriame reikia užimti visas priešininko figūras.",
@@ -35574,7 +35730,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šachmatai",
+      "lenta",
+      "žaidimas",
+      "strategija"
+    ],
     "translation": "checkers"
   },
   {
@@ -35724,7 +35885,7 @@
     "term": "čiuožinėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Reguliariai arba pakartotinai čiuožti ant ledo su čiuožyklomis.",
@@ -35737,16 +35898,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "čiuožti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ledas",
+      "čiuožykla",
+      "žiema",
+      "slidinėjimas"
+    ],
     "translation": "to skate"
   },
   {
     "term": "čiuožti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Slydimas ant ledo su specialiais batais (čiuožyklomis).",
@@ -35759,16 +35927,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "čiuožinėti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ledas",
+      "čiuožykla",
+      "žiema",
+      "slidės"
+    ],
     "translation": "to ice skate"
   },
   {
     "term": "jodinėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Reguliariai arba malonumui joti ant arklio.",
@@ -35781,16 +35956,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "joti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "arklys",
+      "žirgas",
+      "balnas",
+      "sportas"
+    ],
     "translation": "to ride horses"
   },
   {
     "term": "joti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sėdint ant arklio judėti konkrečiu tikslu ar kryptimi.",
@@ -35803,16 +35985,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "jodinėti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "arklys",
+      "žirgas",
+      "balnas",
+      "raitelis"
+    ],
     "translation": "to ride a horse"
   },
   {
     "term": "lipdyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Formuoti figūras ar daiktus iš molio, plastilino ar sniego.",
@@ -35836,9 +36025,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "formuoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "skulptūra",
+      "molis",
+      "plastilinas",
+      "menas"
+    ],
     "translation": "to sculpt"
   },
   {
@@ -35884,7 +36080,7 @@
     "term": "važinėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Reguliariai ar malonumui važiuoti transporto priemone ar dviračiu.",
@@ -35909,7 +36105,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "transportas",
+      "kelias",
+      "automobilis",
+      "kelionė"
+    ],
     "translation": "to ride"
   },
   {
@@ -36468,7 +36669,7 @@
     "term": "žiūrovė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female person who watches a performance, film, or sporting event as a member of the audience.",
@@ -36497,7 +36698,7 @@
     "term": "ploti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To strike the palms of the hands together repeatedly to express appreciation or approval, especially at a performance.",
@@ -36514,7 +36715,9 @@
     "synonyms": [
       "aplodismentais sutikti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "švilpti"
+    ],
     "relatedTerms": [
       "žiūrovas",
       "spektaklis",
