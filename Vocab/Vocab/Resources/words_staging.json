@@ -18608,7 +18608,30 @@
   {
     "term": "deixis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The phenomenon whereby the interpretation of certain linguistic expressions depends on contextual factors such as the identity of the speaker, the time, or the place of utterance.",
+        "example": "Words like 'here,' 'now,' 'I,' and 'yesterday' are deictic: their reference shifts entirely depending on who says them and when.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "pragmatics",
+          "context"
+        ]
+      },
+      {
+        "definition": "More broadly, any referential shift tied to a perspective or discourse position, including discourse deixis and social deixis encoding social relations.",
+        "example": "Using 'we' to include or exclude the addressee is an instance of social deixis that can subtly signal solidarity or distance.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "pragmatics",
+          "discourse-analysis"
+        ]
+      }
+    ]
   },
   {
     "term": "auteurism",
@@ -20566,72 +20589,324 @@
   {
     "term": "catachresis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The use of a word in a context that deviates sharply from its conventional meaning, often creating a vivid or strained effect; a misapplication of a term.",
+        "example": "Calling the legs of a chair 'feet' is a classic catachresis—a dead metaphor so ordinary it no longer registers as figurative.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "figurative-language",
+          "tropes"
+        ]
+      },
+      {
+        "definition": "The deliberate extension of a word's meaning to fill a lexical gap, applying an existing term to something that has no established name.",
+        "example": "When Elizabethan writers referred to 'the brow of a hill,' they were using catachresis to supply a name for a part of the landscape that lacked its own word.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "lexical-extension",
+          "neologism"
+        ]
+      }
+    ]
   },
   {
     "term": "diatribe",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A forceful and sustained verbal or written attack; a bitter, abusive discourse directed against a person, institution, or idea.",
+        "example": "The senator's speech devolved into a diatribe against the opposing party, abandoning policy argument in favour of personal invective.",
+        "register": "formal",
+        "tags": [
+          "rhetoric",
+          "argumentation",
+          "discourse"
+        ]
+      },
+      {
+        "definition": "In classical rhetoric, a didactic monologue addressing an imaginary interlocutor, used to explore a moral or philosophical topic.",
+        "example": "Cynic philosophers composed diatribes as accessible teaching performances, arguing with a fictional opponent to clarify their ethical positions.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "classical-rhetoric",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "encomium",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A formal speech or piece of writing that praises someone or something highly; a tribute delivered on a ceremonial occasion.",
+        "example": "The retiring ambassador received a glowing encomium from the president that catalogued three decades of diplomatic service.",
+        "register": "formal",
+        "tags": [
+          "rhetoric",
+          "epideictic",
+          "praise"
+        ]
+      },
+      {
+        "definition": "In ancient Greek rhetoric, a distinct genre of speech aimed at celebrating the virtues and achievements of a person, city, or deity.",
+        "example": "Isocrates' Evagoras is considered a model encomium and the first surviving prose biography in the Western tradition.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "classical-rhetoric",
+          "genre"
+        ]
+      }
+    ]
   },
   {
     "term": "epideictic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Relating to the branch of rhetoric concerned with praise or blame, typically in ceremonial or display contexts; demonstrative rather than deliberative or forensic.",
+        "example": "Funeral orations and graduation speeches are epideictic in character, focused on celebrating shared values rather than resolving a practical dispute.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "classical-rhetoric",
+          "genre"
+        ]
+      },
+      {
+        "definition": "Designed to demonstrate or display oratorical skill; ostentatiously eloquent.",
+        "example": "His epideictic style impressed the academy audience, though critics found it more concerned with virtuosity than with genuine argument.",
+        "register": "formal",
+        "tags": [
+          "rhetoric",
+          "style",
+          "oratory"
+        ]
+      }
+    ]
   },
   {
     "term": "hendiadys",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A figure of speech in which a single complex idea is expressed by two nouns joined with a conjunction rather than by a noun modified by an adjective.",
+        "example": "Shakespeare's 'sound and fury' (for 'furious sound') is a frequently cited example of hendiadys, distributing one concept across two coordinated terms.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "figurative-language",
+          "figures-of-speech"
+        ]
+      }
+    ]
   },
   {
     "term": "isocolon",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A rhetorical figure in which successive clauses or phrases are parallel in grammatical structure and roughly equal in length, creating balance and rhythm.",
+        "example": "Caesar's 'I came, I saw, I conquered' is a tricolon that is also an isocolon: each clause has the same structure and similar weight.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "figures-of-speech",
+          "parallelism"
+        ]
+      }
+    ]
   },
   {
     "term": "paraenesis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Discourse that exhorts, advises, or admonishes; moral counsel or ethical instruction intended to guide conduct.",
+        "example": "The closing chapter of the epistle shifts from theological argument to paraenesis, urging the community to live in accordance with the values they have professed.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "ethics",
+          "biblical-studies"
+        ]
+      }
+    ]
   },
   {
     "term": "polyptoton",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A rhetorical figure consisting of the repetition of a word in different grammatical forms or inflections within the same passage.",
+        "example": "'The choice to choose' and 'do unto others as you would have others do unto you' both exemplify polyptoton, deriving emphasis from morphological variation on a single root.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "figures-of-speech",
+          "repetition"
+        ]
+      }
+    ]
   },
   {
     "term": "prosopopoeia",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A figure of speech in which an absent, dead, or imaginary person is given a voice; the impersonation or personification of an absent speaker.",
+        "example": "Cicero's dramatic use of prosopopoeia in the Catilinarians gives voice to Rome itself, as if the city were pleading with its citizens to expel the conspirators.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "figures-of-speech",
+          "personification"
+        ]
+      },
+      {
+        "definition": "The attribution of human characteristics or speech to abstract entities, objects, or non-human beings for rhetorical effect.",
+        "example": "Depicting Wisdom as a woman who calls from the street corners is a striking prosopopoeia that makes an abstract virtue vivid and immediate.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "figurative-language",
+          "abstraction"
+        ]
+      }
+    ]
   },
   {
     "term": "sententia",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A brief, pointed moral statement or maxim used for rhetorical effect; a pithy aphorism expressing a general truth.",
+        "example": "Seneca's letters are studded with sententiae—'dum differtur vita transcurrit' ('while we delay, life passes by')—designed to lodge in the reader's memory.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "aphorism",
+          "classical-rhetoric"
+        ]
+      }
+    ]
   },
   {
     "term": "sorites",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A chain of syllogisms in which the conclusion of each step becomes the premise of the next, leading by successive steps to a final conclusion.",
+        "example": "The sorites 'all humans are mortal; mortals are finite; finite beings have limits; therefore all humans have limits' links premises in an unbroken chain.",
+        "register": "technical",
+        "tags": [
+          "logic",
+          "argumentation",
+          "syllogism"
+        ]
+      },
+      {
+        "definition": "A paradox arising from the application of vague predicates to borderline cases; the heap paradox, asking how many grains constitute a heap.",
+        "example": "The sorites paradox challenges classical logic: removing one grain from a heap still seems to leave a heap, yet iteration eventually yields the absurd conclusion that one grain is a heap.",
+        "register": "technical",
+        "tags": [
+          "logic",
+          "philosophy",
+          "vagueness"
+        ]
+      }
+    ]
   },
   {
     "term": "antistrophe",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A rhetorical figure involving the repetition of a word or phrase at the end of successive clauses; the counterpart of anaphora (also called epistrophe).",
+        "example": "Lincoln's refrain 'of the people, by the people, for the people' functions as an antistrophe, driving home each clause with the same closing cadence.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "figures-of-speech",
+          "repetition"
+        ]
+      },
+      {
+        "definition": "In classical Greek drama and lyric poetry, the second of a pair of metrically corresponding stanzas, answering the strophe.",
+        "example": "The chorus in Sophocles alternates strophe and antistrophe, the turn and counterturn of movement mirroring the dialectical tension of the argument.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "poetry",
+          "classical-drama"
+        ]
+      }
+    ]
   },
   {
     "term": "syllepsis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A figure of speech in which a single word governs or modifies two or more other words in different senses, often with a humorous or striking effect.",
+        "example": "Dickens' 'She opened her heart and her door to the orphan' is a syllepsis: 'opened' applies physically to the door and metaphorically to the heart.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "figures-of-speech",
+          "zeugma"
+        ]
+      }
+    ]
   },
   {
     "term": "epicheireme",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An expanded syllogism in which one or both premises are supported by subordinate arguments or reasons embedded within the main argument.",
+        "example": "Cicero considered the epicheireme the standard form of rhetorical proof, since bare syllogisms rarely suffice in public persuasion without justification of the premises.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "logic",
+          "argumentation"
+        ]
+      }
+    ]
   },
   {
     "term": "eliminativism",
@@ -23173,7 +23448,30 @@
   {
     "term": "indexicality",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The property of a sign, expression, or utterance by which its meaning or reference is determined by its causal or contextual relationship to what it signifies.",
+        "example": "Smoke has high indexicality as a sign of fire: it reliably points to its cause in a way that a painted flame does not.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "linguistics",
+          "philosophy-of-language"
+        ]
+      },
+      {
+        "definition": "In sociolinguistics, the way linguistic features correlate with and evoke particular social identities or interactional stances.",
+        "example": "The indexicality of certain vowel shifts in urban dialects means that speakers who adopt them are also signalling membership in particular social groups.",
+        "register": "technical",
+        "tags": [
+          "sociolinguistics",
+          "semiotics",
+          "identity"
+        ]
+      }
+    ]
   },
   {
     "term": "performativity",
@@ -23270,7 +23568,30 @@
   {
     "term": "entailment",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A logical relation in which the truth of one proposition necessarily guarantees the truth of another; strict semantic implication.",
+        "example": "'John is a bachelor' entails 'John is unmarried': it is impossible for the first to be true while the second is false.",
+        "register": "technical",
+        "tags": [
+          "logic",
+          "semantics",
+          "formal-linguistics"
+        ]
+      },
+      {
+        "definition": "In formal semantics, the relationship between sentences such that any situation making the first true also makes the second true.",
+        "example": "Testing for entailment by negation—checking whether 'S and not-T' is a contradiction—is a core method in semantic analysis.",
+        "register": "technical",
+        "tags": [
+          "semantics",
+          "formal-linguistics",
+          "truth-conditions"
+        ]
+      }
+    ]
   },
   {
     "term": "accommodation",
@@ -23301,52 +23622,231 @@
   {
     "term": "polysemy",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The coexistence of many possible meanings for a single word or expression; the state of a lexical item having multiple related senses.",
+        "example": "The polysemy of 'bank' (financial institution vs. river bank) is often cited as a textbook case, though true polysemy requires the senses to be etymologically related.",
+        "register": "technical",
+        "tags": [
+          "semantics",
+          "lexicology",
+          "linguistics"
+        ]
+      }
+    ]
   },
   {
     "term": "parataxis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The placing of clauses, phrases, or sentences side by side without explicit connectives or subordinating links, leaving the logical relationship to be inferred.",
+        "example": "Hemingway's characteristic parataxis—'I was tired. I went to bed. In the morning it rained.'—lets simple coordination carry narrative weight without commentary.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "rhetoric",
+          "syntax"
+        ]
+      },
+      {
+        "definition": "The syntactic coordination of elements at the same structural level, as distinct from hypotaxis (subordination).",
+        "example": "Biblical Hebrew favours parataxis, stringing actions together with repeated 'and,' whereas classical Greek tends toward the subordinating hypotactic style.",
+        "register": "technical",
+        "tags": [
+          "syntax",
+          "linguistics",
+          "typology"
+        ]
+      }
+    ]
   },
   {
     "term": "hypotaxis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The arrangement of sentences or clauses in a subordinate or dependent relationship, using explicit connectives such as 'because,' 'although,' or 'when.'",
+        "example": "Ciceronian prose is the paradigm case of hypotaxis, with elaborate nested clauses that suspend the main verb until the very end of the sentence.",
+        "register": "technical",
+        "tags": [
+          "syntax",
+          "linguistics",
+          "rhetoric"
+        ]
+      }
+    ]
   },
   {
     "term": "ostension",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The act of indicating or demonstrating something directly by pointing or displaying an example, rather than by verbal description.",
+        "example": "Teaching a child the meaning of 'red' by pointing to red objects is a classic case of ostension; philosophers debate whether such acts can fully fix reference.",
+        "register": "technical",
+        "tags": [
+          "philosophy-of-language",
+          "semantics",
+          "reference"
+        ]
+      },
+      {
+        "definition": "Ostensive definition: a type of definition that specifies the meaning of an expression by direct showing rather than by description.",
+        "example": "Wittgenstein questioned whether ostension alone could establish meaning, arguing that the learner must already understand many things to interpret the pointing gesture correctly.",
+        "register": "technical",
+        "tags": [
+          "philosophy-of-language",
+          "definitions",
+          "epistemology"
+        ]
+      }
+    ]
   },
   {
     "term": "allophone",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Any of the phonetically distinct variants by which a single phoneme is realised in different phonological environments, without a change in lexical meaning.",
+        "example": "In English, the aspirated sound in 'pin' and the unaspirated sound in 'spin' are allophones of the same phoneme—native speakers hear them as the same sound.",
+        "register": "technical",
+        "tags": [
+          "phonology",
+          "linguistics",
+          "phonetics"
+        ]
+      }
+    ]
   },
   {
     "term": "circumlocution",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The use of many words or roundabout expression to convey something that could be said more concisely; evasive or indirect speech.",
+        "example": "Diplomatic circumlocution allowed both delegations to avoid the charged word 'war,' instead referring to 'a situation of armed conflict.'",
+        "register": "formal",
+        "tags": [
+          "rhetoric",
+          "discourse",
+          "pragmatics"
+        ]
+      },
+      {
+        "definition": "A paraphrase that substitutes a descriptive phrase for a proper name or taboo term; periphrasis.",
+        "example": "The circumlocution 'the Mortal Instruments' for 'death' in certain medieval texts reflects a cultural prohibition on naming death directly.",
+        "register": "literary",
+        "tags": [
+          "rhetoric",
+          "figurative-language",
+          "taboo-language"
+        ]
+      }
+    ]
   },
   {
     "term": "syntagmatic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Relating to or characterising the linear, sequential relationships between linguistic elements that co-occur in a chain, such as within a sentence or phrase.",
+        "example": "The syntagmatic relationship between 'fast' and 'car' in 'fast car' constrains what can occupy adjacent positions along the string.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "structural-linguistics",
+          "Saussure"
+        ]
+      }
+    ]
   },
   {
     "term": "paradigmatic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Relating to the set of linguistic items that could substitute for each other in the same structural slot; of or pertaining to the axis of selection rather than combination.",
+        "example": "The paradigmatic relation holds between 'ate,' 'devoured,' and 'consumed': any could occupy the verb slot in 'She ate her lunch,' and choosing between them is a matter of style.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "structural-linguistics",
+          "Saussure"
+        ]
+      },
+      {
+        "definition": "Serving as an outstanding or typical example of something; exemplary.",
+        "example": "Newton's Principia is often cited as the paradigmatic achievement of the Scientific Revolution, setting the standard for rigorous mathematical physics.",
+        "register": "formal",
+        "tags": [
+          "general-use",
+          "epistemology"
+        ]
+      }
+    ]
   },
   {
     "term": "codeswitching",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The practice of alternating between two or more languages, dialects, or registers within a single conversation or utterance.",
+        "example": "Bilingual speakers in border communities engage in codeswitching fluidly, shifting between Spanish and English mid-sentence to signal solidarity or accommodate a topic.",
+        "register": "technical",
+        "tags": [
+          "sociolinguistics",
+          "bilingualism",
+          "discourse"
+        ]
+      },
+      {
+        "definition": "By extension, the adjustment of communication style, tone, or cultural presentation to fit different social contexts, especially across racial or cultural lines.",
+        "example": "The concept of codeswitching has entered popular discourse to describe the effort individuals make to modulate speech and behaviour when moving between cultural environments.",
+        "register": "neutral",
+        "tags": [
+          "sociolinguistics",
+          "identity",
+          "social-science"
+        ]
+      }
+    ]
   },
   {
     "term": "mirativity",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A grammatical or lexical category that encodes the speaker's surprise, or that marks information as new, unexpected, or contrary to prior assumption.",
+        "example": "In some Tibetan dialects, mirativity is grammaticalised through a distinct evidential paradigm triggered when the speaker encounters something counterexpectational.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "evidentiality",
+          "grammar"
+        ]
+      }
+    ]
   },
   {
     "term": "hedging",
@@ -23369,7 +23869,30 @@
   {
     "term": "felicity",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In speech-act theory, the set of conditions that must be satisfied for a performative utterance to succeed in achieving its intended illocutionary effect.",
+        "example": "Austin argued that a promise lacks felicity if the speaker has no intention of keeping it, or if the circumstances do not permit the kind of commitment promised.",
+        "register": "technical",
+        "tags": [
+          "pragmatics",
+          "speech-act theory",
+          "philosophy-of-language"
+        ]
+      },
+      {
+        "definition": "The quality of being pleasingly apt or appropriate, especially in the use of language or expression.",
+        "example": "Critics praised the translator for the felicity of her rendering, which captured both the logic and the literary texture of the original.",
+        "register": "formal",
+        "tags": [
+          "rhetoric",
+          "style",
+          "aesthetics"
+        ]
+      }
+    ]
   },
   {
     "term": "sememe",
@@ -23530,7 +24053,30 @@
   {
     "term": "abduction",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A form of logical inference that identifies the simplest and most plausible hypothesis that would, if true, explain a set of observations; inference to the best explanation.",
+        "example": "Seeing that the grass is wet, a detective reasons by abduction that it rained overnight—not the only possible explanation, but the most economical one.",
+        "register": "technical",
+        "tags": [
+          "logic",
+          "epistemology",
+          "philosophy-of-science"
+        ]
+      },
+      {
+        "definition": "In Peirce's semiotics, the creative leap of generating a hypothesis to account for a surprising fact, as distinct from deduction (applying a rule) and induction (generalising from instances).",
+        "example": "Peirce saw abduction as the only genuinely creative form of reasoning: deduction and induction merely apply or test what abduction first proposes.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "Peirce",
+          "logic"
+        ]
+      }
+    ]
   },
   {
     "term": "qualisign",
@@ -23552,7 +24098,20 @@
   {
     "term": "legisign",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Peirce's semiotics, a sign that consists in a general law, type, or convention rather than in a particular existing thing; a sign-type as opposed to a sign-token.",
+        "example": "Every instance of the word 'the' on a page is a token, but the word 'the' as a grammatical unit of the language is a legisign: a rule governing all its instances.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "Peirce",
+          "philosophy-of-language"
+        ]
+      }
+    ]
   },
   {
     "term": "sinsign",
@@ -23574,12 +24133,58 @@
   {
     "term": "rheme",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Peirce's semiotic classification, a sign that represents its object as a possible quality or character, without affirming or denying anything of it; a predicate considered in abstraction.",
+        "example": "The adjective 'blue,' considered in isolation apart from any proposition, functions as a rheme: it presents a possible quality without asserting it of anything.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "Peirce",
+          "logic"
+        ]
+      },
+      {
+        "definition": "In information-structure analysis, the part of a sentence that introduces new or focal information, as opposed to the theme which states what is already given.",
+        "example": "In 'As for the lecture, John gave it,' 'John gave it' contains the rheme, where the identity of the giver is the new information.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "information-structure",
+          "discourse"
+        ]
+      }
+    ]
   },
   {
     "term": "veridiction",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "In Greimas's semiotics, the enunciative act by which a speaker claims that a statement is true or false, secret or manifest; the modalities of truth-telling within a discourse.",
+        "example": "A detective narrative is structured around veridiction: the investigator's task is to transform what is merely seemed-to-be into what is affirmed as having-been.",
+        "register": "technical",
+        "tags": [
+          "semiotics",
+          "Greimas",
+          "philosophy-of-language"
+        ]
+      },
+      {
+        "definition": "More broadly, any utterance or rhetorical act in which a speaker asserts or denies a claim about the truth of a state of affairs.",
+        "example": "The court's verdict is a formal veridiction: an authorised institutional act that declares facts to be true for legal purposes.",
+        "register": "technical",
+        "tags": [
+          "rhetoric",
+          "speech-act theory",
+          "law"
+        ]
+      }
+    ]
   },
   {
     "term": "polyphony",
@@ -23595,6 +24200,7 @@
     "term": "embodiment",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23628,6 +24234,7 @@
     "term": "construal",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23657,6 +24264,7 @@
     "term": "schematization",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23686,6 +24294,7 @@
     "term": "entrenchment",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23717,6 +24326,7 @@
     "term": "trajector",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23747,6 +24357,7 @@
     "term": "profiling",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23776,6 +24387,7 @@
     "term": "grounding",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23805,6 +24417,7 @@
     "term": "prototype",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23836,6 +24449,7 @@
     "term": "schema",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23865,6 +24479,7 @@
     "term": "categorization",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23894,6 +24509,7 @@
     "term": "entropy",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23927,6 +24543,7 @@
     "term": "compressibility",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23958,6 +24575,7 @@
     "term": "ergodicity",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -23991,6 +24609,7 @@
     "term": "equivocation",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24029,6 +24648,7 @@
     "term": "transinformation",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24058,6 +24678,7 @@
     "term": "perplexity",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24096,6 +24717,7 @@
     "term": "tokenization",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24128,6 +24750,7 @@
     "term": "codebook",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24158,6 +24781,7 @@
     "term": "losslessness",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24190,6 +24814,7 @@
     "term": "stochasticity",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24223,6 +24848,7 @@
     "term": "homeostasis",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24256,6 +24882,7 @@
     "term": "autopoiesis",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24288,6 +24915,7 @@
     "term": "equifinality",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24319,6 +24947,7 @@
     "term": "morphogenesis",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24349,6 +24978,7 @@
     "term": "attractor",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24382,6 +25012,7 @@
     "term": "bifurcation",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24412,6 +25043,7 @@
     "term": "perturbation",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24450,6 +25082,7 @@
     "term": "synergy",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24515,6 +25148,7 @@
     "term": "holism",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24547,6 +25181,7 @@
     "term": "reductionism",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24579,6 +25214,7 @@
     "term": "feedforward",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24611,6 +25247,7 @@
     "term": "teleonomy",
     "language": "en",
     "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24644,6 +25281,7 @@
     "term": "fractal",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24678,6 +25316,7 @@
     "term": "criticality",
     "language": "en",
     "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -24909,17 +25548,66 @@
   {
     "term": "alethic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Relating to the modalities of truth—necessity, possibility, and impossibility; pertaining to alethic modal logic.",
+        "example": "Alethic modalities are expressed by operators like 'necessarily' and 'possibly,' which quantify over possible worlds rather than over agents' beliefs.",
+        "register": "technical",
+        "tags": [
+          "logic",
+          "modal-logic",
+          "philosophy"
+        ]
+      }
+    ]
   },
   {
     "term": "doxastic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Relating to belief or to the propositional attitudes of believing; pertaining to doxastic logic, which formalises the notion of rational belief.",
+        "example": "Doxastic operators such as 'Agent A believes that p' allow logicians to represent and reason about the contents of belief states without presupposing their truth.",
+        "register": "technical",
+        "tags": [
+          "logic",
+          "epistemology",
+          "philosophy-of-mind"
+        ]
+      }
+    ]
   },
   {
     "term": "metalinguistic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Relating to the use of language to talk about or analyse language itself; pertaining to metalanguage or reflection on linguistic form and function.",
+        "example": "Saying that the word 'dog' has three letters is a metalinguistic statement: it refers not to dogs but to the linguistic item itself.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "philosophy-of-language",
+          "semiotics"
+        ]
+      },
+      {
+        "definition": "Relating to awareness of or reflection on one's own linguistic behaviour and choices.",
+        "example": "Children develop metalinguistic awareness—the ability to treat language as an object of thought—before they can engage in formal grammar instruction.",
+        "register": "technical",
+        "tags": [
+          "psycholinguistics",
+          "language-acquisition",
+          "cognition"
+        ]
+      }
+    ]
   },
   {
     "term": "epistemic",
