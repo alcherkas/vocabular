@@ -361,3 +361,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Update build docs to include a simulator-discovery step and an accepted fallback destination policy.
+
+## [2026-02-21] [vocab-relations-agent] [vocab-relations-1]
+
+### What went well
+- Updated all 15 enriched EN entries and the first 20 enriched LT entries in one pass with `synonyms`, `antonymTerms`, and `relatedTerms`.
+- Stage validation passed for both staging files on `relations-added` status.
+
+### What was harder than expected
+- Lithuanian greeting/particle phrases required careful selection of natural same-language relation terms.
+
+### Process friction
+- None.
+
+### Suggested improvement
+- Add a small canonical LT phrase synonym/antonym reference list to reduce wording variance across relation batches.

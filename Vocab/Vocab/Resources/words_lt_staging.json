@@ -3,7 +3,7 @@
     "term": "Labas rytas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A greeting used in the morning, equivalent to 'good morning'.",
@@ -15,16 +15,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "labas rytelis",
+      "gero ryto"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "laba diena",
+      "kava",
+      "pusryčiai"
+    ],
     "translation": "good morning"
   },
   {
     "term": "laba diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formal greeting used during daytime, equivalent to 'good day' or 'good afternoon'.",
@@ -36,16 +43,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "labadiena",
+      "sveiki"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Labas rytas",
+      "labas vakaras",
+      "pasisveikinimas"
+    ],
     "translation": "good day"
   },
   {
     "term": "labas vakaras",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A greeting used in the evening, equivalent to 'good evening'.",
@@ -57,16 +71,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "gero vakaro",
+      "sveiki vakare"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "laba diena",
+      "labanakt",
+      "vakaras"
+    ],
     "translation": "good evening"
   },
   {
     "term": "labas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An informal greeting equivalent to 'hello' or 'hi', used in casual settings.",
@@ -78,16 +99,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sveikas",
+      "sveiki",
+      "labutis"
+    ],
+    "antonymTerms": [
+      "sudie"
+    ],
+    "relatedTerms": [
+      "pasisveikinimas",
+      "draugas",
+      "susitikimas"
+    ],
     "translation": "hello"
   },
   {
     "term": "labanakt",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A farewell or greeting used at night or before going to sleep, equivalent to 'good night'.",
@@ -99,16 +130,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "geros nakties",
+      "ramios nakties"
+    ],
+    "antonymTerms": [
+      "Labas rytas"
+    ],
+    "relatedTerms": [
+      "miegas",
+      "naktis",
+      "atsisveikinimas"
+    ],
     "translation": "good night"
   },
   {
     "term": "sudie",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formal farewell expression equivalent to 'goodbye'.",
@@ -119,16 +159,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "viso gero",
+      "iki pasimatymo",
+      "ate"
+    ],
+    "antonymTerms": [
+      "labas"
+    ],
+    "relatedTerms": [
+      "atsisveikinimas",
+      "kelionė",
+      "išėjimas"
+    ],
     "translation": "goodbye"
   },
   {
     "term": "ačiū",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An expression of gratitude, equivalent to 'thank you' or 'thanks'.",
@@ -140,16 +190,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "dėkui",
+      "labai ačiū",
+      "ačiū tau"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mandagumas",
+      "padėka",
+      "prašom"
+    ],
     "translation": "thank you"
   },
   {
     "term": "prašom",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Used as a polite response to thanks, equivalent to 'you're welcome', or as an invitation meaning 'please, go ahead'.",
@@ -161,16 +219,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "prašau",
+      "maloniai prašom",
+      "į sveikatą"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ačiū",
+      "mandagumas",
+      "kvietimas"
+    ],
     "translation": "please / you're welcome"
   },
   {
     "term": "atsiprašau",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An expression used to apologize or to politely get someone's attention, equivalent to 'excuse me' or 'I'm sorry'.",
@@ -182,16 +248,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atleiskite",
+      "atleisk",
+      "atsiprašinėju"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "klaida",
+      "mandagumas",
+      "gailestis"
+    ],
     "translation": "excuse me / I'm sorry"
   },
   {
     "term": "nėra už ką",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A response to thanks meaning 'you're welcome' or 'don't mention it', literally 'there's nothing to thank for'.",
@@ -203,16 +277,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "nesvarbu",
+      "prašom"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ačiū",
+      "mandagumas",
+      "atsakas"
+    ],
     "translation": "you're welcome / don't mention it"
   },
   {
     "term": "labai malonu",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A polite expression used when meeting someone, equivalent to 'nice to meet you' or 'pleased to meet you'.",
@@ -224,16 +305,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "malonu susipažinti",
+      "džiugu susipažinti"
+    ],
+    "antonymTerms": [
+      "nemalonu"
+    ],
+    "relatedTerms": [
+      "susitikimas",
+      "mandagumas",
+      "pasisveikinimas"
+    ],
     "translation": "nice to meet you"
   },
   {
     "term": "puiku",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An exclamation expressing approval or satisfaction, meaning 'great', 'excellent', or 'wonderful'.",
@@ -245,16 +335,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "puikiai",
+      "šauniai",
+      "nuostabiai"
+    ],
+    "antonymTerms": [
+      "blogai",
+      "prastai"
+    ],
+    "relatedTerms": [
+      "gerai",
+      "džiaugsmas",
+      "sėkmė"
+    ],
     "translation": "great / excellent"
   },
   {
     "term": "gerai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An adverb meaning 'well' or 'good', also used as an affirmative response meaning 'okay' or 'all right'.",
@@ -266,16 +367,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "neblogai",
+      "tinkamai",
+      "puikiai"
+    ],
+    "antonymTerms": [
+      "blogai",
+      "prastai"
+    ],
+    "relatedTerms": [
+      "puiku",
+      "tvarka",
+      "sutinku"
+    ],
     "translation": "well / okay / good"
   },
   {
     "term": "taip",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An affirmative particle meaning 'yes', used to express agreement or confirmation.",
@@ -287,16 +399,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "žinoma",
+      "be abejo",
+      "teigiamai"
+    ],
+    "antonymTerms": [
+      "ne"
+    ],
+    "relatedTerms": [
+      "sutikimas",
+      "atsakymas",
+      "gerai"
+    ],
     "translation": "yes"
   },
   {
     "term": "ne",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A negative particle meaning 'no', used to express disagreement, denial, or refusal.",
@@ -308,16 +430,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "anaiptol ne",
+      "niekaip",
+      "neigiamai"
+    ],
+    "antonymTerms": [
+      "taip"
+    ],
+    "relatedTerms": [
+      "atsisakymas",
+      "prieštaravimas",
+      "negalima"
+    ],
     "translation": "no"
   },
   {
     "term": "dabar",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "At the present time or moment.",
@@ -328,16 +460,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "šiuo metu",
+      "tuojau",
+      "šiuokart"
+    ],
+    "antonymTerms": [
+      "vėliau"
+    ],
+    "relatedTerms": [
+      "laikas",
+      "šiandien",
+      "akimirka"
+    ],
     "translation": "now"
   },
   {
     "term": "taip pat",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In addition; likewise.",
@@ -348,16 +490,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "irgi",
+      "be to",
+      "lygiai taip pat"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "papildomai",
+      "dar",
+      "kartu"
+    ],
     "translation": "also; as well"
   },
   {
     "term": "tik",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "No more than; merely; exclusively.",
@@ -368,16 +518,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tiktai",
+      "vien",
+      "vien tik"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "apribojimas",
+      "vienintelis",
+      "išskirtinai"
+    ],
     "translation": "only; just"
   },
   {
     "term": "truputį",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To a small extent or degree.",
@@ -388,16 +546,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "šiek tiek",
+      "nedaug",
+      "kiek"
+    ],
+    "antonymTerms": [
+      "daug"
+    ],
+    "relatedTerms": [
+      "mažai",
+      "kiekis",
+      "nežymiai"
+    ],
     "translation": "a little; a bit"
   },
   {
     "term": "šiek tiek",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small amount or to a small degree.",
@@ -408,9 +576,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "truputį",
+      "nedaug",
+      "kiek"
+    ],
+    "antonymTerms": [
+      "daug"
+    ],
+    "relatedTerms": [
+      "mažai",
+      "kiekis",
+      "truputį"
+    ],
     "translation": "a little bit; somewhat"
   },
   {
