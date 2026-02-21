@@ -2962,3 +2962,31 @@ Pre-existing warnings only in approved-status entries; zero errors in newly enri
 - EN had only 11 enriched entries vs. 35 target; all were processed. Remaining enriched budget could not be filled from EN alone — would require another Enricher pass first.
 - Several LT phrases (e.g., `nosies ir gerklės gydytojas`) are unique specialist terms with no close LT synonyms; `otorinolaringologas` / `otolaringologas` are valid technical equivalents added as synonyms.
 - `leisti vaistus` (administer injection): `švirkšti` added as a synonym captures the injecting action; the phrase is also broader (any route), but this is the closest single-word LT equivalent.
+
+---
+
+## Session: enricher-en-31 — 2025-07-24
+
+**Agent**: Enricher (EN) | **Branch**: vocab/enricher-en-31 | **Batch size**: 35
+
+### Summary
+Enriched 35 English stubs from `words_staging.json` in a single commit. Two thematic clusters: architecture/classical vocabulary (20 terms) and game theory/decision theory (10 terms), plus 5 cross-domain entries.
+
+### Terms enriched
+**Architecture & classical**: oculus, pendentive, quoin, rustication, soffit, agora, arcade, atrium, brutalism, cladding, fluting, frieze, geodesic, metope, parametric design, plinth, portico, stoa, transept, tympanum.
+
+**Game theory / decision theory**: backward induction, correlated equilibrium, dominant strategy, focal point, mixed strategy, pareto optimality, payoff matrix, prisoner's dilemma, rationalizability, zero-sum.
+
+**Cross-domain**: constructivism (art + epistemology), subaltern (postcolonial + military), recursion (CS + linguistics), panarchy (systems/urban theory), metastability (physics/complexity).
+
+### Validation
+`validate_words.py --errors-for enriched` → **PASSED** (exit 0). 930 entries valid; 91 pre-existing warnings in approved-status entries only (not introduced by this session).
+
+### Tradeoffs
+- Batch size of 35 is larger than the protocol's default of 5; this was explicitly requested. All entries validated cleanly in a single pass before committing.
+- Several game-theory entries (e.g. `focal point`, `zero-sum`) received two meanings to capture domain-specific vs. general usage — justified by genuinely distinct senses.
+- Architecture terms in the stub list covered classical ornament (metope, fluting, soffit) and contemporary practice (parametric design, brutalism, cladding); kept `register: technical` throughout.
+- 40 stubs remain (`etiological`, medical terms, philosophy-of-mind cluster, film studies, etc.) for the next Enricher pass.
+
+### Preflight note
+Script was initially run from `/tmp` rather than the project root; the file was overwritten correctly on the second execution from the correct working directory. No data loss occurred.
