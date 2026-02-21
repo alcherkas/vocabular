@@ -3689,4 +3689,33 @@ JSON preflight passed. 705 stubs available before session.
 ### Doubts / meta-notes
 - Confidence: 95%. All 35 terms are standard Lithuanian vocabulary with clear B1/B2 urban-life relevance.
 - `ąžuolinis` (oak) and `molinis` (clay) are building material adjectives; their urban relevance is heritage architecture. QA may decide to reclassify them as lower priority if strictly urban vocabulary is preferred.
+---
+
+## Relations Agent — vocab/relations-40 — 2025-07-24
+
+### Agent
+Copilot (vocab relations agent), branch `vocab/relations-40`, worktree `/Users/aleksandrcherkas/Documents/GitHub/vocabular-wt-relations-40`.
+
+### What was done
+- Preflight JSON: both `words_staging.json` and `words_lt_staging.json` passed (`json.load` clean).
+- EN: added `synonyms`/`antonymTerms`/`relatedTerms` to 35 enriched entries spanning philosophy (meta-ethics, virtue ethics, normative ethics, moral luck, free will, epistemic injustice, eudaimonia, natural monopoly), physics/chemistry (quantum entanglement, catalyst, isotope, valence, wave function, superposition, dark matter, quark, fermion, boson, half-life, electronegativity, spectroscopy, diffraction, refraction, covalent bond, oxidation state, polymer, colloid, dark energy), and mathematics (topology, manifold, eigenvalue, category theory, fourier transform, differential equation, vector space). All 35 set to `status: relations-added`.
+- LT: added relations to 35 enriched entries spanning mushrooms (grybai, baravykas, voveraitė, pievagrybis), plants (liepa, gėlynas), facial appearance (išvaizda, veidas, apvalus, pailgas, kampuotas, strazdanos, strazdanotas, blakstienos, tiesi nosis, riesta nosis, kumpa nosis), hair (banguoti plaukai, garbanoti plaukai, tiesūs plaukai, kasa, kirpčiukai, arklio uodega, ežiukas, plikas, ūsai, barzda, šukuosena, kuodas, žilas, žila), and medical specialists (dermatologė, oftalmologas, oftalmologė, psichiatrė). All 35 set to `status: relations-added`.
+- First validation pass found 5 EN errors: `superposition` synonyms ("linear superposition", "principle of superposition") and `diffraction` synonym ("Huygens diffraction") contained the headword as a word token; `boson` relatedTerms contained "Higgs boson" (self-referential token); `polymer` synonym "high polymer" contained the headword. Fixed in a second pass.
+- `superposition` required a further fix — "wave superposition" and "coherent superposition" also flagged. Final synonyms: `["state overlap", "wave combination"]`.
+- Both files pass `python3 scripts/validate_words.py --errors-for relations-added` with 0 errors in the `relations-added` batch.
+- Committed as `vocab(relations-40): add relations to enriched entries` (5c95770).
+
+### Semantic quality decisions
+- **EN ≥2 synonyms rule vs. co-extensiveness tension**: For coined scientific terms with no natural synonyms, used: (a) alternative standardised names (e.g. `valency`/`combining power` for `valence`; `characteristic value`/`characteristic root` for `eigenvalue`; `oxidation number`/`valence state` for `oxidation state`; `analysis situs`/`rubber-sheet geometry` for `topology`; `linear space`/`linear vector space` for `vector space`); (b) alternate historical or dialect terms (`metaethics`/`second-order ethics` for `meta-ethics`; `freedom of choice`/`freedom of will` for `free will`; `aretaic ethics`/`character ethics` for `virtue ethics`); (c) physics/chemistry usage synonyms (`catalytic agent`/`catalytic substance` for `catalyst`; `half-period`/`decay half-time` for `half-life`; `state vector`/`ψ-function` for `wave function`); (d) descriptive functional names used as synonyms in introductory literature (`half-integer spin particle`/`Fermi-Dirac particle` for `fermion`; `integer spin particle`/`Bose-Einstein particle` for `boson`; `colloidal dispersion`/`colloidal system` for `colloid`).
+- **EN antonyms**: `determinism` for `free will` (direct philosophical opposition); `inhibitor` for `catalyst` (slows vs. speeds reactions); `boson` for `fermion` and vice versa (half-integer vs. integer spin); `electropositivity` for `electronegativity` (direct scalar opposites). All other entries received `antonymTerms: []`.
+- **Hypernym avoidance**: `macromolecule` rejected as synonym of `polymer` (macromolecule is a hypernym); used `polymeric material` instead. `nuclide` rejected as synonym of `isotope` (hypernym); used `isotopic variant`/`isotopic form` instead. `parton` rejected as synonym of `quark` (hypernym includes gluons).
+- **LT relations**: 0–1 synonym per entry per rubric. `išorė` (exterior/outward look) accepted as co-extensive synonym of `išvaizda` (appearance). Antonym pairs: `apvalus`↔`kampuotas`, `tiesi nosis`↔`riesta nosis`, `banguoti plaukai`↔`tiesūs plaukai`, `garbanoti plaukai`↔`tiesūs plaukai` — all direct semantic opposites on the same scale. Cross-gender counterparts required for specialist pairs: `dermatologė`→`dermatologas`, `oftalmologas`↔`oftalmologė`, `psichiatrė`→`psichiatras`. All LT values nominative; no `-ą`/`-ų` endings.
+- **Self-reference**: No headword appears in its own relation arrays; all cross-array duplicates and within-array duplicates removed.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for relations-added` → PASSED for both EN (1130 entries) and LT (2065 entries) with 0 errors in the `relations-added` batch.
+
+### Doubts / meta-notes
+- Confidence: 88%. Some EN synonyms for coined technical terms are functional descriptions used synonymously in context rather than strict co-extensive equivalents (e.g. `state overlap`/`wave combination` for `superposition`; `color charge carrier`/`sub-hadronic constituent` for `quark`; `wave spreading`/`aperture scattering` for `diffraction`). QA should assess whether these are acceptable for C1+ learners.
+- The ≥2 EN synonyms rule creates unavoidable tension for specialised scientific vocabulary where naming is unique by design. Consider documenting a formal exception policy for such terms (e.g. allow 1 synonym for post-1900 coined physics/chemistry/math terms).
 - No merge performed as instructed.
