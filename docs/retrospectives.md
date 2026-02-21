@@ -227,6 +227,14 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### What was harder than expected
 - Nothing significant; task was well-scoped and low complexity.
+## [2025-07-23] [feat-lt-stats] [lt-stats-per-lang]
+
+### What went well
+- Task was well-scoped: 3 files changed with clear acceptance criteria. Existing StatsView structure made adding filtering straightforward.
+- SwiftData lightweight migration handles the new `language` field on QuizResult with default value automatically.
+
+### What was harder than expected
+- Nothing unexpected; minimal complexity task with clear insertion points.
 
 ### Process friction
 - None this iteration.
