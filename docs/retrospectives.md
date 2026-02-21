@@ -596,3 +596,17 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add an orchestrator preflight guard that skips spawning QA when `relations-added` count is zero.
+## [2026-02-21] [vocab-qa-agent] [vocab/qa-3]
+
+### What went well
+- Reviewed all 30 `relations-added` entries in EN and 30 in LT, then transitioned statuses in one pass with clear pass/fail criteria.
+- Required approved validation passed for EN staging after updates.
+
+### What was harder than expected
+- Some LT entries had stale `qaNote` text from prior checks, so each note had to be re-validated against the current synonym set before deciding final status.
+
+### Process friction
+- No dedicated QA helper exists to bulk-clear stale `qaNote` values when entries are approved, so updates were manual/scripted at file level.
+
+### Suggested improvement
+- Add a QA utility mode in `scripts/validate_words.py` to list `relations-added` entries and flag stale `qaNote` text after relation edits.
