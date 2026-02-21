@@ -4,7 +4,8 @@ import UIKit
 
 struct QuizView: View {
     @Environment(\.modelContext) private var context
-    @Query private var words: [Word]
+    let words: [Word]
+    var onComplete: ((Int, Int) -> Void)?
     
     @State private var quizWords: [Word] = []
     @State private var currentIndex = 0
@@ -365,6 +366,6 @@ struct QuizView: View {
 }
 
 #Preview {
-    QuizView()
+    QuizView(words: [])
         .modelContainer(for: [Word.self, QuizResult.self], inMemory: true)
 }

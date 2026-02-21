@@ -146,3 +146,18 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Update `docs/BUILD.md` to note that for projects using file-system synchronized groups (objectVersion 77), test targets can be added by editing `project.pbxproj` directly without the Xcode GUI.
+
+## [2025-07-21] [feat-lt-session-flow] [lt-session-flow]
+
+### What went well
+- Architecture doc had detailed code sketches for SessionService state machine and view structure, making implementation straightforward.
+- All 6 files created/modified compiled on second attempt (only issue was a removed import needed by #Preview).
+
+### What was harder than expected
+- Xcode CLI environment required DEVELOPER_DIR workaround and simulator name discovery (iPhone 17 Pro, not iPhone 16).
+
+### Process friction
+- None significant. Architecture doc and TASKS.md were clear on acceptance criteria and file list.
+
+### Suggested improvement
+- None.
