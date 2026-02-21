@@ -699,3 +699,16 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a small helper script to print the next N LT stubs plus neighboring gender-pair terms before enrichment begins.
+
+## [2026-02-21] [vocab-qa-agent] [vocab/qa-6]
+
+### What went well
+- Preflight JSON checks passed for both staging files, and all 35 EN + 35 LT `relations-added` entries were reviewed.
+- Approved 68 entries and returned 2 LT entries (`sveikas`, `sveika`) to `enriched` with `qaNote` because greeting-oriented relations did not match the health adjective sense.
+- Approved-status validation passed for both staging files after transitions.
+
+### What was harder than expected
+- `sveikas`/`sveika` have common greeting usage, so relation quality had to be checked against the actual meaning sense in the entry.
+
+### Suggested improvement
+- Add a QA check in the relations step to confirm synonyms/related terms align with the exact meaning gloss, not alternate senses.
