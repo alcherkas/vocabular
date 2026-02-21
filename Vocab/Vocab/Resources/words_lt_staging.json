@@ -17272,13 +17272,24 @@
   {
     "term": "kilogramas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pagrindinė masės matavimo vienetų sistemos (SI) vienetas, lygus tūkstančiui gramų.",
+        "example": "Sportininkas po intensyvaus ruošimosi metė du kilogramus svorio.",
+        "register": "general",
+        "tags": [
+          "measurement",
+          "weight",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "kilogram"
   },
   {
     "term": "dėžė",
@@ -18854,23 +18865,55 @@
     "term": "vaikščioti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Eisena pėsčiomis kaip kasdienė veikla ar mankšta.",
+        "example": "Gydytojas patarė jam vaikščioti bent trisdešimt minučių per dieną.",
+        "register": "general",
+        "tags": [
+          "physical activity",
+          "health",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Judėti pėsčiomis tam tikroje vietoje arba maršrutu.",
+        "example": "Jie vaikščiojo po senamiestį ir žavėjosi architektūra.",
+        "register": "general",
+        "tags": [
+          "movement",
+          "leisure",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to walk"
   },
   {
     "term": "eiti pasivaikščioti",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Išeiti iš namų pasivaikščioti lauke dėl malonumo ar sveikatos.",
+        "example": "Po vakarienės šeima mėgsta eiti pasivaikščioti po parką.",
+        "register": "general",
+        "tags": [
+          "physical activity",
+          "leisure",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to go for a walk"
   },
   {
     "term": "pradėti",
@@ -20054,24 +20097,65 @@
   {
     "term": "bauda",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Piniginė ar kitokia sankcija už taisyklių pažeidimą, pvz., sporto varžybose ar eisme.",
+        "example": "Teisėjas paskyrė baudą gynėjui už nesportišką elgesį.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "rules",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Baudos smūgis arba momentas futbole ar kituose sportuose.",
+        "example": "Rungtynės buvo laimėtos baudos smūgiu paskutinę minutę.",
+        "register": "general",
+        "tags": [
+          "football",
+          "sports",
+          "B2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "penalty"
   },
   {
     "term": "greitis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Judėjimo sparta; keliu ar trasą nueinamas atstumas per laiko vienetą.",
+        "example": "Sprinteris pasiekė rekordinį greitį finaliniame etape.",
+        "register": "general",
+        "tags": [
+          "athletics",
+          "measurement",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Automobilio ar kitos transporto priemonės pavara.",
+        "example": "Kylant į kalną reikia įjungti žemesnį greitį.",
+        "register": "general",
+        "tags": [
+          "transport",
+          "B2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "speed"
   },
   {
     "term": "kilometrai per valandą (km/h)",
@@ -25762,13 +25846,24 @@
   {
     "term": "sportbačiai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Specialūs batai sportui ir fizinei veiklai, užtikrinantys amortizaciją ir patogumą.",
+        "example": "Prieš bėgimą reikia gerai surišti sportbačius, kad nepasitempti.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "footwear",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "sports shoes"
   },
   {
     "term": "šalikėlis",
@@ -25972,12 +26067,23 @@
     "term": "maudymosi kostiumėlis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Apranga plaukimui ar maudymuisi, pritaikyta vandeniui.",
+        "example": "Ji įsidėjo maudymosi kostiumėlį į krepšį prieš vykdama į baseiną.",
+        "register": "general",
+        "tags": [
+          "swimming",
+          "clothing",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "swimsuit"
   },
   {
     "term": "apatiniai marškinėliai",
@@ -26878,46 +26984,111 @@
   {
     "term": "figūra",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kūno forma ir išvaizda, ypač raumenų ir riebalų santykis.",
+        "example": "Reguliari mankšta padeda palaikyti gražią figūrą.",
+        "register": "general",
+        "tags": [
+          "fitness",
+          "appearance",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Geometrinė forma, pvz., trikampis ar apskritimas.",
+        "example": "Mokiniai piešė geometrines figūras ir skaičiavo jų plotus.",
+        "register": "technical",
+        "tags": [
+          "mathematics",
+          "geometry",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "figure"
   },
   {
     "term": "lieknas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Turintis ploną, proporcingą kūno sudėjimą; neturintis perteklinio svorio.",
+        "example": "Po kelių mėnesių treniruočių ji tapo liekna ir energinga.",
+        "register": "general",
+        "tags": [
+          "appearance",
+          "fitness",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "slim"
   },
   {
     "term": "ūgis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Žmogaus kūno aukštis nuo žemės iki galvos viršaus, matuojamas centimetrais.",
+        "example": "Krepšinio žaidėjų ūgis dažnai viršija du metrus.",
+        "register": "general",
+        "tags": [
+          "body",
+          "measurement",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "height"
   },
   {
     "term": "svoris",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kūno masė, matuojama kilogramais; svarbūs skaičiai sveikatai ir sportui.",
+        "example": "Prieš boksą sportininkas turėjo patikrinti svorį, kad tilptų į kategoriją.",
+        "register": "general",
+        "tags": [
+          "measurement",
+          "sports",
+          "fitness",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Sunkumas, fizinė masė objekto.",
+        "example": "Šio ganto svoris yra penkiolika kilogramų.",
+        "register": "general",
+        "tags": [
+          "gym",
+          "equipment",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "weight"
   },
   {
     "term": "skruostas",
@@ -32686,13 +32857,34 @@
   {
     "term": "mankštintis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Atlikti fizinius pratimus sveikatos, formos palaikymui ar sportiniam pasirengimui.",
+        "example": "Kiekvieną rytą jis mankštinasi dvidešimt minučių prieš einant į darbą.",
+        "register": "general",
+        "tags": [
+          "fitness",
+          "physical activity",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Atlikti apšilimo pratimus prieš sporto treniruotę.",
+        "example": "Komanda mankštinasi dešimt minučių prieš kiekvieną rungtynes.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "training",
+          "B2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to exercise"
   },
   {
     "term": "maudytis",
@@ -34142,13 +34334,24 @@
   {
     "term": "meškerė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ilga lazda su meškere ir kabliuku, naudojama žvejybai.",
+        "example": "Tėvas išmokė sūnų naudotis meškere ir užkabinti masalą.",
+        "register": "general",
+        "tags": [
+          "fishing",
+          "outdoor activity",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "fishing rod"
   },
   {
     "term": "valtis",
@@ -34332,34 +34535,77 @@
     "term": "kurti laužą",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Sudėti malkas ir uždegti laužą lauke, pvz., stovyklavietėje.",
+        "example": "Joninių naktį visi rinkosi prie upės kurti laužą ir šokti per jį.",
+        "register": "general",
+        "tags": [
+          "outdoor activity",
+          "camping",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to build a bonfire"
   },
   {
     "term": "pasiklysti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Prarasti orientaciją ir nežinoti kelio; nuklysti nuo maršruto.",
+        "example": "Pirmą kartą vieni eidami per mišką, jie pasiklydo ir vėlavo grįžti.",
+        "register": "general",
+        "tags": [
+          "outdoor activity",
+          "hiking",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to get lost"
   },
   {
     "term": "plaukioti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Reguliariai arba laisvalaikiu plaukti vandenyje.",
+        "example": "Ji plaukioja baseine tris kartus per savaitę kaip treniruotę.",
+        "register": "general",
+        "tags": [
+          "water sports",
+          "physical activity",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Laisvai judėti vandenyje arba ore, be aiškios krypties.",
+        "example": "Žuvys plaukiojo aplink koralus.",
+        "register": "general",
+        "tags": [
+          "nature",
+          "movement",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to swim"
   },
   {
     "term": "uogauti",
@@ -34426,13 +34672,25 @@
   {
     "term": "Badmintonas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Žaidimas su raketėmis ir plunksnuotu kamuoliuku per tinklą; olimpinė sporto šaka.",
+        "example": "Po darbo Tomas ir Aistė žaidžia badmintoną parkų kortų aikštelėje.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "racket sport",
+          "team sport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "badminton"
   },
   {
     "term": "futbolas",
@@ -34464,46 +34722,110 @@
   {
     "term": "krepšinis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Komandinis sportas, kuriame žaidėjai meta kamuolį į priešininko krepšį.",
+        "example": "Lietuva garsėja krepšiniu – tai beveik nacionalinis sportas.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "team sport",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Pats kamuolys, naudojamas šiame žaidime.",
+        "example": "Prieš treniruotę Marius papūtė krepšinį.",
+        "register": "informal",
+        "tags": [
+          "sports",
+          "equipment",
+          "B2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "basketball"
   },
   {
     "term": "tenisas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Raketinis sportas, kuriame žaidėjai muša kamuoliuką per tinklą kortą.",
+        "example": "Ji žaidžia tenisą kiekvieną savaitgalį ir jau laimėjo kelis vietinius turnyrus.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "racket sport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "tennis"
   },
   {
     "term": "tinklinis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Komandinis sportas, kuriame dvi komandos muša kamuolį per tinklą rankomis.",
+        "example": "Paplūdimio tinklinis populiarėja Lietuvos jūros kurortuose.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "team sport",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "volleyball"
   },
   {
     "term": "kamuoliukas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Mažas apvalus kamuolys, naudojamas sporto žaidimuose, pvz., tenise ar stalo tenise.",
+        "example": "Teniso kamuoliukas atšoko nuo tinklo ir nuskriejo į out zonę.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "equipment",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Mažas kamuoliukas žaidimams ir pramogoms, ne profesionalioms varžyboms.",
+        "example": "Vaikai žaidė su spalvingais plastikiniais kamuoliukais paplūdimyje.",
+        "register": "general",
+        "tags": [
+          "recreation",
+          "toy",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "small ball"
   },
   {
     "term": "kamuolys",
@@ -34535,57 +34857,122 @@
   {
     "term": "raketė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Sporto įrankis su rankena ir ovalia virvelių arka, naudojamas tenise, badmintone ar panašiuose žaidimuose.",
+        "example": "Ji nusipirko naują badmintono raketę prieš turnyrą.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "equipment",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Kosmoso arba karinė raketa, varančiasi reaktyvine jėga.",
+        "example": "Šalies kosmoso agentūra sėkmingai paleido raketę į orbitą.",
+        "register": "technical",
+        "tags": [
+          "technology",
+          "aerospace",
+          "B2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "racket"
   },
   {
     "term": "rogutės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Nedidelė žieminė transporto priemonė ant bėgių, naudojama važinėtis nuo kalnų.",
+        "example": "Vaikai traukė rogutes į kalniuką ir čiuožinėjo nuo jo iki sutemų.",
+        "register": "general",
+        "tags": [
+          "winter sports",
+          "recreation",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "sled"
   },
   {
     "term": "slidės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ilgi plokšti lentai, tvirtinami prie batų slidinėjimui ant sniego.",
+        "example": "Prieš kalnų slidinėjimą būtina tinkamai sureguliuoti slidžių tvirtinimą.",
+        "register": "general",
+        "tags": [
+          "winter sports",
+          "equipment",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "skis"
   },
   {
     "term": "šachmatai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Strateginis stalo žaidimas, kuriame du žaidėjai judina figūras 64 langelių lentoje, siekdami patikrinti priešininko karalių.",
+        "example": "Jis kasdien žaidžia šachmatais ir rengiasi pasaulio čempionatui.",
+        "register": "general",
+        "tags": [
+          "board game",
+          "strategy",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "chess"
   },
   {
     "term": "šaškės",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Stalo žaidimas su apvaliais žetonais ant languotos lentos, kuriame reikia užimti visas priešininko figūras.",
+        "example": "Senelis išmokė mane žaisti šaškėmis, kai buvau mažas.",
+        "register": "general",
+        "tags": [
+          "board game",
+          "recreation",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "checkers"
   },
   {
     "term": "aikštelė",
@@ -34734,56 +35121,122 @@
     "term": "čiuožinėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Reguliariai arba pakartotinai čiuožti ant ledo su čiuožyklomis.",
+        "example": "Žiemą jie mėgsta čiuožinėti ant užšalusio ežero kiekvieną savaitgalį.",
+        "register": "general",
+        "tags": [
+          "winter sports",
+          "physical activity",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to skate"
   },
   {
     "term": "čiuožti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Slydimas ant ledo su specialiais batais (čiuožyklomis).",
+        "example": "Ji pirmą kartą išmoko čiuožti būdama septynerių metų.",
+        "register": "general",
+        "tags": [
+          "winter sports",
+          "physical activity",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to ice skate"
   },
   {
     "term": "jodinėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Reguliariai arba malonumui joti ant arklio.",
+        "example": "Ji jodinėja kiekvieną vakarą – tai jos mėgstamiausia laisvalaikio veikla.",
+        "register": "general",
+        "tags": [
+          "equestrian",
+          "physical activity",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to ride horses"
   },
   {
     "term": "joti",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Sėdint ant arklio judėti konkrečiu tikslu ar kryptimi.",
+        "example": "Kariai jojo per lauką, pakeldami dulkių debesis.",
+        "register": "general",
+        "tags": [
+          "equestrian",
+          "movement",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to ride a horse"
   },
   {
     "term": "lipdyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Formuoti figūras ar daiktus iš molio, plastilino ar sniego.",
+        "example": "Vaikai lipdė sniego senį ir labai džiaugėsi žiema.",
+        "register": "general",
+        "tags": [
+          "activity",
+          "winter",
+          "craft",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Kurti skulptūras ar keramiką kaip meninę veiklą.",
+        "example": "Ji lanko keramikos kursus ir mėgsta lipdyti vazas.",
+        "register": "general",
+        "tags": [
+          "art",
+          "craft",
+          "B2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to sculpt"
   },
   {
     "term": "Senis besmegenis",
@@ -34828,12 +35281,33 @@
     "term": "važinėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Reguliariai ar malonumui važiuoti transporto priemone ar dviračiu.",
+        "example": "Vasarą jis mėgsta važinėti dviračiu palei upę.",
+        "register": "general",
+        "tags": [
+          "physical activity",
+          "cycling",
+          "B1"
+        ]
+      },
+      {
+        "definition": "Keliauti arba judėti be konkretaus tikslo, stebint aplinką.",
+        "example": "Vaikai važinėjo riedlentėmis šaligatviu iki pat vakaro.",
+        "register": "general",
+        "tags": [
+          "recreation",
+          "movement",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to ride"
   },
   {
     "term": "pačiūžos",
@@ -39031,17 +39505,45 @@
   },
   {
     "term": "dviratininkas",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "cyclist",
+    "meanings": [
+      {
+        "definition": "Vyras, kuris reguliariai važinėja dviračiu, ypač kaip sportu.",
+        "example": "Lietuvos dviratininkas laimėjo kalnų etapą Prancūzijoje.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "athletics",
+          "cycling",
+          "B2"
+        ]
+      }
+    ]
   },
   {
     "term": "dviratininkė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "cyclist",
+    "meanings": [
+      {
+        "definition": "Moteris, kuri reguliariai važinėja dviračiu, ypač kaip sportu.",
+        "example": "Šių metų lenktynėse geriausiai pasirodė jauna dviratininkė iš Kauno.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "athletics",
+          "cycling",
+          "B2"
+        ]
+      }
+    ]
   },
   {
     "term": "užmiestis",
@@ -40978,10 +41480,23 @@
   },
   {
     "term": "trenerė",
-    "status": "stub",
+    "status": "enriched",
     "language": "lt",
-    "partOfSpeech": "",
-    "tags": []
+    "partOfSpeech": "noun",
+    "tags": [],
+    "translation": "coach",
+    "meanings": [
+      {
+        "definition": "Moteris, kuri moko ir treniruoja sportininkus ar kitas grupes.",
+        "example": "Plaukimo trenerė paaiškino komandai, kaip taisyti techniką.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "profession",
+          "B1"
+        ]
+      }
+    ]
   },
   {
     "term": "teisėjas",

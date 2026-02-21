@@ -1107,3 +1107,28 @@ Pre-existing warnings only in approved-status entries; zero errors in newly enri
 - `logocentrism` relatedTerms initially included a self-referential entry (bug caught pre-write); corrected before file write.
 - Synonyms and antonymTerms left minimal or empty where no established equivalents exist (Relations agent fills these in the next pipeline stage).
 - 110 stubs remain in the file for subsequent enricher sessions.
+## Session retro — enricher-lt-41 (2025-08-03)
+
+### Scope
+- **Role**: Enricher Agent (Lithuanian)
+- **Branch**: `vocab/enricher-lt-41`
+- **File**: `words_lt_staging.json` (LT)
+
+### Work done
+- Preflight JSON on `words_lt_staging.json` — valid (JSON OK).
+- Counted 810 stub entries available.
+- Selected and enriched **35 LT stubs** focused on sports and physical activity vocabulary at B1/B2 level.
+- Categories covered: team sports (krepšinis, tinklinis, badmintonas, tenisas), individual/racket/winter sports (slidės, rogutės, čiuožti, čiuožinėti, šachmatai, šaškės), sports equipment (kamuoliukas, raketė, meškerė, sportbačiai, maudymosi kostiumėlis), physical activities and movement verbs (mankštintis, vaikščioti, plaukioti, joti, jodinėti, važinėti, eiti pasivaikščioti, pasiklysti, lipdyti), outdoor activities (kurti laužą), athletes and coaches (dviratininkas, dviratininkė, trenerė), fitness/body attributes (figūra, lieknas, ūgis, svoris, greitis, kilogramas), sports rules (bauda).
+- Each entry: `partOfSpeech` set, `translation` (EN gloss) added, `meanings` array (1–2 senses per word) with `definition`, `example`, `register`, `tags`; `status` → `enriched`.
+
+### Validation
+`validate_words.py --errors-for enriched` → **PASSED** (exit 0).
+- 2030 words validated; 98 pre-existing warnings in `approved`-status entries only; zero errors in enriched batch.
+
+### Decisions & tradeoffs
+- `raketė` given two senses: sports racket (primary, B1) and aerospace rocket (B2/technical) — genuinely polysemous in Lithuanian.
+- `greitis` given two senses: speed/pace in athletics and gear in vehicles — both B1/B2 level usages.
+- `bauda` given two senses: sports penalty (referee context) and a penalty kick/moment — both common in sports discourse.
+- `šachmatai` / `šaškės` included as mind sports/competitive games per B1 curriculum convention.
+- `kilogramas` included as the measurement unit central to weight-category sports (boxing, weightlifting, wrestling).
+- `lipdyti` and `kurti laužą` included under outdoor/winter activities (snowman building, bonfire — culturally significant physical activities in Lithuanian context).
