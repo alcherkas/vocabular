@@ -3,7 +3,7 @@ import SwiftData
 
 @Model
 class Word {
-    @Attribute(.unique) var term: String
+    var term: String
     var definition: String
     var synonyms: [String]
     var example: String
@@ -13,14 +13,22 @@ class Word {
     var timesCorrect: Int = 0
     var timesSeen: Int = 0
     var lastSeen: Date?
-    
-    init(term: String, definition: String, synonyms: [String], example: String, partOfSpeech: String, tags: [String] = []) {
+
+    // Language support
+    var language: String = "en"
+    var translation: String?
+    @Attribute(.unique) var uniqueKey: String
+
+    init(term: String, definition: String, synonyms: [String], example: String, partOfSpeech: String, tags: [String] = [], language: String = "en", translation: String? = nil) {
         self.term = term
         self.definition = definition
         self.synonyms = synonyms
         self.example = example
         self.partOfSpeech = partOfSpeech
         self.tags = tags
+        self.language = language
+        self.translation = translation
+        self.uniqueKey = "\(language):\(term)"
     }
     
     var masteryLevel: Double {

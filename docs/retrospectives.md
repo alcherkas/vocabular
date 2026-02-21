@@ -101,3 +101,19 @@ Every agent appends a brief retrospective note at the **end of each iteration** 
 
 ### Suggested improvement
 - Add a "Current vs. Target" section to ARCHITECTURE.md that explicitly marks which schema changes are aspirational vs. implemented, to reduce confusion for architecture/feature agents.
+
+## [2025-07-17] [feat-language-field] [language-field]
+
+### What went well
+- Task scope was clear: exactly 4 files to modify with well-defined acceptance criteria.
+- Architecture doc provided exact code sketches for Word model changes and WordService loading, making implementation mechanical.
+- Build succeeded on first attempt after all changes.
+
+### What was harder than expected
+- Xcode CLI tooling required DEVELOPER_DIR override and the simulator name had changed (iPhone 17 Pro instead of iPhone 16).
+
+### Process friction
+- BUILD.md references `iPhone 16` simulator which doesn't exist on this Xcode version; had to discover available simulators manually.
+
+### Suggested improvement
+- Update BUILD.md to use `'platform=iOS Simulator,name=Any iOS Simulator Device'` or document how to find available simulators first.
