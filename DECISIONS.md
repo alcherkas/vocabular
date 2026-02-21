@@ -305,3 +305,24 @@ Vocab/
 
 ### Validator result
 132 enriched entries — all passed ✓ | 1960 total entries — all passed ✓
+
+## Retro — vocab/enricher-en-16 (35 EN stubs)
+
+**Date:** 2025-07-15
+**Branch:** vocab/enricher-en-16
+
+### What was enriched
+- **Law (15):** abatement, certiorari, chattel, comity, conveyance, derogation, easement, encumbrance, fiduciary, laches, mandamus, novation, rescission, subrogation, surety — technical register, procedural and property law terms.
+- **History (15):** appanage, decolonization, diaspora, encomienda, feudalism, hagiography, historiography, interregnum, irredentism, mercantilism, periodization, primogeniture, provenance, syncretism, vassalage — formal/neutral register, medieval through modern era.
+- **Political theory (5):** biopolitics, constitutionalism, hegemony, majoritarianism, neoliberalism — formal register, ranging from Foucauldian theory to liberal democratic governance.
+
+### Decisions
+- `partOfSpeech` set to `noun` for all 35 entries; all terms are nominal concepts in their primary sense.
+- Register `technical` used for strict legal and procedural terms (certiorari, mandamus, subrogation, encomienda, historiography, periodization, irredentism, mercantilism); `formal` for learned but non-specialist vocabulary (comity, hagiography, interregnum, vassalage, constitutionalism, hegemony, majoritarianism, neoliberalism, appanage, primogeniture, provenance, syncretism); `neutral` for broadly accessible terms (decolonization, diaspora, feudalism).
+- Each meaning includes domain tags (e.g. `["law","property","real estate"]`) for downstream filtering.
+- All synonyms arrays contain ≥ 2 items to satisfy EN validation rule.
+- `antonymTerms` left as `[]` where no natural antonym exists in the domain (e.g. certiorari, mandamus, novation, subrogation).
+- No merges performed; branch left for PR review.
+
+### Validator result
+PASSED — 530 word(s) valid ✓ (validate_words.py --errors-for enriched, exit 0)
