@@ -1,13 +1,21 @@
 import Foundation
 import SwiftData
 
+struct MeaningData: Codable {
+    let definition: String
+    let example: String?
+    let register: String?
+    let tags: [String]?
+}
+
 struct WordData: Codable {
     let term: String
-    let definition: String
-    let synonyms: [String]
-    let example: String
+    let meanings: [MeaningData]?
+    let definition: String?
+    let synonyms: [String]?
+    let example: String?
     let partOfSpeech: String
-    let tags: [String]
+    let tags: [String]?
     let language: String?
     let translation: String?
 }
@@ -36,15 +44,37 @@ class WordService {
             let wordData = try JSONDecoder().decode([WordData].self, from: data)
 
             for wd in wordData {
+                let meanings: [WordMeaning]
+                if let decodedMeanings = wd.meanings, !decodedMeanings.isEmpty {
+                    meanings = decodedMeanings.map {
+                        WordMeaning(
+                            definition: $0.definition,
+                            example: $0.example ?? "",
+                            register: $0.register,
+                            tags: $0.tags ?? []
+                        )
+                    }
+                } else {
+                    meanings = [
+                        WordMeaning(
+                            definition: wd.definition ?? "",
+                            example: wd.example ?? "",
+                            register: nil,
+                            tags: wd.tags ?? []
+                        )
+                    ]
+                }
+
                 let word = Word(
                     term: wd.term,
-                    definition: wd.definition,
-                    synonyms: wd.synonyms,
-                    example: wd.example,
+                    definition: wd.definition ?? meanings.first?.definition ?? "",
+                    synonyms: wd.synonyms ?? [],
+                    example: wd.example ?? meanings.first?.example ?? "",
                     partOfSpeech: wd.partOfSpeech,
-                    tags: wd.tags,
+                    tags: wd.tags ?? [],
                     language: language,
-                    translation: wd.translation
+                    translation: wd.translation,
+                    meanings: meanings
                 )
                 context.insert(word)
             }
