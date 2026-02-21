@@ -27823,7 +27823,7 @@
     "term": "darbuotojas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man employed by an organisation or employer to perform work in exchange for payment.",
@@ -27837,12 +27837,13 @@
       }
     ],
     "synonyms": [
-      "tarnautojas"
+      "samdinys"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "darbdavys"
+    ],
     "relatedTerms": [
       "darbuotoja",
-      "darbdavys",
       "kolega"
     ],
     "translation": "employee",
@@ -27852,7 +27853,7 @@
     "term": "darbuotoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman employed by an organisation or employer to perform work in exchange for payment.",
@@ -27866,12 +27867,13 @@
       }
     ],
     "synonyms": [
-      "tarnautoja"
+      "samdinė"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "darbdavė"
+    ],
     "relatedTerms": [
       "darbuotojas",
-      "darbdavė",
       "kolegė"
     ],
     "translation": "employee (female)",
@@ -28148,7 +28150,7 @@
     "term": "bedarbė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who is without paid employment and is registered as seeking work.",
@@ -28161,7 +28163,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "nedirbantioji"
+    ],
     "antonymTerms": [
       "darbuotoja"
     ],
@@ -28176,7 +28180,7 @@
     "term": "dalyvis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person who takes part in an activity, event, or public process such as elections or civic discussions.",
@@ -28205,7 +28209,7 @@
     "term": "dalyvė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who takes part in an activity, meeting, or civic process.",
@@ -28218,7 +28222,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "dalyvaujančioji"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "dalyvis",
@@ -28231,7 +28237,7 @@
     "term": "išsilavinimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The level of academic or professional training and qualifications a person has acquired through formal schooling.",
@@ -28287,7 +28293,7 @@
     "term": "konferencija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large formal meeting where professionals gather to discuss topics in their field.",
@@ -28300,7 +28306,8 @@
       }
     ],
     "synonyms": [
-      "forumas"
+      "simpoziumas",
+      "suvažiavimas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -28315,7 +28322,7 @@
     "term": "kursai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A series of lessons or training sessions, often delivered online or through a learning platform.",
@@ -28373,7 +28380,7 @@
     "term": "seminaras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A training or educational meeting where participants discuss a topic or develop professional skills.",
@@ -28386,7 +28393,7 @@
       }
     ],
     "synonyms": [
-      "mokymai"
+      "kolokviumas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -28564,7 +28571,7 @@
     "term": "parašas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person's name written by hand to authorise documents or confirm identity.",
@@ -28577,7 +28584,7 @@
       }
     ],
     "synonyms": [
-      "autografas"
+      "rankinis ženklas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -28592,7 +28599,7 @@
     "term": "pasas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An official government-issued travel document certifying the holder's identity and citizenship, required for international travel.",
@@ -28605,7 +28612,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kelionės dokumentas",
+      "tapatybės dokumentas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "paso numeris",
@@ -28618,7 +28628,7 @@
     "term": "paso numeris",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The unique alphanumeric identifier printed in a passport, used for official registration and identification purposes.",
@@ -28631,7 +28641,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "paso eilės numeris",
+      "dokumento numeris"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "pasas",
@@ -28644,7 +28657,7 @@
     "term": "prašymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formal written request submitted to an authority, employer, or institution for a particular purpose.",
@@ -28657,7 +28670,7 @@
       }
     ],
     "synonyms": [
-      "pareiškimas"
+      "peticija"
     ],
     "antonymTerms": [
       "atsisakymas"
@@ -28713,7 +28726,7 @@
     "term": "laiškas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An electronic message sent via email.",
@@ -28738,8 +28751,8 @@
       }
     ],
     "synonyms": [
-      "el. laiškas",
-      "žinutė"
+      "žinutė",
+      "epistolė"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -28764,7 +28777,7 @@
     "term": "siuntinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A parcel or package sent by post or courier; often ordered through an online store.",
@@ -28784,8 +28797,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "pristatymas",
-      "sekti siuntą",
-      "interneto parduotuvė"
+      "interneto parduotuvė",
+      "siuntos sekimas"
     ],
     "translation": "parcel, package"
   },
@@ -28793,7 +28806,7 @@
     "term": "gauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To receive or obtain something, such as an email, message, or file sent electronically.",
@@ -28825,7 +28838,7 @@
     "term": "siųsti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To transmit a message, file, or data to a recipient electronically.",
@@ -28868,7 +28881,7 @@
     "term": "blankas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form or template with fields to be filled in, often submitted online.",
@@ -28909,7 +28922,7 @@
     "term": "kursas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The exchange rate of a currency, often checked on banking or financial websites.",
@@ -28950,7 +28963,7 @@
     "term": "mokėjimo kortelė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A bank-issued card used to make electronic payments in shops or online.",
@@ -28965,7 +28978,8 @@
       }
     ],
     "synonyms": [
-      "banko kortelė"
+      "banko kortelė",
+      "debeto kortelė"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -28979,7 +28993,7 @@
     "term": "moneta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A digital token used in cryptocurrency systems.",
@@ -29004,7 +29018,8 @@
       }
     ],
     "synonyms": [
-      "žetonas"
+      "žetonas",
+      "apyvartinis piniginis ženklas"
     ],
     "antonymTerms": [
       "banknotas"
@@ -29020,7 +29035,7 @@
     "term": "paskola",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A sum of money borrowed from a bank or lender, often applied for through an online banking platform.",
@@ -29035,7 +29050,8 @@
       }
     ],
     "synonyms": [
-      "kreditas"
+      "kreditas",
+      "skolinys"
     ],
     "antonymTerms": [
       "indėlis"
@@ -29073,7 +29089,7 @@
     "term": "valiuta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A system of money in use in a country; also includes digital and cryptocurrencies.",
@@ -29088,7 +29104,8 @@
       }
     ],
     "synonyms": [
-      "pinigai"
+      "pinigai",
+      "mokėjimo priemonė"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -29146,7 +29163,7 @@
     "term": "užpildyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To complete a form or questionnaire with the required information, often submitted online.",
@@ -29175,7 +29192,7 @@
     "term": "Atleisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To stop feeling angry about an offence and no longer hold it against someone; to forgive.",
@@ -29228,7 +29245,7 @@
     "term": "dalyvauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To take part in an event, meeting, or online activity.",
@@ -29271,7 +29288,7 @@
     "term": "kreiptis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To contact someone or submit an application, often through digital channels or a website.",
@@ -29301,7 +29318,7 @@
     "term": "pasirašyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To provide a signature, including digitally, to authorize a document or agreement.",
@@ -29316,7 +29333,8 @@
       }
     ],
     "synonyms": [
-      "patvirtinti parašu"
+      "patvirtinti parašu",
+      "ratifikuoti"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -29352,7 +29370,7 @@
     "term": "susirinkti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To gather or assemble, including for an online meeting or conference call.",
@@ -29395,7 +29413,7 @@
     "term": "teirautis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To ask for information or make an inquiry, especially through online customer service or a website.",
@@ -29436,7 +29454,7 @@
     "term": "veikti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To function or operate correctly; used to describe how devices or software behave.",
@@ -29480,7 +29498,7 @@
     "term": "klijuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In computing, to insert copied text or data from the clipboard into a document or field.",
@@ -29520,7 +29538,7 @@
     "term": "kopijuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To duplicate text, a file, or data so it can be pasted or reused elsewhere.",
@@ -29535,7 +29553,8 @@
       }
     ],
     "synonyms": [
-      "dubliuoti"
+      "dubliuoti",
+      "atkartoti"
     ],
     "antonymTerms": [
       "ištrinti"
@@ -29562,7 +29581,7 @@
     "term": "trinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To remove or delete data, text, or a file from a device or document.",
@@ -29626,7 +29645,7 @@
     "term": "domėtis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To show curiosity or interest in something; to engage actively with a topic.",
@@ -29641,7 +29660,7 @@
     ],
     "synonyms": [
       "smalsuoti",
-      "gilinntis"
+      "gilintis"
     ],
     "antonymTerms": [
       "nepaisyti",
