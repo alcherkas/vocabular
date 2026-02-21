@@ -8794,7 +8794,7 @@
     "term": "savaitgalis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The period of Saturday and Sunday, typically free from work.",
@@ -8829,7 +8829,7 @@
     "term": "nulis",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 0; nothing.",
@@ -8865,7 +8865,7 @@
     "term": "vienas",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 1; a single unit.",
@@ -9181,7 +9181,7 @@
     "term": "dešimt",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The number 10; one more than nine.",
@@ -9217,7 +9217,7 @@
     "term": "žmona",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A married woman in relation to her husband.",
@@ -9252,7 +9252,7 @@
     "term": "brolis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male sibling.",
@@ -9287,7 +9287,7 @@
     "term": "sesuo",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female sibling.",
@@ -9322,7 +9322,7 @@
     "term": "pusseserė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A daughter of one's uncle or aunt.",
@@ -9357,7 +9357,7 @@
     "term": "vaikas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A young human being below the age of puberty.",
@@ -9634,7 +9634,7 @@
     "term": "tėvai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person's father and mother.",
@@ -9669,7 +9669,7 @@
     "term": "sūnus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male child in relation to his parents.",
@@ -9705,7 +9705,7 @@
     "term": "duktė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female child in relation to her parents.",
@@ -9776,7 +9776,7 @@
     "term": "senelė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The mother of one's parent.",
@@ -10296,7 +10296,7 @@
     "term": "sėdėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To be in a seated position; to rest with the weight of the body on the buttocks.",
@@ -10308,7 +10308,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tupėti",
+      "ilsėtis sėdint"
+    ],
     "antonymTerms": [
       "stovėti",
       "gulėti"
@@ -10324,7 +10327,7 @@
     "term": "stovėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To be in an upright position on one's feet without moving.",
@@ -10336,7 +10339,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "laikytis stačiai",
+      "būti stovimoje padėtyje"
+    ],
     "antonymTerms": [
       "sėdėti",
       "gulėti"
@@ -10352,7 +10358,7 @@
     "term": "turėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To own or possess something; to hold something as a property or attribute.",
@@ -10382,7 +10388,7 @@
     "term": "žiūrėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To direct one's gaze at something; to watch attentively.",
@@ -10398,7 +10404,10 @@
       "stebėti",
       "matyti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "nekreipti dėmesio",
+      "nematyti"
+    ],
     "relatedTerms": [
       "akys",
       "vaizdas",
@@ -10410,7 +10419,7 @@
     "term": "girdėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To perceive sounds through the sense of hearing.",
@@ -10425,7 +10434,10 @@
     "synonyms": [
       "klausyti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "negirdėti",
+      "ignoruoti"
+    ],
     "relatedTerms": [
       "ausys",
       "garsas",
@@ -10437,7 +10449,7 @@
     "term": "mėgti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To find something pleasing or enjoyable; to have a preference for something.",
@@ -10467,7 +10479,7 @@
     "term": "susipažinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To meet someone for the first time and introduce oneself; to become familiar with someone or something.",
@@ -10483,7 +10495,10 @@
       "pažinti",
       "prisistatyti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "ignoruoti",
+      "vengti"
+    ],
     "relatedTerms": [
       "draugystė",
       "pažintis",
@@ -10495,7 +10510,7 @@
     "term": "žaisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To engage in play or a game for fun; to take part in a sport or recreational activity.",
@@ -10524,7 +10539,7 @@
     "term": "Jaunas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having lived or existed for only a short time; not old. Masculine form.",
@@ -10536,7 +10551,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "jaunatviškas",
+      "jaunutis"
+    ],
     "antonymTerms": [
       "senas"
     ],
@@ -10551,7 +10569,7 @@
     "term": "jauna",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having lived or existed for only a short time; not old. Feminine form.",
@@ -10563,7 +10581,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "jaunatviškas",
+      "jaunoji"
+    ],
     "antonymTerms": [
       "sena"
     ],
@@ -10578,7 +10599,7 @@
     "term": "senas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having lived or existed for a long time; advanced in age. Masculine form.",
@@ -10608,7 +10629,7 @@
     "term": "sena",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having lived or existed for a long time; advanced in age. Feminine form.",
@@ -10638,7 +10659,7 @@
     "term": "linksmas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Feeling or showing happiness and high spirits; merry. Masculine form.",
@@ -10668,7 +10689,7 @@
     "term": "linksma",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Feeling or showing happiness and high spirits; merry. Feminine form.",
@@ -10698,7 +10719,7 @@
     "term": "liūdnas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Experiencing or expressing sorrow or unhappiness.",
@@ -10729,7 +10750,7 @@
     "term": "liūdna",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Experiencing or expressing sorrow; feminine/neuter form of liūdnas.",
@@ -10760,7 +10781,7 @@
     "term": "gražus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having qualities that give pleasure to the senses; attractive in appearance.",
@@ -10791,7 +10812,7 @@
     "term": "graži",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having an attractive appearance; feminine form of gražus.",
@@ -10822,7 +10843,7 @@
     "term": "negražus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Lacking beauty; unpleasant to look at.",
@@ -10853,7 +10874,7 @@
     "term": "negraži",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Lacking beauty; unpleasant to look at; feminine form of negražus.",
@@ -10884,7 +10905,7 @@
     "term": "šviesus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Emitting or reflecting a lot of light; full of light.",
@@ -10916,7 +10937,7 @@
     "term": "šviesi",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Emitting or reflecting much light; feminine form of šviesus.",

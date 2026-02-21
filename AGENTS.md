@@ -175,3 +175,28 @@ When stopping to write to `decisions-pending.md`, classify the ambiguity type. T
 | `open-ended-task` | No clear success criteria defined | A definition of what "done" looks like |
 
 Include the ambiguity type in your `decisions-pending.md` entry (see format in each agent doc).
+
+---
+
+## Retro — vocab/relations-12 (relations agent run)
+
+**Date:** $(date -u +"%Y-%m-%d")
+**Branch:** vocab/relations-12
+**Commit:** 9aeb0e0
+
+### What was done
+- Preflight JSON validation on both `words_staging.json` and `words_lt_staging.json` — both valid JSON; pre-existing empty-POS issues noted in unrelated stub entries (not touched).
+- Selected the first 35 `enriched` entries from each file as targets.
+- **EN (`words_staging.json`):** 18 of 35 entries had missing `antonymTerms` or `synonyms`; all gaps filled. All 35 status → `relations-added`.
+- **LT (`words_lt_staging.json`):** 7 of 35 entries had missing `synonyms` or `antonymTerms`; all gaps filled. All 35 status → `relations-added`.
+- Post-update validation confirmed all 35 new `relations-added` entries in both files have non-empty `synonyms`, `antonymTerms`, and `relatedTerms`.
+
+### Stats
+| File | New relations-added | Pre-existing relations-added | Total |
+|------|--------------------|-----------------------------|-------|
+| words_staging.json | 35 | 1 | 36 |
+| words_lt_staging.json | 35 | 35 | 70 |
+
+### Issues / notes
+- Pre-existing `relations-added` entries in `words_lt_staging.json` (9 entries) already had empty fields before this run — not modified, not our scope.
+- For technical terms with no true linguistic antonym (cartographic instruments, meteorological phenomena), conceptually contrasting domain terms were used as `antonymTerms`, consistent with the existing file conventions (`cumulonimbus`→`stratus`, `bathymetry`→`topography`).
