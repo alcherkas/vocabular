@@ -17034,177 +17034,1270 @@
   {
     "term": "tessitura",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The most natural and comfortable range of a voice or instrument, where the majority of a vocal or melodic line sits.",
+        "example": "The soprano struggled with the role because the tessitura lay uncomfortably high for most of the first act.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "vocal"
+        ]
+      }
+    ],
+    "synonyms": [
+      "vocal range",
+      "comfortable range",
+      "natural register"
+    ],
+    "antonymTerms": [
+      "extreme register",
+      "strain range"
+    ],
+    "relatedTerms": [
+      "register",
+      "range",
+      "voice type",
+      "mezzo-soprano",
+      "timbre"
+    ]
   },
   {
     "term": "leitmotif",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A recurring musical theme associated with a particular person, place, idea, or dramatic situation in an opera or film score.",
+        "example": "Wagner used a distinctive leitmotif for each character, allowing the orchestra to comment on the drama independently of the singers.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "opera",
+          "composition"
+        ]
+      }
+    ],
+    "synonyms": [
+      "recurring theme",
+      "musical motif",
+      "signature theme"
+    ],
+    "antonymTerms": [
+      "through-composed passage"
+    ],
+    "relatedTerms": [
+      "motif",
+      "thematic development",
+      "program music",
+      "opera",
+      "Wagner"
+    ]
   },
   {
     "term": "melisma",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The singing of a single syllable of text over several consecutive notes, creating an ornamental melodic extension.",
+        "example": "Gospel and R&B singers frequently employ melisma, stretching one syllable across a cascade of pitches to heighten emotional intensity.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "vocal",
+          "ornament"
+        ]
+      }
+    ],
+    "synonyms": [
+      "melismatic passage",
+      "vocal run",
+      "coloratura ornament"
+    ],
+    "antonymTerms": [
+      "syllabic singing"
+    ],
+    "relatedTerms": [
+      "syllabic",
+      "coloratura",
+      "ornamentation",
+      "neumatic",
+      "plainchant"
+    ]
   },
   {
     "term": "microtonal",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Relating to music that uses intervals smaller than a semitone, dividing the octave into more than twelve equal steps or using non-standard tuning systems.",
+        "example": "The composer's microtonal string quartet required the players to tune their instruments to quarter-tones, producing an unsettling, gliding texture.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "tuning",
+          "contemporary"
+        ]
+      }
+    ],
+    "synonyms": [
+      "quarter-tone",
+      "xenharmonic",
+      "infrachromatic"
+    ],
+    "antonymTerms": [
+      "diatonic",
+      "chromatic",
+      "equal-tempered"
+    ],
+    "relatedTerms": [
+      "microtonality",
+      "quarter-tone",
+      "just intonation",
+      "temperament",
+      "xenharmonic"
+    ]
   },
   {
     "term": "serialism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A compositional technique in which a fixed series of pitches, rhythms, or other musical elements is used in various permutations as the structural basis of a work.",
+        "example": "Serialism replaced tonal harmony with strict organizational procedures, making the pitch relationships of a work entirely dependent on its predetermined row.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "composition",
+          "20th-century"
+        ]
+      }
+    ],
+    "synonyms": [
+      "twelve-tone technique",
+      "serial composition",
+      "dodecaphonic method"
+    ],
+    "antonymTerms": [
+      "tonality",
+      "tonal composition"
+    ],
+    "relatedTerms": [
+      "tone row",
+      "dodecaphony",
+      "Schoenberg",
+      "pitch class set",
+      "integral serialism"
+    ]
   },
   {
     "term": "dodecaphony",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A system of atonal composition in which the twelve chromatic pitches are arranged in a fixed series and treated without hierarchical preference for any single pitch.",
+        "example": "Dodecaphony liberated composers from tonal expectations, but critics argued that it replaced one set of constraints with another, equally rigid system.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "composition",
+          "atonality"
+        ]
+      }
+    ],
+    "synonyms": [
+      "twelve-tone composition",
+      "twelve-note technique",
+      "serial music"
+    ],
+    "antonymTerms": [
+      "tonality",
+      "diatonicism"
+    ],
+    "relatedTerms": [
+      "serialism",
+      "tone row",
+      "Schoenberg",
+      "Webern",
+      "Berg",
+      "pitch class"
+    ]
   },
   {
     "term": "polyrhythm",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The simultaneous use of two or more rhythmic patterns that conflict with or contradict each other across different voices or instruments.",
+        "example": "West African drumming relies heavily on polyrhythm, with each drummer maintaining a distinct rhythmic cycle that interlocks with the others.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "rhythm",
+          "percussion"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cross-rhythm",
+      "polymeter",
+      "rhythmic counterpoint"
+    ],
+    "antonymTerms": [
+      "monophonic rhythm",
+      "unison rhythm"
+    ],
+    "relatedTerms": [
+      "hemiola",
+      "syncopation",
+      "meter",
+      "rhythm",
+      "polyphony",
+      "African music"
+    ]
   },
   {
     "term": "ostinato",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A motif or phrase that persistently repeats in the same musical voice, usually at the same pitch, throughout a composition or extended passage.",
+        "example": "The hypnotic effect of the movement was built entirely on a two-bar ostinato in the bass, over which the melody slowly evolved.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "composition",
+          "repetition"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ground bass",
+      "repeating figure",
+      "riff"
+    ],
+    "antonymTerms": [
+      "through-composed melody",
+      "development section"
+    ],
+    "relatedTerms": [
+      "basso ostinato",
+      "passacaglia",
+      "chaconne",
+      "pedal point",
+      "riff",
+      "groove"
+    ]
   },
   {
     "term": "enharmonic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Describing two notes that are identical in pitch on a modern keyboard but are written differently and may function differently in tonal context.",
+        "example": "C-sharp and D-flat are enharmonic equivalents: physically the same piano key but notated differently depending on the harmonic function required.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "harmony",
+          "notation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pitch equivalent",
+      "homophonic pitch",
+      "enharmonically equivalent"
+    ],
+    "antonymTerms": [
+      "diatonic",
+      "chromatic alteration"
+    ],
+    "relatedTerms": [
+      "enharmonic modulation",
+      "temperament",
+      "chromatic scale",
+      "accidental",
+      "respelling"
+    ]
   },
   {
     "term": "heterophony",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A texture in which two or more voices simultaneously perform variations of the same melodic line, resulting in incidental dissonance and rhythmic divergence.",
+        "example": "Traditional gamelan music is built on heterophony: each instrument ornaments the core melody according to its own idiomatic patterns.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "texture",
+          "ethnomusicology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "melodic variation texture",
+      "simultaneous variants"
+    ],
+    "antonymTerms": [
+      "unison",
+      "monophony",
+      "homophony"
+    ],
+    "relatedTerms": [
+      "polyphony",
+      "monophony",
+      "texture",
+      "gamelan",
+      "embellishment",
+      "ornamentation"
+    ]
   },
   {
     "term": "organum",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An early form of polyphonic music in which one or more additional voices are added to a plainchant melody, moving in parallel or contrary motion at set intervals.",
+        "example": "The Notre-Dame School developed florid organum in which the upper voice sang elaborate melismatic passages above a held drone of plainchant.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "medieval",
+          "polyphony"
+        ]
+      }
+    ],
+    "synonyms": [
+      "early polyphony",
+      "parallel organum",
+      "medieval part-song"
+    ],
+    "antonymTerms": [
+      "monophony",
+      "plainchant"
+    ],
+    "relatedTerms": [
+      "plainchant",
+      "polyphony",
+      "Notre-Dame School",
+      "discant",
+      "melisma",
+      "Leonin",
+      "Perotin"
+    ]
   },
   {
     "term": "continuo",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A bass part played by one or more instruments with improvised harmonies, providing a continuous harmonic foundation in Baroque ensemble music.",
+        "example": "In the Baroque trio sonata, the continuo was typically realised by a harpsichord filling in chords above the bass line indicated by figured numerals.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "baroque",
+          "harmony"
+        ]
+      }
+    ],
+    "synonyms": [
+      "basso continuo",
+      "figured bass",
+      "thoroughbass"
+    ],
+    "antonymTerms": [
+      "obligato bass",
+      "written-out accompaniment"
+    ],
+    "relatedTerms": [
+      "basso continuo",
+      "figured bass",
+      "harpsichord",
+      "baroque",
+      "realisation",
+      "chord"
+    ]
   },
   {
     "term": "tenebrism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A style of painting that employs dramatic, high-contrast illumination with most of the composition in deep shadow, associated especially with Caravaggio and his followers.",
+        "example": "Caravaggio's tenebrism was radical in its time: figures seem to emerge from absolute darkness, lit by a single, almost theatrical source of light.",
+        "register": "technical",
+        "tags": [
+          "art",
+          "painting",
+          "baroque"
+        ]
+      }
+    ],
+    "synonyms": [
+      "chiaroscuro painting",
+      "Caravaggism",
+      "dark-field painting"
+    ],
+    "antonymTerms": [
+      "high-key lighting",
+      "luminism"
+    ],
+    "relatedTerms": [
+      "chiaroscuro",
+      "sfumato",
+      "Caravaggio",
+      "Baroque painting",
+      "shadow",
+      "contrast"
+    ]
   },
   {
     "term": "sfumato",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A painting technique in which tones and colours are blended so gradually that there are no discernible lines or boundaries between them, producing a hazy, atmospheric effect.",
+        "example": "Leonardo da Vinci's use of sfumato in the Mona Lisa gives the figure's features and background an elusive, dreamlike quality.",
+        "register": "technical",
+        "tags": [
+          "art",
+          "painting",
+          "technique"
+        ]
+      }
+    ],
+    "synonyms": [
+      "soft-focus blending",
+      "tonal gradation",
+      "vaporous modelling"
+    ],
+    "antonymTerms": [
+      "hard-edge painting",
+      "contour line",
+      "hatching"
+    ],
+    "relatedTerms": [
+      "chiaroscuro",
+      "tenebrism",
+      "Leonardo da Vinci",
+      "glazing",
+      "aerial perspective",
+      "modelling"
+    ]
   },
   {
     "term": "impasto",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A technique in which paint is applied to a surface in thick layers so that the brushstroke or palette-knife marks remain visible, creating a palpable three-dimensional texture.",
+        "example": "Van Gogh's impasto technique imparted extraordinary energy to his canvases, the thick ridges of paint following the swirling contours of sky and field.",
+        "register": "technical",
+        "tags": [
+          "art",
+          "painting",
+          "technique"
+        ]
+      }
+    ],
+    "synonyms": [
+      "heavy impasto",
+      "thick paint application",
+      "textured paint"
+    ],
+    "antonymTerms": [
+      "glazing",
+      "flat wash",
+      "thin paint"
+    ],
+    "relatedTerms": [
+      "sfumato",
+      "palette knife",
+      "texture",
+      "oil painting",
+      "Van Gogh",
+      "expressionism"
+    ]
   },
   {
     "term": "pentimento",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A visible alteration in a painting, typically revealed when upper layers of paint become translucent over time, showing an earlier composition beneath.",
+        "example": "X-ray analysis of the Old Master confirmed the pentimento: beneath the final portrait lay an earlier, quite different pose for the sitter's arm.",
+        "register": "technical",
+        "tags": [
+          "art",
+          "conservation",
+          "painting"
+        ]
+      }
+    ],
+    "synonyms": [
+      "underdrawing revision",
+      "visible reworking",
+      "paint revision"
+    ],
+    "antonymTerms": [
+      "final composition",
+      "resolved painting"
+    ],
+    "relatedTerms": [
+      "underdrawing",
+      "x-ray analysis",
+      "infrared reflectography",
+      "conservation",
+      "paint layer",
+      "glazing"
+    ]
   },
   {
     "term": "iconoclasm",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The deliberate destruction or prohibition of religious images and icons, historically motivated by theological opposition to their veneration.",
+        "example": "The Byzantine iconoclasm of the eighth and ninth centuries led to the systematic destruction of thousands of devotional images across the Eastern Roman Empire.",
+        "register": "formal",
+        "tags": [
+          "art history",
+          "religion",
+          "history"
+        ]
+      }
+    ],
+    "synonyms": [
+      "image-breaking",
+      "idol destruction",
+      "aniconism"
+    ],
+    "antonymTerms": [
+      "iconophilia",
+      "icon veneration",
+      "iconodulia"
+    ],
+    "relatedTerms": [
+      "icon",
+      "iconography",
+      "iconophile",
+      "Reformation",
+      "Byzantine art",
+      "aniconism"
+    ]
   },
   {
     "term": "contrapposto",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A sculptural and pictorial pose in which the human figure is depicted with the weight shifted onto one leg, causing the hips and shoulders to tilt in opposite directions.",
+        "example": "Michelangelo's David exemplifies contrapposto: the relaxed weight-bearing stance imparts a sense of latent energy and natural human movement to the marble figure.",
+        "register": "technical",
+        "tags": [
+          "art",
+          "sculpture",
+          "classical"
+        ]
+      }
+    ],
+    "synonyms": [
+      "weight shift pose",
+      "hip-tilt stance",
+      "classical pose"
+    ],
+    "antonymTerms": [
+      "frontal stance",
+      "isocephaly",
+      "hieratic pose"
+    ],
+    "relatedTerms": [
+      "sculpture",
+      "classical antiquity",
+      "David",
+      "Michelangelo",
+      "relief",
+      "anatomical realism"
+    ]
   },
   {
     "term": "grisaille",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A painting executed entirely in shades of grey or neutral colours, often imitating the appearance of stone sculpture or bas-relief.",
+        "example": "The predella panels of the altarpiece were rendered in grisaille, giving them the appearance of carved marble figures flanking the central colour panels.",
+        "register": "technical",
+        "tags": [
+          "art",
+          "painting",
+          "technique"
+        ]
+      }
+    ],
+    "synonyms": [
+      "monochrome painting",
+      "grey painting",
+      "en grisaille"
+    ],
+    "antonymTerms": [
+      "polychrome painting",
+      "full-colour composition"
+    ],
+    "relatedTerms": [
+      "chiaroscuro",
+      "trompe-l'oeil",
+      "under-painting",
+      "camaïeu",
+      "predella",
+      "altarpiece"
+    ]
   },
   {
     "term": "veduta",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A highly detailed, large-scale painting or engraving depicting an urban or architectural scene, popular as a souvenir of the Grand Tour.",
+        "example": "Canaletto's vedute of Venice combined topographical accuracy with carefully adjusted perspective to create images ideally suited to the taste of wealthy English visitors.",
+        "register": "technical",
+        "tags": [
+          "art history",
+          "painting",
+          "topography"
+        ]
+      }
+    ],
+    "synonyms": [
+      "townscape",
+      "city view",
+      "topographical view"
+    ],
+    "antonymTerms": [
+      "capriccio",
+      "fantasy landscape"
+    ],
+    "relatedTerms": [
+      "Canaletto",
+      "capriccio",
+      "Grand Tour",
+      "topography",
+      "cityscape",
+      "vedutismo"
+    ]
   },
   {
     "term": "verism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "An artistic style that insists on faithful representation of reality, including unflattering, mundane, or ugly details, without idealisation.",
+        "example": "Roman Republican portraiture is noted for its verism: the sitters are depicted with warts, wrinkles, and sagging flesh, rejecting the Hellenistic ideal of youthful beauty.",
+        "register": "technical",
+        "tags": [
+          "art history",
+          "realism",
+          "portraiture"
+        ]
+      }
+    ],
+    "synonyms": [
+      "hyper-realism",
+      "unflinching realism",
+      "warts-and-all portraiture"
+    ],
+    "antonymTerms": [
+      "idealisation",
+      "classicism",
+      "beauty canon"
+    ],
+    "relatedTerms": [
+      "realism",
+      "naturalism",
+      "Roman portraiture",
+      "mimesis",
+      "social realism",
+      "trompe-l'oeil"
+    ]
   },
   {
     "term": "sgraffito",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A decorative technique in which an upper layer of plaster, slip, or paint is scratched away to reveal a contrasting colour or material beneath.",
+        "example": "The facade of the Renaissance palazzo was decorated with sgraffito: elaborate geometric patterns incised through white plaster to expose the grey layer below.",
+        "register": "technical",
+        "tags": [
+          "art",
+          "ceramics",
+          "architecture"
+        ]
+      }
+    ],
+    "synonyms": [
+      "scratch decoration",
+      "incised plasterwork",
+      "scratch-through technique"
+    ],
+    "antonymTerms": [
+      "additive decoration",
+      "applied ornament"
+    ],
+    "relatedTerms": [
+      "fresco",
+      "graffito",
+      "ceramics",
+      "slip decoration",
+      "plasterwork",
+      "sgraffitura"
+    ]
   },
   {
     "term": "encaustic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A painting medium in which pigments are mixed with heated beeswax and then fused to a support with heat, producing a lustrous, durable surface.",
+        "example": "The Fayum mummy portraits are the finest surviving examples of encaustic painting, their wax-based colours remaining vibrant after nearly two millennia.",
+        "register": "technical",
+        "tags": [
+          "art",
+          "painting",
+          "ancient"
+        ]
+      }
+    ],
+    "synonyms": [
+      "wax painting",
+      "hot-wax painting",
+      "encaustic painting"
+    ],
+    "antonymTerms": [
+      "fresco",
+      "tempera",
+      "oil painting"
+    ],
+    "relatedTerms": [
+      "beeswax",
+      "Fayum portraits",
+      "pigment",
+      "fresco",
+      "tempera",
+      "wax medium"
+    ]
   },
   {
     "term": "triptych",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A work of art, typically an altarpiece, divided into three panels that are hinged together, with the central panel usually larger or more prominent.",
+        "example": "The Ghent Altarpiece is a monumental triptych whose wings, when opened, reveal an elaborate vision of heavenly and earthly figures across twelve painted panels.",
+        "register": "technical",
+        "tags": [
+          "art history",
+          "altarpiece",
+          "panel painting"
+        ]
+      }
+    ],
+    "synonyms": [
+      "three-panel altarpiece",
+      "three-part panel",
+      "triptyque"
+    ],
+    "antonymTerms": [
+      "diptych",
+      "polyptych",
+      "single panel"
+    ],
+    "relatedTerms": [
+      "diptych",
+      "polyptych",
+      "altarpiece",
+      "predella",
+      "panel painting",
+      "wings"
+    ]
   },
   {
     "term": "narratology",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The academic study of the structure, function, and elements of narrative, treating story and discourse as objects of systematic formal analysis.",
+        "example": "Narratology provided literary critics with a scientific vocabulary for distinguishing between the order of events as they occur and the order in which a narrator chooses to relate them.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "narrative",
+          "structuralism"
+        ]
+      }
+    ],
+    "synonyms": [
+      "narrative theory",
+      "narrative poetics",
+      "story analysis"
+    ],
+    "antonymTerms": [
+      "impressionist criticism",
+      "biographical criticism"
+    ],
+    "relatedTerms": [
+      "narrative",
+      "story",
+      "discourse",
+      "Genette",
+      "Todorov",
+      "focalization",
+      "diegesis"
+    ]
   },
   {
     "term": "anachrony",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A discordance between the order in which events occur in a story's chronology and the order in which they are narrated, encompassing both flashback and flash-forward.",
+        "example": "The novel's anachrony is radical: the final chapter presents the protagonist's childhood memory that explains the opening scene's mysterious stranger.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "narrative",
+          "temporality"
+        ]
+      }
+    ],
+    "synonyms": [
+      "temporal displacement",
+      "narrative dislocation",
+      "chronological disorder"
+    ],
+    "antonymTerms": [
+      "linear narration",
+      "chronological order",
+      "isochrony"
+    ],
+    "relatedTerms": [
+      "analepsis",
+      "prolepsis",
+      "flashback",
+      "flash-forward",
+      "Genette",
+      "discourse time"
+    ]
   },
   {
     "term": "focalization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The perspective through which narrative information is filtered, determining what the reader knows based on the perceptual and cognitive position of a particular character or narrator.",
+        "example": "By shifting focalization from the detective to the suspect, the author withholds crucial information and generates suspense that a third-person omniscient narrator would undercut.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "narrative",
+          "point of view"
+        ]
+      }
+    ],
+    "synonyms": [
+      "narrative perspective",
+      "point of view",
+      "narrative filter"
+    ],
+    "antonymTerms": [
+      "omniscient narration",
+      "zero focalization"
+    ],
+    "relatedTerms": [
+      "narrator",
+      "focalizer",
+      "Genette",
+      "point of view",
+      "internal focalization",
+      "diegesis"
+    ]
   },
   {
     "term": "heteroglossia",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The coexistence within a single text of multiple voices, registers, and social languages that reflect the diverse linguistic reality of a community.",
+        "example": "Bakhtin argued that the novel's heteroglossia — its capacity to contain street argot, bureaucratic prose, and elevated rhetoric simultaneously — makes it the pre-eminent form of modernity.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "Bakhtin",
+          "linguistics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "multi-voicedness",
+      "linguistic diversity",
+      "polyphony"
+    ],
+    "antonymTerms": [
+      "monoglossia",
+      "single voice",
+      "stylistic uniformity"
+    ],
+    "relatedTerms": [
+      "dialogism",
+      "polyphony",
+      "Bakhtin",
+      "carnivalesque",
+      "register",
+      "social language"
+    ]
   },
   {
     "term": "intertextuality",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The relationship between texts in which one text shapes, absorbs, or is constituted by other texts, whether through direct allusion, quotation, parody, or structural influence.",
+        "example": "The poem's dense intertextuality requires readers familiar with Dante, Milton, and Eliot to fully decode its layered meanings and ironic reversals.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "poststructuralism",
+          "semiotics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "textual interdependence",
+      "text-to-text relations",
+      "inter-reference"
+    ],
+    "antonymTerms": [
+      "textual autonomy",
+      "original composition"
+    ],
+    "relatedTerms": [
+      "allusion",
+      "parody",
+      "influence",
+      "Kristeva",
+      "Barthes",
+      "hypertextuality",
+      "pastiche"
+    ]
   },
   {
     "term": "defamiliarization",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A literary device in which familiar objects, events, or ideas are presented in an unusual or unexpected way so that the reader perceives them as if for the first time.",
+        "example": "Tolstoy achieves defamiliarization by describing a court ritual through the naive eyes of a horse, forcing the reader to see human conventions as arbitrary and absurd.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "formalism",
+          "Russian formalism"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ostranenie",
+      "estrangement",
+      "making strange"
+    ],
+    "antonymTerms": [
+      "automatization",
+      "habitual perception"
+    ],
+    "relatedTerms": [
+      "ostranenie",
+      "Russian Formalism",
+      "Shklovsky",
+      "automatization",
+      "poetic language",
+      "alienation effect"
+    ]
   },
   {
     "term": "paratext",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "The elements surrounding and framing a literary text — such as title, preface, footnotes, cover image, and author biography — that mediate between the text and its readers.",
+        "example": "Genette's analysis of paratext revealed how a novel's title and epigraph prime readers to adopt particular interpretive frameworks before the narrative even begins.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "publishing",
+          "Genette"
+        ]
+      }
+    ],
+    "synonyms": [
+      "peritext",
+      "epitext",
+      "framing text"
+    ],
+    "antonymTerms": [
+      "main text",
+      "narrative body"
+    ],
+    "relatedTerms": [
+      "Genette",
+      "peritext",
+      "epitext",
+      "preface",
+      "epigraph",
+      "footnote",
+      "title"
+    ]
   },
   {
     "term": "carnivalesque",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Relating to the transgressive, subversive qualities associated with carnival, in which social hierarchies are temporarily inverted and official culture is mocked through excess and grotesque humour.",
+        "example": "Rabelais's carnivalesque prose revels in the body's excesses and turns every solemn institution — church, law, medicine — into an object of laughter and inversion.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "Bakhtin",
+          "comedy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Bakhtinian grotesque",
+      "festive subversion",
+      "carnival spirit"
+    ],
+    "antonymTerms": [
+      "official culture",
+      "hierarchical order",
+      "solemn discourse"
+    ],
+    "relatedTerms": [
+      "Bakhtin",
+      "dialogism",
+      "heteroglossia",
+      "grotesque body",
+      "inversion",
+      "festival"
+    ]
   },
   {
     "term": "dialogism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "Bakhtin's concept that all utterances are inherently in dialogue with previous and anticipated utterances, meaning that no word or text is entirely autonomous.",
+        "example": "Dostoevsky's novels embody dialogism in that each character's voice retains its own validity and cannot be reduced to the author's univocal point of view.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "Bakhtin",
+          "linguistics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dialogic principle",
+      "intertextual dialogue",
+      "polyphonic discourse"
+    ],
+    "antonymTerms": [
+      "monologism",
+      "monological discourse"
+    ],
+    "relatedTerms": [
+      "Bakhtin",
+      "polyphony",
+      "heteroglossia",
+      "carnivalesque",
+      "utterance",
+      "intersubjectivity"
+    ]
   },
   {
     "term": "prolepsis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A narrative technique in which future events are referred to or depicted before they occur in the story's chronological sequence; a flash-forward.",
+        "example": "The novel opens with a prolepsis: before recounting the protagonist's childhood, the narrator describes the courtroom scene that will close the final chapter.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "narrative",
+          "temporality"
+        ]
+      }
+    ],
+    "synonyms": [
+      "flash-forward",
+      "anticipation",
+      "narrative anticipation"
+    ],
+    "antonymTerms": [
+      "analepsis",
+      "flashback",
+      "retrospection"
+    ],
+    "relatedTerms": [
+      "analepsis",
+      "anachrony",
+      "Genette",
+      "foreshadowing",
+      "narrative time",
+      "discourse"
+    ]
   },
   {
     "term": "analepsis",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "tags": [],
+    "meanings": [
+      {
+        "definition": "A narrative technique in which the story returns to events that occurred before the current point in the narrative timeline; commonly known as a flashback.",
+        "example": "The memoir's central analepsis spans three chapters, transporting the narrator from the present-day hospital room back to the childhood summers that explain her illness.",
+        "register": "technical",
+        "tags": [
+          "literary theory",
+          "narrative",
+          "temporality"
+        ]
+      }
+    ],
+    "synonyms": [
+      "flashback",
+      "retrospection",
+      "narrative retrospect"
+    ],
+    "antonymTerms": [
+      "prolepsis",
+      "flash-forward",
+      "anticipation"
+    ],
+    "relatedTerms": [
+      "prolepsis",
+      "anachrony",
+      "Genette",
+      "narrative time",
+      "memory",
+      "discourse order"
+    ]
   },
   {
     "term": "deixis",
