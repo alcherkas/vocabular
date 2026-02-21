@@ -15,8 +15,8 @@ import sys
 import argparse
 from pathlib import Path
 
-VALID_PARTS_OF_SPEECH = {"noun", "verb", "adjective", "adverb", "phrase", "particle", "interjection"}
-VALID_REGISTERS = {"general", "technical", "formal", "literary"}
+VALID_PARTS_OF_SPEECH = {"noun", "verb", "adjective", "adverb", "phrase", "particle", "interjection", "pronoun", "preposition", "conjunction", "numeral"}
+VALID_REGISTERS = {"general", "technical", "formal", "literary", "neutral", "informal", "slang"}
 VALID_STATUSES = {"stub", "enriched", "relations-added", "approved"}
 
 

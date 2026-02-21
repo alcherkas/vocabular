@@ -100,12 +100,22 @@ git commit -m "vocab(seed-lt): add N new stubs from lt.txt"
 ### Loop
 
 1. Choose a staging file to work on (`words_staging.json` for EN, `words_lt_staging.json` for LT).
-2. Load the file, find entries with `status == "stub"`. Take first 5.
-3. For each word:
+2. **Preflight JSON check** — verify the file is valid JSON before editing:
+   ```bash
+   python3 -c "import json, sys; json.load(open('Vocab/Vocab/Resources/words_staging.json')); print('JSON OK')"
+   # or for LT:
+   python3 -c "import json, sys; json.load(open('Vocab/Vocab/Resources/words_lt_staging.json')); print('JSON OK')"
+   ```
+   If the file has invalid JSON, fix the syntax error first before proceeding.
+3. Load the file, find entries with `status == "stub"`. Take first 5.
+4. For each word:
    - Research all distinct meanings (senses) of the term.
    - For each meaning, write: `definition`, `example` (a natural sentence), `register`, `tags`.
    - For LT words: also fill `translation` (the English gloss, e.g. `"cat"`).
    - Set `status: "enriched"`.
+   - **Use ONLY these enum values** (validator will reject anything else):
+     - `partOfSpeech`: `noun` | `verb` | `adjective` | `adverb` | `phrase` | `particle` | `interjection` | `pronoun` | `preposition` | `conjunction` | `numeral`
+     - `register`: `general` | `technical` | `formal` | `literary` | `neutral` | `informal` | `slang`
 4. Update entries in the staging file.
 5. Validate (replace filename as appropriate):
    ```bash
