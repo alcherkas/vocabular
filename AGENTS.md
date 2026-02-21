@@ -1173,3 +1173,39 @@ Pre-existing warnings only in approved-status entries; zero errors in newly enri
 - EN had only 11 enriched entries vs. 35 target; all were processed. Remaining enriched budget could not be filled from EN alone — would require another Enricher pass first.
 - Several LT phrases (e.g., `nosies ir gerklės gydytojas`) are unique specialist terms with no close LT synonyms; `otorinolaringologas` / `otolaringologas` are valid technical equivalents added as synonyms.
 - `leisti vaistus` (administer injection): `švirkšti` added as a synonym captures the injecting action; the phrase is also broader (any route), but this is the closest single-word LT equivalent.
+
+---
+
+## Session: enricher-lt-42
+
+**Role**: Enricher — Lithuanian
+**Branch**: `vocab/enricher-lt-42`
+**Batch**: 35 stubs enriched (food and cooking vocabulary, B1/B2)
+
+### What was done
+- Preflight JSON check on `words_lt_staging.json` → **JSON OK** (775 stubs available).
+- Selected 35 stubs covering food/cooking domain: kitchen equipment, proteins, bakery, herbs/spices, pastries/sweets, drinks, food adjectives, Lithuanian traditional dishes.
+- For each entry: filled `partOfSpeech`, `translation`, `meanings` (definition + example + register + tags), set `status` → `enriched`.
+- Ran `validate_words.py --errors-for enriched` → **PASSED** (2030 words valid; 98 pre-existing warnings in approved-status entries only, no errors in newly enriched entries).
+- Committed as `vocab(enricher-lt-42): enrich 35 Lithuanian stubs`.
+
+### Terms enriched (35)
+**Kitchen equipment (7)**: keptuvė, puodas, peilis, šaukštelis, šakutė, šaukštas, virdulys
+**Meat/fish (3)**: dešra, žuvis, karpis
+**Bakery (4)**: batonas, riestainis, džiūvėsis, spurga
+**Herbs/spices (8)**: bazilikai, čiobreliai, kmynai, krapai, mėtos, petražolės, cinamonas, vanilė
+**Pastries/sweets (5)**: pyragaitis, sausainis, tortas, pyragas, uogienė
+**Drinks (1)**: gira
+**Food adjectives (6)**: alkanas, sotus, skanus, riebus, aštrus, šviežias
+**Lithuanian cuisine (1)**: didžkukuliai
+
+### Validation
+`validate_words.py --errors-for enriched` → **PASSED** (exit 0).
+- 2030 words valid; 98 pre-existing warnings in approved-status entries only.
+
+### Tradeoffs
+- `aštrus` received two meanings (sharp edge + spicy flavour) as these are genuinely distinct senses in Lithuanian usage.
+- `šviežias` received two meanings (fresh/quality for food, and fresh/invigorating for sensation) to reflect its breadth.
+- `peilis` received two meanings (kitchen knife and general carried tool) as context distinguishes usage.
+- `gira` translated as "kvass" (the closest well-known EN equivalent); cultural note embedded in definition.
+- `didžkukuliai` translated as "cepelinai" (the internationally recognised name of the dish); full definition explains the Lithuanian name.
