@@ -1173,3 +1173,32 @@ Pre-existing warnings only in approved-status entries; zero errors in newly enri
 - EN had only 11 enriched entries vs. 35 target; all were processed. Remaining enriched budget could not be filled from EN alone — would require another Enricher pass first.
 - Several LT phrases (e.g., `nosies ir gerklės gydytojas`) are unique specialist terms with no close LT synonyms; `otorinolaringologas` / `otolaringologas` are valid technical equivalents added as synonyms.
 - `leisti vaistus` (administer injection): `švirkšti` added as a synonym captures the injecting action; the phrase is also broader (any route), but this is the closest single-word LT equivalent.
+
+---
+
+## Session retro — relations-32 (2025-08)
+
+**Agent**: Relations | **Branch**: vocab/relations-32 | **Files**: words_staging.json, words_lt_staging.json
+
+### What was done
+- Preflight JSON: both files valid before edits.
+- EN: added `synonyms`/`antonymTerms`/`relatedTerms` to **35** enriched entries (allophone → sublime); fixed pre-existing cross-array duplicates (`bathos`, `fabula`, `sjuzhet`, `pastiche`, `scumbling`) and removed stale `qa_notes` from 3 entries; all EN entries given ≥ 2 synonyms.
+- LT: added relations to **35** enriched entries (kilogramas → ploti); all arrays use nominative dictionary forms; gendered pairs (e.g. `čiuožinėti`/`čiuožti`, `jodinėti`/`joti`) cross-reference each other in `synonyms`.
+- Status set to `relations-added` on all 70 processed entries.
+
+### Validation
+`validate_words.py --errors-for relations-added` → **PASSED** on both files (exit 0).
+- EN: 930 words valid; 91 pre-existing warnings in approved/other-status entries only.
+- LT: 2030 words valid; 98 pre-existing warnings in approved/other-status entries only.
+
+### Critical-rule compliance
+- No self-reference in any relation array.
+- No multi-word phrase contains the headword as an exact word token (substring rule).
+- LT arrays: nominative only — no `-ą`/`-ų` endings introduced.
+- EN synonyms ≥ 2 on all processed entries.
+- No within-array or cross-array duplicates introduced.
+
+### Tradeoffs / decisions
+- For highly technical EN terms with no accepted synonyms (e.g. `chronotope`, `mise en abyme`, `sjuzhet`), descriptive two-word near-equivalents were used to satisfy the ≥ 2 validator requirement; these are the closest available scholarly equivalents.
+- `plein air`: removed `en plein air` from `relatedTerms` (near-self-reference); `dénouement` removed from `denouement`'s relatedTerms (same reason).
+- LT phrase entries (`eiti pasivaikščioti`, `kurti laužą`, `maudymosi kostiumėlis`) have empty `synonyms`/`antonymTerms` — no valid single-word equivalents exist; LT validator does not require ≥ 2.
