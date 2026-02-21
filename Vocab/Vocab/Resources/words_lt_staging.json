@@ -5235,7 +5235,7 @@
     "term": "Atostogauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To spend time away from work or studies for rest and leisure.",
@@ -6278,7 +6278,7 @@
     "term": "siuvėjas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who sews clothes professionally.",
@@ -6290,16 +6290,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "drabužių meistras"
+    ],
+    "antonymTerms": [
+      "siuvėja"
+    ],
+    "relatedTerms": [
+      "siuvykla",
+      "siuvimas",
+      "drabužiai",
+      "adata"
+    ],
     "translation": "tailor"
   },
   {
     "term": "siuvėja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who sews clothes professionally.",
@@ -6311,16 +6320,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "drabužių meistrė"
+    ],
+    "antonymTerms": [
+      "siuvėjas"
+    ],
+    "relatedTerms": [
+      "siuvykla",
+      "siuvimas",
+      "drabužiai",
+      "adata"
+    ],
     "translation": "tailor"
   },
   {
     "term": "kirpėjas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who cuts and styles hair.",
@@ -6332,16 +6350,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "plaukų meistras",
+      "barbierius"
+    ],
+    "antonymTerms": [
+      "kirpėja"
+    ],
+    "relatedTerms": [
+      "kirpykla",
+      "plaukai",
+      "žirklės",
+      "šukuosena"
+    ],
     "translation": "hairdresser"
   },
   {
     "term": "kirpėja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who cuts and styles hair.",
@@ -6353,16 +6381,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "plaukų meistrė"
+    ],
+    "antonymTerms": [
+      "kirpėjas"
+    ],
+    "relatedTerms": [
+      "kirpykla",
+      "plaukai",
+      "žirklės",
+      "šukuosena"
+    ],
     "translation": "hairdresser"
   },
   {
     "term": "padavėjas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who serves food and drinks in a restaurant.",
@@ -6374,16 +6411,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "restorano darbuotojas"
+    ],
+    "antonymTerms": [
+      "padavėja",
+      "klientas"
+    ],
+    "relatedTerms": [
+      "restoranas",
+      "kavinė",
+      "meniu",
+      "aptarnavimas"
+    ],
     "translation": "waiter"
   },
   {
     "term": "padavėja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who serves food and drinks in a restaurant.",
@@ -6395,16 +6442,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "restorano darbuotoja"
+    ],
+    "antonymTerms": [
+      "padavėjas",
+      "klientas"
+    ],
+    "relatedTerms": [
+      "restoranas",
+      "kavinė",
+      "meniu",
+      "aptarnavimas"
+    ],
     "translation": "waitress"
   },
   {
     "term": "pardavėjas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who sells goods in a shop.",
@@ -6416,16 +6473,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "komercijos atstovas"
+    ],
+    "antonymTerms": [
+      "pirkėjas",
+      "pardavėja"
+    ],
+    "relatedTerms": [
+      "parduotuvė",
+      "prekyba",
+      "klientas",
+      "kainodara"
+    ],
     "translation": "salesperson"
   },
   {
     "term": "pardavėja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who sells goods in a shop.",
@@ -6437,16 +6504,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "komercijos atstovė"
+    ],
+    "antonymTerms": [
+      "pirkėjas",
+      "pardavėjas"
+    ],
+    "relatedTerms": [
+      "parduotuvė",
+      "prekyba",
+      "klientas",
+      "kainodara"
+    ],
     "translation": "salesperson"
   },
   {
     "term": "advokatas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man qualified to advise and represent clients in legal matters.",
@@ -6458,16 +6535,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "teisininkas",
+      "gynėjas"
+    ],
+    "antonymTerms": [
+      "advokatė",
+      "kaltinamasis"
+    ],
+    "relatedTerms": [
+      "teismas",
+      "gynybos teisė",
+      "bylos nagrinėjimas",
+      "jurisprudencija"
+    ],
     "translation": "lawyer"
   },
   {
     "term": "advokatė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman qualified to advise and represent clients in legal matters.",
@@ -6479,16 +6567,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "teisininkė",
+      "gynėja"
+    ],
+    "antonymTerms": [
+      "advokatas",
+      "kaltinamasis"
+    ],
+    "relatedTerms": [
+      "teismas",
+      "gynybos teisė",
+      "bylos nagrinėjimas",
+      "jurisprudencija"
+    ],
     "translation": "lawyer"
   },
   {
     "term": "ambasadorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A senior diplomat who represents a country abroad.",
@@ -6500,16 +6599,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pasiuntinys",
+      "diplomatinis atstovas"
+    ],
+    "antonymTerms": [
+      "ambasadorė"
+    ],
+    "relatedTerms": [
+      "ambasada",
+      "diplomatija",
+      "užsienio politika",
+      "valstybė"
+    ],
     "translation": "ambassador"
   },
   {
     "term": "ambasadorė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A senior diplomat who represents a country abroad.",
@@ -6521,16 +6630,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pasiuntinė",
+      "diplomatinė atstovė"
+    ],
+    "antonymTerms": [
+      "ambasadorius"
+    ],
+    "relatedTerms": [
+      "ambasada",
+      "diplomatija",
+      "užsienio politika",
+      "valstybė"
+    ],
     "translation": "ambassador"
   },
   {
     "term": "diplomatas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who works in international relations for a country.",
@@ -6542,16 +6661,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pasiuntinys",
+      "užsienio reikalų atstovas"
+    ],
+    "antonymTerms": [
+      "diplomatė"
+    ],
+    "relatedTerms": [
+      "ambasadorius",
+      "diplomatija",
+      "derybos",
+      "tarptautiniai santykiai"
+    ],
     "translation": "diplomat"
   },
   {
     "term": "diplomatė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who works in international relations for a country.",
@@ -6563,16 +6692,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pasiuntinė",
+      "užsienio reikalų atstovė"
+    ],
+    "antonymTerms": [
+      "diplomatas"
+    ],
+    "relatedTerms": [
+      "ambasadorė",
+      "diplomatija",
+      "derybos",
+      "tarptautiniai santykiai"
+    ],
     "translation": "diplomat"
   },
   {
     "term": "ekonomistas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who studies or works in economics.",
@@ -6584,16 +6723,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "ekonomikos ekspertas",
+      "ekonomikos analitikas"
+    ],
+    "antonymTerms": [
+      "ekonomistė"
+    ],
+    "relatedTerms": [
+      "ekonomika",
+      "rinka",
+      "finansai",
+      "statistika"
+    ],
     "translation": "economist"
   },
   {
     "term": "ekonomistė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who studies or works in economics.",
@@ -6605,16 +6754,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "ekonomikos ekspertė",
+      "ekonomikos analitikė"
+    ],
+    "antonymTerms": [
+      "ekonomistas"
+    ],
+    "relatedTerms": [
+      "ekonomika",
+      "rinka",
+      "finansai",
+      "statistika"
+    ],
     "translation": "economist"
   },
   {
     "term": "inžinierius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who designs or builds technical systems.",
@@ -6626,16 +6785,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "technikas",
+      "konstruktorius"
+    ],
+    "antonymTerms": [
+      "inžinierė"
+    ],
+    "relatedTerms": [
+      "inžinerija",
+      "technologija",
+      "projektavimas",
+      "mokslas"
+    ],
     "translation": "engineer"
   },
   {
     "term": "inžinierė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who designs or builds technical systems.",
@@ -6647,16 +6816,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "technikė",
+      "konstruktorė"
+    ],
+    "antonymTerms": [
+      "inžinierius"
+    ],
+    "relatedTerms": [
+      "inžinerija",
+      "technologija",
+      "projektavimas",
+      "mokslas"
+    ],
     "translation": "engineer"
   },
   {
     "term": "jūrininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who works on ships or travels by sea professionally.",
@@ -6668,16 +6847,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "laivininkas",
+      "jūreivas"
+    ],
+    "antonymTerms": [
+      "jūrininkė"
+    ],
+    "relatedTerms": [
+      "laivas",
+      "jūra",
+      "plaukiojimas",
+      "uostas"
+    ],
     "translation": "sailor (man)"
   },
   {
     "term": "jūrininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who works on ships or travels by sea professionally.",
@@ -6689,16 +6878,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "laivininke",
+      "jūreivė"
+    ],
+    "antonymTerms": [
+      "jūrininkas"
+    ],
+    "relatedTerms": [
+      "laivas",
+      "jūra",
+      "plaukiojimas",
+      "uostas"
+    ],
     "translation": "sailor (woman)"
   },
   {
     "term": "lakūnas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who flies an aircraft.",
@@ -6710,16 +6909,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pilotas",
+      "aviacijos specialistas"
+    ],
+    "antonymTerms": [
+      "lakūnė"
+    ],
+    "relatedTerms": [
+      "orlaivis",
+      "aviacija",
+      "skrydis",
+      "aerodromas"
+    ],
     "translation": "pilot (man)"
   },
   {
     "term": "lakūnė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who flies an aircraft.",
@@ -6731,16 +6940,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pilotė",
+      "aviacijos specialistė"
+    ],
+    "antonymTerms": [
+      "lakūnas"
+    ],
+    "relatedTerms": [
+      "orlaivis",
+      "aviacija",
+      "skrydis",
+      "aerodromas"
+    ],
     "translation": "pilot (woman)"
   },
   {
     "term": "profesorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male university teacher with the highest academic rank.",
@@ -6752,16 +6971,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "dėstytojas",
+      "akademikas"
+    ],
+    "antonymTerms": [
+      "profesorė",
+      "studentas"
+    ],
+    "relatedTerms": [
+      "universitetas",
+      "mokslas",
+      "dėstymas",
+      "tyrimai"
+    ],
     "translation": "professor (man)"
   },
   {
     "term": "profesorė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female university teacher with the highest academic rank.",
@@ -6773,16 +7003,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "dėstytoja",
+      "akademikė"
+    ],
+    "antonymTerms": [
+      "profesorius",
+      "studentas"
+    ],
+    "relatedTerms": [
+      "universitetas",
+      "mokslas",
+      "dėstymas",
+      "tyrimai"
+    ],
     "translation": "professor (woman)"
   },
   {
     "term": "režisierius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who directs films, theatre productions, or other performances.",
@@ -6794,16 +7035,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "filmo kūrėjas",
+      "spektaklio vadovas"
+    ],
+    "antonymTerms": [
+      "režisierė"
+    ],
+    "relatedTerms": [
+      "filmas",
+      "teatras",
+      "kinas",
+      "vaidyba"
+    ],
     "translation": "director (man)"
   },
   {
     "term": "režisierė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who directs films, theatre productions, or other performances.",
@@ -6815,16 +7066,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "filmo kūrėja",
+      "spektaklio vadovė"
+    ],
+    "antonymTerms": [
+      "režisierius"
+    ],
+    "relatedTerms": [
+      "filmas",
+      "teatras",
+      "kinas",
+      "vaidyba"
+    ],
     "translation": "director (woman)"
   },
   {
     "term": "tarnautojas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man employed in an office, institution, or public service role.",
@@ -6836,16 +7097,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "darbuotojas",
+      "biuro darbuotojas"
+    ],
+    "antonymTerms": [
+      "tarnautoja",
+      "darbdavys"
+    ],
+    "relatedTerms": [
+      "biuras",
+      "darbas",
+      "administracija",
+      "valstybės tarnyba"
+    ],
     "translation": "employee (man)"
   },
   {
     "term": "tarnautoja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman employed in an office, institution, or public service role.",
@@ -6857,16 +7129,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "darbuotoja",
+      "biuro darbuotoja"
+    ],
+    "antonymTerms": [
+      "tarnautojas",
+      "darbdavė"
+    ],
+    "relatedTerms": [
+      "biuras",
+      "darbas",
+      "administracija",
+      "valstybės tarnyba"
+    ],
     "translation": "employee (woman)"
   },
   {
     "term": "teisininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man trained in law who gives legal advice or works in legal practice.",
@@ -6878,16 +7161,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "advokatas",
+      "teisės specialistas"
+    ],
+    "antonymTerms": [
+      "teisininkė"
+    ],
+    "relatedTerms": [
+      "teisė",
+      "įstatymai",
+      "teismas",
+      "jurisprudencija"
+    ],
     "translation": "lawyer (man)"
   },
   {
     "term": "teisininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman trained in law who gives legal advice or works in legal practice.",
@@ -6899,16 +7192,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "advokatė",
+      "teisės specialistė"
+    ],
+    "antonymTerms": [
+      "teisininkas"
+    ],
+    "relatedTerms": [
+      "teisė",
+      "įstatymai",
+      "teismas",
+      "jurisprudencija"
+    ],
     "translation": "lawyer (woman)"
   },
   {
     "term": "vadybininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who manages business operations, projects, or sales.",
@@ -6920,16 +7223,28 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "vadovas",
+      "organizatorius",
+      "menedžeris"
+    ],
+    "antonymTerms": [
+      "vadybininkė",
+      "darbuotojas"
+    ],
+    "relatedTerms": [
+      "vadyba",
+      "verslas",
+      "organizacija",
+      "planavimas"
+    ],
     "translation": "manager (man)"
   },
   {
     "term": "vadybininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who manages business operations, projects, or sales.",
@@ -6941,16 +7256,28 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "vadovė",
+      "organizatorė",
+      "menedžerė"
+    ],
+    "antonymTerms": [
+      "vadybininkas",
+      "darbuotoja"
+    ],
+    "relatedTerms": [
+      "vadyba",
+      "verslas",
+      "organizacija",
+      "planavimas"
+    ],
     "translation": "manager (woman)"
   },
   {
     "term": "verslininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man who owns, runs, or invests in businesses.",
@@ -6962,16 +7289,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "komerciantas",
+      "verslus žmogus"
+    ],
+    "antonymTerms": [
+      "verslininkė",
+      "darbuotojas"
+    ],
+    "relatedTerms": [
+      "verslas",
+      "įmonė",
+      "pelnas",
+      "rinka"
+    ],
     "translation": "businessman"
   },
   {
     "term": "verslininkė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman who owns, runs, or invests in businesses.",
@@ -6983,9 +7321,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "komerciante",
+      "verslinga moteris"
+    ],
+    "antonymTerms": [
+      "verslininkas",
+      "darbuotoja"
+    ],
+    "relatedTerms": [
+      "verslas",
+      "įmonė",
+      "pelnas",
+      "rinka"
+    ],
     "translation": "businesswoman"
   },
   {
