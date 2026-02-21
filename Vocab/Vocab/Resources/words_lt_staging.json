@@ -416,57 +416,105 @@
   {
     "term": "vardas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A word or set of words by which a person is known; a first name.",
+        "example": "Mano vardas yra Jonas.",
+        "register": "general",
+        "tags": [
+          "identity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "name; first name"
   },
   {
     "term": "pavardė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A hereditary family name passed down from one generation to the next.",
+        "example": "Kokia jūsų pavardė?",
+        "register": "general",
+        "tags": [
+          "identity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "surname; last name"
   },
   {
     "term": "Būti",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To exist or live; used as a copula linking a subject with a predicate.",
+        "example": "Būti ar nebūti – štai klausimas.",
+        "register": "general",
+        "tags": [
+          "auxiliary",
+          "existence"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to be"
   },
   {
     "term": "esu",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "First person singular present tense form of 'būti' (to be).",
+        "example": "Aš esu studentas.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "auxiliary"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "I am"
   },
   {
     "term": "esi",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Second person singular present tense form of 'būti' (to be).",
+        "example": "Tu esi labai drąsus.",
+        "register": "general",
+        "tags": [
+          "conjugation",
+          "auxiliary"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "you are"
   },
   {
     "term": "yra",
