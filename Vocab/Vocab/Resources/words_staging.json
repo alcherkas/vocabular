@@ -5259,7 +5259,7 @@
   },
   {
     "term": "procyclical",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -5270,11 +5270,24 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "boom-driven",
+      "cycle-following"
+    ],
+    "antonymTerms": [
+      "countercyclical",
+      "acyclical"
+    ],
+    "relatedTerms": [
+      "economic cycle",
+      "business cycle",
+      "fiscal policy"
     ]
   },
   {
     "term": "countercyclical",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -5285,11 +5298,23 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "anticyclical",
+      "stabilizing"
+    ],
+    "antonymTerms": [
+      "procyclical"
+    ],
+    "relatedTerms": [
+      "fiscal policy",
+      "automatic stabilizer",
+      "recession"
     ]
   },
   {
     "term": "externality",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5300,11 +5325,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "spillover effect",
+      "external effect",
+      "side effect"
+    ],
+    "antonymTerms": [
+      "internality"
+    ],
+    "relatedTerms": [
+      "market failure",
+      "public goods",
+      "Pigouvian tax",
+      "negative externality"
     ]
   },
   {
     "term": "cartelization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5315,11 +5354,26 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "collusion",
+      "price-fixing",
+      "market rigging"
+    ],
+    "antonymTerms": [
+      "competition",
+      "deregulation"
+    ],
+    "relatedTerms": [
+      "cartel",
+      "oligopoly",
+      "antitrust",
+      "monopoly"
     ]
   },
   {
     "term": "intermediation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5330,11 +5384,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "financial brokering",
+      "mediation",
+      "channeling"
+    ],
+    "antonymTerms": [
+      "disintermediation"
+    ],
+    "relatedTerms": [
+      "financial intermediary",
+      "banking",
+      "credit",
+      "capital markets"
     ]
   },
   {
     "term": "fungibility",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5345,11 +5413,26 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "interchangeability",
+      "substitutability",
+      "exchangeability"
+    ],
+    "antonymTerms": [
+      "non-fungibility",
+      "uniqueness"
+    ],
+    "relatedTerms": [
+      "commodity",
+      "currency",
+      "NFT",
+      "liquidity"
     ]
   },
   {
     "term": "inelasticity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5360,11 +5443,26 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "price insensitivity",
+      "rigidity",
+      "stiffness"
+    ],
+    "antonymTerms": [
+      "elasticity",
+      "price sensitivity"
+    ],
+    "relatedTerms": [
+      "demand curve",
+      "supply curve",
+      "necessity goods",
+      "price elasticity"
     ]
   },
   {
     "term": "contango",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5375,11 +5473,24 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "forwardation",
+      "forward premium"
+    ],
+    "antonymTerms": [
+      "backwardation"
+    ],
+    "relatedTerms": [
+      "futures market",
+      "spot price",
+      "commodity futures",
+      "storage cost"
     ]
   },
   {
     "term": "anomie",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5390,11 +5501,27 @@
         "register": "formal",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "normlessness",
+      "social disintegration",
+      "alienation"
+    ],
+    "antonymTerms": [
+      "social cohesion",
+      "integration",
+      "solidarity"
+    ],
+    "relatedTerms": [
+      "Durkheim",
+      "social norms",
+      "deviance",
+      "suicide"
     ]
   },
   {
     "term": "habitus",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5405,11 +5532,26 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "disposition",
+      "social conditioning",
+      "ingrained habit"
+    ],
+    "antonymTerms": [
+      "agency",
+      "conscious action"
+    ],
+    "relatedTerms": [
+      "Bourdieu",
+      "social field",
+      "capital",
+      "practice theory"
     ]
   },
   {
     "term": "stratification",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5420,11 +5562,26 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "social hierarchy",
+      "layering",
+      "ranking"
+    ],
+    "antonymTerms": [
+      "egalitarianism",
+      "classlessness"
+    ],
+    "relatedTerms": [
+      "social class",
+      "inequality",
+      "mobility",
+      "caste"
     ]
   },
   {
     "term": "intersectionality",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5435,11 +5592,25 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "overlapping identities",
+      "multiple marginalization"
+    ],
+    "antonymTerms": [
+      "single-axis analysis"
+    ],
+    "relatedTerms": [
+      "gender",
+      "race",
+      "class",
+      "privilege",
+      "Crenshaw"
     ]
   },
   {
     "term": "communitarianism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5450,11 +5621,25 @@
         "register": "formal",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "community-centered philosophy",
+      "social conservatism"
+    ],
+    "antonymTerms": [
+      "liberalism",
+      "individualism"
+    ],
+    "relatedTerms": [
+      "Sandel",
+      "MacIntyre",
+      "civic virtue",
+      "common good"
     ]
   },
   {
     "term": "atomization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5465,11 +5650,27 @@
         "register": "formal",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "fragmentation",
+      "individualization",
+      "isolation"
+    ],
+    "antonymTerms": [
+      "solidarity",
+      "collectivism",
+      "cohesion"
+    ],
+    "relatedTerms": [
+      "alienation",
+      "social bonds",
+      "community",
+      "mass society"
     ]
   },
   {
     "term": "normativity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5480,11 +5681,26 @@
         "register": "technical",
         "tags": []
       }
+    ],
+    "synonyms": [
+      "prescriptiveness",
+      "normative force",
+      "ought-ness"
+    ],
+    "antonymTerms": [
+      "descriptiveness",
+      "value-neutrality"
+    ],
+    "relatedTerms": [
+      "norms",
+      "ethics",
+      "social theory",
+      "ought-is distinction"
     ]
   },
   {
     "term": "socialization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5498,11 +5714,26 @@
           "development"
         ]
       }
+    ],
+    "synonyms": [
+      "enculturation",
+      "social learning",
+      "acculturation"
+    ],
+    "antonymTerms": [
+      "desocialization",
+      "isolation"
+    ],
+    "relatedTerms": [
+      "norms",
+      "family",
+      "peer group",
+      "institution"
     ]
   },
   {
     "term": "cosmopolitanism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5516,11 +5747,27 @@
           "ethics"
         ]
       }
+    ],
+    "synonyms": [
+      "globalism",
+      "universalism",
+      "world citizenship"
+    ],
+    "antonymTerms": [
+      "nationalism",
+      "parochialism",
+      "provincialism"
+    ],
+    "relatedTerms": [
+      "global justice",
+      "human rights",
+      "Kant",
+      "citizenship"
     ]
   },
   {
     "term": "particularism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5534,11 +5781,26 @@
           "philosophy"
         ]
       }
+    ],
+    "synonyms": [
+      "localism",
+      "exceptionalism",
+      "favoritism"
+    ],
+    "antonymTerms": [
+      "universalism",
+      "cosmopolitanism"
+    ],
+    "relatedTerms": [
+      "culture",
+      "identity",
+      "nationalism",
+      "ethics"
     ]
   },
   {
     "term": "collectivism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5552,11 +5814,26 @@
           "society"
         ]
       }
+    ],
+    "synonyms": [
+      "communitarianism",
+      "social solidarity",
+      "groupism"
+    ],
+    "antonymTerms": [
+      "individualism",
+      "libertarianism"
+    ],
+    "relatedTerms": [
+      "socialism",
+      "community",
+      "cooperation",
+      "common good"
     ]
   },
   {
     "term": "reification",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5570,11 +5847,26 @@
           "sociology"
         ]
       }
+    ],
+    "synonyms": [
+      "objectification",
+      "thingification",
+      "concretization"
+    ],
+    "antonymTerms": [
+      "abstraction",
+      "subjectification"
+    ],
+    "relatedTerms": [
+      "Marx",
+      "Lukacs",
+      "alienation",
+      "commodity fetishism"
     ]
   },
   {
     "term": "eutrophication",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5588,11 +5880,25 @@
           "water"
         ]
       }
+    ],
+    "synonyms": [
+      "nutrient enrichment",
+      "algal overload"
+    ],
+    "antonymTerms": [
+      "oligotrophication"
+    ],
+    "relatedTerms": [
+      "algal bloom",
+      "dead zone",
+      "phosphorus",
+      "nitrogen",
+      "water quality"
     ]
   },
   {
     "term": "bioremediation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5606,11 +5912,26 @@
           "engineering"
         ]
       }
+    ],
+    "synonyms": [
+      "biological cleanup",
+      "microbial remediation",
+      "phytoremediation"
+    ],
+    "antonymTerms": [
+      "chemical remediation",
+      "contamination"
+    ],
+    "relatedTerms": [
+      "pollution",
+      "microorganisms",
+      "soil cleanup",
+      "hazardous waste"
     ]
   },
   {
     "term": "desertification",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5624,11 +5945,26 @@
           "land"
         ]
       }
+    ],
+    "synonyms": [
+      "land degradation",
+      "aridification",
+      "dryland expansion"
+    ],
+    "antonymTerms": [
+      "reforestation",
+      "land restoration"
+    ],
+    "relatedTerms": [
+      "drought",
+      "deforestation",
+      "climate change",
+      "erosion"
     ]
   },
   {
     "term": "acidification",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5642,11 +5978,25 @@
           "environment"
         ]
       }
+    ],
+    "synonyms": [
+      "pH reduction",
+      "acid deposition"
+    ],
+    "antonymTerms": [
+      "alkalization",
+      "neutralization"
+    ],
+    "relatedTerms": [
+      "ocean acidification",
+      "acid rain",
+      "carbon dioxide",
+      "coral bleaching"
     ]
   },
   {
     "term": "ecotoxicology",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5660,11 +6010,23 @@
           "ecology"
         ]
       }
+    ],
+    "synonyms": [
+      "environmental toxicology",
+      "ecological toxicology"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pollutant",
+      "bioaccumulation",
+      "food chain",
+      "pesticides",
+      "toxin"
     ]
   },
   {
     "term": "bioaccumulation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5678,11 +6040,27 @@
           "pollution"
         ]
       }
+    ],
+    "synonyms": [
+      "biological accumulation",
+      "biotic concentration",
+      "biomagnification"
+    ],
+    "antonymTerms": [
+      "biodegradation",
+      "elimination"
+    ],
+    "relatedTerms": [
+      "food chain",
+      "DDT",
+      "mercury",
+      "toxin",
+      "ecotoxicology"
     ]
   },
   {
     "term": "anthropogenic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -5696,11 +6074,27 @@
           "human-impact"
         ]
       }
+    ],
+    "synonyms": [
+      "human-caused",
+      "man-made",
+      "human-induced"
+    ],
+    "antonymTerms": [
+      "natural",
+      "biogenic",
+      "geogenic"
+    ],
+    "relatedTerms": [
+      "climate change",
+      "pollution",
+      "deforestation",
+      "emissions"
     ]
   },
   {
     "term": "rewilding",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5714,11 +6108,27 @@
           "ecology"
         ]
       }
+    ],
+    "synonyms": [
+      "ecological restoration",
+      "wildness restoration",
+      "habitat recovery"
+    ],
+    "antonymTerms": [
+      "domestication",
+      "land development",
+      "urbanization"
+    ],
+    "relatedTerms": [
+      "biodiversity",
+      "keystone species",
+      "conservation",
+      "trophic cascade"
     ]
   },
   {
     "term": "defaunation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5732,11 +6142,26 @@
           "ecology"
         ]
       }
+    ],
+    "synonyms": [
+      "fauna loss",
+      "animal depletion",
+      "wildlife depletion"
+    ],
+    "antonymTerms": [
+      "rewilding",
+      "fauna recovery"
+    ],
+    "relatedTerms": [
+      "extinction",
+      "biodiversity loss",
+      "overhunting",
+      "habitat destruction"
     ]
   },
   {
     "term": "afforestation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5750,11 +6175,26 @@
           "climate"
         ]
       }
+    ],
+    "synonyms": [
+      "tree planting",
+      "forestation",
+      "reforestation"
+    ],
+    "antonymTerms": [
+      "deforestation",
+      "land clearing"
+    ],
+    "relatedTerms": [
+      "carbon sequestration",
+      "reforestation",
+      "biodiversity",
+      "timber"
     ]
   },
   {
     "term": "decarbonization",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5768,11 +6208,26 @@
           "climate"
         ]
       }
+    ],
+    "synonyms": [
+      "carbon removal",
+      "emissions reduction",
+      "net-zero transition"
+    ],
+    "antonymTerms": [
+      "carbonization",
+      "fossil fuel expansion"
+    ],
+    "relatedTerms": [
+      "carbon neutral",
+      "renewable energy",
+      "climate policy",
+      "Paris Agreement"
     ]
   },
   {
     "term": "deoxygenation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5786,11 +6241,26 @@
           "chemistry"
         ]
       }
+    ],
+    "synonyms": [
+      "oxygen depletion",
+      "hypoxia induction",
+      "anoxic process"
+    ],
+    "antonymTerms": [
+      "oxygenation",
+      "aeration"
+    ],
+    "relatedTerms": [
+      "hypoxia",
+      "dead zone",
+      "ocean warming",
+      "eutrophication"
     ]
   },
   {
     "term": "homeomorphism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5804,11 +6274,26 @@
           "topology"
         ]
       }
+    ],
+    "synonyms": [
+      "topological equivalence",
+      "continuous bijection",
+      "homeomorphic mapping"
+    ],
+    "antonymTerms": [
+      "non-homeomorphism",
+      "topological distinction"
+    ],
+    "relatedTerms": [
+      "topology",
+      "continuous function",
+      "bijection",
+      "invariant"
     ]
   },
   {
     "term": "isomorphism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5822,11 +6307,26 @@
           "algebra"
         ]
       }
+    ],
+    "synonyms": [
+      "structural equivalence",
+      "bijective homomorphism",
+      "structure-preserving map"
+    ],
+    "antonymTerms": [
+      "non-isomorphism",
+      "structural distinction"
+    ],
+    "relatedTerms": [
+      "homomorphism",
+      "group theory",
+      "algebra",
+      "bijection"
     ]
   },
   {
     "term": "surjectivity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5840,6 +6340,21 @@
           "functions"
         ]
       }
+    ],
+    "synonyms": [
+      "onto property",
+      "onto mapping",
+      "surjective quality"
+    ],
+    "antonymTerms": [
+      "non-surjectivity"
+    ],
+    "relatedTerms": [
+      "function",
+      "injectivity",
+      "bijectivity",
+      "codomain",
+      "image"
     ]
   },
   {
