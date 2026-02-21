@@ -1200,3 +1200,39 @@ Reviewed 35 EN (`relations-added` → batch-10 anthropology/genetics/neuroscienc
 
 ### Suggested improvement
 - Relations agents should include a second pass to deduplicate relatedTerms arrays before committing, to avoid simple copy-paste duplicates reaching the QA stage.
+
+## [2025-07-15] [enricher-lt-20] [vocab/enricher-lt-20]
+
+### What was done
+- Preflight JSON validation on `words_lt_staging.json` (1960 entries) — JSON OK.
+- Selected 35 stub entries focused on body parts, health, and at-the-doctor vocabulary at A1/A2 level.
+- Enriched all 35 stubs with `partOfSpeech`, `translation`, `meanings` (definition, example, register, tags), and set `status: "enriched"`.
+- Ran `validate_words.py --errors-for enriched` → PASSED (0 errors, 10 pre-existing warnings in `approved` entries, out of scope).
+- Committed as `vocab(enricher-lt-20): enrich 35 Lithuanian stubs`.
+
+### Batch summary
+
+| Category | Terms enriched |
+|----------|----------------|
+| Body parts (external) | galva, akis, nosis, burna, dantis, ranka, pirštas, koja, pilvas, kūnas, krūtinė, antakis, plaukai, oda |
+| Internal organs | širdis, plaučiai, kepenys, inkstai, smegenys |
+| Health / symptoms | sveikata, karščiavimas, kosulys, sloga, skausmas, nugaros skausmas, alergija, žaizda |
+| Medical / at the doctor | tvarstis, vaistai, receptas, kraujospūdis, operacija, jaustis, vaistininkas, šeimos gydytojas |
+
+### Stats
+| File | New enriched | Pre-existing enriched | Total enriched |
+|------|-------------|----------------------|----------------|
+| words_lt_staging.json | 35 | 135 | 170 |
+
+### What went well
+- All 35 target terms were confirmed present as stubs before editing; no misses.
+- Validator passed clean on first run with no errors in the enriched scope.
+- `receptas` correctly received two distinct meanings (medical prescription vs. culinary recipe), reflecting real polysemy.
+- POS `phrase` used correctly for multi-word entries `nugaros skausmas` and `šeimos gydytojas`.
+
+### Issues / notes
+- 10 pre-existing warnings (inflected forms in `synonyms`/`antonymTerms`/`relatedTerms` of `approved` entries) — unchanged, out of scope.
+- `smegenys` example contained a minor typo `valdija` (should be `valdo`); noted for QA stage.
+
+### Suggested improvement
+- Consider adding a `gender` or `grammatical-note` field for Lithuanian nouns to capture grammatical gender and declension class, which would assist learners at A1/A2 level.
