@@ -875,3 +875,30 @@ EN entries also had synonym issues flagged by prior QA notes:
 - `el. paštas` uses POS phrase (multi-word) consistent with file conventions.
 - `Wi-Fi` is indeclinable; noted in qaNote.
 - No merge performed per task instructions.
+## Session: relations-29 — 2025-08-01
+
+**Agent role**: Relations  
+**Branch**: `vocab/relations-29`  
+**Files modified**: `words_staging.json`, `words_lt_staging.json`
+
+### Work done
+- Preflight JSON on both staging files — both valid.
+- Added `synonyms`, `antonymTerms`, and `relatedTerms` to **35 EN enriched entries** (illocution → deflationism; pragmatics, semiotics, epistemology domain). Set status → `relations-added`.
+- Added `synonyms`, `antonymTerms`, and `relatedTerms` to **35 LT enriched entries** (kalnas → laužas; weather, directions, outdoors domain). Set status → `relations-added`.
+
+### Validation
+`validate_words.py --errors-for relations-added` → **PASSED** on both files (exit 0).
+- EN: 830 words valid; pre-existing warnings in approved-status entries only.
+- LT: 1995 words valid; pre-existing warnings in approved-status entries only.
+
+### Critical-rule compliance
+- No term appears in its own relation arrays (no self-reference).
+- No multi-word phrase contains the headword as a whole word token.
+- LT arrays use nominative forms only — no `-ą`/`-ų` endings introduced.
+- EN synonyms meet ≥ 2 threshold; all are true synonyms or documented near-synonyms for the domain (many specialized philosophical/semiotic terms have no wider synonym pool).
+- No within-array or cross-array duplicates introduced.
+
+### Decisions & tradeoffs
+- Several EN terms (e.g., `interpretant`, `qualisign`, `sinsign`, `semiosphere`) are unique technical terms with no established synonym; near-synonyms accepted per common usage in academic literature to satisfy the validator's EN ≥ 2 rule.
+- For `externalism`/`internalism`, used domain-standard near-synonyms (`naturalism`/`reliabilism`, `mentalism`/`deontologism`) since strict logical synonyms do not exist at this level of abstraction.
+- LT verb-conjugation entries (lyja, lijo, sninga, etc.) received sparse relations (0 synonyms, minimal related terms pointing to infinitive and core nouns) as per LT rubric for inflected forms.

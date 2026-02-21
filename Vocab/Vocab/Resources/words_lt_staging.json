@@ -20430,7 +20430,7 @@
     "term": "kalnas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Didelis natūralus žemės paviršiaus pakilimas; aukšta gamtinė erdvė.",
@@ -20454,9 +20454,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "aukštuma"
+    ],
+    "antonymTerms": [
+      "slėnis",
+      "lyguma"
+    ],
+    "relatedTerms": [
+      "kalva",
+      "kalnagūbris"
+    ],
     "translation": "mountain"
   },
   {
@@ -23478,7 +23486,7 @@
     "term": "Lyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Lietaus kritimas iš debesų; vandens lašai krintantys iš dangaus.",
@@ -23494,14 +23502,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lietus",
+      "krituliai",
+      "debesys"
+    ],
     "translation": "to rain"
   },
   {
     "term": "lyja",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Esamasis veiksmažodžio 'lyti' laikas – šiuo metu krenta lietus.",
@@ -23517,14 +23529,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Lyti",
+      "lietus",
+      "krituliai"
+    ],
     "translation": "it is raining"
   },
   {
     "term": "lijo",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Būtasis veiksmažodžio 'lyti' laikas – praeityje krito lietus.",
@@ -23540,7 +23556,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Lyti",
+      "lietus",
+      "krituliai"
+    ],
     "translation": "it rained"
   },
   {
@@ -23580,7 +23600,7 @@
     "term": "bala",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nedidelis vandens telkinys ant žemės paviršiaus, susidaręs po lietaus ar dėl kitos priežasties.",
@@ -23594,16 +23614,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "klanas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lietus",
+      "vanduo",
+      "ežeras"
+    ],
     "translation": "puddle"
   },
   {
     "term": "snigti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sningant sniego dribsniai krenta iš dangaus; žiemos krituliai.",
@@ -23620,14 +23646,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sniegas",
+      "krituliai",
+      "šaltis"
+    ],
     "translation": "to snow"
   },
   {
     "term": "sninga",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Esamasis veiksmažodžio 'snigti' laikas – šiuo metu krenta sniegas.",
@@ -23643,14 +23673,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "snigti",
+      "sniegas",
+      "žiema"
+    ],
     "translation": "it is snowing"
   },
   {
     "term": "snigo",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Būtasis veiksmažodžio 'snigti' laikas – praeityje krito sniegas.",
@@ -23666,7 +23700,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "snigti",
+      "sniegas",
+      "žiema"
+    ],
     "translation": "it snowed"
   },
   {
@@ -23778,7 +23816,7 @@
     "term": "šlapdriba",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mišrus kritulių tipas – pusiau lietus, pusiau sniegas; šaltas šlapias sniegas.",
@@ -23793,16 +23831,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "šlapias sniegas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lietus",
+      "sniegas",
+      "krituliai",
+      "ledas"
+    ],
     "translation": "sleet"
   },
   {
     "term": "pūsti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vėjui judėti tam tikra kryptimi ar stiprumu; oro srovei sklisti.",
@@ -23818,14 +23863,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vėjas",
+      "vėtra",
+      "audra"
+    ],
     "translation": "to blow"
   },
   {
     "term": "pučia",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Esamasis veiksmažodžio 'pūsti' laikas – šiuo metu vėjas juda.",
@@ -23841,14 +23890,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pūsti",
+      "vėjas",
+      "vėtra"
+    ],
     "translation": "it is blowing"
   },
   {
     "term": "pūtė",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Būtasis veiksmažodžio 'pūsti' laikas – praeityje vėjas judėjo.",
@@ -23864,7 +23917,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pūsti",
+      "vėjas",
+      "audra"
+    ],
     "translation": "it was blowing"
   },
   {
@@ -23928,7 +23985,7 @@
     "term": "laipsnis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Temperatūros matavimo vienetas (Celsijaus laipsnis), nurodantis šilumą ar šaltį.",
@@ -23953,9 +24010,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pakopa"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "temperatūra",
+      "kampas",
+      "vertinimas"
+    ],
     "translation": "degree"
   },
   {
@@ -24004,7 +24067,7 @@
     "term": "atšilti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Orui ar aplinkos temperatūrai pakilti; pasidaryti šiltesniam.",
@@ -24019,16 +24082,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sušilti"
+    ],
+    "antonymTerms": [
+      "atšalti"
+    ],
+    "relatedTerms": [
+      "šiluma",
+      "temperatūra",
+      "oras"
+    ],
     "translation": "to warm up"
   },
   {
     "term": "atšyla",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Esamasis veiksmažodžio 'atšilti' laikas – temperatūra kyla šiuo metu.",
@@ -24043,15 +24114,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "atšąla"
+    ],
+    "relatedTerms": [
+      "šiluma",
+      "temperatūra",
+      "atšilti"
+    ],
     "translation": "it is warming up"
   },
   {
     "term": "atšilo",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Būtasis veiksmažodžio 'atšilti' laikas – temperatūra pakilo praeityje.",
@@ -24066,8 +24143,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "atšalo"
+    ],
+    "relatedTerms": [
+      "šiluma",
+      "temperatūra",
+      "atšilti"
+    ],
     "translation": "it warmed up"
   },
   {
@@ -24104,7 +24187,7 @@
     "term": "atšalti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Orui ar aplinkos temperatūrai kristi; pasidaryti šaltesniam.",
@@ -24119,16 +24202,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "atvėsti"
+    ],
+    "antonymTerms": [
+      "atšilti"
+    ],
+    "relatedTerms": [
+      "šaltis",
+      "temperatūra",
+      "oras"
+    ],
     "translation": "to cool down"
   },
   {
     "term": "atšąla",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Esamasis veiksmažodžio 'atšalti' laikas – temperatūra šiuo metu krenta.",
@@ -24143,15 +24234,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "atšyla"
+    ],
+    "relatedTerms": [
+      "šaltis",
+      "temperatūra",
+      "atšalti"
+    ],
     "translation": "it is getting cold"
   },
   {
     "term": "atšalo",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Būtasis veiksmažodžio 'atšalti' laikas – temperatūra krito praeityje.",
@@ -24166,8 +24263,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "atšilo"
+    ],
+    "relatedTerms": [
+      "šaltis",
+      "temperatūra",
+      "atšalti"
+    ],
     "translation": "it got cold"
   },
   {
@@ -24265,7 +24368,7 @@
     "term": "šviesti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Saulei ar kitam šviesos šaltiniui skleisti šviesą ir šilumą.",
@@ -24279,16 +24382,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "spindėti"
+    ],
+    "antonymTerms": [
+      "temti"
+    ],
+    "relatedTerms": [
+      "šviesa",
+      "saulė",
+      "spindulys"
+    ],
     "translation": "to shine"
   },
   {
     "term": "šviečia",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Esamasis veiksmažodžio 'šviesti' laikas – šiuo metu skleidžiama šviesa.",
@@ -24304,14 +24415,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šviesa",
+      "šviesti",
+      "saulė"
+    ],
     "translation": "it is shining"
   },
   {
     "term": "švietė",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Būtasis veiksmažodžio 'šviesti' laikas – praeityje buvo skleidžiama šviesa.",
@@ -24327,7 +24442,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šviesa",
+      "šviesti",
+      "saulė"
+    ],
     "translation": "it shone"
   },
   {
@@ -24367,7 +24486,7 @@
     "term": "pragiedruliai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Trumpi debesuoto dangaus pertrūkiai, per kuriuos šviečia saulė; praskydros tarp debesų.",
@@ -24383,8 +24502,15 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "debesuotumas"
+    ],
+    "relatedTerms": [
+      "saulė",
+      "debesys",
+      "oras",
+      "dangus"
+    ],
     "translation": "sunny spells"
   },
   {
@@ -24615,7 +24741,7 @@
     "term": "lietingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pasižymintis dažnais ar stipriais lietumis; daug kritulių turintis.",
@@ -24629,9 +24755,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "drėgnas"
+    ],
+    "antonymTerms": [
+      "sausas"
+    ],
+    "relatedTerms": [
+      "lietus",
+      "oras",
+      "krituliai"
+    ],
     "translation": "rainy"
   },
   {
@@ -24666,7 +24800,7 @@
     "term": "sausas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nedrėgnas, be drėgmės; neturintis vandens ar skysčio.",
@@ -24692,15 +24826,22 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "šlapias",
+      "drėgnas"
+    ],
+    "relatedTerms": [
+      "džiūti",
+      "sausra",
+      "oras"
+    ],
     "translation": "dry"
   },
   {
     "term": "slidus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sunkiai išlaikantis pusiausvyrą; paviršius, ant kurio lengva slysti (ledas, šlapias grindinys).",
@@ -24715,16 +24856,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "glotnus"
+    ],
+    "antonymTerms": [
+      "šiurkštus"
+    ],
+    "relatedTerms": [
+      "ledas",
+      "paviršius",
+      "kritimas"
+    ],
     "translation": "slippery"
   },
   {
     "term": "šlapias",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Permirkęs vandeniu ar kitu skysčiu; drėgnas, sudrėkęs.",
@@ -24749,16 +24898,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "drėgnas"
+    ],
+    "antonymTerms": [
+      "sausas"
+    ],
+    "relatedTerms": [
+      "vanduo",
+      "lietus",
+      "drėgmė"
+    ],
     "translation": "wet"
   },
   {
     "term": "tirštas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Apie rūką, dūmus ar debesis: tankus, nepraleidžiantis šviesos ar matomumo.",
@@ -24784,9 +24941,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "tankus"
+    ],
+    "antonymTerms": [
+      "retas"
+    ],
+    "relatedTerms": [
+      "rūkas",
+      "tankumas",
+      "storis"
+    ],
     "translation": "thick"
   },
   {
@@ -24826,7 +24991,7 @@
     "term": "šiaurė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Viena iš keturių pagrindinių pasaulio šalių; kryptis priešinga pietums.",
@@ -24841,15 +25006,22 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "pietūs"
+    ],
+    "relatedTerms": [
+      "rytai",
+      "vakarai",
+      "kryptis",
+      "kompasas"
+    ],
     "translation": "north"
   },
   {
     "term": "rytai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pagrindinė pasaulio šalis, kurioje teka saulė; kryptis į dešinę stovint veidu į šiaurę.",
@@ -24875,15 +25047,22 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "vakarai"
+    ],
+    "relatedTerms": [
+      "šiaurė",
+      "pietūs",
+      "kryptis",
+      "kompasas"
+    ],
     "translation": "east"
   },
   {
     "term": "vakarai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pagrindinė pasaulio šalis, kurioje leidžiasi saulė; kryptis į kairę stovint veidu į šiaurę.",
@@ -24909,8 +25088,15 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "rytai"
+    ],
+    "relatedTerms": [
+      "šiaurė",
+      "pietūs",
+      "kryptis",
+      "kompasas"
+    ],
     "translation": "west"
   },
   {
@@ -33427,7 +33613,7 @@
     "term": "žygis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A long walk through nature, especially in hills or forests, usually for recreation.",
@@ -33441,12 +33627,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kelionė"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "takas",
-      "miškas",
-      "kuprinė"
+      "išvyka",
+      "maršrutas",
+      "gamta",
+      "poilsis"
     ],
     "translation": "hike, trek"
   },
@@ -33454,7 +33643,7 @@
     "term": "išvyka",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A short journey or trip made for pleasure, sightseeing, or as part of a group activity.",
@@ -33468,13 +33657,15 @@
       }
     ],
     "synonyms": [
+      "kelionė",
       "ekskursija"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "kelionė",
-      "grupė",
-      "turistas"
+      "žygis",
+      "transportas",
+      "maršrutas",
+      "poilsis"
     ],
     "translation": "trip, excursion, outing"
   },
@@ -33482,7 +33673,7 @@
     "term": "palapinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A portable shelter made of fabric stretched over a frame of poles, used for camping.",
@@ -33500,8 +33691,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "stovykla",
-      "miegmaišis",
-      "žygis"
+      "žygis",
+      "kempingas",
+      "miegas"
     ],
     "translation": "tent"
   },
@@ -33520,7 +33712,7 @@
     "term": "laužas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An open outdoor fire built from stacked logs, used for warmth, cooking, or ritual purposes while in nature.",
@@ -33539,8 +33731,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "ugnis",
-      "miškas",
-      "stovykla"
+      "stovykla",
+      "žygis",
+      "mediena"
     ],
     "translation": "campfire / bonfire",
     "qaNote": "Nominative singular: laužas. kurti laužą = to make/build a campfire."
