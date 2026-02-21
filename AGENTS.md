@@ -535,3 +535,55 @@ LT minimum synonym count is 0; additions were quality-driven, not validation-dri
 - Food domain terms (entries 0–34 of LT enriched) rarely have true single-word synonyms; synonym arrays were populated only where a genuine alternative exists.
 - Genitive-modified compound relatedTerms (e.g. "pomidorų padažas") whose last word ends in -s technically pass the validator's `endswith(-ų)` check, but violate the user's "no -ą/-ų endings" rule — these were fixed regardless.
 - EN `parsec` has no antonyms (it is a physical unit); antonymTerms left as `[]`, which is valid.
+
+---
+
+## vocab/qa-26 — QA Review Batch 26
+
+**Date:** 2025-07-22
+**Branch:** vocab/qa-26
+**Reviewer:** Copilot QA Agent
+
+### Summary
+
+| File | Reviewed | Approved | Enriched (qaNote) |
+|---|---|---|---|
+| words_staging.json (EN) | 63 | 61 | 2 |
+| words_lt_staging.json (LT) | 70 | 68 | 2 |
+
+### EN — 63 entries reviewed
+
+Domains covered: art/aesthetics (verism, triptych), literary theory (heteroglossia, defamiliarization, paratext), game theory (equilibrium), neuroscience (depolarization), immunology (epitope, hapten, opsonization, cytokine, immunosuppression, anaphylaxis, hematopoiesis), astronomy (parsec, syzygy), earth/climate science (thermohaline, permafrost, paleoclimate, phenology, aerosol), philosophy/ethics (functionalism, emotivism, prescriptivism, noncognitivism, perfectionism), cultural theory (othering, creolization), architecture (apse, balustrade, belvedere, coffering, crenellation, finial, impost, keystone, loggia, lunette, narthex), culinary arts (brunoise, charcuterie, duxelles, nappe, quenelle, salpicon, macedoine, flambe, caramelization, concasse), geology (alluvium, anticline, batholith, diagenesis, diapir, geomorphology, graben, horst, ignimbrite, isostasy, karst, mylonite, orogeny, petrology).
+
+**2 entries enriched with qaNote:**
+
+| Entry | Issue | qaNote |
+|---|---|---|
+| `prescriptivism` | Self-referential synonym: `"universal prescriptivism"` contains headword as word token | Replace with non-self-referential synonym, e.g. `"universal imperativism"` |
+| `functionalism` | Synonyms `"Parsonian sociology"` (specific school), `"systems theory"` (related framework), `"organic analogy"` (metaphor) are not true synonyms | Replace with genuine synonyms such as `"social functionalism"`, `"structural-functional analysis"` |
+
+### LT — 70 entries reviewed
+
+Domains covered: food/dairy (sviestas–virtiniai), verbs/digital (ieškoti), transport/time/home (Autobusas–namas), waste management (Šiukšlės–rūšiuoti), garden/nature (krūmas–gėlė), weather (lietus–vėjuotas), healthcare (greitoji pagalba–pacientas).
+
+**2 entries enriched with qaNote:**
+
+| Entry | Issue | qaNote |
+|---|---|---|
+| `varškė` | Synonym `"tvartas"` (barn/stable) is semantically wrong for cottage cheese | Remove; no direct standard synonym exists — leave empty or use `"šviežias sūris"` informally |
+| `Autobusas` | Synonym `"viešasis transportas"` (public transport) is hypernym, not synonym | Remove; leave synonyms empty |
+
+### Checks Performed
+- ✅ Self-reference: exact match and phrase-containing-token (all arrays)
+- ✅ LT nominative forms: no -ą/-ų endings found in any relation array
+- ✅ Semantic accuracy of synonyms (manual review of all 133 entries)
+- ✅ Within-array duplicates (none found in batch-26 entries)
+- ✅ Cross-array duplicates (none found in batch-26 entries)
+- ✅ Valid POS values across all entries
+- ✅ Valid register values in all meanings
+- ✅ `validate_words.py` run; pre-existing failures from prior batches do not involve batch-26 entries
+
+### Notes
+- LT entries `Medus`, `Barščiai`, `Autobusas`, `Šiukšlės` have capitalised terms (Lithuanian common nouns should be lowercase); flagged as a data quality concern but not a relations error per QA rules.
+- `klinika` and `poliklinika` both use `"ambulatorija"` as a synonym; this cross-entry duplication is structurally valid (the rules check within-entry arrays only) but semantically worth revisiting.
+- Pre-existing `validate_words.py` errors in `approved` entries (e.g. `annealing`, `crystallography`, `lėktuvas`, `kelias`) are from prior batches and are out of scope for this review.
