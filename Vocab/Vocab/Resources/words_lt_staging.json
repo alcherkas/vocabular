@@ -17885,7 +17885,7 @@
     "term": "virtiniai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Small boiled dumplings made from unleavened dough stuffed with minced meat, mushrooms, or berries.",
@@ -18987,7 +18987,7 @@
     "term": "ieškoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To look for information, a file, or data, especially using a search engine or application.",
@@ -19001,7 +19001,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "naršyti"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "rasti",
@@ -19370,7 +19372,7 @@
     "term": "Autobusas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large road vehicle that carries passengers on fixed routes and stops.",
@@ -19386,7 +19388,9 @@
     "synonyms": [
       "viešasis transportas"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "automobilis"
+    ],
     "relatedTerms": [
       "stotis",
       "stotelė",
@@ -19899,7 +19903,7 @@
     "term": "bilietas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A document giving the holder the right to travel on public transport or enter a venue.",
@@ -20102,7 +20106,7 @@
     "term": "mėnuo",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "One of the twelve periods into which a year is divided, lasting 28 to 31 days.",
@@ -20131,7 +20135,7 @@
     "term": "metai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A period of twelve months, especially from 1 January to 31 December.",
@@ -21656,7 +21660,7 @@
     "term": "namas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A building designed for people to live in; one's place of residence.",
@@ -22399,7 +22403,7 @@
     "term": "Šiukšlės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Discarded or unwanted materials; household, street, or outdoor waste.",
@@ -22413,12 +22417,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atliekos",
+      "šlamštas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "šiukšlių dėžė",
       "rūšiuoti",
-      "konteineris"
+      "konteineris",
+      "perdirbimas"
     ],
     "translation": "rubbish / waste",
     "qaNote": "Plural-only noun in everyday use. Nominative plural: šiukšlės."
@@ -22427,7 +22435,7 @@
     "term": "šiukšlių dėžė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A container placed indoors or outdoors for collecting household or public waste.",
@@ -22441,12 +22449,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "šiukšlinė"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "šiukšlės",
       "konteineris",
-      "rūšiuoti"
+      "rūšiuoti",
+      "atliekos"
     ],
     "translation": "rubbish bin / waste bin",
     "qaNote": "Compound noun phrase: šiukšlių (genitive plural of šiukšlės) + dėžė (box/bin)."
@@ -22455,7 +22466,7 @@
     "term": "konteineris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large outdoor bin used for collecting sorted waste or recyclable materials.",
@@ -22470,12 +22481,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "talpykla"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "šiukšlės",
       "rūšiuoti",
-      "atliekos"
+      "atliekos",
+      "perdirbimas"
     ],
     "translation": "container / recycling bin",
     "qaNote": "Also used for shipping containers in a logistics context."
@@ -22484,7 +22498,7 @@
     "term": "išmesti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To dispose of something no longer needed by placing it in a bin or throwing it out.",
@@ -22498,8 +22512,14 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "atsikratyti",
+      "nusimesti"
+    ],
+    "antonymTerms": [
+      "išsaugoti",
+      "pasilaikyti"
+    ],
     "relatedTerms": [
       "šiukšlės",
       "rūšiuoti",
@@ -22512,7 +22532,7 @@
     "term": "išnešti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To carry something out of an enclosed space; commonly used for taking rubbish outside.",
@@ -22526,8 +22546,12 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "išvežti"
+    ],
+    "antonymTerms": [
+      "įnešti"
+    ],
     "relatedTerms": [
       "šiukšlės",
       "išmesti",
@@ -22540,7 +22564,7 @@
     "term": "rūšiuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To separate waste materials into categories (plastic, glass, paper, organic) for recycling or proper disposal.",
@@ -22555,8 +22579,13 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "skirstyti",
+      "klasifikuoti"
+    ],
+    "antonymTerms": [
+      "maišyti"
+    ],
     "relatedTerms": [
       "atliekos",
       "konteineris",
@@ -23142,7 +23171,7 @@
     "term": "krūmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woody plant smaller than a tree, typically with several stems from the base; a shrub or bush.",
@@ -23162,7 +23191,9 @@
     "relatedTerms": [
       "medis",
       "augalas",
-      "miškas"
+      "miškas",
+      "krūmynas",
+      "šaka"
     ],
     "translation": "shrub / bush",
     "qaNote": "Nominative singular: krūmas. krūmynas = a thicket of shrubs."
@@ -23171,7 +23202,7 @@
     "term": "veja",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An area of closely mown or naturally short grass in a garden, park, or yard.",
@@ -23186,12 +23217,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "velėna"
+    ],
+    "antonymTerms": [
+      "asfaltas"
+    ],
     "relatedTerms": [
       "žolė",
       "sodas",
-      "kiemas"
+      "kiemas",
+      "pievutė"
     ],
     "translation": "lawn",
     "qaNote": "Nominative singular: veja. Distinct from žolė (grass in general)."
@@ -23266,7 +23302,7 @@
     "term": "sodas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A piece of private or public land cultivated with fruit trees, flowers, or ornamental plants.",
@@ -23291,12 +23327,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "želdynas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "daržas",
       "vaismedis",
-      "auginti"
+      "auginti",
+      "gėlynas",
+      "medis"
     ],
     "translation": "garden / orchard",
     "qaNote": "Nominative singular: sodas. Covers both private orchard/garden and public park in Lithuanian."
@@ -23305,7 +23345,7 @@
     "term": "medis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large perennial woody plant with a main trunk, branches, and leaves.",
@@ -23335,7 +23375,9 @@
     "relatedTerms": [
       "miškas",
       "šaka",
-      "lapas"
+      "lapas",
+      "kamienas",
+      "šaknis"
     ],
     "translation": "tree",
     "qaNote": "Nominative singular: medis. Two senses: tree (animate) and wood (material)."
@@ -23355,7 +23397,7 @@
     "term": "gėlė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The reproductive blossom of a flowering plant; also cultivated for its beauty and fragrance.",
@@ -23375,7 +23417,9 @@
     "relatedTerms": [
       "žiedas",
       "augalas",
-      "gėlynas"
+      "gėlynas",
+      "lapas",
+      "sodas"
     ],
     "translation": "flower",
     "qaNote": "Nominative singular: gėlė. Distinct from žiedas, which refers specifically to a blossom."
@@ -23450,7 +23494,7 @@
     "term": "lietus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Water that falls from clouds in drops.",
@@ -23472,7 +23516,9 @@
     "relatedTerms": [
       "skėtis",
       "debesis",
-      "vėjas"
+      "vėjas",
+      "vanduo",
+      "audra"
     ],
     "translation": "rain",
     "qaNote": "Term already exists in the production file (words_lt.json). This staging entry is a duplicate — resolve before publishing."
@@ -23525,7 +23571,7 @@
     "term": "sniegas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "White frozen water that falls from the sky in winter.",
@@ -23539,7 +23585,9 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "karštis"
+    ],
     "relatedTerms": [
       "žiema",
       "šaltis",
@@ -23554,7 +23602,7 @@
     "term": "pūga",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A severe snowstorm combined with strong winds and very low visibility.",
@@ -23574,7 +23622,9 @@
     "relatedTerms": [
       "sniegas",
       "vėjas",
-      "žiema"
+      "žiema",
+      "audra",
+      "šaltis"
     ],
     "translation": "blizzard / snowstorm",
     "qaNote": "Nominative singular: pūga. Typically implies both snow and wind together."
@@ -23583,7 +23633,7 @@
     "term": "ledas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Frozen water; the solid state of water formed at temperatures at or below 0 °C.",
@@ -23609,11 +23659,15 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "ugnis"
+    ],
     "relatedTerms": [
       "sniegas",
       "vanduo",
-      "šaltis"
+      "šaltis",
+      "žiema",
+      "slidinėjimas"
     ],
     "translation": "ice",
     "qaNote": "Two distinct senses: natural ice (singular) vs. ice cream (usually plural: ledai)."
@@ -23734,7 +23788,7 @@
     "term": "šiluma",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Thermal energy; the physical sensation of warmth; high temperature.",
@@ -23759,11 +23813,15 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "šaltis"
+    ],
     "relatedTerms": [
       "temperatūra",
       "karštas",
-      "šiltas"
+      "šiltas",
+      "energija",
+      "saulė"
     ],
     "translation": "warmth / heat",
     "qaNote": "Nominative singular: šiluma. Both physical and metaphorical meanings are common."
@@ -23899,7 +23957,7 @@
     "term": "griaustinis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The loud rumbling or crashing sound produced by a lightning discharge during a thunderstorm.",
@@ -23913,12 +23971,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "perkūnas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "žaibas",
       "lietus",
-      "audra"
+      "audra",
+      "debesys",
+      "perkūnija"
     ],
     "translation": "thunder",
     "qaNote": "Nominative singular: griaustinis. Perkūnas (mythological god of thunder) is related culturally."
@@ -24032,7 +24094,7 @@
     "term": "dangus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The expanse of atmosphere visible from the earth's surface; the sky.",
@@ -24056,12 +24118,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "skliautas"
+    ],
+    "antonymTerms": [
+      "žemė"
+    ],
     "relatedTerms": [
       "debesys",
       "saulė",
-      "žvaigždės"
+      "žvaigždės",
+      "kosmosas"
     ],
     "translation": "sky",
     "qaNote": "Nominative singular: dangus. Two clearly distinct senses."
@@ -24096,7 +24163,7 @@
     "term": "vaivorykštė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An arc of spectral colours appearing in the sky when sunlight passes through rain droplets.",
@@ -24115,7 +24182,9 @@
     "relatedTerms": [
       "lietus",
       "dangus",
-      "saulė"
+      "saulė",
+      "spalvos",
+      "šviesa"
     ],
     "translation": "rainbow",
     "qaNote": "Nominative singular: vaivorykštė. Often used symbolically for diversity."
@@ -24182,7 +24251,7 @@
     "term": "drėgnas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Slightly wet; having notable moisture in the air, ground, or on a surface.",
@@ -24197,14 +24266,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "šlapias"
+    ],
     "antonymTerms": [
       "sausas"
     ],
     "relatedTerms": [
       "drėgmė",
-      "šlapias",
-      "lietus"
+      "lietus",
+      "rūkas"
     ],
     "translation": "damp / humid / moist",
     "qaNote": "Positive degree: drėgnas. Comparative: drėgnesnis."
@@ -24213,7 +24284,7 @@
     "term": "giedras",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Describes weather or sky that is clear, bright, and free of clouds.",
@@ -24227,15 +24298,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "saulėtas",
+      "skaidrus"
+    ],
     "antonymTerms": [
       "debesuotas",
       "lietingas"
     ],
     "relatedTerms": [
-      "saulėtas",
       "dangus",
-      "oras"
+      "oras",
+      "žydras"
     ],
     "translation": "clear / bright / cloudless",
     "qaNote": "Positive degree: giedras. Also used in figurative contexts: giedra nuotaika (bright mood)."
@@ -24327,7 +24401,7 @@
     "term": "vėjuotas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Characterised by strong or frequent wind; exposed to the wind.",
@@ -24343,12 +24417,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [
-      "ramus"
+      "ramus",
+      "tykus"
     ],
     "relatedTerms": [
       "vėjas",
       "oras",
-      "pajūris"
+      "pajūris",
+      "audra",
+      "šaltis"
     ],
     "translation": "windy",
     "qaNote": "Derived from vėjas (wind) + -uotas suffix indicating 'characterised by'."
@@ -26632,7 +26709,7 @@
     "term": "greitoji pagalba",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Emergency medical service providing immediate assistance to people in life-threatening situations.",
@@ -26645,12 +26722,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "ambulansas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "ligoninė",
       "gydytojas",
-      "reanimacija"
+      "reanimacija",
+      "nelaimė",
+      "pagalba"
     ],
     "translation": "emergency medical services",
     "qaNote": "Phrase: greitoji (fast, nominative feminine adj) + pagalba (help, noun). Always lowercase in running text except sentence-initial."
@@ -26659,7 +26740,7 @@
     "term": "klinika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A medical facility, typically private, specialising in outpatient diagnosis and treatment.",
@@ -26688,7 +26769,7 @@
     "term": "poliklinika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A state-funded outpatient healthcare facility providing primary and specialised medical care.",
@@ -26728,7 +26809,7 @@
     "term": "palata",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A room in a hospital accommodating one or more patients during inpatient treatment.",
@@ -26746,7 +26827,9 @@
     "relatedTerms": [
       "ligoninė",
       "skyrius",
-      "lovytė"
+      "lovytė",
+      "gydytojas",
+      "slaugytojas"
     ],
     "translation": "hospital ward / patient room",
     "qaNote": "Nominative singular: palata. Genitive: palatos. Medical/hospital register; do not confuse with political 'rūmai' (chamber/palace)."
@@ -26788,7 +26871,7 @@
     "term": "ligonis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person who is ill or receiving medical treatment, especially in a hospital.",
@@ -26830,7 +26913,7 @@
     "term": "pacientas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person receiving or registered to receive medical treatment from a healthcare provider.",
@@ -26846,7 +26929,9 @@
     "synonyms": [
       "ligonis"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "sveikas žmogus"
+    ],
     "relatedTerms": [
       "pacientė",
       "gydytojas",
