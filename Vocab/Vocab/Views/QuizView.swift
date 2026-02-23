@@ -365,13 +365,17 @@ struct QuizView: View {
         currentWord.timesSeen += 1
         currentWord.lastSeen = .now
         
-        if answer == currentQuestion?.correctAnswer {
+        let isCorrect = answer == currentQuestion?.correctAnswer
+        if isCorrect {
             score += 1
             currentWord.timesCorrect += 1
             UINotificationFeedbackGenerator().notificationOccurred(.success)
         } else {
             UINotificationFeedbackGenerator().notificationOccurred(.error)
         }
+        
+        let quality = isCorrect ? 4 : 1
+        SpacedRepetitionService.nextReview(for: currentWord, quality: quality)
     }
     
     private func nextQuestion() {
