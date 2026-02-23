@@ -4645,3 +4645,26 @@ Enriched 35 stub entries across five thematic groups: numbers (30–100), bedroo
 - Check VALID_PARTS_OF_SPEECH in the validator before assigning POS — `numeral` is valid but easy to overlook.
 - Plural-only nouns like `replės` and `užuolaidos` should note the plural form in the definition to avoid confusion.
 >>>>>>> vocab/enricher-lt-66
+
+---
+## Retro: LT Enricher Agent — vocab/enricher-lt-67
+**Date:** 2025-07-31
+**Agent:** LT Vocabulary Enricher (enricher-lt-67)
+**Task:** Enrich 35 Lithuanian stub entries in words_lt_staging.json
+
+### What was done
+- Selected 35 diverse stubs: 21 verbs (daily actions, clothing, crafts), 9 nouns (furniture, accessories, celebrations), 4 adjectives (materials), 2 phrases (hygiene).
+- All entries: lowercase terms, valid partOfSpeech, Lithuanian example sentences, English translations, register, level, tags.
+- Ran validation: 0 errors.
+- Committed on branch vocab/enricher-lt-67.
+
+### What went well
+- Clear format from existing enriched examples made the task straightforward.
+- Validation passed on first run.
+
+### What could be improved
+- Some verb stubs had conjugated forms (e.g. dažo, dažė) alongside the infinitive (dažyti); enriching only the infinitive and leaving the forms as stubs may cause redundancy. A cleanup pass could merge these.
+- Ordinal number stubs (Pirmas, Pirma, etc.) have capitalized terms that need to be lowercased — those were intentionally skipped.
+
+### Blockers / Decisions needed
+None.
