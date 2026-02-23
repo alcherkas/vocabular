@@ -2624,7 +2624,7 @@
     "term": "senamadiškas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Describes a style, item, or behaviour that was fashionable in the past but no longer is.",
@@ -2637,9 +2637,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nemadingas",
+      "pasenęs"
+    ],
+    "antonymTerms": [
+      {
+        "term": "madingas",
+        "meaning": "Conforming to current fashion; stylish and trendy."
+      }
+    ],
+    "relatedTerms": [
+      "mada",
+      "stilius",
+      "senoviškas",
+      "klasikinis",
+      "trendas"
+    ],
     "translation": "old-fashioned",
     "level": "A2"
   },
@@ -2647,7 +2661,7 @@
     "term": "nemadingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Not conforming to current fashion; out of style.",
@@ -2660,9 +2674,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "senamadiškas",
+      "pasenęs"
+    ],
+    "antonymTerms": [
+      {
+        "term": "madingas",
+        "meaning": "Conforming to current fashion; in vogue."
+      }
+    ],
+    "relatedTerms": [
+      "mada",
+      "stilius",
+      "klasikinis",
+      "dizainas",
+      "trendas"
+    ],
     "translation": "unfashionable",
     "level": "A2"
   },
@@ -2702,7 +2730,7 @@
     "term": "margas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having many different colours or a mixed pattern; variegated.",
@@ -2715,9 +2743,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "daugiaspalvis",
+      "spalvotas"
+    ],
+    "antonymTerms": [
+      {
+        "term": "vienspalvis",
+        "meaning": "Of a single colour, without any pattern."
+      }
+    ],
+    "relatedTerms": [
+      "spalva",
+      "raštas",
+      "languotas",
+      "dryžuotas",
+      "taškuotas"
+    ],
     "translation": "multicoloured",
     "level": "A2"
   },
@@ -2725,7 +2767,7 @@
     "term": "ryškus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vivid and intense in colour; easy to notice.",
@@ -2738,9 +2780,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "spalvingas",
+      "intensyvus"
+    ],
+    "antonymTerms": [
+      {
+        "term": "blankus",
+        "meaning": "Faded or lacking intensity of colour; dull."
+      }
+    ],
+    "relatedTerms": [
+      "spalva",
+      "šviesa",
+      "kontrastas",
+      "ryškumas",
+      "intensyvumas"
+    ],
     "translation": "bright, vivid",
     "level": "A2"
   },
@@ -2748,7 +2804,7 @@
     "term": "languotas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having a pattern of squares formed by crossing lines; checkered or plaid.",
@@ -2763,7 +2819,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "raštas",
+      "dryžuotas",
+      "taškuotas",
+      "audinys",
+      "šachmatinis"
+    ],
     "translation": "checkered, plaid",
     "level": "A2"
   },
@@ -2771,7 +2833,7 @@
     "term": "dryžuotas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Marked with stripes; having a pattern of parallel lines.",
@@ -2786,7 +2848,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "raštas",
+      "languotas",
+      "taškuotas",
+      "linija",
+      "juostelė"
+    ],
     "translation": "striped",
     "level": "A2"
   },
@@ -2794,7 +2862,7 @@
     "term": "taškuotas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Covered with a pattern of small dots or spots.",
@@ -2807,9 +2875,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "dėmėtas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "raštas",
+      "dryžuotas",
+      "languotas",
+      "taškas",
+      "dėmė"
+    ],
     "translation": "dotted, spotted",
     "level": "A2"
   },
@@ -2817,7 +2893,7 @@
     "term": "raštuotas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Decorated with a repeated decorative design or motif.",
@@ -2830,9 +2906,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "ornamentuotas",
+      "dekoruotas"
+    ],
+    "antonymTerms": [
+      {
+        "term": "lygus",
+        "meaning": "Plain, without any decorative pattern or design."
+      }
+    ],
+    "relatedTerms": [
+      "raštas",
+      "ornamentas",
+      "audinys",
+      "dizainas",
+      "dekoravimas"
+    ],
     "translation": "patterned",
     "level": "A2"
   },
@@ -2840,7 +2930,7 @@
     "term": "vienspalvis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Of a single colour; without any pattern.",
@@ -2854,8 +2944,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      {
+        "term": "margas",
+        "meaning": "Having many different colours; multicoloured."
+      }
+    ],
+    "relatedTerms": [
+      "spalva",
+      "raštas",
+      "monochromas",
+      "neutralus",
+      "paprastas"
+    ],
     "translation": "monochrome, single-coloured",
     "level": "A2"
   },
@@ -2863,7 +2964,7 @@
     "term": "gėlėtas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Decorated with a floral pattern; having printed or embroidered flowers.",
@@ -2876,9 +2977,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "gėlių rašto"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "raštas",
+      "gėlė",
+      "audinys",
+      "vasarinis",
+      "romantiška"
+    ],
     "translation": "floral",
     "level": "A2"
   },
@@ -2886,7 +2995,7 @@
     "term": "vilna",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The soft, fine fibre obtained from sheep or similar animals, used in making cloth and yarn.",
@@ -2901,7 +3010,14 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vilnonis",
+      "avis",
+      "megzti",
+      "šiluma",
+      "natūralus",
+      "audinys"
+    ],
     "translation": "wool",
     "level": "A2"
   },
@@ -2909,7 +3025,7 @@
     "term": "vilnonis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Made of wool or resembling wool in texture.",
@@ -2924,7 +3040,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vilna",
+      "šiltas",
+      "medvilninis",
+      "natūralus",
+      "megztinis"
+    ],
     "translation": "woollen",
     "level": "A2"
   },
@@ -2932,7 +3054,7 @@
     "term": "medvilnė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A soft white fibrous plant material used to make thread and fabric.",
@@ -2947,7 +3069,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "medvilninis",
+      "audinys",
+      "natūralus",
+      "marškiniai",
+      "lengvas"
+    ],
     "translation": "cotton",
     "level": "A1"
   },
@@ -2955,7 +3083,7 @@
     "term": "medvilninis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Made of cotton.",
@@ -2970,7 +3098,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "medvilnė",
+      "vilnonis",
+      "sintetinis",
+      "natūralus",
+      "audinys"
+    ],
     "translation": "cotton (adj.)",
     "level": "A1"
   },
@@ -2978,7 +3112,7 @@
     "term": "šilkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A fine, smooth, lustrous fabric produced from the cocoons of silkworms.",
@@ -2993,7 +3127,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šilkinis",
+      "audinys",
+      "prabanga",
+      "Kinija",
+      "glotnumas"
+    ],
     "translation": "silk",
     "level": "A2"
   },
@@ -3001,7 +3141,7 @@
     "term": "šilkinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Made of silk or having the soft, smooth quality of silk.",
@@ -3016,7 +3156,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šilkas",
+      "glotnumas",
+      "blizgesys",
+      "prabanga",
+      "elegancija"
+    ],
     "translation": "silky, made of silk",
     "level": "A2"
   },
@@ -3024,7 +3170,7 @@
     "term": "odinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Made of leather.",
@@ -3039,7 +3185,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "oda",
+      "batai",
+      "diržas",
+      "natūralus",
+      "tvirtas"
+    ],
     "translation": "leather (adj.)",
     "level": "A2"
   },
@@ -3047,7 +3199,7 @@
     "term": "sintetika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Artificially made fabric or material, as opposed to natural fibres.",
@@ -3060,9 +3212,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "dirbtinis audinys",
+      "sintetinė medžiaga"
+    ],
+    "antonymTerms": [
+      {
+        "term": "natūrali medžiaga",
+        "meaning": "A material derived from natural sources, such as wool, cotton, or silk."
+      }
+    ],
+    "relatedTerms": [
+      "sintetinis",
+      "polimeras",
+      "audinys",
+      "dirbtinis",
+      "plastikas"
+    ],
     "translation": "synthetic material",
     "level": "B1"
   },
@@ -3070,7 +3236,7 @@
     "term": "sintetinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Made from chemical processes rather than natural materials.",
@@ -3083,9 +3249,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "dirbtinis",
+      "cheminis"
+    ],
+    "antonymTerms": [
+      {
+        "term": "natūralus",
+        "meaning": "Existing in or derived from nature; not artificially made."
+      }
+    ],
+    "relatedTerms": [
+      "sintetika",
+      "polimeras",
+      "plastikinis",
+      "surrogatas",
+      "audinys"
+    ],
     "translation": "synthetic",
     "level": "B1"
   },
@@ -3093,7 +3273,7 @@
     "term": "kailis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The thick hairy coat of an animal, or a garment made from it.",
@@ -3109,7 +3289,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kailinis",
+      "kailiniai",
+      "šiluma",
+      "gyvūnas",
+      "žiema"
+    ],
     "translation": "fur, pelt",
     "level": "A2"
   },
@@ -3117,7 +3303,7 @@
     "term": "kailinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Made of or lined with fur.",
@@ -3133,7 +3319,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kailis",
+      "kailiniai",
+      "šiltas",
+      "prabanga",
+      "žieminis"
+    ],
     "translation": "fur (adj.), made of fur",
     "level": "A2"
   },
@@ -3141,7 +3333,7 @@
     "term": "natūralus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Existing in or derived from nature; not made or caused by humankind.",
@@ -3154,9 +3346,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "gamtinis",
+      "tikrasis"
+    ],
+    "antonymTerms": [
+      {
+        "term": "dirbtinis",
+        "meaning": "Made by humans; not occurring naturally."
+      }
+    ],
+    "relatedTerms": [
+      "gamta",
+      "ekologiškas",
+      "organiškas",
+      "autentiškas",
+      "tikras"
+    ],
     "translation": "natural",
     "level": "A2"
   },
@@ -3164,7 +3370,7 @@
     "term": "dirbtinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Made by humans, not occurring naturally; artificial.",
@@ -3177,9 +3383,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sintetinis",
+      "netikras"
+    ],
+    "antonymTerms": [
+      {
+        "term": "natūralus",
+        "meaning": "Existing in or derived from nature; not made by humans."
+      }
+    ],
+    "relatedTerms": [
+      "imitacija",
+      "plastikinis",
+      "surrogatas",
+      "audinys",
+      "cheminis"
+    ],
     "translation": "artificial, synthetic",
     "level": "A2"
   },
@@ -3187,7 +3407,7 @@
     "term": "saga",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small disc or knob sewn onto clothing, used to fasten two parts together.",
@@ -3202,7 +3422,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "užtrauktukas",
+      "siūti",
+      "drabužis",
+      "kilpa",
+      "sagstuklis"
+    ],
     "translation": "button",
     "level": "A1"
   },
@@ -3210,7 +3436,7 @@
     "term": "užtrauktukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A fastening device consisting of two strips of interlocking teeth, closed or opened by a sliding tab.",
@@ -3223,9 +3449,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "zipas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "saga",
+      "sagstuklis",
+      "drabužis",
+      "krepšys",
+      "uždaryti"
+    ],
     "translation": "zip, zipper",
     "level": "A1"
   },
@@ -3233,7 +3467,7 @@
     "term": "kišenė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small pouch sewn into clothing, used for carrying small items.",
@@ -3248,7 +3482,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "drabužis",
+      "kelnės",
+      "maišelis",
+      "laikyti",
+      "patogu"
+    ],
     "translation": "pocket",
     "level": "A1"
   },
@@ -3256,7 +3496,7 @@
     "term": "nosinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small square of cloth used for wiping the nose or face.",
@@ -3271,7 +3511,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "popierinis rankšluostis",
+      "nosis",
+      "kosulys",
+      "audinys",
+      "higiena"
+    ],
     "translation": "handkerchief",
     "level": "A2"
   },
@@ -3279,7 +3525,7 @@
     "term": "skėtis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A device with a folding canopy used for protection from rain or sun.",
@@ -3294,7 +3540,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lietus",
+      "apsauga",
+      "saulė",
+      "drėgmė",
+      "paplūdimys"
+    ],
     "translation": "umbrella",
     "level": "A1"
   },
@@ -3302,7 +3554,7 @@
     "term": "basutės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Light open shoes consisting of a sole fastened with straps, worn in warm weather.",
@@ -3315,9 +3567,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sandalai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "batai",
+      "vasara",
+      "šiluma",
+      "kojinės",
+      "paplūdimys"
+    ],
     "translation": "sandals",
     "level": "A1"
   },
@@ -3325,7 +3585,7 @@
     "term": "skrybėlaitė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small hat, typically one with a brim, worn as a fashion accessory.",
@@ -3340,7 +3600,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "skrybėlė",
+      "kepurė",
+      "galvos apdangalas",
+      "mada",
+      "apsauga"
+    ],
     "translation": "hat, small hat",
     "level": "A2"
   },
@@ -3348,7 +3614,7 @@
     "term": "auskarai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pieces of jewellery worn on or hanging from the ear lobe.",
@@ -3363,7 +3629,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "papuošalai",
+      "grandinėlė",
+      "žiedas",
+      "ausys",
+      "metalas"
+    ],
     "translation": "earrings",
     "level": "A2"
   },
@@ -3371,7 +3643,7 @@
     "term": "grandinėlė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small chain, especially a necklace made of interlinked metal rings.",
@@ -3386,7 +3658,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "papuošalai",
+      "karoliai",
+      "auskarai",
+      "žiedas",
+      "metalas"
+    ],
     "translation": "chain, chain necklace",
     "level": "A2"
   },
@@ -3394,7 +3672,7 @@
     "term": "karoliai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A necklace made of beads or pearls strung together.",
@@ -3407,9 +3685,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vėrinys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "papuošalai",
+      "grandinėlė",
+      "auskarai",
+      "žiedas",
+      "kamuolėliai"
+    ],
     "translation": "beads, necklace",
     "level": "A2"
   },
@@ -3417,7 +3703,7 @@
     "term": "žiedas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A circular band worn on the finger as an ornament or symbol.",
@@ -3432,7 +3718,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "papuošalai",
+      "auskarai",
+      "grandinėlė",
+      "vestuvės",
+      "pirštas"
+    ],
     "translation": "ring",
     "level": "A1"
   },
@@ -3440,7 +3732,7 @@
     "term": "segė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An ornamental pin or clasp used to fasten clothing or worn as a decorative accessory.",
@@ -3453,9 +3745,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sagutė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "papuošalai",
+      "saga",
+      "drabužis",
+      "metalas",
+      "dekoratyvinis"
+    ],
     "translation": "brooch, clasp",
     "level": "A2"
   },

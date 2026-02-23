@@ -1570,7 +1570,7 @@
   {
     "term": "orography",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
@@ -1585,12 +1585,24 @@
           "physical geography"
         ]
       }
+    ],
+    "synonyms": [
+      "orology",
+      "mountain geography"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "topography",
+      "geomorphology",
+      "physiography",
+      "altitude",
+      "elevation"
     ]
   },
   {
     "term": "isohyet",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
@@ -1605,12 +1617,24 @@
           "cartography"
         ]
       }
+    ],
+    "synonyms": [
+      "isohyetal line",
+      "precipitation isoline"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "isobar",
+      "isotherm",
+      "contour line",
+      "precipitation",
+      "meteorology"
     ]
   },
   {
     "term": "isobath",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
@@ -1625,12 +1649,24 @@
           "oceanography"
         ]
       }
+    ],
+    "synonyms": [
+      "depth contour",
+      "bathymetric contour"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bathymetry",
+      "isobar",
+      "contour line",
+      "depth chart",
+      "oceanography"
     ]
   },
   {
     "term": "physiography",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
@@ -1645,12 +1681,24 @@
           "physical geography"
         ]
       }
+    ],
+    "synonyms": [
+      "physical geography",
+      "geomorphology"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "orography",
+      "topography",
+      "geology",
+      "climatology",
+      "hydrography"
     ]
   },
   {
     "term": "isotherm",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C1",
@@ -1665,12 +1713,24 @@
           "cartography"
         ]
       }
+    ],
+    "synonyms": [
+      "isothermal line",
+      "temperature isoline"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "isobar",
+      "isohyet",
+      "contour line",
+      "temperature",
+      "meteorology"
     ]
   },
   {
     "term": "hypsography",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
@@ -1685,12 +1745,24 @@
           "cartography"
         ]
       }
+    ],
+    "synonyms": [
+      "hypsometry",
+      "elevation mapping"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "orography",
+      "topography",
+      "contour line",
+      "altitude",
+      "cartography"
     ]
   },
   {
     "term": "azimuth",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C1",
@@ -1705,12 +1777,24 @@
           "astronomy"
         ]
       }
+    ],
+    "synonyms": [
+      "bearing",
+      "compass bearing"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "elevation angle",
+      "compass",
+      "navigation",
+      "celestial navigation",
+      "heading"
     ]
   },
   {
     "term": "fjord",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "general",
     "level": "C1",
@@ -1725,12 +1809,25 @@
           "geology"
         ]
       }
+    ],
+    "synonyms": [
+      "fiord",
+      "glacial inlet"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "glacier",
+      "inlet",
+      "bay",
+      "estuary",
+      "coastline",
+      "Scandinavia"
     ]
   },
   {
     "term": "isthmus",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "general",
     "level": "C1",
@@ -1744,6 +1841,23 @@
           "geography"
         ]
       }
+    ],
+    "synonyms": [
+      "land bridge",
+      "neck of land"
+    ],
+    "antonymTerms": [
+      {
+        "term": "strait",
+        "meaning": "A narrow body of water connecting two larger bodies of water, the geographic inverse of an isthmus."
+      }
+    ],
+    "relatedTerms": [
+      "peninsula",
+      "strait",
+      "canal",
+      "geography",
+      "land mass"
     ]
   },
   {
@@ -1846,7 +1960,7 @@
   {
     "term": "roman à thèse",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "formal",
     "level": "C2",
@@ -1861,12 +1975,24 @@
           "narratology"
         ]
       }
+    ],
+    "synonyms": [
+      "thesis novel",
+      "ideological novel"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "roman-fleuve",
+      "didactic literature",
+      "propaganda fiction",
+      "Bildungsroman",
+      "roman de mœurs"
     ]
   },
   {
     "term": "storyworld",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
@@ -1881,12 +2007,24 @@
           "literary theory"
         ]
       }
+    ],
+    "synonyms": [
+      "narrative world",
+      "fictional world"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "diegesis",
+      "narrative",
+      "worldbuilding",
+      "heterodiegetic",
+      "fiction"
     ]
   },
   {
     "term": "heterodiegetic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "register": "technical",
     "level": "C2",
@@ -1901,12 +2039,29 @@
           "literary theory"
         ]
       }
+    ],
+    "synonyms": [
+      "absent narrator",
+      "non-participant narrator"
+    ],
+    "antonymTerms": [
+      {
+        "term": "homodiegetic",
+        "meaning": "Describing a narrator who is present as a character within the story world they narrate."
+      }
+    ],
+    "relatedTerms": [
+      "homodiegetic",
+      "intradiegetic",
+      "extradiegetic",
+      "narratology",
+      "point of view"
     ]
   },
   {
     "term": "extradiegetic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "register": "technical",
     "level": "C2",
@@ -1921,12 +2076,29 @@
           "literary theory"
         ]
       }
+    ],
+    "synonyms": [
+      "framing narrator",
+      "above-story narrator"
+    ],
+    "antonymTerms": [
+      {
+        "term": "intradiegetic",
+        "meaning": "Existing within the story world, as opposed to outside it."
+      }
+    ],
+    "relatedTerms": [
+      "intradiegetic",
+      "heterodiegetic",
+      "narratology",
+      "metanarrative",
+      "frame narrative"
     ]
   },
   {
     "term": "intradiegetic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "register": "technical",
     "level": "C2",
@@ -1941,6 +2113,23 @@
           "literary theory"
         ]
       }
+    ],
+    "synonyms": [
+      "embedded narrator",
+      "within-story narrator"
+    ],
+    "antonymTerms": [
+      {
+        "term": "extradiegetic",
+        "meaning": "Existing at a narrative level outside and above the primary story world."
+      }
+    ],
+    "relatedTerms": [
+      "extradiegetic",
+      "heterodiegetic",
+      "narratology",
+      "embedded narrative",
+      "story-within-a-story"
     ]
   },
   {
@@ -1950,7 +2139,7 @@
     "partOfSpeech": "noun",
     "register": "literary",
     "level": "C2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A long novel or sequence of novels following the lives of a family or social group across generations.",
@@ -1960,12 +2149,24 @@
           "C2"
         ]
       }
+    ],
+    "synonyms": [
+      "saga novel",
+      "family chronicle novel"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "roman à thèse",
+      "Bildungsroman",
+      "family saga",
+      "roman de mœurs",
+      "cycle novel"
     ]
   },
   {
     "term": "equal temperament",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1981,12 +2182,29 @@
           "history"
         ]
       }
+    ],
+    "synonyms": [
+      "twelve-tone equal temperament",
+      "12-TET"
+    ],
+    "antonymTerms": [
+      {
+        "term": "just intonation",
+        "meaning": "A tuning system based on pure harmonic ratios, as opposed to the equally spaced intervals of equal temperament."
+      }
+    ],
+    "relatedTerms": [
+      "tuning",
+      "temperament",
+      "chromatic scale",
+      "harmony",
+      "keyboard instruments"
     ]
   },
   {
     "term": "coloratura",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2014,6 +2232,19 @@
           "singer"
         ]
       }
+    ],
+    "synonyms": [
+      "florid singing",
+      "vocal ornamentation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bel canto",
+      "ornamentation",
+      "aria",
+      "opera",
+      "soprano",
+      "trills"
     ]
   },
   {
@@ -2023,7 +2254,7 @@
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A vocal exercise or musical composition sung on open vowel sounds, without words.",
@@ -2033,6 +2264,18 @@
           "C2"
         ]
       }
+    ],
+    "synonyms": [
+      "vocal exercise",
+      "wordless vocal piece"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "solfège",
+      "coloratura",
+      "vocal technique",
+      "étude",
+      "a cappella"
     ]
   },
   {
@@ -2042,7 +2285,7 @@
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A compositional technique that uses all seven notes of the diatonic scale freely, without strict adherence to traditional harmonic progressions.",
@@ -2052,6 +2295,18 @@
           "C2"
         ]
       }
+    ],
+    "synonyms": [
+      "free diatonic harmony",
+      "extended diatonicism"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "diatonic scale",
+      "neoclassicism",
+      "tonality",
+      "harmonic language",
+      "Stravinsky"
     ]
   },
   {
@@ -2061,7 +2316,7 @@
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A compositional approach that derives musical structures from the acoustic properties of sound, particularly the overtone series.",
@@ -2071,6 +2326,18 @@
           "C2"
         ]
       }
+    ],
+    "synonyms": [
+      "spectral music",
+      "spectral composition"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "overtone series",
+      "timbre",
+      "acoustic spectrum",
+      "Gérard Grisey",
+      "electroacoustic music"
     ]
   },
   {
@@ -2080,7 +2347,7 @@
     "partOfSpeech": "noun",
     "register": "formal",
     "level": "C1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A revival or adaptation of classical styles, forms, and principles in art, literature, architecture, or music.",
@@ -2090,12 +2357,30 @@
           "C1"
         ]
       }
+    ],
+    "synonyms": [
+      "neo-classicism",
+      "classical revival"
+    ],
+    "antonymTerms": [
+      {
+        "term": "avant-gardism",
+        "meaning": "An approach favouring experimental innovation over the revival of traditional forms."
+      }
+    ],
+    "relatedTerms": [
+      "classicism",
+      "Stravinsky",
+      "Prokofiev",
+      "tonal music",
+      "pandiatonicism",
+      "Baroque revival"
     ]
   },
   {
     "term": "sprechstimme",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2111,6 +2396,18 @@
           "avant-garde"
         ]
       }
+    ],
+    "synonyms": [
+      "speech-song",
+      "Sprechgesang"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "expressionism",
+      "Schoenberg",
+      "twelve-tone music",
+      "vocal technique",
+      "declamation"
     ]
   },
   {
@@ -2120,7 +2417,7 @@
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The practice in medieval and Renaissance music of raising or lowering certain notes by a semitone to avoid dissonant intervals or to create smoother melodic lines, often left unnotated.",
@@ -2130,12 +2427,24 @@
           "C2"
         ]
       }
+    ],
+    "synonyms": [
+      "chromatic inflection",
+      "editorial accidentals"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "counterpoint",
+      "modal music",
+      "medieval music",
+      "Renaissance music",
+      "chromaticism"
     ]
   },
   {
     "term": "choreography",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2161,12 +2470,25 @@
           "sport"
         ]
       }
+    ],
+    "synonyms": [
+      "dance composition",
+      "movement design"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dance",
+      "ballet",
+      "performance",
+      "staging",
+      "blocking",
+      "mise en scène"
     ]
   },
   {
     "term": "mise en scène",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -2193,12 +2515,25 @@
           "visual style"
         ]
       }
+    ],
+    "synonyms": [
+      "staging",
+      "visual composition"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "blocking",
+      "cinematography",
+      "set design",
+      "lighting",
+      "choreography",
+      "film theory"
     ]
   },
   {
     "term": "blocking",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2224,12 +2559,24 @@
           "tactics"
         ]
       }
+    ],
+    "synonyms": [
+      "stage movement",
+      "movement staging"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mise en scène",
+      "choreography",
+      "stage direction",
+      "cinematography",
+      "directing"
     ]
   },
   {
     "term": "dramaturgy",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2255,12 +2602,24 @@
           "drama"
         ]
       }
+    ],
+    "synonyms": [
+      "dramatic theory",
+      "play-making craft"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dramaturge",
+      "playwright",
+      "theatrical structure",
+      "script development",
+      "narrative arc"
     ]
   },
   {
     "term": "fourth wall",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2287,12 +2646,24 @@
           "narrative"
         ]
       }
+    ],
+    "synonyms": [
+      "stage-audience boundary",
+      "theatrical barrier"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "direct address",
+      "metatheatre",
+      "audience",
+      "Bertolt Brecht",
+      "dramatic convention"
     ]
   },
   {
     "term": "anagnorisis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2308,12 +2679,24 @@
           "classical"
         ]
       }
+    ],
+    "synonyms": [
+      "recognition scene",
+      "dramatic recognition"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "peripeteia",
+      "catharsis",
+      "hamartia",
+      "Aristotle",
+      "tragedy"
     ]
   },
   {
     "term": "deus ex machina",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -2340,12 +2723,24 @@
           "classical"
         ]
       }
+    ],
+    "synonyms": [
+      "plot rescue",
+      "artificial resolution"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "anagnorisis",
+      "peripeteia",
+      "plot device",
+      "dramatic irony",
+      "Greek theater"
     ]
   },
   {
     "term": "hamartia",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2361,12 +2756,25 @@
           "classical"
         ]
       }
+    ],
+    "synonyms": [
+      "tragic flaw",
+      "fatal error"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "anagnorisis",
+      "catharsis",
+      "peripeteia",
+      "Aristotle",
+      "tragedy",
+      "hubris"
     ]
   },
   {
     "term": "stichomythia",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2382,6 +2790,18 @@
           "classical"
         ]
       }
+    ],
+    "synonyms": [
+      "line-by-line exchange",
+      "rapid dialogue exchange"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "antilabe",
+      "Greek tragedy",
+      "dramatic dialogue",
+      "dramaturgy",
+      "Sophocles"
     ]
   },
   {
@@ -2391,7 +2811,7 @@
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The subordinate clause of a conditional sentence, typically introduced by 'if', which states the condition.",
@@ -2409,12 +2829,29 @@
           "C2"
         ]
       }
+    ],
+    "synonyms": [
+      "if-clause",
+      "conditional clause"
+    ],
+    "antonymTerms": [
+      {
+        "term": "apodosis",
+        "meaning": "The main clause of a conditional sentence, stating the consequence of the condition."
+      }
+    ],
+    "relatedTerms": [
+      "apodosis",
+      "conditional sentence",
+      "syntax",
+      "rhetoric",
+      "drama structure"
     ]
   },
   {
     "term": "dramatis personae",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2429,12 +2866,24 @@
           "classical"
         ]
       }
+    ],
+    "synonyms": [
+      "cast of characters",
+      "character list"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dramaturgy",
+      "playwright",
+      "cast",
+      "role",
+      "character"
     ]
   },
   {
     "term": "soliloquy",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2460,6 +2909,18 @@
           "inner life"
         ]
       }
+    ],
+    "synonyms": [
+      "dramatic monologue",
+      "self-address"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "monologue",
+      "aside",
+      "fourth wall",
+      "dramatic speech",
+      "Shakespeare"
     ]
   },
   {
