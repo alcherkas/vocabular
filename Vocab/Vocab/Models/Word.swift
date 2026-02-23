@@ -11,7 +11,7 @@ struct WordMeaning: Codable {
 @Model
 class Word {
     var term: String
-    var meaningsData: Data
+    var meaningsData: Data = Data()
     var synonyms: [String]
     var partOfSpeech: String
     var tags: [String] = []

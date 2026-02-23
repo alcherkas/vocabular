@@ -24,9 +24,6 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D471F3A52F1D2B9F007BD017 /* Vocab */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BB0000012F1D2BA0007BD017 /* PBXFileSystemSynchronizedBuildFileExceptionSet */,
-			);
 			path = Vocab;
 			sourceTree = "<group>";
 		};
@@ -37,18 +34,22 @@
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BB0000012F1D2BA0007BD017 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Resources/words.json,
-				Resources/words_lt.json,
-				Resources/words_staging.json,
-				Resources/words_lt_staging.json,
+/* Begin PBXShellScriptBuildPhase section */
+		CC0000012F1D2BA0007BD017 /* Copy JSON Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
-			target = D471F3A22F1D2B9F007BD017 /* Vocab */;
+			inputPaths = (
+			);
+			name = "Copy JSON Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "for f in \"${SRCROOT}/Vocab/Resources/\"*.json; do\n  [ -f \"$f\" ] && cp -f \"$f\" \"${BUILT_PRODUCTS_DIR}/${CONTENTS_FOLDER_PATH}/\"\ndone\n";
 		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D471F3A02F1D2B9F007BD017 /* Frameworks */ = {
@@ -96,6 +97,7 @@
 				D471F39F2F1D2B9F007BD017 /* Sources */,
 				D471F3A02F1D2B9F007BD017 /* Frameworks */,
 				D471F3A12F1D2B9F007BD017 /* Resources */,
+				CC0000012F1D2BA0007BD017 /* Copy JSON Resources */,
 			);
 			buildRules = (
 			);
