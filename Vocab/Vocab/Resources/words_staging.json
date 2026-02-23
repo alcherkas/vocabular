@@ -41433,8 +41433,30 @@
     "term": "elaboration likelihood",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The degree to which a person is motivated and able to engage in systematic, effortful cognitive processing of a persuasive message; the foundational construct of the Elaboration Likelihood Model (ELM).",
+        "example": "High elaboration likelihood is associated with attitude change via the central route, where argument quality drives persuasion.",
+        "register": "technical",
+        "tags": [
+          "persuasion",
+          "psychology",
+          "ELM",
+          "cognition"
+        ]
+      },
+      {
+        "definition": "The probability that a recipient of a persuasive communication will elaborate on its content—scrutinising evidence and reasoning—rather than relying on superficial peripheral cues.",
+        "example": "When elaboration likelihood is low, people are more influenced by the attractiveness of the spokesperson than by the logical strength of the argument.",
+        "register": "technical",
+        "tags": [
+          "persuasion",
+          "attitude change",
+          "cognitive processing"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41444,8 +41466,30 @@
     "term": "social proof",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A psychological phenomenon in which people look to the actions and opinions of others to guide their own behavior in uncertain situations, on the assumption that those others possess better information.",
+        "example": "The restaurant filled quickly because passers-by took the long queue outside as social proof of exceptional food.",
+        "register": "technical",
+        "tags": [
+          "persuasion",
+          "psychology",
+          "influence",
+          "conformity"
+        ]
+      },
+      {
+        "definition": "Evidence of widespread adoption, endorsement, or approval—such as reviews, ratings, or testimonials—deployed to increase the persuasiveness of a product or idea.",
+        "example": "The brand's marketing team prominently displayed ten thousand five-star reviews as social proof to reduce buyer hesitation.",
+        "register": "general",
+        "tags": [
+          "marketing",
+          "influence",
+          "persuasion"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41455,8 +41499,30 @@
     "term": "scarcity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A state of insufficient supply relative to demand; the fundamental economic condition that resources are limited and cannot satisfy all wants.",
+        "example": "The scarcity of clean water in the region forced communities to develop stringent rationing systems.",
+        "register": "general",
+        "tags": [
+          "economics",
+          "resources",
+          "supply"
+        ]
+      },
+      {
+        "definition": "A principle of persuasion stating that people assign higher value to opportunities, objects, or information that are perceived as rare, dwindling, or difficult to obtain.",
+        "example": "The limited-edition label exploited scarcity to drive consumers to purchase immediately rather than deliberate.",
+        "register": "technical",
+        "tags": [
+          "persuasion",
+          "psychology",
+          "influence",
+          "Cialdini"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41466,8 +41532,40 @@
     "term": "authority",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The power or right to give orders, make decisions, or enforce compliance within a recognized institutional or social framework.",
+        "example": "The committee's authority to impose fines was established by statute, not by custom.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "governance",
+          "power"
+        ]
+      },
+      {
+        "definition": "A principle of persuasion holding that people defer to and are more readily influenced by individuals who are perceived as credible experts or legitimate figures of status.",
+        "example": "Cialdini identified authority as one of six key levers of influence, noting how a physician's title alone can dramatically increase compliance.",
+        "register": "technical",
+        "tags": [
+          "persuasion",
+          "psychology",
+          "Cialdini",
+          "influence"
+        ]
+      },
+      {
+        "definition": "A person or organisation regarded as a reliable source of knowledge or expertise in a particular domain.",
+        "example": "She is a widely cited authority on medieval manuscript traditions.",
+        "register": "neutral",
+        "tags": [
+          "expertise",
+          "credibility",
+          "knowledge"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41477,8 +41575,30 @@
     "term": "liking",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A feeling of fondness, enjoyment, or preference toward a person, object, or activity.",
+        "example": "Her liking for abstract expressionism developed slowly after years of visiting modern art galleries.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "preference",
+          "attitude"
+        ]
+      },
+      {
+        "definition": "A principle of persuasion asserting that people are more readily influenced by and more willing to comply with requests from those they like, admire, or perceive as similar to themselves.",
+        "example": "Salespeople trained in liking techniques build rapid rapport by identifying shared interests with potential customers.",
+        "register": "technical",
+        "tags": [
+          "persuasion",
+          "Cialdini",
+          "influence",
+          "psychology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41488,8 +41608,30 @@
     "term": "consistency",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The quality of behaving, performing, or holding beliefs in a uniform, coherent, and predictable manner over time.",
+        "example": "The consistency of her experimental results across different laboratories strengthened confidence in the findings.",
+        "register": "general",
+        "tags": [
+          "reliability",
+          "uniformity",
+          "behavior"
+        ]
+      },
+      {
+        "definition": "A principle of persuasion stating that people feel psychological pressure to keep their behavior aligned with prior commitments, beliefs, or public statements.",
+        "example": "After signing the petition, participants felt compelled by the need for consistency to volunteer their time to the same cause.",
+        "register": "technical",
+        "tags": [
+          "persuasion",
+          "Cialdini",
+          "commitment",
+          "cognitive dissonance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41499,8 +41641,31 @@
     "term": "shamanism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A religious practice in which a practitioner (the shaman) enters altered states of consciousness to interact with the spirit world, performing healing, divination, and mediation on behalf of a community.",
+        "example": "Among the Evenki of Siberia, shamanism provided a framework for understanding illness as the loss or capture of the soul by malevolent spirits.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "religion",
+          "ritual",
+          "indigenous"
+        ]
+      },
+      {
+        "definition": "In anthropology, a cross-cultural category of religious complex characterized by ecstatic trance states, spirit communication, and the figure of the specialist who bridges human and spirit realms.",
+        "example": "Eliade's comparative study treated shamanism as an archaic technique of ecstasy found across Siberia, Central Asia, and the Americas.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "comparative religion",
+          "Eliade",
+          "ritual"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41510,8 +41675,31 @@
     "term": "rites of passage",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ritual ceremonies or structured events that mark and facilitate significant transitions in an individual's social status, role, or life stage, such as birth, puberty, marriage, or death.",
+        "example": "The elaborate graduation ceremony functions as a modern rite of passage, publicly marking the transition from student to qualified professional.",
+        "register": "general",
+        "tags": [
+          "ritual",
+          "sociology",
+          "life stages",
+          "ceremony"
+        ]
+      },
+      {
+        "definition": "In anthropology (following Arnold van Gennep's tripartite schema), rituals composed of three phases: separation from a prior social state, a liminal transition period, and reincorporation into a new social identity.",
+        "example": "Van Gennep demonstrated that initiation rites of passage universally involve a liminal phase in which the initiand exists outside normal social categories.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "Van Gennep",
+          "liminality",
+          "ritual theory"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41521,8 +41709,31 @@
     "term": "cultural relativism",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The methodological and ethical principle that a culture's beliefs, practices, and values should be understood and evaluated within their own cultural context rather than judged by the standards of another culture.",
+        "example": "Franz Boas championed cultural relativism as the foundation of modern anthropology, insisting that fieldworkers suspend their own cultural assumptions.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "methodology",
+          "Boas",
+          "ethics"
+        ]
+      },
+      {
+        "definition": "The descriptive or normative stance that there are no universal moral standards, and that ethical judgments are valid only relative to the cultural framework in which they arise.",
+        "example": "Critics argue that taken to an extreme, cultural relativism makes it impossible to condemn practices like torture or slavery on universal grounds.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "ethics",
+          "moral relativism",
+          "anthropology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41532,8 +41743,31 @@
     "term": "federalism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A system of government in which sovereign power is constitutionally divided between a central authority and constituent political units (states, provinces, or cantons), each possessing defined autonomous powers.",
+        "example": "The United States constitution embeds federalism through the Tenth Amendment, reserving to states powers not delegated to the federal government.",
+        "register": "technical",
+        "tags": [
+          "political science",
+          "government",
+          "constitution",
+          "sovereignty"
+        ]
+      },
+      {
+        "definition": "A normative political philosophy advocating for the distribution of governing authority across multiple levels, as a safeguard against tyranny and a means of accommodating diversity.",
+        "example": "Advocates of fiscal federalism argue that decentralised spending better reflects local preferences than uniform national programs.",
+        "register": "technical",
+        "tags": [
+          "political theory",
+          "decentralisation",
+          "governance",
+          "fiscal policy"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41543,8 +41777,31 @@
     "term": "constitutional law",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The body of law that defines the structure, powers, and limits of government as prescribed by a constitution, including judicial interpretation of constitutional provisions.",
+        "example": "The landmark ruling expanded the scope of constitutional law by holding that freedom of expression encompasses digital speech.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "constitution",
+          "jurisprudence",
+          "governance"
+        ]
+      },
+      {
+        "definition": "The academic discipline and legal practice concerned with questions of governmental authority, individual rights, and the relationship between state institutions as governed by constitutional texts.",
+        "example": "Her specialisation in constitutional law brought her to argue before the supreme court on separation-of-powers questions.",
+        "register": "technical",
+        "tags": [
+          "legal scholarship",
+          "courts",
+          "rights",
+          "separation of powers"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41554,8 +41811,32 @@
     "term": "civil liberties",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Fundamental individual freedoms and rights—such as freedom of speech, assembly, religion, and due process—that are protected against infringement by the state.",
+        "example": "The new surveillance legislation was challenged by activists who argued it violated civil liberties by authorising warrantless data collection.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "rights",
+          "politics",
+          "freedom",
+          "constitution"
+        ]
+      },
+      {
+        "definition": "A category of legal protections guaranteeing citizens' personal freedom from arbitrary or oppressive governmental interference in their private lives and activities.",
+        "example": "The government's emergency powers were reviewed by the courts to ensure they did not encroach on civil liberties.",
+        "register": "formal",
+        "tags": [
+          "governance",
+          "human rights",
+          "democracy",
+          "legal protection"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41565,8 +41846,32 @@
     "term": "legal positivism",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The jurisprudential theory that the existence and content of law depends on social facts—such as legislative enactment and social acceptance—rather than on moral merit or natural law.",
+        "example": "Hart's legal positivism distinguishes the question of what the law is from the question of what the law ought to be.",
+        "register": "technical",
+        "tags": [
+          "jurisprudence",
+          "philosophy of law",
+          "Hart",
+          "Austin",
+          "Kelsen"
+        ]
+      },
+      {
+        "definition": "The analytical stance in legal theory that separates descriptive claims about enacted law from normative claims about its moral validity.",
+        "example": "Legal positivism holds that an unjust law can still be a valid law, even if citizens are morally justified in disobeying it.",
+        "register": "technical",
+        "tags": [
+          "legal theory",
+          "philosophy",
+          "moral philosophy",
+          "validity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41576,8 +41881,32 @@
     "term": "natural law",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A system of moral and legal principles held to be inherent in human nature and discoverable through reason, binding on all people regardless of their particular cultural or legislative context.",
+        "example": "Aquinas developed natural law theory by arguing that human reason participates in God's eternal law, yielding universal moral precepts.",
+        "register": "technical",
+        "tags": [
+          "jurisprudence",
+          "philosophy",
+          "ethics",
+          "Aquinas",
+          "universal morality"
+        ]
+      },
+      {
+        "definition": "In political philosophy, the doctrine that human beings possess pre-political rights derived from nature or reason, which legitimate governments must protect.",
+        "example": "Locke's natural law argument grounded the right to life, liberty, and property in reason rather than in the decrees of any sovereign.",
+        "register": "technical",
+        "tags": [
+          "political philosophy",
+          "Locke",
+          "rights",
+          "Enlightenment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41610,8 +41939,31 @@
     "term": "axiology",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The branch of philosophy that studies the nature, criteria, and types of value judgments, encompassing both ethics (moral value) and aesthetics (artistic value).",
+        "example": "Axiology asks not merely what is good or beautiful but what it means for anything to have value at all.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "value theory",
+          "ethics",
+          "aesthetics"
+        ]
+      },
+      {
+        "definition": "The set of values or evaluative framework implicit in a worldview, discipline, or cultural system, especially as a subject of scholarly analysis.",
+        "example": "The anthropologist examined the axiology of the community to understand which qualities were prized in choosing leaders.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "sociology",
+          "values",
+          "worldview"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41621,8 +41973,32 @@
     "term": "teleology",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The philosophical doctrine that phenomena are best explained with reference to their purpose, end-goal, or final cause rather than prior efficient causes.",
+        "example": "Aristotle's teleology held that understanding an acorn requires knowing what it is directed toward, namely, a fully grown oak.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "Aristotle",
+          "causation",
+          "purpose",
+          "metaphysics"
+        ]
+      },
+      {
+        "definition": "The study or attribution of purpose and design to natural processes or historical development, especially the interpretation of biological or social change as goal-directed.",
+        "example": "Critics charged that Spencer's social teleology illicitly imported the notion of progress into what should be a value-neutral description of evolution.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "biology",
+          "history",
+          "progress"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41632,8 +42008,32 @@
     "term": "empiricism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The epistemological theory that knowledge originates in and is justified by sensory experience and observation, as opposed to innate ideas or pure reason.",
+        "example": "Locke's empiricism held that the mind at birth is a blank slate, all knowledge being derived from experience.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "epistemology",
+          "Locke",
+          "Hume",
+          "knowledge"
+        ]
+      },
+      {
+        "definition": "The scientific practice of grounding claims in empirical data, experimentation, and observable evidence rather than theoretical speculation or authority.",
+        "example": "The strength of the clinical trial lies in its empiricism: every hypothesis was tested against randomised, controlled observational data.",
+        "register": "technical",
+        "tags": [
+          "science",
+          "methodology",
+          "evidence-based",
+          "epistemology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41643,8 +42043,32 @@
     "term": "rationalism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The philosophical position that reason and a priori knowledge are the primary sources of justified belief, independent of sensory experience.",
+        "example": "Descartes' rationalism led him to seek indubitable truths through systematic doubt rather than empirical observation.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "epistemology",
+          "Descartes",
+          "Kant",
+          "a priori"
+        ]
+      },
+      {
+        "definition": "A general intellectual attitude that prizes reason, evidence, and logic over religious faith, tradition, or emotional appeal as the basis for decision-making.",
+        "example": "The Enlightenment promoted rationalism as an antidote to superstition, encouraging citizens to question received dogma.",
+        "register": "formal",
+        "tags": [
+          "Enlightenment",
+          "secularism",
+          "reason",
+          "intellectual history"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41654,8 +42078,31 @@
     "term": "ontology",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The branch of metaphysics concerned with the fundamental nature of being, existence, and reality—what kinds of things exist and what it means to exist.",
+        "example": "Heidegger's ontology shifted the question from what exists to what it means for something to be at all.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "metaphysics",
+          "being",
+          "Heidegger"
+        ]
+      },
+      {
+        "definition": "In computer science and information science, a formal specification of concepts, categories, and the relations among them within a given domain, used to represent knowledge in machine-readable form.",
+        "example": "The biomedical ontology enabled different databases to share and compare gene annotation data using a common vocabulary.",
+        "register": "technical",
+        "tags": [
+          "computer science",
+          "knowledge representation",
+          "AI",
+          "semantic web"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41665,8 +42112,31 @@
     "term": "pragmatism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An American philosophical tradition holding that the meaning and truth of ideas, beliefs, or theories are determined by their practical consequences and usefulness in guiding action.",
+        "example": "William James's pragmatism suggested that a belief in God is warranted if it produces positive consequences for the believer's life.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "William James",
+          "Peirce",
+          "Dewey",
+          "truth"
+        ]
+      },
+      {
+        "definition": "A practical, results-oriented approach to problem-solving that prioritises what is workable and effective over ideological consistency or theoretical purity.",
+        "example": "The negotiators' pragmatism allowed them to reach an imperfect but durable compromise rather than holding out for the ideal solution.",
+        "register": "general",
+        "tags": [
+          "problem-solving",
+          "realism",
+          "practicality"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41676,8 +42146,32 @@
     "term": "idealism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The philosophical view that reality is fundamentally mental, spiritual, or experiential in nature; that the physical world exists only as perceived or constituted by minds.",
+        "example": "Berkeley's idealism denied the independent existence of matter, arguing that to be is to be perceived.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "metaphysics",
+          "Berkeley",
+          "Kant",
+          "Hegel"
+        ]
+      },
+      {
+        "definition": "The tendency to pursue or represent things according to high ideals or principles, often regarded as impractical in the face of real-world constraints.",
+        "example": "Her critics accused her of idealism, arguing that the proposed reforms ignored the political compromises necessary for implementation.",
+        "register": "general",
+        "tags": [
+          "ethics",
+          "politics",
+          "utopianism",
+          "principles"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41687,8 +42181,31 @@
     "term": "nominalism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The philosophical position that universals or abstract properties have no independent existence but are merely names or labels applied to groups of similar particulars.",
+        "example": "The nominalist argues that 'redness' is not a real entity but simply a word we use for the class of red things.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "metaphysics",
+          "universals",
+          "medieval philosophy"
+        ]
+      },
+      {
+        "definition": "In legal or theological contexts, the view that categories and classifications are human conventions rather than reflections of natural kinds or divine order.",
+        "example": "Nominalism in contract law holds that legal categories are pragmatic tools rather than descriptions of natural or moral facts.",
+        "register": "technical",
+        "tags": [
+          "jurisprudence",
+          "theology",
+          "Ockham",
+          "classification"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41698,8 +42215,32 @@
     "term": "essentialism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The metaphysical view that objects or categories possess inherent, essential properties that define what they are and that remain invariant across contexts.",
+        "example": "Aristotle's essentialism held that each natural kind has a defining essence that distinguishes it from all other kinds.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "metaphysics",
+          "Aristotle",
+          "natural kinds"
+        ]
+      },
+      {
+        "definition": "In social and political theory, the assumption that social categories such as gender, race, or ethnicity have fixed, biologically or naturally determined properties shared by all members of the group.",
+        "example": "Feminist scholars have criticised essentialism for treating 'woman' as a natural category with universal characteristics, thereby obscuring diversity.",
+        "register": "technical",
+        "tags": [
+          "social theory",
+          "gender",
+          "race",
+          "politics",
+          "critique"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41850,8 +42391,31 @@
     "term": "autarky",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An economic policy or condition of national self-sufficiency in which a country seeks to meet all its needs from domestic production, minimising reliance on international trade.",
+        "example": "During wartime, the government pursued autarky by subsidising domestic food production and restricting imports.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "trade policy",
+          "self-sufficiency",
+          "protectionism"
+        ]
+      },
+      {
+        "definition": "The theoretical state of a political or economic unit that is entirely independent of external economic relationships.",
+        "example": "Economists generally argue that autarky is inefficient because it forfeits the gains from comparative advantage.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "international trade",
+          "theory",
+          "comparative advantage"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41861,8 +42425,31 @@
     "term": "protectionism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An economic policy of restricting imports from other countries through tariffs, quotas, or other trade barriers in order to protect domestic industries from foreign competition.",
+        "example": "The steel industry lobbied successfully for protectionism, securing a thirty percent tariff on imported steel.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "trade policy",
+          "tariffs",
+          "international trade"
+        ]
+      },
+      {
+        "definition": "An ideological position favouring state intervention in trade to preserve domestic employment, strategic industries, or national economic independence.",
+        "example": "A wave of protectionism swept through the region as unemployment rose and politicians sought to blame foreign competition.",
+        "register": "general",
+        "tags": [
+          "politics",
+          "nationalism",
+          "trade",
+          "economics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41872,8 +42459,31 @@
     "term": "quantitative easing",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A monetary policy instrument in which a central bank purchases large quantities of financial assets—typically government bonds—to inject liquidity into the economy and lower long-term interest rates.",
+        "example": "The central bank launched quantitative easing after conventional interest-rate cuts had brought rates to near zero without stimulating growth.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "monetary policy",
+          "central banking",
+          "liquidity"
+        ]
+      },
+      {
+        "definition": "An unconventional monetary tool intended to stimulate economic activity when short-term nominal interest rates are already at or near zero, by expanding the money supply through asset purchases.",
+        "example": "Critics warned that prolonged quantitative easing risked asset price inflation and created long-term dependency on central bank support.",
+        "register": "technical",
+        "tags": [
+          "macroeconomics",
+          "finance",
+          "Federal Reserve",
+          "European Central Bank"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41883,8 +42493,31 @@
     "term": "fiat currency",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A currency declared legal tender by government decree whose value is not backed by a physical commodity such as gold but rests on public trust in the issuing authority and its legal enforceability.",
+        "example": "Since the abandonment of the gold standard in 1971, the US dollar has been a fiat currency, its value sustained by government authority and economic confidence.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "monetary theory",
+          "currency",
+          "central banking"
+        ]
+      },
+      {
+        "definition": "Money whose face value is established by governmental order rather than by any intrinsic or commodity worth.",
+        "example": "Proponents of cryptocurrency argue that the inflationary risks of fiat currency make decentralised digital assets a superior store of value.",
+        "register": "general",
+        "tags": [
+          "finance",
+          "cryptocurrency",
+          "monetary policy",
+          "economics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -41894,8 +42527,31 @@
     "term": "deficit spending",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Government expenditure that exceeds tax revenues in a given budget period, financed by borrowing or money creation, resulting in a fiscal deficit.",
+        "example": "The recession prompted the government to authorise deficit spending, issuing bonds to fund infrastructure projects that would otherwise be unfeasible.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "fiscal policy",
+          "public finance",
+          "government debt"
+        ]
+      },
+      {
+        "definition": "A Keynesian fiscal policy strategy that uses government budget deficits to inject demand into an economy during a downturn, offsetting the shortfall in private spending.",
+        "example": "Keynes advocated deficit spending as a counter-cyclical tool: governments should borrow and spend in recessions and repay debts in booms.",
+        "register": "technical",
+        "tags": [
+          "Keynesian economics",
+          "macroeconomics",
+          "fiscal stimulus",
+          "countercyclical policy"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42026,8 +42682,32 @@
     "term": "social stratification",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The hierarchical arrangement of individuals or groups within a society into ranked layers according to criteria such as wealth, occupation, status, or power, with systematic differences in access to resources and life chances.",
+        "example": "Studies of social stratification consistently show that parental socioeconomic status is the strongest predictor of a child's future income.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "inequality",
+          "class",
+          "social structure"
+        ]
+      },
+      {
+        "definition": "In sociology, the structural system by which societies rank people in positions of advantage or disadvantage, maintained through institutions, norms, and differential distribution of rewards.",
+        "example": "Weber analysed social stratification as multidimensional, including class (economic), status (prestige), and party (power).",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Weber",
+          "Marx",
+          "inequality",
+          "social class"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42037,8 +42717,32 @@
     "term": "collective memory",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The shared pool of information, experiences, narratives, and commemorative practices held by a social group or community, transmitted across generations through cultural, institutional, and material means.",
+        "example": "The annual commemoration ceremony became a vehicle for sustaining the collective memory of the wartime generation.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "memory studies",
+          "culture",
+          "identity",
+          "Halbwachs"
+        ]
+      },
+      {
+        "definition": "In sociology (following Maurice Halbwachs), the way groups reconstruct and maintain a sense of shared past that reinforces collective identity and social cohesion.",
+        "example": "Halbwachs showed that even personal recollections are shaped by collective memory, because remembering occurs within social frameworks.",
+        "register": "technical",
+        "tags": [
+          "memory",
+          "Halbwachs",
+          "social identity",
+          "commemoration"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42048,8 +42752,32 @@
     "term": "social cohesion",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The degree to which members of a society are bound together by shared values, mutual trust, a sense of common belonging, and willingness to cooperate.",
+        "example": "Rising inequality was identified as a key threat to social cohesion, as economic divergence eroded the sense of common fate.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "community",
+          "trust",
+          "solidarity",
+          "Durkheim"
+        ]
+      },
+      {
+        "definition": "In policy and social science contexts, a measure of social integration and collective solidarity that enables communities to function effectively and withstand external shocks.",
+        "example": "The postwar welfare state was partly designed to enhance social cohesion by ensuring a minimum standard of living for all citizens.",
+        "register": "technical",
+        "tags": [
+          "policy",
+          "welfare state",
+          "community resilience",
+          "social capital"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42136,8 +42864,33 @@
     "term": "theocracy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A form of government in which religious authorities rule in the name of a deity, and governance, legislation, and public life are based on religious doctrine.",
+        "example": "Post-revolutionary Iran established a theocracy in which a supreme religious leader holds final authority over political decisions.",
+        "register": "technical",
+        "tags": [
+          "political science",
+          "religion",
+          "governance",
+          "Islam",
+          "government"
+        ]
+      },
+      {
+        "definition": "A state or polity governed according to divine guidance as interpreted by a recognised clergy or religious elite who hold formal political power.",
+        "example": "Calvin's Geneva is often cited as a Protestant theocracy, where ecclesiastical discipline shaped municipal law and public conduct.",
+        "register": "formal",
+        "tags": [
+          "history",
+          "religion",
+          "Calvin",
+          "Reformation",
+          "political history"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42257,8 +43010,31 @@
     "term": "rationalization",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The cognitive process of constructing plausible, post-hoc logical justifications for decisions, beliefs, or actions that were actually motivated by other, often unconscious factors.",
+        "example": "His rationalization for the impulsive purchase was elaborate, involving future savings and health benefits that seemed hollow upon reflection.",
+        "register": "technical",
+        "tags": [
+          "psychology",
+          "cognition",
+          "bias",
+          "motivated reasoning"
+        ]
+      },
+      {
+        "definition": "In psychoanalytic theory, a defense mechanism whereby the ego generates acceptable reasons for behavior driven by unconscious desires or anxiety-provoking impulses.",
+        "example": "The analyst interpreted the patient's elaborate explanation as rationalization masking deeper feelings of inadequacy.",
+        "register": "technical",
+        "tags": [
+          "psychoanalysis",
+          "defense mechanism",
+          "Freud",
+          "unconscious"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42268,8 +43044,31 @@
     "term": "sublimation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In psychoanalytic and psychological theory, a mature defense mechanism by which socially unacceptable or disruptive impulses are channelled into constructive, socially valued activities.",
+        "example": "Freud argued that artistic creation often represents sublimation of aggressive or sexual drives into culturally productive work.",
+        "register": "technical",
+        "tags": [
+          "psychoanalysis",
+          "defense mechanism",
+          "Freud",
+          "psychology"
+        ]
+      },
+      {
+        "definition": "In chemistry and physics, the direct phase transition of a substance from solid to gas without passing through the liquid state.",
+        "example": "Dry ice undergoes sublimation at room temperature, turning directly from solid carbon dioxide into vapour.",
+        "register": "technical",
+        "tags": [
+          "chemistry",
+          "physics",
+          "phase transition",
+          "thermodynamics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42279,8 +43078,40 @@
     "term": "projection",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In psychoanalytic theory, a defense mechanism in which a person attributes their own unacceptable thoughts, feelings, or impulses to another person.",
+        "example": "His constant accusation that colleagues were dishonest was interpreted by the therapist as projection of his own unacknowledged guilt.",
+        "register": "technical",
+        "tags": [
+          "psychoanalysis",
+          "defense mechanism",
+          "psychology",
+          "unconscious"
+        ]
+      },
+      {
+        "definition": "A forecast or extrapolation of future values, trends, or conditions based on current data and assumed trajectories.",
+        "example": "The economic projection suggested that unemployment would fall to three percent within two years if growth continued.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "statistics",
+          "forecasting"
+        ]
+      },
+      {
+        "definition": "In mathematics and geometry, the transformation that maps points from a higher-dimensional space onto a lower-dimensional surface or plane.",
+        "example": "The shadow cast on the wall is a projection of a three-dimensional object onto a two-dimensional surface.",
+        "register": "technical",
+        "tags": [
+          "mathematics",
+          "geometry",
+          "cartography"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
