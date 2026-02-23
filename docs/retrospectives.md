@@ -3892,3 +3892,36 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - `"form-meaning unit"` for `morpheme` is descriptive but not a standard technical term; `"minimal meaningful unit"` is more established.
 - LT 328 enriched entries remain after this session; 35 processed.
 - No merge performed as instructed.
+
+---
+
+## Session: vocab/enricher-lt-54 — LT Enricher (family & relationships batch)
+**Date**: 2025-07-15
+**Agent**: Enricher (LT), worktree `vocabular-wt-enricher-lt-54`
+**Branch**: `vocab/enricher-lt-54`
+
+### What was done
+- Preflighted `words_lt_staging.json` (2065 entries, JSON OK, 390 stubs available).
+- Surveyed all 390 existing stubs — none covered family/relationship vocabulary (stubs were mostly food, clothing, numbers, household items).
+- Added 35 new enriched entries focused on B1/B2 family and relationships vocabulary:
+  - **Marriage**: santuoka, vedybos, jaunikis, sutuoktinis, sutuoktinė, skyrybos, išsiskyrimas, susituokti, ištekėti, našlys, našlė, išsiskirti
+  - **Extended family/loved ones**: giminaitis, giminaitė, artimasis, artimoji, dukra
+  - **Friendship & social**: draugystė, bičiulis, bičiulė, pažįstamas, pažįstama, kaimynas, kaimynė
+  - **Relationships**: santykiai, partneris, partnerė, meilužis, meilužė
+  - **Conflicts & resolution**: konfliktas, ginčas, nesutarimas, susitaikymas, išdavystė, susipykti
+- All terms are lowercase common nouns/verbs as required.
+- Validated: `python3 scripts/validate_words.py --errors-for enriched` → **PASSED** (2100 entries, 0 errors in enriched batch; 98 pre-existing warnings in approved entries).
+- Committed: `e9c1002` — `vocab(enricher-lt-54): enrich 35 Lithuanian stubs`.
+
+### Semantic quality decisions
+- **santuoka vs vedybos vs vestuvės**: Three distinct concepts: `vestuvės` (wedding ceremony, already enriched), `santuoka` (the legal marriage bond), `vedybos` (the institution/act of getting married, slightly more formal/archaic). Each given distinct definitions and examples.
+- **sutuoktinis/sutuoktinė**: Formal legal terms for spouse, distinguished from colloquial `vyras`/`žmona`. Marked `register: formal` accordingly.
+- **artimasis/artimoji**: Formal/literary terms for "loved one / close person", also used in religious context (neighbour = fellow human). Marked `register: formal`.
+- **meilužis/meilužė**: Defined neutrally as lover in an extramarital context; examples set in literary/narrative context to avoid colloquial charge.
+- **pažįstamas**: Dual entry as noun (acquaintance) and adjective-use (familiar); both senses documented under one entry as they share the same headword and are not genuinely distinct enough to split.
+- All example sentences are original, idiomatic Lithuanian; no dictionary boilerplate.
+
+### Doubts / meta-notes
+- Confidence: 93%. All entries are standard B1/B2 vocabulary well-attested in Lithuanian dictionaries.
+- No existing stubs were touched or re-ordered — all 35 entries were appended as new.
+- No merge performed as instructed.
