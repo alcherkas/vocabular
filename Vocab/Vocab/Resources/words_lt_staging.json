@@ -45661,7 +45661,7 @@
     "term": "proga",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A particular time when something happens; a special event or suitable moment.",
@@ -45675,14 +45675,13 @@
       }
     ],
     "synonyms": [
-      "galimybė",
-      "atvejis"
+      "galimybė"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "šventė",
-      "sveikinti",
-      "palinkėjimas"
+      "renginys",
+      "momentas"
     ],
     "translation": "occasion, opportunity"
   },
@@ -45805,7 +45804,7 @@
     "term": "laidotuvės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A ceremony held after someone's death, often religious or civic, during which the body of the deceased is buried or cremated.",
@@ -45819,14 +45818,13 @@
       }
     ],
     "synonyms": [
-      "laidojimas",
-      "laidotuvių apeigos"
+      "laidojimas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "kapinės",
-      "kapas",
-      "gedulas"
+      "gedulas",
+      "karstas"
     ],
     "translation": "funeral"
   },
@@ -45834,7 +45832,7 @@
     "term": "vėliava",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A piece of cloth used as the official symbol of a country or organization.",
@@ -45847,15 +45845,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "trispalvė",
-      "ženklas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "himnas",
       "herbas",
-      "valstybė"
+      "simbolis"
     ],
     "translation": "flag"
   },
@@ -45863,7 +45858,7 @@
     "term": "himnas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An official song that represents and is sung on behalf of a nation or group.",
@@ -45876,14 +45871,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "giesmė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "vėliava",
       "herbas",
-      "valstybė"
+      "tautosaka"
     ],
     "translation": "anthem"
   },
@@ -45983,7 +45976,7 @@
   },
   {
     "term": "atšilimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46000,22 +45993,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atlydis"
+    ],
     "antonymTerms": [
-      "atvėsimas",
-      "šaltis"
+      "atvėsimas"
     ],
     "relatedTerms": [
       "klimatas",
-      "temperatūra",
-      "atvėsimas",
-      "šiluma"
+      "oras",
+      "temperatūra"
     ],
     "translation": "warming, warm spell, thaw"
   },
   {
     "term": "atvėsimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46031,16 +46024,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atšalimas"
+    ],
     "antonymTerms": [
-      "atšilimas",
-      "šiluma"
+      "atšilimas"
     ],
     "relatedTerms": [
-      "temperatūra",
-      "atšilimas",
-      "vėjas",
-      "oras"
+      "klimatas",
+      "oras",
+      "temperatūra"
     ],
     "translation": "cooling, cool spell"
   },
@@ -46162,7 +46155,7 @@
   },
   {
     "term": "šerkšnas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46179,15 +46172,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "šalna"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "speigas",
       "ledas",
-      "rasa",
-      "žiema"
+      "žiema",
+      "šaltis"
     ],
     "translation": "hoarfrost, frost, rime"
   },
@@ -46223,7 +46213,7 @@
   },
   {
     "term": "tvarkaraštis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46244,14 +46234,14 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "pamoka",
-      "pertrauka",
-      "savaitė"
+      "planavimas",
+      "laikas",
+      "tvarka"
     ]
   },
   {
     "term": "persėdimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46270,9 +46260,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "maršrutas",
-      "stotis",
-      "bilietas"
+      "traukinys",
+      "autobusas",
+      "maršrutas"
     ],
     "translation": "transfer, connection, change"
   },
@@ -46362,7 +46352,7 @@
   },
   {
     "term": "dviratininkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46379,6 +46369,13 @@
           "B2"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dviratininkė",
+      "dviratis",
+      "sportas"
     ]
   },
   {
@@ -46404,7 +46401,7 @@
   },
   {
     "term": "užmiestis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46420,11 +46417,20 @@
           "rural"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "miestas"
+    ],
+    "relatedTerms": [
+      "gamta",
+      "kaimas",
+      "priemiestis"
     ]
   },
   {
     "term": "priemiestis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46440,16 +46446,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "užmiestis"
-    ],
-    "antonymTerms": [
-      "centras"
-    ],
+    "synonyms": [],
+    "antonymTerms": [],
     "relatedTerms": [
       "miestas",
-      "rajonas",
-      "centras"
+      "užmiestis",
+      "rajonas"
     ],
     "translation": "suburb, outskirts"
   },
@@ -46597,7 +46599,7 @@
   },
   {
     "term": "krepšelis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46613,19 +46615,17 @@
         ]
       }
     ],
-    "synonyms": [
-      "pirkinių krepšelis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "vežimėlis",
+      "pirkiniai",
       "parduotuvė",
-      "pirkiniai"
+      "vežimėlis"
     ]
   },
   {
     "term": "vežimėlis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46641,19 +46641,17 @@
         ]
       }
     ],
-    "synonyms": [
-      "pirkinių vežimėlis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "krepšelis",
+      "pirkiniai",
       "parduotuvė",
-      "kasos aparatas"
+      "krepšelis"
     ]
   },
   {
     "term": "išpardavimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46670,9 +46668,7 @@
         ]
       }
     ],
-    "synonyms": [
-      "nuolaidų akcija"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "nuolaida",
@@ -46711,7 +46707,7 @@
   },
   {
     "term": "etiketė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46727,19 +46723,17 @@
         ]
       }
     ],
-    "synonyms": [
-      "kainų kortelė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "kaina",
       "prekė",
-      "parduotuvė"
+      "informacija"
     ]
   },
   {
     "term": "kvitas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46757,13 +46751,13 @@
       }
     ],
     "synonyms": [
-      "pirkimo čekis"
+      "čekis"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "sąskaita",
       "mokėjimas",
-      "kasos aparatas"
+      "pirkiniai",
+      "kaina"
     ]
   },
   {
@@ -46884,7 +46878,7 @@
   },
   {
     "term": "klasė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46912,9 +46906,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "klasiokas",
-      "pamoka",
-      "mokykla"
+      "mokykla",
+      "mokiniai",
+      "mokytojas"
     ]
   },
   {
@@ -46997,7 +46991,7 @@
   },
   {
     "term": "pratybos",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47016,14 +47010,14 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "vadovėlis",
-      "namų darbai",
+      "mokykla",
+      "pamoka",
       "užduotis"
     ]
   },
   {
     "term": "užduotis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47044,9 +47038,9 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "namų darbai",
-      "pratybos",
-      "pažymys"
+      "pamoka",
+      "kontrolinis",
+      "pratybos"
     ]
   },
   {
@@ -47155,7 +47149,7 @@
   },
   {
     "term": "temperatūra",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47175,9 +47169,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "šaltis",
-      "karštis",
-      "oras"
+      "oras",
+      "termometras",
+      "karštis"
     ]
   },
   {
@@ -47285,7 +47279,7 @@
   },
   {
     "term": "tabletė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47300,6 +47294,15 @@
           "medicine"
         ]
       }
+    ],
+    "synonyms": [
+      "piliulė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vaistai",
+      "gydymas",
+      "liga"
     ]
   },
   {
@@ -47364,7 +47367,7 @@
   },
   {
     "term": "peršalimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47380,6 +47383,13 @@
           "respiratory"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "liga",
+      "kosulys",
+      "karštis"
     ]
   },
   {
@@ -47796,7 +47806,7 @@
   },
   {
     "term": "kempinė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47813,14 +47823,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "plovimo kempinė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "indaplovė",
-      "ploviklis",
-      "švara"
+      "valymas",
+      "indai",
+      "vanduo"
     ]
   },
   {
@@ -47884,7 +47892,7 @@
   },
   {
     "term": "lygintuvas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47901,19 +47909,17 @@
         ]
       }
     ],
-    "synonyms": [
-      "elektrinė lygintuvė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "lyginimo lenta",
       "drabužiai",
-      "skalbiniai"
+      "skalbimas",
+      "džiovyklė"
     ]
   },
   {
     "term": "siurblys",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47931,15 +47937,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "dulkių siurblys"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
+      "valymas",
       "grindys",
-      "kilimas",
-      "švara",
-      "valymas"
+      "dulkės"
     ]
   },
   {
@@ -48212,7 +48215,7 @@
   },
   {
     "term": "mankšta",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48230,14 +48233,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "pratybos"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "sportas",
-      "treniruotė",
-      "sveikata"
+      "sveikata",
+      "treniruotė"
     ]
   },
   {
@@ -48273,7 +48274,7 @@
   },
   {
     "term": "treniruotė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48290,14 +48291,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "pratybos"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "sportas",
       "treneris",
-      "sporto salė"
+      "mankšta"
     ]
   },
   {
@@ -48744,7 +48743,7 @@
   },
   {
     "term": "šešėlis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48761,14 +48760,11 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [
-      "šviesa",
-      "saulė"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
-      "medis",
+      "šviesa",
       "saulė",
-      "šviesa"
+      "tamsa"
     ],
     "translation": "shadow, shade"
   },
@@ -48800,7 +48796,7 @@
   },
   {
     "term": "pakrantė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48823,14 +48819,13 @@
     "relatedTerms": [
       "upė",
       "ežeras",
-      "pajūris",
-      "žolė"
+      "vanduo"
     ],
     "translation": "shoreline, waterside, bank"
   },
   {
     "term": "slėnis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48847,14 +48842,11 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [
-      "kalva",
-      "kalnas"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
+      "kalnas",
       "upė",
-      "lyguma",
-      "pieva"
+      "lyguma"
     ],
     "translation": "valley"
   },
@@ -49369,7 +49361,7 @@
   },
   {
     "term": "smuikas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -49388,10 +49380,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "groti",
       "muzika",
-      "gitara",
-      "orkestras"
+      "orkestras",
+      "gitara"
     ],
     "translation": "violin"
   },
@@ -49729,7 +49720,7 @@
   },
   {
     "term": "siurprizas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -49745,10 +49736,12 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "netikėtumas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "gimtadienis",
+      "džiaugsmas",
       "dovana",
       "šventė"
     ],
@@ -49839,7 +49832,7 @@
   },
   {
     "term": "stovykla",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -49859,9 +49852,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
+      "gamta",
       "palapinė",
-      "laužas",
-      "miškas"
+      "laužas"
     ],
     "translation": "camp, campsite"
   },
@@ -50796,7 +50789,7 @@
   },
   {
     "term": "blankus",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -50825,9 +50818,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": []
+    "synonyms": [
+      "blausus"
+    ],
+    "antonymTerms": [
+      "ryškus"
+    ],
+    "relatedTerms": [
+      "spalva",
+      "šviesa",
+      "oras"
+    ]
   },
   {
     "term": "tamsokas",
