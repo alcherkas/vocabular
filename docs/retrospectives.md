@@ -4575,6 +4575,7 @@ None blocking.
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## QA Agent — vocab/qa-54 — $(date +%Y-%m-%d)
 
 **Scope:** Reviewed and approved vocabulary entries with status `relations-added` in both staging files.
@@ -4621,3 +4622,26 @@ Each entry received: `partOfSpeech`, `register`, `level` (C1 or C2), and `meanin
 - Enriching terms from the same semantic domain in a single batch improves definition consistency and cross-referencing accuracy.
 
 >>>>>>> vocab/enricher-en-48
+=======
+## Retrospective — enricher-lt-66 (2025-07-15)
+
+**Agent:** LT Vocabulary Enricher
+**Branch:** vocab/enricher-lt-66
+**Task:** Enrich 35 Lithuanian stub entries in words_lt_staging.json
+
+### What was done
+Enriched 35 stub entries across five thematic groups: numbers (30–100), bedroom/household objects, furniture, tools & garden equipment, and life verbs. Each entry received: lowercase term, valid partOfSpeech, register, level (A1–B1), translation, and 1–2 meanings with Lithuanian example sentences.
+
+### What went well
+- Thematic grouping (numbers + home + tools + verbs) produced internally coherent batches with natural example sentences.
+- Validation passed on first run with 0 errors.
+- The `numeral` partOfSpeech type was available in the validator and correctly used for cardinal numbers 30–90.
+
+### What could be improved
+- Some stubs (e.g. verb conjugation forms like `dėvi`, `vilki`) are separate stub entries alongside their infinitives — future enrichers may want to consolidate or cross-reference these rather than enriching duplicated paradigm forms.
+- The term `lygis` appeared in a tools context but primarily means "level/grade"; added two meanings to cover both uses.
+
+### Lessons for future agents
+- Check VALID_PARTS_OF_SPEECH in the validator before assigning POS — `numeral` is valid but easy to overlook.
+- Plural-only nouns like `replės` and `užuolaidos` should note the plural form in the definition to avoid confusion.
+>>>>>>> vocab/enricher-lt-66
