@@ -4706,7 +4706,7 @@
   },
   {
     "term": "fejerverkas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4737,7 +4737,7 @@
   },
   {
     "term": "karnavalas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4768,7 +4768,7 @@
   },
   {
     "term": "paradas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "translation": "parade",
@@ -4798,7 +4798,7 @@
   },
   {
     "term": "suvenyras",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4829,7 +4829,7 @@
   },
   {
     "term": "piknikas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4889,7 +4889,7 @@
   },
   {
     "term": "drabužinė",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4921,7 +4921,7 @@
   },
   {
     "term": "lempa",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4952,7 +4952,7 @@
   },
   {
     "term": "užuolaida",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4990,7 +4990,7 @@
   },
   {
     "term": "lovatiesė",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5021,7 +5021,7 @@
   },
   {
     "term": "naktstaliukas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5137,7 +5137,7 @@
   },
   {
     "term": "posūkis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5165,11 +5165,12 @@
       "aplinkkelis",
       "sankryža"
     ],
-    "translation": "turn, bend, turning"
+    "translation": "turn, bend, turning",
+    "qa_notes": "'sukimas' and 'pasukimas' are action/process nouns (the act of turning), whereas the defined meaning is a physical turning point or bend in a road. Synonyms must be co-extensive with the noun sense of a road junction/bend."
   },
   {
     "term": "aplinkkelis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5200,7 +5201,7 @@
   },
   {
     "term": "šaligatvis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5227,11 +5228,12 @@
       "kelkraštis",
       "miestas"
     ],
-    "translation": "pavement, sidewalk"
+    "translation": "pavement, sidewalk",
+    "qa_notes": "'takas' is a hypernym (any path, not specifically a paved path alongside a road). 'pėsčiųjų takas' is closer but does not specifically denote placement alongside a road. Neither is co-extensive."
   },
   {
     "term": "kelkraštis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5263,7 +5265,7 @@
   },
   {
     "term": "kalbėtis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -5296,7 +5298,7 @@
   },
   {
     "term": "atsakyti",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -5327,7 +5329,7 @@
   },
   {
     "term": "paaiškinti",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -5356,11 +5358,12 @@
       "suprasti",
       "pamoka",
       "mokyti"
-    ]
+    ],
+    "qa_notes": "'apibūdinti' means to describe or characterize, which is a distinct action from explaining. Only 1 true synonym provided ('išaiškinti'). Replace 'apibūdinti' with a co-extensive synonym."
   },
   {
     "term": "smalsus",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "adjective",
     "meanings": [
@@ -5389,13 +5392,14 @@
       "mokymasis"
     ],
     "translation": "curious, inquisitive",
-    "qaNote": "Semantic inaccuracy: 'imlus' means receptive/absorbent (capable of absorbing knowledge), not curious; replace with 'žingeidus' (inquisitive)."
+    "qaNote": "Semantic inaccuracy: 'imlus' means receptive/absorbent (capable of absorbing knowledge), not curious; replace with 'žingeidus' (inquisitive).",
+    "qa_notes": "'imlus' means receptive/absorbent (capable of absorbing knowledge), not curious or inquisitive — this issue was already noted in qaNote. Only 1 true synonym ('žingeidus'). Replace 'imlus' with a co-extensive synonym."
   },
   {
     "term": "laikraštis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A printed or digital periodical publication containing news, articles, and information, typically issued daily or weekly.",
@@ -5426,7 +5430,7 @@
     "term": "žurnalas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A periodical publication focused on a specific topic or general interest, usually issued weekly or monthly.",
@@ -5461,13 +5465,14 @@
       "leidyba"
     ],
     "translation": "magazine; journal; log book",
-    "qaNote": "Two distinct senses: (1) periodical magazine, (2) official register/log. Context disambiguates."
+    "qaNote": "Two distinct senses: (1) periodical magazine, (2) official register/log. Context disambiguates.",
+    "qa_notes": "'periodinis leidinys' is a hypernym (encompasses all periodic publications including newspapers); 'savaitraštis' is a hyponym (specifically a weekly publication). Both fail the co-extensive criterion."
   },
   {
     "term": "reportažas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A journalistic account or coverage of events reported directly from the scene, combining text, images, or video.",
@@ -5492,13 +5497,14 @@
       "naujienų kanalas"
     ],
     "translation": "news report; reportage",
-    "qaNote": "Borrowed from French via Polish reportaż. Refers specifically to on-the-ground journalistic coverage."
+    "qaNote": "Borrowed from French via Polish reportaż. Refers specifically to on-the-ground journalistic coverage.",
+    "qa_notes": "'pranešimas' is a broader announcement/report and does not specifically mean on-the-ground journalistic coverage; 'naujieninis apžvalga' describes an overview, a different format. Neither is co-extensive with journalistic reportage."
   },
   {
     "term": "interviu",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A formal conversation in which a journalist questions a person for publication or broadcast.",
@@ -5532,13 +5538,14 @@
       "klausimas"
     ],
     "translation": "interview",
-    "qaNote": "Indeclinable borrowed noun. Both journalistic and job-interview senses are common."
+    "qaNote": "Indeclinable borrowed noun. Both journalistic and job-interview senses are common.",
+    "qa_notes": "'pokalbis' is a hypernym (any conversation, not specifically a structured interview); 'apklausa' primarily means survey or formal interrogation. Neither is co-extensive with 'interviu'."
   },
   {
     "term": "straipsnis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A written piece on a specific topic published in a newspaper, magazine, or online platform.",
@@ -5573,13 +5580,14 @@
       "redaktorius"
     ],
     "translation": "article; clause",
-    "qaNote": "Two senses: (1) journalistic article, (2) legal clause/article. The legal sense is common in B2+ formal contexts."
+    "qaNote": "Two senses: (1) journalistic article, (2) legal clause/article. The legal sense is common in B2+ formal contexts.",
+    "qa_notes": "'tekstas' (any text) and 'publikacija' (any publication) are both hypernyms. Neither is co-extensive with 'straipsnis' (an article on a specific topic, or a legal clause)."
   },
   {
     "term": "antraštė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The title or heading of a newspaper article, news story, or web page, designed to summarise and attract readers.",
@@ -5619,7 +5627,7 @@
     "term": "žurnalistika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The profession and practice of investigating, writing, editing, and publishing news and information for public consumption.",
@@ -5644,13 +5652,14 @@
       "reportažas"
     ],
     "translation": "journalism",
-    "qaNote": "Abstract noun denoting the field/profession. žurnalistas/žurnalistė are the agent nouns."
+    "qaNote": "Abstract noun denoting the field/profession. žurnalistas/žurnalistė are the agent nouns.",
+    "qa_notes": "'spauda' refers to the printed press as an institution, not the profession or practice of journalism. 'reportažinė veikla' covers only reporting activity, not the full scope of journalism."
   },
   {
     "term": "spauda",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The collective body of printed newspapers and magazines; the press as an institution.",
@@ -5686,13 +5695,14 @@
       "leidyba"
     ],
     "translation": "press; print",
-    "qaNote": "Sense (1) institutional press (used formally). Sense (2) the printing process. 'Spaudos konferencija' (press conference) is a common collocation."
+    "qaNote": "Sense (1) institutional press (used formally). Sense (2) the printing process. 'Spaudos konferencija' (press conference) is a common collocation.",
+    "qa_notes": "'žiniasklaida' is a hypernym for meaning 1 (all media, not just print press); 'žurnalistika' is a different concept (the profession, not the press or printing process). Neither is co-extensive."
   },
   {
     "term": "redaktorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A person responsible for reviewing, correcting, and preparing texts or media content for publication.",
@@ -5723,7 +5733,7 @@
     "term": "redakcija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The editorial office or team of a newspaper, magazine, or broadcasting organisation.",
@@ -5758,13 +5768,14 @@
       "leidyba"
     ],
     "translation": "editorial office; newsroom; edition",
-    "qaNote": "Two senses: (1) the editorial team/newsroom, (2) a revised edition of a text."
+    "qaNote": "Two senses: (1) the editorial team/newsroom, (2) a revised edition of a text.",
+    "qa_notes": "'redakcinė kolegija' is a specific editorial board/committee (a subset of the editorial office, not the full redakcija); 'leidybos skyrius' is a publishing department. Neither is co-extensive."
   },
   {
     "term": "korespondentas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A journalist who regularly reports from a foreign country or a specific location.",
@@ -5789,13 +5800,14 @@
       "lauko žurnalistas"
     ],
     "translation": "correspondent",
-    "qaNote": "Masculine form; feminine: korespondentė. Typically implies reporting from a distant or foreign location."
+    "qaNote": "Masculine form; feminine: korespondentė. Typically implies reporting from a distant or foreign location.",
+    "qa_notes": "'žurnalistas' is a hypernym (any journalist); 'reporteris' is related but does not capture the specific sense of a foreign/location correspondent. Provide more co-extensive synonyms."
   },
   {
     "term": "žiniasklaida",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The collective institutions — television, radio, newspapers, and online platforms — that produce and disseminate news and information to the public.",
@@ -5827,7 +5839,7 @@
     "term": "televizija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The system of transmitting moving images and sound electronically, received on a screen; a television channel or broadcaster.",
@@ -5852,13 +5864,14 @@
       "žiniasklaida"
     ],
     "translation": "television; TV",
-    "qaNote": "Also used informally to mean the television set (aparatas). Colloquially shortened to 'tv' or 'tivi' in speech."
+    "qaNote": "Also used informally to mean the television set (aparatas). Colloquially shortened to 'tv' or 'tivi' in speech.",
+    "qa_notes": "'televizorius' refers to the physical television set/device, not the broadcasting medium or system. Only 1 true synonym ('TV'). Replace 'televizorius' with a co-extensive synonym."
   },
   {
     "term": "radijas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The wireless transmission of audio signals; a radio receiver or broadcasting station.",
@@ -5883,13 +5896,14 @@
       "žiniasklaida"
     ],
     "translation": "radio",
-    "qaNote": "Gen. sg. radijo. Used both for the medium and the device."
+    "qaNote": "Gen. sg. radijo. Used both for the medium and the device.",
+    "qa_notes": "'radijo laida' is a hyponym (a specific radio programme/show, not the radio medium itself). Only 1 true synonym ('eteris'). Replace 'radijo laida' with a co-extensive synonym."
   },
   {
     "term": "transliacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The transmission of a programme or event via television, radio, or internet for a live or recorded audience.",
@@ -5914,7 +5928,8 @@
       "laida"
     ],
     "translation": "broadcast; transmission",
-    "qaNote": "Tiesioginė transliacija = live broadcast. Corresponds to the verb transliuoti."
+    "qaNote": "Tiesioginė transliacija = live broadcast. Corresponds to the verb transliuoti.",
+    "qa_notes": "'retransliacija' is a hyponym (specifically a rebroadcast, not all transmissions). Only 1 true synonym ('perdavimas'). Replace 'retransliacija' with a co-extensive synonym."
   },
   {
     "term": "transliuoti",
