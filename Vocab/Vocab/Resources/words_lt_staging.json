@@ -17092,7 +17092,7 @@
     "term": "saldus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "turintis malonų saldų skonį, kaip cukrus ar prinokę vaisiai",
@@ -17120,15 +17120,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "kartus"
+    ],
+    "relatedTerms": [
+      "cukrus",
+      "medus"
+    ],
     "translation": "sweet"
   },
   {
     "term": "rūgštus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "turintis aštrų rūgštų skonį; aitrus, kaip neprinokęs vaisius ar actas",
@@ -17157,8 +17162,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "saldus"
+    ],
+    "relatedTerms": [
+      "citrina",
+      "actas"
+    ],
     "translation": "sour, acidic"
   },
   {
@@ -17203,7 +17213,7 @@
     "term": "sūrus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "turintis druskos skonį arba druskos sudėtyje; apie maistą, vandenį ar orą",
@@ -17232,14 +17242,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "druska",
+      "jūra"
+    ],
     "translation": "salty"
   },
   {
     "term": "kartus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "turintis aitroką, nemalonų skonį; apie augalus, gėrimus ar vaistus",
@@ -17277,8 +17290,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "saldus"
+    ],
+    "relatedTerms": [
+      "tulžis",
+      "kava"
+    ],
     "translation": "bitter"
   },
   {
@@ -17317,7 +17335,7 @@
     "term": "šaltas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "turintis žemą temperatūrą; sukuriantis šalčio pojūtį orui, vandeniui ar paviršiui",
@@ -17342,15 +17360,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "karštas"
+    ],
+    "relatedTerms": [
+      "žiema",
+      "ledas"
+    ],
     "translation": "cold"
   },
   {
     "term": "vėsus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "maloniai vėsus, vidutiniškai šaltas; apie orą, vandenį ar aplinką, kurioje temperatūra nedidelė, bet ne šalta",
@@ -17365,8 +17388,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "šiltas"
+    ],
+    "relatedTerms": [
+      "šaltas",
+      "vėjas"
+    ],
     "translation": "cool"
   },
   {
@@ -17671,7 +17699,7 @@
     "term": "žalias",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "žolės ar lapų spalvos; viena iš pagrindinių spektro spalvų tarp mėlynos ir geltonos",
@@ -17709,14 +17737,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žolė",
+      "lapas"
+    ],
     "translation": "green"
   },
   {
     "term": "pilnas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "turintis kiek galima daugiau turinio; pripildytas iki kraštų arba pertekliaus",
@@ -17744,8 +17775,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "tuščias"
+    ],
+    "relatedTerms": [
+      "mėnulis",
+      "talpa"
+    ],
     "translation": "full"
   },
   {
@@ -17782,7 +17818,7 @@
     "term": "lengvas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "nestipraus intensyvumo, švelnus; apie lietų, vėją ar oro reiškinį",
@@ -17809,8 +17845,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "sunkus"
+    ],
+    "relatedTerms": [
+      "švelnus",
+      "paprastas"
+    ],
     "translation": "light, easy, gentle"
   },
   {
@@ -21712,7 +21753,7 @@
     "term": "pradžia",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "pirmoji dalis ar momentas, kai kažkas prasideda; kilmė ar šaltinis",
@@ -21740,15 +21781,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "pabaiga"
+    ],
+    "relatedTerms": [
+      "šaltinis",
+      "kilmė"
+    ],
     "translation": "beginning, start"
   },
   {
     "term": "pabaiga",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "paskutinė dalis ar momentas, kai kažkas baigiasi; galutinis taškas",
@@ -21776,15 +21822,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "pradžia"
+    ],
+    "relatedTerms": [
+      "išvada",
+      "finalas"
+    ],
     "translation": "end, conclusion"
   },
   {
     "term": "vidurys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "centrinė dalis; lygiai nutolusi nuo visų kraštų ar galų",
@@ -21811,9 +21862,16 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "centras"
+    ],
+    "antonymTerms": [
+      "kraštas"
+    ],
+    "relatedTerms": [
+      "pradžia",
+      "pabaiga"
+    ],
     "translation": "middle, center"
   },
   {
@@ -22296,7 +22354,7 @@
     "term": "siauras",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "mažo pločio, nedidelio tarpo; apie upę, tarpeklį, kelią ar plyšį uoloje",
@@ -22323,15 +22381,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "platus"
+    ],
+    "relatedTerms": [
+      "tarpeklis",
+      "koridorius"
+    ],
     "translation": "narrow"
   },
   {
     "term": "ilgas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "didelio ilgio, tęsiasi dideliu atstumu; apie upę, krantą, slėnį ar kalną",
@@ -22360,15 +22423,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "trumpas"
+    ],
+    "relatedTerms": [
+      "trukmė",
+      "atstumas"
+    ],
     "translation": "long"
   },
   {
     "term": "trumpas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "nedidelio ilgio ar trukmės; trunka arba tęsiasi mažai laiko ar atstumo",
@@ -22386,8 +22454,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "ilgas"
+    ],
+    "relatedTerms": [
+      "greitas",
+      "momentinis"
+    ],
     "translation": "short, brief"
   },
   {
@@ -22629,7 +22702,7 @@
     "term": "lygiai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "tiksliai, be jokio nuokrypio; nurodo tikslumą ar tikslų laiko momentą",
@@ -22657,9 +22730,16 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "tiksliai"
+    ],
+    "antonymTerms": [
+      "apytiksliai"
+    ],
+    "relatedTerms": [
+      "tikslus",
+      "tolygiai"
+    ],
     "translation": "exactly, evenly, precisely"
   },
   {
@@ -26305,7 +26385,7 @@
     "term": "minkštas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "lengvai pasiduodantis spaudimui; švelnus prisilietimui; apie žemę, samaną ar dirvą",
@@ -26332,15 +26412,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "kietas"
+    ],
+    "relatedTerms": [
+      "švelnus",
+      "elastingas"
+    ],
     "translation": "soft"
   },
   {
     "term": "kietas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "standus, spaudimui ar smūgiui atsparūs; apie uolieną, užšalusią žemę ar mineralą",
@@ -26369,8 +26454,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "minkštas"
+    ],
+    "relatedTerms": [
+      "tvirtas",
+      "standus"
+    ],
     "translation": "hard, solid"
   },
   {
@@ -29977,7 +30067,7 @@
     "term": "šiurkštus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "nelygus, grubaus paviršiaus; apie uolieną, medžio žievę ar dirvą",
@@ -30003,8 +30093,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "lygus"
+    ],
+    "relatedTerms": [
+      "grubus",
+      "nelygus"
+    ],
     "translation": "rough, coarse"
   },
   {
@@ -34056,7 +34151,7 @@
     "term": "daryti tyrimus",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atlikti medicininius ar laboratorinius tyrimus diagnozei nustatyti.",
@@ -34072,7 +34167,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tyrimas",
+      "mokslas"
+    ],
     "translation": "to do tests, to conduct examinations"
   },
   {
@@ -34148,7 +34246,7 @@
     "term": "apsinuodyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Patekus organizmui nuodingoms ar kenksmingoms medžiagoms patirti neigiamą poveikį sveikatai.",
@@ -34163,7 +34261,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nuodai",
+      "gydymas"
+    ],
     "translation": "to get poisoned, to be poisoned"
   },
   {
@@ -34230,7 +34331,7 @@
     "term": "lūžti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kaulams – suskilti arba įtrūkti dėl stipraus smūgio ar slėgio.",
@@ -34253,7 +34354,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "laužti",
+      "susilaužyti"
+    ],
     "translation": "to break, to fracture"
   },
   {
@@ -34354,7 +34458,7 @@
     "term": "sloguoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turėti slogą – nosies gleivinės uždegimą su gausiu sekrotu.",
@@ -34369,14 +34473,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sloga",
+      "peršalimas"
+    ],
     "translation": "to have a runny nose, to have a cold"
   },
   {
     "term": "susilaužyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Patirti kaulo lūžį dėl traumos ar nelaimingo atsitikimo.",
@@ -34391,7 +34498,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lūžti",
+      "kaulas"
+    ],
     "translation": "to break (a bone)"
   },
   {
@@ -38358,7 +38468,7 @@
     "term": "tvartas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ūkinis pastatas gyvuliams laikyti ir pašarui saugoti.",
@@ -38372,7 +38482,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ūkis",
+      "gyvuliai"
+    ],
     "translation": "barn"
   },
   {
@@ -38427,7 +38540,7 @@
     "term": "ožka",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Naminė ūkio gyvūnė (patelė), auginama dėl pieno ir mėsos.",
@@ -38441,14 +38554,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ožys",
+      "ūkis"
+    ],
     "translation": "goat"
   },
   {
     "term": "ožys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Patinas ožka; vyriškos lyties naminė ožka su ragais ir barzda.",
@@ -38462,14 +38578,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ožka",
+      "tvartas"
+    ],
     "translation": "billy goat"
   },
   {
     "term": "antis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vandens paukštis su plačiu snapu, laikomas ūkyje arba gyvenantis laukinėje gamtoje.",
@@ -38485,14 +38604,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ančiukas",
+      "paukštis"
+    ],
     "translation": "duck"
   },
   {
     "term": "kiaulė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Naminė ūkio gyvūnė, auginama dėl mėsos ir riebalų.",
@@ -38514,14 +38636,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "paršas",
+      "tvartas"
+    ],
     "translation": "pig"
   },
   {
     "term": "gaidys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Patinas viščiukas; ūkyje laikomas paukštis, garsus savo giedojimu.",
@@ -38536,14 +38661,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "višta",
+      "paukštis"
+    ],
     "translation": "rooster"
   },
   {
     "term": "katinas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Patinėlis katinas; vyriškos lyties naminė katė.",
@@ -38557,7 +38685,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "katė",
+      "naminiai gyvūnai"
+    ],
     "translation": "tomcat"
   },
   {
@@ -38588,7 +38719,7 @@
     "term": "viščiukai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Jauni vištos jaunikliai, neseniai išsiritę iš kiaušinių.",
@@ -38603,14 +38734,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "višta",
+      "gaidys"
+    ],
     "translation": "chicks"
   },
   {
     "term": "višta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Naminė paukštė, laikoma dėl kiaušinių ir mėsos.",
@@ -38625,7 +38759,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gaidys",
+      "kiaušinis"
+    ],
     "translation": "hen"
   },
   {
@@ -38656,7 +38793,7 @@
     "term": "suoliukai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Parke, kieme ar viešojoje erdvėje pastatyti baldai, skirti sėdėti ir ilsėtis.",
@@ -38673,14 +38810,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "suolas",
+      "parkas"
+    ],
     "translation": "benches"
   },
   {
     "term": "šulinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "gilus kasinys žemėje, skirtas vandeniui semti iš gruntinio vandens sluoksnio",
@@ -38697,7 +38837,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vanduo",
+      "kaimas"
+    ],
     "translation": "well"
   },
   {
