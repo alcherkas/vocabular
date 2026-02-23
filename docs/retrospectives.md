@@ -4645,3 +4645,23 @@ Enriched 35 stub entries across five thematic groups: numbers (30–100), bedroo
 - Check VALID_PARTS_OF_SPEECH in the validator before assigning POS — `numeral` is valid but easy to overlook.
 - Plural-only nouns like `replės` and `užuolaidos` should note the plural form in the definition to avoid confusion.
 >>>>>>> vocab/enricher-lt-66
+
+---
+
+## QA-55 · 2025-07-17
+
+**Agent**: QA
+**Scope**: 35 EN + 35 LT relations-added entries (geography, narratology, music theory, theatre, clothing/fashion)
+
+### What went well
+- Both validators passed cleanly after fixes; no need to reject any entries
+- All 70 entries had valid synonyms, antonyms, relatedTerms and meanings
+
+### Issues found and fixed
+- **7 EN entries** had dict objects in `antonymTerms` instead of plain strings (relations agent serialised `{"term": ..., "meaning": ...}` objects). Extracted `term` string in each case.
+- **5 EN entries** had cross-array duplicates: the antonym term also appeared in `relatedTerms`. Removed duplicates from `relatedTerms` (antonym is the more precise relationship). Affected: isthmus/strait, heterodiegetic/homodiegetic, extradiegetic/intradiegetic, intradiegetic/extradiegetic, protasis/apodosis.
+- **10 LT entries** had the same dict-in-antonymTerms issue; all fixed by string extraction with no cross-array conflicts.
+
+### Recommendations
+- The relations agent should always serialise `antonymTerms` as plain strings, not objects with `term`/`meaning` fields. Consider adding a validator check that items in relation arrays are strings (not dicts).
+- When placing a term in `antonymTerms`, the agent should also ensure it is not already in `relatedTerms`.
