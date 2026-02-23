@@ -45919,7 +45919,7 @@
   },
   {
     "term": "žaibuoti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -45937,6 +45937,13 @@
           "B2"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "žaibas",
+      "griaustinis",
+      "audra"
     ]
   },
   {
@@ -45969,7 +45976,7 @@
   },
   {
     "term": "sinoptikas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -45987,11 +45994,20 @@
           "B2"
         ]
       }
+    ],
+    "synonyms": [
+      "meteorologas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sinoptikė",
+      "meteorologija",
+      "oras"
     ]
   },
   {
     "term": "sinoptikė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46009,6 +46025,15 @@
           "B2"
         ]
       }
+    ],
+    "synonyms": [
+      "meteorologė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sinoptikas",
+      "meteorologija",
+      "oras"
     ]
   },
   {
@@ -46417,7 +46442,7 @@
   },
   {
     "term": "dviratininkė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46434,6 +46459,13 @@
           "B2"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dviratininkas",
+      "dviratis",
+      "sportas"
     ]
   },
   {
@@ -47245,7 +47277,7 @@
   },
   {
     "term": "čiaudulys",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47260,6 +47292,13 @@
           "symptom"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "čiaudėjimas",
+      "kosulys",
+      "peršalimas"
     ]
   },
   {
@@ -47296,7 +47335,7 @@
   },
   {
     "term": "vaistininkė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47312,7 +47351,16 @@
         ]
       }
     ],
-    "translation": "pharmacist"
+    "translation": "pharmacist",
+    "synonyms": [
+      "farmacistė"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vaistininkas",
+      "vaistinė",
+      "vaistai"
+    ]
   },
   {
     "term": "tabletė",
@@ -47431,7 +47479,7 @@
   },
   {
     "term": "apsinuodijimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47447,6 +47495,13 @@
           "emergency"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nuodai",
+      "apsinuodyti",
+      "skubios pagalbos"
     ]
   },
   {
@@ -48365,7 +48420,7 @@
   },
   {
     "term": "trenerė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48381,6 +48436,13 @@
           "B1"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "treneris",
+      "sportas",
+      "treniruotė"
     ]
   },
   {
@@ -48468,7 +48530,7 @@
   },
   {
     "term": "gaisrininkė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48484,7 +48546,14 @@
         ]
       }
     ],
-    "translation": "firefighter"
+    "translation": "firefighter",
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gaisrininkas",
+      "gaisras",
+      "ugnis"
+    ]
   },
   {
     "term": "statybininkas",
@@ -48517,7 +48586,7 @@
   },
   {
     "term": "statybininkė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48533,7 +48602,14 @@
         ]
       }
     ],
-    "translation": "construction worker"
+    "translation": "construction worker",
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "statybininkas",
+      "statyba",
+      "darbas"
+    ]
   },
   {
     "term": "sodininkas",
@@ -48567,7 +48643,7 @@
   },
   {
     "term": "sodininkė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48583,7 +48659,14 @@
         ]
       }
     ],
-    "translation": "gardener"
+    "translation": "gardener",
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sodininkas",
+      "sodas",
+      "augalai"
+    ]
   },
   {
     "term": "mechanikas",
@@ -48616,7 +48699,7 @@
   },
   {
     "term": "mechanikė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48632,7 +48715,14 @@
         ]
       }
     ],
-    "translation": "mechanic"
+    "translation": "mechanic",
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mechanikas",
+      "automobilis",
+      "remontas"
+    ]
   },
   {
     "term": "kepėjas",
@@ -48666,7 +48756,7 @@
   },
   {
     "term": "kepėja",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48682,11 +48772,18 @@
         ]
       }
     ],
-    "translation": "baker"
+    "translation": "baker",
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kepėjas",
+      "duona",
+      "kepykla"
+    ]
   },
   {
     "term": "šaka",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48702,11 +48799,18 @@
           "trees"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "medis",
+      "kamienas",
+      "šakelė"
     ]
   },
   {
     "term": "sėkla",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48722,6 +48826,13 @@
           "gardening"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "augalas",
+      "daigas",
+      "žiedas"
     ]
   },
   {
@@ -50275,7 +50386,7 @@
   },
   {
     "term": "perėja",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50301,6 +50412,13 @@
           "B1"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gatvė",
+      "pėsčiasis",
+      "eismas"
     ]
   },
   {
@@ -50362,7 +50480,7 @@
   },
   {
     "term": "pro",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "preposition",
     "tags": [],
@@ -50378,11 +50496,18 @@
           "B1"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "per",
+      "šalia",
+      "link"
     ]
   },
   {
     "term": "link",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "preposition",
     "tags": [],
@@ -50398,11 +50523,18 @@
           "B1"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nuo",
+      "pro",
+      "į"
     ]
   },
   {
     "term": "tolyn",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adverb",
     "tags": [],
@@ -50422,12 +50554,18 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": []
+    "antonymTerms": [
+      "artyn"
+    ],
+    "relatedTerms": [
+      "toli",
+      "toliau",
+      "atitrūkti"
+    ]
   },
   {
     "term": "arčiau",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adverb",
     "tags": [],
@@ -50447,12 +50585,18 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": []
+    "antonymTerms": [
+      "toliau"
+    ],
+    "relatedTerms": [
+      "arti",
+      "artyn",
+      "šalia"
+    ]
   },
   {
     "term": "toliau",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adverb",
     "tags": [],
@@ -50484,12 +50628,18 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": []
+    "antonymTerms": [
+      "arčiau"
+    ],
+    "relatedTerms": [
+      "toli",
+      "tolyn",
+      "pirmyn"
+    ]
   },
   {
     "term": "priekyje",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adverb",
     "tags": [],
@@ -50506,6 +50656,15 @@
           "navigation"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "gale"
+    ],
+    "relatedTerms": [
+      "priekis",
+      "pirmyn",
+      "pradžioje"
     ]
   },
   {
@@ -50601,7 +50760,7 @@
   },
   {
     "term": "pasakoti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -50617,7 +50776,14 @@
         ]
       }
     ],
-    "translation": "to tell"
+    "translation": "to tell",
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pasakojimas",
+      "aprašyti",
+      "pasakotojas"
+    ]
   },
   {
     "term": "paaiškinti",
@@ -50650,7 +50816,7 @@
   },
   {
     "term": "pristatyti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -50676,11 +50842,18 @@
         ]
       }
     ],
-    "translation": "to present"
+    "translation": "to present",
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pristatymas",
+      "pateikti",
+      "parodyti"
+    ]
   },
   {
     "term": "pranešti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -50696,11 +50869,20 @@
         ]
       }
     ],
-    "translation": "to report"
+    "translation": "to report",
+    "synonyms": [
+      "informuoti"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pranešimas",
+      "žinia",
+      "skelbti"
+    ]
   },
   {
     "term": "priminti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -50716,11 +50898,20 @@
         ]
       }
     ],
-    "translation": "to remind"
+    "translation": "to remind",
+    "synonyms": [],
+    "antonymTerms": [
+      "pamiršti"
+    ],
+    "relatedTerms": [
+      "priminimas",
+      "atmintis",
+      "atsiminti"
+    ]
   },
   {
     "term": "aptarti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -50736,11 +50927,20 @@
         ]
       }
     ],
-    "translation": "to discuss"
+    "translation": "to discuss",
+    "synonyms": [
+      "diskutuoti"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "aptarimas",
+      "pokalbis",
+      "svarstyti"
+    ]
   },
   {
     "term": "sutikti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -50766,7 +50966,16 @@
         ]
       }
     ],
-    "translation": "to agree"
+    "translation": "to agree",
+    "synonyms": [],
+    "antonymTerms": [
+      "prieštarauti"
+    ],
+    "relatedTerms": [
+      "sutikimas",
+      "pritarti",
+      "susitikimas"
+    ]
   },
   {
     "term": "erdvus",
@@ -50869,7 +51078,7 @@
   },
   {
     "term": "tamsokas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -50889,12 +51098,18 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": []
+    "antonymTerms": [
+      "šviesokas"
+    ],
+    "relatedTerms": [
+      "tamsus",
+      "prietema",
+      "šešėlis"
+    ]
   },
   {
     "term": "drungnas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -50925,12 +51140,18 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": []
+    "antonymTerms": [
+      "karštas"
+    ],
+    "relatedTerms": [
+      "šiltas",
+      "šaltas",
+      "temperatūra"
+    ]
   },
   {
     "term": "kantrus",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -50946,7 +51167,14 @@
         ]
       }
     ],
-    "translation": "patient"
+    "translation": "patient",
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kantrybė",
+      "ištvermė",
+      "ramybė"
+    ]
   },
   {
     "term": "smalsus",
@@ -51015,7 +51243,7 @@
   },
   {
     "term": "netvarkingas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -51031,11 +51259,22 @@
         ]
       }
     ],
-    "translation": "messy"
+    "translation": "messy",
+    "synonyms": [
+      "netvarkus"
+    ],
+    "antonymTerms": [
+      "tvarkus"
+    ],
+    "relatedTerms": [
+      "tvarka",
+      "chaosas",
+      "sumaištis"
+    ]
   },
   {
     "term": "punktualus",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adjective",
     "tags": [],
@@ -51051,7 +51290,14 @@
         ]
       }
     ],
-    "translation": "punctual"
+    "translation": "punctual",
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "punktualumas",
+      "laiku",
+      "atsakingumas"
+    ]
   },
   {
     "term": "laikraštis",
@@ -53298,7 +53544,7 @@
     "term": "fizika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gamtos mokslas ir mokyklinis dalykas, tiriantis materijos savybes, energiją ir jėgų sąveiką.",
@@ -53312,14 +53558,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "chemija",
+      "matematika",
+      "mokslas"
+    ],
     "translation": "physics"
   },
   {
     "term": "chemija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gamtos mokslas ir mokyklinis dalykas, tiriantis medžiagų sudėtį, savybes ir chemines reakcijas.",
@@ -53333,7 +53583,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "fizika",
+      "biologija",
+      "mokslas"
+    ],
     "translation": "chemistry"
   },
   {
