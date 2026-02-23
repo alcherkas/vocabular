@@ -3892,3 +3892,36 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - `"form-meaning unit"` for `morpheme` is descriptive but not a standard technical term; `"minimal meaningful unit"` is more established.
 - LT 328 enriched entries remain after this session; 35 processed.
 - No merge performed as instructed.
+
+---
+
+## Enricher Agent — vocab/enricher-en-40 (2025-08-02)
+
+**Agent**: Vocab Enricher Agent | **Branch**: vocab/enricher-en-40 | **Task**: Enrich 35 English stubs focused on sociology and environmental science
+
+### What was done
+- Preflighted `words_staging.json` — valid JSON (1230 entries, 60 stubs available at session start).
+- Enriched 35 stub entries across five topic domains:
+  - **Sociology (13)**: poststructuralism, social constructionism, conflict theory, role theory, social exchange theory, labeling theory, reference group, collective conscience, mechanical solidarity, organic solidarity, genre, narrative frame, politeness theory.
+  - **Environmental science (10)**: carbon cycle, keystone species, trophic level, ecological succession, pioneer species, climax community, nitrogen cycle, carbon sequestration, biomass productivity, ecosystem services.
+  - **Biology (5)**: plasmid, prokaryote, eukaryote, speciation, horizontal gene transfer.
+  - **Machine learning (5)**: reinforcement learning, supervised learning, unsupervised learning, latent space, feature extraction.
+  - **Cryptography/CS (2)**: cryptography, zero-knowledge proof.
+- All entries: `status` set to `"enriched"`, `meanings` filled with definition, example sentence, register, and tags.
+- Ran `python3 scripts/validate_words.py --errors-for enriched` → **PASSED** (1230 entries valid, 0 errors in enriched batch, 91 pre-existing warnings in approved entries — none attributable to this session).
+- Committed as `vocab(enricher-en-40): enrich 35 English stubs` (16620cd).
+- 25 stubs remain in the file for subsequent enricher sessions.
+
+### Quality decisions
+- **Multi-sense entries**: `genre` (general + linguistics/discourse sense) and `cryptography` (technical + historical/formal sense) each received two meanings to capture genuinely distinct uses; all others received one well-developed meaning reflecting their primary technical sense.
+- **Register**: All definitions use `"technical"` register except the historical sense of `cryptography` (`"formal"`) and the general/artistic sense of `genre` (`"general"`).
+- **Durkheim pair**: `mechanical solidarity` and `organic solidarity` treated as a complementary pair with parallel structure to aid learners comparing the two concepts.
+- **Ecology chain**: pioneer species → ecological succession → climax community definitions cross-reference each other implicitly, supporting cohesive learning.
+
+### Validation
+- Exit code 0 with `--errors-for enriched`. Pre-existing warnings (91) are all in `approved`-status entries from prior agent sessions and are not this agent's responsibility.
+
+### Doubts / meta-notes
+- Confidence: 95%. Definitions follow standard academic usage; example sentences are original and idiomatic.
+- 25 stubs remain (mostly math/CS: stochastic process, lagrangian, hamiltonian, dynamical system, ergodic theory, various ML/CS terms) — sufficient for one more full enricher session.
+- No merge performed as instructed.
