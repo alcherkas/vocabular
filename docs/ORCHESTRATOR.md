@@ -493,7 +493,7 @@ Merge order matters when agents touch overlapping files:
 2. Merge QA branches **last** using the Python re-apply approach (avoids "stash" aborts):
 
 ```bash
-# For JSON staging files: smart conflict resolver
+# For JSON staging files: smart conflict resolver (also handles aborted merges)
 python3 scripts/resolve_json_conflict.py Vocab/Vocab/Resources/words_staging.json \
     Vocab/Vocab/Resources/words_lt_staging.json
 git add Vocab/Vocab/Resources/words_staging.json \
