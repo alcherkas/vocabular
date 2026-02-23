@@ -21545,15 +21545,25 @@
     "translation": "kilometres per hour (km/h)"
   },
   {
-    "term": "Para",
+    "term": "para",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "dvidešimt keturių valandų laiko tarpas",
+        "example": "Per parą aš miegu apie aštuonias valandas.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "daily-routine"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "day (24-hour period)"
   },
   {
     "term": "mėnuo",
@@ -21616,24 +21626,44 @@
   {
     "term": "vidurdienis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "dienos vidurys, dvyliktoji dienos valanda",
+        "example": "Vidurdienį mes sustojome pavalgyti pietų.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "daily-routine"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "noon"
   },
   {
     "term": "vidurnaktis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "nakties vidurys, dvyliktoji nakties valanda",
+        "example": "Filmas baigėsi jau po vidurnakčio.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "daily-routine"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "midnight"
   },
   {
     "term": "laikas",
@@ -21667,46 +21697,102 @@
   {
     "term": "laikrodis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "prietaisas, rodantis dabarties laiką",
+        "example": "Sieninis laikrodis kabėjo virtuvėje ir tiksliai rodė laiką.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "household"
+        ]
+      },
+      {
+        "definition": "nešiojamas arba rankinis prietaisas laikui rodyti",
+        "example": "Jis žvilgtelėjo į laikrodį ir suprato, kad vėluoja į susitikimą.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "scheduling"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "clock"
   },
   {
     "term": "minutė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "laiko vienetas, lygus šešiasdešimčiai sekundžių",
+        "example": "Autobusas atvyks per dešimt minučių.",
+        "register": "neutral",
+        "tags": [
+          "time"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "minute"
   },
   {
     "term": "sekundė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "laiko matavimo vienetas, šešiasdešimtoji minutės dalis",
+        "example": "Sprinteris nuiejo šimtą metrų per dešimt sekundžių.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "sport"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "second"
   },
   {
     "term": "valanda",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "šešiasdešimties minučių laiko tarpas",
+        "example": "Traukinys nuo miesto iki pajūrio važiuoja dvi valandas.",
+        "register": "neutral",
+        "tags": [
+          "time"
+        ]
+      },
+      {
+        "definition": "tam tikras paros metas, nusakomas skaičiumi",
+        "example": "Susitikimas numatytas trečią valandą po pietų.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "scheduling"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "hour"
   },
   {
     "term": "pradžia",
@@ -22606,24 +22692,45 @@
   {
     "term": "vėlus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "einantis po nustatyto laiko arba paros pabaigos link",
+        "example": "Jis grįžo namo vėlų vakarą, kai visi jau miegojo.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "evening"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "late"
   },
   {
     "term": "ankstus",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "einantis prieš įprastą ar nustatytą laiką, dienos pradžioje",
+        "example": "Ankstų rytą jis išėjo bėgioti dar prieš pusryčius.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "morning",
+          "daily-routine"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "early"
   },
   {
     "term": "lygiai",
@@ -22665,57 +22772,105 @@
   {
     "term": "anksti",
     "language": "lt",
-    "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "prieš įprastą ar numatytą laiką",
+        "example": "Ji visada keliasi anksti ir spėja ramiai pusryčiauti prieš darbą.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "morning",
+          "daily-routine"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "early"
   },
   {
     "term": "vėlai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "praėjus įprastam ar numatytam laikui",
+        "example": "Vakar susirgau, todėl eiti miegoti nuėjau labai vėlai.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "evening"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "late"
   },
   {
     "term": "seniai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "prieš daug laiko, tolimoje praeityje",
+        "example": "Mes seniai nesimatėme – nuo mokyklos laikų.",
+        "register": "neutral",
+        "tags": [
+          "time"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "long ago"
   },
   {
     "term": "ilgai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "per didelį laiko tarpą, daug laiko",
+        "example": "Jie ilgai laukė eilėje prie kasos.",
+        "register": "neutral",
+        "tags": [
+          "time"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "for a long time"
   },
   {
     "term": "trumpai",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "per trumpą laiko tarpą, nedaug laiko",
+        "example": "Jis trumpai aprašė rytinės dienos planą ir išėjo.",
+        "register": "neutral",
+        "tags": [
+          "time"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "briefly"
   },
   {
     "term": "po to",
@@ -22751,13 +22906,30 @@
   {
     "term": "tada",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "adverb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "nurodo tam tikrą praeities ar ateities laiko momentą",
+        "example": "Tada mes dar mokėmės mokykloje ir neturėjome rūpesčių.",
+        "register": "neutral",
+        "tags": [
+          "time"
+        ]
+      },
+      {
+        "definition": "jungiamasis žodis nusakantis pasekmę",
+        "example": "Jei neturi laiko, tada perskambink man vėliau.",
+        "register": "neutral",
+        "tags": [
+          "discourse"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "then"
   },
   {
     "term": "draudžiama",
@@ -23222,15 +23394,26 @@
     "translation": null
   },
   {
-    "term": "Sausis",
+    "term": "sausis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "pirmasis metų mėnuo",
+        "example": "Sausį paprastai būna labai šalta ir sninga.",
+        "register": "neutral",
+        "tags": [
+          "calendar",
+          "months",
+          "winter"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "January"
   },
   {
     "term": "vasaris",
@@ -23262,46 +23445,90 @@
   {
     "term": "kovas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "trečiasis metų mėnuo, pavasario pradžia",
+        "example": "Kovą dienos ilgėja ir sniegas pradeda tirpti.",
+        "register": "neutral",
+        "tags": [
+          "calendar",
+          "months",
+          "spring"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "March"
   },
   {
     "term": "balandis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "ketvirtasis metų mėnuo",
+        "example": "Balandį dažnai lyja lietus ir žydi pirmosios gėlės.",
+        "register": "neutral",
+        "tags": [
+          "calendar",
+          "months",
+          "spring"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "April"
   },
   {
     "term": "gegužė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "penktasis metų mėnuo",
+        "example": "Gegužę žydi alyvos ir sodai kvepia.",
+        "register": "neutral",
+        "tags": [
+          "calendar",
+          "months",
+          "spring"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "May"
   },
   {
     "term": "birželis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "šeštasis metų mėnuo, vasaros pradžia",
+        "example": "Birželį prasideda moksleivių vasaros atostogos.",
+        "register": "neutral",
+        "tags": [
+          "calendar",
+          "months",
+          "summer"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "June"
   },
   {
     "term": "liepa",
@@ -23341,13 +23568,24 @@
   {
     "term": "rugpjūtis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "aštuntasis metų mėnuo",
+        "example": "Rugpjūtį norime išvykti atostogų į pajūrį.",
+        "register": "neutral",
+        "tags": [
+          "calendar",
+          "months",
+          "summer"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "August"
   },
   {
     "term": "rugsėjis",
@@ -23379,35 +23617,68 @@
   {
     "term": "spalis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "dešimtasis metų mėnuo, rudeniškiausias",
+        "example": "Spalį lapai nusidažo geltonai ir raudonai.",
+        "register": "neutral",
+        "tags": [
+          "calendar",
+          "months",
+          "autumn"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "October"
   },
   {
     "term": "lapkritis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "vienuoliktasis metų mėnuo",
+        "example": "Lapkritį dienos labai trumpėja ir lyja šaltas lietus.",
+        "register": "neutral",
+        "tags": [
+          "calendar",
+          "months",
+          "autumn"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "November"
   },
   {
     "term": "gruodis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "dvyliktasis ir paskutinis metų mėnuo",
+        "example": "Gruodį švenčiame Kalėdas ir laukiame Naujųjų metų.",
+        "register": "neutral",
+        "tags": [
+          "calendar",
+          "months",
+          "winter"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "December"
   },
   {
     "term": "Ožiaragis",
@@ -37650,26 +37921,57 @@
     "translation": "to erase, to delete, to rub"
   },
   {
-    "term": "Autis",
+    "term": "autis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "apsiavti batus ar kitą avalynę",
+        "example": "Prieš išeidamas iš namų jis avosi batus ir paėmė paltą.",
+        "register": "neutral",
+        "tags": [
+          "daily-routine",
+          "morning",
+          "clothing"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to put on one's shoes"
   },
   {
     "term": "dažytis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "dėti kosmetikos priemones ant veido",
+        "example": "Ji dažosi lūpas ir akis prieš išeidama į darbą.",
+        "register": "neutral",
+        "tags": [
+          "daily-routine",
+          "beauty",
+          "morning"
+        ]
+      },
+      {
+        "definition": "dažyti savo plaukus tam tikra spalva",
+        "example": "Ji dažosi plaukus tamsia spalva kartą per mėnesį.",
+        "register": "neutral",
+        "tags": [
+          "beauty",
+          "hair"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to put on makeup"
   },
   {
     "term": "domėtis",
@@ -37738,13 +38040,24 @@
   {
     "term": "gultis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "atsigulti į lovą, ruoštis miegoti",
+        "example": "Vakare guluosi apie dešimtą valandą, kad ryte gerai jaučiausi.",
+        "register": "neutral",
+        "tags": [
+          "daily-routine",
+          "evening",
+          "sleep"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to go to bed"
   },
   {
     "term": "jaudintis",
@@ -37811,13 +38124,24 @@
   {
     "term": "keltis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "pakilti iš lovos, pradėti naują dieną",
+        "example": "Darbo dienomis keliuosi šeštą valandą ryto.",
+        "register": "neutral",
+        "tags": [
+          "daily-routine",
+          "morning",
+          "sleep"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to get up"
   },
   {
     "term": "mankštintis",
@@ -37862,13 +38186,33 @@
   {
     "term": "maudytis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "prausti savo kūną vonioje arba duše",
+        "example": "Vaikas maudosi vonioje kiekvieną vakarą prieš miegą.",
+        "register": "neutral",
+        "tags": [
+          "daily-routine",
+          "hygiene",
+          "evening"
+        ]
+      },
+      {
+        "definition": "plaukti ir pramogauti natūraliame vandenyje",
+        "example": "Vasarą maudytis ežere yra labai malonu.",
+        "register": "neutral",
+        "tags": [
+          "leisure",
+          "summer"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to bathe"
   },
   {
     "term": "mokytis",
@@ -37933,24 +38277,46 @@
   {
     "term": "praustis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "plauti veidą ir rankas higieniniais tikslais",
+        "example": "Praustuosi du kartus per dieną – ryte ir vakare prieš miegą.",
+        "register": "neutral",
+        "tags": [
+          "daily-routine",
+          "hygiene",
+          "morning"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to wash up"
   },
   {
     "term": "rengtis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "dėtis ant savęs drabužius, pasiruošti išeiti",
+        "example": "Ryte rengiuosi greitai, nes noriu suspėti į autobusą.",
+        "register": "neutral",
+        "tags": [
+          "daily-routine",
+          "morning",
+          "clothing"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to get dressed"
   },
   {
     "term": "rūpintis",
@@ -38016,13 +38382,24 @@
   {
     "term": "skustis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "skustuvu pašalinti barzdą ar plaukus nuo kūno",
+        "example": "Kiekvieną rytą jis skusdavosi prieš eidamas į darbą.",
+        "register": "neutral",
+        "tags": [
+          "daily-routine",
+          "hygiene",
+          "morning"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to shave"
   },
   {
     "term": "stengtis",
@@ -38070,13 +38447,24 @@
   {
     "term": "šukuotis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "šukomis ar šepečiu sutvarkyti savo plaukus",
+        "example": "Ji šukuojasi prieš eidama į mokyklą ir surišta plaukus.",
+        "register": "neutral",
+        "tags": [
+          "daily-routine",
+          "hygiene",
+          "morning"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to comb one's hair"
   },
   {
     "term": "tikėtis",
@@ -38112,13 +38500,24 @@
   {
     "term": "valytis",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "šalinti nešvarumus nuo savo dantų ar kūno",
+        "example": "Valykausi dantis du kartus per dieną – ryte ir vakare.",
+        "register": "neutral",
+        "tags": [
+          "daily-routine",
+          "hygiene",
+          "teeth"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to clean oneself"
   },
   {
     "term": "poilsis",
@@ -38223,12 +38622,23 @@
     "term": "leisti laiką",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "praleisti laiką kuo nors užsiimant",
+        "example": "Vakarus jie leidžia kartu žiūrėdami filmus ar skaitydami knygas.",
+        "register": "neutral",
+        "tags": [
+          "daily-routine",
+          "leisure",
+          "time"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to spend time"
   },
   {
     "term": "nuspręsti",
