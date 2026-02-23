@@ -3953,4 +3953,26 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 ### Doubts / meta-notes
 - Confidence: 93%. All entries are standard B1/B2 vocabulary well-attested in Lithuanian dictionaries.
 - No existing stubs were touched or re-ordered — all 35 entries were appended as new.
+## Relations Agent — session vocab/relations-43 (2025-07-31)
+
+### What was done
+- Preflight JSON check on both `words_staging.json` (EN, 1230 entries) and `words_lt_staging.json` (LT, 2065 entries) → both valid.
+- Added `synonyms`, `antonymTerms`, `relatedTerms` and set `status: "relations-added"` for 35 EN entries (philosophy of science, behavioural economics, social theory vocabulary) and 35 LT entries (time words, months, daily-routine verbs).
+- Ran `python3 scripts/validate_words.py --errors-for relations-added` on both files → PASSED (exit 0) with zero errors in the `relations-added` batch.
+- Committed as `vocab(relations-43): add relations to enriched entries` (128761f).
+
+### Semantic quality decisions
+- **EN ≥2 synonyms**: Technical philosophy/economics terms required careful synonym selection. Used attested near-synonyms: `"refutationism"` for `falsificationism`, `"neopositivism"` for `logical positivism`, `"abductive reasoning"/"abduction"` for `inference to the best explanation`, `"Monte Carlo fallacy"` for `gambler's fallacy`, `"Pareto optimality"` for `Pareto efficiency`. All co-extensive with the defined senses in the entry.
+- **EN antonyms**: Applied only where clear direct semantic opposites exist: `verificationism`↔`falsificationism`, `scientific realism`↔`instrumentalism`, `normal science`↔`paradigm shift`, `false consciousness`↔`class consciousness`, `deduction`↔`induction`, `impostor syndrome`↔`Dunning-Kruger effect`, `hot-hand fallacy`↔`gambler's fallacy`.
+- **EN no-antonym decisions**: `prospect theory`, `loss aversion`, `endowment effect`, `mental accounting`, `status quo bias` all have no true semantic antonyms (alternative theories like `expected utility theory` are contrasting models, not semantic opposites) → `antonymTerms: []`.
+- **LT antonym pairs**: `vidurdienis`↔`vidurnaktis`, `vėlus`↔`ankstus`, `anksti`↔`vėlai`, `ilgai`↔`trumpai`, `gultis`↔`keltis` — all direct semantic opposites.
+- **LT negation-prefix rule**: Did not use `neseniai` as antonym of `seniai` (negation-prefixed); did not use `nusiautis` for `autis` nor `nusirengti` for `rengtis` (reversal-prefix `nusi-` treated as equivalent to negation-prefix per rule b).
+- **LT nominative forms**: All 35 LT entries' relation arrays verified to contain only nominative forms; zero `-ą`/`-ų` endings.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for relations-added` → PASSED for both EN (1230 entries) and LT (2065 entries) with 0 errors in the `relations-added` batch; 91 EN pre-existing warnings and 98 LT pre-existing warnings (all `approved` status, not this batch's responsibility).
+
+### Doubts / meta-notes
+- Confidence: 93%. Some EN synonyms for highly specific named theories (`prospect theory`, `Dunning-Kruger effect`, `Arrow's impossibility theorem`) have limited true synonyms; chose closest attested alternatives.
+- LT 328 enriched entries remain after this session.
 - No merge performed as instructed.
