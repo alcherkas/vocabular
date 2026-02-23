@@ -36,8 +36,18 @@ class WordService {
             return
         }
 
-        guard let url = Bundle.main.url(forResource: resourceName, withExtension: "json") else {
+        // Try standard bundle lookup first, then search all bundle paths
+        var url = Bundle.main.url(forResource: resourceName, withExtension: "json")
+        if url == nil {
+            // Fallback: search in all .json files in the bundle
+            let allJSON = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
+            print("WordService: Bundle contains \(allJSON.count) JSON files: \(allJSON.map { $0.lastPathComponent })")
+            url = allJSON.first { $0.lastPathComponent == "\(resourceName).json" }
+        }
+
+        guard let url else {
             print("WordService: \(resourceName).json not found in bundle")
+            print("WordService: Bundle path = \(Bundle.main.bundlePath)")
             return
         }
 

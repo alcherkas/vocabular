@@ -38111,28 +38111,94 @@
   },
   {
     "term": "consensus algorithm",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A protocol that enables a distributed network of nodes to agree on a single consistent value or state despite the possibility of failures, network delays, or malicious participants.",
+        "example": "The consensus algorithm ensures that all replicas in the cluster commit transactions in the same order, preventing divergence even if several nodes crash mid-operation.",
+        "register": "technical",
+        "tags": [
+          "computer science",
+          "distributed systems",
+          "networking"
+        ]
+      }
+    ]
   },
   {
     "term": "Byzantine fault tolerance",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "The ability of a distributed system to continue operating correctly even when some of its components fail in arbitrary or malicious ways—including sending conflicting information to different peers—named after the Byzantine Generals Problem.",
+        "example": "Blockchain networks rely on Byzantine fault tolerance to remain trustworthy even when a minority of participants attempt to record fraudulent transactions.",
+        "register": "technical",
+        "tags": [
+          "computer science",
+          "distributed systems",
+          "security"
+        ]
+      }
+    ]
   },
   {
     "term": "Raft consensus",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A distributed consensus algorithm designed for understandability, in which one node acts as leader and replicates a log of commands to followers, with leader election triggered automatically on failure.",
+        "example": "The engineering team chose Raft consensus over Paxos because its explicit separation of leader election, log replication, and safety made the codebase far easier to audit.",
+        "register": "technical",
+        "tags": [
+          "computer science",
+          "distributed systems",
+          "algorithms"
+        ]
+      }
+    ]
   },
   {
     "term": "eventual consistency",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A consistency model in distributed computing that guarantees that, if no new updates are made to a given data item, eventually all replicas will converge to the same value, without requiring immediate consistency after every write.",
+        "example": "DynamoDB's eventual consistency model allows global writes to propagate asynchronously, reducing latency at the cost of brief windows where different regions may return stale reads.",
+        "register": "technical",
+        "tags": [
+          "computer science",
+          "distributed systems",
+          "databases"
+        ]
+      }
+    ]
   },
   {
     "term": "CAP theorem",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A theoretical result in distributed systems, proved by Eric Brewer, stating that a distributed data store can simultaneously guarantee at most two of three properties: Consistency, Availability, and Partition tolerance.",
+        "example": "When designing the payment service the architects invoked the CAP theorem to explain why, during a network partition, they had chosen to sacrifice availability in favour of strict consistency.",
+        "register": "technical",
+        "tags": [
+          "computer science",
+          "distributed systems",
+          "databases",
+          "theory"
+        ]
+      }
+    ]
   },
   {
     "term": "sharding",
@@ -42561,8 +42627,29 @@
     "term": "picaresque",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Of or relating to a literary genre originating in sixteenth-century Spain, featuring a roguish, low-born protagonist who survives by wit and cunning through a series of episodic adventures in a corrupt society.",
+        "example": "Cervantes's influence looms over the picaresque tradition that runs from Lazarillo de Tormes through Fielding's Tom Jones to modern comic novels of social mobility.",
+        "register": "technical",
+        "tags": [
+          "literature",
+          "genre",
+          "narrative"
+        ]
+      },
+      {
+        "definition": "More broadly, describing any narrative characterised by an episodic, loosely structured plot following a roguish hero through varied, often comic adventures.",
+        "example": "The film was praised for its picaresque energy—each scene dropped the protagonist into a new city with a new scheme, never pausing for introspection.",
+        "register": "literary",
+        "tags": [
+          "literature",
+          "narrative",
+          "film"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42572,8 +42659,30 @@
     "term": "mise en scene",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In theatre and film, the arrangement and visual composition of all elements within the frame or stage space—including set design, lighting, costume, and actor positioning—that communicate meaning before dialogue begins.",
+        "example": "Kubrick's mise en scène in The Shining uses wide-angle lenses and symmetrical corridors to produce an uncanny, institutional dread that no script element could achieve alone.",
+        "register": "technical",
+        "tags": [
+          "film",
+          "theatre",
+          "visual arts",
+          "cinematography"
+        ]
+      },
+      {
+        "definition": "By extension, the overall staging or context in which any event or presentation takes place, emphasising the deliberate arrangement of its visible elements.",
+        "example": "The prosecutor meticulously controlled the mise en scène of the press conference, choosing a backdrop of seized contraband to maximise the visual impact.",
+        "register": "formal",
+        "tags": [
+          "rhetoric",
+          "staging",
+          "presentation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42583,8 +42692,29 @@
     "term": "tragicomedy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A dramatic genre that combines elements of tragedy and comedy, typically presenting serious or painful subject matter alongside humour in a way that resists neat resolution in either register.",
+        "example": "Chekhov insisted The Cherry Orchard was a tragicomedy, frustrated that audiences and directors persisted in staging it as a straightforward tragedy of the declining gentry.",
+        "register": "technical",
+        "tags": [
+          "literature",
+          "drama",
+          "genre"
+        ]
+      },
+      {
+        "definition": "An event or situation that is simultaneously distressing and absurdly comic.",
+        "example": "The entire negotiation was a tragicomedy—every agreement reached in the morning was unravelled by a new misunderstanding before the afternoon session began.",
+        "register": "general",
+        "tags": [
+          "colloquial",
+          "irony",
+          "absurdity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42594,8 +42724,38 @@
     "term": "elasticity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In economics, the measure of the responsiveness of one variable to a change in another—most commonly the percentage change in quantity demanded or supplied resulting from a one-percent change in price.",
+        "example": "Petrol has low price elasticity because consumers cannot quickly switch away from car travel, so demand falls only modestly even when pump prices spike.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "microeconomics",
+          "demand"
+        ]
+      },
+      {
+        "definition": "In physics and materials science, the property of a material that allows it to deform under stress and return to its original shape once the stress is removed.",
+        "example": "Vulcanised rubber has far greater elasticity than natural rubber, which is why it is used in tyres that must repeatedly absorb road impact without permanent deformation.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "materials science",
+          "engineering"
+        ]
+      },
+      {
+        "definition": "In general usage, the ability to adapt readily to changing circumstances; flexibility.",
+        "example": "The startup's success owed much to the elasticity of its business model, which could pivot from B2C to B2B without rebuilding the core platform.",
+        "register": "general",
+        "tags": [
+          "business",
+          "adaptability"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42775,8 +42935,19 @@
     "term": "inflation targeting",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A monetary policy framework in which a central bank publicly commits to maintaining inflation at a specific numerical rate or within a defined band, using interest rates and other instruments to achieve that goal.",
+        "example": "The Reserve Bank adopted inflation targeting in the early 1990s and set two percent as its benchmark, anchoring wage-bargaining expectations for the following decade.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "monetary policy",
+          "central banking"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42786,8 +42957,29 @@
     "term": "purchasing power parity",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An economic theory and exchange-rate adjustment method that equates the purchasing power of different currencies by comparing the prices of an identical basket of goods across countries, providing a basis for more accurate international comparisons of income and output.",
+        "example": "When GDP is expressed in purchasing power parity terms, India ranks among the world's three largest economies, whereas nominal dollar figures place it much lower.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "international economics",
+          "exchange rates"
+        ]
+      },
+      {
+        "definition": "The equilibrium exchange rate at which a given unit of currency buys the same quantity of goods in two different countries.",
+        "example": "The Big Mac Index is a lighthearted proxy for purchasing power parity, revealing which currencies are over- or undervalued relative to the dollar.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "exchange rates",
+          "international trade"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42797,8 +42989,19 @@
     "term": "endosymbiosis",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A symbiotic relationship in which one organism lives inside the cells or body of another, often to mutual benefit; most famously, the evolutionary process by which mitochondria and chloroplasts are thought to have originated as engulfed prokaryotes.",
+        "example": "Lynn Margulis's theory of serial endosymbiosis, once dismissed, is now the consensus explanation for the origin of eukaryotic organelles.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "evolution",
+          "cell biology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42808,8 +43011,19 @@
     "term": "allopatric speciation",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The process by which a single ancestral population splits into two reproductively isolated populations through geographic separation, each then diverging genetically until they become distinct species.",
+        "example": "The formation of the Isthmus of Panama drove allopatric speciation across dozens of marine lineages, producing sister species on either side of the land bridge.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "evolution",
+          "speciation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42819,8 +43033,19 @@
     "term": "adaptive radiation",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The rapid evolutionary diversification of a single ancestral lineage into a wide array of forms that fill different ecological niches, typically triggered by the availability of new resources or the extinction of competitors.",
+        "example": "Darwin's finches on the Galapagos are the textbook example of adaptive radiation—a common ancestor giving rise to distinct beak shapes suited to different food sources on each island.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "evolution",
+          "ecology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42830,8 +43055,20 @@
     "term": "lateral gene transfer",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The movement of genetic material between organisms by means other than vertical transmission from parent to offspring, particularly common among prokaryotes and involving mechanisms such as transformation, transduction, and conjugation.",
+        "example": "Antibiotic resistance spreads rapidly among bacterial pathogens through lateral gene transfer, allowing resistance genes to jump between species that share the same environment.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "genetics",
+          "microbiology",
+          "evolution"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42841,8 +43078,29 @@
     "term": "anarchism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A political philosophy holding that all forms of involuntary, coercive authority—especially the state—are illegitimate and should be abolished, with social order arising instead from voluntary association and mutual aid.",
+        "example": "Bakunin's anarchism clashed sharply with Marx's vision of a transitional workers' state, making their split within the First International inevitable.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "political theory",
+          "philosophy"
+        ]
+      },
+      {
+        "definition": "In common usage, a state of chaos or lawlessness resulting from the absence of governmental authority.",
+        "example": "Critics warned that repealing all regulations without a replacement framework would plunge the market into anarchism.",
+        "register": "general",
+        "tags": [
+          "politics",
+          "disorder",
+          "colloquial"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42852,8 +43110,29 @@
     "term": "libertarianism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A political philosophy that prioritises individual liberty, minimal state intervention, and free-market economics, holding that each person has the right to live as they choose so long as they do not infringe on others' rights.",
+        "example": "Nozick's libertarianism argues that redistributive taxation is equivalent to forced labour because it appropriates the fruits of a person's effort without consent.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "political philosophy",
+          "economics"
+        ]
+      },
+      {
+        "definition": "In philosophy of free will, the view that humans possess genuine libertarian free will—undetermined by prior causes—and are therefore morally responsible for their actions.",
+        "example": "The philosopher defended libertarianism about free will by arguing that quantum indeterminacy at the neuronal level leaves room for genuinely uncaused choices.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "free will",
+          "metaphysics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42863,8 +43142,29 @@
     "term": "geopolitics",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The study of how geography—including territory, resources, and spatial position—shapes the political behaviour of states and the structure of international relations.",
+        "example": "Control of Arctic shipping lanes has become a central concern of twenty-first-century geopolitics as climate change opens new navigable routes.",
+        "register": "technical",
+        "tags": [
+          "international relations",
+          "geography",
+          "political science"
+        ]
+      },
+      {
+        "definition": "The interplay of geographical, economic, and strategic factors in the foreign policies and power contests of nations.",
+        "example": "Energy dependency on a single supplier is a geopolitics risk that many European governments only appreciated after the pipeline disruptions of 2022.",
+        "register": "formal",
+        "tags": [
+          "foreign policy",
+          "strategy",
+          "international relations"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42874,8 +43174,28 @@
     "term": "populism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A political approach that frames politics as a struggle between a virtuous, homogeneous 'people' and a corrupt elite, claiming that the former's general will should prevail over institutional constraints.",
+        "example": "The candidate's populism drew support from rural voters who felt ignored by a metropolitan political class they saw as self-serving.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "political science",
+          "rhetoric"
+        ]
+      },
+      {
+        "definition": "Policies or rhetoric designed primarily to gain popular approval rather than to address complex underlying issues through sound governance.",
+        "example": "The economists criticised the proposed tax cuts as pure populism, pointing out that the numbers would never balance.",
+        "register": "general",
+        "tags": [
+          "politics",
+          "demagoguery"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -42885,8 +43205,29 @@
     "term": "technocracy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A system of governance in which decision-making authority is vested in technical experts—scientists, engineers, economists—on the grounds that complex modern problems require specialised knowledge rather than popular deliberation.",
+        "example": "Central bank independence is sometimes criticised as a form of technocracy that removes monetary policy from democratic accountability.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "governance",
+          "political theory"
+        ]
+      },
+      {
+        "definition": "The class or system of technicians and experts who wield political or administrative influence by virtue of their specialised knowledge.",
+        "example": "Brussels has long been accused of cultivating a technocracy more responsive to corporate lobbyists than to ordinary citizens.",
+        "register": "general",
+        "tags": [
+          "politics",
+          "elites",
+          "governance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43001,8 +43342,20 @@
     "term": "figured bass",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A notational shorthand used in Baroque music in which a bass line is written out while numerals and symbols below it indicate the intervals to be played above it, leaving realisation to the performer's discretion.",
+        "example": "The harpsichordist improvised a full harmonic accompaniment from the figured bass, adding suspensions and passing tones to ornament the bare skeleton the composer had provided.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "Baroque",
+          "music theory",
+          "notation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43012,8 +43365,28 @@
     "term": "augmentation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In music, the technique of presenting a melodic theme or rhythmic pattern in proportionally longer note values than its original statement, typically doubling the durations.",
+        "example": "Bach employs augmentation in the final stretto of the Fugue in C minor, presenting the subject in slow half-notes against the faster entries in the other voices.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "music theory",
+          "counterpoint"
+        ]
+      },
+      {
+        "definition": "The process of making something larger, more extensive, or more intense; an addition that increases scope or capacity.",
+        "example": "The augmentation of the city's cycle-lane network by forty kilometres reduced peak-hour car journeys by an unexpected twelve percent.",
+        "register": "formal",
+        "tags": [
+          "general",
+          "increase"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43023,8 +43396,29 @@
     "term": "diminution",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In music, the presentation of a theme in note values proportionally shorter than its original form—commonly halving durations—producing a faster, more urgent version of the material.",
+        "example": "Handel uses diminution in the fugue's development section, compressing the stately subject into quick quavers that create a sense of breathless urgency.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "music theory",
+          "counterpoint"
+        ]
+      },
+      {
+        "definition": "A reduction in the size, extent, importance, or authority of something.",
+        "example": "The treaty was widely criticised as a diminution of national sovereignty, transferring key regulatory powers to a supranational body.",
+        "register": "formal",
+        "tags": [
+          "general",
+          "politics",
+          "law"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43063,8 +43457,20 @@
     "term": "malapropism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The mistaken use of a word in place of a phonetically or graphically similar word, typically producing an absurd or humorous effect; named after Mrs Malaprop in Sheridan's play The Rivals.",
+        "example": "When the manager said he wanted to 'illicit' better responses from the team, it was a malapropism for 'elicit' that nobody dared correct.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "rhetoric",
+          "stylistics",
+          "error"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43074,8 +43480,30 @@
     "term": "spoonerism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A verbal slip in which the initial consonants or syllables of two words are accidentally transposed, named after Revd W.A. Spooner, known for such errors.",
+        "example": "The nervous announcer produced an accidental spoonerism, introducing 'the Fightful Stields' instead of 'the Stightful Fields'.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "phonetics",
+          "humour",
+          "error"
+        ]
+      },
+      {
+        "definition": "A deliberately constructed transposition of word sounds, used for comic or playful effect.",
+        "example": "Comedy writers sometimes craft intentional spoonerisms to generate family-friendly innuendo that slips past censors.",
+        "register": "general",
+        "tags": [
+          "wordplay",
+          "humour",
+          "linguistics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43121,8 +43549,29 @@
     "term": "oligarchy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A form of government in which power is concentrated in the hands of a small, privileged group—typically defined by wealth, family, military rank, or education—who rule in their own interests.",
+        "example": "The republic gradually became an oligarchy as a handful of plutocratic families captured the legislative process through campaign financing.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "political science",
+          "government"
+        ]
+      },
+      {
+        "definition": "By extension, any organisation or system dominated by a small, self-perpetuating group rather than by broad participation.",
+        "example": "Robert Michels famously argued that all large organisations, including socialist parties, inevitably drift toward oligarchy—his 'iron law'.",
+        "register": "formal",
+        "tags": [
+          "sociology",
+          "organisation theory",
+          "political science"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43132,8 +43581,19 @@
     "term": "kleptocracy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A system of government in which those in power exploit the state's resources and institutions primarily for personal enrichment, typically through corruption, embezzlement, and bribery.",
+        "example": "International anti-money-laundering frameworks were designed in part to expose and deter kleptocracy by tracing assets hidden in offshore accounts.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "corruption",
+          "governance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43143,8 +43603,29 @@
     "term": "autocracy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A system of government in which supreme power is concentrated in a single ruler who exercises authority without meaningful legal or constitutional constraint.",
+        "example": "The constitutional amendments consolidated autocracy by removing term limits and expanding presidential control over the judiciary.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "government",
+          "political science"
+        ]
+      },
+      {
+        "definition": "Any context in which one person or entity exercises absolute, unchecked authority.",
+        "example": "The board accused the CEO of running the company as a personal autocracy, ignoring shareholder votes and dismissing dissenting directors.",
+        "register": "general",
+        "tags": [
+          "management",
+          "authority",
+          "organisation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43154,8 +43635,37 @@
     "term": "deflation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A sustained fall in the general price level of goods and services, often accompanied by reduced economic output and increased real debt burdens.",
+        "example": "Japan's 'lost decade' was characterised by deflation that paralysed investment, as households and firms postponed spending in anticipation of further price falls.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "macroeconomics",
+          "monetary policy"
+        ]
+      },
+      {
+        "definition": "The act of releasing gas from an inflated object, causing it to shrink.",
+        "example": "The referee ordered deflation of the tyre to bring it within the regulated pressure range before the race could continue.",
+        "register": "general",
+        "tags": [
+          "physics",
+          "everyday"
+        ]
+      },
+      {
+        "definition": "A reduction in the perceived importance, value, or confidence of someone or something.",
+        "example": "The auditor's report caused a sudden deflation of the executive team's confidence in the project's viability.",
+        "register": "general",
+        "tags": [
+          "figurative",
+          "psychology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43165,8 +43675,29 @@
     "term": "austerity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A set of government policies characterised by significant reductions in public spending, tax increases, or both, typically implemented to reduce a fiscal deficit or satisfy creditor requirements.",
+        "example": "The troika's conditions for the bailout required four consecutive years of austerity, cutting public-sector wages by fifteen percent and raising VAT.",
+        "register": "formal",
+        "tags": [
+          "economics",
+          "fiscal policy",
+          "politics"
+        ]
+      },
+      {
+        "definition": "Severe and plain simplicity or self-discipline, especially in the avoidance of luxury or comfort.",
+        "example": "The monastery's rule called for austerity in dress, diet, and speech, treating comfort as an obstacle to contemplation.",
+        "register": "formal",
+        "tags": [
+          "ethics",
+          "religion",
+          "lifestyle"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43176,8 +43707,19 @@
     "term": "fiscal policy",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Government use of taxation and public expenditure to influence macroeconomic conditions such as aggregate demand, employment, and economic growth.",
+        "example": "During the recession the government switched to expansionary fiscal policy, increasing infrastructure spending to offset the collapse in private investment.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "macroeconomics",
+          "public finance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43187,8 +43729,19 @@
     "term": "monetary policy",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The actions taken by a central bank to manage the money supply and interest rates in order to achieve macroeconomic objectives such as price stability, full employment, and economic growth.",
+        "example": "The central bank tightened monetary policy by raising the benchmark interest rate by fifty basis points, aiming to cool inflationary pressure.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "macroeconomics",
+          "central banking"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43198,8 +43751,19 @@
     "term": "exaptation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A trait that evolved for one function and was subsequently co-opted for a different function, introduced by Gould and Vrba as a corrective to purely adaptationist explanations.",
+        "example": "Feathers are the classic example of exaptation: they appear to have evolved initially for thermoregulation and were only later co-opted for powered flight.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "evolution",
+          "palaeontology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43209,8 +43773,20 @@
     "term": "kin selection",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An evolutionary mechanism through which altruistic behaviour toward genetic relatives can be favoured by natural selection, because shared genes are propagated even when the individual performing the act does not personally reproduce; formalised by Hamilton's rule (rB > C).",
+        "example": "Worker bees forgoing reproduction to raise their sisters' offspring is explained by kin selection: because queens mate multiply, workers still share significant genetic material with the larvae they tend.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "evolution",
+          "sociobiology",
+          "genetics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -43220,8 +43796,19 @@
     "term": "sympatric speciation",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The emergence of new species from a single ancestral population occupying the same geographic area, without physical separation, typically driven by disruptive selection on ecological or behavioural traits.",
+        "example": "Cichlid fish in certain African crater lakes appear to have undergone sympatric speciation driven by sexual selection on male colouration, producing reproductively isolated colour morphs in the same water body.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "evolution",
+          "speciation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
