@@ -45753,7 +45753,7 @@
     "term": "Gedulo ir vilties diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "National day of mourning on June 14 commemorating the mass deportations of Lithuanian citizens to Siberia by Soviet authorities in 1941.",
@@ -45766,14 +45766,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "Birželio keturioliktoji"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "tremtis",
-      "istorija",
-      "Laisvės gynėjų diena"
+      "Birželio 14-oji",
+      "deportacija",
+      "tremtiniai"
     ],
     "translation": "Day of Mourning and Hope (June 14)"
   },
@@ -45781,7 +45779,7 @@
     "term": "Rasos diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Traditional Lithuanian midsummer celebration on June 24, associated with bonfires, gathering of herbs, and ancient folk rituals.",
@@ -45795,14 +45793,13 @@
       }
     ],
     "synonyms": [
-      "Joninių diena",
-      "Rasos"
+      "Joninių diena"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "Joninės",
-      "tradicija",
-      "laužas"
+      "vasaros saulėgrįža",
+      "liaudies tradicija"
     ],
     "translation": "Dew Day / Midsummer (June 24)"
   },
@@ -45810,7 +45807,7 @@
     "term": "Joninių diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Lithuanian midsummer public holiday on June 24 (St. John's Day), celebrated with bonfires, folk songs, and ancient traditions.",
@@ -45824,14 +45821,13 @@
       }
     ],
     "synonyms": [
-      "Joninės",
       "Rasos diena"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "laužas",
-      "tradicija",
-      "šventė"
+      "Joninės",
+      "vasaros saulėgrįža",
+      "ugnis"
     ],
     "translation": "St. John's Day / Midsummer (June 24)"
   },
@@ -45839,7 +45835,7 @@
     "term": "Žalgirio mūšio diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Commemorative day on July 15 marking the anniversary of the Battle of Grunwald in 1410, where Lithuanian and Polish forces defeated the Teutonic Knights.",
@@ -45855,9 +45851,10 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "Lietuva",
-      "istorija",
-      "kariuomenė"
+      "Žalgirio mūšis",
+      "Lenkija",
+      "Vokiečių ordinas",
+      "istorija"
     ],
     "translation": "Battle of Žalgiris Day (July 15)"
   },
@@ -45865,7 +45862,7 @@
     "term": "Juodojo kaspino diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Day of commemoration on August 23 marking the anniversary of the Molotov–Ribbentrop Pact (1939) and honoring victims of Nazi and Soviet totalitarianism.",
@@ -45881,9 +45878,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "istorija",
-      "laisvė",
-      "Gedulo ir vilties diena"
+      "Baltijos kelias",
+      "Molotovo-Ribbentropo paktas",
+      "deportacija"
     ],
     "translation": "Black Ribbon Day (August 23)"
   },
@@ -45891,7 +45888,7 @@
     "term": "Konstitucijos diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "National public holiday on October 25 marking the adoption of the Lithuanian Constitution by referendum in 1992.",
@@ -45907,8 +45904,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "konstitucija",
-      "įstatymas",
+      "Konstitucija",
+      "demokratija",
+      "Lietuva",
       "valstybė"
     ],
     "translation": "Constitution Day (October 25)"
@@ -45917,7 +45915,7 @@
     "term": "Mirusiųjų atminimo diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Day observed in Lithuania around November 1–2 to honor deceased relatives, when families visit cemeteries and light candles on graves.",
@@ -45935,9 +45933,10 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "kapinės",
       "Vėlinės",
-      "tradicija"
+      "kapinės",
+      "atminimas",
+      "lapkritis"
     ],
     "translation": "All Souls' Day / Day of Remembrance of the Deceased"
   },
@@ -45945,7 +45944,7 @@
     "term": "Vėlinių diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Traditional Lithuanian day of commemorating the deceased, observed on or around November 2, when families gather at graves to remember those who have passed.",
@@ -45960,14 +45959,14 @@
       }
     ],
     "synonyms": [
-      "Mirusiųjų atminimo diena",
-      "Vėlinės"
+      "Mirusiųjų atminimo diena"
     ],
     "antonymTerms": [],
     "relatedTerms": [
+      "Vėlinės",
       "kapinės",
-      "žvakė",
-      "tradicija"
+      "žvakutė",
+      "lapkritis"
     ],
     "translation": "All Souls' Day (Vėlinės)"
   },
@@ -46189,7 +46188,7 @@
     "term": "įkurtuvės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A party held to celebrate moving into a new home, during which guests bring gifts and good wishes for happiness and prosperity.",
@@ -46205,8 +46204,9 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "išleistuvės",
-      "šventė",
+      "namai",
+      "vakarėlis",
+      "draugai",
       "dovana"
     ],
     "translation": "housewarming (party)"
@@ -46215,7 +46215,7 @@
     "term": "išleistuvės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A celebration held to mark the completion of school studies or to bid farewell to someone leaving for university, work abroad, or a major life change.",
@@ -46231,8 +46231,10 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "šventė",
-      "įkurtuvės"
+      "baigimas",
+      "abiturientai",
+      "vakarėlis",
+      "mokykla"
     ],
     "translation": "graduation party, farewell party, send-off"
   },
@@ -46644,7 +46646,7 @@
   },
   {
     "term": "orų prognozė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46661,14 +46663,14 @@
       }
     ],
     "synonyms": [
-      "prognozė"
+      "oro prognozė"
     ],
     "antonymTerms": [],
     "relatedTerms": [
+      "meteorologija",
       "oras",
-      "sinoptikas",
-      "lietus",
-      "temperatūra"
+      "temperatūra",
+      "vėjas"
     ],
     "translation": "weather forecast"
   },
@@ -46756,7 +46758,7 @@
   },
   {
     "term": "keleivė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46776,14 +46778,15 @@
     "antonymTerms": [],
     "relatedTerms": [
       "keleivis",
-      "kelionė",
-      "transportas"
+      "transportas",
+      "traukinys",
+      "autobusas"
     ],
     "translation": "passenger (female)"
   },
   {
     "term": "pėsčiųjų perėja",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46801,13 +46804,14 @@
       }
     ],
     "synonyms": [
-      "perėja"
+      "zebras"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "šaligatvis",
       "gatvė",
-      "šviesoforas"
+      "eismas",
+      "šviesoforas",
+      "pėsčiasis"
     ],
     "translation": "pedestrian crossing, crosswalk"
   },
@@ -46925,7 +46929,7 @@
   },
   {
     "term": "ryto spūstis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46941,21 +46945,19 @@
         ]
       }
     ],
-    "synonyms": [
-      "kamštis",
-      "spūstis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "eismas",
+      "eismo kamštis",
       "transportas",
-      "gatvė"
+      "rytinis eismas",
+      "darbas"
     ],
     "translation": "morning rush hour, morning traffic jam"
   },
   {
     "term": "autobusų stotis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -46975,14 +46977,15 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
+      "traukinių stotis",
       "autobusas",
-      "bilietas",
-      "tvarkaraštis"
+      "bilietų kasa",
+      "laukiamasis"
     ]
   },
   {
     "term": "traukinių stotis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47004,14 +47007,15 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
+      "autobusų stotis",
       "traukinys",
-      "peronis",
-      "bilietas"
+      "peronas",
+      "bilietų kasa"
     ]
   },
   {
     "term": "prekybos centras",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47032,13 +47036,14 @@
     "antonymTerms": [],
     "relatedTerms": [
       "parduotuvė",
-      "pirkti",
-      "turgus"
+      "turgus",
+      "supermarketas",
+      "apsipirkimas"
     ]
   },
   {
     "term": "turgaus aikštė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47055,14 +47060,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "turgus"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "pardavėjas",
-      "apsipirkti",
-      "miesto centras"
+      "turgus",
+      "aikštė",
+      "prekyba",
+      "miestas"
     ]
   },
   {
@@ -47146,7 +47150,7 @@
   },
   {
     "term": "kainoraštis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47169,8 +47173,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "kaina",
-      "sąskaita",
-      "parduotuvė"
+      "meniu",
+      "katalogas",
+      "pasiūla"
     ]
   },
   {
@@ -47230,7 +47235,7 @@
   },
   {
     "term": "banko kortelė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47250,18 +47255,17 @@
     "synonyms": [
       "mokėjimo kortelė"
     ],
-    "antonymTerms": [
-      "grynieji pinigai"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
       "bankas",
-      "pinigai",
-      "mokėjimas"
+      "mokėjimas",
+      "kredito kortelė",
+      "debeto kortelė"
     ]
   },
   {
     "term": "pirkėja",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47277,21 +47281,20 @@
         ]
       }
     ],
-    "synonyms": [
-      "kliente"
-    ],
+    "synonyms": [],
     "antonymTerms": [
       "pardavėja"
     ],
     "relatedTerms": [
       "pirkėjas",
+      "pardavėjas",
       "parduotuvė",
-      "prekė"
+      "apsipirkimas"
     ]
   },
   {
     "term": "matavimosi kabina",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47313,9 +47316,9 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "drabužiai",
       "parduotuvė",
-      "dydis"
+      "drabužiai",
+      "apsipirkimas"
     ]
   },
   {
@@ -47381,7 +47384,7 @@
   },
   {
     "term": "klasiokas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47402,12 +47405,13 @@
     "relatedTerms": [
       "klasiokė",
       "klasė",
-      "draugas"
+      "draugas",
+      "mokykla"
     ]
   },
   {
     "term": "klasiokė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47428,7 +47432,8 @@
     "relatedTerms": [
       "klasiokas",
       "klasė",
-      "draugė"
+      "draugė",
+      "mokykla"
     ]
   },
   {
@@ -47513,7 +47518,7 @@
   },
   {
     "term": "namų darbai",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "phrase",
     "tags": [],
@@ -47532,9 +47537,10 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "užduotis",
-      "pratybos",
-      "pamoka"
+      "mokykla",
+      "pamoka",
+      "mokinys",
+      "užduotis"
     ]
   },
   {
@@ -47591,7 +47597,7 @@
   },
   {
     "term": "kontrolinis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47611,8 +47617,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "egzaminas",
-      "pažymys",
-      "mokytis"
+      "testas",
+      "mokykla",
+      "vertinimas"
     ]
   },
   {
@@ -47791,7 +47798,7 @@
   },
   {
     "term": "gipsas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47812,8 +47819,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "lūžis",
-      "kaulai",
-      "ortopedas"
+      "gydytojas",
+      "ortopedas",
+      "tvarstas"
     ],
     "qaNote": "Nominative singular: gipsas. Genitive: gipso. Also refers to the material itself (gypsum/plaster). In a medical context, specifically means a cast. B2 medical vocabulary."
   },
@@ -47905,7 +47913,7 @@
   },
   {
     "term": "sumušimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -47927,9 +47935,10 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
+      "trauma",
       "žaizda",
-      "susilaužymas",
-      "pirmoji pagalba"
+      "lūžis",
+      "sužalojimas"
     ],
     "qaNote": "Nominative singular: sumušimas. Verbal root: sumušti (to bruise/beat). B2 medical vocabulary used in first-aid and casualty contexts."
   },
@@ -48268,7 +48277,7 @@
   },
   {
     "term": "semtuvėlis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48285,14 +48294,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "šiukšlių semtuvėlis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "šluota",
       "valymas",
-      "grindys"
+      "grindys",
+      "šiukšlės"
     ]
   },
   {
@@ -48324,7 +48332,7 @@
   },
   {
     "term": "muilinė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48341,19 +48349,18 @@
         ]
       }
     ],
-    "synonyms": [
-      "muilo dėklas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "muilas",
-      "kriauklė",
-      "rankšluostis"
+      "vonios kambarys",
+      "higiena",
+      "lentyna"
     ]
   },
   {
     "term": "džiovyklė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48371,14 +48378,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "skalbinių džiovyklė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "skalbimo mašina",
       "skalbiniai",
-      "lygintuvas"
+      "buitinė technika",
+      "elektra"
     ]
   },
   {
@@ -48438,7 +48444,7 @@
   },
   {
     "term": "samtuvas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48456,19 +48462,18 @@
         ]
       }
     ],
-    "synonyms": [
-      "sriubos samtis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
+      "šaukštas",
+      "virtuvė",
       "sriuba",
-      "puodas",
-      "virtuvė"
+      "indas"
     ]
   },
   {
     "term": "pjaustymo lenta",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48485,19 +48490,18 @@
         ]
       }
     ],
-    "synonyms": [
-      "pjaustyklė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "peilis",
+      "virtuvė",
       "daržovės",
-      "virtuvė"
+      "maistas"
     ]
   },
   {
     "term": "druskinė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48515,21 +48519,18 @@
         ]
       }
     ],
-    "synonyms": [
-      "druskos indelis"
-    ],
-    "antonymTerms": [
-      "pipirinė"
-    ],
+    "synonyms": [],
+    "antonymTerms": [],
     "relatedTerms": [
-      "druska",
       "pipirinė",
-      "stalas"
+      "druska",
+      "stalas",
+      "prieskoniai"
     ]
   },
   {
     "term": "pipirinė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -48547,16 +48548,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "pipirų indelis"
-    ],
-    "antonymTerms": [
-      "druskinė"
-    ],
+    "synonyms": [],
+    "antonymTerms": [],
     "relatedTerms": [
-      "pipirai",
       "druskinė",
-      "stalas"
+      "pipirai",
+      "stalas",
+      "prieskoniai"
     ]
   },
   {

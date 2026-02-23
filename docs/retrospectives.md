@@ -4129,3 +4129,26 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 ### Decisions made
 - Used descriptive phrase synonyms for EN entries without single-word equivalents (e.g. "ethical appeal"/"appeal to character" for ethos) — judged co-extensive with defined senses
 - For LT gendered-pair nouns (sinoptikas/sinoptikė, etc.), cross-gender counterpart placed in relatedTerms per rubric; antonymTerms left [] where only negation-prefixed antonyms existed (kantrus, punktualus)
+
+## Relations Agent — relations-48 — 2025-07-23
+
+### What was done
+- Read AGENTS.md and docs/VOCAB-AGENT.md; preflight JSON check on both staging files (both passed)
+- EN: all 35 enriched entries processed → relations-added (persuasion theory, anthropology, legal philosophy, economics, sociology, psychology defense mechanisms)
+- LT: first 35 enriched entries processed → relations-added (national holidays, transport, retail, school, household items)
+- Validator first run flagged 31 EN errors (insufficient synonyms ≥2); revised all undersupplied entries with semantically sound second synonyms
+- Validator second run flagged 1 LT error: "kontrolinis darbas" in synonyms of "kontrolinis" (self-referential substring); fixed by setting synonyms: []
+- Both files: PASSED --errors-for relations-added with 0 errors
+
+### What went well
+- Parallel script approach applied all 70 entries cleanly in two passes
+- Semantic rules enforced: synonyms co-extensive with defined senses (not hypernyms), antonymTerms genuine opposites only (e.g. mechanism vs teleology, ethnocentrism vs cultural relativism), no negation-prefixed antonyms, LT terms in nominative form
+- Cross-array duplicates detected and resolved before commit (intellectualism, experimentalism, particularism moved exclusively to synonyms)
+
+### What could improve
+- EN ≥2 synonym requirement is hard for very technical/proper-name phrases (elaboration likelihood, constitutional law, legal positivism, etc.) — required creative but still co-extensive terms
+- Pre-check self-referential risk in LT compound noun synonyms before writing (e.g. "kontrolinis darbas" contains headword "kontrolinis")
+
+### Decisions made
+- For LT holiday proper-noun phrases (Gedulo ir vilties diena, Žalgirio mūšio diena, etc.): synonyms=[], antonymTerms=[], relatedTerms limited to closely associated proper nouns and concepts
+- For EN phrases with no standard single-word synonyms, used descriptive phrase synonyms judged co-extensive with the defined senses (e.g. "budget deficit financing", "drive rechanneling")
