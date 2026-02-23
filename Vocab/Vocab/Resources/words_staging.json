@@ -1565,7 +1565,7 @@
   {
     "term": "orography",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
@@ -1597,7 +1597,7 @@
   {
     "term": "isohyet",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
@@ -1629,7 +1629,7 @@
   {
     "term": "isobath",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
@@ -1661,7 +1661,7 @@
   {
     "term": "physiography",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
@@ -1693,7 +1693,7 @@
   {
     "term": "isotherm",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C1",
@@ -1725,7 +1725,7 @@
   {
     "term": "hypsography",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
@@ -1757,7 +1757,7 @@
   {
     "term": "azimuth",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C1",
@@ -1789,7 +1789,7 @@
   {
     "term": "fjord",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "register": "general",
     "level": "C1",
@@ -1822,7 +1822,7 @@
   {
     "term": "isthmus",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "register": "general",
     "level": "C1",
@@ -1842,14 +1842,10 @@
       "neck of land"
     ],
     "antonymTerms": [
-      {
-        "term": "strait",
-        "meaning": "A narrow body of water connecting two larger bodies of water, the geographic inverse of an isthmus."
-      }
+      "strait"
     ],
     "relatedTerms": [
       "peninsula",
-      "strait",
       "canal",
       "geography",
       "land mass"
@@ -1955,7 +1951,7 @@
   {
     "term": "roman à thèse",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "register": "formal",
     "level": "C2",
@@ -1987,7 +1983,7 @@
   {
     "term": "storyworld",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
@@ -2019,7 +2015,7 @@
   {
     "term": "heterodiegetic",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "register": "technical",
     "level": "C2",
@@ -2040,13 +2036,9 @@
       "non-participant narrator"
     ],
     "antonymTerms": [
-      {
-        "term": "homodiegetic",
-        "meaning": "Describing a narrator who is present as a character within the story world they narrate."
-      }
+      "homodiegetic"
     ],
     "relatedTerms": [
-      "homodiegetic",
       "intradiegetic",
       "extradiegetic",
       "narratology",
@@ -2056,7 +2048,7 @@
   {
     "term": "extradiegetic",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "register": "technical",
     "level": "C2",
@@ -2077,13 +2069,9 @@
       "above-story narrator"
     ],
     "antonymTerms": [
-      {
-        "term": "intradiegetic",
-        "meaning": "Existing within the story world, as opposed to outside it."
-      }
+      "intradiegetic"
     ],
     "relatedTerms": [
-      "intradiegetic",
       "heterodiegetic",
       "narratology",
       "metanarrative",
@@ -2093,7 +2081,7 @@
   {
     "term": "intradiegetic",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "adjective",
     "register": "technical",
     "level": "C2",
@@ -2114,13 +2102,9 @@
       "within-story narrator"
     ],
     "antonymTerms": [
-      {
-        "term": "extradiegetic",
-        "meaning": "Existing at a narrative level outside and above the primary story world."
-      }
+      "extradiegetic"
     ],
     "relatedTerms": [
-      "extradiegetic",
       "heterodiegetic",
       "narratology",
       "embedded narrative",
@@ -2134,7 +2118,7 @@
     "partOfSpeech": "noun",
     "register": "literary",
     "level": "C2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A long novel or sequence of novels following the lives of a family or social group across generations.",
@@ -2161,7 +2145,7 @@
   {
     "term": "equal temperament",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2183,10 +2167,7 @@
       "12-TET"
     ],
     "antonymTerms": [
-      {
-        "term": "just intonation",
-        "meaning": "A tuning system based on pure harmonic ratios, as opposed to the equally spaced intervals of equal temperament."
-      }
+      "just intonation"
     ],
     "relatedTerms": [
       "tuning",
@@ -2199,7 +2180,7 @@
   {
     "term": "coloratura",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2249,7 +2230,7 @@
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A vocal exercise or musical composition sung on open vowel sounds, without words.",
@@ -2280,7 +2261,7 @@
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A compositional technique that uses all seven notes of the diatonic scale freely, without strict adherence to traditional harmonic progressions.",
@@ -2311,7 +2292,7 @@
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A compositional approach that derives musical structures from the acoustic properties of sound, particularly the overtone series.",
@@ -2342,7 +2323,7 @@
     "partOfSpeech": "noun",
     "register": "formal",
     "level": "C1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A revival or adaptation of classical styles, forms, and principles in art, literature, architecture, or music.",
@@ -2358,10 +2339,7 @@
       "classical revival"
     ],
     "antonymTerms": [
-      {
-        "term": "avant-gardism",
-        "meaning": "An approach favouring experimental innovation over the revival of traditional forms."
-      }
+      "avant-gardism"
     ],
     "relatedTerms": [
       "classicism",
@@ -2375,7 +2353,7 @@
   {
     "term": "sprechstimme",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2412,7 +2390,7 @@
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The practice in medieval and Renaissance music of raising or lowering certain notes by a semitone to avoid dissonant intervals or to create smoother melodic lines, often left unnotated.",
@@ -2439,7 +2417,7 @@
   {
     "term": "choreography",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2483,7 +2461,7 @@
   {
     "term": "mise en scène",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -2528,7 +2506,7 @@
   {
     "term": "blocking",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2571,7 +2549,7 @@
   {
     "term": "dramaturgy",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2614,7 +2592,7 @@
   {
     "term": "fourth wall",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2658,7 +2636,7 @@
   {
     "term": "anagnorisis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2691,7 +2669,7 @@
   {
     "term": "deus ex machina",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -2735,7 +2713,7 @@
   {
     "term": "hamartia",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2769,7 +2747,7 @@
   {
     "term": "stichomythia",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2806,7 +2784,7 @@
     "partOfSpeech": "noun",
     "register": "technical",
     "level": "C2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The subordinate clause of a conditional sentence, typically introduced by 'if', which states the condition.",
@@ -2830,13 +2808,9 @@
       "conditional clause"
     ],
     "antonymTerms": [
-      {
-        "term": "apodosis",
-        "meaning": "The main clause of a conditional sentence, stating the consequence of the condition."
-      }
+      "apodosis"
     ],
     "relatedTerms": [
-      "apodosis",
       "conditional sentence",
       "syntax",
       "rhetoric",
@@ -2846,7 +2820,7 @@
   {
     "term": "dramatis personae",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2878,7 +2852,7 @@
   {
     "term": "soliloquy",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
