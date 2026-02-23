@@ -38414,178 +38414,783 @@
   },
   {
     "term": "falsificationism",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "Karl Popper's criterion for scientific status, holding that a theory is genuinely scientific only if it makes predictions that could, in principle, be proven false by observation or experiment.",
+        "example": "By falsificationism, Einstein's general relativity qualifies as science because its prediction of light bending around the sun was testable and could have been refuted.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "epistemology",
+          "Karl Popper"
+        ]
+      },
+      {
+        "definition": "The broader philosophical position that falsifiability—rather than verifiability—is the hallmark of empirical meaningfulness.",
+        "example": "Critics of Freudian psychoanalysis applied falsificationism to argue that unfalsifiable theories cannot be considered scientific no matter how intuitively compelling.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "demarcation problem",
+          "scientific method"
+        ]
+      }
+    ]
   },
   {
     "term": "paradigm shift",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "In Thomas Kuhn's philosophy of science, a revolutionary transformation of the dominant conceptual framework within a scientific community, replacing normal science with an entirely new set of assumptions and exemplary problems.",
+        "example": "The adoption of plate tectonics in geology represented a paradigm shift that made previously puzzling phenomena—such as the fit of continental coastlines—suddenly intelligible.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "Thomas Kuhn",
+          "scientific revolution"
+        ]
+      },
+      {
+        "definition": "By extension, any fundamental and far-reaching change in approach or underlying assumptions within a field or organisation.",
+        "example": "The shift from waterfall to agile development was a paradigm shift in how software teams planned and delivered projects.",
+        "register": "general",
+        "tags": [
+          "general usage",
+          "innovation",
+          "change management"
+        ]
+      }
+    ]
   },
   {
     "term": "Occam's razor",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A methodological principle, attributed to William of Ockham, stating that among competing explanations that fit the data equally well, the one that posits fewer entities or assumptions is to be preferred.",
+        "example": "Applying Occam's razor, astronomers favoured the heliocentric model over elaborate epicycle-laden geocentric systems once both explained observations with similar accuracy.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "parsimony",
+          "epistemology"
+        ]
+      },
+      {
+        "definition": "In everyday reasoning, the heuristic of choosing the simplest explanation for a phenomenon when more complex alternatives are not necessary.",
+        "example": "When the server went down right after a software update, Occam's razor suggested the update was the cause rather than an unrelated hardware failure.",
+        "register": "general",
+        "tags": [
+          "reasoning",
+          "heuristic",
+          "problem-solving"
+        ]
+      }
+    ]
   },
   {
     "term": "induction",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A form of inference in which specific observations are generalised to a broader conclusion or law, with the resulting claim going beyond what is strictly entailed by the evidence.",
+        "example": "Newton's induction from the fall of apples and planetary orbits to a universal law of gravitation remains the canonical example of scientific induction.",
+        "register": "technical",
+        "tags": [
+          "logic",
+          "epistemology",
+          "scientific method"
+        ]
+      },
+      {
+        "definition": "In mathematics, a proof technique (mathematical induction) by which a property is shown to hold for all natural numbers by establishing a base case and an inductive step.",
+        "example": "The formula for the sum of the first n integers was verified for all n by induction, starting from the trivial case n=1.",
+        "register": "technical",
+        "tags": [
+          "mathematics",
+          "proof",
+          "logic"
+        ]
+      },
+      {
+        "definition": "In physics, electromagnetic induction: the generation of an electromotive force in a conductor by a changing magnetic flux.",
+        "example": "Faraday demonstrated induction by showing that moving a magnet through a coil of wire produced a measurable electric current.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "electromagnetism",
+          "Faraday"
+        ]
+      }
+    ]
   },
   {
     "term": "hypothetico-deductive method",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A scientific procedure in which a hypothesis is proposed, specific observable predictions are logically deduced from it, and those predictions are then tested against empirical evidence.",
+        "example": "Using the hypothetico-deductive method, researchers derived testable predictions from their cancer-marker hypothesis and then ran controlled trials to check them.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "scientific method",
+          "epistemology"
+        ]
+      }
+    ]
   },
   {
     "term": "logical positivism",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A philosophical movement of the early twentieth century, associated with the Vienna Circle, holding that only statements verifiable by empirical observation or by logical/mathematical analysis are cognitively meaningful; all other utterances are meaningless.",
+        "example": "Under logical positivism, metaphysical claims like 'everything is made of spirit' are neither true nor false but simply meaningless because they admit no empirical test.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "Vienna Circle",
+          "logical empiricism"
+        ]
+      },
+      {
+        "definition": "More broadly, the view that scientific knowledge is the only genuine form of knowledge, with philosophy's role limited to clarifying the language of science.",
+        "example": "Logical positivism influenced mid-century psychology, pushing behaviourists to restrict their vocabulary to operationally defined, observable terms.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "behaviourism",
+          "epistemology"
+        ]
+      }
+    ]
   },
   {
     "term": "scientific realism",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The view in philosophy of science that successful scientific theories provide approximately true descriptions of the world, including unobservable entities such as electrons and quarks, and that science converges toward truth over time.",
+        "example": "Scientific realism is often supported by the 'no-miracles argument': the predictive success of science would be miraculous if theoretical entities did not actually exist.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "metaphysics",
+          "epistemology"
+        ]
+      }
+    ]
   },
   {
     "term": "instrumentalism",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "In philosophy of science, the position that scientific theories are not true or false descriptions of reality but are instruments or tools for generating successful predictions; their value lies in predictive utility rather than ontological accuracy.",
+        "example": "An instrumentalist is comfortable using quantum mechanics without asking whether wavefunctions correspond to anything real, so long as the formalism yields correct experimental predictions.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "anti-realism",
+          "epistemology"
+        ]
+      },
+      {
+        "definition": "In social and political philosophy, the view that institutions, laws, or values are valuable solely as means to further ends, not as goods in themselves.",
+        "example": "An instrumentalist view of democracy values it only insofar as it reliably produces good outcomes, not as an intrinsically worthy form of governance.",
+        "register": "formal",
+        "tags": [
+          "philosophy",
+          "political theory",
+          "ethics"
+        ]
+      }
+    ]
   },
   {
     "term": "inference to the best explanation",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A form of abductive reasoning, introduced by Gilbert Harman, in which one infers that whichever hypothesis would, if true, provide the best explanation of the available evidence is (approximately) true.",
+        "example": "Doctors use inference to the best explanation when they diagnose a disease: the diagnosis that most coherently accounts for all symptoms is tentatively accepted pending further tests.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "epistemology",
+          "logic",
+          "abduction"
+        ]
+      }
+    ]
   },
   {
     "term": "theoretical virtue",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "Any property of a scientific theory—such as simplicity, scope, fruitfulness, internal consistency, or coherence with background knowledge—that counts as an epistemic merit and influences rational theory choice.",
+        "example": "Parsimony is considered a theoretical virtue because a theory that explains the same data with fewer posited entities is generally preferable to a more ontologically bloated rival.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "theory choice",
+          "epistemology"
+        ]
+      }
+    ]
   },
   {
     "term": "Duhem-Quine thesis",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The claim, associated with Pierre Duhem and W. V. O. Quine, that a scientific hypothesis cannot be tested in isolation because any test also relies on auxiliary assumptions; a failed prediction therefore underdetermines which component—the hypothesis or an auxiliary—is false.",
+        "example": "When the Michelson–Morley experiment failed to detect the ether, the Duhem-Quine thesis implies scientists could have saved the ether hypothesis by revising auxiliary assumptions about the apparatus rather than abandoning it outright.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "underdetermination",
+          "holism"
+        ]
+      }
+    ]
   },
   {
     "term": "verificationism",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The semantic doctrine, central to logical positivism, that a statement is meaningful if and only if it is either empirically verifiable in principle or analytically true by virtue of meaning alone.",
+        "example": "Verificationism condemns theological claims such as 'God is omnipotent' as meaningless because no conceivable observation could confirm or disconfirm them.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "logical positivism",
+          "Vienna Circle"
+        ]
+      }
+    ]
   },
   {
     "term": "demarcation problem",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The philosophical challenge of identifying a principled criterion that distinguishes genuine science from non-science, pseudoscience, metaphysics, or other disciplines.",
+        "example": "Popper addressed the demarcation problem by proposing falsifiability as the key criterion: astrology fails because its predictions are too vague to risk refutation.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "falsificationism",
+          "epistemology"
+        ]
+      }
+    ]
   },
   {
     "term": "theory-ladenness",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The thesis that observational reports are never purely neutral but are always interpreted through and shaped by prior theoretical commitments, concepts, and expectations of the observer.",
+        "example": "Theory-ladenness is illustrated by the fact that a trained radiologist and a layperson looking at the same X-ray 'see' entirely different things, each according to their theoretical background.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "observation",
+          "epistemology"
+        ]
+      }
+    ]
   },
   {
     "term": "Bayesian epistemology",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A philosophical approach to knowledge and rational belief that uses probability theory, and particularly Bayes's theorem, to model how agents should update their degrees of belief in hypotheses in the light of new evidence.",
+        "example": "Bayesian epistemology explains why a single confirming instance of a rare prediction raises confidence in a hypothesis more dramatically than a confirming instance of a common prediction.",
+        "register": "technical",
+        "tags": [
+          "epistemology",
+          "probability",
+          "philosophy of science"
+        ]
+      }
+    ]
   },
   {
     "term": "prospect theory",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A descriptive model of decision-making under risk, developed by Daniel Kahneman and Amos Tversky, in which people evaluate outcomes as gains or losses relative to a reference point and weight potential losses more heavily than equivalent gains.",
+        "example": "Prospect theory predicts that people will gamble to avoid a certain loss of £50 but prefer the certain gain of £50 over an equivalent gamble—an asymmetry unexplained by expected utility theory.",
+        "register": "technical",
+        "tags": [
+          "behavioural economics",
+          "cognitive bias",
+          "decision theory"
+        ]
+      }
+    ]
   },
   {
     "term": "loss aversion",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The psychological tendency, documented by Kahneman and Tversky, for the pain of losing something to feel approximately twice as intense as the pleasure of gaining something of equivalent value.",
+        "example": "Loss aversion explains why investors often hold on to falling stocks too long: selling would crystallise a loss, which feels worse than the paper loss of continuing to hold.",
+        "register": "technical",
+        "tags": [
+          "behavioural economics",
+          "prospect theory",
+          "cognitive bias"
+        ]
+      }
+    ]
   },
   {
     "term": "endowment effect",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The tendency for people to place a higher monetary value on an object they own than on an identical object they do not own, a manifestation of loss aversion identified by Thaler, Kahneman, and Knetsch.",
+        "example": "Students who received a university mug in an experiment consistently demanded more money to sell it than students without one were willing to pay to buy it—a classic demonstration of the endowment effect.",
+        "register": "technical",
+        "tags": [
+          "behavioural economics",
+          "loss aversion",
+          "cognitive bias"
+        ]
+      }
+    ]
   },
   {
     "term": "mental accounting",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "Richard Thaler's concept describing the cognitive practice by which people categorise money into separate non-fungible 'accounts'—such as 'food budget' or 'windfall money'—and treat equivalent funds differently depending on their perceived source or category.",
+        "example": "Mental accounting explains why people readily spend a tax refund on a luxury item yet refuse to dip into savings for the same purchase, even though the money has identical economic value.",
+        "register": "technical",
+        "tags": [
+          "behavioural economics",
+          "cognitive bias",
+          "Richard Thaler"
+        ]
+      }
+    ]
   },
   {
     "term": "status quo bias",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A cognitive bias in which people exhibit a disproportionate preference for the current state of affairs, perceiving any change from it as a loss rather than a potential gain and thus resisting alternatives even when switching would be objectively beneficial.",
+        "example": "Pension scheme designers exploit status quo bias by making enrolment the default: employees who must actively opt out are far more likely to save than those who must opt in.",
+        "register": "technical",
+        "tags": [
+          "behavioural economics",
+          "decision-making",
+          "cognitive bias"
+        ]
+      }
+    ]
   },
   {
     "term": "affect heuristic",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A mental shortcut in which an individual's current emotional state or affective reaction to a concept serves as the primary basis for judgment and decision-making, rather than deliberate cost-benefit analysis.",
+        "example": "The affect heuristic partly explains why public opposition to nuclear power remains high even when statistics show it causes fewer deaths per unit of energy than fossil fuels—fear overrides the numbers.",
+        "register": "technical",
+        "tags": [
+          "psychology",
+          "heuristics",
+          "decision-making",
+          "cognitive bias"
+        ]
+      }
+    ]
   },
   {
     "term": "base rate neglect",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A cognitive bias in which people ignore or underweight statistical base-rate information about the overall frequency of a category when judging the probability of a specific case, instead relying heavily on individuating or vivid information.",
+        "example": "In Kahneman and Tversky's taxi-cab problem, subjects who were told a witness identified a Blue cab as the culprit ignored the base rate (only 15% of cabs are Blue), drastically overestimating the probability of a Blue cab.",
+        "register": "technical",
+        "tags": [
+          "cognitive bias",
+          "heuristics",
+          "probability"
+        ]
+      }
+    ]
   },
   {
     "term": "conjunction fallacy",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "An error in probabilistic reasoning in which a person judges a conjunction of two events as more probable than one of its constituent events alone, violating the elementary rule that P(A ∧ B) ≤ P(A).",
+        "example": "In the Linda problem, most subjects judged 'Linda is a bank teller and active in the feminist movement' as more probable than 'Linda is a bank teller', committing the conjunction fallacy.",
+        "register": "technical",
+        "tags": [
+          "cognitive bias",
+          "probability",
+          "Kahneman",
+          "Tversky"
+        ]
+      }
+    ]
   },
   {
     "term": "hindsight bias",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The tendency, after learning an outcome, to believe that one would have predicted or anticipated it beforehand—the 'I knew it all along' phenomenon—which distorts memory of prior uncertainty.",
+        "example": "Hindsight bias leads many investors to misremember doubting a stock that lost value, making them overconfident in their ability to foresee future market movements.",
+        "register": "technical",
+        "tags": [
+          "cognitive bias",
+          "psychology",
+          "memory"
+        ]
+      }
+    ]
   },
   {
     "term": "Dunning-Kruger effect",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A metacognitive phenomenon in which people with limited knowledge or competence in a domain tend to overestimate their own ability, partly because the same lack of skill prevents them from recognising their errors; conversely, highly competent people may underestimate their relative standing.",
+        "example": "The Dunning-Kruger effect was demonstrated experimentally when students who scored lowest on logic tests also grossly overestimated how well they had performed compared with peers.",
+        "register": "technical",
+        "tags": [
+          "psychology",
+          "metacognition",
+          "cognitive bias"
+        ]
+      }
+    ]
   },
   {
     "term": "gambler's fallacy",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The mistaken belief that a random process is self-correcting in the short run—that after a sequence of outcomes biased in one direction, the opposite outcome becomes more likely—when in reality each event is statistically independent.",
+        "example": "A roulette player who bets on red after ten consecutive blacks is committing the gambler's fallacy: the wheel has no memory and the probability remains 18/38 regardless of prior spins.",
+        "register": "technical",
+        "tags": [
+          "cognitive bias",
+          "probability",
+          "statistics"
+        ]
+      }
+    ]
   },
   {
     "term": "hyperbolic discounting",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A pattern of intertemporal preference in which individuals discount rewards very steeply over short delays but far less steeply over longer horizons, producing time-inconsistent choices and present bias.",
+        "example": "Hyperbolic discounting explains why someone insists they will start exercising next month but never this week—the proximate cost looms far larger than the distant benefit.",
+        "register": "technical",
+        "tags": [
+          "behavioural economics",
+          "decision-making",
+          "cognitive bias"
+        ]
+      }
+    ]
   },
   {
     "term": "signaling theory",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "An economic and evolutionary framework explaining how one party in an interaction conveys credible information to another when direct communication would be unreliable, typically through costly or hard-to-fake signals.",
+        "example": "Education as signaling theory, popularised by Michael Spence, holds that degrees signal worker quality to employers not because they impart skills but because high-ability individuals find them cheaper to obtain.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "game theory",
+          "information asymmetry"
+        ]
+      },
+      {
+        "definition": "In biology, the study of how animals communicate honest information about fitness, resources, or intentions through observable traits such as colourful plumage or elaborate courtship displays.",
+        "example": "The peacock's tail is the classic example in biological signaling theory: its metabolic cost makes it a reliable signal of genetic quality that cannot be easily faked by weak males.",
+        "register": "technical",
+        "tags": [
+          "evolutionary biology",
+          "animal behaviour",
+          "sexual selection"
+        ]
+      }
+    ]
   },
   {
     "term": "Arrow's impossibility theorem",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "Kenneth Arrow's 1951 mathematical result proving that no rank-order voting system can simultaneously satisfy a small set of seemingly reasonable fairness conditions (unanimity, independence of irrelevant alternatives, transitivity, and non-dictatorship) when there are three or more alternatives.",
+        "example": "Arrow's impossibility theorem is why no electoral system is universally 'fair': any voting rule will violate at least one of his desiderata in some configuration of voter preferences.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "social choice theory",
+          "voting"
+        ]
+      }
+    ]
   },
   {
     "term": "Pareto efficiency",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "An allocation of resources in which no individual can be made better off without making at least one other individual worse off; a state in which all mutually beneficial exchanges have been exhausted.",
+        "example": "A competitive market equilibrium under idealised conditions is Pareto efficient: any reallocation that benefits one consumer would necessarily harm another through higher prices or reduced supply.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "welfare economics",
+          "Vilfredo Pareto"
+        ]
+      },
+      {
+        "definition": "By extension in multi-objective optimisation, a solution is Pareto efficient if no objective can be improved without degrading at least one other objective, forming the Pareto frontier.",
+        "example": "Engineers used Pareto efficiency to balance fuel consumption and performance, mapping the full Pareto frontier before selecting a design that met mission requirements.",
+        "register": "technical",
+        "tags": [
+          "optimisation",
+          "engineering",
+          "multi-objective"
+        ]
+      }
+    ]
   },
   {
     "term": "social capital",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The networks of relationships, norms of reciprocity, and trust among individuals and groups that facilitate collective action and enable members of a community to achieve outcomes they could not attain in isolation.",
+        "example": "Robert Putnam's research found that regions of Italy with dense civic associations—orchestras, football clubs, cooperatives—had significantly higher economic performance, attributable to their greater social capital.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "economics",
+          "Putnam",
+          "Bourdieu"
+        ]
+      }
+    ]
   },
   {
     "term": "symbolic interactionism",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A sociological and social-psychological perspective holding that people act toward things—objects, other people, ideas—based on the meanings those things have for them, and that meanings arise from and are modified through social interaction.",
+        "example": "Symbolic interactionism helps explain why the same physical gesture carries radically different meanings across cultures: a thumbs-up signals approval in many Western contexts but is offensive in others.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "social psychology",
+          "George Herbert Mead"
+        ]
+      }
+    ]
   },
   {
     "term": "class consciousness",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "In Marxist theory, the awareness by members of a social class of their shared economic interests and their collective position in relation to other classes, which can motivate organised political action.",
+        "example": "Marx distinguished between the proletariat's 'class in itself'—an objective economic category—and 'class for itself', in which class consciousness had developed and workers pursued their interests collectively.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Marxism",
+          "political theory"
+        ]
+      }
+    ]
   },
   {
     "term": "social mobility",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "The movement of individuals, families, or groups between different positions in the social or economic hierarchy over the course of one or more generations.",
+        "example": "Cross-national studies of social mobility consistently find that the Nordic countries have the highest intergenerational income elasticity, meaning parental income is the weakest predictor of a child's earnings.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "economics",
+          "inequality"
+        ]
+      },
+      {
+        "definition": "In a broader sense, the degree to which a society's stratification system is open, allowing merit and effort rather than birth to determine status.",
+        "example": "The rhetoric of the American Dream equates social mobility with meritocracy, though empirical data suggest the correlation between parental and child income is stronger in the US than in many European nations.",
+        "register": "general",
+        "tags": [
+          "sociology",
+          "inequality",
+          "meritocracy"
+        ]
+      }
+    ]
   },
   {
     "term": "cultural capital",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "Pierre Bourdieu's concept for the non-financial assets—knowledge, skills, education, aesthetic preferences, and cultural knowledge—that confer social mobility advantages and are valued within particular social fields.",
+        "example": "Children from privileged families arrive at elite universities already possessing cultural capital in the form of familiarity with classical music, art history, and the implicit norms of academic discourse.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Bourdieu",
+          "education",
+          "inequality"
+        ]
+      },
+      {
+        "definition": "More broadly, the symbolic resources—traditions, languages, artworks—that define and perpetuate the identity of a group or nation.",
+        "example": "Governments invest in museums and heritage sites partly to accumulate and display cultural capital, projecting an image of civilised depth on the international stage.",
+        "register": "formal",
+        "tags": [
+          "cultural studies",
+          "sociology",
+          "heritage"
+        ]
+      }
+    ]
   },
   {
     "term": "poststructuralism",
