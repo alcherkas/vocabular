@@ -391,9 +391,13 @@ struct QuizView: View {
     }
     
     private func resetQuiz() {
-        quizWords = []
-        currentQuestion = nil
-        quizCompleted = false
+        if let onComplete {
+            onComplete(score, totalQuestions)
+        } else {
+            quizWords = []
+            currentQuestion = nil
+            quizCompleted = false
+        }
     }
 
     private func resolvedMode(for language: String) -> QuizMode {

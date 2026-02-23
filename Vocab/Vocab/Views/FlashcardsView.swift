@@ -208,6 +208,13 @@ struct FlashcardView: View {
             if isFlipped {
                 // Back of card - definition
                 VStack(spacing: 20) {
+                    if word.language == "lt", let translation = word.translation, !translation.isEmpty {
+                        Text(translation)
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundStyle(.accentColor)
+                    }
+
                     Text(word.definition)
                         .font(.title3)
                         .multilineTextAlignment(.center)

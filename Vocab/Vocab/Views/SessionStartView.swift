@@ -6,6 +6,12 @@ struct SessionStartView: View {
     @Query private var allWords: [Word]
     @Bindable var sessionService: SessionService
     @State private var showWordOfDayDetails = false
+    @State private var studyMode: StudyMode = .flashcards
+
+    enum StudyMode: String, CaseIterable {
+        case flashcards = "Flashcards"
+        case quiz = "Quiz"
+    }
 
     private var hasEverStudied: Bool {
         allWords.contains { $0.timesSeen > 0 }
@@ -91,6 +97,15 @@ struct SessionStartView: View {
             )) {
                 Text("🇬🇧 English").tag("en")
                 Text("🇱🇹 Lithuanian").tag("lt")
+            }
+            .pickerStyle(.segmented)
+            .padding(.horizontal)
+
+            // Study mode picker
+            Picker("Mode", selection: $studyMode) {
+                ForEach(StudyMode.allCases, id: \.self) { mode in
+                    Text(mode.rawValue).tag(mode)
+                }
             }
             .pickerStyle(.segmented)
             .padding(.horizontal)
@@ -247,7 +262,9 @@ struct SessionStartView: View {
             // Progress header
             VStack(spacing: 8) {
                 HStack {
-                    Text("Question \(sessionService.currentIndex + 1) of \(sessionService.sessionWords.count)")
+                    Text(studyMode == .quiz
+                         ? "Quiz · \(sessionService.sessionWords.count) words"
+                         : "Question \(sessionService.currentIndex + 1) of \(sessionService.sessionWords.count)")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                     Spacer()
@@ -259,17 +276,25 @@ struct SessionStartView: View {
                 }
                 .padding(.horizontal)
 
-                ProgressView(
-                    value: Double(sessionService.currentIndex),
-                    total: Double(sessionService.sessionWords.count)
-                )
-                .padding(.horizontal)
+                if studyMode == .flashcards {
+                    ProgressView(
+                        value: Double(sessionService.currentIndex),
+                        total: Double(sessionService.sessionWords.count)
+                    )
+                    .padding(.horizontal)
+                }
             }
             .padding(.top, 8)
 
-            FlashcardsView(words: sessionService.sessionWords, onAnswer: { correct in
-                sessionService.recordAnswer(correct: correct)
-            })
+            if studyMode == .quiz {
+                QuizView(words: sessionService.sessionWords, onComplete: { _, _ in
+                    sessionService.reset()
+                })
+            } else {
+                FlashcardsView(words: sessionService.sessionWords, onAnswer: { correct in
+                    sessionService.recordAnswer(correct: correct)
+                })
+            }
         }
     }
 }

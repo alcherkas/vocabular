@@ -8,6 +8,16 @@ struct SessionSummaryView: View {
         return Double(sessionService.correctCount) / Double(sessionService.itemsReviewed) * 100
     }
 
+    private var nextReviewText: String? {
+        let reviewDates = sessionService.sessionWords.compactMap(\.nextReview)
+        guard let earliest = reviewDates.min() else { return nil }
+        let calendar = Calendar.current
+        if calendar.isDateInToday(earliest) { return "later today" }
+        if calendar.isDateInTomorrow(earliest) { return "tomorrow" }
+        let days = calendar.dateComponents([.day], from: calendar.startOfDay(for: .now), to: calendar.startOfDay(for: earliest)).day ?? 0
+        return "in \(days) days"
+    }
+
     private var resultColor: Color {
         switch percentage {
         case 80...100: return .green
@@ -85,6 +95,18 @@ struct SessionSummaryView: View {
                         .foregroundStyle(.secondary)
                 }
                 .padding(.horizontal, 40)
+            }
+
+            // Next review estimate
+            if let nextReview = nextReviewText {
+                HStack(spacing: 8) {
+                    Image(systemName: "clock.arrow.circlepath")
+                        .foregroundStyle(.secondary)
+                    Text("Next review \(nextReview)")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+                .padding(.top, 4)
             }
 
             Spacer()
