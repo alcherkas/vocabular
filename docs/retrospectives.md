@@ -4031,3 +4031,32 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - Confidence: 96%. All terms are well-attested C1+ academic vocabulary with clear meanings.
 - `apostrophe` warranted two senses (rhetorical device vs. punctuation mark) as both are legitimately distinct meanings at C1 level.
 - No merge performed as instructed.
+## Relations Agent — relations-45 — $(date +%Y-%m-%d)
+
+**Agent**: Vocab Relations Agent
+**Branch**: vocab/relations-45
+**Task**: Add relations to 35 enriched entries per file
+
+### What was done
+- Preflight JSON check: both `words_staging.json` (1330 EN entries) and `words_lt_staging.json` (2135 LT entries) passed.
+- EN staging had **0 enriched entries** (statuses: 1156 approved, 49 relations-added, 125 stub) — nothing to process.
+- Processed **35 LT enriched entries**: added `synonyms`, `antonymTerms`, `relatedTerms`; set status → `relations-added`.
+- Validation passed with `--errors-for relations-added` (zero errors in scoped batch; 98 pre-existing warnings in approved entries, untouched).
+- Committed on branch `vocab/relations-45`.
+
+### Semantic quality applied
+- Synonyms verified co-extensive (e.g. `atlydis`↔`atšilimas`, `krantas`↔`pakrantė`, `čekis`↔`kvitas`).
+- Negation-prefixed forms excluded from antonymTerms (e.g. avoided `nekantrus` for `kantrus`).
+- All relation terms in LT nominative form, lowercase.
+- No self-referential terms, no cross-array duplicates.
+
+### Decisions / observations
+- EN pipeline is ahead (no enriched entries); the enricher must process stubs before relations can be added to EN words.
+- Many LT entries (verb conjugation forms, holiday proper-noun phrases) had limited synonym/antonym candidates — `[]` used where no co-extensive synonym or direct antonym exists.
+
+### What went well
+- Clear relation plan mapped before editing; applied atomically via Python script.
+- Validator scoping (`--errors-for relations-added`) cleanly isolated batch from pre-existing debt.
+
+### What could improve
+- Coordinate with EN Enricher so EN relations work can proceed in parallel next session.
