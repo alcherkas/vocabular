@@ -36087,7 +36087,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small, circular, double-stranded DNA molecule that exists and replicates independently of chromosomal DNA within a bacterial or other host cell, often carrying genes conferring adaptive advantages such as antibiotic resistance.",
@@ -36100,9 +36100,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "extrachromosomal element",
+      "extrachromosomal DNA"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "chromosome",
+      "vector",
+      "transposon"
+    ],
     "translation": null
   },
   {
@@ -36110,7 +36117,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A single-celled organism lacking a membrane-bound nucleus and other membrane-enclosed organelles, encompassing bacteria and archaea, and representing the oldest and most abundant form of cellular life on Earth.",
@@ -36123,9 +36130,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "procaryote",
+      "non-eukaryotic organism"
+    ],
+    "antonymTerms": [
+      "eukaryote"
+    ],
+    "relatedTerms": [
+      "bacterium",
+      "archaea",
+      "microorganism"
+    ],
     "translation": null
   },
   {
@@ -36133,7 +36149,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An organism whose cells contain a true nucleus enclosed within a membrane, along with other membrane-bound organelles such as mitochondria; the domain includes animals, plants, fungi, and protists.",
@@ -36146,9 +36162,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "eucaryote",
+      "nucleated organism"
+    ],
+    "antonymTerms": [
+      "prokaryote"
+    ],
+    "relatedTerms": [
+      "nucleus",
+      "organelle",
+      "cell membrane"
+    ],
     "translation": null
   },
   {
@@ -36156,7 +36181,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The evolutionary process through which one or more populations diverge and develop reproductive isolation, eventually becoming distinct species incapable of interbreeding.",
@@ -36169,9 +36194,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "species formation",
+      "species differentiation"
+    ],
+    "antonymTerms": [
+      "extinction"
+    ],
+    "relatedTerms": [
+      "natural selection",
+      "genetic drift",
+      "reproductive isolation",
+      "cladogenesis"
+    ],
     "translation": null
   },
   {
@@ -36179,7 +36214,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The movement of genetic material between organisms by means other than reproduction from parent to offspring—occurring between individual cells and across species boundaries—and particularly prevalent among prokaryotes via plasmids, transposons, or viral vectors.",
@@ -36192,9 +36227,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "lateral gene transfer",
+      "horizontal transmission"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "transduction",
+      "conjugation",
+      "transformation",
+      "plasmid"
+    ],
     "translation": null
   },
   {
@@ -37592,7 +37635,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A machine learning paradigm in which an agent learns to make sequential decisions by interacting with an environment, receiving reward or penalty signals for its actions, and iteratively optimizing its policy to maximize cumulative reward.",
@@ -37605,9 +37648,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "reward-based learning",
+      "reward learning"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "supervised learning",
+      "unsupervised learning",
+      "reward function",
+      "agent"
+    ],
     "translation": null
   },
   {
@@ -37615,7 +37666,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A machine learning approach in which a model is trained on a labeled dataset that maps input features to known output labels, enabling it to generalize and make predictions on new, unseen examples.",
@@ -37628,9 +37679,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "inductive learning",
+      "discriminative learning"
+    ],
+    "antonymTerms": [
+      "unsupervised learning"
+    ],
+    "relatedTerms": [
+      "classification",
+      "regression",
+      "labeled data",
+      "reinforcement learning"
+    ],
     "translation": null
   },
   {
@@ -37638,7 +37699,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A machine learning approach in which algorithms are applied to unlabeled data with the goal of discovering underlying structure, patterns, or natural groupings without any predefined target variable.",
@@ -37651,9 +37712,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "exploratory learning",
+      "self-organized learning"
+    ],
+    "antonymTerms": [
+      "supervised learning"
+    ],
+    "relatedTerms": [
+      "clustering",
+      "dimensionality reduction",
+      "latent space",
+      "reinforcement learning"
+    ],
     "translation": null
   },
   {
@@ -37772,7 +37843,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In machine learning, a compressed, lower-dimensional representation of data learned by a model as an intermediate encoding that captures essential features and structure not directly observable in the raw input.",
@@ -37785,9 +37856,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "embedding space",
+      "representation space"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "feature extraction",
+      "dimensionality reduction",
+      "autoencoder",
+      "manifold"
+    ],
     "translation": null
   },
   {
@@ -37795,7 +37874,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The process of transforming raw data into a set of informative, non-redundant numerical features that are more suitable for use in a machine learning algorithm, reducing dimensionality while preserving the information most relevant to the task.",
@@ -37808,9 +37887,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "feature derivation",
+      "attribute extraction"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dimensionality reduction",
+      "latent space",
+      "preprocessing",
+      "representation learning"
+    ],
     "translation": null
   },
   {
@@ -38059,7 +38146,7 @@
   },
   {
     "term": "cryptography",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -38083,6 +38170,17 @@
           "security"
         ]
       }
+    ],
+    "synonyms": [
+      "cryptology",
+      "cipher science"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "encryption",
+      "cipher",
+      "steganography",
+      "digital signature"
     ]
   },
   {
@@ -38132,7 +38230,7 @@
   },
   {
     "term": "zero-knowledge proof",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -38146,6 +38244,17 @@
           "mathematics"
         ]
       }
+    ],
+    "synonyms": [
+      "ZKP",
+      "zero-knowledge protocol"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "cryptography",
+      "interactive proof",
+      "commitment scheme",
+      "privacy"
     ]
   },
   {
@@ -38798,7 +38907,7 @@
   },
   {
     "term": "genre",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -38822,11 +38931,22 @@
           "pragmatics"
         ]
       }
+    ],
+    "synonyms": [
+      "text type",
+      "literary type"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "register",
+      "discourse type",
+      "literary form",
+      "mode"
     ]
   },
   {
     "term": "narrative frame",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -38840,11 +38960,22 @@
           "sociology"
         ]
       }
+    ],
+    "synonyms": [
+      "story framework",
+      "framing device"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "narrative structure",
+      "point of view",
+      "diegesis",
+      "perspective"
     ]
   },
   {
     "term": "politeness theory",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -38858,6 +38989,17 @@
           "communication"
         ]
       }
+    ],
+    "synonyms": [
+      "face theory",
+      "face management theory"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "face-threatening act",
+      "positive face",
+      "negative face",
+      "speech act"
     ]
   },
   {
@@ -40006,7 +40148,7 @@
   },
   {
     "term": "poststructuralism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40030,11 +40172,22 @@
           "power"
         ]
       }
+    ],
+    "synonyms": [
+      "post-structuralism",
+      "post-structuralist theory"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "structuralism",
+      "deconstruction",
+      "postmodernism",
+      "discourse analysis"
     ]
   },
   {
     "term": "social constructionism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40048,11 +40201,24 @@
           "epistemology"
         ]
       }
+    ],
+    "synonyms": [
+      "social constructivism",
+      "social construction of reality"
+    ],
+    "antonymTerms": [
+      "essentialism"
+    ],
+    "relatedTerms": [
+      "constructivism",
+      "symbolic interactionism",
+      "phenomenology",
+      "reflexivity"
     ]
   },
   {
     "term": "conflict theory",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40066,11 +40232,22 @@
           "Marxism"
         ]
       }
+    ],
+    "synonyms": [
+      "conflict perspective",
+      "conflict sociology"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "class conflict",
+      "power structure",
+      "structural functionalism",
+      "Marxism"
     ]
   },
   {
     "term": "role theory",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40084,11 +40261,22 @@
           "social structure"
         ]
       }
+    ],
+    "synonyms": [
+      "role analysis",
+      "role-set theory"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "social role",
+      "role conflict",
+      "role strain",
+      "status"
     ]
   },
   {
     "term": "social exchange theory",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40102,11 +40290,22 @@
           "rational choice"
         ]
       }
+    ],
+    "synonyms": [
+      "exchange theory",
+      "social exchange perspective"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "rational choice theory",
+      "reciprocity",
+      "game theory",
+      "cost-benefit analysis"
     ]
   },
   {
     "term": "labeling theory",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40120,11 +40319,22 @@
           "deviance"
         ]
       }
+    ],
+    "synonyms": [
+      "societal reaction theory",
+      "social reaction theory"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "stigma",
+      "deviance",
+      "social control",
+      "symbolic interactionism"
     ]
   },
   {
     "term": "reference group",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40138,11 +40348,22 @@
           "identity"
         ]
       }
+    ],
+    "synonyms": [
+      "comparison group",
+      "benchmark group"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "in-group",
+      "out-group",
+      "social comparison",
+      "relative deprivation"
     ]
   },
   {
     "term": "collective conscience",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40156,11 +40377,22 @@
           "social cohesion"
         ]
       }
+    ],
+    "synonyms": [
+      "collective consciousness",
+      "collective moral consciousness"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "social solidarity",
+      "anomie",
+      "mechanical solidarity",
+      "social cohesion"
     ]
   },
   {
     "term": "mechanical solidarity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40174,11 +40406,24 @@
           "social structure"
         ]
       }
+    ],
+    "synonyms": [
+      "similarity-based solidarity",
+      "homogeneous solidarity"
+    ],
+    "antonymTerms": [
+      "organic solidarity"
+    ],
+    "relatedTerms": [
+      "collective conscience",
+      "division of labor",
+      "traditional society",
+      "social cohesion"
     ]
   },
   {
     "term": "organic solidarity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40192,11 +40437,24 @@
           "social structure"
         ]
       }
+    ],
+    "synonyms": [
+      "interdependence-based solidarity",
+      "functional solidarity"
+    ],
+    "antonymTerms": [
+      "mechanical solidarity"
+    ],
+    "relatedTerms": [
+      "collective conscience",
+      "division of labor",
+      "social cohesion",
+      "specialization"
     ]
   },
   {
     "term": "carbon cycle",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40210,11 +40468,22 @@
           "biogeochemistry"
         ]
       }
+    ],
+    "synonyms": [
+      "carbon biogeochemical cycle",
+      "carbon circulation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nitrogen cycle",
+      "carbon sequestration",
+      "greenhouse effect",
+      "photosynthesis"
     ]
   },
   {
     "term": "keystone species",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40228,11 +40497,22 @@
           "food web"
         ]
       }
+    ],
+    "synonyms": [
+      "structuring species",
+      "linchpin species"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "trophic cascade",
+      "ecological role",
+      "biodiversity",
+      "apex predator"
     ]
   },
   {
     "term": "trophic level",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40246,11 +40526,22 @@
           "ecosystem"
         ]
       }
+    ],
+    "synonyms": [
+      "trophic position",
+      "feeding level"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "food chain",
+      "food web",
+      "primary producer",
+      "consumer"
     ]
   },
   {
     "term": "ecological succession",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40264,11 +40555,22 @@
           "restoration ecology"
         ]
       }
+    ],
+    "synonyms": [
+      "biotic succession",
+      "community succession"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pioneer species",
+      "climax community",
+      "seral stage",
+      "primary succession"
     ]
   },
   {
     "term": "pioneer species",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40282,11 +40584,24 @@
           "restoration ecology"
         ]
       }
+    ],
+    "synonyms": [
+      "colonizer species",
+      "early successional species"
+    ],
+    "antonymTerms": [
+      "climax species"
+    ],
+    "relatedTerms": [
+      "ecological succession",
+      "primary succession",
+      "disturbance ecology",
+      "lichen"
     ]
   },
   {
     "term": "climax community",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40300,11 +40615,22 @@
           "community ecology"
         ]
       }
+    ],
+    "synonyms": [
+      "climax ecosystem",
+      "mature community"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ecological succession",
+      "pioneer species",
+      "stability",
+      "seral stage"
     ]
   },
   {
     "term": "nitrogen cycle",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40318,11 +40644,22 @@
           "soil science"
         ]
       }
+    ],
+    "synonyms": [
+      "nitrogen biogeochemical cycle",
+      "nitrogen circulation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "carbon cycle",
+      "nitrogen fixation",
+      "nitrification",
+      "denitrification"
     ]
   },
   {
     "term": "carbon sequestration",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40336,11 +40673,22 @@
           "environmental policy"
         ]
       }
+    ],
+    "synonyms": [
+      "carbon capture and storage",
+      "carbon removal"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "carbon cycle",
+      "greenhouse gas",
+      "photosynthesis",
+      "carbon dioxide"
     ]
   },
   {
     "term": "biomass productivity",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40354,11 +40702,22 @@
           "primary production"
         ]
       }
+    ],
+    "synonyms": [
+      "biological productivity",
+      "organic productivity"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gross primary production",
+      "net primary production",
+      "ecosystem services",
+      "trophic level"
     ]
   },
   {
     "term": "ecosystem services",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -40372,6 +40731,17 @@
           "conservation"
         ]
       }
+    ],
+    "synonyms": [
+      "ecological services",
+      "environmental services"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "biodiversity",
+      "natural capital",
+      "ecological function",
+      "provisioning services"
     ]
   }
 ]
