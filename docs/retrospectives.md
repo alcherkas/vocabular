@@ -4574,6 +4574,7 @@ None blocking.
 
 ---
 
+<<<<<<< HEAD
 ## QA Agent — vocab/qa-54 — $(date +%Y-%m-%d)
 
 **Scope:** Reviewed and approved vocabulary entries with status `relations-added` in both staging files.
@@ -4588,3 +4589,35 @@ None blocking.
 **Validation:** Both staging files passed `validate_words.py --errors-for approved` with 0 errors.
 
 **Total approved:** 36 entries (1 EN + 35 LT)
+=======
+## Retrospective: enricher-en-48 — Enrich 35 English stubs
+
+**Date:** 2025-07-24
+**Agent:** enricher-en-48
+**Branch:** vocab/enricher-en-48
+
+### What was done
+Enriched 35 stub entries in `words_staging.json` across three thematic clusters:
+- **Greek philosophy** (15 terms): ataraxia, phronesis, praxis, episteme, techne, elenchus, apeiron, hylomorphism, entelechy, ousia, anamnesis, arete, theoria, dianoia, psyche
+- **Neuroscience** (10 terms): nucleus accumbens, basal ganglia, glymphatic system, neuroinflammation, cholinergic, cortical column, gamma oscillation, theta rhythm, orexin, cytoarchitecture
+- **Legal Latin / phrases** (10 terms): amicus curiae, nolo contendere, nolle prosequi, ex parte, lis pendens, voir dire, interpleader, vexatious litigation, declaratory judgment, promissory estoppel
+
+Each entry received: `partOfSpeech`, `register`, `level` (C1 or C2), and `meanings` array with `definition`, `example`, `register`, and `tags`.
+
+### Validation
+`python3 scripts/validate_words.py --staging ... --errors-for enriched` → **PASSED — 198 entries valid ✓** (0 errors)
+
+### What went well
+- Thematic clustering made it straightforward to apply consistent register and level decisions across related terms.
+- Using a single Python enrichment script avoided manual JSON editing errors.
+- All 35 entries passed validation on the first run.
+
+### What could improve
+- Stub entries have no hints about intended domain or level, making initial selection arbitrary. A domain tag on stubs would help agents prioritise.
+- The validate script usage (requires `--staging` flag, not a positional argument) differs from the docs task instructions; the discrepancy cost one iteration.
+
+### Lessons
+- Always probe `--help` before running validate scripts to catch flag syntax differences.
+- Enriching terms from the same semantic domain in a single batch improves definition consistency and cross-referencing accuracy.
+
+>>>>>>> vocab/enricher-en-48
