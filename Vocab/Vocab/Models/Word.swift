@@ -33,16 +33,21 @@ class Word {
     var interval: Int = 0
     var repetitions: Int = 0
 
+    @Transient private var _cachedMeanings: [WordMeaning]?
+
     var meanings: [WordMeaning] {
         get {
+            if let cached = _cachedMeanings { return cached }
             guard !meaningsData.isEmpty,
                   let decoded = try? JSONDecoder().decode([WordMeaning].self, from: meaningsData) else {
                 return []
             }
+            _cachedMeanings = decoded
             return decoded
         }
         set {
             meaningsData = (try? JSONEncoder().encode(newValue)) ?? Data()
+            _cachedMeanings = newValue
         }
     }
 

@@ -15,8 +15,8 @@ struct QuizQuestion {
 }
 
 enum QuizService {
-    static func generateQuestion(for word: Word, mode: QuizMode, allWords: [Word]) -> QuizQuestion? {
-        let sameLanguageWords = allWords.filter { $0.language == word.language }
+    /// Generates a question using a pre-filtered pool of same-language words (preferred for batch quiz generation).
+    static func generateQuestion(for word: Word, mode: QuizMode, sameLanguageWords: [Word]) -> QuizQuestion? {
         guard sameLanguageWords.count >= 4 else { return nil }
 
         let prompt: String
@@ -54,5 +54,10 @@ enum QuizService {
 
         let options = (Array(uniqueDistractors.prefix(3)) + [correctAnswer]).shuffled()
         return QuizQuestion(prompt: prompt, correctAnswer: correctAnswer, options: options, sourceWord: word)
+    }
+
+    static func generateQuestion(for word: Word, mode: QuizMode, allWords: [Word]) -> QuizQuestion? {
+        let sameLanguageWords = allWords.filter { $0.language == word.language }
+        return generateQuestion(for: word, mode: mode, sameLanguageWords: sameLanguageWords)
     }
 }

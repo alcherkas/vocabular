@@ -18,6 +18,8 @@ struct QuizView: View {
     @State private var showResult = false
     @State private var quizCompleted = false
     @State private var questionsPerQuiz = 10
+    @State private var sameLanguagePool: [Word] = []
+    private let feedbackGenerator = UINotificationFeedbackGenerator()
 
     init(words: [Word], quizMode: QuizMode? = nil, onComplete: ((Int, Int) -> Void)? = nil) {
         self.words = words
@@ -100,13 +102,11 @@ struct QuizView: View {
     }
     
     // MARK: - Question View
+    @ViewBuilder
     private var questionView: some View {
-        guard let currentQuestion else {
-            return AnyView(ProgressView("Preparing question..."))
-        }
-        let currentWord = quizWords[currentIndex]
-        
-        return AnyView(VStack(spacing: 24) {
+        if let currentQuestion {
+            let currentWord = quizWords[currentIndex]
+            VStack(spacing: 24) {
             // Progress bar and score
             VStack(spacing: 8) {
                 HStack {
@@ -186,7 +186,10 @@ struct QuizView: View {
                 .controlSize(.large)
                 .padding(.top, 8)
             }
-        })
+            }
+        } else {
+            ProgressView("Preparing question...")
+        }
     }
     
     // MARK: - Quiz Result View
@@ -330,6 +333,7 @@ struct QuizView: View {
         guard let sessionLanguage = sessionLanguageWords.first?.language else { return }
         let actualQuestionCount = min(questionsPerQuiz, sessionLanguageWords.count)
         guard actualQuestionCount >= 4 else { return }
+        sameLanguagePool = sessionLanguageWords
         quizWords = Array(sessionLanguageWords.shuffled().prefix(actualQuestionCount))
         activeMode = resolvedMode(for: sessionLanguage)
         currentIndex = 0
@@ -345,7 +349,7 @@ struct QuizView: View {
         guard let question = QuizService.generateQuestion(
             for: quizWords[currentIndex],
             mode: activeMode,
-            allWords: words
+            sameLanguageWords: sameLanguagePool
         ) else {
             completeQuiz()
             return
@@ -369,9 +373,9 @@ struct QuizView: View {
         if isCorrect {
             score += 1
             currentWord.timesCorrect += 1
-            UINotificationFeedbackGenerator().notificationOccurred(.success)
+            feedbackGenerator.notificationOccurred(.success)
         } else {
-            UINotificationFeedbackGenerator().notificationOccurred(.error)
+            feedbackGenerator.notificationOccurred(.error)
         }
         
         let quality = isCorrect ? 4 : 1

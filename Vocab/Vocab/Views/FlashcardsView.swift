@@ -9,12 +9,12 @@ struct FlashcardsView: View {
     @State private var isFlipped = false
     @State private var offset: CGSize = .zero
     @State private var showFavoritesOnly = false
+    @State private var displayedWords: [Word] = []
     
-    private var displayedWords: [Word] {
+    private func recomputeDisplayedWords() {
         let filtered = showFavoritesOnly ? words.filter { $0.isFavorite } : words
-        // Surface overdue / never-reviewed words first
         let now = Date.now
-        return filtered.sorted { a, b in
+        displayedWords = filtered.sorted { a, b in
             let aDue = a.nextReview == nil || a.nextReview! < now
             let bDue = b.nextReview == nil || b.nextReview! < now
             if aDue != bDue { return aDue }
@@ -117,12 +117,14 @@ struct FlashcardsView: View {
                 }
             }
             .navigationTitle("Flashcards")
+            .onAppear { recomputeDisplayedWords() }
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
                         showFavoritesOnly.toggle()
                         currentIndex = 0
                         isFlipped = false
+                        recomputeDisplayedWords()
                     } label: {
                         Image(systemName: showFavoritesOnly ? "star.fill" : "star")
                             .foregroundStyle(showFavoritesOnly ? .yellow : .gray)

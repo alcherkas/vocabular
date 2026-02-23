@@ -20,13 +20,8 @@ struct ContentView: View {
                 StatsView()
             }
         }
-        .onAppear {
+        .task {
             if !hasLoadedWords {
-                // Debug: list all JSON files in the bundle
-                let jsonFiles = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
-                print("📦 Bundle JSON files (\(jsonFiles.count)): \(jsonFiles.map { $0.lastPathComponent })")
-                print("📦 Bundle path: \(Bundle.main.bundlePath)")
-
                 WordService.migrateExistingWords(context: context)
                 WordService.loadWords(language: "en", resourceName: "words", into: context)
                 WordService.loadWords(language: "lt", resourceName: "words_lt", into: context)

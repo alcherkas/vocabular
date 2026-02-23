@@ -229,21 +229,21 @@ struct StatsView: View {
     }
     
     // MARK: - Computed Properties
-    private var masteredCount: Int {
-        filteredWords.filter { $0.masteryLevel >= 0.8 }.count
+    private var masteryCounts: (mastered: Int, familiar: Int, learning: Int, new: Int) {
+        var mastered = 0, familiar = 0, learning = 0, new = 0
+        for word in filteredWords {
+            if word.timesSeen == 0 { new += 1 }
+            else if word.masteryLevel >= 0.8 { mastered += 1 }
+            else if word.masteryLevel >= 0.6 { familiar += 1 }
+            else { learning += 1 }
+        }
+        return (mastered, familiar, learning, new)
     }
-    
-    private var familiarCount: Int {
-        filteredWords.filter { $0.masteryLevel >= 0.6 && $0.masteryLevel < 0.8 }.count
-    }
-    
-    private var learningCount: Int {
-        filteredWords.filter { $0.masteryLevel > 0 && $0.masteryLevel < 0.6 }.count
-    }
-    
-    private var newCount: Int {
-        filteredWords.filter { $0.timesSeen == 0 }.count
-    }
+
+    private var masteredCount: Int { masteryCounts.mastered }
+    private var familiarCount: Int { masteryCounts.familiar }
+    private var learningCount: Int { masteryCounts.learning }
+    private var newCount: Int { masteryCounts.new }
     
     private var averageScore: String {
         guard !filteredResults.isEmpty else { return "—" }

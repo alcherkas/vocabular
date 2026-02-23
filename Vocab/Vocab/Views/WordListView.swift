@@ -123,12 +123,24 @@ struct WordListView: View {
         }
     }
     
+    private var filterCounts: (favorites: Int, mastered: Int, learning: Int) {
+        var favorites = 0, mastered = 0, learning = 0
+        for word in words {
+            if word.isFavorite { favorites += 1 }
+            if word.timesSeen > 0 {
+                if word.masteryLevel >= 0.8 { mastered += 1 }
+                else { learning += 1 }
+            }
+        }
+        return (favorites, mastered, learning)
+    }
+
     private func countFor(_ filter: WordFilter) -> Int {
         switch filter {
         case .all: return words.count
-        case .favorites: return words.filter { $0.isFavorite }.count
-        case .mastered: return words.filter { $0.masteryLevel >= 0.8 }.count
-        case .learning: return words.filter { $0.timesSeen > 0 && $0.masteryLevel < 0.8 }.count
+        case .favorites: return filterCounts.favorites
+        case .mastered: return filterCounts.mastered
+        case .learning: return filterCounts.learning
         }
     }
     

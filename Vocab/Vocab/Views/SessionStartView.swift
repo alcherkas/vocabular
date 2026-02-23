@@ -17,10 +17,6 @@ struct SessionStartView: View {
         allWords.contains { $0.timesSeen > 0 }
     }
 
-    private func wordCount(for language: String) -> Int {
-        allWords.filter { $0.language == language }.count
-    }
-
     private var selectedLanguageName: String {
         sessionService.language == "en" ? "English" : "Lithuanian"
     }
@@ -31,10 +27,18 @@ struct SessionStartView: View {
             .sorted { $0.term.localizedCaseInsensitiveCompare($1.term) == .orderedAscending }
     }
 
+    private func wordCount(for language: String) -> Int {
+        if language == sessionService.language {
+            return selectedLanguageWords.count
+        }
+        return allWords.lazy.filter { $0.language == language }.count
+    }
+
     private var dailyWord: Word? {
-        guard !selectedLanguageWords.isEmpty else { return nil }
-        let index = dailySeed(for: sessionService.language) % selectedLanguageWords.count
-        return selectedLanguageWords[index]
+        let words = selectedLanguageWords
+        guard !words.isEmpty else { return nil }
+        let index = dailySeed(for: sessionService.language) % words.count
+        return words[index]
     }
 
     var body: some View {
