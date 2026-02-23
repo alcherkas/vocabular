@@ -4,7 +4,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A topological space that locally resembles Euclidean space near each point but may have a more complex global structure.",
@@ -17,25 +17,25 @@
       }
     ],
     "synonyms": [
-      "smooth variety",
-      "geometric variety"
+      "locally Euclidean space",
+      "topological variety"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "topology",
       "differential geometry",
       "curvature",
-      "dimension"
+      "dimension",
+      "smooth geometry"
     ],
-    "translation": null,
-    "qa_notes": "Synonyms 'geometric variety' and 'smooth variety' are not co-extensive with manifold: in mathematics, a 'variety' (algebraic geometry) is a distinct concept from a topological manifold. Move to relatedTerms or replace with true near-synonyms such as 'topological manifold', 'smooth manifold'."
+    "translation": null
   },
   {
     "term": "stochastic process",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mathematical object consisting of a collection of random variables indexed by time or space, used to model systems that evolve probabilistically.",
@@ -48,9 +48,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "random process",
+      "probabilistic process"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Markov chain",
+      "Brownian motion",
+      "probability theory",
+      "random variable",
+      "time series"
+    ],
     "translation": null,
     "level": "C2"
   },
@@ -59,7 +68,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A function that summarises the dynamics of a physical system as the difference between kinetic and potential energy, forming the basis of Lagrangian mechanics.",
@@ -72,9 +81,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "Lagrange function",
+      "action integrand"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "action principle",
+      "Hamiltonian",
+      "equations of motion",
+      "classical mechanics",
+      "variational calculus"
+    ],
     "translation": null,
     "level": "C2"
   },
@@ -83,7 +101,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An operator corresponding to the total energy of a quantum mechanical system, central to the Schrödinger equation.",
@@ -96,9 +114,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "energy operator",
+      "total energy operator"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Schrödinger equation",
+      "quantum mechanics",
+      "kinetic energy",
+      "potential energy",
+      "Lagrangian"
+    ],
     "translation": null,
     "level": "C2"
   },
@@ -107,7 +134,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mathematical framework that describes how the state of a system evolves over time according to a fixed rule.",
@@ -120,9 +147,19 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "dynamic system",
+      "state space system"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "differential equation",
+      "phase space",
+      "attractor",
+      "chaos theory",
+      "trajectory",
+      "ergodic theory"
+    ],
     "translation": null,
     "level": "C2"
   },
@@ -131,7 +168,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A branch of mathematics studying the long-run average behaviour of dynamical systems, linking time averages to space averages.",
@@ -144,9 +181,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "ergodic analysis",
+      "measure-preserving dynamics"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "measure theory",
+      "dynamical system",
+      "statistical mechanics",
+      "time average",
+      "mixing"
+    ],
     "translation": null,
     "level": "C2"
   },
@@ -155,7 +201,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A machine-learning technique in which a model trained on one task is reused as the starting point for a model on a different but related task.",
@@ -168,9 +214,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "inductive transfer",
+      "model reuse"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "fine-tuning",
+      "domain adaptation",
+      "pre-trained model",
+      "feature extraction",
+      "machine learning"
+    ],
     "translation": null,
     "level": "C1"
   },
@@ -179,7 +234,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A class of deep-learning framework in which two neural networks—a generator and a discriminator—compete against each other to produce increasingly realistic synthetic data.",
@@ -192,9 +247,18 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "GAN",
+      "adversarial generative network"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "generator network",
+      "discriminator network",
+      "deep learning",
+      "image synthesis",
+      "variational autoencoder"
+    ],
     "translation": null,
     "level": "C2"
   },
@@ -203,7 +267,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mathematical function applied to the output of each neuron in a neural network, introducing non-linearity that enables the network to learn complex patterns.",
@@ -216,15 +280,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "transfer function",
+      "nonlinearity"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ReLU",
+      "sigmoid",
+      "neural network",
+      "backpropagation",
+      "vanishing gradient"
+    ],
     "translation": null,
     "level": "C1"
   },
   {
     "term": "long short-term memory",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -240,11 +313,23 @@
           "NLP"
         ]
       }
+    ],
+    "synonyms": [
+      "LSTM",
+      "LSTM network"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "recurrent neural network",
+      "gated recurrent unit",
+      "sequence modelling",
+      "vanishing gradient",
+      "NLP"
     ]
   },
   {
     "term": "contrastive learning",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -260,11 +345,23 @@
           "AI"
         ]
       }
+    ],
+    "synonyms": [
+      "contrastive representation learning",
+      "noise-contrastive learning"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "self-supervised learning",
+      "representation learning",
+      "SimCLR",
+      "metric learning",
+      "similarity learning"
     ]
   },
   {
     "term": "diffusion model",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -280,11 +377,24 @@
           "generative AI"
         ]
       }
+    ],
+    "synonyms": [
+      "score-based generative model",
+      "denoising diffusion model"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "DDPM",
+      "denoising",
+      "generative model",
+      "image synthesis",
+      "noise schedule",
+      "U-Net"
     ]
   },
   {
     "term": "graph neural network",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -300,11 +410,23 @@
           "AI"
         ]
       }
+    ],
+    "synonyms": [
+      "GNN",
+      "message-passing neural network"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "graph convolutional network",
+      "message passing",
+      "node classification",
+      "graph data",
+      "deep learning"
     ]
   },
   {
     "term": "variational autoencoder",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -320,11 +442,24 @@
           "generative AI"
         ]
       }
+    ],
+    "synonyms": [
+      "VAE",
+      "variational Bayes autoencoder"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "encoder",
+      "decoder",
+      "latent space",
+      "variational inference",
+      "generative model",
+      "autoencoder"
     ]
   },
   {
     "term": "hyperparameter tuning",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -340,11 +475,23 @@
           "AI"
         ]
       }
+    ],
+    "synonyms": [
+      "hyperparameter optimization",
+      "hyperparameter search"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "grid search",
+      "random search",
+      "Bayesian optimization",
+      "model selection",
+      "cross-validation"
     ]
   },
   {
     "term": "federated learning",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -360,11 +507,23 @@
           "privacy"
         ]
       }
+    ],
+    "synonyms": [
+      "collaborative machine learning",
+      "decentralized machine learning"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "distributed training",
+      "privacy-preserving ML",
+      "edge computing",
+      "data privacy",
+      "model aggregation"
     ]
   },
   {
     "term": "sharding",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -380,11 +539,23 @@
           "distributed systems"
         ]
       }
+    ],
+    "synonyms": [
+      "horizontal partitioning",
+      "distributed data partitioning"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "database scaling",
+      "partition",
+      "distributed database",
+      "replication",
+      "load balancing"
     ]
   },
   {
     "term": "microservices",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -400,11 +571,25 @@
           "engineering"
         ]
       }
+    ],
+    "synonyms": [
+      "microservice architecture",
+      "microservice-based architecture"
+    ],
+    "antonymTerms": [
+      "monolithic architecture"
+    ],
+    "relatedTerms": [
+      "monolith",
+      "service-oriented architecture",
+      "API gateway",
+      "containerisation",
+      "Docker"
     ]
   },
   {
     "term": "public-key cryptography",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -420,11 +605,25 @@
           "security"
         ]
       }
+    ],
+    "synonyms": [
+      "asymmetric cryptography",
+      "asymmetric-key cryptography"
+    ],
+    "antonymTerms": [
+      "symmetric-key cryptography"
+    ],
+    "relatedTerms": [
+      "RSA",
+      "private key",
+      "encryption",
+      "digital signature",
+      "certificate authority"
     ]
   },
   {
     "term": "zero-knowledge proof",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -449,12 +648,11 @@
       "interactive proof",
       "commitment scheme",
       "privacy"
-    ],
-    "qa_notes": "Synonym 'interactive proof system' is a hypernym (ZKPs are one type of interactive proof system); move to relatedTerms. Replace with a co-extensive synonym or leave synonyms sparse."
+    ]
   },
   {
     "term": "abstract syntax tree",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -479,14 +677,14 @@
       "compiler",
       "token",
       "grammar",
-      "parsing"
+      "parsing",
+      "parse tree"
     ],
-    "translation": null,
-    "qa_notes": "Synonym 'parse tree' (concrete syntax tree) is NOT the same as an AST: a parse tree includes all tokens while an AST is an abstracted, simplified representation. Move 'parse tree' to relatedTerms."
+    "translation": null
   },
   {
     "term": "phonological assimilation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -502,11 +700,25 @@
           "phonology"
         ]
       }
+    ],
+    "synonyms": [
+      "sound assimilation",
+      "phonetic assimilation"
+    ],
+    "antonymTerms": [
+      "dissimilation"
+    ],
+    "relatedTerms": [
+      "coarticulation",
+      "sandhi",
+      "allophone",
+      "phonology",
+      "place of articulation"
     ]
   },
   {
     "term": "sandhi",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -522,11 +734,23 @@
           "phonology"
         ]
       }
+    ],
+    "synonyms": [
+      "morphophonological alternation",
+      "phonological junction"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "phonological assimilation",
+      "liaison",
+      "euphony",
+      "phonology",
+      "morphophonology"
     ]
   },
   {
     "term": "instrumentalism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -553,22 +777,22 @@
       }
     ],
     "synonyms": [
-      "anti-realism",
-      "fictionalism"
+      "fictionalism",
+      "operationalism"
     ],
     "antonymTerms": [
       "scientific realism"
     ],
     "relatedTerms": [
       "pragmatism",
-      "operationalism",
-      "philosophy of science"
-    ],
-    "qa_notes": "Synonym 'anti-realism' is a hypernym (instrumentalism is one species of anti-realism); move to relatedTerms. 'conventionalism' is a distinct, non-co-extensive position; move to relatedTerms."
+      "philosophy of science",
+      "anti-realism",
+      "prediction-based epistemology"
+    ]
   },
   {
     "term": "prospect theory",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -592,15 +816,14 @@
     "relatedTerms": [
       "loss aversion",
       "expected utility theory",
+      "cumulative prospect theory",
       "Kahneman",
-      "Tversky",
       "behavioral economics"
-    ],
-    "qa_notes": "Synonym 'cumulative prospect theory' is a later, distinct refinement of the original theory (Tversky & Kahneman 1992) with a different weighting function — it is not a synonym. Move to relatedTerms."
+    ]
   },
   {
     "term": "poststructuralism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -635,12 +858,11 @@
       "deconstruction",
       "postmodernism",
       "discourse analysis"
-    ],
-    "qa_notes": "Synonym 'deconstruction theory' refers to Derrida's specific method, which is one strand within poststructuralism, not co-extensive with it; move to relatedTerms."
+    ]
   },
   {
     "term": "keystone species",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -664,15 +886,15 @@
       "trophic cascade",
       "biodiversity",
       "apex predator",
-      "ecological role"
-    ],
-    "qa_notes": "Synonym 'ecosystem engineer species' is a distinct ecological concept (engineers modify habitat structure; keystone species exert disproportionate trophic control) — not a synonym. Move to relatedTerms."
+      "ecological role",
+      "ecosystem engineer"
+    ]
   },
   {
     "term": "shamanism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A religious practice in which a practitioner (the shaman) enters altered states of consciousness to interact with the spirit world, performing healing, divination, and mediation on behalf of a community.",
@@ -706,16 +928,16 @@
       "animism",
       "ritual healing",
       "trance",
-      "totemism"
+      "totemism",
+      "mediumship"
     ],
-    "translation": null,
-    "qa_notes": "Synonym 'mediumship' is not co-extensive: mediumship specifically involves channelling spirits of the dead, while shamanism is a broader ecstatic-trance complex. Move to relatedTerms."
+    "translation": null
   },
   {
     "term": "legal positivism",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The jurisprudential theory that the existence and content of law depends on social facts—such as legislative enactment and social acceptance—rather than on moral merit or natural law.",
@@ -742,8 +964,8 @@
       }
     ],
     "synonyms": [
-      "legal conventionalism",
-      "positivist jurisprudence"
+      "positivist jurisprudence",
+      "social fact jurisprudence"
     ],
     "antonymTerms": [
       "natural law theory"
@@ -752,16 +974,17 @@
       "jurisprudence",
       "Hart",
       "Austin",
-      "rule of recognition"
+      "rule of recognition",
+      "social fact thesis",
+      "legal conventionalism"
     ],
-    "translation": null,
-    "qa_notes": "Synonym 'social fact thesis' is a core thesis *within* legal positivism, not a synonym for the entire theory; move to relatedTerms. 'Legal conventionalism' is a specific variant (Dworkin's target), not co-extensive; move to relatedTerms."
+    "translation": null
   },
   {
     "term": "natural law",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A system of moral and legal principles held to be inherent in human nature and discoverable through reason, binding on all people regardless of their particular cultural or legislative context.",
@@ -789,7 +1012,7 @@
     ],
     "synonyms": [
       "ius naturale",
-      "natural justice"
+      "jus naturale"
     ],
     "antonymTerms": [
       "legal positivism"
@@ -798,16 +1021,16 @@
       "natural rights",
       "moral realism",
       "jurisprudence",
-      "divine law"
+      "divine law",
+      "moral naturalism"
     ],
-    "translation": null,
-    "qa_notes": "Synonym 'moral naturalism' is a distinct metaethical view (moral facts are natural facts) that does not coincide with natural law theory (discoverable moral/legal principles via reason); move to relatedTerms."
+    "translation": null
   },
   {
     "term": "nominalism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The philosophical position that universals or abstract properties have no independent existence but are merely names or labels applied to groups of similar particulars.",
@@ -837,16 +1060,16 @@
       "anti-platonism"
     ],
     "antonymTerms": [
-      "Platonism",
       "realism"
     ],
     "relatedTerms": [
       "universals",
       "conceptualism",
-      "trope theory"
+      "trope theory",
+      "Platonism",
+      "anti-realism"
     ],
-    "translation": null,
-    "qa_notes": "Synonym 'anti-realism' is a hypernym of nominalism; move to relatedTerms. antonymTerm 'essentialism' is a taxonomic contrast rather than a direct semantic opposite (the canonical antonym of nominalism in the universals debate is 'realism'); remove or keep only 'realism'."
+    "translation": null
   },
   {
     "term": "essentialism",
@@ -898,7 +1121,7 @@
     "term": "picaresque",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Of or relating to a literary genre originating in sixteenth-century Spain, featuring a roguish, low-born protagonist who survives by wit and cunning through a series of episodic adventures in a corrupt society.",
@@ -922,24 +1145,24 @@
       }
     ],
     "synonyms": [
-      "roguish",
-      "rogue-like"
+      "rogue fiction",
+      "picaro fiction"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "picaro",
       "rogue narrative",
       "satire",
-      "bildungsroman"
+      "bildungsroman",
+      "episodic narrative"
     ],
-    "translation": null,
-    "qa_notes": "Synonyms 'roguish' and 'episodic' are partial descriptors/features of the genre, not co-extensive synonyms for 'picaresque'. A synonym should substitute for the headword; 'episodic narrative' would be closer but still not fully co-extensive. Remove or replace with genre-level near-synonyms."
+    "translation": null
   },
   {
     "term": "tragicomedy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A dramatic genre that combines elements of tragedy and comedy, typically presenting serious or painful subject matter alongside humour in a way that resists neat resolution in either register.",
@@ -973,8 +1196,7 @@
       "dark comedy",
       "dramatic genre"
     ],
-    "translation": null,
-    "qa_notes": "Synonym 'dark comedy' is not co-extensive: dark comedy foregrounds humour with bleak themes; tragicomedy blends genuinely tragic and comic registers without resolution. Move to relatedTerms."
+    "translation": null
   },
   {
     "term": "endosymbiosis",
@@ -1010,7 +1232,7 @@
     "term": "populism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A political approach that frames politics as a struggle between a virtuous, homogeneous 'people' and a corrupt elite, claiming that the former's general will should prevail over institutional constraints.",
@@ -1033,8 +1255,8 @@
       }
     ],
     "synonyms": [
-      "anti-elitism",
-      "people's politics"
+      "anti-elitist politics",
+      "people-centred politics"
     ],
     "antonymTerms": [
       "elitism"
@@ -1045,14 +1267,13 @@
       "nationalism",
       "political rhetoric"
     ],
-    "translation": null,
-    "qa_notes": "'demagogy' appears in synonyms while the near-equivalent 'demagoguery' appears in relatedTerms — effective cross-array duplicate; remove one. Additionally, 'demagogy' is a mode of rhetoric that can serve populism but is not co-extensive with it; move to relatedTerms and reassess synonyms."
+    "translation": null
   },
   {
     "term": "oligarchy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of government in which power is concentrated in the hands of a small, privileged group—typically defined by wealth, family, military rank, or education—who rule in their own interests.",
@@ -1076,19 +1297,20 @@
       }
     ],
     "synonyms": [
-      "plutocracy",
-      "aristocracy"
+      "minority rule",
+      "elite rule"
     ],
     "antonymTerms": [
       "democracy"
     ],
     "relatedTerms": [
+      "plutocracy",
+      "aristocracy",
       "kleptocracy",
       "autocracy",
       "technocracy"
     ],
-    "translation": null,
-    "qa_notes": "Synonyms 'plutocracy' (rule by the wealthy) and 'aristocracy' (rule by birth/noble class) are specific sub-types (hyponyms) of oligarchy, not co-extensive synonyms. Move to relatedTerms."
+    "translation": null
   },
   {
     "term": "austerity",
