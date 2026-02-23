@@ -4463,3 +4463,31 @@ All entries set to status=enriched with translation, partOfSpeech, level, and me
 ### Issues encountered
 None blocking. Validation passed cleanly.
 >>>>>>> vocab/enricher-lt-64
+
+---
+
+## QA-53 — Vocab QA Agent Retrospective
+
+**Date:** 2025-07-28
+**Agent:** QA Agent (vocab/qa-53)
+**Scope:** Review and approve `relations-added` entries in both staging files
+
+### What was done
+- Reviewed 20 EN entries: technical/scientific vocabulary spanning ML, physics, mathematics, linguistics, and distributed systems (C1–C2 level)
+- Reviewed 35 LT entries: food vocabulary (fruits, berries, nuts, vegetables; A1–A2 level)
+- All 55 entries approved (status changed from `relations-added` → `approved`)
+- Both staging files passed `validate_words.py --errors-for approved` with no errors
+
+### Observations
+- All EN entries had ≥2 synonyms; antonyms were either correctly empty `[]` or appropriate (e.g. `dissimilation` for phonological assimilation, `monolithic architecture` for microservices)
+- LT entries were entirely food vocabulary items — empty synonyms `[]` are correct for named food items (banana, lemon, carrot etc.) that have no genuine co-extensive Lithuanian synonyms
+- A few EN synonym pairs were close variants (e.g. "asymmetric cryptography" / "asymmetric-key cryptography") rather than fully independent synonyms; these are acceptable given the highly specialised technical register where few true co-extensive synonyms exist
+
+### What went well
+- Batch was internally consistent; the relations agent had applied appropriate synonyms for the domain
+- LT food-item batch correctly left synonyms empty rather than forcing incorrect hypernyms
+
+### What could be improved
+- For technical EN terms with only near-identical synonym variants (e.g. one term differing only by addition of "key" or "based"), the relations agent could be prompted to seek more semantically distinct synonyms
+- Validation script usage (`--staging` flag) differs from the task instruction template — keep docs in sync
+
