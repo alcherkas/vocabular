@@ -4152,3 +4152,20 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 ### Decisions made
 - For LT holiday proper-noun phrases (Gedulo ir vilties diena, Žalgirio mūšio diena, etc.): synonyms=[], antonymTerms=[], relatedTerms limited to closely associated proper nouns and concepts
 - For EN phrases with no standard single-word synonyms, used descriptive phrase synonyms judged co-extensive with the defined senses (e.g. "budget deficit financing", "drive rechanneling")
+
+## [2026-02-23] [seeder-en-14] [vocab/seeder-en-14]
+
+### What went well
+- Cross-checking all 100 proposed terms against both staging and production before writing any data prevented all conflicts.
+- Iterative candidate generation (batch-check → replace conflicts → re-check) resolved 22 initial conflicts cleanly.
+- Validator passed on the first run with exit code 0; all 91 warnings were pre-existing in other-status entries.
+
+### What was harder than expected
+- The staging file already had 1330+ entries covering many expected C1+ terms; ~37% of initially proposed terms were already present (nominalism, feudalism, counterpoint, fugue, catharsis, etc.), requiring multiple rounds of replacement.
+- Finding unique music/literary theory terms was hardest — those domains were already dense with enriched entries (heterophony, passacaglia, dodecaphony, ekphrasis, diegesis, narratology, etc.).
+
+### Process friction
+- The task specified "Format: {term, status:'stub'}" but the validator requires `language` too; had to infer from the VOCAB-AGENT.md full stub schema. Could note this discrepancy in the stub format description.
+
+### Suggested improvement
+- Add a helper script (e.g. `scripts/check_term_exists.py <term>`) to quickly test individual candidates, or document in VOCAB-AGENT.md that the seeder should always batch-check against both `words_staging.json` and `words.json` before writing.
