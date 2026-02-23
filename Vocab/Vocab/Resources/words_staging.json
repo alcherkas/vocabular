@@ -40748,7 +40748,7 @@
     "term": "trompe-l'oeil",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A visual art technique that uses realistic imagery to create the optical illusion that depicted objects exist in three dimensions on a flat surface.",
@@ -40770,16 +40770,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "illusionism",
+      "fool-the-eye"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "anamorphosis",
+      "chiaroscuro",
+      "sfumato"
+    ],
     "translation": null
   },
   {
     "term": "perspectivism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A philosophical position, associated especially with Nietzsche, holding that all knowledge, truth, and value are necessarily conditioned by the perspective, interests, and situation of the knower, and that no single absolute viewpoint exists.",
@@ -40792,16 +40799,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "perspectivalism",
+      "standpoint epistemology"
+    ],
+    "antonymTerms": [
+      "absolutism"
+    ],
+    "relatedTerms": [
+      "relativism",
+      "epistemology",
+      "constructivism"
+    ],
     "translation": null
   },
   {
     "term": "ekphrasis",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A rhetorical or literary description of a visual work of art, often a poem or prose passage that vividly evokes a painting, sculpture, or other artifact.",
@@ -40823,16 +40839,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pictorial description",
+      "art description"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "enargeia",
+      "hypotyposis",
+      "description"
+    ],
     "translation": null
   },
   {
     "term": "sinopia",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A reddish-brown pigment derived from iron oxide, traditionally used by Renaissance artists for the preparatory underdrawing of frescoes on the rough plaster layer (arriccio) before the final intonaco was applied.",
@@ -40846,16 +40869,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sinoper",
+      "iron ochre"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "fresco",
+      "ochre",
+      "underdrawing"
+    ],
     "translation": null
   },
   {
     "term": "fresco",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A method of mural painting in which water-based pigments are applied directly onto freshly laid wet plaster (intonaco), bonding permanently with the wall as it dries.",
@@ -40879,16 +40909,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "lime plaster painting",
+      "wet-plaster painting"
+    ],
+    "antonymTerms": [
+      "secco"
+    ],
+    "relatedTerms": [
+      "sinopia",
+      "intonaco",
+      "mural"
+    ],
     "translation": null
   },
   {
     "term": "intarsia",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of decorative woodwork in which differently colored and grained pieces of wood (and sometimes ivory or metal) are inlaid to create pictorial or geometric designs, flourishing especially in Renaissance Italy.",
@@ -40902,16 +40941,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tarsia",
+      "wood mosaic"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "marquetry",
+      "parquetry",
+      "inlay"
+    ],
     "translation": null
   },
   {
     "term": "ethos",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In rhetoric, an appeal to the speaker's credibility, authority, or moral character as a means of persuading an audience.",
@@ -40933,16 +40979,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "ethical appeal",
+      "appeal to character"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "logos",
+      "pathos",
+      "credibility"
+    ],
     "translation": null
   },
   {
     "term": "pathos",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In rhetoric, an appeal to the emotions of the audience, used as a persuasive strategy to evoke sympathy, pity, or strong feeling.",
@@ -40964,16 +41017,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pathetic appeal",
+      "emotional appeal"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ethos",
+      "logos",
+      "bathos"
+    ],
     "translation": null
   },
   {
     "term": "logos",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In rhetoric, an appeal to logic and reason, using evidence, statistics, or structured argument to persuade an audience.",
@@ -40995,16 +41055,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "logical appeal",
+      "rational appeal"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ethos",
+      "pathos",
+      "reason"
+    ],
     "translation": null
   },
   {
     "term": "euphemism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mild, indirect, or vague expression used in place of one that might be considered too blunt, harsh, or taboo.",
@@ -41027,16 +41094,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "polite substitute",
+      "indirect expression"
+    ],
+    "antonymTerms": [
+      "dysphemism"
+    ],
+    "relatedTerms": [
+      "circumlocution",
+      "periphrasis",
+      "doublespeak"
+    ],
     "translation": null
   },
   {
     "term": "epizeuxis",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A rhetorical figure in which a word or phrase is repeated immediately and in close succession, without intervening words, for emphasis or emotional intensity.",
@@ -41049,16 +41125,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "palilogia",
+      "gemination"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "anadiplosis",
+      "anaphora",
+      "diacope"
+    ],
     "translation": null
   },
   {
     "term": "panegyric",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formal public speech or piece of writing offering elaborate and effusive praise of a person, achievement, or event.",
@@ -41080,16 +41163,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "encomium",
+      "laudation"
+    ],
+    "antonymTerms": [
+      "philippic"
+    ],
+    "relatedTerms": [
+      "oration",
+      "tribute",
+      "eulogy"
+    ],
     "translation": null
   },
   {
     "term": "apostrophe",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A rhetorical device in which a speaker or writer directly addresses an absent or imaginary person, or an abstract concept personified, as though they were present.",
@@ -41112,16 +41204,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "direct address",
+      "exclamatio"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prosopopoeia",
+      "personification",
+      "invocation"
+    ],
     "translation": null
   },
   {
     "term": "periphrasis",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The use of more words than necessary to express an idea; a roundabout or circumlocutory form of expression.",
@@ -41143,16 +41242,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "circumlocution",
+      "periphrase"
+    ],
+    "antonymTerms": [
+      "ellipsis"
+    ],
+    "relatedTerms": [
+      "euphemism",
+      "paraphrase",
+      "verbosity"
+    ],
     "translation": null
   },
   {
     "term": "anadiplosis",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A rhetorical figure in which the last word or phrase of one clause or sentence is repeated at the beginning of the next, creating a chain-like effect.",
@@ -41165,16 +41273,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "gradatio",
+      "reduplicatio"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "epizeuxis",
+      "anaphora",
+      "epiphora"
+    ],
     "translation": null
   },
   {
     "term": "parallelism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In rhetoric and grammar, the use of successive verbal constructions that correspond in grammatical structure, producing a balanced and rhythmically satisfying effect.",
@@ -41196,16 +41311,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "parison",
+      "parallel structure"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "anaphora",
+      "chiasmus",
+      "isocolon"
+    ],
     "translation": null
   },
   {
     "term": "anastrophe",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A rhetorical figure that involves the deliberate inversion of the normal syntactic order of words for emphasis, poetic effect, or stylistic variety.",
@@ -41218,16 +41340,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "inversion",
+      "word-order inversion"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "hyperbaton",
+      "chiasmus",
+      "syntactic inversion"
+    ],
     "translation": null
   },
   {
     "term": "modus ponens",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A fundamental form of deductive inference: given the premise 'If P then Q' and the premise 'P', the conclusion 'Q' necessarily follows.",
@@ -41240,16 +41369,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "affirming the antecedent",
+      "law of detachment"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "modus tollens",
+      "syllogism",
+      "deduction"
+    ],
     "translation": null
   },
   {
     "term": "modus tollens",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of deductive inference that works by denying the consequent: given 'If P then Q' and 'not Q', the conclusion 'not P' necessarily follows.",
@@ -41262,16 +41398,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "denying the consequent",
+      "law of contrapositive"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "modus ponens",
+      "contraposition",
+      "deduction"
+    ],
     "translation": null
   },
   {
     "term": "dilemma",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A situation requiring a choice between two options that are equally undesirable, difficult, or mutually exclusive.",
@@ -41294,16 +41437,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "quandary",
+      "predicament"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "trilemma",
+      "paradox",
+      "logical disjunction"
+    ],
     "translation": null
   },
   {
     "term": "syllogism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of deductive reasoning consisting of a major premise, a minor premise, and a conclusion, in which the conclusion follows necessarily from the premises.",
@@ -41316,16 +41466,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "syllogistic argument",
+      "formal deduction"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "modus ponens",
+      "enthymeme",
+      "deduction"
+    ],
     "translation": null
   },
   {
     "term": "tautology",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In logic, a statement or formula that is necessarily true in every possible interpretation by virtue of its logical structure alone.",
@@ -41348,16 +41505,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "analytic proposition",
+      "pleonasm"
+    ],
+    "antonymTerms": [
+      "contradiction"
+    ],
+    "relatedTerms": [
+      "analytic truth",
+      "petitio principii"
+    ],
     "translation": null
   },
   {
     "term": "reductio ad absurdum",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A method of argument or proof that disproves a proposition by demonstrating that it leads logically to an absurd, contradictory, or obviously false conclusion.",
@@ -41370,16 +41535,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "proof by contradiction",
+      "indirect proof"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "modus tollens",
+      "apagogic proof",
+      "logical fallacy"
+    ],
     "translation": null
   },
   {
     "term": "petitio principii",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A logical fallacy, also called 'begging the question', in which a premise of an argument implicitly or explicitly assumes the truth of the very conclusion it is supposed to prove.",
@@ -41392,16 +41564,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "begging the question",
+      "circular argument"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "circular reasoning",
+      "logical fallacy",
+      "non sequitur"
+    ],
     "translation": null
   },
   {
     "term": "non sequitur",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A conclusion or statement that does not logically follow from the preceding argument, evidence, or premises.",
@@ -41424,9 +41603,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "irrelevant conclusion",
+      "invalid inference"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "petitio principii",
+      "logical fallacy",
+      "paralogism"
+    ],
     "translation": null
   },
   {
@@ -41916,7 +42102,7 @@
     "term": "hermeneutics",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The theory and methodology of interpretation, originally developed for biblical and classical texts and later extended to all forms of linguistic, symbolic, and cultural expression.",
@@ -41930,9 +42116,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "interpretive theory",
+      "interpretive methodology"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "exegesis",
+      "semiotics",
+      "hermeneutic circle"
+    ],
     "translation": null
   },
   {
@@ -42250,7 +42443,7 @@
     "term": "dialectics",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A method of arriving at truth through reasoned dialogue and the exposure of contradictions in opposing propositions, associated with Socratic questioning.",
@@ -42274,16 +42467,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "dialectic",
+      "dialectical method"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "hermeneutics",
+      "Socratic method",
+      "thesis"
+    ],
     "translation": null
   },
   {
     "term": "mimesis",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The artistic principle of imitating or representing nature, reality, or human action; the foundational concept in Aristotle's theory of art and literature.",
@@ -42306,16 +42506,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "imitation",
+      "representation"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "diegesis",
+      "verisimilitude",
+      "artistic realism"
+    ],
     "translation": null
   },
   {
     "term": "allegory",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A narrative, poem, or artwork in which the surface story, characters, or events are designed to convey a deeper moral, political, philosophical, or spiritual meaning through sustained symbolic correspondence.",
@@ -42338,9 +42545,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "extended metaphor",
+      "symbolic narrative"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "symbolism",
+      "parable",
+      "fable"
+    ],
     "translation": null
   },
   {
@@ -42820,7 +43034,7 @@
     "term": "oxymoron",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A rhetorical figure that combines two contradictory or seemingly incompatible terms in close conjunction, producing a paradoxical or vivid effect.",
@@ -42833,9 +43047,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "contradictio in adiecto",
+      "compressed paradox"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "paradox",
+      "antithesis",
+      "contradiction"
+    ],
     "translation": null
   },
   {
@@ -43121,7 +43342,7 @@
     "term": "conjecture",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In mathematics, a proposition believed to be true on the basis of intuition or partial evidence but not yet formally proven.",
@@ -43142,16 +43363,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "hypothesis",
+      "supposition"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "theorem",
+      "speculation",
+      "proposition"
+    ],
     "translation": null
   },
   {
     "term": "axiom",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In mathematics and logic, a statement accepted as self-evidently true and used as a starting point from which other theorems or propositions are deduced.",
@@ -43173,16 +43401,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "postulate",
+      "first principle"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "theorem",
+      "lemma",
+      "corollary"
+    ],
     "translation": null
   },
   {
     "term": "lemma",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In mathematics and logic, a proven subsidiary proposition that serves as a stepping stone toward the proof of a larger, more significant theorem.",
@@ -43204,16 +43439,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "auxiliary theorem",
+      "subsidiary proposition"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "theorem",
+      "axiom",
+      "corollary"
+    ],
     "translation": null
   },
   {
     "term": "a priori",
     "language": "en",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Relating to reasoning or knowledge that is derived from theoretical deduction or logical necessity rather than from empirical observation or sensory experience.",
@@ -43235,16 +43477,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pre-empirically",
+      "independently of experience"
+    ],
+    "antonymTerms": [
+      "a posteriori"
+    ],
+    "relatedTerms": [
+      "deductive",
+      "innate knowledge",
+      "rationalism"
+    ],
     "translation": null
   },
   {
     "term": "a posteriori",
     "language": "en",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Relating to reasoning or knowledge derived from empirical observation, sensory experience, or evidence gathered after the fact, rather than from prior theoretical deduction.",
@@ -43257,9 +43508,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "empirically",
+      "from experience"
+    ],
+    "antonymTerms": [
+      "a priori"
+    ],
+    "relatedTerms": [
+      "empirical",
+      "inductive",
+      "empiricism"
+    ],
     "translation": null
   }
 ]

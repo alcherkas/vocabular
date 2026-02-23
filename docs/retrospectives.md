@@ -4108,3 +4108,24 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - A topic-tagged seed list would help future enrichers quickly find domain-specific stubs without scanning all 390+ entries manually.
 - The VOCAB-AGENT.md could clarify the combined seeder+enricher workflow when no domain-relevant stubs exist yet.
 
+## Relations Agent — relations-47 — $(date +%Y-%m-%d)
+
+### What was done
+- Read AGENTS.md and docs/VOCAB-AGENT.md; ran preflight JSON check on both staging files (both passed)
+- Confirmed 35 EN enriched entries (all processed) and 363 LT enriched entries (172 with no relations; 35 processed)
+- Added synonyms/antonymTerms/relatedTerms to 35 EN and 35 LT enriched entries; set status "relations-added" for all 70
+- Ran validate_words.py --errors-for relations-added on both files; fixed one issue (buon fresco → lime plaster painting, self-referential substring)
+- Both files: PASSED with 0 errors in scoped status
+
+### What went well
+- Parallel application of relations via Python scripts was efficient and reliable
+- Semantic quality rules applied: synonyms co-extensive, no negation-prefixed antonyms (e.g. kantrus left with []), no self-references, all LT terms in nominative form
+- Validator caught "buon fresco" self-reference on first run — corrected before commit
+
+### What could improve
+- EN validator requires ≥2 synonyms; many C1+ academic/technical terms (ekphrasis, ethos, dialectics, etc.) lack obvious co-extensive synonyms — required careful pairing to avoid hypernyms
+- Future batches: pre-check synonym count requirement before writing relations to avoid a second pass
+
+### Decisions made
+- Used descriptive phrase synonyms for EN entries without single-word equivalents (e.g. "ethical appeal"/"appeal to character" for ethos) — judged co-extensive with defined senses
+- For LT gendered-pair nouns (sinoptikas/sinoptikė, etc.), cross-gender counterpart placed in relatedTerms per rubric; antonymTerms left [] where only negation-prefixed antonyms existed (kantrus, punktualus)
