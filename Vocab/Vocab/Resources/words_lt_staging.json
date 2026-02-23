@@ -3,7 +3,7 @@
     "term": "brokolis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A green vegetable with dense flowering heads, eaten cooked or raw.",
@@ -18,7 +18,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "daržovė",
+      "kopūstas",
+      "cukinija",
+      "žiedinis kopūstas",
+      "salierai"
+    ],
     "translation": "broccoli",
     "level": "A1"
   },
@@ -26,7 +32,7 @@
     "term": "cukinija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A type of summer squash with a mild flavour, used in cooking.",
@@ -41,7 +47,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "daržovė",
+      "moliūgas",
+      "brokolis",
+      "agurkas"
+    ],
     "translation": "zucchini",
     "level": "A1"
   },
@@ -49,7 +60,7 @@
     "term": "žiedinis kopūstas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A white vegetable with a firm, compact head of flower buds.",
@@ -64,7 +75,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kopūstas",
+      "brokolis",
+      "daržovė",
+      "baltagūžis kopūstas"
+    ],
     "translation": "cauliflower",
     "level": "A1"
   },
@@ -72,7 +88,7 @@
     "term": "salierai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A crunchy vegetable with long stalks, often used in salads and soups.",
@@ -87,7 +103,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "daržovė",
+      "petražolė",
+      "brokolis",
+      "morka"
+    ],
     "translation": "celery",
     "level": "A1"
   },
@@ -95,7 +116,7 @@
     "term": "liesas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having little body fat; thin or lean.",
@@ -108,9 +129,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "plonas",
+      "lieknas"
+    ],
+    "antonymTerms": [
+      {
+        "term": "storas",
+        "meaning": "having a large amount of body fat; overweight or fat"
+      }
+    ],
+    "relatedTerms": [
+      "lieknėjimas",
+      "kūno svoris",
+      "sportas",
+      "sveikata"
+    ],
     "translation": "lean, skinny",
     "level": "A2"
   },
@@ -118,7 +152,7 @@
     "term": "neskanus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Lacking taste or flavour; unpleasant to eat.",
@@ -132,8 +166,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      {
+        "term": "skanus",
+        "meaning": "pleasant to taste; tasty or delicious"
+      }
+    ],
+    "relatedTerms": [
+      "skonis",
+      "prieskoniai",
+      "maistas",
+      "saldus",
+      "kartus"
+    ],
     "translation": "tasteless, bland",
     "level": "A2"
   },
@@ -141,7 +186,7 @@
     "term": "džiovintas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Preserved by removing moisture; dehydrated.",
@@ -154,9 +199,21 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "dehidratuotas"
+    ],
+    "antonymTerms": [
+      {
+        "term": "šviežias",
+        "meaning": "not dried or preserved; fresh and recently harvested or made"
+      }
+    ],
+    "relatedTerms": [
+      "konservuotas",
+      "marinavimas",
+      "šaldytas",
+      "rūkytas"
+    ],
     "translation": "dried",
     "level": "A2"
   },
@@ -164,7 +221,7 @@
     "term": "paprastas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Not complicated or elaborate; easy to understand or do.",
@@ -177,9 +234,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nesudėtingas",
+      "lengvas"
+    ],
+    "antonymTerms": [
+      {
+        "term": "sudėtingas",
+        "meaning": "having many complex parts; difficult to understand or deal with"
+      }
+    ],
+    "relatedTerms": [
+      "aiškus",
+      "suprantamas",
+      "elementarus",
+      "bazinis"
+    ],
     "translation": "simple, ordinary",
     "level": "A1"
   },
@@ -187,7 +257,7 @@
     "term": "sudėtingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having many parts or aspects that are difficult to understand or deal with.",
@@ -200,9 +270,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "komplikuotas",
+      "painus"
+    ],
+    "antonymTerms": [
+      {
+        "term": "paprastas",
+        "meaning": "not complicated; easy to understand or do"
+      }
+    ],
+    "relatedTerms": [
+      "sunkus",
+      "sudėtingumas",
+      "abstrakcija",
+      "daugiasluoksnis"
+    ],
     "translation": "complex, complicated",
     "level": "B1"
   },
@@ -210,7 +293,7 @@
     "term": "butelis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A container, usually of glass or plastic, with a narrow neck, used for liquids.",
@@ -225,7 +308,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "stiklainis",
+      "indelis",
+      "skystis",
+      "vanduo",
+      "kamštis"
+    ],
     "translation": "bottle",
     "level": "A1"
   },
@@ -233,7 +322,7 @@
     "term": "dėžutė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small container with a lid, used for storing small items.",
@@ -247,7 +336,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dėžė",
+      "indelis",
+      "talpykla",
+      "saugojimas"
+    ],
     "translation": "small box",
     "level": "A1"
   },
@@ -255,7 +349,7 @@
     "term": "indelis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small jar or pot used for storing food or other substances.",
@@ -270,7 +364,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "stiklainis",
+      "dėžutė",
+      "buteliukas",
+      "talpykla"
+    ],
     "translation": "small jar, small container",
     "level": "A1"
   },
@@ -278,7 +377,7 @@
     "term": "maišelis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small bag, often made of plastic or paper, used for carrying goods.",
@@ -293,7 +392,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "krepšys",
+      "pakelis",
+      "pirkiniai",
+      "pakuotė"
+    ],
     "translation": "small bag",
     "level": "A1"
   },
@@ -301,7 +405,7 @@
     "term": "pakelis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small package containing a measured quantity of a product.",
@@ -316,7 +420,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "maišelis",
+      "pakuotė",
+      "pirkiniai",
+      "produktas"
+    ],
     "translation": "packet, sachet",
     "level": "A1"
   },
@@ -324,7 +433,7 @@
     "term": "gabalėlis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small portion or part of something.",
@@ -339,7 +448,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gabalas",
+      "riekė",
+      "kąsnelis",
+      "porcija",
+      "dalis"
+    ],
     "translation": "small piece",
     "level": "A1"
   },
@@ -347,7 +462,7 @@
     "term": "riekė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A thin, flat piece cut from something larger, especially bread.",
@@ -362,7 +477,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gabalėlis",
+      "kepalas",
+      "duona",
+      "porcija"
+    ],
     "translation": "slice",
     "level": "A1"
   },
@@ -370,7 +490,7 @@
     "term": "stiklainis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A glass container with a lid, used for preserving food.",
@@ -385,7 +505,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "indelis",
+      "konservai",
+      "uogienė",
+      "konservavimas"
+    ],
     "translation": "glass jar",
     "level": "A1"
   },
@@ -393,7 +518,7 @@
     "term": "gramas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A unit of mass equal to one thousandth of a kilogram.",
@@ -408,7 +533,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kilogramas",
+      "miligramas",
+      "svoris",
+      "matavimas",
+      "receptas"
+    ],
     "translation": "gram",
     "level": "A1"
   },
@@ -416,7 +547,7 @@
     "term": "dėžė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large container made of wood, cardboard, or plastic.",
@@ -430,7 +561,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dėžutė",
+      "kartonas",
+      "talpykla",
+      "perkraustymas"
+    ],
     "translation": "box, crate",
     "level": "A1"
   },
@@ -438,7 +574,7 @@
     "term": "kepalas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A shaped mass of baked bread.",
@@ -453,7 +589,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "duona",
+      "riekė",
+      "kepimas",
+      "miltai"
+    ],
     "translation": "loaf",
     "level": "A1"
   },
@@ -461,7 +602,7 @@
     "term": "plytelė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A flat rectangular block of chocolate or soap.",
@@ -486,7 +627,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šokoladas",
+      "keramika",
+      "grindys",
+      "sienelė"
+    ],
     "translation": "bar, tablet, tile",
     "level": "A1"
   },
@@ -494,7 +640,7 @@
     "term": "reikėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To be necessary or required; to need something.",
@@ -509,7 +655,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "privalėti",
+      "turėti",
+      "norėti",
+      "galėti",
+      "būtinumas"
+    ],
     "translation": "to need, to be necessary",
     "level": "A1"
   },
@@ -517,7 +669,7 @@
     "term": "raudonas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Of the colour red; having the colour of blood or fire.",
@@ -531,7 +683,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "oranžinis",
+      "rožinis",
+      "kraujinas",
+      "spalva"
+    ],
     "translation": "red",
     "level": "A1"
   },
@@ -539,7 +696,7 @@
     "term": "rudas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Of a brown colour, like wood or earth.",
@@ -553,7 +710,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tamsus",
+      "kaštanas",
+      "žemė",
+      "spalva"
+    ],
     "translation": "brown",
     "level": "A1"
   },
@@ -561,7 +723,7 @@
     "term": "mėlynas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Of the colour blue, like the sky or the sea.",
@@ -575,7 +737,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žydras",
+      "dangus",
+      "vandenynas",
+      "spalva"
+    ],
     "translation": "blue",
     "level": "A1"
   },
@@ -583,7 +750,7 @@
     "term": "baltas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Of the colour white, the lightest colour.",
@@ -596,8 +763,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      {
+        "term": "juodas",
+        "meaning": "of the darkest colour; the direct opposite of white"
+      }
+    ],
+    "relatedTerms": [
+      "pilkas",
+      "kreminis",
+      "šviesa",
+      "sniegas",
+      "spalva"
+    ],
     "translation": "white",
     "level": "A1"
   },
@@ -605,7 +783,7 @@
     "term": "geltonas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Of the colour yellow, like the sun or a lemon.",
@@ -619,7 +797,13 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "oranžinis",
+      "žalias",
+      "saulė",
+      "citrina",
+      "spalva"
+    ],
     "translation": "yellow",
     "level": "A1"
   },
@@ -627,7 +811,7 @@
     "term": "juodas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Of the darkest colour, the opposite of white.",
@@ -640,8 +824,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      {
+        "term": "baltas",
+        "meaning": "of the lightest colour; the direct opposite of black"
+      }
+    ],
+    "relatedTerms": [
+      "tamsiai pilkas",
+      "tamsus",
+      "naktis",
+      "anglys",
+      "spalva"
+    ],
     "translation": "black",
     "level": "A1"
   },
@@ -649,7 +844,7 @@
     "term": "dvidešimt vienas",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The cardinal number twenty-one (21).",
@@ -664,7 +859,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dvidešimt",
+      "dvidešimt du",
+      "vienas",
+      "skaičius"
+    ],
     "translation": "twenty-one",
     "level": "A1"
   },
@@ -672,7 +872,7 @@
     "term": "dvidešimt du",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The cardinal number twenty-two (22).",
@@ -687,7 +887,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dvidešimt vienas",
+      "dvidešimt trys",
+      "du",
+      "skaičius"
+    ],
     "translation": "twenty-two",
     "level": "A1"
   },
@@ -695,7 +900,7 @@
     "term": "dvidešimt trys",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The cardinal number twenty-three (23).",
@@ -710,7 +915,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dvidešimt du",
+      "dvidešimt keturi",
+      "trys",
+      "skaičius"
+    ],
     "translation": "twenty-three",
     "level": "A1"
   },
@@ -718,7 +928,7 @@
     "term": "dvidešimt keturi",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The cardinal number twenty-four (24).",
@@ -733,7 +943,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dvidešimt trys",
+      "dvidešimt penki",
+      "keturi",
+      "skaičius"
+    ],
     "translation": "twenty-four",
     "level": "A1"
   },
@@ -741,7 +956,7 @@
     "term": "dvidešimt penki",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The cardinal number twenty-five (25).",
@@ -756,7 +971,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dvidešimt keturi",
+      "dvidešimt šeši",
+      "penki",
+      "skaičius"
+    ],
     "translation": "twenty-five",
     "level": "A1"
   },
@@ -764,7 +984,7 @@
     "term": "dvidešimt šeši",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The cardinal number twenty-six (26).",
@@ -779,7 +999,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dvidešimt penki",
+      "dvidešimt septyni",
+      "šeši",
+      "skaičius"
+    ],
     "translation": "twenty-six",
     "level": "A1"
   },
@@ -787,7 +1012,7 @@
     "term": "dvidešimt septyni",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The cardinal number twenty-seven (27).",
@@ -802,7 +1027,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dvidešimt šeši",
+      "dvidešimt aštuoni",
+      "septyni",
+      "skaičius"
+    ],
     "translation": "twenty-seven",
     "level": "A1"
   },
