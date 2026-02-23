@@ -2772,7 +2772,7 @@
     "term": "kailiniai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Šiltas viršutinis drabužis iš natūralaus ar dirbtinio kailio, dėvimas žiemą.",
@@ -3442,7 +3442,7 @@
     "term": "Badmintonas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Žaidimas su raketėmis ir plunksnuotu kamuoliuku per tinklą; olimpinė sporto šaka.",
@@ -3645,7 +3645,7 @@
   },
   {
     "term": "gimnastika",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -3670,11 +3670,12 @@
       "sportas",
       "mankšta",
       "treniruotė"
-    ]
+    ],
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided ('aerobika'); 'aerobika' is a closely related but distinct activity (aerobics ≠ gymnastics). Add a second co-extensive synonym."
   },
   {
     "term": "apšilimas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -3701,11 +3702,12 @@
       "treniruotė",
       "sportas",
       "mankšta"
-    ]
+    ],
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided ('įšilimas'). Add a second co-extensive synonym."
   },
   {
     "term": "teisėjas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "translation": "judge",
@@ -3728,11 +3730,12 @@
       "teisėja",
       "prokuroras",
       "advokatas"
-    ]
+    ],
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "teisėja",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "translation": "judge (female)",
@@ -3755,11 +3758,12 @@
       "teisėjas",
       "prokuroras",
       "advokatas"
-    ]
+    ],
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "statybininkas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -3783,11 +3787,12 @@
       "įrankiai",
       "darbininkas"
     ],
-    "qaNote": "Synonym 'darbininkas' (worker/labourer) is too broad: it denotes any manual worker regardless of trade, whereas 'statybininkas' specifically refers to a construction worker. Replace with a more specific synonym."
+    "qaNote": "Synonym 'darbininkas' (worker/labourer) is too broad: it denotes any manual worker regardless of trade, whereas 'statybininkas' specifically refers to a construction worker. Replace with a more specific synonym.",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "sodininkas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -3813,11 +3818,12 @@
       "gėlės",
       "medis"
     ],
-    "qaNote": "Synonym 'daržininkas' is inaccurate: 'daržininkas' specifically refers to a vegetable gardener (daržas = kitchen garden), whereas 'sodininkas' refers to a gardener or orchardist (sodas = garden/orchard). They are related but distinct specialisations. Replace with a more accurate synonym."
+    "qaNote": "Synonym 'daržininkas' is inaccurate: 'daržininkas' specifically refers to a vegetable gardener (daržas = kitchen garden), whereas 'sodininkas' refers to a gardener or orchardist (sodas = garden/orchard). They are related but distinct specialisations. Replace with a more accurate synonym.",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Existing synonym 'daržininkas' (vegetable gardener) is a hyponym, not a co-extensive synonym. Remove it and supply 2 accurate co-extensive synonyms."
   },
   {
     "term": "mechanikas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -3841,11 +3847,12 @@
       "remontas",
       "technikas"
     ],
-    "qaNote": "Synonym 'technikas' (technician) is broader than 'mechanikas' (mechanic): a technician may work in any technical field, while a mechanic specifically repairs and maintains machines, engines, and vehicles. Replace with a more specific synonym."
+    "qaNote": "Synonym 'technikas' (technician) is broader than 'mechanikas' (mechanic): a technician may work in any technical field, while a mechanic specifically repairs and maintains machines, engines, and vehicles. Replace with a more specific synonym.",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "kepėjas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -3870,11 +3877,12 @@
       "miltai",
       "duonkepys"
     ],
-    "qaNote": "Synonym 'duonkepys' is too specific: 'duonkepys' literally means bread baker (duona = bread), whereas 'kepėjas' denotes a baker of any goods including cakes and pastries. A hyponym cannot serve as a synonym for its hypernym. Replace with a more accurate synonym."
+    "qaNote": "Synonym 'duonkepys' is too specific: 'duonkepys' literally means bread baker (duona = bread), whereas 'kepėjas' denotes a baker of any goods including cakes and pastries. A hyponym cannot serve as a synonym for its hypernym. Replace with a more accurate synonym.",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "samanos",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -3898,11 +3906,12 @@
       "drėgmė",
       "žolė"
     ],
-    "translation": "moss"
+    "translation": "moss",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "klevas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -3926,11 +3935,12 @@
       "lapas",
       "medis"
     ],
-    "translation": "maple tree"
+    "translation": "maple tree",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "pušis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -3954,11 +3964,12 @@
       "beržas",
       "medis"
     ],
-    "translation": "pine tree"
+    "translation": "pine tree",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "kočėlas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -3982,11 +3993,12 @@
       "virtuvė",
       "mentelė"
     ],
-    "translation": "rolling pin"
+    "translation": "rolling pin",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "kiaurasamtis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4010,11 +4022,12 @@
       "virtuvė",
       "kepimas",
       "mentelė"
-    ]
+    ],
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "šluotelė",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4040,11 +4053,12 @@
       "kiaušinis",
       "grietinėlė",
       "kepimas"
-    ]
+    ],
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided. Add a second co-extensive synonym."
   },
   {
     "term": "mentelė",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4068,11 +4082,12 @@
       "virtuvė",
       "kočėlas"
     ],
-    "translation": "spatula"
+    "translation": "spatula",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "sietelis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4098,11 +4113,12 @@
       "miltai",
       "kepimas",
       "virtuvė"
-    ]
+    ],
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided ('sietas'). 'Sietas' is a larger sieve; they are related but not fully co-extensive. Add a second co-extensive synonym."
   },
   {
     "term": "dangtis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4128,11 +4144,12 @@
       "puodas",
       "keptuvė",
       "virtuvė"
-    ]
+    ],
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided ('uždangalas'). Add a second co-extensive synonym."
   },
   {
     "term": "prieskonis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4158,11 +4175,12 @@
       "druska",
       "padažas"
     ],
-    "translation": "spice, seasoning"
+    "translation": "spice, seasoning",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided ('pagardas'). Note: prieskonis (dry spice) and pagardas (condiment/sauce) are related but not co-extensive; clarify and add a second synonym."
   },
   {
     "term": "pagardas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4188,11 +4206,12 @@
       "garstyčios",
       "kepimas"
     ],
-    "translation": "condiment, garnish, flavouring"
+    "translation": "condiment, garnish, flavouring",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided ('prieskonis'). Note: pagardas (condiment/garnish) and prieskonis (dry spice) are related but not co-extensive; clarify and add a second synonym."
   },
   {
     "term": "užkandis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4216,11 +4235,12 @@
       "vakarėlis",
       "valgymas"
     ],
-    "translation": "snack, appetiser"
+    "translation": "snack, appetiser",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "blynas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4246,11 +4266,12 @@
       "kepimas",
       "pusryčiai",
       "uogienė"
-    ]
+    ],
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided ('plokštainis'). 'Plokštainis' (flat cake/flatbread) is not co-extensive with blynas (pancake/crepe). Add an accurate second synonym."
   },
   {
     "term": "apkepas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4275,11 +4296,12 @@
       "virtuvė",
       "troškinys"
     ],
-    "translation": "casserole, baked dish"
+    "translation": "casserole, baked dish",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "užvirti",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -4302,11 +4324,12 @@
       "vanduo",
       "virimas",
       "kaitinti"
-    ]
+    ],
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "nata",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4329,7 +4352,8 @@
       "groti",
       "instrumentas"
     ],
-    "translation": "(musical) note"
+    "translation": "(musical) note",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "dainelė",
@@ -4340,7 +4364,7 @@
   },
   {
     "term": "gitara",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4364,11 +4388,12 @@
       "smuikas",
       "instrumentas"
     ],
-    "translation": "guitar"
+    "translation": "guitar",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "būgnas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4392,11 +4417,12 @@
       "muzika",
       "orkestras"
     ],
-    "translation": "drum"
+    "translation": "drum",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "trimitas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4422,11 +4448,12 @@
       "muzikantas"
     ],
     "translation": "trumpet",
-    "qaNote": "Nominative singular: trimitas. A brass instrument; not to be confused with 'trombonas' (trombone)."
+    "qaNote": "Nominative singular: trimitas. A brass instrument; not to be confused with 'trombonas' (trombone).",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "fleita",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4452,11 +4479,12 @@
       "orkestras"
     ],
     "translation": "flute",
-    "qaNote": "Nominative singular: fleita. Refers to the Western concert flute."
+    "qaNote": "Nominative singular: fleita. Refers to the Western concert flute.",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "akordeonas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4482,11 +4510,12 @@
       "armonika"
     ],
     "translation": "accordion",
-    "qaNote": "Nominative singular: akordeonas. Strongly associated with Lithuanian folk music."
+    "qaNote": "Nominative singular: akordeonas. Strongly associated with Lithuanian folk music.",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "klavišai",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4512,11 +4541,12 @@
       "muzikantas"
     ],
     "translation": "keys (of a keyboard instrument)",
-    "qaNote": "Nominative plural of klavišas. Used for piano/organ/accordion keys. Also used loosely for keyboard shortcuts in computing."
+    "qaNote": "Nominative plural of klavišas. Used for piano/organ/accordion keys. Also used loosely for keyboard shortcuts in computing.",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | 0 synonyms provided. Also note: term is nominative plural ('klavišai'); if a singular entry is more appropriate, use 'klavišas'. Add 2 co-extensive synonyms."
   },
   {
     "term": "scena",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4553,11 +4583,12 @@
       "filmuoti"
     ],
     "translation": "stage, scene",
-    "qaNote": "Nominative singular: scena. Two main senses: the physical stage and a narrative scene."
+    "qaNote": "Nominative singular: scena. Two main senses: the physical stage and a narrative scene.",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "šventadienis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4580,11 +4611,12 @@
       "tradicija",
       "religija"
     ],
-    "translation": "holy day, feast day, public holiday"
+    "translation": "holy day, feast day, public holiday",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "kalėdaitis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4609,11 +4641,12 @@
       "tradicija",
       "šeima"
     ],
-    "translation": "Christmas wafer (Lithuanian Kūčios tradition)"
+    "translation": "Christmas wafer (Lithuanian Kūčios tradition)",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "žvakelė",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4639,11 +4672,12 @@
       "kapas",
       "religija"
     ],
-    "translation": "(small) candle"
+    "translation": "(small) candle",
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided ('žvakutė'). Add a second co-extensive synonym."
   },
   {
     "term": "palinkėjimas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "meanings": [
