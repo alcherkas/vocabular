@@ -3814,3 +3814,20 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - `"theory of collections"` for `set theory` is informal; standard mathematical alternatives are limited to `"theory of sets"`. Acceptable as a lay synonym.
 - LT 363 enriched entries remain; 35 processed this session.
 - No merge performed as instructed.
+
+## [2025-07-17] [enricher-en-39] [enrich-en-39]
+
+### What went well
+- Preflight JSON check passed immediately; no syntax issues in words_staging.json.
+- Focused domain selection (philosophy of science + behavioural economics/psychology + economics/sociology) produced thematically coherent batches that are easy to relate to one another.
+- All 35 enrichments passed `validate_words.py --errors-for enriched` on the first attempt with exit 0.
+
+### What was harder than expected
+- Some target terms from the prompt (abductive reasoning, underdetermination, reductionism, emergence, supervenience, anchoring, cognitive dissonance, framing effect, availability heuristic, representativeness heuristic, confirmation bias, sunk cost fallacy) were not present as stubs — enriched the closest available stubs instead.
+- Philosophy-of-science terms often have only one clearly dominant sense; ensuring each entry had a genuinely distinct second meaning required careful scoping to avoid manufactured distinctions.
+
+### Process friction
+- None this iteration — the VOCAB-AGENT.md protocol, validator, and commit workflow all worked smoothly.
+
+### Suggested improvement
+- Consider adding a cross-reference check in the validator for entries whose `term` values overlap semantically (e.g., `Duhem-Quine thesis` and `underdetermination`) to flag potential duplicate-sense entries before the Relations stage.
