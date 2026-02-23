@@ -4362,3 +4362,22 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - Always check a sample of existing enriched entries before writing enrichment data — the task instructions mentioned English definitions, which matched the majority of existing entries
 - The validation script flags missing `translation` for LT entries, so always include it
 
+
+---
+
+## Relations Agent — vocab/relations-52 (2025-07-30)
+
+**What was done:**
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to 35 EN enriched entries (literary terms, music theory, philosophy, drama, cryptography) and 35 LT enriched entries (clothing, media, transport, household items, communication verbs).
+- Set status to `relations-added` for all 70 processed entries.
+- Ran `validate_words.py --errors-for relations-added` on both staging files; both pass with 0 errors.
+
+**Issues encountered:**
+- 4 EN validation errors on first pass: "manifold" synonyms (`smooth manifold`, `differentiable manifold`) and relatedTerms phrases (`epistolary novel`, `literary canon`) flagged as self-referential (headword appears as a word token inside a multi-word phrase).
+- 2 LT validation errors: `žurnalistinis reportažas` and `iliustruotas žurnalas` contained the headword as a token.
+- Fixed by replacing the offending phrases with non-self-referential alternatives.
+
+**Lessons:**
+- Multi-word synonyms/relatedTerms that include the headword as a space-separated token are rejected by the validator. Avoid compound phrases like `"X Y"` where `Y` is the headword term.
+- For highly technical terms (e.g. "manifold"), near-synonyms from adjacent disciplines ("smooth variety", "geometric variety") are the safest choice since they avoid self-reference while remaining semantically close.
+- LT synonym quality: verbs like `pokalbiauti`, `atsakinėti` are valid nominative infinitives and pass validation.
