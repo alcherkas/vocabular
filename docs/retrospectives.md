@@ -4190,3 +4190,30 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - A pre-validation dry-run pass before writing the full script would save cycles on self-ref and cross-array issues.
 
 **Confidence**: 95% — all validator checks passed; semantic quality of synonyms for ultra-specific technical phrases is the residual risk.
+
+---
+
+## [2025-07-17] Relations Agent — vocab/relations-50
+
+**Agent**: Relations (LT)
+**Branch**: vocab/relations-50
+**Task**: Add relations to 35 enriched LT entries
+
+### What was done
+- Preflight JSON check on both `words_lt_staging.json` (2240 entries, OK) and `words_staging.json` (1430 entries, OK).
+- 0 enriched EN entries available; 363 enriched LT entries available.
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to the first 35 enriched LT entries (clothing vocabulary: kepurė through apatiniai marškinėliai), setting status to `relations-added`.
+- Semantic quality applied: one synonym added (megztinis → džemperis, co-extensive sweater/jumper); all antonymTerms kept [] since clothing nouns have no true semantic opposites; relatedTerms populated with co-hyponyms and associated garments.
+- Validator passed: `--errors-for relations-added` exit 0, all pre-existing warnings in other statuses only.
+
+### What went well
+- The clothing vocabulary cluster is tightly interconnected, making relatedTerms straightforward and coherent.
+- Substring-as-token validation rule required care for phrases ("guminiai batai" vs "batai"); plan accounted for this correctly.
+
+### Challenges
+- All 35 entries were clothing nouns — no genuine antonyms exist for this category, so antonymTerms stayed [].
+- "megztinis" was the only entry with a valid co-extensive synonym (džemperis); most clothing terms are too specific for true synonyms in Lithuanian.
+
+### Doubts / open questions
+- None. Confidence: 95%.
+
