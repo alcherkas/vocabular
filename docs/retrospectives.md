@@ -4324,3 +4324,23 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - `peregrinatio`/`quest` for `pilgrimage`: peregrinatio is accurate (Latin origin); quest applies only to the metaphorical sense 2. Acceptable since both senses are defined in the entry.
 - Confidence overall: 90%.
 >>>>>>> vocab/relations-51
+
+---
+## Retro: enricher-en-46 — 2025-08-01
+
+**Agent:** enricher-en-46  
+**Task:** Enrich 35 English stub entries in words_staging.json  
+**Branch:** vocab/enricher-en-46  
+
+### What went well
+- All 35 stubs enriched in a single pass with no validation errors.
+- Coverage was broad and coherent: entries spanned mathematics, physics, machine learning, software engineering, linguistics, geography, and literary theory.
+- Each meaning includes a natural, context-rich example sentence and appropriate tags.
+
+### What was tricky
+- Several stubs (lagrangian, hamiltonian) had no partOfSpeech or register pre-filled; these needed both fields set from scratch.
+- The `roman à thèse` entry required careful handling of the accented character in the JSON key lookup.
+
+### Process notes
+- The `--errors-for enriched` flag on the validator scoped exit-code checking correctly to enriched entries only, preventing pre-existing stub warnings from blocking validation.
+- 15 stubs remain in the staging file for a future enrichment batch.
