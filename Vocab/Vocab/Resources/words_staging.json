@@ -44749,7 +44749,31 @@
   {
     "term": "scholasticism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The dominant intellectual tradition of medieval European universities (c.1100–1700), combining Christian theology with classical, especially Aristotelian, philosophy through rigorous logical disputation.",
+        "example": "Thomas Aquinas's Summa Theologica represents the summit of scholasticism's effort to reconcile faith and reason through systematic argumentation.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "philosophy",
+          "theology",
+          "education"
+        ]
+      },
+      {
+        "definition": "Narrow or pedantic adherence to the methods and doctrines of an established philosophical or theological school; formalistic thinking divorced from practical reality.",
+        "example": "The Reformers condemned the dry scholasticism of university theologians, preferring direct engagement with Scripture over syllogistic debate.",
+        "register": "formal",
+        "tags": [
+          "philosophy",
+          "criticism",
+          "pedantry"
+        ]
+      }
+    ]
   },
   {
     "term": "realism",
@@ -44759,117 +44783,595 @@
   {
     "term": "chivalry",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The combination of qualities expected of an ideal medieval knight — courage, loyalty, courtesy, and readiness to protect the weak — as codified in the social and moral code governing knighthood.",
+        "example": "Chrétien de Troyes depicted chivalry in his Arthurian romances as a fusion of martial prowess, Christian piety, and courtly refinement.",
+        "register": "formal",
+        "tags": [
+          "medieval history",
+          "knighthood",
+          "ethics",
+          "social code"
+        ]
+      },
+      {
+        "definition": "Polite, considerate, and gallant behavior, especially of a man toward women, derived from the idealized ethos of medieval knighthood.",
+        "example": "He held the door and offered his umbrella with an old-fashioned chivalry that she found both charming and faintly anachronistic.",
+        "register": "general",
+        "tags": [
+          "etiquette",
+          "social behavior",
+          "gallantry"
+        ]
+      }
+    ]
   },
   {
     "term": "courtly love",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A highly conventionalized medieval literary tradition depicting an idealized, often adulterous passion between a knight and a noble lady, characterized by the lover's suffering, adoration from afar, and ennobling service to an unattainable beloved.",
+        "example": "The Provençal troubadours codified courtly love as an elaborate ritual in which the knight-poet addressed his lady as a distant, semi-divine ideal whom he could approach only through lyric devotion.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "literature",
+          "romance",
+          "troubadours",
+          "Occitan poetry"
+        ]
+      },
+      {
+        "definition": "The aristocratic social ethos and set of behavioral protocols governing the idealized erotic relation between a noble lover and his lady at the medieval court.",
+        "example": "Andreas Capellanus outlined the rules of courtly love in De Amore, prescribing elaborate protocols for wooing that placed the lady in the position of sovereign judge.",
+        "register": "formal",
+        "tags": [
+          "medieval history",
+          "social history",
+          "court culture"
+        ]
+      }
+    ]
   },
   {
     "term": "inquisition",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An ecclesiastical tribunal of the Roman Catholic Church established in the 13th century to investigate and punish heresy, notorious for coercive interrogation, the use of torture, and severe penalties including burning at the stake.",
+        "example": "The Spanish Inquisition, founded in 1478 under Ferdinand and Isabella, became the most feared branch of the institution, subjecting conversos to systematic interrogation about their religious sincerity.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "church history",
+          "heresy",
+          "religion",
+          "law"
+        ]
+      },
+      {
+        "definition": "Any severe, oppressive, or intensive official inquiry or examination, especially one that proceeds with little regard for the rights of those being questioned.",
+        "example": "The parliamentary hearing quickly devolved into an inquisition, with witnesses kept for hours under hostile cross-examination by committee members.",
+        "register": "formal",
+        "tags": [
+          "investigation",
+          "interrogation",
+          "oppression"
+        ]
+      }
+    ]
   },
   {
     "term": "pilgrimage",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A journey made by a believer to a sacred or holy place as an act of religious devotion, penance, or thanksgiving, often undertaken at considerable hardship.",
+        "example": "Thousands of medieval Christians undertook the pilgrimage to Santiago de Compostela along the Camino routes, believing the relics of St. James had the power to cure illness and grant spiritual merit.",
+        "register": "formal",
+        "tags": [
+          "religion",
+          "medieval history",
+          "devotion",
+          "travel",
+          "Christianity"
+        ]
+      },
+      {
+        "definition": "A journey, literal or metaphorical, to a place or state of great personal significance, meaning, or transformation.",
+        "example": "Every summer she made her own pilgrimage to the village in Calabria where her grandmother had been born, walking the same olive-grove paths as if retracing a lineage.",
+        "register": "literary",
+        "tags": [
+          "travel",
+          "personal significance",
+          "metaphor"
+        ]
+      }
+    ]
   },
   {
     "term": "crusade",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Any of the military expeditions undertaken by European Christians between the 11th and 13th centuries, primarily to recover the Holy Land from Muslim rule, sanctioned by the papacy and offering participants spiritual indulgences.",
+        "example": "The First Crusade culminated in the bloody capture of Jerusalem in 1099, establishing a network of Crusader states in the Levant that survived for nearly two centuries.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "religion",
+          "warfare",
+          "Christianity",
+          "Islam"
+        ]
+      },
+      {
+        "definition": "A vigorous, sustained campaign or movement in favor of a particular cause, pursued with missionary zeal.",
+        "example": "The senator launched a public crusade against pharmaceutical pricing, crisscrossing the country to build grassroots support for reform.",
+        "register": "general",
+        "tags": [
+          "campaign",
+          "advocacy",
+          "reform",
+          "social movement"
+        ]
+      }
+    ]
   },
   {
     "term": "simony",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The buying or selling of ecclesiastical offices, benefices, pardons, or sacred objects, named after Simon Magus and condemned as a grave sin and canonical offense in medieval church law.",
+        "example": "Pope Gregory VII made the eradication of simony the cornerstone of his reform programme, insisting that bishops could not legitimately receive their investiture from secular lords in exchange for payment.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "church history",
+          "canon law",
+          "corruption",
+          "Gregorian Reform"
+        ]
+      }
+    ]
   },
   {
     "term": "manorialism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The medieval system of organizing agricultural land and labor around the manor, under which peasants (serfs and villeins) owed labor services and rents to a lord in exchange for access to land and protection, forming the economic backbone of feudal society.",
+        "example": "Manorialism bound the peasantry to the land through customary obligations enforced in the manor court, including week-work on the lord's demesne and payment of heriot upon a tenant's death.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "feudalism",
+          "economics",
+          "social history",
+          "agrarian history"
+        ]
+      }
+    ]
   },
   {
     "term": "excommunication",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The most severe ecclesiastical censure in canon law, by which a baptized Christian is excluded from the sacraments, liturgical participation, and the community of the Church, typically imposed as a penalty for grave offenses or persistent heresy.",
+        "example": "Gregory VII's excommunication of Henry IV in 1076 was a dramatic assertion of papal authority, releasing the emperor's subjects from their oaths of feudal loyalty.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "church history",
+          "canon law",
+          "religion",
+          "papacy"
+        ]
+      },
+      {
+        "definition": "The forcible exclusion or banishment of a person from any community, organization, or social group, often total and highly public.",
+        "example": "His public challenge to the party's official line resulted in a swift social excommunication: invitations dried up, colleagues stopped returning his calls.",
+        "register": "formal",
+        "tags": [
+          "exclusion",
+          "social sanction",
+          "ostracism"
+        ]
+      }
+    ]
   },
   {
     "term": "benefice",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A permanent church office that confers on its holder (the incumbent) a legal right to certain revenues — derived from land, tithes, or endowments — in exchange for spiritual duties, such as a parish rectory or cathedral canonry.",
+        "example": "The practice of pluralism, holding several benefices simultaneously and appointing underpaid curates to perform the actual duties, was a central target of 12th-century church reformers.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "church history",
+          "canon law",
+          "clergy",
+          "ecclesiastical finance"
+        ]
+      }
+    ]
   },
   {
     "term": "tithe",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A tenth part of one's annual income or agricultural produce, traditionally levied for the support of the clergy and upkeep of the church, and in medieval England enforceable as a legal obligation under both canon and common law.",
+        "example": "Peasants were required to pay great tithes on their grain and lesser tithes on livestock and garden produce, surrendering one-tenth of each harvest to the parish priest.",
+        "register": "formal",
+        "tags": [
+          "medieval history",
+          "church history",
+          "taxation",
+          "religion",
+          "agrarian history"
+        ]
+      },
+      {
+        "definition": "A voluntary contribution of one-tenth of one's income to a church or religious community, practiced in many contemporary Protestant and evangelical denominations.",
+        "example": "Members of the congregation were encouraged to tithe consistently, committing a tenth of their salary to the church's social outreach programmes.",
+        "register": "general",
+        "tags": [
+          "religion",
+          "donation",
+          "giving",
+          "Christian practice"
+        ]
+      }
+    ]
   },
   {
     "term": "interdict",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An ecclesiastical censure issued by the pope or a bishop that suspends the administration of most sacraments and forbids public worship in a specified territory or for a specified person, used as a weapon against recalcitrant rulers in the medieval Church.",
+        "example": "Innocent III placed England under interdict in 1208, closing churches and halting most sacramental rites throughout the kingdom to compel King John to accept his choice of Archbishop of Canterbury.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "church history",
+          "canon law",
+          "papacy",
+          "censure"
+        ]
+      },
+      {
+        "definition": "An authoritative prohibition or injunction, especially one issued by a court or governing authority forbidding a specific action.",
+        "example": "The court issued an interdict against the developer, preventing any further construction on the disputed land pending resolution of the planning appeal.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "prohibition",
+          "injunction"
+        ]
+      }
+    ]
   },
   {
     "term": "papal bull",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A formal document or charter issued by the pope, authenticated by a lead seal (bulla) and bearing his name and title, used for major pronouncements including the granting of privileges, the declaration of dogma, and the proclamation of crusades.",
+        "example": "The papal bull Unam Sanctam (1302), issued by Boniface VIII, boldly asserted that submission to the authority of the Roman pontiff was necessary for the salvation of every human being.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "church history",
+          "papacy",
+          "documents",
+          "canon law"
+        ]
+      }
+    ]
   },
   {
     "term": "reliquary",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A container or shrine, often of precious materials and elaborate craftsmanship, designed to house and display the relics of saints — bodily remains or objects associated with a holy person — and venerated by the faithful.",
+        "example": "The Sainte-Chapelle in Paris was built specifically to house Louis IX's supreme reliquary collection, including what was believed to be Christ's Crown of Thorns.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "religion",
+          "art history",
+          "sacred objects",
+          "Christian devotion"
+        ]
+      }
+    ]
   },
   {
     "term": "patristics",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The branch of theology and historical scholarship devoted to the study of the life, writings, and doctrines of the Church Fathers — the authoritative Christian writers and thinkers of the first eight centuries — and their role in shaping orthodox doctrine.",
+        "example": "A thorough grounding in patristics is essential for understanding how Augustine's theology of grace and predestination shaped Western Christianity's divergence from Eastern Orthodox thought.",
+        "register": "technical",
+        "tags": [
+          "theology",
+          "church history",
+          "medieval history",
+          "Christianity",
+          "Church Fathers"
+        ]
+      }
+    ]
   },
   {
     "term": "canticle",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A hymn or chant of praise derived from a biblical text other than the Psalms, used in the liturgy of the Christian Church, such as the Magnificat, the Benedictus, or Francis of Assisi's Canticle of the Sun.",
+        "example": "The monks chanted the canticle of Zechariah at Lauds each morning, the Benedictus rising in Gregorian plainchant through the stone vaults of the abbey church.",
+        "register": "formal",
+        "tags": [
+          "religion",
+          "medieval history",
+          "liturgy",
+          "music",
+          "Christianity"
+        ]
+      },
+      {
+        "definition": "Any sacred or solemn song of praise, especially one of the poetic texts of the Hebrew Bible used in liturgical contexts.",
+        "example": "The Song of Songs, often called the Canticle of Canticles, was interpreted allegorically by medieval commentators as a description of the soul's love for God.",
+        "register": "literary",
+        "tags": [
+          "religion",
+          "poetry",
+          "Old Testament",
+          "liturgy"
+        ]
+      }
+    ]
   },
   {
     "term": "cartography",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The art, science, and technology of drawing or compiling maps and charts, encompassing the accurate representation of geographical features, the choice of projection, scale, and symbolization.",
+        "example": "The invention of the printing press transformed cartography in the 15th century, enabling standardized maps to circulate widely and facilitating the coordination of European maritime exploration.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "maps",
+          "science",
+          "history of science",
+          "visualization"
+        ]
+      },
+      {
+        "definition": "The systematic representation or mapping of any complex domain, field of knowledge, or conceptual space.",
+        "example": "Her essay offers a cartography of contemporary grief, tracing its terrain with the precision of an emotional surveyor.",
+        "register": "literary",
+        "tags": [
+          "metaphor",
+          "representation",
+          "knowledge organization"
+        ]
+      }
+    ]
   },
   {
     "term": "topography",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The arrangement, configuration, and detailed description of the natural and artificial physical features of an area — including its hills, valleys, rivers, roads, and settlements — as represented on large-scale maps.",
+        "example": "The varied topography of the Swiss Alps, with its steep valleys, glaciers, and high passes, has historically shaped settlement patterns, trade routes, and military strategy.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "landscape",
+          "terrain",
+          "cartography",
+          "physical geography"
+        ]
+      },
+      {
+        "definition": "The structural or figurative layout of the elements constituting any complex phenomenon, environment, or conceptual domain.",
+        "example": "The novelist surveys the moral topography of Victorian society through the contrasting fates of her characters, mapping virtue and vice onto social class.",
+        "register": "literary",
+        "tags": [
+          "structure",
+          "metaphor",
+          "representation"
+        ]
+      }
+    ]
   },
   {
     "term": "chorography",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The systematic description and mapping of particular regions or districts, intermediate in scale between general geography (the whole world or large continents) and detailed topography (a specific local site), combining geographical description with historical and antiquarian observation.",
+        "example": "William Camden's Britannia (1586) is a landmark of Renaissance chorography, surveying each English county in turn with observations on its ancient monuments, place names, and notable families.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "cartography",
+          "regional studies",
+          "history of science",
+          "antiquarianism"
+        ]
+      }
+    ]
   },
   {
     "term": "continental shelf",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "The extended, gently sloping submarine platform that forms the submerged perimeter of a continent, stretching from the shoreline to the steeper continental slope, typically at depths of up to about 200 metres.",
+        "example": "The North Sea occupies a wide continental shelf, making it shallow enough for extensive bottom trawling and offshore wind farm installation.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "geology",
+          "oceanography",
+          "marine science",
+          "physical geography"
+        ]
+      }
+    ]
   },
   {
     "term": "tectonic plate",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "One of the large, rigid segments of the Earth's lithosphere that move relative to each other on the underlying asthenosphere, carrying continents and ocean floors and generating earthquakes, volcanic activity, and mountain-building at their boundaries.",
+        "example": "The Himalayas were formed by the ongoing collision of the Indian tectonic plate with the Eurasian plate, a process beginning around 50 million years ago that continues to raise the mountain range today.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "geophysics",
+          "plate tectonics",
+          "physical geography",
+          "seismology"
+        ]
+      }
+    ]
   },
   {
     "term": "latitude",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The angular distance of a location north or south of the Earth's equator, measured in degrees from 0° at the equator to 90° at either pole, used as the horizontal component of geographic coordinates.",
+        "example": "London lies at approximately 51.5° north latitude, a position that gives it mild winters and long summer twilights compared with cities at lower latitudes.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "navigation",
+          "coordinates",
+          "cartography"
+        ]
+      },
+      {
+        "definition": "Freedom from strict rules, narrow restrictions, or close supervision; scope allowed for independent judgment or action.",
+        "example": "The director gave her actors considerable latitude in interpreting their roles, valuing spontaneous choices over rigidly rehearsed blocking.",
+        "register": "formal",
+        "tags": [
+          "freedom",
+          "scope",
+          "independence",
+          "discretion"
+        ]
+      }
+    ]
   },
   {
     "term": "longitude",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The angular distance of a location east or west of the prime meridian at Greenwich, measured in degrees from 0° to 180° in each direction, used as the vertical component of geographic coordinates.",
+        "example": "Determining longitude accurately at sea was one of the great navigational challenges of the 18th century, solved only by John Harrison's invention of a reliable marine chronometer.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "navigation",
+          "coordinates",
+          "cartography",
+          "history of science"
+        ]
+      }
+    ]
   },
   {
     "term": "meridian",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An imaginary great circle on the Earth's surface passing through both geographic poles and any given point, perpendicular to the equator, used as a reference line for measuring longitude.",
+        "example": "The prime meridian, running through the Royal Observatory at Greenwich, was adopted as the universal reference for zero longitude at the International Meridian Conference of 1884.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "navigation",
+          "cartography",
+          "astronomy",
+          "coordinates"
+        ]
+      },
+      {
+        "definition": "The highest point of power, achievement, or prosperity; the zenith or peak of a career or period.",
+        "example": "In the meridian of his career, the statesman commanded respect from all political factions and appeared capable of uniting the country behind his programme of reform.",
+        "register": "literary",
+        "tags": [
+          "peak",
+          "zenith",
+          "apogee",
+          "figurative language"
+        ]
+      }
+    ]
   },
   {
     "term": "orography",
@@ -45174,47 +45676,182 @@
   {
     "term": "prototype theory",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A theory in cognitive linguistics and psychology, developed by Eleanor Rosch, holding that natural categories are organized around a most representative or central exemplar (the prototype) rather than by a set of necessary and sufficient features, so that membership is graded rather than categorical.",
+        "example": "Prototype theory explains why English speakers rate a robin as a more typical bird than a penguin or an ostrich: the robin matches the cognitive prototype for the category more closely on multiple attributes.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "psychology",
+          "categorization",
+          "semantics",
+          "Rosch"
+        ]
+      }
+    ]
   },
   {
     "term": "conceptual metaphor",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "In cognitive linguistics, a systematic, conventionalized cross-domain mapping in which an abstract target domain is understood and structured in terms of a more concrete or bodily source domain, as theorized by Lakoff and Johnson in Metaphors We Live By (1980).",
+        "example": "The conceptual metaphor ARGUMENT IS WAR underlies everyday expressions such as 'he demolished her position,' 'she defended her claim,' and 'they were shooting down each other's ideas.'",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "semantics",
+          "metaphor theory",
+          "Lakoff",
+          "Johnson"
+        ]
+      }
+    ]
   },
   {
     "term": "frame semantics",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A theory of linguistic meaning developed by Charles Fillmore, in which words evoke structured cognitive frames — organized knowledge about situations, events, and participant roles — and understanding a word requires activating the frame in which it is embedded.",
+        "example": "Frame semantics explains why 'cost,' 'pay,' and 'charge' all invoke the commercial transaction frame but each highlights a different participant role: the goods, the buyer's action, and the seller's demand respectively.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "semantics",
+          "Fillmore",
+          "FrameNet",
+          "lexical semantics"
+        ]
+      }
+    ]
   },
   {
     "term": "cognitive grammar",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A usage-based theory of linguistic structure developed by Ronald Langacker, holding that grammar is inherently meaningful — that all grammatical constructions are symbolic pairings of phonological and semantic structures — and that grammatical categories are defined by their semantic and conceptual properties.",
+        "example": "Cognitive grammar treats the English progressive ('She is running') as conveying an internal, unprofiled-endpoint construal of the event, contrasting with the simple present's holistic construal, rather than as a mere syntactic transformation.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "grammar",
+          "Langacker",
+          "language theory",
+          "construction grammar"
+        ]
+      }
+    ]
   },
   {
     "term": "image schema",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "In cognitive linguistics, a recurring, dynamic pattern of sensorimotor and perceptual experience — such as CONTAINER, SOURCE-PATH-GOAL, UP-DOWN, or FORCE — that provides skeletal conceptual structure and serves as a basis for abstract thought through metaphorical extension.",
+        "example": "The CONTAINER image schema, grounded in bodily experience of being inside or outside bounded spaces, underlies abstract concepts such as social inclusion, logical categories, and emotional states ('trapped in grief', 'outside the law').",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "embodiment",
+          "Johnson",
+          "conceptual structure",
+          "semantics"
+        ]
+      }
+    ]
   },
   {
     "term": "mental space",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "In cognitive linguistics, a partial, temporary cognitive domain constructed dynamically during discourse to compartmentalize information about hypothetical scenarios, counterfactuals, beliefs, desires, or reported speech, introduced by space-builders such as 'in her dream,' 'if…,' or 'John thinks…'",
+        "example": "When a speaker says 'In Mary's view, the situation is hopeless,' a new mental space is opened for Mary's belief, keeping it distinct from the speaker's own assessment of the situation.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "Fauconnier",
+          "discourse",
+          "pragmatics",
+          "conceptual integration"
+        ]
+      }
+    ]
   },
   {
     "term": "blending theory",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A theory of meaning construction, also called conceptual integration theory, developed by Gilles Fauconnier and Mark Turner, in which elements from two or more input mental spaces are selectively projected into a blended space that develops emergent conceptual structure not present in any single input.",
+        "example": "Blending theory accounts for the meaning of 'This surgeon is a butcher': the surgeon input space and the butcher input space are blended, yielding emergent properties of incompetent and careless destruction.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "Fauconnier",
+          "Turner",
+          "conceptual blending",
+          "semantics"
+        ]
+      }
+    ]
   },
   {
     "term": "construction grammar",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A family of linguistic theories, associated with Fillmore, Kay, and Goldberg, holding that the primary units of grammatical knowledge are constructions — form-meaning pairings at all levels of complexity from morpheme to discourse pattern — rather than rules applying to a separate lexicon.",
+        "example": "Construction grammar explains the caused-motion construction ('She sneezed the napkin off the table') as a fully entrenched schema in its own right, not an anomalous extension of a base verb meaning.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "grammar",
+          "Goldberg",
+          "language theory",
+          "usage-based linguistics"
+        ]
+      }
+    ]
   },
   {
     "term": "embodied simulation",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "In cognitive science and cognitive linguistics, the hypothesis that understanding language or perceiving actions involves the activation of the same sensorimotor and affective neural systems that would be engaged in directly performing or experiencing the described event.",
+        "example": "Research on embodied simulation has shown that reading sentences about kicking activates motor cortex regions associated with foot and leg movement, suggesting that comprehension involves a partial re-enactment of the described action.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "cognitive science",
+          "neuroscience",
+          "embodiment",
+          "mirror neurons"
+        ]
+      }
+    ]
   },
   {
     "term": "radical construction grammar",
@@ -45239,11 +45876,41 @@
   {
     "term": "figure-ground",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A perceptual and cognitive principle, originating in Gestalt psychology, in which attention selectively foregrounds one element (the figure) against a less-attended background (the ground); in cognitive linguistics, used to analyze how spatial scenes profile a trajector (figure) against a landmark (ground).",
+        "example": "The English preposition 'on' encodes a figure-ground relation in which the located object (figure) is construed as resting on the surface of a reference object (ground), as in 'the cup on the table.'",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "Gestalt psychology",
+          "perception",
+          "semantics",
+          "spatial language"
+        ]
+      }
+    ]
   },
   {
     "term": "scalar implicature",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "In pragmatics and Gricean linguistics, a conversational inference triggered by the use of a term at a particular position on an informativeness scale (e.g., <some, all>, <possible, certain>), whereby the speaker's choice of a weaker term implicates that the stronger term does not apply.",
+        "example": "When a speaker says 'Some of the students passed,' the scalar implicature is that not all of them did, because if all had passed the speaker would normally have said so.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "pragmatics",
+          "Grice",
+          "semantics",
+          "implicature theory"
+        ]
+      }
+    ]
   }
 ]
