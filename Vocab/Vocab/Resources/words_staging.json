@@ -4,7 +4,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A topological space that locally resembles Euclidean space near each point but may have a more complex global structure.",
@@ -17,14 +17,15 @@
       }
     ],
     "synonyms": [
-      "geometric variety",
-      "smooth variety"
+      "smooth variety",
+      "geometric variety"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "topology",
       "differential geometry",
-      "curvature"
+      "curvature",
+      "dimension"
     ],
     "translation": null,
     "qa_notes": "Synonyms 'geometric variety' and 'smooth variety' are not co-extensive with manifold: in mathematics, a 'variety' (algebraic geometry) is a distinct concept from a topological manifold. Move to relatedTerms or replace with true near-synonyms such as 'topological manifold', 'smooth manifold'."
@@ -423,7 +424,7 @@
   },
   {
     "term": "zero-knowledge proof",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -439,8 +440,8 @@
       }
     ],
     "synonyms": [
-      "non-revealing proof protocol",
-      "interactive proof system"
+      "ZK proof",
+      "zero-knowledge protocol"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -453,7 +454,7 @@
   },
   {
     "term": "abstract syntax tree",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -471,13 +472,14 @@
     ],
     "synonyms": [
       "AST",
-      "parse tree"
+      "syntax tree"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "syntax tree",
       "compiler",
-      "token"
+      "token",
+      "grammar",
+      "parsing"
     ],
     "translation": null,
     "qa_notes": "Synonym 'parse tree' (concrete syntax tree) is NOT the same as an AST: a parse tree includes all tokens while an AST is an abstracted, simplified representation. Move 'parse tree' to relatedTerms."
@@ -524,7 +526,7 @@
   },
   {
     "term": "instrumentalism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -552,7 +554,7 @@
     ],
     "synonyms": [
       "anti-realism",
-      "conventionalism"
+      "fictionalism"
     ],
     "antonymTerms": [
       "scientific realism"
@@ -560,13 +562,13 @@
     "relatedTerms": [
       "pragmatism",
       "operationalism",
-      "fictionalism"
+      "philosophy of science"
     ],
     "qa_notes": "Synonym 'anti-realism' is a hypernym (instrumentalism is one species of anti-realism); move to relatedTerms. 'conventionalism' is a distinct, non-co-extensive position; move to relatedTerms."
   },
   {
     "term": "prospect theory",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -583,20 +585,22 @@
       }
     ],
     "synonyms": [
-      "cumulative prospect theory",
-      "reference-dependent utility theory"
+      "behavioral utility theory",
+      "reference-point theory"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "loss aversion",
+      "expected utility theory",
       "Kahneman",
-      "expected utility theory"
+      "Tversky",
+      "behavioral economics"
     ],
     "qa_notes": "Synonym 'cumulative prospect theory' is a later, distinct refinement of the original theory (Tversky & Kahneman 1992) with a different weighting function — it is not a synonym. Move to relatedTerms."
   },
   {
     "term": "poststructuralism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -623,7 +627,7 @@
     ],
     "synonyms": [
       "post-structuralism",
-      "deconstruction theory"
+      "anti-structuralism"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -636,7 +640,7 @@
   },
   {
     "term": "keystone species",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -652,15 +656,15 @@
       }
     ],
     "synonyms": [
-      "ecosystem engineer species",
-      "pivotal species"
+      "pivotal species",
+      "hub species"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "trophic cascade",
-      "ecological role",
       "biodiversity",
-      "apex predator"
+      "apex predator",
+      "ecological role"
     ],
     "qa_notes": "Synonym 'ecosystem engineer species' is a distinct ecological concept (engineers modify habitat structure; keystone species exert disproportionate trophic control) — not a synonym. Move to relatedTerms."
   },
@@ -668,7 +672,7 @@
     "term": "shamanism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A religious practice in which a practitioner (the shaman) enters altered states of consciousness to interact with the spirit world, performing healing, divination, and mediation on behalf of a community.",
@@ -695,7 +699,7 @@
     ],
     "synonyms": [
       "spirit mediation",
-      "mediumship"
+      "spirit journeying"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -711,7 +715,7 @@
     "term": "legal positivism",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The jurisprudential theory that the existence and content of law depends on social facts—such as legislative enactment and social acceptance—rather than on moral merit or natural law.",
@@ -739,14 +743,15 @@
     ],
     "synonyms": [
       "legal conventionalism",
-      "social fact thesis"
+      "positivist jurisprudence"
     ],
     "antonymTerms": [
       "natural law theory"
     ],
     "relatedTerms": [
       "jurisprudence",
-      "normative theory",
+      "Hart",
+      "Austin",
       "rule of recognition"
     ],
     "translation": null,
@@ -756,7 +761,7 @@
     "term": "natural law",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A system of moral and legal principles held to be inherent in human nature and discoverable through reason, binding on all people regardless of their particular cultural or legislative context.",
@@ -784,7 +789,7 @@
     ],
     "synonyms": [
       "ius naturale",
-      "moral naturalism"
+      "natural justice"
     ],
     "antonymTerms": [
       "legal positivism"
@@ -802,7 +807,7 @@
     "term": "nominalism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The philosophical position that universals or abstract properties have no independent existence but are merely names or labels applied to groups of similar particulars.",
@@ -829,16 +834,16 @@
     ],
     "synonyms": [
       "particularism",
-      "anti-realism"
+      "anti-platonism"
     ],
     "antonymTerms": [
-      "realism",
-      "essentialism"
+      "Platonism",
+      "realism"
     ],
     "relatedTerms": [
       "universals",
       "conceptualism",
-      "constructivism"
+      "trope theory"
     ],
     "translation": null,
     "qa_notes": "Synonym 'anti-realism' is a hypernym of nominalism; move to relatedTerms. antonymTerm 'essentialism' is a taxonomic contrast rather than a direct semantic opposite (the canonical antonym of nominalism in the universals debate is 'realism'); remove or keep only 'realism'."
@@ -893,7 +898,7 @@
     "term": "picaresque",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Of or relating to a literary genre originating in sixteenth-century Spain, featuring a roguish, low-born protagonist who survives by wit and cunning through a series of episodic adventures in a corrupt society.",
@@ -918,13 +923,14 @@
     ],
     "synonyms": [
       "roguish",
-      "episodic"
+      "rogue-like"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "picaro",
       "rogue narrative",
-      "low-life narrative"
+      "satire",
+      "bildungsroman"
     ],
     "translation": null,
     "qa_notes": "Synonyms 'roguish' and 'episodic' are partial descriptors/features of the genre, not co-extensive synonyms for 'picaresque'. A synonym should substitute for the headword; 'episodic narrative' would be closer but still not fully co-extensive. Remove or replace with genre-level near-synonyms."
@@ -933,7 +939,7 @@
     "term": "tragicomedy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A dramatic genre that combines elements of tragedy and comedy, typically presenting serious or painful subject matter alongside humour in a way that resists neat resolution in either register.",
@@ -957,15 +963,15 @@
       }
     ],
     "synonyms": [
-      "dark comedy",
-      "mixed genre drama"
+      "tragicomic drama",
+      "mixed drama"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "tragedy",
       "comedy",
-      "dramatic genre",
-      "black comedy"
+      "dark comedy",
+      "dramatic genre"
     ],
     "translation": null,
     "qa_notes": "Synonym 'dark comedy' is not co-extensive: dark comedy foregrounds humour with bleak themes; tragicomedy blends genuinely tragic and comic registers without resolution. Move to relatedTerms."
@@ -1004,7 +1010,7 @@
     "term": "populism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A political approach that frames politics as a struggle between a virtuous, homogeneous 'people' and a corrupt elite, claiming that the former's general will should prevail over institutional constraints.",
@@ -1028,7 +1034,7 @@
     ],
     "synonyms": [
       "anti-elitism",
-      "demagogy"
+      "people's politics"
     ],
     "antonymTerms": [
       "elitism"
@@ -1046,7 +1052,7 @@
     "term": "oligarchy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of government in which power is concentrated in the hands of a small, privileged group—typically defined by wealth, family, military rank, or education—who rule in their own interests.",
@@ -1079,8 +1085,7 @@
     "relatedTerms": [
       "kleptocracy",
       "autocracy",
-      "elitism",
-      "Michels' iron law"
+      "technocracy"
     ],
     "translation": null,
     "qa_notes": "Synonyms 'plutocracy' (rule by the wealthy) and 'aristocracy' (rule by birth/noble class) are specific sub-types (hyponyms) of oligarchy, not co-extensive synonyms. Move to relatedTerms."
@@ -2241,7 +2246,7 @@
   {
     "term": "pastoral",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2266,12 +2271,23 @@
           "idyllic"
         ]
       }
+    ],
+    "synonyms": [
+      "bucolic",
+      "georgic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "eclogue",
+      "idyll",
+      "rural poetry",
+      "Arcadia"
     ]
   },
   {
     "term": "epistolary",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "adjective",
     "meanings": [
       {
@@ -2295,12 +2311,23 @@
           "letters"
         ]
       }
+    ],
+    "synonyms": [
+      "letter-form",
+      "correspondence-based"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "correspondence fiction",
+      "letter",
+      "narrative form",
+      "letter novel"
     ]
   },
   {
     "term": "roman à clef",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2315,12 +2342,23 @@
           "French"
         ]
       }
+    ],
+    "synonyms": [
+      "key novel",
+      "roman a clef"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "novel",
+      "fiction",
+      "autobiography",
+      "satirical fiction"
     ]
   },
   {
     "term": "Künstlerroman",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2336,12 +2374,22 @@
           "artistic development"
         ]
       }
+    ],
+    "synonyms": [
+      "artist novel",
+      "artist development novel"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bildungsroman",
+      "Erziehungsroman",
+      "coming-of-age fiction"
     ]
   },
   {
     "term": "novella",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2368,12 +2416,23 @@
           "tale"
         ]
       }
+    ],
+    "synonyms": [
+      "short novel",
+      "novelette"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "short story",
+      "novel",
+      "prose fiction",
+      "fiction"
     ]
   },
   {
     "term": "vignette",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2409,12 +2468,23 @@
           "visual technique"
         ]
       }
+    ],
+    "synonyms": [
+      "sketch",
+      "cameo"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "miniature",
+      "scene",
+      "literary fragment",
+      "prose poem"
     ]
   },
   {
     "term": "conte",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2429,12 +2499,23 @@
           "tale"
         ]
       }
+    ],
+    "synonyms": [
+      "short tale",
+      "tale"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "fable",
+      "short story",
+      "fabliau",
+      "narrative"
     ]
   },
   {
     "term": "fabliau",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2450,6 +2531,17 @@
           "verse"
         ]
       }
+    ],
+    "synonyms": [
+      "comic verse tale",
+      "ribald tale"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "conte",
+      "fable",
+      "medieval literature",
+      "verse tale"
     ]
   },
   {
@@ -2475,7 +2567,7 @@
   {
     "term": "Erziehungsroman",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2491,12 +2583,23 @@
           "Bildungsroman"
         ]
       }
+    ],
+    "synonyms": [
+      "novel of education",
+      "formation novel"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bildungsroman",
+      "Künstlerroman",
+      "coming-of-age fiction",
+      "pedagogy"
     ]
   },
   {
     "term": "metafiction",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2511,6 +2614,17 @@
           "self-reflexivity"
         ]
       }
+    ],
+    "synonyms": [
+      "self-reflexive fiction",
+      "self-referential fiction"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "postmodernism",
+      "poststructuralism",
+      "narrative theory",
+      "intertextuality"
     ]
   },
   {
@@ -2601,7 +2715,7 @@
   {
     "term": "allegoresis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2616,12 +2730,23 @@
           "interpretation"
         ]
       }
+    ],
+    "synonyms": [
+      "allegorical exegesis",
+      "allegorical reading"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "allegory",
+      "hermeneutics",
+      "exegesis",
+      "typology"
     ]
   },
   {
     "term": "canon",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2659,12 +2784,25 @@
           "principle"
         ]
       }
+    ],
+    "synonyms": [
+      "corpus",
+      "standard repertoire"
+    ],
+    "antonymTerms": [
+      "apocrypha"
+    ],
+    "relatedTerms": [
+      "received tradition",
+      "scripture",
+      "counterpoint",
+      "standard works"
     ]
   },
   {
     "term": "polytonality",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2679,12 +2817,25 @@
           "theory"
         ]
       }
+    ],
+    "synonyms": [
+      "multi-tonal harmony",
+      "multiple-key harmony"
+    ],
+    "antonymTerms": [
+      "atonality"
+    ],
+    "relatedTerms": [
+      "bitonality",
+      "tonality",
+      "Stravinsky",
+      "harmonic ambiguity"
     ]
   },
   {
     "term": "microtonality",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2699,12 +2850,23 @@
           "theory"
         ]
       }
+    ],
+    "synonyms": [
+      "microtonal music",
+      "sub-semitonal music"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "equal temperament",
+      "just intonation",
+      "quartertone",
+      "tuning system"
     ]
   },
   {
     "term": "minimalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2731,12 +2893,25 @@
           "movement"
         ]
       }
+    ],
+    "synonyms": [
+      "minimal art",
+      "reductivism"
+    ],
+    "antonymTerms": [
+      "maximalism"
+    ],
+    "relatedTerms": [
+      "process music",
+      "abstract art",
+      "Steve Reich",
+      "Philip Glass"
     ]
   },
   {
     "term": "tone row",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2752,12 +2927,23 @@
           "theory"
         ]
       }
+    ],
+    "synonyms": [
+      "twelve-tone row",
+      "note row"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "twelve-tone technique",
+      "serialism",
+      "Schoenberg",
+      "pitch class"
     ]
   },
   {
     "term": "hemiola",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2772,12 +2958,23 @@
           "theory"
         ]
       }
+    ],
+    "synonyms": [
+      "sesquialtera",
+      "three-against-two rhythm"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "rhythm",
+      "metre",
+      "syncopation",
+      "cross-rhythm"
     ]
   },
   {
     "term": "chaconne",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2804,12 +3001,22 @@
           "court"
         ]
       }
+    ],
+    "synonyms": [
+      "ground bass variation",
+      "passacaglia"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "basso ostinato",
+      "baroque music",
+      "variation form"
     ]
   },
   {
     "term": "bitonality",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2824,12 +3031,25 @@
           "theory"
         ]
       }
+    ],
+    "synonyms": [
+      "double tonality",
+      "dual-key harmony"
+    ],
+    "antonymTerms": [
+      "atonality"
+    ],
+    "relatedTerms": [
+      "polytonality",
+      "tonality",
+      "Stravinsky",
+      "harmonic ambiguity"
     ]
   },
   {
     "term": "pedal point",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -2845,6 +3065,17 @@
           "bass"
         ]
       }
+    ],
+    "synonyms": [
+      "pedal note",
+      "organ point"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "drone",
+      "harmony",
+      "counterpoint",
+      "bass note"
     ]
   },
   {

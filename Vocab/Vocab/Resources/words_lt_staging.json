@@ -2772,7 +2772,7 @@
     "term": "kailiniai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Šiltas viršutinis drabužis iš natūralaus ar dirbtinio kailio, dėvimas žiemą.",
@@ -2786,11 +2786,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kailinis paltas",
+      "kailinis apsiaustas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "paltas",
-      "striukė"
+      "striukė",
+      "žiema",
+      "šiluma"
     ],
     "translation": "fur coat",
     "qa_notes": "Typo in first meaning example: 'kailiniuus' (double 'u') — should be 'kailiniais' or 'kailinių' depending on case. Fix the example sentence."
@@ -3437,7 +3442,7 @@
     "term": "Badmintonas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žaidimas su raketėmis ir plunksnuotu kamuoliuku per tinklą; olimpinė sporto šaka.",
@@ -3455,9 +3460,9 @@
     "antonymTerms": [],
     "relatedTerms": [
       "raketė",
-      "pluoštelis",
       "sportas",
-      "tenisas"
+      "tenisas",
+      "tinklas"
     ],
     "translation": "badminton",
     "qa_notes": "Term starts with uppercase 'B'. 'Badmintonas' is a common loanword/sport name in Lithuanian, not a genuine proper noun. Lowercase to 'badmintonas' per LT capitalisation rules."
@@ -4667,7 +4672,7 @@
   },
   {
     "term": "fejerverkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4683,18 +4688,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pirotechninis sviedinys",
+      "šviečiamoji raketa"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "Naujieji metai",
+      "pirotechnika",
       "šventė",
+      "Naujieji metai",
       "karnavalas"
     ],
     "translation": "fireworks"
   },
   {
     "term": "karnavalas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4710,18 +4719,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "maskaradas",
+      "kaukių šventė"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "kaukė",
       "Užgavėnės",
+      "šventė",
       "fejerverkas"
     ],
     "translation": "carnival"
   },
   {
     "term": "paradas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "translation": "parade",
@@ -4745,12 +4758,13 @@
     "relatedTerms": [
       "šventė",
       "vėliava",
-      "kariuomenė"
+      "kariuomenė",
+      "muzika"
     ]
   },
   {
     "term": "suvenyras",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4766,18 +4780,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atminimo daiktas",
+      "atminimo ženklas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "dovanėlė",
       "kelionė",
-      "turistas"
+      "turistas",
+      "dovana",
+      "parduotuvė"
     ],
     "translation": "souvenir, memento"
   },
   {
     "term": "piknikas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4793,12 +4811,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "lauko vaišės",
+      "lauko pietūs"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "parkas",
       "gamta",
+      "parkas",
       "maistas",
+      "vasara",
       "poilsis"
     ],
     "translation": "picnic"
@@ -4833,7 +4855,7 @@
   },
   {
     "term": "drabužinė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4852,18 +4874,20 @@
       }
     ],
     "synonyms": [
-      "spinta"
+      "spinta",
+      "rūbinė"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "drabužiai",
       "miegamasis",
-      "spintelė"
+      "spintelė",
+      "rūbai"
     ]
   },
   {
     "term": "lempa",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4881,18 +4905,20 @@
       }
     ],
     "synonyms": [
-      "šviestuvas"
+      "šviestuvas",
+      "žibintas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "šviesa",
       "kambarys",
-      "naktstaliukas"
+      "naktstaliukas",
+      "elektra"
     ]
   },
   {
     "term": "užuolaida",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4910,13 +4936,15 @@
       }
     ],
     "synonyms": [
-      "uždanga"
+      "uždanga",
+      "portjera"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "langas",
       "kambarys",
-      "miegamasis"
+      "miegamasis",
+      "dekoracija"
     ]
   },
   {
@@ -4928,7 +4956,7 @@
   },
   {
     "term": "lovatiesė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4946,18 +4974,20 @@
       }
     ],
     "synonyms": [
-      "antklodės užvalkalas"
+      "užtiesalas",
+      "lovos patiesalas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "lova",
       "antklodė",
-      "pagalvė"
+      "pagalvė",
+      "miegamasis"
     ]
   },
   {
     "term": "naktstaliukas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4976,13 +5006,15 @@
       }
     ],
     "synonyms": [
-      "naktinė spintelė"
+      "naktinė spintelė",
+      "lovos staliukas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "lova",
       "miegamasis",
-      "lempa"
+      "lempa",
+      "spinta"
     ]
   },
   {
@@ -5071,7 +5103,7 @@
   },
   {
     "term": "posūkis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5087,19 +5119,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sukimas",
+      "pasukimas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "kairė",
       "dešinė",
       "kelias",
-      "aplinkkelis"
+      "aplinkkelis",
+      "sankryža"
     ],
     "translation": "turn, bend, turning"
   },
   {
     "term": "aplinkkelis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5116,19 +5152,21 @@
       }
     ],
     "synonyms": [
-      "apvažiavimas"
+      "apvažiavimas",
+      "apylanka"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "kelias",
       "maršrutas",
-      "posūkis"
+      "posūkis",
+      "gatvė"
     ],
     "translation": "bypass road, ring road, detour"
   },
   {
     "term": "šaligatvis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5145,19 +5183,21 @@
       }
     ],
     "synonyms": [
-      "takas"
+      "takas",
+      "pėsčiųjų takas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "gatvė",
       "pėsčiųjų perėja",
-      "kelkraštis"
+      "kelkraštis",
+      "miestas"
     ],
     "translation": "pavement, sidewalk"
   },
   {
     "term": "kelkraštis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5174,18 +5214,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pakelė",
+      "kelio pakraštys"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "šaligatvis",
       "gatvė",
-      "kelias"
+      "kelias",
+      "eismo juosta"
     ],
     "translation": "roadside, verge, hard shoulder"
   },
   {
     "term": "kalbėtis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -5203,18 +5247,22 @@
       }
     ],
     "synonyms": [
-      "šnekėtis"
+      "šnekėtis",
+      "pokalbiauti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "tylėti"
+    ],
     "relatedTerms": [
       "klausti",
       "atsakyti",
-      "klausytis"
+      "klausytis",
+      "diskutuoti"
     ]
   },
   {
     "term": "atsakyti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -5232,20 +5280,20 @@
       }
     ],
     "synonyms": [
+      "atsakinėti",
       "reaguoti"
     ],
     "antonymTerms": [
       "klausti"
     ],
     "relatedTerms": [
-      "klausti",
       "paaiškinti",
-      "pažymys"
+      "komentaras"
     ]
   },
   {
     "term": "paaiškinti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -5263,18 +5311,22 @@
       }
     ],
     "synonyms": [
-      "išaiškinti"
+      "išaiškinti",
+      "apibūdinti"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "supainioti"
+    ],
     "relatedTerms": [
       "klausti",
       "suprasti",
-      "pamoka"
+      "pamoka",
+      "mokyti"
     ]
   },
   {
     "term": "smalsus",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adjective",
     "meanings": [
@@ -5290,17 +5342,17 @@
       }
     ],
     "synonyms": [
-      "domėjimosi kupinas",
+      "žingeidus",
       "imlus"
     ],
     "antonymTerms": [
-      "abejingas",
-      "tingus"
+      "abejingas"
     ],
     "relatedTerms": [
       "smalsumas",
       "domėtis",
-      "susidomėjimas"
+      "klausti",
+      "mokymasis"
     ],
     "translation": "curious, inquisitive",
     "qaNote": "Semantic inaccuracy: 'imlus' means receptive/absorbent (capable of absorbing knowledge), not curious; replace with 'žingeidus' (inquisitive)."
@@ -5309,7 +5361,7 @@
     "term": "laikraštis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A printed or digital periodical publication containing news, articles, and information, typically issued daily or weekly.",
@@ -5322,7 +5374,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "dienraštis",
+      "gazeta"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "žurnalistas",
@@ -5337,7 +5392,7 @@
     "term": "žurnalas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A periodical publication focused on a specific topic or general interest, usually issued weekly or monthly.",
@@ -5360,12 +5415,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "periodinis leidinys",
+      "savaitraštis"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "laikraštis",
       "spauda",
-      "straipsnis"
+      "straipsnis",
+      "leidyba"
     ],
     "translation": "magazine; journal; log book",
     "qaNote": "Two distinct senses: (1) periodical magazine, (2) official register/log. Context disambiguates."
@@ -5374,7 +5433,7 @@
     "term": "reportažas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A journalistic account or coverage of events reported directly from the scene, combining text, images, or video.",
@@ -5387,13 +5446,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pranešimas",
+      "naujieninis apžvalga"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "žurnalistas",
       "korespondentas",
       "straipsnis",
-      "žinios"
+      "naujienų kanalas"
     ],
     "translation": "news report; reportage",
     "qaNote": "Borrowed from French via Polish reportaż. Refers specifically to on-the-ground journalistic coverage."
@@ -5402,7 +5464,7 @@
     "term": "interviu",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formal conversation in which a journalist questions a person for publication or broadcast.",
@@ -5424,12 +5486,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pokalbis",
+      "apklausa"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "žurnalistas",
       "redakcija",
-      "reportažas"
+      "reportažas",
+      "klausimas"
     ],
     "translation": "interview",
     "qaNote": "Indeclinable borrowed noun. Both journalistic and job-interview senses are common."
@@ -5438,7 +5504,7 @@
     "term": "straipsnis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A written piece on a specific topic published in a newspaper, magazine, or online platform.",
@@ -5461,7 +5527,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tekstas",
+      "publikacija"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "laikraštis",
@@ -5476,7 +5545,7 @@
     "term": "antraštė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The title or heading of a newspaper article, news story, or web page, designed to summarise and attract readers.",
@@ -5498,12 +5567,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pavadinimas",
+      "titulas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "straipsnis",
       "laikraštis",
-      "tinklalapis"
+      "tinklalapis",
+      "paantraštė"
     ],
     "translation": "headline; title",
     "qaNote": "Used for both news headlines and general titles. 'Antraštinė' is the adjectival form."
@@ -5512,7 +5585,7 @@
     "term": "žurnalistika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The profession and practice of investigating, writing, editing, and publishing news and information for public consumption.",
@@ -5525,13 +5598,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "spauda",
+      "reportažinė veikla"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "žurnalistas",
       "redakcija",
-      "spauda",
-      "žiniasklaida"
+      "žiniasklaida",
+      "reportažas"
     ],
     "translation": "journalism",
     "qaNote": "Abstract noun denoting the field/profession. žurnalistas/žurnalistė are the agent nouns."
@@ -5540,7 +5616,7 @@
     "term": "spauda",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The collective body of printed newspapers and magazines; the press as an institution.",
@@ -5564,13 +5640,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "žiniasklaida",
+      "žurnalistika"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "žurnalistika",
       "laikraštis",
-      "žiniasklaida",
-      "redakcija"
+      "žurnalas",
+      "redakcija",
+      "leidyba"
     ],
     "translation": "press; print",
     "qaNote": "Sense (1) institutional press (used formally). Sense (2) the printing process. 'Spaudos konferencija' (press conference) is a common collocation."
@@ -5579,7 +5658,7 @@
     "term": "redaktorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person responsible for reviewing, correcting, and preparing texts or media content for publication.",
@@ -5592,7 +5671,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "redaguotojas",
+      "teksto tvarkytojas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "redakcija",
@@ -5607,7 +5689,7 @@
     "term": "redakcija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The editorial office or team of a newspaper, magazine, or broadcasting organisation.",
@@ -5630,12 +5712,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "redakcinė kolegija",
+      "leidybos skyrius"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "redaktorius",
       "žurnalistika",
-      "laikraštis"
+      "laikraštis",
+      "leidyba"
     ],
     "translation": "editorial office; newsroom; edition",
     "qaNote": "Two senses: (1) the editorial team/newsroom, (2) a revised edition of a text."
@@ -5644,7 +5730,7 @@
     "term": "korespondentas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A journalist who regularly reports from a foreign country or a specific location.",
@@ -5657,12 +5743,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "žurnalistas",
+      "reporteris"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "žurnalistas",
       "reportažas",
-      "redakcija"
+      "redakcija",
+      "žinios",
+      "lauko žurnalistas"
     ],
     "translation": "correspondent",
     "qaNote": "Masculine form; feminine: korespondentė. Typically implies reporting from a distant or foreign location."
@@ -5671,7 +5761,7 @@
     "term": "žiniasklaida",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The collective institutions — television, radio, newspapers, and online platforms — that produce and disseminate news and information to the public.",
@@ -5685,11 +5775,13 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "medija",
+      "masinės informavimo priemonės"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "spauda",
-      "žurnalistika",
       "televizija",
       "radijas",
       "internetas"
@@ -5701,7 +5793,7 @@
     "term": "televizija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The system of transmitting moving images and sound electronically, received on a screen; a television channel or broadcaster.",
@@ -5714,7 +5806,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "TV",
+      "televizorius"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "radijas",
@@ -5729,7 +5824,7 @@
     "term": "radijas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The wireless transmission of audio signals; a radio receiver or broadcasting station.",
@@ -5742,13 +5837,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "eteris",
+      "radijo laida"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "televizija",
       "transliacija",
-      "klausytojas",
-      "laida"
+      "laida",
+      "žiniasklaida"
     ],
     "translation": "radio",
     "qaNote": "Gen. sg. radijo. Used both for the medium and the device."
@@ -5757,7 +5855,7 @@
     "term": "transliacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The transmission of a programme or event via television, radio, or internet for a live or recorded audience.",
@@ -5770,7 +5868,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "perdavimas",
+      "retransliacija"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "transliuoti",
