@@ -34,146 +34,392 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A mathematical object consisting of a collection of random variables indexed by time or space, used to model systems that evolve probabilistically.",
+        "example": "Brownian motion is a classic stochastic process used to model the random movement of particles suspended in a fluid.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "mathematics",
+          "probability"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": null,
+    "level": "C2"
   },
   {
     "term": "lagrangian",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A function that summarises the dynamics of a physical system as the difference between kinetic and potential energy, forming the basis of Lagrangian mechanics.",
+        "example": "By writing down the Lagrangian for the pendulum, the physicist derived the equations of motion without resolving individual forces.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "physics",
+          "mechanics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": null,
+    "level": "C2"
   },
   {
     "term": "hamiltonian",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An operator corresponding to the total energy of a quantum mechanical system, central to the Schrödinger equation.",
+        "example": "The Hamiltonian for the hydrogen atom includes terms for the electron's kinetic energy and its Coulomb interaction with the nucleus.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "physics",
+          "quantum mechanics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": null,
+    "level": "C2"
   },
   {
     "term": "dynamical system",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A mathematical framework that describes how the state of a system evolves over time according to a fixed rule.",
+        "example": "The Lorenz attractor is a well-known dynamical system that exhibits chaotic behaviour despite being governed by deterministic equations.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "mathematics",
+          "physics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": null,
+    "level": "C2"
   },
   {
     "term": "ergodic theory",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A branch of mathematics studying the long-run average behaviour of dynamical systems, linking time averages to space averages.",
+        "example": "Ergodic theory shows that, for many physical systems, a time-averaged measurement is equivalent to an average across all possible states.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "mathematics",
+          "dynamics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": null,
+    "level": "C2"
   },
   {
     "term": "transfer learning",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A machine-learning technique in which a model trained on one task is reused as the starting point for a model on a different but related task.",
+        "example": "By applying transfer learning, the team fine-tuned a pre-trained image classifier to identify medical X-rays with only a small labelled dataset.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "machine learning",
+          "AI"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": null,
+    "level": "C1"
   },
   {
     "term": "generative adversarial network",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A class of deep-learning framework in which two neural networks—a generator and a discriminator—compete against each other to produce increasingly realistic synthetic data.",
+        "example": "Researchers used a generative adversarial network to synthesise high-resolution portrait photographs that are indistinguishable from real images.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "machine learning",
+          "AI"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": null,
+    "level": "C2"
   },
   {
     "term": "activation function",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A mathematical function applied to the output of each neuron in a neural network, introducing non-linearity that enables the network to learn complex patterns.",
+        "example": "Replacing the sigmoid activation function with a ReLU significantly accelerated training and reduced the vanishing-gradient problem.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "machine learning",
+          "neural networks"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": null,
+    "level": "C1"
   },
   {
     "term": "long short-term memory",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "A type of recurrent neural network architecture with gating mechanisms that allow it to retain information over long sequences, mitigating the vanishing-gradient problem.",
+        "example": "The speech-recognition system relied on long short-term memory units to capture dependencies between phonemes separated by many time steps.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "machine learning",
+          "NLP"
+        ]
+      }
+    ]
   },
   {
     "term": "contrastive learning",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "A self-supervised learning approach that trains a model to bring representations of similar data points closer together while pushing dissimilar ones apart.",
+        "example": "Using contrastive learning on unlabelled images, the model learned rich visual representations without requiring manual annotations.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "machine learning",
+          "AI"
+        ]
+      }
+    ]
   },
   {
     "term": "diffusion model",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "A generative model that learns to reverse a gradual noising process, enabling it to synthesise high-quality images or other data by iteratively denoising random noise.",
+        "example": "The latest diffusion model produced photorealistic artwork from text prompts by progressively refining a field of random pixels.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "machine learning",
+          "generative AI"
+        ]
+      }
+    ]
   },
   {
     "term": "graph neural network",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "A neural network architecture that operates directly on graph-structured data by aggregating feature information from neighbouring nodes.",
+        "example": "The drug-discovery platform used a graph neural network to predict molecular properties by treating atoms as nodes and chemical bonds as edges.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "machine learning",
+          "AI"
+        ]
+      }
+    ]
   },
   {
     "term": "variational autoencoder",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "A generative model combining an encoder that maps data to a latent probability distribution and a decoder that reconstructs data from sampled latent vectors, trained using variational inference.",
+        "example": "By interpolating between two points in the latent space of the variational autoencoder, the researchers smoothly morphed one facial image into another.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "machine learning",
+          "generative AI"
+        ]
+      }
+    ]
   },
   {
     "term": "hyperparameter tuning",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C1",
+    "meanings": [
+      {
+        "definition": "The process of searching for the optimal configuration settings of a machine-learning model—such as learning rate or number of layers—that are not learned from the data but set before training.",
+        "example": "Automated hyperparameter tuning reduced the validation error by fifteen percent compared with the default settings used in the original experiment.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "machine learning",
+          "AI"
+        ]
+      }
+    ]
   },
   {
     "term": "federated learning",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "A distributed machine-learning approach in which a model is trained across many devices or servers holding local data, without the data ever leaving each device.",
+        "example": "The keyboard app improved its next-word predictions through federated learning, aggregating model updates from millions of phones while keeping user messages private.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "machine learning",
+          "privacy"
+        ]
+      }
+    ]
   },
   {
     "term": "sharding",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "meanings": [
+      {
+        "definition": "A database partitioning technique that splits a large dataset across multiple servers or storage units, each holding a subset of the data called a shard.",
+        "example": "By introducing horizontal sharding, the engineering team distributed the user-account database across eight nodes, drastically reducing query latency.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "databases",
+          "distributed systems"
+        ]
+      }
+    ]
   },
   {
     "term": "microservices",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "meanings": [
+      {
+        "definition": "An architectural style that structures an application as a collection of small, independently deployable services, each responsible for a specific business capability.",
+        "example": "Migrating the monolithic e-commerce platform to microservices allowed different teams to deploy the payment, inventory, and shipping modules independently.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "software architecture",
+          "engineering"
+        ]
+      }
+    ]
   },
   {
     "term": "public-key cryptography",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C1",
+    "meanings": [
+      {
+        "definition": "A cryptographic system that uses a pair of mathematically linked keys—a public key for encryption and a private key for decryption—allowing secure communication without prior shared secrets.",
+        "example": "When you connect to an HTTPS website, public-key cryptography is used to establish a secure channel without you and the server ever having exchanged a secret in advance.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "cryptography",
+          "security"
+        ]
+      }
+    ]
   },
   {
     "term": "zero-knowledge proof",
@@ -238,13 +484,43 @@
   },
   {
     "term": "phonological assimilation",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "A phonological process in which a sound becomes more similar to a neighbouring sound, adopting one or more of its phonetic features.",
+        "example": "The word 'impossible' exhibits phonological assimilation: the prefix 'in-' changes its final nasal to match the bilabial place of the following /p/.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "linguistics",
+          "phonology"
+        ]
+      }
+    ]
   },
   {
     "term": "sandhi",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "A phonological phenomenon in which sounds at word or morpheme boundaries are modified according to the surrounding phonological environment.",
+        "example": "In French, the liaison between a word ending in a silent consonant and a following vowel-initial word is an example of external sandhi.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "linguistics",
+          "phonology"
+        ]
+      }
+    ]
   },
   {
     "term": "instrumentalism",
@@ -895,7 +1171,32 @@
   {
     "term": "realism",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C1",
+    "meanings": [
+      {
+        "definition": "An artistic and literary movement of the nineteenth century that sought to depict subjects as they appear in everyday life, without idealisation or romantic embellishment.",
+        "example": "Flaubert's Madame Bovary is a landmark of literary realism, portraying provincial French life with unflinching attention to mundane detail.",
+        "register": "formal",
+        "tags": [
+          "C1",
+          "literature",
+          "art history"
+        ]
+      },
+      {
+        "definition": "In philosophy and international relations, the doctrine that entities or power structures exist independently of perception or ideals, and that self-interest governs behaviour.",
+        "example": "Classical realism in international relations holds that states act primarily out of national self-interest rather than adherence to moral principles.",
+        "register": "formal",
+        "tags": [
+          "C1",
+          "philosophy",
+          "politics"
+        ]
+      }
+    ]
   },
   {
     "term": "chivalry",
@@ -1761,47 +2062,181 @@
   {
     "term": "orography",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "The branch of physical geography that deals with the formation, distribution, and description of mountains and mountain systems.",
+        "example": "The orography of the Himalayan range has a profound effect on regional climate patterns, blocking cold air masses from Central Asia.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "geography",
+          "physical geography"
+        ]
+      }
+    ]
   },
   {
     "term": "isohyet",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "A line on a map connecting points that receive the same amount of precipitation over a given period.",
+        "example": "The meteorologist drew isohyets across the regional map to illustrate how annual rainfall drops sharply leeward of the mountain range.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "meteorology",
+          "cartography"
+        ]
+      }
+    ]
   },
   {
     "term": "isobath",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "A contour line on a map or chart connecting points of equal depth below a water surface such as the sea floor.",
+        "example": "The nautical chart displayed isobaths at ten-metre intervals, allowing the navigator to identify the edge of the continental shelf.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "cartography",
+          "oceanography"
+        ]
+      }
+    ]
   },
   {
     "term": "physiography",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "The branch of geography concerned with the natural features and phenomena of the Earth's surface, including landforms, climate, and natural resources.",
+        "example": "The physiography of the Great Plains is dominated by flat to gently rolling terrain formed by the deposition of sediment from the Rocky Mountains.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "geography",
+          "physical geography"
+        ]
+      }
+    ]
   },
   {
     "term": "isotherm",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "meanings": [
+      {
+        "definition": "A line on a map or diagram connecting points that have the same temperature at a given time or on average over a period.",
+        "example": "The climate map used isotherms to show the July mean temperatures, revealing the strong warming effect of the Gulf Stream on northwest Europe.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "meteorology",
+          "cartography"
+        ]
+      }
+    ]
   },
   {
     "term": "hypsography",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "The measurement and mapping of the elevation of land surfaces above sea level, or the study of the distribution of land at various altitudes.",
+        "example": "Hypsography of the Antarctic ice sheet, derived from satellite altimetry, revealed that the bedrock lies well below sea level in several key basins.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "geography",
+          "cartography"
+        ]
+      }
+    ]
   },
   {
     "term": "azimuth",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "meanings": [
+      {
+        "definition": "The horizontal angle measured clockwise from due north to the direction of a celestial object or a point of interest, expressed in degrees from 0° to 360°.",
+        "example": "At solar noon the azimuth of the sun is 180° for observers in the northern hemisphere, meaning it lies exactly due south.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "navigation",
+          "astronomy"
+        ]
+      }
+    ]
   },
   {
     "term": "fjord",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "general",
+    "level": "C1",
+    "meanings": [
+      {
+        "definition": "A long, narrow, deep inlet of the sea between steep cliffs, typically formed by glacial erosion.",
+        "example": "The cruise ship glided silently into the fjord, its passengers gazing up at the thousand-metre cliffs that towered on either side.",
+        "register": "general",
+        "tags": [
+          "C1",
+          "geography",
+          "geology"
+        ]
+      }
+    ]
   },
   {
     "term": "isthmus",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "general",
+    "level": "C1",
+    "meanings": [
+      {
+        "definition": "A narrow strip of land connecting two larger land masses and bordered on each side by water.",
+        "example": "The Isthmus of Panama, connecting North and South America, was the site chosen for the construction of a canal linking the Atlantic and Pacific oceans.",
+        "register": "general",
+        "tags": [
+          "C1",
+          "geography"
+        ]
+      }
+    ]
   },
   {
     "term": "pastoral",
@@ -2020,7 +2455,22 @@
   {
     "term": "roman à thèse",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "A novel that is structured around the explicit demonstration of a particular ideological, political, or social thesis, subordinating character and plot to its argumentative purpose.",
+        "example": "Zola's Germinal is often discussed as a roman à thèse, deploying the narrative of a miners' strike as evidence for his naturalist theory of heredity and social determinism.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "literary theory",
+          "narratology"
+        ]
+      }
+    ]
   },
   {
     "term": "Erziehungsroman",
@@ -2066,22 +2516,82 @@
   {
     "term": "storyworld",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "In narratology, the mentally constructed environment encompassing the events, characters, and settings implied or depicted by a narrative, including information not explicitly stated.",
+        "example": "Tolkien's meticulous design of Middle-earth as a fully realised storyworld—complete with languages, genealogies, and cosmology—set a new standard for world-building in fantasy fiction.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "narratology",
+          "literary theory"
+        ]
+      }
+    ]
   },
   {
     "term": "heterodiegetic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "Describing a narrator who is absent from the story world they narrate, i.e. not a character within the events being recounted.",
+        "example": "The omniscient, heterodiegetic narrator of Tolstoy's War and Peace moves freely between characters' inner thoughts without ever appearing as a figure in the events described.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "narratology",
+          "literary theory"
+        ]
+      }
+    ]
   },
   {
     "term": "extradiegetic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "Existing at a narrative level outside and above the primary story world, such as a narrator who addresses the audience from beyond the frame of the narrative.",
+        "example": "When Fielding's narrator in Tom Jones directly addresses the reader with ironic commentary, he functions as an extradiegetic voice standing apart from the novel's fictional world.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "narratology",
+          "literary theory"
+        ]
+      }
+    ]
   },
   {
     "term": "intradiegetic",
     "language": "en",
-    "status": "stub"
+    "status": "enriched",
+    "partOfSpeech": "adjective",
+    "register": "technical",
+    "level": "C2",
+    "meanings": [
+      {
+        "definition": "Existing within the story world of a narrative, applied especially to a narrator or character who is part of the fictional universe being depicted.",
+        "example": "The intradiegetic narrator of Heart of Darkness, Marlow, recounts his journey up the Congo as a story-within-a-story to an audience of sailors on the Thames.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "narratology",
+          "literary theory"
+        ]
+      }
+    ]
   },
   {
     "term": "roman-fleuve",
