@@ -44454,7 +44454,7 @@
     "term": "tuoktis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To formally enter into marriage; to exchange wedding vows in a civil or religious ceremony.",
@@ -44467,14 +44467,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "vesti",
-      "tekėti"
+    "synonyms": [],
+    "antonymTerms": [
+      "skirtis"
     ],
-    "antonymTerms": [],
     "relatedTerms": [
-      "nuotaka",
-      "jaunasis"
+      "santuoka",
+      "vestuvės"
     ],
     "translation": "to get married, to wed"
   },
@@ -44482,7 +44481,7 @@
     "term": "tuokiasi",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "sudaro santuoką, oficialiai tampa sutuoktiniais",
@@ -44496,14 +44495,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tuoktis"
+    ],
     "translation": "gets married"
   },
   {
     "term": "tuokėsi",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "sudarė santuoką, tapo sutuoktiniais (praeities forma)",
@@ -44517,14 +44518,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tuoktis"
+    ],
     "translation": "got married"
   },
   {
     "term": "tekėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "moteriai sudaryti santuoką su vyru, ištekėti",
@@ -44536,16 +44539,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "ištekėti"
+    ],
+    "antonymTerms": [
+      "skirtis"
+    ],
+    "relatedTerms": [
+      "santuoka",
+      "vesti"
+    ],
     "translation": "to marry (said of a woman)"
   },
   {
     "term": "teka",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "moteris sudaro santuoką su vyru (esamasis laikas)",
@@ -44559,14 +44569,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tekėti"
+    ],
     "translation": "marries (said of a woman)"
   },
   {
     "term": "tekėjo",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "moteris sudarė santuoką su vyru (praeities forma)",
@@ -44580,14 +44592,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tekėti"
+    ],
     "translation": "married (said of a woman)"
   },
   {
     "term": "vesti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "vyrui sudaryti santuoką su moterimi, imti žmoną",
@@ -44600,15 +44614,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "skirtis"
+    ],
+    "relatedTerms": [
+      "santuoka",
+      "tekėti"
+    ],
     "translation": "to marry (said of a man)"
   },
   {
     "term": "veda",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "vyras sudaro santuoką su moterimi (esamasis laikas)",
@@ -44622,14 +44641,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vesti"
+    ],
     "translation": "marries (said of a man)"
   },
   {
     "term": "vedė",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "vyras sudarė santuoką su moterimi (praeities forma)",
@@ -44643,14 +44664,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vesti"
+    ],
     "translation": "married (said of a man)"
   },
   {
     "term": "krikštynos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A Christian ceremony in which a person, usually a baby, is baptized and formally given a name, welcomed into the church and community.",
@@ -44663,14 +44686,11 @@
         ]
       }
     ],
-    "synonyms": [
-      "krikštas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "krikšto tėvai",
-      "bažnyčia",
-      "krikšto mama"
+      "krikštas",
+      "krikštatėviai"
     ],
     "translation": "baptism / christening"
   },
@@ -44678,7 +44698,7 @@
     "term": "krikšto tėvai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The godfather and godmother who sponsor a child at baptism and take responsibility for their spiritual upbringing.",
@@ -44692,7 +44712,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "krikštatėviai"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "krikšto mama",
@@ -44704,7 +44726,7 @@
     "term": "krikšto mama",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "moteris, kuri per krikštynas globoja krikštijamą vaiką ir yra atsakinga už jo religinį auklėjimą",
@@ -44717,16 +44739,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "krikštatėvė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "krikšto tėvas",
+      "krikšto tėvai"
+    ],
     "translation": "godmother"
   },
   {
     "term": "krikšto tėvas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "vyras, kuris per krikštynas globoja krikštijamą vaiką ir yra atsakingas už jo religinį auklėjimą",
@@ -44739,16 +44766,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "krikštatėvis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "krikšto mama",
+      "krikšto tėvai"
+    ],
     "translation": "godfather"
   },
   {
     "term": "krikšto sūnus",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "berniukas arba vyras, kurio krikštatėviai yra tam tikras asmuo",
@@ -44760,16 +44792,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "krikštasūnis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "krikšto duktė",
+      "krikšto tėvai"
+    ],
     "translation": "godson"
   },
   {
     "term": "krikšto duktė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "mergaitė arba moteris, kurios krikštatėviai yra tam tikras asmuo",
@@ -44783,14 +44820,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "krikšto sūnus",
+      "krikšto tėvai"
+    ],
     "translation": "goddaughter"
   },
   {
     "term": "vardadienis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The day of the year associated with a given name in the Lithuanian calendar, traditionally celebrated similarly to a birthday with greetings and small gifts.",
@@ -44810,7 +44850,7 @@
     "antonymTerms": [],
     "relatedTerms": [
       "gimtadienis",
-      "šventė"
+      "jubiliejus"
     ],
     "translation": "name day"
   },
@@ -44818,7 +44858,7 @@
     "term": "vardo diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "metinė šventė, skirta tam tikram vardui pagal tradicinį kalendorių",
@@ -44831,16 +44871,20 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vardadienis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gimtadienis"
+    ],
     "translation": "name day"
   },
   {
     "term": "gimtadienis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The anniversary of a person's birth, typically celebrated with family and friends, cake, and gifts.",
@@ -44859,7 +44903,6 @@
     "antonymTerms": [],
     "relatedTerms": [
       "vardadienis",
-      "dovana",
       "jubiliejus"
     ],
     "translation": "birthday"
@@ -44868,7 +44911,7 @@
     "term": "gimimo diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "metinė sukaktis dienos, kurią žmogus gimė; šventimai jos proga",
@@ -44881,16 +44924,20 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "gimtadienis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vardadienis"
+    ],
     "translation": "birthday"
   },
   {
     "term": "jubiliejus",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A significant anniversary — especially a 25th, 50th, or 100th — celebrated with a special ceremony or gathering.",
@@ -44906,8 +44953,8 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "gimtadienis",
-      "šventė"
+      "sukaktis",
+      "gimtadienis"
     ],
     "translation": "anniversary, jubilee"
   },
@@ -44915,7 +44962,7 @@
     "term": "linki",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "išreiškia gerą palinkėjimą kitam žmogui",
@@ -44930,14 +44977,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "linkėti",
+      "sveikinti"
+    ],
     "translation": "wishes"
   },
   {
     "term": "linkėjo",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "išreiškė gerą palinkėjimą kitam žmogui (praeities forma)",
@@ -44952,14 +45002,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "linkėti",
+      "sveikinti"
+    ],
     "translation": "wished"
   },
   {
     "term": "sveikinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To address someone with words of welcome or goodwill on a special occasion; to congratulate.",
@@ -44973,14 +45026,12 @@
       }
     ],
     "synonyms": [
-      "linkėti",
       "pasveikinti"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "sveikinimas",
-      "proga",
-      "palinkėjimas"
+      "linkėti",
+      "sveikinimas"
     ],
     "translation": "to greet, to congratulate"
   },
@@ -44988,7 +45039,7 @@
     "term": "sveikina",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "išreiškia džiaugsmą ir pagarbą dėl kito žmogaus pasiekimų arba šventės",
@@ -45003,14 +45054,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sveikinti"
+    ],
     "translation": "congratulates"
   },
   {
     "term": "sveikino",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "išreiškė džiaugsmą dėl kito žmogaus pasiekimų arba šventės (praeities forma)",
@@ -45025,14 +45078,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sveikinti"
+    ],
     "translation": "congratulated"
   },
   {
     "term": "Naujųjų metų diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The first day of the calendar year, January 1, observed as a public holiday.",
@@ -45045,14 +45100,11 @@
         ]
       }
     ],
-    "synonyms": [
-      "Naujieji metai"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "šventė",
-      "Kalėdos",
-      "Naujieji metai"
+      "Naujieji metai",
+      "Kūčios"
     ],
     "translation": "New Year's Day (January 1)"
   },
@@ -45060,7 +45112,7 @@
     "term": "Lietuvos valstybės atkūrimo diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "National public holiday on February 16 commemorating the declaration of the re-establishment of the independent Lithuanian state in 1918.",
@@ -45073,14 +45125,11 @@
         ]
       }
     ],
-    "synonyms": [
-      "Vasario šešioliktoji"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "nepriklausomybė",
-      "valstybė",
-      "Lietuvos Nepriklausomybės atkūrimo diena"
+      "Lietuvos Nepriklausomybės atkūrimo diena",
+      "Valstybės diena"
     ],
     "translation": "State Restoration Day (February 16)"
   },
@@ -45088,7 +45137,7 @@
     "term": "Lietuvos Nepriklausomybės atkūrimo diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "National public holiday on March 11 commemorating the restoration of Lithuanian independence declared by the Supreme Council in 1990.",
@@ -45101,14 +45150,11 @@
         ]
       }
     ],
-    "synonyms": [
-      "Kovo vienuoliktoji"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "nepriklausomybė",
-      "valstybė",
-      "Lietuvos valstybės atkūrimo diena"
+      "Lietuvos valstybės atkūrimo diena",
+      "Valstybės diena"
     ],
     "translation": "Independence Restoration Day (March 11)"
   },
@@ -45116,7 +45162,7 @@
     "term": "Motinos diena",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A day honouring mothers and motherhood, celebrated on the first Sunday of May in Lithuania with flowers and gifts.",
@@ -45133,8 +45179,7 @@
     "antonymTerms": [],
     "relatedTerms": [
       "Tėvo diena",
-      "šventė",
-      "dovana"
+      "šeima"
     ],
     "translation": "Mother's Day"
   },
@@ -45142,7 +45187,7 @@
     "term": "Tėvo diena",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A day celebrating fathers and fatherhood, observed on the first Sunday of June in Lithuania.",
@@ -45159,8 +45204,7 @@
     "antonymTerms": [],
     "relatedTerms": [
       "Motinos diena",
-      "šventė",
-      "dovana"
+      "šeima"
     ],
     "translation": "Father's Day"
   },
@@ -45168,7 +45212,7 @@
     "term": "Valstybės diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "National public holiday on July 6 commemorating the coronation of King Mindaugas in 1253 and the founding of the medieval Lithuanian state.",
@@ -45182,13 +45226,12 @@
       }
     ],
     "synonyms": [
-      "Liepos šeštoji"
+      "Lietuvos karaliaus Mindaugo karūnavimo diena"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "nepriklausomybė",
-      "valstybė",
-      "Lietuvos karaliaus Mindaugo karūnavimo diena"
+      "Laisvės gynėjų diena",
+      "Lietuvos valstybės atkūrimo diena"
     ],
     "translation": "Statehood Day (July 6)"
   },
@@ -45196,7 +45239,7 @@
     "term": "Lietuvos karaliaus Mindaugo karūnavimo diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Day observed on July 6 commemorating the coronation of Mindaugas, the first and only King of Lithuania, in 1253, when Lithuania was recognized as a kingdom.",
@@ -45209,12 +45252,13 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "Valstybės diena"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "Mindaugas",
-      "Valstybės diena",
-      "Lietuva"
+      "Lietuvos valstybės atkūrimo diena",
+      "Laisvės gynėjų diena"
     ],
     "translation": "King Mindaugas Coronation Day (July 6)"
   },
@@ -45222,7 +45266,7 @@
     "term": "Žolinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Traditional Lithuanian folk and religious holiday on August 15 (Assumption of the Virgin Mary) when people bring bundles of grain, herbs, and flowers to church to be blessed.",
@@ -45236,14 +45280,11 @@
         ]
       }
     ],
-    "synonyms": [
-      "Žolinės"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "šventė",
-      "tradicija",
-      "bažnyčia"
+      "Joninės",
+      "Sekminės"
     ],
     "translation": "Assumption Day / Herb Blessing Day (August 15)"
   },
@@ -45251,7 +45292,7 @@
     "term": "Laisvės gynėjų diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "National public holiday on January 13 commemorating those who defended Lithuania against Soviet troops at the Vilnius TV Tower in 1991.",
@@ -45264,14 +45305,11 @@
         ]
       }
     ],
-    "synonyms": [
-      "Sausio tryliktoji"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "nepriklausomybė",
-      "laisvė",
-      "Gedulo ir vilties diena"
+      "Lietuvos valstybės atkūrimo diena",
+      "Valstybės diena"
     ],
     "translation": "Freedom Defenders' Day (January 13)"
   },
@@ -45279,7 +45317,7 @@
     "term": "Spaudos atgavimo",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "National day on May 7 commemorating the lifting of the Russian-imposed Lithuanian press ban in 1904, which had forbidden publication in the Latin script.",
@@ -45296,9 +45334,8 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "kalba",
-      "spauda",
-      "kultūra"
+      "Lietuvos valstybės atkūrimo diena",
+      "Laisvės gynėjų diena"
     ],
     "translation": "Day of Restoration of the Press (May 7)"
   },
