@@ -4746,3 +4746,34 @@ None.
 - For Greek philosophical terms, the standard English translations (e.g., "practical wisdom" for phronesis, "contemplation" for theoria) are the best synonyms even if not perfectly co-extensive.
 - 9 EN entries remain at `status: enriched` with no relations (nolo contendere, nolle prosequi, ex parte, lis pendens, voir dire, interpleader, vexatious litigation, declaratory judgment, promissory estoppel) — deferred to next batch.
 >>>>>>> vocab/relations-56
+
+---
+
+## Retrospective — vocab/enricher-en-50 (EN stubs batch, 2025-01)
+
+**Agent:** English Vocabulary Enricher
+**Branch:** vocab/enricher-en-50
+**Task:** Enrich remaining 30 English stubs in words_staging.json
+
+### What was done
+Enriched all 30 stub entries across six thematic clusters:
+- **Behavioural economics / game theory** (6 entries): choice architecture, peak-end rule, cheap talk, price of anarchy, revelation principle, subgame perfect equilibrium
+- **Evolutionary biology** (4 entries): punctuated equilibrium, sexual selection, müllerian mimicry, assortative mating
+- **Materials science** (5 entries): creep, phase diagram, dislocation, cermet, tectonics
+- **Architecture / urban theory** (5 entries): parti, deconstructivism, promenade architecturale, collage city, spolia
+- **Political theory** (5 entries): secession, civic republicanism, legitimation crisis, corporatism, demos
+- **Classical rhetoric** (5 entries): dispositio, inventio, elocutio, enargeia, auxesis
+
+All 162 staging entries passed `validate_words.py --errors-for enriched`. Zero stubs remain.
+
+### What went well
+- All 30 enrichments passed validation in one pass with no errors to fix.
+- Domain coverage is coherent: each cluster shares register (technical or formal) and tags, aiding app-side filtering.
+- Definitions are precise and C1/C2-appropriate; examples are contextually grounded and original.
+
+### What could be improved
+- Rhetorical canon terms (dispositio, inventio, elocutio) are tightly related; future Relations Agent should link them as relatedTerms.
+- `tectonics` received two meanings (geology + architecture); QA Agent should verify both senses are clearly distinguished in app rendering.
+
+### Lessons
+- Thematic clustering speeds enrichment and ensures register/tag consistency within a domain.
