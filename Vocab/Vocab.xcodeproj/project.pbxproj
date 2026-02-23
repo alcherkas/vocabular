@@ -17,32 +17,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D471F3A32F1D2B9F007BD017 /* Vocab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vocab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0000012F1D2BA0007BD017 /* VocabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D471F3A32F1D2B9F007BD017 /* Vocab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vocab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D471F3A52F1D2B9F007BD017 /* Vocab */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Vocab;
-			sourceTree = "<group>";
-		};
 		AA0000022F1D2BA0007BD017 /* VocabTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = VocabTests;
 			sourceTree = "<group>";
 		};
+		D471F3A52F1D2B9F007BD017 /* Vocab */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Vocab;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D471F3A02F1D2B9F007BD017 /* Frameworks */ = {
+		AA0000042F1D2BA0007BD017 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA0000042F1D2BA0007BD017 /* Frameworks */ = {
+		D471F3A02F1D2B9F007BD017 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,28 +73,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D471F3A22F1D2B9F007BD017 /* Vocab */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D471F3B02F1D2BA0007BD017 /* Build configuration list for PBXNativeTarget "Vocab" */;
-			buildPhases = (
-				D471F39F2F1D2B9F007BD017 /* Sources */,
-				D471F3A02F1D2B9F007BD017 /* Frameworks */,
-				D471F3A12F1D2B9F007BD017 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				D471F3A52F1D2B9F007BD017 /* Vocab */,
-			);
-			name = Vocab;
-			packageProductDependencies = (
-			);
-			productName = Vocab;
-			productReference = D471F3A32F1D2B9F007BD017 /* Vocab.app */;
-			productType = "com.apple.product-type.application";
-		};
 		AA0000062F1D2BA0007BD017 /* VocabTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA00000B2F1D2BA0007BD017 /* Build configuration list for PBXNativeTarget "VocabTests" */;
@@ -118,6 +96,28 @@
 			productReference = AA0000012F1D2BA0007BD017 /* VocabTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D471F3A22F1D2B9F007BD017 /* Vocab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D471F3B02F1D2BA0007BD017 /* Build configuration list for PBXNativeTarget "Vocab" */;
+			buildPhases = (
+				D471F39F2F1D2B9F007BD017 /* Sources */,
+				D471F3A02F1D2B9F007BD017 /* Frameworks */,
+				D471F3A12F1D2B9F007BD017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D471F3A52F1D2B9F007BD017 /* Vocab */,
+			);
+			name = Vocab;
+			packageProductDependencies = (
+			);
+			productName = Vocab;
+			productReference = D471F3A32F1D2B9F007BD017 /* Vocab.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -128,12 +128,12 @@
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					D471F3A22F1D2B9F007BD017 = {
-						CreatedOnToolsVersion = 26.2;
-					};
 					AA0000062F1D2BA0007BD017 = {
 						CreatedOnToolsVersion = 26.2;
 						TestTargetID = D471F3A22F1D2B9F007BD017;
+					};
+					D471F3A22F1D2B9F007BD017 = {
+						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
@@ -158,14 +158,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D471F3A12F1D2B9F007BD017 /* Resources */ = {
+		AA0000052F1D2BA0007BD017 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA0000052F1D2BA0007BD017 /* Resources */ = {
+		D471F3A12F1D2B9F007BD017 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,14 +175,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D471F39F2F1D2B9F007BD017 /* Sources */ = {
+		AA0000032F1D2BA0007BD017 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA0000032F1D2BA0007BD017 /* Sources */ = {
+		D471F39F2F1D2B9F007BD017 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,6 +200,46 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		AA0000092F1D2BA0007BD017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				PRODUCT_BUNDLE_IDENTIFIER = AlCherkasCompany.VocabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vocab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vocab";
+			};
+			name = Debug;
+		};
+		AA00000A2F1D2BA0007BD017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				PRODUCT_BUNDLE_IDENTIFIER = AlCherkasCompany.VocabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vocab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vocab";
+			};
+			name = Release;
+		};
 		D471F3AE2F1D2BA0007BD017 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -381,49 +421,18 @@
 			};
 			name = Release;
 		};
-		AA0000092F1D2BA0007BD017 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
-				PRODUCT_BUNDLE_IDENTIFIER = AlCherkasCompany.VocabTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vocab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vocab";
-			};
-			name = Debug;
-		};
-		AA00000A2F1D2BA0007BD017 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
-				PRODUCT_BUNDLE_IDENTIFIER = AlCherkasCompany.VocabTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vocab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vocab";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AA00000B2F1D2BA0007BD017 /* Build configuration list for PBXNativeTarget "VocabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000092F1D2BA0007BD017 /* Debug */,
+				AA00000A2F1D2BA0007BD017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D471F39E2F1D2B9F007BD017 /* Build configuration list for PBXProject "Vocab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -438,15 +447,6 @@
 			buildConfigurations = (
 				D471F3B12F1D2BA0007BD017 /* Debug */,
 				D471F3B22F1D2BA0007BD017 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA00000B2F1D2BA0007BD017 /* Build configuration list for PBXNativeTarget "VocabTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA0000092F1D2BA0007BD017 /* Debug */,
-				AA00000A2F1D2BA0007BD017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
