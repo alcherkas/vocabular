@@ -9631,7 +9631,7 @@
   },
   {
     "term": "mizzenmast",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9656,6 +9656,7 @@
       "foremast"
     ],
     "relatedTerms": [
+      "foremast",
       "mainmast",
       "rigging",
       "schooner",
@@ -9997,7 +9998,7 @@
   },
   {
     "term": "toponymy",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10017,7 +10018,9 @@
       "place-name study",
       "toponomastics"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "unnamed landscape"
+    ],
     "relatedTerms": [
       "etymology",
       "onomastics",
@@ -10097,7 +10100,7 @@
   },
   {
     "term": "triangulation",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10129,7 +10132,8 @@
       "position fixing"
     ],
     "antonymTerms": [
-      "GPS survey"
+      "GPS survey",
+      "traverse"
     ],
     "relatedTerms": [
       "baseline",
@@ -10650,7 +10654,7 @@
   },
   {
     "term": "endogamy",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10675,6 +10679,7 @@
       "exogamy"
     ],
     "relatedTerms": [
+      "exogamy",
       "kinship",
       "caste",
       "lineage",
@@ -20867,7 +20872,7 @@
   {
     "term": "paleoclimate",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20883,6 +20888,7 @@
     ],
     "synonyms": [
       "past climate",
+      "ancient climate record",
       "historical climate"
     ],
     "antonymTerms": [],
@@ -20965,7 +20971,7 @@
   {
     "term": "phenology",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20981,7 +20987,8 @@
     ],
     "synonyms": [
       "biological seasonality study",
-      "ecological timing science"
+      "ecological timing science",
+      "seasonal ecology"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -22271,7 +22278,7 @@
   {
     "term": "perfectionism",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -22288,7 +22295,7 @@
     "synonyms": [
       "excellence ethics",
       "human flourishing theory",
-      "human excellence theory"
+      "objective list theory"
     ],
     "antonymTerms": [
       "anti-perfectionism",
@@ -22838,7 +22845,7 @@
   {
     "term": "creolization",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -22853,6 +22860,7 @@
       }
     ],
     "synonyms": [
+      "creolisation",
       "contact language mixing",
       "linguistic hybridisation"
     ],
@@ -26774,7 +26782,7 @@
   {
     "term": "emergence",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26789,8 +26797,8 @@
       }
     ],
     "synonyms": [
-      "systemic arising",
-      "spontaneous ordering"
+      "self-organization",
+      "systemic arising"
     ],
     "antonymTerms": [
       "reductionism"
@@ -26800,8 +26808,7 @@
       "complexity",
       "holism",
       "synergy",
-      "emergent property",
-      "self-organization"
+      "emergent property"
     ],
     "qaNote": "'Emergent property' is a hyponym, not a synonym of 'emergence': it denotes the outcome/product of the process, not the process itself. 'Self-organization' is a related but distinct concept — a mechanism that may produce emergence, not a synonym for it. Move both to relatedTerms and supply genuine process-level synonyms, or leave synonyms empty."
   },
@@ -30338,7 +30345,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "In film theory, a mode of visual display or excess that arrests narrative development to present an image or performance purely for the pleasure of looking, often associated with the ideologically constructed gaze and the objectification of the body (after Mulvey).",
@@ -39037,7 +39044,7 @@
   },
   {
     "term": "paradigm shift",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -39805,7 +39812,7 @@
   },
   {
     "term": "gambler's fallacy",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -40101,7 +40108,7 @@
   },
   {
     "term": "cultural capital",
-    "status": "relations-added",
+    "status": "approved",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
