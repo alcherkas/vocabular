@@ -36087,8 +36087,19 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A small, circular, double-stranded DNA molecule that exists and replicates independently of chromosomal DNA within a bacterial or other host cell, often carrying genes conferring adaptive advantages such as antibiotic resistance.",
+        "example": "Scientists introduced the resistance gene by engineering a plasmid to serve as a vector for transferring it into the bacterial host.",
+        "register": "technical",
+        "tags": [
+          "molecular biology",
+          "genetics",
+          "microbiology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -36099,8 +36110,19 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A single-celled organism lacking a membrane-bound nucleus and other membrane-enclosed organelles, encompassing bacteria and archaea, and representing the oldest and most abundant form of cellular life on Earth.",
+        "example": "Prokaryotes were the dominant life form on Earth for approximately three billion years before eukaryotic cells evolved.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "microbiology",
+          "cell biology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -36111,8 +36133,19 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An organism whose cells contain a true nucleus enclosed within a membrane, along with other membrane-bound organelles such as mitochondria; the domain includes animals, plants, fungi, and protists.",
+        "example": "The evolution of the eukaryote cell is widely thought to have involved an endosymbiotic event in which an ancestral cell engulfed a bacterium.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "cell biology",
+          "evolution"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -36123,8 +36156,19 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The evolutionary process through which one or more populations diverge and develop reproductive isolation, eventually becoming distinct species incapable of interbreeding.",
+        "example": "Geographic isolation played a central role in the speciation of Darwin's finches on the Galápagos Islands, where separated populations adapted to different food sources.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "evolutionary biology",
+          "genetics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -36133,10 +36177,21 @@
   {
     "term": "horizontal gene transfer",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The movement of genetic material between organisms by means other than reproduction from parent to offspring—occurring between individual cells and across species boundaries—and particularly prevalent among prokaryotes via plasmids, transposons, or viral vectors.",
+        "example": "Antibiotic resistance spreads rapidly among bacterial populations through horizontal gene transfer, allowing a resistance gene to jump between unrelated strains.",
+        "register": "technical",
+        "tags": [
+          "molecular biology",
+          "microbiology",
+          "evolution"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37535,10 +37590,21 @@
   {
     "term": "reinforcement learning",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A machine learning paradigm in which an agent learns to make sequential decisions by interacting with an environment, receiving reward or penalty signals for its actions, and iteratively optimizing its policy to maximize cumulative reward.",
+        "example": "Reinforcement learning enabled the AlphaGo system to surpass top human players at Go without being explicitly programmed with game strategies.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "artificial intelligence",
+          "computer science"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37547,10 +37613,21 @@
   {
     "term": "supervised learning",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A machine learning approach in which a model is trained on a labeled dataset that maps input features to known output labels, enabling it to generalize and make predictions on new, unseen examples.",
+        "example": "Email spam detection is a classic supervised learning problem, where a classifier is trained on messages already labeled as spam or legitimate.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "artificial intelligence",
+          "data science"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37559,10 +37636,21 @@
   {
     "term": "unsupervised learning",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A machine learning approach in which algorithms are applied to unlabeled data with the goal of discovering underlying structure, patterns, or natural groupings without any predefined target variable.",
+        "example": "Customer segmentation is typically achieved through unsupervised learning, grouping buyers by behavioral similarity without requiring predefined categories.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "artificial intelligence",
+          "data science"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37682,10 +37770,21 @@
   {
     "term": "latent space",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In machine learning, a compressed, lower-dimensional representation of data learned by a model as an intermediate encoding that captures essential features and structure not directly observable in the raw input.",
+        "example": "Images of the same person from different angles tend to cluster near each other in the latent space of a well-trained face recognition model.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "deep learning",
+          "representation learning"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37694,10 +37793,21 @@
   {
     "term": "feature extraction",
     "language": "en",
-    "partOfSpeech": "phrase",
+    "partOfSpeech": "noun",
     "register": "technical",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The process of transforming raw data into a set of informative, non-redundant numerical features that are more suitable for use in a machine learning algorithm, reducing dimensionality while preserving the information most relevant to the task.",
+        "example": "Before training the fraud detection model, the data science team performed feature extraction to convert raw transaction logs into structured numerical vectors.",
+        "register": "technical",
+        "tags": [
+          "machine learning",
+          "data science",
+          "preprocessing"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -37949,8 +38059,31 @@
   },
   {
     "term": "cryptography",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The practice and study of techniques for securing information by transforming it into an unreadable form that can only be recovered by authorized parties, encompassing encryption, decryption, authentication, and data integrity protocols.",
+        "example": "Modern e-commerce depends on cryptography to ensure that financial data transmitted over the internet cannot be intercepted and read by unauthorized parties.",
+        "register": "technical",
+        "tags": [
+          "computer science",
+          "security",
+          "mathematics"
+        ]
+      },
+      {
+        "definition": "Historically, the art of composing and solving secret codes or ciphers, used primarily in military and diplomatic contexts to protect sensitive communications from adversaries.",
+        "example": "During World War II, the Allied breaking of the Enigma cipher was a landmark achievement in the history of cryptography.",
+        "register": "formal",
+        "tags": [
+          "history",
+          "military",
+          "security"
+        ]
+      }
+    ]
   },
   {
     "term": "public-key cryptography",
@@ -37999,8 +38132,21 @@
   },
   {
     "term": "zero-knowledge proof",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A cryptographic protocol in which one party (the prover) can convince another party (the verifier) that a given statement is true without revealing any information beyond the bare fact of the statement's truth.",
+        "example": "A zero-knowledge proof allows a user to prove knowledge of a password to a server without transmitting the password itself.",
+        "register": "technical",
+        "tags": [
+          "cryptography",
+          "computer science",
+          "mathematics"
+        ]
+      }
+    ]
   },
   {
     "term": "abstract syntax tree",
@@ -38652,18 +38798,67 @@
   },
   {
     "term": "genre",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A category of artistic, musical, or literary composition characterized by a particular form, style, or subject matter that is recognized and shared by both producers and audiences.",
+        "example": "The detective novel established its own conventions of plot and character early enough to be considered a fully distinct genre.",
+        "register": "general",
+        "tags": [
+          "literary theory",
+          "cultural studies",
+          "art"
+        ]
+      },
+      {
+        "definition": "In linguistics and discourse analysis, a recognized type of communicative event or text with characteristic purpose, audience expectations, and structural conventions.",
+        "example": "Academic writing is itself a genre, with conventions that distinguish it sharply from journalistic or personal prose.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "discourse analysis",
+          "pragmatics"
+        ]
+      }
+    ]
   },
   {
     "term": "narrative frame",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The overarching interpretive structure or context within which a story is presented, shaping how events, characters, and causes are perceived and evaluated by an audience.",
+        "example": "Presenting the war through the narrative frame of liberation rather than occupation fundamentally changes how audiences interpret otherwise identical events.",
+        "register": "technical",
+        "tags": [
+          "narrative theory",
+          "media studies",
+          "sociology"
+        ]
+      }
+    ]
   },
   {
     "term": "politeness theory",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A sociolinguistic framework developed by Brown and Levinson that analyzes how speakers use linguistic strategies to manage social relationships and protect each other's 'face'—the public self-image that individuals claim in interaction.",
+        "example": "Politeness theory explains why a direct command can feel rude even when its content is benign, since it risks threatening the listener's autonomy.",
+        "register": "technical",
+        "tags": [
+          "pragmatics",
+          "sociolinguistics",
+          "communication"
+        ]
+      }
+    ]
   },
   {
     "term": "falsificationism",
@@ -39447,102 +39642,372 @@
   },
   {
     "term": "poststructuralism",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A theoretical framework that critiques structuralism's assumption that meaning is stable and determined by a fixed system of signs, arguing instead that meaning is unstable, deferred, and context-dependent.",
+        "example": "Poststructuralism challenged the idea that language could provide a direct or transparent map of reality.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "literary theory",
+          "critical theory"
+        ]
+      },
+      {
+        "definition": "In social theory, an approach that deconstructs power structures, identity categories, and discursive formations to reveal how they are socially constructed rather than natural.",
+        "example": "Foucault's analyses of institutions are foundational texts of poststructuralism in social science.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "critical theory",
+          "power"
+        ]
+      }
+    ]
   },
   {
     "term": "social constructionism",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A sociological theory holding that much of what humans perceive as natural reality is constructed through social interaction, language, and shared cultural practices rather than being fixed or objective.",
+        "example": "Social constructionism explains how concepts such as race or gender acquire meaning through ongoing social negotiation rather than biology alone.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "social theory",
+          "epistemology"
+        ]
+      }
+    ]
   },
   {
     "term": "conflict theory",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A sociological perspective rooted in Marx's work, arguing that society is characterized by ongoing conflict among groups competing for scarce resources, power, and status, which drives social change.",
+        "example": "Conflict theory interprets economic inequality as a structural outcome of competition between dominant and subordinate groups rather than a natural or meritocratic arrangement.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "political economy",
+          "Marxism"
+        ]
+      }
+    ]
   },
   {
     "term": "role theory",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A sociological framework that conceptualizes human behavior in terms of the social roles people occupy, along with the associated expectations, norms, and performances that govern conduct in those positions.",
+        "example": "Role theory illuminates why a police officer may behave quite differently at work than at home, even though both situations involve the same individual.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "social psychology",
+          "social structure"
+        ]
+      }
+    ]
   },
   {
     "term": "social exchange theory",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A theoretical perspective that views social interaction as a transaction in which individuals seek to maximize benefits and minimize costs, evaluating relationships by the ratio of rewards to investments.",
+        "example": "Social exchange theory predicts that relationships are sustained when both parties perceive the balance of rewards to costs as favorable.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "social psychology",
+          "rational choice"
+        ]
+      }
+    ]
   },
   {
     "term": "labeling theory",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A criminological and sociological theory proposing that deviance is not an inherent quality of an act but is conferred by society through the application of labels, with stigmatizing effects on the labeled individual's identity and behavior.",
+        "example": "Labeling theory suggests that formally designating a teenager as delinquent can reinforce the very behavior it seeks to discourage.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "criminology",
+          "deviance"
+        ]
+      }
+    ]
   },
   {
     "term": "reference group",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A group to which an individual compares themselves when evaluating their own attitudes, behaviors, and social standing, regardless of whether they are actually a member of that group.",
+        "example": "Aspiring lawyers often take senior partners as a reference group against whom they measure their own professional progress.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "social psychology",
+          "identity"
+        ]
+      }
+    ]
   },
   {
     "term": "collective conscience",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Durkheim's concept referring to the totality of shared beliefs, moral attitudes, and values that operate as a unifying force within a society, transcending any individual and binding members together.",
+        "example": "The collective conscience of Victorian England condemned many behaviors that later generations would come to regard as private matters.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Durkheim",
+          "social cohesion"
+        ]
+      }
+    ]
   },
   {
     "term": "mechanical solidarity",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Durkheim's term for the social cohesion found in traditional, homogeneous societies, based on shared beliefs, values, and similarities among members who perform undifferentiated roles.",
+        "example": "In small agrarian villages, mechanical solidarity was maintained through common religious rituals and a relatively uniform social identity.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Durkheim",
+          "social structure"
+        ]
+      }
+    ]
   },
   {
     "term": "organic solidarity",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Durkheim's term for the social integration characteristic of modern industrial societies, arising from the interdependence produced by specialization and the division of labor rather than from shared identity.",
+        "example": "Organic solidarity means that a software engineer and a truck driver, despite their vastly different lives, are bound together by economic and functional interdependence.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Durkheim",
+          "social structure"
+        ]
+      }
+    ]
   },
   {
     "term": "carbon cycle",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The biogeochemical cycle by which carbon atoms are continuously exchanged among the atmosphere, oceans, soil, and living organisms through processes such as photosynthesis, respiration, decomposition, and combustion.",
+        "example": "Human burning of fossil fuels has disrupted the carbon cycle by releasing stored carbon faster than natural sinks can absorb it.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "climate science",
+          "biogeochemistry"
+        ]
+      }
+    ]
   },
   {
     "term": "keystone species",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A species that exerts a disproportionately large influence on the structure and function of its ecosystem relative to its biomass or abundance, such that its removal triggers significant cascading changes.",
+        "example": "The sea otter is a keystone species in kelp forest ecosystems because it preys on sea urchins that would otherwise decimate the kelp.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "conservation biology",
+          "food web"
+        ]
+      }
+    ]
   },
   {
     "term": "trophic level",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A position in a food chain or food web occupied by all organisms that obtain energy from the same number of steps away from the primary producer, with energy transferred and dissipated at each successive level.",
+        "example": "Energy transfer between trophic levels is typically only about 10% efficient, which limits the number of levels a food chain can sustain.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "food web",
+          "ecosystem"
+        ]
+      }
+    ]
   },
   {
     "term": "ecological succession",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The directional, cumulative process of change in the species composition and community structure of an ecosystem over time, as pioneer organisms modify environmental conditions and are progressively replaced by others.",
+        "example": "After the volcanic eruption, ecological succession began with pioneer lichens colonizing bare rock before more complex vegetation could establish.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "community ecology",
+          "restoration ecology"
+        ]
+      }
+    ]
   },
   {
     "term": "pioneer species",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Organisms that are the first to colonize a previously disrupted or barren environment, initiating ecological succession by altering abiotic conditions and creating habitat for subsequent species.",
+        "example": "Mosses and lichens act as pioneer species on freshly exposed rock, gradually breaking it down into proto-soil over decades.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "succession",
+          "restoration ecology"
+        ]
+      }
+    ]
   },
   {
     "term": "climax community",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A relatively stable, self-perpetuating ecological community considered the end-state of succession for a given climate and geography, characterized by relatively steady species composition and high biodiversity.",
+        "example": "Temperate broadleaf forest is often described as the climax community for much of central Europe's climate zone.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "succession",
+          "community ecology"
+        ]
+      }
+    ]
   },
   {
     "term": "nitrogen cycle",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The biogeochemical cycle by which nitrogen is converted among its various chemical forms through biological and physical processes including fixation, nitrification, denitrification, and decomposition, making it available to living organisms.",
+        "example": "Leguminous plants play a critical role in the nitrogen cycle by hosting bacteria that fix atmospheric nitrogen into forms usable by other plants.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "biogeochemistry",
+          "soil science"
+        ]
+      }
+    ]
   },
   {
     "term": "carbon sequestration",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The long-term removal and storage of atmospheric carbon dioxide through natural processes such as photosynthesis, soil formation, and ocean absorption, or through engineered technological interventions.",
+        "example": "Restoring degraded peatlands is increasingly regarded as a cost-effective strategy for carbon sequestration at landscape scale.",
+        "register": "technical",
+        "tags": [
+          "climate science",
+          "ecology",
+          "environmental policy"
+        ]
+      }
+    ]
   },
   {
     "term": "biomass productivity",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The rate at which living organisms in an ecosystem produce organic matter per unit area per unit time, serving as a key index of ecosystem energy availability and biological activity.",
+        "example": "Tropical rainforests have among the highest biomass productivity of any terrestrial ecosystem, fueled by abundant sunlight and rainfall.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "ecosystem science",
+          "primary production"
+        ]
+      }
+    ]
   },
   {
     "term": "ecosystem services",
-    "status": "stub",
-    "language": "en"
+    "status": "enriched",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The direct and indirect contributions that functioning ecosystems make to human well-being, encompassing provisioning services (food, fresh water), regulating services (climate regulation, flood mitigation), cultural services (recreation, spiritual value), and supporting services (nutrient cycling, soil formation).",
+        "example": "Economists have estimated that the value of ecosystem services such as pollination and water purification far exceeds the costs of conserving the habitats that provide them.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "environmental economics",
+          "conservation"
+        ]
+      }
+    ]
   }
 ]
