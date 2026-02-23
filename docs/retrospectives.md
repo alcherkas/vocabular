@@ -4571,3 +4571,20 @@ None blocking.
 
 **What to improve:** Pre-check relatedTerms for headword substrings before writing, to avoid the self-referential error class entirely.
 >>>>>>> vocab/relations-54
+
+---
+
+## QA Agent — vocab/qa-54 — $(date +%Y-%m-%d)
+
+**Scope:** Reviewed and approved vocabulary entries with status `relations-added` in both staging files.
+
+**Results:**
+- EN: 1 entry approved (`realism`) — 2 co-extensive synonyms (representationalism, naturalism), 1 antonym (idealism), 5 relatedTerms ✅
+- LT: 35 entries approved — vegetables (4), adjectives (7), containers/quantities (9), colours (6), numerals 21–27 (7), verb (1), modal verb (1)
+- All LT terms: lowercase ✅, nominative singular ✅, synonyms/antonyms optional criteria met ✅
+
+**Issues found:** None that warranted rejection. Minor: example sentence for `neskanus` contained a mid-word capital letter ("neSkani") — not a blocking error.
+
+**Validation:** Both staging files passed `validate_words.py --errors-for approved` with 0 errors.
+
+**Total approved:** 36 entries (1 EN + 35 LT)
