@@ -121,6 +121,15 @@ struct SessionSummaryView: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .controlSize(.large)
+
+                Button {
+                    sessionService.reset()
+                } label: {
+                    Text("Back to Home")
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.bordered)
+                .controlSize(.large)
             }
             .padding(.horizontal)
 
