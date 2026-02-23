@@ -41619,7 +41619,7 @@
     "term": "elaboration likelihood",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The degree to which a person is motivated and able to engage in systematic, effortful cognitive processing of a persuasive message; the foundational construct of the Elaboration Likelihood Model (ELM).",
@@ -41643,16 +41643,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "message scrutiny",
+      "argument processing"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "central route processing",
+      "peripheral route processing",
+      "persuasion",
+      "cognitive elaboration"
+    ],
     "translation": null
   },
   {
     "term": "social proof",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A psychological phenomenon in which people look to the actions and opinions of others to guide their own behavior in uncertain situations, on the assumption that those others possess better information.",
@@ -41676,16 +41684,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "social validation",
+      "consensus signaling"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "conformity",
+      "herd behavior",
+      "bandwagon effect",
+      "influence"
+    ],
     "translation": null
   },
   {
     "term": "scarcity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A state of insufficient supply relative to demand; the fundamental economic condition that resources are limited and cannot satisfy all wants.",
@@ -41709,16 +41725,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "shortage",
+      "dearth"
+    ],
+    "antonymTerms": [
+      "abundance",
+      "surplus"
+    ],
+    "relatedTerms": [
+      "supply and demand",
+      "resource allocation",
+      "perceived value"
+    ],
     "translation": null
   },
   {
     "term": "authority",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The power or right to give orders, make decisions, or enforce compliance within a recognized institutional or social framework.",
@@ -41752,16 +41778,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "dominion",
+      "jurisdiction"
+    ],
+    "antonymTerms": [
+      "subordination"
+    ],
+    "relatedTerms": [
+      "power",
+      "legitimacy",
+      "expertise",
+      "hierarchy"
+    ],
     "translation": null
   },
   {
     "term": "liking",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A feeling of fondness, enjoyment, or preference toward a person, object, or activity.",
@@ -41785,16 +41821,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "fondness",
+      "affinity"
+    ],
+    "antonymTerms": [
+      "aversion",
+      "antipathy"
+    ],
+    "relatedTerms": [
+      "rapport",
+      "attraction",
+      "preference"
+    ],
     "translation": null
   },
   {
     "term": "consistency",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality of behaving, performing, or holding beliefs in a uniform, coherent, and predictable manner over time.",
@@ -41818,16 +41864,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "coherence",
+      "uniformity"
+    ],
+    "antonymTerms": [
+      "variability",
+      "inconstancy"
+    ],
+    "relatedTerms": [
+      "reliability",
+      "stability",
+      "congruence"
+    ],
     "translation": null
   },
   {
     "term": "shamanism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A religious practice in which a practitioner (the shaman) enters altered states of consciousness to interact with the spirit world, performing healing, divination, and mediation on behalf of a community.",
@@ -41852,16 +41908,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "spirit mediation",
+      "mediumship"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "animism",
+      "ritual healing",
+      "trance",
+      "totemism"
+    ],
     "translation": null
   },
   {
     "term": "rites of passage",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ritual ceremonies or structured events that mark and facilitate significant transitions in an individual's social status, role, or life stage, such as birth, puberty, marriage, or death.",
@@ -41886,16 +41950,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "initiation rites",
+      "transition ceremonies"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "liminality",
+      "transition ritual",
+      "lifecycle ceremony"
+    ],
     "translation": null
   },
   {
     "term": "cultural relativism",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The methodological and ethical principle that a culture's beliefs, practices, and values should be understood and evaluated within their own cultural context rather than judged by the standards of another culture.",
@@ -41920,16 +41991,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "methodological relativism",
+      "cultural contextualism"
+    ],
+    "antonymTerms": [
+      "ethnocentrism"
+    ],
+    "relatedTerms": [
+      "moral relativism",
+      "cultural pluralism",
+      "anthropology",
+      "particularism"
+    ],
     "translation": null
   },
   {
     "term": "federalism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A system of government in which sovereign power is constitutionally divided between a central authority and constituent political units (states, provinces, or cantons), each possessing defined autonomous powers.",
@@ -41954,16 +42035,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "federal system",
+      "federal governance"
+    ],
+    "antonymTerms": [
+      "unitarism"
+    ],
+    "relatedTerms": [
+      "confederation",
+      "devolution",
+      "subsidiarity",
+      "sovereignty"
+    ],
     "translation": null
   },
   {
     "term": "constitutional law",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The body of law that defines the structure, powers, and limits of government as prescribed by a constitution, including judicial interpretation of constitutional provisions.",
@@ -41988,16 +42079,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "fundamental law",
+      "basic law"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "jurisprudence",
+      "fundamental rights",
+      "public law",
+      "constitutional order"
+    ],
     "translation": null
   },
   {
     "term": "civil liberties",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Fundamental individual freedoms and rights—such as freedom of speech, assembly, religion, and due process—that are protected against infringement by the state.",
@@ -42023,16 +42122,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "fundamental freedoms",
+      "individual rights"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "civil rights",
+      "human rights",
+      "constitutional rights",
+      "due process"
+    ],
     "translation": null
   },
   {
     "term": "legal positivism",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The jurisprudential theory that the existence and content of law depends on social facts—such as legislative enactment and social acceptance—rather than on moral merit or natural law.",
@@ -42058,16 +42165,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "legal conventionalism",
+      "social fact thesis"
+    ],
+    "antonymTerms": [
+      "natural law theory"
+    ],
+    "relatedTerms": [
+      "jurisprudence",
+      "normative theory",
+      "rule of recognition"
+    ],
     "translation": null
   },
   {
     "term": "natural law",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A system of moral and legal principles held to be inherent in human nature and discoverable through reason, binding on all people regardless of their particular cultural or legislative context.",
@@ -42093,9 +42209,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "ius naturale",
+      "moral naturalism"
+    ],
+    "antonymTerms": [
+      "legal positivism"
+    ],
+    "relatedTerms": [
+      "natural rights",
+      "moral realism",
+      "jurisprudence",
+      "divine law"
+    ],
     "translation": null
   },
   {
@@ -42132,7 +42258,7 @@
     "term": "axiology",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The branch of philosophy that studies the nature, criteria, and types of value judgments, encompassing both ethics (moral value) and aesthetics (artistic value).",
@@ -42157,16 +42283,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "value theory",
+      "evaluative inquiry"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ethics",
+      "aesthetics",
+      "epistemology",
+      "normative philosophy"
+    ],
     "translation": null
   },
   {
     "term": "teleology",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The philosophical doctrine that phenomena are best explained with reference to their purpose, end-goal, or final cause rather than prior efficient causes.",
@@ -42192,16 +42326,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "finalism",
+      "purposivism"
+    ],
+    "antonymTerms": [
+      "mechanism"
+    ],
+    "relatedTerms": [
+      "final cause",
+      "consequentialism",
+      "natural theology",
+      "design argument"
+    ],
     "translation": null
   },
   {
     "term": "empiricism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The epistemological theory that knowledge originates in and is justified by sensory experience and observation, as opposed to innate ideas or pure reason.",
@@ -42227,16 +42371,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "inductivism",
+      "experientialism"
+    ],
+    "antonymTerms": [
+      "rationalism"
+    ],
+    "relatedTerms": [
+      "induction",
+      "positivism",
+      "sensory experience",
+      "pragmatism"
+    ],
     "translation": null
   },
   {
     "term": "rationalism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The philosophical position that reason and a priori knowledge are the primary sources of justified belief, independent of sensory experience.",
@@ -42262,16 +42416,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "apriorism",
+      "intellectualism"
+    ],
+    "antonymTerms": [
+      "empiricism"
+    ],
+    "relatedTerms": [
+      "a priori reasoning",
+      "deduction",
+      "idealism"
+    ],
     "translation": null
   },
   {
     "term": "ontology",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The branch of metaphysics concerned with the fundamental nature of being, existence, and reality—what kinds of things exist and what it means to exist.",
@@ -42296,16 +42459,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "theory of being",
+      "first philosophy"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "metaphysics",
+      "epistemology",
+      "existence",
+      "substance theory"
+    ],
     "translation": null
   },
   {
     "term": "pragmatism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An American philosophical tradition holding that the meaning and truth of ideas, beliefs, or theories are determined by their practical consequences and usefulness in guiding action.",
@@ -42330,16 +42501,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "instrumentalism",
+      "experimentalism"
+    ],
+    "antonymTerms": [
+      "idealism"
+    ],
+    "relatedTerms": [
+      "utilitarianism",
+      "functionalism",
+      "consequentialism"
+    ],
     "translation": null
   },
   {
     "term": "idealism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The philosophical view that reality is fundamentally mental, spiritual, or experiential in nature; that the physical world exists only as perceived or constituted by minds.",
@@ -42365,16 +42545,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "mentalism",
+      "immaterialism"
+    ],
+    "antonymTerms": [
+      "materialism",
+      "realism"
+    ],
+    "relatedTerms": [
+      "phenomenalism",
+      "solipsism",
+      "transcendentalism",
+      "dualism"
+    ],
     "translation": null
   },
   {
     "term": "nominalism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The philosophical position that universals or abstract properties have no independent existence but are merely names or labels applied to groups of similar particulars.",
@@ -42399,16 +42590,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "particularism",
+      "anti-realism"
+    ],
+    "antonymTerms": [
+      "realism",
+      "essentialism"
+    ],
+    "relatedTerms": [
+      "universals",
+      "conceptualism",
+      "constructivism"
+    ],
     "translation": null
   },
   {
     "term": "essentialism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The metaphysical view that objects or categories possess inherent, essential properties that define what they are and that remain invariant across contexts.",
@@ -42434,9 +42635,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "typological thinking",
+      "natural kind theory"
+    ],
+    "antonymTerms": [
+      "nominalism",
+      "constructivism"
+    ],
+    "relatedTerms": [
+      "realism",
+      "platonism",
+      "typology",
+      "natural kinds"
+    ],
     "translation": null
   },
   {
@@ -42605,7 +42817,7 @@
     "term": "autarky",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An economic policy or condition of national self-sufficiency in which a country seeks to meet all its needs from domestic production, minimising reliance on international trade.",
@@ -42630,16 +42842,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "self-sufficiency",
+      "self-reliance"
+    ],
+    "antonymTerms": [
+      "free trade"
+    ],
+    "relatedTerms": [
+      "protectionism",
+      "economic isolationism",
+      "trade policy",
+      "mercantilism"
+    ],
     "translation": null
   },
   {
     "term": "protectionism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An economic policy of restricting imports from other countries through tariffs, quotas, or other trade barriers in order to protect domestic industries from foreign competition.",
@@ -42664,16 +42886,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "trade nationalism",
+      "economic nationalism"
+    ],
+    "antonymTerms": [
+      "free trade",
+      "trade liberalization"
+    ],
+    "relatedTerms": [
+      "tariff",
+      "trade barrier",
+      "mercantilism",
+      "autarky"
+    ],
     "translation": null
   },
   {
     "term": "quantitative easing",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A monetary policy instrument in which a central bank purchases large quantities of financial assets—typically government bonds—to inject liquidity into the economy and lower long-term interest rates.",
@@ -42698,16 +42931,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "asset purchase programme",
+      "bond buying programme"
+    ],
+    "antonymTerms": [
+      "quantitative tightening"
+    ],
+    "relatedTerms": [
+      "monetary policy",
+      "central banking",
+      "liquidity",
+      "inflation"
+    ],
     "translation": null
   },
   {
     "term": "fiat currency",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A currency declared legal tender by government decree whose value is not backed by a physical commodity such as gold but rests on public trust in the issuing authority and its legal enforceability.",
@@ -42732,16 +42975,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "paper money",
+      "unbacked currency"
+    ],
+    "antonymTerms": [
+      "commodity money"
+    ],
+    "relatedTerms": [
+      "monetary policy",
+      "inflation",
+      "central bank",
+      "gold standard"
+    ],
     "translation": null
   },
   {
     "term": "deficit spending",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Government expenditure that exceeds tax revenues in a given budget period, financed by borrowing or money creation, resulting in a fiscal deficit.",
@@ -42766,9 +43019,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "budget deficit financing",
+      "counter-cyclical spending"
+    ],
+    "antonymTerms": [
+      "fiscal surplus",
+      "austerity"
+    ],
+    "relatedTerms": [
+      "fiscal policy",
+      "national debt",
+      "Keynesian economics",
+      "public borrowing"
+    ],
     "translation": null
   },
   {
@@ -42896,7 +43160,7 @@
     "term": "social stratification",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The hierarchical arrangement of individuals or groups within a society into ranked layers according to criteria such as wealth, occupation, status, or power, with systematic differences in access to resources and life chances.",
@@ -42922,16 +43186,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "social hierarchy",
+      "social differentiation"
+    ],
+    "antonymTerms": [
+      "egalitarianism"
+    ],
+    "relatedTerms": [
+      "social class",
+      "inequality",
+      "social mobility",
+      "status"
+    ],
     "translation": null
   },
   {
     "term": "collective memory",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The shared pool of information, experiences, narratives, and commemorative practices held by a social group or community, transmitted across generations through cultural, institutional, and material means.",
@@ -42957,16 +43231,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "social memory",
+      "shared memory"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "commemoration",
+      "historical consciousness",
+      "cultural memory",
+      "identity"
+    ],
     "translation": null
   },
   {
     "term": "social cohesion",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The degree to which members of a society are bound together by shared values, mutual trust, a sense of common belonging, and willingness to cooperate.",
@@ -42992,9 +43274,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "social solidarity",
+      "social unity"
+    ],
+    "antonymTerms": [
+      "social fragmentation"
+    ],
+    "relatedTerms": [
+      "solidarity",
+      "integration",
+      "social capital",
+      "trust"
+    ],
     "translation": null
   },
   {
@@ -43085,7 +43377,7 @@
     "term": "theocracy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of government in which religious authorities rule in the name of a deity, and governance, legislation, and public life are based on religious doctrine.",
@@ -43112,9 +43404,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "clerical rule",
+      "hierocracy"
+    ],
+    "antonymTerms": [
+      "secular state"
+    ],
+    "relatedTerms": [
+      "secularism",
+      "divine right",
+      "religious law",
+      "theocratic state"
+    ],
     "translation": null
   },
   {
@@ -43231,7 +43533,7 @@
     "term": "rationalization",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The cognitive process of constructing plausible, post-hoc logical justifications for decisions, beliefs, or actions that were actually motivated by other, often unconscious factors.",
@@ -43256,16 +43558,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "post-hoc justification",
+      "motivated reasoning"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "cognitive dissonance",
+      "defense mechanisms",
+      "self-deception"
+    ],
     "translation": null
   },
   {
     "term": "sublimation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In psychoanalytic and psychological theory, a mature defense mechanism by which socially unacceptable or disruptive impulses are channelled into constructive, socially valued activities.",
@@ -43290,16 +43599,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "drive rechanneling",
+      "impulse transformation"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "defense mechanisms",
+      "displacement",
+      "repression",
+      "catharsis"
+    ],
     "translation": null
   },
   {
     "term": "projection",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In psychoanalytic theory, a defense mechanism in which a person attributes their own unacceptable thoughts, feelings, or impulses to another person.",
@@ -43333,9 +43650,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "externalization",
+      "extrapolation"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "defense mechanisms",
+      "transference",
+      "attribution",
+      "introspection"
+    ],
     "translation": null
   },
   {
