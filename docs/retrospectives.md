@@ -4262,7 +4262,6 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 
 ---
 
-<<<<<<< HEAD
 ## Session: vocab/enricher-en-45 — EN Enricher batch (35 stubs)
 
 **Date**: 2025-07-24
@@ -4292,7 +4291,6 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 
 ### Doubts / open questions
 - None. Confidence: 95%.
-=======
 ## 2025-01 — Relations Agent — vocab/relations-51 (batch 2: mixed LT + EN)
 
 **Agent**: Relations Agent
@@ -4323,7 +4321,6 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - `barratry` as a synonym for `simony`: in strict canonical usage barratry and simony overlap but aren't fully co-extensive. Confidence ~80%. A QA pass should verify.
 - `peregrinatio`/`quest` for `pilgrimage`: peregrinatio is accurate (Latin origin); quest applies only to the metaphorical sense 2. Acceptable since both senses are defined in the entry.
 - Confidence overall: 90%.
->>>>>>> vocab/relations-51
 
 ---
 ## Retro: enricher-en-46 — 2025-08-01
@@ -4344,3 +4341,24 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 ### Process notes
 - The `--errors-for enriched` flag on the validator scoped exit-code checking correctly to enriched entries only, preventing pre-existing stub warnings from blocking validation.
 - 15 stubs remain in the staging file for a future enrichment batch.
+
+## Retro: enricher-lt-63 — 2025-01-29
+
+**Agent**: LT Vocabulary Enricher (session enricher-lt-63)
+**Task**: Enrich 35 Lithuanian stub entries in words_lt_staging.json
+**Branch**: vocab/enricher-lt-63
+
+### What went well
+- All 35 stubs enriched in a single pass with 0 validation errors
+- Terms correctly converted from plural/uppercase to nominative singular lowercase (e.g. bananai→bananas, morkos→morka, česnakai→česnakas, Riešutai→riešutas)
+- Consistent food-domain cohort (fruits, berries, nuts, vegetables) made for natural, context-appropriate example sentences
+- Validation script confirmed PASSED — 707 word(s) valid ✓
+
+### What was tricky
+- Several stubs had plural or uppercase terms requiring correction to nominative singular form
+- Needed to inspect existing enriched entries to confirm definition language (English) and that `level` field is not used in this JSON schema
+
+### Lessons learned
+- Always check a sample of existing enriched entries before writing enrichment data — the task instructions mentioned English definitions, which matched the majority of existing entries
+- The validation script flags missing `translation` for LT entries, so always include it
+
