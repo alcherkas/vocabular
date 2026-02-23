@@ -4381,3 +4381,23 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - Multi-word synonyms/relatedTerms that include the headword as a space-separated token are rejected by the validator. Avoid compound phrases like `"X Y"` where `Y` is the headword term.
 - For highly technical terms (e.g. "manifold"), near-synonyms from adjacent disciplines ("smooth variety", "geometric variety") are the safest choice since they avoid self-reference while remaining semantically close.
 - LT synonym quality: verbs like `pokalbiauti`, `atsakinėti` are valid nominative infinitives and pass validation.
+
+---
+## Retro — vocab/enricher-en-47 (English stub enrichment)
+**Date**: 2025-07-22
+**Agent**: enricher-en-47
+**Scope**: Enrich all 15 remaining English stubs in words_staging.json
+
+### What was done
+Enriched all 15 stub entries across several specialist domains: literary fiction (roman-fleuve), vocal music (vocalise), music theory (pandiatonicism, spectralism, neoclassicism, musica ficta), classical rhetoric and drama (protasis, tableau vivant, commedia dell'arte, dumbshow, proscenium), and linguistics (radical construction grammar, inferentiality, homonymy, lexicalization). All entries received partOfSpeech, register, level, and 1–2 meanings with definitions and natural example sentences.
+
+### What went well
+- Validation passed on first run with 0 errors
+- All 15 stubs successfully enriched in a single pass
+- Registers correctly chosen from the permitted set (no "neutral" or "informal" used)
+
+### What could be improved
+- The stub entries lacked IDs; UUIDs were generated at enrichment time. Future pipelines could assign IDs at stub creation to ease tracking.
+
+### Outcome
+Branch `vocab/enricher-en-47` is ready for merge review. No stubs remain in words_staging.json.
