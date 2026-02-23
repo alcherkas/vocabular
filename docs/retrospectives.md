@@ -4324,3 +4324,26 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - `peregrinatio`/`quest` for `pilgrimage`: peregrinatio is accurate (Latin origin); quest applies only to the metaphorical sense 2. Acceptable since both senses are defined in the entry.
 - Confidence overall: 90%.
 >>>>>>> vocab/relations-51
+
+---
+
+## Retro: enricher-lt-63 — 2025-01-29
+
+**Agent**: LT Vocabulary Enricher (session enricher-lt-63)
+**Task**: Enrich 35 Lithuanian stub entries in words_lt_staging.json
+**Branch**: vocab/enricher-lt-63
+
+### What went well
+- All 35 stubs enriched in a single pass with 0 validation errors
+- Terms correctly converted from plural/uppercase to nominative singular lowercase (e.g. bananai→bananas, morkos→morka, česnakai→česnakas, Riešutai→riešutas)
+- Consistent food-domain cohort (fruits, berries, nuts, vegetables) made for natural, context-appropriate example sentences
+- Validation script confirmed PASSED — 707 word(s) valid ✓
+
+### What was tricky
+- Several stubs had plural or uppercase terms requiring correction to nominative singular form
+- Needed to inspect existing enriched entries to confirm definition language (English) and that `level` field is not used in this JSON schema
+
+### Lessons learned
+- Always check a sample of existing enriched entries before writing enrichment data — the task instructions mentioned English definitions, which matched the majority of existing entries
+- The validation script flags missing `translation` for LT entries, so always include it
+
