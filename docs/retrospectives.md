@@ -4748,6 +4748,7 @@ None.
 >>>>>>> vocab/relations-56
 
 ---
+<<<<<<< HEAD
 
 ## Retrospective — vocab/enricher-en-50 (EN stubs batch, 2025-01)
 
@@ -4777,3 +4778,20 @@ All 162 staging entries passed `validate_words.py --errors-for enriched`. Zero s
 
 ### Lessons
 - Thematic clustering speeds enrichment and ensures register/tag consistency within a domain.
+=======
+## Retro — vocab/enricher-lt-68 (2025-07-23)
+
+**Agent:** LT Enricher (enricher-lt-68)
+**Task:** Enrich 35 Lithuanian stubs in words_lt_staging.json
+
+**What went well:**
+- Picked a coherent thematic batch: cardinal numbers (28, 29, 200–900, 1000), ordinal adjectives (pirmas/pirma, antras/antra, trečias/trečia), practical modal words (draudžiama, galima), common phrases (tualetinis popierius, kas pats/ta pati, kai kur, pašto ženklas), verbs (dėvėti, suktis, švenčia, mezga, siuva, puošia), and a cultural phrase (kalbos ir knygos diena).
+- Validator passed on first run: 121 enriched entries with zero errors.
+- Correctly lowercased stub terms that had been capitalised (pirmas, dėvėti, atvirukas) per LT conventions.
+
+**What was tricky:**
+- Some stubs were verb conjugation forms (švenčia, mezga, siuva, puošia, dėvi, vilki…) rather than infinitives; enriched the selected four as present-tense verb forms with clear definitions indicating they are 3rd-person forms.
+- "galima" and "draudžiama" are impersonal modal predicates; chose adverb/adjective partOfSpeech to best reflect their functional role.
+
+**Stubs remaining:** 98
+>>>>>>> vocab/enricher-lt-68
