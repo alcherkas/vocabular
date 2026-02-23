@@ -49438,7 +49438,7 @@
   },
   {
     "term": "gimnastika",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -49495,7 +49495,7 @@
   },
   {
     "term": "apšilimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -49516,7 +49516,7 @@
       "įšilimas"
     ],
     "antonymTerms": [
-      "atsipalaidavimas"
+      "atvėsimas"
     ],
     "relatedTerms": [
       "treniruotė",
@@ -49607,7 +49607,7 @@
   },
   {
     "term": "teisėjas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "translation": "judge",
@@ -49634,7 +49634,7 @@
   },
   {
     "term": "teisėja",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "translation": "judge (female)",
@@ -49717,7 +49717,7 @@
   },
   {
     "term": "statybininkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -49733,14 +49733,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "darbininkas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "statyba",
       "namas",
-      "įrankiai"
+      "įrankiai",
+      "darbininkas"
     ],
     "qaNote": "Synonym 'darbininkas' (worker/labourer) is too broad: it denotes any manual worker regardless of trade, whereas 'statybininkas' specifically refers to a construction worker. Replace with a more specific synonym."
   },
@@ -49773,7 +49772,7 @@
   },
   {
     "term": "sodininkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -49830,7 +49829,7 @@
   },
   {
     "term": "mechanikas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -49846,14 +49845,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "technikas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "automobilis",
       "variklis",
-      "remontas"
+      "remontas",
+      "technikas"
     ],
     "qaNote": "Synonym 'technikas' (technician) is broader than 'mechanikas' (mechanic): a technician may work in any technical field, while a mechanic specifically repairs and maintains machines, engines, and vehicles. Replace with a more specific synonym."
   },
@@ -49886,7 +49884,7 @@
   },
   {
     "term": "kepėjas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -49903,14 +49901,13 @@
         ]
       }
     ],
-    "synonyms": [
-      "duonkepys"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "duona",
       "kepykla",
-      "miltai"
+      "miltai",
+      "duonkepys"
     ],
     "qaNote": "Synonym 'duonkepys' is too specific: 'duonkepys' literally means bread baker (duona = bread), whereas 'kepėjas' denotes a baker of any goods including cakes and pastries. A hyponym cannot serve as a synonym for its hypernym. Replace with a more accurate synonym."
   },
@@ -49997,7 +49994,7 @@
   },
   {
     "term": "samanos",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50160,7 +50157,7 @@
   },
   {
     "term": "klevas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50242,7 +50239,7 @@
   },
   {
     "term": "pušis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50270,7 +50267,7 @@
   },
   {
     "term": "kočėlas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50298,7 +50295,7 @@
   },
   {
     "term": "kiaurasamtis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50317,11 +50314,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "samtelis",
+      "virtuvė",
+      "kepimas",
+      "mentelė"
+    ]
   },
   {
     "term": "šluotelė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50351,7 +50353,7 @@
   },
   {
     "term": "mentelė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50379,7 +50381,7 @@
   },
   {
     "term": "sietelis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50409,7 +50411,7 @@
   },
   {
     "term": "dangtis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50439,7 +50441,7 @@
   },
   {
     "term": "prieskonis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50469,7 +50471,7 @@
   },
   {
     "term": "pagardas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50499,7 +50501,7 @@
   },
   {
     "term": "užkandis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50527,7 +50529,7 @@
   },
   {
     "term": "blynas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50557,7 +50559,7 @@
   },
   {
     "term": "apkepas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50573,21 +50575,20 @@
         ]
       }
     ],
-    "synonyms": [
-      "troškinys"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "orkaitė",
       "kepimas",
       "bulvės",
-      "virtuvė"
+      "virtuvė",
+      "troškinys"
     ],
     "translation": "casserole, baked dish"
   },
   {
     "term": "užvirti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -50605,11 +50606,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "virti",
+      "vanduo",
+      "virimas",
+      "kaitinti"
+    ]
   },
   {
     "term": "nata",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50727,7 +50733,7 @@
   },
   {
     "term": "gitara",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50755,7 +50761,7 @@
   },
   {
     "term": "būgnas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50783,7 +50789,7 @@
   },
   {
     "term": "trimitas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50806,14 +50812,14 @@
       "fleita",
       "akordeonas",
       "orkestras",
-      "koncertuoti"
+      "muzikantas"
     ],
     "translation": "trumpet",
     "qaNote": "Nominative singular: trimitas. A brass instrument; not to be confused with 'trombonas' (trombone)."
   },
   {
     "term": "fleita",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50843,7 +50849,7 @@
   },
   {
     "term": "akordeonas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50860,22 +50866,20 @@
         ]
       }
     ],
-    "synonyms": [
-      "armonika"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "klavišai",
       "fleita",
       "trimitas",
-      "muzikantas"
+      "armonika"
     ],
     "translation": "accordion",
     "qaNote": "Nominative singular: akordeonas. Strongly associated with Lithuanian folk music."
   },
   {
     "term": "klavišai",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50898,14 +50902,14 @@
       "akordeonas",
       "fleita",
       "orkestras",
-      "koncertuoti"
+      "muzikantas"
     ],
     "translation": "keys (of a keyboard instrument)",
     "qaNote": "Nominative plural of klavišas. Used for piano/organ/accordion keys. Also used loosely for keyboard shortcuts in computing."
   },
   {
     "term": "scena",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50946,7 +50950,7 @@
   },
   {
     "term": "šventadienis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50962,19 +50966,18 @@
         ]
       }
     ],
-    "synonyms": [
-      "šventė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
+      "šventė",
       "tradicija",
-      "šventė"
+      "religija"
     ],
     "translation": "holy day, feast day, public holiday"
   },
   {
     "term": "kalėdaitis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -50995,13 +50998,15 @@
     "antonymTerms": [],
     "relatedTerms": [
       "Kūčios",
-      "Kalėdos"
+      "Kalėdos",
+      "tradicija",
+      "šeima"
     ],
     "translation": "Christmas wafer (Lithuanian Kūčios tradition)"
   },
   {
     "term": "žvakelė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -51022,15 +51027,16 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
+      "žvakė",
       "Vėlinės",
-      "Visų Šventųjų diena",
-      "kapas"
+      "kapas",
+      "religija"
     ],
     "translation": "(small) candle"
   },
   {
     "term": "palinkėjimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "meanings": [
