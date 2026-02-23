@@ -4,7 +4,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A topological space that locally resembles Euclidean space near each point but may have a more complex global structure.",
@@ -26,7 +26,8 @@
       "differential geometry",
       "curvature"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonyms 'geometric variety' and 'smooth variety' are not co-extensive with manifold: in mathematics, a 'variety' (algebraic geometry) is a distinct concept from a topological manifold. Move to relatedTerms or replace with true near-synonyms such as 'topological manifold', 'smooth manifold'."
   },
   {
     "term": "stochastic process",
@@ -176,7 +177,7 @@
   },
   {
     "term": "zero-knowledge proof",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -201,11 +202,12 @@
       "interactive proof",
       "commitment scheme",
       "privacy"
-    ]
+    ],
+    "qa_notes": "Synonym 'interactive proof system' is a hypernym (ZKPs are one type of interactive proof system); move to relatedTerms. Replace with a co-extensive synonym or leave synonyms sparse."
   },
   {
     "term": "abstract syntax tree",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -231,7 +233,8 @@
       "compiler",
       "token"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonym 'parse tree' (concrete syntax tree) is NOT the same as an AST: a parse tree includes all tokens while an AST is an abstracted, simplified representation. Move 'parse tree' to relatedTerms."
   },
   {
     "term": "phonological assimilation",
@@ -245,7 +248,7 @@
   },
   {
     "term": "instrumentalism",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -282,11 +285,12 @@
       "pragmatism",
       "operationalism",
       "fictionalism"
-    ]
+    ],
+    "qa_notes": "Synonym 'anti-realism' is a hypernym (instrumentalism is one species of anti-realism); move to relatedTerms. 'conventionalism' is a distinct, non-co-extensive position; move to relatedTerms."
   },
   {
     "term": "prospect theory",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -311,11 +315,12 @@
       "loss aversion",
       "Kahneman",
       "expected utility theory"
-    ]
+    ],
+    "qa_notes": "Synonym 'cumulative prospect theory' is a later, distinct refinement of the original theory (Tversky & Kahneman 1992) with a different weighting function — it is not a synonym. Move to relatedTerms."
   },
   {
     "term": "poststructuralism",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -350,11 +355,12 @@
       "deconstruction",
       "postmodernism",
       "discourse analysis"
-    ]
+    ],
+    "qa_notes": "Synonym 'deconstruction theory' refers to Derrida's specific method, which is one strand within poststructuralism, not co-extensive with it; move to relatedTerms."
   },
   {
     "term": "keystone species",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -379,13 +385,14 @@
       "ecological role",
       "biodiversity",
       "apex predator"
-    ]
+    ],
+    "qa_notes": "Synonym 'ecosystem engineer species' is a distinct ecological concept (engineers modify habitat structure; keystone species exert disproportionate trophic control) — not a synonym. Move to relatedTerms."
   },
   {
     "term": "shamanism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A religious practice in which a practitioner (the shaman) enters altered states of consciousness to interact with the spirit world, performing healing, divination, and mediation on behalf of a community.",
@@ -421,13 +428,14 @@
       "trance",
       "totemism"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonym 'mediumship' is not co-extensive: mediumship specifically involves channelling spirits of the dead, while shamanism is a broader ecstatic-trance complex. Move to relatedTerms."
   },
   {
     "term": "legal positivism",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The jurisprudential theory that the existence and content of law depends on social facts—such as legislative enactment and social acceptance—rather than on moral merit or natural law.",
@@ -465,13 +473,14 @@
       "normative theory",
       "rule of recognition"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonym 'social fact thesis' is a core thesis *within* legal positivism, not a synonym for the entire theory; move to relatedTerms. 'Legal conventionalism' is a specific variant (Dworkin's target), not co-extensive; move to relatedTerms."
   },
   {
     "term": "natural law",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A system of moral and legal principles held to be inherent in human nature and discoverable through reason, binding on all people regardless of their particular cultural or legislative context.",
@@ -510,13 +519,14 @@
       "jurisprudence",
       "divine law"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonym 'moral naturalism' is a distinct metaethical view (moral facts are natural facts) that does not coincide with natural law theory (discoverable moral/legal principles via reason); move to relatedTerms."
   },
   {
     "term": "nominalism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The philosophical position that universals or abstract properties have no independent existence but are merely names or labels applied to groups of similar particulars.",
@@ -554,13 +564,14 @@
       "conceptualism",
       "constructivism"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonym 'anti-realism' is a hypernym of nominalism; move to relatedTerms. antonymTerm 'essentialism' is a taxonomic contrast rather than a direct semantic opposite (the canonical antonym of nominalism in the universals debate is 'realism'); remove or keep only 'realism'."
   },
   {
     "term": "essentialism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The metaphysical view that objects or categories possess inherent, essential properties that define what they are and that remain invariant across contexts.",
@@ -606,7 +617,7 @@
     "term": "picaresque",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Of or relating to a literary genre originating in sixteenth-century Spain, featuring a roguish, low-born protagonist who survives by wit and cunning through a series of episodic adventures in a corrupt society.",
@@ -639,13 +650,14 @@
       "rogue narrative",
       "low-life narrative"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonyms 'roguish' and 'episodic' are partial descriptors/features of the genre, not co-extensive synonyms for 'picaresque'. A synonym should substitute for the headword; 'episodic narrative' would be closer but still not fully co-extensive. Remove or replace with genre-level near-synonyms."
   },
   {
     "term": "tragicomedy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A dramatic genre that combines elements of tragedy and comedy, typically presenting serious or painful subject matter alongside humour in a way that resists neat resolution in either register.",
@@ -679,13 +691,14 @@
       "dramatic genre",
       "black comedy"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonym 'dark comedy' is not co-extensive: dark comedy foregrounds humour with bleak themes; tragicomedy blends genuinely tragic and comic registers without resolution. Move to relatedTerms."
   },
   {
     "term": "endosymbiosis",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A symbiotic relationship in which one organism lives inside the cells or body of another, often to mutual benefit; most famously, the evolutionary process by which mitochondria and chloroplasts are thought to have originated as engulfed prokaryotes.",
@@ -715,7 +728,7 @@
     "term": "populism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A political approach that frames politics as a struggle between a virtuous, homogeneous 'people' and a corrupt elite, claiming that the former's general will should prevail over institutional constraints.",
@@ -750,13 +763,14 @@
       "nationalism",
       "political rhetoric"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "'demagogy' appears in synonyms while the near-equivalent 'demagoguery' appears in relatedTerms — effective cross-array duplicate; remove one. Additionally, 'demagogy' is a mode of rhetoric that can serve populism but is not co-extensive with it; move to relatedTerms and reassess synonyms."
   },
   {
     "term": "oligarchy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A form of government in which power is concentrated in the hands of a small, privileged group—typically defined by wealth, family, military rank, or education—who rule in their own interests.",
@@ -792,13 +806,14 @@
       "elitism",
       "Michels' iron law"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonyms 'plutocracy' (rule by the wealthy) and 'aristocracy' (rule by birth/noble class) are specific sub-types (hyponyms) of oligarchy, not co-extensive synonyms. Move to relatedTerms."
   },
   {
     "term": "austerity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A set of government policies characterised by significant reductions in public spending, tax increases, or both, typically implemented to reduce a fiscal deficit or satisfy creditor requirements.",
