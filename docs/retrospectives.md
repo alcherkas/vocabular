@@ -4466,6 +4466,7 @@ None blocking. Validation passed cleanly.
 
 ---
 
+<<<<<<< HEAD
 ## QA-53 — Vocab QA Agent Retrospective
 
 **Date:** 2025-07-28
@@ -4491,3 +4492,31 @@ None blocking. Validation passed cleanly.
 - For technical EN terms with only near-identical synonym variants (e.g. one term differing only by addition of "key" or "based"), the relations agent could be prompted to seek more semantically distinct synonyms
 - Validation script usage (`--staging` flag) differs from the task instruction template — keep docs in sync
 
+=======
+## Seeder EN-14 — 2025-07 — vocab/seeder-en-14
+
+### Agent
+English Vocabulary Seeder (batch 14)
+
+### Task
+Seed 100 new C1/C2 English stub entries into `words_staging.json`.
+
+### What was done
+- Read `words_staging.json` (118 entries) and `words.json` (1486 EN terms) to build a 1604-term exclusion set.
+- Selected 100 unique new terms across 10 domains: ancient philosophy (15), neuroscience (10), legal terminology (10), behavioral economics (10), game theory (10), evolutionary biology (10), materials science (10), architecture theory (10), political theory (10), rhetoric (5).
+- Zero duplicates found against either file.
+- Appended stubs; validation passed: 218 entries, all valid.
+- Committed on branch `vocab/seeder-en-14`.
+
+### What went well
+- Cross-checking both staging and production files upfront prevented any duplicates.
+- Validation passed on first run (0 errors for stub status).
+- Domain diversity ensures broad lexical coverage for C1/C2 learners.
+
+### What could be improved
+- The task instruction shows `python3 scripts/validate_words.py <path> --errors-for stub` but the script requires `--staging <path>` syntax. The instruction example is slightly misleading.
+- Ancient philosophy has 15 entries vs 10 for other domains; could be balanced more evenly in future batches.
+
+### Issues encountered
+None blocking.
+>>>>>>> vocab/seeder-en-14
