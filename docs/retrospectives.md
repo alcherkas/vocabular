@@ -3814,3 +3814,35 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - `"theory of collections"` for `set theory` is informal; standard mathematical alternatives are limited to `"theory of sets"`. Acceptable as a lay synonym.
 - LT 363 enriched entries remain; 35 processed this session.
 - No merge performed as instructed.
+
+---
+
+## Session: enricher-lt-53 | 2025-07-24 | LT Enricher (daily routine & time, B1/B2)
+
+### What was done
+- Preflighted `words_lt_staging.json` → JSON OK; 425 stubs available.
+- Enriched 35 Lithuanian stubs focused on **daily routine and time vocabulary (B1/B2)** across four thematic groups:
+  - **Time units**: para, valanda, minutė, sekundė
+  - **Time of day / time words**: vidurdienis, vidurnaktis, vėlus, ankstus, anksti, vėlai, seniai, ilgai, trumpai, tada
+  - **Calendar months**: sausis, kovas, balandis, gegužė, birželis, rugpjūtis, spalis, lapkritis, gruodis
+  - **Morning/evening routine verbs + phrase**: keltis, gultis, praustis, maudytis, rengtis, šukuotis, valytis, skustis, dažytis, autis, leisti laiką
+- Fixed capitalisation: `Para→para`, `Sausis→sausis`, `Autis→autis`.
+- Fixed incorrect POS: `anksti` was `verb` → corrected to `adverb`.
+- Filled `partOfSpeech` for all 35 entries (most stubs had empty POS).
+- Ran `validate_words.py --errors-for enriched` → **PASSED** (0 errors in enriched scope; 98 pre-existing warnings in other statuses, none introduced by this session).
+- Committed: `vocab(enricher-lt-53): enrich 35 Lithuanian stubs` (04ab757).
+
+### What went well
+- Thematic grouping made it easy to select coherent B1/B2 vocabulary directly relevant to the brief.
+- Months are a natural, complete set (9 target months present as stubs); daily routine reflexive verbs cluster well.
+- Two-meaning entries (laikrodis: wall clock vs. wristwatch; maudytis: bathing vs. swimming; tada: temporal vs. consequential; dažytis: makeup vs. hair dyeing) add genuine lexical depth.
+
+### What was difficult / notes
+- Several stubs had empty `partOfSpeech`; filled all based on linguistic knowledge of Lithuanian.
+- Months `kovas` (March / rook-bird) and `balandis` (April / dove) have dual meanings; only the calendar sense was defined here as the task is time-focused. QA may wish to add the animal sense as a second meaning.
+- `autis` (to put on footwear, reflexive) and `apsiauti` (also present as a stub) overlap semantically; treated `autis` as the base reflexive form, `apsiauti` as perfective. Relations agent should reflect this.
+- 390 stubs remain after this session.
+- No merge performed as instructed.
+
+### Confidence
+95% — all Lithuanian definitions and examples are grammatically idiomatic; POS assignments follow standard Lithuanian grammar.
