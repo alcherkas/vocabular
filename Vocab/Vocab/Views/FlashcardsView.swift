@@ -212,7 +212,7 @@ struct FlashcardView: View {
                         Text(translation)
                             .font(.title2)
                             .fontWeight(.semibold)
-                            .foregroundStyle(.accentColor)
+                            .foregroundStyle(Color.accentColor)
                     }
 
                     Text(word.definition)
