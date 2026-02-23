@@ -4169,3 +4169,24 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 
 ### Suggested improvement
 - Add a helper script (e.g. `scripts/check_term_exists.py <term>`) to quickly test individual candidates, or document in VOCAB-AGENT.md that the seeder should always batch-check against both `words_staging.json` and `words.json` before writing.
+---
+## Retrospective — vocab/relations-49 (Relations Agent, 2025-07-25)
+
+**Session**: Added relations to 35 EN + 35 LT enriched entries.
+
+**What went well**:
+- Preflight JSON checks passed cleanly on both files before any edits.
+- Validator `--errors-for relations-added` scoping made it easy to confirm our batch without noise from pre-existing approved-status issues.
+- Identified and fixed two pre-existing enricher errors in the LT file: incorrect `taurė` synonym on `puodelis` (wine glass ≠ cup), and a cross-array duplicate `pasivaikščiojimas` on `ėjimas`.
+
+**What was harder than expected**:
+- The EN validator enforces a minimum of 2 synonyms per word. Many of the 35 EN entries are highly specific technical phrases (e.g. "Raft consensus", "consensus algorithm", "sympatric speciation") for which genuinely co-extensive synonyms are scarce. Synonyms like `["Raft algorithm", "Raft protocol"]` are defensible but not ideal co-extensives.
+- The substring/word-token self-reference check caught several iterations: "price elasticity of demand" (for `elasticity`), "deflation spiral" (for `deflation`), "iron law of oligarchy" (for `oligarchy`), "ecological speciation" in relatedTerms of `sympatric speciation`. Required multiple validation→fix→revalidate loops.
+- `"negazuotas vanduo"` contains `"gazuotas vanduo"` as a substring, so it cannot appear in any relation array of `"gazuotas vanduo"`. This asymmetry means only one direction of the antonym pair could be expressed.
+- Lithuanian compound nouns with genitive-first elements (e.g. `"grybų padažas"`) are flagged because `"grybų"` ends in `-ų`. Worked around by not using such compounds in other entries' relatedTerms where avoidable.
+
+**Process improvements**:
+- Consider documenting the minimum-2-synonym EN rule prominently in `docs/VOCAB-AGENT.md` for the Relations role (it's currently documented for Enricher but easy to miss for Relations).
+- A pre-validation dry-run pass before writing the full script would save cycles on self-ref and cross-array issues.
+
+**Confidence**: 95% — all validator checks passed; semantic quality of synonyms for ultra-specific technical phrases is the residual risk.

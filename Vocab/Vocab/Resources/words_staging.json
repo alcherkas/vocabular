@@ -38111,7 +38111,7 @@
   },
   {
     "term": "consensus algorithm",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "meanings": [
@@ -38125,11 +38125,22 @@
           "networking"
         ]
       }
+    ],
+    "synonyms": [
+      "consensus protocol",
+      "agreement protocol"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Paxos",
+      "Raft consensus",
+      "Byzantine fault tolerance",
+      "distributed systems"
     ]
   },
   {
     "term": "Byzantine fault tolerance",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "meanings": [
@@ -38143,11 +38154,21 @@
           "security"
         ]
       }
+    ],
+    "synonyms": [
+      "BFT",
+      "Byzantine agreement"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "consensus algorithm",
+      "fault tolerance",
+      "distributed systems"
     ]
   },
   {
     "term": "Raft consensus",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "meanings": [
@@ -38161,11 +38182,22 @@
           "algorithms"
         ]
       }
+    ],
+    "synonyms": [
+      "Raft algorithm",
+      "Raft protocol"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "consensus algorithm",
+      "Paxos",
+      "Byzantine fault tolerance",
+      "leader election"
     ]
   },
   {
     "term": "eventual consistency",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "meanings": [
@@ -38179,11 +38211,23 @@
           "databases"
         ]
       }
+    ],
+    "synonyms": [
+      "eventual convergence",
+      "lazy consistency"
+    ],
+    "antonymTerms": [
+      "strong consistency"
+    ],
+    "relatedTerms": [
+      "CAP theorem",
+      "BASE model",
+      "distributed systems"
     ]
   },
   {
     "term": "CAP theorem",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "meanings": [
@@ -38198,6 +38242,16 @@
           "theory"
         ]
       }
+    ],
+    "synonyms": [
+      "Brewer's theorem",
+      "CAP principle"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "eventual consistency",
+      "distributed systems",
+      "partition tolerance"
     ]
   },
   {
@@ -42839,7 +42893,7 @@
     "term": "picaresque",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Of or relating to a literary genre originating in sixteenth-century Spain, featuring a roguish, low-born protagonist who survives by wit and cunning through a series of episodic adventures in a corrupt society.",
@@ -42862,16 +42916,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "roguish",
+      "episodic"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "picaro",
+      "rogue narrative",
+      "low-life narrative"
+    ],
     "translation": null
   },
   {
     "term": "mise en scene",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In theatre and film, the arrangement and visual composition of all elements within the frame or stage space—including set design, lighting, costume, and actor positioning—that communicate meaning before dialogue begins.",
@@ -42895,16 +42956,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "staging",
+      "visual arrangement"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "cinematography",
+      "production design",
+      "blocking",
+      "set design"
+    ],
     "translation": null
   },
   {
     "term": "tragicomedy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A dramatic genre that combines elements of tragedy and comedy, typically presenting serious or painful subject matter alongside humour in a way that resists neat resolution in either register.",
@@ -42927,16 +42996,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "dark comedy",
+      "mixed genre drama"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tragedy",
+      "comedy",
+      "dramatic genre",
+      "black comedy"
+    ],
     "translation": null
   },
   {
     "term": "elasticity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In economics, the measure of the responsiveness of one variable to a change in another—most commonly the percentage change in quantity demanded or supplied resulting from a one-percent change in price.",
@@ -42968,9 +43045,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "responsiveness",
+      "sensitivity"
+    ],
+    "antonymTerms": [
+      "rigidity"
+    ],
+    "relatedTerms": [
+      "inelasticity",
+      "stiffness",
+      "price flexibility"
+    ],
     "translation": null
   },
   {
@@ -43199,7 +43285,7 @@
     "term": "inflation targeting",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A monetary policy framework in which a central bank publicly commits to maintaining inflation at a specific numerical rate or within a defined band, using interest rates and other instruments to achieve that goal.",
@@ -43212,16 +43298,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "price stability framework",
+      "inflation objective"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "monetary policy",
+      "price stability",
+      "central bank"
+    ],
     "translation": null
   },
   {
     "term": "purchasing power parity",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An economic theory and exchange-rate adjustment method that equates the purchasing power of different currencies by comparing the prices of an identical basket of goods across countries, providing a basis for more accurate international comparisons of income and output.",
@@ -43244,16 +43337,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "PPP",
+      "price level parity"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "exchange rate",
+      "real GDP",
+      "Big Mac Index"
+    ],
     "translation": null
   },
   {
     "term": "endosymbiosis",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A symbiotic relationship in which one organism lives inside the cells or body of another, often to mutual benefit; most famously, the evolutionary process by which mitochondria and chloroplasts are thought to have originated as engulfed prokaryotes.",
@@ -43266,16 +43366,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "intracellular symbiosis",
+      "cell engulfment theory"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "symbiosis",
+      "mitochondria",
+      "chloroplast",
+      "eukaryote"
+    ],
     "translation": null
   },
   {
     "term": "allopatric speciation",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The process by which a single ancestral population splits into two reproductively isolated populations through geographic separation, each then diverging genetically until they become distinct species.",
@@ -43288,16 +43396,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "geographic speciation",
+      "vicariant speciation"
+    ],
+    "antonymTerms": [
+      "sympatric speciation"
+    ],
+    "relatedTerms": [
+      "reproductive isolation",
+      "adaptive radiation"
+    ],
     "translation": null
   },
   {
     "term": "adaptive radiation",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The rapid evolutionary diversification of a single ancestral lineage into a wide array of forms that fill different ecological niches, typically triggered by the availability of new resources or the extinction of competitors.",
@@ -43310,16 +43426,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "evolutionary diversification",
+      "ecological radiation"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "speciation",
+      "ecological niche",
+      "allopatric speciation",
+      "diversification"
+    ],
     "translation": null
   },
   {
     "term": "lateral gene transfer",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The movement of genetic material between organisms by means other than vertical transmission from parent to offspring, particularly common among prokaryotes and involving mechanisms such as transformation, transduction, and conjugation.",
@@ -43333,16 +43457,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "horizontal gene transfer",
+      "HGT"
+    ],
+    "antonymTerms": [
+      "vertical gene transfer"
+    ],
+    "relatedTerms": [
+      "conjugation",
+      "transduction",
+      "transformation"
+    ],
     "translation": null
   },
   {
     "term": "anarchism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A political philosophy holding that all forms of involuntary, coercive authority—especially the state—are illegitimate and should be abolished, with social order arising instead from voluntary association and mutual aid.",
@@ -43365,16 +43498,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "anti-statism",
+      "libertarian socialism"
+    ],
+    "antonymTerms": [
+      "statism"
+    ],
+    "relatedTerms": [
+      "libertarianism",
+      "syndicalism",
+      "mutual aid",
+      "political philosophy"
+    ],
     "translation": null
   },
   {
     "term": "libertarianism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A political philosophy that prioritises individual liberty, minimal state intervention, and free-market economics, holding that each person has the right to live as they choose so long as they do not infringe on others' rights.",
@@ -43397,16 +43540,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "classical liberalism",
+      "laissez-faire liberalism"
+    ],
+    "antonymTerms": [
+      "authoritarianism"
+    ],
+    "relatedTerms": [
+      "anarchism",
+      "minimal state",
+      "free will",
+      "individual rights"
+    ],
     "translation": null
   },
   {
     "term": "geopolitics",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The study of how geography—including territory, resources, and spatial position—shapes the political behaviour of states and the structure of international relations.",
@@ -43429,16 +43582,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "political geography",
+      "strategic geography"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "international relations",
+      "grand strategy",
+      "realpolitik",
+      "balance of power"
+    ],
     "translation": null
   },
   {
     "term": "populism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A political approach that frames politics as a struggle between a virtuous, homogeneous 'people' and a corrupt elite, claiming that the former's general will should prevail over institutional constraints.",
@@ -43460,16 +43621,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "anti-elitism",
+      "demagogy"
+    ],
+    "antonymTerms": [
+      "elitism"
+    ],
+    "relatedTerms": [
+      "demagoguery",
+      "technocracy",
+      "nationalism",
+      "political rhetoric"
+    ],
     "translation": null
   },
   {
     "term": "technocracy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A system of governance in which decision-making authority is vested in technical experts—scientists, engineers, economists—on the grounds that complex modern problems require specialised knowledge rather than popular deliberation.",
@@ -43492,9 +43663,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "expert governance",
+      "scientific governance"
+    ],
+    "antonymTerms": [
+      "democracy"
+    ],
+    "relatedTerms": [
+      "meritocracy",
+      "expertise",
+      "populism",
+      "administrative rule"
+    ],
     "translation": null
   },
   {
@@ -43634,7 +43815,7 @@
     "term": "figured bass",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A notational shorthand used in Baroque music in which a bass line is written out while numerals and symbols below it indicate the intervals to be played above it, leaving realisation to the performer's discretion.",
@@ -43648,16 +43829,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "basso continuo",
+      "thoroughbass"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "counterpoint",
+      "Baroque music",
+      "continuo",
+      "harmonic realization"
+    ],
     "translation": null
   },
   {
     "term": "augmentation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In music, the technique of presenting a melodic theme or rhythmic pattern in proportionally longer note values than its original statement, typically doubling the durations.",
@@ -43679,16 +43868,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "expansion",
+      "enlargement"
+    ],
+    "antonymTerms": [
+      "diminution"
+    ],
+    "relatedTerms": [
+      "counterpoint",
+      "fugue",
+      "inversion",
+      "stretto"
+    ],
     "translation": null
   },
   {
     "term": "diminution",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In music, the presentation of a theme in note values proportionally shorter than its original form—commonly halving durations—producing a faster, more urgent version of the material.",
@@ -43711,9 +43910,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "reduction",
+      "decrease"
+    ],
+    "antonymTerms": [
+      "augmentation"
+    ],
+    "relatedTerms": [
+      "counterpoint",
+      "fugue",
+      "inversion",
+      "stretto"
+    ],
     "translation": null
   },
   {
@@ -43749,7 +43958,7 @@
     "term": "malapropism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The mistaken use of a word in place of a phonetically or graphically similar word, typically producing an absurd or humorous effect; named after Mrs Malaprop in Sheridan's play The Rivals.",
@@ -43763,16 +43972,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "catachresis",
+      "verbal blunder"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "spoonerism",
+      "eggcorn",
+      "verbal slip",
+      "parapraxis"
+    ],
     "translation": null
   },
   {
     "term": "spoonerism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A verbal slip in which the initial consonants or syllables of two words are accidentally transposed, named after Revd W.A. Spooner, known for such errors.",
@@ -43796,9 +44013,17 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "phonological slip",
+      "consonant transposition"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "malapropism",
+      "wordplay",
+      "phonological error",
+      "metathesis"
+    ],
     "translation": null
   },
   {
@@ -43851,7 +44076,7 @@
     "term": "oligarchy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of government in which power is concentrated in the hands of a small, privileged group—typically defined by wealth, family, military rank, or education—who rule in their own interests.",
@@ -43874,16 +44099,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "plutocracy",
+      "aristocracy"
+    ],
+    "antonymTerms": [
+      "democracy"
+    ],
+    "relatedTerms": [
+      "kleptocracy",
+      "autocracy",
+      "elitism",
+      "Michels' iron law"
+    ],
     "translation": null
   },
   {
     "term": "kleptocracy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A system of government in which those in power exploit the state's resources and institutions primarily for personal enrichment, typically through corruption, embezzlement, and bribery.",
@@ -43896,16 +44131,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "predatory state",
+      "corruptocracy"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "corruption",
+      "oligarchy",
+      "autocracy",
+      "embezzlement"
+    ],
     "translation": null
   },
   {
     "term": "autocracy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A system of government in which supreme power is concentrated in a single ruler who exercises authority without meaningful legal or constitutional constraint.",
@@ -43928,16 +44171,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "despotism",
+      "absolutism"
+    ],
+    "antonymTerms": [
+      "democracy"
+    ],
+    "relatedTerms": [
+      "oligarchy",
+      "totalitarianism",
+      "authoritarianism"
+    ],
     "translation": null
   },
   {
     "term": "deflation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A sustained fall in the general price level of goods and services, often accompanied by reduced economic output and increased real debt burdens.",
@@ -43968,16 +44220,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "price contraction",
+      "negative inflation"
+    ],
+    "antonymTerms": [
+      "inflation"
+    ],
+    "relatedTerms": [
+      "disinflation",
+      "price level",
+      "monetary policy"
+    ],
     "translation": null
   },
   {
     "term": "austerity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A set of government policies characterised by significant reductions in public spending, tax increases, or both, typically implemented to reduce a fiscal deficit or satisfy creditor requirements.",
@@ -44000,16 +44261,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "fiscal retrenchment",
+      "asceticism"
+    ],
+    "antonymTerms": [
+      "profligacy"
+    ],
+    "relatedTerms": [
+      "fiscal policy",
+      "deficit reduction",
+      "public spending",
+      "stimulus"
+    ],
     "translation": null
   },
   {
     "term": "fiscal policy",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Government use of taxation and public expenditure to influence macroeconomic conditions such as aggregate demand, employment, and economic growth.",
@@ -44022,16 +44293,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "budgetary policy",
+      "government expenditure policy"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "monetary policy",
+      "public spending",
+      "taxation",
+      "budget deficit"
+    ],
     "translation": null
   },
   {
     "term": "monetary policy",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The actions taken by a central bank to manage the money supply and interest rates in order to achieve macroeconomic objectives such as price stability, full employment, and economic growth.",
@@ -44044,16 +44323,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "credit policy",
+      "money supply management"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "fiscal policy",
+      "interest rate",
+      "central bank",
+      "inflation targeting"
+    ],
     "translation": null
   },
   {
     "term": "exaptation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A trait that evolved for one function and was subsequently co-opted for a different function, introduced by Gould and Vrba as a corrective to purely adaptationist explanations.",
@@ -44066,16 +44353,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "co-option",
+      "preadaptation"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "adaptation",
+      "natural selection",
+      "spandrel",
+      "evolutionary constraint"
+    ],
     "translation": null
   },
   {
     "term": "kin selection",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An evolutionary mechanism through which altruistic behaviour toward genetic relatives can be favoured by natural selection, because shared genes are propagated even when the individual performing the act does not personally reproduce; formalised by Hamilton's rule (rB > C).",
@@ -44089,16 +44384,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "inclusive fitness selection",
+      "genetic altruism"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "inclusive fitness",
+      "altruism",
+      "Hamilton's rule",
+      "reciprocal altruism"
+    ],
     "translation": null
   },
   {
     "term": "sympatric speciation",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The emergence of new species from a single ancestral population occupying the same geographic area, without physical separation, typically driven by disruptive selection on ecological or behavioural traits.",
@@ -44111,9 +44414,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "in situ speciation",
+      "ecological speciation"
+    ],
+    "antonymTerms": [
+      "allopatric speciation"
+    ],
+    "relatedTerms": [
+      "disruptive selection",
+      "reproductive isolation",
+      "cichlid radiation"
+    ],
     "translation": null
   },
   {
