@@ -407,7 +407,7 @@
     "term": "staliukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small table, typically placed in a living room or beside a bed.",
@@ -422,7 +422,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "stalas",
+      "baldas",
+      "interjeras"
+    ],
     "translation": "small table; coffee table",
     "register": "general",
     "level": "A1"
@@ -431,7 +435,7 @@
     "term": "prasidėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To begin or start (of an event, activity, or process).",
@@ -443,9 +447,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "kilti",
+      "atsirasti"
+    ],
+    "antonymTerms": [
+      "pasibaigti"
+    ],
+    "relatedTerms": [
+      "pradžia",
+      "pradėti",
+      "kilimas"
+    ],
     "translation": "to begin; to start",
     "register": "general",
     "level": "A2"
@@ -454,7 +467,7 @@
     "term": "pasibaigti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To come to an end; to finish (of an event or process).",
@@ -466,9 +479,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "baigtis",
+      "nutrūkti"
+    ],
+    "antonymTerms": [
+      "prasidėti"
+    ],
+    "relatedTerms": [
+      "pabaiga",
+      "baigti",
+      "galas"
+    ],
     "translation": "to end; to finish",
     "register": "general",
     "level": "A2"
@@ -488,7 +510,7 @@
     "term": "papildyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To add to or replenish something; to make something more complete.",
@@ -500,9 +522,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pridėti",
+      "pildyti"
+    ],
+    "antonymTerms": [
+      "sumažinti"
+    ],
+    "relatedTerms": [
+      "papildymas",
+      "pridėjimas",
+      "pildymas"
+    ],
     "translation": "to refill; to supplement; to add to",
     "register": "general",
     "level": "B1"
@@ -1261,7 +1292,7 @@
     "term": "dantų šepetėlis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small brush used with toothpaste to clean teeth.",
@@ -1275,7 +1306,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dantų pasta",
+      "dantys",
+      "higiena"
+    ],
     "translation": "toothbrush",
     "register": "general",
     "level": "A1"
@@ -1295,7 +1330,7 @@
     "term": "dantų pasta",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A paste used with a toothbrush to clean and protect teeth.",
@@ -1309,7 +1344,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dantų šepetėlis",
+      "dantys",
+      "higiena"
+    ],
     "translation": "toothpaste",
     "register": "general",
     "level": "A1"
@@ -1318,7 +1357,7 @@
     "term": "kabėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To be suspended or hanging in place on something.",
@@ -1330,9 +1369,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kyboti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kabinti",
+      "kabliukas",
+      "kabelys"
+    ],
     "translation": "to hang; to be hanging",
     "register": "general",
     "level": "A2"
@@ -1341,7 +1386,7 @@
     "term": "kabinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To hang something on a hook, wall, or other support.",
@@ -1353,9 +1398,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pakabinti",
+      "užkabinti"
+    ],
+    "antonymTerms": [
+      "nukabinti"
+    ],
+    "relatedTerms": [
+      "kabėti",
+      "kabliukas",
+      "vinys"
+    ],
     "translation": "to hang (something); to put up",
     "register": "general",
     "level": "A2"
@@ -1364,7 +1418,7 @@
     "term": "siurbti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To clean floors or surfaces using a vacuum cleaner.",
@@ -1378,7 +1432,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dulkių siurblys",
+      "valyti",
+      "dulkės"
+    ],
     "translation": "to vacuum; to suck up",
     "register": "general",
     "level": "A2"
@@ -1387,7 +1445,7 @@
     "term": "plauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To clean something with water, often with soap.",
@@ -1399,9 +1457,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "mazgoti"
+    ],
+    "antonymTerms": [
+      "teršti"
+    ],
+    "relatedTerms": [
+      "plovimas",
+      "vanduo",
+      "muilas"
+    ],
     "translation": "to wash",
     "register": "general",
     "level": "A1"
@@ -1410,7 +1476,7 @@
     "term": "šepetys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A tool with bristles used for cleaning, painting, or grooming.",
@@ -1424,7 +1490,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šepetėlis",
+      "valymas",
+      "šeriai"
+    ],
     "translation": "brush",
     "register": "general",
     "level": "A1"
@@ -1433,7 +1503,7 @@
     "term": "valyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To remove dirt, dust, or mess from a surface or object.",
@@ -1445,9 +1515,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "švarinti",
+      "tvarkyti"
+    ],
+    "antonymTerms": [
+      "teršti"
+    ],
+    "relatedTerms": [
+      "valymas",
+      "plauti",
+      "švarumas"
+    ],
     "translation": "to clean; to tidy",
     "register": "general",
     "level": "A1"
@@ -1456,7 +1535,7 @@
     "term": "plastikinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Made of plastic material.",
@@ -1470,7 +1549,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "plastikas",
+      "dirbtinis",
+      "medžiaga"
+    ],
     "translation": "plastic; made of plastic",
     "register": "general",
     "level": "A2"
@@ -1479,7 +1562,7 @@
     "term": "kėdė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A separate seat for one person, typically with a back and four legs.",
@@ -1493,7 +1576,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "baldas",
+      "stalas",
+      "suolas"
+    ],
     "translation": "chair",
     "register": "general",
     "level": "A1"
@@ -1502,7 +1589,7 @@
     "term": "suolas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A long seat for several people, typically made of wood, found outdoors or in a classroom.",
@@ -1516,7 +1603,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kėdė",
+      "baldas",
+      "parkas"
+    ],
     "translation": "bench",
     "register": "general",
     "level": "A1"
@@ -1613,7 +1704,7 @@
     "term": "vilkėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To be wearing a garment, especially formal or notable clothing.",
@@ -1625,9 +1716,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "dėvėti",
+      "nešioti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "drabužis",
+      "apranga",
+      "apsirengti"
+    ],
     "translation": "to wear (clothing)",
     "register": "formal",
     "level": "B1"
@@ -1658,7 +1756,7 @@
     "term": "apsirengti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To put on clothes; to dress oneself.",
@@ -1670,9 +1768,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "apsivilkti",
+      "apsitaisyti"
+    ],
+    "antonymTerms": [
+      "nusirengti"
+    ],
+    "relatedTerms": [
+      "drabužis",
+      "apranga",
+      "apsivilkimas"
+    ],
     "translation": "to get dressed; to dress oneself",
     "register": "general",
     "level": "A1"
@@ -1703,7 +1810,7 @@
     "term": "nusirengti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To take off one's clothes; to undress.",
@@ -1715,9 +1822,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "išsirengti"
+    ],
+    "antonymTerms": [
+      "apsirengti"
+    ],
+    "relatedTerms": [
+      "drabužis",
+      "apranga",
+      "nusivilkimas"
+    ],
     "translation": "to undress; to take off clothes",
     "register": "general",
     "level": "A1"
@@ -1748,7 +1863,7 @@
     "term": "apsiauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To put on shoes or other footwear.",
@@ -1761,8 +1876,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "nusiauti"
+    ],
+    "relatedTerms": [
+      "batai",
+      "avalynė",
+      "avėjimas"
+    ],
     "translation": "to put on shoes",
     "register": "general",
     "level": "A2"
@@ -1793,7 +1914,7 @@
     "term": "nusiauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To take off one's shoes or footwear.",
@@ -1806,8 +1927,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "apsiauti"
+    ],
+    "relatedTerms": [
+      "batai",
+      "avalynė",
+      "apsiavimas"
+    ],
     "translation": "to take off shoes",
     "register": "general",
     "level": "A2"
@@ -1948,7 +2075,7 @@
     "term": "megzti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To make fabric or garments by interlocking loops of yarn with needles.",
@@ -1962,7 +2089,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mezgimas",
+      "siūti",
+      "verpalai",
+      "megztinis"
+    ],
     "translation": "to knit",
     "register": "general",
     "level": "B1"
@@ -1993,7 +2125,7 @@
     "term": "siūti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To join, fasten, or repair something by making stitches with a needle and thread.",
@@ -2007,7 +2139,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "siuvimas",
+      "megzti",
+      "adata",
+      "siūlas"
+    ],
     "translation": "to sew",
     "register": "general",
     "level": "B1"
@@ -2038,11 +2175,11 @@
     "term": "kailiniai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Šiltas viršutinis drabužis iš natūralaus ar dirbtinio kailio, dėvimas žiemą.",
-        "example": "Žiemą ji dėvėjo ilgus kailiniuus, kad nesušaltų.",
+        "example": "Žiemą ji dėvėjo ilgus kailiniais, kad nesušaltų.",
         "register": "general",
         "tags": [
           "clothing",
@@ -2070,7 +2207,7 @@
     "term": "apyrankė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A piece of jewellery worn around the wrist.",
@@ -2084,7 +2221,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "papuošalas",
+      "žiedas",
+      "karoliai"
+    ],
     "translation": "bracelet",
     "register": "general",
     "level": "A2"
@@ -2093,7 +2234,7 @@
     "term": "sidabrinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Made of silver or having the appearance or colour of silver.",
@@ -2106,9 +2247,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sidabriškas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sidabras",
+      "auksinis",
+      "metalas"
+    ],
     "translation": "silver; made of silver",
     "register": "general",
     "level": "A2"
@@ -2117,7 +2264,7 @@
     "term": "auksinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Made of gold or having the colour of gold.",
@@ -2130,9 +2277,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "auksiškas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "auksas",
+      "sidabrinis",
+      "brangus"
+    ],
     "translation": "golden; made of gold",
     "register": "general",
     "level": "A2"
@@ -2141,7 +2294,7 @@
     "term": "gintaras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A hard, translucent fossilised resin, typically yellow-orange, often used in jewellery; common along the Baltic coast.",
@@ -2156,7 +2309,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gintarinis",
+      "papuošalas",
+      "derva"
+    ],
     "translation": "amber",
     "register": "general",
     "level": "B1"
@@ -2165,7 +2322,7 @@
     "term": "gintarinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Made of amber or having the colour of amber.",
@@ -2180,7 +2337,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gintaras",
+      "papuošalas",
+      "geltona"
+    ],
     "translation": "amber; made of amber",
     "register": "general",
     "level": "B1"
@@ -2200,7 +2361,7 @@
     "term": "susižeisti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To accidentally injure or hurt oneself.",
@@ -2212,9 +2373,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pasižeisti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žaizda",
+      "skausmas",
+      "trauma"
+    ],
     "translation": "to hurt oneself; to get injured",
     "register": "general",
     "level": "A2"
@@ -2422,7 +2589,7 @@
     "term": "kirpti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To cut with scissors, especially to cut hair or fabric.",
@@ -2434,9 +2601,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "apkirpti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žirklės",
+      "plaukai",
+      "kirpimas"
+    ],
     "translation": "to cut (hair, fabric); to trim",
     "register": "general",
     "level": "A2"
@@ -2445,7 +2618,7 @@
     "term": "susegti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To fasten or clip things together, e.g. with a brooch, pin, or clip.",
@@ -2457,9 +2630,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "prisegti"
+    ],
+    "antonymTerms": [
+      "atsegti"
+    ],
+    "relatedTerms": [
+      "saga",
+      "sąvaržėlė",
+      "segtukas"
+    ],
     "translation": "to fasten; to clip; to pin together",
     "register": "general",
     "level": "B1"
@@ -2487,10 +2668,10 @@
     "translation": null
   },
   {
-    "term": "Badmintonas",
+    "term": "badmintonas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žaidimas su raketėmis ir plunksnuotu kamuoliuku per tinklą; olimpinė sporto šaka.",
@@ -2541,7 +2722,7 @@
     "term": "žvakutė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small candle, typically used for decoration or celebrations.",
@@ -2553,9 +2734,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "žvakelė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žvakė",
+      "šviesa",
+      "šventė"
+    ],
     "translation": "small candle",
     "register": "general",
     "level": "A1"
@@ -2575,7 +2762,7 @@
     "term": "puošti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To make something more attractive by adding decorations or ornaments.",
@@ -2587,9 +2774,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "dekoruoti",
+      "papuošti"
+    ],
+    "antonymTerms": [
+      "nupuošti"
+    ],
+    "relatedTerms": [
+      "papuošimas",
+      "dekoracija",
+      "šventė"
+    ],
     "translation": "to decorate; to adorn",
     "register": "general",
     "level": "A2"
@@ -2642,7 +2838,7 @@
     "term": "dažyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To apply paint to a surface.",
@@ -2663,9 +2859,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "spalvinti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dažai",
+      "spalva",
+      "tapyba"
+    ],
     "translation": "to paint; to dye",
     "register": "general",
     "level": "A2"
