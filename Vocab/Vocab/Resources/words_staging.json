@@ -37298,7 +37298,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A computational model loosely inspired by the brain, consisting of interconnected layers of nodes (neurons) that learn to map inputs to outputs by adjusting connection weights during training.",
@@ -37320,9 +37320,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "connectionist model",
+      "artificial neural network"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "deep learning",
+      "perceptron",
+      "hidden layer"
+    ],
     "translation": null
   },
   {
@@ -37330,7 +37337,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An iterative first-order optimization algorithm that updates parameters by moving them in the direction opposite to the gradient of the objective function, reducing the loss incrementally.",
@@ -37343,9 +37350,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "steepest descent",
+      "gradient method"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "optimization",
+      "learning rate",
+      "backpropagation"
+    ],
     "translation": null
   },
   {
@@ -37353,7 +37367,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A phenomenon in which a model learns the training data too specifically—capturing noise and idiosyncrasies—resulting in poor generalization to new, unseen examples.",
@@ -37366,9 +37380,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "overspecialization",
+      "memorization"
+    ],
+    "antonymTerms": [
+      "underfitting"
+    ],
+    "relatedTerms": [
+      "regularization",
+      "generalization",
+      "bias-variance tradeoff"
+    ],
     "translation": null
   },
   {
@@ -37376,7 +37399,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A set of techniques that add a penalty term to the training objective to constrain model complexity, discouraging overfitting and improving generalization.",
@@ -37398,9 +37421,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "penalization",
+      "shrinkage"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "overfitting",
+      "L1 penalty",
+      "L2 penalty"
+    ],
     "translation": null
   },
   {
@@ -37408,7 +37438,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A component in neural networks that allows the model to dynamically weight the relevance of different positions in the input when computing each output representation.",
@@ -37421,9 +37451,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "alignment mechanism",
+      "neural attention"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "transformer",
+      "self-attention",
+      "query-key-value"
+    ],
     "translation": null
   },
   {
@@ -37431,7 +37468,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A neural network architecture based on self-attention mechanisms that process entire sequences in parallel, enabling large-scale pretraining and state-of-the-art performance on language and vision tasks.",
@@ -37453,9 +37490,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "attention-based architecture",
+      "self-attention model"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "attention mechanism",
+      "BERT",
+      "GPT"
+    ],
     "translation": null
   },
   {
@@ -37463,7 +37507,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An algorithm for training neural networks that computes the gradient of the loss function with respect to each weight by applying the chain rule, propagating errors backward from the output layer to the input layer.",
@@ -37476,9 +37520,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "backprop",
+      "reverse-mode differentiation"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gradient descent",
+      "chain rule",
+      "forward pass"
+    ],
     "translation": null
   },
   {
@@ -37534,7 +37585,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A configuration value that governs the training process or model architecture, set before training begins and not updated by the optimizer, in contrast to model parameters learned from data.",
@@ -37547,9 +37598,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tuning parameter",
+      "meta-parameter"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "learning rate",
+      "batch size",
+      "model parameter"
+    ],
     "translation": null
   },
   {
@@ -37557,7 +37615,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A function that quantifies the discrepancy between a model's predictions and the true target values, providing the scalar objective that optimization algorithms minimize during training.",
@@ -37570,9 +37628,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "cost function",
+      "objective function"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "cross-entropy",
+      "mean squared error",
+      "gradient descent"
+    ],
     "translation": null
   },
   {
@@ -37580,7 +37645,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A dense, low-dimensional vector representation of a discrete object (word, token, entity) learned by a model so that semantically similar objects are placed close together in the vector space.",
@@ -37602,9 +37667,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "dense representation",
+      "latent vector"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "word vector",
+      "latent space",
+      "representation learning"
+    ],
     "translation": null
   },
   {
@@ -37636,7 +37708,7 @@
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A neural network that applies learned convolutional filters across spatial or temporal positions in the input, detecting local patterns and building up hierarchical feature representations.",
@@ -37649,9 +37721,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "convolutional neural network",
+      "CNN"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pooling",
+      "feature map",
+      "filter"
+    ],
     "translation": null
   },
   {
@@ -37683,7 +37762,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mathematical function that transforms a vector of real-valued scores into a probability distribution over discrete outcomes, with each output value between 0 and 1 and all outputs summing to 1.",
@@ -37696,14 +37775,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "normalized exponential",
+      "soft argmax"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sigmoid",
+      "activation function",
+      "logits"
+    ],
     "translation": null
   },
   {
     "term": "convolutional neural network",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -37719,14 +37805,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "CNN",
+      "convolutional network"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "image classification",
+      "pooling layer",
+      "feature extraction"
+    ],
     "translation": null
   },
   {
     "term": "recurrent neural network",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -37742,9 +37835,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "RNN",
+      "recurrent model"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "LSTM",
+      "GRU",
+      "sequence modeling"
+    ],
     "translation": null
   },
   {
@@ -37754,7 +37854,7 @@
   },
   {
     "term": "autoencoder",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -37770,9 +37870,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "bottleneck network",
+      "self-encoding network"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "encoder",
+      "decoder",
+      "latent space"
+    ],
     "translation": null
   },
   {
@@ -37852,7 +37959,7 @@
   },
   {
     "term": "hash function",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -37878,9 +37985,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "hashing function",
+      "message digest function"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "hash table",
+      "checksum",
+      "collision"
+    ],
     "translation": null
   },
   {
@@ -37890,7 +38004,7 @@
   },
   {
     "term": "abstract syntax tree",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -37906,14 +38020,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "AST",
+      "parse tree"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "syntax tree",
+      "compiler",
+      "token"
+    ],
     "translation": null
   },
   {
     "term": "type inference",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -37929,14 +38050,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "type deduction",
+      "implicit typing"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "type system",
+      "static typing",
+      "polymorphism"
+    ],
     "translation": null
   },
   {
     "term": "just-in-time compilation",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -37952,14 +38080,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "JIT compilation",
+      "dynamic compilation"
+    ],
+    "antonymTerms": [
+      "ahead-of-time compilation"
+    ],
+    "relatedTerms": [
+      "bytecode",
+      "virtual machine",
+      "runtime optimization"
+    ],
     "translation": null
   },
   {
     "term": "garbage collection",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -37984,14 +38121,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "automatic memory reclamation",
+      "GC"
+    ],
+    "antonymTerms": [
+      "manual memory management"
+    ],
+    "relatedTerms": [
+      "heap",
+      "reference counting",
+      "mark-and-sweep"
+    ],
     "translation": null
   },
   {
     "term": "phonology",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -38016,14 +38162,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sound system",
+      "phonological system"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "phoneme",
+      "morphology",
+      "phonetics"
+    ],
     "translation": null
   },
   {
     "term": "phoneme",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -38038,14 +38191,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sound segment",
+      "phonological segment"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "phonology",
+      "allophone",
+      "morpheme"
+    ],
     "translation": null
   },
   {
     "term": "suprasegmental",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "adjective",
     "register": "technical",
@@ -38061,14 +38221,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "prosodic",
+      "prosodic feature"
+    ],
+    "antonymTerms": [
+      "segmental"
+    ],
+    "relatedTerms": [
+      "intonation",
+      "tone",
+      "stress"
+    ],
     "translation": null
   },
   {
     "term": "metathesis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -38093,9 +38262,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sound transposition",
+      "segment reordering"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sound change",
+      "epenthesis",
+      "phonology"
+    ],
     "translation": null
   },
   {
@@ -38110,7 +38286,7 @@
   },
   {
     "term": "morpheme",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -38134,14 +38310,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "minimal meaningful unit",
+      "form-meaning unit"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "allomorph",
+      "morphology",
+      "suffix"
+    ],
     "translation": null
   },
   {
     "term": "inflectional morphology",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -38157,14 +38340,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "inflection system",
+      "grammatical morphology"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "derivational morphology",
+      "paradigm",
+      "inflection"
+    ],
     "translation": null
   },
   {
     "term": "derivational morphology",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -38180,14 +38370,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "word formation",
+      "lexical derivation"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "inflectional morphology",
+      "morpheme",
+      "affix"
+    ],
     "translation": null
   },
   {
     "term": "clitic",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -38203,14 +38400,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "prosodic dependent",
+      "dependent word"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "affix",
+      "morpheme",
+      "bound form"
+    ],
     "translation": null
   },
   {
     "term": "agglutination",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -38226,14 +38430,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "additive morphology",
+      "concatenative morphology"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "agglutinative language",
+      "morpheme",
+      "suffixation"
+    ],
     "translation": null
   },
   {
     "term": "syllable structure",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -38248,14 +38459,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "syllabic organization",
+      "syllabic template"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "onset",
+      "nucleus",
+      "coda"
+    ],
     "translation": null
   },
   {
     "term": "discourse analysis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -38271,14 +38489,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "discourse study",
+      "text-level analysis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pragmatics",
+      "cohesion",
+      "register"
+    ],
     "translation": null
   },
   {
     "term": "discourse marker",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -38294,14 +38519,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pragmatic marker",
+      "discourse connective"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "cohesion",
+      "pragmatics",
+      "conjunction"
+    ],
     "translation": null
   },
   {
     "term": "speech act",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -38327,14 +38559,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "illocutionary act",
+      "language act"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "illocution",
+      "pragmatics",
+      "utterance"
+    ],
     "translation": null
   },
   {
     "term": "coherence",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -38359,14 +38598,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "textual unity",
+      "discourse continuity"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "cohesion",
+      "discourse analysis",
+      "logical flow"
+    ],
     "translation": null
   },
   {
     "term": "register",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -38392,9 +38638,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "language variety",
+      "functional variety"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "style",
+      "dialect",
+      "formality"
+    ],
     "translation": null
   },
   {

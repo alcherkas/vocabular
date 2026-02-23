@@ -3862,3 +3862,33 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 
 ### Confidence
 95% — all Lithuanian definitions and examples are grammatically idiomatic; POS assignments follow standard Lithuanian grammar.
+---
+
+## Relations Agent — vocab/relations-42 (2025-08-01)
+
+**Agent**: Vocab Relations Agent | **Branch**: vocab/relations-42 | **Task**: Add relations to 35 enriched entries per file
+
+### What was done
+- Preflighted both staging files: `words_staging.json` (EN) and `words_lt_staging.json` (LT) — both valid JSON.
+- EN had exactly 35 enriched entries (all technical ML/CS/linguistics terms); LT had 363 enriched entries, processed the first 35 (taste adjectives, size/spatial adjectives, health verbs, farm animals).
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to all 35 EN and 35 LT entries; set status to `relations-added`.
+- Ran `python3 scripts/validate_words.py --errors-for relations-added` on both files → PASSED (exit 0) with zero errors in the `relations-added` batch.
+- Committed as `vocab(relations-42): add relations to enriched entries` (8091772).
+
+### Semantic quality decisions
+- **EN ≥2 synonyms**: Technical compound phrases (e.g., `attention mechanism`, `syllable structure`, `discourse marker`) required creative but defensible synonyms: `"alignment mechanism"/"neural attention"`, `"syllabic organization"/"syllabic template"`, `"pragmatic marker"/"discourse connective"`. All are attested in linguistics/ML literature and co-extensive with the defined senses.
+- **EN antonyms**: Used only when a clear semantic opposite exists: `"underfitting"` for `overfitting`, `"ahead-of-time compilation"` for `just-in-time compilation`, `"manual memory management"` for `garbage collection`, `"segmental"` for `suprasegmental`. No negation-prefixed forms used.
+- **EN self-reference check**: Carefully verified that no multi-word synonym/related term contained the headword as a token. Multi-word headwords (e.g., `neural network`) are immune to the token check; single-word headwords (e.g., `embedding`, `softmax`) checked manually.
+- **LT antonym pairs**: `saldus`↔`kartus`, `rūgštus`→`saldus`, `šaltas`↔`karštas`, `vėsus`↔`šiltas`, `pilnas`↔`tuščias`, `lengvas`↔`sunkus`, `pradžia`↔`pabaiga`, `siauras`↔`platus`, `ilgas`↔`trumpas`, `minkštas`↔`kietas`, `šiurkštus`↔`lygus`, `lygiai`↔`apytiksliai`, `vidurys`↔`kraštas` — all direct semantic opposites, no negation prefixes.
+- **LT nominative forms**: All LT relation items verified in nominative (adverbs like `tiksliai`, `tolygiai` kept as adverbs; verb infinitives like `laužti`, `susilaužyti` kept as infinitives). Zero `-ą`/`-ų` endings.
+- **LT gendered pairs**: `ožka`↔`ožys` (female/male goat), `gaidys`↔`višta` (rooster/hen), `katinas`↔`katė` (tomcat/cat) — cross-gender counterparts placed in `relatedTerms` as required by rubric.
+- **Multi-sense caution**: For entries with heterogeneous senses (e.g., `žalias` with color/unripe/inexperienced; `transformer` with ML/electrical), used `antonymTerms: []` since no single term opposes all defined senses.
+
+### Validation
+- `python3 scripts/validate_words.py --errors-for relations-added` → PASSED for both EN (1230 entries) and LT (2065 entries) with 0 errors in the `relations-added` batch; 91 EN pre-existing warnings and 98 LT pre-existing warnings (all `approved` status, not this batch's responsibility).
+
+### Doubts / meta-notes
+- Confidence: 92%. The `"soft argmax"` synonym for `softmax` is used in some ML papers but not universal; QA should verify acceptability.
+- `"form-meaning unit"` for `morpheme` is descriptive but not a standard technical term; `"minimal meaningful unit"` is more established.
+- LT 328 enriched entries remain after this session; 35 processed.
+- No merge performed as instructed.
