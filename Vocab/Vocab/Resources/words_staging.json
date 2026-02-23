@@ -3361,14 +3361,42 @@
   {
     "term": "choice architecture",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The deliberate design of the environment and presentation in which people make decisions, with the aim of steering behaviour toward particular outcomes without restricting options.",
+        "example": "Placing fruit at eye level in school cafeterias is a classic example of choice architecture nudging students toward healthier selections.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "behavioural-economics",
+          "decision-theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "peak-end rule",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A psychological heuristic by which people judge a past experience almost entirely on how it felt at its most intense point and at its end, rather than on an average or sum of every moment.",
+        "example": "Medical researchers applied the peak-end rule to redesign colonoscopy procedures so that the final moments were less uncomfortable, thereby improving patients' overall retrospective ratings.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "psychology",
+          "behavioural-economics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "optimism bias",
@@ -3473,8 +3501,22 @@
   {
     "term": "subgame perfect equilibrium",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A refinement of Nash equilibrium in extensive-form games requiring that players' strategies constitute a Nash equilibrium in every subgame, thereby ruling out non-credible threats.",
+        "example": "Backward induction reveals that the only subgame perfect equilibrium in the ultimatum game is for the proposer to offer the minimum positive amount and for the responder to accept.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "game-theory",
+          "economics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "bayesian game",
@@ -3539,8 +3581,22 @@
   {
     "term": "revelation principle",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A result in mechanism design stating that any outcome achievable by any mechanism can also be achieved by a direct revelation mechanism in which truthful reporting of private information is an equilibrium strategy.",
+        "example": "Invoking the revelation principle, the auction designer restricted attention to incentive-compatible mechanisms without loss of generality.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "game-theory",
+          "mechanism-design"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "stag hunt",
@@ -3614,26 +3670,83 @@
   {
     "term": "cheap talk",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Communication between players in a game that is costless, non-binding, and unverifiable, so its credibility depends entirely on the alignment of incentives between sender and receiver.",
+        "example": "Because the seller's promises carried no legal weight, the negotiation proceeded as a cheap talk game in which the buyer discounted any claim that could not be independently verified.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "game-theory",
+          "economics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "price of anarchy",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A measure of how much the efficiency of a system degrades due to the selfish behaviour of its participants, defined as the ratio of the worst-case Nash equilibrium outcome to the social optimum.",
+        "example": "Traffic engineers computed the price of anarchy for the city's road network and found that adding a new bypass paradoxically worsened overall journey times—a manifestation of Braess's paradox.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "game-theory",
+          "computer-science",
+          "network-theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "punctuated equilibrium",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An evolutionary theory proposing that species remain in a stable state for long periods, interrupted by geologically brief episodes of rapid speciation and morphological change.",
+        "example": "The fossil record's apparent gaps troubled Darwin, but punctuated equilibrium theory offered an explanation: most evolutionary change happens too quickly to leave many transitional fossils.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "evolutionary-biology",
+          "palaeontology"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "sexual selection",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A mode of natural selection arising from variation in reproductive success, driven by competition for mates or mate choice, producing traits that may reduce survival but increase attractiveness.",
+        "example": "The peacock's elaborate tail is a textbook case of sexual selection: it is costly to carry and conspicuous to predators, yet it persists because peahens consistently prefer more ornate displays.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "evolutionary-biology",
+          "zoology"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C1"
   },
   {
     "term": "reciprocal altruism",
@@ -3738,8 +3851,22 @@
   {
     "term": "müllerian mimicry",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A form of biological mimicry in which two or more unpalatable or harmful species evolve to share a common warning signal, so that predators learn to avoid the pattern more quickly than if each species advertised independently.",
+        "example": "Several species of Heliconius butterflies in the Amazon basin exhibit Müllerian mimicry, converging on the same bold colouration to reinforce predator avoidance learning across the whole community.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "evolutionary-biology",
+          "zoology"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "fitness landscape",
@@ -3764,14 +3891,43 @@
   {
     "term": "assortative mating",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The tendency for individuals to pair with partners who are more similar to themselves in phenotypic or genotypic traits than would be expected by chance, which can reduce heterozygosity and reinforce social stratification.",
+        "example": "Sociologists have documented increasing assortative mating by educational attainment over recent decades, with university-educated individuals marrying each other at ever-higher rates.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "evolutionary-biology",
+          "sociology",
+          "genetics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "creep",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The slow, time-dependent plastic deformation of a solid material under a constant mechanical stress, particularly at elevated temperatures, which can eventually lead to structural failure.",
+        "example": "Turbine blades are fabricated from single-crystal superalloys specifically engineered to resist creep at the extreme temperatures found inside jet engines.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "materials-science",
+          "engineering"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "fracture toughness",
@@ -3836,8 +3992,23 @@
   {
     "term": "phase diagram",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A graphical representation of the thermodynamic conditions—typically combinations of temperature, pressure, or composition—under which the distinct phases of a substance or mixture exist in equilibrium.",
+        "example": "Consulting the iron–carbon phase diagram, the metallurgist selected the exact austenitising temperature needed to dissolve all carbides before quenching.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "chemistry",
+          "materials-science",
+          "thermodynamics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1"
   },
   {
     "term": "eutectic",
@@ -3882,8 +4053,23 @@
   {
     "term": "dislocation",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A crystallographic line defect within a metallic or ionic lattice where the regular arrangement of atoms is disrupted, enabling plastic deformation to occur at stresses far below the theoretical shear strength.",
+        "example": "Work hardening increases yield strength precisely because the dense tangle of dislocations generated during cold rolling impedes further dislocation motion.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "materials-science",
+          "crystallography",
+          "metallurgy"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "grain boundary",
@@ -3908,14 +4094,52 @@
   {
     "term": "cermet",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A composite material combining ceramic particles with a metallic binder, designed to combine the hardness and heat-resistance of ceramics with the toughness and conductivity of metals.",
+        "example": "Cemented carbide cutting tools are a cermet par excellence: tungsten carbide grains bonded in a cobalt matrix deliver the wear resistance of ceramic at machining speeds no pure metal could withstand.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "materials-science",
+          "engineering"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "tectonics",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In geology, the study of the large-scale structural features of Earth's crust and the forces that produce them, including the movement of lithospheric plates.",
+        "example": "Plate tectonics unified disparate observations about earthquakes, volcanic arcs, and mid-ocean ridges into a single explanatory framework that transformed the earth sciences.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "geology",
+          "geophysics"
+        ]
+      },
+      {
+        "definition": "In architecture and construction theory, the art and science of assembling structural elements expressively, such that the load-bearing logic of a building is made aesthetically legible.",
+        "example": "The exposed steel frame of the Pompidou Centre was celebrated for its tectonics: every beam, truss, and joint tells the story of how the building stands.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "architecture",
+          "construction"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1"
   },
   {
     "term": "genius loci",
@@ -3980,8 +4204,22 @@
   {
     "term": "parti",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The primary organising concept or diagram of an architectural project, the single core idea from which all spatial, structural, and formal decisions are generated.",
+        "example": "Her parti for the library was deceptively simple: a reading room elevated above the city on pilotis, with all service functions tucked beneath, so the scholar could work literally above the urban noise.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "architecture",
+          "design"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "new urbanism",
@@ -4006,26 +4244,83 @@
   {
     "term": "deconstructivism",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An architectural movement of the late twentieth century characterised by the deliberate fragmentation of form, non-rectilinear angles, and the visual disruption of surface and structure, drawing loosely on Derrida's philosophical deconstruction.",
+        "example": "Zaha Hadid's early competition entries crystallised deconstructivism: jagged planes collided at improbable angles, defying any stable reading of floor, wall, or ceiling.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "architecture",
+          "design-theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "promenade architecturale",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Le Corbusier's concept of an architectural promenade—a carefully choreographed sequence of movement through a building that reveals space, light, and structure progressively, as though the visitor were following a narrative path.",
+        "example": "The Villa Savoye enacts the promenade architecturale from car arrival beneath the pilotis, up the ramp through the piano nobile, to the roof garden where the journey culminates in open sky.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "architecture",
+          "modernism"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "collage city",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An urban design concept proposed by Colin Rowe and Fred Koetter arguing that cities should be composed as a layered collage of heterogeneous figures and fragments from different historical periods rather than being rebuilt according to any single utopian plan.",
+        "example": "Opponents of comprehensive redevelopment invoked collage city theory to argue that the Victorian warehouse district should be retained as a valued fragment within the contemporary urban fabric.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "architecture",
+          "urban-theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "spolia",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Architectural elements, sculptures, or other material components salvaged from older structures and reused in new buildings, often as a deliberate statement of continuity, triumph, or symbolic appropriation.",
+        "example": "The columns lining the nave of the Basilica of San Lorenzo in Florence are Roman spolia, repurposed from antique temples and imbuing the early Christian church with the authority of antiquity.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "architecture",
+          "history",
+          "classical-studies"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2"
   },
   {
     "term": "agonism",
@@ -4070,14 +4365,42 @@
   {
     "term": "secession",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The formal withdrawal of a group, region, or state from a larger political entity such as a federation, union, or alliance, typically with the intention of establishing independent sovereignty.",
+        "example": "The regional parliament's declaration of secession triggered a constitutional crisis, as the central government disputed both the legality and the democratic mandate of the vote.",
+        "register": "formal",
+        "tags": [
+          "C1",
+          "politics",
+          "constitutional-law"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C1"
   },
   {
     "term": "civic republicanism",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A political philosophy holding that freedom consists not in non-interference but in non-domination, and that this freedom requires active participation in collective self-governance by an engaged citizenry.",
+        "example": "Civic republicanism informed the founders' insistence on widespread property ownership as a precondition for genuine liberty: a dependent citizen could not be a truly free one.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "political-philosophy",
+          "political-theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "formal",
+    "level": "C2"
   },
   {
     "term": "civic virtue",
@@ -4102,8 +4425,22 @@
   {
     "term": "legitimation crisis",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A condition described by Jürgen Habermas in which a political or economic system can no longer generate sufficient popular loyalty to justify its authority, because its outputs fail to meet the normative expectations of its citizens.",
+        "example": "The series of financial scandals produced what commentators described as a legitimation crisis: citizens no longer believed that regulatory institutions served the public interest.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "political-theory",
+          "sociology"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "formal",
+    "level": "C2"
   },
   {
     "term": "civil society",
@@ -4148,43 +4485,146 @@
   {
     "term": "corporatism",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A system of political and economic organisation in which the state incorporates organised interest groups—particularly employers' associations and trade unions—as recognised intermediaries in the formulation and implementation of public policy.",
+        "example": "Post-war Austrian corporatism channelled wage bargaining through tripartite institutions, dampening inflation while maintaining high employment across several decades.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "political-economy",
+          "political-theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2"
   },
   {
     "term": "demos",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The people of a state conceived as a political community bearing collective sovereignty, as distinct from the mere aggregate of individual inhabitants; the subject of democratic rule.",
+        "example": "Critics of supranational governance argue that a genuine European demos has yet to be constituted—that shared institutions cannot derive democratic legitimacy from publics that remain primarily national.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "political-theory",
+          "democracy"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2"
   },
   {
     "term": "dispositio",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In classical rhetoric, the second of the five canons of rhetoric, concerned with the arrangement and ordering of a speech's parts—introduction, narration, proof, refutation, and conclusion—to maximise persuasive effect.",
+        "example": "The barrister's closing argument exemplified sound dispositio: she moved from an emotionally resonant narrative through meticulous evidentiary proof to a crisp, memorable peroration.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "rhetoric",
+          "classical-studies",
+          "linguistics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2"
   },
   {
     "term": "inventio",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In classical rhetoric, the first of the five canons, referring to the discovery or invention of the arguments, evidence, and topics (loci) that a speaker will deploy in order to persuade the audience.",
+        "example": "Cicero regarded inventio as the most intellectually demanding canon: finding the best available arguments required not only knowledge of the subject but also a systematic command of rhetorical topoi.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "rhetoric",
+          "classical-studies",
+          "linguistics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2"
   },
   {
     "term": "elocutio",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In classical rhetoric, the third canon concerned with style—the choice of words, figures of speech, and sentence structures through which content is expressed, encompassing the qualities of clarity, correctness, ornamentation, and propriety.",
+        "example": "The orator's elocutio was widely praised: his periodic sentences built rhetorical momentum, while his deployment of anaphora gave key passages an incantatory force.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "rhetoric",
+          "classical-studies",
+          "linguistics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2"
   },
   {
     "term": "enargeia",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A rhetorical and literary quality of vivid, sensory description that places the subject before the mind's eye of the audience, creating the illusion of immediate presence and compelling emotional engagement.",
+        "example": "Homer's account of the shield of Achilles is a supreme exercise in enargeia: the poet does not merely list the scenes depicted but renders them so vividly that the reader seems to watch them unfolding in real time.",
+        "register": "literary",
+        "tags": [
+          "C2",
+          "rhetoric",
+          "classical-studies",
+          "literary-criticism"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "literary",
+    "level": "C2"
   },
   {
     "term": "auxesis",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A rhetorical figure in which ideas, images, or clauses are arranged in ascending order of importance or intensity, building to a climax; also used to denote amplification of a point for emphasis.",
+        "example": "The senator's speech employed auxesis to devastating effect, moving from minor inconveniences through serious injustices to outright tyranny, so that each successive grievance felt more intolerable than the last.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "rhetoric",
+          "classical-studies",
+          "linguistics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2"
   }
 ]
