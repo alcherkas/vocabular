@@ -4381,3 +4381,30 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - Multi-word synonyms/relatedTerms that include the headword as a space-separated token are rejected by the validator. Avoid compound phrases like `"X Y"` where `Y` is the headword term.
 - For highly technical terms (e.g. "manifold"), near-synonyms from adjacent disciplines ("smooth variety", "geometric variety") are the safest choice since they avoid self-reference while remaining semantically close.
 - LT synonym quality: verbs like `pokalbiauti`, `atsakinėti` are valid nominative infinitives and pass validation.
+
+---
+
+## QA Agent — vocab/qa-52 — $(date +%Y-%m-%d)
+
+**Batch:** 20 EN + 33 LT entries reviewed (status: relations-added)
+**Result:** 17 EN approved, 3 EN → enriched; 18 LT approved, 15 LT → enriched
+
+**What went well:**
+- Validation script passed cleanly for all approved entries
+- Systematic per-entry review caught recurring synonym quality issues across both files
+
+**EN failure patterns:**
+- Orthographic variant mistaken for synonym (*roman à clef* / *roman a clef*)
+- Hypernyms posing as synonyms for highly specific genre terms (*conte*, *fabliau*)
+
+**LT failure patterns (15/33 failed — 45% rejection rate):**
+- Action/process nouns used as synonyms for place/state nouns (*posūkis*)
+- Hypernyms: "takas" for šaligatvis, "žurnalistas" for korespondentas, "pokalbis" for interviu, "tekstas"/"publikacija" for straipsnis, "žiniasklaida" for spauda
+- Hyponyms: "savaitraštis" for žurnalas, "radijo laida" for radijas, "retransliacija" for transliacija
+- Category confusion: "televizorius" (device) ≠ "televizija" (medium); "spauda" (press) ≠ "žurnalistika" (profession)
+- Previously flagged error not fixed: *smalsus* still contained "imlus" despite qaNote
+
+**Recommendations for Relations Agent:**
+- For domain-specific LT media vocabulary, synonyms must share the same level of abstraction (medium ≠ device, profession ≠ institution, subtype ≠ whole type)
+- When a qaNote flags a specific synonym as wrong, that synonym must be removed before resubmitting
+- For highly specialized genre terms (fabliau, conte) avoid falling back to generic hypernyms; if no true synonym exists, fewer is better than wrong
