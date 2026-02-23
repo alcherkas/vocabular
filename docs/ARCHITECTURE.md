@@ -14,24 +14,29 @@
 
 ```
 Vocab/Vocab/
-├── VocabApp.swift          # App entry point, SwiftData ModelContainer setup
-├── ContentView.swift       # Tab bar navigation (4 tabs)
+├── VocabApp.swift              # App entry point, SwiftData ModelContainer setup
+├── ContentView.swift           # Tab bar navigation (3 tabs: Study, Words, Stats)
 ├── Models/
-│   ├── Word.swift          # @Model: vocabulary entry (EN + LT)
-│   └── QuizResult.swift    # @Model: quiz session result
+│   ├── Word.swift              # @Model: vocabulary entry (EN + LT) with SR fields
+│   └── QuizResult.swift        # @Model: quiz/session result with language
 ├── Views/
-│   ├── HomeView.swift      # Word of the Day
-│   ├── FlashcardsView.swift# Swipeable flashcard deck
-│   ├── QuizView.swift      # Multiple-choice quiz
-│   ├── WordListView.swift  # Searchable word browser
-│   ├── WordDetailView.swift# Single word detail + TTS
-│   └── StatsView.swift     # Progress / quiz history
+│   ├── SessionStartView.swift  # Session start screen with language picker + Word of the Day
+│   ├── SessionSummaryView.swift# Post-session results display
+│   ├── FlashcardsView.swift    # Swipeable flashcard deck (used in sessions)
+│   ├── QuizView.swift          # Multiple-choice quiz with 4 modes
+│   ├── WordListView.swift      # Searchable word browser with language filter
+│   └── StatsView.swift         # Per-language progress, mastery, streaks, quiz history
 ├── Services/
-│   ├── WordService.swift   # JSON loading → SwiftData, word queries
-│   └── SpeechService.swift # AVSpeechSynthesizer wrapper (singleton)
+│   ├── WordService.swift       # JSON loading → SwiftData, per-language word queries
+│   ├── SessionService.swift    # @Observable session state machine (idle → active → complete)
+│   ├── SpacedRepetitionService.swift # SM-2 algorithm for word scheduling
+│   ├── QuizService.swift       # Quiz question generation (4 modes: term↔def, term↔translation)
+│   └── SpeechService.swift     # AVSpeechSynthesizer wrapper (EN + LT)
 └── Resources/
-    ├── words.json          # English C1+ vocabulary (500 words, growing)
-    └── words_lt.json       # Lithuanian basic vocabulary (A1/A2) [to be created]
+    ├── words.json              # English C1+ vocabulary (production)
+    ├── words_lt.json           # Lithuanian A1/A2 vocabulary (production)
+    ├── words_staging.json      # EN vocab pipeline staging
+    └── words_lt_staging.json   # LT vocab pipeline staging
 ```
 
 ## Data Model
@@ -40,10 +45,9 @@ Vocab/Vocab/
 
 ```swift
 @Model class Word {
-    @Attribute(.unique) var term: String
-    var definition: String
-    var synonyms: [String]          // flat list of synonym strings
-    var example: String
+    var term: String
+    var meaningsData: Data           // JSON-encoded [WordMeaning]
+    var synonyms: [String]
     var partOfSpeech: String
     var tags: [String]
     var isFavorite: Bool
@@ -52,27 +56,48 @@ Vocab/Vocab/
     var lastSeen: Date?
 
     // Language support
-    var language: String            // "en" | "lt"
-    var translation: String?        // LT→EN gloss (nil for EN words)
+    var language: String             // "en" | "lt"
+    var translation: String?         // LT→EN gloss (nil for EN words)
+    @Attribute(.unique) var uniqueKey: String  // "language:term"
 
-    // Word relations (SwiftData @Relationship — no graph DB needed)
+    // Word relations
     @Relationship(deleteRule: .nullify) var antonyms: [Word]
     @Relationship(deleteRule: .nullify) var relatedWords: [Word]
+
+    // Spaced repetition (SM-2)
+    var nextReview: Date?
+    var easeFactor: Double = 2.5
+    var interval: Int = 0
+    var repetitions: Int = 0
+
+    // Computed
+    var meanings: [WordMeaning]      // decoded from meaningsData
+    var definition: String           // shortcut to meanings[0].definition
+    var example: String              // shortcut to meanings[0].example
+    var masteryLevel: Double         // timesCorrect / timesSeen
+    var masteryDescription: String   // "Mastered" / "Familiar" / "Learning" / "New"
 }
 ```
 
-> **Note**: `antonyms` and `relatedWords` are planned additions (see `docs/TASKS.md` task `word-relations`). Current model has `synonyms: [String]` only.
-
 ### QuizResult (`Models/QuizResult.swift`)
 
-Stores per-session quiz outcomes: score, total, date, words attempted.
+```swift
+@Model class QuizResult {
+    var date: Date
+    var score: Int
+    var totalQuestions: Int
+    var language: String = "en"      // "en" | "lt"
+}
+```
+
+Stores per-session outcomes for both quiz and flashcard study sessions.
 
 ## Language Support
 
 - All existing words are English (`language: "en"`).
 - Lithuanian words use `language: "lt"` and populate `translation` with an EN gloss.
 - LT words are A1/A2 level — simpler structure, `synonyms` array will typically be empty.
-- UI filters by language where relevant (separate browse lists planned).
+- UI filters by language where relevant (word list, stats, quiz, session start).
 
 ## JSON Schema
 

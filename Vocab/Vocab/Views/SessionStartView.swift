@@ -43,6 +43,9 @@ struct SessionStartView: View {
                     sessionActiveView
                 case .complete:
                     SessionSummaryView(sessionService: sessionService)
+                        .onAppear {
+                            saveSessionResult()
+                        }
                 }
             }
             .navigationTitle("Study")
@@ -226,6 +229,16 @@ struct SessionStartView: View {
             Text(value)
                 .font(.subheadline)
         }
+    }
+
+    private func saveSessionResult() {
+        guard sessionService.itemsReviewed > 0 else { return }
+        let result = QuizResult(
+            score: sessionService.correctCount,
+            totalQuestions: sessionService.itemsReviewed,
+            language: sessionService.language
+        )
+        context.insert(result)
     }
 
     // MARK: - Active Session View

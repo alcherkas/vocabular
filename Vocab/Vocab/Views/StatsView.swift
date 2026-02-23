@@ -27,8 +27,8 @@ struct StatsView: View {
     }
 
     private var filteredResults: [QuizResult] {
-        // QuizResult doesn't have language field yet; show all for now
-        results
+        guard let code = selectedLanguage.code else { return results }
+        return results.filter { $0.language == code }
     }
     
     var body: some View {
@@ -48,6 +48,11 @@ struct StatsView: View {
                     } else {
                         // Overview cards
                         overviewSection
+
+                        // Streak section
+                        if !filteredResults.isEmpty {
+                            streakSection
+                        }
                         
                         // Mastery breakdown
                         if !filteredWords.isEmpty {
@@ -132,6 +137,25 @@ struct StatsView: View {
                     color: .orange
                 )
             }
+        }
+    }
+
+    // MARK: - Streak Section
+    private var streakSection: some View {
+        HStack(spacing: 12) {
+            OverviewCard(
+                title: "Current Streak",
+                value: "\(currentStreak) day\(currentStreak == 1 ? "" : "s")",
+                icon: "flame.fill",
+                color: .red
+            )
+
+            OverviewCard(
+                title: "Days Practiced",
+                value: "\(daysPracticed)",
+                icon: "calendar",
+                color: .teal
+            )
         }
     }
     
@@ -225,6 +249,34 @@ struct StatsView: View {
         guard !filteredResults.isEmpty else { return "—" }
         let avg = filteredResults.map { $0.percentage }.reduce(0, +) / Double(filteredResults.count)
         return "\(Int(avg))%"
+    }
+
+    private var daysPracticed: Int {
+        let calendar = Calendar.current
+        let uniqueDays = Set(filteredResults.map { calendar.startOfDay(for: $0.date) })
+        return uniqueDays.count
+    }
+
+    private var currentStreak: Int {
+        let calendar = Calendar.current
+        let uniqueDays = Set(filteredResults.map { calendar.startOfDay(for: $0.date) })
+            .sorted(by: >)
+        guard let latest = uniqueDays.first else { return 0 }
+
+        let today = calendar.startOfDay(for: .now)
+        let yesterday = calendar.date(byAdding: .day, value: -1, to: today)!
+        guard latest == today || latest == yesterday else { return 0 }
+
+        var streak = 1
+        for i in 1..<uniqueDays.count {
+            let expected = calendar.date(byAdding: .day, value: -1, to: uniqueDays[i - 1])!
+            if uniqueDays[i] == expected {
+                streak += 1
+            } else {
+                break
+            }
+        }
+        return streak
     }
     
     private var recentResults: [QuizResult] {
