@@ -65,7 +65,7 @@ struct FlashcardsView: View {
                         if onAnswer != nil && isFlipped {
                             HStack(spacing: 20) {
                                 Button {
-                                    onAnswer?(false)
+                                    answerAndAdvance(correct: false)
                                 } label: {
                                     Label("Don't Know", systemImage: "xmark.circle.fill")
                                         .frame(maxWidth: .infinity)
@@ -75,7 +75,7 @@ struct FlashcardsView: View {
                                 .controlSize(.large)
 
                                 Button {
-                                    onAnswer?(true)
+                                    answerAndAdvance(correct: true)
                                 } label: {
                                     Label("Know It", systemImage: "checkmark.circle.fill")
                                         .frame(maxWidth: .infinity)
@@ -187,6 +187,16 @@ struct FlashcardsView: View {
     private func shuffleCards() {
         currentIndex = Int.random(in: 0..<max(displayedWords.count, 1))
         isFlipped = false
+    }
+
+    private func answerAndAdvance(correct: Bool) {
+        onAnswer?(correct)
+        withAnimation(.spring(duration: 0.3)) {
+            isFlipped = false
+            if currentIndex < displayedWords.count - 1 {
+                currentIndex += 1
+            }
+        }
     }
 }
 
