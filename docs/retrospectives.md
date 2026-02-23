@@ -4190,3 +4190,25 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - A pre-validation dry-run pass before writing the full script would save cycles on self-ref and cross-array issues.
 
 **Confidence**: 95% — all validator checks passed; semantic quality of synonyms for ultra-specific technical phrases is the residual risk.
+
+## Retrospective — vocab/enricher-en-44 (Enricher Agent, 2025-07-25)
+
+**Session**: Enriched 35 EN stubs across three thematic clusters (medieval/classical history, geography/cartography, cognitive linguistics).
+
+**What went well**:
+- Preflight JSON check passed cleanly before any edits.
+- All 35 entries were enriched in a single pass using a comprehensive Python script, then validated with `--errors-for enriched` — 0 errors, 91 pre-existing warnings from other statuses (not our batch).
+- Thematic clustering made it easy to maintain consistent register, tags, and definition style across related terms (e.g. all cognitive linguistics entries use `technical` register and cite canonical theorists: Rosch, Lakoff, Fillmore, Langacker, Fauconnier).
+- Most terms received 2 distinct meanings where the vocabulary genuinely supports it (e.g. `cartography`, `latitude`, `meridian`, `crusade`, `chivalry`, `topography`) — one domain-specific and one broader/figurative meaning.
+- Single-meaning entries (e.g. `simony`, `manorialism`, `tectonic plate`) are highly specific enough that a second distinct meaning would be forced; validator accepts 1 meaning at enricher stage.
+
+**What was harder than expected**:
+- `courtly love`, `papal bull`, `continental shelf`, `tectonic plate`, `chorography`, `prototype theory`, `conceptual metaphor`, `frame semantics`, `cognitive grammar`, `image schema`, `mental space`, `blending theory`, `construction grammar`, `embodied simulation`, `figure-ground`, `scalar implicature` are multi-word terms whose partOfSpeech needed `phrase` — not `noun` — per the validator enum. Checked the enum carefully to avoid rejections.
+- `tithe` and `interdict` are both noun and verb in usage. Chose `noun` as the dominant/historical POS to match the ecclesiastical context, with the second meaning covering modern verbal usage for `tithe`.
+- Several cognitive linguistics terms (e.g. `blending theory`, `construction grammar`) have overlapping theoretical concerns; care was taken to distinguish their key proponents and scope to avoid near-duplicate definitions.
+
+**Process improvements**:
+- A lookup table in `docs/VOCAB-AGENT.md` noting that multi-word phrases must use `partOfSpeech: "phrase"` (not `"noun"`) would save lookup time.
+- Batching by thematic cluster (rather than by file position) is highly effective for maintaining definition quality and consistent citation of canonical theorists.
+
+**Confidence**: 97% — all validator checks passed; the only residual risk is semantic nuance in the cognitive linguistics definitions, which are summarised from specialist literature.
