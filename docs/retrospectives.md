@@ -4212,3 +4212,24 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - Batching by thematic cluster (rather than by file position) is highly effective for maintaining definition quality and consistent citation of canonical theorists.
 
 **Confidence**: 97% — all validator checks passed; the only residual risk is semantic nuance in the cognitive linguistics definitions, which are summarised from specialist literature.
+## Retrospective — vocab/enricher-lt-61 (Enricher Agent, 2025-07-25)
+
+**Session**: Enriched 35 Lithuanian travel and transport vocabulary stubs (B1/B2 level).
+
+**What went well**:
+- Preflight JSON check passed cleanly before any edits.
+- All existing core travel terms (autobusas, traukinys, lėktuvas, bilietas, kelionė, etc.) were already approved in staging — correctly avoided duplicates by checking all_terms before adding.
+- 35 genuinely new travel/transport terms were identified and enriched in one batch: covering transport types (peronas, greitasis traukinys, skrydis), travel planning (rezervuoti, kelionių agentūra), accommodation (viešbučio kambarys, nakvynės namai, viešnagė), airport/border (muitinė, pasų kontrolė, įlaipinimas, tranzitas), and travel problems (eismo spūstis, atšaukimas).
+- All terms correctly lowercase. All POS and register values within valid enums.
+- Validator `--errors-for enriched` passed with 0 errors (only pre-existing approved-status warnings).
+- Polysemous words (skrydis, nusileidimas, pakilimas, kryptis, gidas, tranzitas, registracija) given two distinct meanings with appropriate registers.
+
+**What was harder than expected**:
+- Many canonical travel terms were already approved in staging, requiring a broader search for genuinely new B1/B2 travel vocabulary. Had to look beyond core transport nouns to airport procedures, accommodation types, and journey components.
+- Some Lithuanian compound phrases (e.g. "bagažo saugojimas", "pasų kontrolė") required care to ensure the genitive-first element would not trigger the inflected-form validator warning in future Relations work.
+
+**Process improvements**:
+- For focused-domain enrichment tasks, a pre-check of approved terms in the target domain saves time compared to discovering overlaps mid-script.
+- Documenting which travel-domain terms are already approved would help future enrichers avoid repeated checks.
+
+**Confidence**: 97% — all entries use accurate Lithuanian, natural example sentences, and correct semantic registers. Validator passed cleanly.
