@@ -62,3 +62,4 @@ Agents append one entry here **after each commit** and **after every irreversibl
 [2026-02-23] [publisher] [vocab-publish] [commit] [planned] [clear-instructions] [95%] Publish 20 EN + 32 LT approved words. EN production: 1486 → 1506. LT production: 1656 → 1688. | doubts: none
 [2026-02-23] [publisher] [vocab-publish] [commit] [planned] [clear-instructions] [95%] Publish 35 LT approved words. LT production: 1688 → 1723 words. | doubts: none
 [2026-02-23] [publisher] [vocab-publish] [commit] [planned] [clear-instructions] [95%] Publish 36 EN + 35 LT approved words. EN production: 1506 → 1542. LT production: 1723 → 1758. | doubts: none
+[2026-02-23] [publisher] [vocab-publish] [commit] [planned] [clear-instructions] [95%] Publish 35 EN + 40 LT approved words. EN production: 1542 → 1577. LT production: 1758 → 1798. | doubts: none
