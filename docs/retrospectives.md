@@ -4649,6 +4649,7 @@ Enriched 35 stub entries across five thematic groups: numbers (30–100), bedroo
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## QA-55 · 2025-07-17
 
@@ -4720,3 +4721,28 @@ Each entry received: `partOfSpeech`, `register`, `level` (C1/C2), and 1–2 `mea
 ### Blockers / Decisions needed
 None.
 >>>>>>> vocab/enricher-lt-67
+=======
+
+## Retro: vocab/relations-56 — Relations Agent batch (2025-07)
+
+**What was done:**
+- Added `synonyms`, `antonymTerms`, `relatedTerms` to 35 EN entries (theater, cognitive linguistics, Greek philosophy, neuroscience, legal Latin) and all 17 LT entries (furniture, tools) that had `status: enriched` but no relations fields.
+- Updated `status → relations-added` for 53 EN and 398 LT entries that already had all three relations fields from prior runs but had never had their status promoted.
+- Fixed a pre-existing self-referential synonym (`brandos atestatas`) in the `atestatas` LT entry.
+
+**What went well:**
+- The batch Python script approach was efficient: relations map defined as data, applied in one pass.
+- Validation caught all issues immediately (15 EN + 3 LT errors on first run) and iteration was quick.
+
+**Issues encountered:**
+- Several technical/borrowed terms (e.g., `homonymy`, `inferentiality`, `radical construction grammar`, `cholinergic`) have no genuine co-extensive English synonyms. Resolved by using descriptive paraphrases and abbreviated forms that don't contain the headword.
+- Self-referential phrases (e.g., "proscenium arch", "kryžminis atsuktuvas", "elektrinis pjūklas") triggered validator errors; replaced with non-headword-containing alternatives.
+- Cross-array duplicates (`doxa` in both `antonymTerms` and `relatedTerms` for `episteme`; `potentiality` for `entelechy`) required removing them from `relatedTerms`.
+
+**Learnings / process notes:**
+- EN words require ≥ 2 synonyms per validator rules — always plan 2+ per entry even for technical terms.
+- Antonym terms must not also appear in `relatedTerms` (validator enforces cross-array deduplication).
+- Synonyms must not contain the headword as a word token — avoid "X headword" patterns.
+- For Greek philosophical terms, the standard English translations (e.g., "practical wisdom" for phronesis, "contemplation" for theoria) are the best synonyms even if not perfectly co-extensive.
+- 9 EN entries remain at `status: enriched` with no relations (nolo contendere, nolle prosequi, ex parte, lis pendens, voir dire, interpleader, vexatious litigation, declaratory judgment, promissory estoppel) — deferred to next batch.
+>>>>>>> vocab/relations-56
