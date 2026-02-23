@@ -4463,3 +4463,27 @@ All entries set to status=enriched with translation, partOfSpeech, level, and me
 ### Issues encountered
 None blocking. Validation passed cleanly.
 >>>>>>> vocab/enricher-lt-64
+
+---
+
+## Relations Agent — Batch vocab/relations-54 (2025-01-31)
+
+**What I did:**
+- Added synonyms, antonyms, and relatedTerms to 35 EN + 35 LT enriched entries, setting all to status `relations-added`.
+- EN: 34 of 35 entries already had relations from prior processing; only `realism` was missing them. Added `representationalism`, `naturalism` as synonyms and `idealism` as antonym.
+- LT: All 35 entries had empty relation arrays. Added meaningful relatedTerms for vegetables (brokolis, cukinija, etc.), containers (butelis, dėžutė, etc.), food quantities (riekė, gabalėlis), measurement (gramas), adjectives (liesas, neskanus, džiovintas, paprastas, sudėtingas), colours (raudonas–juodas), and numerals 21–27.
+- Added antonym pairs: liesas↔storas, neskanus↔skanus, džiovintas↔šviežias, paprastas↔sudėtingas, baltas↔juodas.
+
+**Errors encountered and fixed:**
+- `realism`: validator required ≥2 EN synonyms (had 0); added `representationalism`, `naturalism`.
+- `realism`: self-referential items `social realism`, `political realism` in relatedTerms; replaced with `positivism`, `verisimilitude`.
+- `plytelė`, `raudonas`, `rudas`, `mėlynas`: self-referential compound phrases in relatedTerms (e.g., `tamsiai raudonas`); replaced with non-self-referential alternatives.
+
+**Quality decisions:**
+- Numerals, containers, and specific food items received `synonyms: []` as no true co-extensive synonyms exist in Lithuanian.
+- Colour terms received `antonymTerms: []` except baltas↔juodas which are genuine semantic opposites.
+- LT adjective synonyms kept strictly co-extensive: `paprastas` → `[nesudėtingas, lengvas]`; `sudėtingas` → `[komplikuotas, painus]`.
+
+**What went well:** Validator caught self-referential relatedTerms and missing synonym counts immediately; quick to fix.
+
+**What to improve:** Pre-check relatedTerms for headword substrings before writing, to avoid the self-referential error class entirely.
