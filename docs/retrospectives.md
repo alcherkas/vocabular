@@ -4259,3 +4259,35 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 ### Doubts / open questions
 - None. Confidence: 95%.
 
+
+---
+
+## Session: vocab/enricher-en-45 — EN Enricher batch (35 stubs)
+
+**Date**: 2025-07-24
+**Agent**: Enricher (EN)
+**Branch**: vocab/enricher-en-45
+**Task**: Enrich 35 English stubs — literary genres, music advanced, dance/theater
+
+### What was done
+- Preflight JSON check on `words_staging.json` (1430 entries): passed.
+- Confirmed 85 stubs available; enriched exactly 35.
+- Covered all focus-area stubs present in the file:
+  - **Literary genres (11)**: pastoral, epistolary, roman à clef, Künstlerroman, novella, vignette, fabliau, conte, Erziehungsroman, metafiction, allegoresis
+  - **Music advanced (12)**: hemiola, chaconne, canon, polytonality, microtonality, tone row, minimalism, bitonality, equal temperament, sprechstimme, coloratura, pedal point
+  - **Dance/theater (12)**: choreography, dramaturgy, fourth wall, anagnorisis, deus ex machina, hamartia, mise en scène, blocking, dramatis personae, soliloquy, aside, stichomythia
+- Each entry given: `partOfSpeech`, 1–3 genuinely distinct `meanings` with `definition`, `example`, `register`, and `tags`; status set to `enriched`.
+- Validator run with `--errors-for enriched`: PASSED (0 errors; 91 pre-existing warnings in other statuses only).
+- Single commit: `vocab(enricher-en-45): enrich 35 English stubs`.
+
+### What went well
+- Thematic clustering (literary/music/theater) kept semantic quality high — definitions and examples could be written with full domain precision.
+- `deus ex machina` and `mise en scène` mapped to `phrase` POS correctly.
+- Two-meaning entries (canon, chaconne, novella, vignette, coloratura, minimalism, etc.) captured genuinely distinct senses without redundancy.
+
+### Challenges
+- Several focus-area terms from the prompt (lai, alba, counterpoint, fugue, leitmotif, serialism, aleatory, catharsis, peripeteia, denouement) were not present as stubs; supplemented with other thematically coherent terms from the available stub list.
+- `Künstlerroman` and `Erziehungsroman` required care to distinguish clearly from each other and from Bildungsroman.
+
+### Doubts / open questions
+- None. Confidence: 95%.
