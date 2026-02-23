@@ -4079,3 +4079,32 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 ### Decisions made
 - Changed status from "approved" → "relations-added" for 9 fixed entries to put them back into the QA pipeline per task instructions
 - Added synonyms to 32 pre-existing entries to clear validator; synonyms chosen as co-extensive equivalents without introducing hypernyms or self-references
+
+---
+
+## Retro: vocab/enricher-lt-58 — 2025-07-30
+
+**Agent**: Enricher (LT), branch `vocab/enricher-lt-58`
+**Task**: Enrich 35 Lithuanian technology/digital life stubs (B1/B2)
+
+### What was done
+- Preflight JSON check passed on `words_lt_staging.json` (2205 entries, JSON valid).
+- Discovered all 390 existing stubs were non-tech (food, numbers, clothing, household items); no technology stubs existed.
+- Added and enriched 35 new tech-focused entries covering: apps, devices, internet, social media, online communication, security (B1/B2 level).
+- All terms lowercased as required (common nouns); used only valid POS and register enum values.
+- Validated with `python3 scripts/validate_words.py --errors-for enriched` → PASSED (35 new entries clean; all warnings were pre-existing in approved entries).
+- Committed as `vocab(enricher-lt-58): enrich 35 Lithuanian stubs`.
+
+### What went well
+- Checking existing staging + production before adding any term prevented any duplicates.
+- Writing all 35 enriched entries in one batch script was efficient and avoided incremental errors.
+- Validator confirmed zero new errors introduced.
+
+### What was tricky
+- All 390 existing stubs were unrelated to technology; had to add stubs and enrich in a single combined step rather than picking from existing stubs.
+- Needed careful checking for terms already in staging as enriched/approved (e.g. `internetas`, `naršyklė`, `failas` were already enriched in earlier sessions).
+
+### Improvement suggestions
+- A topic-tagged seed list would help future enrichers quickly find domain-specific stubs without scanning all 390+ entries manually.
+- The VOCAB-AGENT.md could clarify the combined seeder+enricher workflow when no domain-relevant stubs exist yet.
+
