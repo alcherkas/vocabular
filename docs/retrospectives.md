@@ -4384,6 +4384,7 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## QA Agent — vocab/qa-52 — $(date +%Y-%m-%d)
 
@@ -4429,3 +4430,36 @@ Enriched all 15 stub entries across several specialist domains: literary fiction
 ### Outcome
 Branch `vocab/enricher-en-47` is ready for merge review. No stubs remain in words_staging.json.
 >>>>>>> vocab/enricher-en-47
+=======
+
+## Retro: enricher-lt-64 — 2025-07-09
+
+**Agent:** LT Vocabulary Enricher (enricher-lt-64)
+**Branch:** vocab/enricher-lt-64
+**Task:** Enrich 35 Lithuanian stub entries
+
+### What was done
+Enriched 35 Lithuanian stub entries across these categories:
+- Vegetables (4): brokolis, cukinija, žiedinis kopūstas, salierai
+- Food adjectives (3): liesas, neskanus, džiovintas
+- General adjectives (2): paprastas, sudėtingas
+- Containers/packaging (7): butelis, dėžutė, indelis, maišelis, pakelis, stiklainis, dėžė
+- Food portions/units (5): gabalėlis, riekė, kepalas, plytelė, gramas
+- Verb (1): reikėti
+- Colours (6): raudonas, rudas, mėlynas, baltas, geltonas, juodas
+- Numerals 21–27 (7): dvidešimt vienas through dvidešimt septyni
+
+All entries set to status=enriched with translation, partOfSpeech, level, and meanings with Lithuanian example sentences.
+
+### What went well
+- Validation passed on first run (0 errors).
+- Two stubs had capitalised terms (Butelis, Raudonas) — corrected to lowercase per rules.
+- "numeral" partOfSpeech correctly applied to the 21–27 number phrases.
+
+### What could be improved
+- The `--errors-for` flag requires `--staging` prefix; the task instruction example omits it. Minor documentation gap.
+- Some stubs like `salierai` use plural nominative (pluralia tantum); no rule explicitly covers this edge case.
+
+### Issues encountered
+None blocking. Validation passed cleanly.
+>>>>>>> vocab/enricher-lt-64
