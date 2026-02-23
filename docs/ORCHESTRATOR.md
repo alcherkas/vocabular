@@ -525,6 +525,20 @@ git add Vocab/Vocab/Resources/words_staging.json Vocab/Vocab/Resources/words_lt_
 git commit -m "fix: re-apply QA approvals ..."
 ```
 
+### Post-Merge Cleanup (every cycle)
+
+After all branches are merged and pushed, delete local branches and worktrees immediately:
+
+```bash
+# Remove worktrees
+for wt in <wt-names>; do git worktree remove --force ../vocabular-wt-$wt 2>/dev/null; done
+
+# Delete merged local branches (all vocab/* branches accumulate fast)
+git branch --merged main | grep -E 'vocab/|feature/|process/|verify/' | xargs git branch -d 2>/dev/null || true
+```
+
+Run this **after every cycle push** to prevent hundreds of stale local branches from building up.
+
 ---
 
 ## Step 5: Context Checkpoint
