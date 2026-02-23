@@ -4463,3 +4463,30 @@ All entries set to status=enriched with translation, partOfSpeech, level, and me
 ### Issues encountered
 None blocking. Validation passed cleanly.
 >>>>>>> vocab/enricher-lt-64
+
+---
+
+## Retro: enricher-lt-65 — 2025-01-27
+
+**Agent**: enricher-lt-65 (LT Vocabulary Enricher)
+**Branch**: vocab/enricher-lt-65
+**Task**: Enrich 35 Lithuanian stub entries in words_lt_staging.json
+
+### What was done
+- Identified 238 stubs in `words_lt_staging.json`; selected 35 thematically coherent entries from the clothing domain
+- Theme: fabric patterns & colours (languotas, dryžuotas, taškuotas, raštuotas, vienspalvis, gėlėtas, margas, ryškus, senamadiškas, nemadingas), fabric materials (vilna/vilnonis, medvilnė/medvilninis, šilkas/šilkinis, odinis, sintetika/sintetinis, kailis/kailinis, natūralus, dirbtinis), and clothing accessories/jewellery (saga, užtrauktukas, kišenė, nosinė, skėtis, basutės, skrybėlaitė, auskarai, grandinėlė, karoliai, žiedas, segė)
+- All 35 entries set to status=enriched with part-of-speech, register, level (A1–B1), translation, and one meaning with a natural Lithuanian example sentence
+- Validation passed with 0 errors; enriched count moved from 415 → 450
+
+### What went well
+- Thematic grouping made enrichment efficient and consistent
+- The fabric pairs (noun + adjective: vilna/vilnonis, šilkas/šilkinis, etc.) allowed natural cross-referencing in examples
+- All terms were already in correct nominative form in the stubs
+
+### Issues / observations
+- `Margas` stub had a capital M (proper-noun capitalisation artefact from seeding); corrected to `margas` during enrichment
+- `auskarai` is a plural-only form in common usage; kept as-is since the stub used it, but the singular `auskaras` would be the canonical dictionary headword — worth noting for a future cleanup task
+
+### Suggestions for next agent
+- The remaining 203 stubs include ordinal numbers (pairs like `pirmas`/`pirma`), zodiac signs, and tool names — consider enriching zodiac signs as a coherent batch next
+- The plural-only noun issue (auskarai, karoliai) could be codified as a lint rule in validate_words.py
