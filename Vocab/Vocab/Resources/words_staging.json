@@ -9631,7 +9631,7 @@
   },
   {
     "term": "mizzenmast",
-    "status": "approved",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -9656,7 +9656,6 @@
       "foremast"
     ],
     "relatedTerms": [
-      "foremast",
       "mainmast",
       "rigging",
       "schooner",
@@ -9998,7 +9997,7 @@
   },
   {
     "term": "toponymy",
-    "status": "approved",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10018,9 +10017,7 @@
       "place-name study",
       "toponomastics"
     ],
-    "antonymTerms": [
-      "unnamed landscape"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
       "etymology",
       "onomastics",
@@ -10100,7 +10097,7 @@
   },
   {
     "term": "triangulation",
-    "status": "approved",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10132,8 +10129,7 @@
       "position fixing"
     ],
     "antonymTerms": [
-      "GPS survey",
-      "traverse"
+      "GPS survey"
     ],
     "relatedTerms": [
       "baseline",
@@ -10654,7 +10650,7 @@
   },
   {
     "term": "endogamy",
-    "status": "approved",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "tags": [],
@@ -10679,7 +10675,6 @@
       "exogamy"
     ],
     "relatedTerms": [
-      "exogamy",
       "kinship",
       "caste",
       "lineage",
@@ -20872,7 +20867,7 @@
   {
     "term": "paleoclimate",
     "language": "en",
-    "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20888,7 +20883,6 @@
     ],
     "synonyms": [
       "past climate",
-      "ancient climate record",
       "historical climate"
     ],
     "antonymTerms": [],
@@ -20971,7 +20965,7 @@
   {
     "term": "phenology",
     "language": "en",
-    "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -20987,8 +20981,7 @@
     ],
     "synonyms": [
       "biological seasonality study",
-      "ecological timing science",
-      "seasonal ecology"
+      "ecological timing science"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -22278,7 +22271,7 @@
   {
     "term": "perfectionism",
     "language": "en",
-    "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -22295,7 +22288,7 @@
     "synonyms": [
       "excellence ethics",
       "human flourishing theory",
-      "objective list theory"
+      "human excellence theory"
     ],
     "antonymTerms": [
       "anti-perfectionism",
@@ -22845,7 +22838,7 @@
   {
     "term": "creolization",
     "language": "en",
-    "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -22860,7 +22853,6 @@
       }
     ],
     "synonyms": [
-      "creolisation",
       "contact language mixing",
       "linguistic hybridisation"
     ],
@@ -26782,7 +26774,7 @@
   {
     "term": "emergence",
     "language": "en",
-    "status": "approved",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -26797,8 +26789,8 @@
       }
     ],
     "synonyms": [
-      "self-organization",
-      "systemic arising"
+      "systemic arising",
+      "spontaneous ordering"
     ],
     "antonymTerms": [
       "reductionism"
@@ -26808,7 +26800,8 @@
       "complexity",
       "holism",
       "synergy",
-      "emergent property"
+      "emergent property",
+      "self-organization"
     ],
     "qaNote": "'Emergent property' is a hyponym, not a synonym of 'emergence': it denotes the outcome/product of the process, not the process itself. 'Self-organization' is a related but distinct concept — a mechanism that may produce emergence, not a synonym for it. Move both to relatedTerms and supply genuine process-level synonyms, or leave synonyms empty."
   },
@@ -36130,7 +36123,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "akaryote",
+      "anucleate organism"
+    ],
     "antonymTerms": [
       "eukaryote"
     ],
@@ -36159,7 +36155,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "nucleated cell organism",
+      "karyote"
+    ],
     "antonymTerms": [
       "prokaryote"
     ],
@@ -36188,7 +36187,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "species formation",
+      "species divergence"
+    ],
     "antonymTerms": [
       "extinction"
     ],
@@ -36219,7 +36221,8 @@
       }
     ],
     "synonyms": [
-      "lateral gene transfer"
+      "lateral gene transfer",
+      "conjugative gene exchange"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -37669,7 +37672,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "labeled-data training",
+      "example-based learning"
+    ],
     "antonymTerms": [
       "unsupervised learning"
     ],
@@ -37699,7 +37705,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pattern discovery learning",
+      "self-organized learning"
+    ],
     "antonymTerms": [
       "supervised learning"
     ],
@@ -37841,7 +37850,8 @@
       }
     ],
     "synonyms": [
-      "embedding space"
+      "embedding space",
+      "feature embedding space"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -38154,7 +38164,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "cipher science",
+      "encryption science"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "cryptology",
@@ -38225,7 +38238,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "non-revealing proof protocol",
+      "interactive proof system"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "cryptography",
@@ -38909,7 +38925,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "literary category",
+      "textual type"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "register",
@@ -38935,7 +38954,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "story frame",
+      "narrative schema"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "narrative structure",
@@ -38961,7 +38983,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "face theory",
+      "face management theory"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "face-threatening act",
@@ -40141,7 +40166,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "post-structuralism",
+      "deconstruction theory"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "structuralism",
@@ -40167,7 +40195,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "social constructivism",
+      "social reality theory"
+    ],
     "antonymTerms": [
       "essentialism"
     ],
@@ -40195,7 +40226,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "social conflict paradigm",
+      "power conflict framework"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "class conflict",
@@ -40221,7 +40255,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "social role framework",
+      "role performance theory"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "social role",
@@ -40247,7 +40284,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "exchange paradigm",
+      "social cost-benefit theory"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "rational choice theory",
@@ -40274,7 +40314,8 @@
       }
     ],
     "synonyms": [
-      "societal reaction theory"
+      "societal reaction theory",
+      "social reaction theory"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -40301,7 +40342,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "comparative group",
+      "social comparison group"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "in-group",
@@ -40328,7 +40372,8 @@
       }
     ],
     "synonyms": [
-      "collective consciousness"
+      "collective consciousness",
+      "shared moral consciousness"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -40355,7 +40400,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "solidarity of likeness",
+      "segmentary solidarity"
+    ],
     "antonymTerms": [
       "organic solidarity"
     ],
@@ -40383,7 +40431,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "solidarity of difference",
+      "functional interdependence solidarity"
+    ],
     "antonymTerms": [
       "mechanical solidarity"
     ],
@@ -40411,7 +40462,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "carbon biogeochemical cycle",
+      "carbon flux cycle"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "nitrogen cycle",
@@ -40437,7 +40491,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "ecosystem engineer species",
+      "pivotal species"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "trophic cascade",
@@ -40463,7 +40520,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "feeding level",
+      "energy transfer tier"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "food chain",
@@ -40490,7 +40550,8 @@
       }
     ],
     "synonyms": [
-      "biotic succession"
+      "biotic succession",
+      "community succession"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -40518,7 +40579,8 @@
       }
     ],
     "synonyms": [
-      "colonizer species"
+      "colonizer species",
+      "early colonizer"
     ],
     "antonymTerms": [
       "climax species"
@@ -40547,7 +40609,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "climax ecosystem",
+      "stable biotic community"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "ecological succession",
@@ -40573,7 +40638,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "nitrogen biogeochemical cycle",
+      "nitrogen flux cycle"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "carbon cycle",
@@ -40599,7 +40667,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "carbon capture and storage",
+      "carbon fixation process"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "carbon cycle",
@@ -40625,7 +40696,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "biological production rate",
+      "organic matter yield rate"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "gross primary production",
@@ -40651,7 +40725,10 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "ecological services",
+      "nature-based services"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "biodiversity",

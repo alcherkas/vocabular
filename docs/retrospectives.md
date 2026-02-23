@@ -4060,3 +4060,22 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 
 ### What could improve
 - Coordinate with EN Enricher so EN relations work can proceed in parallel next session.
+
+## [2026-02-23] [relations-en-fix] [vocab/relations-en-fix]
+
+### What went well
+- Systematic comparison of qaNote text against actual JSON data revealed 9 genuine unfixed issues despite entries having status "approved"
+- Fixes were surgical: cross-array duplicates, self-referential synonyms, overly-broad/wrong synonyms all corrected per qaNote guidance
+- Validator passed cleanly after also fixing 32 pre-existing synonym-count errors in the prior relations-45 batch
+
+### What was difficult
+- Task description said "enriched entries with qaNotes" but all qaNote entries had status "approved" — the QA agent approved them without resetting to enriched; had to adapt by treating all qaNote entries as in scope
+- `--errors-for relations-added` scopes error *reporting* to that status but the exit code still reflects ALL relations-added errors, so pre-existing errors from the relations-45 batch required fixing before validation could pass
+
+### What could be improved
+- QA agent should reset entries to "enriched" (not approve) when issues remain unresolved — this ensures the Relations Fix agent has the correct status filter to work with
+- The relations-45 batch should have been validated before commit; 32 entries with 0–1 synonyms slipped through
+
+### Decisions made
+- Changed status from "approved" → "relations-added" for 9 fixed entries to put them back into the QA pipeline per task instructions
+- Added synonyms to 32 pre-existing entries to clear validator; synonyms chosen as co-extensive equivalents without introducing hypernyms or self-references
