@@ -4003,3 +4003,31 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - Confidence: 95%. Lithuanian B1/B2 emotion vocabulary is well-attested and these are all common, useful terms.
 - 390 stubs remain after this session (the 35 emotion stubs added and immediately enriched; net stub count unchanged in original stubs).
 - No merge performed as instructed.
+
+---
+
+## 2025-07-24 — EN Enricher batch, agent enricher-en-41
+
+### What was done
+- Preflight JSON check on `words_staging.json` (1330 entries) → JSON OK.
+- Confirmed 125 stubs available at session start.
+- Enriched 35 English stubs focusing on the requested domains:
+  - **Art history / visual arts (8)**: trompe-l'oeil, ekphrasis, sinopia, fresco, intarsia, allegory, mimesis, perspectivism
+  - **Rhetoric / figures of speech (10)**: ethos, pathos, logos, euphemism, epizeuxis, panegyric, apostrophe, periphrasis, anadiplosis, parallelism, anastrophe, oxymoron (12 total)
+  - **Logic / reasoning (8)**: modus ponens, modus tollens, dilemma, syllogism, tautology, reductio ad absurdum, petitio principii, non sequitur
+  - **Philosophy / mathematics (7)**: dialectics, hermeneutics, axiom, conjecture, lemma, a priori, a posteriori
+- All meanings written with 1–2 distinct senses per entry; example sentences natural and non-boilerplate.
+- Ran `python3 scripts/validate_words.py --errors-for enriched` → **PASSED** (0 errors in enriched batch; 123 pre-existing warnings in approved/relations-added statuses, not this batch's responsibility).
+- Committed as `vocab(enricher-en-41): enrich 35 English stubs`.
+- 90 stubs remain for subsequent enricher sessions.
+
+### Semantic quality decisions
+- **Dual-sense entries**: ethos (rhetorical vs. cultural character), pathos (rhetorical vs. aesthetic quality), logos (rhetorical vs. philosophical), euphemism (practical vs. rhetorical practice), tautology (logic vs. rhetoric), dilemma (everyday vs. formal logic), non sequitur (formal logic vs. conversational), fresco (technique vs. resulting artwork), axiom (mathematics vs. general principle), conjecture (mathematics vs. general opinion), lemma (mathematics vs. linguistics), a priori (epistemological vs. pragmatic), allegory (literary vs. visual art), dialectics (Socratic vs. Hegelian/Marxist), mimesis (artistic vs. biological).
+- **Single-sense entries justified**: sinopia, ekphrasis, epizeuxis, panegyric, anadiplosis, anastrophe, modus ponens, modus tollens, syllogism, reductio ad absurdum, petitio principii, hermeneutics, intarsia, perspectivism, a posteriori — terms with one dominant well-attested meaning in context; forced secondary senses would be inaccurate.
+- Requested terms not found as stubs (not enriched): chiaroscuro, sfumato, iconography, anaphora, enthymeme, chiasmus, litotes, synecdoche, metonymy, equivocation, paradox — these were either absent from staging or already at a higher pipeline status.
+- All relation arrays left as `[]` — Relations Agent will populate in next pass.
+
+### Doubts / meta-notes
+- Confidence: 96%. All terms are well-attested C1+ academic vocabulary with clear meanings.
+- `apostrophe` warranted two senses (rhetorical device vs. punctuation mark) as both are legitimately distinct meanings at C1 level.
+- No merge performed as instructed.
