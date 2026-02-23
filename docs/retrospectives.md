@@ -3976,3 +3976,30 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - Confidence: 93%. Some EN synonyms for highly specific named theories (`prospect theory`, `Dunning-Kruger effect`, `Arrow's impossibility theorem`) have limited true synonyms; chose closest attested alternatives.
 - LT 328 enriched entries remain after this session.
 - No merge performed as instructed.
+
+---
+
+## Session: vocab/enricher-lt-55 — LT Enricher (emotions & personality)
+**Date**: 2025-07-24
+**Agent**: Enricher (LT), branch `vocab/enricher-lt-55`
+**Commit**: 5e5159b — `vocab(enricher-lt-55): enrich 35 Lithuanian stubs`
+
+### What was done
+- Preflight JSON check on `words_lt_staging.json` (2100 entries at start) → JSON OK.
+- Confirmed 390 stubs available; checked staging for existing emotion/personality coverage (nerimas, pyktis, gėda, pavydas, pasididžiavimas, liūdesys, džiaugsmas, meilė, baimė, nuostaba already approved; kantrus enriched; švelnus approved).
+- Added 35 new B1/B2-level Lithuanian emotion and personality stubs:
+  - **20 nouns** (emotions/feelings/moods): nusivylimas, susijaudinimas, sielvartas, ilgesys, palengvėjimas, vienatvė, nostalgija, neviltis, nuotaika, jaudulys, nustebimas, gailestis, išdidumas, nuovargis, neapykanta, kaltė, atsidavimas, rūpestis, užuojauta, pasitikėjimas.
+  - **15 adjectives** (personality traits/moods): ambicingas, impulsyvus, užsispyręs, jautrus, savarankiškas, empatiškas, optimistiškas, pesimistiškas, atkaklus, kūrybiškas, nuoširdus, drąsus, drovus, niūrus, nervingas.
+- All terms lowercase (common nouns/adjectives). All POS and register values from validator-approved enum.
+- Ran `python3 scripts/validate_words.py --errors-for enriched` → PASSED (0 errors in enriched batch; 98 pre-existing warnings in approved status, not this batch's responsibility).
+
+### Semantic quality decisions
+- Entries with dual senses: ilgesys (general longing vs. literary romantic longing), vienatvė (unwanted loneliness vs. chosen solitude), išdidumas (positive pride vs. arrogance), atkaklus (determined person vs. persistent physical symptom), nuoširdus (sincere expression vs. authentic character) — distinct senses with different examples and register/tags where appropriate.
+- Single-sense entries justified: nostalgija, neapykanta, nustebimas, palengvėjimas — limited to one well-defined core meaning to avoid forced sense-splitting.
+- `nervingas` used `informal` register for the irritability sense (colloquial usage); other senses `general`.
+- All relation arrays set to `[]` — Relations Agent will fill these in a subsequent pass.
+
+### Doubts / meta-notes
+- Confidence: 95%. Lithuanian B1/B2 emotion vocabulary is well-attested and these are all common, useful terms.
+- 390 stubs remain after this session (the 35 emotion stubs added and immediately enriched; net stub count unchanged in original stubs).
+- No merge performed as instructed.
