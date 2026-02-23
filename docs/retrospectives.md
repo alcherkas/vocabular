@@ -4645,3 +4645,33 @@ Enriched 35 stub entries across five thematic groups: numbers (30–100), bedroo
 - Check VALID_PARTS_OF_SPEECH in the validator before assigning POS — `numeral` is valid but easy to overlook.
 - Plural-only nouns like `replės` and `užuolaidos` should note the plural form in the definition to avoid confusion.
 >>>>>>> vocab/enricher-lt-66
+
+---
+## Retro — vocab/enricher-en-49 (EN Enricher, 35 stubs)
+
+**Date:** 2025-07-18
+**Agent:** EN Vocabulary Enricher (batch 49)
+**Branch:** vocab/enricher-en-49
+
+### What was done
+Enriched 35 English stub entries in `words_staging.json`, spanning:
+- Behavioural economics (present bias, decoy effect, hot-cold empathy gap, optimism bias, planning fallacy, temporal discounting, bounded rationality, libertarian paternalism)
+- Game theory (Bayesian game, folk theorem, mechanism design, stag hunt, war of attrition, evolutionarily stable strategy)
+- Evolutionary biology (reciprocal altruism, neutral evolution, molecular clock, coevolution, batesian mimicry, fitness landscape)
+- Materials science (fracture toughness, yield strength, work hardening, eutectic, precipitation hardening, grain boundary)
+- Architecture / urban design (genius loci, critical regionalism, vernacular architecture, new urbanism)
+- Political theory (agonism, necropolitics, civic virtue, civil society, polyarchy)
+
+Each entry received: `partOfSpeech`, `register`, `level` (C1/C2), and 1–2 `meanings` with definition, example, register, and tags.
+
+### Validation
+`validate_words.py --errors-for enriched` → PASSED (198 words, 0 errors).
+
+### What went well
+- Single-pass Python enrichment script updated all 35 entries cleanly.
+- Domain coverage was varied and coherent within each cluster.
+- Validation passed on the first run with no fixes required.
+
+### What could improve
+- Multi-sense entries (e.g. "war of attrition") benefit from splitting general and technical registers explicitly; worth doing consistently for future batches.
+- Terms from specialist domains (game theory, materials science) could cross-reference related terms for better app discoverability.
