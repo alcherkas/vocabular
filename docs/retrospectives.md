@@ -5163,3 +5163,27 @@ None.
 
 ### Blockers
 None.
+
+---
+
+## Retrospective: enricher-lt-64
+
+**Date**: 2025-07-14
+**Agent**: LT Enricher
+**Branch**: `vocab/enricher-lt-64`
+**Task**: Enrich 40 Lithuanian stubs from `words_lt_staging.json`
+
+### Summary
+Enriched 40 LT stubs (18 nouns, 10 verbs, 7 adjectives, 4 adverbs, 1 conjunction) with definitions, examples, translations, levels (all A2), registers, and status set to `enriched`. All 10 verbs received `forms` (present3/past3) and `governedCase`. Fixed 4 terms to proper lemma forms: `keleiviai→keleivis`, `simptomai→simptomas`, `atliekos→atlieka`, `priklauso→priklausyti`.
+
+### What went well
+- Validation passed on first attempt with zero errors.
+- Term normalization (plural→singular, conjugated→infinitive) was straightforward.
+- Worktree isolation kept work clean.
+
+### What could be improved
+- Could add a second meaning for more polysemous words (only `teisė` got two meanings).
+- A Lithuanian spell-checker pass on definitions/examples would catch any typos.
+
+### Blockers
+None.
