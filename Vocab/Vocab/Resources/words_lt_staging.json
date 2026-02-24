@@ -473,12 +473,25 @@
     "term": "šviežiai spaustos sultys",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Juice made by squeezing fresh fruit immediately before drinking.",
+        "example": "Pusryčiams ji geria šviežiai spaustas sultis.",
+        "register": "general",
+        "tags": [
+          "food",
+          "drinks",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "freshly squeezed juice",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "staliukas",
@@ -883,13 +896,26 @@
   {
     "term": "ketvirta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 4th, feminine form; used with feminine nouns to indicate position in a sequence.",
+        "example": "Ji gyvena ketvirtame aukšte.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "fourth (feminine)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "penktas",
@@ -917,13 +943,26 @@
   {
     "term": "penkta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 5th, feminine form; indicating the fifth position or item.",
+        "example": "Penkta eilutė yra tuščia.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "fifth (feminine)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "šeštas",
@@ -951,13 +990,26 @@
   {
     "term": "šešta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 6th, feminine form; the one numbered six in a series.",
+        "example": "Šešta diena – šeštadienis.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "sixth (feminine)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "septintas",
@@ -985,13 +1037,26 @@
   {
     "term": "septinta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 7th, feminine form; the item in seventh position.",
+        "example": "Septinta savaitės diena – sekmadienis.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "seventh (feminine)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "aštuntas",
@@ -1019,13 +1084,26 @@
   {
     "term": "aštunta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 8th, feminine form; occupying position eight in a series.",
+        "example": "Aštunta klasė – paskutinė pradinėje mokykloje.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "eighth (feminine)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "devintas",
@@ -1053,13 +1131,26 @@
   {
     "term": "devinta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 9th, feminine form; the one that comes after eighth.",
+        "example": "Devinta valanda ryto – laikas eiti į darbą.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "ninth (feminine)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "dešimtas",
@@ -1087,233 +1178,506 @@
   {
     "term": "dešimta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 10th, feminine form; the last single-digit ordinal.",
+        "example": "Dešimta vieta – paskutinė dešimtuke.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "tenth (feminine)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "vienuoliktas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 11th, masculine form; the one numbered eleven in a series.",
+        "example": "Vienuoliktas žaidėjas įbėgo į aikštelę.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "eleventh (masculine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "vienuolikta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 11th, feminine form; used with feminine nouns indicating position eleven.",
+        "example": "Vienuolikta vieta – labai geras rezultatas.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "eleventh (feminine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "dvyliktas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 12th, masculine form; the item in position twelve.",
+        "example": "Dvyliktas mėnuo – gruodis.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "twelfth (masculine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "dvylikta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 12th, feminine form; the one coming after eleventh.",
+        "example": "Dvylikta eilutė prasideda nauju skyriumi.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "twelfth (feminine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "tryliktas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 13th, masculine form; position thirteen in a sequence.",
+        "example": "Tryliktas numeris kai kuriems atrodo nesėkmingas.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "thirteenth (masculine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "trylikta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 13th, feminine form; the one occupying thirteenth place.",
+        "example": "Trylikta vieta nebuvo tokia bloga.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "thirteenth (feminine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "keturioliktas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 14th, masculine form; the item in fourteenth position.",
+        "example": "Keturioliktas vasario – Valentino diena.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "fourteenth (masculine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "keturiolikta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 14th, feminine form; used with feminine nouns at position fourteen.",
+        "example": "Keturiolikta eilutė buvo tuščia.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "fourteenth (feminine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "penkioliktas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 15th, masculine form; position fifteen in a series.",
+        "example": "Penkioliktas numeris buvo jo mėgstamiausias.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "fifteenth (masculine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "penkiolikta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 15th, feminine form; the one at fifteenth position.",
+        "example": "Penkiolikta vieta – puikus rezultatas.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "fifteenth (feminine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "šešioliktas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 16th, masculine form; the item numbered sixteen.",
+        "example": "Šešioliktas amžius – Renesanso epocha.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "sixteenth (masculine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "šešiolikta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 16th, feminine form; used with feminine nouns indicating position sixteen.",
+        "example": "Šešiolikta eilutė yra labai svarbi.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "sixteenth (feminine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "septynioliktas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 17th, masculine form; position seventeen in a count.",
+        "example": "Septynioliktas dalyvis baigė varžybas.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "seventeenth (masculine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "septyniolikta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 17th, feminine form; the item in seventeenth place.",
+        "example": "Septyniolikta vieta buvo jos geriausias rezultatas.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "seventeenth (feminine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "aštuonioliktas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 18th, masculine form; the one at position eighteen.",
+        "example": "Aštuonioliktas gimtadienis – svarbus gyvenimo etapas.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "eighteenth (masculine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "aštuoniolikta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 18th, feminine form; used with feminine nouns at eighteenth position.",
+        "example": "Aštuoniolikta eilutė prasideda nauju sakiniu.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "eighteenth (feminine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "devynioliktas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 19th, masculine form; the item in nineteenth position.",
+        "example": "Devynioliktas amžius – industrializacijos laikotarpis.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "nineteenth (masculine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "devyniolikta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 19th, feminine form; the one at nineteenth place.",
+        "example": "Devyniolikta vieta – ne blogai varžybose.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "nineteenth (feminine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "dvidešimtas",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 20th, masculine form; the last item in a set of twenty.",
+        "example": "Dvidešimtas amžius – moderniosios istorijos epocha.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "twentieth (masculine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "dvidešimta",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "numeral",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ordinal number 20th, feminine form; the one at twentieth position.",
+        "example": "Dvidešimta vieta – žemiau jo lūkesčių.",
+        "register": "general",
+        "tags": [
+          "numbers",
+          "ordinals",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "twentieth (feminine)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "Ožiaragis",
@@ -2301,24 +2665,48 @@
   {
     "term": "dėvi",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'dėvėti'; to wear (clothing) habitually or regularly.",
+        "example": "Ji visada dėvi mėlynus drabužius.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "wears (present tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "dėvėjo",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'dėvėti'; used to wear, was wearing clothing.",
+        "example": "Vakar jis dėvėjo naują švarką.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "wore (past tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "vilkėti",
@@ -2353,24 +2741,48 @@
   {
     "term": "vilki",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'vilkėti'; to be dressed in, to have on (a garment).",
+        "example": "Jis šiandien vilki baltus marškinius.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "wears (present tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "vilkėjo",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'vilkėti'; was wearing, had on (a garment).",
+        "example": "Vakarėlyje ji vilkėjo raudoną suknelę.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "wore (past tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "apsirengti",
@@ -2407,24 +2819,50 @@
   {
     "term": "apsirengia",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'apsirengti'; to dress oneself, to put on clothes.",
+        "example": "Vaikas apsirengia pats ir eina į mokyklą.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "daily-routine",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "gets dressed (present tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "apsirengė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'apsirengti'; dressed oneself, put on clothes.",
+        "example": "Ji greitai apsirengė ir išbėgo iš namų.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "daily-routine",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "got dressed (past tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "nusirengti",
@@ -2460,24 +2898,50 @@
   {
     "term": "nusirengia",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'nusirengti'; to take off clothes, to undress.",
+        "example": "Vakare jis nusirengia ir eina miegoti.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "daily-routine",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "undresses (present tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "nusirengė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'nusirengti'; took off clothes, undressed.",
+        "example": "Sugrįžęs namo jis nusirengė ir atsipalaidavo.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "daily-routine",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "undressed (past tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "apsiauti",
@@ -2511,24 +2975,50 @@
   {
     "term": "apsiauna",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'apsiuoti'; to put on footwear.",
+        "example": "Vaikas apsiauna batus ir eina laukan.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "footwear",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "puts on shoes (present tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "apsiavė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'apsiuoti'; put on shoes or other footwear.",
+        "example": "Ji apsiavė aukštakulnius ir išėjo.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "footwear",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "put on shoes (past tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "nusiauti",
@@ -2562,134 +3052,282 @@
   {
     "term": "nusiauna",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'nusiauti'; to remove footwear.",
+        "example": "Lietuvoje įprasta nusiauna batus prie durų.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "footwear",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "takes off shoes (present tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "nusiavė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'nusiauti'; removed shoes or other footwear.",
+        "example": "Grįžęs namo jis nusiavė ir atsipalaidavo.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "footwear",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "took off shoes (past tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "yra apsirengęs",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Stative phrase indicating a male person is in a dressed state; describes the resulting state of having put on clothes.",
+        "example": "Jis jau yra apsirengęs ir laukia prie durų.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "is dressed (masculine)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "yra apsirengusi",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Stative phrase indicating a female person is in a dressed state; describes the resulting state of having put on clothes.",
+        "example": "Ji jau yra apsirengusi ir pasiruošusi išeiti.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "is dressed (feminine)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "pasimatuoja",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'pasimatuoti'; to try on clothing or footwear to check fit.",
+        "example": "Parduotuvėje ji pasimatuoja keletą suknelių.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "shopping",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "tries on (present tense)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "pasimatavo",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'pasimatuoti'; tried on a garment to see if it fits.",
+        "example": "Ji pasimatavo daug rūbų, bet nieko nenupirko.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "shopping",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "tried on (past tense)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "parodo",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'parodyti'; to show, to display something to someone.",
+        "example": "Pardavėja parodo naujus modelius.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "shows (present tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "parodė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'parodyti'; showed, displayed something to someone.",
+        "example": "Ji parodė man savo naujus drabužius.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "showed (past tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "tinka",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'tikti'; to fit, to suit, to be appropriate.",
+        "example": "Ši suknelė tau labai tinka.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "suits, fits (present tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "tiko",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'tikti'; suited, was appropriate, fitted well.",
+        "example": "Tas švarkas jam labai tiko.",
+        "register": "general",
+        "tags": [
+          "clothing",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "suited, fitted (past tense)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "pataria",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'patarti'; to advise, to give a recommendation.",
+        "example": "Pardavėja pataria rinktis tamsesnius drabužius.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "advises, recommends (present tense)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "patarė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'patarti'; gave advice, made a recommendation.",
+        "example": "Draugė patarė jai nusipirkti tuos batus.",
+        "register": "general",
+        "tags": [
+          "shopping",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "advised, recommended (past tense)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "megzti",
@@ -2749,13 +3387,26 @@
   {
     "term": "mezgė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'megzti'; made fabric by interlocking loops of yarn with needles.",
+        "example": "Močiutė mezgė megztinį per visą žiemą.",
+        "register": "general",
+        "tags": [
+          "crafts",
+          "clothing",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "knitted (past tense)",
+    "register": "general",
+    "level": "B1"
   },
   {
     "term": "siūti",
@@ -2811,13 +3462,26 @@
   {
     "term": "siuvo",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'siūti'; joined fabric with thread and needle; made clothing by sewing.",
+        "example": "Ji siuvo suknelę visą savaitę.",
+        "register": "general",
+        "tags": [
+          "crafts",
+          "clothing",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "sewed (past tense)",
+    "register": "general",
+    "level": "B1"
   },
   {
     "term": "kailiniai",
@@ -2997,13 +3661,25 @@
   {
     "term": "ausų",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Genitive plural form of 'ausis' (ear); used in compound expressions meaning 'of ears' or 'ear-'.",
+        "example": "Ausų kištukai padeda miegoti.",
+        "register": "general",
+        "tags": [
+          "body",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "of ears (genitive plural)",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "susižeisti",
@@ -3464,13 +4140,26 @@
   {
     "term": "būda",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A small shelter built for a dog to sleep in; a kennel.",
+        "example": "Šuo guli savo būdoje.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "house",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "doghouse, kennel",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "badmintonas",
@@ -3502,15 +4191,28 @@
     "qa_notes": "Term starts with uppercase 'B'. 'Badmintonas' is a common loanword/sport name in Lithuanian, not a genuine proper noun. Lowercase to 'badmintonas' per LT capitalisation rules."
   },
   {
-    "term": "Senis besmegenis",
+    "term": "senis besmegenis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A figure made of stacked snowballs, typically decorated with eyes, a nose, and a scarf; a snowman.",
+        "example": "Vaikai lauke padarė senį besmogenį.",
+        "register": "general",
+        "tags": [
+          "winter",
+          "children",
+          "A1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "snowman",
+    "register": "general",
+    "level": "A1"
   },
   {
     "term": "švenčia",
@@ -3568,12 +4270,25 @@
     "term": "eglutės papuošalai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ornaments and decorations used to adorn a Christmas tree.",
+        "example": "Vaikai kartu kabino eglutės papuošalus.",
+        "register": "general",
+        "tags": [
+          "Christmas",
+          "holidays",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "Christmas tree decorations",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "puošti",
@@ -3633,35 +4348,71 @@
   {
     "term": "puošė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'puošti'; adorned, decorated, made something more beautiful.",
+        "example": "Šeima puošė eglutę Kūčių vakarą.",
+        "register": "general",
+        "tags": [
+          "holidays",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "decorated (past tense)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "pakuoja",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'pakuoti'; to pack, to put items into a bag or box.",
+        "example": "Ji pakuoja lagaminą prieš kelionę.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "packs (present tense)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "pakavo",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'pakuoti'; packed items into a container for storage or travel.",
+        "example": "Jis pakavo dovanas į dėžutes.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "packed (past tense)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "dažyti",
@@ -3704,24 +4455,48 @@
   {
     "term": "dažo",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'dažyti'; to paint or color a surface with dye or paint.",
+        "example": "Vaikas dažo piešinį spalvotais pieštukais.",
+        "register": "general",
+        "tags": [
+          "art",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "paints, colors (present tense)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "dažė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'dažyti'; applied paint or color to a surface.",
+        "example": "Jis dažė sieną balta spalva.",
+        "register": "general",
+        "tags": [
+          "art",
+          "A2"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "painted, colored (past tense)",
+    "register": "general",
+    "level": "A2"
   },
   {
     "term": "pinti",
@@ -3749,24 +4524,50 @@
   {
     "term": "pina",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person present tense of 'pinti'; to braid or weave by interlacing strands together.",
+        "example": "Ji pina kasą kasdien prieš mokyklą.",
+        "register": "general",
+        "tags": [
+          "crafts",
+          "hair",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "braids, weaves (present tense)",
+    "register": "general",
+    "level": "B1"
   },
   {
     "term": "pynė",
     "language": "lt",
-    "partOfSpeech": "",
-    "status": "stub",
-    "meanings": [],
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Third-person past tense of 'pinti'; braided or wove by interlacing strands.",
+        "example": "Mama pynė dukrai kasą prieš šventę.",
+        "register": "general",
+        "tags": [
+          "crafts",
+          "hair",
+          "B1"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "braided, wove (past tense)",
+    "register": "general",
+    "level": "B1"
   },
   {
     "term": "kalbos ir knygos diena",
