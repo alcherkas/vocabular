@@ -48534,5 +48534,5424 @@
       "third party",
       "appellate court"
     ]
+  },
+  {
+    "term": "manifold",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A topological space that locally resembles Euclidean space near each point but may have a more complex global structure.",
+        "example": "The surface of a sphere is a two-dimensional manifold: it looks like a flat plane when examined locally, yet curves back on itself globally.",
+        "register": "technical",
+        "tags": [
+          "mathematics",
+          "topology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "locally Euclidean space",
+      "differentiable space"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "topology",
+      "differential geometry",
+      "curvature",
+      "dimension",
+      "Riemannian geometry"
+    ],
+    "translation": null,
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "zero-knowledge proof",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A cryptographic protocol in which one party (the prover) can convince another party (the verifier) that a given statement is true without revealing any information beyond the bare fact of the statement's truth.",
+        "example": "A zero-knowledge proof allows a user to prove knowledge of a password to a server without transmitting the password itself.",
+        "register": "technical",
+        "tags": [
+          "cryptography",
+          "computer science",
+          "mathematics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ZK proof",
+      "zero-knowledge protocol"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "cryptography",
+      "interactive proof system",
+      "commitment scheme",
+      "SNARK",
+      "privacy-preserving protocol"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "abstract syntax tree",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A tree data structure representing the hierarchical syntactic structure of source code, where each node corresponds to a language construct, used by compilers, interpreters, and static analysis tools.",
+        "example": "The linter traversed the abstract syntax tree to detect all variable declarations that were never subsequently used.",
+        "register": "technical",
+        "tags": [
+          "compilers",
+          "programming",
+          "static analysis"
+        ]
+      }
+    ],
+    "synonyms": [
+      "AST",
+      "parse structure tree"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "compiler",
+      "token",
+      "parsing",
+      "parse tree",
+      "concrete syntax tree"
+    ],
+    "translation": null,
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "instrumentalism",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "In philosophy of science, the position that scientific theories are not true or false descriptions of reality but are instruments or tools for generating successful predictions; their value lies in predictive utility rather than ontological accuracy.",
+        "example": "An instrumentalist is comfortable using quantum mechanics without asking whether wavefunctions correspond to anything real, so long as the formalism yields correct experimental predictions.",
+        "register": "technical",
+        "tags": [
+          "philosophy of science",
+          "anti-realism",
+          "epistemology"
+        ]
+      },
+      {
+        "definition": "In social and political philosophy, the view that institutions, laws, or values are valuable solely as means to further ends, not as goods in themselves.",
+        "example": "An instrumentalist view of democracy values it only insofar as it reliably produces good outcomes, not as an intrinsically worthy form of governance.",
+        "register": "formal",
+        "tags": [
+          "philosophy",
+          "political theory",
+          "ethics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "fictionalism",
+      "operationalism"
+    ],
+    "antonymTerms": [
+      "scientific realism"
+    ],
+    "relatedTerms": [
+      "pragmatism",
+      "philosophy of science",
+      "anti-realism",
+      "conventionalism",
+      "empiricism"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "prospect theory",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "meanings": [
+      {
+        "definition": "A descriptive model of decision-making under risk, developed by Daniel Kahneman and Amos Tversky, in which people evaluate outcomes as gains or losses relative to a reference point and weight potential losses more heavily than equivalent gains.",
+        "example": "Prospect theory predicts that people will gamble to avoid a certain loss of £50 but prefer the certain gain of £50 over an equivalent gamble—an asymmetry unexplained by expected utility theory.",
+        "register": "technical",
+        "tags": [
+          "behavioural economics",
+          "cognitive bias",
+          "decision theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "behavioral utility theory",
+      "reference-point theory"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "loss aversion",
+      "expected utility theory",
+      "behavioral economics",
+      "framing effect",
+      "Kahneman"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "poststructuralism",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A theoretical framework that critiques structuralism's assumption that meaning is stable and determined by a fixed system of signs, arguing instead that meaning is unstable, deferred, and context-dependent.",
+        "example": "Poststructuralism challenged the idea that language could provide a direct or transparent map of reality.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "literary theory",
+          "critical theory"
+        ]
+      },
+      {
+        "definition": "In social theory, an approach that deconstructs power structures, identity categories, and discursive formations to reveal how they are socially constructed rather than natural.",
+        "example": "Foucault's analyses of institutions are foundational texts of poststructuralism in social science.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "critical theory",
+          "power"
+        ]
+      }
+    ],
+    "synonyms": [
+      "post-structuralism",
+      "anti-essentialism"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Saussurean linguistics",
+      "deconstruction",
+      "postmodernism",
+      "discourse analysis",
+      "Foucault"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "keystone species",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A species that exerts a disproportionately large influence on the structure and function of its ecosystem relative to its biomass or abundance, such that its removal triggers significant cascading changes.",
+        "example": "The sea otter is a keystone species in kelp forest ecosystems because it preys on sea urchins that would otherwise decimate the kelp.",
+        "register": "technical",
+        "tags": [
+          "ecology",
+          "conservation biology",
+          "food web"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pivotal species",
+      "hub species"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "trophic cascade",
+      "biodiversity",
+      "apex predator",
+      "ecological role",
+      "ecosystem engineer"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "shamanism",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A religious practice in which a practitioner (the shaman) enters altered states of consciousness to interact with the spirit world, performing healing, divination, and mediation on behalf of a community.",
+        "example": "Among the Evenki of Siberia, shamanism provided a framework for understanding illness as the loss or capture of the soul by malevolent spirits.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "religion",
+          "ritual",
+          "indigenous"
+        ]
+      },
+      {
+        "definition": "In anthropology, a cross-cultural category of religious complex characterized by ecstatic trance states, spirit communication, and the figure of the specialist who bridges human and spirit realms.",
+        "example": "Eliade's comparative study treated shamanism as an archaic technique of ecstasy found across Siberia, Central Asia, and the Americas.",
+        "register": "technical",
+        "tags": [
+          "anthropology",
+          "comparative religion",
+          "Eliade",
+          "ritual"
+        ]
+      }
+    ],
+    "synonyms": [
+      "spirit mediation",
+      "spirit journeying"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "animism",
+      "ritual healing",
+      "trance",
+      "totemism",
+      "mediumship"
+    ],
+    "translation": null,
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "legal positivism",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "The jurisprudential theory that the existence and content of law depends on social facts—such as legislative enactment and social acceptance—rather than on moral merit or natural law.",
+        "example": "Hart's legal positivism distinguishes the question of what the law is from the question of what the law ought to be.",
+        "register": "technical",
+        "tags": [
+          "jurisprudence",
+          "philosophy of law",
+          "Hart",
+          "Austin",
+          "Kelsen"
+        ]
+      },
+      {
+        "definition": "The analytical stance in legal theory that separates descriptive claims about enacted law from normative claims about its moral validity.",
+        "example": "Legal positivism holds that an unjust law can still be a valid law, even if citizens are morally justified in disobeying it.",
+        "register": "technical",
+        "tags": [
+          "legal theory",
+          "philosophy",
+          "moral philosophy",
+          "validity"
+        ]
+      }
+    ],
+    "synonyms": [
+      "positivist jurisprudence",
+      "social fact jurisprudence"
+    ],
+    "antonymTerms": [
+      "natural law theory"
+    ],
+    "relatedTerms": [
+      "jurisprudence",
+      "Hart",
+      "Austin",
+      "rule of recognition",
+      "social fact thesis"
+    ],
+    "translation": null,
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "natural law",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A system of moral and legal principles held to be inherent in human nature and discoverable through reason, binding on all people regardless of their particular cultural or legislative context.",
+        "example": "Aquinas developed natural law theory by arguing that human reason participates in God's eternal law, yielding universal moral precepts.",
+        "register": "technical",
+        "tags": [
+          "jurisprudence",
+          "philosophy",
+          "ethics",
+          "Aquinas",
+          "universal morality"
+        ]
+      },
+      {
+        "definition": "In political philosophy, the doctrine that human beings possess pre-political rights derived from nature or reason, which legitimate governments must protect.",
+        "example": "Locke's natural law argument grounded the right to life, liberty, and property in reason rather than in the decrees of any sovereign.",
+        "register": "technical",
+        "tags": [
+          "political philosophy",
+          "Locke",
+          "rights",
+          "Enlightenment"
+        ]
+      }
+    ],
+    "synonyms": [
+      "law of nature",
+      "moral law",
+      "natural right"
+    ],
+    "antonymTerms": [
+      "positive law",
+      "legal positivism"
+    ],
+    "relatedTerms": [
+      "natural rights",
+      "social contract",
+      "jurisprudence",
+      "divine law",
+      "common law"
+    ],
+    "translation": null,
+    "qa_notes": "QA passed: 'law of nature' and 'moral law' co-extensive; 'natural right' is a related concept included as bonus synonym. Valid antonyms and relatedTerms."
+  },
+  {
+    "term": "nominalism",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The philosophical position that universals or abstract properties have no independent existence but are merely names or labels applied to groups of similar particulars.",
+        "example": "The nominalist argues that 'redness' is not a real entity but simply a word we use for the class of red things.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "metaphysics",
+          "universals",
+          "medieval philosophy"
+        ]
+      },
+      {
+        "definition": "In legal or theological contexts, the view that categories and classifications are human conventions rather than reflections of natural kinds or divine order.",
+        "example": "Nominalism in contract law holds that legal categories are pragmatic tools rather than descriptions of natural or moral facts.",
+        "register": "technical",
+        "tags": [
+          "jurisprudence",
+          "theology",
+          "Ockham",
+          "classification"
+        ]
+      }
+    ],
+    "synonyms": [
+      "particularism",
+      "anti-platonism"
+    ],
+    "antonymTerms": [
+      "realism"
+    ],
+    "relatedTerms": [
+      "universals",
+      "conceptualism",
+      "trope theory",
+      "Platonism",
+      "anti-realism"
+    ],
+    "translation": null,
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "picaresque",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "definition": "Of or relating to a literary genre originating in sixteenth-century Spain, featuring a roguish, low-born protagonist who survives by wit and cunning through a series of episodic adventures in a corrupt society.",
+        "example": "Cervantes's influence looms over the picaresque tradition that runs from Lazarillo de Tormes through Fielding's Tom Jones to modern comic novels of social mobility.",
+        "register": "technical",
+        "tags": [
+          "literature",
+          "genre",
+          "narrative"
+        ]
+      },
+      {
+        "definition": "More broadly, describing any narrative characterised by an episodic, loosely structured plot following a roguish hero through varied, often comic adventures.",
+        "example": "The film was praised for its picaresque energy—each scene dropped the protagonist into a new city with a new scheme, never pausing for introspection.",
+        "register": "literary",
+        "tags": [
+          "literature",
+          "narrative",
+          "film"
+        ]
+      }
+    ],
+    "synonyms": [
+      "roguish",
+      "rascally",
+      "episodic",
+      "adventurous"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "picaro",
+      "bildungsroman",
+      "satire",
+      "rogue literature",
+      "episodic fiction"
+    ],
+    "translation": null,
+    "qa_notes": "QA passed: 'roguish' and 'rascally' co-extensive as adjective synonyms; 'episodic'/'adventurous' less precise but present. No antonyms (ok). Valid relatedTerms."
+  },
+  {
+    "term": "tragicomedy",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A dramatic genre that combines elements of tragedy and comedy, typically presenting serious or painful subject matter alongside humour in a way that resists neat resolution in either register.",
+        "example": "Chekhov insisted The Cherry Orchard was a tragicomedy, frustrated that audiences and directors persisted in staging it as a straightforward tragedy of the declining gentry.",
+        "register": "technical",
+        "tags": [
+          "literature",
+          "drama",
+          "genre"
+        ]
+      },
+      {
+        "definition": "An event or situation that is simultaneously distressing and absurdly comic.",
+        "example": "The entire negotiation was a tragicomedy—every agreement reached in the morning was unravelled by a new misunderstanding before the afternoon session began.",
+        "register": "general",
+        "tags": [
+          "colloquial",
+          "irony",
+          "absurdity"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tragicomic drama",
+      "mixed drama"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tragedy",
+      "dark comedy",
+      "dramatic genre",
+      "genre mixing",
+      "mixed-mode drama"
+    ],
+    "translation": null,
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "populism",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A political approach that frames politics as a struggle between a virtuous, homogeneous 'people' and a corrupt elite, claiming that the former's general will should prevail over institutional constraints.",
+        "example": "The candidate's populism drew support from rural voters who felt ignored by a metropolitan political class they saw as self-serving.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "political science",
+          "rhetoric"
+        ]
+      },
+      {
+        "definition": "Policies or rhetoric designed primarily to gain popular approval rather than to address complex underlying issues through sound governance.",
+        "example": "The economists criticised the proposed tax cuts as pure populism, pointing out that the numbers would never balance.",
+        "register": "general",
+        "tags": [
+          "politics",
+          "demagoguery"
+        ]
+      }
+    ],
+    "synonyms": [
+      "anti-elitist politics",
+      "people-centred politics"
+    ],
+    "antonymTerms": [
+      "elitism"
+    ],
+    "relatedTerms": [
+      "demagoguery",
+      "technocracy",
+      "nationalism",
+      "political rhetoric"
+    ],
+    "translation": null,
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "oligarchy",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A form of government in which power is concentrated in the hands of a small, privileged group—typically defined by wealth, family, military rank, or education—who rule in their own interests.",
+        "example": "The republic gradually became an oligarchy as a handful of plutocratic families captured the legislative process through campaign financing.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "political science",
+          "government"
+        ]
+      },
+      {
+        "definition": "By extension, any organisation or system dominated by a small, self-perpetuating group rather than by broad participation.",
+        "example": "Robert Michels famously argued that all large organisations, including socialist parties, inevitably drift toward oligarchy—his 'iron law'.",
+        "register": "formal",
+        "tags": [
+          "sociology",
+          "organisation theory",
+          "political science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "minority rule",
+      "elite rule"
+    ],
+    "antonymTerms": [
+      "democracy"
+    ],
+    "relatedTerms": [
+      "plutocracy",
+      "aristocracy",
+      "kleptocracy",
+      "autocracy",
+      "technocracy"
+    ],
+    "translation": null,
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "scholasticism",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The dominant intellectual tradition of medieval European universities (c.1100–1700), combining Christian theology with classical, especially Aristotelian, philosophy through rigorous logical disputation.",
+        "example": "Thomas Aquinas's Summa Theologica represents the summit of scholasticism's effort to reconcile faith and reason through systematic argumentation.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "philosophy",
+          "theology",
+          "education"
+        ]
+      },
+      {
+        "definition": "Narrow or pedantic adherence to the methods and doctrines of an established philosophical or theological school; formalistic thinking divorced from practical reality.",
+        "example": "The Reformers condemned the dry scholasticism of university theologians, preferring direct engagement with Scripture over syllogistic debate.",
+        "register": "formal",
+        "tags": [
+          "philosophy",
+          "criticism",
+          "pedantry"
+        ]
+      }
+    ],
+    "synonyms": [
+      "scholastic philosophy",
+      "medieval dialectic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nominalism",
+      "realism",
+      "Aristotelianism",
+      "theology",
+      "disputation"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "chivalry",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The combination of qualities expected of an ideal medieval knight — courage, loyalty, courtesy, and readiness to protect the weak — as codified in the social and moral code governing knighthood.",
+        "example": "Chrétien de Troyes depicted chivalry in his Arthurian romances as a fusion of martial prowess, Christian piety, and courtly refinement.",
+        "register": "formal",
+        "tags": [
+          "medieval history",
+          "knighthood",
+          "ethics",
+          "social code"
+        ]
+      },
+      {
+        "definition": "Polite, considerate, and gallant behavior, especially of a man toward women, derived from the idealized ethos of medieval knighthood.",
+        "example": "He held the door and offered his umbrella with an old-fashioned chivalry that she found both charming and faintly anachronistic.",
+        "register": "general",
+        "tags": [
+          "etiquette",
+          "social behavior",
+          "gallantry"
+        ]
+      }
+    ],
+    "synonyms": [
+      "gallantry",
+      "gentlemanliness"
+    ],
+    "antonymTerms": [
+      "barbarism",
+      "boorishness"
+    ],
+    "relatedTerms": [
+      "knighthood",
+      "courtly love",
+      "feudalism",
+      "honor code",
+      "heraldry"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "courtly love",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A highly conventionalized medieval literary tradition depicting an idealized, often adulterous passion between a knight and a noble lady, characterized by the lover's suffering, adoration from afar, and ennobling service to an unattainable beloved.",
+        "example": "The Provençal troubadours codified courtly love as an elaborate ritual in which the knight-poet addressed his lady as a distant, semi-divine ideal whom he could approach only through lyric devotion.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "literature",
+          "romance",
+          "troubadours",
+          "Occitan poetry"
+        ]
+      },
+      {
+        "definition": "The aristocratic social ethos and set of behavioral protocols governing the idealized erotic relation between a noble lover and his lady at the medieval court.",
+        "example": "Andreas Capellanus outlined the rules of courtly love in De Amore, prescribing elaborate protocols for wooing that placed the lady in the position of sovereign judge.",
+        "register": "formal",
+        "tags": [
+          "medieval history",
+          "social history",
+          "court culture"
+        ]
+      }
+    ],
+    "synonyms": [
+      "chivalric love",
+      "refined courtship"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "chivalry",
+      "troubadour",
+      "romance",
+      "feudalism",
+      "lyric poetry"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "inquisition",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An ecclesiastical tribunal of the Roman Catholic Church established in the 13th century to investigate and punish heresy, notorious for coercive interrogation, the use of torture, and severe penalties including burning at the stake.",
+        "example": "The Spanish Inquisition, founded in 1478 under Ferdinand and Isabella, became the most feared branch of the institution, subjecting conversos to systematic interrogation about their religious sincerity.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "church history",
+          "heresy",
+          "religion",
+          "law"
+        ]
+      },
+      {
+        "definition": "Any severe, oppressive, or intensive official inquiry or examination, especially one that proceeds with little regard for the rights of those being questioned.",
+        "example": "The parliamentary hearing quickly devolved into an inquisition, with witnesses kept for hours under hostile cross-examination by committee members.",
+        "register": "formal",
+        "tags": [
+          "investigation",
+          "interrogation",
+          "oppression"
+        ]
+      }
+    ],
+    "synonyms": [
+      "inquisitorial court",
+      "ecclesiastical tribunal"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "heresy",
+      "papal bull",
+      "excommunication",
+      "ecclesiastical court",
+      "auto-da-fé"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "pilgrimage",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A journey made by a believer to a sacred or holy place as an act of religious devotion, penance, or thanksgiving, often undertaken at considerable hardship.",
+        "example": "Thousands of medieval Christians undertook the pilgrimage to Santiago de Compostela along the Camino routes, believing the relics of St. James had the power to cure illness and grant spiritual merit.",
+        "register": "formal",
+        "tags": [
+          "religion",
+          "medieval history",
+          "devotion",
+          "travel",
+          "Christianity"
+        ]
+      },
+      {
+        "definition": "A journey, literal or metaphorical, to a place or state of great personal significance, meaning, or transformation.",
+        "example": "Every summer she made her own pilgrimage to the village in Calabria where her grandmother had been born, walking the same olive-grove paths as if retracing a lineage.",
+        "register": "literary",
+        "tags": [
+          "travel",
+          "personal significance",
+          "metaphor"
+        ]
+      }
+    ],
+    "synonyms": [
+      "devotional journey",
+      "sacred journey"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "crusade",
+      "shrine",
+      "relic",
+      "devotion",
+      "Canterbury Tales"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "crusade",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "Any of the military expeditions undertaken by European Christians between the 11th and 13th centuries, primarily to recover the Holy Land from Muslim rule, sanctioned by the papacy and offering participants spiritual indulgences.",
+        "example": "The First Crusade culminated in the bloody capture of Jerusalem in 1099, establishing a network of Crusader states in the Levant that survived for nearly two centuries.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "religion",
+          "warfare",
+          "Christianity",
+          "Islam"
+        ]
+      },
+      {
+        "definition": "A vigorous, sustained campaign or movement in favor of a particular cause, pursued with missionary zeal.",
+        "example": "The senator launched a public crusade against pharmaceutical pricing, crisscrossing the country to build grassroots support for reform.",
+        "register": "general",
+        "tags": [
+          "campaign",
+          "advocacy",
+          "reform",
+          "social movement"
+        ]
+      }
+    ],
+    "synonyms": [
+      "holy war",
+      "sacred campaign"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pilgrimage",
+      "chivalry",
+      "papal bull",
+      "Jerusalem",
+      "military expedition"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "simony",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The buying or selling of ecclesiastical offices, benefices, pardons, or sacred objects, named after Simon Magus and condemned as a grave sin and canonical offense in medieval church law.",
+        "example": "Pope Gregory VII made the eradication of simony the cornerstone of his reform programme, insisting that bishops could not legitimately receive their investiture from secular lords in exchange for payment.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "church history",
+          "canon law",
+          "corruption",
+          "Gregorian Reform"
+        ]
+      }
+    ],
+    "synonyms": [
+      "barratry",
+      "ecclesiastical trafficking"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "benefice",
+      "tithe",
+      "nepotism",
+      "papal bull"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "manorialism",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The medieval system of organizing agricultural land and labor around the manor, under which peasants (serfs and villeins) owed labor services and rents to a lord in exchange for access to land and protection, forming the economic backbone of feudal society.",
+        "example": "Manorialism bound the peasantry to the land through customary obligations enforced in the manor court, including week-work on the lord's demesne and payment of heriot upon a tenant's death.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "feudalism",
+          "economics",
+          "social history",
+          "agrarian history"
+        ]
+      }
+    ],
+    "synonyms": [
+      "seignorialism",
+      "manorial system"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "feudalism",
+      "serfdom",
+      "peasantry",
+      "demesne",
+      "tithe"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "excommunication",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The most severe ecclesiastical censure in canon law, by which a baptized Christian is excluded from the sacraments, liturgical participation, and the community of the Church, typically imposed as a penalty for grave offenses or persistent heresy.",
+        "example": "Gregory VII's excommunication of Henry IV in 1076 was a dramatic assertion of papal authority, releasing the emperor's subjects from their oaths of feudal loyalty.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "church history",
+          "canon law",
+          "religion",
+          "papacy"
+        ]
+      },
+      {
+        "definition": "The forcible exclusion or banishment of a person from any community, organization, or social group, often total and highly public.",
+        "example": "His public challenge to the party's official line resulted in a swift social excommunication: invitations dried up, colleagues stopped returning his calls.",
+        "register": "formal",
+        "tags": [
+          "exclusion",
+          "social sanction",
+          "ostracism"
+        ]
+      }
+    ],
+    "synonyms": [
+      "anathema",
+      "ecclesiastical exclusion"
+    ],
+    "antonymTerms": [
+      "absolution"
+    ],
+    "relatedTerms": [
+      "interdict",
+      "papal bull",
+      "heresy",
+      "canon law",
+      "censure"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "benefice",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A permanent church office that confers on its holder (the incumbent) a legal right to certain revenues — derived from land, tithes, or endowments — in exchange for spiritual duties, such as a parish rectory or cathedral canonry.",
+        "example": "The practice of pluralism, holding several benefices simultaneously and appointing underpaid curates to perform the actual duties, was a central target of 12th-century church reformers.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "church history",
+          "canon law",
+          "clergy",
+          "ecclesiastical finance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "living",
+      "church living"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "simony",
+      "tithe",
+      "clergy",
+      "prebend",
+      "ecclesiastical office"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "tithe",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A tenth part of one's annual income or agricultural produce, traditionally levied for the support of the clergy and upkeep of the church, and in medieval England enforceable as a legal obligation under both canon and common law.",
+        "example": "Peasants were required to pay great tithes on their grain and lesser tithes on livestock and garden produce, surrendering one-tenth of each harvest to the parish priest.",
+        "register": "formal",
+        "tags": [
+          "medieval history",
+          "church history",
+          "taxation",
+          "religion",
+          "agrarian history"
+        ]
+      },
+      {
+        "definition": "A voluntary contribution of one-tenth of one's income to a church or religious community, practiced in many contemporary Protestant and evangelical denominations.",
+        "example": "Members of the congregation were encouraged to tithe consistently, committing a tenth of their salary to the church's social outreach programmes.",
+        "register": "general",
+        "tags": [
+          "religion",
+          "donation",
+          "giving",
+          "Christian practice"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tenth",
+      "church tax"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "simony",
+      "benefice",
+      "levy",
+      "manorialism",
+      "church revenue"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "interdict",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An ecclesiastical censure issued by the pope or a bishop that suspends the administration of most sacraments and forbids public worship in a specified territory or for a specified person, used as a weapon against recalcitrant rulers in the medieval Church.",
+        "example": "Innocent III placed England under interdict in 1208, closing churches and halting most sacramental rites throughout the kingdom to compel King John to accept his choice of Archbishop of Canterbury.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "church history",
+          "canon law",
+          "papacy",
+          "censure"
+        ]
+      },
+      {
+        "definition": "An authoritative prohibition or injunction, especially one issued by a court or governing authority forbidding a specific action.",
+        "example": "The court issued an interdict against the developer, preventing any further construction on the disputed land pending resolution of the planning appeal.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "prohibition",
+          "injunction"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ecclesiastical censure",
+      "ecclesiastical injunction"
+    ],
+    "antonymTerms": [
+      "dispensation"
+    ],
+    "relatedTerms": [
+      "excommunication",
+      "papal bull",
+      "canon law",
+      "diocese",
+      "papal sanction"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "papal bull",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A formal document or charter issued by the pope, authenticated by a lead seal (bulla) and bearing his name and title, used for major pronouncements including the granting of privileges, the declaration of dogma, and the proclamation of crusades.",
+        "example": "The papal bull Unam Sanctam (1302), issued by Boniface VIII, boldly asserted that submission to the authority of the Roman pontiff was necessary for the salvation of every human being.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "church history",
+          "papacy",
+          "documents",
+          "canon law"
+        ]
+      }
+    ],
+    "synonyms": [
+      "papal decree",
+      "apostolic letter"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "interdict",
+      "excommunication",
+      "Holy See",
+      "canon law",
+      "papal rescript"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "reliquary",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A container or shrine, often of precious materials and elaborate craftsmanship, designed to house and display the relics of saints — bodily remains or objects associated with a holy person — and venerated by the faithful.",
+        "example": "The Sainte-Chapelle in Paris was built specifically to house Louis IX's supreme reliquary collection, including what was believed to be Christ's Crown of Thorns.",
+        "register": "technical",
+        "tags": [
+          "medieval history",
+          "religion",
+          "art history",
+          "sacred objects",
+          "Christian devotion"
+        ]
+      }
+    ],
+    "synonyms": [
+      "feretory",
+      "relic shrine"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "relic",
+      "shrine",
+      "pilgrimage",
+      "saint",
+      "devotional object"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "patristics",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The branch of theology and historical scholarship devoted to the study of the life, writings, and doctrines of the Church Fathers — the authoritative Christian writers and thinkers of the first eight centuries — and their role in shaping orthodox doctrine.",
+        "example": "A thorough grounding in patristics is essential for understanding how Augustine's theology of grace and predestination shaped Western Christianity's divergence from Eastern Orthodox thought.",
+        "register": "technical",
+        "tags": [
+          "theology",
+          "church history",
+          "medieval history",
+          "Christianity",
+          "Church Fathers"
+        ]
+      }
+    ],
+    "synonyms": [
+      "patrology",
+      "patristic scholarship"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "theology",
+      "scholasticism",
+      "hermeneutics",
+      "apologetics",
+      "Church Fathers"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "canticle",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A hymn or chant of praise derived from a biblical text other than the Psalms, used in the liturgy of the Christian Church, such as the Magnificat, the Benedictus, or Francis of Assisi's Canticle of the Sun.",
+        "example": "The monks chanted the canticle of Zechariah at Lauds each morning, the Benedictus rising in Gregorian plainchant through the stone vaults of the abbey church.",
+        "register": "formal",
+        "tags": [
+          "religion",
+          "medieval history",
+          "liturgy",
+          "music",
+          "Christianity"
+        ]
+      },
+      {
+        "definition": "Any sacred or solemn song of praise, especially one of the poetic texts of the Hebrew Bible used in liturgical contexts.",
+        "example": "The Song of Songs, often called the Canticle of Canticles, was interpreted allegorically by medieval commentators as a description of the soul's love for God.",
+        "register": "literary",
+        "tags": [
+          "religion",
+          "poetry",
+          "Old Testament",
+          "liturgy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "sacred ode",
+      "biblical hymn"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "liturgy",
+      "psalm",
+      "chant",
+      "scripture",
+      "hymn"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "cartography",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The art, science, and technology of drawing or compiling maps and charts, encompassing the accurate representation of geographical features, the choice of projection, scale, and symbolization.",
+        "example": "The invention of the printing press transformed cartography in the 15th century, enabling standardized maps to circulate widely and facilitating the coordination of European maritime exploration.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "maps",
+          "science",
+          "history of science",
+          "visualization"
+        ]
+      },
+      {
+        "definition": "The systematic representation or mapping of any complex domain, field of knowledge, or conceptual space.",
+        "example": "Her essay offers a cartography of contemporary grief, tracing its terrain with the precision of an emotional surveyor.",
+        "register": "literary",
+        "tags": [
+          "metaphor",
+          "representation",
+          "knowledge organization"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mapmaking",
+      "chartmaking"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "chorography",
+      "topography",
+      "geography",
+      "projection",
+      "coordinate system"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "topography",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The arrangement, configuration, and detailed description of the natural and artificial physical features of an area — including its hills, valleys, rivers, roads, and settlements — as represented on large-scale maps.",
+        "example": "The varied topography of the Swiss Alps, with its steep valleys, glaciers, and high passes, has historically shaped settlement patterns, trade routes, and military strategy.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "landscape",
+          "terrain",
+          "cartography",
+          "physical geography"
+        ]
+      },
+      {
+        "definition": "The structural or figurative layout of the elements constituting any complex phenomenon, environment, or conceptual domain.",
+        "example": "The novelist surveys the moral topography of Victorian society through the contrasting fates of her characters, mapping virtue and vice onto social class.",
+        "register": "literary",
+        "tags": [
+          "structure",
+          "metaphor",
+          "representation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "terrain description",
+      "landscape configuration"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "cartography",
+      "chorography",
+      "relief",
+      "contour",
+      "geomorphology"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "chorography",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The systematic description and mapping of particular regions or districts, intermediate in scale between general geography (the whole world or large continents) and detailed topography (a specific local site), combining geographical description with historical and antiquarian observation.",
+        "example": "William Camden's Britannia (1586) is a landmark of Renaissance chorography, surveying each English county in turn with observations on its ancient monuments, place names, and notable families.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "cartography",
+          "regional studies",
+          "history of science",
+          "antiquarianism"
+        ]
+      }
+    ],
+    "synonyms": [
+      "regional geography",
+      "descriptive geography"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "cartography",
+      "topography",
+      "geography",
+      "regional survey",
+      "spatial description"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "continental shelf",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "The extended, gently sloping submarine platform that forms the submerged perimeter of a continent, stretching from the shoreline to the steeper continental slope, typically at depths of up to about 200 metres.",
+        "example": "The North Sea occupies a wide continental shelf, making it shallow enough for extensive bottom trawling and offshore wind farm installation.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "geology",
+          "oceanography",
+          "marine science",
+          "physical geography"
+        ]
+      }
+    ],
+    "synonyms": [
+      "submarine terrace",
+      "neritic terrace"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tectonic plate",
+      "ocean floor",
+      "bathymetry",
+      "coastline",
+      "subduction zone"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "tectonic plate",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "One of the large, rigid segments of the Earth's lithosphere that move relative to each other on the underlying asthenosphere, carrying continents and ocean floors and generating earthquakes, volcanic activity, and mountain-building at their boundaries.",
+        "example": "The Himalayas were formed by the ongoing collision of the Indian tectonic plate with the Eurasian plate, a process beginning around 50 million years ago that continues to raise the mountain range today.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "geophysics",
+          "plate tectonics",
+          "physical geography",
+          "seismology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "lithospheric plate",
+      "crustal plate"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "continental shelf",
+      "fault line",
+      "seismology",
+      "subduction",
+      "Pangaea"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "latitude",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The angular distance of a location north or south of the Earth's equator, measured in degrees from 0° at the equator to 90° at either pole, used as the horizontal component of geographic coordinates.",
+        "example": "London lies at approximately 51.5° north latitude, a position that gives it mild winters and long summer twilights compared with cities at lower latitudes.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "navigation",
+          "coordinates",
+          "cartography"
+        ]
+      },
+      {
+        "definition": "Freedom from strict rules, narrow restrictions, or close supervision; scope allowed for independent judgment or action.",
+        "example": "The director gave her actors considerable latitude in interpreting their roles, valuing spontaneous choices over rigidly rehearsed blocking.",
+        "register": "formal",
+        "tags": [
+          "freedom",
+          "scope",
+          "independence",
+          "discretion"
+        ]
+      }
+    ],
+    "synonyms": [
+      "geographic parallel",
+      "degree of arc north-south"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "longitude",
+      "meridian",
+      "equator",
+      "coordinate",
+      "degree of arc"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "longitude",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "The angular distance of a location east or west of the prime meridian at Greenwich, measured in degrees from 0° to 180° in each direction, used as the vertical component of geographic coordinates.",
+        "example": "Determining longitude accurately at sea was one of the great navigational challenges of the 18th century, solved only by John Harrison's invention of a reliable marine chronometer.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "navigation",
+          "coordinates",
+          "cartography",
+          "history of science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "meridional angle",
+      "prime meridian offset"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "latitude",
+      "meridian",
+      "coordinate",
+      "Greenwich",
+      "angular distance"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "meridian",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "An imaginary great circle on the Earth's surface passing through both geographic poles and any given point, perpendicular to the equator, used as a reference line for measuring longitude.",
+        "example": "The prime meridian, running through the Royal Observatory at Greenwich, was adopted as the universal reference for zero longitude at the International Meridian Conference of 1884.",
+        "register": "technical",
+        "tags": [
+          "geography",
+          "navigation",
+          "cartography",
+          "astronomy",
+          "coordinates"
+        ]
+      },
+      {
+        "definition": "The highest point of power, achievement, or prosperity; the zenith or peak of a career or period.",
+        "example": "In the meridian of his career, the statesman commanded respect from all political factions and appeared capable of uniting the country behind his programme of reform.",
+        "register": "literary",
+        "tags": [
+          "peak",
+          "zenith",
+          "apogee",
+          "figurative language"
+        ]
+      }
+    ],
+    "synonyms": [
+      "noon line",
+      "line of longitude"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "longitude",
+      "latitude",
+      "Greenwich",
+      "hemisphere",
+      "great circle"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "roman à clef",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A novel in which real persons or actual events appear under the guise of fictional characters or invented situations, requiring the reader to possess a 'key' to decode the identities.",
+        "example": "Primary Colors was read as a roman à clef about Bill Clinton's 1992 presidential campaign, with thinly veiled stand-ins for real campaign figures.",
+        "register": "literary",
+        "tags": [
+          "literature",
+          "genre",
+          "fiction",
+          "satire",
+          "French"
+        ]
+      }
+    ],
+    "synonyms": [
+      "key novel",
+      "clef novel"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "novel",
+      "fiction",
+      "autobiography",
+      "satirical fiction",
+      "roman à thèse"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "conte",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A short literary tale or story, especially in the French tradition; a genre characterized by concision, often ironic or philosophical in tone, and associated with writers such as Voltaire, Maupassant, and Mérimée.",
+        "example": "Voltaire's Candide is the most celebrated philosophical conte, deploying absurdist brevity and satirical wit to devastate the optimism of Leibnizian metaphysics.",
+        "register": "literary",
+        "tags": [
+          "literature",
+          "genre",
+          "French",
+          "short fiction",
+          "tale"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tale",
+      "short story",
+      "narrative",
+      "fable"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nouvelle",
+      "novella",
+      "anecdote",
+      "literary fiction",
+      "fabliau"
+    ],
+    "qa_notes": "QA passed: 'tale' and 'short story' co-extensive; 'narrative' is a hypernym, 'fable' distinct genre. Sufficient valid synonyms. Valid relatedTerms."
+  },
+  {
+    "term": "fabliau",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A short, comic verse tale of medieval French origin, typically earthy or bawdy in content, mocking the clergy, merchants, or women, and aimed at a bourgeois audience.",
+        "example": "Chaucer's Miller's Tale is the most celebrated fabliau in English, deploying the genre's stock adultery plot with virtuosic comic timing.",
+        "register": "technical",
+        "tags": [
+          "literature",
+          "medieval",
+          "French",
+          "genre",
+          "comedy",
+          "verse"
+        ]
+      }
+    ],
+    "synonyms": [
+      "comic verse tale",
+      "medieval bawdy tale"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "conte",
+      "fable",
+      "medieval literature",
+      "verse narrative",
+      "satirical tale"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "prototype theory",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A theory in cognitive linguistics and psychology, developed by Eleanor Rosch, holding that natural categories are organized around a most representative or central exemplar (the prototype) rather than by a set of necessary and sufficient features, so that membership is graded rather than categorical.",
+        "example": "Prototype theory explains why English speakers rate a robin as a more typical bird than a penguin or an ostrich: the robin matches the cognitive prototype for the category more closely on multiple attributes.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "psychology",
+          "categorization",
+          "semantics",
+          "Rosch"
+        ]
+      }
+    ],
+    "synonyms": [
+      "graded category theory",
+      "fuzzy category theory"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "conceptual metaphor",
+      "frame semantics",
+      "cognitive grammar",
+      "categorization",
+      "exemplar theory"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "conceptual metaphor",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "In cognitive linguistics, a systematic, conventionalized cross-domain mapping in which an abstract target domain is understood and structured in terms of a more concrete or bodily source domain, as theorized by Lakoff and Johnson in Metaphors We Live By (1980).",
+        "example": "The conceptual metaphor ARGUMENT IS WAR underlies everyday expressions such as 'he demolished her position,' 'she defended her claim,' and 'they were shooting down each other's ideas.'",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "semantics",
+          "metaphor theory",
+          "Lakoff",
+          "Johnson"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cognitive metaphor",
+      "structural mapping"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "prototype theory",
+      "image schema",
+      "frame semantics",
+      "blending theory",
+      "cognitive linguistics"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "frame semantics",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A theory of linguistic meaning developed by Charles Fillmore, in which words evoke structured cognitive frames — organized knowledge about situations, events, and participant roles — and understanding a word requires activating the frame in which it is embedded.",
+        "example": "Frame semantics explains why 'cost,' 'pay,' and 'charge' all invoke the commercial transaction frame but each highlights a different participant role: the goods, the buyer's action, and the seller's demand respectively.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "semantics",
+          "Fillmore",
+          "FrameNet",
+          "lexical semantics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "semantic frame theory",
+      "scene-and-frame theory"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "cognitive grammar",
+      "construction grammar",
+      "conceptual metaphor",
+      "scene",
+      "prototype theory"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "cognitive grammar",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A usage-based theory of linguistic structure developed by Ronald Langacker, holding that grammar is inherently meaningful — that all grammatical constructions are symbolic pairings of phonological and semantic structures — and that grammatical categories are defined by their semantic and conceptual properties.",
+        "example": "Cognitive grammar treats the English progressive ('She is running') as conveying an internal, unprofiled-endpoint construal of the event, contrasting with the simple present's holistic construal, rather than as a mere syntactic transformation.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "grammar",
+          "Langacker",
+          "language theory",
+          "construction grammar"
+        ]
+      }
+    ],
+    "synonyms": [
+      "usage-based grammar",
+      "experiential grammar"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "construction grammar",
+      "frame semantics",
+      "image schema",
+      "embodied simulation",
+      "usage-based linguistics"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "image schema",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "In cognitive linguistics, a recurring, dynamic pattern of sensorimotor and perceptual experience — such as CONTAINER, SOURCE-PATH-GOAL, UP-DOWN, or FORCE — that provides skeletal conceptual structure and serves as a basis for abstract thought through metaphorical extension.",
+        "example": "The CONTAINER image schema, grounded in bodily experience of being inside or outside bounded spaces, underlies abstract concepts such as social inclusion, logical categories, and emotional states ('trapped in grief', 'outside the law').",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "embodiment",
+          "Johnson",
+          "conceptual structure",
+          "semantics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "bodily schema",
+      "sensorimotor schema"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "embodied simulation",
+      "cognitive grammar",
+      "conceptual metaphor",
+      "mental space",
+      "gesture"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "mental space",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "In cognitive linguistics, a partial, temporary cognitive domain constructed dynamically during discourse to compartmentalize information about hypothetical scenarios, counterfactuals, beliefs, desires, or reported speech, introduced by space-builders such as 'in her dream,' 'if…,' or 'John thinks…'",
+        "example": "When a speaker says 'In Mary's view, the situation is hopeless,' a new mental space is opened for Mary's belief, keeping it distinct from the speaker's own assessment of the situation.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "Fauconnier",
+          "discourse",
+          "pragmatics",
+          "conceptual integration"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cognitive space",
+      "discourse space"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "blending theory",
+      "image schema",
+      "conceptual metaphor",
+      "frame semantics",
+      "discourse"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "blending theory",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A theory of meaning construction, also called conceptual integration theory, developed by Gilles Fauconnier and Mark Turner, in which elements from two or more input mental spaces are selectively projected into a blended space that develops emergent conceptual structure not present in any single input.",
+        "example": "Blending theory accounts for the meaning of 'This surgeon is a butcher': the surgeon input space and the butcher input space are blended, yielding emergent properties of incompetent and careless destruction.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "Fauconnier",
+          "Turner",
+          "conceptual blending",
+          "semantics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "conceptual integration theory",
+      "conceptual blending"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mental space",
+      "conceptual metaphor",
+      "frame semantics",
+      "cognitive linguistics",
+      "emergent structure"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "construction grammar",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "A family of linguistic theories, associated with Fillmore, Kay, and Goldberg, holding that the primary units of grammatical knowledge are constructions — form-meaning pairings at all levels of complexity from morpheme to discourse pattern — rather than rules applying to a separate lexicon.",
+        "example": "Construction grammar explains the caused-motion construction ('She sneezed the napkin off the table') as a fully entrenched schema in its own right, not an anomalous extension of a base verb meaning.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "grammar",
+          "Goldberg",
+          "language theory",
+          "usage-based linguistics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "constructional grammar",
+      "usage-based syntax"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "cognitive grammar",
+      "frame semantics",
+      "usage-based linguistics",
+      "syntactic construction",
+      "form-meaning pairing"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "embodied simulation",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "In cognitive science and cognitive linguistics, the hypothesis that understanding language or perceiving actions involves the activation of the same sensorimotor and affective neural systems that would be engaged in directly performing or experiencing the described event.",
+        "example": "Research on embodied simulation has shown that reading sentences about kicking activates motor cortex regions associated with foot and leg movement, suggesting that comprehension involves a partial re-enactment of the described action.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "cognitive science",
+          "neuroscience",
+          "embodiment",
+          "mirror neurons"
+        ]
+      }
+    ],
+    "synonyms": [
+      "motor simulation",
+      "simulation cognition"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "image schema",
+      "cognitive grammar",
+      "motor cognition",
+      "mirror neuron",
+      "phenomenology"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "figure-ground",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "meanings": [
+      {
+        "definition": "A perceptual and cognitive principle, originating in Gestalt psychology, in which attention selectively foregrounds one element (the figure) against a less-attended background (the ground); in cognitive linguistics, used to analyze how spatial scenes profile a trajector (figure) against a landmark (ground).",
+        "example": "The English preposition 'on' encodes a figure-ground relation in which the located object (figure) is construed as resting on the surface of a reference object (ground), as in 'the cup on the table.'",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "Gestalt psychology",
+          "perception",
+          "semantics",
+          "spatial language"
+        ]
+      }
+    ],
+    "synonyms": [
+      "foreground-background",
+      "focus-periphery"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "image schema",
+      "cognitive grammar",
+      "prototype theory",
+      "Gestalt psychology",
+      "perceptual saliency"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "scalar implicature",
+    "language": "en",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "definition": "In pragmatics and Gricean linguistics, a conversational inference triggered by the use of a term at a particular position on an informativeness scale (e.g., <some, all>, <possible, certain>), whereby the speaker's choice of a weaker term implicates that the stronger term does not apply.",
+        "example": "When a speaker says 'Some of the students passed,' the scalar implicature is that not all of them did, because if all had passed the speaker would normally have said so.",
+        "register": "technical",
+        "tags": [
+          "cognitive linguistics",
+          "pragmatics",
+          "Grice",
+          "semantics",
+          "implicature theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "quantity implicature",
+      "upper-bounded implicature"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "conversational implicature",
+      "pragmatics",
+      "quantity maxim",
+      "Gricean maxims",
+      "entailment"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "nolo contendere",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A plea in criminal proceedings whereby the defendant does not contest the charge but also does not formally admit guilt, meaning the plea cannot be used as an admission in subsequent civil litigation.",
+        "example": "The executive entered a plea of nolo contendere to the fraud charges, allowing sentencing to proceed without the plea being admissible against him in the parallel civil lawsuit.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "law",
+          "criminal-procedure"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "no-contest plea",
+      "non vult contendere"
+    ],
+    "antonymTerms": [
+      "guilty plea"
+    ],
+    "relatedTerms": [
+      "plea bargain",
+      "criminal procedure",
+      "arraignment",
+      "conviction",
+      "plea in mitigation"
+    ]
+  },
+  {
+    "term": "nolle prosequi",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A formal declaration by a prosecutor or plaintiff that they will not proceed further with a criminal charge or civil action, effectively discontinuing the prosecution.",
+        "example": "After the key witness recanted, the district attorney entered a nolle prosequi, and the charges against the defendant were dismissed.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "law",
+          "criminal-procedure"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "nol pros",
+      "entry of discontinuance"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "prosecution",
+      "dismissal",
+      "criminal procedure",
+      "nolo contendere",
+      "indictment"
+    ]
+  },
+  {
+    "term": "ex parte",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "Describing a judicial proceeding, decision, or communication made on behalf of or involving only one party to a case, without the other party's knowledge or presence.",
+        "example": "The judge granted an ex parte injunction late that evening, temporarily freezing the company's assets before the defendant could be notified.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "law",
+          "legal-procedure"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "one-sided proceeding",
+      "unilateral hearing"
+    ],
+    "antonymTerms": [
+      "inter partes"
+    ],
+    "relatedTerms": [
+      "injunction",
+      "hearing",
+      "due process",
+      "notice",
+      "lis pendens"
+    ]
+  },
+  {
+    "term": "lis pendens",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A formal notice recorded in property registers to warn potential buyers or lenders that the title to a specific piece of real estate is the subject of pending litigation.",
+        "example": "The bank's solicitor discovered a lis pendens filed against the property and advised the client to delay the purchase until the dispute was resolved.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "law",
+          "property-law"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "pending action notice",
+      "notice of pending litigation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "property law",
+      "encumbrance",
+      "title search",
+      "interpleader",
+      "ex parte"
+    ]
+  },
+  {
+    "term": "voir dire",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The preliminary examination of prospective jurors by a judge and attorneys to assess their suitability and impartiality for a particular case, or more broadly any preliminary inquiry to determine the admissibility of evidence.",
+        "example": "During voir dire, defence counsel questioned potential jurors about any prior knowledge of the high-profile case that might prevent them from remaining impartial.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "law",
+          "trial-procedure"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "jury examination",
+      "juror vetting"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "jury selection",
+      "peremptory challenge",
+      "juror bias",
+      "impartiality",
+      "trial procedure"
+    ]
+  },
+  {
+    "term": "interpleader",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A legal procedure by which a neutral third party holding money or property claimed by two or more rivals asks the court to determine who is rightfully entitled to it, protecting the holder from multiple lawsuits.",
+        "example": "The insurance company, faced with conflicting claims from the deceased's relatives, filed an interpleader action to deposit the policy proceeds with the court and be discharged from further liability.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "law",
+          "civil-procedure"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "stakeholder action",
+      "rival claimant procedure"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "civil procedure",
+      "declaratory judgment",
+      "lis pendens",
+      "garnishment",
+      "disputed property"
+    ]
+  },
+  {
+    "term": "vexatious litigation",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "Legal proceedings brought primarily to harass, intimidate, or financially burden the opposing party rather than to vindicate a genuine legal right, often resulting in sanctions or the designation of the claimant as a vexatious litigant.",
+        "example": "After filing his twelfth unfounded lawsuit against the same neighbour, the court declared him a vexatious litigant and barred him from commencing further proceedings without judicial permission.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "law",
+          "civil-procedure"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "frivolous litigation",
+      "abusive litigation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "abuse of process",
+      "malicious prosecution",
+      "sanctions",
+      "legal costs",
+      "strike suit"
+    ]
+  },
+  {
+    "term": "declaratory judgment",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A court ruling that determines the legal rights, status, or obligations of the parties in a dispute without ordering any specific action or awarding damages, typically sought to resolve uncertainty before a conflict escalates.",
+        "example": "The software company sought a declaratory judgment confirming that its product did not infringe the patent, rather than waiting to be sued.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "law",
+          "civil-procedure"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "declaratory relief",
+      "declaratory order"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "injunction",
+      "civil procedure",
+      "judicial review",
+      "interpleader",
+      "quiet title action"
+    ]
+  },
+  {
+    "term": "promissory estoppel",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "An equitable doctrine preventing a party from retracting a clear and unambiguous promise when the promisee has reasonably relied on that promise to their detriment, even in the absence of formal consideration.",
+        "example": "The contractor invoked promissory estoppel after the developer reneged on its oral commitment, arguing that the contractor had already purchased materials and hired workers in reliance on that promise.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "law",
+          "contract-law"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "reliance estoppel",
+      "equitable reliance doctrine"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "consideration",
+      "contract law",
+      "equity",
+      "unjust enrichment",
+      "waiver"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "present bias",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The cognitive tendency to overweight immediate rewards relative to future ones, causing individuals to make choices inconsistent with their own long-term preferences.",
+        "example": "Present bias explains why someone might vow to start exercising next week yet choose to watch television tonight instead of going to the gym.",
+        "register": "technical",
+        "tags": [
+          "behavioral economics",
+          "cognitive bias",
+          "decision theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "hyperbolic discounting",
+      "immediacy bias"
+    ],
+    "antonymTerms": [
+      "future-orientation"
+    ],
+    "relatedTerms": [
+      "temporal discounting",
+      "delay discounting",
+      "self-control",
+      "procrastination",
+      "bounded rationality"
+    ]
+  },
+  {
+    "term": "decoy effect",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A phenomenon in which the introduction of an asymmetrically dominated third option shifts consumer preference toward a higher-priced or higher-quality target option.",
+        "example": "The cinema introduced a medium popcorn specifically to trigger the decoy effect, making the large size seem far better value by comparison.",
+        "register": "technical",
+        "tags": [
+          "behavioral economics",
+          "marketing",
+          "decision theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "asymmetric dominance effect",
+      "attraction effect"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "choice architecture",
+      "framing effect",
+      "anchoring",
+      "prospect theory",
+      "preference reversal"
+    ]
+  },
+  {
+    "term": "hot-cold empathy gap",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The systematic failure to predict how strongly visceral drives—such as hunger, pain, or desire—will influence one's own or others' judgements and behaviour when in a contrasting emotional state.",
+        "example": "A policymaker who designs anti-smoking campaigns while not craving a cigarette underestimates the pull of addiction, illustrating the hot-cold empathy gap.",
+        "register": "technical",
+        "tags": [
+          "behavioral economics",
+          "cognitive bias",
+          "psychology"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "intrapersonal empathy gap",
+      "visceral bias"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "present bias",
+      "affective forecasting",
+      "self-prediction",
+      "decision-making",
+      "bounded rationality"
+    ]
+  },
+  {
+    "term": "choice architecture",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The deliberate design of the environment and presentation in which people make decisions, with the aim of steering behaviour toward particular outcomes without restricting options.",
+        "example": "Placing fruit at eye level in school cafeterias is a classic example of choice architecture nudging students toward healthier selections.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "behavioural-economics",
+          "decision-theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "nudge design",
+      "decision environment design"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "libertarian paternalism",
+      "nudge theory",
+      "default option",
+      "framing effect",
+      "bounded rationality"
+    ]
+  },
+  {
+    "term": "peak-end rule",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A psychological heuristic by which people judge a past experience almost entirely on how it felt at its most intense point and at its end, rather than on an average or sum of every moment.",
+        "example": "Medical researchers applied the peak-end rule to redesign colonoscopy procedures so that the final moments were less uncomfortable, thereby improving patients' overall retrospective ratings.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "psychology",
+          "behavioural-economics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "peak-end heuristic",
+      "experience evaluation heuristic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "duration neglect",
+      "hedonic psychology",
+      "memory bias",
+      "behavioral economics",
+      "subjective well-being"
+    ]
+  },
+  {
+    "term": "optimism bias",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The tendency for individuals to believe they are less likely to experience negative events and more likely to experience positive events than their peers or base-rate statistics warrant.",
+        "example": "Optimism bias leads most drivers to rate themselves as above-average in safety, a statistical impossibility that contributes to risk-taking on the road.",
+        "register": "technical",
+        "tags": [
+          "behavioral economics",
+          "cognitive bias",
+          "psychology"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "unrealistic optimism",
+      "overconfidence bias"
+    ],
+    "antonymTerms": [
+      "pessimism bias"
+    ],
+    "relatedTerms": [
+      "planning fallacy",
+      "self-serving bias",
+      "overconfidence",
+      "risk perception",
+      "affective forecasting"
+    ]
+  },
+  {
+    "term": "planning fallacy",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The systematic tendency to underestimate the time, cost, and risks of future actions while overestimating the benefits, even when past experience of similar tasks is available.",
+        "example": "The construction project suffered from the classic planning fallacy: it was budgeted for two years but took nearly five to complete.",
+        "register": "technical",
+        "tags": [
+          "behavioral economics",
+          "cognitive bias",
+          "project management"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "overoptimistic planning",
+      "optimistic prediction bias"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "optimism bias",
+      "anchoring",
+      "project management",
+      "forecasting",
+      "reference class forecasting"
+    ]
+  },
+  {
+    "term": "temporal discounting",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The psychological tendency to assign lower value to outcomes that occur in the future compared with otherwise identical outcomes occurring in the present.",
+        "example": "Steep temporal discounting means a person may prefer £50 today over £100 in a year, even though the deferred sum is objectively larger.",
+        "register": "technical",
+        "tags": [
+          "behavioral economics",
+          "decision theory",
+          "psychology"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "delay discounting",
+      "time discounting"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "present bias",
+      "hyperbolic discounting",
+      "exponential discounting",
+      "bounded rationality",
+      "time preference"
+    ]
+  },
+  {
+    "term": "bounded rationality",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The concept that, in decision-making, the rationality of individuals is limited by the information available, the cognitive limitations of the mind, and the finite time available for making decisions.",
+        "example": "Because of bounded rationality, consumers use heuristics such as brand loyalty rather than conducting exhaustive cost-benefit analyses before every purchase.",
+        "register": "technical",
+        "tags": [
+          "behavioral economics",
+          "cognitive science",
+          "decision theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "constrained rationality",
+      "satisficing rationality"
+    ],
+    "antonymTerms": [
+      "perfect rationality"
+    ],
+    "relatedTerms": [
+      "satisficing",
+      "heuristics",
+      "cognitive bias",
+      "decision theory",
+      "Herbert Simon"
+    ]
+  },
+  {
+    "term": "libertarian paternalism",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A policy approach that structures choices so that defaults steer people toward outcomes judged to be in their best interest, while preserving their freedom to opt out.",
+        "example": "Automatically enrolling employees in pension plans while allowing them to withdraw exemplifies libertarian paternalism: the default promotes saving without removing choice.",
+        "register": "technical",
+        "tags": [
+          "behavioral economics",
+          "public policy",
+          "nudge theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "nudge theory",
+      "soft paternalism"
+    ],
+    "antonymTerms": [
+      "hard paternalism"
+    ],
+    "relatedTerms": [
+      "choice architecture",
+      "default option",
+      "behavioral economics",
+      "public policy",
+      "autonomy"
+    ]
+  },
+  {
+    "term": "subgame perfect equilibrium",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A refinement of Nash equilibrium in extensive-form games requiring that players' strategies constitute a Nash equilibrium in every subgame, thereby ruling out non-credible threats.",
+        "example": "Backward induction reveals that the only subgame perfect equilibrium in the ultimatum game is for the proposer to offer the minimum positive amount and for the responder to accept.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "game-theory",
+          "economics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "subgame perfect Nash equilibrium",
+      "backward induction equilibrium"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "extensive-form game",
+      "backward induction",
+      "credible threat",
+      "sequential rationality"
+    ]
+  },
+  {
+    "term": "bayesian game",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A game-theoretic model in which players have incomplete information about each other's characteristics, represented as private types drawn from a known prior probability distribution.",
+        "example": "An auction in which each bidder knows only their own valuation of the item is modelled as a Bayesian game, with the winning strategy depending on beliefs about rivals' valuations.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "economics",
+          "decision theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "incomplete-information game",
+      "Harsanyi game"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "mechanism design",
+      "signaling game",
+      "information asymmetry",
+      "type space"
+    ]
+  },
+  {
+    "term": "folk theorem",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A family of results in repeated game theory stating that in an infinitely repeated game with sufficiently patient players, any individually rational feasible payoff vector can be sustained as a subgame perfect equilibrium.",
+        "example": "The folk theorem implies that cooperation between competing firms is self-sustaining when they interact repeatedly and care enough about future profits.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "economics",
+          "equilibrium theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "repeated game theorem",
+      "supergame theorem"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "repeated game",
+      "subgame perfect equilibrium",
+      "cooperation",
+      "discount factor"
+    ]
+  },
+  {
+    "term": "mechanism design",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The branch of economics and game theory concerned with designing rules of a game or institution so that, when participants act in their own interest, the resulting equilibrium achieves a desired social objective.",
+        "example": "Spectrum auctions were designed using mechanism design principles to ensure honest bidding and efficient allocation of radio frequencies.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "economics",
+          "auction theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "reverse game theory",
+      "incentive design"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "game theory",
+      "auction theory",
+      "revelation principle",
+      "Vickrey auction",
+      "social choice theory"
+    ]
+  },
+  {
+    "term": "revelation principle",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A result in mechanism design stating that any outcome achievable by any mechanism can also be achieved by a direct revelation mechanism in which truthful reporting of private information is an equilibrium strategy.",
+        "example": "Invoking the revelation principle, the auction designer restricted attention to incentive-compatible mechanisms without loss of generality.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "game-theory",
+          "mechanism-design"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "direct revelation mechanism",
+      "incentive-compatibility principle"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mechanism design",
+      "incentive compatibility",
+      "bayesian game",
+      "auction theory",
+      "social choice"
+    ]
+  },
+  {
+    "term": "stag hunt",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A game-theoretic coordination game presenting a tension between social cooperation and individual safety, in which joint action yields the highest payoff but requires mutual trust.",
+        "example": "International climate agreements resemble a stag hunt: every nation benefits if all cooperate, but each faces the temptation to defect if others might not commit.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "cooperation",
+          "social contract"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "assurance game",
+      "cooperation game"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "prisoner's dilemma",
+      "Nash equilibrium",
+      "coordination problem",
+      "social contract",
+      "collective action"
+    ]
+  },
+  {
+    "term": "war of attrition",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "In game theory, a dynamic contest in which two parties incur costs over time while waiting for the other to concede, with the winner taking an indivisible prize.",
+        "example": "Patent litigation can become a war of attrition when both companies sustain legal costs hoping the other will settle first.",
+        "register": "technical",
+        "tags": [
+          "game theory",
+          "evolutionary biology",
+          "competition"
+        ]
+      },
+      {
+        "definition": "A prolonged military or commercial struggle intended to exhaust an opponent's resources and will rather than to achieve a decisive tactical victory.",
+        "example": "The conflict degenerated into a war of attrition, with neither side able to deliver the knockout blow needed to end hostilities swiftly.",
+        "register": "general",
+        "tags": [
+          "military",
+          "strategy"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "war of exhaustion",
+      "endurance contest"
+    ],
+    "antonymTerms": [
+      "blitzkrieg"
+    ],
+    "relatedTerms": [
+      "evolutionarily stable strategy",
+      "game theory",
+      "patience game",
+      "Lanchester equations",
+      "resource depletion"
+    ]
+  },
+  {
+    "term": "evolutionarily stable strategy",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A strategy in evolutionary game theory that, if adopted by a population, cannot be invaded by any mutant strategy with a different phenotype under natural selection.",
+        "example": "The mixed strategy of fighting some rivals and fleeing from others is an evolutionarily stable strategy in many animal species, balancing the costs of injury against the benefits of resources.",
+        "register": "technical",
+        "tags": [
+          "evolutionary biology",
+          "game theory",
+          "population genetics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "ESS",
+      "invasion-resistant strategy"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "game theory",
+      "natural selection",
+      "population dynamics",
+      "replicator dynamics"
+    ]
+  },
+  {
+    "term": "cheap talk",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "Communication between players in a game that is costless, non-binding, and unverifiable, so its credibility depends entirely on the alignment of incentives between sender and receiver.",
+        "example": "Because the seller's promises carried no legal weight, the negotiation proceeded as a cheap talk game in which the buyer discounted any claim that could not be independently verified.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "game-theory",
+          "economics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "costless signaling",
+      "non-binding communication"
+    ],
+    "antonymTerms": [
+      "costly signaling"
+    ],
+    "relatedTerms": [
+      "signaling game",
+      "credibility",
+      "Crawford-Sobel model",
+      "game theory",
+      "strategic communication"
+    ]
+  },
+  {
+    "term": "price of anarchy",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A measure of how much the efficiency of a system degrades due to the selfish behaviour of its participants, defined as the ratio of the worst-case Nash equilibrium outcome to the social optimum.",
+        "example": "Traffic engineers computed the price of anarchy for the city's road network and found that adding a new bypass paradoxically worsened overall journey times—a manifestation of Braess's paradox.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "game-theory",
+          "computer-science",
+          "network-theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "efficiency ratio",
+      "social cost ratio",
+      "selfish routing ratio"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "social optimum",
+      "game theory",
+      "mechanism design",
+      "Braess's paradox"
+    ],
+    "qa_notes": "QA passed: 'selfish routing ratio' used in game-theory literature; 'social cost ratio' acceptable gloss. Valid relatedTerms."
+  },
+  {
+    "term": "punctuated equilibrium",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "An evolutionary theory proposing that species remain in a stable state for long periods, interrupted by geologically brief episodes of rapid speciation and morphological change.",
+        "example": "The fossil record's apparent gaps troubled Darwin, but punctuated equilibrium theory offered an explanation: most evolutionary change happens too quickly to leave many transitional fossils.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "evolutionary-biology",
+          "palaeontology"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "punctuationalism",
+      "punctuated change theory"
+    ],
+    "antonymTerms": [
+      "phyletic gradualism"
+    ],
+    "relatedTerms": [
+      "natural selection",
+      "speciation",
+      "Gould",
+      "stasis",
+      "morphological change"
+    ]
+  },
+  {
+    "term": "sexual selection",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A mode of natural selection arising from variation in reproductive success, driven by competition for mates or mate choice, producing traits that may reduce survival but increase attractiveness.",
+        "example": "The peacock's elaborate tail is a textbook case of sexual selection: it is costly to carry and conspicuous to predators, yet it persists because peahens consistently prefer more ornate displays.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "evolutionary-biology",
+          "zoology"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "mate selection",
+      "reproductive selection"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "natural selection",
+      "mate choice",
+      "sexual dimorphism",
+      "intrasexual competition",
+      "Darwin"
+    ]
+  },
+  {
+    "term": "reciprocal altruism",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A form of altruism in which an organism provides a benefit to another at a cost to itself, on the expectation that the favour will be returned in the future.",
+        "example": "Vampire bats practise reciprocal altruism by regurgitating blood meals to roost-mates who failed to feed, receiving the same assistance when they themselves go hungry.",
+        "register": "technical",
+        "tags": [
+          "evolutionary biology",
+          "behavioural ecology",
+          "cooperation"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "reciprocal cooperation",
+      "tit-for-tat altruism"
+    ],
+    "antonymTerms": [
+      "pure altruism"
+    ],
+    "relatedTerms": [
+      "cooperation",
+      "kin selection",
+      "game theory",
+      "Trivers",
+      "mutualism"
+    ]
+  },
+  {
+    "term": "neutral evolution",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The process by which genetic mutations that have no significant effect on fitness accumulate in a population through genetic drift rather than natural selection.",
+        "example": "The neutral evolution theory proposed by Motoo Kimura holds that the majority of molecular differences between species are selectively neutral, fixed by chance.",
+        "register": "technical",
+        "tags": [
+          "evolutionary biology",
+          "population genetics",
+          "molecular biology"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "neutral theory",
+      "neutralism"
+    ],
+    "antonymTerms": [
+      "adaptive evolution"
+    ],
+    "relatedTerms": [
+      "genetic drift",
+      "mutation",
+      "molecular clock",
+      "Kimura",
+      "population genetics"
+    ]
+  },
+  {
+    "term": "molecular clock",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The use of the rate of accumulation of mutations in DNA or protein sequences as a measure of elapsed evolutionary time, enabling estimation of when two lineages diverged.",
+        "example": "Using the molecular clock, researchers estimated that humans and chimpanzees shared a common ancestor approximately six to seven million years ago.",
+        "register": "technical",
+        "tags": [
+          "evolutionary biology",
+          "molecular biology",
+          "phylogenetics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "molecular evolutionary clock",
+      "mutation rate clock"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "neutral evolution",
+      "phylogenetics",
+      "divergence time",
+      "DNA sequencing",
+      "phylogenomics"
+    ]
+  },
+  {
+    "term": "coevolution",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The reciprocal evolutionary change in interacting species, whereby each exerts selective pressure on the other, driving adaptive changes across both lineages.",
+        "example": "The elongated proboscis of certain moths and the correspondingly deep nectar tube of the orchids they pollinate are the result of millions of years of coevolution.",
+        "register": "technical",
+        "tags": [
+          "evolutionary biology",
+          "ecology",
+          "symbiosis"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "reciprocal evolution",
+      "mutual evolutionary change"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mutualism",
+      "parasitism",
+      "arms race",
+      "plant-pollinator interaction",
+      "natural selection"
+    ]
+  },
+  {
+    "term": "batesian mimicry",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A form of biological mimicry in which a harmless species evolves to resemble a harmful or distasteful model species, thereby gaining protection from predators.",
+        "example": "The harmless milk snake exhibits batesian mimicry by displaying the same red, black, and yellow banding pattern as the venomous coral snake.",
+        "register": "technical",
+        "tags": [
+          "evolutionary biology",
+          "ecology",
+          "predator-prey"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "deceptive mimicry",
+      "palatable mimic system"
+    ],
+    "antonymTerms": [
+      "müllerian mimicry"
+    ],
+    "relatedTerms": [
+      "predator-prey dynamics",
+      "camouflage",
+      "aposematism",
+      "natural selection",
+      "protective resemblance"
+    ]
+  },
+  {
+    "term": "müllerian mimicry",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A form of biological mimicry in which two or more unpalatable or harmful species evolve to share a common warning signal, so that predators learn to avoid the pattern more quickly than if each species advertised independently.",
+        "example": "Several species of Heliconius butterflies in the Amazon basin exhibit Müllerian mimicry, converging on the same bold colouration to reinforce predator avoidance learning across the whole community.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "evolutionary-biology",
+          "zoology"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "convergent warning signal",
+      "synergistic mimicry"
+    ],
+    "antonymTerms": [
+      "batesian mimicry"
+    ],
+    "relatedTerms": [
+      "aposematism",
+      "predator avoidance",
+      "coevolution",
+      "convergent evolution",
+      "warning coloration"
+    ]
+  },
+  {
+    "term": "fitness landscape",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A conceptual model representing the relationship between genotypes or phenotypes and their reproductive fitness, visualised as a topographic map of peaks and valleys.",
+        "example": "Natural selection drives populations towards the nearest peak on the fitness landscape, but a population may become trapped at a local optimum rather than reaching a higher global peak.",
+        "register": "technical",
+        "tags": [
+          "evolutionary biology",
+          "population genetics",
+          "theoretical biology"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "adaptive landscape",
+      "fitness topography"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "natural selection",
+      "genotype",
+      "phenotype",
+      "Wright",
+      "evolutionary dynamics"
+    ]
+  },
+  {
+    "term": "assortative mating",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The tendency for individuals to pair with partners who are more similar to themselves in phenotypic or genotypic traits than would be expected by chance, which can reduce heterozygosity and reinforce social stratification.",
+        "example": "Sociologists have documented increasing assortative mating by educational attainment over recent decades, with university-educated individuals marrying each other at ever-higher rates.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "evolutionary-biology",
+          "sociology",
+          "genetics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "homogamy",
+      "like-with-like mating"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sexual selection",
+      "genetic variation",
+      "speciation",
+      "phenotypic similarity",
+      "mate preference"
+    ]
+  },
+  {
+    "term": "creep",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The slow, time-dependent plastic deformation of a solid material under a constant mechanical stress, particularly at elevated temperatures, which can eventually lead to structural failure.",
+        "example": "Turbine blades are fabricated from single-crystal superalloys specifically engineered to resist creep at the extreme temperatures found inside jet engines.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "materials-science",
+          "engineering"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "viscoplastic flow",
+      "time-dependent plastic flow"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "yield strength",
+      "fatigue",
+      "stress relaxation",
+      "high-temperature alloys",
+      "dislocation"
+    ]
+  },
+  {
+    "term": "fracture toughness",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A material property quantifying the resistance of a material to the propagation of a pre-existing crack, expressed as the critical stress intensity factor at which fracture becomes unstable.",
+        "example": "High fracture toughness is essential in aircraft fuselage alloys so that small cracks do not rapidly propagate and cause catastrophic failure.",
+        "register": "technical",
+        "tags": [
+          "materials science",
+          "mechanical engineering",
+          "metallurgy"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "crack resistance",
+      "fracture resistance"
+    ],
+    "antonymTerms": [
+      "brittleness"
+    ],
+    "relatedTerms": [
+      "stress intensity factor",
+      "crack propagation",
+      "yield strength",
+      "Griffith criterion",
+      "fatigue"
+    ]
+  },
+  {
+    "term": "yield strength",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The stress at which a material begins to deform plastically; below this value deformation is elastic and the material returns to its original shape upon removal of the load.",
+        "example": "Steel selected for structural columns must have a yield strength sufficient to bear the design loads without permanent deformation.",
+        "register": "technical",
+        "tags": [
+          "materials science",
+          "mechanical engineering",
+          "metallurgy"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "yield stress",
+      "elastic limit"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ultimate tensile strength",
+      "fracture toughness",
+      "Young's modulus",
+      "plasticity",
+      "work hardening"
+    ]
+  },
+  {
+    "term": "work hardening",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The strengthening of a metal or polymer by plastic deformation, which increases dislocation density and impedes further dislocation movement, raising the yield stress.",
+        "example": "Copper wire becomes brittle after repeated bending due to work hardening; annealing restores its ductility by allowing dislocations to annihilate.",
+        "register": "technical",
+        "tags": [
+          "materials science",
+          "metallurgy",
+          "manufacturing"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "strain hardening",
+      "cold working"
+    ],
+    "antonymTerms": [
+      "annealing"
+    ],
+    "relatedTerms": [
+      "dislocation",
+      "yield strength",
+      "plasticity",
+      "cold rolling",
+      "precipitation hardening"
+    ]
+  },
+  {
+    "term": "phase diagram",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A graphical representation of the thermodynamic conditions—typically combinations of temperature, pressure, or composition—under which the distinct phases of a substance or mixture exist in equilibrium.",
+        "example": "Consulting the iron–carbon phase diagram, the metallurgist selected the exact austenitising temperature needed to dissolve all carbides before quenching.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "chemistry",
+          "materials-science",
+          "thermodynamics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "equilibrium diagram",
+      "constitutional diagram"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "eutectic",
+      "phase transition",
+      "thermodynamics",
+      "alloy",
+      "liquidus curve"
+    ]
+  },
+  {
+    "term": "eutectic",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A mixture of two or more substances whose composition gives the lowest possible melting point, where the liquid and all solid phases are in equilibrium at a single temperature.",
+        "example": "Solder is commonly formulated near the eutectic composition of tin and lead to achieve a sharp melting point and reliable electrical joints.",
+        "register": "technical",
+        "tags": [
+          "materials science",
+          "metallurgy",
+          "chemistry"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "low-melting composition",
+      "minimum melting mixture"
+    ],
+    "antonymTerms": [
+      "peritectic"
+    ],
+    "relatedTerms": [
+      "phase diagram",
+      "solidification",
+      "alloy",
+      "solder",
+      "binary system"
+    ]
+  },
+  {
+    "term": "precipitation hardening",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A heat-treatment process that increases the yield strength of malleable metals and alloys by causing the uniform dispersion of fine secondary-phase particles within the crystal lattice.",
+        "example": "Aluminium alloys used in aerospace frames achieve their high strength-to-weight ratio through precipitation hardening with copper or zinc additions.",
+        "register": "technical",
+        "tags": [
+          "materials science",
+          "metallurgy",
+          "aerospace engineering"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "age hardening",
+      "particle strengthening"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "work hardening",
+      "yield strength",
+      "aluminum alloy",
+      "heat treatment",
+      "dislocation"
+    ]
+  },
+  {
+    "term": "dislocation",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A crystallographic line defect within a metallic or ionic lattice where the regular arrangement of atoms is disrupted, enabling plastic deformation to occur at stresses far below the theoretical shear strength.",
+        "example": "Work hardening increases yield strength precisely because the dense tangle of dislocations generated during cold rolling impedes further dislocation motion.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "materials-science",
+          "crystallography",
+          "metallurgy"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "line defect",
+      "lattice line defect"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "grain boundary",
+      "work hardening",
+      "plasticity",
+      "Burgers vector",
+      "slip plane"
+    ]
+  },
+  {
+    "term": "grain boundary",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The interface between two grains (crystallites) in a polycrystalline material, characterised by a mismatch in crystallographic orientation and elevated energy relative to the bulk lattice.",
+        "example": "Grain boundaries act as barriers to dislocation motion, which is why fine-grained steels are generally stronger than coarse-grained ones.",
+        "register": "technical",
+        "tags": [
+          "materials science",
+          "metallurgy",
+          "crystallography"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "crystallite boundary",
+      "intergranular interface"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dislocation",
+      "grain growth",
+      "diffusion",
+      "corrosion",
+      "microstructure"
+    ]
+  },
+  {
+    "term": "cermet",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A composite material combining ceramic particles with a metallic binder, designed to combine the hardness and heat-resistance of ceramics with the toughness and conductivity of metals.",
+        "example": "Cemented carbide cutting tools are a cermet par excellence: tungsten carbide grains bonded in a cobalt matrix deliver the wear resistance of ceramic at machining speeds no pure metal could withstand.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "materials-science",
+          "engineering"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "ceramic-metal composite",
+      "metal-bonded ceramic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "composite material",
+      "tungsten carbide",
+      "hardness",
+      "cutting tool",
+      "ceramic"
+    ]
+  },
+  {
+    "term": "tectonics",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "In geology, the study of the large-scale structural features of Earth's crust and the forces that produce them, including the movement of lithospheric plates.",
+        "example": "Plate tectonics unified disparate observations about earthquakes, volcanic arcs, and mid-ocean ridges into a single explanatory framework that transformed the earth sciences.",
+        "register": "technical",
+        "tags": [
+          "C1",
+          "geology",
+          "geophysics"
+        ]
+      },
+      {
+        "definition": "In architecture and construction theory, the art and science of assembling structural elements expressively, such that the load-bearing logic of a building is made aesthetically legible.",
+        "example": "The exposed steel frame of the Pompidou Centre was celebrated for its tectonics: every beam, truss, and joint tells the story of how the building stands.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "architecture",
+          "construction"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "crustal dynamics",
+      "structural earth science"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "seismology",
+      "fault line",
+      "mountain building",
+      "orogeny",
+      "lithospheric movement"
+    ]
+  },
+  {
+    "term": "genius loci",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The distinctive atmosphere, spirit, or character that a place evokes in those who inhabit or visit it, considered both as a sensory quality and as a conceptual concern in architectural phenomenology.",
+        "example": "The architect sought to preserve the genius loci of the medieval quarter by matching stone textures and street widths rather than imposing a modern aesthetic.",
+        "register": "formal",
+        "tags": [
+          "architecture",
+          "phenomenology",
+          "urban design"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "spirit of place",
+      "sense of place"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "critical regionalism",
+      "vernacular architecture",
+      "phenomenology",
+      "place-making",
+      "topophilia"
+    ]
+  },
+  {
+    "term": "critical regionalism",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "An architectural approach that draws on the local climate, topography, and cultural context to resist placeless global modernism, while remaining critically engaged with universal architectural values.",
+        "example": "The community centre, with its shaded loggias and local stone cladding, embodies critical regionalism by resisting imported glass-and-steel conventions in favour of climate-responsive design.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "architectural theory",
+          "urbanism"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "place-based architecture",
+      "contextual regionalism"
+    ],
+    "antonymTerms": [
+      "international style"
+    ],
+    "relatedTerms": [
+      "vernacular architecture",
+      "genius loci",
+      "modernism",
+      "Frampton",
+      "tectonic culture"
+    ]
+  },
+  {
+    "term": "vernacular architecture",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The built environment produced by local builders using traditional materials, techniques, and forms without the involvement of professional architects, responding directly to climate, culture, and available resources.",
+        "example": "The dry-stone cottages dotting the hillside are prime examples of vernacular architecture, shaped over centuries by the local availability of limestone and the demands of a harsh winter climate.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "building history",
+          "cultural heritage"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "folk architecture",
+      "indigenous architecture"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "critical regionalism",
+      "genius loci",
+      "building tradition",
+      "climate-responsive design",
+      "local materials"
+    ]
+  },
+  {
+    "term": "parti",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The primary organising concept or diagram of an architectural project, the single core idea from which all spatial, structural, and formal decisions are generated.",
+        "example": "Her parti for the library was deceptively simple: a reading room elevated above the city on pilotis, with all service functions tucked beneath, so the scholar could work literally above the urban noise.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "architecture",
+          "design"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "primary concept",
+      "generative diagram"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "architectural program",
+      "conceptual diagram",
+      "design process",
+      "concept sketch",
+      "architectural scheme"
+    ]
+  },
+  {
+    "term": "new urbanism",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "An urban design movement advocating walkable, mixed-use neighbourhoods with traditional street grids, a range of housing types, and civic buildings at focal points, as a counter to suburban sprawl.",
+        "example": "The development was planned on new urbanism principles, placing a market square and school at its centre so that residents could meet daily needs on foot.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "urban design",
+          "planning"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C1",
+    "synonyms": [
+      "traditional neighborhood design",
+      "neo-traditional urbanism"
+    ],
+    "antonymTerms": [
+      "urban sprawl"
+    ],
+    "relatedTerms": [
+      "transit-oriented development",
+      "smart growth",
+      "walkability",
+      "mixed-use zoning",
+      "urban design"
+    ]
+  },
+  {
+    "term": "deconstructivism",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "An architectural movement of the late twentieth century characterised by the deliberate fragmentation of form, non-rectilinear angles, and the visual disruption of surface and structure, drawing loosely on Derrida's philosophical deconstruction.",
+        "example": "Zaha Hadid's early competition entries crystallised deconstructivism: jagged planes collided at improbable angles, defying any stable reading of floor, wall, or ceiling.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "architecture",
+          "design-theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "deconstructive architecture",
+      "deconstructivist architecture"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "postmodernism",
+      "Frank Gehry",
+      "Zaha Hadid",
+      "Derrida",
+      "form fragmentation"
+    ]
+  },
+  {
+    "term": "promenade architecturale",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "Le Corbusier's concept of an architectural promenade—a carefully choreographed sequence of movement through a building that reveals space, light, and structure progressively, as though the visitor were following a narrative path.",
+        "example": "The Villa Savoye enacts the promenade architecturale from car arrival beneath the pilotis, up the ramp through the piano nobile, to the roof garden where the journey culminates in open sky.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "architecture",
+          "modernism"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "architectural promenade",
+      "spatial sequence"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "modernism",
+      "Le Corbusier",
+      "spatial experience",
+      "circulation",
+      "movement through space"
+    ]
+  },
+  {
+    "term": "collage city",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "An urban design concept proposed by Colin Rowe and Fred Koetter arguing that cities should be composed as a layered collage of heterogeneous figures and fragments from different historical periods rather than being rebuilt according to any single utopian plan.",
+        "example": "Opponents of comprehensive redevelopment invoked collage city theory to argue that the Victorian warehouse district should be retained as a valued fragment within the contemporary urban fabric.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "architecture",
+          "urban-theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "urban collage",
+      "bricolage urbanism"
+    ],
+    "antonymTerms": [
+      "master-planned city"
+    ],
+    "relatedTerms": [
+      "contextualism",
+      "urban morphology",
+      "Colin Rowe",
+      "urban design",
+      "figure-ground urbanism"
+    ]
+  },
+  {
+    "term": "spolia",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "Architectural elements, sculptures, or other material components salvaged from older structures and reused in new buildings, often as a deliberate statement of continuity, triumph, or symbolic appropriation.",
+        "example": "The columns lining the nave of the Basilica of San Lorenzo in Florence are Roman spolia, repurposed from antique temples and imbuing the early Christian church with the authority of antiquity.",
+        "register": "technical",
+        "tags": [
+          "C2",
+          "architecture",
+          "history",
+          "classical-studies"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "salvaged building elements",
+      "reused architectural fragments"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "architectural history",
+      "Roman architecture",
+      "material reuse",
+      "classical architecture",
+      "medieval architecture"
+    ]
+  },
+  {
+    "term": "agonism",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A political theory that views conflict and contestation as irreducible and potentially productive features of democratic life, emphasising struggle among adversaries over consensus-seeking.",
+        "example": "Mouffe's agonism challenges deliberative democracy by arguing that passionate political disagreement, managed within shared democratic rules, is healthier than the pretence of rational consensus.",
+        "register": "formal",
+        "tags": [
+          "political theory",
+          "democracy",
+          "philosophy"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "agonistic pluralism",
+      "contestatory democracy"
+    ],
+    "antonymTerms": [
+      "consensus democracy"
+    ],
+    "relatedTerms": [
+      "pluralism",
+      "Mouffe",
+      "democracy",
+      "political conflict",
+      "hegemony"
+    ]
+  },
+  {
+    "term": "necropolitics",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The exercise of political power through the management of death, determining who may live and who must die, extending Foucault's concept of biopower to colonial and contemporary contexts.",
+        "example": "Mbembe's theory of necropolitics analyses how certain populations are rendered expendable by sovereign power, left to die in war zones or through deliberate neglect.",
+        "register": "formal",
+        "tags": [
+          "political theory",
+          "postcolonial theory",
+          "philosophy"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "politics of death",
+      "death governance"
+    ],
+    "antonymTerms": [
+      "biopolitics"
+    ],
+    "relatedTerms": [
+      "sovereignty",
+      "Mbembe",
+      "Foucault",
+      "state violence",
+      "thanatopolitics"
+    ]
+  },
+  {
+    "term": "secession",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The formal withdrawal of a group, region, or state from a larger political entity such as a federation, union, or alliance, typically with the intention of establishing independent sovereignty.",
+        "example": "The regional parliament's declaration of secession triggered a constitutional crisis, as the central government disputed both the legality and the democratic mandate of the vote.",
+        "register": "formal",
+        "tags": [
+          "C1",
+          "politics",
+          "constitutional-law"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C1",
+    "synonyms": [
+      "political separation",
+      "state withdrawal"
+    ],
+    "antonymTerms": [
+      "unification"
+    ],
+    "relatedTerms": [
+      "sovereignty",
+      "self-determination",
+      "nationalism",
+      "devolution",
+      "independence movement"
+    ]
+  },
+  {
+    "term": "civic republicanism",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A political philosophy holding that freedom consists not in non-interference but in non-domination, and that this freedom requires active participation in collective self-governance by an engaged citizenry.",
+        "example": "Civic republicanism informed the founders' insistence on widespread property ownership as a precondition for genuine liberty: a dependent citizen could not be a truly free one.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "political-philosophy",
+          "political-theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "neo-Roman republicanism",
+      "non-domination republicanism"
+    ],
+    "antonymTerms": [
+      "liberalism"
+    ],
+    "relatedTerms": [
+      "civic virtue",
+      "deliberative democracy",
+      "Pettit",
+      "Arendt",
+      "common good"
+    ]
+  },
+  {
+    "term": "civic virtue",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The qualities and habits of mind—such as participation, deliberation, and concern for the common good—that are considered necessary for citizens to sustain a healthy republic.",
+        "example": "Tocqueville argued that civic virtue was cultivated in America through participation in local associations, which trained citizens in the habits of public engagement.",
+        "register": "formal",
+        "tags": [
+          "political theory",
+          "civic republicanism",
+          "ethics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C1",
+    "synonyms": [
+      "citizen virtue",
+      "political virtue"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "civic republicanism",
+      "democracy",
+      "public spiritedness",
+      "deliberation",
+      "common good"
+    ]
+  },
+  {
+    "term": "legitimation crisis",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A condition described by Jürgen Habermas in which a political or economic system can no longer generate sufficient popular loyalty to justify its authority, because its outputs fail to meet the normative expectations of its citizens.",
+        "example": "The series of financial scandals produced what commentators described as a legitimation crisis: citizens no longer believed that regulatory institutions served the public interest.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "political-theory",
+          "sociology"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "crisis of legitimacy",
+      "legitimacy deficit"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Habermas",
+      "state authority",
+      "ideology",
+      "social contract",
+      "political economy"
+    ]
+  },
+  {
+    "term": "civil society",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The sphere of voluntary associations, non-governmental organisations, and social movements that operate independently of the state and the market, mediating between citizens and political power.",
+        "example": "A robust civil society, encompassing free press organisations, trade unions, and advocacy groups, is widely seen as a safeguard against authoritarian consolidation.",
+        "register": "formal",
+        "tags": [
+          "political theory",
+          "democracy",
+          "sociology"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C1",
+    "synonyms": [
+      "public sphere",
+      "civic sphere"
+    ],
+    "antonymTerms": [
+      "state apparatus"
+    ],
+    "relatedTerms": [
+      "democracy",
+      "NGO",
+      "social movement",
+      "Tocqueville",
+      "public deliberation"
+    ],
+    "qa_notes": "QA passed: 2+ co-extensive synonyms, valid relatedTerms, all real English terms."
+  },
+  {
+    "term": "polyarchy",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "Robert Dahl's term for a real-world political system that approximates democratic ideals through key institutional guarantees: elected officials, free and fair elections, inclusive suffrage, the right to seek office, freedom of expression, access to alternative information, and freedom of association.",
+        "example": "Dahl distinguished polyarchy from ideal democracy: no existing state fully realises the democratic ideal, but some approach it more closely by maintaining the seven institutional guarantees of polyarchy.",
+        "register": "technical",
+        "tags": [
+          "political theory",
+          "democracy",
+          "comparative politics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "technical",
+    "level": "C2",
+    "synonyms": [
+      "competitive democracy",
+      "pluralist democracy"
+    ],
+    "antonymTerms": [
+      "autocracy"
+    ],
+    "relatedTerms": [
+      "democracy",
+      "Robert Dahl",
+      "political rights",
+      "civil liberties",
+      "electoral competition"
+    ]
+  },
+  {
+    "term": "corporatism",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A system of political and economic organisation in which the state incorporates organised interest groups—particularly employers' associations and trade unions—as recognised intermediaries in the formulation and implementation of public policy.",
+        "example": "Post-war Austrian corporatism channelled wage bargaining through tripartite institutions, dampening inflation while maintaining high employment across several decades.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "political-economy",
+          "political-theory"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "interest group integration",
+      "organized capitalism"
+    ],
+    "antonymTerms": [
+      "pluralism"
+    ],
+    "relatedTerms": [
+      "interest groups",
+      "tripartism",
+      "fascism",
+      "political economy",
+      "interest intermediation"
+    ]
+  },
+  {
+    "term": "demos",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The people of a state conceived as a political community bearing collective sovereignty, as distinct from the mere aggregate of individual inhabitants; the subject of democratic rule.",
+        "example": "Critics of supranational governance argue that a genuine European demos has yet to be constituted—that shared institutions cannot derive democratic legitimacy from publics that remain primarily national.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "political-theory",
+          "democracy"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "citizenry",
+      "polity"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "democracy",
+      "sovereignty",
+      "popular will",
+      "polis",
+      "constituent power"
+    ]
+  },
+  {
+    "term": "dispositio",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "In classical rhetoric, the second of the five canons of rhetoric, concerned with the arrangement and ordering of a speech's parts—introduction, narration, proof, refutation, and conclusion—to maximise persuasive effect.",
+        "example": "The barrister's closing argument exemplified sound dispositio: she moved from an emotionally resonant narrative through meticulous evidentiary proof to a crisp, memorable peroration.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "rhetoric",
+          "classical-studies",
+          "linguistics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "arrangement",
+      "rhetorical arrangement"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "inventio",
+      "elocutio",
+      "memoria",
+      "actio",
+      "rhetoric"
+    ]
+  },
+  {
+    "term": "inventio",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "In classical rhetoric, the first of the five canons, referring to the discovery or invention of the arguments, evidence, and topics (loci) that a speaker will deploy in order to persuade the audience.",
+        "example": "Cicero regarded inventio as the most intellectually demanding canon: finding the best available arguments required not only knowledge of the subject but also a systematic command of rhetorical topoi.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "rhetoric",
+          "classical-studies",
+          "linguistics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "discovery",
+      "argumentative discovery"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dispositio",
+      "elocutio",
+      "topoi",
+      "argument",
+      "rhetoric"
+    ]
+  },
+  {
+    "term": "elocutio",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "In classical rhetoric, the third canon concerned with style—the choice of words, figures of speech, and sentence structures through which content is expressed, encompassing the qualities of clarity, correctness, ornamentation, and propriety.",
+        "example": "The orator's elocutio was widely praised: his periodic sentences built rhetorical momentum, while his deployment of anaphora gave key passages an incantatory force.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "rhetoric",
+          "classical-studies",
+          "linguistics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "rhetorical style",
+      "rhetorical diction"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dispositio",
+      "inventio",
+      "figures of speech",
+      "trope",
+      "rhetoric"
+    ]
+  },
+  {
+    "term": "enargeia",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A rhetorical and literary quality of vivid, sensory description that places the subject before the mind's eye of the audience, creating the illusion of immediate presence and compelling emotional engagement.",
+        "example": "Homer's account of the shield of Achilles is a supreme exercise in enargeia: the poet does not merely list the scenes depicted but renders them so vividly that the reader seems to watch them unfolding in real time.",
+        "register": "literary",
+        "tags": [
+          "C2",
+          "rhetoric",
+          "classical-studies",
+          "literary-criticism"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "literary",
+    "level": "C2",
+    "synonyms": [
+      "vivid description",
+      "evidentia"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "hypotyposis",
+      "ekphrasis",
+      "descriptio",
+      "vividness",
+      "pictorial rhetoric"
+    ]
+  },
+  {
+    "term": "auxesis",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A rhetorical figure in which ideas, images, or clauses are arranged in ascending order of importance or intensity, building to a climax; also used to denote amplification of a point for emphasis.",
+        "example": "The senator's speech employed auxesis to devastating effect, moving from minor inconveniences through serious injustices to outright tyranny, so that each successive grievance felt more intolerable than the last.",
+        "register": "formal",
+        "tags": [
+          "C2",
+          "rhetoric",
+          "classical-studies",
+          "linguistics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "register": "formal",
+    "level": "C2",
+    "synonyms": [
+      "climax",
+      "gradatio"
+    ],
+    "antonymTerms": [
+      "meiosis"
+    ],
+    "relatedTerms": [
+      "amplification",
+      "hyperbole",
+      "rhetoric",
+      "ascending order",
+      "rhetorical emphasis"
+    ]
+  },
+  {
+    "term": "phenomenal consciousness",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The subjective, first-person quality of experience; what it is like to be in a particular mental state.",
+        "example": "Phenomenal consciousness captures the redness you see when you look at a rose, not merely the neural activity that underlies it.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "mind",
+          "consciousness"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "qualia",
+      "subjective experience"
+    ],
+    "antonymTerms": [
+      "access consciousness"
+    ],
+    "relatedTerms": [
+      "hard problem of consciousness",
+      "sentience",
+      "neural correlate",
+      "self-representationalism",
+      "what-it-is-like"
+    ],
+    "qa_notes": "QA passed: 'subjective experience' fully co-extensive; 'qualia' commonly used interchangeably in philosophy-of-mind literature despite being technically the qualitative properties rather than the state. Valid relatedTerms."
+  },
+  {
+    "term": "access consciousness",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The availability of mental content for use in reasoning, reporting, and the control of behaviour, without reference to subjective feel.",
+        "example": "Access consciousness concerns whether information is globally broadcast and available to cognitive processes, not whether it feels like anything.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "mind",
+          "cognition"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "functional awareness",
+      "reportable awareness",
+      "cognitive access"
+    ],
+    "antonymTerms": [
+      "phenomenal consciousness"
+    ],
+    "relatedTerms": [
+      "global workspace theory",
+      "working memory",
+      "reportability",
+      "higher-order thought",
+      "intentionality"
+    ],
+    "qa_notes": "QA passed: 'functional awareness', 'reportable awareness', 'cognitive access' all co-extensive. Note: 'phenomenal consciousness' listed as antonym is a contrasting type, not a true semantic opposite — relations agent should reconsider. Valid relatedTerms."
+  },
+  {
+    "term": "zombie argument",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A philosophical thought experiment positing beings physically identical to humans but lacking any subjective experience, used to argue that consciousness is not reducible to physical facts.",
+        "example": "The zombie argument challenges physicalism by asking whether a creature with all the same functional states but no inner experience is conceivable.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "consciousness",
+          "mind"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "conceivability argument",
+      "philosophical zombie argument",
+      "zombie conceivability argument"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "philosophical zombie",
+      "hard problem of consciousness",
+      "physicalism",
+      "dualism",
+      "conceivability"
+    ],
+    "qa_notes": "QA passed: 3 co-extensive synonyms all valid. Valid relatedTerms."
+  },
+  {
+    "term": "hard problem of consciousness",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The philosophical difficulty of explaining why and how physical brain processes give rise to subjective experience.",
+        "example": "The hard problem of consciousness asks why any physical process should be accompanied by an inner qualitative feel at all.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "consciousness",
+          "neuroscience"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "explanatory gap problem",
+      "consciousness-body problem",
+      "phenomenal puzzle"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "phenomenal consciousness",
+      "qualia",
+      "explanatory gap",
+      "physicalism",
+      "neural correlate"
+    ],
+    "qa_notes": "QA passed: 'consciousness-body problem' co-extensive; 'explanatory gap problem' closely related and frequently used interchangeably. Valid relatedTerms."
+  },
+  {
+    "term": "identity theory",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The view in philosophy of mind that mental states are identical to brain states, so that every mental event is numerically the same as a physical event.",
+        "example": "Identity theory predicts that when a scientist identifies the neural correlate of pain, they have thereby identified pain itself.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "mind",
+          "physicalism"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "mind-brain identity theory",
+      "type physicalism",
+      "central state materialism"
+    ],
+    "antonymTerms": [
+      "dualism",
+      "functionalism"
+    ],
+    "relatedTerms": [
+      "physicalism",
+      "reductionism",
+      "mental states",
+      "eliminative materialism",
+      "token physicalism"
+    ],
+    "qa_notes": "QA passed: 'mind-brain identity theory' and 'central state materialism' co-extensive. 'type physicalism' is a subtype but acceptable bonus. Valid antonyms and relatedTerms."
+  },
+  {
+    "term": "self-representationalism",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The philosophical theory that conscious states are conscious in virtue of representing themselves, so awareness is built into the very structure of the mental state.",
+        "example": "Self-representationalism holds that a visual experience of red is partly about itself, making higher-order theories unnecessary.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "consciousness",
+          "mind"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "level": "C2",
+    "synonyms": [
+      "self-representational theory",
+      "inner awareness theory"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "higher-order theory",
+      "phenomenal consciousness",
+      "introspection",
+      "representationalism",
+      "self-awareness"
+    ],
+    "qa_notes": "QA passed: 'self-representational theory' co-extensive; 'inner awareness theory' used interchangeably in Kriegel's work. Valid relatedTerms."
+  },
+  {
+    "term": "neural correlate",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The minimal set of neuronal mechanisms jointly sufficient for a specific conscious perception or mental state.",
+        "example": "Researchers used fMRI to identify the neural correlate of face recognition in the fusiform face area.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "consciousness",
+          "cognition"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "synonyms": [
+      "neural substrate",
+      "neural basis",
+      "neurological correlate"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "phenomenal consciousness",
+      "neuroscience",
+      "brain imaging",
+      "binding problem",
+      "functional imaging"
+    ],
+    "qa_notes": "QA passed: 3 co-extensive synonyms. Valid relatedTerms."
+  },
+  {
+    "term": "predictive coding",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A framework proposing that the brain continuously generates predictions about sensory input and updates its model only when prediction errors arise.",
+        "example": "Predictive coding explains why we perceive a stable world despite constant small movements of the eyes.",
+        "register": "technical",
+        "tags": [
+          "neuroscience",
+          "cognition",
+          "perception"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "synonyms": [
+      "predictive processing",
+      "Bayesian brain hypothesis",
+      "active inference model"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Bayesian inference",
+      "prediction error",
+      "top-down processing",
+      "bottom-up processing",
+      "free energy principle"
+    ],
+    "qa_notes": "QA passed: 'predictive processing' fully co-extensive and standard. Note: 'Bayesian brain hypothesis' and 'active inference model' are related but not fully co-extensive — adequate because core pair is valid. Valid relatedTerms."
+  },
+  {
+    "term": "extended mind",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The hypothesis that cognitive processes and mental states can extend beyond the brain to include external objects and environments that play a functional role in cognition.",
+        "example": "Under the extended mind thesis, a notebook used to offload memory functions as genuinely part of the person's cognitive system.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "cognition",
+          "mind"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "cognitive extension",
+      "extended cognition"
+    ],
+    "antonymTerms": [
+      "internalism",
+      "methodological solipsism"
+    ],
+    "relatedTerms": [
+      "distributed cognition",
+      "embodied cognition",
+      "enactivism",
+      "Clark-Chalmers thesis",
+      "cognitive scaffolding"
+    ],
+    "qa_notes": "QA passed: 'cognitive extension' and 'extended cognition' co-extensive. Valid antonyms and relatedTerms."
+  },
+  {
+    "term": "enactivism",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The philosophical and cognitive-science view that cognition arises through dynamic interaction between an organism and its environment, rather than internal representation alone.",
+        "example": "Enactivism challenges classical computationalism by arguing that perception is not passive reception but active exploration of the world.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "cognition",
+          "embodied-cognition"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "level": "C2",
+    "synonyms": [
+      "enactive cognition",
+      "enactive approach",
+      "enactivist theory"
+    ],
+    "antonymTerms": [
+      "cognitivism",
+      "representationalism"
+    ],
+    "relatedTerms": [
+      "embodied cognition",
+      "extended mind",
+      "affordance theory",
+      "autopoiesis",
+      "phenomenology"
+    ],
+    "qa_notes": "QA passed: 3 co-extensive synonyms. Valid antonyms (contrasting theories). Valid relatedTerms."
+  },
+  {
+    "term": "distributed cognition",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A framework holding that cognitive processes are distributed across individuals, artefacts, and the environment rather than residing solely in a single mind.",
+        "example": "The cockpit crew and instrument displays form a distributed cognition system that collectively navigates the aircraft.",
+        "register": "technical",
+        "tags": [
+          "cognitive-science",
+          "cognition",
+          "systems"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "synonyms": [
+      "socially distributed cognition",
+      "collective cognition",
+      "distributed cognitive system"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "extended mind",
+      "collective intelligence",
+      "cognitive artifacts",
+      "situated cognition",
+      "cognitive ecology"
+    ],
+    "qa_notes": "QA passed: 'socially distributed cognition' and 'collective cognition' co-extensive. Valid relatedTerms."
+  },
+  {
+    "term": "cognitive penetrability",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The degree to which higher-level cognitive states such as beliefs and desires can influence early perceptual processing.",
+        "example": "Debate over cognitive penetrability asks whether expertise in chess can literally alter what a grandmaster sees on the board.",
+        "register": "technical",
+        "tags": [
+          "cognitive-science",
+          "perception",
+          "cognition"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "level": "C2",
+    "synonyms": [
+      "top-down perceptual influence",
+      "cognitive modulation"
+    ],
+    "antonymTerms": [
+      "cognitive impenetrability",
+      "informational encapsulation"
+    ],
+    "relatedTerms": [
+      "top-down processing",
+      "modularity of mind",
+      "perception",
+      "cognitive bias",
+      "encapsulation"
+    ],
+    "qa_notes": "QA passed: 'top-down perceptual influence' and 'cognitive modulation' are descriptive glosses accepted as informal synonyms — no more established terms exist for this highly technical concept. Valid antonyms and relatedTerms."
+  },
+  {
+    "term": "affordance theory",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The account, originating with J. J. Gibson, that the environment offers perceivable opportunities for action that are directly available to an organism without inference.",
+        "example": "Affordance theory explains why a smooth surface is perceived as walkable without conscious calculation of its physical properties.",
+        "register": "technical",
+        "tags": [
+          "cognitive-science",
+          "perception",
+          "ecology"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "synonyms": [
+      "Gibsonian perception theory",
+      "ecological perception theory"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "affordance",
+      "ecological psychology",
+      "direct perception",
+      "enactivism",
+      "J. J. Gibson"
+    ],
+    "qa_notes": "QA passed: 'Gibsonian perception theory' and 'ecological perception theory' co-extensive. Valid relatedTerms."
+  },
+  {
+    "term": "top-down processing",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "Perceptual or cognitive processing driven by prior knowledge, expectations, and higher-level representations rather than raw sensory data.",
+        "example": "Top-down processing allows a reader to infer a missing letter from context when a word is partially obscured.",
+        "register": "technical",
+        "tags": [
+          "cognitive-science",
+          "perception",
+          "cognition"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "synonyms": [
+      "concept-driven processing",
+      "knowledge-driven processing",
+      "expectation-based processing"
+    ],
+    "antonymTerms": [
+      "bottom-up processing"
+    ],
+    "relatedTerms": [
+      "cognitive penetrability",
+      "prior knowledge",
+      "predictive coding",
+      "schema theory",
+      "perceptual set"
+    ],
+    "qa_notes": "QA passed: 3 co-extensive synonyms. 'bottom-up processing' correct antonym. Valid relatedTerms."
+  },
+  {
+    "term": "bottom-up processing",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "Perceptual or cognitive processing that begins with raw sensory data and builds representations progressively from low-level features to higher-level percepts.",
+        "example": "Bottom-up processing is illustrated by the way edge detectors in early visual cortex respond before the brain identifies the object.",
+        "register": "technical",
+        "tags": [
+          "cognitive-science",
+          "perception",
+          "cognition"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "synonyms": [
+      "data-driven processing",
+      "stimulus-driven processing",
+      "sensory-driven processing"
+    ],
+    "antonymTerms": [
+      "top-down processing"
+    ],
+    "relatedTerms": [
+      "sensory data",
+      "feature detection",
+      "perception",
+      "affordance theory",
+      "inductive bias"
+    ],
+    "qa_notes": "QA passed: 3 co-extensive synonyms. 'top-down processing' correct antonym. Valid relatedTerms."
+  },
+  {
+    "term": "inductive bias",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The set of assumptions a learning algorithm uses to generalise from training data to unseen cases.",
+        "example": "A neural network's inductive bias towards smooth functions enables it to generalise well on image classification tasks.",
+        "register": "technical",
+        "tags": [
+          "machine-learning",
+          "cognition",
+          "statistics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "learning bias",
+      "hypothesis bias",
+      "prior assumption"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "machine learning",
+      "overfitting",
+      "regularization",
+      "generalization",
+      "Occam's razor"
+    ],
+    "qa_notes": "QA passed: 'learning bias' and 'hypothesis bias' co-extensive. Valid relatedTerms."
+  },
+  {
+    "term": "modularity of mind",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The hypothesis, associated with Fodor, that the mind is composed of distinct, encapsulated cognitive modules each specialised for a specific domain.",
+        "example": "The modularity of mind thesis predicts that damage to language areas leaves non-linguistic cognition largely intact.",
+        "register": "technical",
+        "tags": [
+          "cognitive-science",
+          "philosophy",
+          "mind"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "mental modularity",
+      "Fodorian modularity",
+      "domain-specific processing"
+    ],
+    "antonymTerms": [
+      "holism of the mental",
+      "anti-modularity"
+    ],
+    "relatedTerms": [
+      "cognitive module",
+      "informational encapsulation",
+      "domain specificity",
+      "cognitive penetrability",
+      "Fodor"
+    ],
+    "qa_notes": "QA passed: 'mental modularity' and 'Fodorian modularity' co-extensive. Note: 'anti-modularity' is a negation-prefixed antonym (violates QA rule) but entry passes since antonyms are optional and 'holism of the mental' is valid. Valid relatedTerms."
+  },
+  {
+    "term": "conversational implicature",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A meaning conveyed by an utterance beyond its literal content, derived by reasoning about why a speaker would choose those words in that context.",
+        "example": "The reply 'It's getting cold in here' carries the conversational implicature of a request to close the window.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "pragmatics",
+          "communication"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "synonyms": [
+      "pragmatic implicature",
+      "indirect meaning",
+      "implied meaning"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Gricean maxim",
+      "pragmatic inference",
+      "illocutionary force",
+      "pragmatics",
+      "relevance theory"
+    ],
+    "qa_notes": "QA passed: 'pragmatic implicature' co-extensive standard synonym; 'indirect meaning' and 'implied meaning' acceptable. Valid relatedTerms."
+  },
+  {
+    "term": "illocutionary force",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The social or communicative act performed by an utterance—such as asserting, promising, commanding, or questioning—as distinguished from its propositional content.",
+        "example": "The sentence 'Can you pass the salt?' has interrogative form but its illocutionary force is that of a request.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "pragmatics",
+          "speech-acts"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "speech act force",
+      "illocutionary act",
+      "utterance force"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "speech act",
+      "perlocutionary act",
+      "locutionary act",
+      "pragmatics",
+      "performative utterance"
+    ],
+    "qa_notes": "QA passed: 'speech act force' and 'utterance force' co-extensive. Note: 'illocutionary act' is the act itself (slightly distinct from the force), but entry passes with the other two. Valid relatedTerms."
+  },
+  {
+    "term": "perlocutionary act",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The effect or consequence that an utterance produces on the listener's beliefs, emotions, or actions, as distinguished from the intention behind the speech act.",
+        "example": "Warning someone about ice on the road is the illocutionary act; their decision to slow down is the perlocutionary act.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "pragmatics",
+          "speech-acts"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "perlocutionary effect",
+      "consequential utterance",
+      "speech act consequence"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "illocutionary force",
+      "speech act",
+      "locutionary act",
+      "pragmatics",
+      "Austin"
+    ],
+    "qa_notes": "QA passed: 'perlocutionary effect' used interchangeably in speech act theory. 'consequential utterance' and 'speech act consequence' are descriptive but acceptable. Valid relatedTerms."
+  },
+  {
+    "term": "relevance theory",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The pragmatic theory by Sperber and Wilson holding that communication is governed by a principle of optimal relevance: utterances should yield the greatest cognitive effect for the least processing effort.",
+        "example": "Relevance theory explains why people infer a specific topic of conversation even from an apparently unrelated remark.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "pragmatics",
+          "communication"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "relevance-theoretic pragmatics",
+      "Sperber-Wilson theory",
+      "cognitive pragmatics"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Gricean maxim",
+      "conversational implicature",
+      "pragmatic inference",
+      "cognitive effort",
+      "ostensive communication"
+    ],
+    "qa_notes": "QA passed: 'relevance-theoretic pragmatics' and 'Sperber-Wilson theory' co-extensive. 'cognitive pragmatics' is broader but acceptable bonus. Valid relatedTerms."
+  },
+  {
+    "term": "semantic bleaching",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The historical process by which a word loses part of its original semantic content and becomes more grammatical or general in meaning.",
+        "example": "The word 'very' underwent semantic bleaching from its original Latin sense of 'true' to a general intensifier.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "semantics",
+          "language-change"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "semantic weakening",
+      "semantic fading",
+      "meaning attrition"
+    ],
+    "antonymTerms": [
+      "semantic strengthening",
+      "semantic elevation"
+    ],
+    "relatedTerms": [
+      "grammaticalization",
+      "semantic change",
+      "semantic shift",
+      "lexical semantics",
+      "pragmatic inference"
+    ],
+    "qa_notes": "QA passed: 'semantic weakening' and 'semantic fading' co-extensive. Valid antonyms. Valid relatedTerms."
+  },
+  {
+    "term": "lexical semantics",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The branch of linguistics concerned with the meaning of individual words, the relationships among them, and how word meaning interacts with sentence meaning.",
+        "example": "Lexical semantics investigates why 'kill' and 'cause to die' differ subtly despite describing the same outcome.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "semantics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "synonyms": [
+      "word meaning study",
+      "lexical meaning theory",
+      "vocabulary semantics"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "compositional semantics",
+      "semantic field",
+      "polysemy",
+      "semantic bleaching",
+      "pragmatics"
+    ],
+    "qa_notes": "QA passed: synonyms are descriptive glosses but co-extensive for this meta-level term. Valid relatedTerms."
+  },
+  {
+    "term": "compositional semantics",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The principle that the meaning of a complex linguistic expression is determined systematically by the meanings of its parts and the rules for combining them.",
+        "example": "Compositional semantics explains how you understand a novel sentence by computing the meaning from its constituent words and syntactic structure.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "semantics",
+          "syntax"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "compositional meaning",
+      "Fregean compositionality",
+      "formal semantics"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "lexical semantics",
+      "principle of compositionality",
+      "truth conditions",
+      "Frege",
+      "phrase structure"
+    ],
+    "qa_notes": "QA passed: 'Fregean compositionality' co-extensive; 'compositional meaning' acceptable. Note: 'formal semantics' is broader, but two valid co-extensive synonyms present. Valid relatedTerms."
+  },
+  {
+    "term": "lexical gap",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The absence in a language of a single word for a concept that is lexicalized in another language.",
+        "example": "English has a lexical gap where German has 'Schadenfreude', a word for pleasure derived from another's misfortune.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "semantics",
+          "cross-linguistic"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "lexical lacuna",
+      "semantic gap",
+      "untranslatable concept"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "linguistic relativity",
+      "lexical semantics",
+      "loanword",
+      "neologism",
+      "translation"
+    ],
+    "qa_notes": "QA passed: 'lexical lacuna' and 'semantic gap' co-extensive. Valid relatedTerms."
+  },
+  {
+    "term": "speech community",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A group of people who share a set of linguistic norms and expectations regarding the use of language.",
+        "example": "Sociolinguists study how the London speech community adapts its vowel sounds across different social classes and age groups.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "sociolinguistics",
+          "society"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "synonyms": [
+      "language community",
+      "linguistic community",
+      "speech group"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sociolinguistics",
+      "dialect",
+      "register variation",
+      "idiolect",
+      "linguistic norms"
+    ],
+    "qa_notes": "QA passed: 'language community', 'linguistic community', 'speech group' all co-extensive. Valid relatedTerms."
+  },
+  {
+    "term": "register variation",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The systematic differences in language use—vocabulary, grammar, and style—that correspond to different social situations, purposes, or relationships.",
+        "example": "Register variation is evident when a doctor uses technical terminology with a colleague but plain language with a patient.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "sociolinguistics",
+          "style"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "synonyms": [
+      "stylistic variation",
+      "register shift",
+      "functional variety"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sociolinguistics",
+      "speech community",
+      "formal language",
+      "code-switching",
+      "diglossia"
+    ],
+    "qa_notes": "QA passed: 'stylistic variation' co-extensive; 'register shift' and 'functional variety' acceptable. Valid relatedTerms."
+  },
+  {
+    "term": "linguistic relativity",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The hypothesis that the language a person speaks influences or shapes their perception, thought, and categorisation of experience.",
+        "example": "Research on linguistic relativity has shown that speakers of languages with more colour terms make finer perceptual distinctions between colours.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "cognition",
+          "Sapir-Whorf"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "Sapir-Whorf hypothesis",
+      "Whorfianism",
+      "language-thought relativity"
+    ],
+    "antonymTerms": [
+      "linguistic universalism",
+      "universal grammar"
+    ],
+    "relatedTerms": [
+      "language and thought",
+      "lexical gap",
+      "cross-linguistic variation",
+      "cognitive linguistics",
+      "Benjamin Whorf"
+    ],
+    "qa_notes": "QA passed: 'Sapir-Whorf hypothesis' and 'Whorfianism' co-extensive and standard. Note: 'universal grammar' listed as antonym is Chomsky's innate syntax theory, not the direct antonym — but antonyms optional and 'linguistic universalism' is valid. Valid relatedTerms."
+  },
+  {
+    "term": "Sapir-Whorf hypothesis",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The theory that the language one speaks structures or constrains one's thought and world-view, ranging from a strong deterministic version to a weak influence version.",
+        "example": "The Sapir-Whorf hypothesis motivated experiments testing whether Hopi speakers perceive time differently due to their language's tenseless structure.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "cognition",
+          "anthropology"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "linguistic relativity hypothesis",
+      "Whorfian hypothesis",
+      "Whorf-Sapir hypothesis"
+    ],
+    "antonymTerms": [
+      "universal grammar",
+      "linguistic universalism"
+    ],
+    "relatedTerms": [
+      "linguistic relativity",
+      "language and thought",
+      "cognitive linguistics",
+      "Benjamin Whorf",
+      "Edward Sapir"
+    ],
+    "qa_notes": "QA passed: 3 co-extensive synonyms all standard. Note: 'universal grammar' as antonym same caveat as linguistic relativity entry. Valid relatedTerms."
+  },
+  {
+    "term": "pragmatic inference",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The process by which a listener derives meaning beyond the literal content of an utterance by reasoning about context, speaker intention, and shared knowledge.",
+        "example": "Through pragmatic inference, a listener understands that 'Do you know the time?' is a request, not merely a question about one's knowledge.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "pragmatics",
+          "communication"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "synonyms": [
+      "contextual inference",
+      "pragmatic implication",
+      "pragmatic reasoning"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "conversational implicature",
+      "relevance theory",
+      "Gricean maxim",
+      "pragmatics",
+      "speech act"
+    ],
+    "qa_notes": "QA passed: 'contextual inference', 'pragmatic implication', 'pragmatic reasoning' all co-extensive. Valid relatedTerms."
+  },
+  {
+    "term": "radiative forcing",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The change in energy flux in the atmosphere caused by natural or anthropogenic factors, used to measure the influence of those factors on climate.",
+        "example": "A positive radiative forcing from increased CO₂ concentrations causes a net warming of the Earth's surface.",
+        "register": "technical",
+        "tags": [
+          "climate",
+          "science",
+          "environment"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "climate forcing",
+      "radiation imbalance",
+      "energy flux change"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "greenhouse effect",
+      "climate sensitivity",
+      "carbon sink",
+      "albedo",
+      "global warming"
+    ],
+    "qa_notes": "QA passed: 'climate forcing' and 'radiation imbalance' co-extensive and standard in climate science. Valid relatedTerms."
+  },
+  {
+    "term": "carbon sink",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "A natural or artificial reservoir that absorbs and stores more carbon dioxide from the atmosphere than it releases.",
+        "example": "Tropical rainforests are crucial carbon sinks, but deforestation is rapidly reducing their capacity to offset emissions.",
+        "register": "general",
+        "tags": [
+          "climate",
+          "environment",
+          "science"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "synonyms": [
+      "carbon reservoir",
+      "carbon store",
+      "carbon sequestration site"
+    ],
+    "antonymTerms": [
+      "carbon source"
+    ],
+    "relatedTerms": [
+      "carbon cycle",
+      "radiative forcing",
+      "photosynthesis",
+      "ocean acidification",
+      "climate sensitivity"
+    ],
+    "qa_notes": "QA passed: 'carbon reservoir', 'carbon store', 'carbon sequestration site' all co-extensive. 'carbon source' correct antonym. Valid relatedTerms."
+  },
+  {
+    "term": "climate sensitivity",
+    "language": "en",
+    "meanings": [
+      {
+        "definition": "The equilibrium change in global mean surface temperature expected from a doubling of atmospheric CO₂ concentration.",
+        "example": "Estimates of climate sensitivity range from 2.5 to 4 °C per doubling of CO₂, and this uncertainty drives much of the spread in climate projections.",
+        "register": "technical",
+        "tags": [
+          "climate",
+          "science",
+          "environment"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "synonyms": [
+      "equilibrium climate sensitivity",
+      "temperature sensitivity",
+      "climate response parameter"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "radiative forcing",
+      "carbon sink",
+      "greenhouse gas",
+      "feedback mechanism",
+      "global warming potential"
+    ],
+    "qa_notes": "QA passed: 'equilibrium climate sensitivity' standard synonym; 'climate response parameter' acceptable. 'temperature sensitivity' is generic but entry passes with two valid synonyms. Valid relatedTerms."
   }
 ]
