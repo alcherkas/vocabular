@@ -893,7 +893,7 @@
     "term": "ausų",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Genitive plural form of 'ausis' (ear); used in compound expressions meaning 'of ears' or 'ear-'.",
@@ -907,7 +907,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ausis",
+      "auskaras",
+      "galva"
+    ],
     "translation": "of ears (genitive plural)",
     "register": "general",
     "level": "A1"
@@ -1222,7 +1226,7 @@
   },
   {
     "term": "gimnastika",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -1456,7 +1460,7 @@
   },
   {
     "term": "samanos",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -1485,7 +1489,7 @@
   },
   {
     "term": "klevas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -1514,7 +1518,7 @@
   },
   {
     "term": "pušis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -1543,7 +1547,7 @@
   },
   {
     "term": "kočėlas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -1572,7 +1576,7 @@
   },
   {
     "term": "kiaurasamtis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -1601,7 +1605,7 @@
   },
   {
     "term": "šluotelė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -1631,7 +1635,7 @@
   },
   {
     "term": "mentelė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -1722,7 +1726,7 @@
   },
   {
     "term": "prieskonis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -1751,7 +1755,7 @@
   },
   {
     "term": "pagardas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -1780,7 +1784,7 @@
   },
   {
     "term": "užkandis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -1809,7 +1813,7 @@
   },
   {
     "term": "blynas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -1839,7 +1843,7 @@
   },
   {
     "term": "apkepas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -2013,7 +2017,7 @@
   },
   {
     "term": "fleita",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -2044,7 +2048,7 @@
   },
   {
     "term": "akordeonas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -2075,7 +2079,7 @@
   },
   {
     "term": "klavišai",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -2106,7 +2110,7 @@
   },
   {
     "term": "scena",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -2148,7 +2152,7 @@
   },
   {
     "term": "šventadienis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -2165,7 +2169,9 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "darbo diena"
+    ],
     "relatedTerms": [
       "šventė",
       "tradicija",
@@ -2176,7 +2182,7 @@
   },
   {
     "term": "kalėdaitis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -2206,7 +2212,7 @@
   },
   {
     "term": "žvakelė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -2741,7 +2747,7 @@
     "term": "gramatika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kalbos taisyklių sistema, apimanti žodžių darybą, linksniavimą ir sakinių struktūrą.",
@@ -2764,7 +2770,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kalba",
+      "sintaksė",
+      "rašyba"
+    ],
     "translation": "grammar",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -2772,7 +2782,7 @@
     "term": "rašinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Rašytinis darbas, kuriame mokinys ar studentas plėtoja mintis nustatyta tema.",
@@ -2786,7 +2796,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "rašymas",
+      "darbas",
+      "mokykla"
+    ],
     "translation": "essay",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -2794,7 +2808,7 @@
     "term": "pristatymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žodinis ar vizualinis pranešimas, kuriame tema pristatoma prieš auditoriją.",
@@ -2817,7 +2831,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gynimas",
+      "kalba",
+      "projektas"
+    ],
     "translation": "presentation",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -2825,7 +2843,7 @@
     "term": "gynimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Viešas mokslinio ar baigiamojo darbo pristatymas ir argumentuotas jo gynimas prieš komisiją.",
@@ -2839,7 +2857,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pristatymas",
+      "darbas",
+      "universitetas"
+    ],
     "translation": "defense",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -2847,7 +2869,7 @@
     "term": "gebėjimai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmens sugebėjimai sėkmingai atlikti tam tikrus veiksmus ar uždavinius.",
@@ -2861,7 +2883,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "įgūdžiai",
+      "talentai",
+      "žinios"
+    ],
     "translation": "abilities",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries. Also: plural form used; nominative singular is 'gebėjimas'."
   },
@@ -2869,7 +2895,7 @@
     "term": "įgūdžiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Praktiniai sugebėjimai, įgyti per mokymą ir pakartotinę praktiką.",
@@ -2883,7 +2909,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gebėjimai",
+      "žinios",
+      "patirtis"
+    ],
     "translation": "skills",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries. Also: plural form used; nominative singular is 'įgūdis'."
   },
@@ -2891,7 +2921,7 @@
     "term": "dėstyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vesti paskaitas ar kursus universitete arba kitoje aukštojoje mokykloje.",
@@ -2914,7 +2944,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokyti",
+      "profesorius",
+      "paskaita"
+    ],
     "translation": "to lecture",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -2922,7 +2956,7 @@
     "term": "egzaminuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Oficialiai tikrinti mokinio ar studento žinias raštu arba žodžiu.",
@@ -2936,7 +2970,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "egzaminas",
+      "studentas",
+      "vertinti"
+    ],
     "translation": "to examine",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -2944,7 +2982,7 @@
     "term": "stoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pateikti dokumentus ir siekti patekti į aukštąją mokyklą ar konkrečią studijų programą.",
@@ -2958,7 +2996,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "universitetas",
+      "studijuoti",
+      "priėmimas"
+    ],
     "translation": "to apply",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -2966,7 +3008,7 @@
     "term": "laikyti egzaminą",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dalyvauti oficialiai organizuotame žinių tikrinime, siekiant gauti įvertinimą.",
@@ -2981,7 +3023,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "egzaminas",
+      "egzaminuoti",
+      "studentas"
+    ],
     "translation": "to take an exam",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -2989,7 +3035,7 @@
     "term": "kursinis darbas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Semestro metu savarankiškai parašytas mokslinis ar taikomasis darbas, pateikiamas kaip dalyko reikalavimas.",
@@ -3003,7 +3049,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "rašinys",
+      "universitetas",
+      "gynimas"
+    ],
     "translation": "term paper",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3011,7 +3061,7 @@
     "term": "santuoka",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The legally recognised union of two people as partners in a personal relationship; matrimony.",
@@ -3033,9 +3083,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "vedybos"
+    ],
+    "antonymTerms": [
+      "skyrybos"
+    ],
+    "relatedTerms": [
+      "jaunikis",
+      "sutuoktinis",
+      "vestuvės"
+    ],
     "translation": "marriage",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3043,7 +3101,7 @@
     "term": "vedybos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The institution or act of getting married; nuptials (used in slightly formal or older registers).",
@@ -3056,9 +3114,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "santuoka"
+    ],
+    "antonymTerms": [
+      "skyrybos"
+    ],
+    "relatedTerms": [
+      "jaunikis",
+      "ceremonija",
+      "vestuvės"
+    ],
     "translation": "marriage, nuptials",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3066,7 +3132,7 @@
     "term": "jaunikis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man on his wedding day or in the period immediately before his marriage ceremony; bridegroom.",
@@ -3080,8 +3146,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "nuotaka"
+    ],
+    "relatedTerms": [
+      "santuoka",
+      "vestuvės",
+      "sutuoktinis"
+    ],
     "translation": "groom, bridegroom",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3089,7 +3161,7 @@
     "term": "sutuoktinis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male person to whom one is legally married; husband (formal term used in official documents).",
@@ -3103,8 +3175,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "sutuoktinė"
+    ],
+    "relatedTerms": [
+      "santuoka",
+      "šeima",
+      "vyras"
+    ],
     "translation": "husband, (male) spouse",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3112,7 +3190,7 @@
     "term": "sutuoktinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female person to whom one is legally married; wife (formal term used in official documents).",
@@ -3126,8 +3204,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "sutuoktinis"
+    ],
+    "relatedTerms": [
+      "santuoka",
+      "šeima",
+      "moteris"
+    ],
     "translation": "wife, (female) spouse",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3135,7 +3219,7 @@
     "term": "skyrybos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The legal dissolution of a marriage; divorce.",
@@ -3149,8 +3233,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "santuoka"
+    ],
+    "relatedTerms": [
+      "išsiskyrimas",
+      "teismas",
+      "susituokti"
+    ],
     "translation": "divorce",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3158,7 +3248,7 @@
     "term": "išsiskyrimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The act of parting or separating from a partner; a break-up or separation.",
@@ -3180,8 +3270,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "susitaikymas"
+    ],
+    "relatedTerms": [
+      "skyrybos",
+      "santykiai",
+      "konfliktas"
+    ],
     "translation": "separation, break-up",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3189,7 +3285,7 @@
     "term": "susituokti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To enter into a legal marriage with someone; to get married.",
@@ -3203,8 +3299,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "išsiskirti"
+    ],
+    "relatedTerms": [
+      "santuoka",
+      "vedybos",
+      "ištekėti"
+    ],
     "translation": "to get married",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3212,7 +3314,7 @@
     "term": "ištekėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To marry a man; to become a wife (used specifically of a woman entering marriage).",
@@ -3227,7 +3329,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "susituokti",
+      "santuoka",
+      "jaunikis"
+    ],
     "translation": "to marry (said of a woman)",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3235,7 +3341,7 @@
     "term": "našlys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A man whose wife has died and who has not remarried; a widower.",
@@ -3249,8 +3355,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "našlė"
+    ],
+    "relatedTerms": [
+      "santuoka",
+      "mirtis",
+      "šeima"
+    ],
     "translation": "widower",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3258,7 +3370,7 @@
     "term": "našlė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A woman whose husband has died and who has not remarried; a widow.",
@@ -3272,8 +3384,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "našlys"
+    ],
+    "relatedTerms": [
+      "santuoka",
+      "mirtis",
+      "šeima"
+    ],
     "translation": "widow",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3281,7 +3399,7 @@
     "term": "išsiskirti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To end a marriage or romantic relationship; to separate or divorce.",
@@ -3303,8 +3421,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "susituokti"
+    ],
+    "relatedTerms": [
+      "skyrybos",
+      "išsiskyrimas",
+      "santykiai"
+    ],
     "translation": "to separate, to part",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3312,7 +3436,7 @@
     "term": "draugystė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A relationship of mutual affection, trust, and support between people who are not in a romantic relationship; friendship.",
@@ -3335,8 +3459,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "priešiškumas"
+    ],
+    "relatedTerms": [
+      "bičiulis",
+      "draugas",
+      "santykiai"
+    ],
     "translation": "friendship",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3344,7 +3474,7 @@
     "term": "bičiulis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male friend or close companion; a buddy or pal (somewhat informal, warm-toned).",
@@ -3359,7 +3489,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "draugas",
+      "draugystė",
+      "bičiulė"
+    ],
     "translation": "buddy, pal (male)",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3367,7 +3501,7 @@
     "term": "bičiulė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female friend or close companion; a female buddy or pal.",
@@ -3382,7 +3516,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "draugė",
+      "draugystė",
+      "bičiulis"
+    ],
     "translation": "buddy, pal (female)",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3390,7 +3528,7 @@
     "term": "pažįstamas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male person one knows but who is not a close friend; an acquaintance.",
@@ -3414,7 +3552,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "draugas",
+      "kaimynas",
+      "pažįstama"
+    ],
     "translation": "acquaintance (male)",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3422,7 +3564,7 @@
     "term": "pažįstama",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female person one knows but who is not a close friend; a female acquaintance.",
@@ -3437,7 +3579,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "draugė",
+      "kaimynė",
+      "pažįstamas"
+    ],
     "translation": "acquaintance (female)",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3445,7 +3591,7 @@
     "term": "kaimynas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male person who lives next door or nearby; a neighbour.",
@@ -3460,7 +3606,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kaimynė",
+      "kaimynystė",
+      "namas"
+    ],
     "translation": "neighbour (male)",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
