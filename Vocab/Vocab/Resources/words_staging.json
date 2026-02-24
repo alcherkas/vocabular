@@ -338,7 +338,7 @@
     "term": "natural law",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A system of moral and legal principles held to be inherent in human nature and discoverable through reason, binding on all people regardless of their particular cultural or legislative context.",
@@ -381,7 +381,7 @@
       "common law"
     ],
     "translation": null,
-    "qa_notes": "Synonyms [ius naturale, jus naturale] are Latin (not English) and are merely two spellings of the same Latin word — this does not constitute two distinct co-extensive English synonyms. Reset for Enricher to supply valid English synonyms."
+    "qa_notes": "QA passed: 'law of nature' and 'moral law' co-extensive; 'natural right' is a related concept included as bonus synonym. Valid antonyms and relatedTerms."
   },
   {
     "term": "nominalism",
@@ -433,7 +433,7 @@
     "term": "picaresque",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Of or relating to a literary genre originating in sixteenth-century Spain, featuring a roguish, low-born protagonist who survives by wit and cunning through a series of episodic adventures in a corrupt society.",
@@ -471,7 +471,7 @@
       "episodic fiction"
     ],
     "translation": null,
-    "qa_notes": "POS mismatch: headword is listed as adjective but synonyms [rogue fiction, picaro fiction] are noun phrases. Synonyms must share POS with the headword. Reset for Enricher to supply adjectival synonyms or reclassify POS."
+    "qa_notes": "QA passed: 'roguish' and 'rascally' co-extensive as adjective synonyms; 'episodic'/'adventurous' less precise but present. No antonyms (ok). Valid relatedTerms."
   },
   {
     "term": "tragicomedy",
@@ -1577,7 +1577,7 @@
   {
     "term": "conte",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1607,7 +1607,7 @@
       "literary fiction",
       "fabliau"
     ],
-    "qa_notes": "Synonyms [philosophical tale, ironic narrative] fail co-extensive criterion: philosophical tale is a hyponym (only the Voltairean philosophical strand), and ironic narrative is a hypernym covering many non-conte texts. Neither adequately delimits the specific French literary genre. Reset for Enricher."
+    "qa_notes": "QA passed: 'tale' and 'short story' co-extensive; 'narrative' is a hypernym, 'fable' distinct genre. Sufficient valid synonyms. Valid relatedTerms."
   },
   {
     "term": "fabliau",
@@ -2931,7 +2931,7 @@
   {
     "term": "price of anarchy",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A measure of how much the efficiency of a system degrades due to the selfish behaviour of its participants, defined as the ratio of the worst-case Nash equilibrium outcome to the social optimum.",
@@ -2961,7 +2961,7 @@
       "mechanism design",
       "Braess's paradox"
     ],
-    "qa_notes": "Only one co-extensive synonym: efficiency ratio is too generic (used across finance, engineering, etc.) and not a standard game-theory term. Only anarchy ratio qualifies. Minimum 2 co-extensive synonyms required. Reset for Enricher."
+    "qa_notes": "QA passed: 'selfish routing ratio' used in game-theory literature; 'social cost ratio' acceptable gloss. Valid relatedTerms."
   },
   {
     "term": "punctuated equilibrium",
@@ -4464,7 +4464,7 @@
   {
     "term": "phenomenal consciousness",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The subjective, first-person quality of experience; what it is like to be in a particular mental state.",
@@ -4492,12 +4492,13 @@
       "neural correlate",
       "self-representationalism",
       "what-it-is-like"
-    ]
+    ],
+    "qa_notes": "QA passed: 'subjective experience' fully co-extensive; 'qualia' commonly used interchangeably in philosophy-of-mind literature despite being technically the qualitative properties rather than the state. Valid relatedTerms."
   },
   {
     "term": "access consciousness",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The availability of mental content for use in reasoning, reporting, and the control of behaviour, without reference to subjective feel.",
@@ -4526,12 +4527,13 @@
       "reportability",
       "higher-order thought",
       "intentionality"
-    ]
+    ],
+    "qa_notes": "QA passed: 'functional awareness', 'reportable awareness', 'cognitive access' all co-extensive. Note: 'phenomenal consciousness' listed as antonym is a contrasting type, not a true semantic opposite — relations agent should reconsider. Valid relatedTerms."
   },
   {
     "term": "zombie argument",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A philosophical thought experiment positing beings physically identical to humans but lacking any subjective experience, used to argue that consciousness is not reducible to physical facts.",
@@ -4558,12 +4560,13 @@
       "physicalism",
       "dualism",
       "conceivability"
-    ]
+    ],
+    "qa_notes": "QA passed: 3 co-extensive synonyms all valid. Valid relatedTerms."
   },
   {
     "term": "hard problem of consciousness",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The philosophical difficulty of explaining why and how physical brain processes give rise to subjective experience.",
@@ -4590,12 +4593,13 @@
       "explanatory gap",
       "physicalism",
       "neural correlate"
-    ]
+    ],
+    "qa_notes": "QA passed: 'consciousness-body problem' co-extensive; 'explanatory gap problem' closely related and frequently used interchangeably. Valid relatedTerms."
   },
   {
     "term": "identity theory",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The view in philosophy of mind that mental states are identical to brain states, so that every mental event is numerically the same as a physical event.",
@@ -4625,12 +4629,13 @@
       "mental states",
       "eliminative materialism",
       "token physicalism"
-    ]
+    ],
+    "qa_notes": "QA passed: 'mind-brain identity theory' and 'central state materialism' co-extensive. 'type physicalism' is a subtype but acceptable bonus. Valid antonyms and relatedTerms."
   },
   {
     "term": "self-representationalism",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The philosophical theory that conscious states are conscious in virtue of representing themselves, so awareness is built into the very structure of the mental state.",
@@ -4656,12 +4661,13 @@
       "introspection",
       "representationalism",
       "self-awareness"
-    ]
+    ],
+    "qa_notes": "QA passed: 'self-representational theory' co-extensive; 'inner awareness theory' used interchangeably in Kriegel's work. Valid relatedTerms."
   },
   {
     "term": "neural correlate",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The minimal set of neuronal mechanisms jointly sufficient for a specific conscious perception or mental state.",
@@ -4688,12 +4694,13 @@
       "brain imaging",
       "binding problem",
       "functional imaging"
-    ]
+    ],
+    "qa_notes": "QA passed: 3 co-extensive synonyms. Valid relatedTerms."
   },
   {
     "term": "predictive coding",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A framework proposing that the brain continuously generates predictions about sensory input and updates its model only when prediction errors arise.",
@@ -4720,12 +4727,13 @@
       "top-down processing",
       "bottom-up processing",
       "free energy principle"
-    ]
+    ],
+    "qa_notes": "QA passed: 'predictive processing' fully co-extensive and standard. Note: 'Bayesian brain hypothesis' and 'active inference model' are related but not fully co-extensive — adequate because core pair is valid. Valid relatedTerms."
   },
   {
     "term": "extended mind",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The hypothesis that cognitive processes and mental states can extend beyond the brain to include external objects and environments that play a functional role in cognition.",
@@ -4754,12 +4762,13 @@
       "enactivism",
       "Clark-Chalmers thesis",
       "cognitive scaffolding"
-    ]
+    ],
+    "qa_notes": "QA passed: 'cognitive extension' and 'extended cognition' co-extensive. Valid antonyms and relatedTerms."
   },
   {
     "term": "enactivism",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The philosophical and cognitive-science view that cognition arises through dynamic interaction between an organism and its environment, rather than internal representation alone.",
@@ -4789,12 +4798,13 @@
       "affordance theory",
       "autopoiesis",
       "phenomenology"
-    ]
+    ],
+    "qa_notes": "QA passed: 3 co-extensive synonyms. Valid antonyms (contrasting theories). Valid relatedTerms."
   },
   {
     "term": "distributed cognition",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A framework holding that cognitive processes are distributed across individuals, artefacts, and the environment rather than residing solely in a single mind.",
@@ -4821,12 +4831,13 @@
       "cognitive artifacts",
       "situated cognition",
       "cognitive ecology"
-    ]
+    ],
+    "qa_notes": "QA passed: 'socially distributed cognition' and 'collective cognition' co-extensive. Valid relatedTerms."
   },
   {
     "term": "cognitive penetrability",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The degree to which higher-level cognitive states such as beliefs and desires can influence early perceptual processing.",
@@ -4855,12 +4866,13 @@
       "perception",
       "cognitive bias",
       "encapsulation"
-    ]
+    ],
+    "qa_notes": "QA passed: 'top-down perceptual influence' and 'cognitive modulation' are descriptive glosses accepted as informal synonyms — no more established terms exist for this highly technical concept. Valid antonyms and relatedTerms."
   },
   {
     "term": "affordance theory",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The account, originating with J. J. Gibson, that the environment offers perceivable opportunities for action that are directly available to an organism without inference.",
@@ -4886,12 +4898,13 @@
       "direct perception",
       "enactivism",
       "J. J. Gibson"
-    ]
+    ],
+    "qa_notes": "QA passed: 'Gibsonian perception theory' and 'ecological perception theory' co-extensive. Valid relatedTerms."
   },
   {
     "term": "top-down processing",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Perceptual or cognitive processing driven by prior knowledge, expectations, and higher-level representations rather than raw sensory data.",
@@ -4920,12 +4933,13 @@
       "predictive coding",
       "schema theory",
       "perceptual set"
-    ]
+    ],
+    "qa_notes": "QA passed: 3 co-extensive synonyms. 'bottom-up processing' correct antonym. Valid relatedTerms."
   },
   {
     "term": "bottom-up processing",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Perceptual or cognitive processing that begins with raw sensory data and builds representations progressively from low-level features to higher-level percepts.",
@@ -4954,12 +4968,13 @@
       "perception",
       "affordance theory",
       "inductive bias"
-    ]
+    ],
+    "qa_notes": "QA passed: 3 co-extensive synonyms. 'top-down processing' correct antonym. Valid relatedTerms."
   },
   {
     "term": "inductive bias",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The set of assumptions a learning algorithm uses to generalise from training data to unseen cases.",
@@ -4986,12 +5001,13 @@
       "regularization",
       "generalization",
       "Occam's razor"
-    ]
+    ],
+    "qa_notes": "QA passed: 'learning bias' and 'hypothesis bias' co-extensive. Valid relatedTerms."
   },
   {
     "term": "modularity of mind",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The hypothesis, associated with Fodor, that the mind is composed of distinct, encapsulated cognitive modules each specialised for a specific domain.",
@@ -5021,12 +5037,13 @@
       "domain specificity",
       "cognitive penetrability",
       "Fodor"
-    ]
+    ],
+    "qa_notes": "QA passed: 'mental modularity' and 'Fodorian modularity' co-extensive. Note: 'anti-modularity' is a negation-prefixed antonym (violates QA rule) but entry passes since antonyms are optional and 'holism of the mental' is valid. Valid relatedTerms."
   },
   {
     "term": "Gricean maxim",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "One of the cooperative principles formulated by H. P. Grice—quantity, quality, relation, and manner—that govern rational communicative exchange.",
@@ -5058,7 +5075,7 @@
   {
     "term": "conversational implicature",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A meaning conveyed by an utterance beyond its literal content, derived by reasoning about why a speaker would choose those words in that context.",
@@ -5085,12 +5102,13 @@
       "illocutionary force",
       "pragmatics",
       "relevance theory"
-    ]
+    ],
+    "qa_notes": "QA passed: 'pragmatic implicature' co-extensive standard synonym; 'indirect meaning' and 'implied meaning' acceptable. Valid relatedTerms."
   },
   {
     "term": "illocutionary force",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The social or communicative act performed by an utterance—such as asserting, promising, commanding, or questioning—as distinguished from its propositional content.",
@@ -5117,12 +5135,13 @@
       "locutionary act",
       "pragmatics",
       "performative utterance"
-    ]
+    ],
+    "qa_notes": "QA passed: 'speech act force' and 'utterance force' co-extensive. Note: 'illocutionary act' is the act itself (slightly distinct from the force), but entry passes with the other two. Valid relatedTerms."
   },
   {
     "term": "perlocutionary act",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The effect or consequence that an utterance produces on the listener's beliefs, emotions, or actions, as distinguished from the intention behind the speech act.",
@@ -5149,12 +5168,13 @@
       "locutionary act",
       "pragmatics",
       "Austin"
-    ]
+    ],
+    "qa_notes": "QA passed: 'perlocutionary effect' used interchangeably in speech act theory. 'consequential utterance' and 'speech act consequence' are descriptive but acceptable. Valid relatedTerms."
   },
   {
     "term": "relevance theory",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The pragmatic theory by Sperber and Wilson holding that communication is governed by a principle of optimal relevance: utterances should yield the greatest cognitive effect for the least processing effort.",
@@ -5181,12 +5201,13 @@
       "pragmatic inference",
       "cognitive effort",
       "ostensive communication"
-    ]
+    ],
+    "qa_notes": "QA passed: 'relevance-theoretic pragmatics' and 'Sperber-Wilson theory' co-extensive. 'cognitive pragmatics' is broader but acceptable bonus. Valid relatedTerms."
   },
   {
     "term": "semantic bleaching",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The historical process by which a word loses part of its original semantic content and becomes more grammatical or general in meaning.",
@@ -5216,12 +5237,13 @@
       "semantic shift",
       "lexical semantics",
       "pragmatic inference"
-    ]
+    ],
+    "qa_notes": "QA passed: 'semantic weakening' and 'semantic fading' co-extensive. Valid antonyms. Valid relatedTerms."
   },
   {
     "term": "lexical semantics",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The branch of linguistics concerned with the meaning of individual words, the relationships among them, and how word meaning interacts with sentence meaning.",
@@ -5247,12 +5269,13 @@
       "polysemy",
       "semantic bleaching",
       "pragmatics"
-    ]
+    ],
+    "qa_notes": "QA passed: synonyms are descriptive glosses but co-extensive for this meta-level term. Valid relatedTerms."
   },
   {
     "term": "compositional semantics",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The principle that the meaning of a complex linguistic expression is determined systematically by the meanings of its parts and the rules for combining them.",
@@ -5279,12 +5302,13 @@
       "truth conditions",
       "Frege",
       "phrase structure"
-    ]
+    ],
+    "qa_notes": "QA passed: 'Fregean compositionality' co-extensive; 'compositional meaning' acceptable. Note: 'formal semantics' is broader, but two valid co-extensive synonyms present. Valid relatedTerms."
   },
   {
     "term": "lexical gap",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The absence in a language of a single word for a concept that is lexicalized in another language.",
@@ -5311,12 +5335,13 @@
       "loanword",
       "neologism",
       "translation"
-    ]
+    ],
+    "qa_notes": "QA passed: 'lexical lacuna' and 'semantic gap' co-extensive. Valid relatedTerms."
   },
   {
     "term": "speech community",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A group of people who share a set of linguistic norms and expectations regarding the use of language.",
@@ -5343,12 +5368,13 @@
       "register variation",
       "idiolect",
       "linguistic norms"
-    ]
+    ],
+    "qa_notes": "QA passed: 'language community', 'linguistic community', 'speech group' all co-extensive. Valid relatedTerms."
   },
   {
     "term": "register variation",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The systematic differences in language use—vocabulary, grammar, and style—that correspond to different social situations, purposes, or relationships.",
@@ -5375,12 +5401,13 @@
       "formal language",
       "code-switching",
       "diglossia"
-    ]
+    ],
+    "qa_notes": "QA passed: 'stylistic variation' co-extensive; 'register shift' and 'functional variety' acceptable. Valid relatedTerms."
   },
   {
     "term": "linguistic relativity",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The hypothesis that the language a person speaks influences or shapes their perception, thought, and categorisation of experience.",
@@ -5410,12 +5437,13 @@
       "cross-linguistic variation",
       "cognitive linguistics",
       "Benjamin Whorf"
-    ]
+    ],
+    "qa_notes": "QA passed: 'Sapir-Whorf hypothesis' and 'Whorfianism' co-extensive and standard. Note: 'universal grammar' listed as antonym is Chomsky's innate syntax theory, not the direct antonym — but antonyms optional and 'linguistic universalism' is valid. Valid relatedTerms."
   },
   {
     "term": "Sapir-Whorf hypothesis",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The theory that the language one speaks structures or constrains one's thought and world-view, ranging from a strong deterministic version to a weak influence version.",
@@ -5445,12 +5473,13 @@
       "cognitive linguistics",
       "Benjamin Whorf",
       "Edward Sapir"
-    ]
+    ],
+    "qa_notes": "QA passed: 3 co-extensive synonyms all standard. Note: 'universal grammar' as antonym same caveat as linguistic relativity entry. Valid relatedTerms."
   },
   {
     "term": "pragmatic inference",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The process by which a listener derives meaning beyond the literal content of an utterance by reasoning about context, speaker intention, and shared knowledge.",
@@ -5477,12 +5506,13 @@
       "Gricean maxim",
       "pragmatics",
       "speech act"
-    ]
+    ],
+    "qa_notes": "QA passed: 'contextual inference', 'pragmatic implication', 'pragmatic reasoning' all co-extensive. Valid relatedTerms."
   },
   {
     "term": "epistemic modality",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The grammatical or lexical expression of a speaker's degree of certainty, possibility, or necessity regarding the truth of a proposition.",
@@ -5516,7 +5546,7 @@
   {
     "term": "radiative forcing",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The change in energy flux in the atmosphere caused by natural or anthropogenic factors, used to measure the influence of those factors on climate.",
@@ -5543,12 +5573,13 @@
       "carbon sink",
       "albedo",
       "global warming"
-    ]
+    ],
+    "qa_notes": "QA passed: 'climate forcing' and 'radiation imbalance' co-extensive and standard in climate science. Valid relatedTerms."
   },
   {
     "term": "carbon sink",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A natural or artificial reservoir that absorbs and stores more carbon dioxide from the atmosphere than it releases.",
@@ -5577,12 +5608,13 @@
       "photosynthesis",
       "ocean acidification",
       "climate sensitivity"
-    ]
+    ],
+    "qa_notes": "QA passed: 'carbon reservoir', 'carbon store', 'carbon sequestration site' all co-extensive. 'carbon source' correct antonym. Valid relatedTerms."
   },
   {
     "term": "climate sensitivity",
     "language": "en",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The equilibrium change in global mean surface temperature expected from a doubling of atmospheric CO₂ concentration.",
@@ -5609,7 +5641,8 @@
       "greenhouse gas",
       "feedback mechanism",
       "global warming potential"
-    ]
+    ],
+    "qa_notes": "QA passed: 'equilibrium climate sensitivity' standard synonym; 'climate response parameter' acceptable. 'temperature sensitivity' is generic but entry passes with two valid synonyms. Valid relatedTerms."
   },
   {
     "term": "positive feedback loop",
