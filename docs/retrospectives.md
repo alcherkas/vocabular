@@ -5375,6 +5375,7 @@ None.
 ### Blockers
 None.
 
+<<<<<<< HEAD
 ---
 
 ## Retro: vocab/relations-lt-72 — LT Relations Agent
@@ -5396,6 +5397,16 @@ None.
 ### Suggested improvement
 - Enricher agent should reject or fix non-nominative headwords before setting status to "enriched", rather than leaving broken entries for downstream agents.
 - Pipeline should auto-check for production duplicates at the enrichment stage.
+=======
+## [2025-07-16] enricher-en-65 vocab/enricher-en-65
+
+### What went well
+- All 80 stubs enriched in a single batch with zero validation errors.
+- Consistent format across all entries: 1-3 meanings, proper registers, C1/C2 tags.
+
+### What could improve
+- Publishing step discovered 80 duplicate approved EN entries in staging that had already been promoted to production; a pre-publish dedup check would save time.
+>>>>>>> vocab/enricher-en-65
 
 ### Blockers
 None.
