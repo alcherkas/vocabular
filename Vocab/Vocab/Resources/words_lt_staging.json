@@ -992,7 +992,8 @@
     "forms": {
       "present3": "gimsta",
       "past3": "gimė"
-    }
+    },
+    "governedCase": null
   },
   {
     "term": "mirti",
@@ -1026,7 +1027,8 @@
     "forms": {
       "present3": "miršta",
       "past3": "mirė"
-    }
+    },
+    "governedCase": null
   },
   {
     "term": "švenčia",
@@ -3478,7 +3480,12 @@
       "santykiai"
     ],
     "translation": "to separate, to part",
-    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
+    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries.",
+    "forms": {
+      "present3": "išsiskiria",
+      "past3": "išsiskyrė"
+    },
+    "governedCase": null
   },
   {
     "term": "draugystė",
@@ -3890,7 +3897,12 @@
       "nesutarimas"
     ],
     "translation": "to quarrel, to fall out",
-    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
+    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries.",
+    "forms": {
+      "present3": "susipyksta",
+      "past3": "susipyko"
+    },
+    "governedCase": "su kuo?"
   },
   {
     "term": "giminaitis",
