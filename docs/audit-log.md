@@ -84,3 +84,10 @@ Agents append one entry here **after each commit** and **after every irreversibl
 - **Commit**: aa79046
 - **Result**: EN production now 1904 words, LT production now 2304 words; EN staging 0 remaining, LT staging 125 remaining
 - **Reversible**: Yes — `git revert aa79046`
+
+## 2025-07-15 — Publish 37 LT words
+- **Agent**: Copilot CLI
+- **Action**: Published 37 approved LT entries from `words_lt_staging.json` → `words_lt.json`
+- **Production count**: 2464 LT words
+- **Commit**: `publish: move 37 approved LT words to production`
+- **Reversible**: Yes (`git revert`)
