@@ -4,7 +4,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A topological space that locally resembles Euclidean space near each point but may have a more complex global structure.",
@@ -28,11 +28,12 @@
       "dimension",
       "Riemannian geometry"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonyms 'geometric variety' and 'smooth variety' are not co-extensive with manifold: in mathematics, a 'variety' (algebraic geometry) is a distinct concept from a topological manifold. Move to relatedTerms or replace with true near-synonyms such as 'topological manifold', 'smooth manifold'."
   },
   {
     "term": "zero-knowledge proof",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -58,11 +59,12 @@
       "commitment scheme",
       "SNARK",
       "privacy-preserving protocol"
-    ]
+    ],
+    "qa_notes": "Synonym 'interactive proof system' is a hypernym (ZKPs are one type of interactive proof system); move to relatedTerms. Replace with a co-extensive synonym or leave synonyms sparse."
   },
   {
     "term": "abstract syntax tree",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -90,11 +92,12 @@
       "parse tree",
       "concrete syntax tree"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonym 'parse tree' (concrete syntax tree) is NOT the same as an AST: a parse tree includes all tokens while an AST is an abstracted, simplified representation. Move 'parse tree' to relatedTerms."
   },
   {
     "term": "instrumentalism",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -133,11 +136,12 @@
       "anti-realism",
       "conventionalism",
       "empiricism"
-    ]
+    ],
+    "qa_notes": "Synonym 'anti-realism' is a hypernym (instrumentalism is one species of anti-realism); move to relatedTerms. 'conventionalism' is a distinct, non-co-extensive position; move to relatedTerms."
   },
   {
     "term": "prospect theory",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -164,11 +168,12 @@
       "behavioral economics",
       "framing effect",
       "Kahneman"
-    ]
+    ],
+    "qa_notes": "Synonym 'cumulative prospect theory' is a later, distinct refinement of the original theory (Tversky & Kahneman 1992) with a different weighting function — it is not a synonym. Move to relatedTerms."
   },
   {
     "term": "poststructuralism",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -204,11 +209,12 @@
       "postmodernism",
       "discourse analysis",
       "Foucault"
-    ]
+    ],
+    "qa_notes": "Synonym 'deconstruction theory' refers to Derrida's specific method, which is one strand within poststructuralism, not co-extensive with it; move to relatedTerms."
   },
   {
     "term": "keystone species",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -234,13 +240,14 @@
       "apex predator",
       "ecological role",
       "ecosystem engineer"
-    ]
+    ],
+    "qa_notes": "Synonym 'ecosystem engineer species' is a distinct ecological concept (engineers modify habitat structure; keystone species exert disproportionate trophic control) — not a synonym. Move to relatedTerms."
   },
   {
     "term": "shamanism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A religious practice in which a practitioner (the shaman) enters altered states of consciousness to interact with the spirit world, performing healing, divination, and mediation on behalf of a community.",
@@ -277,13 +284,14 @@
       "totemism",
       "mediumship"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonym 'mediumship' is not co-extensive: mediumship specifically involves channelling spirits of the dead, while shamanism is a broader ecstatic-trance complex. Move to relatedTerms."
   },
   {
     "term": "legal positivism",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The jurisprudential theory that the existence and content of law depends on social facts—such as legislative enactment and social acceptance—rather than on moral merit or natural law.",
@@ -323,13 +331,14 @@
       "rule of recognition",
       "social fact thesis"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonym 'social fact thesis' is a core thesis *within* legal positivism, not a synonym for the entire theory; move to relatedTerms. 'Legal conventionalism' is a specific variant (Dworkin's target), not co-extensive; move to relatedTerms."
   },
   {
     "term": "natural law",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A system of moral and legal principles held to be inherent in human nature and discoverable through reason, binding on all people regardless of their particular cultural or legislative context.",
@@ -369,13 +378,14 @@
       "divine law",
       "moral naturalism"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonym 'moral naturalism' is a distinct metaethical view (moral facts are natural facts) that does not coincide with natural law theory (discoverable moral/legal principles via reason); move to relatedTerms."
   },
   {
     "term": "nominalism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The philosophical position that universals or abstract properties have no independent existence but are merely names or labels applied to groups of similar particulars.",
@@ -414,13 +424,14 @@
       "Platonism",
       "anti-realism"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonym 'anti-realism' is a hypernym of nominalism; move to relatedTerms. antonymTerm 'essentialism' is a taxonomic contrast rather than a direct semantic opposite (the canonical antonym of nominalism in the universals debate is 'realism'); remove or keep only 'realism'."
   },
   {
     "term": "picaresque",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Of or relating to a literary genre originating in sixteenth-century Spain, featuring a roguish, low-born protagonist who survives by wit and cunning through a series of episodic adventures in a corrupt society.",
@@ -455,13 +466,14 @@
       "episodic narrative",
       "low-life narrative"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonyms 'roguish' and 'episodic' are partial descriptors/features of the genre, not co-extensive synonyms for 'picaresque'. A synonym should substitute for the headword; 'episodic narrative' would be closer but still not fully co-extensive. Remove or replace with genre-level near-synonyms."
   },
   {
     "term": "tragicomedy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A dramatic genre that combines elements of tragedy and comedy, typically presenting serious or painful subject matter alongside humour in a way that resists neat resolution in either register.",
@@ -496,13 +508,14 @@
       "genre mixing",
       "mixed-mode drama"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonym 'dark comedy' is not co-extensive: dark comedy foregrounds humour with bleak themes; tragicomedy blends genuinely tragic and comic registers without resolution. Move to relatedTerms."
   },
   {
     "term": "populism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A political approach that frames politics as a struggle between a virtuous, homogeneous 'people' and a corrupt elite, claiming that the former's general will should prevail over institutional constraints.",
@@ -537,13 +550,14 @@
       "nationalism",
       "political rhetoric"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "'demagogy' appears in synonyms while the near-equivalent 'demagoguery' appears in relatedTerms — effective cross-array duplicate; remove one. Additionally, 'demagogy' is a mode of rhetoric that can serve populism but is not co-extensive with it; move to relatedTerms and reassess synonyms."
   },
   {
     "term": "oligarchy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A form of government in which power is concentrated in the hands of a small, privileged group—typically defined by wealth, family, military rank, or education—who rule in their own interests.",
@@ -580,12 +594,13 @@
       "autocracy",
       "technocracy"
     ],
-    "translation": null
+    "translation": null,
+    "qa_notes": "Synonyms 'plutocracy' (rule by the wealthy) and 'aristocracy' (rule by birth/noble class) are specific sub-types (hyponyms) of oligarchy, not co-extensive synonyms. Move to relatedTerms."
   },
   {
     "term": "scholasticism",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -621,12 +636,13 @@
       "Aristotelianism",
       "theology",
       "disputation"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "chivalry",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -665,12 +681,13 @@
       "feudalism",
       "honor code",
       "heraldry"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "courtly love",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -707,12 +724,13 @@
       "romance",
       "feudalism",
       "lyric poetry"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | Synonyms 'fin\\'amor' (Occitan) and 'amour courtois' (French) are not English words; replace with co-extensive English synonyms."
   },
   {
     "term": "inquisition",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -749,12 +767,13 @@
       "excommunication",
       "ecclesiastical court",
       "auto-da-fé"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'Holy Office' is an official proper-name alias, not a synonym; 'witch-hunt' is a metaphorical extension with different connotations. Both need replacement."
   },
   {
     "term": "pilgrimage",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -791,12 +810,13 @@
       "relic",
       "devotion",
       "Canterbury Tales"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'peregrinatio' is Latin, not an English word; 'quest' is a broader hypernym (any journey/search, not specifically religious)."
   },
   {
     "term": "crusade",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -834,12 +854,13 @@
       "papal bull",
       "Jerusalem",
       "military expedition"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "simony",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -865,12 +886,13 @@
       "tithe",
       "nepotism",
       "papal bull"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "manorialism",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -897,12 +919,13 @@
       "peasantry",
       "demesne",
       "tithe"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "excommunication",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -941,12 +964,13 @@
       "heresy",
       "canon law",
       "censure"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'ostracism' is general social exclusion; it does not specifically denote ecclesiastical exclusion — not fully co-extensive."
   },
   {
     "term": "benefice",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -973,12 +997,13 @@
       "clergy",
       "prebend",
       "ecclesiastical office"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "tithe",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1016,12 +1041,13 @@
       "levy",
       "manorialism",
       "church revenue"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "interdict",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1060,12 +1086,13 @@
       "canon law",
       "diocese",
       "papal sanction"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'prohibition' is a broad hypernym; 'ecclesiastical ban' is a descriptive phrase, not a lexical synonym."
   },
   {
     "term": "papal bull",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1092,12 +1119,13 @@
       "Holy See",
       "canon law",
       "papal rescript"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "reliquary",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1124,12 +1152,13 @@
       "pilgrimage",
       "saint",
       "devotional object"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'phylactery' denotes a Jewish amulet box, not a Christian reliquary — critically wrong synonym. Replace immediately."
   },
   {
     "term": "patristics",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1156,12 +1185,13 @@
       "hermeneutics",
       "apologetics",
       "Church Fathers"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "canticle",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1199,12 +1229,13 @@
       "chant",
       "scripture",
       "hymn"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "cartography",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1241,12 +1272,13 @@
       "geography",
       "projection",
       "coordinate system"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "topography",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1283,12 +1315,13 @@
       "relief",
       "contour",
       "geomorphology"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'physiography' covers physical geography broadly (not equivalent to topography); 'geomorphology' is the study of landform processes — neither is co-extensive."
   },
   {
     "term": "chorography",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1315,12 +1348,13 @@
       "geography",
       "regional survey",
       "spatial description"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "continental shelf",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1347,12 +1381,13 @@
       "bathymetry",
       "coastline",
       "subduction zone"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "tectonic plate",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1379,12 +1414,13 @@
       "seismology",
       "subduction",
       "Pangaea"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "latitude",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1421,12 +1457,13 @@
       "equator",
       "coordinate",
       "degree of arc"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "longitude",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1453,12 +1490,13 @@
       "coordinate",
       "Greenwich",
       "angular distance"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'east-west arc' is a description, not a term; 'geographic easting' refers to a grid x-coordinate, not longitude — replace both."
   },
   {
     "term": "meridian",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1496,12 +1534,13 @@
       "Greenwich",
       "hemisphere",
       "great circle"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'apogee' means the farthest point in an orbit and is completely unrelated to meridian. Critically wrong synonym. Replace immediately."
   },
   {
     "term": "roman à clef",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1528,12 +1567,13 @@
       "autobiography",
       "satirical fiction",
       "roman à thèse"
-    ]
+    ],
+    "qa_notes": "Only 1 true synonym: 'roman a clef' is merely an orthographic variant of the headword (no accent), not a distinct synonym. Provide a second genuine co-extensive synonym."
   },
   {
     "term": "conte",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1560,12 +1600,13 @@
       "fabliau",
       "novella",
       "narrative prose"
-    ]
+    ],
+    "qa_notes": "'tale' is a hypernym (any narrative); 'short tale' is also too broad and does not capture the French philosophical/ironic tradition. Both synonyms fail the co-extensive criterion."
   },
   {
     "term": "fabliau",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1593,12 +1634,13 @@
       "medieval literature",
       "verse narrative",
       "satirical tale"
-    ]
+    ],
+    "qa_notes": "'ribald tale' is a hypernym (does not require verse form or medieval French provenance). Replace with a co-extensive synonym that captures the verse and medieval French origin."
   },
   {
     "term": "prototype theory",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1625,12 +1667,13 @@
       "cognitive grammar",
       "categorization",
       "exemplar theory"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "conceptual metaphor",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1657,12 +1700,13 @@
       "frame semantics",
       "blending theory",
       "cognitive linguistics"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "frame semantics",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1689,12 +1733,13 @@
       "conceptual metaphor",
       "scene",
       "prototype theory"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "cognitive grammar",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1721,12 +1766,13 @@
       "image schema",
       "embodied simulation",
       "usage-based linguistics"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "image schema",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1753,12 +1799,13 @@
       "conceptual metaphor",
       "mental space",
       "gesture"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "mental space",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1785,12 +1832,13 @@
       "conceptual metaphor",
       "frame semantics",
       "discourse"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "blending theory",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1817,12 +1865,13 @@
       "frame semantics",
       "cognitive linguistics",
       "emergent structure"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "construction grammar",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1849,12 +1898,13 @@
       "usage-based linguistics",
       "syntactic construction",
       "form-meaning pairing"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "embodied simulation",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1881,12 +1931,13 @@
       "motor cognition",
       "mirror neuron",
       "phenomenology"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'neural resonance' refers to synchronized neural oscillations — a distinct concept; not a synonym of embodied simulation."
   },
   {
     "term": "figure-ground",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1913,12 +1964,13 @@
       "prototype theory",
       "Gestalt psychology",
       "perceptual saliency"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "scalar implicature",
     "language": "en",
-    "status": "relations-added",
+    "status": "enriched",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1945,7 +1997,8 @@
       "quantity maxim",
       "Gricean maxims",
       "entailment"
-    ]
+    ],
+    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
   },
   {
     "term": "nolo contendere",
