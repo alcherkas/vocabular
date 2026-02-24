@@ -60,35 +60,6 @@
     "level": "A1"
   },
   {
-    "term": "ausų",
-    "language": "lt",
-    "partOfSpeech": "noun",
-    "status": "enriched",
-    "meanings": [
-      {
-        "definition": "Genitive plural form of 'ausis' (ear); used in compound expressions meaning 'of ears' or 'ear-'.",
-        "example": "Ausų kištukai padeda miegoti.",
-        "register": "general",
-        "tags": [
-          "body",
-          "A1"
-        ]
-      }
-    ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "ausis",
-      "auskaras",
-      "galva",
-      "klausa"
-    ],
-    "translation": "of ears (genitive plural)",
-    "register": "general",
-    "level": "A1",
-    "qa_notes": "FAIL: term \"ausų\" is genitive plural; headword must be nominative singular \"ausis\". Fix headword before re-submitting."
-  },
-  {
     "term": "santykiai",
     "language": "lt",
     "partOfSpeech": "noun",
@@ -129,37 +100,6 @@
     ],
     "translation": "relations, relationship",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries. Also: plural form used; nominative singular is 'santykis'."
-  },
-  {
-    "term": "keleiviai",
-    "language": "lt",
-    "partOfSpeech": "noun",
-    "status": "enriched",
-    "meanings": [
-      {
-        "definition": "Asmuo, kuris keliauja transporto priemone, bet jos nevairuoja.",
-        "example": "Keleivis sėdi autobuso gale.",
-        "register": "general",
-        "tags": [
-          "transport"
-        ]
-      }
-    ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "keleivis",
-      "kelionė",
-      "transportas",
-      "autobusas"
-    ],
-    "translation": "passenger",
-    "tags": [
-      "B1"
-    ],
-    "level": "A2",
-    "register": "general",
-    "qa_notes": "FAIL: term \"keleiviai\" is nominative plural; singular \"keleivis\" already exists as approved entry. Remove duplicate or repurpose."
   },
   {
     "term": "nuoma",
