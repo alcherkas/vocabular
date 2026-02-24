@@ -5500,3 +5500,23 @@ None.
 
 ### Blockers
 None.
+
+---
+
+### Retro — QA-EN-67 + QA-LT-73 + Publish — 2025-07-15
+**Agent**: Copilot CLI (QA + Publisher)
+
+**What happened**:
+- Published 37 approved LT words to production (2464 total LT).
+- QA-EN-67: Approved 3 EN entries (aestheticism, diatonic, ephemera). All passed: valid meanings, 3+ relatedTerms each.
+- QA-LT-73: Reviewed 42 relations-added LT entries. Removed 2 duplicates (ausis, keleivis already in production). Approved remaining 40 entries.
+
+**What went well**:
+- Dry-run before publish caught that EN staging had 0 approved (nothing to publish for EN).
+- Duplicate detection against production prevented publishing duplicate entries.
+- All verbs had correct `present3`/`past3` form keys matching production convention.
+
+**What could improve**:
+- The validate script's form-key check should use `present3`/`past3` (the actual LT convention) rather than `present`/`past`. My initial QA script flagged false positives.
+
+**Process suggestion**: Consider adding duplicate-vs-production check to `validate_words.py` so duplicates are caught automatically before QA.
