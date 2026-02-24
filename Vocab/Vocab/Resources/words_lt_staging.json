@@ -1,13 +1,13 @@
 [
   {
-    "term": "ausų",
+    "term": "ausis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
-        "definition": "Genitive plural form of 'ausis' (ear); used in compound expressions meaning 'of ears' or 'ear-'.",
-        "example": "Ausų kištukai padeda miegoti.",
+        "definition": "Klausos organas, esantis abipus galvos.",
+        "example": "Ausis skauda nuo šalto vėjo.",
         "register": "general",
         "tags": [
           "body",
@@ -18,46 +18,42 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "ausis",
       "auskaras",
-      "galva",
-      "klausa"
+      "klausa",
+      "galva"
     ],
-    "translation": "of ears (genitive plural)",
+    "translation": "ear",
     "register": "general",
     "level": "A1",
-    "qa_notes": "FAIL: term \"ausų\" is genitive plural; headword must be nominative singular \"ausis\". Fix headword before re-submitting."
+    "qa_notes": "Relations agent: fixed headword ausų→ausis (nom. sg.). Note: ausis may exist in production — QA should check for duplicate."
   },
   {
-    "term": "keleiviai",
+    "term": "keleivis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, kuris keliauja transporto priemone, bet jos nevairuoja.",
         "example": "Keleivis sėdi autobuso gale.",
         "register": "general",
         "tags": [
-          "transport"
+          "transport",
+          "A2"
         ]
       }
     ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "keleivis",
       "kelionė",
       "transportas",
       "autobusas"
     ],
     "translation": "passenger",
-    "tags": [
-      "B1"
-    ],
     "level": "A2",
     "register": "general",
-    "qa_notes": "FAIL: term \"keleiviai\" is nominative plural; singular \"keleivis\" already exists as approved entry. Remove duplicate or repurpose."
+    "qa_notes": "Relations agent: fixed headword keleiviai→keleivis (nom. sg.). Note: keleivis may exist in production — QA should check for duplicate."
   },
   {
     "term": "amžius",

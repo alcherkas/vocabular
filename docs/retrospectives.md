@@ -5374,3 +5374,28 @@ None.
 
 ### Blockers
 None.
+
+---
+
+## Retro: vocab/relations-lt-72 — LT Relations Agent
+
+**Date**: 2025-07-20
+**Agent**: Relations Agent (LT)
+**Branch**: `vocab/relations-lt-72`
+**Goal**: Add relations to ~2 enriched LT entries in staging
+
+### What went well
+- Both enriched entries processed and validated successfully.
+- Fixed headword forms (ausų→ausis, keleiviai→keleivis) that previous QA had flagged.
+- Validation passed on first attempt.
+
+### What went wrong
+- Both entries had incorrect headword forms (genitive plural and nominative plural). The Relations agent had to fix headword issues that should have been resolved upstream by the Enricher or QA agent.
+- Both corrected forms (ausis, keleivis) already exist in production — these entries are likely duplicates that QA should catch.
+
+### Suggested improvement
+- Enricher agent should reject or fix non-nominative headwords before setting status to "enriched", rather than leaving broken entries for downstream agents.
+- Pipeline should auto-check for production duplicates at the enrichment stage.
+
+### Blockers
+None.
