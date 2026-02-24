@@ -5332,6 +5332,7 @@ None.
 ### Blockers
 None.
 
+<<<<<<< HEAD
 ## Retro: vocab/qa-lt-70 — LT QA Agent
 
 **Date**: 2025-07-18
@@ -5350,6 +5351,26 @@ None.
 
 ### Suggested improvement
 - Could add automated cross-reference check between staging synonyms and production terms to verify synonym targets exist.
+=======
+---
+
+## Retro: vocab/enricher-lt-67 — LT Enricher Agent
+
+**Date**: 2025-07-19
+**Agent**: Enricher Agent (LT)
+**Branch**: `vocab/enricher-lt-67`
+**Goal**: Enrich remaining LT stubs/enriched entries in staging
+
+### What went well
+- Identified both "enriched" entries (ausų, keleiviai) as duplicates of existing production words before wasting effort on further enrichment.
+- Validation passed cleanly after removal.
+
+### What went wrong
+- No stubs or valid enriched entries remained to enrich — the batch was purely cleanup. Previous QA had already flagged both entries but they hadn't been removed.
+
+### Suggested improvement
+- QA agent should auto-remove entries flagged as duplicates of production words rather than leaving them in "enriched" status for the enricher to handle.
+>>>>>>> vocab/enricher-lt-67
 
 ### Blockers
 None.
