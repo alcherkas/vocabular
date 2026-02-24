@@ -70,3 +70,10 @@ Agents append one entry here **after each commit** and **after every irreversibl
 - **Files**: `words_lt_staging.json`, `docs/ARCHITECTURE.md`
 - **Result**: All 270 LT infinitive verbs in production now have forms data; 10 staging verbs updated; schema documented
 - **Commit**: `6b99378`
+
+## 2025-07-16 — vocab/backfill-lt-verb-forms
+
+- **Action**: Removed 33 conjugated-form headwords from `words_lt_staging.json`; added `forms`+`governedCase` to 57 production verbs in `words_lt.json`
+- **Branch**: `vocab/backfill-lt-verb-forms`
+- **Commit**: 6688c23
+- **Reversible**: Yes — `git revert 6688c23`
