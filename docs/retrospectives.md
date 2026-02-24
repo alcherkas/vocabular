@@ -5439,3 +5439,16 @@ None.
 
 ### Blockers
 None.
+
+## [2025-07-17] enricher-lt-69 vocab/enricher-lt-69
+
+### What went well
+- All 40 Lithuanian stubs enriched in a single batch with zero validation errors on first pass.
+- Verb entries correctly included forms (present3/past3) and governedCase fields.
+- Validator confirmed 80/80 enriched entries pass.
+
+### What could be improved
+- The retrospectives.md file has accumulated many merge conflict markers from prior branches; a cleanup pass would help readability.
+
+### Blockers
+None.
