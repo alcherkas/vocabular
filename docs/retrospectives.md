@@ -5200,3 +5200,22 @@ Enriched 40 LT stubs (18 nouns, 10 verbs, 7 adjectives, 4 adverbs, 1 conjunction
 
 ### Blockers
 None.
+
+## [2025-07-21] relations-lt-agent vocab/relations-lt-69
+
+### What went well
+- All 41 enriched LT entries had clean structure; adding relations was straightforward.
+- Verb entries already had forms/governedCase from the enricher, minimizing extra work.
+- Validation caught one inflected synonym form ("iš tiesų") immediately — easy fix.
+
+### What was harder than expected
+- Ensuring synonym co-extensiveness for Lithuanian adverbs/conjunctions required care; most ended up with empty synonym arrays since true co-extensive synonyms are rare at A2 level.
+
+### Process friction
+- None significant — the validation script gave a clear error message.
+
+### Suggested improvement
+- None.
+
+### Blockers
+None.
