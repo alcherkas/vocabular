@@ -57,7 +57,7 @@
   },
   {
     "term": "grybas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -74,19 +74,17 @@
         ]
       }
     ],
-    "synonyms": [
-      "baravykas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
+      "baravykas",
       "grybavimas",
       "miškas"
-    ],
-    "qa_notes": "QA fail: synonym \"baravykas\" is a hyponym (specific mushroom type), not co-extensive with the generic sense of grybas. Move to relatedTerms or replace with a true synonym."
+    ]
   },
   {
     "term": "uoga",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -103,19 +101,17 @@
         ]
       }
     ],
-    "synonyms": [
-      "vaisius"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "uogynas",
+      "vaisius",
       "krūmas"
-    ],
-    "qa_notes": "QA fail: synonym \"vaisius\" is a hypernym (fruit ⊃ berry), not co-extensive with the defined sense. Move to relatedTerms or replace with a true synonym."
+    ]
   },
   {
     "term": "pirštinė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -132,15 +128,12 @@
         ]
       }
     ],
-    "synonyms": [
-      "kumštinė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "pirštas",
-      "šiluma"
-    ],
-    "qa_notes": "QA fail: synonym \"kumštinė\" (mitten) is not co-extensive with pirštinė (glove with separate finger compartments per definition). Move to relatedTerms or replace."
+      "kumštinė",
+      "pirštas"
+    ]
   },
   {
     "term": "ataskaita",
