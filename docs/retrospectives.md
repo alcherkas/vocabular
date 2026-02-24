@@ -5440,6 +5440,7 @@ None.
 ### Blockers
 None.
 
+<<<<<<< HEAD
 ---
 
 ## Retro: QA EN batch 66 + Relations LT batch 73
@@ -5460,6 +5461,17 @@ None.
 ### What could improve
 - Highly technical C2 terms (diatonic, ephemera, aestheticism) often lack 2 co-extensive synonyms. The Relations Agent could flag these during relations phase so QA doesn't have to reject.
 - Consider relaxing the 2-synonym minimum for C2 terms where the concept is genuinely unique.
+=======
+## [2025-07-17] enricher-lt-69 vocab/enricher-lt-69
+
+### What went well
+- All 40 Lithuanian stubs enriched in a single batch with zero validation errors on first pass.
+- Verb entries correctly included forms (present3/past3) and governedCase fields.
+- Validator confirmed 80/80 enriched entries pass.
+
+### What could be improved
+- The retrospectives.md file has accumulated many merge conflict markers from prior branches; a cleanup pass would help readability.
+>>>>>>> vocab/enricher-lt-69
 
 ### Blockers
 None.
