@@ -4797,6 +4797,7 @@ All 162 staging entries passed `validate_words.py --errors-for enriched`. Zero s
 >>>>>>> vocab/enricher-lt-68
 
 ---
+<<<<<<< HEAD
 
 ## Retro: vocab/relations-en-58 — EN Relations Agent (2025-01)
 
@@ -4819,3 +4820,32 @@ All 162 staging entries passed `validate_words.py --errors-for enriched`. Zero s
 - The pre-check script should exit(1) immediately on errors, not after writing the file.
 - Consider adding a `--dry-run` option to the validate script to test before applying.
 - The substring self-reference rule should be documented more prominently in VOCAB-AGENT.md with concrete examples (compound terms are especially prone to this).
+=======
+## Retro — vocab/enricher-lt-69 (LT Enricher, 2025)
+
+**Agent**: LT Vocabulary Enricher
+**Branch**: vocab/enricher-lt-69
+**Task**: Enrich 35 Lithuanian stubs in words_lt_staging.json
+
+### What was done
+Enriched 35 stubs organised into four thematic groups:
+- **Thousands** (8): du tūkstančiai … devyni tūkstančiai — `numeral`, A2
+- **Zodiac signs** (11): Avinas, Jautis, Dvyniai, Vėžys, Mergelė, Svarstyklės, Skorpionas, Šaulys, Ožiaragis, Vandenis, Žuvys — `noun`, B1
+- **Collective numerals** (9): vieneri … devyneri — `numeral`, A2 (lowercased `Vieneri` stub term per AGENTS.md rule)
+- **Ordinal numbers** (7): ketvirtas … dešimtas — `adjective`, A2
+
+Each entry includes: partOfSpeech, register (general), level, Lithuanian example sentence, English translation, tags.
+
+### What went well
+- Validation passed with 0 errors on the first run.
+- Thematic coherence: numbers + zodiac made a natural, learnable batch.
+- `Vieneri` → `vieneri` lowercase correction applied correctly per the AGENTS.md proper-noun rule.
+
+### What could improve
+- Stub terms for conjugated verb forms (dėvi, vilki, apsirengia, etc.) should ideally be stored as infinitives in the seeder stage rather than surface conjugations — avoids ambiguity for enrichers.
+- Zodiac signs Leo (Liūtas) was already enriched, but absent from the batch was noted for completeness.
+
+### Decisions made
+- Used `numeral` partOfSpeech for both cardinal phrase-numbers and collective numerals (consistent with existing enriched entries).
+- Zodiac sign proper nouns kept capitalised per AGENTS.md exception rule.
+>>>>>>> vocab/enricher-lt-69
