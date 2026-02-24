@@ -5220,6 +5220,7 @@ None.
 ### Blockers
 None.
 
+<<<<<<< HEAD
 ---
 
 ## Retro: enricher-en-64
@@ -5235,6 +5236,19 @@ None.
 
 ### What could improve
 - Could batch-verify definitions against a reference corpus for higher confidence on nuanced terms.
+=======
+## [2025-07-22] enricher-lt-agent vocab/enricher-lt-65
+
+### What went well
+- Enriched 40 LT stubs in a single pass; validation passed on first run with 0 errors.
+- All entries were nouns or a conjunction — no verb forms needed, simplifying the batch.
+
+### What was harder than expected
+- Nothing significant; the stubs were well-structured and the enrichment data was straightforward.
+
+### Process friction
+- None.
+>>>>>>> vocab/enricher-lt-65
 
 ### Suggested improvement
 - None.
