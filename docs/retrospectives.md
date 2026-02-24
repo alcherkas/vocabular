@@ -5083,3 +5083,24 @@ Added 100 new English C1/C2 vocabulary stubs to `words_staging.json`. Terms span
 
 ### Commit
 `c473949` — vocab(seeder-en-16): add 100 new English stubs
+
+## Retro — vocab/enricher-en-63 (English Enrichment Batch)
+
+**Date:** 2025-07-25
+**Agent:** Enricher EN
+**Branch:** vocab/enricher-en-63
+
+### What was done
+Enriched all 100 English stubs in `words_staging.json`. Each entry received: `partOfSpeech`, `level` (C1/C2), `register`, 1–2 `meanings` objects (each with `definition`, `example`, `register`, `tags`), and `status: "enriched"`.
+
+### What went well
+- Validation passed first time with 0 errors across all 167 entries.
+- Coverage was complete: all 100 stubs enriched in a single pass.
+- Word selection spans C1–C2 academic, literary, formal, and technical registers appropriately.
+
+### What could be improved
+- Some words (e.g. `collateral`, `forensic`, `dissolution`) have multiple senses; only 2 meanings were added to keep scope contained. A future Relations agent can expand synonym/antonym coverage.
+- A pre-built enrichment lookup table (rather than inline Python dict) would speed future batches.
+
+### Blockers
+None.
