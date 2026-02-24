@@ -70,6 +70,10 @@ Vocab/Vocab/
     var interval: Int = 0
     var repetitions: Int = 0
 
+    // Verb grammar (LT)
+    var formsData: Data               // JSON-encoded WordForms? (present3, past3)
+    var governedCase: String?          // e.g. "ką?", "ko?", "kur?"
+
     // Computed
     var meanings: [WordMeaning]      // decoded from meaningsData
     var definition: String           // shortcut to meanings[0].definition
@@ -167,6 +171,28 @@ LT words add a `translation` field (EN gloss) and typically have 1 meaning:
   "relatedTerms": ["šuo", "gyvūnas"]
 }
 ```
+
+### Lithuanian verb forms
+
+LT verbs include the 3 principal forms and governed grammatical case:
+
+```json
+{
+  "term": "valgyti",
+  "language": "lt",
+  "partOfSpeech": "verb",
+  "translation": "to eat",
+  "forms": {
+    "present3": "valgo",
+    "past3": "valgė"
+  },
+  "governedCase": "ką?",
+  ...
+}
+```
+
+- `forms`: optional object with `present3` (3rd person present) and `past3` (3rd person past). The infinitive is the `term` itself.
+- `governedCase`: optional string — the grammatical question the verb requires (e.g., `"ką?"` accusative, `"ko?"` genitive, `"kur?"` locative, `"kam?"` dative, `"kuo?"` instrumental, `"su kuo?"` with whom). Null for intransitive/impersonal verbs.
 
 ### Staging files (`words_staging.json`, `words_lt_staging.json`)
 

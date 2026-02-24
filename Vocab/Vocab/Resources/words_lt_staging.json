@@ -953,7 +953,12 @@
     "translation": "to visit; to attend",
     "register": "general",
     "level": "A2",
-    "qa_notes": "Relations-added with no synonyms, antonyms or relatedTerms. Enricher must add at least relatedTerms before re-submitting."
+    "qa_notes": "Relations-added with no synonyms, antonyms or relatedTerms. Enricher must add at least relatedTerms before re-submitting.",
+    "forms": {
+      "present3": "lanko",
+      "past3": "lankė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "gimti",
@@ -983,7 +988,11 @@
     "translation": "to be born",
     "register": "general",
     "level": "A2",
-    "qa_notes": "Relations-added with no synonyms, antonyms or relatedTerms. Enricher must add at least relatedTerms before re-submitting."
+    "qa_notes": "Relations-added with no synonyms, antonyms or relatedTerms. Enricher must add at least relatedTerms before re-submitting.",
+    "forms": {
+      "present3": "gimsta",
+      "past3": "gimė"
+    }
   },
   {
     "term": "mirti",
@@ -1013,7 +1022,11 @@
     "translation": "to die",
     "register": "general",
     "level": "A2",
-    "qa_notes": "Relations-added with no synonyms, antonyms or relatedTerms. Enricher must add at least relatedTerms before re-submitting."
+    "qa_notes": "Relations-added with no synonyms, antonyms or relatedTerms. Enricher must add at least relatedTerms before re-submitting.",
+    "forms": {
+      "present3": "miršta",
+      "past3": "mirė"
+    }
   },
   {
     "term": "švenčia",
@@ -1896,7 +1909,12 @@
       "virimas",
       "kaitinti"
     ],
-    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
+    "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval.",
+    "forms": {
+      "present3": "užverda",
+      "past3": "užvirė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "nata",
@@ -2333,7 +2351,12 @@
       "pamoka",
       "mokyti"
     ],
-    "qa_notes": "'apibūdinti' means to describe or characterize, which is a distinct action from explaining. Only 1 true synonym provided ('išaiškinti'). Replace 'apibūdinti' with a co-extensive synonym."
+    "qa_notes": "'apibūdinti' means to describe or characterize, which is a distinct action from explaining. Only 1 true synonym provided ('išaiškinti'). Replace 'apibūdinti' with a co-extensive synonym.",
+    "forms": {
+      "present3": "paaiškina",
+      "past3": "paaiškino"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "smalsus",
@@ -2950,7 +2973,12 @@
       "paskaita"
     ],
     "translation": "to lecture",
-    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
+    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries.",
+    "forms": {
+      "present3": "dėsto",
+      "past3": "dėstė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "egzaminuoti",
@@ -2976,7 +3004,12 @@
       "vertinti"
     ],
     "translation": "to examine",
-    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
+    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries.",
+    "forms": {
+      "present3": "egzaminuoja",
+      "past3": "egzaminavo"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "stoti",
@@ -3002,7 +3035,12 @@
       "priėmimas"
     ],
     "translation": "to apply",
-    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
+    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries.",
+    "forms": {
+      "present3": "stoja",
+      "past3": "stojo"
+    },
+    "governedCase": "kur?"
   },
   {
     "term": "laikyti egzaminą",
@@ -3308,7 +3346,12 @@
       "ištekėti"
     ],
     "translation": "to get married",
-    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
+    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries.",
+    "forms": {
+      "present3": "susituokia",
+      "past3": "susituokė"
+    },
+    "governedCase": "su kuo?"
   },
   {
     "term": "ištekėti",
@@ -3335,7 +3378,12 @@
       "jaunikis"
     ],
     "translation": "to marry (said of a woman)",
-    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
+    "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries.",
+    "forms": {
+      "present3": "išteka",
+      "past3": "ištekėjo"
+    },
+    "governedCase": "už ko?"
   },
   {
     "term": "našlys",
