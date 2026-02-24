@@ -130,7 +130,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Svarstyti kokį nors klausimą, keičiantis nuomonėmis ir argumentais.",
@@ -155,14 +155,15 @@
       "present3": "diskutuoja",
       "past3": "diskutavo"
     },
-    "governedCase": "ką?"
+    "governedCase": "ką?",
+    "qa_notes": "governedCase set to 'ką?' but diskutuoti governs a prepositional phrase 'apie ką?' (not direct accusative). Field should be null."
   },
   {
     "term": "taikyti",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Naudoti ką nors praktikoje, pritaikyti.",
@@ -204,7 +205,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Pateikti trumpą ir glaustą informacijos santrauką.",
@@ -236,7 +237,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Iš naujo apgalvoti anksčiau primtą sprendimą ar nuomonę.",
@@ -268,7 +269,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Aiškiai ir tiksliai išreikšti mintį žodžiais.",
@@ -300,7 +301,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Vertinti ką nors neigiamai, reikšti pastabas dėl trūkumų.",
@@ -334,7 +335,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Pagrįstas faktais, nepriklausomas nuo asmeninės nuomonės.",
@@ -363,7 +364,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Priklausomas nuo asmeninių jausmų ar nuomonės, neobjektyvus.",
@@ -392,7 +393,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Logiškai susijęs, einantis tam tikra tvarka.",
@@ -421,7 +422,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Nesusijęs su konkrečiais daiktais ar reiškiniais, teorinis.",
@@ -450,7 +451,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Pagrįstas protu ir logika, protingas.",
@@ -480,7 +481,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Smulkios sausos dalelės, susikaupušios ant paviršių.",
@@ -507,7 +508,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Uoslės organu jaučiamas pojūtis.",
@@ -534,7 +535,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Elektromagnetinė spinduliuotė, kurią mato akis.",
@@ -573,7 +574,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A1",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Rodyti džiaugsmą ar malonumą veido išraiška, ypač lūpomis.",
@@ -599,14 +600,15 @@
     "forms": {
       "present3": "šypsosi",
       "past3": "šypsojosi"
-    }
+    },
+    "qa_notes": "Missing required 'governedCase' field. As a reflexive intransitive verb, governedCase should be null."
   },
   {
     "term": "sutvarkyti",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Padaryti tvarką, surikiuoti daiktus.",
@@ -648,7 +650,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "A1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Turintis nešvarumų, purvinas.",
@@ -677,7 +679,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Oficialus uždraudimas ką nors daryti.",
@@ -716,7 +718,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Kitiems teikiama nauda ar pagalba, dažnai už mokestį.",
@@ -743,7 +745,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Teikti paslaugas klientams ar lankytojams.",
@@ -775,7 +777,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Tikėti kuo nors, jaustis saugiai dėl ko nors patikimumo.",
@@ -809,7 +811,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Vartoti ką nors savo reikmėms.",
@@ -841,7 +843,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Iš anksto numatyti veiksmus ir jų tvarką.",
@@ -866,14 +868,15 @@
       "present3": "suplanuoja",
       "past3": "suplanuojo"
     },
-    "governedCase": "ką?"
+    "governedCase": "ką?",
+    "qa_notes": "forms.past3 is 'suplanuojo' which is incorrect. Following the -uoti verb pattern (planuoti→planavo), the correct past3 of suplanuoti is 'suplanavo'."
   },
   {
     "term": "pažanga",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Judėjimas į priekį, tobulėjimas.",
@@ -902,7 +905,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Naujo dalyko ar reiškinio suradimas ar atskleidimas.",
@@ -929,7 +932,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Būdingas bruožas ar ypatybė.",
@@ -956,7 +959,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Dažnai kartojamas veiksmas, tapęs automatišku.",
@@ -983,7 +986,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Turintis pagrindą, paremtas argumentais ar faktais.",
@@ -1015,7 +1018,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Atitinkantis reikalavimus, tinkantis kokiam nors tikslui.",
@@ -1042,7 +1045,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Nesikeiciantis, pastovus, trunkantis ilgą laiką.",
@@ -1071,7 +1074,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Toks, kurį būtina atlikti, privalomas pagal taisykles.",
@@ -1100,7 +1103,7 @@
     "language": "lt",
     "partOfSpeech": "phrase",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Moksliskai pagrįstas spėjimas, kuris turi būti patikrintas tyrimu.",
@@ -1127,7 +1130,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Taisyklių, įstatymų ar normų nesilaikymas.",
@@ -1164,7 +1167,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Apdairumas, atsargus elgesys siekiant išvengti pavojaus.",
@@ -1191,7 +1194,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Būsena, kai kas nors priklauso nuo kito asmens ar dalyko.",
@@ -1230,7 +1233,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Gebėjimas gerai atlikti tam tikrą darbą, kvalifikacija.",
@@ -1257,7 +1260,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Gebėjimas suvokti save ir aplinką, dėmesingumas.",
@@ -1284,7 +1287,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Pateikti argumentų ar įrodymu kam nors patvirtinti.",
@@ -1312,14 +1315,15 @@
       "present3": "pagrinžia",
       "past3": "pagrindė"
     },
-    "governedCase": "ką?"
+    "governedCase": "ką?",
+    "qa_notes": "forms.present3 is 'pagrinžia' — missing the 'd'. Following the -sti verb pattern (grįsti→grindžia), the correct present3 of pagrįsti is 'pagrindžia'."
   },
   {
     "term": "nustatyti",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Tiksliai sužinoti, išsiaiškinti.",
@@ -1361,7 +1365,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Padaryti žinomą tai, kas buvo paslėpta ar nežinoma.",
@@ -1395,7 +1399,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Padaryti mažesnį, sumažinti kiekį ar intensyvumą.",
@@ -1429,7 +1433,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Padaryti geresnį, pagerinti kokybę ar būklę.",
@@ -1463,7 +1467,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Duodantis gerų rezultatų, našus.",
@@ -1490,7 +1494,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Pagarbaus ir taktiškas elgesys su kitais žmonėmis.",
@@ -1519,7 +1523,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Fizinės ar protinės jėgos, dedamos siekiant tikslo.",
@@ -1546,7 +1550,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Kalbos dalis, reiškianti veiksmą ar būseną.",
@@ -1573,7 +1577,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Sąmonės sutelkimas į kokį nors objektą ar veiklą.",
@@ -1600,7 +1604,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Veiksmų visuma, atliekama prieš kokį nors renginį ar darbą.",
@@ -1627,7 +1631,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Pritarimas, leidimas ar susitarimas.",
@@ -1656,7 +1660,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Tai, dėl ko kas nors vyksta ar yra daroma.",
