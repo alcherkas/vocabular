@@ -5475,3 +5475,16 @@ None.
 
 ### Blockers
 None.
+
+## [2025-07-18] relations-lt-74 vocab/relations-lt-74
+
+### What went well
+- All 40 enriched LT entries received relations in a single batch; validation passed on first run.
+- Verb forms and governedCase were already correct from enricher — no fixes needed.
+- Character-trait nouns had natural synonym/antonym pairs (e.g. drąsa↔bailumas, kuklumas↔puikybė).
+
+### What could be improved
+- Animal nouns all share similar relatedTerms patterns (paukštis/miškas/žinduolis). A templating approach for domain clusters could speed future batches.
+
+### Blockers
+None.
