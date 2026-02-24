@@ -68,7 +68,9 @@ The initial ~1760 LT terms have been seeded from `lt.txt` (now removed — all t
 
 ### Adding new LT terms (ongoing)
 
-To add new A1/A2 Lithuanian terms, create stubs directly in `words_lt_staging.json` following the stub format below. Check that the term doesn't already exist in production (`words_lt.json`) or staging.
+To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` following the stub format below. Check that the term doesn't already exist in production (`words_lt.json`) or staging.
+
+**Target levels**: A1/A2 basics are largely covered (~2200+ words). New batches should focus on **A2–B1 and B1–B2** vocabulary — everyday situations, work, travel, opinions, emotions, health, media, and abstract concepts.
 
 **Term capitalisation rule**: LT `term` values must be **all-lowercase**, except genuine proper nouns (place names, person names). Common nouns, verbs, adjectives must start with a lowercase letter even if source materials capitalise them (e.g. `autobusas`, not `Autobusas`).
 
@@ -209,7 +211,7 @@ Stop enriching if fewer stubs remain than your batch size.
    - Are all meanings accurate and distinct?
    - Are examples natural and illustrative?
    - Are synonyms/antonyms correct (not just superficially similar)?
-   - Does the word fit the target level (C1+ for EN, A1/A2 for LT)?
+   - Does the word fit the target level (C1+ for EN, A2–B2 for LT)?
    - No offensive, overly obscure, or low-value entries.
 3. If approved: set `status: "approved"`.
 4. If issues found: add `"qa_notes": "..."` field, reset `status` to `"enriched"` for Enricher to fix.
