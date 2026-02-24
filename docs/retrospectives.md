@@ -4870,3 +4870,38 @@ Each entry includes: partOfSpeech, register (general), level, Lithuanian example
 ### What could be improved
 - Stub entries for verb conjugation forms (present/past 3rd person) could benefit from explicit dictionary base-form cross-references in the definition.
 
+
+---
+
+## Relations Agent — EN batch 59 (vocab/relations-en-59)
+
+**Date**: 2025-07-29
+**Agent**: Vocab Relations Agent (EN)
+**Batch**: 56 enriched EN entries → relations-added
+
+### What was done
+- Reviewed all 56 enriched EN entries in `words_staging.json`
+- All entries already had `synonyms`, `antonymTerms`, and `relatedTerms` fields populated by a prior agent
+- Fixed 7 entries with semantic quality issues before setting status to `relations-added`
+
+### Quality fixes applied
+| Term | Issue | Fix |
+|------|-------|-----|
+| manifold | 'topological variety' is an algebraic geometry concept (≠ manifold in topology) | → 'differentiable space' |
+| civil society | 'voluntary sector' is a hyponym, not co-extensive | → 'civic sphere' |
+| scholasticism | 'pedantry'/'doctrinarianism' match only sense 2 (pejorative), not sense 1 (medieval academic tradition) | → 'scholastic philosophy'/'medieval dialectic' |
+| promissory estoppel | 'equitable estoppel' is a hypernym; 'detrimental reliance' is the underlying doctrine | → 'reliance estoppel'/'equitable reliance doctrine' |
+| canticle | 'liturgical song' is a hypernym (canticles are a species of liturgical song) | → 'biblical hymn' |
+| poststructuralism | 'anti-foundationalism' is broader (includes pragmatism etc.) | → 'anti-essentialism' |
+| latitude | 'angular elevation from equator' is a paraphrase, not a standard term | → 'degree of arc north-south' |
+
+### Validation
+- `validate_words.py --errors-for relations-added`: 0 errors, 127 entries valid ✓
+
+### What went well
+- Pre-existing data was largely complete; only semantic quality needed attention
+- Self-referential token check in validator caught 'topological manifold' and 'parallel of latitude' immediately
+
+### What to improve
+- For multi-sense entries, the entry-level `synonyms` field forces a compromise — consider per-meaning synonyms in a future schema revision
+- Some highly technical terms (poststructuralism, nominalism) have genuinely few co-extensive synonyms; QA Reviewer should be aware these are best-available options
