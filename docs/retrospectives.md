@@ -5308,3 +5308,26 @@ Enriched all 41 Lithuanian stubs in words_lt_staging.json. Categories covered: f
 
 ### Blockers
 None.
+
+---
+
+## Retro: vocab/relations-lt-71 — LT Relations Agent
+
+**Date**: 2025-07-18
+**Agent**: Relations Agent (LT)
+**Branch**: `vocab/relations-lt-71`
+**Goal**: Add synonyms, antonymTerms, relatedTerms to 41 enriched LT entries
+
+### What went well
+- All 41 enriched entries processed in a single pass; validator passed on first real run.
+- Verb forms (present3, past3) and governedCase already correct from enricher — no fixes needed.
+- Cross-array duplicates (triušis: kiškis, fotografija: nuotrauka) caught and fixed before validation.
+
+### What went wrong
+- Substring match flagged for `rinkti`/`surinkti` in relatedTerms — had to replace `surinkti` with `pasirinkimas`.
+
+### Suggested improvement
+- Enricher could pre-populate empty relation arrays without cross-array risk, reducing Relations Agent fixups.
+
+### Blockers
+None.
