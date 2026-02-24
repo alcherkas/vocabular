@@ -5123,212 +5123,826 @@
   {
     "term": "positive feedback loop",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A self-reinforcing cycle in which an initial change triggers further changes in the same direction, amplifying the original effect.",
+        "example": "Arctic ice melt is accelerated by a positive feedback loop: less ice means less sunlight reflected, causing more warming and further melting.",
+        "register": "technical",
+        "tags": [
+          "climatology",
+          "systems theory",
+          "ecology",
+          "amplification"
+        ]
+      },
+      {
+        "definition": "In biology and physiology, a process where a product or outcome stimulates the production of more of itself.",
+        "example": "During childbirth, oxytocin release creates a positive feedback loop that intensifies contractions until delivery.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "physiology",
+          "homeostasis"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "register": "technical"
   },
   {
     "term": "negative feedback loop",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A regulatory mechanism in which the output of a system counteracts the initial stimulus, stabilising the system around a set point.",
+        "example": "Body temperature is maintained by a negative feedback loop: overheating triggers sweating, which cools the body back toward equilibrium.",
+        "register": "technical",
+        "tags": [
+          "systems theory",
+          "biology",
+          "homeostasis",
+          "regulation"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "register": "technical"
   },
   {
     "term": "thermohaline circulation",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The global ocean circulation driven by differences in seawater temperature and salinity, transporting heat and nutrients around the planet.",
+        "example": "Scientists warn that weakening of thermohaline circulation due to freshwater influx could disrupt European climates significantly.",
+        "register": "technical",
+        "tags": [
+          "oceanography",
+          "climatology",
+          "ocean currents",
+          "climate"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "ocean acidification",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The ongoing decrease in the pH of Earth's oceans caused by absorption of carbon dioxide from the atmosphere.",
+        "example": "Ocean acidification threatens coral reefs by dissolving the calcium carbonate structures that corals depend on.",
+        "register": "technical",
+        "tags": [
+          "oceanography",
+          "climatology",
+          "marine biology",
+          "CO2"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "register": "technical"
   },
   {
     "term": "permafrost thaw",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The melting of permanently frozen ground in polar and sub-polar regions, releasing stored carbon and methane as temperatures rise.",
+        "example": "Permafrost thaw in Siberia is releasing ancient organic carbon into the atmosphere, accelerating global warming.",
+        "register": "technical",
+        "tags": [
+          "climatology",
+          "Arctic",
+          "carbon cycle",
+          "greenhouse gas"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "tipping point",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A critical threshold at which a system undergoes a sudden, often irreversible shift to a new state.",
+        "example": "Climate scientists fear that continued warming may push the Greenland ice sheet past a tipping point from which recovery would take millennia.",
+        "register": "technical",
+        "tags": [
+          "systems theory",
+          "climatology",
+          "ecology",
+          "threshold"
+        ]
+      },
+      {
+        "definition": "The moment when a trend or phenomenon becomes unstoppable or self-sustaining, especially in social or cultural contexts.",
+        "example": "The protest movement reached a tipping point when major corporations publicly backed the campaigners' demands.",
+        "register": "general",
+        "tags": [
+          "social change",
+          "momentum",
+          "transition"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "register": "general"
   },
   {
     "term": "carbon budget",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The maximum cumulative amount of carbon dioxide emissions permissible while still limiting global warming to a given temperature target.",
+        "example": "At current emission rates, the remaining carbon budget for keeping warming below 1.5°C will be exhausted within a decade.",
+        "register": "technical",
+        "tags": [
+          "climatology",
+          "climate policy",
+          "emissions",
+          "Paris Agreement"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "register": "technical"
   },
   {
     "term": "methane clathrate",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A crystalline solid in which methane molecules are trapped within a lattice of water ice, found in deep ocean sediments and permafrost.",
+        "example": "Destabilisation of methane clathrates on the sea floor could release vast quantities of greenhouse gas if ocean temperatures rise sufficiently.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "climatology",
+          "methane",
+          "ocean floor",
+          "greenhouse gas"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "atmospheric river",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A narrow corridor of concentrated water vapour transport in the atmosphere, capable of carrying moisture comparable to the flow of a major river.",
+        "example": "The extreme flooding in California was caused by a powerful atmospheric river that delivered several months of rainfall in just two days.",
+        "register": "technical",
+        "tags": [
+          "meteorology",
+          "hydrology",
+          "precipitation",
+          "extreme weather"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "carbon pricing",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A policy mechanism that assigns a monetary cost to greenhouse gas emissions, either through a tax or a cap-and-trade scheme, to incentivise reductions.",
+        "example": "Many economists argue that carbon pricing is the most efficient instrument for driving economy-wide decarbonisation.",
+        "register": "technical",
+        "tags": [
+          "climate policy",
+          "economics",
+          "emissions",
+          "carbon tax",
+          "regulation"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "register": "technical"
   },
   {
     "term": "cap-and-trade",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An emissions reduction policy that sets a limit on total pollution, issues tradable permits up to that limit, and allows firms to buy and sell allowances.",
+        "example": "Under the EU's cap-and-trade system, companies that reduce their emissions below their allocation can sell surplus permits to higher-emitting competitors.",
+        "register": "technical",
+        "tags": [
+          "climate policy",
+          "economics",
+          "emissions trading",
+          "regulation",
+          "EU ETS"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "register": "technical"
   },
   {
     "term": "Pigouvian tax",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A corrective tax levied on activities that generate negative externalities, set equal to the marginal social cost of the harm, so that market prices reflect the true social cost.",
+        "example": "A carbon tax is often cited as a Pigouvian tax because it aims to internalise the climate damage caused by burning fossil fuels.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "public finance",
+          "externalities",
+          "Pigou",
+          "environmental economics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "natural capital",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The world's stock of natural assets — including geology, soils, air, water, and living organisms — from which humans derive ecosystem services and economic value.",
+        "example": "The economic report argued that destruction of natural capital through deforestation would ultimately cost more than any short-term logging profit.",
+        "register": "technical",
+        "tags": [
+          "environmental economics",
+          "ecology",
+          "ecosystem services",
+          "sustainability"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "register": "technical"
   },
   {
     "term": "green GDP",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A modified measure of national income that adjusts conventional GDP for environmental degradation and resource depletion.",
+        "example": "Critics of conventional GDP argue that a green GDP would reveal that many apparent periods of growth were achieved by running down natural capital stocks.",
+        "register": "technical",
+        "tags": [
+          "environmental economics",
+          "national accounts",
+          "sustainability",
+          "policy"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "decoupling",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The separation of economic growth from the growth of resource use or environmental impact, such that GDP rises while pollution or consumption falls.",
+        "example": "Several advanced economies have achieved relative decoupling, growing their economies while reducing carbon intensity, though absolute decoupling remains rare.",
+        "register": "technical",
+        "tags": [
+          "environmental economics",
+          "sustainability",
+          "growth",
+          "emissions"
+        ]
+      },
+      {
+        "definition": "In physics and engineering, the separation of two previously linked systems so that changes in one no longer directly affect the other.",
+        "example": "Engineers introduced a damping mechanism to achieve decoupling of the vibration modes in the suspension system.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "engineering",
+          "systems design"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "register": "technical"
   },
   {
     "term": "circular economy",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An economic model that eliminates waste by keeping materials and products in use for as long as possible through reuse, repair, remanufacturing, and recycling.",
+        "example": "The company redesigned its packaging as part of a shift towards a circular economy, ensuring all materials could be recovered and re-entered into production.",
+        "register": "technical",
+        "tags": [
+          "sustainability",
+          "waste reduction",
+          "resource efficiency",
+          "environmental economics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "register": "technical"
   },
   {
     "term": "Kuznets curve",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A hypothetical relationship in which economic inequality first increases and then decreases as a country's per-capita income rises, forming an inverted-U shape.",
+        "example": "Proponents of the environmental Kuznets curve argue that pollution rises during early industrialisation but eventually falls as societies become wealthy enough to demand cleaner environments.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "development economics",
+          "inequality",
+          "Kuznets",
+          "environmental economics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "genuine progress indicator",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An alternative measure of economic welfare that adjusts GDP by adding the value of unpaid work and subtracting costs such as crime, pollution, and inequality.",
+        "example": "The genuine progress indicator for several wealthy nations has stagnated since the 1970s despite continued GDP growth, suggesting rising output has not translated into greater wellbeing.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "welfare measurement",
+          "sustainability",
+          "alternative metrics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "tragedy of the commons",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The tendency for shared, unregulated resources to be overexploited by individuals acting in self-interest, leading to depletion harmful to all.",
+        "example": "Hardin's tragedy of the commons is often invoked to explain overfishing, where each vessel acts rationally in isolation yet the collective outcome is the collapse of fish stocks.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "ecology",
+          "game theory",
+          "Hardin",
+          "public goods",
+          "commons"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "register": "general"
   },
   {
     "term": "field theory",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In sociology, Pierre Bourdieu's framework analysing social life as a series of fields — structured spaces of positions — in which agents compete for forms of capital according to field-specific rules.",
+        "example": "Bourdieu applied field theory to academia, showing how scholars compete for prestige within a relatively autonomous intellectual field governed by its own logic.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Bourdieu",
+          "social theory",
+          "capital",
+          "habitus"
+        ]
+      },
+      {
+        "definition": "In physics, the theoretical framework describing how forces are transmitted through space via fields rather than instantaneous action at a distance.",
+        "example": "Quantum field theory unifies quantum mechanics with special relativity by treating fundamental particles as excitations of underlying fields.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "quantum mechanics",
+          "electromagnetism",
+          "relativity"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "symbolic violence",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In Bourdieu's sociology, the subtle, often unconscious imposition of dominant cultural values and categories on subordinate groups, experienced as natural or legitimate rather than coercive.",
+        "example": "Bourdieu analysed how educational institutions perpetuate symbolic violence by presenting middle-class linguistic norms as neutral standards of excellence.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Bourdieu",
+          "power",
+          "domination",
+          "culture",
+          "habitus"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "governmentality",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Foucault's term for the ensemble of practices, knowledges, and rationalities through which modern states and institutions shape and guide the conduct of populations.",
+        "example": "Neo-liberal governmentality, in Foucault's analysis, works not through overt coercion but by cultivating self-regulating subjects who internalise market rationality.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Foucault",
+          "power",
+          "political theory",
+          "neoliberalism"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "biopower",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Foucault's concept describing the modern form of political power that takes the administration, regulation, and optimisation of human life and populations as its primary object.",
+        "example": "Public health campaigns, reproductive policies, and census-taking are all analysed as expressions of biopower, as the state increasingly manages life itself.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Foucault",
+          "power",
+          "political theory",
+          "biopolitics"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "communicative action",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Habermas's concept of social action oriented towards mutual understanding and rational consensus through language, as distinguished from strategic action aimed at success.",
+        "example": "Habermas argues that democratic legitimacy depends on communicative action: decisions should emerge from open, non-coercive discourse among all affected parties.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Habermas",
+          "philosophy",
+          "critical theory",
+          "discourse",
+          "democracy"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "structural functionalism",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A sociological perspective that views society as a complex system whose parts work together to promote stability and social order, each institution fulfilling necessary functions.",
+        "example": "Parsons' structural functionalism analyses how institutions such as the family, education, and religion each contribute to the integration and reproduction of the social system.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Parsons",
+          "Durkheim",
+          "social theory",
+          "institutions"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "register": "technical"
   },
   {
     "term": "agency",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In social theory, the capacity of individuals or groups to act independently and make their own choices, as opposed to being wholly determined by social structures.",
+        "example": "The debate between structure and agency remains central to sociology: to what degree can individuals alter the conditions of their own lives?",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "social theory",
+          "free will",
+          "structure",
+          "Giddens"
+        ]
+      },
+      {
+        "definition": "The state of acting or exerting power; active intervention to achieve a goal.",
+        "example": "The report emphasised the agency of local communities in designing solutions to poverty rather than relying on top-down interventions.",
+        "register": "general",
+        "tags": [
+          "empowerment",
+          "autonomy",
+          "action"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "register": "general"
   },
   {
     "term": "hybridity",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In postcolonial theory, the creation of new cultural forms that emerge in colonial and diasporic encounters, unsettling fixed notions of identity and cultural purity.",
+        "example": "Homi Bhabha's concept of hybridity challenges the binary opposition of coloniser and colonised, locating agency in the ambivalent space between cultures.",
+        "register": "technical",
+        "tags": [
+          "postcolonial theory",
+          "Bhabha",
+          "identity",
+          "culture",
+          "diaspora"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "mimicry",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In postcolonial theory, the colonised subject's imitation of the coloniser's culture, language, or manners — an ambivalent process that simultaneously reproduces and subtly undermines colonial authority.",
+        "example": "Bhabha analyses colonial mimicry as both a strategy imposed on the colonised and a site of resistance, since perfect imitation is never quite achieved.",
+        "register": "technical",
+        "tags": [
+          "postcolonial theory",
+          "Bhabha",
+          "colonialism",
+          "identity",
+          "resistance"
+        ]
+      },
+      {
+        "definition": "The practice of imitating the behaviour, speech, or appearance of another person or animal.",
+        "example": "Her mimicry of the professor's mannerisms had the whole class in fits of laughter.",
+        "register": "general",
+        "tags": [
+          "imitation",
+          "behaviour",
+          "humour"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "register": "general"
   },
   {
     "term": "orientalism",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Edward Said's concept describing the Western tradition of representing the Arab and Islamic world as exotic, backward, and inferior — a discourse that legitimised and reproduced colonial power.",
+        "example": "Said's Orientalism demonstrated how Western scholarship and literature constructed a homogeneous, timeless 'Orient' that served the interests of European imperial expansion.",
+        "register": "technical",
+        "tags": [
+          "postcolonial theory",
+          "Said",
+          "discourse",
+          "colonialism",
+          "representation",
+          "Middle East"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "cultural hegemony",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gramsci's concept describing the domination of a culturally diverse society by a ruling class that imposes its worldview as the universal common sense, achieved through consent rather than coercion.",
+        "example": "Gramsci argued that cultural hegemony explains why the working class often accepts ideologies that serve elite interests as natural and inevitable.",
+        "register": "technical",
+        "tags": [
+          "sociology",
+          "Gramsci",
+          "Marxism",
+          "power",
+          "ideology",
+          "consent"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "hyperreality",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Baudrillard's concept describing a condition in which simulations and representations of reality have replaced or become more real than the original referent, making the distinction between real and simulation impossible.",
+        "example": "Baudrillard argued that the Gulf War was a case of hyperreality — a media spectacle that obscured rather than represented actual events on the ground.",
+        "register": "technical",
+        "tags": [
+          "philosophy",
+          "Baudrillard",
+          "postmodernism",
+          "media",
+          "simulation",
+          "culture"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "encoding/decoding",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Stuart Hall's model of media communication in which messages are produced (encoded) by media institutions according to dominant ideologies, and interpreted (decoded) by audiences who may accept, negotiate, or reject the preferred meaning.",
+        "example": "Hall's encoding/decoding model shifted attention from the sender's intentions to the active role of audiences in constructing meaning from media texts.",
+        "register": "technical",
+        "tags": [
+          "media studies",
+          "cultural studies",
+          "Hall",
+          "semiotics",
+          "ideology",
+          "audience"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "phonological loop",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A component of Baddeley's working memory model that stores and rehearses verbal and phonological information through a temporary acoustic store and an articulatory rehearsal process.",
+        "example": "Remembering a new telephone number long enough to dial it relies on the phonological loop, which maintains the digit sequence through inner speech rehearsal.",
+        "register": "technical",
+        "tags": [
+          "cognitive psychology",
+          "memory",
+          "Baddeley",
+          "working memory",
+          "linguistics"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "lexical access",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The cognitive process by which a speaker or listener retrieves a word's phonological form, meaning, and grammatical properties from the mental lexicon during language production or comprehension.",
+        "example": "Tip-of-the-tongue states illustrate partial failures of lexical access, where semantic and syntactic information is available but phonological retrieval is blocked.",
+        "register": "technical",
+        "tags": [
+          "psycholinguistics",
+          "cognitive psychology",
+          "mental lexicon",
+          "language production"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "garden-path sentence",
     "language": "en",
-    "status": "stub",
-    "meanings": []
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A grammatically correct sentence that initially leads the reader towards a mistaken parse, requiring reanalysis upon reaching later words.",
+        "example": "The sentence 'The horse raced past the barn fell' is a classic garden-path sentence: readers initially parse 'raced' as the main verb but must reinterpret it as a reduced relative clause.",
+        "register": "technical",
+        "tags": [
+          "psycholinguistics",
+          "syntax",
+          "sentence processing",
+          "ambiguity",
+          "parsing"
+        ]
+      }
+    ],
+    "partOfSpeech": "phrase",
+    "level": "C2",
+    "register": "technical"
   },
   {
     "term": "semantic priming",
