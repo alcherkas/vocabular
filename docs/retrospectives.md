@@ -4849,3 +4849,24 @@ Each entry includes: partOfSpeech, register (general), level, Lithuanian example
 - Used `numeral` partOfSpeech for both cardinal phrase-numbers and collective numerals (consistent with existing enriched entries).
 - Zodiac sign proper nouns kept capitalised per AGENTS.md exception rule.
 >>>>>>> vocab/enricher-lt-69
+
+---
+
+## Retro: enricher-lt-70 — 2025-07-15
+
+**Agent:** LT Vocabulary Enricher
+**Branch:** vocab/enricher-lt-70
+**Task:** Enrich all remaining Lithuanian stubs in words_lt_staging.json
+
+### What was done
+- Enriched all 63 stub entries: ordinal numerals (4th–20th, m/f forms), clothing verbs (present/past pairs), stative phrases (yra apsirengęs/usi), common phrases (šviežiai spaustos sultys, eglutės papuošalai, senis besmegenis), and nouns (ausų, būda).
+- Fixed term casing: "Senis besmegenis" → "senis besmegenis" (not a proper noun).
+- All 543 entries passed validation with 0 errors.
+
+### What went well
+- Batch enrichment via a single Python script was efficient and error-free.
+- Clear grouping of stubs by semantic category (ordinals, clothing, holiday) made writing accurate examples straightforward.
+
+### What could be improved
+- Stub entries for verb conjugation forms (present/past 3rd person) could benefit from explicit dictionary base-form cross-references in the definition.
+
