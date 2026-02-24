@@ -1,35 +1,10 @@
 [
   {
-    "term": "prieskonis",
-    "language": "lt",
-    "partOfSpeech": "noun",
-    "level": "A2",
-    "status": "relations-added",
-    "meanings": [
-      {
-        "definition": "Augalinė medžiaga, naudojama maisto skoniui ir aromatui suteikti.",
-        "example": "Šioje sriuboje yra daug prieskonių.",
-        "register": "general",
-        "tags": [
-          "food",
-          "A2"
-        ]
-      }
-    ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "skonis",
-      "kvapas"
-    ],
-    "translation": "spice"
-  },
-  {
     "term": "apsilankyti",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Nuvykti į kokią nors vietą ar pas ką nors trumpam.",
@@ -62,7 +37,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Trumpas komentaras ar išlyga dėl ko nors.",
@@ -98,7 +73,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Sunkus ar reikalaujantis pastangų uždavinys ar situacija.",
@@ -125,7 +100,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Svarstyti kokį nors klausimą, keičiantis nuomonėmis ir argumentais.",
@@ -148,15 +123,14 @@
       "present3": "diskutuoja",
       "past3": "diskutavo"
     },
-    "governedCase": "ką?",
-    "qa_notes": "governedCase set to 'ką?' but diskutuoti governs a prepositional phrase 'apie ką?' (not direct accusative). Field should be null."
+    "governedCase": "ką?"
   },
   {
     "term": "šypsotis",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A1",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Rodyti džiaugsmą ar malonumą veido išraiška, ypač lūpomis.",
@@ -188,7 +162,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Iš anksto numatyti veiksmus ir jų tvarką.",
@@ -211,15 +185,14 @@
       "present3": "suplanuoja",
       "past3": "suplanuojo"
     },
-    "governedCase": "ką?",
-    "qa_notes": "forms.past3 is 'suplanuojo' which is incorrect. Following the -uoti verb pattern (planuoti→planavo), the correct past3 of suplanuoti is 'suplanavo'."
+    "governedCase": "ką?"
   },
   {
     "term": "pagrįsti",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Pateikti argumentų ar įrodymu kam nors patvirtinti.",
@@ -244,15 +217,14 @@
       "present3": "pagrinžia",
       "past3": "pagrindė"
     },
-    "governedCase": "ką?",
-    "qa_notes": "forms.present3 is 'pagrinžia' — missing the 'd'. Following the -sti verb pattern (grįsti→grindžia), the correct present3 of pagrįsti is 'pagrindžia'."
+    "governedCase": "ką?"
   },
   {
     "term": "mėnulis",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Dangaus kūnas, kuris šviečia naktį atspindėdamas saulės šviesą.",
@@ -276,7 +248,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Šviečiantis dangaus kūnas, matomas naktį.",
@@ -309,7 +281,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Planeta, kurioje gyvena žmonės.",
@@ -344,7 +316,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Atvira žemės teritorija, dažniausiai naudojama žemdirbystei.",
@@ -377,7 +349,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Dėdės arba tetos dukra.",
@@ -401,7 +373,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Degimo procesas, skleidžiantis šilumą, šviesą ir liepsną.",
@@ -426,7 +398,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Pilki ar balti debesys, kylantys nuo degančių daiktų.",
@@ -448,7 +420,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Laukinis gyvūnas, dažniausiai didelis ir pavojingas.",
@@ -472,7 +444,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Didelis juodas paukštis, dažnai sutinkamas miestuose ir kaimuose.",
@@ -494,7 +466,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Didelis baltas paukštis ilgomis kojomis ir snapu, laikomas Lietuvos simboliu.",
@@ -516,7 +488,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Užkandis iš dviejų duonos riekių su įdaru tarp jų.",
@@ -538,7 +510,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Gilus apvalus indas sriubai, salotoms ar kitiems patiekalams.",
@@ -560,7 +532,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Plonas metalinis įrankis su smailia vienu galu, naudojamas siūti.",
@@ -593,7 +565,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Plonas ilgas pluoštas, naudojamas siūti ar megzti.",
@@ -618,7 +590,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Kieta skaidri medžiaga, naudojama langams, indams ir kitiems daiktams gaminti.",
@@ -642,7 +614,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Darbuotojas, dirbantis prie kasos ir priimantis mokėjimus.",
@@ -667,7 +639,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Darbuotoja, dirbanti prie kasos ir priimanti mokėjimus.",
@@ -692,7 +664,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Didelis laukinis žinduolis storais kailiais, gyvenantis miškuose.",
@@ -716,7 +688,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Didelis plėšrus paukštis su stipriais nagais ir snapu.",
@@ -738,7 +710,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Kūno audinių minkštimas ir trynimas sveikatos ar atsipalaidavimo tikslais.",
@@ -762,7 +734,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Moteris, kurios profesija yra rašyti kompiuterių programas.",
@@ -786,7 +758,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Specialistas, projektuojantis pastatus ir kitas statybines struktūras.",
@@ -810,7 +782,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Specialistas, montuojantis ir taisantis elektros instaliacijas.",
@@ -834,7 +806,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Audinys, iš kurio siuvami drabužiai.",
@@ -865,7 +837,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Kieta blyški medžiaga, gerai laidanti šilumą ir elektrą.",
@@ -889,7 +861,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Sintetinė medžiaga, naudojama įvairiems gaminiams ir pakuotėms.",
@@ -913,7 +885,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Medžiaga, pagaminta iš siūlų audimo ar pynimo būdu.",
@@ -947,7 +919,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Protinė praktika, kurios metu susikoncentruojama siekiant ramybės ir sąmoningumo.",
@@ -971,7 +943,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Žodžiais reikšti mintis ar informaciją.",
@@ -1000,7 +972,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Ranka stumti daiktą, kad jis skristų per orą.",
@@ -1040,7 +1012,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Perkelti ką nors aukštyn nuo žemės ar paviršiaus.",
@@ -1080,7 +1052,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Judėti per kliūtį ar erdvę iš vienos pusės į kitą.",
@@ -1109,7 +1081,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Garsiai kalbėti ar rėkti.",
@@ -1152,7 +1124,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Labai garsiai šaukti iš skausmo, baimės ar pykčio.",
@@ -1184,7 +1156,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Judėti žemyn dėl gravitacijos, prarasti pusiausvyrą.",
@@ -1216,7 +1188,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Turėti ką nors rankose.",
@@ -1256,7 +1228,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Reguliariai gabenti ką nors iš vienos vietos į kitą.",
@@ -1295,7 +1267,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Aštriu įrankiu dalinti ką nors į dalis arba šalinti paviršių.",
@@ -1324,7 +1296,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Išreikšti mintį ar perduoti informaciją žodžiais.",
@@ -1353,7 +1325,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Perduoti žinias ar įgūdžius kitam asmeniui.",
@@ -1383,7 +1355,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Perkelti ką nors žemyn, leisti nusileisti.",
@@ -1414,7 +1386,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Pakeisti judėjimo kryptį.",
@@ -1452,7 +1424,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Nuvažiuoti per ką nors ar kirsti kelią transporto priemone.",
@@ -1479,7 +1451,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Nustoti kalbėti ar skleisti garsus.",
@@ -1509,7 +1481,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Staiga garsiai ištarti žodžius ar garsą.",
@@ -1539,7 +1511,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Skleisti aukštą šaižų garsą iš baimės ar susijaudinimo.",
@@ -1571,7 +1543,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Kalbėti labai tyliai, vos girdimu balsu.",
@@ -1602,7 +1574,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Staiga kristi žemyn, prarasti stabilumą.",
@@ -1633,7 +1605,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Judėti aukštyn.",
@@ -1673,7 +1645,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B1",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Lėtai judėti, spraustis į ankštą ar siaurą vietą.",
