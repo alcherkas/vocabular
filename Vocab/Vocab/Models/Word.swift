@@ -8,6 +8,11 @@ struct WordMeaning: Codable {
     var tags: [String]
 }
 
+struct WordForms: Codable, Equatable {
+    var present3: String   // 3rd person present (e.g., "eina")
+    var past3: String      // 3rd person past (e.g., "ėjo")
+}
+
 @Model
 class Word {
     var term: String
@@ -33,6 +38,10 @@ class Word {
     var interval: Int = 0
     var repetitions: Int = 0
 
+    // Verb grammar (LT verbs: 3 principal forms + governed case)
+    var formsData: Data = Data()
+    var governedCase: String?
+
     @Transient private var _cachedMeanings: [WordMeaning]?
 
     var meanings: [WordMeaning] {
@@ -48,6 +57,16 @@ class Word {
         set {
             meaningsData = (try? JSONEncoder().encode(newValue)) ?? Data()
             _cachedMeanings = newValue
+        }
+    }
+
+    var forms: WordForms? {
+        get {
+            guard !formsData.isEmpty else { return nil }
+            return try? JSONDecoder().decode(WordForms.self, from: formsData)
+        }
+        set {
+            formsData = (try? JSONEncoder().encode(newValue)) ?? Data()
         }
     }
 
@@ -77,7 +96,7 @@ class Word {
         }
     }
 
-    init(term: String, definition: String, synonyms: [String], example: String, partOfSpeech: String, tags: [String] = [], language: String = "en", translation: String? = nil, meanings: [WordMeaning]? = nil) {
+    init(term: String, definition: String, synonyms: [String], example: String, partOfSpeech: String, tags: [String] = [], language: String = "en", translation: String? = nil, meanings: [WordMeaning]? = nil, forms: WordForms? = nil, governedCase: String? = nil) {
         self.term = term
         let resolvedMeanings = meanings ?? [WordMeaning(definition: definition, example: example, register: nil, tags: tags)]
         let persistedMeanings = resolvedMeanings.isEmpty ? [WordMeaning(definition: definition, example: example, register: nil, tags: tags)] : resolvedMeanings
@@ -88,6 +107,8 @@ class Word {
         self.language = language
         self.translation = translation
         self.uniqueKey = "\(language):\(term)"
+        self.formsData = (try? JSONEncoder().encode(forms)) ?? Data()
+        self.governedCase = governedCase
     }
     
     var masteryLevel: Double {

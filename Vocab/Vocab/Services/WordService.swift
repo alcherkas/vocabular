@@ -20,6 +20,8 @@ struct WordData: Codable {
     let tags: [String]?
     let language: String?
     let translation: String?
+    let forms: WordForms?
+    let governedCase: String?
 }
 
 class WordService {
@@ -88,7 +90,9 @@ class WordService {
                     tags: wd.tags ?? [],
                     language: language,
                     translation: wd.translation,
-                    meanings: meanings
+                    meanings: meanings,
+                    forms: wd.forms,
+                    governedCase: wd.governedCase
                 )
                 context.insert(word)
                 insertedByTerm[wd.term] = word
