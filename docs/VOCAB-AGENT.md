@@ -96,6 +96,12 @@ To add new A1/A2 Lithuanian terms, create stubs directly in `words_lt_staging.js
    - Research all distinct meanings (senses) of the term.
    - For each meaning, write: `definition`, `example` (a natural sentence), `register`, `tags`.
    - For LT words: also fill `translation` (the English gloss, e.g. `"cat"`).
+   - **LT verbs only** (`partOfSpeech: "verb"`): also fill:
+     ```json
+     "forms": { "present3": "<3rd sg present>", "past3": "<3rd sg past>" },
+     "governedCase": "<question word or null>"
+     ```
+     `governedCase` is the case question the verb governs: `"ką?"` (accusative), `"kam?"` (dative), `"ko?"` (genitive), `"kuo?"` (instrumental), or `null` for intransitive verbs. Example: `"skaityti"` → `forms: {present3:"skaito", past3:"skaitė"}`, `governedCase: "ką?"`.
    - Set `status: "enriched"`.
    - **Use ONLY these enum values** (validator will reject anything else):
      - `partOfSpeech`: `noun` | `verb` | `adjective` | `adverb` | `phrase` | `particle` | `interjection` | `pronoun` | `preposition` | `conjunction` | `numeral`

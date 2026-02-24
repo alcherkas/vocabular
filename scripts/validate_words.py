@@ -87,6 +87,11 @@ def validate_enriched(word: dict, idx: int, errors: list):
     # LT words must have translation
     if word.get("language") == "lt" and not word.get("translation", "").strip():
         errors.append(f"[{idx}] '{word.get('term')}': LT word missing 'translation' field")
+    # LT verbs must have forms (present3 + past3)
+    if word.get("language") == "lt" and word.get("partOfSpeech") == "verb":
+        forms = word.get("forms")
+        if not forms or not forms.get("present3") or not forms.get("past3"):
+            errors.append(f"[{idx}] '{word.get('term')}': LT verb missing 'forms' (present3/past3) — enricher must add verb forms")
 
 
 def validate_relations(word: dict, idx: int, errors: list):
