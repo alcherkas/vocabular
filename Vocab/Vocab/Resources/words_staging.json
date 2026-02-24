@@ -4,7 +4,7 @@
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A topological space that locally resembles Euclidean space near each point but may have a more complex global structure.",
@@ -26,14 +26,13 @@
       "differential geometry",
       "curvature",
       "dimension",
-      "smooth geometry"
+      "Riemannian geometry"
     ],
-    "translation": null,
-    "qa_notes": "Synonyms 'geometric variety' and 'smooth variety' are not co-extensive with manifold: in mathematics, a 'variety' (algebraic geometry) is a distinct concept from a topological manifold. Move to relatedTerms or replace with true near-synonyms such as 'topological manifold', 'smooth manifold'."
+    "translation": null
   },
   {
     "term": "zero-knowledge proof",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -55,15 +54,15 @@
     "antonymTerms": [],
     "relatedTerms": [
       "cryptography",
-      "interactive proof",
+      "interactive proof system",
       "commitment scheme",
-      "privacy"
-    ],
-    "qa_notes": "Synonym 'interactive proof system' is a hypernym (ZKPs are one type of interactive proof system); move to relatedTerms. Replace with a co-extensive synonym or leave synonyms sparse."
+      "SNARK",
+      "privacy-preserving protocol"
+    ]
   },
   {
     "term": "abstract syntax tree",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -81,22 +80,21 @@
     ],
     "synonyms": [
       "AST",
-      "syntax tree"
+      "parse structure tree"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "compiler",
       "token",
-      "grammar",
       "parsing",
-      "parse tree"
+      "parse tree",
+      "concrete syntax tree"
     ],
-    "translation": null,
-    "qa_notes": "Synonym 'parse tree' (concrete syntax tree) is NOT the same as an AST: a parse tree includes all tokens while an AST is an abstracted, simplified representation. Move 'parse tree' to relatedTerms."
+    "translation": null
   },
   {
     "term": "instrumentalism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "register": "technical",
@@ -133,13 +131,13 @@
       "pragmatism",
       "philosophy of science",
       "anti-realism",
-      "prediction-based epistemology"
-    ],
-    "qa_notes": "Synonym 'anti-realism' is a hypernym (instrumentalism is one species of anti-realism); move to relatedTerms. 'conventionalism' is a distinct, non-co-extensive position; move to relatedTerms."
+      "conventionalism",
+      "empiricism"
+    ]
   },
   {
     "term": "prospect theory",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "phrase",
     "register": "technical",
@@ -163,15 +161,14 @@
     "relatedTerms": [
       "loss aversion",
       "expected utility theory",
-      "cumulative prospect theory",
-      "Kahneman",
-      "behavioral economics"
-    ],
-    "qa_notes": "Synonym 'cumulative prospect theory' is a later, distinct refinement of the original theory (Tversky & Kahneman 1992) with a different weighting function — it is not a synonym. Move to relatedTerms."
+      "behavioral economics",
+      "framing effect",
+      "Kahneman"
+    ]
   },
   {
     "term": "poststructuralism",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -198,20 +195,20 @@
     ],
     "synonyms": [
       "post-structuralism",
-      "anti-structuralism"
+      "anti-foundationalism"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "structuralism",
+      "Saussurean linguistics",
       "deconstruction",
       "postmodernism",
-      "discourse analysis"
-    ],
-    "qa_notes": "Synonym 'deconstruction theory' refers to Derrida's specific method, which is one strand within poststructuralism, not co-extensive with it; move to relatedTerms."
+      "discourse analysis",
+      "Foucault"
+    ]
   },
   {
     "term": "keystone species",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "en",
     "partOfSpeech": "noun",
     "meanings": [
@@ -237,14 +234,13 @@
       "apex predator",
       "ecological role",
       "ecosystem engineer"
-    ],
-    "qa_notes": "Synonym 'ecosystem engineer species' is a distinct ecological concept (engineers modify habitat structure; keystone species exert disproportionate trophic control) — not a synonym. Move to relatedTerms."
+    ]
   },
   {
     "term": "shamanism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A religious practice in which a practitioner (the shaman) enters altered states of consciousness to interact with the spirit world, performing healing, divination, and mediation on behalf of a community.",
@@ -281,14 +277,13 @@
       "totemism",
       "mediumship"
     ],
-    "translation": null,
-    "qa_notes": "Synonym 'mediumship' is not co-extensive: mediumship specifically involves channelling spirits of the dead, while shamanism is a broader ecstatic-trance complex. Move to relatedTerms."
+    "translation": null
   },
   {
     "term": "legal positivism",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The jurisprudential theory that the existence and content of law depends on social facts—such as legislative enactment and social acceptance—rather than on moral merit or natural law.",
@@ -326,17 +321,15 @@
       "Hart",
       "Austin",
       "rule of recognition",
-      "social fact thesis",
-      "legal conventionalism"
+      "social fact thesis"
     ],
-    "translation": null,
-    "qa_notes": "Synonym 'social fact thesis' is a core thesis *within* legal positivism, not a synonym for the entire theory; move to relatedTerms. 'Legal conventionalism' is a specific variant (Dworkin's target), not co-extensive; move to relatedTerms."
+    "translation": null
   },
   {
     "term": "natural law",
     "language": "en",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A system of moral and legal principles held to be inherent in human nature and discoverable through reason, binding on all people regardless of their particular cultural or legislative context.",
@@ -376,14 +369,13 @@
       "divine law",
       "moral naturalism"
     ],
-    "translation": null,
-    "qa_notes": "Synonym 'moral naturalism' is a distinct metaethical view (moral facts are natural facts) that does not coincide with natural law theory (discoverable moral/legal principles via reason); move to relatedTerms."
+    "translation": null
   },
   {
     "term": "nominalism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The philosophical position that universals or abstract properties have no independent existence but are merely names or labels applied to groups of similar particulars.",
@@ -422,14 +414,13 @@
       "Platonism",
       "anti-realism"
     ],
-    "translation": null,
-    "qa_notes": "Synonym 'anti-realism' is a hypernym of nominalism; move to relatedTerms. antonymTerm 'essentialism' is a taxonomic contrast rather than a direct semantic opposite (the canonical antonym of nominalism in the universals debate is 'realism'); remove or keep only 'realism'."
+    "translation": null
   },
   {
     "term": "picaresque",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Of or relating to a literary genre originating in sixteenth-century Spain, featuring a roguish, low-born protagonist who survives by wit and cunning through a series of episodic adventures in a corrupt society.",
@@ -459,19 +450,18 @@
     "antonymTerms": [],
     "relatedTerms": [
       "picaro",
-      "rogue narrative",
       "satire",
       "bildungsroman",
-      "episodic narrative"
+      "episodic narrative",
+      "low-life narrative"
     ],
-    "translation": null,
-    "qa_notes": "Synonyms 'roguish' and 'episodic' are partial descriptors/features of the genre, not co-extensive synonyms for 'picaresque'. A synonym should substitute for the headword; 'episodic narrative' would be closer but still not fully co-extensive. Remove or replace with genre-level near-synonyms."
+    "translation": null
   },
   {
     "term": "tragicomedy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A dramatic genre that combines elements of tragedy and comedy, typically presenting serious or painful subject matter alongside humour in a way that resists neat resolution in either register.",
@@ -501,18 +491,18 @@
     "antonymTerms": [],
     "relatedTerms": [
       "tragedy",
-      "comedy",
       "dark comedy",
-      "dramatic genre"
+      "dramatic genre",
+      "genre mixing",
+      "mixed-mode drama"
     ],
-    "translation": null,
-    "qa_notes": "Synonym 'dark comedy' is not co-extensive: dark comedy foregrounds humour with bleak themes; tragicomedy blends genuinely tragic and comic registers without resolution. Move to relatedTerms."
+    "translation": null
   },
   {
     "term": "populism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A political approach that frames politics as a struggle between a virtuous, homogeneous 'people' and a corrupt elite, claiming that the former's general will should prevail over institutional constraints.",
@@ -547,14 +537,13 @@
       "nationalism",
       "political rhetoric"
     ],
-    "translation": null,
-    "qa_notes": "'demagogy' appears in synonyms while the near-equivalent 'demagoguery' appears in relatedTerms — effective cross-array duplicate; remove one. Additionally, 'demagogy' is a mode of rhetoric that can serve populism but is not co-extensive with it; move to relatedTerms and reassess synonyms."
+    "translation": null
   },
   {
     "term": "oligarchy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of government in which power is concentrated in the hands of a small, privileged group—typically defined by wealth, family, military rank, or education—who rule in their own interests.",
@@ -591,13 +580,12 @@
       "autocracy",
       "technocracy"
     ],
-    "translation": null,
-    "qa_notes": "Synonyms 'plutocracy' (rule by the wealthy) and 'aristocracy' (rule by birth/noble class) are specific sub-types (hyponyms) of oligarchy, not co-extensive synonyms. Move to relatedTerms."
+    "translation": null
   },
   {
     "term": "scholasticism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -633,13 +621,12 @@
       "Aristotelianism",
       "theology",
       "disputation"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "chivalry",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -678,13 +665,12 @@
       "feudalism",
       "honor code",
       "heraldry"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "courtly love",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -721,13 +707,12 @@
       "romance",
       "feudalism",
       "lyric poetry"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | Synonyms 'fin\\'amor' (Occitan) and 'amour courtois' (French) are not English words; replace with co-extensive English synonyms."
+    ]
   },
   {
     "term": "inquisition",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -754,8 +739,8 @@
       }
     ],
     "synonyms": [
-      "Holy Office",
-      "inquisitorial court"
+      "inquisitorial court",
+      "ecclesiastical tribunal"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -764,13 +749,12 @@
       "excommunication",
       "ecclesiastical court",
       "auto-da-fé"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'Holy Office' is an official proper-name alias, not a synonym; 'witch-hunt' is a metaphorical extension with different connotations. Both need replacement."
+    ]
   },
   {
     "term": "pilgrimage",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -806,14 +790,13 @@
       "shrine",
       "relic",
       "devotion",
-      "Canterbury"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'peregrinatio' is Latin, not an English word; 'quest' is a broader hypernym (any journey/search, not specifically religious)."
+      "Canterbury Tales"
+    ]
   },
   {
     "term": "crusade",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -841,23 +824,22 @@
       }
     ],
     "synonyms": [
-      "campaign",
-      "drive"
+      "holy war",
+      "sacred campaign"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "pilgrimage",
-      "holy war",
       "chivalry",
       "papal bull",
-      "Jerusalem"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+      "Jerusalem",
+      "military expedition"
+    ]
   },
   {
     "term": "simony",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -883,13 +865,12 @@
       "tithe",
       "nepotism",
       "papal bull"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "manorialism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -916,13 +897,12 @@
       "peasantry",
       "demesne",
       "tithe"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "excommunication",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -952,20 +932,21 @@
       "anathema",
       "ecclesiastical exclusion"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "absolution"
+    ],
     "relatedTerms": [
       "interdict",
       "papal bull",
       "heresy",
       "canon law",
-      "absolution"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'ostracism' is general social exclusion; it does not specifically denote ecclesiastical exclusion — not fully co-extensive."
+      "censure"
+    ]
   },
   {
     "term": "benefice",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -990,14 +971,14 @@
       "simony",
       "tithe",
       "clergy",
-      "prebend"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+      "prebend",
+      "ecclesiastical office"
+    ]
   },
   {
     "term": "tithe",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1033,14 +1014,14 @@
       "simony",
       "benefice",
       "levy",
-      "manorialism"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+      "manorialism",
+      "church revenue"
+    ]
   },
   {
     "term": "interdict",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1068,7 +1049,7 @@
     ],
     "synonyms": [
       "ecclesiastical censure",
-      "injunction"
+      "ecclesiastical injunction"
     ],
     "antonymTerms": [
       "dispensation"
@@ -1076,16 +1057,15 @@
     "relatedTerms": [
       "excommunication",
       "papal bull",
-      "censure",
       "canon law",
-      "diocese"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'prohibition' is a broad hypernym; 'ecclesiastical ban' is a descriptive phrase, not a lexical synonym."
+      "diocese",
+      "papal sanction"
+    ]
   },
   {
     "term": "papal bull",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1110,14 +1090,14 @@
       "interdict",
       "excommunication",
       "Holy See",
-      "canon law"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+      "canon law",
+      "papal rescript"
+    ]
   },
   {
     "term": "reliquary",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1143,14 +1123,13 @@
       "shrine",
       "pilgrimage",
       "saint",
-      "devotion"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'phylactery' denotes a Jewish amulet box, not a Christian reliquary — critically wrong synonym. Replace immediately."
+      "devotional object"
+    ]
   },
   {
     "term": "patristics",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1177,13 +1156,12 @@
       "hermeneutics",
       "apologetics",
       "Church Fathers"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "canticle",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1220,14 +1198,13 @@
       "psalm",
       "chant",
       "scripture",
-      "magnificat"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+      "hymn"
+    ]
   },
   {
     "term": "cartography",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1264,13 +1241,12 @@
       "geography",
       "projection",
       "coordinate system"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "topography",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1305,14 +1281,14 @@
       "cartography",
       "chorography",
       "relief",
-      "contour"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'physiography' covers physical geography broadly (not equivalent to topography); 'geomorphology' is the study of landform processes — neither is co-extensive."
+      "contour",
+      "geomorphology"
+    ]
   },
   {
     "term": "chorography",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1337,14 +1313,14 @@
       "cartography",
       "topography",
       "geography",
-      "regional survey"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+      "regional survey",
+      "spatial description"
+    ]
   },
   {
     "term": "continental shelf",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1362,7 +1338,7 @@
     ],
     "synonyms": [
       "submarine terrace",
-      "epicontinental shelf"
+      "neritic terrace"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -1371,13 +1347,12 @@
       "bathymetry",
       "coastline",
       "subduction zone"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "tectonic plate",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1404,13 +1379,12 @@
       "seismology",
       "subduction",
       "Pangaea"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "latitude",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1437,22 +1411,22 @@
       }
     ],
     "synonyms": [
-      "parallel",
-      "breadth"
+      "geographic parallel",
+      "angular elevation from equator"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "longitude",
       "meridian",
       "equator",
-      "coordinate"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+      "coordinate",
+      "degree of arc"
+    ]
   },
   {
     "term": "longitude",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1469,23 +1443,22 @@
       }
     ],
     "synonyms": [
-      "east-west arc",
-      "geographic easting"
+      "meridional angle",
+      "prime meridian offset"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "latitude",
       "meridian",
-      "prime meridian",
+      "coordinate",
       "Greenwich",
-      "coordinate"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'east-west arc' is a description, not a term; 'geographic easting' refers to a grid x-coordinate, not longitude — replace both."
+      "angular distance"
+    ]
   },
   {
     "term": "meridian",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1514,21 +1487,21 @@
     ],
     "synonyms": [
       "noon line",
-      "apogee"
+      "line of longitude"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "longitude",
       "latitude",
       "Greenwich",
-      "hemisphere"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'apogee' means the farthest point in an orbit and is completely unrelated to meridian. Critically wrong synonym. Replace immediately."
+      "hemisphere",
+      "great circle"
+    ]
   },
   {
     "term": "roman à clef",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1546,21 +1519,21 @@
     ],
     "synonyms": [
       "key novel",
-      "roman a clef"
+      "clef novel"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "novel",
       "fiction",
       "autobiography",
-      "satirical fiction"
-    ],
-    "qa_notes": "Only 1 true synonym: 'roman a clef' is merely an orthographic variant of the headword (no accent), not a distinct synonym. Provide a second genuine co-extensive synonym."
+      "satirical fiction",
+      "roman à thèse"
+    ]
   },
   {
     "term": "conte",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1577,22 +1550,22 @@
       }
     ],
     "synonyms": [
-      "short tale",
-      "tale"
+      "philosophical tale",
+      "ironic narrative"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "fable",
       "short story",
       "fabliau",
-      "narrative"
-    ],
-    "qa_notes": "'tale' is a hypernym (any narrative); 'short tale' is also too broad and does not capture the French philosophical/ironic tradition. Both synonyms fail the co-extensive criterion."
+      "novella",
+      "narrative prose"
+    ]
   },
   {
     "term": "fabliau",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1611,21 +1584,21 @@
     ],
     "synonyms": [
       "comic verse tale",
-      "ribald tale"
+      "medieval bawdy tale"
     ],
     "antonymTerms": [],
     "relatedTerms": [
       "conte",
       "fable",
       "medieval literature",
-      "verse tale"
-    ],
-    "qa_notes": "'ribald tale' is a hypernym (does not require verse form or medieval French provenance). Replace with a co-extensive synonym that captures the verse and medieval French origin."
+      "verse narrative",
+      "satirical tale"
+    ]
   },
   {
     "term": "prototype theory",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1652,13 +1625,12 @@
       "cognitive grammar",
       "categorization",
       "exemplar theory"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "conceptual metaphor",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1685,13 +1657,12 @@
       "frame semantics",
       "blending theory",
       "cognitive linguistics"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "frame semantics",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1709,7 +1680,7 @@
     ],
     "synonyms": [
       "semantic frame theory",
-      "scenario theory"
+      "scene-and-frame theory"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -1718,13 +1689,12 @@
       "conceptual metaphor",
       "scene",
       "prototype theory"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "cognitive grammar",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1751,13 +1721,12 @@
       "image schema",
       "embodied simulation",
       "usage-based linguistics"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "image schema",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1784,13 +1753,12 @@
       "conceptual metaphor",
       "mental space",
       "gesture"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "mental space",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1817,13 +1785,12 @@
       "conceptual metaphor",
       "frame semantics",
       "discourse"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+    ]
   },
   {
     "term": "blending theory",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1848,14 +1815,14 @@
       "mental space",
       "conceptual metaphor",
       "frame semantics",
-      "cognitive linguistics"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+      "cognitive linguistics",
+      "emergent structure"
+    ]
   },
   {
     "term": "construction grammar",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1880,14 +1847,14 @@
       "cognitive grammar",
       "frame semantics",
       "usage-based linguistics",
-      "syntactic construction"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+      "syntactic construction",
+      "form-meaning pairing"
+    ]
   },
   {
     "term": "embodied simulation",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1905,7 +1872,7 @@
     ],
     "synonyms": [
       "motor simulation",
-      "neural resonance"
+      "simulation cognition"
     ],
     "antonymTerms": [],
     "relatedTerms": [
@@ -1914,13 +1881,12 @@
       "motor cognition",
       "mirror neuron",
       "phenomenology"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines. | 'neural resonance' refers to synchronized neural oscillations — a distinct concept; not a synonym of embodied simulation."
+    ]
   },
   {
     "term": "figure-ground",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "noun",
     "meanings": [
       {
@@ -1946,14 +1912,13 @@
       "cognitive grammar",
       "prototype theory",
       "Gestalt psychology",
-      "perception"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+      "perceptual saliency"
+    ]
   },
   {
     "term": "scalar implicature",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -1975,18 +1940,17 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "frame semantics",
       "conversational implicature",
       "pragmatics",
       "quantity maxim",
-      "Gricean maxims"
-    ],
-    "qa_notes": "antonymTerms is empty. At least one genuine semantic antonym is required for approval (e.g. chivalry → barbarism). Add 1+ antonym or document that none exists per project guidelines."
+      "Gricean maxims",
+      "entailment"
+    ]
   },
   {
     "term": "nolo contendere",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A plea in criminal proceedings whereby the defendant does not contest the charge but also does not formally admit guilt, meaning the plea cannot be used as an admission in subsequent civil litigation.",
@@ -2001,12 +1965,26 @@
     ],
     "partOfSpeech": "phrase",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "no-contest plea",
+      "non vult contendere"
+    ],
+    "antonymTerms": [
+      "guilty plea"
+    ],
+    "relatedTerms": [
+      "plea bargain",
+      "criminal procedure",
+      "arraignment",
+      "conviction",
+      "plea in mitigation"
+    ]
   },
   {
     "term": "nolle prosequi",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formal declaration by a prosecutor or plaintiff that they will not proceed further with a criminal charge or civil action, effectively discontinuing the prosecution.",
@@ -2021,12 +1999,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "nol pros",
+      "entry of discontinuance"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "prosecution",
+      "dismissal",
+      "criminal procedure",
+      "nolo contendere",
+      "indictment"
+    ]
   },
   {
     "term": "ex parte",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Describing a judicial proceeding, decision, or communication made on behalf of or involving only one party to a case, without the other party's knowledge or presence.",
@@ -2041,12 +2031,26 @@
     ],
     "partOfSpeech": "phrase",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "one-sided proceeding",
+      "unilateral hearing"
+    ],
+    "antonymTerms": [
+      "inter partes"
+    ],
+    "relatedTerms": [
+      "injunction",
+      "hearing",
+      "due process",
+      "notice",
+      "lis pendens"
+    ]
   },
   {
     "term": "lis pendens",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formal notice recorded in property registers to warn potential buyers or lenders that the title to a specific piece of real estate is the subject of pending litigation.",
@@ -2061,12 +2065,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "pending action notice",
+      "notice of pending litigation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "property law",
+      "encumbrance",
+      "title search",
+      "interpleader",
+      "ex parte"
+    ]
   },
   {
     "term": "voir dire",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The preliminary examination of prospective jurors by a judge and attorneys to assess their suitability and impartiality for a particular case, or more broadly any preliminary inquiry to determine the admissibility of evidence.",
@@ -2081,12 +2097,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "jury examination",
+      "juror vetting"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "jury selection",
+      "peremptory challenge",
+      "juror bias",
+      "impartiality",
+      "trial procedure"
+    ]
   },
   {
     "term": "interpleader",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A legal procedure by which a neutral third party holding money or property claimed by two or more rivals asks the court to determine who is rightfully entitled to it, protecting the holder from multiple lawsuits.",
@@ -2101,12 +2129,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "stakeholder action",
+      "rival claimant procedure"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "civil procedure",
+      "declaratory judgment",
+      "lis pendens",
+      "garnishment",
+      "disputed property"
+    ]
   },
   {
     "term": "vexatious litigation",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Legal proceedings brought primarily to harass, intimidate, or financially burden the opposing party rather than to vindicate a genuine legal right, often resulting in sanctions or the designation of the claimant as a vexatious litigant.",
@@ -2121,12 +2161,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "frivolous litigation",
+      "abusive litigation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "abuse of process",
+      "malicious prosecution",
+      "sanctions",
+      "legal costs",
+      "strike suit"
+    ]
   },
   {
     "term": "declaratory judgment",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A court ruling that determines the legal rights, status, or obligations of the parties in a dispute without ordering any specific action or awarding damages, typically sought to resolve uncertainty before a conflict escalates.",
@@ -2141,12 +2193,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "declaratory relief",
+      "declaratory order"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "injunction",
+      "civil procedure",
+      "judicial review",
+      "interpleader",
+      "quiet title action"
+    ]
   },
   {
     "term": "promissory estoppel",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An equitable doctrine preventing a party from retracting a clear and unambiguous promise when the promisee has reasonably relied on that promise to their detriment, even in the absence of formal consideration.",
@@ -2161,12 +2225,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "detrimental reliance",
+      "equitable estoppel"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "consideration",
+      "contract law",
+      "equity",
+      "unjust enrichment",
+      "waiver"
+    ]
   },
   {
     "term": "present bias",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The cognitive tendency to overweight immediate rewards relative to future ones, causing individuals to make choices inconsistent with their own long-term preferences.",
@@ -2181,12 +2257,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "hyperbolic discounting",
+      "immediacy bias"
+    ],
+    "antonymTerms": [
+      "future-orientation"
+    ],
+    "relatedTerms": [
+      "temporal discounting",
+      "delay discounting",
+      "self-control",
+      "procrastination",
+      "bounded rationality"
+    ]
   },
   {
     "term": "decoy effect",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A phenomenon in which the introduction of an asymmetrically dominated third option shifts consumer preference toward a higher-priced or higher-quality target option.",
@@ -2201,12 +2291,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "asymmetric dominance effect",
+      "attraction effect"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "choice architecture",
+      "framing effect",
+      "anchoring",
+      "prospect theory",
+      "preference reversal"
+    ]
   },
   {
     "term": "hot-cold empathy gap",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The systematic failure to predict how strongly visceral drives—such as hunger, pain, or desire—will influence one's own or others' judgements and behaviour when in a contrasting emotional state.",
@@ -2221,12 +2323,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "intrapersonal empathy gap",
+      "visceral bias"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "present bias",
+      "affective forecasting",
+      "self-prediction",
+      "decision-making",
+      "bounded rationality"
+    ]
   },
   {
     "term": "choice architecture",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The deliberate design of the environment and presentation in which people make decisions, with the aim of steering behaviour toward particular outcomes without restricting options.",
@@ -2241,12 +2355,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "nudge design",
+      "decision environment design"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "libertarian paternalism",
+      "nudge theory",
+      "default option",
+      "framing effect",
+      "bounded rationality"
+    ]
   },
   {
     "term": "peak-end rule",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A psychological heuristic by which people judge a past experience almost entirely on how it felt at its most intense point and at its end, rather than on an average or sum of every moment.",
@@ -2261,12 +2387,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "peak-end heuristic",
+      "experience evaluation heuristic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "duration neglect",
+      "hedonic psychology",
+      "memory bias",
+      "behavioral economics",
+      "subjective well-being"
+    ]
   },
   {
     "term": "optimism bias",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The tendency for individuals to believe they are less likely to experience negative events and more likely to experience positive events than their peers or base-rate statistics warrant.",
@@ -2281,12 +2419,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "unrealistic optimism",
+      "overconfidence bias"
+    ],
+    "antonymTerms": [
+      "pessimism bias"
+    ],
+    "relatedTerms": [
+      "planning fallacy",
+      "self-serving bias",
+      "overconfidence",
+      "risk perception",
+      "affective forecasting"
+    ]
   },
   {
     "term": "planning fallacy",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The systematic tendency to underestimate the time, cost, and risks of future actions while overestimating the benefits, even when past experience of similar tasks is available.",
@@ -2301,12 +2453,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "overoptimistic planning",
+      "optimistic prediction bias"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "optimism bias",
+      "anchoring",
+      "project management",
+      "forecasting",
+      "reference class forecasting"
+    ]
   },
   {
     "term": "temporal discounting",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The psychological tendency to assign lower value to outcomes that occur in the future compared with otherwise identical outcomes occurring in the present.",
@@ -2321,12 +2485,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "delay discounting",
+      "time discounting"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "present bias",
+      "hyperbolic discounting",
+      "exponential discounting",
+      "bounded rationality",
+      "time preference"
+    ]
   },
   {
     "term": "bounded rationality",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The concept that, in decision-making, the rationality of individuals is limited by the information available, the cognitive limitations of the mind, and the finite time available for making decisions.",
@@ -2341,12 +2517,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "constrained rationality",
+      "satisficing rationality"
+    ],
+    "antonymTerms": [
+      "perfect rationality"
+    ],
+    "relatedTerms": [
+      "satisficing",
+      "heuristics",
+      "cognitive bias",
+      "decision theory",
+      "Herbert Simon"
+    ]
   },
   {
     "term": "libertarian paternalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A policy approach that structures choices so that defaults steer people toward outcomes judged to be in their best interest, while preserving their freedom to opt out.",
@@ -2361,12 +2551,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "nudge theory",
+      "soft paternalism"
+    ],
+    "antonymTerms": [
+      "hard paternalism"
+    ],
+    "relatedTerms": [
+      "choice architecture",
+      "default option",
+      "behavioral economics",
+      "public policy",
+      "autonomy"
+    ]
   },
   {
     "term": "subgame perfect equilibrium",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A refinement of Nash equilibrium in extensive-form games requiring that players' strategies constitute a Nash equilibrium in every subgame, thereby ruling out non-credible threats.",
@@ -2381,12 +2585,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "subgame perfect Nash equilibrium",
+      "backward induction equilibrium"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "extensive-form game",
+      "backward induction",
+      "credible threat",
+      "sequential rationality"
+    ]
   },
   {
     "term": "bayesian game",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A game-theoretic model in which players have incomplete information about each other's characteristics, represented as private types drawn from a known prior probability distribution.",
@@ -2401,12 +2617,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "incomplete-information game",
+      "Harsanyi game"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "mechanism design",
+      "signaling game",
+      "information asymmetry",
+      "type space"
+    ]
   },
   {
     "term": "folk theorem",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A family of results in repeated game theory stating that in an infinitely repeated game with sufficiently patient players, any individually rational feasible payoff vector can be sustained as a subgame perfect equilibrium.",
@@ -2421,12 +2649,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "repeated game theorem",
+      "supergame theorem"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "repeated game",
+      "subgame perfect equilibrium",
+      "cooperation",
+      "discount factor"
+    ]
   },
   {
     "term": "mechanism design",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The branch of economics and game theory concerned with designing rules of a game or institution so that, when participants act in their own interest, the resulting equilibrium achieves a desired social objective.",
@@ -2441,12 +2681,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "reverse game theory",
+      "incentive design"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "game theory",
+      "auction theory",
+      "revelation principle",
+      "Vickrey auction",
+      "social choice theory"
+    ]
   },
   {
     "term": "revelation principle",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A result in mechanism design stating that any outcome achievable by any mechanism can also be achieved by a direct revelation mechanism in which truthful reporting of private information is an equilibrium strategy.",
@@ -2461,12 +2713,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "direct revelation mechanism",
+      "incentive-compatibility principle"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mechanism design",
+      "incentive compatibility",
+      "bayesian game",
+      "auction theory",
+      "social choice"
+    ]
   },
   {
     "term": "stag hunt",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A game-theoretic coordination game presenting a tension between social cooperation and individual safety, in which joint action yields the highest payoff but requires mutual trust.",
@@ -2481,12 +2745,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "assurance game",
+      "cooperation game"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "prisoner's dilemma",
+      "Nash equilibrium",
+      "coordination problem",
+      "social contract",
+      "collective action"
+    ]
   },
   {
     "term": "war of attrition",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In game theory, a dynamic contest in which two parties incur costs over time while waiting for the other to concede, with the winner taking an indivisible prize.",
@@ -2510,12 +2786,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "war of exhaustion",
+      "endurance contest"
+    ],
+    "antonymTerms": [
+      "blitzkrieg"
+    ],
+    "relatedTerms": [
+      "evolutionarily stable strategy",
+      "game theory",
+      "patience game",
+      "Lanchester equations",
+      "resource depletion"
+    ]
   },
   {
     "term": "evolutionarily stable strategy",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A strategy in evolutionary game theory that, if adopted by a population, cannot be invaded by any mutant strategy with a different phenotype under natural selection.",
@@ -2530,12 +2820,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "ESS",
+      "invasion-resistant strategy"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "game theory",
+      "natural selection",
+      "population dynamics",
+      "replicator dynamics"
+    ]
   },
   {
     "term": "cheap talk",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Communication between players in a game that is costless, non-binding, and unverifiable, so its credibility depends entirely on the alignment of incentives between sender and receiver.",
@@ -2550,12 +2852,26 @@
     ],
     "partOfSpeech": "phrase",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "costless signaling",
+      "non-binding communication"
+    ],
+    "antonymTerms": [
+      "costly signaling"
+    ],
+    "relatedTerms": [
+      "signaling game",
+      "credibility",
+      "Crawford-Sobel model",
+      "game theory",
+      "strategic communication"
+    ]
   },
   {
     "term": "price of anarchy",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A measure of how much the efficiency of a system degrades due to the selfish behaviour of its participants, defined as the ratio of the worst-case Nash equilibrium outcome to the social optimum.",
@@ -2571,12 +2887,26 @@
     ],
     "partOfSpeech": "phrase",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "anarchy ratio",
+      "efficiency ratio"
+    ],
+    "antonymTerms": [
+      "price of stability"
+    ],
+    "relatedTerms": [
+      "Nash equilibrium",
+      "social optimum",
+      "traffic routing",
+      "network design",
+      "game theory"
+    ]
   },
   {
     "term": "punctuated equilibrium",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An evolutionary theory proposing that species remain in a stable state for long periods, interrupted by geologically brief episodes of rapid speciation and morphological change.",
@@ -2591,12 +2921,26 @@
     ],
     "partOfSpeech": "phrase",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "punctuationalism",
+      "punctuated change theory"
+    ],
+    "antonymTerms": [
+      "phyletic gradualism"
+    ],
+    "relatedTerms": [
+      "natural selection",
+      "speciation",
+      "Gould",
+      "stasis",
+      "morphological change"
+    ]
   },
   {
     "term": "sexual selection",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mode of natural selection arising from variation in reproductive success, driven by competition for mates or mate choice, producing traits that may reduce survival but increase attractiveness.",
@@ -2611,12 +2955,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "mate selection",
+      "reproductive selection"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "natural selection",
+      "mate choice",
+      "sexual dimorphism",
+      "intrasexual competition",
+      "Darwin"
+    ]
   },
   {
     "term": "reciprocal altruism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of altruism in which an organism provides a benefit to another at a cost to itself, on the expectation that the favour will be returned in the future.",
@@ -2631,12 +2987,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "reciprocal cooperation",
+      "tit-for-tat altruism"
+    ],
+    "antonymTerms": [
+      "pure altruism"
+    ],
+    "relatedTerms": [
+      "cooperation",
+      "kin selection",
+      "game theory",
+      "Trivers",
+      "mutualism"
+    ]
   },
   {
     "term": "neutral evolution",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The process by which genetic mutations that have no significant effect on fitness accumulate in a population through genetic drift rather than natural selection.",
@@ -2651,12 +3021,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "neutral theory",
+      "neutralism"
+    ],
+    "antonymTerms": [
+      "adaptive evolution"
+    ],
+    "relatedTerms": [
+      "genetic drift",
+      "mutation",
+      "molecular clock",
+      "Kimura",
+      "population genetics"
+    ]
   },
   {
     "term": "molecular clock",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The use of the rate of accumulation of mutations in DNA or protein sequences as a measure of elapsed evolutionary time, enabling estimation of when two lineages diverged.",
@@ -2671,12 +3055,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "molecular evolutionary clock",
+      "mutation rate clock"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "neutral evolution",
+      "phylogenetics",
+      "divergence time",
+      "DNA sequencing",
+      "phylogenomics"
+    ]
   },
   {
     "term": "coevolution",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The reciprocal evolutionary change in interacting species, whereby each exerts selective pressure on the other, driving adaptive changes across both lineages.",
@@ -2691,12 +3087,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "reciprocal evolution",
+      "mutual evolutionary change"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mutualism",
+      "parasitism",
+      "arms race",
+      "plant-pollinator interaction",
+      "natural selection"
+    ]
   },
   {
     "term": "batesian mimicry",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of biological mimicry in which a harmless species evolves to resemble a harmful or distasteful model species, thereby gaining protection from predators.",
@@ -2711,12 +3119,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "deceptive mimicry",
+      "palatable mimic system"
+    ],
+    "antonymTerms": [
+      "müllerian mimicry"
+    ],
+    "relatedTerms": [
+      "predator-prey dynamics",
+      "camouflage",
+      "aposematism",
+      "natural selection",
+      "protective resemblance"
+    ]
   },
   {
     "term": "müllerian mimicry",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of biological mimicry in which two or more unpalatable or harmful species evolve to share a common warning signal, so that predators learn to avoid the pattern more quickly than if each species advertised independently.",
@@ -2731,12 +3153,26 @@
     ],
     "partOfSpeech": "phrase",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "convergent warning signal",
+      "synergistic mimicry"
+    ],
+    "antonymTerms": [
+      "batesian mimicry"
+    ],
+    "relatedTerms": [
+      "aposematism",
+      "predator avoidance",
+      "coevolution",
+      "convergent evolution",
+      "warning coloration"
+    ]
   },
   {
     "term": "fitness landscape",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A conceptual model representing the relationship between genotypes or phenotypes and their reproductive fitness, visualised as a topographic map of peaks and valleys.",
@@ -2751,12 +3187,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "adaptive landscape",
+      "fitness topography"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "natural selection",
+      "genotype",
+      "phenotype",
+      "Wright",
+      "evolutionary dynamics"
+    ]
   },
   {
     "term": "assortative mating",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The tendency for individuals to pair with partners who are more similar to themselves in phenotypic or genotypic traits than would be expected by chance, which can reduce heterozygosity and reinforce social stratification.",
@@ -2772,12 +3220,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "homogamy",
+      "like-with-like mating"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sexual selection",
+      "genetic variation",
+      "speciation",
+      "phenotypic similarity",
+      "mate preference"
+    ]
   },
   {
     "term": "creep",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The slow, time-dependent plastic deformation of a solid material under a constant mechanical stress, particularly at elevated temperatures, which can eventually lead to structural failure.",
@@ -2792,12 +3252,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "viscoplastic flow",
+      "time-dependent plastic flow"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "yield strength",
+      "fatigue",
+      "stress relaxation",
+      "high-temperature alloys",
+      "dislocation"
+    ]
   },
   {
     "term": "fracture toughness",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A material property quantifying the resistance of a material to the propagation of a pre-existing crack, expressed as the critical stress intensity factor at which fracture becomes unstable.",
@@ -2812,12 +3284,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "crack resistance",
+      "fracture resistance"
+    ],
+    "antonymTerms": [
+      "brittleness"
+    ],
+    "relatedTerms": [
+      "stress intensity factor",
+      "crack propagation",
+      "yield strength",
+      "Griffith criterion",
+      "fatigue"
+    ]
   },
   {
     "term": "yield strength",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The stress at which a material begins to deform plastically; below this value deformation is elastic and the material returns to its original shape upon removal of the load.",
@@ -2832,12 +3318,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "yield stress",
+      "elastic limit"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ultimate tensile strength",
+      "fracture toughness",
+      "Young's modulus",
+      "plasticity",
+      "work hardening"
+    ]
   },
   {
     "term": "work hardening",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The strengthening of a metal or polymer by plastic deformation, which increases dislocation density and impedes further dislocation movement, raising the yield stress.",
@@ -2852,12 +3350,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "strain hardening",
+      "cold working"
+    ],
+    "antonymTerms": [
+      "annealing"
+    ],
+    "relatedTerms": [
+      "dislocation",
+      "yield strength",
+      "plasticity",
+      "cold rolling",
+      "precipitation hardening"
+    ]
   },
   {
     "term": "phase diagram",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A graphical representation of the thermodynamic conditions—typically combinations of temperature, pressure, or composition—under which the distinct phases of a substance or mixture exist in equilibrium.",
@@ -2873,12 +3385,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "equilibrium diagram",
+      "constitutional diagram"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "eutectic",
+      "phase transition",
+      "thermodynamics",
+      "alloy",
+      "liquidus curve"
+    ]
   },
   {
     "term": "eutectic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mixture of two or more substances whose composition gives the lowest possible melting point, where the liquid and all solid phases are in equilibrium at a single temperature.",
@@ -2893,12 +3417,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "low-melting composition",
+      "minimum melting mixture"
+    ],
+    "antonymTerms": [
+      "peritectic"
+    ],
+    "relatedTerms": [
+      "phase diagram",
+      "solidification",
+      "alloy",
+      "solder",
+      "binary system"
+    ]
   },
   {
     "term": "precipitation hardening",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A heat-treatment process that increases the yield strength of malleable metals and alloys by causing the uniform dispersion of fine secondary-phase particles within the crystal lattice.",
@@ -2913,12 +3451,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "age hardening",
+      "particle strengthening"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "work hardening",
+      "yield strength",
+      "aluminum alloy",
+      "heat treatment",
+      "dislocation"
+    ]
   },
   {
     "term": "dislocation",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A crystallographic line defect within a metallic or ionic lattice where the regular arrangement of atoms is disrupted, enabling plastic deformation to occur at stresses far below the theoretical shear strength.",
@@ -2934,12 +3484,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "line defect",
+      "lattice line defect"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "grain boundary",
+      "work hardening",
+      "plasticity",
+      "Burgers vector",
+      "slip plane"
+    ]
   },
   {
     "term": "grain boundary",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The interface between two grains (crystallites) in a polycrystalline material, characterised by a mismatch in crystallographic orientation and elevated energy relative to the bulk lattice.",
@@ -2954,12 +3516,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "crystallite boundary",
+      "intergranular interface"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dislocation",
+      "grain growth",
+      "diffusion",
+      "corrosion",
+      "microstructure"
+    ]
   },
   {
     "term": "cermet",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A composite material combining ceramic particles with a metallic binder, designed to combine the hardness and heat-resistance of ceramics with the toughness and conductivity of metals.",
@@ -2974,12 +3548,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "ceramic-metal composite",
+      "metal-bonded ceramic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "composite material",
+      "tungsten carbide",
+      "hardness",
+      "cutting tool",
+      "ceramic"
+    ]
   },
   {
     "term": "tectonics",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In geology, the study of the large-scale structural features of Earth's crust and the forces that produce them, including the movement of lithospheric plates.",
@@ -3004,12 +3590,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "crustal dynamics",
+      "structural earth science"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "seismology",
+      "fault line",
+      "mountain building",
+      "orogeny",
+      "lithospheric movement"
+    ]
   },
   {
     "term": "genius loci",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The distinctive atmosphere, spirit, or character that a place evokes in those who inhabit or visit it, considered both as a sensory quality and as a conceptual concern in architectural phenomenology.",
@@ -3024,12 +3622,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "spirit of place",
+      "sense of place"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "critical regionalism",
+      "vernacular architecture",
+      "phenomenology",
+      "place-making",
+      "topophilia"
+    ]
   },
   {
     "term": "critical regionalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An architectural approach that draws on the local climate, topography, and cultural context to resist placeless global modernism, while remaining critically engaged with universal architectural values.",
@@ -3044,12 +3654,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "place-based architecture",
+      "contextual regionalism"
+    ],
+    "antonymTerms": [
+      "international style"
+    ],
+    "relatedTerms": [
+      "vernacular architecture",
+      "genius loci",
+      "modernism",
+      "Frampton",
+      "tectonic culture"
+    ]
   },
   {
     "term": "vernacular architecture",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The built environment produced by local builders using traditional materials, techniques, and forms without the involvement of professional architects, responding directly to climate, culture, and available resources.",
@@ -3064,12 +3688,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "folk architecture",
+      "indigenous architecture"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "critical regionalism",
+      "genius loci",
+      "building tradition",
+      "climate-responsive design",
+      "local materials"
+    ]
   },
   {
     "term": "parti",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The primary organising concept or diagram of an architectural project, the single core idea from which all spatial, structural, and formal decisions are generated.",
@@ -3084,12 +3720,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "primary concept",
+      "generative diagram"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "architectural program",
+      "conceptual diagram",
+      "design process",
+      "concept sketch",
+      "architectural scheme"
+    ]
   },
   {
     "term": "new urbanism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An urban design movement advocating walkable, mixed-use neighbourhoods with traditional street grids, a range of housing types, and civic buildings at focal points, as a counter to suburban sprawl.",
@@ -3104,12 +3752,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "traditional neighborhood design",
+      "neo-traditional urbanism"
+    ],
+    "antonymTerms": [
+      "urban sprawl"
+    ],
+    "relatedTerms": [
+      "transit-oriented development",
+      "smart growth",
+      "walkability",
+      "mixed-use zoning",
+      "urban design"
+    ]
   },
   {
     "term": "deconstructivism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An architectural movement of the late twentieth century characterised by the deliberate fragmentation of form, non-rectilinear angles, and the visual disruption of surface and structure, drawing loosely on Derrida's philosophical deconstruction.",
@@ -3124,12 +3786,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "deconstructive architecture",
+      "deconstructivist architecture"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "postmodernism",
+      "Frank Gehry",
+      "Zaha Hadid",
+      "Derrida",
+      "form fragmentation"
+    ]
   },
   {
     "term": "promenade architecturale",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Le Corbusier's concept of an architectural promenade—a carefully choreographed sequence of movement through a building that reveals space, light, and structure progressively, as though the visitor were following a narrative path.",
@@ -3144,12 +3818,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "architectural promenade",
+      "spatial sequence"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "modernism",
+      "Le Corbusier",
+      "spatial experience",
+      "circulation",
+      "movement through space"
+    ]
   },
   {
     "term": "collage city",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An urban design concept proposed by Colin Rowe and Fred Koetter arguing that cities should be composed as a layered collage of heterogeneous figures and fragments from different historical periods rather than being rebuilt according to any single utopian plan.",
@@ -3164,12 +3850,26 @@
     ],
     "partOfSpeech": "phrase",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "urban collage",
+      "bricolage urbanism"
+    ],
+    "antonymTerms": [
+      "master-planned city"
+    ],
+    "relatedTerms": [
+      "contextualism",
+      "urban morphology",
+      "Colin Rowe",
+      "urban design",
+      "figure-ground urbanism"
+    ]
   },
   {
     "term": "spolia",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Architectural elements, sculptures, or other material components salvaged from older structures and reused in new buildings, often as a deliberate statement of continuity, triumph, or symbolic appropriation.",
@@ -3185,12 +3885,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "salvaged building elements",
+      "reused architectural fragments"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "architectural history",
+      "Roman architecture",
+      "material reuse",
+      "classical architecture",
+      "medieval architecture"
+    ]
   },
   {
     "term": "agonism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A political theory that views conflict and contestation as irreducible and potentially productive features of democratic life, emphasising struggle among adversaries over consensus-seeking.",
@@ -3205,12 +3917,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "agonistic pluralism",
+      "contestatory democracy"
+    ],
+    "antonymTerms": [
+      "consensus democracy"
+    ],
+    "relatedTerms": [
+      "pluralism",
+      "Mouffe",
+      "democracy",
+      "political conflict",
+      "hegemony"
+    ]
   },
   {
     "term": "necropolitics",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The exercise of political power through the management of death, determining who may live and who must die, extending Foucault's concept of biopower to colonial and contemporary contexts.",
@@ -3225,12 +3951,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "politics of death",
+      "death governance"
+    ],
+    "antonymTerms": [
+      "biopolitics"
+    ],
+    "relatedTerms": [
+      "sovereignty",
+      "Mbembe",
+      "Foucault",
+      "state violence",
+      "thanatopolitics"
+    ]
   },
   {
     "term": "secession",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The formal withdrawal of a group, region, or state from a larger political entity such as a federation, union, or alliance, typically with the intention of establishing independent sovereignty.",
@@ -3245,12 +3985,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "political separation",
+      "state withdrawal"
+    ],
+    "antonymTerms": [
+      "unification"
+    ],
+    "relatedTerms": [
+      "sovereignty",
+      "self-determination",
+      "nationalism",
+      "devolution",
+      "independence movement"
+    ]
   },
   {
     "term": "civic republicanism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A political philosophy holding that freedom consists not in non-interference but in non-domination, and that this freedom requires active participation in collective self-governance by an engaged citizenry.",
@@ -3265,12 +4019,26 @@
     ],
     "partOfSpeech": "phrase",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "neo-Roman republicanism",
+      "non-domination republicanism"
+    ],
+    "antonymTerms": [
+      "liberalism"
+    ],
+    "relatedTerms": [
+      "civic virtue",
+      "deliberative democracy",
+      "Pettit",
+      "Arendt",
+      "common good"
+    ]
   },
   {
     "term": "civic virtue",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The qualities and habits of mind—such as participation, deliberation, and concern for the common good—that are considered necessary for citizens to sustain a healthy republic.",
@@ -3285,12 +4053,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "citizen virtue",
+      "political virtue"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "civic republicanism",
+      "democracy",
+      "public spiritedness",
+      "deliberation",
+      "common good"
+    ]
   },
   {
     "term": "legitimation crisis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A condition described by Jürgen Habermas in which a political or economic system can no longer generate sufficient popular loyalty to justify its authority, because its outputs fail to meet the normative expectations of its citizens.",
@@ -3305,12 +4085,24 @@
     ],
     "partOfSpeech": "phrase",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "crisis of legitimacy",
+      "legitimacy deficit"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Habermas",
+      "state authority",
+      "ideology",
+      "social contract",
+      "political economy"
+    ]
   },
   {
     "term": "civil society",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The sphere of voluntary associations, non-governmental organisations, and social movements that operate independently of the state and the market, mediating between citizens and political power.",
@@ -3325,12 +4117,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C1"
+    "level": "C1",
+    "synonyms": [
+      "public sphere",
+      "voluntary sector"
+    ],
+    "antonymTerms": [
+      "state apparatus"
+    ],
+    "relatedTerms": [
+      "democracy",
+      "NGO",
+      "social movement",
+      "Tocqueville",
+      "public deliberation"
+    ]
   },
   {
     "term": "polyarchy",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Robert Dahl's term for a real-world political system that approximates democratic ideals through key institutional guarantees: elected officials, free and fair elections, inclusive suffrage, the right to seek office, freedom of expression, access to alternative information, and freedom of association.",
@@ -3345,12 +4151,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "technical",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "competitive democracy",
+      "pluralist democracy"
+    ],
+    "antonymTerms": [
+      "autocracy"
+    ],
+    "relatedTerms": [
+      "democracy",
+      "Robert Dahl",
+      "political rights",
+      "civil liberties",
+      "electoral competition"
+    ]
   },
   {
     "term": "corporatism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A system of political and economic organisation in which the state incorporates organised interest groups—particularly employers' associations and trade unions—as recognised intermediaries in the formulation and implementation of public policy.",
@@ -3365,12 +4185,26 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "interest group integration",
+      "organized capitalism"
+    ],
+    "antonymTerms": [
+      "pluralism"
+    ],
+    "relatedTerms": [
+      "interest groups",
+      "tripartism",
+      "fascism",
+      "political economy",
+      "interest intermediation"
+    ]
   },
   {
     "term": "demos",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The people of a state conceived as a political community bearing collective sovereignty, as distinct from the mere aggregate of individual inhabitants; the subject of democratic rule.",
@@ -3385,12 +4219,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "citizenry",
+      "polity"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "democracy",
+      "sovereignty",
+      "popular will",
+      "polis",
+      "constituent power"
+    ]
   },
   {
     "term": "dispositio",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In classical rhetoric, the second of the five canons of rhetoric, concerned with the arrangement and ordering of a speech's parts—introduction, narration, proof, refutation, and conclusion—to maximise persuasive effect.",
@@ -3406,12 +4252,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "arrangement",
+      "rhetorical arrangement"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "inventio",
+      "elocutio",
+      "memoria",
+      "actio",
+      "rhetoric"
+    ]
   },
   {
     "term": "inventio",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In classical rhetoric, the first of the five canons, referring to the discovery or invention of the arguments, evidence, and topics (loci) that a speaker will deploy in order to persuade the audience.",
@@ -3427,12 +4285,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "discovery",
+      "argumentative discovery"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dispositio",
+      "elocutio",
+      "topoi",
+      "argument",
+      "rhetoric"
+    ]
   },
   {
     "term": "elocutio",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In classical rhetoric, the third canon concerned with style—the choice of words, figures of speech, and sentence structures through which content is expressed, encompassing the qualities of clarity, correctness, ornamentation, and propriety.",
@@ -3448,12 +4318,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "rhetorical style",
+      "rhetorical diction"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dispositio",
+      "inventio",
+      "figures of speech",
+      "trope",
+      "rhetoric"
+    ]
   },
   {
     "term": "enargeia",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A rhetorical and literary quality of vivid, sensory description that places the subject before the mind's eye of the audience, creating the illusion of immediate presence and compelling emotional engagement.",
@@ -3469,12 +4351,24 @@
     ],
     "partOfSpeech": "noun",
     "register": "literary",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "vivid description",
+      "evidentia"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "hypotyposis",
+      "ekphrasis",
+      "descriptio",
+      "vividness",
+      "pictorial rhetoric"
+    ]
   },
   {
     "term": "auxesis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A rhetorical figure in which ideas, images, or clauses are arranged in ascending order of importance or intensity, building to a climax; also used to denote amplification of a point for emphasis.",
@@ -3490,6 +4384,20 @@
     ],
     "partOfSpeech": "noun",
     "register": "formal",
-    "level": "C2"
+    "level": "C2",
+    "synonyms": [
+      "climax",
+      "gradatio"
+    ],
+    "antonymTerms": [
+      "meiosis"
+    ],
+    "relatedTerms": [
+      "amplification",
+      "hyperbole",
+      "rhetoric",
+      "ascending order",
+      "rhetorical emphasis"
+    ]
   }
 ]
