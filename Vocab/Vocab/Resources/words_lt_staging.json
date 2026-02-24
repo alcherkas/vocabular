@@ -63,7 +63,7 @@
     "term": "ausų",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Genitive plural form of 'ausis' (ear); used in compound expressions meaning 'of ears' or 'ear-'.",
@@ -86,7 +86,7 @@
     "translation": "of ears (genitive plural)",
     "register": "general",
     "level": "A1",
-    "qa_notes": "FAIL: term \"ausų\" is genitive plural; nominative singular should be \"ausis\". Fix headword to nominative singular form."
+    "qa_notes": "FAIL: term \"ausų\" is genitive plural; headword must be nominative singular \"ausis\". Fix headword before re-submitting."
   },
   {
     "term": "santykiai",
@@ -134,7 +134,7 @@
     "term": "keleiviai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Asmuo, kuris keliauja transporto priemone, bet jos nevairuoja.",
@@ -159,7 +159,7 @@
     ],
     "level": "A2",
     "register": "general",
-    "qa_notes": "FAIL: term \"keleiviai\" is nominative plural; dictionary headword must be singular \"keleivis\" (which already exists as a separate entry). Remove duplicate or merge."
+    "qa_notes": "FAIL: term \"keleiviai\" is nominative plural; singular \"keleivis\" already exists as approved entry. Remove duplicate or repurpose."
   },
   {
     "term": "nuoma",
@@ -1428,7 +1428,7 @@
     "term": "nors",
     "language": "lt",
     "partOfSpeech": "conjunction",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Jungtinis jungiamasis žodis, reiškiantis nuolaidą arba priešpriešą.",
@@ -1456,7 +1456,7 @@
   },
   {
     "term": "arbūzas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -1484,7 +1484,7 @@
   },
   {
     "term": "avokadas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1512,7 +1512,7 @@
   },
   {
     "term": "ananasas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1540,7 +1540,7 @@
   },
   {
     "term": "persikas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -1568,7 +1568,7 @@
   },
   {
     "term": "abrikosas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1596,7 +1596,7 @@
   },
   {
     "term": "imbieras",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1624,7 +1624,7 @@
   },
   {
     "term": "rozmarinas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1652,7 +1652,7 @@
   },
   {
     "term": "špinatai",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1680,7 +1680,7 @@
   },
   {
     "term": "kukurūzas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1708,7 +1708,7 @@
   },
   {
     "term": "lęšis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1736,7 +1736,7 @@
   },
   {
     "term": "džemas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -1765,7 +1765,7 @@
   },
   {
     "term": "paukštiena",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1793,7 +1793,7 @@
   },
   {
     "term": "aviena",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1821,7 +1821,7 @@
   },
   {
     "term": "vaflis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1849,7 +1849,7 @@
   },
   {
     "term": "kruasanas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1877,7 +1877,7 @@
   },
   {
     "term": "mango",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1905,7 +1905,7 @@
   },
   {
     "term": "motoroleris",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1932,7 +1932,7 @@
   },
   {
     "term": "sunkvežimis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1959,7 +1959,7 @@
   },
   {
     "term": "sraigtasparnis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1986,7 +1986,7 @@
   },
   {
     "term": "degalinė",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2014,7 +2014,7 @@
   },
   {
     "term": "eismas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2042,7 +2042,7 @@
   },
   {
     "term": "kambarys",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2069,7 +2069,7 @@
   },
   {
     "term": "koridorius",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2096,7 +2096,7 @@
   },
   {
     "term": "terasa",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2123,7 +2123,7 @@
   },
   {
     "term": "daugiabutis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2151,7 +2151,7 @@
   },
   {
     "term": "žymeklis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2178,7 +2178,7 @@
   },
   {
     "term": "petys",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2205,7 +2205,7 @@
   },
   {
     "term": "alkūnė",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2232,7 +2232,7 @@
   },
   {
     "term": "riešas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2259,7 +2259,7 @@
   },
   {
     "term": "kulnas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2286,7 +2286,7 @@
   },
   {
     "term": "liemuo",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2313,7 +2313,7 @@
   },
   {
     "term": "raumuo",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2340,7 +2340,7 @@
   },
   {
     "term": "kaulas",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2367,7 +2367,7 @@
   },
   {
     "term": "karštis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2396,7 +2396,7 @@
   },
   {
     "term": "sausra",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2426,7 +2426,7 @@
   },
   {
     "term": "potvynis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2456,7 +2456,7 @@
   },
   {
     "term": "kruša",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2483,7 +2483,7 @@
   },
   {
     "term": "ketvirtis",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2510,7 +2510,7 @@
   },
   {
     "term": "pusė",
-    "status": "relations-added",
+    "status": "approved",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2537,7 +2537,7 @@
   },
   {
     "term": "amžius",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2573,7 +2573,7 @@
   },
   {
     "term": "uošvis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2600,7 +2600,7 @@
   },
   {
     "term": "uošvė",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2627,7 +2627,7 @@
   },
   {
     "term": "žentas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2654,7 +2654,7 @@
   },
   {
     "term": "marti",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2681,7 +2681,7 @@
   },
   {
     "term": "premija",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2711,7 +2711,7 @@
   },
   {
     "term": "pajamos",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2743,7 +2743,7 @@
   },
   {
     "term": "išlaidos",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2772,7 +2772,7 @@
   },
   {
     "term": "triušis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2799,7 +2799,7 @@
   },
   {
     "term": "žiurkė",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2826,7 +2826,7 @@
   },
   {
     "term": "tigras",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2853,7 +2853,7 @@
   },
   {
     "term": "dramblys",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2880,7 +2880,7 @@
   },
   {
     "term": "lokys",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2909,7 +2909,7 @@
   },
   {
     "term": "vilkas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2936,7 +2936,7 @@
   },
   {
     "term": "lapė",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2963,7 +2963,7 @@
   },
   {
     "term": "elnias",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2990,7 +2990,7 @@
   },
   {
     "term": "ežys",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -3017,7 +3017,7 @@
   },
   {
     "term": "voverė",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -3044,7 +3044,7 @@
   },
   {
     "term": "gyvatė",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3071,7 +3071,7 @@
   },
   {
     "term": "varlė",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -3098,7 +3098,7 @@
   },
   {
     "term": "violetinė",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "A1",
@@ -3125,7 +3125,7 @@
   },
   {
     "term": "žydra",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "A2",
@@ -3152,7 +3152,7 @@
   },
   {
     "term": "rusva",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "A2",
@@ -3179,7 +3179,7 @@
   },
   {
     "term": "žadintuvas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -3207,7 +3207,7 @@
   },
   {
     "term": "pultelis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3235,7 +3235,7 @@
   },
   {
     "term": "regbis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3262,7 +3262,7 @@
   },
   {
     "term": "golfas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3289,7 +3289,7 @@
   },
   {
     "term": "dziudo",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3316,7 +3316,7 @@
   },
   {
     "term": "poezija",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3346,7 +3346,7 @@
   },
   {
     "term": "romanas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3373,7 +3373,7 @@
   },
   {
     "term": "komedija",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3403,7 +3403,7 @@
   },
   {
     "term": "skalbti",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A1",
@@ -3435,7 +3435,7 @@
   },
   {
     "term": "taisyti",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
@@ -3472,7 +3472,7 @@
   },
   {
     "term": "rinkti",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
@@ -3506,7 +3506,7 @@
   },
   {
     "term": "miškas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -3535,7 +3535,7 @@
   },
   {
     "term": "vandenynas",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3563,7 +3563,7 @@
   },
   {
     "term": "dykuma",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3591,7 +3591,7 @@
   },
   {
     "term": "pelkė",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3618,7 +3618,7 @@
   },
   {
     "term": "upelis",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3645,7 +3645,7 @@
   },
   {
     "term": "skveras",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3673,7 +3673,7 @@
   },
   {
     "term": "fotografija",
-    "status": "relations-added",
+    "status": "enriched",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
