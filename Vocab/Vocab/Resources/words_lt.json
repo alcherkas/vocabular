@@ -3176,7 +3176,12 @@
       "yra",
       "esame"
     ],
-    "translation": "I am"
+    "translation": "I am",
+    "forms": {
+      "present3": "yra",
+      "past3": "buvo"
+    },
+    "governedCase": null
   },
   {
     "term": "esi",
@@ -3202,7 +3207,12 @@
       "yra",
       "esate"
     ],
-    "translation": "you are"
+    "translation": "you are",
+    "forms": {
+      "present3": "yra",
+      "past3": "buvo"
+    },
+    "governedCase": null
   },
   {
     "term": "yra",
@@ -3228,7 +3238,12 @@
       "esu",
       "buvo"
     ],
-    "translation": "is; are"
+    "translation": "is; are",
+    "forms": {
+      "present3": "yra",
+      "past3": "buvo"
+    },
+    "governedCase": null
   },
   {
     "term": "esame",
@@ -3254,7 +3269,12 @@
       "esu",
       "esate"
     ],
-    "translation": "we are"
+    "translation": "we are",
+    "forms": {
+      "present3": "yra",
+      "past3": "buvo"
+    },
+    "governedCase": null
   },
   {
     "term": "esate",
@@ -3280,7 +3300,12 @@
       "esi",
       "esame"
     ],
-    "translation": "you are (plural)"
+    "translation": "you are (plural)",
+    "forms": {
+      "present3": "yra",
+      "past3": "buvo"
+    },
+    "governedCase": null
   },
   {
     "term": "buvo",
@@ -3307,7 +3332,12 @@
       "yra",
       "buvęs"
     ],
-    "translation": "was; were"
+    "translation": "was; were",
+    "forms": {
+      "present3": "yra",
+      "past3": "buvo"
+    },
+    "governedCase": null
   },
   {
     "term": "nebūti",
@@ -3366,7 +3396,12 @@
       "Būti",
       "nėra"
     ],
-    "translation": "I am not"
+    "translation": "I am not",
+    "forms": {
+      "present3": "yra",
+      "past3": "buvo"
+    },
+    "governedCase": null
   },
   {
     "term": "nesi",
@@ -3392,7 +3427,12 @@
       "Būti",
       "nesate"
     ],
-    "translation": "you are not"
+    "translation": "you are not",
+    "forms": {
+      "present3": "yra",
+      "past3": "buvo"
+    },
+    "governedCase": null
   },
   {
     "term": "nėra",
@@ -3418,7 +3458,12 @@
       "nesu",
       "nebuvo"
     ],
-    "translation": "is not; there is no"
+    "translation": "is not; there is no",
+    "forms": {
+      "present3": "yra",
+      "past3": "buvo"
+    },
+    "governedCase": null
   },
   {
     "term": "nesame",
@@ -3444,7 +3489,12 @@
       "Būti",
       "nesate"
     ],
-    "translation": "we are not"
+    "translation": "we are not",
+    "forms": {
+      "present3": "yra",
+      "past3": "buvo"
+    },
+    "governedCase": null
   },
   {
     "term": "nesate",
@@ -3470,7 +3520,12 @@
       "Būti",
       "nesame"
     ],
-    "translation": "you are not (plural)"
+    "translation": "you are not (plural)",
+    "forms": {
+      "present3": "yra",
+      "past3": "buvo"
+    },
+    "governedCase": null
   },
   {
     "term": "nebuvo",
@@ -3496,7 +3551,12 @@
       "nebūti",
       "nėra"
     ],
-    "translation": "was not; were not"
+    "translation": "was not; were not",
+    "forms": {
+      "present3": "yra",
+      "past3": "buvo"
+    },
+    "governedCase": null
   },
   {
     "term": "dirba",
@@ -3524,7 +3584,12 @@
       "dirbo",
       "darbas"
     ],
-    "translation": "works; work"
+    "translation": "works; work",
+    "forms": {
+      "present3": "dirba",
+      "past3": "dirbo"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "dirbo",
@@ -3553,7 +3618,12 @@
       "dirba",
       "darbas"
     ],
-    "translation": "worked"
+    "translation": "worked",
+    "forms": {
+      "present3": "dirba",
+      "past3": "dirbo"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "gyvena",
@@ -3585,7 +3655,12 @@
     "tags": [
       "A1",
       "daily life"
-    ]
+    ],
+    "forms": {
+      "present3": "gyvena",
+      "past3": "gyveno"
+    },
+    "governedCase": "kur?"
   },
   {
     "term": "gyveno",
@@ -3617,7 +3692,12 @@
     "tags": [
       "A1",
       "daily life"
-    ]
+    ],
+    "forms": {
+      "present3": "gyvena",
+      "past3": "gyveno"
+    },
+    "governedCase": "kur?"
   },
   {
     "term": "kalba",
@@ -3649,7 +3729,12 @@
     "tags": [
       "A1",
       "communication"
-    ]
+    ],
+    "forms": {
+      "present3": "kalba",
+      "past3": "kalbėjo"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "kalbėjo",
@@ -3681,7 +3766,12 @@
     "tags": [
       "A1",
       "communication"
-    ]
+    ],
+    "forms": {
+      "present3": "kalba",
+      "past3": "kalbėjo"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "studijuoti",
@@ -3744,7 +3834,12 @@
     "tags": [
       "A1",
       "education"
-    ]
+    ],
+    "forms": {
+      "present3": "studijuoja",
+      "past3": "studijavo"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "studijavo",
@@ -3768,7 +3863,12 @@
     "tags": [
       "A1",
       "education"
-    ]
+    ],
+    "forms": {
+      "present3": "studijuoja",
+      "past3": "studijavo"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "suprasti",
@@ -3825,7 +3925,12 @@
     "tags": [
       "A1",
       "communication"
-    ]
+    ],
+    "forms": {
+      "present3": "supranta",
+      "past3": "suprato"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "suprato",
@@ -3851,7 +3956,12 @@
     "tags": [
       "A1",
       "communication"
-    ]
+    ],
+    "forms": {
+      "present3": "supranta",
+      "past3": "suprato"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "Administratorius",
@@ -13483,7 +13593,12 @@
       "mėgstamiausias",
       "noras"
     ],
-    "translation": "likes / is pleasing"
+    "translation": "likes / is pleasing",
+    "forms": {
+      "present3": "patinka",
+      "past3": "patiko"
+    },
+    "governedCase": "kam?"
   },
   {
     "term": "ragauti",
@@ -24615,7 +24730,12 @@
       "lietus",
       "krituliai"
     ],
-    "translation": "it is raining"
+    "translation": "it is raining",
+    "forms": {
+      "present3": "lyja",
+      "past3": "lijo"
+    },
+    "governedCase": null
   },
   {
     "term": "lijo",
@@ -24641,7 +24761,12 @@
       "lietus",
       "krituliai"
     ],
-    "translation": "it rained"
+    "translation": "it rained",
+    "forms": {
+      "present3": "lyja",
+      "past3": "lijo"
+    },
+    "governedCase": null
   },
   {
     "term": "bala",
@@ -24727,7 +24852,12 @@
       "sniegas",
       "žiema"
     ],
-    "translation": "it is snowing"
+    "translation": "it is snowing",
+    "forms": {
+      "present3": "sninga",
+      "past3": "snigo"
+    },
+    "governedCase": null
   },
   {
     "term": "snigo",
@@ -24753,7 +24883,12 @@
       "sniegas",
       "žiema"
     ],
-    "translation": "it snowed"
+    "translation": "it snowed",
+    "forms": {
+      "present3": "sninga",
+      "past3": "snigo"
+    },
+    "governedCase": null
   },
   {
     "term": "pūga",
@@ -24912,7 +25047,12 @@
       "vėjas",
       "vėtra"
     ],
-    "translation": "it is blowing"
+    "translation": "it is blowing",
+    "forms": {
+      "present3": "pučia",
+      "past3": "pūtė"
+    },
+    "governedCase": null
   },
   {
     "term": "pūtė",
@@ -24938,7 +25078,12 @@
       "vėjas",
       "audra"
     ],
-    "translation": "it was blowing"
+    "translation": "it was blowing",
+    "forms": {
+      "present3": "pučia",
+      "past3": "pūtė"
+    },
+    "governedCase": null
   },
   {
     "term": "vėjas",
@@ -25137,7 +25282,12 @@
       "temperatūra",
       "atšilti"
     ],
-    "translation": "it is warming up"
+    "translation": "it is warming up",
+    "forms": {
+      "present3": "atšyla",
+      "past3": "atšilo"
+    },
+    "governedCase": null
   },
   {
     "term": "atšilo",
@@ -25165,7 +25315,12 @@
       "temperatūra",
       "atšilti"
     ],
-    "translation": "it warmed up"
+    "translation": "it warmed up",
+    "forms": {
+      "present3": "atšyla",
+      "past3": "atšilo"
+    },
+    "governedCase": null
   },
   {
     "term": "šaltis",
@@ -25258,7 +25413,12 @@
       "temperatūra",
       "atšalti"
     ],
-    "translation": "it is getting cold"
+    "translation": "it is getting cold",
+    "forms": {
+      "present3": "atšąla",
+      "past3": "atšalo"
+    },
+    "governedCase": null
   },
   {
     "term": "atšalo",
@@ -25286,7 +25446,12 @@
       "temperatūra",
       "atšalti"
     ],
-    "translation": "it got cold"
+    "translation": "it got cold",
+    "forms": {
+      "present3": "atšąla",
+      "past3": "atšalo"
+    },
+    "governedCase": null
   },
   {
     "term": "perkūnija",
@@ -25434,7 +25599,12 @@
       "šviesti",
       "saulė"
     ],
-    "translation": "it is shining"
+    "translation": "it is shining",
+    "forms": {
+      "present3": "šviečia",
+      "past3": "švietė"
+    },
+    "governedCase": null
   },
   {
     "term": "švietė",
@@ -25460,7 +25630,12 @@
       "šviesti",
       "saulė"
     ],
-    "translation": "it shone"
+    "translation": "it shone",
+    "forms": {
+      "present3": "šviečia",
+      "past3": "švietė"
+    },
+    "governedCase": null
   },
   {
     "term": "pragiedruliai",
@@ -38270,7 +38445,12 @@
       "ugnis",
       "liepsna"
     ],
-    "translation": "burns, is burning, is on"
+    "translation": "burns, is burning, is on",
+    "forms": {
+      "present3": "dega",
+      "past3": "degė"
+    },
+    "governedCase": null
   },
   {
     "term": "degė",
@@ -38297,7 +38477,12 @@
       "ugnis",
       "pelenai"
     ],
-    "translation": "burned, was burning, was on"
+    "translation": "burned, was burning, was on",
+    "forms": {
+      "present3": "dega",
+      "past3": "degė"
+    },
+    "governedCase": null
   },
   {
     "term": "Kalėdų senelis",
@@ -38401,7 +38586,12 @@
       "dovanoti",
       "dovana"
     ],
-    "translation": "gives a gift"
+    "translation": "gives a gift",
+    "forms": {
+      "present3": "dovanoja",
+      "past3": "dovanojo"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "dovanojo",
@@ -38425,7 +38615,12 @@
       "dovanoti",
       "dovana"
     ],
-    "translation": "gave a gift"
+    "translation": "gave a gift",
+    "forms": {
+      "present3": "dovanoja",
+      "past3": "dovanojo"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "pakuoti",
@@ -38541,7 +38736,12 @@
       "taika",
       "taikytis"
     ],
-    "translation": "reconciles"
+    "translation": "reconciles",
+    "forms": {
+      "present3": "susitaiko",
+      "past3": "susitaikė"
+    },
+    "governedCase": "su kuo?"
   },
   {
     "term": "susitaikė",
@@ -38564,7 +38764,12 @@
       "susitaikti",
       "taika"
     ],
-    "translation": "reconciled"
+    "translation": "reconciled",
+    "forms": {
+      "present3": "susitaiko",
+      "past3": "susitaikė"
+    },
+    "governedCase": "su kuo?"
   },
   {
     "term": "atleidžia",
@@ -38588,7 +38793,12 @@
       "atleidimas",
       "nuodėmė"
     ],
-    "translation": "forgives"
+    "translation": "forgives",
+    "forms": {
+      "present3": "atleidžia",
+      "past3": "atleido"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "atleido",
@@ -38611,7 +38821,12 @@
       "atleisti",
       "atleidimas"
     ],
-    "translation": "forgave"
+    "translation": "forgave",
+    "forms": {
+      "present3": "atleidžia",
+      "past3": "atleido"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "gerbti",
@@ -38671,7 +38886,12 @@
       "garbė",
       "pagarba"
     ],
-    "translation": "respects"
+    "translation": "respects",
+    "forms": {
+      "present3": "gerbia",
+      "past3": "gerbė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "gerbė",
@@ -38695,7 +38915,12 @@
       "garbė",
       "pagarba"
     ],
-    "translation": "respected"
+    "translation": "respected",
+    "forms": {
+      "present3": "gerbia",
+      "past3": "gerbė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "Velykos",
@@ -38951,7 +39176,12 @@
       "žiedas",
       "augalas"
     ],
-    "translation": "blooms, is in bloom"
+    "translation": "blooms, is in bloom",
+    "forms": {
+      "present3": "žydi",
+      "past3": "žydėjo"
+    },
+    "governedCase": null
   },
   {
     "term": "žydėjo",
@@ -38978,7 +39208,12 @@
       "žiedas",
       "pavasaris"
     ],
-    "translation": "bloomed, was in bloom"
+    "translation": "bloomed, was in bloom",
+    "forms": {
+      "present3": "žydi",
+      "past3": "žydėjo"
+    },
+    "governedCase": null
   },
   {
     "term": "Užgavėnės",
@@ -39336,7 +39571,12 @@
     "relatedTerms": [
       "tuoktis"
     ],
-    "translation": "gets married"
+    "translation": "gets married",
+    "forms": {
+      "present3": "tuokiasi",
+      "past3": "tuokėsi"
+    },
+    "governedCase": "su kuo?"
   },
   {
     "term": "tuokėsi",
@@ -39358,7 +39598,12 @@
     "relatedTerms": [
       "tuoktis"
     ],
-    "translation": "got married"
+    "translation": "got married",
+    "forms": {
+      "present3": "tuokiasi",
+      "past3": "tuokėsi"
+    },
+    "governedCase": "su kuo?"
   },
   {
     "term": "tekėti",
@@ -39412,7 +39657,12 @@
     "relatedTerms": [
       "tekėti"
     ],
-    "translation": "marries (said of a woman)"
+    "translation": "marries (said of a woman)",
+    "forms": {
+      "present3": "teka",
+      "past3": "tekėjo"
+    },
+    "governedCase": "už ko?"
   },
   {
     "term": "tekėjo",
@@ -39434,7 +39684,12 @@
     "relatedTerms": [
       "tekėti"
     ],
-    "translation": "married (said of a woman)"
+    "translation": "married (said of a woman)",
+    "forms": {
+      "present3": "teka",
+      "past3": "tekėjo"
+    },
+    "governedCase": "už ko?"
   },
   {
     "term": "vesti",
@@ -39486,7 +39741,12 @@
     "relatedTerms": [
       "vesti"
     ],
-    "translation": "marries (said of a man)"
+    "translation": "marries (said of a man)",
+    "forms": {
+      "present3": "veda",
+      "past3": "vedė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "vedė",
@@ -39508,7 +39768,12 @@
     "relatedTerms": [
       "vesti"
     ],
-    "translation": "married (said of a man)"
+    "translation": "married (said of a man)",
+    "forms": {
+      "present3": "veda",
+      "past3": "vedė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "krikštynos",
@@ -39810,7 +40075,12 @@
       "linkėti",
       "sveikinti"
     ],
-    "translation": "wishes"
+    "translation": "wishes",
+    "forms": {
+      "present3": "linki",
+      "past3": "linkėjo"
+    },
+    "governedCase": "ko?"
   },
   {
     "term": "linkėjo",
@@ -39834,7 +40104,12 @@
       "linkėti",
       "sveikinti"
     ],
-    "translation": "wished"
+    "translation": "wished",
+    "forms": {
+      "present3": "linki",
+      "past3": "linkėjo"
+    },
+    "governedCase": "ko?"
   },
   {
     "term": "sveikinti",
@@ -39888,7 +40163,12 @@
     "relatedTerms": [
       "sveikinti"
     ],
-    "translation": "congratulates"
+    "translation": "congratulates",
+    "forms": {
+      "present3": "sveikina",
+      "past3": "sveikino"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "sveikino",
@@ -39911,7 +40191,12 @@
     "relatedTerms": [
       "sveikinti"
     ],
-    "translation": "congratulated"
+    "translation": "congratulated",
+    "forms": {
+      "present3": "sveikina",
+      "past3": "sveikino"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "Naujųjų metų diena",
