@@ -4954,3 +4954,30 @@ Each entry includes: partOfSpeech, register (general), level, Lithuanian example
 ### What to improve
 - 99 enriched entries remain; next agent should continue from index 40 (apsirengė)
 >>>>>>> vocab/relations-lt-61
+
+---
+
+## Retrospective: vocab/relations-lt-62 — LT Relations batch 1
+
+**Date**: 2025-07-25
+**Agent**: Relations Agent (LT)
+**Branch**: vocab/relations-lt-62
+
+### What was done
+Added synonyms, antonymTerms, and relatedTerms to 40 valid enriched LT entries. Skipped ~31 conjugated verb forms (3rd-person present and past tense) and 1 genitive-plural noun (`ausų`), per instructions. All processed entries set to `relations-added`.
+
+### What went well
+- The filter for valid nominative/infinitive forms was straightforward: verbs not ending in `-ti`/`-tis` were skipped, `yra …` phrases were skipped, `-ų` endings were skipped.
+- All 40 entries passed validation with 0 errors.
+- Existing relatedTerms in entries 1–11 (from prior pipeline passes) were retained where correct.
+- Collective numerals (treji–devyneri) received adjacent-form relatedTerms following the rubric.
+
+### What was tricky
+- Several entries had `qa_notes` requesting ≥2 co-extensive synonyms; per LT protocol, `[]` is valid. Where a genuine close synonym existed (`aplankyti` for `lankyti`, `apsisukti` for `suktis`, `įšilimas` for `apšilimas`, `plaktuvas` for `šluotelė`) it was included; otherwise `synonyms: []` was used to avoid forcing inaccurate synonyms.
+- Feminine counterparts for profession nouns (statybininkė, sodininke, mechanike) were added to relatedTerms following the `-ininkas → -ininkė` morphological pattern.
+- `kailiniai` had phrase-form synonyms from the Enricher; these were removed since the relation protocol expects co-extensive single-word synonyms for LT; `synonyms: []` used instead.
+- `gimnastika` had `aerobika` as a synonym flagged by QA as non-co-extensive; replaced with `synonyms: []`.
+
+### Process notes
+- 108 further valid enriched entries remain unprocessed (the full valid set was 117; 40 processed this batch).
+- The validator `--errors-for relations-added` flag correctly scoped exit code to only the new batch.
