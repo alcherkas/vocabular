@@ -2537,7 +2537,7 @@
   },
   {
     "term": "amžius",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2573,7 +2573,7 @@
   },
   {
     "term": "uošvis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2600,7 +2600,7 @@
   },
   {
     "term": "uošvė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2627,7 +2627,7 @@
   },
   {
     "term": "žentas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2654,7 +2654,7 @@
   },
   {
     "term": "marti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2681,7 +2681,7 @@
   },
   {
     "term": "premija",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2699,17 +2699,19 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "prizas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "atlyginimas",
-      "prizas",
-      "alga"
+      "alga",
+      "apdovanojimas"
     ]
   },
   {
     "term": "pajamos",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2727,19 +2729,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "uždarbis"
+    ],
     "antonymTerms": [
       "išlaidos"
     ],
     "relatedTerms": [
       "atlyginimas",
-      "uždarbis",
-      "pelnas"
+      "pelnas",
+      "biudžetas"
     ]
   },
   {
     "term": "išlaidos",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2768,7 +2772,7 @@
   },
   {
     "term": "triušis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2785,9 +2789,7 @@
         ]
       }
     ],
-    "synonyms": [
-      "kiškis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "kiškis",
@@ -2797,7 +2799,7 @@
   },
   {
     "term": "žiurkė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2824,7 +2826,7 @@
   },
   {
     "term": "tigras",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2846,12 +2848,12 @@
     "relatedTerms": [
       "liūtas",
       "katė",
-      "gyvūnas"
+      "plėšrūnas"
     ]
   },
   {
     "term": "dramblys",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2873,12 +2875,12 @@
     "relatedTerms": [
       "gyvūnas",
       "raganosis",
-      "zoologijos sodas"
+      "straublys"
     ]
   },
   {
     "term": "lokys",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2907,7 +2909,7 @@
   },
   {
     "term": "vilkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2934,7 +2936,7 @@
   },
   {
     "term": "lapė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2961,7 +2963,7 @@
   },
   {
     "term": "elnias",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2988,7 +2990,7 @@
   },
   {
     "term": "ežys",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -3010,12 +3012,12 @@
     "relatedTerms": [
       "gyvūnas",
       "sodas",
-      "varlė"
+      "spyglys"
     ]
   },
   {
     "term": "voverė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -3042,7 +3044,7 @@
   },
   {
     "term": "gyvatė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3063,13 +3065,13 @@
     "antonymTerms": [],
     "relatedTerms": [
       "roplys",
-      "varlė",
+      "nuodai",
       "gyvūnas"
     ]
   },
   {
     "term": "varlė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -3090,13 +3092,13 @@
     "antonymTerms": [],
     "relatedTerms": [
       "rupūžė",
-      "ežeras",
-      "pelkė"
+      "pelkė",
+      "ežeras"
     ]
   },
   {
     "term": "violetinė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "A1",
@@ -3123,7 +3125,7 @@
   },
   {
     "term": "žydra",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "A2",
@@ -3150,7 +3152,7 @@
   },
   {
     "term": "rusva",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "A2",
@@ -3177,7 +3179,7 @@
   },
   {
     "term": "žadintuvas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -3205,7 +3207,7 @@
   },
   {
     "term": "pultelis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3233,7 +3235,7 @@
   },
   {
     "term": "regbis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3260,7 +3262,7 @@
   },
   {
     "term": "golfas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3287,7 +3289,7 @@
   },
   {
     "term": "dziudo",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3309,12 +3311,12 @@
     "relatedTerms": [
       "karatė",
       "sportas",
-      "treniruotė"
+      "kovos menai"
     ]
   },
   {
     "term": "poezija",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3344,7 +3346,7 @@
   },
   {
     "term": "romanas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3371,7 +3373,7 @@
   },
   {
     "term": "komedija",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3401,7 +3403,7 @@
   },
   {
     "term": "skalbti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A1",
@@ -3433,7 +3435,7 @@
   },
   {
     "term": "taisyti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
@@ -3470,7 +3472,7 @@
   },
   {
     "term": "rinkti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
@@ -3493,8 +3495,8 @@
     "antonymTerms": [],
     "relatedTerms": [
       "rinkinys",
-      "surinkti",
-      "kolekcija"
+      "kolekcija",
+      "pasirinkimas"
     ],
     "forms": {
       "present3": "renka",
@@ -3504,7 +3506,7 @@
   },
   {
     "term": "miškas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -3533,7 +3535,7 @@
   },
   {
     "term": "vandenynas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3561,7 +3563,7 @@
   },
   {
     "term": "dykuma",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3589,7 +3591,7 @@
   },
   {
     "term": "pelkė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3616,7 +3618,7 @@
   },
   {
     "term": "upelis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3643,7 +3645,7 @@
   },
   {
     "term": "skveras",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3671,7 +3673,7 @@
   },
   {
     "term": "fotografija",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -3703,9 +3705,9 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "nuotrauka",
       "fotoaparatas",
-      "menas"
+      "menas",
+      "vaizdas"
     ]
   },
   {
