@@ -5439,3 +5439,27 @@ None.
 
 ### Blockers
 None.
+
+---
+
+## Retro: QA EN batch 66 + Relations LT batch 73
+
+**Date**: 2025-07-18
+**Agent**: QA Agent (EN) + Relations Agent (LT)
+**Branches**: `vocab/qa-en-66`, `vocab/relations-lt-73`
+
+### What happened
+- **EN QA (batch 66)**: Reviewed all 80 relations-added English entries. Approved 77, rejected 3 back to enriched (aestheticism, diatonic, ephemera) due to lack of 2 co-extensive synonyms after removing hypernyms. Fixed synonym arrays in 5 entries total — removed hypernyms: "concatenative" from agglutinative, "anachronistic" from ahistorical, "heptatonic"/"scalar" from diatonic, "memorabilia"/"collectibles" from ephemera, "aesthetics" from aestheticism. Added proper co-extensive synonyms for agglutinative ("agglutinant") and ahistorical ("nonhistorical").
+- **LT Relations (batch 73)**: Added relations to all 40 enriched Lithuanian entries (A1-A2 food, household, body, nature, geography, clothing, kitchen terms). Verified 2 existing relations-added entries (ausis, keleivis) from a prior branch — both valid. All 42 relations-added entries passed validation.
+
+### What went well
+- Semantic QA caught 5 entries with hypernym synonyms that would have degraded synonym quality.
+- LT relations batch was straightforward — all A1-A2 concrete nouns with clear relatedTerms.
+- Both validations passed on first run (after synonym fixes for EN).
+
+### What could improve
+- Highly technical C2 terms (diatonic, ephemera, aestheticism) often lack 2 co-extensive synonyms. The Relations Agent could flag these during relations phase so QA doesn't have to reject.
+- Consider relaxing the 2-synonym minimum for C2 terms where the concept is genuinely unique.
+
+### Blockers
+None.
