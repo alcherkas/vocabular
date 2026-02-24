@@ -4873,6 +4873,7 @@ Each entry includes: partOfSpeech, register (general), level, Lithuanian example
 
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Retro: vocab/seeder-en-15 — 2025-07-17
 
 **Agent**: English Vocabulary Seeder (seeder-en-15)
@@ -4931,3 +4932,25 @@ Each entry includes: partOfSpeech, register (general), level, Lithuanian example
 - For multi-sense entries, the entry-level `synonyms` field forces a compromise — consider per-meaning synonyms in a future schema revision
 - Some highly technical terms (poststructuralism, nominalism) have genuinely few co-extensive synonyms; QA Reviewer should be aware these are best-available options
 >>>>>>> vocab/relations-en-59
+=======
+## Retro: vocab/relations-lt-61 (batch 1) — 2025-07-20
+
+**Agent:** Vocab Relations Agent (LT)
+**Task:** Add synonyms, antonyms, relatedTerms to enriched LT entries (up to 40)
+**Branch:** vocab/relations-lt-61
+
+### What was done
+- Processed 40 of 139 enriched LT entries (indices 0–39 by order in file)
+- Entries covered: 1 food phrase, 27 ordinal numerals (4th–20th, masc+fem), 7 bedroom/home nouns, 5 clothing verbs
+- Ordinal numerals: synonyms=[] per instructions (numerals), relatedTerms link adjacent ordinals and gender pairs
+- Clothing verbs: dėvi↔vilki (synonyms), dėvėjo↔vilkėjo (synonyms), apsirengia↔nusirengia (antonyms)
+- All relatedTerms verified nominative singular, no accusative (ą) or genitive (ų) endings
+- Validation: 0 errors on `--errors-for relations-added`
+
+### What went well
+- Pre-checking existing vocabulary terms before writing relatedTerms avoided invalid cross-references
+- Batch scripting made all 40 updates atomic and validated cleanly in one pass
+
+### What to improve
+- 99 enriched entries remain; next agent should continue from index 40 (apsirengė)
+>>>>>>> vocab/relations-lt-61
