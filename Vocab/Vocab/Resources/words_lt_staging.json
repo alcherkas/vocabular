@@ -1693,7 +1693,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Svarstyti kokį nors klausimą, keičiantis nuomonėmis ir argumentais.",
@@ -1708,7 +1708,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "diskusija",
+      "debatai",
+      "ginčas"
+    ],
     "translation": "to discuss",
     "forms": {
       "present3": "diskutuoja",
@@ -1721,7 +1725,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Naudoti ką nors praktikoje, pritaikyti.",
@@ -1746,7 +1750,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "taikymas",
+      "metodas",
+      "naudojimas"
+    ],
     "translation": "to apply",
     "forms": {
       "present3": "taiko",
@@ -1759,7 +1767,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pateikti trumpą ir glaustą informacijos santrauką.",
@@ -1774,7 +1782,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "apibendrinimas",
+      "reziumė",
+      "santrauka"
+    ],
     "translation": "to summarize",
     "forms": {
       "present3": "apibendrina",
@@ -1787,7 +1799,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Iš naujo apgalvoti anksčiau primtą sprendimą ar nuomonę.",
@@ -1802,7 +1814,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "svarstymas",
+      "pervertinimas",
+      "sprendimas"
+    ],
     "translation": "to reconsider",
     "forms": {
       "present3": "persvarsto",
@@ -1815,7 +1831,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Aiškiai ir tiksliai išreikšti mintį žodžiais.",
@@ -1830,7 +1846,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "formuluoti",
+      "formulavimas",
+      "apibrėžimas"
+    ],
     "translation": "to formulate",
     "forms": {
       "present3": "suformuluoja",
@@ -1843,7 +1863,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vertinti ką nors neigiamai, reikšti pastabas dėl trūkumų.",
@@ -1857,8 +1877,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "girti"
+    ],
+    "relatedTerms": [
+      "kritika",
+      "peikimas",
+      "smerkimas"
+    ],
     "translation": "to criticize",
     "forms": {
       "present3": "kritikuoja",
@@ -1871,7 +1897,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pagrįstas faktais, nepriklausomas nuo asmeninės nuomonės.",
@@ -1885,8 +1911,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "subjektyvus"
+    ],
+    "relatedTerms": [
+      "objektyvumas",
+      "nešališkumas",
+      "faktinis"
+    ],
     "translation": "objective"
   },
   {
@@ -1894,7 +1926,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Priklausomas nuo asmeninių jausmų ar nuomonės, neobjektyvus.",
@@ -1908,8 +1940,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "objektyvus"
+    ],
+    "relatedTerms": [
+      "subjektyvumas",
+      "asmeninis",
+      "nuomonė"
+    ],
     "translation": "subjective"
   },
   {
@@ -1917,7 +1955,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Logiškai susijęs, einantis tam tikra tvarka.",
@@ -1931,8 +1969,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "prieštaringas"
+    ],
+    "relatedTerms": [
+      "nuoseklumas",
+      "sistema",
+      "tvarka"
+    ],
     "translation": "consistent"
   },
   {
@@ -1940,7 +1984,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nesusijęs su konkrečiais daiktais ar reiškiniais, teorinis.",
@@ -1954,8 +1998,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "konkretus"
+    ],
+    "relatedTerms": [
+      "abstrakcija",
+      "teorinis",
+      "sąvoka"
+    ],
     "translation": "abstract"
   },
   {
@@ -1963,7 +2013,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pagrįstas protu ir logika, protingas.",
@@ -1976,9 +2026,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "logiškas",
+      "protingas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "racionalumas",
+      "protas",
+      "logika"
+    ],
     "translation": "rational"
   },
   {
@@ -1986,7 +2043,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Smulkios sausos dalelės, susikaupušios ant paviršių.",
@@ -2001,7 +2058,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "purvas",
+      "nešvara",
+      "valymas"
+    ],
     "translation": "dust"
   },
   {
@@ -2009,7 +2070,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Uoslės organu jaučiamas pojūtis.",
@@ -2024,7 +2085,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "aromatas",
+      "smarvė",
+      "uostymas"
+    ],
     "translation": "smell"
   },
   {
@@ -2032,7 +2097,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Elektromagnetinė spinduliuotė, kurią mato akis.",
@@ -2056,8 +2121,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "tamsa"
+    ],
+    "relatedTerms": [
+      "saulė",
+      "lempa",
+      "šviesumas"
+    ],
     "translation": "light"
   },
   {
@@ -2065,7 +2136,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Rodyti džiaugsmą ar malonumą veido išraiška, ypač lūpomis.",
@@ -2079,8 +2150,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "raukytis"
+    ],
+    "relatedTerms": [
+      "šypsena",
+      "juoktis",
+      "džiaugsmas"
+    ],
     "translation": "to smile",
     "forms": {
       "present3": "šypsosi",
@@ -2092,7 +2169,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Padaryti tvarką, surikiuoti daiktus.",
@@ -2117,7 +2194,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tvarkymas",
+      "tvarka",
+      "valymas"
+    ],
     "translation": "to tidy up",
     "forms": {
       "present3": "sutvarko",
@@ -2130,7 +2211,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "A1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turintis nešvarumų, purvinas.",
@@ -2144,8 +2225,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "švarus"
+    ],
+    "relatedTerms": [
+      "purvas",
+      "nešvarumas",
+      "valymas"
+    ],
     "translation": "dirty"
   },
   {
@@ -2153,7 +2240,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Oficialus uždraudimas ką nors daryti.",
@@ -2177,8 +2264,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "leidimas"
+    ],
+    "relatedTerms": [
+      "taisyklė",
+      "bausmė",
+      "ribojimas"
+    ],
     "translation": "prohibition"
   },
   {
@@ -2186,7 +2279,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kitiems teikiama nauda ar pagalba, dažnai už mokestį.",
@@ -2201,7 +2294,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "aptarnavimas",
+      "pagalba",
+      "klientas"
+    ],
     "translation": "service"
   },
   {
@@ -2209,7 +2306,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Teikti paslaugas klientams ar lankytojams.",
@@ -2224,7 +2321,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "aptarnavimas",
+      "paslauga",
+      "klientas"
+    ],
     "translation": "to serve",
     "forms": {
       "present3": "aptarnauja",
@@ -2237,7 +2338,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tikėti kuo nors, jaustis saugiai dėl ko nors patikimumo.",
@@ -2251,8 +2352,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "abejoti"
+    ],
+    "relatedTerms": [
+      "pasitikėjimas",
+      "tikėjimas",
+      "ištikimybė"
+    ],
     "translation": "to trust",
     "forms": {
       "present3": "pasitiki",
@@ -2265,7 +2372,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vartoti ką nors savo reikmėms.",
@@ -2280,7 +2387,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "naudojimas",
+      "vartojimas",
+      "pritaikymas"
+    ],
     "translation": "to use",
     "forms": {
       "present3": "naudojasi",
@@ -2293,7 +2404,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Iš anksto numatyti veiksmus ir jų tvarką.",
@@ -2308,7 +2419,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "planas",
+      "planavimas",
+      "organizavimas"
+    ],
     "translation": "to plan",
     "forms": {
       "present3": "suplanuoja",
@@ -2321,7 +2436,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Judėjimas į priekį, tobulėjimas.",
@@ -2335,8 +2450,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "regresija"
+    ],
+    "relatedTerms": [
+      "tobulėjimas",
+      "vystymasis",
+      "pasiekimas"
+    ],
     "translation": "progress"
   },
   {
@@ -2344,7 +2465,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Naujo dalyko ar reiškinio suradimas ar atskleidimas.",
@@ -2359,7 +2480,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokslas",
+      "tyrimas",
+      "naujovė"
+    ],
     "translation": "discovery"
   },
   {
@@ -2367,7 +2492,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Būdingas bruožas ar ypatybė.",
@@ -2382,7 +2507,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ypatybė",
+      "bruožas",
+      "charakteristika"
+    ],
     "translation": "property"
   },
   {
@@ -2390,7 +2519,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dažnai kartojamas veiksmas, tapęs automatišku.",
@@ -2405,7 +2534,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "paprotys",
+      "elgesys",
+      "rutina"
+    ],
     "translation": "habit"
   },
   {
@@ -2413,7 +2546,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turintis pagrindą, paremtas argumentais ar faktais.",
@@ -2426,9 +2559,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "argumentuotas",
+      "motyvuotas"
+    ],
+    "antonymTerms": [
+      "savavališkas"
+    ],
+    "relatedTerms": [
+      "pagrindimas",
+      "argumentas",
+      "įrodymas"
+    ],
     "translation": "justified"
   },
   {
@@ -2436,7 +2578,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atitinkantis reikalavimus, tinkantis kokiam nors tikslui.",
@@ -2451,7 +2593,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "deramas",
+      "tinkamumas",
+      "pasirinkimas"
+    ],
     "translation": "suitable"
   },
   {
@@ -2459,7 +2605,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nesikeiciantis, pastovus, trunkantis ilgą laiką.",
@@ -2473,8 +2619,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "laikinas"
+    ],
+    "relatedTerms": [
+      "pastovus",
+      "nuolatinumas",
+      "stabilumas"
+    ],
     "translation": "permanent"
   },
   {
@@ -2482,7 +2634,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Toks, kurį būtina atlikti, privalomas pagal taisykles.",
@@ -2496,8 +2648,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "savanoriškas"
+    ],
+    "relatedTerms": [
+      "prievolė",
+      "reikalavimas",
+      "taisyklė"
+    ],
     "translation": "mandatory"
   },
   {
@@ -2505,7 +2663,7 @@
     "language": "lt",
     "partOfSpeech": "phrase",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moksliskai pagrįstas spėjimas, kuris turi būti patikrintas tyrimu.",
@@ -2520,7 +2678,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "hipotezė",
+      "teorija",
+      "mokslas"
+    ],
     "translation": "scientific hypothesis"
   },
   {
@@ -2528,7 +2690,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Taisyklių, įstatymų ar normų nesilaikymas.",
@@ -2553,7 +2715,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nusižengimas",
+      "bausmė",
+      "taisyklė"
+    ],
     "translation": "violation"
   },
   {
@@ -2561,7 +2727,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Apdairumas, atsargus elgesys siekiant išvengti pavojaus.",
@@ -2576,7 +2742,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "apdairumas",
+      "saugumas",
+      "rizika"
+    ],
     "translation": "caution"
   },
   {
@@ -2584,7 +2754,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Būsena, kai kas nors priklauso nuo kito asmens ar dalyko.",
@@ -2608,8 +2778,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "savarankiškumas"
+    ],
+    "relatedTerms": [
+      "priklausomas",
+      "ryšys",
+      "sąsaja"
+    ],
     "translation": "dependence"
   },
   {
@@ -2617,7 +2793,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gebėjimas gerai atlikti tam tikrą darbą, kvalifikacija.",
@@ -2632,7 +2808,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kvalifikacija",
+      "žinios",
+      "gebėjimas"
+    ],
     "translation": "competence"
   },
   {
@@ -2640,7 +2820,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gebėjimas suvokti save ir aplinką, dėmesingumas.",
@@ -2655,7 +2835,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sąmoningas",
+      "dėmesys",
+      "meditacija"
+    ],
     "translation": "mindfulness"
   },
   {
@@ -2663,7 +2847,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pateikti argumentų ar įrodymu kam nors patvirtinti.",
@@ -2676,9 +2860,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "argumentuoti",
+      "motyvuoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pagrindimas",
+      "argumentas",
+      "įrodymas"
+    ],
     "translation": "to justify",
     "forms": {
       "present3": "pagrinžia",
@@ -2691,7 +2882,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tiksliai sužinoti, išsiaiškinti.",
@@ -2716,7 +2907,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nustatymas",
+      "apibrėžimas",
+      "sprendimas"
+    ],
     "translation": "to determine",
     "forms": {
       "present3": "nustato",
@@ -2729,7 +2924,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Padaryti žinomą tai, kas buvo paslėpta ar nežinoma.",
@@ -2743,8 +2938,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "slėpti"
+    ],
+    "relatedTerms": [
+      "atskleidimas",
+      "pasakymas",
+      "skaidrumas"
+    ],
     "translation": "to reveal",
     "forms": {
       "present3": "atskleidžia",
@@ -2757,7 +2958,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Padaryti mažesnį, sumažinti kiekį ar intensyvumą.",
@@ -2771,8 +2972,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "padidinti"
+    ],
+    "relatedTerms": [
+      "mažinimas",
+      "ribojimas",
+      "mažėjimas"
+    ],
     "translation": "to reduce",
     "forms": {
       "present3": "sumažina",
@@ -2785,7 +2992,7 @@
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Padaryti geresnį, pagerinti kokybę ar būklę.",
@@ -2799,8 +3006,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "pabloginti"
+    ],
+    "relatedTerms": [
+      "tobulinimas",
+      "vystymasis",
+      "tobulinti"
+    ],
     "translation": "to improve",
     "forms": {
       "present3": "pagerina",
@@ -2813,7 +3026,7 @@
     "language": "lt",
     "partOfSpeech": "adjective",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Duodantis gerų rezultatų, našus.",
@@ -2828,7 +3041,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "efektyvus",
+      "produktyvumas",
+      "rezultatas"
+    ],
     "translation": "productive"
   },
   {
@@ -2836,7 +3053,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pagarbaus ir taktiškas elgesys su kitais žmonėmis.",
@@ -2850,8 +3067,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "grubumas"
+    ],
+    "relatedTerms": [
+      "mandagus",
+      "etiketė",
+      "pagarba"
+    ],
     "translation": "politeness"
   },
   {
@@ -2859,7 +3082,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Fizinės ar protinės jėgos, dedamos siekiant tikslo.",
@@ -2874,7 +3097,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "darbas",
+      "siekis",
+      "triūsas"
+    ],
     "translation": "efforts"
   },
   {
@@ -2882,7 +3109,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kalbos dalis, reiškianti veiksmą ar būseną.",
@@ -2897,7 +3124,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "daiktavardis",
+      "būdvardis",
+      "gramatika"
+    ],
     "translation": "verb"
   },
   {
@@ -2905,7 +3136,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sąmonės sutelkimas į kokį nors objektą ar veiklą.",
@@ -2920,7 +3151,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "koncentracija",
+      "susikaupimas",
+      "dėmesingumas"
+    ],
     "translation": "attention"
   },
   {
@@ -2928,7 +3163,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Veiksmų visuma, atliekama prieš kokį nors renginį ar darbą.",
@@ -2943,7 +3178,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pasirengimas",
+      "planavimas",
+      "organizavimas"
+    ],
     "translation": "preparation"
   },
   {
@@ -2951,7 +3190,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pritarimas, leidimas ar susitarimas.",
@@ -2965,8 +3204,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "atsisakymas"
+    ],
+    "relatedTerms": [
+      "pritarimas",
+      "susitarimas",
+      "kompromisas"
+    ],
     "translation": "agreement"
   },
   {
@@ -2974,7 +3219,7 @@
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tai, dėl ko kas nors vyksta ar yra daroma.",
@@ -2989,7 +3234,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "motyvas",
+      "pagrindas",
+      "pasekmė"
+    ],
     "translation": "reason"
   }
 ]
