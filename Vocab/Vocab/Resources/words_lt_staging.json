@@ -2163,7 +2163,7 @@
     "term": "pagalvė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A soft cushion used to support the head while sleeping.",
@@ -2192,7 +2192,7 @@
     "term": "užuolaidos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pieces of fabric hung at windows to block light or provide privacy (plural form).",
@@ -2221,7 +2221,7 @@
     "term": "lovytė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small bed, especially one used for babies or young children.",
@@ -2250,7 +2250,7 @@
     "term": "paveikslas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A work of art created by painting or drawing, typically hung on a wall.",
@@ -2279,7 +2279,7 @@
     "term": "spintelė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small cabinet or cupboard, often placed beside a bed or used for storage.",
@@ -2308,7 +2308,7 @@
     "term": "kabykla",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A stand or wall-mounted device with hooks for hanging coats, hats, and bags.",
@@ -2337,7 +2337,7 @@
     "term": "kilimėlis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small rug or mat placed on the floor, often in front of a door or beside a bed.",
@@ -3740,7 +3740,7 @@
     "term": "kailiniai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Šiltas viršutinis drabužis iš natūralaus ar dirbtinio kailio, dėvimas žiemą.",
@@ -3754,10 +3754,7 @@
         ]
       }
     ],
-    "synonyms": [
-      "kailinis paltas",
-      "kailinis apsiaustas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "paltas",
@@ -3967,7 +3964,7 @@
     "term": "lankyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To go to see someone or a place, especially socially or as a tourist.",
@@ -4006,7 +4003,7 @@
     "term": "gimti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To come into existence through birth; to begin life outside the womb.",
@@ -4036,7 +4033,7 @@
     "term": "mirti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To cease to live; to pass away.",
@@ -4120,7 +4117,7 @@
     "term": "treji",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Collective numeral 'three', used with pluralia tantum nouns.",
@@ -4134,7 +4131,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "trys",
+      "ketveri"
+    ],
     "translation": "three (collective)",
     "register": "general",
     "level": "A2"
@@ -4143,7 +4143,7 @@
     "term": "ketveri",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Collective numeral 'four', used with pluralia tantum nouns.",
@@ -4157,7 +4157,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "treji",
+      "penkeri"
+    ],
     "translation": "four (collective)",
     "register": "general",
     "level": "A2"
@@ -4166,7 +4169,7 @@
     "term": "penkeri",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Collective numeral 'five', used with pluralia tantum nouns.",
@@ -4180,7 +4183,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ketveri",
+      "šešeri"
+    ],
     "translation": "five (collective)",
     "register": "general",
     "level": "A2"
@@ -4189,7 +4195,7 @@
     "term": "šešeri",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Collective numeral 'six', used with pluralia tantum nouns.",
@@ -4203,7 +4209,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "penkeri",
+      "septyneri"
+    ],
     "translation": "six (collective)",
     "register": "general",
     "level": "A2"
@@ -4212,7 +4221,7 @@
     "term": "septyneri",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Collective numeral 'seven', used with pluralia tantum nouns.",
@@ -4226,7 +4235,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šešeri",
+      "aštuoneri"
+    ],
     "translation": "seven (collective)",
     "register": "general",
     "level": "A2"
@@ -4235,7 +4247,7 @@
     "term": "aštuoneri",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Collective numeral 'eight', used with pluralia tantum nouns.",
@@ -4249,7 +4261,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "septyneri",
+      "devyneri"
+    ],
     "translation": "eight (collective)",
     "register": "general",
     "level": "A2"
@@ -4258,7 +4273,7 @@
     "term": "devyneri",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Collective numeral 'nine', used with pluralia tantum nouns.",
@@ -4272,7 +4287,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "aštuoneri",
+      "dešimt"
+    ],
     "translation": "nine (collective)",
     "register": "general",
     "level": "A2"
@@ -4281,7 +4299,7 @@
     "term": "atvirukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small card sent by post, usually with a picture on one side and a message on the other.",
@@ -4296,7 +4314,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "laiškas",
+      "paštas",
+      "vokas"
+    ],
     "translation": "postcard",
     "register": "general",
     "level": "A1"
@@ -4305,7 +4327,7 @@
     "term": "pašto ženklas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small adhesive label issued by the postal service and attached to mail to show payment of postage.",
@@ -4319,7 +4341,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atvirukas",
+      "laiškas",
+      "paštas"
+    ],
     "translation": "postage stamp",
     "register": "general",
     "level": "A2"
@@ -4388,7 +4414,7 @@
     "term": "suktis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To rotate or turn around a central point.",
@@ -4409,9 +4435,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "apsisukti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sukimasis",
+      "ratas",
+      "judėjimas"
+    ],
     "translation": "to spin; to rotate; to get around",
     "register": "general",
     "level": "B1"
@@ -4420,7 +4452,7 @@
     "term": "būda",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small shelter built for a dog to sleep in; a kennel.",
@@ -4435,7 +4467,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šuo",
+      "namai",
+      "gyvūnas"
+    ],
     "translation": "doghouse, kennel",
     "register": "general",
     "level": "A2"
@@ -4473,7 +4509,7 @@
     "term": "senis besmegenis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A figure made of stacked snowballs, typically decorated with eyes, a nose, and a scarf; a snowman.",
@@ -4488,7 +4524,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sniegas",
+      "žiema",
+      "vaikas"
+    ],
     "translation": "snowman",
     "register": "general",
     "level": "A1"
@@ -4549,7 +4589,7 @@
     "term": "eglutės papuošalai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ornaments and decorations used to adorn a Christmas tree.",
@@ -4564,7 +4604,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "eglutė",
+      "Kalėdos",
+      "dekoracija"
+    ],
     "translation": "Christmas tree decorations",
     "register": "general",
     "level": "A2"
@@ -4781,7 +4825,7 @@
     "term": "pinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To interweave strands of hair, straw, or other flexible material.",
@@ -4795,7 +4839,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kasa",
+      "plaukai",
+      "pynė"
+    ],
     "translation": "to braid; to weave; to plait",
     "register": "general",
     "level": "B1"
@@ -4852,7 +4900,7 @@
     "term": "kalbos ir knygos diena",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A Lithuanian cultural holiday celebrated on September 22, dedicated to the Lithuanian language and literature.",
@@ -4867,14 +4915,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lietuvių kalba",
+      "knyga",
+      "kultūra"
+    ],
     "translation": "Language and Book Day",
     "register": "formal",
     "level": "B1"
   },
   {
     "term": "gimnastika",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4891,9 +4943,7 @@
         ]
       }
     ],
-    "synonyms": [
-      "aerobika"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "sportas",
@@ -4904,7 +4954,7 @@
   },
   {
     "term": "apšilimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4936,7 +4986,7 @@
   },
   {
     "term": "teisėjas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "translation": "judge",
@@ -4964,7 +5014,7 @@
   },
   {
     "term": "teisėja",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "translation": "judge (female)",
@@ -4992,7 +5042,7 @@
   },
   {
     "term": "statybininkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5013,15 +5063,15 @@
     "relatedTerms": [
       "statyba",
       "namas",
-      "įrankiai",
-      "darbininkas"
+      "darbininkas",
+      "statybininkė"
     ],
     "qaNote": "Synonym 'darbininkas' (worker/labourer) is too broad: it denotes any manual worker regardless of trade, whereas 'statybininkas' specifically refers to a construction worker. Replace with a more specific synonym.",
     "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "sodininkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5038,21 +5088,20 @@
         ]
       }
     ],
-    "synonyms": [
-      "daržininkas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "sodas",
       "gėlės",
-      "medis"
+      "medis",
+      "sodininke"
     ],
     "qaNote": "Synonym 'daržininkas' is inaccurate: 'daržininkas' specifically refers to a vegetable gardener (daržas = kitchen garden), whereas 'sodininkas' refers to a gardener or orchardist (sodas = garden/orchard). They are related but distinct specialisations. Replace with a more accurate synonym.",
     "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Existing synonym 'daržininkas' (vegetable gardener) is a hyponym, not a co-extensive synonym. Remove it and supply 2 accurate co-extensive synonyms."
   },
   {
     "term": "mechanikas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5074,14 +5123,14 @@
       "automobilis",
       "variklis",
       "remontas",
-      "technikas"
+      "mechanike"
     ],
     "qaNote": "Synonym 'technikas' (technician) is broader than 'mechanikas' (mechanic): a technician may work in any technical field, while a mechanic specifically repairs and maintains machines, engines, and vehicles. Replace with a more specific synonym.",
     "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "kepėjas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5104,14 +5153,14 @@
       "duona",
       "kepykla",
       "miltai",
-      "duonkepys"
+      "kepėja"
     ],
     "qaNote": "Synonym 'duonkepys' is too specific: 'duonkepys' literally means bread baker (duona = bread), whereas 'kepėjas' denotes a baker of any goods including cakes and pastries. A hyponym cannot serve as a synonym for its hypernym. Replace with a more accurate synonym.",
     "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "samanos",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5140,7 +5189,7 @@
   },
   {
     "term": "klevas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5169,7 +5218,7 @@
   },
   {
     "term": "pušis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5198,7 +5247,7 @@
   },
   {
     "term": "kočėlas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5227,7 +5276,7 @@
   },
   {
     "term": "kiaurasamtis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5256,7 +5305,7 @@
   },
   {
     "term": "šluotelė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
