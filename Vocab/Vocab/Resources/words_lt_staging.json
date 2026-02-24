@@ -495,584 +495,1070 @@
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
   {
-    "term": "keleiviai",
+    "term": "keleivis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Asmuo, kuris keliauja transporto priemone, bet jos nevairuoja.",
+        "example": "Keleivis sėdi autobuso gale.",
+        "register": "general",
+        "tags": [
+          "transport"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "passenger",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "nuoma",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Mokestis už laikinai naudojamą turtą, dažniausiai būstą.",
+        "example": "Nuoma šį mėnesį yra trys šimtai eurų.",
+        "register": "general",
+        "tags": [
+          "housing",
+          "finance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "rent",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "tyrimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Sisteminga veikla, kuria siekiama išsiaiškinti faktus arba atskleisti naujų žinių.",
+        "example": "Mokslininkai atlieka svarbų tyrimą.",
+        "register": "general",
+        "tags": [
+          "science",
+          "education"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "research",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
-    "term": "simptomai",
+    "term": "simptomas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ligos požymis, kurį jaučia arba pastebi žmogus.",
+        "example": "Karščiavimas yra dažnas peršalimo simptomas.",
+        "register": "general",
+        "tags": [
+          "health"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "symptom",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "gydymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Veiksmų visuma, skirta ligai ar sužeidimui gydyti.",
+        "example": "Gydymas truko kelias savaites.",
+        "register": "general",
+        "tags": [
+          "health"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "treatment",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "susirūpinimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Nerimo ar rūpesčio jausmas dėl ko nors.",
+        "example": "Tėvai reiškė susirūpinimą dėl vaiko sveikatos.",
+        "register": "general",
+        "tags": [
+          "emotions"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "concern",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "pasitenkinimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Malonus jausmas, kai norai ar lūkesčiai yra patenkinti.",
+        "example": "Jis jautė didelį pasitenkinimą baigęs darbą.",
+        "register": "general",
+        "tags": [
+          "emotions"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "satisfaction",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "dėkingumas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Dėkingumo jausmas už gautą pagalbą ar dovaną.",
+        "example": "Ji išreiškė dėkingumą savo mokytojams.",
+        "register": "general",
+        "tags": [
+          "emotions"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "gratitude",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "prenumerata",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Reguliarus mokėjimas už paslaugą ar leidinį.",
+        "example": "Aš atsisakiau žurnalo prenumeratos.",
+        "register": "general",
+        "tags": [
+          "services"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "subscription",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "aplinka",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gamtinės sąlygos ir erdvė, kurioje gyvena žmonės ir gyvūnai.",
+        "example": "Turime saugoti aplinką nuo taršos.",
+        "register": "general",
+        "tags": [
+          "nature",
+          "ecology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "environment",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "tarša",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Kenksmingų medžiagų patekimas į aplinką.",
+        "example": "Oro tarša kenkia žmonių sveikatai.",
+        "register": "general",
+        "tags": [
+          "ecology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "pollution",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
-    "term": "atliekos",
+    "term": "atlieka",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Panaudota arba nereikalinga medžiaga, kuri yra išmetama.",
+        "example": "Buitines atliekas reikia rūšiuoti.",
+        "register": "general",
+        "tags": [
+          "ecology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "waste",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "perdirbimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Procesas, kurio metu atliekos paverčiamos naujais produktais.",
+        "example": "Plastiko perdirbimas padeda saugoti aplinką.",
+        "register": "general",
+        "tags": [
+          "ecology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "recycling",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "klimatas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Ilgalaikės orų sąlygos tam tikroje vietovėje.",
+        "example": "Lietuvos klimatas yra vidutiniškai šaltas.",
+        "register": "general",
+        "tags": [
+          "nature",
+          "geography"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "climate",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "bendruomenė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Grupė žmonių, gyvenančių vienoje vietoje arba turinčių bendrų interesų.",
+        "example": "Mūsų bendruomenė suorganizavo šventę.",
+        "register": "general",
+        "tags": [
+          "society"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "community",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "savanorystė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Neatlygintina veikla, atliekama savo noru kitiems padėti.",
+        "example": "Savanorystė mane daug ko išmokė.",
+        "register": "general",
+        "tags": [
+          "society"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "volunteering",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "teisė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Galimybė arba laisvė ką nors daryti, garantuojama įstatymu.",
+        "example": "Kiekvienas žmogus turi teisę į mokslą.",
+        "register": "general",
+        "tags": [
+          "law",
+          "society"
+        ]
+      },
+      {
+        "definition": "Taisyklių visuma, reguliuojanti visuomenės gyvenimą.",
+        "example": "Ji studijuoja teisę universitete.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "education"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "right",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "pilietybė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Teisinis ryšys tarp asmens ir valstybės.",
+        "example": "Jis gavo Lietuvos pilietybę.",
+        "register": "general",
+        "tags": [
+          "law",
+          "society"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "citizenship",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "atsisakyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Nepriimti to, kas siūloma, arba nustoti ką nors daryti.",
+        "example": "Jis atsisakė pasiūlymo dirbti užsienyje.",
+        "register": "general",
+        "tags": [
+          "communication"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "to refuse",
     "tags": [
       "B1"
     ],
-    "forms": null,
-    "governedCase": null
+    "forms": {
+      "present3": "atsisako",
+      "past3": "atsisakė"
+    },
+    "governedCase": "ko?",
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "pasirinkti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Iš kelių galimybių atrinkti vieną.",
+        "example": "Ji pasirinko raudoną suknelę.",
+        "register": "general",
+        "tags": [
+          "daily life"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "to choose",
     "tags": [
       "B1"
     ],
-    "forms": null,
-    "governedCase": null
+    "forms": {
+      "present3": "pasirenka",
+      "past3": "pasirinko"
+    },
+    "governedCase": "ką?",
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "svarstyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Apgalvoti ką nors, nagrinėti galimybes.",
+        "example": "Mes svarstome, kur keliauti vasarą.",
+        "register": "general",
+        "tags": [
+          "thinking"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "to consider",
     "tags": [
       "B1"
     ],
-    "forms": null,
-    "governedCase": null
+    "forms": {
+      "present3": "svarsto",
+      "past3": "svarstė"
+    },
+    "governedCase": "ką?",
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "stebėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Atidžiai žiūrėti ir sekti ką nors.",
+        "example": "Vaikai stebi paukščius parke.",
+        "register": "general",
+        "tags": [
+          "perception"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "to observe",
     "tags": [
       "B1"
     ],
-    "forms": null,
-    "governedCase": null
+    "forms": {
+      "present3": "stebi",
+      "past3": "stebėjo"
+    },
+    "governedCase": "ką?",
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "palyginti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Nustatyti panašumus ir skirtumus tarp dviejų ar daugiau dalykų.",
+        "example": "Palyginkite šių dviejų knygų kainas.",
+        "register": "general",
+        "tags": [
+          "thinking"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "to compare",
     "tags": [
       "B1"
     ],
-    "forms": null,
-    "governedCase": null
+    "forms": {
+      "present3": "palygina",
+      "past3": "palygino"
+    },
+    "governedCase": "ką?",
+    "level": "A2",
+    "register": "general"
   },
   {
-    "term": "priklauso",
+    "term": "priklausyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Būti kieno nors nuosavybe arba dalimi.",
+        "example": "Šis namas priklauso mano seneliams.",
+        "register": "general",
+        "tags": [
+          "possession"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "to belong",
     "tags": [
       "B1"
     ],
-    "forms": null,
-    "governedCase": null
+    "forms": {
+      "present3": "priklauso",
+      "past3": "priklausė"
+    },
+    "governedCase": "kam?",
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "pasiekti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Atvykti iki tam tikros vietos arba gauti norimą rezultatą.",
+        "example": "Jis pasiekė savo tikslą.",
+        "register": "general",
+        "tags": [
+          "achievement"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "to reach",
     "tags": [
       "B1"
     ],
-    "forms": null,
-    "governedCase": null
+    "forms": {
+      "present3": "pasiekia",
+      "past3": "pasiekė"
+    },
+    "governedCase": "ką?",
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "bendrauti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Palaikyti ryšį su kitais žmonėmis kalbant ar rašant.",
+        "example": "Vaikai mėgsta bendrauti su draugais.",
+        "register": "general",
+        "tags": [
+          "communication"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "to communicate",
     "tags": [
       "B1"
     ],
-    "forms": null,
-    "governedCase": null
+    "forms": {
+      "present3": "bendrauja",
+      "past3": "bendravo"
+    },
+    "governedCase": null,
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "rekomenduoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Patarti kam nors ką nors daryti arba naudoti.",
+        "example": "Gydytojas rekomenduoja daugiau vaikščioti.",
+        "register": "general",
+        "tags": [
+          "communication"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "to recommend",
     "tags": [
       "B1"
     ],
-    "forms": null,
-    "governedCase": null
+    "forms": {
+      "present3": "rekomenduoja",
+      "past3": "rekomendavo"
+    },
+    "governedCase": "ką?",
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "apsispręsti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Priimti galutinį sprendimą.",
+        "example": "Pagaliau apsisprendžiau studijuoti teisę.",
+        "register": "general",
+        "tags": [
+          "thinking"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "to decide",
     "tags": [
       "B1"
     ],
-    "forms": null,
-    "governedCase": null
+    "forms": {
+      "present3": "apsisprendžia",
+      "past3": "apsisprendė"
+    },
+    "governedCase": null,
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "patikimas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Toks, kuriuo galima pasitikėti.",
+        "example": "Jis yra labai patikimas darbuotojas.",
+        "register": "general",
+        "tags": [
+          "character"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "reliable",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "atsakingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Toks, kuris atsakingai atlieka savo pareigas.",
+        "example": "Ji yra labai atsakinga studentė.",
+        "register": "general",
+        "tags": [
+          "character"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "responsible",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "nepriklausomas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Toks, kuris gali veikti savarankiškai, be kitų pagalbos.",
+        "example": "Lietuva yra nepriklausoma valstybė.",
+        "register": "general",
+        "tags": [
+          "society",
+          "character"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "independent",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "kuklus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Toks, kuris nesididžiuoja savo pasiekimais.",
+        "example": "Jis labai kuklus, nors daug pasiekė.",
+        "register": "general",
+        "tags": [
+          "character"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "modest",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "sąžiningas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Toks, kuris sako tiesą ir elgiasi teisingai.",
+        "example": "Sąžiningas žmogus visada sako tiesą.",
+        "register": "general",
+        "tags": [
+          "character"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "honest",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "naudingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Toks, kuris duoda naudos, padeda.",
+        "example": "Tai labai naudingas patarimas.",
+        "register": "general",
+        "tags": [
+          "evaluation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "useful",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "būtinas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Toks, be kurio negalima apsieiti.",
+        "example": "Vanduo yra būtinas gyvybei.",
+        "register": "general",
+        "tags": [
+          "evaluation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "necessary",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "dažniausiai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Daugeliu atvejų, paprastai.",
+        "example": "Dažniausiai aš keliuosi septintą valandą.",
+        "register": "general",
+        "tags": [
+          "frequency"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "usually",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "iš tikrųjų",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Iš tiesų, realiai, ne tik teoriškai.",
+        "example": "Iš tikrųjų, tai buvo geras sprendimas.",
+        "register": "general",
+        "tags": [
+          "emphasis"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "actually",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "greičiausiai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Labiausiai tikėtina, turbūt.",
+        "example": "Greičiausiai rytoj lis lietus.",
+        "register": "general",
+        "tags": [
+          "probability"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "probably",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "vis dėlto",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Nepaisant to, kas buvo pasakyta ar nutiko.",
+        "example": "Buvo sunku, bet vis dėlto pavyko.",
+        "register": "general",
+        "tags": [
+          "contrast"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "nevertheless",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "kadangi",
     "language": "lt",
     "partOfSpeech": "conjunction",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Jungtuko žodis, nurodantis priežastį.",
+        "example": "Kadangi lijo, mes likome namuose.",
+        "register": "general",
+        "tags": [
+          "cause"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null,
+    "translation": "because",
     "tags": [
       "B1"
-    ]
+    ],
+    "level": "A2",
+    "register": "general"
   },
   {
     "term": "nors",
