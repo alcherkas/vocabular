@@ -5410,3 +5410,21 @@ None.
 
 ### Blockers
 None.
+
+## [2025-07-18] relations-agent vocab/relations-en-69
+
+### What went well
+- All 80 enriched entries already had relation arrays pre-populated by the enricher, so the main work was quality review and fixing cross-array duplicates.
+- Validator caught all structural issues cleanly; 0 errors on final run.
+
+### What was harder than expected
+- 16 issues found across the batch: 11 cross-array duplicates (same term in synonyms and relatedTerms), 2 words with insufficient synonyms (agglutinative, diatonic), 2 with only 1 synonym (aestheticism, arboreal), and 1 substring self-reference (counterfactual conditional).
+
+### Process friction
+- None significant; the VOCAB-AGENT.md rules and validator aligned well.
+
+### Suggested improvement
+- The enricher could avoid pre-populating relation arrays to prevent cross-array duplicates that the relations agent must then fix.
+
+### Blockers
+None.
