@@ -3,7 +3,7 @@
     "term": "yra apsirengęs",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Stative phrase indicating a male person is in a dressed state; describes the resulting state of having put on clothes.",
@@ -16,7 +16,9 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "yra nuogas"
+    ],
     "relatedTerms": [
       "apsirengti",
       "apranga",
@@ -31,7 +33,7 @@
     "term": "yra apsirengusi",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Stative phrase indicating a female person is in a dressed state; describes the resulting state of having put on clothes.",
@@ -44,7 +46,9 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "yra nuoga"
+    ],
     "relatedTerms": [
       "apsirengti",
       "apranga",
@@ -59,7 +63,7 @@
     "term": "ausų",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Genitive plural form of 'ausis' (ear); used in compound expressions meaning 'of ears' or 'ear-'.",
@@ -76,7 +80,8 @@
     "relatedTerms": [
       "ausis",
       "auskaras",
-      "galva"
+      "galva",
+      "klausa"
     ],
     "translation": "of ears (genitive plural)",
     "register": "general",
@@ -377,7 +382,7 @@
     "term": "santykiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The way in which two or more people or groups feel about and behave towards each other; relations.",
@@ -400,13 +405,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "ryšiai"
+    ],
+    "antonymTerms": [
+      "atsiribojimas"
+    ],
     "relatedTerms": [
       "partneris",
       "partnerė",
-      "ryšiai",
-      "draugystė"
+      "draugystė",
+      "meilė"
     ],
     "translation": "relations, relationship",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries. Also: plural form used; nominative singular is 'santykis'."
