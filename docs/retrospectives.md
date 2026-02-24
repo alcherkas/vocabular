@@ -5255,3 +5255,20 @@ None.
 
 ### Blockers
 None.
+
+## [2025-07-18] [relations-lt-70] [vocab/relations-lt-70]
+
+### What went well
+- All 42 enriched LT entries were nouns/conjunctions, making relations straightforward. Validation passed on first attempt with zero errors.
+
+### What was harder than expected
+- Deciding synonym co-extensiveness for LT food terms (e.g., džemas vs uogienė) required careful semantic judgment; most entries correctly got empty synonyms.
+
+### Process friction
+- None — the VOCAB-AGENT.md rubric and validator aligned well.
+
+### Suggested improvement
+- None.
+
+### Blockers
+None.
