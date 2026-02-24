@@ -5163,3 +5163,19 @@ None.
 
 ### Blockers
 None.
+
+---
+
+## Publish + Relations EN Batch 67 — 2025-07-14
+**Agent**: Publisher + Relations EN  
+**Task**: Publish approved EN+LT words; add relations to enriched EN entries (batch 67)
+
+### What went well
+- Publish ran cleanly: 100 EN and 11 LT words moved to production in one pass.
+- Dry-run verification before live publish caught no issues — pipeline is reliable.
+
+### What could be improved
+- EN staging was empty after publish, so relations batch 67 had no work. Pipeline could benefit from tighter coordination so relations batches aren't scheduled when staging is about to be emptied by a publish.
+
+### Blockers
+None.

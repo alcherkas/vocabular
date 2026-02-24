@@ -77,3 +77,10 @@ Agents append one entry here **after each commit** and **after every irreversibl
 - **Branch**: `vocab/backfill-lt-verb-forms`
 - **Commit**: 6688c23
 - **Reversible**: Yes — `git revert 6688c23`
+
+### 2025-07-14 — Publish EN+LT words to production
+- **Action**: Published 100 approved EN words and 11 approved LT words from staging to production
+- **Branch**: `main`
+- **Commit**: aa79046
+- **Result**: EN production now 1904 words, LT production now 2304 words; EN staging 0 remaining, LT staging 125 remaining
+- **Reversible**: Yes — `git revert aa79046`
