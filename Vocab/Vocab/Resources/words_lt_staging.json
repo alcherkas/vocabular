@@ -2163,7 +2163,7 @@
     "term": "pagalvė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A soft cushion used to support the head while sleeping.",
@@ -2192,7 +2192,7 @@
     "term": "užuolaidos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pieces of fabric hung at windows to block light or provide privacy (plural form).",
@@ -2210,7 +2210,8 @@
     "relatedTerms": [
       "langas",
       "kambarys",
-      "baldai"
+      "baldai",
+      "roletai"
     ],
     "translation": "curtains",
     "register": "general",
@@ -2221,7 +2222,7 @@
     "term": "lovytė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small bed, especially one used for babies or young children.",
@@ -2250,7 +2251,7 @@
     "term": "paveikslas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A work of art created by painting or drawing, typically hung on a wall.",
@@ -2268,7 +2269,8 @@
     "relatedTerms": [
       "tapyba",
       "menas",
-      "dailė"
+      "dailė",
+      "rėmas"
     ],
     "translation": "picture; painting",
     "register": "general",
@@ -2279,7 +2281,7 @@
     "term": "spintelė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small cabinet or cupboard, often placed beside a bed or used for storage.",
@@ -2297,7 +2299,7 @@
     "relatedTerms": [
       "baldas",
       "stalčius",
-      "lova"
+      "lentyna"
     ],
     "translation": "small cupboard; nightstand",
     "register": "general",
@@ -2308,7 +2310,7 @@
     "term": "kabykla",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A stand or wall-mounted device with hooks for hanging coats, hats, and bags.",
@@ -2326,7 +2328,8 @@
     "relatedTerms": [
       "paltas",
       "drabužiai",
-      "prieškambaris"
+      "prieškambaris",
+      "kablys"
     ],
     "translation": "coat rack; hanger stand",
     "register": "general",
@@ -2337,7 +2340,7 @@
     "term": "kilimėlis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small rug or mat placed on the floor, often in front of a door or beside a bed.",
@@ -3745,7 +3748,7 @@
     "term": "kailiniai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Šiltas viršutinis drabužis iš natūralaus ar dirbtinio kailio, dėvimas žiemą.",
@@ -3969,7 +3972,7 @@
     "term": "lankyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To go to see someone or a place, especially socially or as a tourist.",
@@ -4008,7 +4011,7 @@
     "term": "gimti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To come into existence through birth; to begin life outside the womb.",
@@ -4038,7 +4041,7 @@
     "term": "mirti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To cease to live; to pass away.",
@@ -4931,7 +4934,7 @@
   },
   {
     "term": "gimnastika",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4959,7 +4962,7 @@
   },
   {
     "term": "apšilimas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -4991,7 +4994,7 @@
   },
   {
     "term": "teisėjas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "translation": "judge",
@@ -5019,7 +5022,7 @@
   },
   {
     "term": "teisėja",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "translation": "judge (female)",
@@ -5047,7 +5050,7 @@
   },
   {
     "term": "statybininkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5069,14 +5072,14 @@
       "statyba",
       "namas",
       "darbininkas",
-      "statybininkė"
+      "inžinierius"
     ],
     "qaNote": "Synonym 'darbininkas' (worker/labourer) is too broad: it denotes any manual worker regardless of trade, whereas 'statybininkas' specifically refers to a construction worker. Replace with a more specific synonym.",
     "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "sodininkas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5099,14 +5102,14 @@
       "sodas",
       "gėlės",
       "medis",
-      "sodininke"
+      "sodininkė"
     ],
     "qaNote": "Synonym 'daržininkas' is inaccurate: 'daržininkas' specifically refers to a vegetable gardener (daržas = kitchen garden), whereas 'sodininkas' refers to a gardener or orchardist (sodas = garden/orchard). They are related but distinct specialisations. Replace with a more accurate synonym.",
     "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Existing synonym 'daržininkas' (vegetable gardener) is a hyponym, not a co-extensive synonym. Remove it and supply 2 accurate co-extensive synonyms."
   },
   {
     "term": "mechanikas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5128,14 +5131,14 @@
       "automobilis",
       "variklis",
       "remontas",
-      "mechanike"
+      "mechanikė"
     ],
     "qaNote": "Synonym 'technikas' (technician) is broader than 'mechanikas' (mechanic): a technician may work in any technical field, while a mechanic specifically repairs and maintains machines, engines, and vehicles. Replace with a more specific synonym.",
     "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "kepėjas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5165,7 +5168,7 @@
   },
   {
     "term": "samanos",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5187,14 +5190,14 @@
       "augalas",
       "miškas",
       "drėgmė",
-      "žolė"
+      "paparčiai"
     ],
     "translation": "moss",
     "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval."
   },
   {
     "term": "klevas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5223,7 +5226,7 @@
   },
   {
     "term": "pušis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5252,7 +5255,7 @@
   },
   {
     "term": "kočėlas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5281,7 +5284,7 @@
   },
   {
     "term": "kiaurasamtis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5310,7 +5313,7 @@
   },
   {
     "term": "šluotelė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5328,20 +5331,19 @@
         ]
       }
     ],
-    "synonyms": [
-      "plaktuvas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "kiaušinis",
       "grietinėlė",
-      "kepimas"
+      "kepimas",
+      "plaktuvas"
     ],
     "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided. Add a second co-extensive synonym."
   },
   {
     "term": "mentelė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5370,7 +5372,7 @@
   },
   {
     "term": "sietelis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5401,7 +5403,7 @@
   },
   {
     "term": "dangtis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5432,7 +5434,7 @@
   },
   {
     "term": "prieskonis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5448,22 +5450,20 @@
         ]
       }
     ],
-    "synonyms": [
-      "pagardas"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "maistas",
-      "kepimas",
       "druska",
-      "padažas"
+      "pipirai",
+      "pagardas"
     ],
     "translation": "spice, seasoning",
     "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided ('pagardas'). Note: prieskonis (dry spice) and pagardas (condiment/sauce) are related but not co-extensive; clarify and add a second synonym."
   },
   {
     "term": "pagardas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5479,22 +5479,20 @@
         ]
       }
     ],
-    "synonyms": [
-      "prieskonis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "maistas",
       "padažas",
       "garstyčios",
-      "kepimas"
+      "prieskonis"
     ],
     "translation": "condiment, garnish, flavouring",
     "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided ('prieskonis'). Note: pagardas (condiment/garnish) and prieskonis (dry spice) are related but not co-extensive; clarify and add a second synonym."
   },
   {
     "term": "užkandis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5523,7 +5521,7 @@
   },
   {
     "term": "blynas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5541,20 +5539,19 @@
         ]
       }
     ],
-    "synonyms": [
-      "plokštainis"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "kepimas",
       "pusryčiai",
-      "uogienė"
+      "uogienė",
+      "plokštainis"
     ],
     "qa_notes": "Fewer than 2 co-extensive synonyms provided. At least 2 synonyms (same POS, co-extensive, nominative singular) are required for approval. | Only 1 synonym provided ('plokštainis'). 'Plokštainis' (flat cake/flatbread) is not co-extensive with blynas (pancake/crepe). Add an accurate second synonym."
   },
   {
     "term": "apkepas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5576,7 +5573,6 @@
       "orkaitė",
       "kepimas",
       "bulvės",
-      "virtuvė",
       "troškinys"
     ],
     "translation": "casserole, baked dish",
@@ -5584,7 +5580,7 @@
   },
   {
     "term": "užvirti",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "verb",
     "tags": [],
@@ -5612,7 +5608,7 @@
   },
   {
     "term": "nata",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5640,7 +5636,7 @@
   },
   {
     "term": "dainelė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5658,11 +5654,19 @@
           "A1"
         ]
       }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "daina",
+      "muzika",
+      "melodija",
+      "giesmė"
     ]
   },
   {
     "term": "gitara",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5691,7 +5695,7 @@
   },
   {
     "term": "būgnas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5720,7 +5724,7 @@
   },
   {
     "term": "trimitas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
@@ -5751,7 +5755,7 @@
   },
   {
     "term": "fleita",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "tags": [],
