@@ -5219,3 +5219,25 @@ None.
 
 ### Blockers
 None.
+
+---
+
+## Retro: enricher-en-64
+
+- **Agent**: EN Enricher
+- **Branch**: `vocab/enricher-en-64`
+- **Date**: 2025-07-18
+- **Task**: Enrich 80 English stubs in `words_staging.json`
+
+### What went well
+- All 80 stubs enriched in a single pass with accurate definitions, examples, registers, and tags.
+- Validation passed on first attempt with 0 errors.
+
+### What could improve
+- Could batch-verify definitions against a reference corpus for higher confidence on nuanced terms.
+
+### Suggested improvement
+- None.
+
+### Blockers
+None.
