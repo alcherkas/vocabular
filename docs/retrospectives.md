@@ -4870,3 +4870,28 @@ Each entry includes: partOfSpeech, register (general), level, Lithuanian example
 ### What could be improved
 - Stub entries for verb conjugation forms (present/past 3rd person) could benefit from explicit dictionary base-form cross-references in the definition.
 
+
+---
+## Retro: vocab/seeder-en-15 — 2025-07-17
+
+**Agent**: English Vocabulary Seeder (seeder-en-15)
+**Task**: Add 100 new English C1/C2 stub entries to words_staging.json
+
+**What was done**:
+- Read words_staging.json (127 entries) and words.json (1577 entries), totalling 1704 existing terms.
+- Selected 100 unique new C1/C2 terms spanning: philosophy of mind, cognitive science, pragmatics/semantics, climate science, environmental economics, social theory, cultural studies, psycholinguistics, formal logic, topology, and number theory.
+- Appended stubs with `{"term": ..., "language": "en", "status": "stub", "meanings": []}` format.
+- Validation passed (227 entries, 0 errors for stub status).
+- Committed on branch `vocab/seeder-en-15`.
+
+**What went well**:
+- Domain diversity achieved across all 11 requested areas.
+- Candidate pool generated well over 100 terms; filtering for uniqueness was clean.
+- Validation script passed first time.
+
+**Issues encountered**:
+- Initial candidate list yielded 81 unique terms (some duplicates within the candidate set, some already in words.json like `polysemy`, `cultural capital`, `affordance`). A second batch of candidates brought total to 108, comfortably above 100.
+- validate_words.py requires named `--staging` argument, not positional — corrected after first failed invocation.
+
+**Improvements for next time**:
+- Pre-check candidate list for internal duplicates and against existing terms in one pass before generating the full list.
