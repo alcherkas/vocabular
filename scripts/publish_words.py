@@ -46,7 +46,8 @@ def save_json(path: str, data: list):
 
 def strip_staging_fields(word: dict) -> dict:
     """Remove pipeline-only fields before writing to production."""
-    production = {k: v for k, v in word.items() if k != "status"}
+    staging_only = {"status", "qa_notes"}
+    production = {k: v for k, v in word.items() if k not in staging_only}
     return production
 
 
