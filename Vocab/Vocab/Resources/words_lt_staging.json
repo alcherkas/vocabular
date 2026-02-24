@@ -2537,208 +2537,1176 @@
   },
   {
     "term": "amžius",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "age",
+    "meanings": [
+      {
+        "definition": "Žmogaus ar daikto egzistavimo trukmė metais.",
+        "example": "Koks tavo amžius?",
+        "register": "general",
+        "tags": [
+          "personal",
+          "A1"
+        ]
+      },
+      {
+        "definition": "Istorijos laikotarpis.",
+        "example": "Viduramžiai buvo tamsusis amžius.",
+        "register": "general",
+        "tags": [
+          "history",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "metai",
+      "senas",
+      "jaunas"
+    ]
   },
   {
     "term": "uošvis",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "father-in-law (wife's father)",
+    "meanings": [
+      {
+        "definition": "Žmonos tėvas.",
+        "example": "Mano uošvis gyvena kaime.",
+        "register": "general",
+        "tags": [
+          "family",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "uošvė",
+      "žentas",
+      "šeima"
+    ]
   },
   {
     "term": "uošvė",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "mother-in-law (wife's mother)",
+    "meanings": [
+      {
+        "definition": "Žmonos motina.",
+        "example": "Uošvė iškepė pyragą.",
+        "register": "general",
+        "tags": [
+          "family",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "uošvis",
+      "marti",
+      "šeima"
+    ]
   },
   {
     "term": "žentas",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "son-in-law",
+    "meanings": [
+      {
+        "definition": "Dukters vyras.",
+        "example": "Mūsų žentas dirba mokytoju.",
+        "register": "general",
+        "tags": [
+          "family",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "marti",
+      "uošvis",
+      "uošvė"
+    ]
   },
   {
     "term": "marti",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "daughter-in-law",
+    "meanings": [
+      {
+        "definition": "Sūnaus žmona.",
+        "example": "Marti atvažiavo į svečius.",
+        "register": "general",
+        "tags": [
+          "family",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "žentas",
+      "uošvis",
+      "uošvė"
+    ]
   },
   {
     "term": "premija",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "bonus; prize",
+    "meanings": [
+      {
+        "definition": "Papildomas piniginis atlygis už gerą darbą.",
+        "example": "Darbuotojai gavo metinę premiją.",
+        "register": "general",
+        "tags": [
+          "work",
+          "money",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "atlyginimas",
+      "prizas",
+      "alga"
+    ]
   },
   {
     "term": "pajamos",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "income",
+    "meanings": [
+      {
+        "definition": "Pinigai, gaunami už darbą ar kitą veiklą.",
+        "example": "Jo mėnesinės pajamos yra didelės.",
+        "register": "general",
+        "tags": [
+          "money",
+          "work",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "išlaidos"
+    ],
+    "relatedTerms": [
+      "atlyginimas",
+      "uždarbis",
+      "pelnas"
+    ]
   },
   {
     "term": "išlaidos",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "expenses",
+    "meanings": [
+      {
+        "definition": "Pinigai, išleidžiami prekėms ar paslaugoms.",
+        "example": "Mėnesio išlaidos buvo didelės.",
+        "register": "general",
+        "tags": [
+          "money",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "pajamos"
+    ],
+    "relatedTerms": [
+      "kaina",
+      "biudžetas",
+      "mokėjimas"
+    ]
   },
   {
     "term": "triušis",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "register": "general",
+    "translation": "rabbit",
+    "meanings": [
+      {
+        "definition": "Mažas žinduolis ilgomis ausimis ir trumpa uodega.",
+        "example": "Triušis šokinėja po sodą.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kiškis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kiškis",
+      "gyvūnas",
+      "augintinis"
+    ]
   },
   {
     "term": "žiurkė",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "rat",
+    "meanings": [
+      {
+        "definition": "Graužikas, panašus į pelę, bet didesnis.",
+        "example": "Žiurkė gyvena rūsyje.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pelė",
+      "graužikas",
+      "gyvūnas"
+    ]
   },
   {
     "term": "tigras",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "register": "general",
+    "translation": "tiger",
+    "meanings": [
+      {
+        "definition": "Didelis laukinis katinis su dryžuotu kailiu.",
+        "example": "Tigras gyvena Azijos džiunglėse.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "liūtas",
+      "katė",
+      "gyvūnas"
+    ]
   },
   {
     "term": "dramblys",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "register": "general",
+    "translation": "elephant",
+    "meanings": [
+      {
+        "definition": "Didžiausias sausumos gyvūnas su ilgu straubliu.",
+        "example": "Dramblys geria vandenį iš upės.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gyvūnas",
+      "raganosis",
+      "zoologijos sodas"
+    ]
   },
   {
     "term": "lokys",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "register": "general",
+    "translation": "bear",
+    "meanings": [
+      {
+        "definition": "Didelis laukinis žinduolis storu kailiu.",
+        "example": "Lokys miega žiemą oloje.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "meška"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "miškas",
+      "gyvūnas",
+      "vilkas"
+    ]
   },
   {
     "term": "vilkas",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "register": "general",
+    "translation": "wolf",
+    "meanings": [
+      {
+        "definition": "Laukinis plėšrūnas, panašus į šunį.",
+        "example": "Vilkas staugė mėnuliui.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "lapė",
+      "šuo",
+      "miškas"
+    ]
   },
   {
     "term": "lapė",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "register": "general",
+    "translation": "fox",
+    "meanings": [
+      {
+        "definition": "Mažas laukinis gyvūnas raudonu kailiu ir pūkuota uodega.",
+        "example": "Lapė bėgo per lauką.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vilkas",
+      "miškas",
+      "gyvūnas"
+    ]
   },
   {
     "term": "elnias",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "deer",
+    "meanings": [
+      {
+        "definition": "Didelis laukinis žinduolis ragais.",
+        "example": "Elnias stovėjo miško pakraštyje.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "briedis",
+      "stirna",
+      "miškas"
+    ]
   },
   {
     "term": "ežys",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "register": "general",
+    "translation": "hedgehog",
+    "meanings": [
+      {
+        "definition": "Mažas gyvūnas su spygliais ant nugaros.",
+        "example": "Ežys susirietė į kamuolį.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gyvūnas",
+      "sodas",
+      "varlė"
+    ]
   },
   {
     "term": "voverė",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "register": "general",
+    "translation": "squirrel",
+    "meanings": [
+      {
+        "definition": "Mažas graužikas pūkuota uodega, gyvenantis medžiuose.",
+        "example": "Voverė rinko riešutus.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "medis",
+      "riešutas",
+      "gyvūnas"
+    ]
   },
   {
     "term": "gyvatė",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "snake",
+    "meanings": [
+      {
+        "definition": "Ilgas roplys be kojų.",
+        "example": "Gyvatė šliaužė per žolę.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "roplys",
+      "varlė",
+      "gyvūnas"
+    ]
   },
   {
     "term": "varlė",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "register": "general",
+    "translation": "frog",
+    "meanings": [
+      {
+        "definition": "Mažas varliagyvius, gyvenantis prie vandens.",
+        "example": "Varlė šokinėja prie ežero.",
+        "register": "general",
+        "tags": [
+          "animals",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "rupūžė",
+      "ežeras",
+      "pelkė"
+    ]
   },
   {
     "term": "violetinė",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "level": "A1",
+    "register": "general",
+    "translation": "purple; violet",
+    "meanings": [
+      {
+        "definition": "Spalva, gauta maišant raudoną ir mėlyną.",
+        "example": "Ji vilki violetinę suknelę.",
+        "register": "general",
+        "tags": [
+          "colors",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "spalva",
+      "mėlyna",
+      "raudona"
+    ]
   },
   {
     "term": "žydra",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "register": "general",
+    "translation": "light blue; sky blue",
+    "meanings": [
+      {
+        "definition": "Šviesi mėlyna spalva, primenanti giedrą dangų.",
+        "example": "Dangus šiandien žydras.",
+        "register": "general",
+        "tags": [
+          "colors",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mėlyna",
+      "spalva",
+      "dangus"
+    ]
   },
   {
     "term": "rusva",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "register": "general",
+    "translation": "brownish; tawny",
+    "meanings": [
+      {
+        "definition": "Rudos spalvos atspalvis.",
+        "example": "Lapai rudenį tampa rusvi.",
+        "register": "general",
+        "tags": [
+          "colors",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ruda",
+      "spalva",
+      "ruduo"
+    ]
   },
   {
     "term": "žadintuvas",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "register": "general",
+    "translation": "alarm clock",
+    "meanings": [
+      {
+        "definition": "Laikrodis, kuris žadina nustatytu laiku.",
+        "example": "Žadintuvas suskambo septintą valandą.",
+        "register": "general",
+        "tags": [
+          "home",
+          "time",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "laikrodis",
+      "rytas",
+      "miegas"
+    ]
   },
   {
     "term": "pultelis",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "remote control",
+    "meanings": [
+      {
+        "definition": "Nuotolinio valdymo įrenginys televizoriui ar kitam prietaisui.",
+        "example": "Paduok man pultelį, noriu perjungti kanalą.",
+        "register": "general",
+        "tags": [
+          "home",
+          "technology",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "televizorius",
+      "mygtukas",
+      "kanalas"
+    ]
   },
   {
     "term": "regbis",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "rugby",
+    "meanings": [
+      {
+        "definition": "Komandinis sportas, žaidžiamas ovalia forma kamuoliu.",
+        "example": "Jis žaidžia regbį universiteto komandoje.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "futbolas",
+      "komanda",
+      "sportas"
+    ]
   },
   {
     "term": "golfas",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "golf",
+    "meanings": [
+      {
+        "definition": "Sportas, kuriame lazda mušamas kamuoliukas į skylutes.",
+        "example": "Jis kiekvieną savaitgalį žaidžia golfą.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sportas",
+      "lazda",
+      "kamuoliukas"
+    ]
   },
   {
     "term": "dziudo",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "judo",
+    "meanings": [
+      {
+        "definition": "Japonų kilmės kovos menas ir olimpinis sportas.",
+        "example": "Ji treniruojasi dziudo tris kartus per savaitę.",
+        "register": "general",
+        "tags": [
+          "sports",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "karatė",
+      "sportas",
+      "treniruotė"
+    ]
   },
   {
     "term": "poezija",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "poetry",
+    "meanings": [
+      {
+        "definition": "Literatūros rūšis, kurioje rašoma eilėmis.",
+        "example": "Ji mėgsta skaityti poeziją.",
+        "register": "general",
+        "tags": [
+          "literature",
+          "art",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "proza"
+    ],
+    "relatedTerms": [
+      "eilėraštis",
+      "poetas",
+      "literatūra"
+    ]
   },
   {
     "term": "romanas",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "novel",
+    "meanings": [
+      {
+        "definition": "Ilgas prozos kūrinys su sudėtingu siužetu.",
+        "example": "Šis romanas labai įdomus.",
+        "register": "general",
+        "tags": [
+          "literature",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "knyga",
+      "rašytojas",
+      "literatūra"
+    ]
   },
   {
     "term": "komedija",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "comedy",
+    "meanings": [
+      {
+        "definition": "Juokingas spektaklis, filmas ar literatūros kūrinys.",
+        "example": "Vakar žiūrėjome komediją kine.",
+        "register": "general",
+        "tags": [
+          "entertainment",
+          "art",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "tragedija"
+    ],
+    "relatedTerms": [
+      "filmas",
+      "teatras",
+      "humoras"
+    ]
   },
   {
     "term": "skalbti",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "level": "A1",
+    "register": "general",
+    "translation": "to wash (laundry)",
+    "meanings": [
+      {
+        "definition": "Valyti drabužius ar audinius vandeniu.",
+        "example": "Mama skalbia drabužius kiekvieną dieną.",
+        "register": "general",
+        "tags": [
+          "household",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "skalbyklė",
+      "drabužiai",
+      "džiovinti"
+    ],
+    "forms": {
+      "present3": "skalbia",
+      "past3": "skalbė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "taisyti",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "level": "A2",
+    "register": "general",
+    "translation": "to repair; to fix",
+    "meanings": [
+      {
+        "definition": "Sutvarkyti tai, kas sugedę ar sugadinta.",
+        "example": "Tėtis taiso sugedusį automobilį.",
+        "register": "general",
+        "tags": [
+          "household",
+          "work",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "remontuoti"
+    ],
+    "antonymTerms": [
+      "gadinti"
+    ],
+    "relatedTerms": [
+      "remontas",
+      "meistras",
+      "įrankis"
+    ],
+    "forms": {
+      "present3": "taiso",
+      "past3": "taisė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "rinkti",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "level": "A2",
+    "register": "general",
+    "translation": "to collect; to gather",
+    "meanings": [
+      {
+        "definition": "Imti ir dėti į vieną vietą.",
+        "example": "Vaikai renka grybus miške.",
+        "register": "general",
+        "tags": [
+          "activity",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "kaupti"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "rinkinys",
+      "surinkti",
+      "kolekcija"
+    ],
+    "forms": {
+      "present3": "renka",
+      "past3": "rinko"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "miškas",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A1",
+    "register": "general",
+    "translation": "forest",
+    "meanings": [
+      {
+        "definition": "Didelis plotas, apaugęs medžiais.",
+        "example": "Mes einame pasivaikščioti į mišką.",
+        "register": "general",
+        "tags": [
+          "nature",
+          "A1"
+        ]
+      }
+    ],
+    "synonyms": [
+      "giria"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "medis",
+      "gamta",
+      "parkas"
+    ]
   },
   {
     "term": "vandenynas",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "ocean",
+    "meanings": [
+      {
+        "definition": "Didžiulis sūraus vandens telkinys, supantis žemynus.",
+        "example": "Atlanto vandenynas yra labai platus.",
+        "register": "general",
+        "tags": [
+          "nature",
+          "geography",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "jūra",
+      "vanduo",
+      "bangos"
+    ]
   },
   {
     "term": "dykuma",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "desert",
+    "meanings": [
+      {
+        "definition": "Sausas plotas su mažai augmenijos ir lietaus.",
+        "example": "Dykumoje labai karšta dieną.",
+        "register": "general",
+        "tags": [
+          "nature",
+          "geography",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "smėlis",
+      "karštis",
+      "oazė"
+    ]
   },
   {
     "term": "pelkė",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "swamp; marsh",
+    "meanings": [
+      {
+        "definition": "Drėgna, užmirkusi vietovė.",
+        "example": "Pelkėje auga spanguolės.",
+        "register": "general",
+        "tags": [
+          "nature",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ežeras",
+      "miškas",
+      "durpė"
+    ]
   },
   {
     "term": "upelis",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "stream; brook",
+    "meanings": [
+      {
+        "definition": "Mažas tekantis vandens telkinys.",
+        "example": "Upelis teka per pievą.",
+        "register": "general",
+        "tags": [
+          "nature",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "upė",
+      "vanduo",
+      "ežeras"
+    ]
   },
   {
     "term": "skveras",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "small park; square",
+    "meanings": [
+      {
+        "definition": "Nedidelė žalia zona mieste su suoliukais ir takais.",
+        "example": "Seneliai sėdi skvere ant suoliuko.",
+        "register": "general",
+        "tags": [
+          "city",
+          "nature",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "parkas",
+      "aikštė",
+      "miestas"
+    ]
   },
   {
     "term": "fotografija",
-    "status": "stub",
-    "language": "lt"
+    "status": "enriched",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "level": "A2",
+    "register": "general",
+    "translation": "photography; photograph",
+    "meanings": [
+      {
+        "definition": "Vaizdas, užfiksuotas fotoaparatu.",
+        "example": "Ši fotografija padaryta prie jūros.",
+        "register": "general",
+        "tags": [
+          "art",
+          "technology",
+          "A2"
+        ]
+      },
+      {
+        "definition": "Menas ar technika, susijusi su nuotraukų darymu.",
+        "example": "Ji studijuoja fotografiją universitete.",
+        "register": "general",
+        "tags": [
+          "art",
+          "A2"
+        ]
+      }
+    ],
+    "synonyms": [
+      "nuotrauka"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nuotrauka",
+      "fotoaparatas",
+      "menas"
+    ]
   },
   {
     "term": "partneris",

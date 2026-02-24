@@ -5257,6 +5257,7 @@ None.
 None.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## [2025-07-18] [relations-en-68] [vocab/relations-en-68]
 
 ### What went well
@@ -5280,6 +5281,27 @@ None.
 ### Process friction
 - None — the VOCAB-AGENT.md rubric and validator aligned well.
 >>>>>>> vocab/relations-lt-70
+=======
+---
+
+## Retrospective: vocab/enricher-lt-66
+
+**Date**: 2025-07-15
+**Agent**: LT Enricher Agent
+**Branch**: vocab/enricher-lt-66
+**Goal**: Enrich all remaining 41 Lithuanian stubs
+
+### What happened
+Enriched all 41 Lithuanian stubs in words_lt_staging.json. Categories covered: family (5), finance (3), animals (12), colors (3), household items (2), sports (3), literature (3), verbs (3), nature/geography (6), objects (1). All 3 verbs (skalbti, taisyti, rinkti) include forms and governedCase. Validation passed on first run with 0 errors across all 83 enriched entries.
+
+### What went well
+- All 41 stubs enriched in a single batch with zero validation errors.
+- Verb entries correctly included forms (present3, past3) and governedCase fields.
+- Existing enriched entry format was clear from approved examples in the file.
+
+### What could be improved
+- No issues encountered.
+>>>>>>> vocab/enricher-lt-66
 
 ### Suggested improvement
 - None.
