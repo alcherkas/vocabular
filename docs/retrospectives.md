@@ -4981,3 +4981,24 @@ Added synonyms, antonymTerms, and relatedTerms to 40 valid enriched LT entries. 
 ### Process notes
 - 108 further valid enriched entries remain unprocessed (the full valid set was 117; 40 processed this batch).
 - The validator `--errors-for relations-added` flag correctly scoped exit code to only the new batch.
+
+---
+## Retro — enricher-en-61 — $(date +%Y-%m-%d)
+
+**Agent:** English Vocab Enricher (enricher-en-61)
+**Branch:** vocab/enricher-en-61
+**Task:** Enrich 35 English stubs from words_staging.json
+
+### What was done
+Enriched 35 stubs spanning five thematic clusters: climate systems (positive/negative feedback loops, thermohaline circulation, ocean acidification, permafrost thaw, tipping point, carbon budget, methane clathrate, atmospheric river), climate policy and ecological economics (carbon pricing, cap-and-trade, Pigouvian tax, natural capital, green GDP, decoupling, circular economy, Kuznets curve, genuine progress indicator, tragedy of the commons), social theory (field theory, symbolic violence, governmentality, biopower, communicative action, structural functionalism, agency), postcolonial theory (hybridity, mimicry, orientalism, cultural hegemony, hyperreality, encoding/decoding), and psycholinguistics (phonological loop, lexical access, garden-path sentence). All entries received partOfSpeech, level (C1/C2), register, 1–2 meanings with definition, example, register, and tags.
+
+### What went well
+- Validation passed clean on first run (no errors requiring fixes).
+- Thematic clustering kept definitions consistent in register and framing within each domain.
+- Kept meanings concise (1–2 per entry) appropriate to C1/C2 level.
+
+### What could improve
+- The stubs had no pre-existing partOfSpeech or level hints, so all classification was from scratch; future seeding could include even minimal POS data to reduce enricher inference effort.
+
+### Blockers
+None.
