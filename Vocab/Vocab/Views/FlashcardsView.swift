@@ -268,6 +268,23 @@ struct FlashcardView: View {
                         .background(Color(.systemGray5))
                         .clipShape(Capsule())
                     
+                    if let forms = word.forms {
+                        Text("\(word.term), \(forms.present3), \(forms.past3)")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                            .italic()
+                        
+                        if let governedCase = word.governedCase {
+                            Text(governedCase)
+                                .font(.caption)
+                                .foregroundStyle(.orange)
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 4)
+                                .background(Color.orange.opacity(0.12))
+                                .clipShape(Capsule())
+                        }
+                    }
+                    
                     Text("Tap to flip")
                         .font(.caption)
                         .foregroundStyle(.tertiary)
