@@ -1,10 +1,10 @@
 [
   {
-    "term": "prieskonius",
+    "term": "prieskonis",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Augalinė medžiaga, naudojama maisto skoniui ir aromatui suteikti.",
@@ -19,19 +19,17 @@
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
-      "kvapas",
       "skonis",
-      "maistas"
+      "kvapas"
     ],
-    "translation": "spice",
-    "qa_notes": "Headword \"prieskonius\" is accusative plural; correct nominative singular is \"prieskonas\". Must fix term before re-enriching."
+    "translation": "spice"
   },
   {
     "term": "apsilankyti",
     "language": "lt",
     "partOfSpeech": "verb",
     "level": "A2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nuvykti į kokią nors vietą ar pas ką nors trumpam.",
@@ -55,17 +53,16 @@
     "translation": "to visit",
     "forms": {
       "present3": "apsilanko",
-      "past3": "aplankė"
+      "past3": "apsilankė"
     },
-    "governedCase": null,
-    "qa_notes": "past3 \"aplankė\" belongs to \"aplankyti\" (different verb); correct past3 of \"apsilankyti\" is \"apsilankė\"."
+    "governedCase": null
   },
   {
     "term": "pastaba",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B1",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Trumpas komentaras ar išlyga dėl ko nors.",
@@ -87,22 +84,21 @@
     ],
     "synonyms": [
       "komentaras",
-      "įžvalga"
+      "pastebėjimas"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "pažymėti",
-      "pastaboti"
+      "pastebėti",
+      "pažymėti"
     ],
-    "translation": "remark",
-    "qa_notes": "\"pastaboti\" in relatedTerms is not a real Lithuanian word; should be \"pastebėti\" or removed."
+    "translation": "remark"
   },
   {
     "term": "iššūkis",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "B2",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sunkus ar reikalaujantis pastangų uždavinys ar situacija.",
@@ -114,16 +110,15 @@
       }
     ],
     "synonyms": [
-      "uždavinys",
-      "sunkumas"
+      "išbandymas",
+      "uždavinys"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "iššūkti",
-      "kebli situacija"
+      "kliūtis",
+      "išmėginimas"
     ],
-    "translation": "challenge",
-    "qa_notes": "\"iššūkti\" in relatedTerms is not a standard Lithuanian verb; remove or replace with a real related word."
+    "translation": "challenge"
   },
   {
     "term": "diskutuoti",
