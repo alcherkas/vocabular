@@ -5500,3 +5500,12 @@ None.
 
 ### Blockers
 None.
+
+---
+
+### Relations-LT-75 — 2025-07-17
+
+**Agent**: LT Relations Agent (cycle 91)
+**Processed**: 3 enriched LT entries (grybas, uoga, pirštinė)
+**Issues**: All 3 had been QA-rejected for non-co-extensive synonyms (hypernym/hyponym used as synonym). Moved those terms to `relatedTerms`, set `synonyms: []`. Only 3 enriched entries were available — pipeline bottleneck is upstream (enricher).
+**Lesson**: When only a few entries are available, verify QA feedback carefully rather than rushing. The synonym quality rules (co-extensiveness test) are working well as a filter.
