@@ -2,7 +2,7 @@
   {
     "term": "Gricean maxim",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "One of the cooperative principles formulated by H. P. Grice—quantity, quality, relation, and manner—that govern rational communicative exchange.",
@@ -34,7 +34,7 @@
   {
     "term": "epistemic modality",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The grammatical or lexical expression of a speaker's degree of certainty, possibility, or necessity regarding the truth of a proposition.",
@@ -68,7 +68,7 @@
   {
     "term": "positive feedback loop",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A self-reinforcing cycle in which an initial change triggers further changes in the same direction, amplifying the original effect.",
@@ -94,12 +94,25 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "reinforcing feedback loop",
+      "self-reinforcing cycle"
+    ],
+    "antonymTerms": [
+      "negative feedback loop"
+    ],
+    "relatedTerms": [
+      "cascading effect",
+      "systems dynamics",
+      "runaway effect",
+      "amplification"
+    ]
   },
   {
     "term": "negative feedback loop",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A regulatory mechanism in which the output of a system counteracts the initial stimulus, stabilising the system around a set point.",
@@ -115,12 +128,25 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "balancing feedback loop",
+      "self-correcting feedback"
+    ],
+    "antonymTerms": [
+      "positive feedback loop"
+    ],
+    "relatedTerms": [
+      "homeostasis",
+      "cybernetics",
+      "regulatory mechanism",
+      "equilibrium"
+    ]
   },
   {
     "term": "thermohaline circulation",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The global ocean circulation driven by differences in seawater temperature and salinity, transporting heat and nutrients around the planet.",
@@ -136,12 +162,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "ocean conveyor belt",
+      "global ocean conveyor"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "deep water formation",
+      "Atlantic meridional overturning circulation",
+      "salinity gradient",
+      "climate regulation"
+    ]
   },
   {
     "term": "ocean acidification",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The ongoing decrease in the pH of Earth's oceans caused by absorption of carbon dioxide from the atmosphere.",
@@ -157,12 +194,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "seawater acidification",
+      "marine acidification"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pH decrease",
+      "carbonic acid",
+      "carbon dioxide absorption",
+      "marine chemistry"
+    ]
   },
   {
     "term": "permafrost thaw",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The melting of permanently frozen ground in polar and sub-polar regions, releasing stored carbon and methane as temperatures rise.",
@@ -178,12 +226,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "permafrost degradation",
+      "permafrost melt"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "methane release",
+      "carbon cycle",
+      "arctic warming",
+      "thermokarst"
+    ]
   },
   {
     "term": "tipping point",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A critical threshold at which a system undergoes a sudden, often irreversible shift to a new state.",
@@ -209,12 +268,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "general"
+    "register": "general",
+    "synonyms": [
+      "critical threshold",
+      "point of no return"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "positive feedback loop",
+      "bifurcation",
+      "regime shift",
+      "resilience"
+    ]
   },
   {
     "term": "carbon budget",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The maximum cumulative amount of carbon dioxide emissions permissible while still limiting global warming to a given temperature target.",
@@ -230,12 +300,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "emissions budget",
+      "remaining carbon allowance"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "greenhouse gas emissions",
+      "climate target",
+      "carbon accounting",
+      "net zero"
+    ]
   },
   {
     "term": "methane clathrate",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A crystalline solid in which methane molecules are trapped within a lattice of water ice, found in deep ocean sediments and permafrost.",
@@ -252,12 +333,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "methane hydrate",
+      "gas hydrate"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "permafrost thaw",
+      "greenhouse gas",
+      "clathrate gun hypothesis",
+      "carbon reservoir"
+    ]
   },
   {
     "term": "atmospheric river",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A narrow corridor of concentrated water vapour transport in the atmosphere, capable of carrying moisture comparable to the flow of a major river.",
@@ -273,12 +365,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "moisture plume",
+      "moisture corridor"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "precipitation",
+      "flooding",
+      "water vapor transport",
+      "jet stream"
+    ]
   },
   {
     "term": "carbon pricing",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A policy mechanism that assigns a monetary cost to greenhouse gas emissions, either through a tax or a cap-and-trade scheme, to incentivise reductions.",
@@ -295,12 +398,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "carbon charge",
+      "carbon levy"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "carbon tax",
+      "cap-and-trade",
+      "Pigouvian tax",
+      "climate policy"
+    ]
   },
   {
     "term": "cap-and-trade",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An emissions reduction policy that sets a limit on total pollution, issues tradable permits up to that limit, and allows firms to buy and sell allowances.",
@@ -317,12 +431,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "emissions trading scheme",
+      "carbon trading"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "carbon pricing",
+      "carbon offset",
+      "emissions permit",
+      "Pigouvian tax"
+    ]
   },
   {
     "term": "Pigouvian tax",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A corrective tax levied on activities that generate negative externalities, set equal to the marginal social cost of the harm, so that market prices reflect the true social cost.",
@@ -339,12 +464,24 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "Pigou tax",
+      "externality tax",
+      "corrective tax"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "carbon pricing",
+      "externality",
+      "market failure",
+      "cap-and-trade"
+    ]
   },
   {
     "term": "natural capital",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The world's stock of natural assets — including geology, soils, air, water, and living organisms — from which humans derive ecosystem services and economic value.",
@@ -360,12 +497,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "ecological capital",
+      "environmental capital"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ecosystem services",
+      "green GDP",
+      "genuine progress indicator",
+      "biodiversity"
+    ]
   },
   {
     "term": "green GDP",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A modified measure of national income that adjusts conventional GDP for environmental degradation and resource depletion.",
@@ -381,12 +529,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "adjusted GDP",
+      "eco-adjusted GDP"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "natural capital",
+      "genuine progress indicator",
+      "environmental economics",
+      "sustainability accounting"
+    ]
   },
   {
     "term": "decoupling",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The separation of economic growth from the growth of resource use or environmental impact, such that GDP rises while pollution or consumption falls.",
@@ -412,12 +571,23 @@
     ],
     "partOfSpeech": "noun",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "delinking",
+      "dematerialization"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "green growth",
+      "resource efficiency",
+      "circular economy",
+      "Kuznets curve"
+    ]
   },
   {
     "term": "circular economy",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An economic model that eliminates waste by keeping materials and products in use for as long as possible through reuse, repair, remanufacturing, and recycling.",
@@ -433,12 +603,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "closed-loop economy",
+      "regenerative economy"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "recycling",
+      "cradle-to-cradle",
+      "waste reduction",
+      "sustainability"
+    ]
   },
   {
     "term": "Kuznets curve",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A hypothetical relationship in which economic inequality first increases and then decreases as a country's per-capita income rises, forming an inverted-U shape.",
@@ -455,12 +636,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "environmental Kuznets curve",
+      "EKC"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "decoupling",
+      "income inequality",
+      "economic growth",
+      "environmental quality"
+    ]
   },
   {
     "term": "genuine progress indicator",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An alternative measure of economic welfare that adjusts GDP by adding the value of unpaid work and subtracting costs such as crime, pollution, and inequality.",
@@ -476,12 +668,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "GPI",
+      "adjusted economic welfare"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "green GDP",
+      "natural capital",
+      "GDP",
+      "sustainable development"
+    ]
   },
   {
     "term": "tragedy of the commons",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The tendency for shared, unregulated resources to be overexploited by individuals acting in self-interest, leading to depletion harmful to all.",
@@ -499,12 +702,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "general"
+    "register": "general",
+    "synonyms": [
+      "commons dilemma",
+      "collective action dilemma"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "common pool resource",
+      "externality",
+      "public goods",
+      "free-rider problem"
+    ]
   },
   {
     "term": "field theory",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In sociology, Pierre Bourdieu's framework analysing social life as a series of fields — structured spaces of positions — in which agents compete for forms of capital according to field-specific rules.",
@@ -532,12 +746,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "social field theory",
+      "Bourdieusian field theory"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "habitus",
+      "capital",
+      "social space",
+      "symbolic violence"
+    ]
   },
   {
     "term": "symbolic violence",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In Bourdieu's sociology, the subtle, often unconscious imposition of dominant cultural values and categories on subordinate groups, experienced as natural or legitimate rather than coercive.",
@@ -555,12 +780,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "symbolic domination",
+      "soft domination"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "habitus",
+      "field theory",
+      "cultural hegemony",
+      "power"
+    ]
   },
   {
     "term": "governmentality",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Foucault's term for the ensemble of practices, knowledges, and rationalities through which modern states and institutions shape and guide the conduct of populations.",
@@ -577,12 +813,23 @@
     ],
     "partOfSpeech": "noun",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "governmental rationality",
+      "technologies of governance"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "biopower",
+      "neoliberalism",
+      "discipline",
+      "power/knowledge"
+    ]
   },
   {
     "term": "biopower",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Foucault's concept describing the modern form of political power that takes the administration, regulation, and optimisation of human life and populations as its primary object.",
@@ -599,12 +846,23 @@
     ],
     "partOfSpeech": "noun",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "bio-politics",
+      "disciplinary power"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "governmentality",
+      "biopolitics",
+      "discipline",
+      "population control"
+    ]
   },
   {
     "term": "communicative action",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Habermas's concept of social action oriented towards mutual understanding and rational consensus through language, as distinguished from strategic action aimed at success.",
@@ -622,12 +880,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "dialogic action",
+      "discourse action"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "public sphere",
+      "deliberative democracy",
+      "lifeworld",
+      "discourse ethics"
+    ]
   },
   {
     "term": "structural functionalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A sociological perspective that views society as a complex system whose parts work together to promote stability and social order, each institution fulfilling necessary functions.",
@@ -644,12 +913,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "functionalism",
+      "functionalist sociology"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "social system",
+      "agency",
+      "social structure",
+      "sociology"
+    ]
   },
   {
     "term": "agency",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In social theory, the capacity of individuals or groups to act independently and make their own choices, as opposed to being wholly determined by social structures.",
@@ -676,12 +956,23 @@
     ],
     "partOfSpeech": "noun",
     "level": "C1",
-    "register": "general"
+    "register": "general",
+    "synonyms": [
+      "agentive capacity",
+      "intentional action"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "structure-agency debate",
+      "social structure",
+      "intentionality",
+      "autonomy"
+    ]
   },
   {
     "term": "hybridity",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In postcolonial theory, the creation of new cultural forms that emerge in colonial and diasporic encounters, unsettling fixed notions of identity and cultural purity.",
@@ -698,12 +989,23 @@
     ],
     "partOfSpeech": "noun",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "in-between-ness",
+      "third space identity"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mimicry",
+      "postcolonialism",
+      "third space",
+      "cultural identity"
+    ]
   },
   {
     "term": "mimicry",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In postcolonial theory, the colonised subject's imitation of the coloniser's culture, language, or manners — an ambivalent process that simultaneously reproduces and subtly undermines colonial authority.",
@@ -730,12 +1032,23 @@
     ],
     "partOfSpeech": "noun",
     "level": "C1",
-    "register": "general"
+    "register": "general",
+    "synonyms": [
+      "imitative ambivalence",
+      "colonial imitation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "hybridity",
+      "postcolonialism",
+      "ambivalence",
+      "orientalism"
+    ]
   },
   {
     "term": "orientalism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Edward Said's concept describing the Western tradition of representing the Arab and Islamic world as exotic, backward, and inferior — a discourse that legitimised and reproduced colonial power.",
@@ -753,12 +1066,23 @@
     ],
     "partOfSpeech": "noun",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "Western bias",
+      "Eurocentric discourse"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "postcolonialism",
+      "othering",
+      "cultural hegemony",
+      "imperialism"
+    ]
   },
   {
     "term": "cultural hegemony",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gramsci's concept describing the domination of a culturally diverse society by a ruling class that imposes its worldview as the universal common sense, achieved through consent rather than coercion.",
@@ -776,12 +1100,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "hegemony",
+      "ideological domination"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "symbolic violence",
+      "ideology",
+      "counter-hegemony",
+      "power"
+    ]
   },
   {
     "term": "hyperreality",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Baudrillard's concept describing a condition in which simulations and representations of reality have replaced or become more real than the original referent, making the distinction between real and simulation impossible.",
@@ -799,12 +1134,23 @@
     ],
     "partOfSpeech": "noun",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "simulation reality",
+      "simulacral reality"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "simulacrum",
+      "simulation",
+      "postmodernism",
+      "media studies"
+    ]
   },
   {
     "term": "encoding/decoding",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Stuart Hall's model of media communication in which messages are produced (encoded) by media institutions according to dominant ideologies, and interpreted (decoded) by audiences who may accept, negotiate, or reject the preferred meaning.",
@@ -822,12 +1168,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "media encoding",
+      "message encoding"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "media studies",
+      "representation",
+      "reception theory",
+      "semiotics"
+    ]
   },
   {
     "term": "phonological loop",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A component of Baddeley's working memory model that stores and rehearses verbal and phonological information through a temporary acoustic store and an articulatory rehearsal process.",
@@ -844,12 +1201,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "articulatory loop",
+      "phonological buffer"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "working memory",
+      "visuospatial sketchpad",
+      "central executive",
+      "short-term memory"
+    ]
   },
   {
     "term": "lexical access",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The cognitive process by which a speaker or listener retrieves a word's phonological form, meaning, and grammatical properties from the mental lexicon during language production or comprehension.",
@@ -865,12 +1233,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "word retrieval",
+      "lexical retrieval"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mental lexicon",
+      "word recognition",
+      "semantic priming",
+      "lexical processing"
+    ]
   },
   {
     "term": "garden-path sentence",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A grammatically correct sentence that initially leads the reader towards a mistaken parse, requiring reanalysis upon reaching later words.",
@@ -887,12 +1266,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "temporarily ambiguous sentence",
+      "misparse sentence"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "syntactic parsing",
+      "reanalysis",
+      "ambiguity",
+      "psycholinguistics"
+    ]
   },
   {
     "term": "semantic priming",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A phenomenon in psycholinguistics where exposure to one word or concept facilitates the processing of a semantically related word, measured as reduced reaction time.",
@@ -918,12 +1308,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "associative priming",
+      "lexical priming"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "lexical access",
+      "spreading activation",
+      "mental lexicon",
+      "cognitive priming"
+    ]
   },
   {
     "term": "morphological parsing",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The process by which a reader or listener decomposes a word into its constituent morphemes (roots, prefixes, suffixes) to extract meaning.",
@@ -949,12 +1350,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "morphological analysis",
+      "morphological decomposition"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "morphology",
+      "inflection",
+      "lexical access",
+      "affix"
+    ]
   },
   {
     "term": "syntactic bootstrapping",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A language acquisition hypothesis proposing that children use their knowledge of syntactic structure to infer the meanings of novel words.",
@@ -970,12 +1382,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "structural bootstrapping",
+      "syntactic priming"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "language acquisition",
+      "verb learning",
+      "syntax",
+      "word learning"
+    ]
   },
   {
     "term": "critical period hypothesis",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The theory that there is a biologically determined window in early childhood during which language acquisition proceeds naturally and efficiently, and after which full native-like attainment becomes extremely difficult.",
@@ -1001,12 +1424,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "sensitive period hypothesis",
+      "maturational constraints hypothesis"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "language acquisition",
+      "second language acquisition",
+      "age effects",
+      "language transfer"
+    ]
   },
   {
     "term": "language transfer",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The influence that a speaker's knowledge of one language exerts on the production or comprehension of another language, which may be positive (facilitative) or negative (interfering).",
@@ -1031,12 +1465,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "linguistic transfer",
+      "cross-linguistic influence"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "interference",
+      "second language acquisition",
+      "code-switching",
+      "fossilization"
+    ]
   },
   {
     "term": "code-switching",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The practice of alternating between two or more languages or language varieties within a single conversation or utterance, common among multilingual speakers.",
@@ -1062,12 +1507,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "code-mixing",
+      "language alternation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bilingualism",
+      "language transfer",
+      "diglossia",
+      "multilingualism"
+    ]
   },
   {
     "term": "prototype effect",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The cognitive phenomenon whereby certain members of a category are judged to be more representative or typical than others, affecting the speed and accuracy of categorization.",
@@ -1083,12 +1539,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "prototype theory",
+      "typicality effect"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "category membership",
+      "typicality",
+      "family resemblance",
+      "graded membership"
+    ]
   },
   {
     "term": "universal instantiation",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A rule of inference in predicate logic stating that if a statement is true for all members of a domain, it is true for any particular member of that domain.",
@@ -1104,12 +1571,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "universal elimination",
+      "forall-elimination"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "predicate logic",
+      "first-order logic",
+      "quantifier",
+      "existential generalization"
+    ]
   },
   {
     "term": "existential generalization",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A rule of inference in predicate logic that allows one to conclude that there exists at least one entity with a given property if a specific instance of that property has been established.",
@@ -1125,12 +1603,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "existential introduction",
+      "there-exists introduction"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "predicate logic",
+      "first-order logic",
+      "quantifier",
+      "universal instantiation"
+    ]
   },
   {
     "term": "De Morgan laws",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A pair of logical equivalences stating that the negation of a conjunction is the disjunction of the negations, and the negation of a disjunction is the conjunction of the negations: ¬(A∧B) ≡ ¬A∨¬B and ¬(A∨B) ≡ ¬A∧¬B.",
@@ -1156,12 +1645,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "De Morgan theorems",
+      "De Morgan rules"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "boolean algebra",
+      "propositional logic",
+      "negation",
+      "disjunction"
+    ]
   },
   {
     "term": "disjunctive syllogism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A valid argument form in propositional logic: given that at least one of two propositions is true and one is false, the other must be true (P∨Q; ¬P; therefore Q).",
@@ -1177,12 +1677,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "modus tollendo ponens",
+      "elimination of disjunction"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "propositional calculus",
+      "disjunction",
+      "modus ponens",
+      "hypothetical syllogism"
+    ]
   },
   {
     "term": "hypothetical syllogism",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A valid inference rule in propositional logic: if P implies Q and Q implies R, then P implies R (chain rule of conditionals).",
@@ -1198,12 +1709,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "chain argument",
+      "chain reasoning"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "disjunctive syllogism",
+      "modus ponens",
+      "material conditional",
+      "propositional calculus"
+    ]
   },
   {
     "term": "contrapositive",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The logical equivalent of a conditional statement formed by negating both the antecedent and consequent and reversing their order: the contrapositive of 'If P then Q' is 'If not Q then not P'.",
@@ -1219,12 +1741,23 @@
     ],
     "partOfSpeech": "noun",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "contraposition",
+      "transposition"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "material conditional",
+      "logical equivalence",
+      "modus tollens",
+      "converse"
+    ]
   },
   {
     "term": "material conditional",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The standard logical connective representing 'if P then Q', defined as false only when P is true and Q is false, and true in all other cases.",
@@ -1240,12 +1773,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "material implication",
+      "logical implication"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "contrapositive",
+      "hypothetical syllogism",
+      "propositional calculus",
+      "modus ponens"
+    ]
   },
   {
     "term": "first-order logic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formal logical system that extends propositional logic with quantifiers (∀, ∃) and predicates over individual variables, allowing statements about objects in a domain.",
@@ -1261,12 +1805,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "first-order predicate calculus",
+      "predicate logic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "predicate calculus",
+      "second-order logic",
+      "quantifier",
+      "propositional calculus"
+    ]
   },
   {
     "term": "second-order logic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A logical system that extends first-order logic by allowing quantification over predicates and relations, not just over individual objects.",
@@ -1282,12 +1837,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "second-order predicate logic",
+      "higher-order logic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "first-order logic",
+      "predicate calculus",
+      "quantifier",
+      "mathematical logic"
+    ]
   },
   {
     "term": "predicate calculus",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Another name for first-order logic; a formal deductive system that uses predicates, variables, quantifiers, and connectives to represent and reason about statements involving objects.",
@@ -1303,12 +1869,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "predicate logic",
+      "first-order predicate calculus"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "first-order logic",
+      "propositional calculus",
+      "quantifier",
+      "second-order logic"
+    ]
   },
   {
     "term": "propositional calculus",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A branch of symbolic logic dealing with propositions and their combinations using connectives (¬, ∧, ∨, →, ↔), without reference to their internal structure.",
@@ -1324,12 +1901,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "propositional logic",
+      "sentential logic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "predicate calculus",
+      "first-order logic",
+      "De Morgan laws",
+      "Boolean algebra"
+    ]
   },
   {
     "term": "homotopy",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A continuous deformation between two continuous functions sharing the same domain and codomain, used to classify topological spaces up to continuous transformation.",
@@ -1355,12 +1943,23 @@
     ],
     "partOfSpeech": "noun",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "homotopic deformation",
+      "continuous deformation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "homeomorphic",
+      "continuous function",
+      "topological space",
+      "algebraic topology"
+    ]
   },
   {
     "term": "compactness",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A topological property of a space in which every open cover has a finite subcover, generalizing the notion of a closed and bounded set in Euclidean space.",
@@ -1386,12 +1985,23 @@
     ],
     "partOfSpeech": "noun",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "finite cover property",
+      "sequential compactum"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "open cover",
+      "topological space",
+      "metric space",
+      "closed set"
+    ]
   },
   {
     "term": "connectedness",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A topological property of a space that cannot be partitioned into two disjoint non-empty open sets; the space forms a single 'piece'.",
@@ -1407,12 +2017,23 @@
     ],
     "partOfSpeech": "noun",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "path-connectedness",
+      "topological continuity"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "topological space",
+      "continuous function",
+      "open set",
+      "metric space"
+    ]
   },
   {
     "term": "Hausdorff space",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A topological space in which any two distinct points have disjoint open neighbourhoods, ensuring that limits of sequences are unique.",
@@ -1428,12 +2049,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "T2 space",
+      "separated space"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "topological space",
+      "metric space",
+      "separation axiom",
+      "compactness"
+    ]
   },
   {
     "term": "metric space",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A set equipped with a distance function (metric) that assigns a non-negative real number to each pair of elements and satisfies the axioms of non-negativity, identity, symmetry, and the triangle inequality.",
@@ -1449,12 +2081,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "distance space",
+      "metric topology"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "topological space",
+      "Hausdorff space",
+      "open set",
+      "normed space"
+    ]
   },
   {
     "term": "open set",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A fundamental concept in topology: a subset of a topological space that belongs to the topology, intuitively meaning that every point in the set has a neighbourhood entirely contained within the set.",
@@ -1470,12 +2113,25 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "open region",
+      "open neighborhood"
+    ],
+    "antonymTerms": [
+      "closed set"
+    ],
+    "relatedTerms": [
+      "topological space",
+      "metric space",
+      "neighborhood",
+      "topology"
+    ]
   },
   {
     "term": "topological space",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A set together with a collection of subsets designated as 'open', satisfying axioms that generalize the notion of nearness and continuity without requiring a metric.",
@@ -1491,12 +2147,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "topological structure",
+      "point-set topology"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "open set",
+      "metric space",
+      "homeomorphic",
+      "Hausdorff space"
+    ]
   },
   {
     "term": "continuous function",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A function between topological spaces such that the preimage of every open set in the codomain is an open set in the domain; informally, small changes in input produce small changes in output.",
@@ -1523,12 +2190,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "continuous map",
+      "continuous mapping"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "topological space",
+      "homeomorphic",
+      "metric space",
+      "homotopy"
+    ]
   },
   {
     "term": "homeomorphic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Describing two topological spaces that are topologically equivalent, i.e., there exists a bijective continuous function between them whose inverse is also continuous.",
@@ -1544,12 +2222,23 @@
     ],
     "partOfSpeech": "adjective",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "topologically equivalent",
+      "bicontinuous"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "continuous function",
+      "topological space",
+      "homotopy",
+      "topology"
+    ]
   },
   {
     "term": "prime factorization",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The representation of a composite integer as a product of prime numbers, unique up to order by the fundamental theorem of arithmetic.",
@@ -1565,12 +2254,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "integer factorization",
+      "prime decomposition"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "fundamental theorem of arithmetic",
+      "prime number",
+      "modular arithmetic",
+      "number theory"
+    ]
   },
   {
     "term": "modular arithmetic",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A system of arithmetic for integers in which numbers 'wrap around' upon reaching a fixed value called the modulus, so that two numbers are equivalent if their difference is divisible by the modulus.",
@@ -1597,12 +2297,23 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C1",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "clock arithmetic",
+      "congruence arithmetic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "prime factorization",
+      "Fermat little theorem",
+      "number theory",
+      "congruence"
+    ]
   },
   {
     "term": "Fermat little theorem",
     "language": "en",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A theorem in number theory stating that if p is prime and a is an integer not divisible by p, then aᵖ⁻¹ ≡ 1 (mod p).",
@@ -1618,6 +2329,17 @@
     ],
     "partOfSpeech": "phrase",
     "level": "C2",
-    "register": "technical"
+    "register": "technical",
+    "synonyms": [
+      "Fermat primality criterion",
+      "little Fermat theorem"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "modular arithmetic",
+      "prime number",
+      "prime factorization",
+      "number theory"
+    ]
   }
 ]
