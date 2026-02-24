@@ -62,34 +62,15 @@ cd ../vocabular-wt-seeder-en
 
 **Staging file**: `Vocab/Vocab/Resources/words_lt_staging.json`
 
-### First-time bootstrap (run once)
+### Bootstrap (completed)
 
-The word list in `lt.txt` is the authoritative seed source for LT vocabulary.
-Run this once to populate the staging file from it:
-
-```bash
-python3 scripts/seed_lt.py
-```
-
-This creates ~1760 stubs in `words_lt_staging.json`. Commit the result:
-
-```bash
-git add Vocab/Vocab/Resources/words_lt_staging.json
-git commit -m "vocab(seed-lt): bootstrap 1760 stubs from lt.txt"
-```
+The initial ~1760 LT terms have been seeded from `lt.txt` (now removed — all terms are in staging/production). The `scripts/seed_lt.py` script is no longer needed for bootstrapping.
 
 ### Adding new LT terms (ongoing)
 
-After the bootstrap, the LT Seeder only adds terms that are **not** already in lt.txt or staging.
-If you have new A1/A2 Lithuanian terms to add, append them to `lt.txt` first, then re-run:
+To add new A1/A2 Lithuanian terms, create stubs directly in `words_lt_staging.json` following the stub format below. Check that the term doesn't already exist in production (`words_lt.json`) or staging.
 
-```bash
-python3 scripts/seed_lt.py
-git add lt.txt Vocab/Vocab/Resources/words_lt_staging.json
-git commit -m "vocab(seed-lt): add N new stubs from lt.txt"
-```
-
-**Term capitalisation rule**: LT `term` values must be **all-lowercase**, except genuine proper nouns (place names, person names). Common nouns, verbs, adjectives must start with a lowercase letter even if source materials capitalise them (e.g. `autobusas`, not `Autobusas`). `scripts/seed_lt.py` lowercases terms automatically; if adding stubs manually, apply `term.lower()` unless the term is a proper noun.
+**Term capitalisation rule**: LT `term` values must be **all-lowercase**, except genuine proper nouns (place names, person names). Common nouns, verbs, adjectives must start with a lowercase letter even if source materials capitalise them (e.g. `autobusas`, not `Autobusas`).
 
 ---
 
