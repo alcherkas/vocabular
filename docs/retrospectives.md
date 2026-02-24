@@ -4795,3 +4795,27 @@ All 162 staging entries passed `validate_words.py --errors-for enriched`. Zero s
 
 **Stubs remaining:** 98
 >>>>>>> vocab/enricher-lt-68
+
+---
+
+## Retro: vocab/relations-en-58 — EN Relations Agent (2025-01)
+
+**Role**: Relations Agent (English)
+**Branch**: vocab/relations-en-58
+**Entries processed**: 127 enriched EN entries → status: relations-added
+
+### What went well
+- All 127 entries processed in a single session with 0 validation errors on final pass.
+- Pre-check logic caught self-reference and cross-array duplicate issues before writing to disk on the second attempt.
+- The two-pass approach (pre-check + apply) proved effective for catching subtle substring self-references (e.g., "structuralism" in "poststructuralism", "comedy" in "tragicomedy", "latitude" in "parallels of latitude").
+
+### What was tricky
+- Substring-based self-reference check is stricter than expected: many seemingly valid synonyms were flagged (e.g., "topological manifold" for "manifold", "intertemporal discounting" for "temporal discounting", "coevolutionary dynamics" for "coevolution"). Required creative replacement synonyms for highly specific technical terms.
+- First script run saved the file even when pre-check found errors (no early exit was set). Had to re-apply with a fix to also update `relations-added` status entries.
+- Some terms genuinely lack co-extensive synonyms (e.g., eutectic, longitude, manifold) — used minimal but accurate descriptive synonyms rather than adding inaccurate ones.
+- For "poststructuralism", the canonical antonym "structuralism" is flagged as self-referential (substring match), so moved it to relatedTerms as "Saussurean linguistics" instead.
+
+### Process improvements suggested
+- The pre-check script should exit(1) immediately on errors, not after writing the file.
+- Consider adding a `--dry-run` option to the validate script to test before applying.
+- The substring self-reference rule should be documented more prominently in VOCAB-AGENT.md with concrete examples (compound terms are especially prone to this).
