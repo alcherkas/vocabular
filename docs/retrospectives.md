@@ -5104,3 +5104,33 @@ Enriched all 100 English stubs in `words_staging.json`. Each entry received: `pa
 
 ### Blockers
 None.
+
+---
+
+## Retro — vocab/qa-lt-65 + vocab/relations-lt-67 (LT QA & Relations)
+
+**Date:** 2025-07-25
+**Agent:** Copilot (QA + Relations)
+**Branches:** vocab/qa-lt-65, vocab/relations-lt-67
+
+### What was done
+**Job 1 — QA batch 65:** Reviewed 13 LT `relations-added` entries.
+- Approved 11 entries: kaimynė, konfliktas, ginčas, nesutarimas, susitaikymas, išdavystė, susipykti, giminaitis, giminaitė, partneris, partnerė.
+- Rejected 2 entries (reset to `enriched`): `ausų` (genitive plural form, not nominative singular — correct headword is `ausis`) and `santykiai` (plural nominative, not nominative singular — correct headword is `santykis`).
+- Removed stale `qa_notes` from approved entries. Validation passed (100 approved words valid).
+
+**Job 2 — Relations batch 67:** Added relations to 2 LT `enriched` phrase entries (`yra apsirengęs`, `yra apsirengusi`).
+- Both are stative phrases (partOfSpeech: `phrase`); no verb forms required.
+- Added `relatedTerms` pointing to `apsirengti`, `apranga`, `drabužiai`, and each other's paired phrase.
+- Validation passed (15 `relations-added` words valid).
+
+### What went well
+- Form-checking criteria caught two real headword errors: genitive plural (`ausų`) and plural nominative (`santykiai`).
+- Stale `qa_notes` with "REJECTED" labels were cleaned up, preventing confusion in future QA passes.
+- Phrase-type entries required no verb forms, simplifying the relations step.
+
+### What could be improved
+- Headword normalisation (nominative singular) should ideally be enforced at the stub/enricher stage rather than caught at QA.
+
+### Blockers
+None.
