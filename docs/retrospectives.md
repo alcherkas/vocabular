@@ -5411,6 +5411,7 @@ None.
 ### Blockers
 None.
 
+<<<<<<< HEAD
 ## [2025-07-18] relations-agent vocab/relations-en-69
 
 ### What went well
@@ -5425,6 +5426,16 @@ None.
 
 ### Suggested improvement
 - The enricher could avoid pre-populating relation arrays to prevent cross-array duplicates that the relations agent must then fix.
+=======
+## [2025-07-17] enricher-lt-68 vocab/enricher-lt-68
+
+### What went well
+- Enriched 40 LT stubs in a single batch with zero validation errors on first run.
+- All entries are nouns with consistent structure: Lithuanian definitions, natural example sentences, topic+level tags.
+
+### What could improve
+- Some stub terms (e.g., "rieša") may not be standard nominative forms; upstream seeder should verify headword forms before creating stubs.
+>>>>>>> vocab/enricher-lt-68
 
 ### Blockers
 None.
