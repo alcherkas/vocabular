@@ -67,25 +67,27 @@ def main():
         # We infer: if QA set it to approved, it was reviewing relations-added
         # If QA set it to enriched (rejection), it was reviewing relations-added
 
-        qa_reviewed = qa_status in ("approved", "enriched") and cur_status == "relations-added"
-
-        if not qa_reviewed:
-            # Skip: either QA didn't review this entry, or main has moved it past relations-added
-            skipped += 1
-            continue
-
-        if qa_status == "approved":
-            # QA approved — advance
-            word.update(
-                {k: qw[k] for k in ["status", "synonyms", "antonymTerms", "relatedTerms", "qa_notes"] if k in qw}
-            )
-            approved += 1
-        elif qa_status == "enriched":
-            # QA rejected — reset to enriched only if we're still at relations-added
-            word["status"] = "enriched"
-            if "qa_notes" in qw:
+        # QA actively reviewed an entry if:
+        # - it set it to "approved" (clear intent), OR
+        # - it set it to "enriched" AND left qa_notes (explicit rejection note)
+        # If QA shows "enriched" with no qa_notes, it just didn't touch the entry
+        # (stale snapshot from before another agent advanced it to relations-added)
+        if cur_status == "relations-added":
+            if qa_status == "approved":
+                word.update(
+                    {k: qw[k] for k in ["status", "synonyms", "antonymTerms", "relatedTerms", "qa_notes"] if k in qw}
+                )
+                approved += 1
+            elif qa_status == "enriched" and qw.get("qa_notes"):
+                # Explicit rejection with notes
+                word["status"] = "enriched"
                 word["qa_notes"] = qw["qa_notes"]
-            rejected += 1
+                rejected += 1
+            else:
+                # Unreviewed (stale snapshot) — leave unchanged
+                skipped += 1
+        else:
+            skipped += 1
 
     with open(staging_file, "w") as f:
         json.dump(main_data, f, indent=2, ensure_ascii=False)
