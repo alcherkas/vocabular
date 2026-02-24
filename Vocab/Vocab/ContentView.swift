@@ -25,6 +25,7 @@ struct ContentView: View {
                 WordService.migrateExistingWords(context: context)
                 WordService.loadWords(language: "en", resourceName: "words", into: context)
                 WordService.loadWords(language: "lt", resourceName: "words_lt", into: context)
+                WordService.migrateVerbForms(language: "lt", resourceName: "words_lt", context: context)
                 hasLoadedWords = true
             }
         }

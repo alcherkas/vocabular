@@ -127,4 +127,37 @@ class WordService {
             }
         }
     }
+
+    /// Backfills verb forms and governedCase from bundled JSON for existing words missing them.
+    static func migrateVerbForms(language: String, resourceName: String, context: ModelContext) {
+        let emptyData = Data()
+        let descriptor = FetchDescriptor<Word>(predicate: #Predicate {
+            $0.language == language && $0.formsData == emptyData
+        })
+        guard let words = try? context.fetch(descriptor), !words.isEmpty else { return }
+
+        // Build lookup from JSON
+        guard let url = Bundle.main.url(forResource: resourceName, withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let jsonWords = try? JSONDecoder().decode([WordData].self, from: data) else { return }
+
+        var formsLookup: [String: (WordForms, String?)] = [:]
+        for wd in jsonWords {
+            if let forms = wd.forms {
+                formsLookup[wd.term] = (forms, wd.governedCase)
+            }
+        }
+
+        var updated = 0
+        for word in words {
+            if let (forms, govCase) = formsLookup[word.term] {
+                word.forms = forms
+                word.governedCase = govCase
+                updated += 1
+            }
+        }
+        if updated > 0 {
+            print("WordService: Migrated verb forms for \(updated) \(language) words")
+        }
+    }
 }
