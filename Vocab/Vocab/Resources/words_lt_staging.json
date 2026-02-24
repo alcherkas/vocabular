@@ -3618,7 +3618,7 @@
     "term": "kaimynė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female person who lives next door or nearby; a female neighbour.",
@@ -3633,7 +3633,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kaimynas",
+      "kaimynystė",
+      "bendruomenė",
+      "gatvė"
+    ],
     "translation": "neighbour (female)",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3641,7 +3646,7 @@
     "term": "konfliktas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A serious disagreement or argument between people or groups; a conflict.",
@@ -3665,8 +3670,16 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "taika",
+      "susitarimas"
+    ],
+    "relatedTerms": [
+      "ginčas",
+      "nesutarimas",
+      "susitaikymas",
+      "susipykti"
+    ],
     "translation": "conflict",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3674,7 +3687,7 @@
     "term": "ginčas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A verbal disagreement or quarrel between two or more people; an argument.",
@@ -3688,8 +3701,15 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "sutarimas"
+    ],
+    "relatedTerms": [
+      "konfliktas",
+      "nesutarimas",
+      "susipykti",
+      "diskusija"
+    ],
     "translation": "argument, quarrel",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3697,7 +3717,7 @@
     "term": "nesutarimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A failure to agree; a difference of opinion or perspective between people.",
@@ -3711,8 +3731,15 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "sutarimas"
+    ],
+    "relatedTerms": [
+      "ginčas",
+      "konfliktas",
+      "susitaikymas",
+      "diskusija"
+    ],
     "translation": "disagreement",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3720,7 +3747,7 @@
     "term": "susitaikymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The process of restoring harmony and friendly relations after a quarrel or conflict; reconciliation.",
@@ -3734,8 +3761,15 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "konfliktas"
+    ],
+    "relatedTerms": [
+      "atleidimas",
+      "taika",
+      "susitarimas",
+      "nesutarimas"
+    ],
     "translation": "reconciliation",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3743,7 +3777,7 @@
     "term": "išdavystė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The act of betraying someone's trust or loyalty; treachery or betrayal.",
@@ -3768,8 +3802,15 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "ištikimybė"
+    ],
+    "relatedTerms": [
+      "pasitikėjimas",
+      "lojalumas",
+      "apgaulė",
+      "neištikimybė"
+    ],
     "translation": "betrayal, treachery",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3777,7 +3818,7 @@
     "term": "susipykti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To have a quarrel or argument; to fall out with someone.",
@@ -3791,8 +3832,15 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "susitaikinti"
+    ],
+    "relatedTerms": [
+      "ginčas",
+      "konfliktas",
+      "susitaikymas",
+      "nesutarimas"
+    ],
     "translation": "to quarrel, to fall out",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3800,7 +3848,7 @@
     "term": "giminaitis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male person related to someone by blood or marriage; a (male) relative or kinsman.",
@@ -3815,7 +3863,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "giminaitė",
+      "šeima",
+      "giminė",
+      "artimieji"
+    ],
     "translation": "relative (male), kinsman",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3823,7 +3876,7 @@
     "term": "giminaitė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female person related to someone by blood or marriage; a (female) relative or kinswoman.",
@@ -3838,7 +3891,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "giminaitis",
+      "šeima",
+      "giminė",
+      "artimieji"
+    ],
     "translation": "relative (female), kinswoman",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3846,7 +3904,7 @@
     "term": "santykiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The way in which two or more people or groups feel about and behave towards each other; relations.",
@@ -3871,7 +3929,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "partneris",
+      "partnerė",
+      "ryšiai",
+      "draugystė"
+    ],
     "translation": "relations, relationship",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries. Also: plural form used; nominative singular is 'santykis'."
   },
@@ -3879,7 +3942,7 @@
     "term": "partneris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A male person who shares an activity or relationship with another; a romantic or life partner (male).",
@@ -3903,7 +3966,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "partnerė",
+      "santykiai",
+      "draugas",
+      "sutuoktinis"
+    ],
     "translation": "partner (male)",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   },
@@ -3911,7 +3979,7 @@
     "term": "partnerė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A female person who shares an activity or relationship with another; a romantic or life partner (female).",
@@ -3935,7 +4003,12 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "partneris",
+      "santykiai",
+      "draugė",
+      "sutuoktinė"
+    ],
     "translation": "partner (female)",
     "qa_notes": "REJECTED: relatedTerms is empty; at least 1 related term required for non-proper-noun entries."
   }
