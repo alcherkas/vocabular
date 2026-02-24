@@ -135,11 +135,11 @@ def validate_relations(word: dict, idx: int, errors: list):
     for v_lower, fields in cross_seen.items():
         if len(fields) > 1:
             errors.append(f"[{idx}] '{word.get('term')}': '{v_lower}' appears in multiple relation arrays ({', '.join(fields)}) — remove cross-array duplicate")
-    # EN words should have at least some synonyms
+    # EN words: synonyms must be [] (none found) or have at least 2 co-extensive entries
     if word.get("language") == "en":
         synonyms = word.get("synonyms", [])
-        if len(synonyms) < 2:
-            errors.append(f"[{idx}] '{word.get('term')}': EN word should have at least 2 synonyms, found {len(synonyms)}")
+        if len(synonyms) == 1:
+            errors.append(f"[{idx}] '{word.get('term')}': EN word must have 0 or at least 2 synonyms, found 1")
 
 
 def validate_production(word: dict, idx: int, errors: list):
