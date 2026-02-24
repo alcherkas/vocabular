@@ -63,7 +63,7 @@
     "term": "ausų",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Genitive plural form of 'ausis' (ear); used in compound expressions meaning 'of ears' or 'ear-'.",
@@ -134,7 +134,7 @@
     "term": "keleiviai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, kuris keliauja transporto priemone, bet jos nevairuoja.",
@@ -1428,7 +1428,7 @@
     "term": "nors",
     "language": "lt",
     "partOfSpeech": "conjunction",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Jungtinis jungiamasis žodis, reiškiantis nuolaidą arba priešpriešą.",
@@ -1442,7 +1442,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "bet",
+      "tačiau",
+      "kadangi"
+    ],
     "translation": "although, though",
     "tags": [
       "B1"
@@ -1452,7 +1456,7 @@
   },
   {
     "term": "arbūzas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -1472,11 +1476,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "vaisius",
+      "melionas",
+      "sėkla"
+    ]
   },
   {
     "term": "avokadas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1496,11 +1504,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "vaisius",
+      "salotos",
+      "riebalai"
+    ]
   },
   {
     "term": "ananasas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1520,11 +1532,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "vaisius",
+      "sultys",
+      "tropinis"
+    ]
   },
   {
     "term": "persikas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -1544,11 +1560,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "vaisius",
+      "abrikosas",
+      "nektarinas"
+    ]
   },
   {
     "term": "abrikosas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1568,11 +1588,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "vaisius",
+      "persikas",
+      "džemas"
+    ]
   },
   {
     "term": "imbieras",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1592,11 +1616,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "prieskonius",
+      "arbata",
+      "šaknis"
+    ]
   },
   {
     "term": "rozmarinas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1616,11 +1644,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "prieskonius",
+      "žolelė",
+      "kvapas"
+    ]
   },
   {
     "term": "špinatai",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1640,11 +1672,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "daržovė",
+      "salotos",
+      "lapas"
+    ]
   },
   {
     "term": "kukurūzas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1664,11 +1700,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "grūdas",
+      "javai",
+      "burbuolė"
+    ]
   },
   {
     "term": "lęšis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1688,11 +1728,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "ankštiniai",
+      "sriuba",
+      "pupelė"
+    ]
   },
   {
     "term": "džemas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -1709,13 +1753,19 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "uogienė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "uoga",
+      "cukrus",
+      "duona"
+    ]
   },
   {
     "term": "paukštiena",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1735,11 +1785,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "vištiena",
+      "mėsa",
+      "paukštis"
+    ]
   },
   {
     "term": "aviena",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1759,11 +1813,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "avis",
+      "mėsa",
+      "ėriena"
+    ]
   },
   {
     "term": "vaflis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1783,11 +1841,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "kepinys",
+      "blynai",
+      "desertas"
+    ]
   },
   {
     "term": "kruasanas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1807,11 +1869,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "kepinys",
+      "sviestas",
+      "tešla"
+    ]
   },
   {
     "term": "mango",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1831,11 +1897,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "vaisius",
+      "tropinis",
+      "sultys"
+    ]
   },
   {
     "term": "motoroleris",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1854,11 +1924,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "motociklas",
+      "dviratis",
+      "transportas"
+    ]
   },
   {
     "term": "sunkvežimis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1877,11 +1951,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "krovinys",
+      "vairuotojas",
+      "automobilis"
+    ]
   },
   {
     "term": "sraigtasparnis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1900,11 +1978,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "orlaivis",
+      "lėktuvas",
+      "pilotas"
+    ]
   },
   {
     "term": "degalinė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1924,11 +2006,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "degalai",
+      "benzinas",
+      "automobilis"
+    ]
   },
   {
     "term": "eismas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -1948,11 +2034,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "kelias",
+      "automobilis",
+      "spūstis"
+    ]
   },
   {
     "term": "kambarys",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -1971,11 +2061,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "patalpa",
+      "butas",
+      "siena"
+    ]
   },
   {
     "term": "koridorius",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -1994,11 +2088,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "praėjimas",
+      "kambarys",
+      "pastatas"
+    ]
   },
   {
     "term": "terasa",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2017,11 +2115,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "balkonas",
+      "veranda",
+      "kiemas"
+    ]
   },
   {
     "term": "daugiabutis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2041,11 +2143,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "butas",
+      "namas",
+      "gyventojas"
+    ]
   },
   {
     "term": "žymeklis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2064,11 +2170,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "rašiklis",
+      "pieštukas",
+      "tekstas"
+    ]
   },
   {
     "term": "petys",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2087,11 +2197,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "ranka",
+      "kaklas",
+      "sąnarys"
+    ]
   },
   {
     "term": "alkūnė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2110,11 +2224,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "ranka",
+      "sąnarys",
+      "dilbis"
+    ]
   },
   {
     "term": "riešas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2133,11 +2251,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "plaštaka",
+      "ranka",
+      "sąnarys"
+    ]
   },
   {
     "term": "kulnas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2156,11 +2278,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "pėda",
+      "batas",
+      "koja"
+    ]
   },
   {
     "term": "liemuo",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2179,11 +2305,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "juosmuo",
+      "klubas",
+      "kūnas"
+    ]
   },
   {
     "term": "raumuo",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2202,11 +2332,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "sausgyslė",
+      "kaulas",
+      "jėga"
+    ]
   },
   {
     "term": "kaulas",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2225,11 +2359,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "skeletas",
+      "sąnarys",
+      "raumuo"
+    ]
   },
   {
     "term": "karštis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2247,12 +2385,18 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": []
+    "antonymTerms": [
+      "šaltis"
+    ],
+    "relatedTerms": [
+      "temperatūra",
+      "šiluma",
+      "vasara"
+    ]
   },
   {
     "term": "sausra",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2271,12 +2415,18 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": []
+    "antonymTerms": [
+      "potvynis"
+    ],
+    "relatedTerms": [
+      "lietus",
+      "vanduo",
+      "derlius"
+    ]
   },
   {
     "term": "potvynis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2295,12 +2445,18 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": []
+    "antonymTerms": [
+      "sausra"
+    ],
+    "relatedTerms": [
+      "vanduo",
+      "lietus",
+      "upė"
+    ]
   },
   {
     "term": "kruša",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2319,11 +2475,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "ledas",
+      "audra",
+      "lietus"
+    ]
   },
   {
     "term": "ketvirtis",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A2",
@@ -2342,11 +2502,15 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "pusė",
+      "dalis",
+      "keturi"
+    ]
   },
   {
     "term": "pusė",
-    "status": "enriched",
+    "status": "relations-added",
     "language": "lt",
     "partOfSpeech": "noun",
     "level": "A1",
@@ -2365,7 +2529,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": []
+    "relatedTerms": [
+      "ketvirtis",
+      "dalis",
+      "visuma"
+    ]
   },
   {
     "term": "amžius",
