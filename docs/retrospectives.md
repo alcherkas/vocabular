@@ -5331,3 +5331,25 @@ None.
 
 ### Blockers
 None.
+
+## Retro: vocab/qa-lt-70 — LT QA Agent
+
+**Date**: 2025-07-18
+**Agent**: QA Agent (LT)
+**Branch**: `vocab/qa-lt-70`
+**Goal**: QA review 41 relations-added LT entries
+
+### What went well
+- All 41 entries passed validation on first run — zero rejections.
+- Verb entries (skalbti, taisyti, rinkti) all had correct present3/past3 forms.
+- Adjective color convention (feminine form) confirmed consistent with production.
+- Synonym format (string arrays) matched production convention.
+
+### What went wrong
+- Nothing — clean batch.
+
+### Suggested improvement
+- Could add automated cross-reference check between staging synonyms and production terms to verify synonym targets exist.
+
+### Blockers
+None.
