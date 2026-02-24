@@ -5134,3 +5134,32 @@ None.
 
 ### Blockers
 None.
+
+---
+
+## Session: relations-lt-68 + seeder-lt-10
+
+**Date:** 2025-07-25
+**Agent:** Copilot (parallel worktree session)
+
+### Work done
+
+**Job 1 — Relations batch 68:** Added synonyms/antonyms/relatedTerms to 4 LT `enriched` entries, promoting all to `relations-added`.
+- `yra apsirengęs`: antonym `yra nuogas`; relatedTerms preserved.
+- `yra apsirengusi`: antonym `yra nuoga`; relatedTerms preserved.
+- `ausų`: empty synonyms/antonyms (grammatical form); added `klausa` to relatedTerms.
+- `santykiai`: synonym `ryšiai` (moved from relatedTerms to avoid cross-array duplicate); antonym `atsiribojimas`; relatedTerms updated.
+- Validation: 4 `relations-added` entries passed ✓.
+
+**Job 2 — Seeder batch 10:** Added 80 new LT A1/A2 stubs across 10 topic categories: food, transport, home, school, body parts, weather, time, family, animals, and nature/places. Zero conflicts with 2308 existing terms. Validation: 80 `stub` entries passed ✓.
+
+### What went well
+- Parallel worktree setup kept both jobs fully isolated with no conflicts.
+- Pre-checking all 80 new terms against existing staging + production avoided any duplicates.
+- Cross-array duplicate logic (e.g. `ryšiai` appearing in both synonyms and relatedTerms) was caught by the validator before commit.
+
+### What could be improved
+- Some enriched entries have stale `qa_notes` (e.g. `santykiai` still says "REJECTED") even though relatedTerms is populated — QA cleanup pass would help.
+
+### Blockers
+None.
