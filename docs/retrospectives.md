@@ -5255,3 +5255,21 @@ None.
 
 ### Blockers
 None.
+
+## [2025-07-18] [relations-en-68] [vocab/relations-en-68]
+
+### What went well
+- All 80 enriched entries processed in a single batch with one commit.
+- Validator caught one self-referential phrase ("debenture holder" containing headword "debenture") — quick fix.
+
+### What was harder than expected
+- Crafting co-extensive synonyms for highly technical/medical terms (e.g. glomerulonephritis, lyophilization) where true synonyms are rare; multi-word descriptive phrases were needed.
+
+### Process friction
+- None significant. The validator's substring self-reference check is well-calibrated.
+
+### Suggested improvement
+- None.
+
+### Blockers
+None.
