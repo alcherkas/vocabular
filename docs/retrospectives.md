@@ -5030,3 +5030,31 @@ PASSED — 227 entries valid (0 errors). Used `--errors-for relations-added` fla
 ### What could improve
 - Some technical/philosophical terms have few true co-extensive synonyms; 2 is sometimes a stretch but necessary to satisfy the validator rule.
 >>>>>>> vocab/relations-en-60
+
+---
+
+## Retro — vocab/enricher-en-62 (EN Enricher, 2025-07)
+
+**Agent:** EN Vocabulary Enricher
+**Branch:** vocab/enricher-en-62
+**Task:** Enrich 30 English stubs in words_staging.json
+
+### What was done
+Enriched all 30 stubs across four subject domains:
+- **Linguistics (7):** semantic priming, morphological parsing, syntactic bootstrapping, critical period hypothesis, language transfer, code-switching, prototype effect
+- **Logic (11):** universal instantiation, existential generalization, De Morgan laws, disjunctive syllogism, hypothetical syllogism, contrapositive, material conditional, first-order logic, second-order logic, predicate calculus, propositional calculus
+- **Topology (7):** homotopy, compactness, connectedness, Hausdorff space, metric space, open set, topological space, continuous function, homeomorphic
+- **Number theory (3):** prime factorization, modular arithmetic, Fermat little theorem
+
+Each entry received: `partOfSpeech`, `level` (C1/C2), `register` (technical), 1–2 `meanings` each with definition, example, register, and tags.
+
+### Validation
+`validate_words.py --errors-for enriched` passed with 0 errors (227/227 valid).
+
+### What went well
+- Batch Python enrichment script processed all 30 stubs cleanly in one pass.
+- Validator confirmed zero errors on first run.
+
+### What could improve
+- Stubs were all highly technical (logic/topology/linguistics) — future batches may benefit from more varied registers (literary, general).
+
