@@ -4870,3 +4870,25 @@ Each entry includes: partOfSpeech, register (general), level, Lithuanian example
 ### What could be improved
 - Stub entries for verb conjugation forms (present/past 3rd person) could benefit from explicit dictionary base-form cross-references in the definition.
 
+
+---
+## Retro: vocab/relations-lt-61 (batch 1) — 2025-07-20
+
+**Agent:** Vocab Relations Agent (LT)
+**Task:** Add synonyms, antonyms, relatedTerms to enriched LT entries (up to 40)
+**Branch:** vocab/relations-lt-61
+
+### What was done
+- Processed 40 of 139 enriched LT entries (indices 0–39 by order in file)
+- Entries covered: 1 food phrase, 27 ordinal numerals (4th–20th, masc+fem), 7 bedroom/home nouns, 5 clothing verbs
+- Ordinal numerals: synonyms=[] per instructions (numerals), relatedTerms link adjacent ordinals and gender pairs
+- Clothing verbs: dėvi↔vilki (synonyms), dėvėjo↔vilkėjo (synonyms), apsirengia↔nusirengia (antonyms)
+- All relatedTerms verified nominative singular, no accusative (ą) or genitive (ų) endings
+- Validation: 0 errors on `--errors-for relations-added`
+
+### What went well
+- Pre-checking existing vocabulary terms before writing relatedTerms avoided invalid cross-references
+- Batch scripting made all 40 updates atomic and validated cleanly in one pass
+
+### What to improve
+- 99 enriched entries remain; next agent should continue from index 40 (apsirengė)
