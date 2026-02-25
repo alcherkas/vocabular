@@ -3,7 +3,7 @@
     "term": "analeptic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Serving to restore strength or vitality; restorative",
@@ -43,13 +43,13 @@
     "translation": null,
     "pronunciation": "/ˌænəˈlɛptɪk/",
     "etymology": "From Greek analēptikos 'restorative', from analambanein 'to take up'",
-    "qa_notes": "Second meaning (\"A drug or substance that stimulates the central nervous system\") is a noun definition, but the entry partOfSpeech is \"adjective\". The word can be both noun and adjective; the second meaning must be rewritten as an adjectival definition or the entry split by POS."
+    "qa_notes": "POS mismatch: partOfSpeech is 'adjective' but meaning 2 ('A drug or substance that stimulates the central nervous system') is a noun definition. Split by POS or rewrite meaning 2 as adjectival."
   },
   {
     "term": "comestible",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "An item of food; something fit to be eaten",
@@ -89,13 +89,13 @@
     "translation": null,
     "pronunciation": "/kəˈmɛstɪbəl/",
     "etymology": "From Medieval Latin comestibilis, from Latin comestus, past participle of comedere 'to eat up'",
-    "qa_notes": "Second meaning (\"Suitable or safe for eating; edible\") is an adjectival definition, but the entry partOfSpeech is \"noun\". The word can function as both noun and adjective; the second meaning must be rewritten as a noun definition, or the entry split by POS."
+    "qa_notes": "POS mismatch: partOfSpeech is 'noun' but meaning 2 ('Suitable or safe for eating; edible') is an adjectival definition. Split by POS or rewrite meaning 2 as a noun definition."
   },
   {
     "term": "corpulence",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The state of being excessively fat or obese",
@@ -135,13 +135,13 @@
     "translation": null,
     "pronunciation": "/ˈkɔːrpjʊləns/",
     "etymology": "From Latin corpulentia, from corpulentus 'fleshy', from corpus 'body'",
-    "qa_notes": "The two meanings are not genuinely distinct: both describe the same quality of being excessively fat or heavy. The second meaning (\"Excessive fleshiness or heaviness of body\") is essentially a restatement of the first. The entry should have a single meaning, or provide a genuinely different second sense (e.g. figurative/extended use)."
+    "qa_notes": "Non-distinct meanings: both meanings describe the same quality of being excessively fat/heavy. Consolidate into one meaning or provide a genuinely different second sense."
   },
   {
     "term": "ennervate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "To deprive of force, strength, or vitality; to weaken.",
@@ -181,13 +181,13 @@
     "translation": null,
     "pronunciation": "/ˈɛnərveɪt/",
     "etymology": "From Latin 'enervare' (to weaken), from 'ex-' (out of) + 'nervus' (sinew, nerve).",
-    "qa_notes": "Term is misspelled: \"ennervate\" should be \"enervate\" (single n, from Latin enervare). Examples in the entry use the correct spelling \"enervate\"."
+    "qa_notes": "Term misspelled: should be 'enervate' (single n, from Latin enervare). Examples already use correct spelling."
   },
   {
     "term": "intractable",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Hard to control, manage, or resolve; stubbornly resistant to treatment or correction.",
@@ -227,13 +227,13 @@
     "translation": null,
     "pronunciation": "/ɪnˈtræktəbəl/",
     "etymology": "From Latin 'intractabilis', from 'in-' (not) + 'tractabilis' (manageable), from 'tractare' (to handle).",
-    "qa_notes": "relatedTerms contains 'intractability' which includes the headword 'intractable' as a substring, violating the self-reference rule. Replace with a non-substring-containing related term."
+    "qa_notes": "Self-reference: relatedTerms contains 'intractability', which has the headword 'intractable' as a substring. Replace with a term that does not contain the headword."
   },
   {
     "term": "abstruse",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Difficult to understand; obscure or esoteric in nature",
@@ -272,13 +272,14 @@
     ],
     "translation": null,
     "pronunciation": "/æbˈstruːs/",
-    "etymology": "From Latin abstrusus 'hidden, concealed', past participle of abstrudere 'to push away'"
+    "etymology": "From Latin abstrusus 'hidden, concealed', past participle of abstrudere 'to push away'",
+    "qa_notes": "Self-reference: relatedTerms contains 'abstruseness', which has the headword 'abstruse' as a substring. Replace with a non-derived related term."
   },
   {
     "term": "acrimonious",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Characterized by angry and bitter feelings or words",
@@ -323,7 +324,7 @@
     "term": "adamant",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Refusing to be persuaded or to change one's mind; unyielding",
@@ -368,7 +369,7 @@
     "term": "affable",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Friendly, good-natured, and easy to talk to",
@@ -413,7 +414,7 @@
     "term": "aloof",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Not friendly or forthcoming; cool and distant in manner",
@@ -458,7 +459,7 @@
     "term": "anachronistic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Belonging to a period other than the one being portrayed or discussed",
@@ -503,7 +504,7 @@
     "term": "antipathetic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Having a deep-seated feeling of aversion or opposition",
@@ -548,7 +549,7 @@
     "term": "apocryphal",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Of doubtful authenticity, although widely circulated as being true",
@@ -593,7 +594,7 @@
     "term": "ascetic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Characterized by severe self-discipline and abstention from indulgence",
@@ -632,13 +633,14 @@
     ],
     "translation": null,
     "pronunciation": "/əˈsɛtɪk/",
-    "etymology": "From Greek askētikos 'rigorously self-disciplined', from askein 'to exercise'"
+    "etymology": "From Greek askētikos 'rigorously self-disciplined', from askein 'to exercise'",
+    "qa_notes": "POS mismatch: partOfSpeech is 'adjective' but meaning 2 ('A person who practises severe self-discipline and abstains from pleasure') is a noun definition. Split by POS or rewrite meaning 2 as adjectival."
   },
   {
     "term": "austere",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Severe or strict in manner, attitude, or appearance",
@@ -692,7 +694,7 @@
     "term": "brazen",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Bold and shameless in a way that shows no embarrassment",
@@ -737,7 +739,7 @@
     "term": "brusque",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Abrupt or offhand in speech or manner; curtly blunt",
@@ -776,13 +778,14 @@
     ],
     "translation": null,
     "pronunciation": "/brʌsk/",
-    "etymology": "From French brusque, from Italian brusco 'sour, rough'"
+    "etymology": "From French brusque, from Italian brusco 'sour, rough'",
+    "qa_notes": "Non-distinct meanings: meaning 1 ('Abrupt or offhand in speech or manner; curtly blunt') and meaning 2 ('Markedly short and abrupt in response or communication') describe the same quality. Consolidate into one meaning."
   },
   {
     "term": "cadence",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A modulation or inflection of the voice; the rise and fall in pitch of speech",
@@ -832,7 +835,7 @@
     "term": "callous",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Showing a cruel disregard for others; emotionally insensitive",
@@ -871,13 +874,14 @@
     ],
     "translation": null,
     "pronunciation": "/ˈkæləs/",
-    "etymology": "From Latin callosus 'thick-skinned', from callum 'hard skin'"
+    "etymology": "From Latin callosus 'thick-skinned', from callum 'hard skin'",
+    "qa_notes": "Self-reference: relatedTerms contains 'callousness', which has the headword 'callous' as a substring. Replace with a non-derived related term."
   },
   {
     "term": "coercive",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Using force or intimidation to compel compliance",
@@ -922,7 +926,7 @@
     "term": "conciliatory",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Intended or likely to placate or pacify; making or willing to make concessions",
@@ -967,7 +971,7 @@
     "term": "condescending",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Displaying a patronizingly superior attitude toward others",
@@ -1012,7 +1016,7 @@
     "term": "contentious",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Causing or likely to cause controversy or heated argument",
@@ -1057,7 +1061,7 @@
     "term": "credulity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A tendency to be too ready to believe that something is real or true without sufficient evidence",
@@ -1102,7 +1106,7 @@
     "term": "cryptic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Having a meaning that is mysterious or obscure; deliberately enigmatic",
@@ -1147,7 +1151,7 @@
     "term": "culpable",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Deserving blame or censure for a wrongdoing",
@@ -1192,7 +1196,7 @@
     "term": "debilitate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To make someone or something very weak or infirm",
@@ -1237,7 +1241,7 @@
     "term": "decorous",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "In keeping with good taste and propriety; polite and restrained",
@@ -1276,13 +1280,14 @@
     ],
     "translation": null,
     "pronunciation": "/ˈdɛkərəs/",
-    "etymology": "From Latin decorus 'seemly, becoming', from decor 'beauty, grace'"
+    "etymology": "From Latin decorus 'seemly, becoming', from decor 'beauty, grace'",
+    "qa_notes": "Self-reference: antonymTerms contains 'indecorous', which has the headword 'decorous' as a substring. The other antonyms ('unseemly', 'improper') are sufficient; remove 'indecorous' or replace it."
   },
   {
     "term": "denigrate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To criticize unfairly; to disparage or belittle",
@@ -1327,7 +1332,7 @@
     "term": "dialectic",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "The art of investigating or discussing the truth of opinions through logical argumentation",
@@ -1362,13 +1367,14 @@
     ],
     "translation": null,
     "pronunciation": "/ˌdaɪəˈlɛktɪk/",
-    "etymology": "From Greek dialektikē (tekhnē) '(art) of debate', from dialegesthai 'to converse'"
+    "etymology": "From Greek dialektikē (tekhnē) '(art) of debate', from dialegesthai 'to converse'",
+    "qa_notes": "Self-reference: relatedTerms contains 'dialectical', which has the headword 'dialectic' as a substring. Replace with a non-derived related term."
   },
   {
     "term": "discordant",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Disagreeing or incongruous; not in harmony",
@@ -1413,7 +1419,7 @@
     "term": "discretionary",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Available for use at the judgment or discretion of the user",
@@ -1458,7 +1464,7 @@
     "term": "dispassionate",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Not influenced by strong emotion; able to be rational and impartial",
@@ -1503,7 +1509,7 @@
     "term": "docile",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Ready to accept control or instruction; submissive and compliant",
@@ -1548,7 +1554,7 @@
     "term": "dubious",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Hesitating or doubting; not to be relied upon",
@@ -1593,7 +1599,7 @@
     "term": "duplicitous",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Deliberately deceptive in speech or conduct; double-dealing",
@@ -1638,7 +1644,7 @@
     "term": "elicit",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To draw out or evoke a response, answer, or fact from someone",
@@ -1683,7 +1689,7 @@
     "term": "embroil",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "To involve someone deeply in a conflict, argument, or difficult situation",
@@ -1722,13 +1728,14 @@
     ],
     "translation": null,
     "pronunciation": "/ɪmˈbrɔɪl/",
-    "etymology": "From French embrouiller 'to entangle, confuse', from en- 'in' + brouiller 'to mix up'"
+    "etymology": "From French embrouiller 'to entangle, confuse', from en- 'in' + brouiller 'to mix up'",
+    "qa_notes": "Self-reference: relatedTerms contains 'embroilment', which has the headword 'embroil' as a substring. Replace with a non-derived related term."
   },
   {
     "term": "endemic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Native to or regularly found in a particular area or population",
@@ -1773,7 +1780,7 @@
     "term": "exonerate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To absolve someone from blame, guilt, or responsibility for a wrongdoing",
@@ -1818,7 +1825,7 @@
     "term": "flagrant",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Conspicuously or obviously offensive; shockingly noticeable",
@@ -1863,7 +1870,7 @@
     "term": "flippant",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Not showing a serious or respectful attitude; inappropriately casual",
@@ -1902,13 +1909,14 @@
     ],
     "translation": null,
     "pronunciation": "/ˈflɪpənt/",
-    "etymology": "Probably related to flip, suggesting a tossing or careless manner; first attested in the 17th century"
+    "etymology": "Probably related to flip, suggesting a tossing or careless manner; first attested in the 17th century",
+    "qa_notes": "Non-distinct meanings: meaning 1 ('Not showing a serious or respectful attitude; inappropriately casual') and meaning 2 ('Treating a serious matter with dismissive levity') are essentially the same. Consolidate into one meaning."
   },
   {
     "term": "forbearance",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Patient self-control; restraint and tolerance in the face of provocation",
@@ -1953,7 +1961,7 @@
     "term": "fortitude",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Courage and endurance in the face of pain, adversity, or danger",
@@ -1998,7 +2006,7 @@
     "term": "fulminate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "To express vehement protest or condemnation; to rail or thunder against",
@@ -2043,7 +2051,7 @@
     "term": "guile",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Sly or cunning intelligence used to deceive or manipulate",
@@ -2082,13 +2090,14 @@
     ],
     "translation": null,
     "pronunciation": "/ɡaɪl/",
-    "etymology": "From Old French guile 'deceit, trickery', probably of Germanic origin"
+    "etymology": "From Old French guile 'deceit, trickery', probably of Germanic origin",
+    "qa_notes": "Self-reference: relatedTerms contains 'guileful', which has the headword 'guile' as a substring. Replace with a non-derived related term."
   },
   {
     "term": "heretical",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Holding an opinion that contradicts established or orthodox beliefs, especially in religion",
@@ -2133,7 +2142,7 @@
     "term": "histrionic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "Overly theatrical or melodramatic in character or style",
@@ -2172,13 +2181,14 @@
     ],
     "translation": null,
     "pronunciation": "/ˌhɪstriˈɒnɪk/",
-    "etymology": "From Latin histrionicus 'of an actor', from histrio 'actor'"
+    "etymology": "From Latin histrionicus 'of an actor', from histrio 'actor'",
+    "qa_notes": "Self-reference: relatedTerms contains 'histrionics', which has the headword 'histrionic' as a substring. Replace with a non-derived related term."
   },
   {
     "term": "hyperbole",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Exaggerated statements or claims not meant to be taken literally",
@@ -2223,7 +2233,7 @@
     "term": "hypocritical",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Behaving in a way that contradicts one's stated beliefs or standards",
@@ -2268,7 +2278,7 @@
     "term": "iconoclastic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Challenging or overthrowing cherished beliefs, traditions, or institutions",
@@ -2313,7 +2323,7 @@
     "term": "idiomatic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Using or containing expressions that are natural to a native speaker",
@@ -2358,7 +2368,7 @@
     "term": "impecunious",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Having little or no money; impoverished",
@@ -2403,7 +2413,7 @@
     "term": "imperious",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Assuming power or authority without justification; arrogantly domineering",
@@ -2448,7 +2458,7 @@
     "term": "impudent",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Showing a lack of respect; insolently bold or forward",
