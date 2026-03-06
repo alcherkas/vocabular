@@ -3265,7 +3265,7 @@
     "term": "contrition",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The state of feeling deeply remorseful and sorry for wrongdoing; genuine penitence",
@@ -3277,16 +3277,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "penitence",
+      "remorse",
+      "repentance"
+    ],
+    "antonymTerms": [
+      "impenitence",
+      "defiance"
+    ],
+    "relatedTerms": [
+      "guilt",
+      "atonement",
+      "regret"
+    ],
     "translation": null
   },
   {
     "term": "craven",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Showing a contemptible lack of courage; cowardly in a morally disgraceful way",
@@ -3298,16 +3309,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "cowardly",
+      "pusillanimous",
+      "timorous"
+    ],
+    "antonymTerms": [
+      "brave",
+      "valiant"
+    ],
+    "relatedTerms": [
+      "cowardice",
+      "timidity",
+      "faint-heartedness"
+    ],
     "translation": null
   },
   {
     "term": "culpability",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The state of being responsible for a fault or wrong; legal or moral blameworthiness",
@@ -3328,16 +3350,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "blameworthiness",
+      "liability",
+      "guilt"
+    ],
+    "antonymTerms": [
+      "innocence",
+      "blamelessness"
+    ],
+    "relatedTerms": [
+      "responsibility",
+      "fault",
+      "accountability"
+    ],
     "translation": null
   },
   {
     "term": "curmudgeon",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A bad-tempered, cantankerous person, especially one who is easily annoyed by others",
@@ -3349,16 +3382,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "grouch",
+      "crank",
+      "malcontent"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "grumpiness",
+      "cantankerousness",
+      "irascibility"
+    ],
     "translation": null
   },
   {
     "term": "debacle",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A sudden and complete failure or disaster; a humiliating fiasco",
@@ -3370,9 +3411,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "fiasco",
+      "catastrophe",
+      "shambles"
+    ],
+    "antonymTerms": [
+      "triumph",
+      "success"
+    ],
+    "relatedTerms": [
+      "failure",
+      "collapse",
+      "rout"
+    ],
     "translation": null
   },
   {
