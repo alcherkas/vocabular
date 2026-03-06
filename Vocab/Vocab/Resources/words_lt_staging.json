@@ -4217,7 +4217,7 @@
     "term": "vandentiekis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The system of pipes and fixtures that supply water to a building",
@@ -4241,14 +4241,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vanduo",
+      "vamzdis"
+    ],
     "translation": "plumbing"
   },
   {
     "term": "elektra",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of energy resulting from charged particles, used for power",
@@ -4273,14 +4276,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "elektrikas",
+      "elektrinis"
+    ],
     "translation": "electricity"
   },
   {
     "term": "dujos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A flammable gaseous fuel used for heating and cooking",
@@ -4305,14 +4311,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nafta",
+      "kuras"
+    ],
     "translation": "gas"
   },
   {
     "term": "šildymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The process of providing warmth to a building or room",
@@ -4335,15 +4344,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "vėsinimas"
+    ],
+    "relatedTerms": [
+      "šiluma",
+      "katilas"
+    ],
     "translation": "heating"
   },
   {
     "term": "vamzdis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A hollow tube for conveying water, gas, or other fluids",
@@ -4367,7 +4381,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vandentiekis",
+      "kanalizacija"
+    ],
     "translation": "pipe"
   },
   {
