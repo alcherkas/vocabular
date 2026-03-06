@@ -3918,7 +3918,7 @@
     "term": "vonios kambarys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A room in a house containing a bath or shower and usually a toilet",
@@ -3933,14 +3933,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vonia",
+      "dušas"
+    ],
     "translation": "bathroom"
   },
   {
     "term": "valgomasis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A room in a house used for eating meals",
@@ -3965,14 +3968,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "virtuvė",
+      "stalas"
+    ],
     "translation": "dining room"
   },
   {
     "term": "katilas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A heating device in which water is heated to provide central heating or hot water",
@@ -3995,14 +4001,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šildymas",
+      "vamzdis"
+    ],
     "translation": "boiler"
   },
   {
     "term": "skalbimo mašina",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A household appliance for washing clothes automatically",
@@ -4017,14 +4026,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "džiovykla",
+      "skalbiniai"
+    ],
     "translation": "washing machine"
   },
   {
     "term": "džiovykla",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An electrical appliance used for drying washed clothes",
@@ -4039,7 +4051,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "skalbimo mašina",
+      "džiovinimas"
+    ],
     "translation": "dryer"
   },
   {
