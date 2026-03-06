@@ -2751,7 +2751,7 @@
     "term": "dar",
     "language": "lt",
     "partOfSpeech": "particle",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Continuing into the present; still happening or existing",
@@ -2781,7 +2781,7 @@
     "term": "jau",
     "language": "lt",
     "partOfSpeech": "particle",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Before the expected time or sooner than anticipated",
@@ -2804,14 +2804,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dar"
+    ],
     "translation": "already"
   },
   {
     "term": "vis dar",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Continuing to happen or be true even now, despite expectations",
@@ -2834,14 +2836,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dar"
+    ],
     "translation": "still"
   },
   {
     "term": "iki pasimatymo",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A farewell expression used when parting, implying you will meet again",
@@ -2854,16 +2858,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sudie"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "labas",
+      "sveikas"
+    ],
     "translation": "goodbye"
   },
   {
     "term": "ačiū labai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An expression of sincere and heartfelt gratitude",
@@ -2877,7 +2886,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ačiū",
+      "dėkoti"
+    ],
     "translation": "thank you very much"
   },
   {
