@@ -2181,7 +2181,7 @@
     "term": "nuostolis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Finansinis nuostolis, kai išlaidos viršija pajamas.",
@@ -2203,15 +2203,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "pelnas"
+    ],
+    "relatedTerms": [
+      "finansai",
+      "žala",
+      "bankrotas"
+    ],
     "translation": "loss, damage"
   },
   {
     "term": "pirkinys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nupirktas daiktas ar produktas.",
@@ -2226,14 +2232,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pirkimas",
+      "parduotuvė",
+      "vartotojas"
+    ],
     "translation": "purchase, item bought"
   },
   {
     "term": "inovacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nauja idėja, metodas ar technologija, kuri pagerina procesus.",
@@ -2246,16 +2256,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "naujovė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "technologija",
+      "kūrybiškumas",
+      "tobulėjimas"
+    ],
     "translation": "innovation"
   },
   {
     "term": "renginys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Organizuotas susibūrimas ar veikla.",
@@ -2270,14 +2286,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "koncertas",
+      "konferencija",
+      "festivalis"
+    ],
     "translation": "event"
   },
   {
     "term": "reforma",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sistemos, įstatymų ar institucijų keitimas siekiant pagerinti.",
@@ -2292,7 +2312,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pokytis",
+      "politika",
+      "įstatymas"
+    ],
     "translation": "reform"
   },
   {
