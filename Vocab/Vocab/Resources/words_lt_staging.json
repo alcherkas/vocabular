@@ -2232,7 +2232,7 @@
     "term": "čia",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In this place; at this location",
@@ -2254,7 +2254,9 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "ten"
+    ],
     "relatedTerms": [],
     "translation": "here"
   },
@@ -2262,7 +2264,7 @@
     "term": "ten",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In or at that place; at a distance from the speaker",
@@ -2284,7 +2286,9 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "čia"
+    ],
     "relatedTerms": [],
     "translation": "there"
   },
@@ -2292,7 +2296,7 @@
     "term": "niekur",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Not in any place; in no place at all",
@@ -2314,15 +2318,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "visur"
+    ],
+    "relatedTerms": [
+      "kur",
+      "kažkur"
+    ],
     "translation": "nowhere"
   },
   {
     "term": "kažkur",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In or to some unspecified or unknown place",
@@ -2345,14 +2354,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kur",
+      "niekur"
+    ],
     "translation": "somewhere"
   },
   {
     "term": "anksčiau",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "At an earlier time; before the present or a reference point",
@@ -2374,8 +2386,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "vėliau"
+    ],
+    "relatedTerms": [
+      "anksti",
+      "ankstesnis"
+    ],
     "translation": "earlier"
   },
   {
