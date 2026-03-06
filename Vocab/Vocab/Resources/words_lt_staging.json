@@ -1424,56 +1424,125 @@
     "term": "akademinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Susijęs su universitetiniu ar moksliniu mokymusi.",
+        "example": "Akademinis metai prasideda rugsėjį.",
+        "register": "formal",
+        "tags": [
+          "education",
+          "university",
+          "formal"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "academic"
   },
   {
     "term": "studijų programa",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Universiteto studijų planas ir mokomų dalykų rinkinys.",
+        "example": "Rinkausi studijų programą informatikos srityje.",
+        "register": "neutral",
+        "tags": [
+          "education",
+          "university",
+          "career"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "study programme, curriculum"
   },
   {
     "term": "pažintis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pažįstamas žmogus arba susipažinimo akimirka.",
+        "example": "Jų pažintis prasidėjo universitete.",
+        "register": "neutral",
+        "tags": [
+          "social",
+          "relationships"
+        ]
+      },
+      {
+        "definition": "Galimybė susipažinti su kažkuo nauju.",
+        "example": "Ši kelionė buvo pažintis su kita kultūra.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "culture",
+          "experience"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "acquaintance; introduction"
   },
   {
     "term": "pakviesti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Paprašyti ką nors ateiti arba dalyvauti.",
+        "example": "Jis pakvietė visus draugus į vakarėlį.",
+        "register": "neutral",
+        "tags": [
+          "social",
+          "events",
+          "communication"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to invite",
+    "forms": {
+      "present3": "pakviečia",
+      "past3": "pakvietė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "pilietis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Asmuo, turintis tam tikros šalies pilietybę ir teises.",
+        "example": "Kiekvienas pilietis turi teisę balsuoti.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "society",
+          "law"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "citizen (male)"
   },
   {
     "term": "pilietė",
