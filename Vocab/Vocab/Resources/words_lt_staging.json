@@ -3,11 +3,11 @@
     "term": "medicina",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The science and practice of diagnosing, treating, and preventing disease",
-        "example": "Jis studijuoja medicinąVilniaus universitete.",
+        "example": "Jis studijuoja mediciną Vilniaus universitete.",
         "register": "general",
         "tags": [
           "health",
@@ -17,7 +17,7 @@
       },
       {
         "definition": "A drug or remedy used to treat illness",
-        "example": "Gydytojas paskyrė medicinąnuo peršalimo.",
+        "example": "Gydytojas paskyrė mediciną nuo peršalimo.",
         "register": "general",
         "tags": [
           "treatment",
@@ -38,7 +38,7 @@
     "term": "katilas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A heating device in which water is heated to provide central heating or hot water",
@@ -51,7 +51,7 @@
       },
       {
         "definition": "A large metal pot used for cooking or boiling liquids",
-        "example": "Ragana virė burtų gėrimą dideliame katilas.",
+        "example": "Ragana virė burtų gėrimą dideliame katile.",
         "register": "literary",
         "tags": [
           "cooking",
@@ -59,7 +59,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "puodas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "šildymas",
@@ -72,11 +74,11 @@
     "term": "džiovykla",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An electrical appliance used for drying washed clothes",
-        "example": "Džiovykloje džioviname skalbiniai per penkiasdešimt minučių.",
+        "example": "Džiovykloje džioviname skalbinius per penkiasdešimt minučių.",
         "register": "general",
         "tags": [
           "appliance",
@@ -98,11 +100,11 @@
     "term": "kulkšnis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The joint connecting the foot with the leg",
-        "example": "Ji susisuko kulkšnį bėgdama parkoje.",
+        "example": "Ji susisuko kulkšnį bėgdama parke.",
         "register": "general",
         "tags": [
           "anatomy",
@@ -111,7 +113,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "čiurna"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
       "pėda",
@@ -124,11 +128,11 @@
     "term": "auskaras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A piece of jewellery worn attached to the earlobe or ear",
-        "example": "Ji dėvėjo mažus auksinius auskarusį kasdien.",
+        "example": "Ji dėvėjo mažus auksinius auskarusius kasdien.",
         "register": "general",
         "tags": [
           "jewellery",
