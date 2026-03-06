@@ -1024,7 +1024,7 @@
     "term": "skiepytis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gauti vakciną apsisaugoti nuo ligos.",
@@ -1039,7 +1039,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "skiepas",
+      "imunitetas",
+      "vakcina"
+    ],
     "translation": "to get vaccinated",
     "forms": {
       "present3": "skiepijasi",
@@ -1051,7 +1055,7 @@
     "term": "vaikų liga",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Liga, kuri dažnai pasitaiko vaikystėje.",
@@ -1066,14 +1070,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tymais",
+      "skiepas",
+      "pediatras"
+    ],
     "translation": "childhood disease"
   },
   {
     "term": "registruotis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Oficialiai užsiregistruoti sistemoje arba vietoje.",
@@ -1096,8 +1104,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "išsiregistruoti"
+    ],
+    "relatedTerms": [
+      "registratūra",
+      "pasas",
+      "paskyrimas"
+    ],
     "translation": "to register, to check in",
     "forms": {
       "present3": "registruojasi",
@@ -1109,7 +1123,7 @@
     "term": "turistų informacijos centras",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Biuras, teikiantis informaciją turistams apie vietovę.",
@@ -1124,14 +1138,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "turistas",
+      "žemėlapis",
+      "ekskursija"
+    ],
     "translation": "tourist information centre"
   },
   {
     "term": "kelionių draudimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Draudimas, apsaugantis keliautoją nuo nelaimingų atsitikimų ar nuostolių.",
@@ -1146,7 +1164,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "draudimas",
+      "kelionė",
+      "pasas"
+    ],
     "translation": "travel insurance"
   },
   {
