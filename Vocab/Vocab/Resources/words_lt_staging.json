@@ -2742,7 +2742,7 @@
     "term": "tendencija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kryptis ar polinkis vystytis tam tikra linkme.",
@@ -2757,14 +2757,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "statistika",
+      "analizė",
+      "prognozė"
+    ],
     "translation": "trend, tendency"
   },
   {
     "term": "statistika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Skaitiniai duomenys ir jų analizė.",
@@ -2779,14 +2783,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "duomenys",
+      "skaičiai",
+      "tyrimas"
+    ],
     "translation": "statistics"
   },
   {
     "term": "vertinimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kažko kokybės ar vertės nustatymas.",
@@ -2799,16 +2807,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "įvertinimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atsiskaitymas",
+      "pažymys",
+      "analizė"
+    ],
     "translation": "evaluation, assessment"
   },
   {
     "term": "analizė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kažko išsamus tyrimas ir įvertinimas.",
@@ -2823,14 +2837,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tyrimas",
+      "metodas",
+      "statistika"
+    ],
     "translation": "analysis"
   },
   {
     "term": "metodas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tikslingas būdas atlikti kažką arba pasiekti rezultatą.",
@@ -2843,9 +2861,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "būdas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "strategija",
+      "principas",
+      "technika"
+    ],
     "translation": "method"
   }
 ]
