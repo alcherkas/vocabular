@@ -92,8 +92,9 @@ Agents append one entry here **after each commit** and **after every irreversibl
 - **Commit**: `publish: move 37 approved LT words to production`
 - **Reversible**: Yes (`git revert`)
 
-[2026-03-06] [enricher-lt-agent] [vocab-enricher-lt] [commit] [completed] [100%] Enriched 100 LT stubs across 20 batches | doubts: none
-
-[2026-03-06] [relations-lt-agent] [vocab-enricher-lt] [commit] [completed] [100%] Added relations to 100 LT enriched entries across 20 batches | doubts: none
-
-[2026-03-06] [qa-lt-agent] [vocab-enricher-lt] [commit] [completed] [100%] QA reviewed 151 LT relations-added entries | doubts: none
+## 2026-03-06 — EN Vocabulary Full Pipeline Run
+- **Agent**: pipeline-en-agent (Copilot CLI)
+- **Action**: Ran full EN vocabulary pipeline on words_staging.json
+- **Details**: QA 50 relations-added (47 approved, 3 reset+fixed) + relations 18 enriched + seeded 50 new C1+ stubs + enriched 50 stubs + relations 50 + QA 68 (66 approved + 2 reset+fixed). All 115 EN entries now approved.
+- **Doubts**: none
+- **Reversible**: Yes — git revert to pre-pipeline state
