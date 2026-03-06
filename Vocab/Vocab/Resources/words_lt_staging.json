@@ -4061,7 +4061,7 @@
     "term": "šaldiklis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An appliance or compartment for freezing food and keeping it frozen",
@@ -4076,14 +4076,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šaldytuvas",
+      "šaldymas"
+    ],
     "translation": "freezer"
   },
   {
     "term": "keptuvas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A flat-bottomed pan used for frying, sautéing, or searing food",
@@ -4096,16 +4099,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "keptuvė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kepti",
+      "kepimas"
+    ],
     "translation": "frying pan"
   },
   {
     "term": "kištukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An electrical connector inserted into a socket to supply power",
@@ -4129,14 +4137,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lizdas",
+      "elektra"
+    ],
     "translation": "plug"
   },
   {
     "term": "jungiklis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An electrical device for turning a circuit on or off",
@@ -4160,14 +4171,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "jungti",
+      "elektra"
+    ],
     "translation": "switch"
   },
   {
     "term": "laidas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A flexible thread of metal used to conduct electricity",
@@ -4189,9 +4203,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kabelis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "elektra",
+      "jungiklis"
+    ],
     "translation": "wire"
   },
   {
