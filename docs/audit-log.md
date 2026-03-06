@@ -98,4 +98,3 @@ Agents append one entry here **after each commit** and **after every irreversibl
 - **Details**: QA 50 relations-added (47 approved, 3 reset+fixed) + relations 18 enriched + seeded 50 new C1+ stubs + enriched 50 stubs + relations 50 + QA 68 (66 approved + 2 reset+fixed). All 115 EN entries now approved.
 - **Doubts**: none
 - **Reversible**: Yes — git revert to pre-pipeline state
-[2026-03-06] [continuous-en] [vocab-enricher-en] [commit] [cycle-complete] [100%] Cycle 2: seeded 50, enriched 50, published 2363 EN words | doubts: none
