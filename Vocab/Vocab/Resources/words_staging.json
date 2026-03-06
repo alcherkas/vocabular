@@ -1514,7 +1514,7 @@
     "term": "vulnerable",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Susceptible to physical or emotional harm; exposed to the possibility of being attacked or hurt.",
@@ -1527,16 +1527,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "susceptible",
+      "exposed",
+      "defenceless",
+      "fragile"
+    ],
+    "antonymTerms": [
+      "invulnerable",
+      "protected"
+    ],
+    "relatedTerms": [
+      "risk",
+      "safeguarding",
+      "trauma",
+      "exploitation"
+    ],
     "translation": null
   },
   {
     "term": "wanton",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Deliberately cruel, causing harm without justification or motive; capricious and unprovoked.",
@@ -1559,16 +1572,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "gratuitous",
+      "unprovoked",
+      "licentious",
+      "reckless"
+    ],
+    "antonymTerms": [
+      "justified",
+      "restrained"
+    ],
+    "relatedTerms": [
+      "cruelty",
+      "indulgence",
+      "licentiousness",
+      "depravity"
+    ],
     "translation": null
   },
   {
     "term": "xenophobia",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Intense or irrational dislike or fear of people from other countries or cultures; hostility towards foreigners.",
@@ -1581,16 +1607,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "racism",
+      "chauvinism",
+      "nativism",
+      "ethnocentrism"
+    ],
+    "antonymTerms": [
+      "cosmopolitanism",
+      "openness"
+    ],
+    "relatedTerms": [
+      "prejudice",
+      "nationalism",
+      "discrimination",
+      "othering"
+    ],
     "translation": null
   },
   {
     "term": "zealotry",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality or conduct of a zealot; fanatical and uncompromising pursuit of religious or political ideals.",
@@ -1603,16 +1642,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "fanaticism",
+      "extremism",
+      "fundamentalism",
+      "radicalism"
+    ],
+    "antonymTerms": [
+      "moderation",
+      "tolerance"
+    ],
+    "relatedTerms": [
+      "zeal",
+      "dogmatism",
+      "sectarianism",
+      "militancy"
+    ],
     "translation": null
   },
   {
     "term": "zeitgeist",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The defining spirit or mood of a particular period of history as shown by the ideas and beliefs of the time.",
@@ -1625,9 +1677,19 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "spirit of the age",
+      "cultural mood",
+      "ethos",
+      "milieu"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "cultural movement",
+      "Hegel",
+      "epoch",
+      "postmodernism"
+    ],
     "translation": null
   },
   {
