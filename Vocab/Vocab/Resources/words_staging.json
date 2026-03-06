@@ -4304,7 +4304,7 @@
     "term": "temerity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Excessive boldness or audacity; confidence that goes beyond what is appropriate or prudent",
@@ -4316,16 +4316,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "audacity",
+      "effrontery",
+      "presumption"
+    ],
+    "antonymTerms": [
+      "timidity",
+      "diffidence"
+    ],
+    "relatedTerms": [
+      "boldness",
+      "rashness",
+      "impudence"
+    ],
     "translation": null
   },
   {
     "term": "tendentious",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Promoting a particular cause or viewpoint in a way that is not balanced or impartial; biased",
@@ -4337,16 +4348,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "biased",
+      "partisan",
+      "one-sided"
+    ],
+    "antonymTerms": [
+      "impartial",
+      "balanced"
+    ],
+    "relatedTerms": [
+      "bias",
+      "partisanship",
+      "propaganda"
+    ],
     "translation": null
   },
   {
     "term": "tirade",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A long, angry speech or outburst of bitter, scathing criticism",
@@ -4358,16 +4380,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "harangue",
+      "diatribe",
+      "polemic"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "rant",
+      "invective",
+      "philippic"
+    ],
     "translation": null
   },
   {
     "term": "umbrage",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Offence or annoyance felt at some perceived slight or disrespect",
@@ -4379,16 +4409,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "offence",
+      "displeasure",
+      "resentment"
+    ],
+    "antonymTerms": [
+      "pleasure",
+      "delight"
+    ],
+    "relatedTerms": [
+      "grievance",
+      "indignation",
+      "pique"
+    ],
     "translation": null
   },
   {
     "term": "vitriolic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Filled with bitter, sharp, and scathing criticism or hatred",
@@ -4409,9 +4450,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "scathing",
+      "caustic",
+      "corrosive"
+    ],
+    "antonymTerms": [
+      "mild",
+      "moderate"
+    ],
+    "relatedTerms": [
+      "invective",
+      "bitterness",
+      "acrimony"
+    ],
     "translation": null
   }
 ]
