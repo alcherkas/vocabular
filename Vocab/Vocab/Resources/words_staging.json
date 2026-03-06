@@ -1461,7 +1461,7 @@
     "term": "demarcation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The action of fixing boundaries or limits that clearly separate one area, concept, or activity from another.",
@@ -1484,16 +1484,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "boundary",
+      "delineation",
+      "division",
+      "delimitation"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "border",
+      "jurisdiction",
+      "partition",
+      "frontier"
+    ],
     "translation": null
   },
   {
     "term": "denigration",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The act of criticising someone or something unfairly so as to damage their reputation; disparagement.",
@@ -1506,16 +1516,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "disparagement",
+      "belittlement",
+      "vilification",
+      "defamation"
+    ],
+    "antonymTerms": [
+      "commendation",
+      "praise"
+    ],
+    "relatedTerms": [
+      "slander",
+      "libel",
+      "calumny",
+      "character assassination"
+    ],
     "translation": null
   },
   {
     "term": "denomination",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A recognised autonomous branch of the Christian Church or of another religion.",
@@ -1545,16 +1568,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sect",
+      "branch",
+      "creed",
+      "category"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "religion",
+      "currency",
+      "classification",
+      "taxonomy"
+    ],
     "translation": null
   },
   {
     "term": "deportment",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The way a person stands and moves, particularly the manner in which they conduct themselves in public; bearing and posture.",
@@ -1567,16 +1600,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "bearing",
+      "posture",
+      "carriage",
+      "demeanour"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "etiquette",
+      "comportment",
+      "poise",
+      "conduct"
+    ],
     "translation": null
   },
   {
     "term": "derogatory",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Showing a critical or disrespectful attitude; expressing a low or negative opinion of someone or something; tending to lower the reputation or dignity of a person or thing.",
@@ -1589,9 +1632,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "disparaging",
+      "demeaning",
+      "pejorative",
+      "belittling"
+    ],
+    "antonymTerms": [
+      "complimentary",
+      "laudatory"
+    ],
+    "relatedTerms": [
+      "slur",
+      "insult",
+      "prejudice",
+      "derogation"
+    ],
     "translation": null
   },
   {
