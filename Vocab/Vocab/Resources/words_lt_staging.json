@@ -2576,7 +2576,7 @@
     "term": "greičiau",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "At a higher speed; more quickly (comparative of greitai)",
@@ -2598,15 +2598,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "lėčiau"
+    ],
+    "relatedTerms": [
+      "greitas",
+      "greitai"
+    ],
     "translation": "faster"
   },
   {
     "term": "visiškai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To the fullest extent; entirely; totally",
@@ -2627,16 +2632,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pilnai"
+    ],
+    "antonymTerms": [
+      "iš dalies"
+    ],
+    "relatedTerms": [
+      "visas",
+      "visiškas"
+    ],
     "translation": "completely"
   },
   {
     "term": "pakankamai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To a sufficient degree or in a sufficient quantity",
@@ -2659,14 +2671,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pakankamas",
+      "pakanka"
+    ],
     "translation": "enough"
   },
   {
     "term": "žinoma",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Used to emphasize that something is obvious or expected; naturally",
@@ -2687,16 +2702,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "aišku"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žinoti",
+      "žinia"
+    ],
     "translation": "of course"
   },
   {
     "term": "per daug",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "More than is needed, wanted, or appropriate (with uncountable)",
@@ -2718,8 +2738,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "per mažai"
+    ],
+    "relatedTerms": [
+      "daug",
+      "perteklius"
+    ],
     "translation": "too much"
   },
   {
