@@ -3744,7 +3744,7 @@
     "term": "galimybė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A favourable set of circumstances that makes it possible to do something",
@@ -3765,16 +3765,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "proga"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "galimas",
+      "tikimybė"
+    ],
     "translation": "opportunity"
   },
   {
     "term": "kraštovaizdis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "All the visible features of an area of land; natural scenery",
@@ -3796,16 +3801,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "peizažas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kraštas",
+      "vaizdas"
+    ],
     "translation": "landscape"
   },
   {
     "term": "gamta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The physical world including plants, animals, and landscapes",
@@ -3828,14 +3838,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gamtinis",
+      "aplinka"
+    ],
     "translation": "nature"
   },
   {
     "term": "sostinė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The city that serves as the seat of government of a country",
@@ -3859,14 +3872,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "miestas",
+      "sostas"
+    ],
     "translation": "capital"
   },
   {
     "term": "šalis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A nation or independent state with its own government and territory",
@@ -3888,9 +3904,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "valstybė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tauta",
+      "tautietis"
+    ],
     "translation": "country"
   },
   {
