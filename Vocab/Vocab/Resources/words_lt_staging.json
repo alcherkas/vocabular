@@ -3882,7 +3882,7 @@
     "term": "šalis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A nation or independent state with its own government and territory",
@@ -3918,7 +3918,7 @@
     "term": "vonios kambarys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A room in a house containing a bath or shower and usually a toilet",
@@ -3943,7 +3943,7 @@
     "term": "valgomasis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A room in a house used for eating meals",
@@ -3978,7 +3978,7 @@
     "term": "katilas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A heating device in which water is heated to provide central heating or hot water",
@@ -4005,13 +4005,14 @@
       "šildymas",
       "vamzdis"
     ],
-    "translation": "boiler"
+    "translation": "boiler",
+    "qa_notes": "Grammar error in example: \"dideliame katilas\" – noun must be locative case \"katile\" not nominative \"katilas\"."
   },
   {
     "term": "skalbimo mašina",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A household appliance for washing clothes automatically",
@@ -4036,7 +4037,7 @@
     "term": "džiovykla",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "An electrical appliance used for drying washed clothes",
@@ -4055,13 +4056,14 @@
       "skalbimo mašina",
       "džiovinimas"
     ],
-    "translation": "dryer"
+    "translation": "dryer",
+    "qa_notes": "Grammar error in example: \"džioviname skalbiniai\" – direct object must be accusative plural \"skalbinius\" not nominative \"skalbiniai\"."
   },
   {
     "term": "šaldiklis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An appliance or compartment for freezing food and keeping it frozen",
@@ -4086,7 +4088,7 @@
     "term": "keptuvas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A flat-bottomed pan used for frying, sautéing, or searing food",
@@ -4113,7 +4115,7 @@
     "term": "kištukas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An electrical connector inserted into a socket to supply power",
@@ -4147,7 +4149,7 @@
     "term": "jungiklis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An electrical device for turning a circuit on or off",
