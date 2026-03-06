@@ -1762,7 +1762,7 @@
     "term": "paranoia",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In psychiatry, a mental condition characterised by delusions of persecution, unwarranted jealousy, or exaggerated self-importance.",
@@ -1785,16 +1785,28 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "delusion",
+      "persecutory ideation",
+      "suspiciousness"
+    ],
+    "antonymTerms": [
+      "trust",
+      "equanimity"
+    ],
+    "relatedTerms": [
+      "schizophrenia",
+      "anxiety disorder",
+      "persecution complex",
+      "psychosis"
+    ],
     "translation": null
   },
   {
     "term": "patronage",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The support, encouragement, privilege, or financial aid that a patron bestows on a person, organisation, or cause.",
@@ -1817,16 +1829,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sponsorship",
+      "support",
+      "backing",
+      "benefaction"
+    ],
+    "antonymTerms": [
+      "neglect",
+      "abandonment"
+    ],
+    "relatedTerms": [
+      "nepotism",
+      "clientelism",
+      "arts funding",
+      "cronyism"
+    ],
     "translation": null
   },
   {
     "term": "perennial",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Lasting or existing for a long or apparently infinite time; enduring or continually recurring.",
@@ -1848,16 +1873,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "enduring",
+      "persistent",
+      "lasting",
+      "recurrent"
+    ],
+    "antonymTerms": [
+      "ephemeral",
+      "transient"
+    ],
+    "relatedTerms": [
+      "annual",
+      "biennial",
+      "evergreen",
+      "recurrence"
+    ],
     "translation": null
   },
   {
     "term": "permeable",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having pores or openings that allow liquids or gases to pass through; capable of being permeated.",
@@ -1879,16 +1917,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "porous",
+      "absorbent",
+      "penetrable",
+      "pervious"
+    ],
+    "antonymTerms": [
+      "impermeable",
+      "impervious"
+    ],
+    "relatedTerms": [
+      "osmosis",
+      "membrane",
+      "permeability",
+      "filtration"
+    ],
     "translation": null
   },
   {
     "term": "perpetuity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The state or quality of lasting forever; an indefinitely long period of time.",
@@ -1901,9 +1952,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "eternity",
+      "permanence",
+      "immortality",
+      "endlessness"
+    ],
+    "antonymTerms": [
+      "temporality",
+      "transience"
+    ],
+    "relatedTerms": [
+      "trust law",
+      "endowment",
+      "perpetual",
+      "legacy"
+    ],
     "translation": null
   }
 ]
