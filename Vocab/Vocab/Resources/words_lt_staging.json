@@ -600,7 +600,7 @@
     "term": "ekspertas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, turintis gilių žinių ir patirties tam tikroje srityje.",
@@ -613,16 +613,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "specialistas"
+    ],
+    "antonymTerms": [
+      "pradedantysis"
+    ],
+    "relatedTerms": [
+      "patirtis",
+      "žinios",
+      "konsultantas"
+    ],
     "translation": "expert"
   },
   {
     "term": "darbo patirtis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žinios ir įgūdžiai, įgyti dirbant.",
@@ -637,14 +645,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "stažuotė",
+      "karjera",
+      "kvalifikacija"
+    ],
     "translation": "work experience"
   },
   {
     "term": "stažuotė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Laikinas darbas arba praktika organizacijoje siekiant įgyti patirties.",
@@ -657,16 +669,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "praktika"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "darbo patirtis",
+      "mokymas",
+      "karjera"
+    ],
     "translation": "internship, traineeship"
   },
   {
     "term": "skrandžio skausmas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Skausmas ar diskomfortas pilvo srityje.",
@@ -679,16 +697,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pilvo skausmas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "liga",
+      "gydytojas",
+      "vaistai"
+    ],
     "translation": "stomach ache"
   },
   {
     "term": "slėgis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Fizinis spaudimas, kurį skystis ar dujos daro į paviršių.",
@@ -711,7 +735,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kraujospūdis",
+      "širdis",
+      "sveikata"
+    ],
     "translation": "pressure; blood pressure"
   },
   {
