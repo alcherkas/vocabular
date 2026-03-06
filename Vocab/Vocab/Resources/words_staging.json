@@ -1388,7 +1388,7 @@
     "term": "negotiation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Discussion aimed at reaching an agreement; the process by which parties with differing interests communicate and compromise to find a mutually acceptable outcome.",
@@ -1401,16 +1401,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "bargaining",
+      "mediation",
+      "parley",
+      "diplomacy"
+    ],
+    "antonymTerms": [
+      "coercion",
+      "ultimatum"
+    ],
+    "relatedTerms": [
+      "arbitration",
+      "compromise",
+      "BATNA",
+      "concession"
+    ],
     "translation": null
   },
   {
     "term": "neutrality",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The state of not supporting or helping either side in a conflict, disagreement, or debate; impartiality.",
@@ -1432,16 +1445,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "impartiality",
+      "non-alignment",
+      "objectivity",
+      "detachment"
+    ],
+    "antonymTerms": [
+      "partiality",
+      "belligerence"
+    ],
+    "relatedTerms": [
+      "non-interference",
+      "Switzerland",
+      "arbitration",
+      "indifference"
+    ],
     "translation": null
   },
   {
     "term": "nomenclature",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The devising or choosing of names for things, especially in a science or other discipline; a system of names or terms used in a particular field.",
@@ -1454,16 +1480,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "terminology",
+      "taxonomy",
+      "classification",
+      "naming"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "Linnaean",
+      "jargon",
+      "classification system",
+      "scientific naming"
+    ],
     "translation": null
   },
   {
     "term": "nonchalance",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A relaxed and calm manner that suggests a lack of concern; a casual indifference to events that might be expected to cause worry or excitement.",
@@ -1476,16 +1512,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "indifference",
+      "composure",
+      "insouciance",
+      "detachment"
+    ],
+    "antonymTerms": [
+      "anxiety",
+      "agitation"
+    ],
+    "relatedTerms": [
+      "sangfroid",
+      "aplomb",
+      "equanimity",
+      "casualness"
+    ],
     "translation": null
   },
   {
     "term": "normative",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Relating to, or deriving from, a standard or norm; establishing or prescribing rules of behaviour, ethics, or conduct.",
@@ -1499,9 +1548,21 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "prescriptive",
+      "evaluative",
+      "standard-setting"
+    ],
+    "antonymTerms": [
+      "descriptive",
+      "positive"
+    ],
+    "relatedTerms": [
+      "ethics",
+      "value judgement",
+      "ought",
+      "deontic"
+    ],
     "translation": null
   },
   {
