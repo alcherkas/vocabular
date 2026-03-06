@@ -1454,7 +1454,7 @@
     "term": "saulėlydis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dienos laikas, kai saulė leidžiasi žemyn.",
@@ -1468,15 +1468,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "saulėtekis"
+    ],
+    "relatedTerms": [
+      "vakaras",
+      "dangus",
+      "šviesa"
+    ],
     "translation": "sunset"
   },
   {
     "term": "saulėtekis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dienos pradžia, kai saulė pakyla virš horizonto.",
@@ -1490,15 +1496,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "saulėlydis"
+    ],
+    "relatedTerms": [
+      "rytas",
+      "dangus",
+      "šviesa"
+    ],
     "translation": "sunrise"
   },
   {
     "term": "žemės drebėjimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žemės plutos drebėjimas dėl tektoninių plokščių judėjimo.",
@@ -1513,14 +1525,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tektonika",
+      "griūtis",
+      "cunami"
+    ],
     "translation": "earthquake"
   },
   {
     "term": "šiltnamio efektas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atmosferos šildymo procesas, kai šiltnamio dujos laiko šilumą.",
@@ -1535,14 +1551,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "klimato kaita",
+      "dujų emisija",
+      "temperatūra"
+    ],
     "translation": "greenhouse effect"
   },
   {
     "term": "gamtosauga",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gamtos apsauga ir tausojimas ateities kartoms.",
@@ -1555,9 +1575,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "aplinkosauga"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ekologija",
+      "gamta",
+      "tvarumas"
+    ],
     "translation": "nature conservation"
   },
   {
