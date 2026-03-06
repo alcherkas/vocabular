@@ -312,7 +312,7 @@
     "term": "reputacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nuomonė arba įvertinimas, kurį aplinkiniai turi apie asmenį ar organizaciją.",
@@ -327,14 +327,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "garbė",
+      "patikimumas",
+      "pasitikėjimas"
+    ],
     "translation": "reputation"
   },
   {
     "term": "supratimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gebėjimas suvokti ir interpretuoti informaciją ar situaciją.",
@@ -356,15 +360,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "nesupratimas"
+    ],
+    "relatedTerms": [
+      "empatija",
+      "žinios",
+      "komunikacija"
+    ],
     "translation": "understanding, comprehension"
   },
   {
     "term": "pagarba",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pagarbūs jausmai ir elgesys kito atžvilgiu.",
@@ -378,15 +388,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "nepagarba"
+    ],
+    "relatedTerms": [
+      "mandagumas",
+      "etika",
+      "tolerancija"
+    ],
     "translation": "respect"
   },
   {
     "term": "tolerancija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Noras priimti ir gerbti kitokią nuomonę, gyvenimo būdą ar kultūrą.",
@@ -400,15 +416,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "netolerancija"
+    ],
+    "relatedTerms": [
+      "pagarba",
+      "priėmimas",
+      "lygybė"
+    ],
     "translation": "tolerance"
   },
   {
     "term": "komunikacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Informacijos perdavimas ir keitimasis tarp žmonių.",
@@ -421,9 +443,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "bendravimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kalba",
+      "ryšys",
+      "supratimas"
+    ],
     "translation": "communication"
   },
   {
