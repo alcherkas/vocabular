@@ -1175,7 +1175,7 @@
     "term": "vietinis transportas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Visuomeninis transportas, veikiantis mieste ar regione.",
@@ -1188,16 +1188,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "viešasis transportas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "autobusas",
+      "tramvajus",
+      "taksi"
+    ],
     "translation": "local transport, public transport"
   },
   {
     "term": "naujienų portalas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Interneto svetainė, skelbianti naujienų straipsnius ir informaciją.",
@@ -1212,14 +1218,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žurnalistas",
+      "straipsnis",
+      "žiniasklaida"
+    ],
     "translation": "news portal"
   },
   {
     "term": "socialinis tinklas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Interneto platforma, leidžianti dalintis turiniu ir bendrauti.",
@@ -1234,14 +1244,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "internetas",
+      "profilė",
+      "sekėjas"
+    ],
     "translation": "social network"
   },
   {
     "term": "tiesioginė transliacija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Realaus laiko vaizdo ar garso perdavimas internetu arba per televiziją.",
@@ -1255,15 +1269,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "įrašas"
+    ],
+    "relatedTerms": [
+      "televisija",
+      "internetas",
+      "renginys"
+    ],
     "translation": "live broadcast, live stream"
   },
   {
     "term": "interneto ryšys",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Techninė galimybė prisijungti prie interneto.",
@@ -1278,7 +1298,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "internetas",
+      "Wi-Fi",
+      "tinklas"
+    ],
     "translation": "internet connection"
   },
   {
