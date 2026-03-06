@@ -406,7 +406,7 @@
     "term": "aspersion",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An attack on the reputation or integrity of someone; a false or damaging statement about a person.",
@@ -428,16 +428,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "slander",
+      "calumny",
+      "defamation",
+      "disparagement"
+    ],
+    "antonymTerms": [
+      "commendation",
+      "praise"
+    ],
+    "relatedTerms": [
+      "libel",
+      "reputation",
+      "innuendo",
+      "character assassination"
+    ],
     "translation": null
   },
   {
     "term": "assuage",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To make an unpleasant feeling, especially worry, grief, or guilt, less intense; to relieve or ease.",
@@ -459,16 +472,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "alleviate",
+      "mitigate",
+      "relieve",
+      "mollify"
+    ],
+    "antonymTerms": [
+      "aggravate",
+      "intensify"
+    ],
+    "relatedTerms": [
+      "comfort",
+      "soothe",
+      "appease",
+      "palliate"
+    ],
     "translation": null
   },
   {
     "term": "augury",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An omen or sign of things to come; a portent.",
@@ -491,16 +517,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "omen",
+      "portent",
+      "presage",
+      "auspice"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "divination",
+      "prophecy",
+      "harbinger",
+      "foreboding"
+    ],
     "translation": null
   },
   {
     "term": "banality",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The state or quality of being so lacking in originality or distinction as to be commonplace and uninteresting; triteness.",
@@ -522,16 +558,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "triteness",
+      "platitude",
+      "commonplace",
+      "vapidity"
+    ],
+    "antonymTerms": [
+      "originality",
+      "profundity"
+    ],
+    "relatedTerms": [
+      "cliché",
+      "mediocrity",
+      "insipidity",
+      "mundaneness"
+    ],
     "translation": null
   },
   {
     "term": "beguile",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To charm or enchant someone, sometimes in a deceptive way; to captivate through allure or flattery.",
@@ -553,9 +602,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "enchant",
+      "captivate",
+      "charm",
+      "bewitch"
+    ],
+    "antonymTerms": [
+      "repel",
+      "disenchant"
+    ],
+    "relatedTerms": [
+      "allure",
+      "fascinate",
+      "deceive",
+      "seduce"
+    ],
     "translation": null
   },
   {
