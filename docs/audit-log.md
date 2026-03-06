@@ -131,3 +131,4 @@ Agents append one entry here **after each commit** and **after every irreversibl
 [2026-03-06] [continuous-en] [vocab-enricher-en] [commit] [cycle-complete] [100%] Cycle 22: seeded 50, enriched 50, published 30 new (3173 total EN words) | doubts: none
 [2026-03-06] [continuous-en] [vocab-enricher-en] [commit] [cycle-complete] [100%] Cycle 23: seeded 50, enriched 50, published 32 new (3205 total EN words) | doubts: none
 [2026-03-06] [continuous-en] [vocab-enricher-en] [commit] [cycle-complete] [100%] Cycle 24: seeded 50, enriched 50, published 30 new (3235 total EN words) | doubts: none
+[2026-03-06] [continuous-lt] [vocab-enricher-lt] [commit] [cycle-complete] [100%] Cycle 114: seeded 100, enriched 100, published 99 LT words (1 duplicate removed) | total: 4000 words milestone! | doubts: none
