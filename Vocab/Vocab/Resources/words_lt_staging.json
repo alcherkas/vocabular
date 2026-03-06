@@ -2133,56 +2133,151 @@
     "term": "čia",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In this place; at this location",
+        "example": "Palaukite čia, aš grįšiu po minutės.",
+        "register": "general",
+        "tags": [
+          "location",
+          "place"
+        ]
+      },
+      {
+        "definition": "At this point in a text, conversation, or process",
+        "example": "Čia autorius pereina prie kitos temos.",
+        "register": "neutral",
+        "tags": [
+          "discourse",
+          "reference"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "here"
   },
   {
     "term": "ten",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In or at that place; at a distance from the speaker",
+        "example": "Biblioteka yra ten, už kampo.",
+        "register": "general",
+        "tags": [
+          "location",
+          "distance"
+        ]
+      },
+      {
+        "definition": "To that place; in that direction",
+        "example": "Jis nuėjo ten, kur niekas jo neieškojo.",
+        "register": "general",
+        "tags": [
+          "direction",
+          "movement"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "there"
   },
   {
     "term": "niekur",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Not in any place; in no place at all",
+        "example": "Ieškojau raktų, bet jų niekur neradau.",
+        "register": "general",
+        "tags": [
+          "negation",
+          "location"
+        ]
+      },
+      {
+        "definition": "To no place; without a destination",
+        "example": "Jis sėdėjo namie ir niekur nėjo.",
+        "register": "general",
+        "tags": [
+          "negation",
+          "movement"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "nowhere"
   },
   {
     "term": "kažkur",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In or to some unspecified or unknown place",
+        "example": "Ji padėjo dokumentus kažkur ant stalo.",
+        "register": "general",
+        "tags": [
+          "location",
+          "indefinite"
+        ]
+      },
+      {
+        "definition": "At some point that cannot be exactly identified",
+        "example": "Kažkur jis jau girdėjo šią melodiją.",
+        "register": "general",
+        "tags": [
+          "vagueness",
+          "memory"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "somewhere"
   },
   {
     "term": "anksčiau",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "At an earlier time; before the present or a reference point",
+        "example": "Anksčiau žmonės rašydavo laiškus, o ne el. laiškus.",
+        "register": "general",
+        "tags": [
+          "time",
+          "past"
+        ]
+      },
+      {
+        "definition": "Sooner than expected or usual; ahead of time",
+        "example": "Jis atvyko anksčiau ir turėjo laukti.",
+        "register": "general",
+        "tags": [
+          "time",
+          "punctuality"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "earlier"
   },
   {
     "term": "vėliau",
