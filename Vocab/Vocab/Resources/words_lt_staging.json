@@ -1470,56 +1470,176 @@
     "term": "klausyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To perceive and pay attention to sound, speech, or music",
+        "example": "Ji mėgsta klausyti klasikinės muzikos vakare.",
+        "register": "general",
+        "tags": [
+          "perception",
+          "sound"
+        ]
+      },
+      {
+        "definition": "To follow instructions or comply with someone's wishes; to obey",
+        "example": "Vaikai turėtų klausyti savo tėvų.",
+        "register": "general",
+        "tags": [
+          "obedience",
+          "authority"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "listen",
+    "forms": {
+      "present3": "klauso",
+      "past3": "klausė"
+    },
+    "governedCase": "ko?"
   },
   {
     "term": "šnekėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To speak or converse with someone",
+        "example": "Jie šnekėjo apie kelionę visą vakarą.",
+        "register": "informal",
+        "tags": [
+          "communication",
+          "speech"
+        ]
+      },
+      {
+        "definition": "To chat informally or gossip",
+        "example": "Kaimynės šneka apie viską, kas vyksta gatvėje.",
+        "register": "informal",
+        "tags": [
+          "conversation",
+          "gossip"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "talk",
+    "forms": {
+      "present3": "šneka",
+      "past3": "šnekėjo"
+    },
+    "governedCase": null
   },
   {
     "term": "galvoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To use the mind to consider, ponder, or reason",
+        "example": "Jis ilgai galvojo prieš priimdamas sprendimą.",
+        "register": "general",
+        "tags": [
+          "thought",
+          "reasoning"
+        ]
+      },
+      {
+        "definition": "To believe or hold an opinion about something",
+        "example": "Ką tu galvoji apie šį filmą?",
+        "register": "general",
+        "tags": [
+          "opinion",
+          "belief"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "think",
+    "forms": {
+      "present3": "galvoja",
+      "past3": "galvojo"
+    },
+    "governedCase": null
   },
   {
     "term": "jausti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To experience an emotion or inner state",
+        "example": "Ji jautė didelį džiaugsmą, išvydusi sūnų.",
+        "register": "general",
+        "tags": [
+          "emotion",
+          "experience"
+        ]
+      },
+      {
+        "definition": "To perceive physically through the senses",
+        "example": "Jis jautė šaltį įėjęs į rūsį.",
+        "register": "general",
+        "tags": [
+          "perception",
+          "sensation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "feel",
+    "forms": {
+      "present3": "jaučia",
+      "past3": "jautė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "prisiminti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To bring back to mind; to recall from memory",
+        "example": "Ar prisimenate, kur palikote raktus?",
+        "register": "general",
+        "tags": [
+          "memory",
+          "recall"
+        ]
+      },
+      {
+        "definition": "To keep in memory as a commemoration or tribute",
+        "example": "Mes visada prisiminsime žuvusiuosius karo metu.",
+        "register": "formal",
+        "tags": [
+          "memory",
+          "commemoration"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "remember",
+    "forms": {
+      "present3": "prisimena",
+      "past3": "prisiminė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "bandyti",
