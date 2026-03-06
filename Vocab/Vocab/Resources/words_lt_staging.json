@@ -3,7 +3,7 @@
     "term": "milijonas",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Skaičius 1 000 000.",
@@ -17,14 +17,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "milijardas",
+      "tūkstantis"
+    ],
     "translation": "million"
   },
   {
     "term": "milijardas",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Skaičius 1 000 000 000.",
@@ -38,14 +41,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "milijonas"
+    ],
     "translation": "billion"
   },
   {
     "term": "procentas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Šimtoji dalis.",
@@ -66,7 +71,7 @@
     "term": "praėjusi savaitė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Savaitė prieš šią.",
@@ -78,7 +83,9 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "ateinančios savaitės"
+    ],
     "relatedTerms": [],
     "translation": "last week"
   },
@@ -86,7 +93,7 @@
     "term": "ateinančios savaitės",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Savaitė po šios.",
@@ -98,7 +105,9 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "praėjusi savaitė"
+    ],
     "relatedTerms": [],
     "translation": "next week"
   },
@@ -106,7 +115,7 @@
     "term": "retkarčiais",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kartais, ne dažnai.",
@@ -118,8 +127,13 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
+    "synonyms": [
+      "kartais"
+    ],
+    "antonymTerms": [
+      "nuolat",
+      "visada"
+    ],
     "relatedTerms": [],
     "translation": "occasionally, sometimes"
   },
@@ -127,7 +141,7 @@
     "term": "kilometras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atstumas lygus 1000 metrų.",
@@ -141,14 +155,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "metras"
+    ],
     "translation": "kilometre"
   },
   {
     "term": "litas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Buvusi Lietuvos valiuta.",
@@ -162,14 +178,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "valiuta"
+    ],
     "translation": "litas (former Lithuanian currency)"
   },
   {
     "term": "pasiimti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Paimti ką nors savo naudai.",
@@ -182,7 +200,9 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "imti"
+    ],
     "translation": "to take (for oneself)",
     "forms": {
       "present3": "pasiima",
@@ -194,7 +214,7 @@
     "term": "gaudyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Stengtis pagauti.",
@@ -207,7 +227,9 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "paleisti"
+    ],
     "relatedTerms": [],
     "translation": "to catch, to chase",
     "forms": {
@@ -220,7 +242,7 @@
     "term": "svečiuotis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Lankytis pas svečius.",
@@ -234,7 +256,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "svečias",
+      "lankyti"
+    ],
     "translation": "to visit (as a guest)",
     "forms": {
       "present3": "svečiuojasi",
@@ -246,7 +271,7 @@
     "term": "pokyliai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Oficialūs ar šventiniai vaišės.",
@@ -260,14 +285,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vakarėlis"
+    ],
     "translation": "feast, banquet"
   },
   {
     "term": "akiniai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Optinis prietaisas akims taisyti.",
@@ -288,7 +315,7 @@
     "term": "raktai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Įrankiai durims ar spynai atidaryti.",
@@ -302,14 +329,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "spyna",
+      "durys"
+    ],
     "translation": "keys"
   },
   {
     "term": "astronautas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kosmose dirbantis tyrinėtojas.",
@@ -330,7 +360,7 @@
     "term": "kosmoso tyrinėtojas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mokslininkas, tiriantis kosmosą.",
@@ -344,14 +374,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "astronautas",
+      "mokslas"
+    ],
     "translation": "space researcher/explorer"
   },
   {
     "term": "paleontologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mokslininkas, tiriantis iškastinius organismus.",
@@ -365,14 +398,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "biologija"
+    ],
     "translation": "palaeontologist"
   },
   {
     "term": "mineralologas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mineralų ir uolienų mokslininkas.",
@@ -386,14 +421,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mineralai"
+    ],
     "translation": "mineralogist"
   },
   {
     "term": "vulkanologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ugnikalnius tiriantis mokslininkas.",
@@ -414,7 +451,7 @@
     "term": "hidrologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vandens judėjimą tiriantis mokslininkas.",
@@ -428,14 +465,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vanduo"
+    ],
     "translation": "hydrologist"
   },
   {
     "term": "okeanografas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vandenynų mokslininkas.",
@@ -449,14 +488,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vandenynas"
+    ],
     "translation": "oceanographer"
   },
   {
     "term": "meteorologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Orų mokslininkas.",
@@ -477,7 +518,7 @@
     "term": "klimatologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Klimato pokyčius tiriantis mokslininkas.",
@@ -491,14 +532,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "klimatas"
+    ],
     "translation": "climatologist"
   },
   {
     "term": "ekologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ekosistemas tiriantis mokslininkas.",
@@ -512,14 +555,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "aplinka"
+    ],
     "translation": "ecologist"
   },
   {
     "term": "botanistas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Augalus tiriantis mokslininkas.",
@@ -540,7 +585,7 @@
     "term": "zoologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gyvūnus tiriantis mokslininkas.",
@@ -561,7 +606,7 @@
     "term": "entomologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vabzdžius tiriantis mokslininkas.",
@@ -582,7 +627,7 @@
     "term": "ichtiologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žuvis tiriantis mokslininkas.",
@@ -603,7 +648,7 @@
     "term": "ornitologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Paukščius tiriantis mokslininkas.",
@@ -624,7 +669,7 @@
     "term": "herpetologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Roplių ir varliagyvių mokslininkas.",
@@ -645,7 +690,7 @@
     "term": "proteinas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Baltymų molekulė, atliekanti biologines funkcijas.",
@@ -666,7 +711,7 @@
     "term": "RNR",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ribonukleino rūgštis – molekulė, perduodanti genetinę informaciją.",
@@ -680,14 +725,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "DNR",
+      "genomas"
+    ],
     "translation": "RNA (ribonucleic acid)"
   },
   {
     "term": "genomas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Viso organizmo genetinė medžiaga.",
@@ -701,14 +749,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "DNR",
+      "genas"
+    ],
     "translation": "genome"
   },
   {
     "term": "mutagenezė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Genetinių mutacijų procesas.",
@@ -722,14 +773,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "genomas"
+    ],
     "translation": "mutagenesis"
   },
   {
     "term": "ląstelės membrana",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ląstelės išorinė danga.",
@@ -750,7 +803,7 @@
     "term": "mitochondrija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ląstelės organelė, gaminanti energiją.",
@@ -764,14 +817,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ląstelės branduolys"
+    ],
     "translation": "mitochondrion"
   },
   {
     "term": "ribosomos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ląstelės organelės, sintetinančios baltymus.",
@@ -785,14 +840,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "proteinas"
+    ],
     "translation": "ribosomes"
   },
   {
     "term": "ląstelės branduolys",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ląstelės centras su genetine medžiaga.",
@@ -806,14 +863,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mitochondrija"
+    ],
     "translation": "cell nucleus"
   },
   {
     "term": "pasąmonė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nesąmoninga psichikos dalis.",
@@ -826,15 +885,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "sąmonė"
+    ],
+    "relatedTerms": [
+      "kolektyvinė pasąmonė"
+    ],
     "translation": "subconscious"
   },
   {
     "term": "kolektyvinė pasąmonė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Jungo koncepcija – bendros pasąmoningos struktūros.",
@@ -848,14 +911,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pasąmonė"
+    ],
     "translation": "collective unconscious"
   },
   {
     "term": "atminties klodas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sluoksnis prisiminimų atmintyje.",
@@ -869,14 +934,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ilgalaikė atmintis"
+    ],
     "translation": "memory layer/stratum"
   },
   {
     "term": "darbo atmintis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Trumpalaikė atmintis, naudojama aktyviam mąstymui.",
@@ -890,14 +957,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "trumpalaikė atmintis",
+      "ilgalaikė atmintis"
+    ],
     "translation": "working memory"
   },
   {
     "term": "ilgalaikė atmintis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Prisiminimų saugojimas ilgą laiką.",
@@ -910,15 +980,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "trumpalaikė atmintis"
+    ],
+    "relatedTerms": [
+      "darbo atmintis"
+    ],
     "translation": "long-term memory"
   },
   {
     "term": "trumpalaikė atmintis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Laikinas prisiminimų saugojimas.",
@@ -931,15 +1005,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "ilgalaikė atmintis"
+    ],
+    "relatedTerms": [
+      "darbo atmintis"
+    ],
     "translation": "short-term memory"
   },
   {
     "term": "sintaksinė struktūra",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sakinio dalių išdėstymas ir ryšiai.",
@@ -952,14 +1030,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sintaksė",
+      "gramatika"
+    ],
     "translation": "syntactic structure"
   },
   {
     "term": "semantinis laukas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žodžių grupė, kurią sieja reikšmė.",
@@ -973,14 +1054,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "semantika"
+    ],
     "translation": "semantic field"
   },
   {
     "term": "pragmatika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kalbos naudojimo kontekste tyrimas.",
@@ -993,14 +1076,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "semantika"
+    ],
     "translation": "pragmatics"
   },
   {
     "term": "diskurso analizė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Teksto ir pokalbio tyrimas.",
@@ -1014,14 +1099,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lingvistika"
+    ],
     "translation": "discourse analysis"
   },
   {
     "term": "retorinis klausimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Klausimas, nereikalaujantis atsakymo.",
@@ -1035,14 +1122,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "retorika",
+      "klausimas"
+    ],
     "translation": "rhetorical question"
   },
   {
     "term": "litotes",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kalbos figūra, susilpninanti teiginį.",
@@ -1056,14 +1146,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "retorika"
+    ],
     "translation": "litotes"
   },
   {
     "term": "paronimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žodis, panašus kitu žodžiu pagal formą.",
@@ -1076,14 +1168,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "homonimas"
+    ],
     "translation": "paronym"
   },
   {
     "term": "homonimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žodis, vienodas pagal formą, bet skirtingos prasmės.",
@@ -1096,14 +1190,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "paronimas"
+    ],
     "translation": "homonym"
   },
   {
     "term": "matematinė logika",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Matematikos šaka apie loginius sprendimus.",
@@ -1117,14 +1213,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "logika",
+      "matematika"
+    ],
     "translation": "mathematical logic"
   },
   {
     "term": "tikimybių teorija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Matematika apie atsitiktinius procesus.",
@@ -1137,14 +1236,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "statistika",
+      "matematika"
+    ],
     "translation": "probability theory"
   },
   {
     "term": "skaičių teorija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Skaičių ir jų savybių tyrimas.",
@@ -1157,14 +1259,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "matematika",
+      "algebra"
+    ],
     "translation": "number theory"
   },
   {
     "term": "diferencialu skaičiavimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Matematikos šaka apie kitimo greičius.",
@@ -1177,14 +1282,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "matematika"
+    ],
     "translation": "differential calculus"
   },
   {
     "term": "žibintuvėlis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nešiojamas elektrinis šviesos šaltinis.",
@@ -1198,14 +1305,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "baterija",
+      "lempa"
+    ],
     "translation": "torch, flashlight"
   },
   {
     "term": "lizdas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Elektros jungtis ar paukščio nameliai.",
@@ -1219,14 +1329,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kištukas",
+      "elektra"
+    ],
     "translation": "socket, nest"
   },
   {
     "term": "prailgintuvas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Elektros laidas su keliais lizdais.",
@@ -1240,14 +1353,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "lizdas",
+      "laidas"
+    ],
     "translation": "extension cord"
   },
   {
     "term": "saugiklis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Elektros apsaugos elementas.",
@@ -1261,14 +1377,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "elektra"
+    ],
     "translation": "fuse, circuit breaker"
   },
   {
     "term": "transformatorius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Elektros įtampą keičiantis prietaisas.",
@@ -1282,14 +1400,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "elektra"
+    ],
     "translation": "transformer"
   },
   {
     "term": "medžio žievė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Išorinė medžio apsauga.",
@@ -1303,14 +1423,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "medis",
+      "lapas"
+    ],
     "translation": "tree bark"
   },
   {
     "term": "paparčiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nepražydinčios augalų rūšis.",
@@ -1324,14 +1447,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "samanos"
+    ],
     "translation": "ferns"
   },
   {
     "term": "medžio šaknis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žemėje esanti medžio dalis.",
@@ -1345,14 +1470,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "medis",
+      "lapas"
+    ],
     "translation": "tree root"
   },
   {
     "term": "lapas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Augalo fotosintetinis organas.",
@@ -1366,14 +1494,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "medis",
+      "žalia"
+    ],
     "translation": "leaf"
   },
   {
     "term": "vaisiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Augalo sunokę vaisiai su sėklomis.",
@@ -1394,7 +1525,7 @@
     "term": "rupūžė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žeminis varliagyvė su šiurkščia oda.",
@@ -1408,14 +1539,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "varlė"
+    ],
     "translation": "toad"
   },
   {
     "term": "angis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nuodinga gyvatė Europoje.",
@@ -1429,14 +1562,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gyvatė"
+    ],
     "translation": "adder, viper"
   },
   {
     "term": "šikšnosparnis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Naktinis skraidantis žinduolis.",
@@ -1450,14 +1585,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pelė",
+      "naktis"
+    ],
     "translation": "bat"
   },
   {
     "term": "kiškis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Laukinis zuikis.",
@@ -1471,14 +1609,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "triušis"
+    ],
     "translation": "hare"
   },
   {
     "term": "tempti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Traukti ar vilkti.",
@@ -1490,9 +1630,15 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "traukti"
+    ],
+    "antonymTerms": [
+      "stumti"
+    ],
+    "relatedTerms": [
+      "nešti"
+    ],
     "translation": "to drag, to pull",
     "forms": {
       "present3": "tempia",
@@ -1504,7 +1650,7 @@
     "term": "kratinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kratyti ar purinti.",
@@ -1518,7 +1664,9 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "maišyti"
+    ],
     "translation": "to shake, to toss",
     "forms": {
       "present3": "kratina",
@@ -1530,7 +1678,7 @@
     "term": "vientisumas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vientisumo ir nesujungtų dalių savybė.",
@@ -1542,7 +1690,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vientisingumas"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
     "translation": "integrity, wholeness"
@@ -1551,7 +1701,7 @@
     "term": "vientisingumas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Savybė būti vientisam ir neskaidomam.",
@@ -1563,16 +1713,20 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vientisumas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sąžiningumas"
+    ],
     "translation": "integrity (of character)"
   },
   {
     "term": "suderinamumas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gebėjimas veikti kartu.",
@@ -1586,14 +1740,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "suderinimas"
+    ],
     "translation": "compatibility"
   },
   {
     "term": "suderinimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Skirtingų dalykų suderinimo veiksmas.",
@@ -1607,14 +1763,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "suderinamumas"
+    ],
     "translation": "coordination, reconciliation"
   },
   {
     "term": "ūkio savininkas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, valdantis ūkį ar verslą.",
@@ -1628,14 +1786,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ūkininkas",
+      "verslininkas"
+    ],
     "translation": "farm owner"
   },
   {
     "term": "verslumo kultūra",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vertybės ir tradicijos verslo aplinkoje.",
@@ -1656,7 +1817,7 @@
     "term": "akcininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, valdantis bendrovės akcijų.",
@@ -1670,14 +1831,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "akcija"
+    ],
     "translation": "shareholder"
   },
   {
     "term": "obligacijų turėtojas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, turintis obligacijų.",
@@ -1690,14 +1853,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "akcininkas",
+      "obligacija"
+    ],
     "translation": "bondholder"
   },
   {
     "term": "mokesčių inspekcija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Valstybės institucija, prižiūrinti mokesčius.",
@@ -1711,14 +1877,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokesčiai",
+      "valdžia"
+    ],
     "translation": "tax inspectorate"
   },
   {
     "term": "valstybės tarnautojas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Valstybės sektoriuje dirbantis asmuo.",
@@ -1732,14 +1901,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "viešasis sektorius",
+      "valdžia"
+    ],
     "translation": "civil servant"
   },
   {
     "term": "viešasis sektorius",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Valstybei priklausantis ekonomikos sektorius.",
@@ -1752,15 +1924,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "privatus sektorius"
+    ],
+    "relatedTerms": [
+      "valdžia"
+    ],
     "translation": "public sector"
   },
   {
     "term": "privatus sektorius",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Privačios nuosavybės verslo sektorius.",
@@ -1773,15 +1949,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "viešasis sektorius"
+    ],
+    "relatedTerms": [
+      "verslas",
+      "ekonomika"
+    ],
     "translation": "private sector"
   },
   {
     "term": "socialinis darbuotojas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Specialistas, padedantis socialinę atskirtį patiriantiems.",
@@ -1795,14 +1976,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "socialinė darbuotoja"
+    ],
     "translation": "social worker (male)"
   },
   {
     "term": "socialinė darbuotoja",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moteris, dirbanti socialinio darbo srityje.",
@@ -1816,14 +1999,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "socialinis darbuotojas"
+    ],
     "translation": "social worker (female)"
   },
   {
     "term": "teismo ekspertas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Specialistas, teikiantis ekspertizę teisme.",
@@ -1836,14 +2021,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "teismo ekspertė",
+      "teismas"
+    ],
     "translation": "forensic expert (male)"
   },
   {
     "term": "teismo ekspertė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moteris, teikianti ekspertizę teisme.",
@@ -1856,14 +2044,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "teismo ekspertas",
+      "teismas"
+    ],
     "translation": "forensic expert (female)"
   },
   {
     "term": "kriminalistas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nusikaltimų tyrimo specialistas.",
@@ -1884,7 +2075,7 @@
     "term": "baudžiamosios teisės specialistas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Advokatas, specializuojantis baudžiamojoje teisėje.",
@@ -1897,14 +2088,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "advokatas",
+      "civilinės teisės advokatas"
+    ],
     "translation": "criminal law specialist"
   },
   {
     "term": "civilinės teisės advokatas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Advokatas, dirbantis civilinių bylų srityje.",
@@ -1917,14 +2111,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "advokatas",
+      "baudžiamosios teisės specialistas"
+    ],
     "translation": "civil lawyer"
   },
   {
     "term": "notaras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Teisinis specialistas, tvirtinantis dokumentus.",
@@ -1937,14 +2134,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "advokatas",
+      "taikos teisėjas"
+    ],
     "translation": "notary"
   },
   {
     "term": "taikos teisėjas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žemesnio lygio teisėjas, sprendžiantis mažas bylas.",
@@ -1957,14 +2157,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "teisėjas",
+      "notaras"
+    ],
     "translation": "justice of the peace"
   },
   {
     "term": "teismingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Teisingas ir teisingumą reiškiantis.",
@@ -1976,16 +2179,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "teisingas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sąžininga konkurencija",
+      "teisingumas"
+    ],
     "translation": "just, equitable"
   },
   {
     "term": "nesąžiningumas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nesąžiningo elgesio savybė.",
@@ -1998,15 +2206,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "sąžiningumas"
+    ],
+    "relatedTerms": [
+      "sukčiavimas"
+    ],
     "translation": "dishonesty, unfairness"
   },
   {
     "term": "sąžiningumas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sąžiningo elgesio savybė.",
@@ -2019,15 +2231,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "nesąžiningumas"
+    ],
+    "relatedTerms": [
+      "vientisingumas",
+      "etika"
+    ],
     "translation": "honesty, integrity"
   },
   {
     "term": "sąžininga konkurencija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Lygiateisiška rinka be sukčiavimo.",
@@ -2040,15 +2257,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "monopolija"
+    ],
+    "relatedTerms": [
+      "antimonopolija"
+    ],
     "translation": "fair competition"
   },
   {
     "term": "oligopolija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Rinka, kurią valdo keletas didelių įmonių.",
@@ -2062,14 +2283,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "monopolija"
+    ],
     "translation": "oligopoly"
   },
   {
     "term": "antimonopolija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Taisyklės prieš rinkų monopolizavimą.",
@@ -2082,15 +2305,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "monopolija"
+    ],
+    "relatedTerms": [
+      "reguliavimas"
+    ],
     "translation": "antitrust, anti-monopoly"
   },
   {
     "term": "reguliavimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Veiklos kontrolė ir priežiūra.",
@@ -2104,7 +2331,9 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "priežiūra"
+    ],
     "translation": "regulation"
   }
 ]
