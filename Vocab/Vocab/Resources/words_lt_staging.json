@@ -1672,7 +1672,7 @@
     "term": "bandyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To attempt to do something; to make an effort",
@@ -1693,9 +1693,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "mėginti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "bandymas",
+      "bandymasis"
+    ],
     "translation": "try",
     "forms": {
       "present3": "bando",
@@ -1707,7 +1712,7 @@
     "term": "pavykti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To turn out well; to be successful (used impersonally)",
@@ -1730,7 +1735,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sėkmė",
+      "sėkmingas"
+    ],
     "translation": "succeed",
     "forms": {
       "present3": "pavyksta",
@@ -1742,7 +1750,7 @@
     "term": "nepavykti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To not succeed; to turn out badly or fall short (used impersonally)",
@@ -1764,8 +1772,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "pavykti"
+    ],
+    "relatedTerms": [
+      "nesėkmė",
+      "nesėkmingas"
+    ],
     "translation": "fail",
     "forms": {
       "present3": "nepavyksta",
@@ -1777,7 +1790,7 @@
     "term": "atvykti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To reach a destination; to come to a place",
@@ -1799,8 +1812,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "išvykti"
+    ],
+    "relatedTerms": [
+      "atvykimas",
+      "atvykėlis"
+    ],
     "translation": "arrive",
     "forms": {
       "present3": "atvyksta",
@@ -1812,7 +1830,7 @@
     "term": "išvykti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To leave a place; to set off on a journey",
@@ -1834,8 +1852,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "atvykti"
+    ],
+    "relatedTerms": [
+      "išvykimas",
+      "išvykstantis"
+    ],
     "translation": "depart",
     "forms": {
       "present3": "išvyksta",
