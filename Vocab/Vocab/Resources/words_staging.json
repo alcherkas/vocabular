@@ -228,7 +228,7 @@
     "term": "abstruse",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Difficult to understand; obscure or esoteric in nature",
@@ -263,18 +263,17 @@
     "relatedTerms": [
       "cryptic",
       "enigmatic",
-      "abstruseness"
+      "opacity"
     ],
     "translation": null,
     "pronunciation": "/æbˈstruːs/",
-    "etymology": "From Latin abstrusus 'hidden, concealed', past participle of abstrudere 'to push away'",
-    "qa_notes": "Self-reference: relatedTerms contains 'abstruseness', which has the headword 'abstruse' as a substring. Replace with a non-derived related term."
+    "etymology": "From Latin abstrusus 'hidden, concealed', past participle of abstrudere 'to push away'"
   },
   {
     "term": "ascetic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Characterized by severe self-discipline and abstention from indulgence",
@@ -286,11 +285,11 @@
         ]
       },
       {
-        "definition": "A person who practises severe self-discipline and abstains from pleasure",
-        "example": "The desert ascetic renounced all worldly possessions and lived on bread and water alone.",
-        "register": "general",
+        "definition": "Practicing or characteristic of extreme self-discipline and renunciation of sensory pleasures",
+        "example": "The ascetic practices of early Christian hermits profoundly shaped later monastic traditions.",
+        "register": "formal",
         "tags": [
-          "lifestyle",
+          "discipline",
           "renunciation"
         ]
       }
@@ -313,14 +312,13 @@
     ],
     "translation": null,
     "pronunciation": "/əˈsɛtɪk/",
-    "etymology": "From Greek askētikos 'rigorously self-disciplined', from askein 'to exercise'",
-    "qa_notes": "POS mismatch: partOfSpeech is 'adjective' but meaning 2 ('A person who practises severe self-discipline and abstains from pleasure') is a noun definition. Split by POS or rewrite meaning 2 as adjectival."
+    "etymology": "From Greek askētikos 'rigorously self-disciplined', from askein 'to exercise'"
   },
   {
     "term": "brusque",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Abrupt or offhand in speech or manner; curtly blunt",
@@ -329,15 +327,6 @@
         "tags": [
           "manner",
           "rudeness"
-        ]
-      },
-      {
-        "definition": "Markedly short and abrupt in response or communication",
-        "example": "She gave a brusque nod and turned back to her work without another word.",
-        "register": "general",
-        "tags": [
-          "communication",
-          "brevity"
         ]
       }
     ],
@@ -359,14 +348,13 @@
     ],
     "translation": null,
     "pronunciation": "/brʌsk/",
-    "etymology": "From French brusque, from Italian brusco 'sour, rough'",
-    "qa_notes": "Non-distinct meanings: meaning 1 ('Abrupt or offhand in speech or manner; curtly blunt') and meaning 2 ('Markedly short and abrupt in response or communication') describe the same quality. Consolidate into one meaning."
+    "etymology": "From French brusque, from Italian brusco 'sour, rough'"
   },
   {
     "term": "callous",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Showing a cruel disregard for others; emotionally insensitive",
@@ -399,20 +387,19 @@
       "tender"
     ],
     "relatedTerms": [
-      "callousness",
+      "harshness",
       "hardened",
       "indifferent"
     ],
     "translation": null,
     "pronunciation": "/ˈkæləs/",
-    "etymology": "From Latin callosus 'thick-skinned', from callum 'hard skin'",
-    "qa_notes": "Self-reference: relatedTerms contains 'callousness', which has the headword 'callous' as a substring. Replace with a non-derived related term."
+    "etymology": "From Latin callosus 'thick-skinned', from callum 'hard skin'"
   },
   {
     "term": "decorous",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In keeping with good taste and propriety; polite and restrained",
@@ -440,9 +427,9 @@
       "tasteful"
     ],
     "antonymTerms": [
-      "indecorous",
       "unseemly",
-      "improper"
+      "improper",
+      "unbecoming"
     ],
     "relatedTerms": [
       "decorum",
@@ -451,8 +438,7 @@
     ],
     "translation": null,
     "pronunciation": "/ˈdɛkərəs/",
-    "etymology": "From Latin decorus 'seemly, becoming', from decor 'beauty, grace'",
-    "qa_notes": "Self-reference: antonymTerms contains 'indecorous', which has the headword 'decorous' as a substring. The other antonyms ('unseemly', 'improper') are sufficient; remove 'indecorous' or replace it."
+    "etymology": "From Latin decorus 'seemly, becoming', from decor 'beauty, grace'"
   },
   {
     "term": "dialectic",
