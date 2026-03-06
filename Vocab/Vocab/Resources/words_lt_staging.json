@@ -3,7 +3,7 @@
     "term": "argumentas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Teiginys arba įrodymas, pateikiamas diskusijoje siekiant pagrįsti poziciją.",
@@ -25,16 +25,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "teiginys"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "diskusija",
+      "debatai",
+      "nuomonė"
+    ],
     "translation": "argument"
   },
   {
     "term": "įrodymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Faktas arba informacija, patvirtinantys, kad kažkas yra tiesa.",
@@ -47,16 +53,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "faktas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "argumentas",
+      "tyrimas",
+      "duomenys"
+    ],
     "translation": "proof, evidence"
   },
   {
     "term": "rezultatas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kažko pasekmė arba galutinis rezultatas.",
@@ -69,16 +81,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "išvada"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pasekmė",
+      "tikslas"
+    ],
     "translation": "result, outcome"
   },
   {
     "term": "riba",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Linija arba taškas, kurio negalima peržengti.",
@@ -100,16 +117,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "siena"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "erdvė",
+      "sąlyga"
+    ],
     "translation": "limit, boundary, border"
   },
   {
     "term": "atsakomybė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pareiga atsakyti už savo veiksmus ir jų pasekmes.",
@@ -123,8 +145,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "neatsakingumas"
+    ],
+    "relatedTerms": [
+      "pareiga",
+      "sprendimas"
+    ],
     "translation": "responsibility"
   },
   {
