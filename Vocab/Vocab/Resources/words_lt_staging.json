@@ -2459,7 +2459,7 @@
     "term": "praeitis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Laikas, kuris jau praėjo.",
@@ -2473,15 +2473,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "ateitis"
+    ],
+    "relatedTerms": [
+      "istorija",
+      "dabartis",
+      "atminimas"
+    ],
     "translation": "past"
   },
   {
     "term": "nesėkmė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tikslo nepasiekimas arba nepavykęs bandymas.",
@@ -2494,16 +2500,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pralaimėjimas"
+    ],
+    "antonymTerms": [
+      "sėkmė"
+    ],
+    "relatedTerms": [
+      "klaida",
+      "patirtis",
+      "atkaklumas"
+    ],
     "translation": "failure, setback"
   },
   {
     "term": "svajonė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Stiprus noras ar tikslas, kurio norima pasiekti.",
@@ -2516,16 +2530,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "troškimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "viltis",
+      "tikrovė",
+      "tikslas"
+    ],
     "translation": "dream (aspiration)"
   },
   {
     "term": "tikrovė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tai, kas egzistuoja ir yra tiesa, o ne fantazija.",
@@ -2539,15 +2559,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "iliuzija"
+    ],
+    "relatedTerms": [
+      "svajonė",
+      "faktas",
+      "gyvenimas"
+    ],
     "translation": "reality"
   },
   {
     "term": "motyvacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vidinis ar išorinis stimulas, skatinantis veikti.",
@@ -2560,9 +2586,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "paskata"
+    ],
+    "antonymTerms": [
+      "demotyvacija"
+    ],
+    "relatedTerms": [
+      "tikslas",
+      "tobulėjimas",
+      "energija"
+    ],
     "translation": "motivation"
   },
   {
