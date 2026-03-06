@@ -2896,7 +2896,7 @@
     "term": "viskas gerai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An expression indicating that the situation is fine or satisfactory",
@@ -2920,14 +2920,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gerai",
+      "viskas"
+    ],
     "translation": "everything is fine"
   },
   {
     "term": "kiekvienas",
     "language": "lt",
     "partOfSpeech": "pronoun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Each individual one of a group, without exception",
@@ -2957,7 +2960,7 @@
     "term": "keletas",
     "language": "lt",
     "partOfSpeech": "numeral",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small but unspecified number of people or things",
@@ -2978,7 +2981,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "keli"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
     "translation": "a few"
@@ -2987,7 +2992,7 @@
     "term": "spalva",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A visual property produced by light of different wavelengths; a hue",
@@ -3010,14 +3015,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "spalvotas",
+      "spalvingas"
+    ],
     "translation": "color"
   },
   {
     "term": "skaičius",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mathematical symbol or quantity used for counting or calculation",
@@ -3040,7 +3048,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "skaičiuoti",
+      "skaičiavimas"
+    ],
     "translation": "number"
   },
   {
