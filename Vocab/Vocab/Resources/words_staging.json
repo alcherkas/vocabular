@@ -3431,7 +3431,7 @@
     "term": "deign",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To do something that one considers to be beneath one's dignity; to condescend to do or to reply",
@@ -3443,16 +3443,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "condescend",
+      "stoop",
+      "vouchsafe"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "condescension",
+      "dignity",
+      "haughtiness"
+    ],
     "translation": null
   },
   {
     "term": "disingenuous",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Not candid or sincere, especially when pretending ignorance or naivety about something one knows well",
@@ -3473,16 +3481,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "insincere",
+      "duplicitous",
+      "specious"
+    ],
+    "antonymTerms": [
+      "candid",
+      "forthright"
+    ],
+    "relatedTerms": [
+      "insincerity",
+      "dissimulation",
+      "deception"
+    ],
     "translation": null
   },
   {
     "term": "doleful",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Expressing or evoking great sorrow; mournful or dejected",
@@ -3494,16 +3513,27 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "mournful",
+      "melancholy",
+      "disconsolate"
+    ],
+    "antonymTerms": [
+      "joyful",
+      "cheerful"
+    ],
+    "relatedTerms": [
+      "sorrow",
+      "gloom",
+      "lamentation"
+    ],
     "translation": null
   },
   {
     "term": "feign",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To pretend to feel, experience, or possess something; to simulate or fake",
@@ -3524,16 +3554,24 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "simulate",
+      "affect",
+      "counterfeit"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pretense",
+      "dissimulation",
+      "masquerade"
+    ],
     "translation": null
   },
   {
     "term": "fervid",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Intensely passionate, zealous, or enthusiastic; marked by burning ardour",
@@ -3545,9 +3583,20 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "ardent",
+      "fervent",
+      "impassioned"
+    ],
+    "antonymTerms": [
+      "lukewarm",
+      "indifferent"
+    ],
+    "relatedTerms": [
+      "zeal",
+      "ardour",
+      "passion"
+    ],
     "translation": null
   },
   {
