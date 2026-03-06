@@ -948,7 +948,7 @@
     "term": "stipulation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A condition or requirement that is specified as part of an agreement or arrangement.",
@@ -961,16 +961,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "condition",
+      "requirement",
+      "proviso",
+      "clause"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "contract",
+      "provision",
+      "agreement",
+      "prerequisite"
+    ],
     "translation": null
   },
   {
     "term": "subversive",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Seeking or intended to undermine or overthrow an established system, institution, or authority.",
@@ -983,16 +993,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "seditious",
+      "revolutionary",
+      "disruptive",
+      "insurrectionary"
+    ],
+    "antonymTerms": [
+      "conformist",
+      "conservative"
+    ],
+    "relatedTerms": [
+      "dissent",
+      "subversion",
+      "iconoclasm",
+      "agitation"
+    ],
     "translation": null
   },
   {
     "term": "taciturn",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Reserved and uncommunicative in speech; habitually saying little.",
@@ -1005,16 +1028,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "reserved",
+      "reticent",
+      "uncommunicative",
+      "laconic"
+    ],
+    "antonymTerms": [
+      "loquacious",
+      "garrulous"
+    ],
+    "relatedTerms": [
+      "introversion",
+      "silence",
+      "reticence",
+      "quietness"
+    ],
     "translation": null
   },
   {
     "term": "temperance",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moderation and self-restraint in behaviour, especially regarding the consumption of alcohol or other indulgences.",
@@ -1037,16 +1073,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "moderation",
+      "self-restraint",
+      "abstemiousness",
+      "sobriety"
+    ],
+    "antonymTerms": [
+      "intemperance",
+      "excess"
+    ],
+    "relatedTerms": [
+      "virtue",
+      "abstinence",
+      "stoicism",
+      "Prohibition"
+    ],
     "translation": null
   },
   {
     "term": "tenacity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality or fact of being determined; persistent refusal to give up in the face of obstacles or opposition.",
@@ -1059,9 +1108,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "persistence",
+      "determination",
+      "perseverance",
+      "doggedness"
+    ],
+    "antonymTerms": [
+      "vacillation",
+      "capitulation"
+    ],
+    "relatedTerms": [
+      "grit",
+      "resilience",
+      "stubbornness",
+      "willpower"
+    ],
     "translation": null
   },
   {
