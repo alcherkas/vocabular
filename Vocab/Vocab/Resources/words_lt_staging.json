@@ -746,7 +746,7 @@
     "term": "dieta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Įprastinis maisto vartojimo būdas arba specialus mitybos režimas.",
@@ -761,14 +761,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mityba",
+      "svoris",
+      "sveikata"
+    ],
     "translation": "diet"
   },
   {
     "term": "savijauta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Fizinė ir psichinė žmogaus būklė.",
@@ -783,14 +787,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sveikata",
+      "stresas",
+      "nuotaika"
+    ],
     "translation": "well-being, how one feels"
   },
   {
     "term": "diagnozė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytojo nustatytas ligos ar sveikatos sutrikimo pavadinimas.",
@@ -804,14 +812,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gydytojas",
+      "liga",
+      "tyrimas"
+    ],
     "translation": "diagnosis"
   },
   {
     "term": "tyrimai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Medicininiai tyrimai arba analizės, skirtos diagnozei nustatyti.",
@@ -835,14 +847,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "analizė",
+      "laboratorija",
+      "mokslas"
+    ],
     "translation": "tests, examinations (medical)"
   },
   {
     "term": "širdies plakimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Reguliarus širdies ritmiškas susitraukimas.",
@@ -855,9 +871,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "pulsas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "širdis",
+      "kraujotaka",
+      "sveikata"
+    ],
     "translation": "heartbeat, palpitations"
   },
   {
