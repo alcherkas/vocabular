@@ -99,3 +99,4 @@ Agents append one entry here **after each commit** and **after every irreversibl
 - **Doubts**: none
 - **Reversible**: Yes — git revert to pre-pipeline state
 [2026-03-06] [continuous-lt] [vocab-enricher-lt] [commit] [cycle-complete] [100%] Cycle 103: seeded 100, enriched 100, published 100 LT words | doubts: none
+[2026-03-06] [continuous-en] [vocab-enricher-en] [commit] [cycle-complete] [100%] Cycle 3: seeded 50, enriched 50, published 2413 EN words | doubts: none
