@@ -1590,7 +1590,7 @@
     "term": "ekologiškas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tausojantis aplinką ir nesukeliantis žalos ekosistemoms.",
@@ -1603,16 +1603,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "tvarus"
+    ],
+    "antonymTerms": [
+      "kenksmingas"
+    ],
+    "relatedTerms": [
+      "aplinkosauga",
+      "gamta",
+      "organiškas"
+    ],
     "translation": "ecological, eco-friendly"
   },
   {
     "term": "vėjo energija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Elektros energija, gaminama iš vėjo turbinų.",
@@ -1627,14 +1635,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atsinaujinantys ištekliai",
+      "saulės energija",
+      "ekologiškas"
+    ],
     "translation": "wind energy"
   },
   {
     "term": "semestras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pusė akademinių metų, dažniausiai trunkanti apie 4–5 mėnesius.",
@@ -1649,14 +1661,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "universitetas",
+      "egzaminas",
+      "studijų programa"
+    ],
     "translation": "semester"
   },
   {
     "term": "pratimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Užduotis ar veikla, skirta įgūdžiams tobulinti.",
@@ -1669,16 +1685,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "užduotis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokymasis",
+      "sportas",
+      "semestras"
+    ],
     "translation": "exercise (practice)"
   },
   {
     "term": "atsiskaitymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Akademinis patikrinimas ar egzaminas, vertinantis studento žinias.",
@@ -1700,9 +1722,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "egzaminas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "semestras",
+      "pažymys",
+      "vertinimas"
+    ],
     "translation": "assessment, exam, test"
   },
   {
