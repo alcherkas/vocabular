@@ -886,7 +886,7 @@
     "term": "fizinis aktyvumas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Reguliarus judėjimas ir sportas, palaikantis fizinę sveikatą.",
@@ -900,15 +900,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "fizinis neaktyvumas"
+    ],
+    "relatedTerms": [
+      "sportas",
+      "sveikata",
+      "mankšta"
+    ],
     "translation": "physical activity"
   },
   {
     "term": "psichologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Specialistas, tiriantis ir gydantis psichologines problemas.",
@@ -923,14 +929,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "psichologė",
+      "psichoterapeutas",
+      "terapija"
+    ],
     "translation": "psychologist (male)"
   },
   {
     "term": "psichologė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moteris specialistė, tiriantį ir gydanti psichologines problemas.",
@@ -945,14 +955,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "psichologas",
+      "psichoterapeutė",
+      "terapija"
+    ],
     "translation": "psychologist (female)"
   },
   {
     "term": "stresas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Psichinė ar fizinė įtampa dėl sunkių situacijų ar reikalavimų.",
@@ -965,16 +979,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "įtampa"
+    ],
+    "antonymTerms": [
+      "atsipalaidavimas"
+    ],
+    "relatedTerms": [
+      "nerimas",
+      "savijauta",
+      "sveikata"
+    ],
     "translation": "stress"
   },
   {
     "term": "skiepas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Biologinis preparatas, apsaugantis nuo infekcinių ligų.",
@@ -987,9 +1009,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vakcina"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "skiepytis",
+      "imunitetas",
+      "liga"
+    ],
     "translation": "vaccine, vaccination"
   },
   {
