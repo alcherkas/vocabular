@@ -444,7 +444,7 @@
     "term": "dialectic",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The art of investigating or discussing the truth of opinions through logical argumentation",
@@ -473,20 +473,19 @@
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "dialectical",
       "logic",
-      "thesis"
+      "thesis",
+      "syllogism"
     ],
     "translation": null,
     "pronunciation": "/ˌdaɪəˈlɛktɪk/",
-    "etymology": "From Greek dialektikē (tekhnē) '(art) of debate', from dialegesthai 'to converse'",
-    "qa_notes": "Self-reference: relatedTerms contains 'dialectical', which has the headword 'dialectic' as a substring. Replace with a non-derived related term."
+    "etymology": "From Greek dialektikē (tekhnē) '(art) of debate', from dialegesthai 'to converse'"
   },
   {
     "term": "embroil",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To involve someone deeply in a conflict, argument, or difficult situation",
@@ -519,20 +518,19 @@
       "liberate"
     ],
     "relatedTerms": [
-      "embroilment",
+      "entanglement",
       "complicate",
       "confound"
     ],
     "translation": null,
     "pronunciation": "/ɪmˈbrɔɪl/",
-    "etymology": "From French embrouiller 'to entangle, confuse', from en- 'in' + brouiller 'to mix up'",
-    "qa_notes": "Self-reference: relatedTerms contains 'embroilment', which has the headword 'embroil' as a substring. Replace with a non-derived related term."
+    "etymology": "From French embrouiller 'to entangle, confuse', from en- 'in' + brouiller 'to mix up'"
   },
   {
     "term": "flippant",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Not showing a serious or respectful attitude; inappropriately casual",
@@ -544,12 +542,12 @@
         ]
       },
       {
-        "definition": "Treating a serious matter with dismissive levity",
-        "example": "The senator's flippant response to questions about climate change drew sharp criticism.",
+        "definition": "Lacking gravity or respect for serious things; marked by an inappropriate lightness of tone",
+        "example": "His flippant response to the grieving family's questions drew widespread condemnation in the press.",
         "register": "general",
         "tags": [
-          "levity",
-          "dismissiveness"
+          "tone",
+          "disrespect"
         ]
       }
     ],
@@ -571,14 +569,13 @@
     ],
     "translation": null,
     "pronunciation": "/ˈflɪpənt/",
-    "etymology": "Probably related to flip, suggesting a tossing or careless manner; first attested in the 17th century",
-    "qa_notes": "Non-distinct meanings: meaning 1 ('Not showing a serious or respectful attitude; inappropriately casual') and meaning 2 ('Treating a serious matter with dismissive levity') are essentially the same. Consolidate into one meaning."
+    "etymology": "Probably related to flip, suggesting a tossing or careless manner; first attested in the 17th century"
   },
   {
     "term": "guile",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sly or cunning intelligence used to deceive or manipulate",
@@ -611,20 +608,19 @@
       "sincerity"
     ],
     "relatedTerms": [
-      "guileful",
       "artfulness",
-      "duplicity"
+      "duplicity",
+      "stratagem"
     ],
     "translation": null,
     "pronunciation": "/ɡaɪl/",
-    "etymology": "From Old French guile 'deceit, trickery', probably of Germanic origin",
-    "qa_notes": "Self-reference: relatedTerms contains 'guileful', which has the headword 'guile' as a substring. Replace with a non-derived related term."
+    "etymology": "From Old French guile 'deceit, trickery', probably of Germanic origin"
   },
   {
     "term": "histrionic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Overly theatrical or melodramatic in character or style",
@@ -657,14 +653,13 @@
       "unaffected"
     ],
     "relatedTerms": [
-      "histrionics",
       "performative",
-      "flamboyant"
+      "flamboyant",
+      "melodrama"
     ],
     "translation": null,
     "pronunciation": "/ˌhɪstriˈɒnɪk/",
-    "etymology": "From Latin histrionicus 'of an actor', from histrio 'actor'",
-    "qa_notes": "Self-reference: relatedTerms contains 'histrionics', which has the headword 'histrionic' as a substring. Replace with a non-derived related term."
+    "etymology": "From Latin histrionicus 'of an actor', from histrio 'actor'"
   },
   {
     "term": "inadvertent",
