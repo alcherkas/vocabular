@@ -1696,7 +1696,7 @@
     "term": "accolade",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An award, honour, or expression of praise; recognition for achievement.",
@@ -1719,16 +1719,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "award",
+      "honour",
+      "commendation",
+      "tribute"
+    ],
+    "antonymTerms": [
+      "censure",
+      "reprimand"
+    ],
+    "relatedTerms": [
+      "recognition",
+      "prize",
+      "distinction",
+      "knighthood"
+    ],
     "translation": null
   },
   {
     "term": "affinity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A natural liking or sympathy for something or someone; a close relationship based on common features.",
@@ -1751,16 +1764,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "attraction",
+      "liking",
+      "sympathy",
+      "rapport"
+    ],
+    "antonymTerms": [
+      "aversion",
+      "antipathy"
+    ],
+    "relatedTerms": [
+      "chemistry",
+      "kinship",
+      "resonance",
+      "compatibility"
+    ],
     "translation": null
   },
   {
     "term": "ambiguity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality of being open to more than one interpretation; inexactness or uncertainty of meaning.",
@@ -1783,16 +1809,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "vagueness",
+      "equivocation",
+      "uncertainty",
+      "obscurity"
+    ],
+    "antonymTerms": [
+      "clarity",
+      "precision"
+    ],
+    "relatedTerms": [
+      "polysemy",
+      "interpretation",
+      "ambivalence",
+      "double meaning"
+    ],
     "translation": null
   },
   {
     "term": "appease",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To pacify or placate someone by giving in to their demands; to satisfy or relieve a feeling or appetite.",
@@ -1805,16 +1844,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pacify",
+      "placate",
+      "mollify",
+      "conciliate"
+    ],
+    "antonymTerms": [
+      "provoke",
+      "antagonise"
+    ],
+    "relatedTerms": [
+      "appeasement",
+      "Munich Agreement",
+      "capitulation",
+      "soothe"
+    ],
     "translation": null
   },
   {
     "term": "archaic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Very old or old-fashioned; belonging to an earlier period and no longer in common use or practice.",
@@ -1827,9 +1879,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "obsolete",
+      "antiquated",
+      "outmoded",
+      "ancient"
+    ],
+    "antonymTerms": [
+      "modern",
+      "contemporary"
+    ],
+    "relatedTerms": [
+      "anachronism",
+      "archaism",
+      "historical",
+      "vestigial"
+    ],
     "translation": null
   }
 ]
