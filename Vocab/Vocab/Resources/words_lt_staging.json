@@ -3398,7 +3398,7 @@
     "term": "serialas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A television programme divided into episodes broadcast over time",
@@ -3421,14 +3421,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "filmas",
+      "epizodas"
+    ],
     "translation": "series"
   },
   {
     "term": "sportas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Physical activity or games requiring skill, effort, and competition",
@@ -3452,14 +3455,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sportininkas",
+      "sportinis"
+    ],
     "translation": "sport"
   },
   {
     "term": "fotoaparatas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A device for capturing photographs",
@@ -3483,14 +3489,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "fotografija",
+      "fotografuoti"
+    ],
     "translation": "camera"
   },
   {
     "term": "laisvalaikis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Time free from work or obligations; free time",
@@ -3512,15 +3521,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "darbas"
+    ],
+    "relatedTerms": [
+      "poilsis",
+      "pramoga"
+    ],
     "translation": "leisure"
   },
   {
     "term": "pomėgis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An activity done regularly for pleasure in one's spare time",
@@ -3542,9 +3556,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "hobis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "laisvalaikis",
+      "aistra"
+    ],
     "translation": "hobby"
   },
   {
