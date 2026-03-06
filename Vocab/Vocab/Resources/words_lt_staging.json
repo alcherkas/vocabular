@@ -1737,7 +1737,7 @@
     "term": "akademinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Susijęs su universitetiniu ar moksliniu mokymusi.",
@@ -1751,15 +1751,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "profesinis"
+    ],
+    "relatedTerms": [
+      "universitetas",
+      "mokslas",
+      "mokslinis"
+    ],
     "translation": "academic"
   },
   {
     "term": "studijų programa",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Universiteto studijų planas ir mokomų dalykų rinkinys.",
@@ -1774,14 +1780,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "universitetas",
+      "semestras",
+      "bakalauras"
+    ],
     "translation": "study programme, curriculum"
   },
   {
     "term": "pažintis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pažįstamas žmogus arba susipažinimo akimirka.",
@@ -1805,14 +1815,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "draugystė",
+      "susitikimas",
+      "bendravimas"
+    ],
     "translation": "acquaintance; introduction"
   },
   {
     "term": "pakviesti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Paprašyti ką nors ateiti arba dalyvauti.",
@@ -1826,8 +1840,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "atsisakyti"
+    ],
+    "relatedTerms": [
+      "kvietimas",
+      "svečias",
+      "renginys"
+    ],
     "translation": "to invite",
     "forms": {
       "present3": "pakviečia",
@@ -1839,7 +1859,7 @@
     "term": "pilietis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, turintis tam tikros šalies pilietybę ir teises.",
@@ -1854,7 +1874,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pilietė",
+      "pilietybė",
+      "valstybė"
+    ],
     "translation": "citizen (male)"
   },
   {
