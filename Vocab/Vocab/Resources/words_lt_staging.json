@@ -3,7 +3,7 @@
     "term": "epistemologija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pažinimo teorija – mokslas apie žinias.",
@@ -16,14 +16,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ontologija",
+      "filosofija"
+    ],
     "translation": "epistemology"
   },
   {
     "term": "ontologija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Filosofijos šaka apie būties prigimtį.",
@@ -36,14 +39,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "epistemologija",
+      "filosofija"
+    ],
     "translation": "ontology"
   },
   {
     "term": "etinė dilema",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moralinė situacija, kur nėra aiškaus atsakymo.",
@@ -57,14 +63,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "moralė",
+      "etika"
+    ],
     "translation": "ethical dilemma"
   },
   {
     "term": "reliatyvizmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Teorija, teigianti, kad tiesa yra santykinė.",
@@ -77,15 +86,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "universalizmas"
+    ],
+    "relatedTerms": [
+      "filosofija",
+      "kultūra"
+    ],
     "translation": "relativism"
   },
   {
     "term": "universalizmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Teorija, postuluojanti bendrąsias tiesas.",
@@ -97,15 +111,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "reliatyvizmas"
+    ],
+    "relatedTerms": [
+      "etika",
+      "filosofija"
+    ],
     "translation": "universalism"
   },
   {
     "term": "determinizmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tikėjimas, kad visi įvykiai yra iš anksto nulemti.",
@@ -117,15 +136,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "laisvoji valia"
+    ],
+    "relatedTerms": [
+      "filosofija"
+    ],
     "translation": "determinism"
   },
   {
     "term": "laisvoji valia",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gebėjimas priimti sprendimus nepriklausomai nuo išorinių jėgų.",
@@ -138,15 +161,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "determinizmas"
+    ],
+    "relatedTerms": [
+      "etika",
+      "filosofija"
+    ],
     "translation": "free will"
   },
   {
     "term": "utilitarizmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Etinė teorija, kad gerai tai, kas sukuria daugiausiai laimės.",
@@ -160,14 +188,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "etika",
+      "kantizmas"
+    ],
     "translation": "utilitarianism"
   },
   {
     "term": "kantizmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kanto filosofijos principai apie moralę ir pareigą.",
@@ -181,14 +212,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "utilitarizmas",
+      "etika"
+    ],
     "translation": "Kantianism"
   },
   {
     "term": "egzistencializmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Filosofijos judėjimas, pabrėžiantis laisvę ir atsakomybę.",
@@ -201,14 +235,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "filosofija",
+      "ontologija"
+    ],
     "translation": "existentialism"
   },
   {
     "term": "jūros dugnas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Jūros ar vandenyno apačia.",
@@ -222,14 +259,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vandenynas",
+      "biologija"
+    ],
     "translation": "seabed"
   },
   {
     "term": "aukštuma",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Aukšta žemės paviršiaus vieta.",
@@ -242,15 +282,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "lyguma"
+    ],
+    "relatedTerms": [
+      "kalnas",
+      "geografija"
+    ],
     "translation": "highland, upland"
   },
   {
     "term": "ministras pirmininkas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Aukščiausias vyriausybės vadovas.",
@@ -264,14 +309,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vyriausybė",
+      "parlamentas"
+    ],
     "translation": "prime minister"
   },
   {
     "term": "vyriausybė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Šalies vadovybės institucija.",
@@ -285,14 +333,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "parlamentas",
+      "valdžia"
+    ],
     "translation": "government"
   },
   {
     "term": "parlamento narys",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Išrinktas parlamentaro pareigas einantis asmuo.",
@@ -306,14 +357,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "parlamentas",
+      "rinkimai"
+    ],
     "translation": "member of parliament"
   },
   {
     "term": "rinkimų kampanija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Organizuota veikla prieš rinkimus.",
@@ -327,14 +381,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "rinkimų komisija",
+      "partija"
+    ],
     "translation": "election campaign"
   },
   {
     "term": "balsavimo biuletenis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Rinkimų lapas, skirtas balsuoti.",
@@ -348,14 +405,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "rinkimų komisija",
+      "demokratija"
+    ],
     "translation": "ballot (paper)"
   },
   {
     "term": "rinkimų komisija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Institucija, prižiūrinti rinkimus.",
@@ -369,14 +429,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "rinkimų kampanija",
+      "valdžia"
+    ],
     "translation": "electoral commission"
   },
   {
     "term": "pusfinalis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Rungtynės, kuriose laimėtojai patenka į finalą.",
@@ -389,14 +452,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "finalas",
+      "ketvirtfinalis"
+    ],
     "translation": "semi-final"
   },
   {
     "term": "ketvirtfinalis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Rungtynės prieš pusfinalis.",
@@ -409,14 +475,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pusfinalis",
+      "grupinė fazė"
+    ],
     "translation": "quarter-final"
   },
   {
     "term": "grupinė fazė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Turnyro dalis, kurioje komandos žaidžia grupėse.",
@@ -429,14 +498,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ketvirtfinalis",
+      "turnyras"
+    ],
     "translation": "group stage"
   },
   {
     "term": "rungtynės",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sportinė varžyba tarp dviejų komandų.",
@@ -449,14 +521,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "varžybos",
+      "sportas"
+    ],
     "translation": "match, game"
   },
   {
     "term": "biudžeto perteklius",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pajamų viršijimas virš išlaidų.",
@@ -469,15 +544,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "biudžeto deficitas"
+    ],
+    "relatedTerms": [
+      "biudžetas",
+      "ekonomika"
+    ],
     "translation": "budget surplus"
   },
   {
     "term": "mokesčių sistema",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mokesčių rūšių ir taisyklių kompleksas.",
@@ -491,14 +571,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pajamų mokestis",
+      "ekonomika"
+    ],
     "translation": "tax system"
   },
   {
     "term": "žemės mokestis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mokestis už žemę.",
@@ -512,14 +595,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokesčių sistema",
+      "žemė"
+    ],
     "translation": "land tax"
   },
   {
     "term": "ekonomikos augimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "BVP ir produkcijos didėjimas.",
@@ -532,14 +618,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ekonomika"
+    ],
     "translation": "economic growth"
   },
   {
     "term": "susisiekimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Transporto ir ryšio sistema.",
@@ -553,14 +641,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "infrastruktūra"
+    ],
     "translation": "transport/communications infrastructure"
   },
   {
     "term": "oro eismas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Lėktuvų judėjimas oro erdvėje.",
@@ -581,7 +671,7 @@
     "term": "jūrų kelias",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Jūrinis kelias prekybai ar laivybai.",
@@ -602,7 +692,7 @@
     "term": "vamzdynas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sistema vamzdžių, perduodančių skysčius ar dujas.",
@@ -616,14 +706,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "energija",
+      "infrastruktūra"
+    ],
     "translation": "pipeline"
   },
   {
     "term": "avangardizmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Eksperimentinis menas ir novatoriškos idėjos.",
@@ -637,14 +730,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "modernizmas",
+      "menas"
+    ],
     "translation": "avant-gardism"
   },
   {
     "term": "modernizmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "XX a. pradžios meno ir kultūros judėjimas.",
@@ -657,15 +753,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "romantizmas"
+    ],
+    "relatedTerms": [
+      "postmodernizmas",
+      "menas"
+    ],
     "translation": "modernism"
   },
   {
     "term": "postmodernizmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Judėjimas, kvestionuojantis modernizmo principus.",
@@ -679,14 +780,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "modernizmas",
+      "kultūra"
+    ],
     "translation": "postmodernism"
   },
   {
     "term": "realizmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Meninis stilius, vaizduojantis tikrovę.",
@@ -700,14 +804,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "impresionizmas",
+      "menas"
+    ],
     "translation": "realism"
   },
   {
     "term": "romantizmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "XVIII–XIX a. meno ir literatūros judėjimas.",
@@ -721,14 +828,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "realizmas",
+      "menas"
+    ],
     "translation": "romanticism"
   },
   {
     "term": "impresionizmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "XIX a. pabaigos meno judėjimas, pabrėžiantis šviesos efektus.",
@@ -742,14 +852,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "realizmas",
+      "tapyba"
+    ],
     "translation": "impressionism"
   },
   {
     "term": "abstrakcija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Abstraktus menas arba idėja.",
@@ -762,15 +875,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "konkretus"
+    ],
+    "relatedTerms": [
+      "menas",
+      "koncepcija"
+    ],
     "translation": "abstraction"
   },
   {
     "term": "instaliacinis menas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Meno forma, kurianti aplinkas ar objektus.",
@@ -784,14 +902,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "menas"
+    ],
     "translation": "installation art"
   },
   {
     "term": "žargono kalba",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Specifinė grupės ar profesijos kalba.",
@@ -805,14 +925,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "eufemizmas",
+      "kalba"
+    ],
     "translation": "jargon"
   },
   {
     "term": "eufemizmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Švelnesnis posakis vietoj aiškaus.",
@@ -826,14 +949,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "metafora",
+      "kalba"
+    ],
     "translation": "euphemism"
   },
   {
     "term": "stuburo slanksteliai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kaulai, sudarantys stuburo stuburą.",
@@ -847,14 +973,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "stuburas"
+    ],
     "translation": "vertebrae"
   },
   {
     "term": "kaukolė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kaulinis galvos smaigalys.",
@@ -868,14 +996,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "smegenys"
+    ],
     "translation": "skull"
   },
   {
     "term": "blakstienai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Plaukeliai ant akių vokų.",
@@ -896,7 +1026,7 @@
     "term": "pirštų nagai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kietieji dangalas pirštų galus.",
@@ -910,14 +1040,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pirštai"
+    ],
     "translation": "fingernails"
   },
   {
     "term": "ozono sluoksnis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atmosferos sluoksnis, saugantis nuo UV spindulių.",
@@ -931,14 +1063,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atmosfera",
+      "aplinkosauga"
+    ],
     "translation": "ozone layer"
   },
   {
     "term": "atmosfera",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Orų sluoksniai, supantys Žemę.",
@@ -952,14 +1087,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ozono sluoksnis",
+      "oras"
+    ],
     "translation": "atmosphere"
   },
   {
     "term": "jonosfera",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Viršutinis atmosferos sluoksnis su jonizuotais dalelėmis.",
@@ -973,14 +1111,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atmosfera",
+      "stratosfera"
+    ],
     "translation": "ionosphere"
   },
   {
     "term": "stratosfera",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atmosferos sluoksnis virš troposferos.",
@@ -994,14 +1135,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "troposfera",
+      "atmosfera"
+    ],
     "translation": "stratosphere"
   },
   {
     "term": "troposfera",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žemiausias atmosferos sluoksnis.",
@@ -1015,14 +1159,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "stratosfera",
+      "oras"
+    ],
     "translation": "troposphere"
   },
   {
     "term": "magnetinis laukas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Magneto ar Žemės sukuriamas jėgų laukas.",
@@ -1036,14 +1183,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gravitacinis laukas",
+      "fizika"
+    ],
     "translation": "magnetic field"
   },
   {
     "term": "daržininkystė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Daržovių auginimas ir ūkis.",
@@ -1057,14 +1207,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sodininkystė"
+    ],
     "translation": "vegetable growing, horticulture"
   },
   {
     "term": "gyvulininkystė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gyvulių auginimas ir priežiūra.",
@@ -1078,14 +1230,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "piemenystė"
+    ],
     "translation": "animal husbandry"
   },
   {
     "term": "piemenystė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gyvulių ganyklų priežiūra.",
@@ -1099,14 +1253,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gyvulininkystė",
+      "tradicija"
+    ],
     "translation": "pastoralism, shepherding"
   },
   {
     "term": "miškų ūkis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Miškų valdymas ir naudojimas.",
@@ -1120,14 +1277,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "miškas"
+    ],
     "translation": "forestry"
   },
   {
     "term": "kulinarija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Menas ir mokslas gaminti maistą.",
@@ -1141,14 +1300,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gastronomas"
+    ],
     "translation": "culinary arts"
   },
   {
     "term": "restoranų kultūra",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tradicija ir papročiai restoranų pasaulyje.",
@@ -1162,14 +1323,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kulinarija",
+      "kultūra"
+    ],
     "translation": "restaurant culture"
   },
   {
     "term": "maisto kritika",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Profesionalus maisto vertinimas.",
@@ -1183,14 +1347,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "restoranų kultūra",
+      "žurnalistika"
+    ],
     "translation": "food criticism"
   },
   {
     "term": "gastronomas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Maisto menas ir gurmanų kultūra.",
@@ -1204,14 +1371,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kulinarija",
+      "maisto kritika"
+    ],
     "translation": "gastronome"
   },
   {
     "term": "šefo specialybė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Geriausia virėjo kūrybinio darbo patiekalas.",
@@ -1225,14 +1395,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kulinarija",
+      "restoranas"
+    ],
     "translation": "chef's specialty"
   },
   {
     "term": "kolonada",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Eilė kolonų, jungianti pastatus.",
@@ -1245,14 +1418,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "fasadas",
+      "arkos"
+    ],
     "translation": "colonnade"
   },
   {
     "term": "arkos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Išlenktos arkinės angos.",
@@ -1265,14 +1441,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kolonada",
+      "architektūra"
+    ],
     "translation": "arches"
   },
   {
     "term": "kupolas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sferiška ar pusferiška stogo dalis.",
@@ -1285,14 +1464,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "fasadas",
+      "architektūra"
+    ],
     "translation": "dome"
   },
   {
     "term": "spiro bokštas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Smailiu galu baigiamas pastato bokštas.",
@@ -1305,14 +1487,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "architektūra",
+      "bokštas"
+    ],
     "translation": "spire tower"
   },
   {
     "term": "fasadas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pastato išorinis pagrindinis veidas.",
@@ -1325,14 +1510,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "eksterjeras",
+      "architektūra"
+    ],
     "translation": "façade"
   },
   {
     "term": "eksterjeras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pastato ar objekto išorė.",
@@ -1345,15 +1533,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "interjeras"
+    ],
+    "relatedTerms": [
+      "fasadas"
+    ],
     "translation": "exterior"
   },
   {
     "term": "psichoterapeutas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Specialistas, teikiantis psichoterapiją.",
@@ -1367,14 +1559,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "psichoterapeutė"
+    ],
     "translation": "psychotherapist (male)"
   },
   {
     "term": "psichoterapeutė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moteris, teikianti psichoterapiją.",
@@ -1388,14 +1582,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "psichoterapeutas"
+    ],
     "translation": "psychotherapist (female)"
   },
   {
     "term": "logopedas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Specialistas, padedantis su kalbos sutrikimais.",
@@ -1409,14 +1605,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "logopedė",
+      "kalba"
+    ],
     "translation": "speech therapist (male)"
   },
   {
     "term": "logopedė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moteris, padedanti su kalbos sutrikimais.",
@@ -1430,14 +1629,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "logopedas",
+      "kalba"
+    ],
     "translation": "speech therapist (female)"
   },
   {
     "term": "prekybos balansas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Eksporto ir importo skirtumas.",
@@ -1451,14 +1653,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokėjimų balansas",
+      "ekonomika"
+    ],
     "translation": "trade balance"
   },
   {
     "term": "mokėjimų balansas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Visos ekonominės operacijos su užsieniu.",
@@ -1472,14 +1677,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prekybos balansas",
+      "ekonomika"
+    ],
     "translation": "balance of payments"
   },
   {
     "term": "defliacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kainų lygis krenta.",
@@ -1491,15 +1699,19 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "infliacija"
+    ],
+    "relatedTerms": [
+      "ekonomika"
+    ],
     "translation": "deflation"
   },
   {
     "term": "stagfliacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ekonomikos stagnacija kartu su infliacija.",
@@ -1512,14 +1724,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "infliacija",
+      "ekonomika"
+    ],
     "translation": "stagflation"
   },
   {
     "term": "ekonomikos recesija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ekonomikos susitraukimas.",
@@ -1532,14 +1747,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ekonomikos augimas",
+      "ekonomika"
+    ],
     "translation": "economic recession"
   },
   {
     "term": "sportininko pasas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dokumentas su sportininko duomenimis.",
@@ -1553,14 +1771,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sporto federacija"
+    ],
     "translation": "athlete's passport"
   },
   {
     "term": "sporto federacija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Organizacija, valdanti sporto šaką.",
@@ -1574,14 +1794,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sportas",
+      "organizacija"
+    ],
     "translation": "sports federation"
   },
   {
     "term": "sporto psichologas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Specialistas, padedantis sportininkams.",
@@ -1595,14 +1818,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sportininkas",
+      "psichologija"
+    ],
     "translation": "sports psychologist"
   },
   {
     "term": "reabilitacinis treneris",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Treneris, padedantis po traumos atsigauti.",
@@ -1616,14 +1842,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sporto medicinos gydytojas",
+      "reabilitacija"
+    ],
     "translation": "rehabilitation trainer"
   },
   {
     "term": "sporto medicinos gydytojas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gydytojas, specializuojantis sportininkų sveikatos priežiūroje.",
@@ -1637,14 +1866,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "reabilitacinis treneris",
+      "medicina"
+    ],
     "translation": "sports medicine physician"
   },
   {
     "term": "skaidumas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Aiškumas ir atvirumas veikloje.",
@@ -1658,14 +1890,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atskaitomybė"
+    ],
     "translation": "transparency"
   },
   {
     "term": "atskaitomybė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atsakomybė prieš kitų.",
@@ -1679,14 +1913,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "skaidumas",
+      "atsakomybė"
+    ],
     "translation": "accountability"
   },
   {
     "term": "prieinamumas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Galimybė naudotis paslaugomis ar vieta.",
@@ -1700,14 +1937,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "teisė",
+      "infrastruktūra"
+    ],
     "translation": "accessibility"
   },
   {
     "term": "nakties dangus",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dangus tamsiu metu su žvaigždėmis.",
@@ -1721,14 +1961,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žvaigždė"
+    ],
     "translation": "night sky"
   },
   {
     "term": "planeta",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nesubrendusi žvaigždė, skriejanti aplink saulę.",
@@ -1742,14 +1984,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "palydovas",
+      "saulė"
+    ],
     "translation": "planet"
   },
   {
     "term": "palydovas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Objektas, skriejantis aplink planetą.",
@@ -1763,14 +2008,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "planeta",
+      "kosmosas"
+    ],
     "translation": "satellite, moon"
   },
   {
     "term": "asteroidas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nedidelis uolinis kūnas kosmose.",
@@ -1784,14 +2032,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kometa",
+      "kosmosas"
+    ],
     "translation": "asteroid"
   },
   {
     "term": "kometa",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kosminis kūnas su šviečiančia uodega.",
@@ -1805,14 +2056,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "asteroidas",
+      "žvaigždė"
+    ],
     "translation": "comet"
   },
   {
     "term": "juodoji skylė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kosminis objektas su negrįžtama gravitacija.",
@@ -1826,14 +2080,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kosmosas",
+      "gravitacija"
+    ],
     "translation": "black hole"
   },
   {
     "term": "supernovos",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Galingos žvaigždžių sprogimo tipo.",
@@ -1847,14 +2104,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žvaigždė",
+      "kosmosas"
+    ],
     "translation": "supernovae"
   },
   {
     "term": "galia",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Jėga ar sugebėjimas valdyti.",
@@ -1868,14 +2128,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "valia",
+      "valdžia"
+    ],
     "translation": "power, force"
   },
   {
     "term": "valia",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Siekis ar pasiryžimas kažką daryti.",
@@ -1889,14 +2152,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "galia",
+      "motyvacija"
+    ],
     "translation": "will, willpower"
   },
   {
     "term": "sprendimų priėmimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Procesas, kuriuo pasirenkamas veiksmo kelias.",
@@ -1910,14 +2176,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "strategija"
+    ],
     "translation": "decision-making"
   },
   {
     "term": "gravitacinis laukas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Erdvė, kurioje veikia gravitacinė jėga.",
@@ -1931,14 +2199,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "magnetinis laukas",
+      "fizika"
+    ],
     "translation": "gravitational field"
   },
   {
     "term": "kosmoso tyrinėjimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kosmoso atradimas ir tyrimas.",
@@ -1952,14 +2223,16 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "planeta"
+    ],
     "translation": "space exploration"
   },
   {
     "term": "atomas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mažiausias cheminio elemento darinys.",
@@ -1973,14 +2246,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "molekulė",
+      "chemija"
+    ],
     "translation": "atom"
   },
   {
     "term": "molekulė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mažiausias medžiagos darinys iš atomų.",
@@ -1993,14 +2269,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atomas",
+      "chemija"
+    ],
     "translation": "molecule"
   },
   {
     "term": "ląstelių biologija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Biologijos šaka, tiriant ląsteles.",
@@ -2014,14 +2293,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "genetika",
+      "biologija"
+    ],
     "translation": "cell biology"
   },
   {
     "term": "ekologinė niša",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Rūšies vieta ekosistemoje.",
@@ -2035,14 +2317,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "populiacija",
+      "ekosistema"
+    ],
     "translation": "ecological niche"
   },
   {
     "term": "populiacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tos pačios rūšies individų grupė.",
@@ -2056,14 +2341,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ekologinė niša",
+      "biologija"
+    ],
     "translation": "population"
   },
   {
     "term": "biotinis",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Susijęs su gyvosiomis dalimis.",
@@ -2077,7 +2365,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ekosistema",
+      "biologija"
+    ],
     "translation": "biotic"
   }
 ]
