@@ -2399,7 +2399,7 @@
     "term": "vėliau",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "At a time after the present or after a reference point",
@@ -2421,15 +2421,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "anksčiau"
+    ],
+    "relatedTerms": [
+      "vėlu",
+      "vėlyvas"
+    ],
     "translation": "later"
   },
   {
     "term": "retai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Not often; seldom; infrequently",
@@ -2451,15 +2456,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "dažnai"
+    ],
+    "relatedTerms": [
+      "retas",
+      "retesnis"
+    ],
     "translation": "rarely"
   },
   {
     "term": "tikriausiai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In all likelihood; most likely; with a high degree of probability",
@@ -2480,16 +2490,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "turbūt"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tikrai",
+      "tikrumas"
+    ],
     "translation": "probably"
   },
   {
     "term": "neabejotinai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Without any doubt; certainly; indisputably",
@@ -2510,16 +2525,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tikrai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "abejonė",
+      "abejoti"
+    ],
     "translation": "undoubtedly"
   },
   {
     "term": "atskirai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Apart from others; not together; individually",
@@ -2540,9 +2560,16 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "skyrium"
+    ],
+    "antonymTerms": [
+      "kartu"
+    ],
+    "relatedTerms": [
+      "atskiras",
+      "atskirti"
+    ],
     "translation": "separately"
   },
   {
