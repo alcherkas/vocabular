@@ -3,7 +3,7 @@
     "term": "analeptic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Serving to restore strength or vitality; restorative",
@@ -15,8 +15,8 @@
         ]
       },
       {
-        "definition": "A drug or substance that stimulates the central nervous system",
-        "example": "Caffeine is one of the most commonly consumed analeptic compounds worldwide.",
+        "definition": "Of, relating to, or acting as a restorative stimulant of the central nervous system",
+        "example": "Caffeine is one of the most widely consumed analeptic compounds in the world.",
         "register": "technical",
         "tags": [
           "pharmacology",
@@ -42,14 +42,13 @@
     ],
     "translation": null,
     "pronunciation": "/ˌænəˈlɛptɪk/",
-    "etymology": "From Greek analēptikos 'restorative', from analambanein 'to take up'",
-    "qa_notes": "POS mismatch: partOfSpeech is 'adjective' but meaning 2 ('A drug or substance that stimulates the central nervous system') is a noun definition. Split by POS or rewrite meaning 2 as adjectival."
+    "etymology": "From Greek analēptikos 'restorative', from analambanein 'to take up'"
   },
   {
     "term": "comestible",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An item of food; something fit to be eaten",
@@ -61,8 +60,8 @@
         ]
       },
       {
-        "definition": "Suitable or safe for eating; edible",
-        "example": "After careful inspection, the mushrooms were declared comestible by the experienced forager.",
+        "definition": "Any article of food or nourishment prepared or available for human consumption",
+        "example": "The survival expert surveyed the forest plants to identify which could serve as viable comestibles.",
         "register": "formal",
         "tags": [
           "edibility",
@@ -88,14 +87,13 @@
     ],
     "translation": null,
     "pronunciation": "/kəˈmɛstɪbəl/",
-    "etymology": "From Medieval Latin comestibilis, from Latin comestus, past participle of comedere 'to eat up'",
-    "qa_notes": "POS mismatch: partOfSpeech is 'noun' but meaning 2 ('Suitable or safe for eating; edible') is an adjectival definition. Split by POS or rewrite meaning 2 as a noun definition."
+    "etymology": "From Medieval Latin comestibilis, from Latin comestus, past participle of comedere 'to eat up'"
   },
   {
     "term": "corpulence",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The state of being excessively fat or obese",
@@ -107,12 +105,12 @@
         ]
       },
       {
-        "definition": "Excessive fleshiness or heaviness of body",
-        "example": "The portrait captured the king's corpulence with unflattering accuracy.",
-        "register": "neutral",
+        "definition": "A quality of bulk or heaviness in physical form, sometimes depicted in literature as a sign of indulgence or lack of restraint",
+        "example": "The portrait captured the king's corpulence with unflattering accuracy, making it a pointed commentary on court excess.",
+        "register": "literary",
         "tags": [
           "appearance",
-          "physique"
+          "social-commentary"
         ]
       }
     ],
@@ -134,14 +132,13 @@
     ],
     "translation": null,
     "pronunciation": "/ˈkɔːrpjʊləns/",
-    "etymology": "From Latin corpulentia, from corpulentus 'fleshy', from corpus 'body'",
-    "qa_notes": "Non-distinct meanings: both meanings describe the same quality of being excessively fat/heavy. Consolidate into one meaning or provide a genuinely different second sense."
+    "etymology": "From Latin corpulentia, from corpulentus 'fleshy', from corpus 'body'"
   },
   {
-    "term": "ennervate",
+    "term": "enervate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To deprive of force, strength, or vitality; to weaken.",
@@ -180,14 +177,13 @@
     ],
     "translation": null,
     "pronunciation": "/ˈɛnərveɪt/",
-    "etymology": "From Latin 'enervare' (to weaken), from 'ex-' (out of) + 'nervus' (sinew, nerve).",
-    "qa_notes": "Term misspelled: should be 'enervate' (single n, from Latin enervare). Examples already use correct spelling."
+    "etymology": "From Latin 'enervare' (to weaken), from 'ex-' (out of) + 'nervus' (sinew, nerve)."
   },
   {
     "term": "intractable",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Hard to control, manage, or resolve; stubbornly resistant to treatment or correction.",
@@ -220,14 +216,13 @@
       "compliant"
     ],
     "relatedTerms": [
-      "intractability",
+      "inflexibility",
       "stubborn",
       "unyielding"
     ],
     "translation": null,
     "pronunciation": "/ɪnˈtræktəbəl/",
-    "etymology": "From Latin 'intractabilis', from 'in-' (not) + 'tractabilis' (manageable), from 'tractare' (to handle).",
-    "qa_notes": "Self-reference: relatedTerms contains 'intractability', which has the headword 'intractable' as a substring. Replace with a term that does not contain the headword."
+    "etymology": "From Latin 'intractabilis', from 'in-' (not) + 'tractabilis' (manageable), from 'tractare' (to handle)."
   },
   {
     "term": "abstruse",
