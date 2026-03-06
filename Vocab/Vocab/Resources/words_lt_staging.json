@@ -1309,7 +1309,7 @@
     "term": "atnaujinimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Programinės įrangos ar turinio naujausios versijos įdiegimas.",
@@ -1330,16 +1330,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "naujinimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "versija",
+      "programa",
+      "renovacija"
+    ],
     "translation": "update, renewal"
   },
   {
     "term": "atsisiuntimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Failų ar duomenų kopijavimas iš interneto į savo įrenginį.",
@@ -1352,15 +1358,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "įkėlimas"
+    ],
+    "relatedTerms": [
+      "failas",
+      "internetas",
+      "programa"
+    ],
     "translation": "download"
   },
   {
     "term": "klimato kaita",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ilgalaikiai Žemės klimato pokyčiai, dažnai sukelti žmogaus veiklos.",
@@ -1375,14 +1387,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šiltnamio efektas",
+      "aplinkosauga",
+      "tarša"
+    ],
     "translation": "climate change"
   },
   {
     "term": "aplinkosauga",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gamtos ir aplinkos apsauga nuo žalos ir teršimo.",
@@ -1395,16 +1411,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "gamtosauga"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ekologija",
+      "klimato kaita",
+      "tvari plėtra"
+    ],
     "translation": "environmental protection"
   },
   {
     "term": "atliekos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nenaudojami ar išmesti daiktai ir medžiagos.",
@@ -1417,9 +1439,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "šiukšlės"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "perdirbimas",
+      "tarša",
+      "aplinkosauga"
+    ],
     "translation": "waste, garbage"
   },
   {
