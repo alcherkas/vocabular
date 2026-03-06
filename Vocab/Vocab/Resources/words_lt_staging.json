@@ -2058,7 +2058,7 @@
     "term": "garsus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Widely known and recognized; renowned",
@@ -2079,16 +2079,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "žinomas"
+    ],
+    "antonymTerms": [
+      "tylus"
+    ],
+    "relatedTerms": [
+      "garsas",
+      "garsenybė"
+    ],
     "translation": "famous"
   },
   {
     "term": "blogai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In a poor or unsatisfactory manner; not well",
@@ -2110,15 +2117,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "gerai"
+    ],
+    "relatedTerms": [
+      "blogas",
+      "blogumas"
+    ],
     "translation": "badly"
   },
   {
     "term": "labai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To a high degree; extremely (intensifier)",
@@ -2139,7 +2151,9 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "ypač"
+    ],
     "antonymTerms": [],
     "relatedTerms": [],
     "translation": "very"
@@ -2148,7 +2162,7 @@
     "term": "daug",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A large amount or quantity of something (with uncountable nouns)",
@@ -2170,15 +2184,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "mažai"
+    ],
+    "relatedTerms": [
+      "gausus",
+      "kiekis"
+    ],
     "translation": "much"
   },
   {
     "term": "mažai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A small amount; not much (with uncountable nouns)",
@@ -2200,8 +2219,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "daug"
+    ],
+    "relatedTerms": [
+      "mažas",
+      "mažuma"
+    ],
     "translation": "little"
   },
   {
