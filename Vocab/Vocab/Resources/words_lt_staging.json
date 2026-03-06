@@ -1870,7 +1870,7 @@
     "term": "pasivaikščioti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To take a leisurely walk for pleasure or exercise",
@@ -1894,7 +1894,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vaikščiojimas",
+      "pasivaikščiojimas"
+    ],
     "translation": "stroll",
     "forms": {
       "present3": "pasivaikščioja",
@@ -1906,7 +1909,7 @@
     "term": "organizuoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To plan and coordinate an event or activity",
@@ -1929,9 +1932,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tvarkyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "organizavimas",
+      "organizatorius"
+    ],
     "translation": "organize",
     "forms": {
       "present3": "organizuoja",
@@ -1943,7 +1951,7 @@
     "term": "nustebęs",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Feeling or showing surprise; astonished by something unexpected",
@@ -1966,14 +1974,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nustebimas",
+      "stebinantis"
+    ],
     "translation": "surprised"
   },
   {
     "term": "svarbus",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having great significance or consequence; of high priority",
@@ -1994,16 +2005,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "reikšmingas"
+    ],
+    "antonymTerms": [
+      "menkas"
+    ],
+    "relatedTerms": [
+      "svarba",
+      "svarbumas"
+    ],
     "translation": "important"
   },
   {
     "term": "storas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having a large distance between two surfaces; not thin",
@@ -2024,9 +2042,16 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "stambus"
+    ],
+    "antonymTerms": [
+      "plonas"
+    ],
+    "relatedTerms": [
+      "storumas",
+      "storinti"
+    ],
     "translation": "thick"
   },
   {
