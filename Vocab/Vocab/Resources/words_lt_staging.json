@@ -3225,7 +3225,7 @@
     "term": "senis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An elderly man; an old person (informal, sometimes affectionate)",
@@ -3246,16 +3246,21 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "senelis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "senė",
+      "senolis"
+    ],
     "translation": "old man"
   },
   {
     "term": "dauguma",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The greater number or part of something; more than half",
@@ -3277,15 +3282,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "mažuma"
+    ],
+    "relatedTerms": [
+      "daugelis",
+      "daugiau"
+    ],
     "translation": "majority"
   },
   {
     "term": "nepažįstamas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person who is not known; someone unfamiliar",
@@ -3307,15 +3317,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "pažįstamas"
+    ],
+    "relatedTerms": [
+      "pažintis",
+      "pažinti"
+    ],
     "translation": "stranger"
   },
   {
     "term": "suaugęs",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A fully grown person; someone who has reached adulthood",
@@ -3337,15 +3352,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "vaikas"
+    ],
+    "relatedTerms": [
+      "suaugusiasis",
+      "pilnametis"
+    ],
     "translation": "adult"
   },
   {
     "term": "filmas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A motion picture produced for cinema or television",
@@ -3368,7 +3388,10 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "filmuoti",
+      "filmavimas"
+    ],
     "translation": "film"
   },
   {
