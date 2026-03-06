@@ -1278,7 +1278,7 @@
     "term": "misanthrope",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person who dislikes humankind and avoids human society",
@@ -1301,7 +1301,8 @@
     ],
     "synonyms": [
       "cynic",
-      "recluse"
+      "curmudgeon",
+      "pessimist"
     ],
     "antonymTerms": [
       "philanthropist"
@@ -1312,8 +1313,7 @@
     ],
     "translation": null,
     "pronunciation": "/ˈmɪsənθrəʊp/",
-    "etymology": "From Greek misanthropos, from misein 'to hate' + anthropos 'human being'",
-    "qa_notes": "Synonym \"recluse\" is not co-extensive with misanthrope — a recluse may withdraw for reasons other than dislike of humanity (shyness, grief, etc.). Replace with more accurate synonyms such as \"curmudgeon\" or \"cynic\"."
+    "etymology": "From Greek misanthropos, from misein 'to hate' + anthropos 'human being'"
   },
   {
     "term": "obstinate",
@@ -1484,7 +1484,7 @@
     "term": "pedantic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Excessively concerned with minor details or rules, especially in teaching or academic contexts",
@@ -1508,18 +1508,20 @@
     "synonyms": [
       "punctilious",
       "doctrinaire",
-      "scholastic"
+      "finicky"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "pragmatic",
+      "flexible"
+    ],
     "relatedTerms": [
       "pedant",
       "pedantry",
-      "pedantically"
+      "exactitude"
     ],
     "translation": null,
     "pronunciation": "/pɪˈdæntɪk/",
-    "etymology": "From Italian pedante 'teacher', possibly from Latin paedagogare 'to teach'",
-    "qa_notes": "Synonym \"scholastic\" means relating to school/scholarship and is not a synonym for pedantic (excessively concerned with minor details). Replace with more accurate synonym such as \"nitpicking\" or \"finicky\"."
+    "etymology": "From Italian pedante 'teacher', possibly from Latin paedagogare 'to teach'"
   },
   {
     "term": "pertinacious",
@@ -2629,37 +2631,40 @@
     "term": "sartorial",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Relating to tailoring, clothes, or style of dress",
-        "example": "His sartorial elegance was legendary — never once was he seen without a perfectly knotted silk tie.",
+        "example": "His sartorial elegance was the product of decades spent curating a wardrobe of bespoke suits.",
         "register": "formal",
         "tags": [
-          "fashion",
-          "clothing"
+          "clothing",
+          "style"
         ]
       },
       {
-        "definition": "Of or relating to the craft and art of a tailor",
-        "example": "The exhibition celebrated the sartorial traditions of Savile Row through a century of bespoke garments.",
-        "register": "formal",
+        "definition": "Relating to one's personal manner of dressing and overall appearance; pertaining to the aesthetics of attire",
+        "example": "Her sartorial choices consistently set trends long before they reached mainstream fashion.",
+        "register": "general",
         "tags": [
-          "tailoring",
-          "craftsmanship"
+          "fashion",
+          "aesthetics"
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vestimentary",
+      "vestiary"
+    ],
     "antonymTerms": [],
     "relatedTerms": [
-      "sartorially",
-      "tailor"
+      "tailor",
+      "haberdashery",
+      "couture"
     ],
     "translation": null,
     "pronunciation": "/sɑːˈtɔːriəl/",
-    "etymology": "From Latin sartor 'tailor, patcher', from sarcire 'to patch, mend'",
-    "qa_notes": "The two meanings are essentially identical — both describe tailoring/clothes. Merge into one distinct definition. Also, synonyms array is empty; add at least 2 appropriate synonyms."
+    "etymology": "From Latin sartor 'tailor, patcher', from sarcire 'to patch, mend'"
   },
   {
     "term": "scrupulous",
