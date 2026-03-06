@@ -1885,7 +1885,7 @@
     "term": "pilietė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Moteris, turinti tam tikros šalies pilietybę ir teises.",
@@ -1900,14 +1900,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pilietis",
+      "pilietybė",
+      "valstybė"
+    ],
     "translation": "citizen (female)"
   },
   {
     "term": "tradicija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Iš kartos į kartą perduodamas elgesys, papročiai ar idėjos.",
@@ -1920,16 +1924,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "paprotys"
+    ],
+    "antonymTerms": [
+      "naujovė"
+    ],
+    "relatedTerms": [
+      "kultūra",
+      "šventė",
+      "papročiai"
+    ],
     "translation": "tradition"
   },
   {
     "term": "kultūra",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tautos ar grupės tradicijos, vertybės, menas ir gyvenimo būdas.",
@@ -1954,14 +1966,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tradicija",
+      "menas",
+      "kalba"
+    ],
     "translation": "culture"
   },
   {
     "term": "kepykla",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vieta, kur kepama ir parduodama duona, pyragaičiai.",
@@ -1976,14 +1992,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "duona",
+      "pyragas",
+      "konditerija"
+    ],
     "translation": "bakery"
   },
   {
     "term": "ingredientas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Produktas, naudojamas patiekalo ar gaminio gamybai.",
@@ -1996,9 +2016,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sudedamoji dalis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "receptas",
+      "gaminimas",
+      "maistas"
+    ],
     "translation": "ingredient"
   },
   {
