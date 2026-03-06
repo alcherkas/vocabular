@@ -1645,56 +1645,176 @@
     "term": "bandyti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To attempt to do something; to make an effort",
+        "example": "Ji bandė išmokti groti gitara, bet trūko kantrybės.",
+        "register": "general",
+        "tags": [
+          "effort",
+          "attempt"
+        ]
+      },
+      {
+        "definition": "To test or try out something to see how it works",
+        "example": "Inžinieriai bandė naują variklį kelias dienas.",
+        "register": "technical",
+        "tags": [
+          "testing",
+          "experimentation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "try",
+    "forms": {
+      "present3": "bando",
+      "past3": "bandė"
+    },
+    "governedCase": "ką?"
   },
   {
     "term": "pavykti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To turn out well; to be successful (used impersonally)",
+        "example": "Man pagaliau pavyko išlaikyti egzaminą.",
+        "register": "general",
+        "tags": [
+          "success",
+          "achievement"
+        ]
+      },
+      {
+        "definition": "To manage to accomplish something after difficulty",
+        "example": "Ar jums pavyko rasti laisvą vietą parkinge?",
+        "register": "general",
+        "tags": [
+          "accomplishment",
+          "outcome"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "succeed",
+    "forms": {
+      "present3": "pavyksta",
+      "past3": "pavyko"
+    },
+    "governedCase": null
   },
   {
     "term": "nepavykti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To not succeed; to turn out badly or fall short (used impersonally)",
+        "example": "Nepavyko laiku baigti projekto dėl techninių problemų.",
+        "register": "general",
+        "tags": [
+          "failure",
+          "outcome"
+        ]
+      },
+      {
+        "definition": "To be unable to achieve or obtain something",
+        "example": "Man nepavyko susisiekti su juo visą dieną.",
+        "register": "general",
+        "tags": [
+          "inability",
+          "failure"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "fail",
+    "forms": {
+      "present3": "nepavyksta",
+      "past3": "nepavyko"
+    },
+    "governedCase": null
   },
   {
     "term": "atvykti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To reach a destination; to come to a place",
+        "example": "Svečiai atvyko vakar vakare po ilgos kelionės.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "movement"
+        ]
+      },
+      {
+        "definition": "To appear or come for an official or formal purpose",
+        "example": "Delegacija atvyko derybų su vyriausybe.",
+        "register": "formal",
+        "tags": [
+          "official",
+          "visit"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "arrive",
+    "forms": {
+      "present3": "atvyksta",
+      "past3": "atvyko"
+    },
+    "governedCase": null
   },
   {
     "term": "išvykti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To leave a place; to set off on a journey",
+        "example": "Jis išvyko į Berlyną anksti ryte.",
+        "register": "general",
+        "tags": [
+          "travel",
+          "departure"
+        ]
+      },
+      {
+        "definition": "To leave for an extended period or permanently",
+        "example": "Daugelis jaunų žmonių išvyko į užsienį ieškodami darbo.",
+        "register": "general",
+        "tags": [
+          "emigration",
+          "relocation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "depart",
+    "forms": {
+      "present3": "išvyksta",
+      "past3": "išvyko"
+    },
+    "governedCase": null
   },
   {
     "term": "pasivaikščioti",
