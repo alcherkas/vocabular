@@ -4693,7 +4693,7 @@
     "term": "gyvulys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A domesticated animal raised on a farm, especially for food or work",
@@ -4717,14 +4717,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gyvūnas",
+      "ganykla"
+    ],
     "translation": "livestock"
   },
   {
     "term": "ganykla",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A field or area of land covered with grass used for grazing animals",
@@ -4739,14 +4742,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gyvulys",
+      "žolė"
+    ],
     "translation": "pasture"
   },
   {
     "term": "energija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The capacity or power to do physical work, measured in joules or watts",
@@ -4771,14 +4777,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "energingas",
+      "jėga"
+    ],
     "translation": "energy"
   },
   {
     "term": "jėga",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Physical power or might; the ability to exert force",
@@ -4801,16 +4810,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "stiprumas"
+    ],
+    "antonymTerms": [
+      "silpnumas"
+    ],
+    "relatedTerms": [
+      "stiprus",
+      "energija"
+    ],
     "translation": "strength"
   },
   {
     "term": "miegas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The natural state of rest during which consciousness is suspended",
@@ -4833,8 +4849,13 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "budrumas"
+    ],
+    "relatedTerms": [
+      "miegoti",
+      "sapnas"
+    ],
     "translation": "sleep"
   }
 ]
