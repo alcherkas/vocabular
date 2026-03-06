@@ -2031,7 +2031,7 @@
     "term": "liūdėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Jausti liūdesį dėl praradimo ar nemalonios situacijos.",
@@ -2043,9 +2043,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "gedėti"
+    ],
+    "antonymTerms": [
+      "džiaugtis"
+    ],
+    "relatedTerms": [
+      "liūdesys",
+      "netektis",
+      "gedulas"
+    ],
     "translation": "to be sad, to grieve",
     "forms": {
       "present3": "liūdi",
@@ -2057,7 +2065,7 @@
     "term": "nusivilti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Jausti nusivylimą, kai tikrovė neatitinka lūkesčių.",
@@ -2071,7 +2079,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nusivylimas",
+      "lūkestis",
+      "tikėjimas"
+    ],
     "translation": "to be disappointed",
     "forms": {
       "present3": "nusivilia",
@@ -2083,7 +2095,7 @@
     "term": "viltis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tikėjimas, kad kažkas gero atsitiks.",
@@ -2096,16 +2108,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "tikėjimas"
+    ],
+    "antonymTerms": [
+      "neviltis"
+    ],
+    "relatedTerms": [
+      "optimizmas",
+      "svajonė",
+      "tikrovė"
+    ],
     "translation": "hope"
   },
   {
     "term": "bendrovė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Komercinė organizacija, vykdanti ūkinę veiklą.",
@@ -2118,16 +2138,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "įmonė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "akcininkas",
+      "pelnas",
+      "vadovas"
+    ],
     "translation": "company, corporation"
   },
   {
     "term": "pelnas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pajamos, likusios atėmus išlaidas.",
@@ -2141,8 +2167,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "nuostolis"
+    ],
+    "relatedTerms": [
+      "pajamos",
+      "išlaidos",
+      "verslas"
+    ],
     "translation": "profit"
   },
   {
