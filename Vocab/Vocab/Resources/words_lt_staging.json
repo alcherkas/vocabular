@@ -458,7 +458,7 @@
     "term": "atlyginimo padidinimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Darbuotojo atlyginimo padidinimas darbdavio sprendimu.",
@@ -472,15 +472,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "atlyginimo sumažinimas"
+    ],
+    "relatedTerms": [
+      "atlyginimas",
+      "karjera",
+      "paaukštinimas"
+    ],
     "translation": "salary raise, pay increase"
   },
   {
     "term": "investicija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pinigų ar išteklių skyrimas siekiant gauti pelną ateityje.",
@@ -494,14 +500,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pelnas",
+      "kapitalas",
+      "vertybiniai popieriai"
+    ],
     "translation": "investment"
   },
   {
     "term": "delegacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Grupė žmonių, paskirta atstovauti organizacijai ar šaliai.",
@@ -523,16 +533,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atstovybė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "delegatas",
+      "konferencija",
+      "susitikimas"
+    ],
     "translation": "delegation"
   },
   {
     "term": "darbo grafikas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nustatytas darbo laikotarpis ir tvarkaraštis.",
@@ -547,14 +563,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "darbo laikas",
+      "pamaina",
+      "tvarkaraštis"
+    ],
     "translation": "work schedule"
   },
   {
     "term": "darbo etika",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Darbuotojo požiūris į darbą, atsakingumas ir kruopštumas.",
@@ -569,7 +589,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atsakomybė",
+      "kruopštumas",
+      "profesionalumas"
+    ],
     "translation": "work ethic"
   },
   {
