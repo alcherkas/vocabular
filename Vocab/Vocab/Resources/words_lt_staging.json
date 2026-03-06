@@ -839,56 +839,130 @@
     "term": "skiepytis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Gauti vakciną apsisaugoti nuo ligos.",
+        "example": "Rekomenduojama skiepytis prieš kelionę į egzotiškas šalis.",
+        "register": "neutral",
+        "tags": [
+          "health",
+          "medicine",
+          "prevention"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to get vaccinated",
+    "forms": {
+      "present3": "skiepijasi",
+      "past3": "skiepijosi"
+    },
+    "governedCase": "kuo?"
   },
   {
     "term": "vaikų liga",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Liga, kuri dažnai pasitaiko vaikystėje.",
+        "example": "Tymais – tai dažna vaikų liga.",
+        "register": "neutral",
+        "tags": [
+          "health",
+          "children",
+          "medicine"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "childhood disease"
   },
   {
     "term": "registruotis",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Oficialiai užsiregistruoti sistemoje arba vietoje.",
+        "example": "Reikia registruotis prie registratūros prieš vizitą.",
+        "register": "neutral",
+        "tags": [
+          "admin",
+          "travel",
+          "health"
+        ]
+      },
+      {
+        "definition": "Prisiregistruoti prie paskyros arba paslaugos internete.",
+        "example": "Registruokis svetainėje ir gausi prieigą prie turinio.",
+        "register": "neutral",
+        "tags": [
+          "technology",
+          "internet"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "to register, to check in",
+    "forms": {
+      "present3": "registruojasi",
+      "past3": "registravosi"
+    },
+    "governedCase": null
   },
   {
     "term": "turistų informacijos centras",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Biuras, teikiantis informaciją turistams apie vietovę.",
+        "example": "Turistų informacijos centre galima gauti žemėlapį.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "tourism",
+          "services"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "tourist information centre"
   },
   {
     "term": "kelionių draudimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Draudimas, apsaugantis keliautoją nuo nelaimingų atsitikimų ar nuostolių.",
+        "example": "Prieš skrydžią reikia turėti kelionių draudimą.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "insurance",
+          "finance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "travel insurance"
   },
   {
     "term": "vietinis transportas",
