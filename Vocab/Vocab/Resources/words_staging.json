@@ -1324,7 +1324,7 @@
     "term": "venal",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Open to bribery or corruption; motivated by money or personal gain; mercenary.",
@@ -1337,16 +1337,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "corrupt",
+      "bribable",
+      "mercenary",
+      "dishonest"
+    ],
+    "antonymTerms": [
+      "incorruptible",
+      "principled"
+    ],
+    "relatedTerms": [
+      "corruption",
+      "graft",
+      "bribery",
+      "nepotism"
+    ],
     "translation": null
   },
   {
     "term": "vicarious",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Experienced or felt by watching, listening to, or reading about the experiences of another person rather than by doing something oneself.",
@@ -1368,16 +1381,28 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "indirect",
+      "secondhand",
+      "empathetic"
+    ],
+    "antonymTerms": [
+      "direct",
+      "firsthand"
+    ],
+    "relatedTerms": [
+      "empathy",
+      "proxy",
+      "substitution",
+      "imagination"
+    ],
     "translation": null
   },
   {
     "term": "vindictive",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having or showing a strong or unreasoning desire for revenge; motivated by a desire to hurt or punish.",
@@ -1390,16 +1415,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "revengeful",
+      "spiteful",
+      "retaliatory",
+      "malicious"
+    ],
+    "antonymTerms": [
+      "forgiving",
+      "magnanimous"
+    ],
+    "relatedTerms": [
+      "vengeance",
+      "grudge",
+      "resentment",
+      "malice"
+    ],
     "translation": null
   },
   {
     "term": "vocation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A strong feeling of suitability for a particular career or occupation; a calling.",
@@ -1422,16 +1460,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "calling",
+      "profession",
+      "career",
+      "mission"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "career path",
+      "ordained ministry",
+      "purpose",
+      "avocation"
+    ],
     "translation": null
   },
   {
     "term": "volitional",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Relating to or involving the exercise of the will; done or undertaken by choice rather than compulsion.",
@@ -1444,9 +1492,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "voluntary",
+      "intentional",
+      "deliberate",
+      "wilful"
+    ],
+    "antonymTerms": [
+      "involuntary",
+      "compulsory"
+    ],
+    "relatedTerms": [
+      "free will",
+      "agency",
+      "intentionality",
+      "autonomy"
+    ],
     "translation": null
   },
   {
