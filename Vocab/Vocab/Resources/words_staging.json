@@ -1,2053 +1,2731 @@
 [
   {
-    "term": "abdication",
+    "term": "analeptic",
     "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
+    "partOfSpeech": "adjective",
+    "status": "enriched",
     "meanings": [
       {
-        "definition": "The formal act of renouncing or surrendering a position of power, authority, or responsibility, especially a throne or high office.",
-        "example": "The king's abdication shocked the nation, leaving the question of succession unresolved for months.",
-        "register": "formal",
+        "definition": "Serving to restore strength or vitality; restorative",
+        "example": "The physician prescribed an analeptic regimen of rest and nourishing broths.",
+        "register": "technical",
         "tags": [
-          "politics",
-          "governance",
-          "history"
+          "medicine",
+          "restoration"
         ]
       },
       {
-        "definition": "The abandonment or shirking of a duty, responsibility, or moral obligation.",
-        "example": "Critics accused the board of a complete abdication of their fiduciary duty to shareholders.",
-        "register": "formal",
+        "definition": "A drug or substance that stimulates the central nervous system",
+        "example": "Caffeine is one of the most commonly consumed analeptic compounds worldwide.",
+        "register": "technical",
         "tags": [
-          "ethics",
-          "law",
-          "governance"
+          "pharmacology",
+          "stimulant"
         ]
       }
     ],
     "synonyms": [
-      "renunciation",
-      "relinquishment",
-      "abandonment",
-      "resignation"
+      "restorative",
+      "tonic",
+      "invigorating",
+      "reviving"
     ],
     "antonymTerms": [
-      "accession",
-      "assumption"
+      "sedative",
+      "depressant",
+      "debilitating"
     ],
     "relatedTerms": [
-      "sovereignty",
-      "succession",
-      "abdicate",
-      "monarchy"
+      "stimulant",
+      "analepsis",
+      "recuperative"
     ],
-    "translation": null
+    "translation": null,
+    "pronunciation": "/ˌænəˈlɛptɪk/",
+    "etymology": "From Greek analēptikos 'restorative', from analambanein 'to take up'",
+    "qa_notes": "POS mismatch: partOfSpeech is 'adjective' but meaning 2 ('A drug or substance that stimulates the central nervous system') is a noun definition. Split by POS or rewrite meaning 2 as adjectival."
   },
   {
-    "term": "aberration",
+    "term": "comestible",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An item of food; something fit to be eaten",
+        "example": "The market stall displayed an impressive array of comestibles from across the Mediterranean.",
+        "register": "formal",
+        "tags": [
+          "food",
+          "culinary"
+        ]
+      },
+      {
+        "definition": "Suitable or safe for eating; edible",
+        "example": "After careful inspection, the mushrooms were declared comestible by the experienced forager.",
+        "register": "formal",
+        "tags": [
+          "edibility",
+          "food-safety"
+        ]
+      }
+    ],
+    "synonyms": [
+      "edible",
+      "foodstuff",
+      "victual",
+      "provision"
+    ],
+    "antonymTerms": [
+      "inedible",
+      "poisonous",
+      "toxic"
+    ],
+    "relatedTerms": [
+      "nourishment",
+      "sustenance",
+      "consumable"
+    ],
+    "translation": null,
+    "pronunciation": "/kəˈmɛstɪbəl/",
+    "etymology": "From Medieval Latin comestibilis, from Latin comestus, past participle of comedere 'to eat up'",
+    "qa_notes": "POS mismatch: partOfSpeech is 'noun' but meaning 2 ('Suitable or safe for eating; edible') is an adjectival definition. Split by POS or rewrite meaning 2 as a noun definition."
+  },
+  {
+    "term": "corpulence",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The state of being excessively fat or obese",
+        "example": "His growing corpulence was a source of concern for his physician.",
+        "register": "formal",
+        "tags": [
+          "body",
+          "health"
+        ]
+      },
+      {
+        "definition": "Excessive fleshiness or heaviness of body",
+        "example": "The portrait captured the king's corpulence with unflattering accuracy.",
+        "register": "neutral",
+        "tags": [
+          "appearance",
+          "physique"
+        ]
+      }
+    ],
+    "synonyms": [
+      "obesity",
+      "portliness",
+      "rotundity",
+      "stoutness"
+    ],
+    "antonymTerms": [
+      "slenderness",
+      "leanness",
+      "gauntness"
+    ],
+    "relatedTerms": [
+      "corpulent",
+      "adiposity",
+      "overweight"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈkɔːrpjʊləns/",
+    "etymology": "From Latin corpulentia, from corpulentus 'fleshy', from corpus 'body'",
+    "qa_notes": "Non-distinct meanings: both meanings describe the same quality of being excessively fat/heavy. Consolidate into one meaning or provide a genuinely different second sense."
+  },
+  {
+    "term": "ennervate",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To deprive of force, strength, or vitality; to weaken.",
+        "example": "The relentless tropical heat seemed to enervate even the most energetic members of the expedition.",
+        "register": "formal",
+        "tags": [
+          "weakness",
+          "effect"
+        ]
+      },
+      {
+        "definition": "To reduce the mental or moral vigour of someone.",
+        "example": "Years of bureaucratic routine had enervated his once-ambitious spirit.",
+        "register": "formal",
+        "tags": [
+          "psychology",
+          "decline"
+        ]
+      }
+    ],
+    "synonyms": [
+      "weaken",
+      "debilitate",
+      "enfeeble",
+      "sap"
+    ],
+    "antonymTerms": [
+      "invigorate",
+      "energize",
+      "strengthen"
+    ],
+    "relatedTerms": [
+      "exhaust",
+      "enervation",
+      "vitiate"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈɛnərveɪt/",
+    "etymology": "From Latin 'enervare' (to weaken), from 'ex-' (out of) + 'nervus' (sinew, nerve).",
+    "qa_notes": "Term misspelled: should be 'enervate' (single n, from Latin enervare). Examples already use correct spelling."
+  },
+  {
+    "term": "intractable",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Hard to control, manage, or resolve; stubbornly resistant to treatment or correction.",
+        "example": "The intractable conflict between the two factions had persisted for generations.",
+        "register": "formal",
+        "tags": [
+          "difficulty",
+          "resistance"
+        ]
+      },
+      {
+        "definition": "(Of a person) Difficult to deal with; stubborn or uncooperative.",
+        "example": "The committee found the witness intractable and unwilling to answer straightforward questions.",
+        "register": "formal",
+        "tags": [
+          "character",
+          "obstinacy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "obstinate",
+      "recalcitrant",
+      "refractory",
+      "unmanageable"
+    ],
+    "antonymTerms": [
+      "tractable",
+      "docile",
+      "compliant"
+    ],
+    "relatedTerms": [
+      "intractability",
+      "stubborn",
+      "unyielding"
+    ],
+    "translation": null,
+    "pronunciation": "/ɪnˈtræktəbəl/",
+    "etymology": "From Latin 'intractabilis', from 'in-' (not) + 'tractabilis' (manageable), from 'tractare' (to handle).",
+    "qa_notes": "Self-reference: relatedTerms contains 'intractability', which has the headword 'intractable' as a substring. Replace with a term that does not contain the headword."
+  },
+  {
+    "term": "abstruse",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Difficult to understand; obscure or esoteric in nature",
+        "example": "The professor's abstruse lecture on quantum chromodynamics left most students bewildered.",
+        "register": "formal",
+        "tags": [
+          "difficulty",
+          "comprehension"
+        ]
+      },
+      {
+        "definition": "Concealed or hidden from easy perception",
+        "example": "The abstruse symbolism in the medieval manuscript required years of scholarly interpretation.",
+        "register": "literary",
+        "tags": [
+          "obscurity",
+          "concealment"
+        ]
+      }
+    ],
+    "synonyms": [
+      "recondite",
+      "arcane",
+      "esoteric",
+      "obscure"
+    ],
+    "antonymTerms": [
+      "lucid",
+      "perspicuous",
+      "accessible"
+    ],
+    "relatedTerms": [
+      "cryptic",
+      "enigmatic",
+      "abstruseness"
+    ],
+    "translation": null,
+    "pronunciation": "/æbˈstruːs/",
+    "etymology": "From Latin abstrusus 'hidden, concealed', past participle of abstrudere 'to push away'",
+    "qa_notes": "Self-reference: relatedTerms contains 'abstruseness', which has the headword 'abstruse' as a substring. Replace with a non-derived related term."
+  },
+  {
+    "term": "ascetic",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Characterized by severe self-discipline and abstention from indulgence",
+        "example": "The monk's ascetic lifestyle included fasting, silence, and sleeping on a bare wooden floor.",
+        "register": "formal",
+        "tags": [
+          "discipline",
+          "austerity"
+        ]
+      },
+      {
+        "definition": "A person who practises severe self-discipline and abstains from pleasure",
+        "example": "The desert ascetic renounced all worldly possessions and lived on bread and water alone.",
+        "register": "general",
+        "tags": [
+          "lifestyle",
+          "renunciation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "austere",
+      "spartan",
+      "abstemious",
+      "self-denying"
+    ],
+    "antonymTerms": [
+      "hedonistic",
+      "sybaritic",
+      "indulgent"
+    ],
+    "relatedTerms": [
+      "monastic",
+      "puritanical",
+      "abstinent"
+    ],
+    "translation": null,
+    "pronunciation": "/əˈsɛtɪk/",
+    "etymology": "From Greek askētikos 'rigorously self-disciplined', from askein 'to exercise'",
+    "qa_notes": "POS mismatch: partOfSpeech is 'adjective' but meaning 2 ('A person who practises severe self-discipline and abstains from pleasure') is a noun definition. Split by POS or rewrite meaning 2 as adjectival."
+  },
+  {
+    "term": "brusque",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Abrupt or offhand in speech or manner; curtly blunt",
+        "example": "The surgeon's brusque bedside manner unnerved patients, though his skills were unmatched.",
+        "register": "general",
+        "tags": [
+          "manner",
+          "rudeness"
+        ]
+      },
+      {
+        "definition": "Markedly short and abrupt in response or communication",
+        "example": "She gave a brusque nod and turned back to her work without another word.",
+        "register": "general",
+        "tags": [
+          "communication",
+          "brevity"
+        ]
+      }
+    ],
+    "synonyms": [
+      "curt",
+      "abrupt",
+      "blunt",
+      "terse"
+    ],
+    "antonymTerms": [
+      "courteous",
+      "polite",
+      "tactful"
+    ],
+    "relatedTerms": [
+      "laconic",
+      "gruff",
+      "peremptory"
+    ],
+    "translation": null,
+    "pronunciation": "/brʌsk/",
+    "etymology": "From French brusque, from Italian brusco 'sour, rough'",
+    "qa_notes": "Non-distinct meanings: meaning 1 ('Abrupt or offhand in speech or manner; curtly blunt') and meaning 2 ('Markedly short and abrupt in response or communication') describe the same quality. Consolidate into one meaning."
+  },
+  {
+    "term": "callous",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Showing a cruel disregard for others; emotionally insensitive",
+        "example": "The CEO's callous dismissal of the layoffs angered employees and shareholders alike.",
+        "register": "general",
+        "tags": [
+          "cruelty",
+          "insensitivity"
+        ]
+      },
+      {
+        "definition": "Hardened or thickened, especially of skin",
+        "example": "Years of manual labour had left his hands callous and rough to the touch.",
+        "register": "general",
+        "tags": [
+          "physical",
+          "toughness"
+        ]
+      }
+    ],
+    "synonyms": [
+      "unfeeling",
+      "insensitive",
+      "heartless",
+      "ruthless"
+    ],
+    "antonymTerms": [
+      "compassionate",
+      "empathetic",
+      "tender"
+    ],
+    "relatedTerms": [
+      "callousness",
+      "hardened",
+      "indifferent"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈkæləs/",
+    "etymology": "From Latin callosus 'thick-skinned', from callum 'hard skin'",
+    "qa_notes": "Self-reference: relatedTerms contains 'callousness', which has the headword 'callous' as a substring. Replace with a non-derived related term."
+  },
+  {
+    "term": "decorous",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "In keeping with good taste and propriety; polite and restrained",
+        "example": "The ambassador maintained a decorous composure throughout the tense diplomatic reception.",
+        "register": "formal",
+        "tags": [
+          "propriety",
+          "manners"
+        ]
+      },
+      {
+        "definition": "Characterized by dignified propriety in conduct and appearance",
+        "example": "The decorous furnishings of the Victorian parlour reflected the family's emphasis on respectability.",
+        "register": "formal",
+        "tags": [
+          "dignity",
+          "appearance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "proper",
+      "seemly",
+      "becoming",
+      "tasteful"
+    ],
+    "antonymTerms": [
+      "indecorous",
+      "unseemly",
+      "improper"
+    ],
+    "relatedTerms": [
+      "decorum",
+      "decency",
+      "propriety"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈdɛkərəs/",
+    "etymology": "From Latin decorus 'seemly, becoming', from decor 'beauty, grace'",
+    "qa_notes": "Self-reference: antonymTerms contains 'indecorous', which has the headword 'decorous' as a substring. The other antonyms ('unseemly', 'improper') are sufficient; remove 'indecorous' or replace it."
+  },
+  {
+    "term": "dialectic",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The art of investigating or discussing the truth of opinions through logical argumentation",
+        "example": "Socratic dialectic proceeds by questioning assumptions until contradictions are revealed.",
+        "register": "formal",
+        "tags": [
+          "philosophy",
+          "argumentation"
+        ]
+      },
+      {
+        "definition": "The tension or opposition between two interacting forces or elements",
+        "example": "The dialectic between tradition and innovation drives much of contemporary architectural design.",
+        "register": "formal",
+        "tags": [
+          "opposition",
+          "synthesis"
+        ]
+      }
+    ],
+    "synonyms": [
+      "argumentation",
+      "disputation",
+      "debate",
+      "reasoning"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "dialectical",
+      "logic",
+      "thesis"
+    ],
+    "translation": null,
+    "pronunciation": "/ˌdaɪəˈlɛktɪk/",
+    "etymology": "From Greek dialektikē (tekhnē) '(art) of debate', from dialegesthai 'to converse'",
+    "qa_notes": "Self-reference: relatedTerms contains 'dialectical', which has the headword 'dialectic' as a substring. Replace with a non-derived related term."
+  },
+  {
+    "term": "embroil",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To involve someone deeply in a conflict, argument, or difficult situation",
+        "example": "The leaked documents embroiled the corporation in a protracted legal battle.",
+        "register": "formal",
+        "tags": [
+          "conflict",
+          "involvement"
+        ]
+      },
+      {
+        "definition": "To bring into a state of confusion or disorder",
+        "example": "Rival factions embroiled the parliament in chaos, delaying legislation for months.",
+        "register": "formal",
+        "tags": [
+          "disorder",
+          "complication"
+        ]
+      }
+    ],
+    "synonyms": [
+      "entangle",
+      "enmesh",
+      "implicate",
+      "ensnare"
+    ],
+    "antonymTerms": [
+      "disentangle",
+      "extricate",
+      "liberate"
+    ],
+    "relatedTerms": [
+      "embroilment",
+      "complicate",
+      "confound"
+    ],
+    "translation": null,
+    "pronunciation": "/ɪmˈbrɔɪl/",
+    "etymology": "From French embrouiller 'to entangle, confuse', from en- 'in' + brouiller 'to mix up'",
+    "qa_notes": "Self-reference: relatedTerms contains 'embroilment', which has the headword 'embroil' as a substring. Replace with a non-derived related term."
+  },
+  {
+    "term": "flippant",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Not showing a serious or respectful attitude; inappropriately casual",
+        "example": "His flippant remarks during the funeral service offended everyone in attendance.",
+        "register": "general",
+        "tags": [
+          "disrespect",
+          "casualness"
+        ]
+      },
+      {
+        "definition": "Treating a serious matter with dismissive levity",
+        "example": "The senator's flippant response to questions about climate change drew sharp criticism.",
+        "register": "general",
+        "tags": [
+          "levity",
+          "dismissiveness"
+        ]
+      }
+    ],
+    "synonyms": [
+      "frivolous",
+      "glib",
+      "cavalier",
+      "facetious"
+    ],
+    "antonymTerms": [
+      "earnest",
+      "solemn",
+      "serious"
+    ],
+    "relatedTerms": [
+      "levity",
+      "impertinent",
+      "dismissive"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈflɪpənt/",
+    "etymology": "Probably related to flip, suggesting a tossing or careless manner; first attested in the 17th century",
+    "qa_notes": "Non-distinct meanings: meaning 1 ('Not showing a serious or respectful attitude; inappropriately casual') and meaning 2 ('Treating a serious matter with dismissive levity') are essentially the same. Consolidate into one meaning."
+  },
+  {
+    "term": "guile",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Sly or cunning intelligence used to deceive or manipulate",
+        "example": "Through sheer guile, the negotiator secured terms that no one thought possible.",
+        "register": "formal",
+        "tags": [
+          "cunning",
+          "deception"
+        ]
+      },
+      {
+        "definition": "The use of clever but dishonest behaviour to achieve a goal",
+        "example": "The fox in the fable relied on guile rather than strength to outwit the lion.",
+        "register": "literary",
+        "tags": [
+          "trickery",
+          "craftiness"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cunning",
+      "craftiness",
+      "deceit",
+      "wiliness"
+    ],
+    "antonymTerms": [
+      "candor",
+      "honesty",
+      "sincerity"
+    ],
+    "relatedTerms": [
+      "guileful",
+      "artfulness",
+      "duplicity"
+    ],
+    "translation": null,
+    "pronunciation": "/ɡaɪl/",
+    "etymology": "From Old French guile 'deceit, trickery', probably of Germanic origin",
+    "qa_notes": "Self-reference: relatedTerms contains 'guileful', which has the headword 'guile' as a substring. Replace with a non-derived related term."
+  },
+  {
+    "term": "histrionic",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Overly theatrical or melodramatic in character or style",
+        "example": "The witness's histrionic outburst in court undermined the credibility of her testimony.",
+        "register": "formal",
+        "tags": [
+          "drama",
+          "exaggeration"
+        ]
+      },
+      {
+        "definition": "Relating to actors or acting",
+        "example": "His histrionic talents were evident even in childhood, when he would stage elaborate performances for the family.",
+        "register": "literary",
+        "tags": [
+          "theatre",
+          "performance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "theatrical",
+      "melodramatic",
+      "dramatic",
+      "overwrought"
+    ],
+    "antonymTerms": [
+      "understated",
+      "restrained",
+      "unaffected"
+    ],
+    "relatedTerms": [
+      "histrionics",
+      "performative",
+      "flamboyant"
+    ],
+    "translation": null,
+    "pronunciation": "/ˌhɪstriˈɒnɪk/",
+    "etymology": "From Latin histrionicus 'of an actor', from histrio 'actor'",
+    "qa_notes": "Self-reference: relatedTerms contains 'histrionics', which has the headword 'histrionic' as a substring. Replace with a non-derived related term."
+  },
+  {
+    "term": "inadvertent",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Not resulting from or achieved through deliberate planning; unintentional",
+        "example": "The inadvertent release of confidential data prompted an immediate internal investigation.",
+        "register": "formal",
+        "tags": [
+          "error",
+          "unintentional"
+        ]
+      },
+      {
+        "definition": "Failing to act carefully or considerately; inattentive",
+        "example": "Her inadvertent disregard for the filing deadline cost the firm a significant penalty.",
+        "register": "general",
+        "tags": [
+          "carelessness",
+          "negligence"
+        ]
+      }
+    ],
+    "synonyms": [
+      "unintentional",
+      "accidental",
+      "unplanned"
+    ],
+    "antonymTerms": [
+      "deliberate",
+      "intentional"
+    ],
+    "relatedTerms": [
+      "inadvertently",
+      "inadvertence"
+    ],
+    "translation": null,
+    "pronunciation": "/ˌɪnədˈvɜːrtənt/",
+    "etymology": "From Latin inadvertens, from in- 'not' + advertere 'to turn toward'"
+  },
+  {
+    "term": "incongruous",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Not in harmony or keeping with the surroundings or other aspects of something",
+        "example": "The ultra-modern glass tower looked incongruous amid the Victorian terrace houses.",
+        "register": "formal",
+        "tags": [
+          "mismatch",
+          "discord"
+        ]
+      },
+      {
+        "definition": "Not in accordance with what is logical, expected, or appropriate",
+        "example": "His incongruous laughter during the solemn ceremony drew disapproving stares.",
+        "register": "general",
+        "tags": [
+          "absurdity",
+          "inappropriateness"
+        ]
+      }
+    ],
+    "synonyms": [
+      "discordant",
+      "incompatible",
+      "inconsistent"
+    ],
+    "antonymTerms": [
+      "congruous",
+      "harmonious"
+    ],
+    "relatedTerms": [
+      "incongruity",
+      "incongruously"
+    ],
+    "translation": null,
+    "pronunciation": "/ɪnˈkɒŋɡruəs/",
+    "etymology": "From Latin incongruus, from in- 'not' + congruus 'agreeing, suitable'"
+  },
+  {
+    "term": "indolent",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Wanting to avoid activity or exertion; lazy",
+        "example": "The indolent heir showed no interest in managing the family estate.",
+        "register": "formal",
+        "tags": [
+          "laziness",
+          "inactivity"
+        ]
+      },
+      {
+        "definition": "(Of a disease or condition) causing little or no pain and progressing slowly",
+        "example": "The biopsy revealed an indolent lymphoma that required only routine monitoring.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "pathology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "slothful",
+      "languid",
+      "torpid"
+    ],
+    "antonymTerms": [
+      "industrious",
+      "diligent"
+    ],
+    "relatedTerms": [
+      "indolence",
+      "indolently"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈɪndələnt/",
+    "etymology": "From Late Latin indolentem 'insensitive to pain', from in- 'not' + dolere 'to grieve'"
+  },
+  {
+    "term": "inimical",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Tending to obstruct or harm; hostile",
+        "example": "The new regulations proved inimical to small businesses struggling to comply.",
+        "register": "formal",
+        "tags": [
+          "hostility",
+          "opposition"
+        ]
+      },
+      {
+        "definition": "Unfriendly or showing active opposition",
+        "example": "The two nations had maintained inimical relations for decades before the peace accord.",
+        "register": "formal",
+        "tags": [
+          "antagonism",
+          "conflict"
+        ]
+      }
+    ],
+    "synonyms": [
+      "hostile",
+      "antagonistic",
+      "adverse"
+    ],
+    "antonymTerms": [
+      "friendly",
+      "hospitable"
+    ],
+    "relatedTerms": [
+      "inimically"
+    ],
+    "translation": null,
+    "pronunciation": "/ɪˈnɪmɪkəl/",
+    "etymology": "From Late Latin inimicalis, from Latin inimicus 'enemy', from in- 'not' + amicus 'friend'"
+  },
+  {
+    "term": "innocuous",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Not harmful or offensive; unlikely to provoke a strong reaction",
+        "example": "What seemed like an innocuous remark at dinner escalated into a heated family argument.",
+        "register": "general",
+        "tags": [
+          "harmlessness",
+          "safety"
+        ]
+      },
+      {
+        "definition": "Not interesting or stimulating; bland",
+        "example": "The committee produced an innocuous report that carefully avoided all controversial topics.",
+        "register": "general",
+        "tags": [
+          "blandness",
+          "dullness"
+        ]
+      }
+    ],
+    "synonyms": [
+      "harmless",
+      "inoffensive",
+      "benign"
+    ],
+    "antonymTerms": [
+      "harmful",
+      "noxious"
+    ],
+    "relatedTerms": [
+      "innocuously",
+      "innocuousness"
+    ],
+    "translation": null,
+    "pronunciation": "/ɪˈnɒkjuəs/",
+    "etymology": "From Latin innocuus, from in- 'not' + nocuus 'harmful', from nocere 'to hurt'"
+  },
+  {
+    "term": "insipid",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Lacking flavour; tasteless",
+        "example": "The hotel's insipid breakfast buffet left much to be desired after a week of travel.",
+        "register": "general",
+        "tags": [
+          "taste",
+          "food"
+        ]
+      },
+      {
+        "definition": "Lacking vigour, interest, or imagination; dull",
+        "example": "Critics dismissed the sequel as an insipid retread of the original's plot.",
+        "register": "general",
+        "tags": [
+          "dullness",
+          "boredom"
+        ]
+      }
+    ],
+    "synonyms": [
+      "vapid",
+      "bland",
+      "flavourless"
+    ],
+    "antonymTerms": [
+      "flavourful",
+      "stimulating"
+    ],
+    "relatedTerms": [
+      "insipidity",
+      "insipidly"
+    ],
+    "translation": null,
+    "pronunciation": "/ɪnˈsɪpɪd/",
+    "etymology": "From Late Latin insipidus, from in- 'not' + sapidus 'having flavour', from sapere 'to taste'"
+  },
+  {
+    "term": "insouciant",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Showing a casual lack of concern; carefree and nonchalant",
+        "example": "She strolled through the crisis with an insouciant grace that both impressed and infuriated her colleagues.",
+        "register": "literary",
+        "tags": [
+          "carefreeness",
+          "nonchalance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "nonchalant",
+      "carefree",
+      "blithe"
+    ],
+    "antonymTerms": [
+      "anxious",
+      "apprehensive"
+    ],
+    "relatedTerms": [
+      "insouciance",
+      "insouciantly"
+    ],
+    "translation": null,
+    "pronunciation": "/ɪnˈsuːsiənt/",
+    "etymology": "From French insouciant, from in- 'not' + souciant 'worrying', from soucier 'to worry'"
+  },
+  {
+    "term": "insurrection",
     "language": "en",
     "partOfSpeech": "noun",
     "status": "approved",
     "meanings": [
       {
-        "definition": "A departure from what is normal, expected, or typical; a deviation from the standard or usual course.",
-        "example": "The scientist noted that this anomalous reading was an aberration rather than evidence of a new phenomenon.",
+        "definition": "A violent uprising against an authority or government",
+        "example": "The insurrection was quelled within days, but its political aftershocks lasted for years.",
         "register": "formal",
         "tags": [
-          "science",
-          "statistics",
+          "rebellion",
+          "politics"
+        ]
+      },
+      {
+        "definition": "An act or instance of organized resistance to an established authority",
+        "example": "Historians now view the failed insurrection as a turning point in the colony's struggle for independence.",
+        "register": "formal",
+        "tags": [
+          "revolt",
+          "history"
+        ]
+      }
+    ],
+    "synonyms": [
+      "uprising",
+      "rebellion",
+      "revolt"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "insurrectionist",
+      "insurrectionary"
+    ],
+    "translation": null,
+    "pronunciation": "/ˌɪnsəˈrekʃən/",
+    "etymology": "From Latin insurrectionem, from insurgere 'to rise up', from in- 'upon' + surgere 'to rise'"
+  },
+  {
+    "term": "intemperate",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Showing a lack of self-control or moderation, especially in the consumption of alcohol",
+        "example": "His intemperate drinking habits eventually cost him both his career and his marriage.",
+        "register": "formal",
+        "tags": [
+          "excess",
+          "addiction"
+        ]
+      },
+      {
+        "definition": "Given to or characterised by excessive or immoderate behaviour or language",
+        "example": "The senator's intemperate outburst on the floor drew swift condemnation from both parties.",
+        "register": "formal",
+        "tags": [
+          "extremism",
+          "rhetoric"
+        ]
+      }
+    ],
+    "synonyms": [
+      "immoderate",
+      "excessive",
+      "unrestrained"
+    ],
+    "antonymTerms": [
+      "temperate",
+      "moderate"
+    ],
+    "relatedTerms": [
+      "intemperance",
+      "intemperately"
+    ],
+    "translation": null,
+    "pronunciation": "/ɪnˈtempərət/",
+    "etymology": "From Latin intemperatus 'immoderate', from in- 'not' + temperatus 'restrained'"
+  },
+  {
+    "term": "inveterate",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Having a particular habit, activity, or interest that is long-established and unlikely to change",
+        "example": "An inveterate traveller, she had visited over sixty countries before turning forty.",
+        "register": "formal",
+        "tags": [
+          "habit",
+          "persistence"
+        ]
+      },
+      {
+        "definition": "(Of a feeling or habit) firmly and deeply established; ingrained",
+        "example": "The community's inveterate distrust of outsiders made integration a slow process.",
+        "register": "formal",
+        "tags": [
+          "deep-seated",
+          "permanence"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ingrained",
+      "entrenched",
+      "deep-rooted"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "inveterately",
+      "inveteracy"
+    ],
+    "translation": null,
+    "pronunciation": "/ɪnˈvetərət/",
+    "etymology": "From Latin inveteratus 'of long standing', past participle of inveterare 'to make old'"
+  },
+  {
+    "term": "irrefutable",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Impossible to deny or disprove; indisputable",
+        "example": "The forensic evidence presented by the prosecution was irrefutable, leaving the jury with little room for doubt.",
+        "register": "formal",
+        "tags": [
+          "certainty",
           "logic"
         ]
       },
       {
-        "definition": "A distortion in an optical image resulting from defects in a lens or mirror, causing blurring or colour fringing.",
-        "example": "The telescope's chromatic aberration was corrected by introducing a secondary lens element.",
-        "register": "technical",
+        "definition": "Too strong or convincing to be argued against",
+        "example": "She built an irrefutable case for restructuring the department based on three years of performance data.",
+        "register": "general",
         "tags": [
-          "optics",
-          "physics"
-        ]
-      },
-      {
-        "definition": "A temporary departure from a normal or correct state of mind; a momentary lapse in behaviour or judgement.",
-        "example": "He later described the outburst as a brief aberration brought on by months of accumulated stress.",
-        "register": "formal",
-        "tags": [
-          "psychology",
-          "behaviour"
+          "persuasion",
+          "argument"
         ]
       }
     ],
     "synonyms": [
-      "anomaly",
-      "deviation",
-      "irregularity",
-      "departure"
+      "indisputable",
+      "incontrovertible",
+      "undeniable"
     ],
     "antonymTerms": [
-      "norm",
-      "standard"
+      "refutable",
+      "debatable"
     ],
     "relatedTerms": [
-      "outlier",
-      "exception",
-      "distortion",
-      "variance"
+      "irrefutably",
+      "irrefutability"
     ],
-    "translation": null
+    "translation": null,
+    "pronunciation": "/ˌɪrɪˈfjuːtəbəl/",
+    "etymology": "From Late Latin irrefutabilis, from in- 'not' + refutare 'to refute'"
   },
   {
-    "term": "abiogenesis",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The hypothetical natural process by which life arises from non-living matter, such as simple organic compounds, without any biological parent.",
-        "example": "The Miller–Urey experiment was a landmark attempt to demonstrate abiogenesis under conditions resembling the early Earth.",
-        "register": "technical",
-        "tags": [
-          "biology",
-          "chemistry",
-          "origins-of-life"
-        ]
-      }
-    ],
-    "synonyms": [
-      "spontaneous generation",
-      "autogenesis",
-      "biopoiesis"
-    ],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "evolution",
-      "primordial soup",
-      "panspermia",
-      "prebiotic chemistry"
-    ],
-    "translation": null
-  },
-  {
-    "term": "abscission",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The natural and controlled shedding of a part of an organism, such as a leaf, fruit, flower, or tail, by the formation of a specialised layer of cells at its base.",
-        "example": "Autumnal abscission is triggered by declining day length and the conversion of auxin signals at the separation zone.",
-        "register": "technical",
-        "tags": [
-          "botany",
-          "biology",
-          "physiology"
-        ]
-      },
-      {
-        "definition": "The surgical cutting away of a diseased or superfluous part; excision.",
-        "example": "The surgeon performed a careful abscission of the necrotic tissue to prevent further spread of infection.",
-        "register": "technical",
-        "tags": [
-          "medicine",
-          "surgery"
-        ]
-      }
-    ],
-    "synonyms": [
-      "shedding",
-      "detachment",
-      "separation",
-      "excision"
-    ],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "senescence",
-      "leaf fall",
-      "dehiscence",
-      "deciduous"
-    ],
-    "translation": null
-  },
-  {
-    "term": "actuarial",
+    "term": "lachrymose",
     "language": "en",
     "partOfSpeech": "adjective",
     "status": "approved",
     "meanings": [
       {
-        "definition": "Relating to the work or methods of an actuary; involving the statistical calculation of insurance risks, life expectancy, and financial risk.",
-        "example": "The pension fund's trustees commissioned an actuarial review to assess whether existing contributions would meet future liabilities.",
-        "register": "technical",
+        "definition": "Tearful or given to weeping",
+        "example": "The lachrymose widow could barely deliver her eulogy without breaking down.",
+        "register": "literary",
         "tags": [
-          "finance",
-          "insurance",
-          "statistics"
-        ]
-      }
-    ],
-    "synonyms": [
-      "statistical",
-      "probabilistic"
-    ],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "actuary",
-      "insurance",
-      "risk assessment",
-      "mortality table"
-    ],
-    "translation": null
-  },
-  {
-    "term": "acuity",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "Sharpness or keenness of perception, thought, vision, or hearing.",
-        "example": "Her analytical acuity allowed her to identify the flaw in the argument that had escaped everyone else.",
-        "register": "formal",
-        "tags": [
-          "cognition",
-          "perception",
-          "intelligence"
+          "emotion",
+          "sadness"
         ]
       },
       {
-        "definition": "Keenness of vision, measured as the ability to resolve fine spatial detail.",
-        "example": "The ophthalmologist tested the patient's visual acuity using a standard Snellen chart.",
-        "register": "technical",
+        "definition": "Inducing or tending to induce tears; mournful",
+        "example": "The film's lachrymose final act divided audiences between those who found it moving and those who thought it manipulative.",
+        "register": "literary",
         "tags": [
-          "medicine",
-          "ophthalmology"
+          "sentimentality",
+          "mourning"
         ]
       }
     ],
     "synonyms": [
-      "sharpness",
-      "keenness",
-      "perceptiveness",
-      "astuteness"
+      "tearful",
+      "weepy",
+      "mournful"
     ],
     "antonymTerms": [
-      "dullness",
+      "cheerful",
+      "jovial"
+    ],
+    "relatedTerms": [
+      "lachrymosely"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈlækrɪməʊs/",
+    "etymology": "From Latin lacrimosus 'tearful', from lacrima 'tear'"
+  },
+  {
+    "term": "laudatory",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Expressing praise and commendation",
+        "example": "The laudatory review in the national press propelled the debut novel onto the bestseller list.",
+        "register": "formal",
+        "tags": [
+          "praise",
+          "criticism"
+        ]
+      },
+      {
+        "definition": "Serving to praise or extol the virtues of someone or something",
+        "example": "Her laudatory speech at the retirement dinner recounted decades of public service.",
+        "register": "formal",
+        "tags": [
+          "commendation",
+          "tribute"
+        ]
+      }
+    ],
+    "synonyms": [
+      "complimentary",
+      "adulatory",
+      "eulogistic"
+    ],
+    "antonymTerms": [
+      "critical",
+      "censorious"
+    ],
+    "relatedTerms": [
+      "laud",
+      "laudation"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈlɔːdətɔːri/",
+    "etymology": "From Latin laudatorius, from laudare 'to praise', from laus 'praise'"
+  },
+  {
+    "term": "maladroit",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Inefficient or inept; clumsy in handling situations",
+        "example": "The diplomat's maladroit handling of the negotiations nearly derailed the entire peace process.",
+        "register": "formal",
+        "tags": [
+          "clumsiness",
+          "ineptitude"
+        ]
+      },
+      {
+        "definition": "Lacking physical coordination or dexterity",
+        "example": "His maladroit attempts at assembling the furniture left a trail of mismatched parts.",
+        "register": "general",
+        "tags": [
+          "awkwardness",
+          "physical"
+        ]
+      }
+    ],
+    "synonyms": [
+      "clumsy",
+      "inept",
+      "gauche"
+    ],
+    "antonymTerms": [
+      "adroit",
+      "deft"
+    ],
+    "relatedTerms": [
+      "maladroitly",
+      "maladroitness"
+    ],
+    "translation": null,
+    "pronunciation": "/ˌmæləˈdrɔɪt/",
+    "etymology": "From French maladroit, from mal 'badly' + adroit 'skilful'"
+  },
+  {
+    "term": "malevolent",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Having or showing a wish to do evil to others; deliberately harmful",
+        "example": "The malevolent intent behind the anonymous letters became clear only after the police investigation.",
+        "register": "formal",
+        "tags": [
+          "evil",
+          "hostility"
+        ]
+      },
+      {
+        "definition": "Having a harmful or threatening influence",
+        "example": "A malevolent force seemed to pervade the abandoned house, unsettling even the most sceptical visitors.",
+        "register": "literary",
+        "tags": [
+          "menace",
+          "darkness"
+        ]
+      }
+    ],
+    "synonyms": [
+      "malicious",
+      "spiteful",
+      "vindictive"
+    ],
+    "antonymTerms": [
+      "benevolent",
+      "magnanimous"
+    ],
+    "relatedTerms": [
+      "malevolence",
+      "malevolently"
+    ],
+    "translation": null,
+    "pronunciation": "/məˈlevələnt/",
+    "etymology": "From Latin malevolentem, from male 'badly' + volens 'wishing', from velle 'to wish'"
+  },
+  {
+    "term": "misanthrope",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A person who dislikes humankind and avoids human society",
+        "example": "After years of corporate betrayal, he retreated to a mountain cabin and became a confirmed misanthrope.",
+        "register": "formal",
+        "tags": [
+          "personality",
+          "isolation"
+        ]
+      },
+      {
+        "definition": "A person who habitually distrusts the motives or sincerity of others",
+        "example": "The novel's protagonist is a misanthrope whose cynical worldview is gradually challenged by unexpected kindness.",
+        "register": "literary",
+        "tags": [
+          "cynicism",
+          "character"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cynic",
+      "recluse"
+    ],
+    "antonymTerms": [
+      "philanthropist"
+    ],
+    "relatedTerms": [
+      "misanthropy",
+      "misanthropic"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈmɪsənθrəʊp/",
+    "etymology": "From Greek misanthropos, from misein 'to hate' + anthropos 'human being'",
+    "qa_notes": "Synonym \"recluse\" is not co-extensive with misanthrope — a recluse may withdraw for reasons other than dislike of humanity (shyness, grief, etc.). Replace with more accurate synonyms such as \"curmudgeon\" or \"cynic\"."
+  },
+  {
+    "term": "obstinate",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Stubbornly refusing to change one's opinion or chosen course of action despite attempts to persuade",
+        "example": "The obstinate negotiator refused every compromise, ultimately causing the deal to collapse.",
+        "register": "general",
+        "tags": [
+          "stubbornness",
+          "resistance"
+        ]
+      },
+      {
+        "definition": "(Of a condition) very difficult to deal with or overcome",
+        "example": "The obstinate stain on the marble countertop resisted every cleaning agent they tried.",
+        "register": "general",
+        "tags": [
+          "persistence",
+          "difficulty"
+        ]
+      }
+    ],
+    "synonyms": [
+      "stubborn",
+      "intransigent",
+      "obdurate"
+    ],
+    "antonymTerms": [
+      "compliant",
+      "amenable"
+    ],
+    "relatedTerms": [
+      "obstinacy",
+      "obstinately"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈɒbstɪnət/",
+    "etymology": "From Latin obstinatus 'resolved, determined', past participle of obstinare 'to persist'"
+  },
+  {
+    "term": "obtuse",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Annoyingly insensitive or slow to understand",
+        "example": "He was being deliberately obtuse, pretending not to grasp the implications of his own argument.",
+        "register": "general",
+        "tags": [
+          "stupidity",
+          "insensitivity"
+        ]
+      },
+      {
+        "definition": "(Of an angle) greater than 90° and less than 180°",
+        "example": "The architect incorporated obtuse angles into the roof design to maximise natural light.",
+        "register": "technical",
+        "tags": [
+          "geometry",
+          "mathematics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "slow-witted",
+      "imperceptive",
+      "stolid"
+    ],
+    "antonymTerms": [
+      "astute",
+      "perceptive"
+    ],
+    "relatedTerms": [
+      "obtusely",
       "obtuseness"
     ],
-    "relatedTerms": [
-      "perception",
-      "discernment",
-      "sharpness of vision",
-      "intelligence"
-    ],
-    "translation": null
+    "translation": null,
+    "pronunciation": "/əbˈtjuːs/",
+    "etymology": "From Latin obtusus 'blunted, dull', past participle of obtundere 'to beat against'"
   },
   {
-    "term": "aleatoric",
+    "term": "ostentatious",
     "language": "en",
     "partOfSpeech": "adjective",
     "status": "approved",
     "meanings": [
       {
-        "definition": "Depending on the throw of a die or on chance; incorporating random or indeterminate elements as a structural principle, especially in music or art.",
-        "example": "Cage's aleatoric compositions challenged the notion that music required conscious authorial control over every parameter.",
-        "register": "technical",
+        "definition": "Characterised by vulgar or pretentious display; designed to impress or attract notice",
+        "example": "The oligarch's ostentatious yacht, complete with a helipad and gold fixtures, drew scorn from the press.",
+        "register": "general",
         "tags": [
-          "music",
-          "art",
-          "philosophy",
-          "randomness"
+          "showiness",
+          "extravagance"
+        ]
+      },
+      {
+        "definition": "Making an excessive or conspicuous display of wealth, knowledge, or skill",
+        "example": "Her ostentatious use of obscure jargon alienated rather than impressed the audience.",
+        "register": "general",
+        "tags": [
+          "pretentiousness",
+          "display"
         ]
       }
     ],
     "synonyms": [
-      "chance-based",
-      "stochastic",
-      "indeterminate"
+      "showy",
+      "pretentious",
+      "flamboyant"
     ],
     "antonymTerms": [
-      "deterministic",
-      "predetermined"
+      "understated",
+      "modest"
     ],
     "relatedTerms": [
-      "improvisation",
-      "randomness",
-      "John Cage",
-      "indeterminacy"
+      "ostentation",
+      "ostentatiously"
     ],
-    "translation": null
+    "translation": null,
+    "pronunciation": "/ˌɒstɛnˈteɪʃəs/",
+    "etymology": "From Latin ostentare 'to display', frequentative of ostendere 'to show'"
   },
   {
-    "term": "amalgamation",
+    "term": "paucity",
     "language": "en",
     "partOfSpeech": "noun",
     "status": "approved",
     "meanings": [
       {
-        "definition": "The action or process of combining or uniting two or more things into a single entity; a merger.",
-        "example": "The amalgamation of the two regional banks created the largest financial institution in the province.",
+        "definition": "The presence of something in only small or insufficient quantities; scarcity",
+        "example": "The paucity of reliable data made it impossible to draw firm conclusions from the study.",
         "register": "formal",
         "tags": [
-          "business",
-          "law",
-          "organisation"
+          "scarcity",
+          "insufficiency"
         ]
       },
       {
-        "definition": "The process of alloying mercury with another metal, used in mining to extract gold or silver from ore.",
-        "example": "Traditional gold extraction relied on amalgamation with mercury, a process now largely banned due to environmental concerns.",
+        "definition": "An inadequacy or dearth of something needed",
+        "example": "Critics lamented the paucity of affordable housing options in the rapidly gentrifying neighbourhood.",
+        "register": "formal",
+        "tags": [
+          "shortage",
+          "lack"
+        ]
+      }
+    ],
+    "synonyms": [
+      "scarcity",
+      "dearth",
+      "insufficiency"
+    ],
+    "antonymTerms": [
+      "abundance",
+      "plethora"
+    ],
+    "relatedTerms": [],
+    "translation": null,
+    "pronunciation": "/ˈpɔːsɪti/",
+    "etymology": "From Latin paucitas, from paucus 'few'"
+  },
+  {
+    "term": "pedantic",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Excessively concerned with minor details or rules, especially in teaching or academic contexts",
+        "example": "The pedantic lecturer spent twenty minutes correcting trivial citation formatting instead of discussing the argument.",
+        "register": "general",
+        "tags": [
+          "meticulousness",
+          "rigidity"
+        ]
+      },
+      {
+        "definition": "Ostentatiously displaying academic knowledge or overly precise about trivial matters",
+        "example": "His pedantic insistence on etymological accuracy at dinner parties made him a tiresome conversationalist.",
+        "register": "general",
+        "tags": [
+          "pomposity",
+          "precision"
+        ]
+      }
+    ],
+    "synonyms": [
+      "punctilious",
+      "doctrinaire",
+      "scholastic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pedant",
+      "pedantry",
+      "pedantically"
+    ],
+    "translation": null,
+    "pronunciation": "/pɪˈdæntɪk/",
+    "etymology": "From Italian pedante 'teacher', possibly from Latin paedagogare 'to teach'",
+    "qa_notes": "Synonym \"scholastic\" means relating to school/scholarship and is not a synonym for pedantic (excessively concerned with minor details). Replace with more accurate synonym such as \"nitpicking\" or \"finicky\"."
+  },
+  {
+    "term": "pertinacious",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Holding firmly to an opinion or a course of action despite difficulty or opposition",
+        "example": "The pertinacious journalist spent three years pursuing the corruption story before finally publishing it.",
+        "register": "formal",
+        "tags": [
+          "persistence",
+          "determination"
+        ]
+      },
+      {
+        "definition": "Stubbornly unyielding or tenacious",
+        "example": "Only the most pertinacious weeds survived the gardener's relentless campaign of removal.",
+        "register": "formal",
+        "tags": [
+          "tenacity",
+          "resolve"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tenacious",
+      "dogged",
+      "resolute"
+    ],
+    "antonymTerms": [
+      "irresolute",
+      "yielding"
+    ],
+    "relatedTerms": [
+      "pertinacity",
+      "pertinaciously"
+    ],
+    "translation": null,
+    "pronunciation": "/ˌpɜːrtɪˈneɪʃəs/",
+    "etymology": "From Latin pertinax 'holding fast', from per- 'thoroughly' + tenax 'tenacious'"
+  },
+  {
+    "term": "pompous",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Affectedly and irritatingly grand, solemn, or self-important",
+        "example": "The pompous bureaucrat lectured everyone on protocol while ignoring the substantive issue at hand.",
+        "register": "general",
+        "tags": [
+          "arrogance",
+          "self-importance"
+        ]
+      },
+      {
+        "definition": "Characterised by excessive stateliness or ceremony; grandiose",
+        "example": "The pompous architectural style of the new civic building was widely mocked as a waste of public funds.",
+        "register": "general",
+        "tags": [
+          "grandeur",
+          "pretentiousness"
+        ]
+      }
+    ],
+    "synonyms": [
+      "grandiose",
+      "bombastic",
+      "self-important"
+    ],
+    "antonymTerms": [
+      "humble",
+      "unassuming"
+    ],
+    "relatedTerms": [
+      "pomposity",
+      "pompously"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈpɒmpəs/",
+    "etymology": "From Old French pompeux, from Late Latin pomposus, from Latin pompa 'procession, pomp'"
+  },
+  {
+    "term": "precipitate",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To cause an event or situation, typically an unwelcome one, to happen suddenly or prematurely",
+        "example": "The CEO's abrupt resignation precipitated a sharp decline in the company's share price.",
+        "register": "formal",
+        "tags": [
+          "causation",
+          "acceleration"
+        ]
+      },
+      {
+        "definition": "To cause a substance to be deposited in solid form from a solution",
+        "example": "Adding the reagent precipitated fine white crystals at the bottom of the flask.",
         "register": "technical",
         "tags": [
           "chemistry",
-          "metallurgy",
-          "mining"
-        ]
-      }
-    ],
-    "synonyms": [
-      "merger",
-      "consolidation",
-      "combination",
-      "fusion"
-    ],
-    "antonymTerms": [
-      "separation",
-      "dissolution"
-    ],
-    "relatedTerms": [
-      "integration",
-      "acquisition",
-      "conglomerate",
-      "synthesis"
-    ],
-    "translation": null
-  },
-  {
-    "term": "annulment",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "A legal or formal declaration that a marriage, contract, or other legal act is null and void, as if it had never existed.",
-        "example": "The couple sought an annulment on the grounds that valid consent had not been given at the time of the wedding.",
-        "register": "formal",
-        "tags": [
-          "law",
-          "marriage",
-          "contracts"
+          "separation"
         ]
       },
       {
-        "definition": "The cancellation or invalidation of an official decision, agreement, or action.",
-        "example": "The court ordered the annulment of the election results following evidence of widespread electoral fraud.",
+        "definition": "Done, made, or acting suddenly or without careful consideration (adjective use)",
+        "example": "His precipitate decision to sell the business without consulting partners led to costly litigation.",
         "register": "formal",
         "tags": [
-          "law",
-          "governance",
-          "politics"
+          "haste",
+          "rashness"
         ]
       }
     ],
     "synonyms": [
-      "invalidation",
-      "nullification",
-      "cancellation",
-      "voiding"
+      "hasten",
+      "trigger",
+      "catalyse"
     ],
     "antonymTerms": [
-      "validation",
-      "ratification"
+      "forestall",
+      "prevent"
     ],
     "relatedTerms": [
-      "divorce",
-      "voidable",
-      "dissolution",
-      "legal remedy"
+      "precipitation",
+      "precipitous",
+      "precipitately"
     ],
-    "translation": null
+    "translation": null,
+    "pronunciation": "/prɪˈsɪpɪteɪt/",
+    "etymology": "From Latin praecipitare 'to throw headlong', from praeceps 'headfirst', from prae 'before' + caput 'head'"
   },
   {
-    "term": "anthropocentrism",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The philosophical or ethical stance that regards humankind as the central or most important element of existence, often placing human interests above those of other species or the environment.",
-        "example": "Deep ecologists argue that anthropocentrism has been the primary driver of environmental degradation throughout modern history.",
-        "register": "formal",
-        "tags": [
-          "philosophy",
-          "ethics",
-          "ecology",
-          "humanities"
-        ]
-      }
-    ],
-    "synonyms": [
-      "human-centredness",
-      "humanocentrism"
-    ],
-    "antonymTerms": [
-      "ecocentrism",
-      "biocentrism"
-    ],
-    "relatedTerms": [
-      "speciesism",
-      "deep ecology",
-      "environmental ethics",
-      "humanism"
-    ],
-    "translation": null
-  },
-  {
-    "term": "aspersion",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "An attack on the reputation or integrity of someone; a false or damaging statement about a person.",
-        "example": "The candidate angrily denied the aspersions cast by her rival, calling them a cynical distortion of her record.",
-        "register": "formal",
-        "tags": [
-          "rhetoric",
-          "law",
-          "reputation"
-        ]
-      },
-      {
-        "definition": "The sprinkling of holy water as a religious rite.",
-        "example": "The bishop performed aspersion on the congregation at the start of the Easter Vigil.",
-        "register": "formal",
-        "tags": [
-          "religion",
-          "liturgy"
-        ]
-      }
-    ],
-    "synonyms": [
-      "slander",
-      "calumny",
-      "defamation",
-      "disparagement"
-    ],
-    "antonymTerms": [
-      "commendation",
-      "praise"
-    ],
-    "relatedTerms": [
-      "libel",
-      "reputation",
-      "innuendo",
-      "character assassination"
-    ],
-    "translation": null
-  },
-  {
-    "term": "assuage",
+    "term": "preclude",
     "language": "en",
     "partOfSpeech": "verb",
     "status": "approved",
     "meanings": [
       {
-        "definition": "To make an unpleasant feeling, especially worry, grief, or guilt, less intense; to relieve or ease.",
-        "example": "The manager tried to assuage the team's anxiety by presenting a detailed plan for navigating the restructuring.",
+        "definition": "To prevent from happening; make impossible",
+        "example": "The severe weather precluded any possibility of launching the satellite on schedule.",
         "register": "formal",
         "tags": [
-          "emotion",
-          "psychology",
-          "rhetoric"
+          "prevention",
+          "impossibility"
         ]
       },
       {
-        "definition": "To satisfy a strong appetite or desire.",
-        "example": "A single glass of water did little to assuage his thirst after hours of hiking in the midday heat.",
-        "register": "literary",
+        "definition": "To exclude or rule out in advance",
+        "example": "Her lack of formal qualifications did not preclude her from being considered for the senior role.",
+        "register": "formal",
         "tags": [
-          "appetite",
-          "desire"
+          "exclusion",
+          "restriction"
         ]
       }
     ],
     "synonyms": [
-      "alleviate",
-      "mitigate",
-      "relieve",
-      "mollify"
+      "prevent",
+      "forestall",
+      "obviate"
     ],
     "antonymTerms": [
-      "aggravate",
-      "intensify"
+      "permit",
+      "allow"
     ],
     "relatedTerms": [
-      "comfort",
-      "soothe",
-      "appease",
-      "palliate"
+      "preclusion",
+      "preclusive"
     ],
-    "translation": null
+    "translation": null,
+    "pronunciation": "/prɪˈkluːd/",
+    "etymology": "From Latin praecludere 'to shut off', from prae 'before' + claudere 'to close'"
   },
   {
-    "term": "augury",
+    "term": "predatory",
     "language": "en",
-    "partOfSpeech": "noun",
+    "partOfSpeech": "adjective",
     "status": "approved",
     "meanings": [
       {
-        "definition": "An omen or sign of things to come; a portent.",
-        "example": "The unexpected warmth of early spring was seen as a favourable augury for the coming harvest season.",
+        "definition": "Relating to or denoting an animal that preys on others",
+        "example": "The predatory instincts of the barn owl make it an effective controller of rodent populations.",
+        "register": "general",
+        "tags": [
+          "biology",
+          "hunting"
+        ]
+      },
+      {
+        "definition": "Seeking to exploit or oppress others for personal gain",
+        "example": "Consumer groups condemned the company's predatory lending practices that targeted vulnerable borrowers.",
+        "register": "formal",
+        "tags": [
+          "exploitation",
+          "finance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "rapacious",
+      "exploitative",
+      "marauding"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "predator",
+      "predation"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈpredətɔːri/",
+    "etymology": "From Latin praedatorius 'plundering', from praedator 'plunderer', from praeda 'prey'"
+  },
+  {
+    "term": "prescient",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Having or showing knowledge of events before they take place; far-sighted",
+        "example": "Her prescient investment in renewable energy stocks a decade ago proved remarkably profitable.",
+        "register": "formal",
+        "tags": [
+          "foresight",
+          "prediction"
+        ]
+      },
+      {
+        "definition": "Displaying an uncanny awareness of future developments",
+        "example": "The author's prescient portrayal of mass surveillance now reads more like journalism than fiction.",
         "register": "literary",
         "tags": [
-          "omen",
           "prophecy",
-          "history"
-        ]
-      },
-      {
-        "definition": "The practice or art of foretelling events by observing the behaviour of birds, used in ancient Roman religion.",
-        "example": "Roman generals would consult augury before major military campaigns to assess whether the gods favoured their undertaking.",
-        "register": "formal",
-        "tags": [
-          "religion",
-          "ancient-rome",
-          "divination"
+          "anticipation"
         ]
       }
     ],
     "synonyms": [
-      "omen",
-      "portent",
-      "presage",
-      "auspice"
-    ],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "divination",
-      "prophecy",
-      "harbinger",
-      "foreboding"
-    ],
-    "translation": null
-  },
-  {
-    "term": "banality",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The state or quality of being so lacking in originality or distinction as to be commonplace and uninteresting; triteness.",
-        "example": "The speech drew criticism for its relentless banality, substituting recycled slogans for genuine political vision.",
-        "register": "formal",
-        "tags": [
-          "rhetoric",
-          "aesthetics",
-          "culture"
-        ]
-      },
-      {
-        "definition": "A trite, commonplace, or unoriginal remark or observation.",
-        "example": "He filled the awkward silence with a string of banalities about the weather and the state of public transport.",
-        "register": "neutral",
-        "tags": [
-          "language",
-          "communication"
-        ]
-      }
-    ],
-    "synonyms": [
-      "triteness",
-      "platitude",
-      "commonplace",
-      "vapidity"
+      "foresighted",
+      "prophetic",
+      "clairvoyant"
     ],
     "antonymTerms": [
-      "originality",
-      "profundity"
+      "myopic",
+      "short-sighted"
     ],
     "relatedTerms": [
-      "cliché",
-      "mediocrity",
-      "insipidity",
-      "mundaneness"
+      "prescience",
+      "presciently"
     ],
-    "translation": null
+    "translation": null,
+    "pronunciation": "/ˈpresiənt/",
+    "etymology": "From Latin praescientem, from praescire 'to know beforehand', from prae 'before' + scire 'to know'"
   },
   {
-    "term": "beguile",
+    "term": "prevaricate",
     "language": "en",
     "partOfSpeech": "verb",
     "status": "approved",
     "meanings": [
       {
-        "definition": "To charm or enchant someone, sometimes in a deceptive way; to captivate through allure or flattery.",
-        "example": "The salesman beguiled potential buyers with stories of fabulous returns, concealing the true nature of the investment.",
-        "register": "literary",
-        "tags": [
-          "rhetoric",
-          "deception",
-          "persuasion"
-        ]
-      },
-      {
-        "definition": "To pass time pleasantly; to distract attention from something dull or difficult.",
-        "example": "She beguiled the long hours of the train journey with a collection of essays on modern architecture.",
-        "register": "literary",
-        "tags": [
-          "leisure",
-          "time"
-        ]
-      }
-    ],
-    "synonyms": [
-      "enchant",
-      "captivate",
-      "charm",
-      "bewitch"
-    ],
-    "antonymTerms": [
-      "repel",
-      "disenchant"
-    ],
-    "relatedTerms": [
-      "allure",
-      "fascinate",
-      "deceive",
-      "seduce"
-    ],
-    "translation": null
-  },
-  {
-    "term": "belligerence",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "Aggressive or warlike behaviour; the quality of being inclined to fighting or hostile confrontation.",
-        "example": "The ambassador's belligerence during the negotiations threatened to derail the peace process entirely.",
+        "definition": "To speak or act in an evasive way; to avoid giving a direct answer",
+        "example": "The witness continued to prevaricate under cross-examination, never quite answering the question asked.",
         "register": "formal",
         "tags": [
-          "conflict",
-          "diplomacy",
-          "psychology"
-        ]
-      },
-      {
-        "definition": "The formal state of being engaged in war; the condition of being a belligerent in an armed conflict.",
-        "example": "The nation's formal declaration of belligerence triggered a cascade of mutual defence obligations among its allies.",
-        "register": "technical",
-        "tags": [
-          "international-law",
-          "warfare"
-        ]
-      }
-    ],
-    "synonyms": [
-      "aggression",
-      "hostility",
-      "combativeness",
-      "pugnacity"
-    ],
-    "antonymTerms": [
-      "pacifism",
-      "conciliation"
-    ],
-    "relatedTerms": [
-      "antagonism",
-      "militarism",
-      "confrontation",
-      "belligerent"
-    ],
-    "translation": null
-  },
-  {
-    "term": "beneficence",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The quality of being kind and charitable; doing or producing good; active kindness, generosity, or benefaction.",
-        "example": "The hospital was founded through the beneficence of a wealthy patron who had been successfully treated there.",
-        "register": "formal",
-        "tags": [
-          "ethics",
-          "charity",
-          "philosophy"
-        ]
-      },
-      {
-        "definition": "One of the four core principles of biomedical ethics, requiring that healthcare practitioners act in the best interest of the patient.",
-        "example": "The committee weighed beneficence against patient autonomy when evaluating whether to disclose the experimental nature of the treatment.",
-        "register": "technical",
-        "tags": [
-          "medicine",
-          "bioethics"
-        ]
-      }
-    ],
-    "synonyms": [
-      "benevolence",
-      "charity",
-      "generosity",
-      "philanthropy"
-    ],
-    "antonymTerms": [
-      "malevolence",
-      "maleficence"
-    ],
-    "relatedTerms": [
-      "altruism",
-      "bioethics",
-      "compassion",
-      "paternalism"
-    ],
-    "translation": null
-  },
-  {
-    "term": "bereavement",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The state of loss experienced when a loved one dies; the period of grief and mourning following a death.",
-        "example": "She took three weeks of compassionate leave to cope with bereavement after the sudden loss of her father.",
-        "register": "neutral",
-        "tags": [
-          "grief",
-          "psychology",
-          "death"
-        ]
-      },
-      {
-        "definition": "More broadly, a state of significant loss or deprivation of something valued.",
-        "example": "The community experienced a kind of collective bereavement when the last independent bookshop closed its doors.",
-        "register": "literary",
-        "tags": [
-          "loss",
-          "community",
-          "emotion"
-        ]
-      }
-    ],
-    "synonyms": [
-      "grief",
-      "mourning",
-      "loss",
-      "sorrow"
-    ],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "grief counselling",
-      "funeral rites",
-      "condolence",
-      "widow"
-    ],
-    "translation": null
-  },
-  {
-    "term": "bureaucratization",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The process by which an organisation or system becomes increasingly governed by fixed rules, hierarchical structures, and administrative procedures, often at the expense of flexibility or efficiency.",
-        "example": "Critics argued that the ongoing bureaucratization of the health service was diverting resources away from direct patient care.",
-        "register": "formal",
-        "tags": [
-          "governance",
-          "sociology",
-          "administration"
-        ]
-      }
-    ],
-    "synonyms": [
-      "institutionalisation",
-      "formalisation",
-      "red tape"
-    ],
-    "antonymTerms": [
-      "deregulation",
-      "decentralisation"
-    ],
-    "relatedTerms": [
-      "bureaucracy",
-      "administration",
-      "proceduralism",
-      "Weberian"
-    ],
-    "translation": null
-  },
-  {
-    "term": "canonization",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The formal declaration by the Pope that a deceased person is a saint in the Catholic Church, after a rigorous process of investigation.",
-        "example": "The canonization of the 17th-century mystic was attended by hundreds of thousands of pilgrims from across the world.",
-        "register": "formal",
-        "tags": [
-          "religion",
-          "catholicism",
-          "history"
-        ]
-      },
-      {
-        "definition": "The inclusion of a text, artist, or work within an established body of acknowledged great literature, art, or thought; the process of becoming part of the canon.",
-        "example": "The posthumous canonization of her novels transformed her from a cult author to a fixture on university syllabi.",
-        "register": "formal",
-        "tags": [
-          "literature",
-          "aesthetics",
-          "academia"
-        ]
-      }
-    ],
-    "synonyms": [
-      "sanctification",
-      "beatification",
-      "glorification",
-      "enshrinement"
-    ],
-    "antonymTerms": [
-      "excommunication",
-      "condemnation"
-    ],
-    "relatedTerms": [
-      "saint",
-      "literary canon",
-      "hagiography",
-      "papal decree"
-    ],
-    "translation": null
-  },
-  {
-    "term": "caprice",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "A sudden, unpredictable change of mind or behaviour; a whim driven by fancy rather than reason.",
-        "example": "The minister's reversal of policy seemed driven by personal caprice rather than any coherent strategic rationale.",
-        "register": "formal",
-        "tags": [
-          "psychology",
-          "behaviour",
-          "decision-making"
-        ]
-      },
-      {
-        "definition": "A piece of music or art that is lively and whimsical in character, free from conventional formal constraints.",
-        "example": "Paganini's caprices for solo violin remain some of the most technically demanding works in the concert repertoire.",
-        "register": "technical",
-        "tags": [
-          "music",
-          "art"
-        ]
-      }
-    ],
-    "synonyms": [
-      "whim",
-      "fancy",
-      "impulse",
-      "vagary"
-    ],
-    "antonymTerms": [
-      "deliberateness",
-      "steadiness"
-    ],
-    "relatedTerms": [
-      "capricious",
-      "fickleness",
-      "spontaneity",
-      "unpredictability"
-    ],
-    "translation": null
-  },
-  {
-    "term": "causation",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The action of causing something; the relationship between cause and effect.",
-        "example": "Establishing causation rather than mere correlation is one of the central challenges of epidemiological research.",
-        "register": "technical",
-        "tags": [
-          "philosophy",
-          "science",
-          "logic",
-          "statistics"
-        ]
-      },
-      {
-        "definition": "In law, the relationship between an act or omission and the resulting harm, which must be proved to establish liability.",
-        "example": "The defence argued that the chain of causation had been broken by the victim's own intervening action.",
-        "register": "technical",
-        "tags": [
-          "law",
-          "jurisprudence"
-        ]
-      }
-    ],
-    "synonyms": [
-      "causality",
-      "cause and effect",
-      "etiology"
-    ],
-    "antonymTerms": [
-      "correlation"
-    ],
-    "relatedTerms": [
-      "determinism",
-      "mechanism",
-      "counterfactual",
-      "causal inference"
-    ],
-    "translation": null
-  },
-  {
-    "term": "circumspection",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "Caution and prudence in one's actions or decisions, especially in avoiding potential risk or error; careful consideration of all circumstances.",
-        "example": "Given the political sensitivity of the situation, the diplomat proceeded with great circumspection before issuing any statement.",
-        "register": "formal",
-        "tags": [
-          "caution",
-          "prudence",
-          "decision-making"
-        ]
-      }
-    ],
-    "synonyms": [
-      "caution",
-      "prudence",
-      "wariness",
-      "discretion"
-    ],
-    "antonymTerms": [
-      "rashness",
-      "recklessness"
-    ],
-    "relatedTerms": [
-      "vigilance",
-      "deliberateness",
-      "tact",
-      "foresight"
-    ],
-    "translation": null
-  },
-  {
-    "term": "coercion",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The practice of forcing or intimidating a person to act or think in a certain way through threats, pressure, or violence.",
-        "example": "The court found that the confession had been obtained through coercion and was therefore inadmissible as evidence.",
-        "register": "formal",
-        "tags": [
-          "law",
-          "ethics",
-          "politics",
-          "power"
-        ]
-      },
-      {
-        "definition": "In philosophy and political theory, the use of power to compel action or restrict freedom, as distinct from persuasion.",
-        "example": "Rawls distinguished legitimate political authority from coercion, arguing that just institutions must secure voluntary compliance.",
-        "register": "technical",
-        "tags": [
-          "philosophy",
-          "political-theory"
-        ]
-      }
-    ],
-    "synonyms": [
-      "compulsion",
-      "duress",
-      "intimidation",
-      "constraint"
-    ],
-    "antonymTerms": [
-      "persuasion",
-      "consent"
-    ],
-    "relatedTerms": [
-      "coerce",
-      "force",
-      "threat",
-      "oppression"
-    ],
-    "translation": null
-  },
-  {
-    "term": "cognizance",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "Awareness, knowledge, or understanding of a fact or situation; conscious recognition.",
-        "example": "The committee took cognizance of the concerns raised and promised to incorporate them into the revised proposal.",
-        "register": "formal",
-        "tags": [
-          "cognition",
-          "law",
-          "awareness"
-        ]
-      },
-      {
-        "definition": "In law, the jurisdiction or authority of a court to hear and determine a case.",
-        "example": "The magistrate held that the matter fell within the cognizance of the civil court, not the criminal tribunal.",
-        "register": "technical",
-        "tags": [
-          "law",
-          "jurisprudence"
-        ]
-      }
-    ],
-    "synonyms": [
-      "awareness",
-      "consciousness",
-      "recognition",
-      "knowledge"
-    ],
-    "antonymTerms": [
-      "ignorance",
-      "unawareness"
-    ],
-    "relatedTerms": [
-      "jurisdiction",
-      "perception",
-      "notice",
-      "cognisant"
-    ],
-    "translation": null
-  },
-  {
-    "term": "commodification",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The process by which something that was not previously a commodity — such as labour, nature, knowledge, or culture — is transformed into a commercial product bought and sold in the market.",
-        "example": "Critics of neoliberalism point to the commodification of education as evidence that market logic distorts intrinsically valuable social institutions.",
-        "register": "formal",
-        "tags": [
-          "economics",
-          "sociology",
-          "marxism",
-          "culture"
-        ]
-      }
-    ],
-    "synonyms": [
-      "commercialisation",
-      "marketisation"
-    ],
-    "antonymTerms": [
-      "decommodification"
-    ],
-    "relatedTerms": [
-      "capitalism",
-      "exchange value",
-      "alienation",
-      "neoliberalism"
-    ],
-    "translation": null
-  },
-  {
-    "term": "confluence",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The junction of two or more rivers or streams; the place where they meet.",
-        "example": "The city grew at the confluence of three rivers, giving it both strategic importance and access to trade routes.",
-        "register": "technical",
-        "tags": [
-          "geography",
-          "hydrology"
-        ]
-      },
-      {
-        "definition": "A situation where two or more things come together or occur at the same time; a merging of influences or ideas.",
-        "example": "The late 19th century witnessed a remarkable confluence of scientific, political, and artistic revolutions.",
-        "register": "formal",
-        "tags": [
-          "metaphor",
-          "history",
-          "philosophy"
-        ]
-      }
-    ],
-    "synonyms": [
-      "convergence",
-      "junction",
-      "meeting point",
-      "union"
-    ],
-    "antonymTerms": [
-      "divergence",
-      "bifurcation"
-    ],
-    "relatedTerms": [
-      "tributary",
-      "watershed",
-      "merging",
-      "intersection"
-    ],
-    "translation": null
-  },
-  {
-    "term": "contingency",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "A possible future event or circumstance that is possible but cannot be predicted with certainty; a provision for such an event.",
-        "example": "The project manager set aside a 15 per cent contingency fund to cover unforeseen costs during construction.",
-        "register": "formal",
-        "tags": [
-          "planning",
-          "risk",
-          "management"
-        ]
-      },
-      {
-        "definition": "In philosophy, the state of something that could have been otherwise; the lack of logical or metaphysical necessity.",
-        "example": "Heidegger's concept of thrownness emphasises the contingency of the conditions into which a person is born.",
-        "register": "technical",
-        "tags": [
-          "philosophy",
-          "metaphysics"
-        ]
-      },
-      {
-        "definition": "Dependence on or conditioning by something else; the quality of being contingent upon external factors.",
-        "example": "The viability of the entire plan was contingent on securing regulatory approval within the first quarter.",
-        "register": "formal",
-        "tags": [
-          "logic",
-          "conditional"
-        ]
-      }
-    ],
-    "synonyms": [
-      "eventuality",
-      "possibility",
-      "chance",
-      "uncertainty"
-    ],
-    "antonymTerms": [
-      "necessity",
-      "certainty"
-    ],
-    "relatedTerms": [
-      "contingent",
-      "probability",
-      "risk",
-      "conditional"
-    ],
-    "translation": null
-  },
-  {
-    "term": "convolution",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "A thing that is complex and difficult to follow; an intricate fold, coil, or twist; a state of excessive complication.",
-        "example": "The legal document was filled with such convolutions that even experienced lawyers struggled to parse its meaning.",
-        "register": "formal",
-        "tags": [
-          "complexity",
-          "language",
-          "structure"
-        ]
-      },
-      {
-        "definition": "In mathematics and signal processing, an operation on two functions that produces a third function expressing how one modifies the shape of the other.",
-        "example": "Convolutional neural networks exploit convolution as a mechanism for detecting spatial hierarchies of features in images.",
-        "register": "technical",
-        "tags": [
-          "mathematics",
-          "signal-processing",
-          "machine-learning"
-        ]
-      },
-      {
-        "definition": "An irregular fold in the surface of the brain; a gyrus.",
-        "example": "The cerebral cortex's complex convolutions dramatically increase the surface area available for neural processing.",
-        "register": "technical",
-        "tags": [
-          "neuroscience",
-          "anatomy"
-        ]
-      }
-    ],
-    "synonyms": [
-      "intricacy",
-      "complexity",
-      "entanglement",
-      "tortuousness"
-    ],
-    "antonymTerms": [
-      "simplicity",
-      "straightforwardness"
-    ],
-    "relatedTerms": [
-      "sinuosity",
-      "neural network",
-      "gyrus",
-      "labyrinthine"
-    ],
-    "translation": null
-  },
-  {
-    "term": "credulous",
-    "language": "en",
-    "partOfSpeech": "adjective",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "Having too great a readiness to believe things without sufficient evidence; gullible.",
-        "example": "The fraud targeted credulous investors who failed to verify the company's claims before committing their savings.",
-        "register": "formal",
-        "tags": [
-          "psychology",
-          "epistemology",
-          "behaviour"
-        ]
-      }
-    ],
-    "synonyms": [
-      "gullible",
-      "naive",
-      "unsuspecting",
-      "trusting"
-    ],
-    "antonymTerms": [
-      "sceptical",
-      "incredulous"
-    ],
-    "relatedTerms": [
-      "credulity",
-      "gullibility",
-      "susceptibility",
-      "deception"
-    ],
-    "translation": null
-  },
-  {
-    "term": "culmination",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The highest or decisive point of a process; the point at which something reaches its final stage of development.",
-        "example": "The peace treaty was the culmination of three years of painstaking diplomatic negotiations.",
-        "register": "formal",
-        "tags": [
-          "process",
-          "development",
-          "achievement"
-        ]
-      }
-    ],
-    "synonyms": [
-      "apex",
-      "pinnacle",
-      "zenith",
-      "climax"
-    ],
-    "antonymTerms": [
-      "nadir",
-      "beginning"
-    ],
-    "relatedTerms": [
-      "peak",
-      "acme",
-      "consummation",
-      "denouement"
-    ],
-    "translation": null
-  },
-  {
-    "term": "custodianship",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The position, duty, or role of a custodian; responsibility for the safeguarding and management of something entrusted to one's care.",
-        "example": "The museum's custodianship of the national collection carries both a legal obligation and a moral duty to future generations.",
-        "register": "formal",
-        "tags": [
-          "responsibility",
-          "governance",
-          "stewardship"
-        ]
-      }
-    ],
-    "synonyms": [
-      "stewardship",
-      "guardianship",
-      "trusteeship",
-      "caretaking"
-    ],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "custody",
-      "fiduciary",
-      "responsibility",
-      "administration"
-    ],
-    "translation": null
-  },
-  {
-    "term": "cynicism",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "An inclination to disbelieve in the sincerity or goodness of human motives and actions; a general distrust of others' integrity.",
-        "example": "Years of broken promises had deepened the public's cynicism towards political institutions and electoral commitments.",
-        "register": "neutral",
-        "tags": [
-          "philosophy",
-          "psychology",
-          "attitude"
-        ]
-      },
-      {
-        "definition": "The doctrines of the ancient Cynics, a Greek philosophical school that rejected conventional social norms and advocated virtue as the only good, lived in accord with nature.",
-        "example": "Diogenes embodied cynicism in its original form, living in a barrel and dismissing the trappings of civilisation.",
-        "register": "technical",
-        "tags": [
-          "philosophy",
-          "ancient-greece",
-          "ethics"
-        ]
-      }
-    ],
-    "synonyms": [
-      "scepticism",
-      "distrust",
-      "disillusionment",
-      "misanthropy"
-    ],
-    "antonymTerms": [
-      "idealism",
-      "optimism"
-    ],
-    "relatedTerms": [
-      "cynical",
-      "nihilism",
-      "pessimism",
-      "Diogenes"
-    ],
-    "translation": null
-  },
-  {
-    "term": "deliberation",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "Long and careful consideration or discussion before making a decision; the weighing of reasons for and against a course of action.",
-        "example": "After days of deliberation, the jury returned a verdict of not guilty on all counts.",
-        "register": "formal",
-        "tags": [
-          "decision-making",
-          "law",
-          "rhetoric"
-        ]
-      },
-      {
-        "definition": "Slow and careful movement or speech, suggesting thoughtfulness and intention.",
-        "example": "He spoke with remarkable deliberation, choosing each word to maximise precision and avoid misunderstanding.",
-        "register": "formal",
-        "tags": [
-          "communication",
-          "behaviour"
-        ]
-      }
-    ],
-    "synonyms": [
-      "consideration",
-      "contemplation",
-      "reflection",
-      "pondering"
-    ],
-    "antonymTerms": [
-      "impulsiveness",
-      "rashness"
-    ],
-    "relatedTerms": [
-      "deliberate",
-      "consultation",
-      "prudence",
-      "discourse"
-    ],
-    "translation": null
-  },
-  {
-    "term": "delineation",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The action of describing or indicating something precisely; the accurate portrayal or depiction of something in words or visually.",
-        "example": "The report offered a careful delineation of the roles and responsibilities of each department within the organisation.",
-        "register": "formal",
-        "tags": [
-          "description",
-          "drawing",
-          "definition"
-        ]
-      },
-      {
-        "definition": "The drawing of a boundary or the marking out of a limit.",
-        "example": "The delineation of the new electoral districts was subject to independent review by the boundary commission.",
-        "register": "technical",
-        "tags": [
-          "geography",
-          "law",
-          "politics"
-        ]
-      }
-    ],
-    "synonyms": [
-      "depiction",
-      "portrayal",
-      "description",
-      "demarcation"
-    ],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "outline",
-      "delineate",
-      "boundary",
-      "cartography"
-    ],
-    "translation": null
-  },
-  {
-    "term": "demarcation",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The action of fixing boundaries or limits that clearly separate one area, concept, or activity from another.",
-        "example": "The demarcation of responsibilities between the two departments helped to eliminate recurring disputes over jurisdiction.",
-        "register": "formal",
-        "tags": [
-          "boundaries",
-          "law",
-          "management"
-        ]
-      },
-      {
-        "definition": "In labour relations, the formal division between types of work assigned to different trade unions or categories of worker.",
-        "example": "Demarcation disputes between electricians and plumbers held up the building project for several weeks.",
-        "register": "formal",
-        "tags": [
-          "labour",
-          "unions",
-          "employment"
-        ]
-      }
-    ],
-    "synonyms": [
-      "boundary",
-      "delineation",
-      "division",
-      "delimitation"
-    ],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "border",
-      "jurisdiction",
-      "partition",
-      "frontier"
-    ],
-    "translation": null
-  },
-  {
-    "term": "denigration",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The act of criticising someone or something unfairly so as to damage their reputation; disparagement.",
-        "example": "The systematic denigration of the whistleblower in the press appeared calculated to discredit her testimony.",
-        "register": "formal",
-        "tags": [
-          "rhetoric",
-          "reputation",
-          "ethics"
-        ]
-      }
-    ],
-    "synonyms": [
-      "disparagement",
-      "belittlement",
-      "vilification",
-      "defamation"
-    ],
-    "antonymTerms": [
-      "commendation",
-      "praise"
-    ],
-    "relatedTerms": [
-      "slander",
-      "libel",
-      "calumny",
-      "character assassination"
-    ],
-    "translation": null
-  },
-  {
-    "term": "denomination",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "A recognised autonomous branch of the Christian Church or of another religion.",
-        "example": "The ecumenical council brought together representatives of every major Protestant denomination to discuss shared doctrine.",
-        "register": "formal",
-        "tags": [
-          "religion",
-          "christianity"
-        ]
-      },
-      {
-        "definition": "The face value of a banknote, coin, or postage stamp.",
-        "example": "The treasury introduced a new denomination to reduce the volume of coins required in everyday transactions.",
-        "register": "technical",
-        "tags": [
-          "finance",
-          "currency"
-        ]
-      },
-      {
-        "definition": "The act of giving a name to something; a category or class to which something is assigned.",
-        "example": "Under the new taxonomy, species are grouped into denominations based on shared genetic markers.",
-        "register": "formal",
-        "tags": [
-          "classification",
-          "naming"
-        ]
-      }
-    ],
-    "synonyms": [
-      "sect",
-      "branch",
-      "creed",
-      "category"
-    ],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "religion",
-      "currency",
-      "classification",
-      "taxonomy"
-    ],
-    "translation": null
-  },
-  {
-    "term": "deportment",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The way a person stands and moves, particularly the manner in which they conduct themselves in public; bearing and posture.",
-        "example": "Finishing schools of the Victorian era placed considerable emphasis on a young woman's deportment and table manners.",
-        "register": "formal",
-        "tags": [
-          "behaviour",
-          "etiquette",
-          "history"
-        ]
-      }
-    ],
-    "synonyms": [
-      "bearing",
-      "posture",
-      "carriage",
-      "demeanour"
-    ],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "etiquette",
-      "comportment",
-      "poise",
-      "conduct"
-    ],
-    "translation": null
-  },
-  {
-    "term": "derogatory",
-    "language": "en",
-    "partOfSpeech": "adjective",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "Showing a critical or disrespectful attitude; expressing a low or negative opinion of someone or something; tending to lower the reputation or dignity of a person or thing.",
-        "example": "The employment tribunal found that the supervisor's derogatory comments had contributed to a hostile working environment.",
-        "register": "formal",
-        "tags": [
-          "language",
-          "discrimination",
-          "law"
-        ]
-      }
-    ],
-    "synonyms": [
-      "disparaging",
-      "demeaning",
-      "pejorative",
-      "belittling"
-    ],
-    "antonymTerms": [
-      "complimentary",
-      "laudatory"
-    ],
-    "relatedTerms": [
-      "slur",
-      "insult",
-      "prejudice",
-      "derogation"
-    ],
-    "translation": null
-  },
-  {
-    "term": "desolation",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "A state of complete emptiness or destruction; a place that is devastated, uninhabited, or laid waste.",
-        "example": "The travellers emerged from the mountain pass to find a landscape of total desolation, every village reduced to rubble.",
-        "register": "literary",
-        "tags": [
-          "landscape",
-          "emotion",
-          "conflict"
-        ]
-      },
-      {
-        "definition": "A feeling of profound loneliness, misery, or grief; utter wretchedness of spirit.",
-        "example": "Her diary from that period is filled with expressions of desolation following the failure of her marriage.",
-        "register": "literary",
-        "tags": [
-          "emotion",
-          "grief",
-          "psychology"
-        ]
-      }
-    ],
-    "synonyms": [
-      "devastation",
-      "ruin",
-      "bleakness",
-      "wasteland"
-    ],
-    "antonymTerms": [
-      "prosperity",
-      "vitality"
-    ],
-    "relatedTerms": [
-      "desolate",
-      "loneliness",
-      "abandonment",
-      "wretchedness"
-    ],
-    "translation": null
-  },
-  {
-    "term": "devolution",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The transfer or delegation of power to a lower level, especially by central government to local or regional administration.",
-        "example": "The devolution of legislative authority to the Scottish Parliament marked a significant constitutional shift for the United Kingdom.",
-        "register": "formal",
-        "tags": [
-          "politics",
-          "governance",
-          "law"
-        ]
-      },
-      {
-        "definition": "The process of declining from a higher to a lower level of development or organisation; regression.",
-        "example": "Some evolutionary biologists dispute the concept of devolution, arguing that evolution has no predetermined direction.",
-        "register": "technical",
-        "tags": [
-          "biology",
-          "evolution",
-          "sociology"
-        ]
-      }
-    ],
-    "synonyms": [
-      "decentralisation",
-      "delegation",
-      "transfer of power"
-    ],
-    "antonymTerms": [
-      "centralisation",
-      "consolidation"
-    ],
-    "relatedTerms": [
-      "federalism",
-      "autonomy",
-      "governance",
-      "regression"
-    ],
-    "translation": null
-  },
-  {
-    "term": "dogmatism",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The tendency to lay down principles as undeniably true without allowing for debate or evidence; rigid adherence to a set of doctrines.",
-        "example": "The scientist criticised dogmatism in both religion and science, arguing that open inquiry requires suspending certainty.",
-        "register": "formal",
-        "tags": [
-          "philosophy",
-          "epistemology",
-          "religion"
-        ]
-      }
-    ],
-    "synonyms": [
-      "doctrinairism",
-      "rigidity",
-      "intolerance",
-      "fanaticism"
-    ],
-    "antonymTerms": [
-      "open-mindedness",
-      "empiricism"
-    ],
-    "relatedTerms": [
-      "dogma",
-      "orthodoxy",
-      "ideology",
-      "fundamentalism"
-    ],
-    "translation": null
-  },
-  {
-    "term": "dormancy",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "A state of biological inactivity during which a living organism's metabolism is reduced to a minimum, allowing it to survive adverse conditions.",
-        "example": "Seeds can remain in dormancy for decades, germinating only when conditions of temperature and moisture are favourable.",
-        "register": "technical",
-        "tags": [
-          "biology",
-          "botany",
-          "ecology"
-        ]
-      },
-      {
-        "definition": "A period of inactivity, suspension, or latency in any process, system, or activity.",
-        "example": "After a decade of dormancy, the volcano showed renewed signs of geological activity.",
-        "register": "formal",
-        "tags": [
-          "geology",
-          "metaphor",
-          "business"
-        ]
-      }
-    ],
-    "synonyms": [
-      "inactivity",
-      "latency",
-      "quiescence",
-      "suspension"
-    ],
-    "antonymTerms": [
-      "activity",
-      "germination"
-    ],
-    "relatedTerms": [
-      "hibernation",
-      "dormant",
-      "torpor",
-      "suspended animation"
-    ],
-    "translation": null
-  },
-  {
-    "term": "doxology",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "A liturgical formula of praise to God, typically sung or spoken as part of a Christian worship service.",
-        "example": "The service concluded with the congregation rising to sing the doxology in three-part harmony.",
-        "register": "technical",
-        "tags": [
-          "religion",
-          "liturgy",
-          "music"
-        ]
-      }
-    ],
-    "synonyms": [
-      "hymn of praise",
-      "gloria",
-      "canticle"
-    ],
-    "antonymTerms": [],
-    "relatedTerms": [
-      "liturgy",
-      "benediction",
-      "Trinitarian formula",
-      "worship"
-    ],
-    "translation": null
-  },
-  {
-    "term": "egalitarianism",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The doctrine or belief that all people are equal and deserve equal rights and opportunities; a commitment to reducing or eliminating inequalities of wealth, status, or power.",
-        "example": "The welfare state was conceived as an institutional expression of egalitarianism, redistributing resources to achieve a more just society.",
-        "register": "formal",
-        "tags": [
-          "philosophy",
-          "politics",
-          "ethics",
-          "social-justice"
-        ]
-      }
-    ],
-    "synonyms": [
-      "equalitarianism",
-      "levelling"
-    ],
-    "antonymTerms": [
-      "elitism",
-      "hierarchism"
-    ],
-    "relatedTerms": [
-      "equality",
-      "social justice",
-      "redistribution",
-      "meritocracy"
-    ],
-    "translation": null
-  },
-  {
-    "term": "elaboration",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "The process of developing or presenting a theory, idea, or plan in detail; the addition of more detail to something.",
-        "example": "The report's elaboration of the methodology reassured reviewers that the findings were methodologically rigorous.",
-        "register": "formal",
-        "tags": [
-          "writing",
-          "communication",
-          "thinking"
-        ]
-      },
-      {
-        "definition": "In biology and biochemistry, the production and refinement of a substance by a living organism.",
-        "example": "The elaboration of insulin by pancreatic beta cells is tightly regulated by blood glucose concentrations.",
-        "register": "technical",
-        "tags": [
-          "biology",
-          "chemistry"
-        ]
-      }
-    ],
-    "synonyms": [
-      "development",
-      "expansion",
-      "amplification",
-      "explication"
-    ],
-    "antonymTerms": [
-      "simplification",
-      "abridgement"
-    ],
-    "relatedTerms": [
-      "clarification",
-      "exposition",
-      "extrapolation",
-      "elaborative"
-    ],
-    "translation": null
-  },
-  {
-    "term": "embellishment",
-    "language": "en",
-    "partOfSpeech": "noun",
-    "status": "approved",
-    "meanings": [
-      {
-        "definition": "A decorative detail or feature added to something to make it more attractive; ornamentation.",
-        "example": "The ceiling was covered with elaborate embellishments typical of Baroque decorative style.",
-        "register": "formal",
-        "tags": [
-          "art",
-          "design",
-          "architecture"
-        ]
-      },
-      {
-        "definition": "A detail added to a story or account that makes it more interesting but may distort its truthfulness.",
-        "example": "His account of the meeting grew with successive embellishments until it bore little resemblance to what had actually occurred.",
-        "register": "neutral",
-        "tags": [
-          "storytelling",
-          "rhetoric",
+          "evasion",
           "deception"
         ]
-      }
-    ],
-    "synonyms": [
-      "ornamentation",
-      "decoration",
-      "adornment",
-      "garnish"
-    ],
-    "antonymTerms": [
-      "simplicity",
-      "austerity"
-    ],
-    "relatedTerms": [
-      "flourish",
-      "gilding",
-      "exaggeration",
-      "filigree"
-    ],
-    "translation": null
-  },
-  {
-    "term": "exhaustive",
-    "language": "en",
-    "partOfSpeech": "adjective",
-    "status": "approved",
-    "meanings": [
+      },
       {
-        "definition": "Examining, testing, or including all elements or aspects; leaving nothing out; thorough and comprehensive.",
-        "example": "The review committee conducted an exhaustive analysis of all available evidence before reaching its conclusion.",
+        "definition": "To deliberately delay or avoid committing to a course of action",
+        "example": "The committee prevaricated for months, unwilling to take responsibility for the unpopular decision.",
         "register": "formal",
         "tags": [
-          "research",
-          "methodology",
-          "thoroughness"
+          "procrastination",
+          "avoidance"
         ]
       }
     ],
     "synonyms": [
-      "comprehensive",
-      "thorough",
-      "all-inclusive",
-      "complete"
+      "equivocate",
+      "temporise",
+      "hedge"
     ],
-    "antonymTerms": [
-      "cursory",
-      "superficial"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
-      "rigorous",
-      "meticulous",
-      "systematic",
-      "definitive"
+      "prevarication",
+      "prevaricator"
     ],
-    "translation": null
+    "translation": null,
+    "pronunciation": "/prɪˈværɪkeɪt/",
+    "etymology": "From Latin praevaricari 'to walk crookedly, deviate', from prae 'before' + varicare 'to straddle'"
   },
   {
-    "term": "exigency",
+    "term": "probity",
     "language": "en",
     "partOfSpeech": "noun",
     "status": "approved",
     "meanings": [
       {
-        "definition": "An urgent need or demand; a situation that requires immediate action or attention.",
-        "example": "The hospital adapted its procedures to meet the exigencies of the crisis, triaging patients according to severity.",
+        "definition": "The quality of having strong moral principles; honesty and decency",
+        "example": "Her reputation for financial probity made her the obvious choice to chair the audit committee.",
         "register": "formal",
         "tags": [
-          "urgency",
-          "crisis",
-          "management"
+          "integrity",
+          "ethics"
         ]
       },
       {
-        "definition": "The pressing or challenging nature of a situation; the quality of being exigent.",
-        "example": "Under the exigency of wartime, governments routinely suspend liberties that would be inviolable in peacetime.",
+        "definition": "Uprightness of character and conduct, especially in professional matters",
+        "example": "The judiciary's probity is the cornerstone of public trust in the legal system.",
         "register": "formal",
         "tags": [
-          "law",
-          "ethics",
-          "politics"
+          "honour",
+          "professionalism"
         ]
       }
     ],
     "synonyms": [
-      "urgency",
-      "necessity",
-      "pressing need",
-      "emergency"
+      "integrity",
+      "rectitude",
+      "uprightness"
+    ],
+    "antonymTerms": [
+      "corruption",
+      "dishonesty"
+    ],
+    "relatedTerms": [],
+    "translation": null,
+    "pronunciation": "/ˈprəʊbɪti/",
+    "etymology": "From Latin probitas 'goodness, uprightness', from probus 'good, virtuous'"
+  },
+  {
+    "term": "profligate",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Recklessly extravagant or wasteful in the use of resources",
+        "example": "The profligate spending of the previous administration left the treasury virtually empty.",
+        "register": "formal",
+        "tags": [
+          "waste",
+          "extravagance"
+        ]
+      },
+      {
+        "definition": "Shamelessly immoral or debauched",
+        "example": "The biography paints a portrait of a profligate aristocrat whose excesses scandalised polite society.",
+        "register": "literary",
+        "tags": [
+          "immorality",
+          "excess"
+        ]
+      }
+    ],
+    "synonyms": [
+      "extravagant",
+      "prodigal",
+      "wasteful"
+    ],
+    "antonymTerms": [
+      "frugal",
+      "thrifty"
+    ],
+    "relatedTerms": [
+      "profligacy",
+      "profligately"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈprɒflɪɡət/",
+    "etymology": "From Latin profligatus 'ruined, dissolute', past participle of profligare 'to overthrow'"
+  },
+  {
+    "term": "prolific",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Producing a great number or amount of something, especially works of art or literature",
+        "example": "The prolific novelist published over forty books in a career spanning five decades.",
+        "register": "general",
+        "tags": [
+          "productivity",
+          "creativity"
+        ]
+      },
+      {
+        "definition": "Present in large numbers or quantities; plentiful",
+        "example": "The region's prolific wildflower displays attract thousands of visitors each spring.",
+        "register": "general",
+        "tags": [
+          "abundance",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [
+      "productive",
+      "fecund",
+      "copious"
+    ],
+    "antonymTerms": [
+      "unproductive",
+      "barren"
+    ],
+    "relatedTerms": [
+      "prolifically",
+      "prolificacy"
+    ],
+    "translation": null,
+    "pronunciation": "/prəˈlɪfɪk/",
+    "etymology": "From Medieval Latin prolificus, from Latin proles 'offspring' + facere 'to make'"
+  },
+  {
+    "term": "propitious",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Giving or indicating a good chance of success; favourable",
+        "example": "The calm seas and clear skies provided propitious conditions for the maiden voyage.",
+        "register": "formal",
+        "tags": [
+          "favourability",
+          "opportunity"
+        ]
+      },
+      {
+        "definition": "Favourably disposed toward someone or something; benevolent",
+        "example": "Fortune proved propitious to the young entrepreneur, whose first venture exceeded all projections.",
+        "register": "literary",
+        "tags": [
+          "luck",
+          "benevolence"
+        ]
+      }
+    ],
+    "synonyms": [
+      "favourable",
+      "auspicious",
+      "promising"
+    ],
+    "antonymTerms": [
+      "inauspicious",
+      "unfavourable"
+    ],
+    "relatedTerms": [
+      "propitiously",
+      "propitiousness"
+    ],
+    "translation": null,
+    "pronunciation": "/prəˈpɪʃəs/",
+    "etymology": "From Latin propitius 'favourable, gracious', perhaps from pro- 'forward' + petere 'to seek'"
+  },
+  {
+    "term": "propound",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To put forward an idea, theory, or point of view for consideration by others",
+        "example": "Darwin propounded his theory of natural selection in On the Origin of Species.",
+        "register": "formal",
+        "tags": [
+          "argumentation",
+          "theory"
+        ]
+      },
+      {
+        "definition": "To formally present a legal document, especially a will, for official validation",
+        "example": "The executor propounded the deceased's will before the probate court.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "probate"
+        ]
+      }
+    ],
+    "synonyms": [
+      "posit",
+      "advance",
+      "put forward"
     ],
     "antonymTerms": [],
     "relatedTerms": [
-      "exigent",
-      "imperative",
-      "constraint",
-      "crisis"
+      "proponent",
+      "proposition"
     ],
-    "translation": null
+    "translation": null,
+    "pronunciation": "/prəˈpaʊnd/",
+    "etymology": "Alteration of earlier propone, from Latin proponere 'to set forth', from pro- 'forward' + ponere 'to put'"
+  },
+  {
+    "term": "prosaic",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Having or using the style or diction of prose as opposed to poetry; lacking poetic beauty",
+        "example": "The translation, while accurate, rendered the verse in prosaic language that stripped away its musicality.",
+        "register": "literary",
+        "tags": [
+          "writing",
+          "style"
+        ]
+      },
+      {
+        "definition": "Commonplace; unromantic; dull and uninspiring",
+        "example": "Beneath the company's visionary mission statement lay the prosaic reality of cost-cutting and layoffs.",
+        "register": "general",
+        "tags": [
+          "mundanity",
+          "ordinariness"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mundane",
+      "pedestrian",
+      "humdrum"
+    ],
+    "antonymTerms": [
+      "poetic",
+      "imaginative"
+    ],
+    "relatedTerms": [
+      "prosaically",
+      "prosaicness"
+    ],
+    "translation": null,
+    "pronunciation": "/prəˈzeɪɪk/",
+    "etymology": "From Late Latin prosaicus, from Latin prosa 'straightforward discourse', from prorsus 'direct'"
+  },
+  {
+    "term": "prurient",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Having or encouraging an excessive interest in sexual matters",
+        "example": "The censor objected to what she described as the novel's prurient depictions of illicit relationships.",
+        "register": "formal",
+        "tags": [
+          "sexuality",
+          "morality"
+        ]
+      },
+      {
+        "definition": "Characterised by an unwholesome or morbid curiosity",
+        "example": "The tabloid catered to the public's prurient fascination with celebrity scandals.",
+        "register": "formal",
+        "tags": [
+          "curiosity",
+          "sensationalism"
+        ]
+      }
+    ],
+    "synonyms": [
+      "salacious",
+      "lascivious",
+      "licentious"
+    ],
+    "antonymTerms": [
+      "chaste",
+      "modest"
+    ],
+    "relatedTerms": [
+      "prurience",
+      "pruriently"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈprʊəriənt/",
+    "etymology": "From Latin prurientem, present participle of prurire 'to itch, to long for'"
+  },
+  {
+    "term": "pugnacious",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Eager or quick to argue, quarrel, or fight; combative",
+        "example": "The pugnacious defence attorney challenged every piece of evidence with relentless vigour.",
+        "register": "formal",
+        "tags": [
+          "aggression",
+          "combativeness"
+        ]
+      },
+      {
+        "definition": "Having a naturally aggressive or belligerent disposition",
+        "example": "Despite his small stature, the pugnacious terrier never backed down from a confrontation.",
+        "register": "general",
+        "tags": [
+          "temperament",
+          "belligerence"
+        ]
+      }
+    ],
+    "synonyms": [
+      "combative",
+      "bellicose",
+      "belligerent"
+    ],
+    "antonymTerms": [
+      "peaceable",
+      "conciliatory"
+    ],
+    "relatedTerms": [
+      "pugnacity",
+      "pugnaciously"
+    ],
+    "translation": null,
+    "pronunciation": "/pʌɡˈneɪʃəs/",
+    "etymology": "From Latin pugnax 'combative', from pugnare 'to fight', from pugnus 'fist'"
+  },
+  {
+    "term": "pusillanimous",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Showing a lack of courage or determination; timid and cowardly",
+        "example": "The board's pusillanimous refusal to confront the CEO allowed the misconduct to continue unchecked.",
+        "register": "formal",
+        "tags": [
+          "cowardice",
+          "timidity"
+        ]
+      },
+      {
+        "definition": "Proceeding from or indicating a cowardly spirit",
+        "example": "His pusillanimous retreat from the public debate was widely seen as an admission of defeat.",
+        "register": "formal",
+        "tags": [
+          "weakness",
+          "spinelessness"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cowardly",
+      "timorous",
+      "craven"
+    ],
+    "antonymTerms": [
+      "courageous",
+      "valiant"
+    ],
+    "relatedTerms": [
+      "pusillanimity",
+      "pusillanimously"
+    ],
+    "translation": null,
+    "pronunciation": "/ˌpjuːsɪˈlænɪməs/",
+    "etymology": "From Late Latin pusillanimis, from Latin pusillus 'very small' + animus 'mind, spirit'"
+  },
+  {
+    "term": "quandary",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A state of perplexity or uncertainty over what to do in a difficult situation; a dilemma",
+        "example": "The journalist faced a quandary: publish the story and betray a source, or suppress it and fail the public.",
+        "register": "general",
+        "tags": [
+          "dilemma",
+          "uncertainty"
+        ]
+      },
+      {
+        "definition": "A difficult or complicated situation from which there is no obvious escape",
+        "example": "The government found itself in a fiscal quandary, needing to cut spending without reducing essential services.",
+        "register": "formal",
+        "tags": [
+          "predicament",
+          "difficulty"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dilemma",
+      "predicament",
+      "impasse"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null,
+    "pronunciation": "/ˈkwɒndəri/",
+    "etymology": "Origin uncertain; possibly from Latin quando 'when', or a dialectal English formation"
+  },
+  {
+    "term": "rapacious",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Aggressively greedy or grasping, especially for money or resources",
+        "example": "The rapacious landlord raised rents every quarter, driving out long-standing tenants.",
+        "register": "formal",
+        "tags": [
+          "greed",
+          "exploitation"
+        ]
+      },
+      {
+        "definition": "(Of an animal) living by preying on other animals; predatory",
+        "example": "Rapacious gulls descended on the fishing boats as soon as the nets were hauled aboard.",
+        "register": "general",
+        "tags": [
+          "predation",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [
+      "avaricious",
+      "voracious",
+      "grasping"
+    ],
+    "antonymTerms": [
+      "generous",
+      "unselfish"
+    ],
+    "relatedTerms": [
+      "rapacity",
+      "rapaciously"
+    ],
+    "translation": null,
+    "pronunciation": "/rəˈpeɪʃəs/",
+    "etymology": "From Latin rapax 'grasping', from rapere 'to seize'"
+  },
+  {
+    "term": "refractory",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Stubbornly resistant to authority, control, or treatment",
+        "example": "The refractory patient refused to follow the prescribed medication regimen despite repeated warnings.",
+        "register": "formal",
+        "tags": [
+          "resistance",
+          "disobedience"
+        ]
+      },
+      {
+        "definition": "Resistant to heat or a process of manufacture; hard to melt or work",
+        "example": "Refractory bricks line the interior of blast furnaces to withstand extreme temperatures.",
+        "register": "technical",
+        "tags": [
+          "materials",
+          "engineering"
+        ]
+      }
+    ],
+    "synonyms": [
+      "recalcitrant",
+      "intractable",
+      "contumacious"
+    ],
+    "antonymTerms": [
+      "compliant",
+      "tractable"
+    ],
+    "relatedTerms": [
+      "refractoriness"
+    ],
+    "translation": null,
+    "pronunciation": "/rɪˈfræktəri/",
+    "etymology": "From Latin refractarius 'stubborn', from refragari 'to oppose'"
+  },
+  {
+    "term": "relegate",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To consign or dismiss to an inferior rank or position",
+        "example": "After the restructuring, she was relegated to a minor administrative role with no decision-making authority.",
+        "register": "formal",
+        "tags": [
+          "demotion",
+          "hierarchy"
+        ]
+      },
+      {
+        "definition": "To assign to a particular class or category, typically a lower one",
+        "example": "Climate policy was relegated to a footnote in the party's election manifesto.",
+        "register": "general",
+        "tags": [
+          "categorisation",
+          "downgrading"
+        ]
+      }
+    ],
+    "synonyms": [
+      "demote",
+      "downgrade",
+      "consign"
+    ],
+    "antonymTerms": [
+      "promote",
+      "elevate"
+    ],
+    "relatedTerms": [
+      "relegation"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈrelɪɡeɪt/",
+    "etymology": "From Latin relegare 'to send away, remove', from re- 'back' + legare 'to send'"
+  },
+  {
+    "term": "remonstrate",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To make a forceful or earnest protest or objection",
+        "example": "Several board members remonstrated against the proposal to slash the research budget.",
+        "register": "formal",
+        "tags": [
+          "protest",
+          "objection"
+        ]
+      },
+      {
+        "definition": "To reason earnestly with someone in opposition to their actions or views",
+        "example": "The teacher remonstrated gently with the student about the importance of meeting deadlines.",
+        "register": "formal",
+        "tags": [
+          "persuasion",
+          "admonition"
+        ]
+      }
+    ],
+    "synonyms": [
+      "protest",
+      "object",
+      "expostulate"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "remonstrance",
+      "remonstration"
+    ],
+    "translation": null,
+    "pronunciation": "/rɪˈmɒnstreɪt/",
+    "etymology": "From Medieval Latin remonstrare 'to demonstrate', from re- 'again' + monstrare 'to show'"
+  },
+  {
+    "term": "reprobate",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "An unprincipled or immoral person; a scoundrel",
+        "example": "The charming reprobate had swindled half the town before anyone caught on to his schemes.",
+        "register": "general",
+        "tags": [
+          "immorality",
+          "character"
+        ]
+      },
+      {
+        "definition": "A person rejected by God and beyond redemption (in Calvinist theology)",
+        "example": "Puritan sermons frequently warned congregants of the fate awaiting the unrepentant reprobate.",
+        "register": "formal",
+        "tags": [
+          "theology",
+          "damnation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "scoundrel",
+      "rogue",
+      "miscreant"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "reprobation"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈreprəbeɪt/",
+    "etymology": "From Latin reprobatus 'disapproved', past participle of reprobare 'to reject'"
+  },
+  {
+    "term": "riposte",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A quick, clever reply to an insult or criticism; a sharp retort",
+        "example": "Her riposte to the senator's accusation drew appreciative laughter from the press gallery.",
+        "register": "general",
+        "tags": [
+          "wit",
+          "debate"
+        ]
+      },
+      {
+        "definition": "A quick return thrust in fencing following a parry",
+        "example": "The fencer's lightning riposte caught her opponent off guard and scored the decisive point.",
+        "register": "technical",
+        "tags": [
+          "fencing",
+          "sport"
+        ]
+      }
+    ],
+    "synonyms": [
+      "retort",
+      "rejoinder",
+      "repartee"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": null,
+    "pronunciation": "/rɪˈpɒst/",
+    "etymology": "From French riposte, from Italian risposta 'response', from rispondere 'to respond'"
+  },
+  {
+    "term": "ruminate",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To think deeply about something; to meditate or reflect at length",
+        "example": "She spent the weekend ruminating on whether to accept the overseas posting or stay close to family.",
+        "register": "formal",
+        "tags": [
+          "reflection",
+          "contemplation"
+        ]
+      },
+      {
+        "definition": "To chew the cud, as a ruminant animal does",
+        "example": "The cattle ruminated placidly in the meadow as the afternoon sun warmed the hillside.",
+        "register": "general",
+        "tags": [
+          "biology",
+          "digestion"
+        ]
+      }
+    ],
+    "synonyms": [
+      "ponder",
+      "deliberate",
+      "contemplate"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "rumination",
+      "ruminative"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈruːmɪneɪt/",
+    "etymology": "From Latin ruminari 'to chew over again', from rumen 'throat, gullet'"
+  },
+  {
+    "term": "sagacious",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Having or showing keen mental discernment and good judgement; shrewd and wise",
+        "example": "The sagacious investor divested from the sector months before the market correction.",
+        "register": "formal",
+        "tags": [
+          "wisdom",
+          "judgement"
+        ]
+      },
+      {
+        "definition": "Demonstrating foresight and perceptive understanding",
+        "example": "Her sagacious advice during the merger negotiations saved the company from an unfavourable deal.",
+        "register": "formal",
+        "tags": [
+          "insight",
+          "acumen"
+        ]
+      }
+    ],
+    "synonyms": [
+      "shrewd",
+      "astute",
+      "perspicacious"
+    ],
+    "antonymTerms": [
+      "foolish",
+      "obtuse"
+    ],
+    "relatedTerms": [
+      "sagacity",
+      "sagaciously"
+    ],
+    "translation": null,
+    "pronunciation": "/səˈɡeɪʃəs/",
+    "etymology": "From Latin sagax 'wise, prophetic', from sagire 'to perceive keenly'"
+  },
+  {
+    "term": "sanctimonious",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Making a show of being morally superior to other people; self-righteously pious",
+        "example": "The sanctimonious politician who preached family values was later exposed for embezzling charity funds.",
+        "register": "general",
+        "tags": [
+          "hypocrisy",
+          "self-righteousness"
+        ]
+      },
+      {
+        "definition": "Excessively or affectedly pious in manner or attitude",
+        "example": "His sanctimonious tone during the meeting alienated colleagues who might otherwise have supported his proposal.",
+        "register": "general",
+        "tags": [
+          "pretension",
+          "moralism"
+        ]
+      }
+    ],
+    "synonyms": [
+      "self-righteous",
+      "holier-than-thou",
+      "pietistic"
+    ],
+    "antonymTerms": [
+      "humble",
+      "sincere"
+    ],
+    "relatedTerms": [
+      "sanctimoniousness",
+      "sanctimoniously"
+    ],
+    "translation": null,
+    "pronunciation": "/ˌsæŋktɪˈməʊniəs/",
+    "etymology": "From Latin sanctimonia 'sanctity, sacredness', from sanctus 'holy'"
+  },
+  {
+    "term": "sardonic",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Grimly mocking or cynical; disdainfully humorous",
+        "example": "His sardonic commentary on corporate culture made the keynote speech both uncomfortable and unforgettable.",
+        "register": "general",
+        "tags": [
+          "humour",
+          "cynicism"
+        ]
+      },
+      {
+        "definition": "Characterised by bitter or scornful derision",
+        "example": "She gave a sardonic smile when told that yet another restructuring would improve morale.",
+        "register": "general",
+        "tags": [
+          "mockery",
+          "contempt"
+        ]
+      }
+    ],
+    "synonyms": [
+      "caustic",
+      "mordant",
+      "acerbic"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sardonically"
+    ],
+    "translation": null,
+    "pronunciation": "/sɑːˈdɒnɪk/",
+    "etymology": "From French sardonique, from Latin sardonius, alteration of Greek sardonios 'bitter, scornful'"
+  },
+  {
+    "term": "sartorial",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Relating to tailoring, clothes, or style of dress",
+        "example": "His sartorial elegance was legendary — never once was he seen without a perfectly knotted silk tie.",
+        "register": "formal",
+        "tags": [
+          "fashion",
+          "clothing"
+        ]
+      },
+      {
+        "definition": "Of or relating to the craft and art of a tailor",
+        "example": "The exhibition celebrated the sartorial traditions of Savile Row through a century of bespoke garments.",
+        "register": "formal",
+        "tags": [
+          "tailoring",
+          "craftsmanship"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sartorially",
+      "tailor"
+    ],
+    "translation": null,
+    "pronunciation": "/sɑːˈtɔːriəl/",
+    "etymology": "From Latin sartor 'tailor, patcher', from sarcire 'to patch, mend'",
+    "qa_notes": "The two meanings are essentially identical — both describe tailoring/clothes. Merge into one distinct definition. Also, synonyms array is empty; add at least 2 appropriate synonyms."
+  },
+  {
+    "term": "scrupulous",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Diligent, thorough, and extremely attentive to details; painstaking",
+        "example": "The archivist's scrupulous cataloguing ensured that every document could be located within minutes.",
+        "register": "general",
+        "tags": [
+          "meticulousness",
+          "thoroughness"
+        ]
+      },
+      {
+        "definition": "Very concerned to avoid doing wrong; guided by a strict regard for what is morally right",
+        "example": "She was scrupulous about declaring every gift received in her role as a public official.",
+        "register": "formal",
+        "tags": [
+          "ethics",
+          "integrity"
+        ]
+      }
+    ],
+    "synonyms": [
+      "meticulous",
+      "conscientious",
+      "painstaking"
+    ],
+    "antonymTerms": [
+      "unscrupulous",
+      "negligent"
+    ],
+    "relatedTerms": [
+      "scruple",
+      "scrupulously",
+      "scrupulousness"
+    ],
+    "translation": null,
+    "pronunciation": "/ˈskruːpjʊləs/",
+    "etymology": "From Latin scrupulosus 'anxious, careful', from scrupulus 'small sharp stone, anxiety'"
   }
 ]
