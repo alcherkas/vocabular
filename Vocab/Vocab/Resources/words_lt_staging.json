@@ -2603,7 +2603,7 @@
     "term": "noras",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Norėjimas turėti ar pasiekti kažką.",
@@ -2616,16 +2616,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "troškimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "svajonė",
+      "tikslas",
+      "valia"
+    ],
     "translation": "wish, desire"
   },
   {
     "term": "pokyčiai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Permainos ar transformacijos daugelyje sričių.",
@@ -2640,14 +2646,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "reforma",
+      "transformacija",
+      "pažanga"
+    ],
     "translation": "changes"
   },
   {
     "term": "gerovė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gera fizinė, psichinė ir materialinė žmogaus būklė.",
@@ -2660,16 +2670,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "klestėjimas"
+    ],
+    "antonymTerms": [
+      "skurdas"
+    ],
+    "relatedTerms": [
+      "sveikata",
+      "laimė",
+      "saugumas"
+    ],
     "translation": "well-being, welfare"
   },
   {
     "term": "skirtumas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tai, kuo du ar daugiau dalykų skiriasi vienas nuo kito.",
@@ -2683,15 +2701,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "panašumas"
+    ],
+    "relatedTerms": [
+      "palyginimas",
+      "savybė",
+      "kontrastas"
+    ],
     "translation": "difference"
   },
   {
     "term": "panašumas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tai, kuo du ar daugiau dalykų yra vienodi ar panašūs.",
@@ -2704,8 +2728,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "skirtumas"
+    ],
+    "relatedTerms": [
+      "palyginimas",
+      "bendrumas",
+      "analogija"
+    ],
     "translation": "similarity, resemblance"
   },
   {
