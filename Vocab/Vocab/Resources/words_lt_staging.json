@@ -2583,56 +2583,134 @@
     "term": "dar",
     "language": "lt",
     "partOfSpeech": "particle",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Continuing into the present; still happening or existing",
+        "example": "Jis dar mokosi universitete.",
+        "register": "general",
+        "tags": [
+          "continuity",
+          "time"
+        ]
+      },
+      {
+        "definition": "In addition; more; another (indicates addition or repetition)",
+        "example": "Duok man dar vieno pyrago, prašau.",
+        "register": "general",
+        "tags": [
+          "addition",
+          "quantity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "still"
   },
   {
     "term": "jau",
     "language": "lt",
     "partOfSpeech": "particle",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Before the expected time or sooner than anticipated",
+        "example": "Jis jau atvyko, nors susitikimas prasideda vėliau.",
+        "register": "general",
+        "tags": [
+          "time",
+          "expectation"
+        ]
+      },
+      {
+        "definition": "By now; at this point in time (something has been completed)",
+        "example": "Jau trečia nakties, o jie vis dar šoka.",
+        "register": "general",
+        "tags": [
+          "time",
+          "completion"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "already"
   },
   {
     "term": "vis dar",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Continuing to happen or be true even now, despite expectations",
+        "example": "Jis vis dar nepaskambino, nors žadėjo.",
+        "register": "general",
+        "tags": [
+          "continuity",
+          "persistence"
+        ]
+      },
+      {
+        "definition": "Even at this late stage; remaining unchanged despite the passage of time",
+        "example": "Po daugelio metų ji vis dar prisimena tą dieną.",
+        "register": "general",
+        "tags": [
+          "duration",
+          "time"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "still"
   },
   {
     "term": "iki pasimatymo",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A farewell expression used when parting, implying you will meet again",
+        "example": "– Iki pasimatymo! – Viso gero, iki rytojaus!",
+        "register": "general",
+        "tags": [
+          "farewell",
+          "greeting",
+          "polite"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "goodbye"
   },
   {
     "term": "ačiū labai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An expression of sincere and heartfelt gratitude",
+        "example": "Ačiū labai už jūsų pagalbą ir dėmesį.",
+        "register": "general",
+        "tags": [
+          "gratitude",
+          "politeness"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "thank you very much"
   },
   {
     "term": "viskas gerai",
