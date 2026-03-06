@@ -3570,7 +3570,7 @@
     "term": "medicina",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The science and practice of diagnosing, treating, and preventing disease",
@@ -3594,14 +3594,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gydytojas",
+      "vaistas"
+    ],
     "translation": "medicine"
   },
   {
     "term": "psichologija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The scientific study of the human mind and behaviour",
@@ -3625,14 +3628,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "psichologas",
+      "psichika"
+    ],
     "translation": "psychology"
   },
   {
     "term": "ekonomika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The social science studying production, distribution, and consumption of goods",
@@ -3657,14 +3663,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ekonomistas",
+      "ekonominis"
+    ],
     "translation": "economics"
   },
   {
     "term": "politika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The activities and affairs involved in governing a country or state",
@@ -3689,14 +3698,17 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "politinis",
+      "politologas"
+    ],
     "translation": "politics"
   },
   {
     "term": "sandoris",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A business agreement or transaction between parties",
@@ -3718,9 +3730,14 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "susitarimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sutartis",
+      "derybos"
+    ],
     "translation": "deal"
   },
   {
