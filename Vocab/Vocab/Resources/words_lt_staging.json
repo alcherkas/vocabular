@@ -1,1 +1,2398 @@
-[]
+[
+  {
+    "term": "sudėtinės dalys",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Ingredientai arba komponentai, iš kurių kas nors pagaminta.",
+        "example": "Receptui reikia paprastų sudėtinių dalių.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "cooking"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "receptas",
+      "maisto gaminimas"
+    ],
+    "translation": "ingredients, components"
+  },
+  {
+    "term": "maisto gaminimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Maisto ruošimas valgymui.",
+        "example": "Maisto gaminimas namuose sveikiau nei restoranai.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "cooking"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sudėtinės dalys",
+      "receptas"
+    ],
+    "translation": "cooking, food preparation"
+  },
+  {
+    "term": "konsistencija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Medžiagos tirštumo ar tekstūros savybė.",
+        "example": "Sriubos konsistencija turi būti lygi.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "quality"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "maisto gaminimas"
+    ],
+    "translation": "consistency, texture"
+  },
+  {
+    "term": "fermentuotas maistas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Maistas, fermentacijos proceso rezultatas.",
+        "example": "Fermentuotas maistas geras virškinimui.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ekologiški produktai",
+      "sveikata"
+    ],
+    "translation": "fermented food"
+  },
+  {
+    "term": "veganiška mityba",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Mityba be jokių gyvūninių produktų.",
+        "example": "Veganiška mityba reikia planuoti kruopščiai.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "lifestyle"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "vegetariška dieta"
+    ],
+    "relatedTerms": [
+      "ekologiški produktai"
+    ],
+    "translation": "vegan diet"
+  },
+  {
+    "term": "vegetariška dieta",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Mityba be mėsos, bet gali turėti pieno produktų.",
+        "example": "Vegetariška dieta vis populiaresnė.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "lifestyle"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "veganiška mityba"
+    ],
+    "relatedTerms": [
+      "sveikata"
+    ],
+    "translation": "vegetarian diet"
+  },
+  {
+    "term": "glitimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Baltymas kviečiuose, kvietiesiuose grūduose.",
+        "example": "Glitimas gali sukelti celiakiją.",
+        "register": "technical",
+        "tags": [
+          "food",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "laktozės netoleravimas",
+      "maisto alergenai"
+    ],
+    "translation": "gluten"
+  },
+  {
+    "term": "laktozės netoleravimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nesugebėjimas viršinti pieno cukraus.",
+        "example": "Laktozės netoleravimas verčia vengti pieno.",
+        "register": "formal",
+        "tags": [
+          "health",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "glitimas",
+      "maisto alergenai"
+    ],
+    "translation": "lactose intolerance"
+  },
+  {
+    "term": "maisto alergenai",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Maisto medžiagos, galinčios sukelti alergiją.",
+        "example": "Maisto alergenai nurodyti ant pakuotės.",
+        "register": "formal",
+        "tags": [
+          "food",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "glitimas",
+      "laktozės netoleravimas"
+    ],
+    "translation": "food allergens"
+  },
+  {
+    "term": "ekologiški produktai",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Produktai, auginami be dirbtinių cheminių medžiagų.",
+        "example": "Ekologiški produktai brangesni, bet sveikesni.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "environment"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sezoninis maistas",
+      "aplinkos apsauga"
+    ],
+    "translation": "organic products"
+  },
+  {
+    "term": "sezoninis maistas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Maistas, pagamintas iš konkretaus sezono produktų.",
+        "example": "Sezoninis maistas skanesnis ir pigesnis.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "seasons"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ekologiški produktai",
+      "gamta"
+    ],
+    "translation": "seasonal food"
+  },
+  {
+    "term": "skydliaukė",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kakle esanti liauka, gaminanti hormonus.",
+        "example": "Skydliaukės problemos veikia energiją.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "inkstai",
+      "hormonas"
+    ],
+    "translation": "thyroid gland"
+  },
+  {
+    "term": "blužnis",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pilve esantis organas, tvarkantis kraujotaką.",
+        "example": "Blužnis filtruoja kraują.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kepenys",
+      "kraujas"
+    ],
+    "translation": "spleen"
+  },
+  {
+    "term": "sausgyslės",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Jungiamieji audiniai, jungiančios raumenis su kaulais.",
+        "example": "Sausgyslės traumos dažnos sportininkams.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "raiščiai",
+      "kremzlė"
+    ],
+    "translation": "tendons"
+  },
+  {
+    "term": "raiščiai",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Jungiamieji audiniai, jungiančios kaulus.",
+        "example": "Raiščiai sustabdo pernelyg didelę judesių amplitudę.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sausgyslės",
+      "sąnariai"
+    ],
+    "translation": "ligaments"
+  },
+  {
+    "term": "kremzlė",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Elastingas jungiamasis audinys.",
+        "example": "Kremzlė saugo sąnarius nuo trynimosi.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sausgyslės",
+      "sąnariai"
+    ],
+    "translation": "cartilage"
+  },
+  {
+    "term": "kaulų čiulpai",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kauluose esantis audinys, gaminantis kraujo ląsteles.",
+        "example": "Kaulų čiulpai yra svarbūs kraujui.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kraujas",
+      "imunitetas"
+    ],
+    "translation": "bone marrow"
+  },
+  {
+    "term": "imunitetas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Organizmo gebėjimas apsiginti nuo ligų.",
+        "example": "Stiprus imunitetas apsaugo nuo peršalimo.",
+        "register": "neutral",
+        "tags": [
+          "health",
+          "biology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "uždegimas",
+      "skiepai"
+    ],
+    "translation": "immunity"
+  },
+  {
+    "term": "uždegimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Organizmo atsakas į traumą ar infekciją.",
+        "example": "Uždegimas sukelia skausmą ir patinimą.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "medicine"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "imunitetas",
+      "bakterinė infekcija"
+    ],
+    "translation": "inflammation"
+  },
+  {
+    "term": "bakterinė infekcija",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Infekcija, sukelta bakterijų.",
+        "example": "Bakterinė infekcija gydoma antibiotikais.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "medicine"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "virusinis gripas"
+    ],
+    "relatedTerms": [
+      "uždegimas",
+      "antibiotikai"
+    ],
+    "translation": "bacterial infection"
+  },
+  {
+    "term": "virusinis gripas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Gripo liga, sukelta viruso.",
+        "example": "Virusinis gripas plinta per orą.",
+        "register": "technical",
+        "tags": [
+          "health",
+          "medicine"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "bakterinė infekcija"
+    ],
+    "relatedTerms": [
+      "skiepai",
+      "imunitetas"
+    ],
+    "translation": "viral flu"
+  },
+  {
+    "term": "fizinis pajėgumas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kūno fizinė galia ir ištvermė.",
+        "example": "Fizinis pajėgumas gerėja su treniruotėmis.",
+        "register": "neutral",
+        "tags": [
+          "sport",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "aerobiniai pratimai",
+      "jėgos treniruotė"
+    ],
+    "translation": "physical fitness"
+  },
+  {
+    "term": "aerobiniai pratimai",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pratimai, gerinantys širdies darbą.",
+        "example": "Aerobiniai pratimai padeda numesti svorio.",
+        "register": "neutral",
+        "tags": [
+          "sport",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "jėgos treniruotė",
+      "fizinis pajėgumas"
+    ],
+    "translation": "aerobic exercises"
+  },
+  {
+    "term": "jėgos treniruotė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Treniruotė, stiprinanti raumenis.",
+        "example": "Jėgos treniruotė vyksta sporto salėje.",
+        "register": "neutral",
+        "tags": [
+          "sport",
+          "fitness"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "aerobiniai pratimai",
+      "sportinė mityba"
+    ],
+    "translation": "strength training"
+  },
+  {
+    "term": "atsipalaidavimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Streso sumažinimas ir poilsis.",
+        "example": "Atsipalaidavimas svarbus protinei sveikatai.",
+        "register": "neutral",
+        "tags": [
+          "health",
+          "wellbeing"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "stresas"
+    ],
+    "relatedTerms": [
+      "meditacija",
+      "joga"
+    ],
+    "translation": "relaxation"
+  },
+  {
+    "term": "dviračių sportas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Sportas, susijęs su važiavimu dviračiu.",
+        "example": "Dviračių sportas populiarus vasarą.",
+        "register": "neutral",
+        "tags": [
+          "sport"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bėgimas",
+      "sporto šaka"
+    ],
+    "translation": "cycling sport"
+  },
+  {
+    "term": "treniruoklių salė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Vieta su sporto prietaisais.",
+        "example": "Treniruoklių salė atidaryta septyniomis dienomis.",
+        "register": "neutral",
+        "tags": [
+          "sport",
+          "place"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "jėgos treniruotė",
+      "asmeninis treneris"
+    ],
+    "translation": "gym"
+  },
+  {
+    "term": "asmeninis treneris",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Treneris, dirbantis tik su vienu klientu.",
+        "example": "Asmeninis treneris sudarė sporto planą.",
+        "register": "neutral",
+        "tags": [
+          "sport",
+          "work"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "treniruoklių salė",
+      "sporto komanda"
+    ],
+    "translation": "personal trainer"
+  },
+  {
+    "term": "sportinė mityba",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Mityba, pritaikyta sportininkams.",
+        "example": "Sportinė mityba apima daug baltymų.",
+        "register": "formal",
+        "tags": [
+          "sport",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "jėgos treniruotė"
+    ],
+    "translation": "sports nutrition"
+  },
+  {
+    "term": "sporto traumos",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Sužeidimai, atsirandantys sporto metu.",
+        "example": "Sporto traumos dažnos profesionaliuose sporte.",
+        "register": "neutral",
+        "tags": [
+          "sport",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "reabilitacijos pratybos",
+      "sporto šaka"
+    ],
+    "translation": "sports injuries"
+  },
+  {
+    "term": "reabilitacijos pratybos",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pratybos, padedančios atsigauti po traumos.",
+        "example": "Reabilitacijos pratybos grąžino judėjimą.",
+        "register": "formal",
+        "tags": [
+          "health",
+          "sport"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sporto traumos",
+      "fizioterapija"
+    ],
+    "translation": "rehabilitation exercises"
+  },
+  {
+    "term": "sveikos gyvensenos principai",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Principai, skatinantys sveiką gyvenimą.",
+        "example": "Sveikos gyvensenos principai apima miegą ir mitybą.",
+        "register": "formal",
+        "tags": [
+          "health",
+          "lifestyle"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sportinė mityba",
+      "atsipalaidavimas"
+    ],
+    "translation": "healthy lifestyle principles"
+  },
+  {
+    "term": "portretinė fotografija",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Asmenų veidų ir figūrų fotografavimas.",
+        "example": "Portretinė fotografija reikalauja gero apšvietimo.",
+        "register": "neutral",
+        "tags": [
+          "art",
+          "photography"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "fotografija",
+      "kraštovaizdžio fotografija"
+    ],
+    "translation": "portrait photography"
+  },
+  {
+    "term": "kraštovaizdžio fotografija",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Gamtovaizdžio ir kraštovaizdžio fotografavimas.",
+        "example": "Kraštovaizdžio fotografija populiari kelionėse.",
+        "register": "neutral",
+        "tags": [
+          "art",
+          "photography"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "fotografija",
+      "portretinė fotografija"
+    ],
+    "translation": "landscape photography"
+  },
+  {
+    "term": "keramika",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Molis naudojamas kuriant dirbtinius gaminius.",
+        "example": "Keramika yra senas lietuviškas amatas.",
+        "register": "neutral",
+        "tags": [
+          "art",
+          "craft"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "skulptūra",
+      "dailė"
+    ],
+    "translation": "ceramics"
+  },
+  {
+    "term": "tekstilė",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Audiniai ir jų gaminiai.",
+        "example": "Tekstilė apima audinius ir siuvimą.",
+        "register": "neutral",
+        "tags": [
+          "craft",
+          "material"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "keramika",
+      "menas"
+    ],
+    "translation": "textile"
+  },
+  {
+    "term": "sodas ir daržas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Augalų ir daržovių auginimas.",
+        "example": "Sodas ir daržas – malonumas vasarą.",
+        "register": "neutral",
+        "tags": [
+          "hobby",
+          "garden"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "augalų auginimas",
+      "gamta"
+    ],
+    "translation": "garden and vegetable patch"
+  },
+  {
+    "term": "augalų auginimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Augalų sodinimas ir priežiūra.",
+        "example": "Augalų auginimas namuose teikia džiaugsmą.",
+        "register": "neutral",
+        "tags": [
+          "hobby",
+          "garden"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sodas ir daržas",
+      "kambarinis augalas"
+    ],
+    "translation": "plant growing"
+  },
+  {
+    "term": "smėlio pilys",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Iš smėlio statytos struktūros.",
+        "example": "Vaikai mėgsta statyti smėlio pilis.",
+        "register": "neutral",
+        "tags": [
+          "hobby",
+          "children"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "konstruktoriai"
+    ],
+    "translation": "sandcastles"
+  },
+  {
+    "term": "konstruktoriai",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Žaislai, skirti statybinėms konstrukcijoms.",
+        "example": "Konstruktoriai lavina erdvinį mąstymą.",
+        "register": "neutral",
+        "tags": [
+          "hobby",
+          "toys"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "smėlio pilys"
+    ],
+    "translation": "building blocks, constructors"
+  },
+  {
+    "term": "virtuvės indai",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Patiekalai ir priemonės virtuvėje naudojami.",
+        "example": "Virtuvės indai turi būti švarūs.",
+        "register": "neutral",
+        "tags": [
+          "household",
+          "kitchen"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pjaustymo lentelė",
+      "virtuvė"
+    ],
+    "translation": "kitchen utensils"
+  },
+  {
+    "term": "pjaustymo lentelė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Lentelė, ant kurios pjaustomas maistas.",
+        "example": "Pjaustymo lentelė apsaugo stalą.",
+        "register": "neutral",
+        "tags": [
+          "household",
+          "kitchen"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "virtuvės indai",
+      "peilis"
+    ],
+    "translation": "cutting board"
+  },
+  {
+    "term": "butelis vandens",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Indas vandenui nešioti.",
+        "example": "Butelis vandens visada keliauja su manimi.",
+        "register": "neutral",
+        "tags": [
+          "household",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "termosinis puodelis",
+      "vanduo"
+    ],
+    "translation": "water bottle"
+  },
+  {
+    "term": "termosinis puodelis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Puodelis, ilgai išlaikantis gėrimų temperatūrą.",
+        "example": "Termosinis puodelis saugo kavą karštą.",
+        "register": "neutral",
+        "tags": [
+          "household"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "butelis vandens"
+    ],
+    "translation": "thermal mug"
+  },
+  {
+    "term": "indaplove",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Prietaisas indams plauti.",
+        "example": "Indaplove sutaupo vandens.",
+        "register": "neutral",
+        "tags": [
+          "household",
+          "appliance"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "virtuvė"
+    ],
+    "translation": "dishwasher"
+  },
+  {
+    "term": "orkaite",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Prietaisas maistui kepti kaitinant.",
+        "example": "Orkaite kepame pyragus.",
+        "register": "neutral",
+        "tags": [
+          "household",
+          "kitchen"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "maisto gaminimas",
+      "kepimas"
+    ],
+    "translation": "oven"
+  },
+  {
+    "term": "svečių namai",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nedidelis apgyvendinimo įstaiga svečiams.",
+        "example": "Svečių namai buvo jaukūs ir patogūs.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "accommodation"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "viešbutis",
+      "kempingas"
+    ],
+    "translation": "guesthouse"
+  },
+  {
+    "term": "kempingas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Lauko apgyvendinimo vieta su palapinėmis.",
+        "example": "Kempingas prie ežero buvo puikus.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "svečių namai",
+      "kelionė"
+    ],
+    "translation": "campsite"
+  },
+  {
+    "term": "turistų maršrutas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Numatytas turistams kelionės kelias.",
+        "example": "Turistų maršrutas vingiavo per miško parką.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "tourism"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "paminklai",
+      "kelionė"
+    ],
+    "translation": "tourist route"
+  },
+  {
+    "term": "paminklai",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Statiniai ar vietos, svarbus kultūros paveldui.",
+        "example": "Senoji miesto dalis pilna paminklų.",
+        "register": "neutral",
+        "tags": [
+          "culture",
+          "tourism"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "muziejai"
+    ],
+    "translation": "monuments"
+  },
+  {
+    "term": "muziejai",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Institucijos, saugančios ir rodančios kultūros vertybes.",
+        "example": "Muziejai pritraukia tūkstančius lankytojų.",
+        "register": "neutral",
+        "tags": [
+          "culture",
+          "tourism"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "paminklai",
+      "kultūros centras"
+    ],
+    "translation": "museums"
+  },
+  {
+    "term": "nacionalinis parkas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Saugoma gamtovaizdžio zona.",
+        "example": "Nacionalinis parkas yra nepriklausomas nuo statybų.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "environment"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gamtos draustinis",
+      "aplinkos apsauga"
+    ],
+    "translation": "national park"
+  },
+  {
+    "term": "pavasario atostogas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Atostogos pavasarį.",
+        "example": "Pavasario atostogos moksleiviai laukia.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "education"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vasaros stovykla",
+      "mokykla"
+    ],
+    "translation": "spring break/holidays"
+  },
+  {
+    "term": "vasaros saulė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Vasaros saulėta diena.",
+        "example": "Vasaros saulė kaitino paplūdimio smėlį.",
+        "register": "neutral",
+        "tags": [
+          "seasons",
+          "weather"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "žiemos šaltis"
+    ],
+    "relatedTerms": [
+      "kaitra",
+      "vasara"
+    ],
+    "translation": "summer sun"
+  },
+  {
+    "term": "žiemos šaltis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Žiemos vėsūs orai.",
+        "example": "Žiemos šaltis privertė mūvėti pirštines.",
+        "register": "neutral",
+        "tags": [
+          "seasons",
+          "weather"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "vasaros saulė"
+    ],
+    "relatedTerms": [
+      "pūgas",
+      "žiema"
+    ],
+    "translation": "winter cold"
+  },
+  {
+    "term": "pūgas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Stipri pūga ar sniego audra.",
+        "example": "Pūgas uždarė kelius visoje šalyje.",
+        "register": "neutral",
+        "tags": [
+          "weather"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "žiemos šaltis",
+      "sniegas"
+    ],
+    "translation": "blizzard, snowstorm"
+  },
+  {
+    "term": "kaitra",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Labai karšti orai.",
+        "example": "Kaitra vasarą aštuoniolika dienų.",
+        "register": "neutral",
+        "tags": [
+          "weather",
+          "seasons"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "šaltis"
+    ],
+    "relatedTerms": [
+      "vasaros saulė",
+      "sausra"
+    ],
+    "translation": "heat wave, scorching heat"
+  },
+  {
+    "term": "kaltės jausmas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Jausmas dėl padarytos klaidos.",
+        "example": "Kaltės jausmas neleidžia jam miegoti.",
+        "register": "formal",
+        "tags": [
+          "emotion",
+          "psychology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gėdos jausmas"
+    ],
+    "translation": "guilt"
+  },
+  {
+    "term": "gėdos jausmas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Jausmas, kai jaučiame gėdą.",
+        "example": "Gėdos jausmas kyla dėl viešo nesėkmingo.",
+        "register": "formal",
+        "tags": [
+          "emotion",
+          "psychology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kaltės jausmas"
+    ],
+    "translation": "shame"
+  },
+  {
+    "term": "geismas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Stiprus noras ar troškimas.",
+        "example": "Geismas žinoti tiesos buvo stiprus.",
+        "register": "formal",
+        "tags": [
+          "emotion",
+          "psychology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "troškimas"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nusivylimas",
+      "viltis"
+    ],
+    "translation": "desire, yearning"
+  },
+  {
+    "term": "nusausintuvas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Prietaisas ar indas drėgmei pašalinti.",
+        "example": "Nusausintuvas atskyrė vandenį nuo sriubos.",
+        "register": "neutral",
+        "tags": [
+          "household",
+          "kitchen"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "virtuvės indai",
+      "maisto gaminimas"
+    ],
+    "translation": "drainer, colander"
+  },
+  {
+    "term": "virtuvės laikrodis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Laikrodis, naudojamas virtuvėje laiko matavimui.",
+        "example": "Virtuvės laikrodis skambėjo po dešimties minučių.",
+        "register": "neutral",
+        "tags": [
+          "household",
+          "kitchen"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sieninis laikrodis",
+      "virtuvė"
+    ],
+    "translation": "kitchen timer"
+  },
+  {
+    "term": "sieninis laikrodis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Laikrodis, kabantis ant sienos.",
+        "example": "Sieninis laikrodis tiksi tyliai.",
+        "register": "neutral",
+        "tags": [
+          "household"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "virtuvės laikrodis",
+      "laikrodis"
+    ],
+    "translation": "wall clock"
+  },
+  {
+    "term": "komodą",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Baldas su stalčiais drabužiams laikyti.",
+        "example": "Komodą stovi kampe miegamajame.",
+        "register": "neutral",
+        "tags": [
+          "household",
+          "furniture"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "spinta",
+      "baldai"
+    ],
+    "translation": "chest of drawers"
+  },
+  {
+    "term": "ugnies vieta",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Vieta lauke, kur kūrenama ugnis.",
+        "example": "Ugnies vieta buvo supama akmenų.",
+        "register": "neutral",
+        "tags": [
+          "outdoor",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kempingas"
+    ],
+    "translation": "fire pit"
+  },
+  {
+    "term": "kambarinis augalas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Augalas, auginamas namų viduje.",
+        "example": "Kambarinis augalas pagyvina interjerą.",
+        "register": "neutral",
+        "tags": [
+          "household",
+          "garden"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "augalų auginimas"
+    ],
+    "translation": "houseplant"
+  },
+  {
+    "term": "knygų klubas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Grupė, susitinkanti aptarti knygų.",
+        "example": "Knygų klubas susirenka kiekvieną mėnesį.",
+        "register": "neutral",
+        "tags": [
+          "hobby",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bendruomenės centras"
+    ],
+    "translation": "book club"
+  },
+  {
+    "term": "kortų žaidimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Žaidimas su kortomis.",
+        "example": "Kortų žaidimas linksminamas kaime.",
+        "register": "neutral",
+        "tags": [
+          "hobby",
+          "game"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "stalo žaidimas",
+      "šachmatai"
+    ],
+    "translation": "card game"
+  },
+  {
+    "term": "stalo žaidimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Žaidimas, žaidžiamas ant stalo.",
+        "example": "Stalo žaidimas buvo tinkamas visai šeimai.",
+        "register": "neutral",
+        "tags": [
+          "hobby",
+          "game"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "vaizdo žaidimas"
+    ],
+    "relatedTerms": [
+      "kortų žaidimas",
+      "strategija"
+    ],
+    "translation": "board game"
+  },
+  {
+    "term": "vaizdo žaidimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Elektroninis žaidimas ekrane.",
+        "example": "Vaizdo žaidimas buvo labai populiarus.",
+        "register": "neutral",
+        "tags": [
+          "hobby",
+          "technology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "stalo žaidimas"
+    ],
+    "relatedTerms": [
+      "kompiuteris"
+    ],
+    "translation": "video game"
+  },
+  {
+    "term": "muzikos instrumentas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Prietaisas muzikai groti.",
+        "example": "Muzikos instrumentas reikalauja pratimosi.",
+        "register": "neutral",
+        "tags": [
+          "music",
+          "art"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gitara",
+      "pianinas"
+    ],
+    "translation": "musical instrument"
+  },
+  {
+    "term": "mokyklos tradicijos",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Papročiai ir tradicijos mokykloje.",
+        "example": "Mokyklos tradicijos jungia mokinius.",
+        "register": "neutral",
+        "tags": [
+          "education",
+          "culture"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mokykla",
+      "kultūra"
+    ],
+    "translation": "school traditions"
+  },
+  {
+    "term": "pramogų parkas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Vieta su pramogomis ir atrakcijomis.",
+        "example": "Pramogų parkas buvo pilnas vaikų.",
+        "register": "neutral",
+        "tags": [
+          "leisure",
+          "tourism"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "turistų maršrutas"
+    ],
+    "translation": "amusement park"
+  },
+  {
+    "term": "jūros krantinė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Krantas prie jūros.",
+        "example": "Jūros krantinė pilna vasaros sezonu.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "tourism"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "paplūdimys",
+      "jūra"
+    ],
+    "translation": "seafront, coastline"
+  },
+  {
+    "term": "miesto sodas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Viešas sodas ar parkas mieste.",
+        "example": "Miesto sodas populiarus poilsiaviečiai.",
+        "register": "neutral",
+        "tags": [
+          "urban",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "parkas",
+      "miestas"
+    ],
+    "translation": "city garden"
+  },
+  {
+    "term": "sporto arena",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Stadionas ar didžiulė sporto vieta.",
+        "example": "Sporto arena talpina dešimtis tūkstančių žiūrovų.",
+        "register": "neutral",
+        "tags": [
+          "sport",
+          "place"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "stadionas",
+      "sporto komanda"
+    ],
+    "translation": "sports arena"
+  },
+  {
+    "term": "konferencijų centras",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pastatas skirtas konferencijoms ir susirinkimams.",
+        "example": "Konferencijų centras surengė tarptautinį forumą.",
+        "register": "formal",
+        "tags": [
+          "business",
+          "place"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "seminaras",
+      "verslas"
+    ],
+    "translation": "conference centre"
+  },
+  {
+    "term": "bendruomenės centras",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Vieta vietos bendruomenei susitikti.",
+        "example": "Bendruomenės centras siūlo įvairias veiklas.",
+        "register": "neutral",
+        "tags": [
+          "social",
+          "place"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kultūros centras",
+      "jaunimo centras"
+    ],
+    "translation": "community centre"
+  },
+  {
+    "term": "kultūros centras",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Vieta kultūrinei veiklai ir renginiams.",
+        "example": "Kultūros centras organizuoja parodas.",
+        "register": "neutral",
+        "tags": [
+          "culture",
+          "place"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bendruomenės centras",
+      "muziejai"
+    ],
+    "translation": "cultural centre"
+  },
+  {
+    "term": "menininkų kvartalis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Rajone, kur gyvena ir dirba menininkai.",
+        "example": "Menininkų kvartalis tapo turistų traukos centru.",
+        "register": "neutral",
+        "tags": [
+          "art",
+          "urban"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kultūros centras",
+      "menas"
+    ],
+    "translation": "artists' quarter"
+  },
+  {
+    "term": "jaunimo centras",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Organizacija ar vieta jaunimui.",
+        "example": "Jaunimo centras teikia laisvalaikio veiklas.",
+        "register": "neutral",
+        "tags": [
+          "social",
+          "youth"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bendruomenės centras",
+      "jaunimas"
+    ],
+    "translation": "youth centre"
+  },
+  {
+    "term": "vasaros stovykla",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Vasaros laisvalaikio programos vaikams.",
+        "example": "Vasaros stovykla prie ežero buvo linksma.",
+        "register": "neutral",
+        "tags": [
+          "education",
+          "leisure"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kempingas"
+    ],
+    "translation": "summer camp"
+  },
+  {
+    "term": "gamtos draustinis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Saugoma gamtovaizdžio teritorija.",
+        "example": "Gamtos draustinis apsaugo retą fauną.",
+        "register": "formal",
+        "tags": [
+          "nature",
+          "environment"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nacionalinis parkas",
+      "aplinkos apsauga"
+    ],
+    "translation": "nature reserve"
+  },
+  {
+    "term": "paukščių stebėjimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Paukščių stebėjimas kaip hobis.",
+        "example": "Paukščių stebėjimas populiarus gamtoje.",
+        "register": "neutral",
+        "tags": [
+          "hobby",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gamta"
+    ],
+    "translation": "birdwatching"
+  },
+  {
+    "term": "medžioklė",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Laukinių gyvūnų gaudymas ar šaudymas.",
+        "example": "Medžioklė reguliuojama sezonais.",
+        "register": "neutral",
+        "tags": [
+          "sport",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sporto šaka",
+      "gamta"
+    ],
+    "translation": "hunting"
+  },
+  {
+    "term": "rinkimas grybus",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Grybų ieškojimas miške.",
+        "example": "Rinkimas grybus mėgstamas rudeniop.",
+        "register": "neutral",
+        "tags": [
+          "hobby",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "uogavimas",
+      "miškas"
+    ],
+    "translation": "mushroom picking"
+  },
+  {
+    "term": "vaistinių augalų rinkimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Vaistinių žolelių rinkimas gamtoje.",
+        "example": "Vaistinių augalų rinkimas populiarus kaime.",
+        "register": "neutral",
+        "tags": [
+          "hobby",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "rinkimas grybus"
+    ],
+    "translation": "medicinal herb gathering"
+  },
+  {
+    "term": "uogavimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Uogų rinkimas miške ar laukuose.",
+        "example": "Uogavimas – malonumas vasarą.",
+        "register": "neutral",
+        "tags": [
+          "hobby",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "rinkimas grybus",
+      "miškas"
+    ],
+    "translation": "berry picking"
+  },
+  {
+    "term": "sporto komanda",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Grupė sportininkų, žaidžiančių kartu.",
+        "example": "Sporto komanda treniruojasi kiekvieną dieną.",
+        "register": "neutral",
+        "tags": [
+          "sport",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sporto šaka",
+      "turnyras"
+    ],
+    "translation": "sports team"
+  },
+  {
+    "term": "sporto taisyklės",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Sporto žaidimo ar rungtynių taisyklės.",
+        "example": "Sporto taisyklės turi būti laikomasi.",
+        "register": "formal",
+        "tags": [
+          "sport"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sąžiningas žaidimas",
+      "sporto šaka"
+    ],
+    "translation": "sport rules"
+  },
+  {
+    "term": "sąžiningas žaidimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Sportas pagal sąžiningas taisykles.",
+        "example": "Sąžiningas žaidimas yra sporto dvasios dalis.",
+        "register": "neutral",
+        "tags": [
+          "sport",
+          "values"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sporto taisyklės"
+    ],
+    "translation": "fair play"
+  },
+  {
+    "term": "olimpinės žaidynės",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Tarptautinės sporto varžybos.",
+        "example": "Olimpinės žaidynės rengiamos kas ketveri metai.",
+        "register": "formal",
+        "tags": [
+          "sport",
+          "international"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "čempionatas",
+      "sporto šaka"
+    ],
+    "translation": "Olympic Games"
+  },
+  {
+    "term": "sporto šaka",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Konkretus sporto tipas.",
+        "example": "Futbolas yra populiariausia sporto šaka.",
+        "register": "neutral",
+        "tags": [
+          "sport"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sporto komanda",
+      "turnyras"
+    ],
+    "translation": "sport discipline/branch"
+  },
+  {
+    "term": "prizas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Apdovanojimas laimėtojui.",
+        "example": "Pirmoji vieta gavo didelį prizą.",
+        "register": "neutral",
+        "tags": [
+          "competition",
+          "reward"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "apdovanojimai",
+      "turnyras"
+    ],
+    "translation": "prize"
+  },
+  {
+    "term": "teatro spektaklis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pasirodymas teatro scenoje.",
+        "example": "Teatro spektaklis buvo parduotas.",
+        "register": "neutral",
+        "tags": [
+          "art",
+          "culture"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "baleto pasirodymas",
+      "kultūros centras"
+    ],
+    "translation": "theatre performance"
+  },
+  {
+    "term": "baleto pasirodymas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Baleto šokio pasirodymas.",
+        "example": "Baleto pasirodymas pritraukė pilną salę.",
+        "register": "neutral",
+        "tags": [
+          "art",
+          "culture"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "teatro spektaklis",
+      "šokiai"
+    ],
+    "translation": "ballet performance"
+  },
+  {
+    "term": "operos spektaklis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Operos muzikinis teatras.",
+        "example": "Operos spektaklis yra iškilmingas renginys.",
+        "register": "formal",
+        "tags": [
+          "art",
+          "music"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "filharmonija",
+      "muzika"
+    ],
+    "translation": "opera performance"
+  },
+  {
+    "term": "filharmonija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Simfoninės muzikos koncertų organizacija.",
+        "example": "Filharmonija rengia koncertus visą sezoną.",
+        "register": "formal",
+        "tags": [
+          "music",
+          "culture"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "operos spektaklis",
+      "orkestras"
+    ],
+    "translation": "philharmonic"
+  },
+  {
+    "term": "literatūros festivalis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Festivalis, skirtas literatūrai ir rašytojams.",
+        "example": "Literatūros festivalis sutraukė tūkstančius skaitytojų.",
+        "register": "neutral",
+        "tags": [
+          "culture",
+          "event"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kino festivalis",
+      "kultūra"
+    ],
+    "translation": "literary festival"
+  },
+  {
+    "term": "kino festivalis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Festivalis, rodantis filmus iš viso pasaulio.",
+        "example": "Kino festivalis pristatė tarptautines premjeras.",
+        "register": "neutral",
+        "tags": [
+          "culture",
+          "film"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "literatūros festivalis",
+      "filmas"
+    ],
+    "translation": "film festival"
+  }
+]
