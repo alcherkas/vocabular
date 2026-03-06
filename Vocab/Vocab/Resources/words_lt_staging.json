@@ -2323,7 +2323,7 @@
     "term": "hipoteka",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Ilgalaikė banko paskola nekilnojamajam turtui pirkti.",
@@ -2338,14 +2338,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "paskola",
+      "bankas",
+      "nekilnojamasis turtas"
+    ],
     "translation": "mortgage"
   },
   {
     "term": "palūkanos",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mokestis, mokamas bankui už paskolos naudojimąsi.",
@@ -2360,14 +2364,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "paskola",
+      "bankas",
+      "hipoteka"
+    ],
     "translation": "interest (financial)"
   },
   {
     "term": "klaida",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Neteisingas veiksmas ar sprendimas.",
@@ -2382,14 +2390,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "atsiprašymas",
+      "taisymas",
+      "mokymasis"
+    ],
     "translation": "mistake, error"
   },
   {
     "term": "pokytis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kažko pasikeitimas ar transformacija.",
@@ -2402,16 +2414,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "kaita"
+    ],
+    "antonymTerms": [
+      "stabilumas"
+    ],
+    "relatedTerms": [
+      "transformacija",
+      "reforma",
+      "pažanga"
+    ],
     "translation": "change, shift"
   },
   {
     "term": "ateitis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Laikas, kuris dar neatėjo.",
@@ -2425,8 +2445,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "praeitis"
+    ],
+    "relatedTerms": [
+      "planavimas",
+      "dabartis",
+      "perspektyva"
+    ],
     "translation": "future"
   },
   {
