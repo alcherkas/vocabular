@@ -1,1 +1,2421 @@
-[]
+[
+  {
+    "term": "baudžiamoji teisė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teisės sritis, reguliuojanti nusikalstamumą.",
+        "example": "Baudžiamoji teisė nustato bausmes.",
+        "register": "formal",
+        "tags": [
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "civilinė teisė",
+      "teisė"
+    ],
+    "translation": "criminal law"
+  },
+  {
+    "term": "viešoji teisė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teisės sritis, reglamentuojanti visuomeninius santykius.",
+        "example": "Viešoji teisė apima konstitucinę teisę.",
+        "register": "formal",
+        "tags": [
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "privati teisė"
+    ],
+    "relatedTerms": [
+      "konstitucinė teisė",
+      "administracinė teisė"
+    ],
+    "translation": "public law"
+  },
+  {
+    "term": "privati teisė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teisės sritis, reglamentuojanti privačius santykius.",
+        "example": "Privati teisė sprendžia sutartines bylas.",
+        "register": "formal",
+        "tags": [
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "viešoji teisė"
+    ],
+    "relatedTerms": [
+      "civilinė teisė",
+      "teisė"
+    ],
+    "translation": "private law"
+  },
+  {
+    "term": "tarptautinė teisė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Normos, reglamentuojančios tarpvalstybinių santykius.",
+        "example": "Tarptautinė teisė draudžia agresyvų karą.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "international"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "teisė",
+      "diplomatija"
+    ],
+    "translation": "international law"
+  },
+  {
+    "term": "konstitucinė teisė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teisė, reglamentuojanti valstybę ir pagrindines teises.",
+        "example": "Konstitucinė teisė saugo piliečių teises.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "government"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "viešoji teisė",
+      "demokratija"
+    ],
+    "translation": "constitutional law"
+  },
+  {
+    "term": "administracinė teisė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teisė, reguliuojanti valdžios institucijų veiklą.",
+        "example": "Administracinė teisė kontroliuoja viešąjį sektorių.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "administration"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "viešoji teisė",
+      "savivaldybė"
+    ],
+    "translation": "administrative law"
+  },
+  {
+    "term": "teisinis ginčas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teisinis nesutarimas tarp šalių.",
+        "example": "Teisinis ginčas vyko metus teisme.",
+        "register": "formal",
+        "tags": [
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bylinėjimasis",
+      "teismas"
+    ],
+    "translation": "legal dispute"
+  },
+  {
+    "term": "bylinėjimasis",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teisminio proceso vykdymas.",
+        "example": "Bylinėjimasis brangiai kainavo.",
+        "register": "formal",
+        "tags": [
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "teisinis ginčas",
+      "advokatas"
+    ],
+    "translation": "litigation"
+  },
+  {
+    "term": "prisiekusysis",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teismo proceso dalyvis, sprendžiantis bylą.",
+        "example": "Prisiekusieji paskelbė nuosprendį.",
+        "register": "formal",
+        "tags": [
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "liudytojas",
+      "teismas"
+    ],
+    "translation": "juror"
+  },
+  {
+    "term": "liudytojas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Asmuo, davęs parodymus teisme.",
+        "example": "Liudytojas patvirtino kaltinamojo alibi.",
+        "register": "formal",
+        "tags": [
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "prisiekusysis",
+      "kaltinamasis"
+    ],
+    "translation": "witness"
+  },
+  {
+    "term": "kaltinamasis",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Asmuo, kuriam pateikti kaltinimai.",
+        "example": "Kaltinamasis teigė esąs nekaltas.",
+        "register": "formal",
+        "tags": [
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nuteistasis",
+      "liudytojas"
+    ],
+    "translation": "defendant, accused"
+  },
+  {
+    "term": "nuteistasis",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Asmuo, pripažintas kaltu ir nuteistas.",
+        "example": "Nuteistasis atliko bausmę kalėjime.",
+        "register": "formal",
+        "tags": [
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kaltinamasis",
+      "baudžiamoji teisė"
+    ],
+    "translation": "convicted person"
+  },
+  {
+    "term": "simfonija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Orchestrui skirtas daugiadalysis kūrinys.",
+        "example": "Beethoveno simfonija griaudėjo salėje.",
+        "register": "formal",
+        "tags": [
+          "music",
+          "classical"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "orkestras"
+    ],
+    "translation": "symphony"
+  },
+  {
+    "term": "kvartetas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Ansamblis iš keturių atlikėjų.",
+        "example": "Styginių kvartetas grojo sonatos.",
+        "register": "formal",
+        "tags": [
+          "music",
+          "ensemble"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "orkestras",
+      "simfonija"
+    ],
+    "translation": "quartet"
+  },
+  {
+    "term": "solistė",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Moteris, atliekanti solo partiją.",
+        "example": "Solistė atliko arijos dalį virtuoziškai.",
+        "register": "formal",
+        "tags": [
+          "music",
+          "performance"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "opera",
+      "muzika"
+    ],
+    "translation": "soloist (female)"
+  },
+  {
+    "term": "balerina",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Moterų baleto šokėja.",
+        "example": "Balerina šoko klasikinį vaidmenį.",
+        "register": "neutral",
+        "tags": [
+          "dance",
+          "ballet"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "choreografija",
+      "baletas"
+    ],
+    "translation": "ballerina"
+  },
+  {
+    "term": "choreografija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Šokio judesių kūrimas ir projektavimas.",
+        "example": "Choreografija buvo originali ir nuostabi.",
+        "register": "formal",
+        "tags": [
+          "dance",
+          "art"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "balerina",
+      "šokis"
+    ],
+    "translation": "choreography"
+  },
+  {
+    "term": "scenografija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teatro ar filmo dekoracijų ir erdvės kūrimas.",
+        "example": "Spektaklio scenografija buvo įspūdinga.",
+        "register": "formal",
+        "tags": [
+          "theater",
+          "art"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "teatras",
+      "menas"
+    ],
+    "translation": "stage design, scenography"
+  },
+  {
+    "term": "mozaika",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Meno kūrinys, sudarytas iš smulkių elementų.",
+        "example": "Mozaika puošė bažnyčios grindis.",
+        "register": "neutral",
+        "tags": [
+          "art",
+          "decoration"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tapyba",
+      "menas"
+    ],
+    "translation": "mosaic"
+  },
+  {
+    "term": "tyrimo klausimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pagrindinis moksliniam tyrimui skirtas klausimas.",
+        "example": "Tyrimo klausimas buvo aiškiai suformuluotas.",
+        "register": "formal",
+        "tags": [
+          "research",
+          "academia"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "hipotezė",
+      "metodologija"
+    ],
+    "translation": "research question"
+  },
+  {
+    "term": "stebėjimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Sistemiškas reiškinių stebėjimas.",
+        "example": "Stebėjimas buvo metodologiškai kruopštus.",
+        "register": "formal",
+        "tags": [
+          "research",
+          "science"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "eksperimentas",
+      "tyrimas"
+    ],
+    "translation": "observation"
+  },
+  {
+    "term": "interpretacija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Reikšmės suteikimas ar aiškinimas.",
+        "example": "Teksto interpretacija skyrėsi.",
+        "register": "formal",
+        "tags": [
+          "research",
+          "meaning"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "analizė",
+      "tyrimas"
+    ],
+    "translation": "interpretation"
+  },
+  {
+    "term": "duomenų analizė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Duomenų tyrimas, siekiant išvadų.",
+        "example": "Duomenų analizė parodė augimo tendenciją.",
+        "register": "formal",
+        "tags": [
+          "research",
+          "statistics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kiekybinis tyrimas",
+      "statistika"
+    ],
+    "translation": "data analysis"
+  },
+  {
+    "term": "empirinis tyrimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Tyrimas, grįstas stebėjimais ir eksperimentais.",
+        "example": "Empirinis tyrimas rėmėsi realių duomenų.",
+        "register": "formal",
+        "tags": [
+          "research",
+          "science"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kokybinis tyrimas",
+      "metodologija"
+    ],
+    "translation": "empirical research"
+  },
+  {
+    "term": "kokybinis tyrimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Tyrimas, analizuojantis ne skaičius, o reikšmes.",
+        "example": "Kokybinis tyrimas atskleidė naujų įžvalgų.",
+        "register": "formal",
+        "tags": [
+          "research",
+          "methodology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "kiekybinis tyrimas"
+    ],
+    "relatedTerms": [
+      "empirinis tyrimas",
+      "metodologija"
+    ],
+    "translation": "qualitative research"
+  },
+  {
+    "term": "kiekybinis tyrimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Tyrimas, naudojantis skaičius ir statistiką.",
+        "example": "Kiekybinis tyrimas apklausė tūkstančius respondentų.",
+        "register": "formal",
+        "tags": [
+          "research",
+          "methodology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "kokybinis tyrimas"
+    ],
+    "relatedTerms": [
+      "duomenų analizė",
+      "statistika"
+    ],
+    "translation": "quantitative research"
+  },
+  {
+    "term": "gyventojų skaičiaus augimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Gyventojų populiacijos didėjimas.",
+        "example": "Gyventojų skaičiaus augimas kelia iššūkių.",
+        "register": "formal",
+        "tags": [
+          "demographics",
+          "society"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "demografija",
+      "imigracija"
+    ],
+    "translation": "population growth"
+  },
+  {
+    "term": "imigracija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Atvykimas į šalį gyventi.",
+        "example": "Imigracija padidino darbo jėgą.",
+        "register": "formal",
+        "tags": [
+          "demographics",
+          "society"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "emigracija"
+    ],
+    "relatedTerms": [
+      "diaspora",
+      "migracija"
+    ],
+    "translation": "immigration"
+  },
+  {
+    "term": "diaspora",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Žmonės, gyvenantys ne savo gimtinėje.",
+        "example": "Lietuvių diaspora yra penkiuose žemynuose.",
+        "register": "formal",
+        "tags": [
+          "demographics",
+          "society"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "imigracija",
+      "emigracija"
+    ],
+    "translation": "diaspora"
+  },
+  {
+    "term": "multikultūralizmas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Skirtingų kultūrų sambūvis visuomenėje.",
+        "example": "Multikultūralizmas gali praturtinti visuomenę.",
+        "register": "formal",
+        "tags": [
+          "society",
+          "culture"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tarpkultūrinė kompetencija",
+      "kultūra"
+    ],
+    "translation": "multiculturalism"
+  },
+  {
+    "term": "tarpkultūrinė kompetencija",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Gebėjimas veiksmingai bendrauti tarp kultūrų.",
+        "example": "Tarpkultūrinė kompetencija svarbi tarptautiniam verslui.",
+        "register": "formal",
+        "tags": [
+          "culture",
+          "skills"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "multikultūralizmas",
+      "komunikacija"
+    ],
+    "translation": "intercultural competence"
+  },
+  {
+    "term": "kvantinis kompiuteris",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kompiuteris, naudojantis kvantinę mechaniką.",
+        "example": "Kvantinis kompiuteris gali spręsti sudėtingas lygtis.",
+        "register": "technical",
+        "tags": [
+          "technology",
+          "computing"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "neuroninis tinklas"
+    ],
+    "translation": "quantum computer"
+  },
+  {
+    "term": "gilioji mokymasis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Mašininio mokymosi metodas, naudojantis neuroninių tinklus.",
+        "example": "Gilioji mokymasis naudojama vaizdų atpažinimui.",
+        "register": "technical",
+        "tags": [
+          "AI",
+          "technology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "neuroninis tinklas"
+    ],
+    "translation": "deep learning"
+  },
+  {
+    "term": "neuroninis tinklas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Dirbtinis modelis, imituojantis smegenų veiklą.",
+        "example": "Neuroninis tinklas moko atskirti paveikslus.",
+        "register": "technical",
+        "tags": [
+          "AI",
+          "technology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gilioji mokymasis"
+    ],
+    "translation": "neural network"
+  },
+  {
+    "term": "algoritminis šališkumas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nesąžiningumas algoritmų sprendimuose.",
+        "example": "Algoritminis šališkumas gali diskriminuoti grupes.",
+        "register": "technical",
+        "tags": [
+          "AI",
+          "ethics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "etika"
+    ],
+    "translation": "algorithmic bias"
+  },
+  {
+    "term": "bioįvairovė",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Gyvosios gamtos rūšių įvairovė.",
+        "example": "Bioįvairovė yra svarbi ekosistemų stabilumui.",
+        "register": "formal",
+        "tags": [
+          "environment",
+          "biology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ekosistema",
+      "aplinkosauga"
+    ],
+    "translation": "biodiversity"
+  },
+  {
+    "term": "klimato atšilimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Vidutinės temperatūros kilimas Žemėje.",
+        "example": "Klimato atšilimas kelia pavojų jūros lygiui.",
+        "register": "formal",
+        "tags": [
+          "environment",
+          "climate"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "klimato politika",
+      "anglies pėdsakas"
+    ],
+    "translation": "global warming"
+  },
+  {
+    "term": "darnaus vystymosi tikslas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "JT nustatyti pasaulinio vystymosi tikslai.",
+        "example": "Darnaus vystymosi tikslai apima 17 sričių.",
+        "register": "formal",
+        "tags": [
+          "policy",
+          "environment"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "darnus",
+      "aplinkosauga"
+    ],
+    "translation": "sustainable development goal"
+  },
+  {
+    "term": "savirealizacija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Savo pilno potencialo pasiekimas.",
+        "example": "Savirealizacija – aukščiausias Maslow piramidės lygmuo.",
+        "register": "formal",
+        "tags": [
+          "psychology",
+          "motivation"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "identiteto krizė",
+      "motyvacija"
+    ],
+    "translation": "self-actualization"
+  },
+  {
+    "term": "identiteto krizė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nesupratimas apie savo tapatybę.",
+        "example": "Identiteto krizė dažna paauglystėje.",
+        "register": "formal",
+        "tags": [
+          "psychology",
+          "identity"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "savirealizacija"
+    ],
+    "translation": "identity crisis"
+  },
+  {
+    "term": "pozityviosios psichologijos",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Psichologijos šaka, tyrinėjanti laimę ir gerovę.",
+        "example": "Pozityviosios psichologijos metodai gerina savijautą.",
+        "register": "formal",
+        "tags": [
+          "psychology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mindfulness",
+      "psichologija"
+    ],
+    "translation": "positive psychology"
+  },
+  {
+    "term": "mindfulness",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Sąmoningo buvimo dabartyje praktika.",
+        "example": "Mindfulness padeda sumažinti stresą.",
+        "register": "neutral",
+        "tags": [
+          "psychology",
+          "meditation"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "stresą mažinančios technikos",
+      "meditacija"
+    ],
+    "translation": "mindfulness"
+  },
+  {
+    "term": "stresą mažinančios technikos",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Metodai, padedantys mažinti stresą.",
+        "example": "Kvėpavimo pratimai – stresą mažinančios technikos.",
+        "register": "formal",
+        "tags": [
+          "health",
+          "psychology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "mindfulness",
+      "stresas"
+    ],
+    "translation": "stress reduction techniques"
+  },
+  {
+    "term": "išsiblaškymas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Dėmesio trūkumas ir sunkumas susikaupti.",
+        "example": "Išsiblaškymas trukdo mokytis.",
+        "register": "neutral",
+        "tags": [
+          "cognition",
+          "attention"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "susikaupimas"
+    ],
+    "relatedTerms": [
+      "dėmesys",
+      "produktyvumas"
+    ],
+    "translation": "distraction, absentmindedness"
+  },
+  {
+    "term": "susikaupimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Didelis dėmesio sutelkimas į darbą.",
+        "example": "Susikaupimas padeda atlikti užduotį.",
+        "register": "neutral",
+        "tags": [
+          "cognition",
+          "focus"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "išsiblaškymas"
+    ],
+    "relatedTerms": [
+      "produktyvumas"
+    ],
+    "translation": "concentration, focus"
+  },
+  {
+    "term": "produktyvumas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Darbo rezultatyvumas per laiko vienetą.",
+        "example": "Produktyvumas išaugo dėl naujų įrankių.",
+        "register": "formal",
+        "tags": [
+          "work",
+          "efficiency"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "efektyvumas",
+      "darbas"
+    ],
+    "translation": "productivity"
+  },
+  {
+    "term": "efektyvumas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Tikslų pasiekimas mažiausiomis sąnaudomis.",
+        "example": "Sistemos efektyvumas buvo įvertintas.",
+        "register": "formal",
+        "tags": [
+          "work",
+          "efficiency"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "produktyvumas",
+      "optimalus"
+    ],
+    "translation": "efficiency"
+  },
+  {
+    "term": "optimalus",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Geriausias galimas rezultatas.",
+        "example": "Optimalus sprendimas buvo pasirinktas.",
+        "register": "formal",
+        "tags": [
+          "quality",
+          "decision"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "efektyvumas",
+      "optimaliai"
+    ],
+    "translation": "optimal"
+  },
+  {
+    "term": "optimaliai",
+    "language": "lt",
+    "partOfSpeech": "adverb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Geriausiu įmanomu būdu.",
+        "example": "Resursai paskirstyti optimaliai.",
+        "register": "formal",
+        "tags": [
+          "quality"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "optimalus",
+      "efektyviai"
+    ],
+    "translation": "optimally"
+  },
+  {
+    "term": "subalansuotas",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teisingai paskirstytas arba proporcingas.",
+        "example": "Subalansuota mityba skatina sveikatą.",
+        "register": "neutral",
+        "tags": [
+          "quality",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "darnus"
+    ],
+    "translation": "balanced"
+  },
+  {
+    "term": "darnus",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Harmoningas ar tvariai besivystantis.",
+        "example": "Darni plėtra saugo aplinką.",
+        "register": "formal",
+        "tags": [
+          "environment",
+          "quality"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "subalansuotas",
+      "darniai"
+    ],
+    "translation": "sustainable, harmonious"
+  },
+  {
+    "term": "darniai",
+    "language": "lt",
+    "partOfSpeech": "adverb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Harmoningai ar suderintai.",
+        "example": "Visi dirbo darniai.",
+        "register": "formal",
+        "tags": [
+          "quality"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "darnus",
+      "sistemingai"
+    ],
+    "translation": "harmoniously, sustainably"
+  },
+  {
+    "term": "pažangiai",
+    "language": "lt",
+    "partOfSpeech": "adverb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Moderniai ar tobulėjimo kryptimi.",
+        "example": "Įmonė dirba pažangiai.",
+        "register": "formal",
+        "tags": [
+          "quality",
+          "progress"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sistemingai",
+      "optimaliai"
+    ],
+    "translation": "progressively, in an advanced manner"
+  },
+  {
+    "term": "sistemingai",
+    "language": "lt",
+    "partOfSpeech": "adverb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Metodiškai ir nuosekliai.",
+        "example": "Jis sistemingai studijavosi prieš egzaminą.",
+        "register": "neutral",
+        "tags": [
+          "method",
+          "quality"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pažangiai"
+    ],
+    "translation": "systematically"
+  },
+  {
+    "term": "faza",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Proceso ar raidėjos etapas.",
+        "example": "Projektas yra pirmoje fazėje.",
+        "register": "neutral",
+        "tags": [
+          "process",
+          "phase"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "etapas",
+      "procesas"
+    ],
+    "translation": "phase"
+  },
+  {
+    "term": "lūžio taškas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kritinis momentas, po kurio keičiasi kryptis.",
+        "example": "Bendrovė pasiekė lūžio tašką.",
+        "register": "formal",
+        "tags": [
+          "concept",
+          "change"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "faza",
+      "pokytis"
+    ],
+    "translation": "turning point, breakthrough"
+  },
+  {
+    "term": "priežastinis ryšys",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Ryšys tarp priežasties ir pasekmės.",
+        "example": "Tyrimai įrodė priežastinį ryšį.",
+        "register": "formal",
+        "tags": [
+          "logic",
+          "science"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pasekmė",
+      "logika"
+    ],
+    "translation": "causal relationship"
+  },
+  {
+    "term": "vytis",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Senkti ar vysti (apie augalus).",
+        "example": "Gėlės vyto dėl vandens trūkumo.",
+        "register": "neutral",
+        "tags": [
+          "nature",
+          "plant"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gamta"
+    ],
+    "translation": "to wilt, to wither",
+    "forms": {
+      "present3": "vysta",
+      "past3": "vyto"
+    },
+    "governedCase": null
+  },
+  {
+    "term": "džiūti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Prarasti drėgmę.",
+        "example": "Skalbiniai džiūvo saulėje.",
+        "register": "neutral",
+        "tags": [
+          "action",
+          "drying"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "drėkinimas",
+      "gamta"
+    ],
+    "translation": "to dry, to dry out",
+    "forms": {
+      "present3": "džiūsta",
+      "past3": "džiūvo"
+    },
+    "governedCase": null
+  },
+  {
+    "term": "tirpti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Mažėti nuo šilumos arba iš kietojo į skystą.",
+        "example": "Ledas tirpo saulėje.",
+        "register": "neutral",
+        "tags": [
+          "physics",
+          "nature"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ledas",
+      "fizika"
+    ],
+    "translation": "to melt",
+    "forms": {
+      "present3": "tirpsta",
+      "past3": "tirpo"
+    },
+    "governedCase": null
+  },
+  {
+    "term": "kristalizuotis",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Formuoti kristalus arba tapti aiškiam.",
+        "example": "Mintis kristalizavosi per pokalbį.",
+        "register": "formal",
+        "tags": [
+          "chemistry",
+          "thought"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "chemija"
+    ],
+    "translation": "to crystallize",
+    "forms": {
+      "present3": "kristalizuojasi",
+      "past3": "kristalizavosi"
+    },
+    "governedCase": null
+  },
+  {
+    "term": "tyrinėti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Detaliai analizuoti ar tirti.",
+        "example": "Mokslininkai tyrinėjo ląstelių struktūrą.",
+        "register": "formal",
+        "tags": [
+          "research",
+          "science"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "atrasti",
+      "mokslas"
+    ],
+    "translation": "to investigate, to explore",
+    "forms": {
+      "present3": "tyrinėja",
+      "past3": "tyrinėjo"
+    },
+    "governedCase": "ką?"
+  },
+  {
+    "term": "atrasti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Rasti naują žinią ar reiškinį.",
+        "example": "Jie atrado naują augalų rūšį.",
+        "register": "neutral",
+        "tags": [
+          "research",
+          "discovery"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tyrinėti",
+      "naujovė"
+    ],
+    "translation": "to discover",
+    "forms": {
+      "present3": "atranda",
+      "past3": "atrado"
+    },
+    "governedCase": "ką?"
+  },
+  {
+    "term": "pasikartoti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Įvykti vėl ar kartotis.",
+        "example": "Klaida pasikartojo antrą kartą.",
+        "register": "neutral",
+        "tags": [
+          "action",
+          "pattern"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": "to repeat, to recur",
+    "forms": {
+      "present3": "pasikartoja",
+      "past3": "pasikartojo"
+    },
+    "governedCase": null
+  },
+  {
+    "term": "standartizuoti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Padaryti vienodą pagal standartą.",
+        "example": "Procesai buvo standartizuoti.",
+        "register": "formal",
+        "tags": [
+          "management",
+          "process"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "harmonizuoti",
+      "metodas"
+    ],
+    "translation": "to standardize",
+    "forms": {
+      "present3": "standartizuoja",
+      "past3": "standartizavo"
+    },
+    "governedCase": "ką?"
+  },
+  {
+    "term": "harmonizuoti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Derinti ar suderinti skirtingus elementus.",
+        "example": "Reglamentai harmonizuoti ES lygmeniu.",
+        "register": "formal",
+        "tags": [
+          "policy",
+          "management"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "standartizuoti",
+      "politika"
+    ],
+    "translation": "to harmonize",
+    "forms": {
+      "present3": "harmonizuoja",
+      "past3": "harmonizavo"
+    },
+    "governedCase": "ką?"
+  },
+  {
+    "term": "atominis branduolys",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Atomo centrinė dalis.",
+        "example": "Atominiam branduoliui būdingas didelis energijos kiekis.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "chemistry"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "elektronas",
+      "protonas"
+    ],
+    "translation": "atomic nucleus"
+  },
+  {
+    "term": "elementariosios dalelės",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Mažiausios gamtos sudedamosios dalys.",
+        "example": "Elementariosios dalelės tiriamos fizikos laboratorijose.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "science"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "elektronas",
+      "fotonai"
+    ],
+    "translation": "elementary particles"
+  },
+  {
+    "term": "fotonai",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Šviesos kvantas arba elektromagnetinės spinduliuotės dalelė.",
+        "example": "Fotonai perneša šviesos energiją.",
+        "register": "technical",
+        "tags": [
+          "physics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "fizika"
+    ],
+    "translation": "photons"
+  },
+  {
+    "term": "elektronas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Neigiamo krūvio subatominė dalelė.",
+        "example": "Elektronas sukasi aplink atomo branduolį.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "chemistry"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "protonas"
+    ],
+    "translation": "electron"
+  },
+  {
+    "term": "protonas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teigiamo krūvio subatominė dalelė.",
+        "example": "Protonas yra branduolio dalis.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "chemistry"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "elektronas",
+      "atominis branduolys"
+    ],
+    "translation": "proton"
+  },
+  {
+    "term": "neutrinas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Elektrai neutrali subatominė dalelė.",
+        "example": "Neutrinai prasiskverbia per materiją.",
+        "register": "technical",
+        "tags": [
+          "physics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "elementariosios dalelės",
+      "fizika"
+    ],
+    "translation": "neutrino"
+  },
+  {
+    "term": "izotopas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To paties elemento atomas su skirtingu neutronų skaičiumi.",
+        "example": "Anglies izotopai naudojami datavimui.",
+        "register": "technical",
+        "tags": [
+          "chemistry",
+          "physics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "chemija"
+    ],
+    "translation": "isotope"
+  },
+  {
+    "term": "radioaktyvumas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Savaiminis branduolių skilimas su spinduliuote.",
+        "example": "Radioaktyvumas pavojingas sveikatai.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "safety"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "izotopas",
+      "fizika"
+    ],
+    "translation": "radioactivity"
+  },
+  {
+    "term": "operacinis stalas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Medicininis stalas, ant kurio atliekama operacija.",
+        "example": "Pacientas buvo paguldytas ant operacinio stalo.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "surgery"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ligoninė"
+    ],
+    "translation": "operating table"
+  },
+  {
+    "term": "chemoterapija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Cheminių medžiagų naudojimas vėžio gydymui.",
+        "example": "Chemoterapija truko šešis mėnesius.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "oncology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "radioterapija"
+    ],
+    "translation": "chemotherapy"
+  },
+  {
+    "term": "radioterapija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Spinduliuotės naudojimas navikams gydyti.",
+        "example": "Radioterapija sumažino naviką.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "oncology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "chemoterapija"
+    ],
+    "translation": "radiotherapy"
+  },
+  {
+    "term": "imunologas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Gydytojas, specializuotas imunologijoje.",
+        "example": "Imunologas tyrė alerginę reakciją.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "specialist"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "specialistas"
+    ],
+    "translation": "immunologist"
+  },
+  {
+    "term": "gastroenterologas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Gydytojas, specializuojantis virškinimo sistemos ligose.",
+        "example": "Gastroenterologas diagnozavo ulcerą.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "specialist"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "specialistas",
+      "virškinimo sistema"
+    ],
+    "translation": "gastroenterologist"
+  },
+  {
+    "term": "fermentacija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Biocheminis procesas, naudojantis mikroorganizmus.",
+        "example": "Fermentacija naudojama gaminant vyną.",
+        "register": "technical",
+        "tags": [
+          "food",
+          "chemistry"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "rūgimas",
+      "chemija"
+    ],
+    "translation": "fermentation"
+  },
+  {
+    "term": "rūgimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pieno produktų rūgštėjimas.",
+        "example": "Pienas rūgsta šiltoje aplinkoje.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "chemistry"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "fermentacija",
+      "pienas"
+    ],
+    "translation": "fermentation (souring)"
+  },
+  {
+    "term": "konservavimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Maisto produktų saugojimo metodas.",
+        "example": "Konservavimas pratęsė maisto laikymo laiką.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "preservation"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pasterizavimas"
+    ],
+    "translation": "food preservation"
+  },
+  {
+    "term": "pasterizavimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kaitinimas kenksmingam mikrobų naikinimui.",
+        "example": "Pasterizavimas apsaugo pieną.",
+        "register": "technical",
+        "tags": [
+          "food",
+          "processing"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "konservavimas",
+      "pienas"
+    ],
+    "translation": "pasteurization"
+  },
+  {
+    "term": "maisto priedai",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Cheminiai priedai maisto produktuose.",
+        "example": "Maisto priedai žymimi E numeriais.",
+        "register": "neutral",
+        "tags": [
+          "food",
+          "chemistry"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vitaminai"
+    ],
+    "translation": "food additives"
+  },
+  {
+    "term": "mineralai",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Svarbūs neorganiniai maistiniai elementai.",
+        "example": "Mineralai, kaip geležis, reikalingi kraujui.",
+        "register": "neutral",
+        "tags": [
+          "nutrition",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vitaminai"
+    ],
+    "translation": "minerals"
+  },
+  {
+    "term": "angliavandeniai",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Organiniai junginiai, tiekiantys energiją.",
+        "example": "Angliavandeniai randami duonoje ir ryžiuose.",
+        "register": "technical",
+        "tags": [
+          "nutrition",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "riebalai",
+      "baltymai"
+    ],
+    "translation": "carbohydrates"
+  },
+  {
+    "term": "riebalai",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Maistinė medžiaga, kaupiama kaip energija.",
+        "example": "Riebalai reikalingi vitaminų absorbcijai.",
+        "register": "neutral",
+        "tags": [
+          "nutrition",
+          "food"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "angliavandeniai",
+      "baltymai"
+    ],
+    "translation": "fats"
+  },
+  {
+    "term": "kraujo grupė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kraujo klasifikavimo sistema.",
+        "example": "Jos kraujo grupė yra A+.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "biology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Rh veiksnys",
+      "medicina"
+    ],
+    "translation": "blood type"
+  },
+  {
+    "term": "Rh veiksnys",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kraujo antigenų sistema.",
+        "example": "Rh veiksnys svarbus nėštumo metu.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "biology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kraujo grupė",
+      "medicina"
+    ],
+    "translation": "Rh factor"
+  },
+  {
+    "term": "kaulų lūžis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kaulo įtrūkimas ar lūžimas.",
+        "example": "Kaulų lūžis reikalauja gipso.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "trauma"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sąnariai"
+    ],
+    "translation": "bone fracture"
+  },
+  {
+    "term": "sąnariai",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kaulų jungtys, leidžiančios judėti.",
+        "example": "Sąnariai skaudėjo dėl artroso.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kaulų lūžis",
+      "stuburas"
+    ],
+    "translation": "joints"
+  },
+  {
+    "term": "širdies ritmas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Širdies plakimo dažnis.",
+        "example": "Širdies ritmas buvo normalus.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "cardiology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kraujotakos sistema",
+      "kardiologas"
+    ],
+    "translation": "heart rate"
+  },
+  {
+    "term": "kraujotakos sistema",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Sistema, perneša kraują po kūną.",
+        "example": "Kraujotakos sistema apima širdį ir kraujagyslės.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "širdies ritmas",
+      "širdis"
+    ],
+    "translation": "circulatory system"
+  },
+  {
+    "term": "kvėpavimo sistema",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Sistema, atsakinga už dujų mainus.",
+        "example": "Kvėpavimo sistema gali pažeisti virusai.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "plaučiai",
+      "medicina"
+    ],
+    "translation": "respiratory system"
+  },
+  {
+    "term": "nervų sistema",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Sistema, valdanti kūno funkcijas per nervus.",
+        "example": "Nervų sistema apima smegenis ir stuburo smegenys.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "smegenys",
+      "medicina"
+    ],
+    "translation": "nervous system"
+  },
+  {
+    "term": "endokrininė sistema",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Sistema, reguliuojanti hormonų gamybą.",
+        "example": "Endokrininė sistema kontroliuoja metabolizmą.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "hormonas",
+      "medicina"
+    ],
+    "translation": "endocrine system"
+  },
+  {
+    "term": "virškinimo sistema",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Sistema, atliekanti maisto virškimą.",
+        "example": "Virškinimo sistema prasideda burnoje.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "anatomy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "gastroenterologas",
+      "skrandis"
+    ],
+    "translation": "digestive system"
+  },
+  {
+    "term": "baltymo trūkumas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nepakankamas baltymų kiekis organizme.",
+        "example": "Baltymo trūkumas gali sukelti raumenų nykimą.",
+        "register": "technical",
+        "tags": [
+          "nutrition",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "baltymai"
+    ],
+    "translation": "protein deficiency"
+  },
+  {
+    "term": "fiziologinis",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Susijęs su kūno funkcijomis ir procesais.",
+        "example": "Fiziologinis atsakas buvo normalus.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "biology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "biochemija",
+      "biologija"
+    ],
+    "translation": "physiological"
+  },
+  {
+    "term": "biochemija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Mokslas apie chemines reakcijas organizmuose.",
+        "example": "Biochemija tyrinėja medžiagų apykaitą.",
+        "register": "technical",
+        "tags": [
+          "science",
+          "medicine"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "fiziologinis",
+      "chemija"
+    ],
+    "translation": "biochemistry"
+  }
+]
