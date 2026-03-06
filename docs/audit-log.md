@@ -91,3 +91,5 @@ Agents append one entry here **after each commit** and **after every irreversibl
 - **Production count**: 2464 LT words
 - **Commit**: `publish: move 37 approved LT words to production`
 - **Reversible**: Yes (`git revert`)
+
+[2026-03-06] [enricher-lt-agent] [vocab-enricher-lt] [commit] [completed] [100%] Enriched 100 LT stubs across 20 batches | doubts: none
