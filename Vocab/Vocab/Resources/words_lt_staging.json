@@ -1,1 +1,2421 @@
-[]
+[
+  {
+    "term": "naudotojas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Asmuo, naudojantis sistemą ar paslaugą.",
+        "example": "Sistemoje registruota tūkstančiai naudotojų.",
+        "register": "technical",
+        "tags": [
+          "IT",
+          "user"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sistema"
+    ],
+    "translation": "user"
+  },
+  {
+    "term": "prieiga",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teisė ar galimybė naudotis kažkuo.",
+        "example": "Naudotojas turi prieigą prie duomenų.",
+        "register": "technical",
+        "tags": [
+          "IT",
+          "access"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "saugumas",
+      "sistema"
+    ],
+    "translation": "access"
+  },
+  {
+    "term": "automatizavimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Procesų vykdymas be žmogaus įsikišimo.",
+        "example": "Automatizavimas sumažino darbų sąnaudas.",
+        "register": "technical",
+        "tags": [
+          "technology",
+          "work"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "robotas"
+    ],
+    "translation": "automation"
+  },
+  {
+    "term": "robotas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Automatinė mašina, atliekanti žmogaus užduotis.",
+        "example": "Robotas surinkdavo detales.",
+        "register": "technical",
+        "tags": [
+          "technology",
+          "engineering"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "automatizavimas"
+    ],
+    "translation": "robot"
+  },
+  {
+    "term": "saugumas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Apsauga nuo grėsmių ar pavojų.",
+        "example": "Kibernetinis saugumas yra prioritetas.",
+        "register": "neutral",
+        "tags": [
+          "technology",
+          "safety"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "prieiga"
+    ],
+    "translation": "security, safety"
+  },
+  {
+    "term": "tapatybės vagystė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nusikaltimas, kai vagystė naudojant kito asmens duomenis.",
+        "example": "Tapatybės vagystė sukėlė daug problemų.",
+        "register": "formal",
+        "tags": [
+          "crime",
+          "IT"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sukčiavimas",
+      "kibernetinė ataka"
+    ],
+    "translation": "identity theft"
+  },
+  {
+    "term": "kibernetinė ataka",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nusikaltimas naudojant interneto sistemas.",
+        "example": "Kibernetinė ataka sustabdė tinklalapio darbą.",
+        "register": "technical",
+        "tags": [
+          "cybersecurity",
+          "crime"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tapatybės vagystė",
+      "saugumas"
+    ],
+    "translation": "cyberattack"
+  },
+  {
+    "term": "tiesioginė laida",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Tiesioginis televizijos ar radijo transliavimas.",
+        "example": "Tiesioginė laida iš sporto rungtynių traukė žiūrovus.",
+        "register": "neutral",
+        "tags": [
+          "media",
+          "television"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "transliacija",
+      "žiniasklaida"
+    ],
+    "translation": "live broadcast"
+  },
+  {
+    "term": "reitingas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Vertinimo ar populiarumo skaičius.",
+        "example": "Filmo reitingas kino svetainėje buvo labai aukštas.",
+        "register": "neutral",
+        "tags": [
+          "media",
+          "rating"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vertinimas"
+    ],
+    "translation": "rating"
+  },
+  {
+    "term": "reklamos kampanija",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Organizuota produkto ar paslaugos reklaminė veikla.",
+        "example": "Reklamos kampanija pritraukė naujų klientų.",
+        "register": "formal",
+        "tags": [
+          "marketing",
+          "business"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "reklama"
+    ],
+    "translation": "advertising campaign"
+  },
+  {
+    "term": "žiūrovų auditorija",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Programa stebinčių žiūrovų grupė.",
+        "example": "Žiūrovų auditorija pasiekė rekordinę aukštumą.",
+        "register": "formal",
+        "tags": [
+          "media",
+          "audience"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "reitingas",
+      "žiniasklaida"
+    ],
+    "translation": "viewing audience"
+  },
+  {
+    "term": "peticija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Oficialus prašymas, pasirašomas daugelio žmonių.",
+        "example": "Piliečiai surašė peticiją dėl žaliojo plano.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "civic"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "protestas",
+      "demonstracija"
+    ],
+    "translation": "petition"
+  },
+  {
+    "term": "manifestas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Viešas dokumentas, skelbiantis įsitikinimus ar tikslus.",
+        "example": "Partija paskelbė rinkimų manifestą.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "document"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "programa",
+      "politika"
+    ],
+    "translation": "manifesto"
+  },
+  {
+    "term": "demonstracija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Viešas protestas ar minios rinkimasis.",
+        "example": "Demonstracija centre sulaukė tūkstančių dalyvių.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "civic"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "protestas",
+      "peticija"
+    ],
+    "translation": "demonstration, protest march"
+  },
+  {
+    "term": "protestas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nesutarimo ar priešinimosi pareiškimas.",
+        "example": "Protestas prieš naują įstatymą buvo labai didelis.",
+        "register": "neutral",
+        "tags": [
+          "politics",
+          "civic"
+        ]
+      }
+    ],
+    "synonyms": [
+      "demonstracija"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "peticija",
+      "opozicija"
+    ],
+    "translation": "protest"
+  },
+  {
+    "term": "teisės gynimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Asmeninių ar grupinių teisių apsauga.",
+        "example": "Organizacija užsiima žmogaus teisių gynimu.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "civic"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "pilietybė"
+    ],
+    "translation": "rights advocacy"
+  },
+  {
+    "term": "viešoji nuomonė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Daugumos visuomenės nuostata tam tikru klausimu.",
+        "example": "Viešoji nuomonė buvo prieš šį sprendimą.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "society"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "balsavimas",
+      "demokratija"
+    ],
+    "translation": "public opinion"
+  },
+  {
+    "term": "opozicija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Politinė grupė, nepritarianti valdančiai partijai.",
+        "example": "Opozicija kritikavo valdančiųjų biudžetą.",
+        "register": "formal",
+        "tags": [
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "koalicija"
+    ],
+    "relatedTerms": [
+      "valdžia",
+      "partija"
+    ],
+    "translation": "opposition"
+  },
+  {
+    "term": "koalicija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kelių partijų ar grupių sąjunga.",
+        "example": "Koalicija sudaryta iš trijų partijų.",
+        "register": "formal",
+        "tags": [
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "opozicija"
+    ],
+    "relatedTerms": [
+      "partija",
+      "valdžia"
+    ],
+    "translation": "coalition"
+  },
+  {
+    "term": "aplinkosaugos mokestis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Mokestis, skatinantis aplinkosaugą.",
+        "example": "Aplinkosaugos mokestis buvo pritaikytas plastiko gamybai.",
+        "register": "formal",
+        "tags": [
+          "environment",
+          "economics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "žiedinė ekonomika",
+      "ekologinė katastrofa"
+    ],
+    "translation": "environmental tax"
+  },
+  {
+    "term": "atsinaujinanti energija",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Energija iš saulės, vėjo ar kitų atsinaujinančių šaltinių.",
+        "example": "Atsinaujinanti energija mažina CO₂ emisijas.",
+        "register": "formal",
+        "tags": [
+          "energy",
+          "environment"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "saulės baterija",
+      "vėjo malūnas"
+    ],
+    "translation": "renewable energy"
+  },
+  {
+    "term": "vėjo malūnas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Įrenginys, generuojantis elektros energiją iš vėjo.",
+        "example": "Vėjo malūnai pastatyti jūros pakrantėje.",
+        "register": "neutral",
+        "tags": [
+          "energy",
+          "technology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "atsinaujinanti energija",
+      "saulės baterija"
+    ],
+    "translation": "wind turbine"
+  },
+  {
+    "term": "saulės baterija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Fotoelementų sistema, generuojanti elektros energiją iš saulės.",
+        "example": "Saulės baterijos ant stogo sutaupo elektros.",
+        "register": "neutral",
+        "tags": [
+          "energy",
+          "technology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "atsinaujinanti energija",
+      "vėjo malūnas"
+    ],
+    "translation": "solar panel"
+  },
+  {
+    "term": "elektros automobilis",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Automobilis, varomas elektros energija.",
+        "example": "Elektros automobilis yra ekologiškesnis.",
+        "register": "neutral",
+        "tags": [
+          "transport",
+          "environment"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [],
+    "translation": "electric car"
+  },
+  {
+    "term": "ekologinė katastrofa",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Rimtas aplinkos pažeidimas, paveikiantis ekosistemas.",
+        "example": "Naftos išsiliejimas sukėlė ekologinę katastrofą.",
+        "register": "formal",
+        "tags": [
+          "environment",
+          "disaster"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "stichinė nelaimė",
+      "aplinkosaugos mokestis"
+    ],
+    "translation": "ecological disaster"
+  },
+  {
+    "term": "kino filmas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kino teatre rodomas filmų kūrinys.",
+        "example": "Naujasis kino filmas pritraukė daug žiūrovų.",
+        "register": "neutral",
+        "tags": [
+          "film",
+          "art"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "serialas",
+      "kinas"
+    ],
+    "translation": "film, movie"
+  },
+  {
+    "term": "kūrybinis procesas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Idėjų generavimo ir įgyvendinimo procesas.",
+        "example": "Kūrybinis procesas reikalauja laiko ir tyrimų.",
+        "register": "neutral",
+        "tags": [
+          "art",
+          "work"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "menas",
+      "inovacija"
+    ],
+    "translation": "creative process"
+  },
+  {
+    "term": "nesutikimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Skirtingos nuomonės išraiška.",
+        "example": "Nesutikimas susirinkime nustebino visus.",
+        "register": "neutral",
+        "tags": [
+          "communication",
+          "debate"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "sutikimas"
+    ],
+    "relatedTerms": [
+      "ginčas",
+      "diskusija"
+    ],
+    "translation": "disagreement"
+  },
+  {
+    "term": "principas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pagrindinis moralinis ar loginis teiginys.",
+        "example": "Jis laikėsi savo principų.",
+        "register": "neutral",
+        "tags": [
+          "ethics",
+          "values"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "moralė",
+      "vertybė"
+    ],
+    "translation": "principle"
+  },
+  {
+    "term": "moralė",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Etiniai standartai, nustatantys, kas yra teisinga.",
+        "example": "Jo moralė neleido jam meluoti.",
+        "register": "formal",
+        "tags": [
+          "ethics",
+          "values"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "etika",
+      "principas"
+    ],
+    "translation": "morality, ethics"
+  },
+  {
+    "term": "pareiga",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Atsakomybė ar privalomas veiksmas.",
+        "example": "Mokesčių mokėjimas yra piliečio pareiga.",
+        "register": "formal",
+        "tags": [
+          "civic",
+          "responsibility"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "teisė"
+    ],
+    "relatedTerms": [
+      "atsakomybė",
+      "pilietybė"
+    ],
+    "translation": "duty, obligation"
+  },
+  {
+    "term": "darbo rinka",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Darbdavių ir darbuotojų santykiai ekonomikoje.",
+        "example": "Darbo rinka keičiasi technologijų įtakoje.",
+        "register": "formal",
+        "tags": [
+          "economics",
+          "work"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nedarbas",
+      "ekonomika"
+    ],
+    "translation": "labour market"
+  },
+  {
+    "term": "profesionalas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Asmuo, dirbantis profesionaliu lygiu savo srityje.",
+        "example": "Jis yra tikras profesionalas savo darbe.",
+        "register": "neutral",
+        "tags": [
+          "work",
+          "expertise"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "specialistas",
+      "ekspertas"
+    ],
+    "translation": "professional"
+  },
+  {
+    "term": "konsultantas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Ekspertas, teikiantis patarimus.",
+        "example": "Verslo konsultantas padėjo pertvarkyti įmonę.",
+        "register": "formal",
+        "tags": [
+          "work",
+          "business"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ekspertas",
+      "profesionalas"
+    ],
+    "translation": "consultant"
+  },
+  {
+    "term": "pagrindinis laikas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Laikas, kai televizijos žiūrimumas yra didžiausias.",
+        "example": "Reklama rodyta pagrindinio laiko metu.",
+        "register": "formal",
+        "tags": [
+          "media",
+          "television"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tiesioginė laida",
+      "televizija"
+    ],
+    "translation": "prime time"
+  },
+  {
+    "term": "viršvalandžiai",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Darbo valandos viršijančios nustatytą normą.",
+        "example": "Jis dirbo viršvalandžius baigdamas projektą.",
+        "register": "neutral",
+        "tags": [
+          "work",
+          "employment"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "darbas",
+      "laikas"
+    ],
+    "translation": "overtime"
+  },
+  {
+    "term": "fizinė sveikata",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kūno sveikatos būklė.",
+        "example": "Fizinė sveikata priklauso nuo aktyvaus gyvenimo.",
+        "register": "neutral",
+        "tags": [
+          "health",
+          "wellbeing"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "psichinė sveikata",
+      "sportas"
+    ],
+    "translation": "physical health"
+  },
+  {
+    "term": "ūminis skausmas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Stiprus ir staigus skausmas.",
+        "example": "Ūminis skausmas krūtinėje reikalauja medicinos pagalbos.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "lėtinė liga",
+      "medicina"
+    ],
+    "translation": "acute pain"
+  },
+  {
+    "term": "klinikos paslaugos",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Medicininės priežiūros paslaugos.",
+        "example": "Klinikos paslaugos prieinamos visiems piliečiams.",
+        "register": "formal",
+        "tags": [
+          "medicine",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "ambulatorija",
+      "medicina"
+    ],
+    "translation": "clinical services"
+  },
+  {
+    "term": "ambulatorija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Poliklinikos ar gydymo įstaigos dalis.",
+        "example": "Jis nuvyko į ambulatoriją pasitikrinti.",
+        "register": "formal",
+        "tags": [
+          "medicine",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "klinikos paslaugos",
+      "gydytojas"
+    ],
+    "translation": "outpatient clinic"
+  },
+  {
+    "term": "vaistai",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Medikamentai, skirti ligoms gydyti.",
+        "example": "Gydytojas išrašė vaistus.",
+        "register": "neutral",
+        "tags": [
+          "medicine",
+          "pharmacy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "receptas",
+      "vaistinė"
+    ],
+    "translation": "medicine, drugs, medication"
+  },
+  {
+    "term": "sveikatos tikrinimas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Reguliarus medicinos patikrinimas.",
+        "example": "Kasmetinis sveikatos tikrinimas yra rekomenduojamas.",
+        "register": "formal",
+        "tags": [
+          "medicine",
+          "prevention"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "profilaktika",
+      "gydytojas"
+    ],
+    "translation": "health check, medical check-up"
+  },
+  {
+    "term": "sverti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nustatyti masę arba svarstyti sprendimą.",
+        "example": "Jis svėrė visus variantus prieš nusprendžiant.",
+        "register": "neutral",
+        "tags": [
+          "measurement",
+          "decision"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "matuoti"
+    ],
+    "translation": "to weigh",
+    "forms": {
+      "present3": "sveria",
+      "past3": "svėrė"
+    },
+    "governedCase": "ką?"
+  },
+  {
+    "term": "bėgti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Judėti greitai kojomis.",
+        "example": "Ji bėgo ryte parke.",
+        "register": "neutral",
+        "tags": [
+          "action",
+          "movement"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "vaikščioti",
+      "sportas"
+    ],
+    "translation": "to run",
+    "forms": {
+      "present3": "bėga",
+      "past3": "bėgo"
+    },
+    "governedCase": null
+  },
+  {
+    "term": "sprendimą priimti",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nuspręsti, kurį variantą pasirinkti.",
+        "example": "Jie priėmė sprendimą kolektyviai.",
+        "register": "neutral",
+        "tags": [
+          "action",
+          "decision"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "atlikti"
+    ],
+    "translation": "to make a decision"
+  },
+  {
+    "term": "klaidingas",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Netikslingas, neteisingas arba apgaulė.",
+        "example": "Klaidingas parodymas suklaidino tardymą.",
+        "register": "neutral",
+        "tags": [
+          "quality",
+          "error"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "teisingas"
+    ],
+    "relatedTerms": [
+      "neteisingas"
+    ],
+    "translation": "false, misleading, wrong"
+  },
+  {
+    "term": "susiorientuoti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Surasti savo vietą ar orientuotis situacijoje.",
+        "example": "Jam reikėjo laiko susiorientuoti naujoje aplinkoje.",
+        "register": "neutral",
+        "tags": [
+          "action",
+          "navigation"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "naršyti"
+    ],
+    "translation": "to orientate oneself, to find one's bearings",
+    "forms": {
+      "present3": "susiorientuoja",
+      "past3": "susiorientavo"
+    },
+    "governedCase": null
+  },
+  {
+    "term": "susikalbėti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Sugebėti bendrauti kalbant.",
+        "example": "Jie susikalbėjo angliškai.",
+        "register": "neutral",
+        "tags": [
+          "communication",
+          "language"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bendrauti",
+      "kalba"
+    ],
+    "translation": "to communicate, to make oneself understood",
+    "forms": {
+      "present3": "susikalba",
+      "past3": "susikalbėjo"
+    },
+    "governedCase": null
+  },
+  {
+    "term": "išanalizuoti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Atlikti išsamią analizę.",
+        "example": "Jie išanalizavo duomenis ir pateikė ataskaitą.",
+        "register": "formal",
+        "tags": [
+          "analysis",
+          "work"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tikrinti",
+      "analizė"
+    ],
+    "translation": "to analyse",
+    "forms": {
+      "present3": "išanalizuoja",
+      "past3": "išanalizavo"
+    },
+    "governedCase": "ką?"
+  },
+  {
+    "term": "tikrinti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Patikrinti ar kontroliuoti.",
+        "example": "Jis tikrino dokumentus prie įėjimo.",
+        "register": "neutral",
+        "tags": [
+          "action",
+          "control"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "testuoti",
+      "kontroliuoti"
+    ],
+    "translation": "to check, to verify",
+    "forms": {
+      "present3": "tikrina",
+      "past3": "tikrino"
+    },
+    "governedCase": "ką?"
+  },
+  {
+    "term": "testuoti",
+    "language": "lt",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Atlikti bandymus ar testą.",
+        "example": "Inžinieriai testavo naują programinę įrangą.",
+        "register": "technical",
+        "tags": [
+          "technology",
+          "testing"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tikrinti"
+    ],
+    "translation": "to test",
+    "forms": {
+      "present3": "testuoja",
+      "past3": "testavo"
+    },
+    "governedCase": "ką?"
+  },
+  {
+    "term": "modelis",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pavyzdinis dizainas ar schema.",
+        "example": "Naujas modelis buvo pristatytas parodoje.",
+        "register": "neutral",
+        "tags": [
+          "design",
+          "concept"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "prototipas",
+      "schema"
+    ],
+    "translation": "model"
+  },
+  {
+    "term": "procesas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Veiksmų ar pokyčių seka.",
+        "example": "Taikos procesas reikalauja laiko ir pastangų.",
+        "register": "neutral",
+        "tags": [
+          "concept",
+          "process"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "etapas",
+      "veikla"
+    ],
+    "translation": "process"
+  },
+  {
+    "term": "rezultatai",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pastangų ar veiksmų pabaigos rezultatai.",
+        "example": "Rinkimų rezultatai paskelbti vakare.",
+        "register": "neutral",
+        "tags": [
+          "outcome",
+          "data"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "prognozė",
+      "statistika"
+    ],
+    "translation": "results"
+  },
+  {
+    "term": "prognozė",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Ateities pokyčių ar raidos spėjimas.",
+        "example": "Ekonomikos prognozė buvo optimistiška.",
+        "register": "formal",
+        "tags": [
+          "prediction",
+          "future"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "rezultatai"
+    ],
+    "translation": "forecast, prognosis"
+  },
+  {
+    "term": "nelygybė",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Netolygus išteklių ar galimybių paskirstymas.",
+        "example": "Pajamų nelygybė didėja.",
+        "register": "formal",
+        "tags": [
+          "society",
+          "economics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "lygybė"
+    ],
+    "relatedTerms": [
+      "diskriminacija",
+      "socialinė atskirtis"
+    ],
+    "translation": "inequality"
+  },
+  {
+    "term": "diskriminacija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Neteisingas elgesys dėl asmens savybių.",
+        "example": "Diskriminacija dėl amžiaus yra uždrausta.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "society"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "rasizmas",
+      "seksizmas"
+    ],
+    "translation": "discrimination"
+  },
+  {
+    "term": "rasizmas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Diskriminacija ar neapykanta dėl rasės.",
+        "example": "Rasizmas yra teisiškai draudžiamas.",
+        "register": "formal",
+        "tags": [
+          "society",
+          "human rights"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "diskriminacija",
+      "tolerancija"
+    ],
+    "translation": "racism"
+  },
+  {
+    "term": "seksizmas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Diskriminacija ar neapykanta dėl lyties.",
+        "example": "Seksizmas darbe yra draudžiamas įstatymu.",
+        "register": "formal",
+        "tags": [
+          "society",
+          "human rights"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "diskriminacija",
+      "tolerancija"
+    ],
+    "translation": "sexism"
+  },
+  {
+    "term": "įtrauktis",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Visų žmonių įtraukimas į visuomeninį gyvenimą.",
+        "example": "Neįgaliųjų įtrauktis mokykloje svarbi.",
+        "register": "formal",
+        "tags": [
+          "society",
+          "education"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "tolerancija",
+      "lygybė"
+    ],
+    "translation": "inclusion"
+  },
+  {
+    "term": "priekabiavimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nepageidaujamas įkyrus ar žeidžiantis elgesys.",
+        "example": "Seksualinis priekabiavimas darbe yra persekiojamas.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "workplace"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "patyčios",
+      "smurtas"
+    ],
+    "translation": "harassment"
+  },
+  {
+    "term": "patyčios",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Tyčinis žeminimas ar agresija silpnesnio atžvilgiu.",
+        "example": "Patyčios mokykloje negalimos.",
+        "register": "neutral",
+        "tags": [
+          "society",
+          "school"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "priekabiavimas",
+      "mokykla"
+    ],
+    "translation": "bullying"
+  },
+  {
+    "term": "aukos apsauga",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Teisinė ar socialinė nukentėjusiojo apsauga.",
+        "example": "Aukos apsauga reikalinga nusikaltimuose.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "society"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "teisės gynimas",
+      "teisė"
+    ],
+    "translation": "victim protection"
+  },
+  {
+    "term": "iniciatyva",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pirmasis žingsnis ar pasiūlymas.",
+        "example": "Jis pateikė iniciatyvą dėl naujojo projekto.",
+        "register": "neutral",
+        "tags": [
+          "leadership",
+          "action"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "aktyvizmas",
+      "pasiūlymas"
+    ],
+    "translation": "initiative"
+  },
+  {
+    "term": "filantropija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Savanoriškas geranoriškumas ir labdara.",
+        "example": "Verslininkas vykdė filantropinę veiklą.",
+        "register": "formal",
+        "tags": [
+          "society",
+          "charity"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "labdara",
+      "visuomeninė organizacija"
+    ],
+    "translation": "philanthropy"
+  },
+  {
+    "term": "visuomeninė organizacija",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Ne pelno siekianti organizacija, dirbanti visuomenės labui.",
+        "example": "Visuomeninė organizacija surinko aukas.",
+        "register": "formal",
+        "tags": [
+          "society",
+          "civic"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nevyriausybinė organizacija",
+      "aktyvizmas"
+    ],
+    "translation": "civil society organization"
+  },
+  {
+    "term": "nevyriausybinė organizacija",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nepriklausoma nuo valdžios organizacija.",
+        "example": "Nevyriausybinė organizacija teikia pagalbą pabėgėliams.",
+        "register": "formal",
+        "tags": [
+          "society",
+          "civic"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "visuomeninė organizacija",
+      "pilietinė visuomenė"
+    ],
+    "translation": "NGO, non-governmental organization"
+  },
+  {
+    "term": "aktyvizmas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Aktyvus dalyvavimas politinėje ar socialinėje veikloje.",
+        "example": "Aplinkos aktyvizmas pritraukė daug rėmėjų.",
+        "register": "neutral",
+        "tags": [
+          "politics",
+          "civic"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "iniciatyva",
+      "pilietis"
+    ],
+    "translation": "activism"
+  },
+  {
+    "term": "kovingumas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Ryžtas ir pasiryžimas siekti tikslų.",
+        "example": "Kovingumas padėjo jiems išgyventi sunkumus.",
+        "register": "neutral",
+        "tags": [
+          "personality",
+          "attitude"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "aktyvizmas"
+    ],
+    "translation": "militancy, fighting spirit"
+  },
+  {
+    "term": "tarptautinė bendruomenė",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pasaulio šalys ir organizacijos kartu.",
+        "example": "Tarptautinė bendruomenė smerkė agresiją.",
+        "register": "formal",
+        "tags": [
+          "international",
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "diplomatija"
+    ],
+    "translation": "international community"
+  },
+  {
+    "term": "humanitarinė pagalba",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Tarptautinė pagalba nukentėjusioms tautoms.",
+        "example": "Humanitarinė pagalba atvyko į krizinę zoną.",
+        "register": "formal",
+        "tags": [
+          "international",
+          "aid"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "labdara"
+    ],
+    "translation": "humanitarian aid"
+  },
+  {
+    "term": "globos namai",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Institucija, besirūpinanti vyresniais ar našlaičiais.",
+        "example": "Senelis gyveno globos namuose.",
+        "register": "neutral",
+        "tags": [
+          "society",
+          "welfare"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "sveikatos apsauga",
+      "senėjimas"
+    ],
+    "translation": "care home"
+  },
+  {
+    "term": "specializuotas",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Skirtas konkrečiai sričiai.",
+        "example": "Specializuotas gydytojas padėjo su operacija.",
+        "register": "formal",
+        "tags": [
+          "expertise",
+          "professional"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "profesionalas"
+    ],
+    "translation": "specialized"
+  },
+  {
+    "term": "pažangus",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Aukšto lygio arba naujoviškas.",
+        "example": "Pažangus metodas suteikė geresnius rezultatus.",
+        "register": "neutral",
+        "tags": [
+          "quality",
+          "technology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "modernus",
+      "inovatyvus"
+    ],
+    "translation": "advanced, progressive"
+  },
+  {
+    "term": "kritinis mąstymas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Gebėjimas objektyviai analizuoti ir vertinti.",
+        "example": "Kritinis mąstymas yra svarbus gebėjimas.",
+        "register": "formal",
+        "tags": [
+          "education",
+          "skills"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "emocinė inteligencija",
+      "probleminis mąstymas"
+    ],
+    "translation": "critical thinking"
+  },
+  {
+    "term": "probleminis mąstymas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Mąstymas, kuris analizuoja ir sprendžia problemas.",
+        "example": "Probleminis mąstymas naudojamas inžinerijoje.",
+        "register": "formal",
+        "tags": [
+          "education",
+          "skills"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kritinis mąstymas",
+      "sprendimas"
+    ],
+    "translation": "problem-based thinking"
+  },
+  {
+    "term": "emocinė inteligencija",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Gebėjimas suprasti ir valdyti emocijas.",
+        "example": "Emocinė inteligencija padeda geriau bendrauti.",
+        "register": "formal",
+        "tags": [
+          "psychology",
+          "skills"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kritinis mąstymas",
+      "psichologija"
+    ],
+    "translation": "emotional intelligence"
+  },
+  {
+    "term": "socialinis kapitalas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Ryšiai ir pasitikėjimas visuomenėje.",
+        "example": "Socialinis kapitalas skatina bendradarbiavimą.",
+        "register": "formal",
+        "tags": [
+          "sociology",
+          "economics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "bendruomenė",
+      "pasitikėjimas"
+    ],
+    "translation": "social capital"
+  },
+  {
+    "term": "institucinė atmintis",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kolektyvinė žinių ir patirties saugykla.",
+        "example": "Institucinė atmintis svarbi organizacijoms.",
+        "register": "formal",
+        "tags": [
+          "management",
+          "knowledge"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "organizacija",
+      "žinios"
+    ],
+    "translation": "institutional memory"
+  },
+  {
+    "term": "viešasis diskursas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Viešas kalbėjimas ir diskusija svarbiais klausimais.",
+        "example": "Viešasis diskursas apie klimato kaitą auga.",
+        "register": "formal",
+        "tags": [
+          "communication",
+          "society"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "žiniasklaida",
+      "nuomonė"
+    ],
+    "translation": "public discourse"
+  },
+  {
+    "term": "žiniasklaidos raštingumas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Gebėjimas kritiškai vertinti žiniasklaidos turinį.",
+        "example": "Žiniasklaidos raštingumas svarbus šiandien.",
+        "register": "formal",
+        "tags": [
+          "education",
+          "media"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "skaitmeninis raštingumas",
+      "žiniasklaida"
+    ],
+    "translation": "media literacy"
+  },
+  {
+    "term": "skaitmeninis raštingumas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Gebėjimas naudotis skaitmeninėmis technologijomis.",
+        "example": "Skaitmeninis raštingumas reikalingas darbui.",
+        "register": "formal",
+        "tags": [
+          "education",
+          "technology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "žiniasklaidos raštingumas"
+    ],
+    "translation": "digital literacy"
+  },
+  {
+    "term": "kalbinis raštingumas",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Gebėjimas taisyklingai naudoti kalbą.",
+        "example": "Kalbinis raštingumas mokykloje vertinamas.",
+        "register": "formal",
+        "tags": [
+          "language",
+          "education"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kalba"
+    ],
+    "translation": "language literacy"
+  },
+  {
+    "term": "vertimasis",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pragyvenimas ar išsiversti sunkiu metu.",
+        "example": "Vertimasis be darbo buvo sunkus.",
+        "register": "neutral",
+        "tags": [
+          "life",
+          "economy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "darbas",
+      "ekonomika"
+    ],
+    "translation": "making a living, getting by"
+  },
+  {
+    "term": "adaptacija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Prisitaikymas prie naujų sąlygų.",
+        "example": "Adaptacija naujoje aplinkoje užtruko.",
+        "register": "neutral",
+        "tags": [
+          "change",
+          "psychology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "integracija",
+      "prisitaikymas"
+    ],
+    "translation": "adaptation"
+  },
+  {
+    "term": "socialinė integracija",
+    "language": "lt",
+    "partOfSpeech": "phrase",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Asmenų įtraukimas į visuomenę.",
+        "example": "Pabėgėlių socialinė integracija reikalauja pastangų.",
+        "register": "formal",
+        "tags": [
+          "society",
+          "policy"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "adaptacija",
+      "asimiliacija"
+    ],
+    "translation": "social integration"
+  },
+  {
+    "term": "šovinizmas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Kraštutinis nacionalistinis pasididžiavimas ar agresyvumas.",
+        "example": "Šovinizmas skatina prievartinius konfliktus.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "ideology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "nacionalizmas",
+      "rasizmas"
+    ],
+    "translation": "chauvinism"
+  },
+  {
+    "term": "populizmas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Politinė strategija, kreipiantis į liaudies jausmus.",
+        "example": "Populizmas kelia pavojų demokratijai.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "ideology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "demokratija",
+      "valdžia"
+    ],
+    "translation": "populism"
+  },
+  {
+    "term": "nacionalizmas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Tautos savimonė ir prioritetas.",
+        "example": "Nacionalizmas gali stiprinti tapatybę arba sukelti konfliktus.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "ideology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "šovinizmas"
+    ],
+    "translation": "nationalism"
+  },
+  {
+    "term": "lokalizacija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Prisitaikymas prie vietinių ypatumų.",
+        "example": "Programinės įrangos lokalizacija reikalavo vertimo.",
+        "register": "technical",
+        "tags": [
+          "technology",
+          "culture"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "adaptacija",
+      "kultūra"
+    ],
+    "translation": "localization"
+  },
+  {
+    "term": "korupcija",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Pareigūnų piktnaudžiavimas valdžia.",
+        "example": "Korupcija stabdo ekonomikos augimą.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kyšis",
+      "sukčiavimas"
+    ],
+    "translation": "corruption"
+  },
+  {
+    "term": "sukčiavimas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Apgavystė siekiant neteisėtos naudos.",
+        "example": "Sukčiavimas internetu išaugo.",
+        "register": "formal",
+        "tags": [
+          "crime",
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "korupcija"
+    ],
+    "translation": "fraud, scam"
+  },
+  {
+    "term": "kyšis",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Neteisėtas pažadas ar moka už palankų sprendimą.",
+        "example": "Jis buvo sulaikytas dėl kyšio.",
+        "register": "formal",
+        "tags": [
+          "crime",
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "korupcija"
+    ],
+    "translation": "bribe"
+  },
+  {
+    "term": "autoritarizmas",
+    "language": "lt",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Valdymo sistema su stipria centralizuota valdžia.",
+        "example": "Autoritarizmas apriboja pilietines laisves.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "ideology"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "demokratija"
+    ],
+    "translation": "authoritarianism"
+  },
+  {
+    "term": "neteisingas",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Neatitinkantis teisingumo ar tiesos.",
+        "example": "Neteisingas sprendimas įskaudino daugelį.",
+        "register": "neutral",
+        "tags": [
+          "quality",
+          "justice"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "teisingas"
+    ],
+    "relatedTerms": [
+      "klaidingas"
+    ],
+    "translation": "unjust, unfair, incorrect"
+  },
+  {
+    "term": "nuosavas",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Priklausantis konkrečiam asmeniui.",
+        "example": "Jis turėjo nuosavą verslą.",
+        "register": "neutral",
+        "tags": [
+          "ownership",
+          "possession"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "svetimas"
+    ],
+    "relatedTerms": [],
+    "translation": "own, personal"
+  },
+  {
+    "term": "svetimas",
+    "language": "lt",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Nepažįstamas ar priklausantis kitam.",
+        "example": "Svetimas žmogus paklausė kelio.",
+        "register": "neutral",
+        "tags": [
+          "quality",
+          "social"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "nuosavas"
+    ],
+    "relatedTerms": [
+      "nepažįstamas"
+    ],
+    "translation": "foreign, strange, someone else's"
+  },
+  {
+    "term": "kažkoks",
+    "language": "lt",
+    "partOfSpeech": "pronoun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Neapibrėžtas, nežinomas dalykas.",
+        "example": "Kažkoks triukšmas pabėgino miegą.",
+        "register": "neutral",
+        "tags": [
+          "pronoun"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kažkuris",
+      "kažkas"
+    ],
+    "translation": "some, some kind of"
+  },
+  {
+    "term": "viskas",
+    "language": "lt",
+    "partOfSpeech": "pronoun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Visi dalykai, kiekvienas daiktas.",
+        "example": "Viskas buvo paruošta iš anksto.",
+        "register": "neutral",
+        "tags": [
+          "pronoun",
+          "quantity"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [
+      "niekas"
+    ],
+    "relatedTerms": [],
+    "translation": "everything, all"
+  },
+  {
+    "term": "kažkuris",
+    "language": "lt",
+    "partOfSpeech": "pronoun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Neapibrėžtas, vienas iš grupės.",
+        "example": "Kažkuris iš draugų paskambino.",
+        "register": "neutral",
+        "tags": [
+          "pronoun"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "kažkoks",
+      "kažkas"
+    ],
+    "translation": "some, one of, a certain"
+  }
+]
