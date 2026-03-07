@@ -3,7 +3,7 @@ import SwiftData
 
 @main
 struct VocabApp: App {
-    private static let currentSeedVersion = 1
+    private static let currentSeedVersion = 2
 
     let container: ModelContainer
 
@@ -11,10 +11,15 @@ struct VocabApp: App {
         do {
             let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
             let storeURL = appSupport.appendingPathComponent("default.store")
+            let installedVersion = UserDefaults.standard.integer(forKey: "seedDataVersion")
 
-            // On first launch, copy bundled seed store
-            if !FileManager.default.fileExists(atPath: storeURL.path) {
+            // Copy bundled seed store on first launch or when seed version changes
+            if !FileManager.default.fileExists(atPath: storeURL.path) || installedVersion < Self.currentSeedVersion {
                 try FileManager.default.createDirectory(at: appSupport, withIntermediateDirectories: true)
+                // Remove old store files
+                for ext in ["default.store", "default.store-wal", "default.store-shm"] {
+                    try? FileManager.default.removeItem(at: appSupport.appendingPathComponent(ext))
+                }
                 if let seedURL = Bundle.main.url(forResource: "vocab_seed", withExtension: "store") {
                     try FileManager.default.copyItem(at: seedURL, to: storeURL)
                 }
