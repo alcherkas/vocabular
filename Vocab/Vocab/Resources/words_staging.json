@@ -2920,7 +2920,7 @@
     "term": "commemorative",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Serving to commemorate a person, event, or occasion; intended to preserve the memory of something.",
@@ -2943,16 +2943,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "memorial",
+      "celebratory",
+      "dedicatory"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "commemoration",
+      "monument",
+      "anniversary",
+      "tribute",
+      "legacy"
+    ],
     "translation": null
   },
   {
     "term": "consign",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To deliver or transfer something formally to someone's custody, care, or possession.",
@@ -2975,16 +2985,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "entrust",
+      "delegate",
+      "deliver",
+      "commit"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "custody",
+      "shipment",
+      "assignment",
+      "relegate",
+      "transfer"
+    ],
     "translation": null
   },
   {
     "term": "contend",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To assert something as a position in an argument; to maintain or argue a point.",
@@ -3007,16 +3028,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "assert",
+      "maintain",
+      "argue",
+      "strive"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "debate",
+      "competition",
+      "claim",
+      "grapple",
+      "opposition"
+    ],
     "translation": null
   },
   {
     "term": "contradictory",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mutually inconsistent or in direct opposition to each other; involving contradictions.",
@@ -3039,16 +3071,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "inconsistent",
+      "paradoxical",
+      "conflicting",
+      "incompatible"
+    ],
+    "antonymTerms": [
+      "consistent",
+      "coherent"
+    ],
+    "relatedTerms": [
+      "contradiction",
+      "conflict",
+      "incoherence",
+      "anomaly",
+      "discrepancy"
+    ],
     "translation": null
   },
   {
     "term": "convoke",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To call people together for a formal meeting, assembly, or official gathering.",
@@ -3061,9 +3107,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "summon",
+      "assemble",
+      "convene",
+      "muster"
+    ],
+    "antonymTerms": [
+      "dismiss",
+      "dissolve"
+    ],
+    "relatedTerms": [
+      "assembly",
+      "session",
+      "gathering",
+      "parliament",
+      "forum"
+    ],
     "translation": null
   },
   {
