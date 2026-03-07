@@ -22,6 +22,8 @@ struct WordData: Codable {
     let translation: String?
     let forms: WordForms?
     let governedCase: String?
+    let gender: String?
+    let cases: WordCases?
 }
 
 class WordService {
@@ -92,7 +94,9 @@ class WordService {
                     translation: wd.translation,
                     meanings: meanings,
                     forms: wd.forms,
-                    governedCase: wd.governedCase
+                    governedCase: wd.governedCase,
+                    gender: wd.gender,
+                    cases: wd.cases
                 )
                 context.insert(word)
                 insertedByTerm[wd.term] = word
@@ -158,6 +162,38 @@ class WordService {
         }
         if updated > 0 {
             print("WordService: Migrated verb forms for \(updated) \(language) words")
+        }
+    }
+
+    /// Backfills gender and case forms from bundled JSON for existing words missing them.
+    static func migrateCaseForms(language: String, resourceName: String, context: ModelContext) {
+        let emptyData = Data()
+        let descriptor = FetchDescriptor<Word>(predicate: #Predicate {
+            $0.language == language && $0.casesData == emptyData
+        })
+        guard let words = try? context.fetch(descriptor), !words.isEmpty else { return }
+
+        guard let url = Bundle.main.url(forResource: resourceName, withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let jsonWords = try? JSONDecoder().decode([WordData].self, from: data) else { return }
+
+        var casesLookup: [String: (String?, WordCases?)] = [:]
+        for wd in jsonWords {
+            if wd.gender != nil || wd.cases != nil {
+                casesLookup[wd.term] = (wd.gender, wd.cases)
+            }
+        }
+
+        var updated = 0
+        for word in words {
+            if let (gender, cases) = casesLookup[word.term] {
+                if let gender { word.gender = gender }
+                if let cases { word.cases = cases }
+                updated += 1
+            }
+        }
+        if updated > 0 {
+            print("WordService: Migrated case forms for \(updated) \(language) words")
         }
     }
 }

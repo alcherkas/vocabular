@@ -13,6 +13,37 @@ struct WordForms: Codable, Equatable {
     var past3: String      // 3rd person past (e.g., "ėjo")
 }
 
+struct CaseSet: Codable, Equatable {
+    var nominative: String
+    var genitive: String
+    var dative: String
+    var accusative: String
+    var instrumental: String
+    var locative: String
+    var vocative: String?
+    
+    func value(for grammaticalCase: GrammaticalCase) -> String {
+        switch grammaticalCase {
+        case .nominative: nominative
+        case .genitive: genitive
+        case .dative: dative
+        case .accusative: accusative
+        case .instrumental: instrumental
+        case .locative: locative
+        }
+    }
+}
+
+struct NumberCases: Codable, Equatable {
+    var singular: CaseSet
+    var plural: CaseSet
+}
+
+struct WordCases: Codable, Equatable {
+    var masculine: NumberCases?
+    var feminine: NumberCases?
+}
+
 @Model
 class Word {
     var term: String
@@ -42,6 +73,10 @@ class Word {
     var formsData: Data = Data()
     var governedCase: String?
 
+    // Noun/adjective grammar (LT: gender + declension cases)
+    var gender: String?
+    var casesData: Data = Data()
+
     @Transient private var _cachedMeanings: [WordMeaning]?
 
     var meanings: [WordMeaning] {
@@ -67,6 +102,16 @@ class Word {
         }
         set {
             formsData = (try? JSONEncoder().encode(newValue)) ?? Data()
+        }
+    }
+
+    var cases: WordCases? {
+        get {
+            guard !casesData.isEmpty else { return nil }
+            return try? JSONDecoder().decode(WordCases.self, from: casesData)
+        }
+        set {
+            casesData = (try? JSONEncoder().encode(newValue)) ?? Data()
         }
     }
 
@@ -96,7 +141,7 @@ class Word {
         }
     }
 
-    init(term: String, definition: String, synonyms: [String], example: String, partOfSpeech: String, tags: [String] = [], language: String = "en", translation: String? = nil, meanings: [WordMeaning]? = nil, forms: WordForms? = nil, governedCase: String? = nil) {
+    init(term: String, definition: String, synonyms: [String], example: String, partOfSpeech: String, tags: [String] = [], language: String = "en", translation: String? = nil, meanings: [WordMeaning]? = nil, forms: WordForms? = nil, governedCase: String? = nil, gender: String? = nil, cases: WordCases? = nil) {
         self.term = term
         let resolvedMeanings = meanings ?? [WordMeaning(definition: definition, example: example, register: nil, tags: tags)]
         let persistedMeanings = resolvedMeanings.isEmpty ? [WordMeaning(definition: definition, example: example, register: nil, tags: tags)] : resolvedMeanings
@@ -109,6 +154,8 @@ class Word {
         self.uniqueKey = "\(language):\(term)"
         self.formsData = (try? JSONEncoder().encode(forms)) ?? Data()
         self.governedCase = governedCase
+        self.gender = gender
+        self.casesData = (try? JSONEncoder().encode(cases)) ?? Data()
     }
     
     var masteryLevel: Double {

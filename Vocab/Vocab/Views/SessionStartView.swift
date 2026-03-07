@@ -11,6 +11,7 @@ struct SessionStartView: View {
     enum StudyMode: String, CaseIterable {
         case flashcards = "Flashcards"
         case quiz = "Quiz"
+        case caseTraining = "Linksniai"
     }
 
     private var hasEverStudied: Bool {
@@ -107,12 +108,19 @@ struct SessionStartView: View {
 
             // Study mode picker
             Picker("Mode", selection: $studyMode) {
-                ForEach(StudyMode.allCases, id: \.self) { mode in
+                ForEach(StudyMode.allCases.filter { mode in
+                    mode != .caseTraining || sessionService.language == "lt"
+                }, id: \.self) { mode in
                     Text(mode.rawValue).tag(mode)
                 }
             }
             .pickerStyle(.segmented)
             .padding(.horizontal)
+            .onChange(of: sessionService.language) {
+                if studyMode == .caseTraining && sessionService.language != "lt" {
+                    studyMode = .flashcards
+                }
+            }
 
             wordOfTheDayCard
 
@@ -266,8 +274,8 @@ struct SessionStartView: View {
             // Progress header
             VStack(spacing: 8) {
                 HStack {
-                    Text(studyMode == .quiz
-                         ? "Quiz · \(sessionService.sessionWords.count) words"
+                    Text(studyMode == .quiz || studyMode == .caseTraining
+                         ? "\(studyMode.rawValue) · \(sessionService.sessionWords.count) words"
                          : "Question \(sessionService.currentIndex + 1) of \(sessionService.sessionWords.count)")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
@@ -280,8 +288,7 @@ struct SessionStartView: View {
                 }
                 .padding(.horizontal)
 
-                if studyMode == .flashcards {
-                    ProgressView(
+                if studyMode == .flashcards {                    ProgressView(
                         value: Double(sessionService.currentIndex),
                         total: Double(sessionService.sessionWords.count)
                     )
@@ -292,6 +299,10 @@ struct SessionStartView: View {
 
             if studyMode == .quiz {
                 QuizView(words: sessionService.sessionWords, onComplete: { _, _ in
+                    sessionService.reset()
+                })
+            } else if studyMode == .caseTraining {
+                CaseTrainingView(words: sessionService.sessionWords, onComplete: { _, _ in
                     sessionService.reset()
                 })
             } else {
