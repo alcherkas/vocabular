@@ -5,8 +5,8 @@
 //
 // Usage:
 //   swift scripts/build_seed_db.swift \
-//     --en Vocab/Vocab/Resources/words.json \
-//     --lt Vocab/Vocab/Resources/words_lt.json \
+//     --en data/words.json \
+//     --lt data/words_lt.json \
 //     --output Vocab/Vocab/Resources/vocab_seed.store
 //
 // This script uses the same data structures as the app's Word model to ensure

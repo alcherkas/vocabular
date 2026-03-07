@@ -42,7 +42,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Complexity**: `low`
 **Role**: Seeder (English)
 **Description**: Continuously add C1+ English word stubs to `words_staging.json`. Run the Seeder loop from `docs/VOCAB-AGENT.md`.
-**Files to touch**: `Vocab/Vocab/Resources/words_staging.json`
+**Files to touch**: `data/words_staging.json`
 **Target**: 500+ stubs (current production: 96 words)
 
 ---
@@ -53,7 +53,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Complexity**: `minimal`
 **Role**: Seeder (Lithuanian)
 **Description**: Continuously add A1/A2 Lithuanian word stubs to `words_lt_staging.json`. Run the Seeder loop from `docs/VOCAB-AGENT.md`.
-**Files to touch**: `Vocab/Vocab/Resources/words_lt_staging.json` (create if absent)
+**Files to touch**: `data/words_lt_staging.json` (create if absent)
 **Target**: 200 stubs
 
 ---
@@ -64,7 +64,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Complexity**: `low`
 **Role**: Enricher (English)
 **Description**: Pick up `stub` entries in `words_staging.json` and add all meanings (definitions, examples, register, tags). Run the Enricher loop from `docs/VOCAB-AGENT.md`.
-**Files to touch**: `Vocab/Vocab/Resources/words_staging.json`
+**Files to touch**: `data/words_staging.json`
 
 ---
 
@@ -74,7 +74,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Complexity**: `low`
 **Role**: Enricher (Lithuanian)
 **Description**: Pick up `stub` entries in `words_lt_staging.json` and add meanings + translation. Run the Enricher loop.
-**Files to touch**: `Vocab/Vocab/Resources/words_lt_staging.json`
+**Files to touch**: `data/words_lt_staging.json`
 
 ---
 
@@ -84,7 +84,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Complexity**: `low`
 **Role**: Relations
 **Description**: Pick up `enriched` entries in staging files and add synonyms, antonyms, relatedTerms. Run the Relations loop from `docs/VOCAB-AGENT.md`.
-**Files to touch**: `Vocab/Vocab/Resources/words_staging.json`, `words_lt_staging.json`
+**Files to touch**: `data/words_staging.json`, `words_lt_staging.json`
 
 ---
 
@@ -94,7 +94,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Complexity**: `low`
 **Role**: QA Reviewer
 **Description**: Review `relations-added` entries. Approve or send back for rework. Run the QA loop from `docs/VOCAB-AGENT.md`.
-**Files to touch**: `Vocab/Vocab/Resources/words_staging.json`, `words_lt_staging.json`
+**Files to touch**: `data/words_staging.json`, `words_lt_staging.json`
 
 ---
 
@@ -152,7 +152,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Risk**: `low`
 **Complexity**: `low`
 **Description**: Expand `words.json` from current count toward 1000 C1+ English words. Add 100 words per batch.
-**Files to touch**: `Vocab/Vocab/Resources/words.json`
+**Files to touch**: `data/words.json`
 **Acceptance criteria**:
 - All new words follow JSON schema in `docs/ARCHITECTURE.md`
 - No duplicate `term` values
@@ -165,7 +165,7 @@ Each task also has a `[complexity: minimal/low/intermediate/high]` label based o
 **Risk**: `low`
 **Complexity**: `low`
 **Description**: Create `words_lt.json` with 200 Lithuanian A1/A2 basic words.
-**Files to touch**: `Vocab/Vocab/Resources/words_lt.json` (create new)
+**Files to touch**: `data/words_lt.json` (create new)
 **Acceptance criteria**:
 - File follows LT JSON schema in `docs/ARCHITECTURE.md`
 - Each word has: term (Lithuanian), definition (English description), translation (EN gloss), example (Lithuanian sentence), partOfSpeech, tags

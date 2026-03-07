@@ -7,7 +7,7 @@ in words_lt_staging.json. Run once to bootstrap the LT vocabulary pipeline.
 
 Usage:
     python3 scripts/seed_lt.py
-    python3 scripts/seed_lt.py --source lt.txt --staging Vocab/Vocab/Resources/words_lt_staging.json
+    python3 scripts/seed_lt.py --source lt.txt --staging data/words_lt_staging.json
     python3 scripts/seed_lt.py --dry-run   # preview without writing
 
 Exit code 0 = success.
@@ -91,12 +91,12 @@ def main():
     parser.add_argument("--source", default="lt.txt", help="Path to lt.txt (default: lt.txt)")
     parser.add_argument(
         "--staging",
-        default="Vocab/Vocab/Resources/words_lt_staging.json",
+        default="data/words_lt_staging.json",
         help="Path to staging JSON output"
     )
     parser.add_argument(
         "--production",
-        default="Vocab/Vocab/Resources/words_lt.json",
+        default="data/words_lt.json",
         help="Path to production JSON (for dedup check)"
     )
     parser.add_argument("--dry-run", action="store_true", help="Preview without writing")

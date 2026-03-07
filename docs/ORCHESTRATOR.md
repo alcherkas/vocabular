@@ -99,9 +99,9 @@ SETUP:
   cd ../vocabular-wt-enricher-lt
 
 TASK:
-  1. Pick 5 stub entries from Vocab/Vocab/Resources/words_lt_staging.json
+  1. Pick 5 stub entries from data/words_lt_staging.json
   2. For each: add meanings array (definition, example, register, tags), add English translation, set status to "enriched"
-  3. Validate: python3 scripts/validate_words.py --staging Vocab/Vocab/Resources/words_lt_staging.json --status enriched
+  3. Validate: python3 scripts/validate_words.py --staging data/words_lt_staging.json --status enriched
   4. Commit: git commit -am "vocab(lt): enrich batch — <N> words"
   5. Append to docs/audit-log.md
   6. Repeat for 3 batches (15 words total), then stop
@@ -131,10 +131,10 @@ SETUP:
   cd ../vocabular-wt-seeder-en
 
 TASK:
-  1. Create Vocab/Vocab/Resources/words_staging.json if it doesn't exist (start with empty array [])
+  1. Create data/words_staging.json if it doesn't exist (start with empty array [])
   2. Load Vocab/Vocab/Resources/words.json — collect all existing terms to avoid duplicates
   3. Add 10 C1+ English word stubs per batch (term, partOfSpeech, synonyms, tags, status: "stub")
-  4. Validate: python3 scripts/validate_words.py --staging Vocab/Vocab/Resources/words_staging.json --status stub
+  4. Validate: python3 scripts/validate_words.py --staging data/words_staging.json --status stub
   5. Commit: git commit -am "vocab(en): seed batch — 10 stubs"
   6. Repeat for 3 batches (30 stubs total), then stop
 
@@ -434,7 +434,7 @@ EN: 30 stubs → Enricher → Relations → QA → Publish → Seeder adds more 
 ```bash
 python3 -c "
 import json
-for f, label in [('Vocab/Vocab/Resources/words_staging.json','EN'), ('Vocab/Vocab/Resources/words_lt_staging.json','LT')]:
+for f, label in [('data/words_staging.json','EN'), ('data/words_lt_staging.json','LT')]:
     try:
         d = json.load(open(f))
         from collections import Counter
@@ -494,10 +494,10 @@ Merge order matters when agents touch overlapping files:
 
 ```bash
 # For JSON staging files: smart conflict resolver (also handles aborted merges)
-python3 scripts/resolve_json_conflict.py Vocab/Vocab/Resources/words_staging.json \
-    Vocab/Vocab/Resources/words_lt_staging.json
-git add Vocab/Vocab/Resources/words_staging.json \
-    Vocab/Vocab/Resources/words_lt_staging.json
+python3 scripts/resolve_json_conflict.py data/words_staging.json \
+    data/words_lt_staging.json
+git add data/words_staging.json \
+    data/words_lt_staging.json
 
 # For AGENTS.md conflicts: always keep ours (clean version)
 git checkout --ours AGENTS.md && git add AGENTS.md
@@ -521,7 +521,7 @@ for staging, branch_path in [...]:
             if STATUS_ORDER.get(qa_entry.get('status',''),0) > STATUS_ORDER.get(w.get('status',''),0):
                 words[i] = qa_entry
     json.dump(words, open(staging,'w'), indent=2, ensure_ascii=False)
-git add Vocab/Vocab/Resources/words_staging.json Vocab/Vocab/Resources/words_lt_staging.json
+git add data/words_staging.json data/words_lt_staging.json
 git commit -m "fix: re-apply QA approvals ..."
 ```
 

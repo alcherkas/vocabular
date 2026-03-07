@@ -126,10 +126,10 @@ Verify your scope before modifying any file.
 | `docs/audit-log.md` | **All agents** (append-only) | Append only |
 | `docs/decisions-pending.md` | **All agents** (append) | Human resolves |
 | `docs/decisions-log.md` | All agents (move resolved entries) | — |
-| `Vocab/Vocab/Resources/words_staging.json` | EN vocab agents only | — |
-| `Vocab/Vocab/Resources/words_lt_staging.json` | LT vocab agents only | — |
-| `Vocab/Vocab/Resources/words.json` | Publisher agent only | Read-only |
-| `Vocab/Vocab/Resources/words_lt.json` | Publisher agent only | Read-only |
+| `data/words_staging.json` | EN vocab agents only | — |
+| `data/words_lt_staging.json` | LT vocab agents only | — |
+| `data/words.json` | Publisher agent only | Read-only |
+| `data/words_lt.json` | Publisher agent only | Read-only |
 | `Vocab/Vocab/Models/Word.swift` | Feature agents (per task) | Must not edit unless task claims it |
 | `Vocab/Vocab/Services/WordService.swift` | Feature agents (per task) | Must not edit unless task claims it |
 | All other Swift source files | Feature agents (per claimed task) | Must not edit outside claimed task |

@@ -17,15 +17,15 @@ import sys
 # Prefix ending with "/" matches any file under that directory.
 TASK_PERMISSIONS: dict[str, list[str]] = {
     # Vocab pipeline
-    "vocab-seeder-en":    ["Vocab/Vocab/Resources/words_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
-    "vocab-seeder-lt":    ["Vocab/Vocab/Resources/words_lt_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
-    "vocab-enricher-en":  ["Vocab/Vocab/Resources/words_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
-    "vocab-enricher-lt":  ["Vocab/Vocab/Resources/words_lt_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
-    "vocab-relations":    ["Vocab/Vocab/Resources/words_staging.json", "Vocab/Vocab/Resources/words_lt_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
-    "vocab-qa":           ["Vocab/Vocab/Resources/words_staging.json", "Vocab/Vocab/Resources/words_lt_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
+    "vocab-seeder-en":    ["data/words_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
+    "vocab-seeder-lt":    ["data/words_lt_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
+    "vocab-enricher-en":  ["data/words_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
+    "vocab-enricher-lt":  ["data/words_lt_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
+    "vocab-relations":    ["data/words_staging.json", "data/words_lt_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
+    "vocab-qa":           ["data/words_staging.json", "data/words_lt_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
     # Publisher is special — it writes to production
-    "vocab-publisher":    ["Vocab/Vocab/Resources/words.json", "Vocab/Vocab/Resources/words_lt.json",
-                           "Vocab/Vocab/Resources/words_staging.json", "Vocab/Vocab/Resources/words_lt_staging.json",
+    "vocab-publisher":    ["data/words.json", "data/words_lt.json",
+                           "data/words_staging.json", "data/words_lt_staging.json",
                            "docs/audit-log.md"],
 
     # App model/feature tasks
@@ -45,8 +45,8 @@ TASK_PERMISSIONS: dict[str, list[str]] = {
     "tests-wordservice":   ["VocabTests/", "docs/TASKS.md", "docs/audit-log.md"],
 
     # Data tasks
-    "en-words-expansion":  ["Vocab/Vocab/Resources/words.json", "docs/TASKS.md", "docs/audit-log.md"],
-    "lt-vocab-initial":    ["Vocab/Vocab/Resources/words_lt.json", "docs/TASKS.md", "docs/audit-log.md"],
+    "en-words-expansion":  ["data/words.json", "docs/TASKS.md", "docs/audit-log.md"],
+    "lt-vocab-initial":    ["data/words_lt.json", "docs/TASKS.md", "docs/audit-log.md"],
 
     # Product agent tasks — these agents write to docs only
     "requirements-agent":  ["docs/requirements/", "docs/TASKS.md", "GOALS.md", "docs/decisions-pending.md",

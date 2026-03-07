@@ -1,5 +1,6 @@
 import Testing
 import SwiftData
+import Foundation
 @testable import Vocab
 
 @MainActor
@@ -12,29 +13,20 @@ struct WordServiceTests {
     }
 
     @Test func test_loadInitialWords_emptyDatabase() throws {
-        let container = try makeContainer()
-        let context = container.mainContext
-
-        WordService.loadInitialWords(into: context)
-
-        let descriptor = FetchDescriptor<Word>()
-        let words = try context.fetch(descriptor)
-
-        #expect(words.isEmpty == false, "Expected words to be inserted into an empty database")
+        // The app now uses a pre-seeded SwiftData store instead of JSON loading.
+        // Verify that the seed store exists in the bundle.
+        let seedURL = Bundle.main.url(forResource: "vocab_seed", withExtension: "store")
+        #expect(seedURL != nil, "Expected vocab_seed.store to be bundled")
     }
 
     @Test func test_loadInitialWords_alreadyLoaded() throws {
         let container = try makeContainer()
         let context = container.mainContext
 
-        // First load
+        // Verify that calling loadInitialWords on an empty DB with no JSON is safe
         WordService.loadInitialWords(into: context)
-        let firstCount = try context.fetchCount(FetchDescriptor<Word>())
-
-        // Second load — should not duplicate
-        WordService.loadInitialWords(into: context)
-        let secondCount = try context.fetchCount(FetchDescriptor<Word>())
-
-        #expect(firstCount == secondCount, "Second load should not insert duplicates (first: \(firstCount), second: \(secondCount))")
+        let count = try context.fetchCount(FetchDescriptor<Word>())
+        // No JSON in bundle → no words loaded, but no crash either
+        #expect(count == 0, "No JSON in bundle, so no words should be loaded")
     }
 }

@@ -111,8 +111,8 @@ def main():
         "swift", "run",
         "--package-path", "tools/VocabSeedBuilder",
         "VocabSeedBuilder",
-        "--en", "Vocab/Vocab/Resources/words.json",
-        "--lt", "Vocab/Vocab/Resources/words_lt.json",
+        "--en", "data/words.json",
+        "--lt", "data/words_lt.json",
         "--output", "Vocab/Vocab/Resources/vocab_seed.store"
     ], capture_output=True, text=True,
        env={**os.environ, "DEVELOPER_DIR": "/Applications/Xcode.app/Contents/Developer"})

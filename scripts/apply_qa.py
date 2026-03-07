@@ -10,8 +10,8 @@ Usage:
     python3 scripts/apply_qa.py <qa_branch> <staging_file>
 
 Examples:
-    python3 scripts/apply_qa.py vocab/qa-en-65 Vocab/Vocab/Resources/words_staging.json
-    python3 scripts/apply_qa.py vocab/qa-lt-69 Vocab/Vocab/Resources/words_lt_staging.json
+    python3 scripts/apply_qa.py vocab/qa-en-65 data/words_staging.json
+    python3 scripts/apply_qa.py vocab/qa-lt-69 data/words_lt_staging.json
 """
 
 import json

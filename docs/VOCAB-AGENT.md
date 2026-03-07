@@ -32,12 +32,12 @@ cd ../vocabular-wt-seeder-en
 
 ## Role: Seeder (English)
 
-**Staging file**: `Vocab/Vocab/Resources/words_staging.json`
+**Staging file**: `data/words_staging.json`
 **Batch size**: 10 stubs per iteration
 
 ### Loop
 
-1. Load `Vocab/Vocab/Resources/words.json` and `words_staging.json` — collect all existing terms.
+1. Load `data/words.json` and `words_staging.json` — collect all existing terms.
 2. Generate 10 new C1+ academic/professional English word stubs that do NOT already exist.
 3. Each stub:
    ```json
@@ -47,11 +47,11 @@ cd ../vocabular-wt-seeder-en
 4. Append stubs to `words_staging.json`.
 5. Validate:
    ```bash
-   python3 scripts/validate_words.py --staging Vocab/Vocab/Resources/words_staging.json --status stub
+   python3 scripts/validate_words.py --staging data/words_staging.json --status stub
    ```
 6. If valid: commit.
    ```bash
-   git add Vocab/Vocab/Resources/words_staging.json
+   git add data/words_staging.json
    git commit -m "vocab(seed-en): add 10 EN stubs [batch N]"
    ```
 7. Repeat from step 1. Stop when staging has 50+ unprocessed stubs (let other agents catch up).
@@ -60,7 +60,7 @@ cd ../vocabular-wt-seeder-en
 
 ## Role: Seeder (Lithuanian)
 
-**Staging file**: `Vocab/Vocab/Resources/words_lt_staging.json`
+**Staging file**: `data/words_lt_staging.json`
 
 ### Bootstrap (completed)
 
@@ -87,9 +87,9 @@ To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` fo
 1. Choose a staging file to work on (`words_staging.json` for EN, `words_lt_staging.json` for LT).
 2. **Preflight JSON check** — verify the file is valid JSON before editing:
    ```bash
-   python3 -c "import json, sys; json.load(open('Vocab/Vocab/Resources/words_staging.json')); print('JSON OK')"
+   python3 -c "import json, sys; json.load(open('data/words_staging.json')); print('JSON OK')"
    # or for LT:
-   python3 -c "import json, sys; json.load(open('Vocab/Vocab/Resources/words_lt_staging.json')); print('JSON OK')"
+   python3 -c "import json, sys; json.load(open('data/words_lt_staging.json')); print('JSON OK')"
    ```
    If the file has invalid JSON, fix the syntax error first before proceeding.
 3. Load the file, find entries with `status == "stub"`. Take first 5.
@@ -128,10 +128,10 @@ To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` fo
 5. Validate (replace filename as appropriate):
    ```bash
    python3 scripts/validate_words.py \
-     --staging Vocab/Vocab/Resources/words_staging.json --status enriched
+     --staging data/words_staging.json --status enriched
    # or for LT:
    python3 scripts/validate_words.py \
-     --staging Vocab/Vocab/Resources/words_lt_staging.json --status enriched
+     --staging data/words_lt_staging.json --status enriched
    ```
 6. If valid: commit.
    ```bash
@@ -171,11 +171,11 @@ To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` fo
 3. Update entries in `words_staging.json`.
 4. Validate:
    ```bash
-   python3 scripts/validate_words.py --staging Vocab/Vocab/Resources/words_staging.json --status relations-added
+   python3 scripts/validate_words.py --staging data/words_staging.json --status relations-added
    ```
    If the full file has pre-existing errors in other batches, scope the exit code to your batch only:
    ```bash
-   python3 scripts/validate_words.py --staging Vocab/Vocab/Resources/words_staging.json --errors-for relations-added
+   python3 scripts/validate_words.py --staging data/words_staging.json --errors-for relations-added
    ```
 5. Commit:
    ```bash
@@ -208,7 +208,7 @@ To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` fo
 
 Before starting an enrichment batch, confirm how many stubs are available:
 ```bash
-python3 -c "import json; d=json.load(open('Vocab/Vocab/Resources/words_lt_staging.json')); print(len([w for w in d if w.get('status')=='stub']), 'stubs available')"
+python3 -c "import json; d=json.load(open('data/words_lt_staging.json')); print(len([w for w in d if w.get('status')=='stub']), 'stubs available')"
 ```
 Stop enriching if fewer stubs remain than your batch size.
 
@@ -248,19 +248,19 @@ Stop enriching if fewer stubs remain than your batch size.
 
 1. Check count of approved entries:
    ```bash
-   python3 -c "import json; d=json.load(open('Vocab/Vocab/Resources/words_staging.json')); print(len([w for w in d if w.get('status')=='approved']))"
+   python3 -c "import json; d=json.load(open('data/words_staging.json')); print(len([w for w in d if w.get('status')=='approved']))"
    ```
 2. If ≥ 20, publish:
    ```bash
    python3 scripts/publish_words.py \
-     --staging Vocab/Vocab/Resources/words_staging.json \
-     --production Vocab/Vocab/Resources/words.json \
+     --staging data/words_staging.json \
+     --production data/words.json \
      --confirm
    ```
    ```
 3. Verify production:
    ```bash
-   python3 scripts/validate_words.py --production Vocab/Vocab/Resources/words.json
+   python3 scripts/validate_words.py --production data/words.json
    ```
 4. The publish script automatically rebuilds `Vocab/Vocab/Resources/vocab_seed.store` using the VocabSeedBuilder package at `tools/VocabSeedBuilder/`. If the rebuild fails, a warning is printed but the publish still succeeds.
 5. Commit the updated JSON **and** the rebuilt `vocab_seed.store` together, then merge to main:

@@ -19,8 +19,8 @@ DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer \
 ```bash
 DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer \
   swift run --package-path tools/VocabSeedBuilder VocabSeedBuilder \
-    --en Vocab/Vocab/Resources/words.json \
-    --lt Vocab/Vocab/Resources/words_lt.json \
+    --en data/words.json \
+    --lt data/words_lt.json \
     --output Vocab/Vocab/Resources/vocab_seed.store
 ```
 
