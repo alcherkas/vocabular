@@ -24,6 +24,7 @@ Vocab/Vocab/
 │   ├── SessionSummaryView.swift# Post-session results display
 │   ├── FlashcardsView.swift    # Swipeable flashcard deck (used in sessions)
 │   ├── QuizView.swift          # Multiple-choice quiz with 4 modes
+│   ├── CaseTrainingView.swift  # Text-input case declension training (LT only)
 │   ├── WordListView.swift      # Searchable word browser with language filter
 │   └── StatsView.swift         # Per-language progress, mastery, streaks, quiz history
 ├── Services/
@@ -31,6 +32,8 @@ Vocab/Vocab/
 │   ├── SessionService.swift    # @Observable session state machine (idle → active → complete)
 │   ├── SpacedRepetitionService.swift # SM-2 algorithm for word scheduling
 │   ├── QuizService.swift       # Quiz question generation (4 modes: term↔def, term↔translation)
+│   ├── CaseMapping.swift       # GovernedCase → grammatical case + preposition mapping
+│   ├── CaseTrainingService.swift # Case declension exercise generation
 │   └── SpeechService.swift     # AVSpeechSynthesizer wrapper (EN + LT)
 └── Resources/
     ├── words.json              # English C1+ vocabulary (production)
@@ -74,12 +77,18 @@ Vocab/Vocab/
     var formsData: Data               // JSON-encoded WordForms? (present3, past3)
     var governedCase: String?          // e.g. "ką?", "ko?", "kur?"
 
+    // Noun/adjective grammar (LT)
+    var gender: String?                // "masculine" | "feminine" (nouns only)
+    var casesData: Data                // JSON-encoded WordCases? (declension forms)
+
     // Computed
     var meanings: [WordMeaning]      // decoded from meaningsData
     var definition: String           // shortcut to meanings[0].definition
     var example: String              // shortcut to meanings[0].example
     var masteryLevel: Double         // timesCorrect / timesSeen
     var masteryDescription: String   // "Mastered" / "Familiar" / "Learning" / "New"
+    var forms: WordForms?            // decoded from formsData (LT verbs)
+    var cases: WordCases?            // decoded from casesData (LT nouns/adjectives)
 }
 ```
 
@@ -220,6 +229,43 @@ Staging files live in `Resources/` and track curation progress via a `status` fi
 | `relations-added` | Relations agent | + `synonyms`, `antonymTerms`, `relatedTerms` |
 | `approved` | QA agent | All fields verified |
 | *(removed)* | Publisher script | Moved to `words.json`, deleted from staging |
+
+## Lithuanian Grammar Data
+
+### Noun gender
+
+LT nouns include a `gender` field (`"masculine"` or `"feminine"`), inferred from word endings and declension class.
+
+### Case declension forms
+
+LT nouns and adjectives may include a `cases` field with declined forms for all 7 Lithuanian grammatical cases (nominative, genitive, dative, accusative, instrumental, locative, vocative) in both singular and plural.
+
+```json
+{
+  "term": "brolis",
+  "gender": "masculine",
+  "cases": {
+    "masculine": {
+      "singular": { "nominative": "brolis", "genitive": "brolio", "dative": "broliui", "accusative": "brolį", "instrumental": "broliu", "locative": "brolyje", "vocative": "broli" },
+      "plural": { "nominative": "broliai", "genitive": "brolių", "dative": "broliams", "accusative": "brolius", "instrumental": "broliais", "locative": "broliuose", "vocative": "broliai" }
+    }
+  }
+}
+```
+
+- **Nouns**: only the matching gender key is populated (masculine or feminine)
+- **Adjectives**: both `masculine` and `feminine` keys are populated
+- `vocative` is optional; all other case values are required
+
+### Verb governed cases
+
+LT verbs include `forms` (3rd person present/past) and `governedCase` — the grammatical question the verb governs (e.g., `"ką?"` for accusative). The `CaseMapping` service maps all 14 governed case strings to their grammatical case and optional preposition.
+
+## Data Loading (planned migration)
+
+**Current flow**: JSON files → parsed on first launch → inserted into SwiftData.
+
+**Planned flow**: JSON files → `build_seed_db.swift` → pre-seeded SwiftData SQLite store → copied on first launch (no parsing needed). The JSON pipeline (Seeder → Enricher → Relations → QA → Publisher) remains unchanged — SQLite is only the app delivery format.
 
 
 ## What NOT to Change
