@@ -24,6 +24,8 @@ Exit code 0 = success. Exit code 1 = error.
 """
 
 import json
+import os
+import subprocess
 import sys
 import argparse
 from pathlib import Path
@@ -102,6 +104,24 @@ def main():
     print(f"\nPublished {len(approved)} word(s).")
     print(f"  Production: {args.production} ({len(new_production)} total words)")
     print(f"  Staging: {args.staging} ({len(remaining)} remaining)")
+
+    # Rebuild pre-seeded SwiftData store
+    print("\n🔨 Rebuilding seed store...")
+    result = subprocess.run([
+        "swift", "run",
+        "--package-path", "tools/VocabSeedBuilder",
+        "VocabSeedBuilder",
+        "--en", "Vocab/Vocab/Resources/words.json",
+        "--lt", "Vocab/Vocab/Resources/words_lt.json",
+        "--output", "Vocab/Vocab/Resources/vocab_seed.store"
+    ], capture_output=True, text=True,
+       env={**os.environ, "DEVELOPER_DIR": "/Applications/Xcode.app/Contents/Developer"})
+
+    if result.returncode != 0:
+        print(f"⚠️  Seed store rebuild failed:\n{result.stderr}")
+    else:
+        print(result.stdout)
+        print("✅ Seed store rebuilt successfully")
 
 
 if __name__ == "__main__":

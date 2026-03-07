@@ -262,7 +262,8 @@ Stop enriching if fewer stubs remain than your batch size.
    ```bash
    python3 scripts/validate_words.py --production Vocab/Vocab/Resources/words.json
    ```
-4. Commit and merge to main:
+4. The publish script automatically rebuilds `Vocab/Vocab/Resources/vocab_seed.store` using the VocabSeedBuilder package at `tools/VocabSeedBuilder/`. If the rebuild fails, a warning is printed but the publish still succeeds.
+5. Commit the updated JSON **and** the rebuilt `vocab_seed.store` together, then merge to main:
    ```bash
    git commit -am "vocab(publish): add N words to production [total: X]"
    # Then merge to main (see docs/WORKTREES.md)
