@@ -459,7 +459,7 @@
     "term": "teisės pažeidimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An act that contravenes a law, regulation, or legal norm.",
@@ -471,9 +471,7 @@
         ]
       }
     ],
-    "synonyms": [
-      "nusikaltimas"
-    ],
+    "synonyms": [],
     "antonymTerms": [
       "įstatymo laikymasis"
     ],
@@ -483,8 +481,7 @@
       "teisė"
     ],
     "translation": "legal violation; infringement of the law",
-    "forms": null,
-    "qa_notes": "Synonym 'nusikaltimas' is a hyponym, not a co-extensive synonym: not all legal violations are crimes. Remove or replace with a more accurate synonym."
+    "forms": null
   },
   {
     "term": "administracinė bauda",
@@ -1778,7 +1775,7 @@
     "term": "vienbalsiai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "With the agreement of all people involved; without any dissenting vote.",
@@ -1791,23 +1788,20 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [
-      "daugumos sprendimu"
-    ],
+    "antonymTerms": [],
     "relatedTerms": [
       "balsavimas",
       "sprendimas",
       "sutarimas"
     ],
     "translation": "unanimously",
-    "forms": null,
-    "qa_notes": "AntonymTerm 'daugumos sprendimu' is in instrumental case. Should be nominative: 'daugumos sprendimas'."
+    "forms": null
   },
   {
     "term": "frakcija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A group of people with shared political views within a larger party or legislative body.",
@@ -1819,9 +1813,7 @@
         ]
       }
     ],
-    "synonyms": [
-      "grupė"
-    ],
+    "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [
       "partija",
@@ -1829,8 +1821,7 @@
       "parlamentas"
     ],
     "translation": "faction; parliamentary group",
-    "forms": null,
-    "qa_notes": "Synonym 'grupė' is a hypernym: any group is not co-extensive with a parliamentary faction. Remove or replace with a more specific synonym."
+    "forms": null
   },
   {
     "term": "valdančioji partija",
@@ -2210,7 +2201,7 @@
     "term": "karinė strategija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A plan for deploying military forces to achieve national security objectives.",
@@ -2230,8 +2221,7 @@
       "sausumos pajėgos"
     ],
     "translation": "military strategy",
-    "forms": null,
-    "qa_notes": "Grammar error in example: 'buvo persvarstytas' should be 'buvo persvarstyTA' (feminine passive participle to agree with 'strategija')."
+    "forms": null
   },
   {
     "term": "gynybos biudžetas",
