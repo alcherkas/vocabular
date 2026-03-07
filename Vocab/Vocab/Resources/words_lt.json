@@ -945,7 +945,7 @@
           "genitive": "sesers",
           "dative": "seseriai",
           "accusative": "seserį",
-          "instrumental": "seseria",
+          "instrumental": "seserimi",
           "locative": "seseryje",
           "vocative": "seserie"
         },
@@ -1093,7 +1093,7 @@
           "genitive": "dukters",
           "dative": "dukteriai",
           "accusative": "dukterį",
-          "instrumental": "dukteria",
+          "instrumental": "dukterimi",
           "locative": "dukteryje",
           "vocative": "dukterie"
         },
@@ -1592,15 +1592,7 @@
     "gender": "masculine",
     "cases": {
       "masculine": {
-        "singular": {
-          "nominative": "ryžiai",
-          "genitive": "ryžių",
-          "dative": "ryžiams",
-          "accusative": "ryžius",
-          "instrumental": "ryžiais",
-          "locative": "ryžiuose",
-          "vocative": "ryžiai"
-        },
+        "singular": null,
         "plural": {
           "nominative": "ryžiai",
           "genitive": "ryžių",
@@ -1943,7 +1935,7 @@
         },
         "plural": {
           "nominative": "katės",
-          "genitive": "katių",
+          "genitive": "kačių",
           "dative": "katėms",
           "accusative": "kates",
           "instrumental": "katėmis",
@@ -1973,7 +1965,7 @@
           "genitive": "šuns",
           "dative": "šuniui",
           "accusative": "šunį",
-          "instrumental": "šuniu",
+          "instrumental": "šunimi",
           "locative": "šunyje",
           "vocative": "šunie"
         },
@@ -2006,21 +1998,21 @@
       "masculine": {
         "singular": {
           "nominative": "paukštis",
-          "genitive": "paukštio",
-          "dative": "paukštiui",
+          "genitive": "paukščio",
+          "dative": "paukščiui",
           "accusative": "paukštį",
-          "instrumental": "paukštiu",
+          "instrumental": "paukščiu",
           "locative": "paukštyje",
           "vocative": "paukšti"
         },
         "plural": {
-          "nominative": "paukštiai",
-          "genitive": "paukštių",
-          "dative": "paukštiams",
-          "accusative": "paukštius",
-          "instrumental": "paukštiais",
-          "locative": "paukštiuose",
-          "vocative": "paukštiai"
+          "nominative": "paukščiai",
+          "genitive": "paukščių",
+          "dative": "paukščiams",
+          "accusative": "paukščius",
+          "instrumental": "paukščiais",
+          "locative": "paukščiuose",
+          "vocative": "paukščiai"
         }
       }
     }
@@ -2566,15 +2558,7 @@
     "gender": "masculine",
     "cases": {
       "masculine": {
-        "singular": {
-          "nominative": "plaukas",
-          "genitive": "plauko",
-          "dative": "plaukui",
-          "accusative": "plauką",
-          "instrumental": "plauku",
-          "locative": "plauke",
-          "vocative": "plauke"
-        },
+        "singular": null,
         "plural": {
           "nominative": "plaukai",
           "genitive": "plaukų",
@@ -2604,21 +2588,21 @@
       "masculine": {
         "singular": {
           "nominative": "dantis",
-          "genitive": "dantio",
-          "dative": "dantiui",
+          "genitive": "danties",
+          "dative": "dančiui",
           "accusative": "dantį",
-          "instrumental": "dantiu",
+          "instrumental": "dantimi",
           "locative": "dantyje",
-          "vocative": "danti"
+          "vocative": "dantie"
         },
         "plural": {
-          "nominative": "dantiai",
-          "genitive": "dantių",
-          "dative": "dantiams",
-          "accusative": "dantius",
-          "instrumental": "dantiais",
-          "locative": "dantiuose",
-          "vocative": "dantiai"
+          "nominative": "dantys",
+          "genitive": "dantų",
+          "dative": "dantims",
+          "accusative": "dantis",
+          "instrumental": "dantimis",
+          "locative": "dantyse",
+          "vocative": "dantys"
         }
       }
     }
@@ -4201,7 +4185,7 @@
         "singular": {
           "nominative": "naktis",
           "genitive": "nakties",
-          "dative": "naktiai",
+          "dative": "nakčiai",
           "accusative": "naktį",
           "instrumental": "naktimi",
           "locative": "naktyje",
@@ -4209,7 +4193,7 @@
         },
         "plural": {
           "nominative": "naktys",
-          "genitive": "naktių",
+          "genitive": "naktų",
           "dative": "naktims",
           "accusative": "naktis",
           "instrumental": "naktimis",
@@ -4353,7 +4337,7 @@
         },
         "plural": {
           "nominative": "minutės",
-          "genitive": "minutių",
+          "genitive": "minučių",
           "dative": "minutėms",
           "accusative": "minutes",
           "instrumental": "minutėmis",
@@ -4389,7 +4373,7 @@
         },
         "plural": {
           "nominative": "savaitės",
-          "genitive": "savaitių",
+          "genitive": "savaičių",
           "dative": "savaitėms",
           "accusative": "savaites",
           "instrumental": "savaitėmis",
@@ -4450,15 +4434,7 @@
     "gender": "masculine",
     "cases": {
       "masculine": {
-        "singular": {
-          "nominative": "metai",
-          "genitive": "metų",
-          "dative": "metams",
-          "accusative": "metus",
-          "instrumental": "metais",
-          "locative": "metuose",
-          "vocative": "metai"
-        },
+        "singular": null,
         "plural": {
           "nominative": "metai",
           "genitive": "metų",
@@ -5208,15 +5184,7 @@
     "gender": "feminine",
     "cases": {
       "feminine": {
-        "singular": {
-          "nominative": "kelnės",
-          "genitive": "kelnių",
-          "dative": "kelnėms",
-          "accusative": "kelnes",
-          "instrumental": "kelnėmis",
-          "locative": "kelnėse",
-          "vocative": "kelnės"
-        },
+        "singular": null,
         "plural": {
           "nominative": "kelnės",
           "genitive": "kelnių",
@@ -5244,15 +5212,7 @@
     "gender": "masculine",
     "cases": {
       "masculine": {
-        "singular": {
-          "nominative": "marškiniai",
-          "genitive": "marškinių",
-          "dative": "marškiniams",
-          "accusative": "marškinius",
-          "instrumental": "marškiniais",
-          "locative": "marškiniuose",
-          "vocative": "marškiniai"
-        },
+        "singular": null,
         "plural": {
           "nominative": "marškiniai",
           "genitive": "marškinių",
@@ -5316,15 +5276,7 @@
     "gender": "masculine",
     "cases": {
       "masculine": {
-        "singular": {
-          "nominative": "batas",
-          "genitive": "bato",
-          "dative": "batui",
-          "accusative": "batą",
-          "instrumental": "batu",
-          "locative": "bate",
-          "vocative": "bate"
-        },
+        "singular": null,
         "plural": {
           "nominative": "batai",
           "genitive": "batų",
@@ -5388,15 +5340,7 @@
     "gender": "feminine",
     "cases": {
       "feminine": {
-        "singular": {
-          "nominative": "kojinė",
-          "genitive": "kojinės",
-          "dative": "kojinei",
-          "accusative": "kojinę",
-          "instrumental": "kojine",
-          "locative": "kojinėje",
-          "vocative": "kojine"
-        },
+        "singular": null,
         "plural": {
           "nominative": "kojinės",
           "genitive": "kojinių",
@@ -7560,7 +7504,7 @@
         },
         "plural": {
           "nominative": "klientės",
-          "genitive": "klientių",
+          "genitive": "klienčių",
           "dative": "klientėms",
           "accusative": "klientes",
           "instrumental": "klientėmis",
@@ -7846,7 +7790,7 @@
         },
         "plural": {
           "nominative": "studentės",
-          "genitive": "studentių",
+          "genitive": "studenčių",
           "dative": "studentėms",
           "accusative": "studentes",
           "instrumental": "studentėmis",
@@ -7884,21 +7828,21 @@
       "masculine": {
         "singular": {
           "nominative": "senamiestis",
-          "genitive": "senamiestio",
-          "dative": "senamiestiui",
+          "genitive": "senamiesčio",
+          "dative": "senamiesčiui",
           "accusative": "senamiestį",
-          "instrumental": "senamiestiu",
+          "instrumental": "senamiesčiu",
           "locative": "senamiestyje",
           "vocative": "senamiesti"
         },
         "plural": {
-          "nominative": "senamiestiai",
-          "genitive": "senamiestių",
-          "dative": "senamiestiams",
-          "accusative": "senamiestius",
-          "instrumental": "senamiestiais",
-          "locative": "senamiestiuose",
-          "vocative": "senamiestiai"
+          "nominative": "senamiesčiai",
+          "genitive": "senamiesčių",
+          "dative": "senamiesčiams",
+          "accusative": "senamiesčius",
+          "instrumental": "senamiesčiais",
+          "locative": "senamiesčiuose",
+          "vocative": "senamiesčiai"
         }
       }
     }
@@ -8999,21 +8943,21 @@
       "masculine": {
         "singular": {
           "nominative": "vokietis",
-          "genitive": "vokietio",
-          "dative": "vokietiui",
+          "genitive": "vokiečio",
+          "dative": "vokiečiui",
           "accusative": "vokietį",
-          "instrumental": "vokietiu",
+          "instrumental": "vokiečiu",
           "locative": "vokietyje",
           "vocative": "vokieti"
         },
         "plural": {
-          "nominative": "vokietiai",
-          "genitive": "vokietių",
-          "dative": "vokietiams",
-          "accusative": "vokietius",
-          "instrumental": "vokietiais",
-          "locative": "vokietiuose",
-          "vocative": "vokietiai"
+          "nominative": "vokiečiai",
+          "genitive": "vokiečių",
+          "dative": "vokiečiams",
+          "accusative": "vokiečius",
+          "instrumental": "vokiečiais",
+          "locative": "vokiečiuose",
+          "vocative": "vokiečiai"
         }
       }
     }
@@ -9059,7 +9003,7 @@
         },
         "plural": {
           "nominative": "vokietės",
-          "genitive": "vokietių",
+          "genitive": "vokiečių",
           "dative": "vokietėms",
           "accusative": "vokietes",
           "instrumental": "vokietėmis",
@@ -11053,7 +10997,7 @@
         },
         "plural": {
           "nominative": "aikštės",
-          "genitive": "aikštių",
+          "genitive": "aikščių",
           "dative": "aikštėms",
           "accusative": "aikštes",
           "instrumental": "aikštėmis",
@@ -11152,21 +11096,21 @@
       "masculine": {
         "singular": {
           "nominative": "bendrabutis",
-          "genitive": "bendrabutio",
-          "dative": "bendrabutiui",
+          "genitive": "bendrabučio",
+          "dative": "bendrabučiui",
           "accusative": "bendrabutį",
-          "instrumental": "bendrabutiu",
+          "instrumental": "bendrabučiu",
           "locative": "bendrabutyje",
           "vocative": "bendrabuti"
         },
         "plural": {
-          "nominative": "bendrabutiai",
-          "genitive": "bendrabutių",
-          "dative": "bendrabutiams",
-          "accusative": "bendrabutius",
-          "instrumental": "bendrabutiais",
-          "locative": "bendrabutiuose",
-          "vocative": "bendrabutiai"
+          "nominative": "bendrabučiai",
+          "genitive": "bendrabučių",
+          "dative": "bendrabučiams",
+          "accusative": "bendrabučius",
+          "instrumental": "bendrabučiais",
+          "locative": "bendrabučiuose",
+          "vocative": "bendrabučiai"
         }
       }
     }
@@ -14941,15 +14885,7 @@
     "gender": "masculine",
     "cases": {
       "masculine": {
-        "singular": {
-          "nominative": "tėvas",
-          "genitive": "tėvo",
-          "dative": "tėvui",
-          "accusative": "tėvą",
-          "instrumental": "tėvu",
-          "locative": "tėve",
-          "vocative": "tėve"
-        },
+        "singular": null,
         "plural": {
           "nominative": "tėvai",
           "genitive": "tėvų",
