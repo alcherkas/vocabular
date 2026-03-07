@@ -3,7 +3,7 @@
     "term": "tyrimų metodologija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A systematic set of rules, techniques, and procedures used to conduct scientific research.",
@@ -17,7 +17,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tyrimas",
+      "metodas",
+      "mokslo tyrimas"
+    ],
     "translation": "research methodology",
     "forms": null
   },
@@ -25,7 +29,7 @@
     "term": "cituoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To quote or reference another person's words, work, or source material.",
@@ -37,9 +41,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "referuoti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "citata",
+      "šaltinis",
+      "plagiatas"
+    ],
     "translation": "to cite; to quote",
     "forms": {
       "present3": "cituoja",
@@ -51,7 +61,7 @@
     "term": "plagiatas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The act of presenting someone else's work or ideas as one's own without proper attribution.",
@@ -64,8 +74,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "originalumas"
+    ],
+    "relatedTerms": [
+      "autorių teisės",
+      "cituoti",
+      "akademinis darbas"
+    ],
     "translation": "plagiarism",
     "forms": null
   },
@@ -73,7 +89,7 @@
     "term": "recenzija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A critical evaluation or analysis of a book, article, performance, or academic work.",
@@ -85,9 +101,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atsiliepimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "straipsnis",
+      "kritika",
+      "mokslinė publikacija"
+    ],
     "translation": "review; critique",
     "forms": null
   },
@@ -95,7 +117,7 @@
     "term": "akademinis darbas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A piece of written scholarly work produced for educational or research purposes.",
@@ -109,7 +131,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "recenzija",
+      "mokslo straipsnis",
+      "diplomas"
+    ],
     "translation": "academic work; academic paper",
     "forms": null
   },
@@ -117,7 +143,7 @@
     "term": "mokslinė publikacija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formally published document presenting original research findings in a peer-reviewed journal or book.",
@@ -131,7 +157,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokslo straipsnis",
+      "žurnalas",
+      "recenzija"
+    ],
     "translation": "scientific publication",
     "forms": null
   },
@@ -139,7 +169,7 @@
     "term": "mokslo straipsnis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A written work presenting original scientific research, methodology, and conclusions for publication.",
@@ -153,7 +183,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mokslinė publikacija",
+      "recenzija",
+      "tyrimų metodologija"
+    ],
     "translation": "scientific article; research paper",
     "forms": null
   },
@@ -161,7 +195,7 @@
     "term": "projekto vadyba",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The application of processes, methods, and skills to achieve specific project objectives within agreed parameters.",
@@ -175,7 +209,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "projektas",
+      "vadybininkas",
+      "rizikos valdymas"
+    ],
     "translation": "project management",
     "forms": null
   },
@@ -183,7 +221,7 @@
     "term": "rizikos valdymas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The identification, assessment, and prioritization of risks followed by coordinated efforts to minimize their impact.",
@@ -197,7 +235,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "projekto vadyba",
+      "strategija",
+      "planavimas"
+    ],
     "translation": "risk management",
     "forms": null
   },
@@ -205,7 +247,7 @@
     "term": "darbuotojų motyvacija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The level of energy, commitment, and drive that workers bring to their roles, influenced by internal and external factors.",
@@ -219,7 +261,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "darbuotojas",
+      "produktyvumas",
+      "valdymas"
+    ],
     "translation": "employee motivation",
     "forms": null
   },
@@ -227,7 +273,7 @@
     "term": "rinkodaros strategija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A plan of action designed to promote and sell products or services to a target market.",
@@ -241,7 +287,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "rinkodara",
+      "strategija",
+      "prekės ženklo kūrimas"
+    ],
     "translation": "marketing strategy",
     "forms": null
   },
@@ -249,7 +299,7 @@
     "term": "prekės ženklo kūrimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The process of creating and strengthening a recognizable brand identity for a company or product.",
@@ -263,7 +313,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "prekės ženklas",
+      "rinkodara",
+      "reklama"
+    ],
     "translation": "brand building; branding",
     "forms": null
   },
@@ -271,7 +325,7 @@
     "term": "socialinė rinkodara",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Marketing that uses social media platforms or aims at influencing behaviour for social good.",
@@ -285,7 +339,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "rinkodara",
+      "socialinis tinklas",
+      "reklama"
+    ],
     "translation": "social marketing",
     "forms": null
   },
@@ -293,7 +351,7 @@
     "term": "pardavimų analizė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The examination of sales data to evaluate performance, identify trends, and support business decisions.",
@@ -307,7 +365,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "pardavimai",
+      "statistika",
+      "finansinis modelis"
+    ],
     "translation": "sales analysis",
     "forms": null
   },
@@ -315,7 +377,7 @@
     "term": "pelno marža",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The percentage of revenue that remains as profit after all costs have been deducted.",
@@ -328,8 +390,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "nuostolis"
+    ],
+    "relatedTerms": [
+      "pelnas",
+      "pajamos",
+      "finansinis modelis"
+    ],
     "translation": "profit margin",
     "forms": null
   },
@@ -337,7 +405,7 @@
     "term": "baudžiamasis procesas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The formal legal process by which criminal charges are brought and resolved in court.",
@@ -351,7 +419,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "teismas",
+      "baudžiamoji teisė",
+      "gynybos advokatas"
+    ],
     "translation": "criminal proceedings; criminal procedure",
     "forms": null
   },
@@ -359,7 +431,7 @@
     "term": "gynybos advokatas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A lawyer who represents the accused party in criminal or civil legal proceedings.",
@@ -372,8 +444,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "prokuroras"
+    ],
+    "relatedTerms": [
+      "teismas",
+      "baudžiamasis procesas",
+      "advokatūra"
+    ],
     "translation": "defense attorney; defense lawyer",
     "forms": null
   },
@@ -381,7 +459,7 @@
     "term": "teisės pažeidimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An act that contravenes a law, regulation, or legal norm.",
@@ -393,9 +471,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nusikaltimas"
+    ],
+    "antonymTerms": [
+      "įstatymo laikymasis"
+    ],
+    "relatedTerms": [
+      "bauda",
+      "atsakomybė",
+      "teisė"
+    ],
     "translation": "legal violation; infringement of the law",
     "forms": null
   },
@@ -403,7 +489,7 @@
     "term": "administracinė bauda",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A financial penalty imposed by a government authority for a violation of regulations or administrative rules.",
@@ -417,7 +503,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "teisės pažeidimas",
+      "mokestis",
+      "administracinė atsakomybė"
+    ],
     "translation": "administrative fine; administrative penalty",
     "forms": null
   },
@@ -425,7 +515,7 @@
     "term": "sulaikymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The temporary holding of a person by law enforcement pending investigation or charges.",
@@ -437,9 +527,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "suėmimas"
+    ],
+    "antonymTerms": [
+      "paleidimas"
+    ],
+    "relatedTerms": [
+      "policija",
+      "teismas",
+      "baudžiamasis procesas"
+    ],
     "translation": "detention; apprehension",
     "forms": null
   },
@@ -447,7 +545,7 @@
     "term": "suėmimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The formal taking of a person into custody by law enforcement on suspicion of committing a crime.",
@@ -459,9 +557,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sulaikymas"
+    ],
+    "antonymTerms": [
+      "paleidimas"
+    ],
+    "relatedTerms": [
+      "policija",
+      "kalėjimas",
+      "baudžiamasis procesas"
+    ],
     "translation": "arrest",
     "forms": null
   },
@@ -469,7 +575,7 @@
     "term": "kalėjimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A secure facility where people convicted of crimes are held as punishment.",
@@ -481,9 +587,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "įkalinimo įstaiga"
+    ],
+    "antonymTerms": [
+      "laisvė"
+    ],
+    "relatedTerms": [
+      "suėmimas",
+      "probacija",
+      "teismas"
+    ],
     "translation": "prison; jail",
     "forms": null
   },
@@ -491,7 +605,7 @@
     "term": "probacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A period of supervision in the community as an alternative to imprisonment after a criminal conviction.",
@@ -504,8 +618,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "įkalinimas"
+    ],
+    "relatedTerms": [
+      "kalėjimas",
+      "priežiūra",
+      "nuosprendis"
+    ],
     "translation": "probation",
     "forms": null
   },
@@ -513,7 +633,7 @@
     "term": "konstitucinis teismas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A highest judicial body that ensures laws and government actions comply with the constitution.",
@@ -527,7 +647,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "konstitucija",
+      "teismas",
+      "įstatymas"
+    ],
     "translation": "constitutional court",
     "forms": null
   },
@@ -535,7 +659,7 @@
     "term": "onkologija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The branch of medicine dealing with the diagnosis, treatment, and prevention of cancer.",
@@ -549,7 +673,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kardiologija",
+      "medicina",
+      "vėžys"
+    ],
     "translation": "oncology",
     "forms": null
   },
@@ -557,7 +685,7 @@
     "term": "kardiologija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The branch of medicine concerned with diseases and abnormalities of the heart.",
@@ -571,7 +699,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "onkologija",
+      "širdis",
+      "medicina"
+    ],
     "translation": "cardiology",
     "forms": null
   },
@@ -579,7 +711,7 @@
     "term": "ortopedas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A medical specialist who diagnoses and treats disorders of the bones, joints, muscles, and related structures.",
@@ -593,7 +725,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gydytojas",
+      "chirurgas",
+      "endokrinologas"
+    ],
     "translation": "orthopedist; orthopedic surgeon",
     "forms": null
   },
@@ -601,7 +737,7 @@
     "term": "endokrinologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A doctor specializing in the endocrine system, including hormones and glands such as the thyroid and pancreas.",
@@ -615,7 +751,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gydytojas",
+      "hormonai",
+      "ginekologas"
+    ],
     "translation": "endocrinologist",
     "forms": null
   },
@@ -623,7 +763,7 @@
     "term": "ginekologas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A doctor specializing in the female reproductive system and its disorders.",
@@ -637,7 +777,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gydytojas",
+      "endokrinologas",
+      "okulistas"
+    ],
     "translation": "gynecologist",
     "forms": null
   },
@@ -645,7 +789,7 @@
     "term": "okulistas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A medical specialist dealing with the diagnosis and treatment of eye diseases and vision problems.",
@@ -657,9 +801,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "oftalmologas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gydytojas",
+      "regėjimas",
+      "akiniai"
+    ],
     "translation": "ophthalmologist; oculist",
     "forms": null
   },
@@ -667,7 +817,7 @@
     "term": "klinikinė diagnostika",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The process of identifying a disease or condition in a patient through medical tests and examination.",
@@ -681,7 +831,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gydytojas",
+      "tyrimas",
+      "simptomas"
+    ],
     "translation": "clinical diagnostics",
     "forms": null
   },
@@ -689,7 +843,7 @@
     "term": "etinis sprendimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A choice made by considering what is morally right, fair, or good in a given situation.",
@@ -703,7 +857,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "etika",
+      "moralinė atsakomybė",
+      "vertybė"
+    ],
     "translation": "ethical decision",
     "forms": null
   },
@@ -711,7 +869,7 @@
     "term": "moralinė atsakomybė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The obligation to act in accordance with ethical norms and to be accountable for the consequences of one's actions.",
@@ -725,7 +883,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "etinis sprendimas",
+      "pareiga",
+      "sąžinė"
+    ],
     "translation": "moral responsibility",
     "forms": null
   },
@@ -733,7 +895,7 @@
     "term": "fenomenologija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A philosophical approach focusing on the structure of conscious experience and the essence of things as they appear to awareness.",
@@ -747,7 +909,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dialektika",
+      "filosofija",
+      "suvokimas"
+    ],
     "translation": "phenomenology",
     "forms": null
   },
@@ -755,7 +921,7 @@
     "term": "dialektika",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A method of examining and discussing opposing ideas to find truth; the process of reasoning through contradiction and synthesis.",
@@ -769,7 +935,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "fenomenologija",
+      "logika",
+      "filosofija"
+    ],
     "translation": "dialectics",
     "forms": null
   },
@@ -777,7 +947,7 @@
     "term": "deontologinė etika",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A normative ethical theory that judges the morality of actions based on rules and duties rather than consequences.",
@@ -790,8 +960,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "utilitarizmas"
+    ],
+    "relatedTerms": [
+      "etika",
+      "pareiga",
+      "moralinė atsakomybė"
+    ],
     "translation": "deontological ethics",
     "forms": null
   },
@@ -799,7 +975,7 @@
     "term": "dvikalbystė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The ability to speak and use two languages fluently in everyday life.",
@@ -812,8 +988,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "vienkalbystė"
+    ],
+    "relatedTerms": [
+      "daugiakalbystė",
+      "kalba",
+      "vertimas"
+    ],
     "translation": "bilingualism",
     "forms": null
   },
@@ -821,7 +1003,7 @@
     "term": "daugiakalbystė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The ability to use or the presence of multiple languages in communication or a society.",
@@ -834,8 +1016,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "vienkalbystė"
+    ],
+    "relatedTerms": [
+      "dvikalbystė",
+      "kalba",
+      "kalbos politika"
+    ],
     "translation": "multilingualism",
     "forms": null
   },
@@ -843,7 +1031,7 @@
     "term": "žargonas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Specialized technical vocabulary used by a particular group or profession that may be hard for outsiders to understand.",
@@ -855,9 +1043,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "slengas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kalba",
+      "terminija",
+      "profesinė kalba"
+    ],
     "translation": "jargon; slang",
     "forms": null
   },
@@ -865,7 +1059,7 @@
     "term": "kalbos politika",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Official decisions and regulations made by governments or organizations about which languages to use and promote.",
@@ -879,7 +1073,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dvikalbystė",
+      "kalbos normos",
+      "valstybinė kalba"
+    ],
     "translation": "language policy",
     "forms": null
   },
@@ -887,7 +1085,7 @@
     "term": "kalbinis barjeras",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A difficulty in communication arising from differences in language between speakers.",
@@ -901,7 +1099,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kalba",
+      "vertimas",
+      "komunikacija"
+    ],
     "translation": "language barrier",
     "forms": null
   },
@@ -909,7 +1111,7 @@
     "term": "vertimo agentūra",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A company that provides professional translation and interpretation services.",
@@ -923,7 +1125,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vertimas",
+      "sinchroninis vertimas",
+      "kalba"
+    ],
     "translation": "translation agency",
     "forms": null
   },
@@ -931,7 +1137,7 @@
     "term": "sinchroninis vertimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of oral translation in which the interpreter renders speech into another language in real time as the speaker talks.",
@@ -945,7 +1151,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vertimas",
+      "vertimo agentūra",
+      "konferencija"
+    ],
     "translation": "simultaneous interpretation",
     "forms": null
   },
@@ -953,7 +1163,7 @@
     "term": "kalbos normos",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Established rules and conventions that govern the correct use of a language.",
@@ -967,7 +1177,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kalbos kultūra",
+      "kalbos politika",
+      "gramatika"
+    ],
     "translation": "language norms; linguistic standards",
     "forms": null
   },
@@ -975,7 +1189,7 @@
     "term": "kalbos kultūra",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The collective awareness and practice of using language correctly, carefully, and respectfully.",
@@ -989,7 +1203,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kalbos normos",
+      "komunikacija",
+      "kalba"
+    ],
     "translation": "language culture; culture of language use",
     "forms": null
   },
@@ -997,7 +1215,7 @@
     "term": "tarptautinė prekyba",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The exchange of goods and services between countries across international borders.",
@@ -1010,8 +1228,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "vidaus prekyba"
+    ],
+    "relatedTerms": [
+      "importo muitai",
+      "eksporto subsidijos",
+      "ekonomika"
+    ],
     "translation": "international trade",
     "forms": null
   },
@@ -1019,7 +1243,7 @@
     "term": "importo muitai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Taxes imposed by a government on goods brought into a country from abroad.",
@@ -1033,7 +1257,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "eksporto subsidijos",
+      "tarptautinė prekyba",
+      "mokestis"
+    ],
     "translation": "import duties; import tariffs",
     "forms": null
   },
@@ -1041,7 +1269,7 @@
     "term": "eksporto subsidijos",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Government financial support given to domestic producers to help them sell goods more cheaply on foreign markets.",
@@ -1055,7 +1283,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "importo muitai",
+      "tarptautinė prekyba",
+      "valstybės parama"
+    ],
     "translation": "export subsidies",
     "forms": null
   },
@@ -1063,7 +1295,7 @@
     "term": "laisvosios prekybos sutartis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An agreement between countries to reduce or eliminate tariffs and other barriers to trade between them.",
@@ -1077,7 +1309,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tarptautinė prekyba",
+      "sutartis",
+      "ekonominė sankcija"
+    ],
     "translation": "free trade agreement",
     "forms": null
   },
@@ -1085,7 +1321,7 @@
     "term": "ekonominė sankcija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A penalty or restriction imposed by one country or group of countries on another to influence its behaviour.",
@@ -1099,7 +1335,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "laisvosios prekybos sutartis",
+      "dvišalis susitarimas",
+      "politika"
+    ],
     "translation": "economic sanction",
     "forms": null
   },
@@ -1107,7 +1347,7 @@
     "term": "dvišalis susitarimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An agreement or treaty made between two countries or parties.",
@@ -1120,8 +1360,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "daugiašalis susitarimas"
+    ],
+    "relatedTerms": [
+      "ekonominė sankcija",
+      "tarptautiniai santykiai",
+      "sutartis"
+    ],
     "translation": "bilateral agreement",
     "forms": null
   },
@@ -1129,7 +1375,7 @@
     "term": "valiutos devalvacija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A deliberate reduction in the value of a country's currency relative to foreign currencies.",
@@ -1142,8 +1388,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "valiutos revalvacija"
+    ],
+    "relatedTerms": [
+      "centralinis bankas",
+      "ekonomika",
+      "valiuta"
+    ],
     "translation": "currency devaluation",
     "forms": null
   },
@@ -1151,7 +1403,7 @@
     "term": "centralinis bankas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A national financial institution responsible for monetary policy, currency issuance, and oversight of the banking system.",
@@ -1165,7 +1417,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "valiutos devalvacija",
+      "finansai",
+      "ekonomika"
+    ],
     "translation": "central bank",
     "forms": null
   },
@@ -1173,7 +1429,7 @@
     "term": "biodiverzitetas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The variety of living organisms in a particular habitat or on Earth as a whole, including species, genetic, and ecosystem diversity.",
@@ -1187,7 +1443,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ekosistema",
+      "miško kirtimai",
+      "gamta"
+    ],
     "translation": "biodiversity",
     "forms": null
   },
@@ -1195,7 +1455,7 @@
     "term": "ekosistemos paslaugos",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The benefits that humans obtain from ecosystems, such as clean water, pollination, and climate regulation.",
@@ -1209,7 +1469,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "biodiverzitetas",
+      "ekosistema",
+      "aplinka"
+    ],
     "translation": "ecosystem services",
     "forms": null
   },
@@ -1217,7 +1481,7 @@
     "term": "miško kirtimai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The cutting down of trees in a forest area, either for timber or to clear land for other uses.",
@@ -1230,8 +1494,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "miško atsodinimas"
+    ],
+    "relatedTerms": [
+      "biodiverzitetas",
+      "ekosistema",
+      "aplinka"
+    ],
     "translation": "forest logging; deforestation",
     "forms": null
   },
@@ -1239,7 +1509,7 @@
     "term": "jūros tarša",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The contamination of the sea and ocean by harmful substances such as plastics, chemicals, and oil.",
@@ -1253,7 +1523,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dirvožemio erozija",
+      "aplinka",
+      "ekosistema"
+    ],
     "translation": "sea pollution; marine pollution",
     "forms": null
   },
@@ -1261,7 +1535,7 @@
     "term": "dirvožemio erozija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The gradual wearing away and removal of the top layer of soil by wind, water, or human activity.",
@@ -1275,7 +1549,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "jūros tarša",
+      "žemės ūkis",
+      "aplinka"
+    ],
     "translation": "soil erosion",
     "forms": null
   },
@@ -1283,7 +1561,7 @@
     "term": "vandenynų rūgštėjimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The ongoing decrease in the pH of the Earth's oceans caused by the absorption of carbon dioxide from the atmosphere.",
@@ -1297,7 +1575,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "klimato kaita",
+      "ekosistema",
+      "jūros tarša"
+    ],
     "translation": "ocean acidification",
     "forms": null
   },
@@ -1305,7 +1587,7 @@
     "term": "klimato susitarimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An international treaty or agreement between countries to address climate change and reduce greenhouse gas emissions.",
@@ -1319,7 +1601,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "vandenynų rūgštėjimas",
+      "anglies kompensavimas",
+      "politika"
+    ],
     "translation": "climate agreement",
     "forms": null
   },
@@ -1327,7 +1613,7 @@
     "term": "anglies kompensavimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mechanism by which carbon dioxide emissions from one activity are compensated by investing in projects that reduce emissions elsewhere.",
@@ -1341,7 +1627,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "klimato susitarimas",
+      "emisijos",
+      "ekosistema"
+    ],
     "translation": "carbon offsetting",
     "forms": null
   },
@@ -1349,7 +1639,7 @@
     "term": "elektroninės lėšos",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Money that exists only in electronic form and is transferred and stored digitally.",
@@ -1362,8 +1652,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "grynieji pinigai"
+    ],
+    "relatedTerms": [
+      "skaitmeninis turtas",
+      "finansai",
+      "atsiskaitymas"
+    ],
     "translation": "electronic funds; e-money",
     "forms": null
   },
@@ -1371,7 +1667,7 @@
     "term": "skaitmeninis turtas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Any asset that exists in digital form and has value, including digital files, cryptocurrencies, and online accounts.",
@@ -1383,9 +1679,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "virtualus turtas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "elektroninės lėšos",
+      "finansinis modelis",
+      "technologija"
+    ],
     "translation": "digital asset",
     "forms": null
   },
@@ -1393,7 +1695,7 @@
     "term": "virtualus turtas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An asset that exists only in virtual or digital environments, such as in-game items or virtual currency.",
@@ -1405,9 +1707,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "skaitmeninis turtas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žaidimas",
+      "technologija",
+      "elektroninės lėšos"
+    ],
     "translation": "virtual asset",
     "forms": null
   },
@@ -1415,7 +1723,7 @@
     "term": "finansinis modelis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A mathematical representation of a company's financial performance used for forecasting and decision-making.",
@@ -1429,7 +1737,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "finansai",
+      "pardavimų analizė",
+      "prognozė"
+    ],
     "translation": "financial model",
     "forms": null
   },
@@ -1437,7 +1749,7 @@
     "term": "daugumos sprendimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A decision made when more than half of the voting participants agree on a particular option.",
@@ -1450,8 +1762,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "vienbalsiai priimtas sprendimas"
+    ],
+    "relatedTerms": [
+      "balsavimas",
+      "demokratija",
+      "frakcija"
+    ],
     "translation": "majority decision",
     "forms": null
   },
@@ -1459,7 +1777,7 @@
     "term": "vienbalsiai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "With the agreement of all people involved; without any dissenting vote.",
@@ -1472,8 +1790,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "daugumos sprendimu"
+    ],
+    "relatedTerms": [
+      "balsavimas",
+      "sprendimas",
+      "sutarimas"
+    ],
     "translation": "unanimously",
     "forms": null
   },
@@ -1481,7 +1805,7 @@
     "term": "frakcija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A group of people with shared political views within a larger party or legislative body.",
@@ -1493,9 +1817,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "grupė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "partija",
+      "valdančioji partija",
+      "parlamentas"
+    ],
     "translation": "faction; parliamentary group",
     "forms": null
   },
@@ -1503,7 +1833,7 @@
     "term": "valdančioji partija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The political party or coalition that currently holds governmental power.",
@@ -1516,8 +1846,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "opozicinė partija"
+    ],
+    "relatedTerms": [
+      "vyriausybė",
+      "partija",
+      "frakcija"
+    ],
     "translation": "ruling party; governing party",
     "forms": null
   },
@@ -1525,7 +1861,7 @@
     "term": "opozicinė partija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A political party that opposes the policies and actions of the party currently in power.",
@@ -1538,8 +1874,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "valdančioji partija"
+    ],
+    "relatedTerms": [
+      "partija",
+      "balsavimas",
+      "frakcija"
+    ],
     "translation": "opposition party",
     "forms": null
   },
@@ -1547,7 +1889,7 @@
     "term": "politinė platforma",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A set of principles and policy goals formally declared by a political party or candidate.",
@@ -1559,9 +1901,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "politinė programa"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "partija",
+      "rinkimai",
+      "politika"
+    ],
     "translation": "political platform",
     "forms": null
   },
@@ -1569,7 +1917,7 @@
     "term": "balsų skaičiavimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The official process of tallying votes after an election to determine the outcome.",
@@ -1583,7 +1931,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "rinkimų rezultatai",
+      "rinkimai",
+      "balsavimas"
+    ],
     "translation": "vote counting; ballot counting",
     "forms": null
   },
@@ -1591,7 +1943,7 @@
     "term": "rinkimų rezultatai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The official outcome of an election, showing which candidates or parties won.",
@@ -1605,7 +1957,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "balsų skaičiavimas",
+      "rinkimai",
+      "partija"
+    ],
     "translation": "election results",
     "forms": null
   },
@@ -1613,7 +1969,7 @@
     "term": "veto teisė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The constitutional power of a head of state or governing body to reject a decision or legislation.",
@@ -1627,7 +1983,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "įstatymas",
+      "prezidentas",
+      "parlamentas"
+    ],
     "translation": "veto right; right of veto",
     "forms": null
   },
@@ -1635,7 +1995,7 @@
     "term": "diplomatinis imunitetas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A form of legal immunity ensuring that diplomats are not subject to the laws of the host country.",
@@ -1649,7 +2009,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "konsulas",
+      "diplomatija",
+      "tarptautinė teisė"
+    ],
     "translation": "diplomatic immunity",
     "forms": null
   },
@@ -1657,7 +2021,7 @@
     "term": "tarptautiniai santykiai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The study and practice of interactions, diplomacy, and cooperation between nations and international actors.",
@@ -1671,7 +2035,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "diplomatinis imunitetas",
+      "konsulas",
+      "tarptautinė organizacija"
+    ],
     "translation": "international relations",
     "forms": null
   },
@@ -1679,7 +2047,7 @@
     "term": "konsulas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An official appointed by a government to reside in a foreign city and protect its citizens' interests there.",
@@ -1693,7 +2061,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ambasadorius",
+      "diplomatinis imunitetas",
+      "tarptautiniai santykiai"
+    ],
     "translation": "consul",
     "forms": null
   },
@@ -1701,7 +2073,7 @@
     "term": "tarptautinė organizacija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An institution established by treaty between countries to pursue common goals in a specific area.",
@@ -1715,7 +2087,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tarptautiniai santykiai",
+      "taikos palaikymas",
+      "diplomatija"
+    ],
     "translation": "international organization",
     "forms": null
   },
@@ -1723,7 +2099,7 @@
     "term": "taikos palaikymas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Activities carried out by military, police, and civilian personnel to maintain peace in conflict zones.",
@@ -1736,8 +2112,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "karas"
+    ],
+    "relatedTerms": [
+      "tarptautinė organizacija",
+      "konfliktų prevencija",
+      "kariuomenė"
+    ],
     "translation": "peacekeeping",
     "forms": null
   },
@@ -1745,7 +2127,7 @@
     "term": "konfliktų prevencija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Strategies and actions aimed at preventing the outbreak or escalation of violent conflict.",
@@ -1759,7 +2141,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "taikos palaikymas",
+      "diplomatija",
+      "tarptautiniai santykiai"
+    ],
     "translation": "conflict prevention",
     "forms": null
   },
@@ -1767,7 +2153,7 @@
     "term": "branduolinis nusiginklavimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The process of reducing or eliminating nuclear weapons by a country or globally.",
@@ -1780,8 +2166,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "ginklavimasis"
+    ],
+    "relatedTerms": [
+      "ginklų kontrolė",
+      "tarptautiniai santykiai",
+      "saugumas"
+    ],
     "translation": "nuclear disarmament",
     "forms": null
   },
@@ -1789,7 +2181,7 @@
     "term": "ginklų kontrolė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "International agreements or measures designed to limit the development, production, and spread of weapons.",
@@ -1803,7 +2195,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "branduolinis nusiginklavimas",
+      "karinis aljansas",
+      "politika"
+    ],
     "translation": "arms control",
     "forms": null
   },
@@ -1811,7 +2207,7 @@
     "term": "karinė strategija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A plan for deploying military forces to achieve national security objectives.",
@@ -1825,7 +2221,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gynybos biudžetas",
+      "karinis aljansas",
+      "sausumos pajėgos"
+    ],
     "translation": "military strategy",
     "forms": null
   },
@@ -1833,7 +2233,7 @@
     "term": "gynybos biudžetas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The portion of a national budget allocated to funding military and defense activities.",
@@ -1847,7 +2247,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "karinė strategija",
+      "nacionalinis saugumas",
+      "finansai"
+    ],
     "translation": "defense budget",
     "forms": null
   },
@@ -1855,7 +2259,7 @@
     "term": "karinis aljansas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A formal agreement between countries to cooperate and provide mutual defense in the event of armed conflict.",
@@ -1869,7 +2273,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ginklų kontrolė",
+      "karinė strategija",
+      "diplomatija"
+    ],
     "translation": "military alliance",
     "forms": null
   },
@@ -1877,7 +2285,7 @@
     "term": "sausumos pajėgos",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Military forces operating on land, as distinct from naval or air forces.",
@@ -1891,7 +2299,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "karinė strategija",
+      "kariuomenė",
+      "kariuomenės rezervas"
+    ],
     "translation": "land forces; ground forces",
     "forms": null
   },
@@ -1899,7 +2311,7 @@
     "term": "kariuomenės rezervas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A force of trained military personnel not on active duty but available for service when needed.",
@@ -1913,7 +2325,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "sausumos pajėgos",
+      "kariuomenė",
+      "gynybos biudžetas"
+    ],
     "translation": "military reserve; army reserve",
     "forms": null
   },
@@ -1921,7 +2337,7 @@
     "term": "nacionalinis saugumas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The protection of a nation's citizens, economy, and institutions from external and internal threats.",
@@ -1935,7 +2351,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kibernetinis karas",
+      "gynybos biudžetas",
+      "valstybė"
+    ],
     "translation": "national security",
     "forms": null
   },
@@ -1943,7 +2363,7 @@
     "term": "kibernetinis karas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Attacks on a country's computer networks, infrastructure, or information systems by another state or organization.",
@@ -1957,7 +2377,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "informacinė ataka",
+      "nacionalinis saugumas",
+      "technologija"
+    ],
     "translation": "cyber warfare; cyberwar",
     "forms": null
   },
@@ -1965,7 +2389,7 @@
     "term": "informacinė ataka",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A deliberate effort to manipulate, distort, or suppress information to mislead people or undermine trust.",
@@ -1979,7 +2403,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kibernetinis karas",
+      "dezinformacija",
+      "propaganda"
+    ],
     "translation": "information attack",
     "forms": null
   },
@@ -1987,7 +2415,7 @@
     "term": "dezinformacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "False or inaccurate information deliberately spread to deceive or mislead people.",
@@ -1999,9 +2427,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "klaidinga informacija"
+    ],
+    "antonymTerms": [
+      "tiksli informacija"
+    ],
+    "relatedTerms": [
+      "propaganda",
+      "informacinė ataka",
+      "žiniasklaida"
+    ],
     "translation": "disinformation",
     "forms": null
   },
@@ -2009,7 +2445,7 @@
     "term": "propagandos kampanija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An organized effort to spread biased or misleading information to promote a particular agenda.",
@@ -2023,7 +2459,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dezinformacija",
+      "rinkimai",
+      "žiniasklaida"
+    ],
     "translation": "propaganda campaign",
     "forms": null
   },
@@ -2031,7 +2471,7 @@
     "term": "informacinė visuomenė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A society where the creation, distribution, and use of information plays a central economic and cultural role.",
@@ -2045,7 +2485,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "skaitmeninė erdvė",
+      "technologija",
+      "internetas"
+    ],
     "translation": "information society",
     "forms": null
   },
@@ -2053,7 +2497,7 @@
     "term": "skaitmeninė erdvė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The virtual environment of digital networks, platforms, and online communication.",
@@ -2067,7 +2511,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "informacinė visuomenė",
+      "interneto privatumas",
+      "technologija"
+    ],
     "translation": "digital space",
     "forms": null
   },
@@ -2075,7 +2523,7 @@
     "term": "interneto privatumas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The right and ability of individuals to control what personal information is shared and stored online.",
@@ -2089,7 +2537,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "duomenų apsauga",
+      "skaitmeninė erdvė",
+      "teisė"
+    ],
     "translation": "internet privacy; online privacy",
     "forms": null
   },
@@ -2097,7 +2549,7 @@
     "term": "duomenų apsauga",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Legal and technical measures to safeguard personal data from unauthorized access, misuse, or loss.",
@@ -2111,7 +2563,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "interneto privatumas",
+      "biometriniai duomenys",
+      "teisė"
+    ],
     "translation": "data protection",
     "forms": null
   },
@@ -2119,7 +2575,7 @@
     "term": "elektroninė valdžia",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The use of digital technologies to deliver government services and information to citizens.",
@@ -2131,9 +2587,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "e-valdžia"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "duomenų apsauga",
+      "piliečių duomenys",
+      "valstybė"
+    ],
     "translation": "e-government; electronic government",
     "forms": null
   },
@@ -2141,7 +2603,7 @@
     "term": "e-valdžia",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An abbreviated term for electronic government, referring to digital public administration services.",
@@ -2153,9 +2615,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "elektroninė valdžia"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "piliečių duomenys",
+      "skaitmeninė erdvė",
+      "duomenų apsauga"
+    ],
     "translation": "e-government",
     "forms": null
   },
@@ -2163,7 +2631,7 @@
     "term": "piliečių duomenys",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Personal information collected and held by government or public institutions about their citizens.",
@@ -2177,7 +2645,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "biometriniai duomenys",
+      "duomenų apsauga",
+      "e-valdžia"
+    ],
     "translation": "citizen data",
     "forms": null
   },
@@ -2185,7 +2657,7 @@
     "term": "biometriniai duomenys",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Unique physical or behavioural characteristics used to identify individuals, such as fingerprints or facial features.",
@@ -2199,7 +2671,11 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "piliečių duomenys",
+      "duomenų apsauga",
+      "tapatybė"
+    ],
     "translation": "biometric data",
     "forms": null
   }
