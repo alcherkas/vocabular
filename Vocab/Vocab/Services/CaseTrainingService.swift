@@ -59,27 +59,31 @@ enum CaseTrainingService {
         }
         guard let adjGender else { return nil }
 
-        let isSingular = Bool.random()
+        // Pick singular or plural, falling back if one is nil (pluralia tantum)
+        let hasSingular = nounGender!.singular != nil && adjGender.singular != nil
+        let hasPlural = nounGender!.plural != nil && adjGender.plural != nil
+        guard hasSingular || hasPlural else { return nil }
+
+        let isSingular: Bool
+        if hasSingular && hasPlural { isSingular = Bool.random() }
+        else { isSingular = hasSingular }
+
         let number = isSingular ? "singular" : "plural"
 
-        let nounNumberCases = isSingular ? nounGender!.singular : nounGender!.plural
-        let adjNumberCases = isSingular ? adjGender.singular : adjGender.plural
+        guard let nounNumberCases = isSingular ? nounGender!.singular : nounGender!.plural,
+              let adjNumberCases = isSingular ? adjGender.singular : adjGender.plural else {
+            return nil
+        }
 
         let declinedNoun = nounNumberCases.value(for: mapping.grammaticalCase)
         let declinedAdj = adjNumberCases.value(for: mapping.grammaticalCase)
 
-        let nominativeNounForm = isSingular
-            ? nounGender!.singular.nominative
-            : nounGender!.plural.nominative
+        let nominativeNounForm = nounNumberCases.nominative
         let nominativeAdjForm: String
         if genderKey == "masculine" {
-            nominativeAdjForm = isSingular
-                ? (adjCases.masculine?.singular.nominative ?? adjective.term)
-                : (adjCases.masculine?.plural.nominative ?? adjective.term)
+            nominativeAdjForm = (isSingular ? adjCases.masculine?.singular : adjCases.masculine?.plural)?.nominative ?? adjective.term
         } else {
-            nominativeAdjForm = isSingular
-                ? (adjCases.feminine?.singular.nominative ?? adjective.term)
-                : (adjCases.feminine?.plural.nominative ?? adjective.term)
+            nominativeAdjForm = (isSingular ? adjCases.feminine?.singular : adjCases.feminine?.plural)?.nominative ?? adjective.term
         }
 
         let correctAnswer = "\(declinedAdj) \(declinedNoun)"

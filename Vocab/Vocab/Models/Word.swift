@@ -35,8 +35,8 @@ struct CaseSet: Codable, Equatable {
 }
 
 struct NumberCases: Codable, Equatable {
-    var singular: CaseSet
-    var plural: CaseSet
+    var singular: CaseSet?
+    var plural: CaseSet?
 }
 
 struct WordCases: Codable, Equatable {
