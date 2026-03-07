@@ -7,14 +7,13 @@ struct CaseTrainingView: View {
     let words: [Word]
     var onComplete: ((Int, Int) -> Void)?
 
-    @State private var exercises: [CaseExercise] = []
-    @State private var currentIndex = 0
+    @State private var currentExercise: CaseExercise?
     @State private var score = 0
     @State private var userAnswer = ""
     @State private var showResult = false
     @State private var isCorrect = false
     @State private var trainingCompleted = false
-    @State private var questionsPerSession = 10
+    @State private var questionsAnswered = 0
     @FocusState private var isInputFocused: Bool
     private let feedbackGenerator = UINotificationFeedbackGenerator()
 
@@ -34,16 +33,12 @@ struct CaseTrainingView: View {
         !verbs.isEmpty && !nouns.isEmpty && !adjectives.isEmpty
     }
 
-    private var totalQuestions: Int {
-        exercises.isEmpty ? questionsPerSession : exercises.count
-    }
-
     var body: some View {
         NavigationStack {
             VStack(spacing: 24) {
                 if trainingCompleted {
                     resultView
-                } else if exercises.isEmpty {
+                } else if currentExercise == nil {
                     startView
                 } else {
                     exerciseView
@@ -51,6 +46,13 @@ struct CaseTrainingView: View {
             }
             .padding()
             .navigationTitle("Linksniai")
+            .toolbar {
+                if currentExercise != nil && !trainingCompleted {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button("Finish") { completeTraining() }
+                    }
+                }
+            }
         }
     }
 
@@ -72,14 +74,6 @@ struct CaseTrainingView: View {
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
             }
-
-            Picker("Questions", selection: $questionsPerSession) {
-                Text("5 Questions").tag(5)
-                Text("10 Questions").tag(10)
-                Text("20 Questions").tag(20)
-            }
-            .pickerStyle(.segmented)
-            .padding(.horizontal)
 
             Spacer()
 
@@ -106,25 +100,20 @@ struct CaseTrainingView: View {
     // MARK: - Exercise View
     @ViewBuilder
     private var exerciseView: some View {
-        if currentIndex < exercises.count {
-            let exercise = exercises[currentIndex]
+        if let exercise = currentExercise {
             VStack(spacing: 24) {
-                // Progress
-                VStack(spacing: 8) {
-                    HStack {
-                        Text("Question \(currentIndex + 1) of \(totalQuestions)")
-                            .font(.subheadline)
-                            .foregroundStyle(.secondary)
-                        Spacer()
-                        HStack(spacing: 4) {
-                            Image(systemName: "star.fill")
-                                .foregroundStyle(.yellow)
-                            Text("\(score)")
-                                .fontWeight(.bold)
-                        }
+                // Score
+                HStack {
+                    Text("Question \(questionsAnswered + 1)")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                    Spacer()
+                    HStack(spacing: 4) {
+                        Image(systemName: "star.fill")
+                            .foregroundStyle(.yellow)
+                        Text("\(score)")
+                            .fontWeight(.bold)
                     }
-                    ProgressView(value: Double(currentIndex), total: Double(totalQuestions))
-                        .tint(.accentColor)
                 }
 
                 Spacer()
@@ -210,7 +199,7 @@ struct CaseTrainingView: View {
                         Button {
                             nextExercise()
                         } label: {
-                            Text(currentIndex < totalQuestions - 1 ? "Next Question" : "See Results")
+                            Text("Next Question")
                                 .frame(maxWidth: .infinity)
                         }
                         .buttonStyle(.borderedProminent)
@@ -250,7 +239,7 @@ struct CaseTrainingView: View {
                     .font(.title2)
                     .fontWeight(.semibold)
 
-                Text("\(score)/\(totalQuestions)")
+                Text("\(score)/\(questionsAnswered)")
                     .font(.system(size: 56, weight: .bold, design: .rounded))
 
                 Text(resultMessage)
@@ -259,10 +248,10 @@ struct CaseTrainingView: View {
             }
 
             VStack(spacing: 4) {
-                ProgressView(value: Double(score), total: Double(totalQuestions))
+                ProgressView(value: Double(score), total: Double(questionsAnswered))
                     .tint(resultColor)
                     .scaleEffect(y: 2)
-                Text("\(Int(Double(score) / Double(max(totalQuestions, 1)) * 100))%")
+                Text("\(Int(Double(score) / Double(max(questionsAnswered, 1)) * 100))%")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
@@ -296,7 +285,7 @@ struct CaseTrainingView: View {
 
     // MARK: - Helpers
     private var resultColor: Color {
-        let pct = Double(score) / Double(max(totalQuestions, 1))
+        let pct = Double(score) / Double(max(questionsAnswered, 1))
         switch pct {
         case 0.8...1.0: return .green
         case 0.6..<0.8: return .blue
@@ -306,7 +295,7 @@ struct CaseTrainingView: View {
     }
 
     private var resultIcon: String {
-        let pct = Double(score) / Double(max(totalQuestions, 1))
+        let pct = Double(score) / Double(max(questionsAnswered, 1))
         switch pct {
         case 0.8...1.0: return "star.fill"
         case 0.6..<0.8: return "hand.thumbsup.fill"
@@ -316,7 +305,7 @@ struct CaseTrainingView: View {
     }
 
     private var resultMessage: String {
-        let pct = Double(score) / Double(max(totalQuestions, 1))
+        let pct = Double(score) / Double(max(questionsAnswered, 1))
         switch pct {
         case 0.9...1.0: return "Perfect! Grammar master! 🎉"
         case 0.8..<0.9: return "Excellent case knowledge! 🌟"
@@ -328,19 +317,11 @@ struct CaseTrainingView: View {
 
     // MARK: - Logic
     private func startTraining() {
-        var generated: [CaseExercise] = []
-        let target = min(questionsPerSession, verbs.count * nouns.count)
-        var attempts = 0
-        while generated.count < target && attempts < target * 3 {
-            if let exercise = CaseTrainingService.generateExercise(
-                verbs: verbs, nouns: nouns, adjectives: adjectives
-            ) {
-                generated.append(exercise)
-            }
-            attempts += 1
-        }
-        exercises = generated
-        currentIndex = 0
+        guard let exercise = CaseTrainingService.generateExercise(
+            verbs: verbs, nouns: nouns, adjectives: adjectives
+        ) else { return }
+        currentExercise = exercise
+        questionsAnswered = 0
         score = 0
         userAnswer = ""
         showResult = false
@@ -349,8 +330,7 @@ struct CaseTrainingView: View {
     }
 
     private func checkAnswer() {
-        guard currentIndex < exercises.count else { return }
-        let exercise = exercises[currentIndex]
+        guard let exercise = currentExercise else { return }
         let trimmed = userAnswer.trimmingCharacters(in: .whitespaces).lowercased()
         isCorrect = trimmed == exercise.correctAnswer.lowercased()
 
@@ -369,33 +349,34 @@ struct CaseTrainingView: View {
         }
         SpacedRepetitionService.nextReview(for: noun, quality: isCorrect ? 4 : 1)
 
+        questionsAnswered += 1
         showResult = true
         isInputFocused = false
     }
 
     private func nextExercise() {
-        if currentIndex < totalQuestions - 1 {
-            currentIndex += 1
-            userAnswer = ""
-            showResult = false
-            isInputFocused = true
-        } else {
-            completeTraining()
-        }
+        guard let exercise = CaseTrainingService.generateExercise(
+            verbs: verbs, nouns: nouns, adjectives: adjectives
+        ) else { return }
+        currentExercise = exercise
+        userAnswer = ""
+        showResult = false
+        isInputFocused = true
     }
 
     private func completeTraining() {
-        let result = QuizResult(score: score, totalQuestions: totalQuestions, language: "lt")
+        let result = QuizResult(score: score, totalQuestions: questionsAnswered, language: "lt")
         context.insert(result)
         trainingCompleted = true
     }
 
     private func resetTraining() {
         if let onComplete {
-            onComplete(score, totalQuestions)
+            onComplete(score, questionsAnswered)
         } else {
-            exercises = []
+            currentExercise = nil
             trainingCompleted = false
+            questionsAnswered = 0
         }
     }
 }
