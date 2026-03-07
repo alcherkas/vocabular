@@ -128100,7 +128100,7 @@
     "term": "interlocutor",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person who takes part in a dialogue or conversation; especially an intermediary in negotiations.",
@@ -128113,16 +128113,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "mediator",
+      "negotiator",
+      "go-between",
+      "intermediary"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "dialogue",
+      "conversation",
+      "diplomacy",
+      "spokesperson"
+    ],
     "translation": null
   },
   {
     "term": "juncture",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A particular point in time, especially one made critical by a coincidence of circumstances.",
@@ -128144,16 +128154,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "moment",
+      "point",
+      "stage",
+      "crossroads"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "crisis",
+      "turning point",
+      "conjunction",
+      "transition"
+    ],
     "translation": null
   },
   {
     "term": "militant",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Favouring confrontational methods in support of a political or social cause; aggressively active.",
@@ -128175,16 +128195,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "combative",
+      "aggressive",
+      "radical",
+      "confrontational"
+    ],
+    "antonymTerms": [
+      "pacifist",
+      "conciliatory"
+    ],
+    "relatedTerms": [
+      "activism",
+      "extremism",
+      "protest",
+      "agitation"
+    ],
     "translation": null
   },
   {
     "term": "noxious",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Harmful, poisonous, or very unpleasant, especially in reference to gas or chemical substances.",
@@ -128207,16 +128240,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "toxic",
+      "poisonous",
+      "harmful",
+      "deleterious"
+    ],
+    "antonymTerms": [
+      "benign",
+      "wholesome"
+    ],
+    "relatedTerms": [
+      "pollution",
+      "hazardous",
+      "contaminant",
+      "fumes"
+    ],
     "translation": null
   },
   {
     "term": "overwrought",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "In a state of nervous excitement or anxiety; too emotionally disturbed or distressed.",
@@ -128239,9 +128285,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "agitated",
+      "distressed",
+      "frenzied",
+      "distraught"
+    ],
+    "antonymTerms": [
+      "composed",
+      "serene"
+    ],
+    "relatedTerms": [
+      "anxiety",
+      "hysteria",
+      "overwrought prose",
+      "tension"
+    ],
     "translation": null
   },
   {
