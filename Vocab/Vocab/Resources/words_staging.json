@@ -3361,7 +3361,7 @@
     "term": "depict",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To represent or show (something) in a picture, painting, or other artistic medium.",
@@ -3384,16 +3384,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "portray",
+      "illustrate",
+      "render",
+      "characterise"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "representation",
+      "imagery",
+      "narrative",
+      "visual",
+      "describe"
+    ],
     "translation": null
   },
   {
     "term": "designate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To officially appoint or assign someone to a particular role, task, or position.",
@@ -3416,16 +3427,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "appoint",
+      "assign",
+      "nominate",
+      "specify"
+    ],
+    "antonymTerms": [
+      "dismiss",
+      "decommission"
+    ],
+    "relatedTerms": [
+      "appointment",
+      "classification",
+      "title",
+      "mandate",
+      "allocation"
+    ],
     "translation": null
   },
   {
     "term": "detract",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To reduce the value, quality, or importance of something; to diminish the worth of something.",
@@ -3448,16 +3473,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "diminish",
+      "undermine",
+      "denigrate",
+      "disparage"
+    ],
+    "antonymTerms": [
+      "enhance",
+      "augment"
+    ],
+    "relatedTerms": [
+      "criticism",
+      "merit",
+      "quality",
+      "reputation",
+      "impair"
+    ],
     "translation": null
   },
   {
     "term": "devoid",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Entirely lacking or free from a specified quality or characteristic.",
@@ -3470,16 +3509,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "bereft",
+      "lacking",
+      "destitute",
+      "empty"
+    ],
+    "antonymTerms": [
+      "full",
+      "replete"
+    ],
+    "relatedTerms": [
+      "absence",
+      "emptiness",
+      "deficiency",
+      "void",
+      "deprived"
+    ],
     "translation": null
   },
   {
     "term": "dictatorial",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Of or typical of a ruler with total, absolute power; autocratic and oppressive.",
@@ -3502,9 +3555,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "autocratic",
+      "tyrannical",
+      "authoritarian",
+      "domineering"
+    ],
+    "antonymTerms": [
+      "democratic",
+      "permissive"
+    ],
+    "relatedTerms": [
+      "dictatorship",
+      "regime",
+      "oppression",
+      "coercion",
+      "control"
+    ],
     "translation": null
   },
   {
