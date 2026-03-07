@@ -28775,16 +28775,20 @@
       }
     ],
     "synonyms": [
-      "conditional entropy",
-      "channel noise measure"
+      "prevarication",
+      "vagueness",
+      "evasion",
+      "double-talk"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "directness",
+      "forthrightness"
+    ],
     "relatedTerms": [
-      "mutual information",
-      "channel capacity",
-      "transinformation",
-      "noise",
-      "Shannon limit"
+      "politics",
+      "rhetoric",
+      "honesty",
+      "logic"
     ],
     "status": "published"
   },
@@ -60165,18 +60169,20 @@
       }
     ],
     "synonyms": [
-      "acuity",
+      "judgement",
       "perception",
-      "perspicacity"
+      "insight",
+      "acumen"
     ],
     "antonymTerms": [
       "obtuseness",
-      "obliviousness"
+      "lack of perception"
     ],
     "relatedTerms": [
-      "shrewdness",
-      "acumen",
-      "insight"
+      "wisdom",
+      "intelligence",
+      "criticism",
+      "editing"
     ],
     "status": "published"
   },
@@ -60200,17 +60206,19 @@
     ],
     "synonyms": [
       "embarrassment",
-      "chagrin",
-      "discomfort"
+      "unease",
+      "awkwardness",
+      "disquiet"
     ],
     "antonymTerms": [
       "ease",
-      "composure"
+      "confidence"
     ],
     "relatedTerms": [
-      "mortification",
-      "frustration",
-      "humiliation"
+      "emotion",
+      "social",
+      "politics",
+      "appearance"
     ],
     "status": "published"
   },
@@ -65783,14 +65791,18 @@
     "synonyms": [
       "treatise",
       "dissertation",
-      "exposition",
-      "discourse"
+      "monologue",
+      "learned discourse"
     ],
-    "antonymTerms": [],
+    "antonymTerms": [
+      "brief remark",
+      "summary"
+    ],
     "relatedTerms": [
-      "inquiry",
-      "thesis",
-      "monograph"
+      "academic",
+      "essay",
+      "speech",
+      "inquiry"
     ],
     "status": "published"
   },
@@ -84003,19 +84015,19 @@
     ],
     "synonyms": [
       "fluency",
-      "articulateness",
+      "articulacy",
       "expressiveness",
-      "rhetoric"
+      "oratory"
     ],
     "antonymTerms": [
-      "inarticulateness",
-      "mumbling"
+      "inarticulacy",
+      "incoherence"
     ],
     "relatedTerms": [
-      "persuasion",
-      "oratory",
-      "silver tongue",
-      "eloquent"
+      "rhetoric",
+      "writing",
+      "speech",
+      "persuasion"
     ],
     "translation": null,
     "status": "published"
@@ -91827,20 +91839,20 @@
       }
     ],
     "synonyms": [
-      "understanding",
       "compassion",
-      "fellow feeling",
-      "identification"
+      "sympathy",
+      "understanding",
+      "fellow-feeling"
     ],
     "antonymTerms": [
-      "indifference",
-      "callousness"
+      "callousness",
+      "apathy"
     ],
     "relatedTerms": [
-      "emotional intelligence",
-      "counselling",
-      "active listening",
-      "psychology"
+      "psychology",
+      "emotion",
+      "relationships",
+      "care"
     ],
     "translation": null,
     "status": "published"
@@ -97936,19 +97948,19 @@
     ],
     "synonyms": [
       "right",
-      "privilege",
       "claim",
-      "expectation"
+      "privilege",
+      "due"
     ],
     "antonymTerms": [
-      "duty",
-      "obligation"
+      "forfeiture",
+      "disqualification"
     ],
     "relatedTerms": [
-      "benefits reform",
-      "class privilege",
-      "legal right",
-      "cultural expectation"
+      "law",
+      "benefits",
+      "psychology",
+      "rights"
     ],
     "translation": null,
     "status": "published"
@@ -100488,19 +100500,19 @@
     ],
     "synonyms": [
       "avoidance",
-      "elusion",
+      "circumvention",
       "dodging",
-      "circumvention"
+      "escape"
     ],
     "antonymTerms": [
-      "directness",
-      "confrontation"
+      "confrontation",
+      "accountability"
     ],
     "relatedTerms": [
-      "tax dodging",
-      "question dodging",
-      "legal liability",
-      "accountability"
+      "law",
+      "tax",
+      "behaviour",
+      "responsibility"
     ],
     "translation": null,
     "status": "published"
@@ -121953,18 +121965,17 @@
       "ridiculousness",
       "preposterousness",
       "irrationality",
-      "incongruity"
+      "ludicrousness"
     ],
     "antonymTerms": [
-      "reasonableness",
-      "rationality"
+      "sense",
+      "logic"
     ],
     "relatedTerms": [
-      "paradox",
-      "farce",
-      "nonsense",
-      "absurdism",
-      "illogicality"
+      "humour",
+      "philosophy",
+      "comedy",
+      "Kafka"
     ],
     "translation": null,
     "status": "published"
@@ -129740,18 +129751,18 @@
     "synonyms": [
       "precision",
       "accuracy",
-      "rigorousness",
-      "meticulousness"
+      "correctness",
+      "fidelity"
     ],
     "antonymTerms": [
-      "imprecision",
-      "sloppiness"
+      "vagueness",
+      "approximation"
     ],
     "relatedTerms": [
-      "detail",
-      "fidelity",
-      "thoroughness",
-      "correctness"
+      "language",
+      "science",
+      "measurement",
+      "translation"
     ],
     "translation": null
   },
@@ -147114,7 +147125,7 @@
     "term": "abreaction",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The process of relieving tension associated with repressed emotions by expressing them through speech or action, especially in psychoanalysis.",
@@ -147127,16 +147138,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "cathartic release",
+      "emotional discharge",
+      "psychic release",
+      "abreactive processing"
+    ],
+    "antonymTerms": [
+      "repression",
+      "suppression"
+    ],
+    "relatedTerms": [
+      "psychoanalysis",
+      "Freud",
+      "trauma",
+      "therapy"
+    ],
     "translation": null
   },
   {
     "term": "absurdism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The philosophical theory that human life is without meaning and that the search for meaning in an indifferent universe is futile; the literary and artistic movement based on this idea.",
@@ -147149,16 +147173,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "absurdist philosophy",
+      "existential rebellion",
+      "philosophical nihilism",
+      "Camusian thought"
+    ],
+    "antonymTerms": [
+      "rationalism",
+      "meaning-making"
+    ],
+    "relatedTerms": [
+      "philosophy",
+      "existentialism",
+      "theatre of the absurd",
+      "nihilism"
+    ],
     "translation": null
   },
   {
     "term": "accentuation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The act of emphasising or drawing attention to something; the marking or pronouncing of stress in words.",
@@ -147171,16 +147208,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "emphasis",
+      "stress",
+      "heightening",
+      "intensification"
+    ],
+    "antonymTerms": [
+      "de-emphasis",
+      "minimisation"
+    ],
+    "relatedTerms": [
+      "rhetoric",
+      "linguistics",
+      "focus",
+      "highlighting"
+    ],
     "translation": null
   },
   {
     "term": "acclimatisation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The process of becoming accustomed to a new climate or conditions; adaptation to a new environment.",
@@ -147193,16 +147243,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "adaptation",
+      "accustomisation",
+      "adjustment",
+      "habituation"
+    ],
+    "antonymTerms": [
+      "maladjustment",
+      "unadapted state"
+    ],
+    "relatedTerms": [
+      "biology",
+      "altitude",
+      "sport",
+      "environment"
+    ],
     "translation": null
   },
   {
     "term": "adoration",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Deep love and respect; the act of veneration or worship.",
@@ -147215,16 +147278,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "worship",
+      "devotion",
+      "reverence",
+      "veneration"
+    ],
+    "antonymTerms": [
+      "contempt",
+      "hatred"
+    ],
+    "relatedTerms": [
+      "love",
+      "religion",
+      "emotion",
+      "admiration"
+    ],
     "translation": null
   },
   {
     "term": "aesthetics",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The branch of philosophy dealing with beauty, artistic taste, and the nature of art.",
@@ -147247,16 +147323,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "philosophy of beauty",
+      "visual theory",
+      "art criticism",
+      "taste theory"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "art",
+      "philosophy",
+      "design",
+      "beauty"
+    ],
     "translation": null
   },
   {
     "term": "affiliation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Formal attachment to an organisation or institution; membership or association with a group.",
@@ -147269,16 +147355,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "membership",
+      "association",
+      "attachment",
+      "alignment"
+    ],
+    "antonymTerms": [
+      "disaffiliation",
+      "independence"
+    ],
+    "relatedTerms": [
+      "organisation",
+      "identity",
+      "politics",
+      "institution"
+    ],
     "translation": null
   },
   {
     "term": "agitprop",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Political propaganda, especially communist propaganda disseminated through art, literature, and the media; agitation and propaganda.",
@@ -147291,16 +147390,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "propaganda",
+      "political art",
+      "ideological messaging",
+      "communist art"
+    ],
+    "antonymTerms": [
+      "objective reporting",
+      "neutral art"
+    ],
+    "relatedTerms": [
+      "Marxism",
+      "Soviet",
+      "theatre",
+      "media"
+    ],
     "translation": null
   },
   {
     "term": "aloofness",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality of being distant and not interested or involved; emotional detachment.",
@@ -147313,16 +147425,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "detachment",
+      "distance",
+      "reserve",
+      "remoteness"
+    ],
+    "antonymTerms": [
+      "warmth",
+      "approachability"
+    ],
+    "relatedTerms": [
+      "personality",
+      "social",
+      "shyness",
+      "arrogance"
+    ],
     "translation": null
   },
   {
     "term": "alterity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality of being other or different; otherness, especially as a philosophical concept in relation to self and identity.",
@@ -147335,16 +147460,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "otherness",
+      "difference",
+      "non-identity",
+      "the Other"
+    ],
+    "antonymTerms": [
+      "sameness",
+      "identity"
+    ],
+    "relatedTerms": [
+      "philosophy",
+      "postcolonialism",
+      "Levinas",
+      "ethics"
+    ],
     "translation": null
   },
   {
     "term": "amoralism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The view that moral judgements are meaningless or inapplicable; the condition of being without moral standards.",
@@ -147357,16 +147495,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "moral indifference",
+      "ethical neutrality",
+      "non-moralism",
+      "moral agnosticism"
+    ],
+    "antonymTerms": [
+      "moralism",
+      "ethical commitment"
+    ],
+    "relatedTerms": [
+      "ethics",
+      "philosophy",
+      "nihilism",
+      "immoralism"
+    ],
     "translation": null
   },
   {
     "term": "amplification",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The action of enlarging on or adding detail to a statement or explanation; in electronics, the increase in signal strength.",
@@ -147379,16 +147530,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "expansion",
+      "elaboration",
+      "magnification",
+      "enlargement"
+    ],
+    "antonymTerms": [
+      "reduction",
+      "condensation"
+    ],
+    "relatedTerms": [
+      "rhetoric",
+      "electronics",
+      "media",
+      "detail"
+    ],
     "translation": null
   },
   {
     "term": "biliousness",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A tendency to be irritable or in a bad temper; spitefulness or ill-natured hostility.",
@@ -147401,16 +147565,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "irritability",
+      "ill temper",
+      "spitefulness",
+      "peevishness"
+    ],
+    "antonymTerms": [
+      "good humour",
+      "generosity of spirit"
+    ],
+    "relatedTerms": [
+      "character",
+      "criticism",
+      "health",
+      "behaviour"
+    ],
     "translation": null
   },
   {
     "term": "brutality",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Savage physical violence or cruelty; extreme or unmerciful harshness.",
@@ -147423,16 +147600,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "savagery",
+      "cruelty",
+      "ferocity",
+      "viciousness"
+    ],
+    "antonymTerms": [
+      "gentleness",
+      "compassion"
+    ],
+    "relatedTerms": [
+      "violence",
+      "war",
+      "conflict",
+      "human rights"
+    ],
     "translation": null
   },
   {
     "term": "callousness",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality of being insensitive to others' pain or suffering; emotional hardness.",
@@ -147445,16 +147635,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "hardheartedness",
+      "indifference",
+      "insensitivity",
+      "pitilessness"
+    ],
+    "antonymTerms": [
+      "compassion",
+      "sensitivity"
+    ],
+    "relatedTerms": [
+      "ethics",
+      "character",
+      "workplace",
+      "behaviour"
+    ],
     "translation": null
   },
   {
     "term": "canonicity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality of being part of an accepted canon; conformity to an established set of authoritative texts or principles.",
@@ -147467,16 +147670,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "canonical status",
+      "literary authority",
+      "accepted status",
+      "normative standing"
+    ],
+    "antonymTerms": [
+      "marginality",
+      "apocryphal status"
+    ],
+    "relatedTerms": [
+      "literature",
+      "religion",
+      "culture",
+      "criticism"
+    ],
     "translation": null
   },
   {
     "term": "careerism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The practice of advancing one's career at the expense of personal integrity or others' interests; excessive concern with career advancement.",
@@ -147489,16 +147705,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "professional self-advancement",
+      "opportunism",
+      "careerist behaviour",
+      "unscrupulous climbing"
+    ],
+    "antonymTerms": [
+      "vocation",
+      "selfless service"
+    ],
+    "relatedTerms": [
+      "work",
+      "ambition",
+      "politics",
+      "ethics"
+    ],
     "translation": null
   },
   {
     "term": "carnage",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The killing of a large number of people; a massacre or great slaughter.",
@@ -147511,16 +147740,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "massacre",
+      "slaughter",
+      "bloodbath",
+      "butchery"
+    ],
+    "antonymTerms": [
+      "peace",
+      "survival"
+    ],
+    "relatedTerms": [
+      "war",
+      "violence",
+      "conflict",
+      "history"
+    ],
     "translation": null
   },
   {
     "term": "charisma",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Compelling attractiveness or charm that can inspire devotion in others; a divinely conferred power or talent.",
@@ -147533,16 +147775,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "magnetism",
+      "charm",
+      "personal appeal",
+      "allure"
+    ],
+    "antonymTerms": [
+      "dullness",
+      "repulsiveness"
+    ],
+    "relatedTerms": [
+      "leadership",
+      "personality",
+      "politics",
+      "attraction"
+    ],
     "translation": null
   },
   {
     "term": "chauvinism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Exaggerated or aggressive patriotism; a belief in the superiority of one's own country or group.",
@@ -147565,16 +147820,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "jingoism",
+      "sexism",
+      "supremacism",
+      "bigotry"
+    ],
+    "antonymTerms": [
+      "egalitarianism",
+      "open-mindedness"
+    ],
+    "relatedTerms": [
+      "nationalism",
+      "gender",
+      "prejudice",
+      "patriotism"
+    ],
     "translation": null
   },
   {
     "term": "conformism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A strong disposition to conform to the norms, standards, or expectations of a group; the tendency to avoid deviation.",
@@ -147587,16 +147855,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "rule-following",
+      "conventionality",
+      "orthodoxy",
+      "compliance"
+    ],
+    "antonymTerms": [
+      "nonconformism",
+      "individualism"
+    ],
+    "relatedTerms": [
+      "society",
+      "norms",
+      "culture",
+      "education"
+    ],
     "translation": null
   },
   {
     "term": "conformity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Compliance with rules, standards, or laws; behaviour in accordance with prevailing social norms.",
@@ -147609,16 +147890,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "compliance",
+      "agreement",
+      "conventional behaviour",
+      "adherence"
+    ],
+    "antonymTerms": [
+      "nonconformity",
+      "defiance"
+    ],
+    "relatedTerms": [
+      "social psychology",
+      "norms",
+      "groups",
+      "pressure"
+    ],
     "translation": null
   },
   {
     "term": "crudeness",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality of being rough, unrefined, or offensive; lack of taste or subtlety.",
@@ -147631,16 +147925,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "roughness",
+      "vulgarity",
+      "coarseness",
+      "bluntness"
+    ],
+    "antonymTerms": [
+      "refinement",
+      "subtlety"
+    ],
+    "relatedTerms": [
+      "manners",
+      "language",
+      "style",
+      "behaviour"
+    ],
     "translation": null
   },
   {
     "term": "cruelty",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Callous indifference to or pleasure in causing pain or suffering; a cruel act or instance.",
@@ -147653,16 +147960,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "brutality",
+      "harshness",
+      "callousness",
+      "inhumanity"
+    ],
+    "antonymTerms": [
+      "kindness",
+      "mercy"
+    ],
+    "relatedTerms": [
+      "ethics",
+      "abuse",
+      "law",
+      "suffering"
+    ],
     "translation": null
   },
   {
     "term": "debasement",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The action of reducing something in quality or value; degradation.",
@@ -147675,16 +147995,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "degradation",
+      "lowering",
+      "corruption",
+      "dilution"
+    ],
+    "antonymTerms": [
+      "elevation",
+      "improvement"
+    ],
+    "relatedTerms": [
+      "culture",
+      "morality",
+      "language",
+      "quality"
+    ],
     "translation": null
   },
   {
     "term": "defeatism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The acceptance of defeat without attempting to prevent it; a tendency to view failure as inevitable.",
@@ -147697,16 +148030,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pessimism",
+      "resignation",
+      "surrender mentality",
+      "fatalism"
+    ],
+    "antonymTerms": [
+      "optimism",
+      "determination"
+    ],
+    "relatedTerms": [
+      "psychology",
+      "sport",
+      "war",
+      "attitude"
+    ],
     "translation": null
   },
   {
     "term": "degradation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The condition or process of degrading or being degraded; a loss of dignity or quality.",
@@ -147719,16 +148065,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "deterioration",
+      "decline",
+      "debasement",
+      "degeneration"
+    ],
+    "antonymTerms": [
+      "improvement",
+      "elevation"
+    ],
+    "relatedTerms": [
+      "environment",
+      "morality",
+      "chemistry",
+      "dignity"
+    ],
     "translation": null
   },
   {
     "term": "delicacy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Fineness of texture, structure, or quality; a subtle or careful approach to a sensitive matter.",
@@ -147751,16 +148110,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "subtlety",
+      "sensitivity",
+      "finesse",
+      "tact"
+    ],
+    "antonymTerms": [
+      "clumsiness",
+      "crudeness"
+    ],
+    "relatedTerms": [
+      "food",
+      "diplomacy",
+      "art",
+      "skill"
+    ],
     "translation": null
   },
   {
     "term": "egregiousness",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality of being conspicuously bad or shocking; outrageous offensiveness.",
@@ -147773,16 +148145,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "outrageousness",
+      "enormity",
+      "flagrancy",
+      "scandalousness"
+    ],
+    "antonymTerms": [
+      "acceptability",
+      "ordinarity"
+    ],
+    "relatedTerms": [
+      "scandal",
+      "crime",
+      "behaviour",
+      "law"
+    ],
     "translation": null
   },
   {
     "term": "embitterment",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The process of becoming embittered; a deep feeling of resentment arising from disappointment or injustice.",
@@ -147795,16 +148180,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "resentment",
+      "acrimony",
+      "disillusionment",
+      "rancour"
+    ],
+    "antonymTerms": [
+      "contentment",
+      "forgiveness"
+    ],
+    "relatedTerms": [
+      "psychology",
+      "workplace",
+      "relationships",
+      "ageing"
+    ],
     "translation": null
   },
   {
     "term": "execration",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The act of expressing great contempt or disgust; a curse or an object of hatred.",
@@ -147817,16 +148215,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "condemnation",
+      "denunciation",
+      "damnation",
+      "abomination"
+    ],
+    "antonymTerms": [
+      "praise",
+      "veneration"
+    ],
+    "relatedTerms": [
+      "hatred",
+      "curse",
+      "politics",
+      "reaction"
+    ],
     "translation": null
   },
   {
     "term": "agoraphobia",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Extreme or irrational fear of open or crowded spaces; a type of anxiety disorder in which a person fears situations from which escape might be difficult.",
@@ -147839,16 +148250,28 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "open-space fear",
+      "crowd fear",
+      "social anxiety disorder",
+      "fear of public spaces"
+    ],
+    "antonymTerms": [
+      "claustrophobia"
+    ],
+    "relatedTerms": [
+      "anxiety",
+      "disorder",
+      "psychology",
+      "panic"
+    ],
     "translation": null
   },
   {
     "term": "adversarialism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A stance or system based on opposition and conflict between competing parties; the use of adversarial methods.",
@@ -147861,16 +148284,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "opposition",
+      "antagonism",
+      "conflict culture",
+      "combativeness"
+    ],
+    "antonymTerms": [
+      "cooperation",
+      "consensus"
+    ],
+    "relatedTerms": [
+      "politics",
+      "law",
+      "debate",
+      "conflict"
+    ],
     "translation": null
   },
   {
     "term": "accrual",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The accumulation or increase of something over time, especially in accounting; a liability or asset that grows over time.",
@@ -147883,16 +148319,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "accumulation",
+      "build-up",
+      "accretion",
+      "growth over time"
+    ],
+    "antonymTerms": [
+      "depletion",
+      "reduction"
+    ],
+    "relatedTerms": [
+      "finance",
+      "accounting",
+      "interest",
+      "liability"
+    ],
     "translation": null
   },
   {
     "term": "admiralty",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The branch of law governing maritime matters; in the UK, the department of state that formerly administered naval affairs.",
@@ -147905,16 +148354,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "maritime court",
+      "naval authority",
+      "sea law",
+      "fleet command"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "navy",
+      "law",
+      "maritime",
+      "UK"
+    ],
     "translation": null
   },
   {
     "term": "absenteeism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The practice of regularly staying away from work or school without good reason; habitual absence.",
@@ -147927,16 +148386,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "non-attendance",
+      "truancy",
+      "absence",
+      "non-participation"
+    ],
+    "antonymTerms": [
+      "attendance",
+      "diligence"
+    ],
+    "relatedTerms": [
+      "workplace",
+      "school",
+      "management",
+      "productivity"
+    ],
     "translation": null
   },
   {
     "term": "adhesion",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The action or process of adhering to a surface; the sticking together of two surfaces.",
@@ -147959,16 +148431,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sticking",
+      "bonding",
+      "cohesion",
+      "attachment"
+    ],
+    "antonymTerms": [
+      "separation",
+      "detachment"
+    ],
+    "relatedTerms": [
+      "chemistry",
+      "physics",
+      "diplomacy",
+      "materials"
+    ],
     "translation": null
   },
   {
     "term": "actualism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The philosophical doctrine that only the actual world exists, denying the existence of possible but non-actual worlds.",
@@ -147981,16 +148466,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "modal actualism",
+      "possible-world denial",
+      "anti-possibilism",
+      "concrete world theory"
+    ],
+    "antonymTerms": [
+      "modal realism",
+      "possibilism"
+    ],
+    "relatedTerms": [
+      "philosophy",
+      "metaphysics",
+      "logic",
+      "ontology"
+    ],
     "translation": null
   },
   {
     "term": "agrarianism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The political philosophy that land and agriculture should be the basis of social order and wealth; advocacy of redistribution of land.",
@@ -148003,16 +148501,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "land reform ideology",
+      "rural egalitarianism",
+      "peasantism",
+      "land-based political theory"
+    ],
+    "antonymTerms": [
+      "urbanism",
+      "industrialism"
+    ],
+    "relatedTerms": [
+      "politics",
+      "land",
+      "farming",
+      "history"
+    ],
     "translation": null
   },
   {
     "term": "eugenics",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The practice of attempting to improve the genetic quality of the human population, typically involving the selective breeding or sterilisation of those with \"undesirable\" traits.",
@@ -148025,16 +148536,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "selective breeding",
+      "genetic manipulation",
+      "racial hygiene",
+      "population engineering"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "history",
+      "genetics",
+      "ethics",
+      "fascism"
+    ],
     "translation": null
   },
   {
     "term": "exceptionalism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The belief that a person, country, or institution is exceptional and not subject to the rules that apply to others.",
@@ -148047,16 +148568,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "special status claim",
+      "unique nation theory",
+      "exemptionalism",
+      "chosen status"
+    ],
+    "antonymTerms": [
+      "universalism",
+      "egalitarianism"
+    ],
+    "relatedTerms": [
+      "nationalism",
+      "USA",
+      "politics",
+      "ideology"
+    ],
     "translation": null
   },
   {
     "term": "expansionism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A policy of territorial or economic expansion, especially at the expense of other nations.",
@@ -148069,16 +148603,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "territorial expansion",
+      "imperialism",
+      "annexationism",
+      "aggressive enlargement"
+    ],
+    "antonymTerms": [
+      "isolationism",
+      "restraint"
+    ],
+    "relatedTerms": [
+      "politics",
+      "war",
+      "foreign policy",
+      "empire"
+    ],
     "translation": null
   },
   {
     "term": "expropriation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The action by the state of taking property from its owner for public use or benefit; compulsory acquisition.",
@@ -148091,16 +148638,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "compulsory acquisition",
+      "nationalisation",
+      "state seizure",
+      "eminent domain"
+    ],
+    "antonymTerms": [
+      "restitution",
+      "private ownership"
+    ],
+    "relatedTerms": [
+      "law",
+      "politics",
+      "land",
+      "compensation"
+    ],
     "translation": null
   },
   {
     "term": "factiousness",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality of being inclined to dissension and faction; divisive partisanship.",
@@ -148113,16 +148673,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "divisiveness",
+      "factionalism",
+      "partisanship",
+      "internal conflict"
+    ],
+    "antonymTerms": [
+      "unity",
+      "cohesion"
+    ],
+    "relatedTerms": [
+      "politics",
+      "party",
+      "parliament",
+      "conflict"
+    ],
     "translation": null
   },
   {
     "term": "finitude",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The state of having limits; the quality of being finite.",
@@ -148135,16 +148708,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "limitedness",
+      "boundedness",
+      "mortality",
+      "limitations of being"
+    ],
+    "antonymTerms": [
+      "infinity",
+      "eternity"
+    ],
+    "relatedTerms": [
+      "philosophy",
+      "existence",
+      "death",
+      "meaning"
+    ],
     "translation": null
   },
   {
     "term": "fragility",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality of being easily broken or damaged; delicateness.",
@@ -148157,16 +148743,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "delicateness",
+      "brittleness",
+      "vulnerability",
+      "precariousness"
+    ],
+    "antonymTerms": [
+      "robustness",
+      "resilience"
+    ],
+    "relatedTerms": [
+      "stability",
+      "environment",
+      "peace",
+      "psychology"
+    ],
     "translation": null
   },
   {
     "term": "futurism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An artistic movement of the early twentieth century that emphasised speed, technology, and industrial dynamism.",
@@ -148189,16 +148788,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "forward-lookingness",
+      "progressivism",
+      "avant-garde movement",
+      "speed worship"
+    ],
+    "antonymTerms": [
+      "traditionalism",
+      "conservatism"
+    ],
+    "relatedTerms": [
+      "art",
+      "Italy",
+      "technology",
+      "modernity"
+    ],
     "translation": null
   },
   {
     "term": "gradualism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A policy or theory of gradual rather than sudden change; the principle that change should proceed step by step.",
@@ -148211,16 +148823,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "incrementalism",
+      "step-by-step reform",
+      "evolutionary change",
+      "moderate reformism"
+    ],
+    "antonymTerms": [
+      "radicalism",
+      "revolutionism"
+    ],
+    "relatedTerms": [
+      "politics",
+      "philosophy",
+      "reform",
+      "Fabianism"
+    ],
     "translation": null
   },
   {
     "term": "egocentrism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The tendency to regard oneself and one's own interests as the most important; self-centredness.",
@@ -148233,16 +148858,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "self-centredness",
+      "narcissism",
+      "self-focus",
+      "egotism"
+    ],
+    "antonymTerms": [
+      "altruism",
+      "self-lessness"
+    ],
+    "relatedTerms": [
+      "psychology",
+      "development",
+      "behaviour",
+      "relationships"
+    ],
     "translation": null
   },
   {
     "term": "deliberateness",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The quality of careful consideration before action; intentionality and methodical purpose.",
@@ -148255,9 +148893,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "intentionality",
+      "purposefulness",
+      "mindfulness",
+      "calculated care"
+    ],
+    "antonymTerms": [
+      "impulsiveness",
+      "rashness"
+    ],
+    "relatedTerms": [
+      "decision-making",
+      "character",
+      "management",
+      "philosophy"
+    ],
     "translation": null
   }
 ]
