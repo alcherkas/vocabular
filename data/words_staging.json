@@ -805,7 +805,8 @@
     "synonyms": [
       "apparent",
       "seeming",
-      "supposed"
+      "purported",
+      "professed"
     ],
     "example": "The ostensible reason for the meeting was budget review.",
     "partOfSpeech": "adjective",
@@ -813,7 +814,7 @@
       "argumentation",
       "complexity"
     ],
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Apparently true or real but not necessarily so; stated or appearing to be true.",
@@ -826,7 +827,17 @@
         ]
       }
     ],
-    "language": "en"
+    "language": "en",
+    "antonymTerms": [
+      "actual",
+      "genuine"
+    ],
+    "relatedTerms": [
+      "pretence",
+      "facade",
+      "appearance",
+      "stated purpose"
+    ]
   },
   {
     "term": "palpable",
@@ -882,7 +893,8 @@
     "synonyms": [
       "prominent",
       "notable",
-      "striking"
+      "conspicuous",
+      "outstanding"
     ],
     "example": "Let me highlight the salient points of the proposal.",
     "partOfSpeech": "adjective",
@@ -890,7 +902,7 @@
       "communication",
       "evaluation"
     ],
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Most noticeable or important; prominent; conspicuous.",
@@ -903,7 +915,17 @@
         ]
       }
     ],
-    "language": "en"
+    "language": "en",
+    "antonymTerms": [
+      "minor",
+      "negligible"
+    ],
+    "relatedTerms": [
+      "importance",
+      "relevance",
+      "prominence",
+      "focus"
+    ]
   },
   {
     "term": "tacit",
@@ -132171,7 +132193,7 @@
     "term": "vanquish",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To defeat thoroughly in battle or in a contest; to overcome completely.",
@@ -132184,16 +132206,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "conquer",
+      "defeat",
+      "overcome",
+      "subjugate"
+    ],
+    "antonymTerms": [
+      "surrender",
+      "succumb"
+    ],
+    "relatedTerms": [
+      "victory",
+      "conquest",
+      "triumph",
+      "domination"
+    ],
     "translation": null
   },
   {
     "term": "xenophile",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person who is attracted to foreign peoples, manners, or cultures.",
@@ -132206,16 +132241,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "cosmopolitan",
+      "internationalist",
+      "multiculturalist",
+      "traveller"
+    ],
+    "antonymTerms": [
+      "xenophobe",
+      "isolationist"
+    ],
+    "relatedTerms": [
+      "cultural appreciation",
+      "diversity",
+      "travel",
+      "openness"
+    ],
     "translation": null
   },
   {
     "term": "abhorrent",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Inspiring disgust and loathing; repugnant.",
@@ -132228,16 +132276,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "repugnant",
+      "revolting",
+      "loathsome",
+      "odious"
+    ],
+    "antonymTerms": [
+      "admirable",
+      "commendable"
+    ],
+    "relatedTerms": [
+      "revulsion",
+      "disgust",
+      "contempt",
+      "moral outrage"
+    ],
     "translation": null
   },
   {
     "term": "affliction",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A cause of pain or harm; a state of pain, distress, or hardship.",
@@ -132250,16 +132311,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "suffering",
+      "hardship",
+      "torment",
+      "tribulation"
+    ],
+    "antonymTerms": [
+      "relief",
+      "blessing"
+    ],
+    "relatedTerms": [
+      "disease",
+      "poverty",
+      "adversity",
+      "pain"
+    ],
     "translation": null
   },
   {
     "term": "asunder",
     "language": "en",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Into separate parts; apart; into pieces.",
@@ -132272,16 +132346,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "apart",
+      "in two",
+      "separately",
+      "to pieces"
+    ],
+    "antonymTerms": [
+      "together",
+      "intact"
+    ],
+    "relatedTerms": [
+      "separation",
+      "division",
+      "rupture",
+      "fragmentation"
+    ],
     "translation": null
   },
   {
     "term": "multifarious",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Many and of various types; having many varied parts or aspects.",
@@ -132294,16 +132381,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "diverse",
+      "varied",
+      "manifold",
+      "heterogeneous"
+    ],
+    "antonymTerms": [
+      "uniform",
+      "homogeneous"
+    ],
+    "relatedTerms": [
+      "variety",
+      "complexity",
+      "diversity",
+      "plurality"
+    ],
     "translation": null
   },
   {
     "term": "obtrusive",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Noticeable or prominent in an unwelcome or intrusive way.",
@@ -132316,16 +132416,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "intrusive",
+      "prominent",
+      "noticeable",
+      "blatant"
+    ],
+    "antonymTerms": [
+      "subtle",
+      "unobtrusive"
+    ],
+    "relatedTerms": [
+      "intrusiveness",
+      "visibility",
+      "disruption",
+      "annoyance"
+    ],
     "translation": null
   },
   {
     "term": "omniscient",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Knowing everything; having complete or unlimited knowledge.",
@@ -132338,9 +132451,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "all-knowing",
+      "wise",
+      "informed",
+      "prescient"
+    ],
+    "antonymTerms": [
+      "ignorant",
+      "uninformed"
+    ],
+    "relatedTerms": [
+      "divinity",
+      "knowledge",
+      "theology",
+      "narrative perspective"
+    ],
     "translation": null
   },
   {
@@ -132392,7 +132518,7 @@
     "term": "vestige",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A trace or remnant of something that is disappearing or no longer exists.",
@@ -132405,16 +132531,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "remnant",
+      "trace",
+      "relic",
+      "shadow"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "heritage",
+      "archaeology",
+      "legacy",
+      "trace fossil"
+    ],
     "translation": null
   },
   {
     "term": "wistful",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Having or showing a feeling of vague or regretful longing.",
@@ -132427,9 +132563,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nostalgic",
+      "yearning",
+      "pensive",
+      "rueful"
+    ],
+    "antonymTerms": [
+      "content",
+      "satisfied"
+    ],
+    "relatedTerms": [
+      "nostalgia",
+      "longing",
+      "melancholy",
+      "reminiscence"
+    ],
     "translation": null
   }
 ]
