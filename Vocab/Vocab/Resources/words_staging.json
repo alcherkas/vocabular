@@ -2024,7 +2024,7 @@
     "term": "adroitness",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Skill and cleverness in using the hands or mind; dexterity and ingenuity.",
@@ -2037,16 +2037,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "dexterity",
+      "cleverness",
+      "nimbleness",
+      "ingenuity"
+    ],
+    "antonymTerms": [
+      "clumsiness",
+      "ineptitude"
+    ],
+    "relatedTerms": [
+      "skill",
+      "agility",
+      "finesse",
+      "adroit",
+      "resourcefulness"
+    ],
     "translation": null
   },
   {
     "term": "alignment",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The arrangement of things in a straight line or in correct relative positions.",
@@ -2079,16 +2093,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "arrangement",
+      "calibration",
+      "coordination",
+      "positioning"
+    ],
+    "antonymTerms": [
+      "misalignment",
+      "discord"
+    ],
+    "relatedTerms": [
+      "synchronisation",
+      "conformity",
+      "convergence",
+      "configuration",
+      "integration"
+    ],
     "translation": null
   },
   {
     "term": "addendum",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An item of additional material, typically a section added to the end of a book or other publication.",
@@ -2111,16 +2139,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "appendix",
+      "supplement",
+      "annexe",
+      "appendage"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "amendment",
+      "codicil",
+      "rider",
+      "postscript",
+      "attachment"
+    ],
     "translation": null
   },
   {
     "term": "allegation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A claim or assertion that someone has done something illegal or wrong, typically one made without proof.",
@@ -2143,16 +2182,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "accusation",
+      "charge",
+      "assertion",
+      "claim"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "indictment",
+      "complaint",
+      "libel",
+      "slander",
+      "prosecution"
+    ],
     "translation": null
   },
   {
     "term": "amplify",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To increase the volume, strength, or intensity of (a sound, signal, or effect).",
@@ -2185,9 +2235,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "intensify",
+      "magnify",
+      "enlarge",
+      "augment"
+    ],
+    "antonymTerms": [
+      "diminish",
+      "attenuate"
+    ],
+    "relatedTerms": [
+      "amplification",
+      "boost",
+      "propagation",
+      "elaboration",
+      "dissemination"
+    ],
     "translation": null
   }
 ]
