@@ -136723,8 +136723,19 @@
     "term": "gaslighting",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The act of manipulating someone by psychological means into questioning their own sanity or perception of reality.",
+        "example": "The therapist recognised the classic signs of gaslighting in the client's description of her relationship.",
+        "register": "neutral",
+        "tags": [
+          "psychology",
+          "abuse",
+          "manipulation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136734,8 +136745,19 @@
     "term": "herd mentality",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The tendency to follow the crowd or adopt group behaviour without independent thinking.",
+        "example": "Financial bubbles are often driven by herd mentality, as investors follow each other rather than conduct independent analysis.",
+        "register": "neutral",
+        "tags": [
+          "psychology",
+          "sociology",
+          "finance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136745,8 +136767,19 @@
     "term": "implicit bias",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Attitudes or stereotypes that affect decisions and actions unconsciously, without the individual being aware of their influence.",
+        "example": "Studies on implicit bias show that even well-meaning people can make discriminatory decisions based on unconscious assumptions.",
+        "register": "formal",
+        "tags": [
+          "psychology",
+          "sociology",
+          "equity"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136756,8 +136789,19 @@
     "term": "impostor syndrome",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The persistent internal experience of believing oneself to be a fraud despite evident success or competence.",
+        "example": "Despite her numerous awards, she suffered from impostor syndrome and feared being exposed as unworthy of her position.",
+        "register": "neutral",
+        "tags": [
+          "psychology",
+          "work",
+          "self-perception"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136767,8 +136811,19 @@
     "term": "groupthink",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The tendency within a group to reach consensus without critical evaluation, suppressing dissenting views to maintain harmony.",
+        "example": "The committee's decision had all the hallmarks of groupthink: no one had raised objections until after the disaster.",
+        "register": "formal",
+        "tags": [
+          "psychology",
+          "management",
+          "decision-making"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136778,8 +136833,29 @@
     "term": "algorithm",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A process or set of rules followed in calculations or problem-solving operations, especially by a computer.",
+        "example": "The search engine's algorithm assigns rankings based on hundreds of factors including relevance and credibility.",
+        "register": "technical",
+        "tags": [
+          "computing",
+          "mathematics",
+          "technology"
+        ]
+      },
+      {
+        "definition": "Any systematic process for solving a problem or achieving an outcome.",
+        "example": "Critics argued that the bank's lending algorithm was discriminatory in its effect on minority applicants.",
+        "register": "neutral",
+        "tags": [
+          "process",
+          "decision-making",
+          "fairness"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136789,8 +136865,29 @@
     "term": "catalyse",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To cause or accelerate a chemical reaction by acting as a catalyst.",
+        "example": "The enzyme catalyses the breakdown of starch into simpler sugars during digestion.",
+        "register": "technical",
+        "tags": [
+          "chemistry",
+          "biology",
+          "science"
+        ]
+      },
+      {
+        "definition": "To precipitate or speed up a process, especially a social or political one.",
+        "example": "The financial crisis catalysed a fundamental rethinking of regulatory frameworks across the developed world.",
+        "register": "formal",
+        "tags": [
+          "change",
+          "social",
+          "figurative"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136800,8 +136897,19 @@
     "term": "centrifuge",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A machine using centrifugal force to separate substances of different densities; used widely in laboratory and industrial settings.",
+        "example": "Blood samples are placed in a centrifuge to separate plasma from red blood cells.",
+        "register": "technical",
+        "tags": [
+          "science",
+          "laboratory",
+          "engineering"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136811,8 +136919,19 @@
     "term": "exponentiate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To raise a number to a given power; more broadly, to cause to grow at an exponential rate.",
+        "example": "Network effects exponentiate the value of a platform as each additional user increases utility for all others.",
+        "register": "technical",
+        "tags": [
+          "mathematics",
+          "economics",
+          "growth"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136822,8 +136941,19 @@
     "term": "feedback loop",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A system in which the output or effect of a process feeds back to affect the input or cause, either amplifying or dampening the original signal.",
+        "example": "Climate models reveal dangerous positive feedback loops in which warming causes ice melt that leads to further warming.",
+        "register": "technical",
+        "tags": [
+          "systems theory",
+          "ecology",
+          "engineering"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136833,8 +136963,19 @@
     "term": "hypothesis",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A proposed explanation for an observable phenomenon, formulated as a starting point for investigation.",
+        "example": "The researcher formulated a hypothesis that a diet high in processed sugar impairs short-term memory.",
+        "register": "technical",
+        "tags": [
+          "science",
+          "methodology",
+          "research"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136844,8 +136985,29 @@
     "term": "mechanism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A system of mutually adapted parts working together; the means by which an effect is produced.",
+        "example": "Scientists are still investigating the cellular mechanism by which the virus evades the immune system.",
+        "register": "technical",
+        "tags": [
+          "science",
+          "engineering",
+          "biology"
+        ]
+      },
+      {
+        "definition": "A natural or established process by which something takes place.",
+        "example": "The arbitration mechanism provides a structured alternative to litigation for resolving commercial disputes.",
+        "register": "formal",
+        "tags": [
+          "process",
+          "law",
+          "systems"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136855,8 +137017,29 @@
     "term": "permutation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Each of several possible ways in which a set of things can be ordered or arranged.",
+        "example": "With five players and three positions, there are sixty permutations to consider when selecting the starting lineup.",
+        "register": "technical",
+        "tags": [
+          "mathematics",
+          "combinations",
+          "logic"
+        ]
+      },
+      {
+        "definition": "A complete transformation or alteration.",
+        "example": "The latest permutation of the software included significant changes to the user interface.",
+        "register": "neutral",
+        "tags": [
+          "change",
+          "variety",
+          "transformation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136866,8 +137049,29 @@
     "term": "proxy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A person or thing that acts as a substitute for another; a measure used as an indicator for something else.",
+        "example": "Researchers use satellite imagery as a proxy for economic activity in regions with limited data.",
+        "register": "formal",
+        "tags": [
+          "statistics",
+          "law",
+          "computing"
+        ]
+      },
+      {
+        "definition": "The authority to represent someone, especially in voting.",
+        "example": "She gave her proxy to a colleague, allowing him to vote on her behalf at the annual general meeting.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "governance",
+          "representation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136877,8 +137081,29 @@
     "term": "replication",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The action of reproducing or making a copy of something; the reproduction of results in a scientific study by independent researchers.",
+        "example": "The replication crisis in social psychology has prompted calls for more rigorous pre-registration of studies.",
+        "register": "technical",
+        "tags": [
+          "science",
+          "methodology",
+          "quality"
+        ]
+      },
+      {
+        "definition": "In biology, the copying of a DNA molecule to produce two identical daughter strands.",
+        "example": "Errors in DNA replication are the primary cause of mutations that can lead to cancer.",
+        "register": "technical",
+        "tags": [
+          "biology",
+          "genetics",
+          "cell biology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136888,8 +137113,19 @@
     "term": "systemic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Relating to a system as a whole rather than a part; affecting the entire body or organisation.",
+        "example": "The investigation revealed systemic failings in the oversight of financial institutions, not isolated errors.",
+        "register": "formal",
+        "tags": [
+          "society",
+          "medicine",
+          "governance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136899,8 +137135,29 @@
     "term": "volatility",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Liability to change rapidly and unpredictably, especially for the worse; in finance, the rate of price fluctuation.",
+        "example": "The high volatility of cryptocurrency markets deters many institutional investors from holding them.",
+        "register": "technical",
+        "tags": [
+          "finance",
+          "economics",
+          "chemistry"
+        ]
+      },
+      {
+        "definition": "Tendency to evaporate rapidly; being volatile.",
+        "example": "The volatility of the solvent made it essential to use it only in well-ventilated conditions.",
+        "register": "technical",
+        "tags": [
+          "chemistry",
+          "science",
+          "safety"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136910,8 +137167,19 @@
     "term": "ablution",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The act of washing oneself; a ceremonial act of washing in a religious context.",
+        "example": "Before entering the mosque, worshippers performed their ritual ablutions at the outdoor fountains.",
+        "register": "formal",
+        "tags": [
+          "religion",
+          "hygiene",
+          "ritual"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136921,8 +137189,19 @@
     "term": "abominate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To feel intense disgust or hatred for; to abhor something deeply.",
+        "example": "She abominated the casual cruelty that passed for wit in some parts of the literary world.",
+        "register": "formal",
+        "tags": [
+          "emotion",
+          "disgust",
+          "hatred"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136932,8 +137211,19 @@
     "term": "sanctify",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To make something holy or consecrate it; to give official approval or sanction to something.",
+        "example": "The ritual was performed to sanctify the new building, invoking blessings on all who would work there.",
+        "register": "formal",
+        "tags": [
+          "religion",
+          "ritual",
+          "approval"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136943,8 +137233,19 @@
     "term": "abase",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To cause someone to feel degraded or humiliated; to lower in rank, status, or respect.",
+        "example": "He refused to abase himself before the committee, maintaining his dignity despite the hostile questioning.",
+        "register": "formal",
+        "tags": [
+          "behaviour",
+          "humiliation",
+          "respect"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136954,8 +137255,29 @@
     "term": "accord",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "An official agreement or treaty; a formal settlement reached through negotiation.",
+        "example": "The peace accord ended three decades of civil conflict and established a transitional justice mechanism.",
+        "register": "formal",
+        "tags": [
+          "diplomacy",
+          "law",
+          "agreement"
+        ]
+      },
+      {
+        "definition": "Agreement or harmony; correspondence of one thing with another.",
+        "example": "Her actions were in full accord with the organisation's stated values and mission.",
+        "register": "formal",
+        "tags": [
+          "harmony",
+          "agreement",
+          "consistency"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136965,8 +137287,19 @@
     "term": "accusation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A charge or claim that someone has done something wrong or illegal; the act of attributing blame.",
+        "example": "The accusation of corruption was never substantiated and was later withdrawn with an apology.",
+        "register": "neutral",
+        "tags": [
+          "law",
+          "blame",
+          "allegation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136976,8 +137309,29 @@
     "term": "actionable",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Giving sufficient reason for legal action.",
+        "example": "The lawyer advised that the defamatory statements were actionable in court.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "legal action",
+          "liability"
+        ]
+      },
+      {
+        "definition": "Able to be acted upon; providing a clear basis for action.",
+        "example": "The report provided actionable recommendations that the board implemented within six months.",
+        "register": "neutral",
+        "tags": [
+          "management",
+          "planning",
+          "practical"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136987,8 +137341,19 @@
     "term": "adjudge",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To formally determine or pronounce in a judicial setting; to rule or deem officially.",
+        "example": "The court adjudged the defendant guilty on two of the four counts, acquitting on the remainder.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "judgment",
+          "decision"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -136998,8 +137363,19 @@
     "term": "ameliorative",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Having the effect of making something better or less severe; tending to ameliorate.",
+        "example": "The committee proposed a series of ameliorative measures to reduce the impact of the policy on low-income households.",
+        "register": "formal",
+        "tags": [
+          "improvement",
+          "policy",
+          "reform"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -137009,8 +137385,19 @@
     "term": "analogise",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To use analogy in explaining something; to draw comparisons to illustrate a point.",
+        "example": "He analogised the brain's activity to a symphony orchestra, each section playing its part within a larger composition.",
+        "register": "formal",
+        "tags": [
+          "comparison",
+          "rhetoric",
+          "explanation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -137020,8 +137407,29 @@
     "term": "assimilation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The process by which a person or group adopts the culture and identity of a new society.",
+        "example": "The policy of forced assimilation had caused generations of indigenous communities to lose their languages.",
+        "register": "formal",
+        "tags": [
+          "culture",
+          "immigration",
+          "sociology"
+        ]
+      },
+      {
+        "definition": "The absorption and integration of information or ideas.",
+        "example": "The rapid assimilation of new technologies transformed the way businesses operated within a single decade.",
+        "register": "neutral",
+        "tags": [
+          "learning",
+          "adaptation",
+          "knowledge"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -137031,8 +137439,29 @@
     "term": "blunder",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To make a stupid or careless mistake; to act clumsily or without judgement.",
+        "example": "The government had badly blundered in its handling of the crisis, losing public confidence within weeks.",
+        "register": "neutral",
+        "tags": [
+          "mistake",
+          "error",
+          "clumsiness"
+        ]
+      },
+      {
+        "definition": "To move clumsily or carelessly.",
+        "example": "In the darkness, he blundered into the furniture and knocked over a lamp.",
+        "register": "neutral",
+        "tags": [
+          "movement",
+          "clumsiness",
+          "physical"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -137042,8 +137471,19 @@
     "term": "polity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A form of government or political organisation; a society that is organised as a state or other political entity.",
+        "example": "The philosopher argued that a just polity could only be built on the equal participation of all its citizens.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "governance",
+          "philosophy"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
