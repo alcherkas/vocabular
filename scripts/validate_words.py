@@ -18,6 +18,9 @@ from pathlib import Path
 VALID_PARTS_OF_SPEECH = {"noun", "verb", "adjective", "adverb", "phrase", "particle", "interjection", "pronoun", "preposition", "conjunction", "numeral"}
 VALID_REGISTERS = {"general", "technical", "formal", "literary", "neutral", "informal", "slang"}
 VALID_STATUSES = {"stub", "enriched", "relations-added", "approved"}
+VALID_GENDERS = {"masculine", "feminine"}
+REQUIRED_CASE_KEYS = {"nominative", "genitive", "dative", "accusative", "instrumental", "locative"}
+ALL_VALID_CASE_KEYS = REQUIRED_CASE_KEYS | {"vocative"}
 
 
 def load_json(path: str) -> list:
@@ -58,6 +61,87 @@ def validate_stub(word: dict, idx: int, errors: list):
         errors.append(f"[{idx}] '{word.get('term')}': invalid language '{lang}' — must be 'en' or 'lt'")
 
 
+def validate_gender(word: dict, idx: int, errors: list):
+    """Validate gender field for LT words."""
+    pos = word.get("partOfSpeech", "")
+    gender = word.get("gender")
+
+    if word.get("language") == "lt" and pos == "noun":
+        if not gender:
+            errors.append(f"[{idx}] '{word.get('term')}': LT noun missing 'gender' field — must be 'masculine' or 'feminine'")
+        elif gender not in VALID_GENDERS:
+            errors.append(f"[{idx}] '{word.get('term')}': invalid gender '{gender}' — must be one of {sorted(VALID_GENDERS)}")
+    elif gender is not None and pos != "noun":
+        errors.append(f"[{idx}] '{word.get('term')}': non-noun has 'gender' field — only nouns should have gender")
+
+
+def validate_cases(word: dict, idx: int, errors: list):
+    """Validate cases declension data for LT nouns and adjectives."""
+    cases = word.get("cases")
+    if cases is None:
+        return
+
+    if not isinstance(cases, dict):
+        errors.append(f"[{idx}] '{word.get('term')}': 'cases' must be an object")
+        return
+
+    pos = word.get("partOfSpeech", "")
+    gender_keys = {"masculine", "feminine"}
+    invalid_keys = set(cases.keys()) - gender_keys
+    if invalid_keys:
+        errors.append(f"[{idx}] '{word.get('term')}': 'cases' has invalid keys {sorted(invalid_keys)} — only 'masculine' and 'feminine' allowed")
+        return
+
+    populated = {k for k in gender_keys if cases.get(k)}
+
+    # Noun: exactly one gender key matching the noun's own gender
+    if pos == "noun":
+        gender = word.get("gender", "")
+        if gender in VALID_GENDERS:
+            if populated != {gender}:
+                errors.append(
+                    f"[{idx}] '{word.get('term')}': noun with gender '{gender}' should have exactly "
+                    f"cases.{gender} populated, found {sorted(populated) if populated else 'none'}"
+                )
+
+    # Adjective: both masculine and feminine required
+    if pos == "adjective":
+        for g in ("masculine", "feminine"):
+            if g not in populated:
+                errors.append(f"[{idx}] '{word.get('term')}': adjective missing cases.{g} — both genders required")
+
+    # Validate each populated gender's NumberCases → CaseSet
+    for gender_key in ("masculine", "feminine"):
+        number_cases = cases.get(gender_key)
+        if number_cases is None:
+            continue
+        if not isinstance(number_cases, dict):
+            errors.append(f"[{idx}] '{word.get('term')}': cases.{gender_key} must be an object")
+            continue
+        for number in ("singular", "plural"):
+            case_set = number_cases.get(number)
+            if case_set is None:
+                errors.append(f"[{idx}] '{word.get('term')}': cases.{gender_key} missing '{number}'")
+                continue
+            if not isinstance(case_set, dict):
+                errors.append(f"[{idx}] '{word.get('term')}': cases.{gender_key}.{number} must be an object")
+                continue
+            # Required case keys
+            for case_name in sorted(REQUIRED_CASE_KEYS):
+                val = case_set.get(case_name)
+                if not isinstance(val, str) or not val.strip():
+                    errors.append(f"[{idx}] '{word.get('term')}': cases.{gender_key}.{number} missing or empty '{case_name}'")
+            # Optional vocative — must be a string if present
+            if "vocative" in case_set:
+                val = case_set["vocative"]
+                if not isinstance(val, str):
+                    errors.append(f"[{idx}] '{word.get('term')}': cases.{gender_key}.{number}.vocative must be a string")
+            # Unexpected keys
+            unexpected = set(case_set.keys()) - ALL_VALID_CASE_KEYS
+            if unexpected:
+                errors.append(f"[{idx}] '{word.get('term')}': cases.{gender_key}.{number} has unexpected keys {sorted(unexpected)}")
+
+
 def validate_enriched(word: dict, idx: int, errors: list):
     """Validate meanings array is populated and partOfSpeech is set."""
     # partOfSpeech must be set by enriched stage
@@ -92,6 +176,10 @@ def validate_enriched(word: dict, idx: int, errors: list):
         forms = word.get("forms")
         if not forms or not forms.get("present3") or not forms.get("past3"):
             errors.append(f"[{idx}] '{word.get('term')}': LT verb missing 'forms' (present3/past3) — enricher must add verb forms")
+    # LT gender and cases validation
+    if word.get("language") == "lt":
+        validate_gender(word, idx, errors)
+        validate_cases(word, idx, errors)
 
 
 def validate_relations(word: dict, idx: int, errors: list):

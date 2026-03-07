@@ -104,6 +104,22 @@ To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` fo
      "governedCase": "<question word or null>"
      ```
      `governedCase` is the case question the verb governs: `"ką?"` (accusative), `"kam?"` (dative), `"ko?"` (genitive), `"kuo?"` (instrumental), or `null` for intransitive verbs. Example: `"skaityti"` → `forms: {present3:"skaito", past3:"skaitė"}`, `governedCase: "ką?"`.
+   - **LT nouns only** (`partOfSpeech: "noun"`): also fill:
+     ```json
+     "gender": "masculine" | "feminine"
+     ```
+     Infer from word ending: `-as`, `-is`, `-us`, `-ys`, `-uo` → masculine; `-a`, `-ė` → feminine. For ambiguous `-is` nouns, check declension class.
+   - **LT nouns and adjectives** (when case data is available): also fill:
+     ```json
+     "cases": {
+       "masculine": {
+         "singular": { "nominative": "...", "genitive": "...", "dative": "...", "accusative": "...", "instrumental": "...", "locative": "...", "vocative": "..." },
+         "plural": { ... }
+       },
+       "feminine": { ... }
+     }
+     ```
+     For **nouns**: populate only the gender that matches (masculine or feminine). For **adjectives**: populate both masculine and feminine. `vocative` is optional. All other case values are required strings.
    - Set `status: "enriched"`.
    - **Use ONLY these enum values** (validator will reject anything else):
      - `partOfSpeech`: `noun` | `verb` | `adjective` | `adverb` | `phrase` | `particle` | `interjection` | `pronoun` | `preposition` | `conjunction` | `numeral`
