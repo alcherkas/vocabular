@@ -1614,7 +1614,7 @@
     "term": "anglies kompensavimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A mechanism by which carbon dioxide emissions from one activity are compensated by investing in projects that reduce emissions elsewhere.",
@@ -1640,7 +1640,7 @@
     "term": "elektroninės lėšos",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Money that exists only in electronic form and is transferred and stored digitally.",
@@ -1668,7 +1668,7 @@
     "term": "skaitmeninis turtas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Any asset that exists in digital form and has value, including digital files, cryptocurrencies, and online accounts.",
@@ -1696,7 +1696,7 @@
     "term": "virtualus turtas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "An asset that exists only in virtual or digital environments, such as in-game items or virtual currency.",
@@ -1724,7 +1724,7 @@
     "term": "finansinis modelis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A mathematical representation of a company's financial performance used for forecasting and decision-making.",
@@ -1750,7 +1750,7 @@
     "term": "daugumos sprendimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A decision made when more than half of the voting participants agree on a particular option.",
@@ -1778,7 +1778,7 @@
     "term": "vienbalsiai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "With the agreement of all people involved; without any dissenting vote.",
@@ -1800,13 +1800,14 @@
       "sutarimas"
     ],
     "translation": "unanimously",
-    "forms": null
+    "forms": null,
+    "qa_notes": "AntonymTerm 'daugumos sprendimu' is in instrumental case. Should be nominative: 'daugumos sprendimas'."
   },
   {
     "term": "frakcija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "A group of people with shared political views within a larger party or legislative body.",
@@ -1828,13 +1829,14 @@
       "parlamentas"
     ],
     "translation": "faction; parliamentary group",
-    "forms": null
+    "forms": null,
+    "qa_notes": "Synonym 'grupė' is a hypernym: any group is not co-extensive with a parliamentary faction. Remove or replace with a more specific synonym."
   },
   {
     "term": "valdančioji partija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The political party or coalition that currently holds governmental power.",
@@ -1862,7 +1864,7 @@
     "term": "opozicinė partija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A political party that opposes the policies and actions of the party currently in power.",
