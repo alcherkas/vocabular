@@ -3130,7 +3130,7 @@
     "term": "correlate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To establish a mutual relationship or connection between two or more things; to show a correspondence.",
@@ -3153,16 +3153,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "correspond",
+      "associate",
+      "connect",
+      "link"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "correlation",
+      "regression",
+      "causation",
+      "coefficient",
+      "statistics"
+    ],
     "translation": null
   },
   {
     "term": "counterfeit",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Made in imitation of something genuine, with the intent to deceive or defraud; forged.",
@@ -3185,16 +3196,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "forged",
+      "fraudulent",
+      "fake",
+      "spurious"
+    ],
+    "antonymTerms": [
+      "genuine",
+      "authentic"
+    ],
+    "relatedTerms": [
+      "forgery",
+      "imitation",
+      "fraud",
+      "deception",
+      "reproduction"
+    ],
     "translation": null
   },
   {
     "term": "default",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Failure to fulfil an obligation, especially a financial one such as the repayment of a loan.",
@@ -3227,16 +3252,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "failure",
+      "non-payment",
+      "delinquency",
+      "insolvency"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "debt",
+      "bankruptcy",
+      "liability",
+      "obligation",
+      "credit"
+    ],
     "translation": null
   },
   {
     "term": "defer",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To put off (an action or event) to a later time; to postpone.",
@@ -3259,16 +3295,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "postpone",
+      "delay",
+      "adjourn",
+      "yield"
+    ],
+    "antonymTerms": [
+      "expedite",
+      "advance"
+    ],
+    "relatedTerms": [
+      "deference",
+      "procrastination",
+      "submission",
+      "respect",
+      "moratorium"
+    ],
     "translation": null
   },
   {
     "term": "delimit",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To determine or establish the limits or boundaries of something; to demarcate.",
@@ -3291,9 +3341,20 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "demarcate",
+      "delineate",
+      "bound",
+      "circumscribe"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "boundary",
+      "scope",
+      "parameter",
+      "definition",
+      "constraint"
+    ],
     "translation": null
   },
   {
