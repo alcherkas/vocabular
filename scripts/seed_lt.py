@@ -92,12 +92,7 @@ def main():
     parser.add_argument(
         "--staging",
         default="data/words_lt_staging.json",
-        help="Path to staging JSON output"
-    )
-    parser.add_argument(
-        "--production",
-        default="data/words_lt.json",
-        help="Path to production JSON (for dedup check)"
+        help="Path to staging JSON (contains all words including published)"
     )
     parser.add_argument("--dry-run", action="store_true", help="Preview without writing")
     args = parser.parse_args()
@@ -116,10 +111,9 @@ def main():
             unique_terms.append(term)
     print(f"After dedup: {len(unique_terms)} unique terms")
 
-    # Load existing staging + production (skip already-present terms)
+    # Load existing staging (includes published words) — skip already-present terms
     existing_staging = load_json(args.staging)
-    existing_production = load_json(args.production)
-    existing_terms = {w["term"].lower() for w in existing_staging + existing_production if "term" in w}
+    existing_terms = {w["term"].lower() for w in existing_staging if "term" in w}
 
     # Build new stubs
     new_stubs = []

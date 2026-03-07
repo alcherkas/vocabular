@@ -23,9 +23,9 @@ TASK_PERMISSIONS: dict[str, list[str]] = {
     "vocab-enricher-lt":  ["data/words_lt_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
     "vocab-relations":    ["data/words_staging.json", "data/words_lt_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
     "vocab-qa":           ["data/words_staging.json", "data/words_lt_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
-    # Publisher is special — it writes to production
-    "vocab-publisher":    ["data/words.json", "data/words_lt.json",
-                           "data/words_staging.json", "data/words_lt_staging.json",
+    # Publisher marks approved → published and rebuilds seed store
+    "vocab-publisher":    ["data/words_staging.json", "data/words_lt_staging.json",
+                           "Vocab/Vocab/Resources/vocab_seed.store",
                            "docs/audit-log.md"],
 
     # App model/feature tasks
@@ -44,9 +44,9 @@ TASK_PERMISSIONS: dict[str, list[str]] = {
     "widget":              ["VocabWidget/", "docs/TASKS.md", "docs/audit-log.md"],
     "tests-wordservice":   ["VocabTests/", "docs/TASKS.md", "docs/audit-log.md"],
 
-    # Data tasks
-    "en-words-expansion":  ["data/words.json", "docs/TASKS.md", "docs/audit-log.md"],
-    "lt-vocab-initial":    ["data/words_lt.json", "docs/TASKS.md", "docs/audit-log.md"],
+    # Data tasks (now use staging files directly)
+    "en-words-expansion":  ["data/words_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
+    "lt-vocab-initial":    ["data/words_lt_staging.json", "docs/TASKS.md", "docs/audit-log.md"],
 
     # Product agent tasks — these agents write to docs only
     "requirements-agent":  ["docs/requirements/", "docs/TASKS.md", "GOALS.md", "docs/decisions-pending.md",

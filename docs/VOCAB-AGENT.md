@@ -10,7 +10,7 @@ Each agent plays one role in the pipeline. Read only the section for your role.
 ```
 
 Words flow through `words_staging.json` (EN) or `words_lt_staging.json` (LT) with a `status` field.
-Only the **Publisher** touches the production `words.json` / `words_lt.json`.
+The **Publisher** marks approved words as published and rebuilds the seed store.
 
 See `docs/ARCHITECTURE.md` for the full staging schema and field rules.
 
@@ -37,7 +37,7 @@ cd ../vocabular-wt-seeder-en
 
 ### Loop
 
-1. Load `data/words.json` and `words_staging.json` — collect all existing terms.
+1. Load `data/words_staging.json` — collect all existing terms.
 2. Generate 10 new C1+ academic/professional English word stubs that do NOT already exist.
 3. Each stub:
    ```json
@@ -64,11 +64,11 @@ cd ../vocabular-wt-seeder-en
 
 ### Bootstrap (completed)
 
-The initial ~1760 LT terms have been seeded from `lt.txt` (now removed — all terms are in staging/production). The `scripts/seed_lt.py` script is no longer needed for bootstrapping.
+The initial ~1760 LT terms have been seeded from `lt.txt` (now removed — all terms are in staging with status `published`). The `scripts/seed_lt.py` script is no longer needed for bootstrapping.
 
 ### Adding new LT terms (ongoing)
 
-To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` following the stub format below. Check that the term doesn't already exist in production (`words_lt.json`) or staging.
+To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` following the stub format below. Check that the term doesn't already exist in staging (any status).
 
 **Target levels**: A1/A2 basics are largely covered (~2200+ words). New batches should focus on **A2–B1 and B1–B2** vocabulary — everyday situations, work, travel, opinions, emotions, health, media, and abstract concepts.
 
@@ -254,18 +254,16 @@ Stop enriching if fewer stubs remain than your batch size.
    ```bash
    python3 scripts/publish_words.py \
      --staging data/words_staging.json \
-     --production data/words.json \
      --confirm
    ```
-   ```
-3. Verify production:
+3. Verify published words:
    ```bash
-   python3 scripts/validate_words.py --production data/words.json
+   python3 scripts/validate_words.py --staging data/words_staging.json --status published
    ```
 4. The publish script automatically rebuilds `Vocab/Vocab/Resources/vocab_seed.store` using the VocabSeedBuilder package at `tools/VocabSeedBuilder/`. If the rebuild fails, a warning is printed but the publish still succeeds.
-5. Commit the updated JSON **and** the rebuilt `vocab_seed.store` together, then merge to main:
+5. Commit the updated staging JSON **and** the rebuilt `vocab_seed.store` together, then merge to main:
    ```bash
-   git commit -am "vocab(publish): add N words to production [total: X]"
+   git commit -am "vocab(publish): publish N words [total: X]"
    # Then merge to main (see docs/WORKTREES.md)
    ```
 

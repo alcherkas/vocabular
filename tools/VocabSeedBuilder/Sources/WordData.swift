@@ -23,4 +23,5 @@ struct WordData: Codable {
     let governedCase: String?
     let gender: String?
     let cases: WordCases?
+    let status: String?
 }

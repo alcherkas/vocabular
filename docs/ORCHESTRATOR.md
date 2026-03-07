@@ -132,7 +132,7 @@ SETUP:
 
 TASK:
   1. Create data/words_staging.json if it doesn't exist (start with empty array [])
-  2. Load Vocab/Vocab/Resources/words.json — collect all existing terms to avoid duplicates
+  2. Load data/words_staging.json — collect all existing terms to avoid duplicates
   3. Add 10 C1+ English word stubs per batch (term, partOfSpeech, synonyms, tags, status: "stub")
   4. Validate: python3 scripts/validate_words.py --staging data/words_staging.json --status stub
   5. Commit: git commit -am "vocab(en): seed batch — 10 stubs"

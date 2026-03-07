@@ -3,9 +3,9 @@
 validate_words.py — Stage-aware word data validator.
 
 Usage:
-    python3 scripts/validate_words.py --staging Resources/words_staging.json
-    python3 scripts/validate_words.py --staging Resources/words_staging.json --status enriched
-    python3 scripts/validate_words.py --production Resources/words.json
+    python3 scripts/validate_words.py --staging data/words_staging.json
+    python3 scripts/validate_words.py --staging data/words_staging.json --status enriched
+    python3 scripts/validate_words.py --staging data/words_staging.json --status published
 
 Exit code 0 = all valid. Exit code 1 = validation errors found.
 """
@@ -17,7 +17,7 @@ from pathlib import Path
 
 VALID_PARTS_OF_SPEECH = {"noun", "verb", "adjective", "adverb", "phrase", "particle", "interjection", "pronoun", "preposition", "conjunction", "numeral"}
 VALID_REGISTERS = {"general", "technical", "formal", "literary", "neutral", "informal", "slang"}
-VALID_STATUSES = {"stub", "enriched", "relations-added", "approved"}
+VALID_STATUSES = {"stub", "enriched", "relations-added", "approved", "published"}
 VALID_GENDERS = {"masculine", "feminine"}
 REQUIRED_CASE_KEYS = {"nominative", "genitive", "dative", "accusative", "instrumental", "locative"}
 ALL_VALID_CASE_KEYS = REQUIRED_CASE_KEYS | {"vocative"}
@@ -294,9 +294,9 @@ def main():
                 entry_errors.append(f"[{idx}] '{word.get('term')}': invalid status '{status}'")
             else:
                 validate_stub(word, idx, entry_errors)
-                if status in ("enriched", "relations-added", "approved"):
+                if status in ("enriched", "relations-added", "approved", "published"):
                     validate_enriched(word, idx, entry_errors)
-                if status in ("relations-added", "approved"):
+                if status in ("relations-added", "approved", "published"):
                     validate_relations(word, idx, entry_errors)
 
             # Route errors: if --errors-for is set, non-matching statuses go to warnings

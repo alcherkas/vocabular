@@ -36,10 +36,11 @@ Vocab/Vocab/
 │   ├── CaseTrainingService.swift # Case declension exercise generation
 │   └── SpeechService.swift     # AVSpeechSynthesizer wrapper (EN + LT)
 └── Resources/
-    ├── words.json              # English C1+ vocabulary (production)
-    ├── words_lt.json           # Lithuanian A1/A2 vocabulary (production)
-    ├── words_staging.json      # EN vocab pipeline staging
-    └── words_lt_staging.json   # LT vocab pipeline staging
+    └── vocab_seed.store        # Pre-seeded SwiftData store (all words)
+
+data/                           # Word data (pipeline source of truth)
+├── words_staging.json          # EN vocab (all statuses: stub → published)
+└── words_lt_staging.json       # LT vocab (all statuses: stub → published)
 ```
 
 ## Data Model
@@ -114,12 +115,14 @@ Stores per-session outcomes for both quiz and flashcard study sessions.
 
 ## JSON Schema
 
-### Production files (`words.json`, `words_lt.json`)
+### Word data files (`data/words_staging.json`, `data/words_lt_staging.json`)
 
-Current state: the app loader accepts both legacy flat fields (`definition`, `example`, `tags`, `register`) and `meanings[]` for backward compatibility.
-Target/write state: all new staging and production entries should use `meanings[]` as the canonical schema.
+Each staging file contains ALL words for that language, with a `status` field tracking pipeline progress:
+- `stub` → `enriched` → `relations-added` → `approved` → `published`
 
-Words in production use a `meanings` array to capture multiple senses of a word:
+Only `published` words are included in the seed store.
+
+Words use a `meanings` array to capture multiple senses of a word:
 
 ```json
 [
@@ -263,14 +266,12 @@ LT verbs include `forms` (3rd person present/past) and `governedCase` — the gr
 
 ## Data Loading (planned migration)
 
-**Current flow**: JSON files → parsed on first launch → inserted into SwiftData.
-
-**Planned flow**: JSON files → `build_seed_db.swift` → pre-seeded SwiftData SQLite store → copied on first launch (no parsing needed). The JSON pipeline (Seeder → Enricher → Relations → QA → Publisher) remains unchanged — SQLite is only the app delivery format.
+Staging JSON files → `VocabSeedBuilder` → pre-seeded SwiftData SQLite store (`vocab_seed.store`) → copied to app on first launch. No JSON parsing at runtime. The pipeline (Seeder → Enricher → Relations → QA → Publisher) works with staging JSONs; the Publisher rebuilds the seed store after marking words as published.
 
 
 ## What NOT to Change
 
 - `VocabApp.swift` ModelContainer configuration — only touch if adding a new `@Model` type.
-- `words.json` — owned by EN word extension agent.
-- `words_lt.json` — owned by LT vocabulary agent.
+- `data/words_staging.json` — single source of truth for EN words (all statuses).
+- `data/words_lt_staging.json` — single source of truth for LT words (all statuses).
 - `DECISIONS.md` — append only, never rewrite existing entries.

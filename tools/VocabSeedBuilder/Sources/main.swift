@@ -41,7 +41,10 @@ func run() throws {
         let data = try Data(contentsOf: URL(fileURLWithPath: path))
         let wordDataList = try JSONDecoder().decode([WordData].self, from: data)
 
-        for wd in wordDataList {
+        // Only include published words in the seed store
+        let publishedWords = wordDataList.filter { $0.status == "published" || $0.status == nil }
+
+        for wd in publishedWords {
             let meanings: [WordMeaning]
             if let decodedMeanings = wd.meanings, !decodedMeanings.isEmpty {
                 meanings = decodedMeanings.map {
@@ -84,7 +87,7 @@ func run() throws {
             if wd.cases != nil { wordsWithCases += 1 }
         }
 
-        return wordDataList.count
+        return publishedWords.count
     }
 
     print("Loading EN words from \(enPath)...")

@@ -79,8 +79,8 @@ For task-driven work (claimed from `TASKS.md`):
 
 ## Hard Rules
 
-- Do NOT edit `words.json` directly — it is managed by the **EN word extension agent** only.
-- Do NOT edit `words_lt.json` directly — managed by the **LT vocabulary agent** only.
+- Do NOT edit `words_staging.json` directly — it is managed by the vocab pipeline agents only.
+- Do NOT edit `words_lt_staging.json` directly — managed by the vocab pipeline agents only.
 - Do NOT rename or move existing model files without updating all references.
 - Do NOT add external dependencies (no SPM packages) without a decision recorded in `DECISIONS.md`.
 - For tasks with explicit numeric targets (e.g., "add 100 words", "create 200 entries"), verify the final count before commit.
@@ -126,10 +126,8 @@ Verify your scope before modifying any file.
 | `docs/audit-log.md` | **All agents** (append-only) | Append only |
 | `docs/decisions-pending.md` | **All agents** (append) | Human resolves |
 | `docs/decisions-log.md` | All agents (move resolved entries) | — |
-| `data/words_staging.json` | EN vocab agents only | — |
-| `data/words_lt_staging.json` | LT vocab agents only | — |
-| `data/words.json` | Publisher agent only | Read-only |
-| `data/words_lt.json` | Publisher agent only | Read-only |
+| `data/words_staging.json` | EN vocab agents + Publisher | — |
+| `data/words_lt_staging.json` | LT vocab agents + Publisher | — |
 | `Vocab/Vocab/Models/Word.swift` | Feature agents (per task) | Must not edit unless task claims it |
 | `Vocab/Vocab/Services/WordService.swift` | Feature agents (per task) | Must not edit unless task claims it |
 | All other Swift source files | Feature agents (per claimed task) | Must not edit outside claimed task |
