@@ -4451,7 +4451,7 @@
     "term": "perilous",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Full of danger or risk; fraught with serious hazard.",
@@ -4464,16 +4464,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "hazardous",
+      "dangerous",
+      "treacherous",
+      "precarious"
+    ],
+    "antonymTerms": [
+      "safe",
+      "secure"
+    ],
+    "relatedTerms": [
+      "risk",
+      "jeopardy",
+      "vulnerability",
+      "threat",
+      "adventure"
+    ],
     "translation": null
   },
   {
     "term": "prohibit",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To formally forbid something by law, rule, or authority; to prevent from happening.",
@@ -4496,16 +4510,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "forbid",
+      "ban",
+      "proscribe",
+      "bar"
+    ],
+    "antonymTerms": [
+      "permit",
+      "authorise"
+    ],
+    "relatedTerms": [
+      "restriction",
+      "regulation",
+      "law",
+      "injunction",
+      "sanction"
+    ],
     "translation": null
   },
   {
     "term": "propel",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To drive or push forward with force; to cause something to move in a particular direction.",
@@ -4528,16 +4556,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "drive",
+      "thrust",
+      "impel",
+      "catapult"
+    ],
+    "antonymTerms": [
+      "restrain",
+      "impede"
+    ],
+    "relatedTerms": [
+      "momentum",
+      "force",
+      "acceleration",
+      "launch",
+      "motivation"
+    ],
     "translation": null
   },
   {
     "term": "recapitulate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To summarise and restate the main points of something that has been said or written.",
@@ -4550,16 +4592,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "summarise",
+      "recap",
+      "restate",
+      "review"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "summary",
+      "conclusion",
+      "overview",
+      "reiterate",
+      "synopsis"
+    ],
     "translation": null
   },
   {
     "term": "supersede",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To take the place of a person, thing, or system that is no longer in use or no longer as effective; to replace.",
@@ -4582,9 +4635,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "replace",
+      "displace",
+      "supplant",
+      "succeed"
+    ],
+    "antonymTerms": [
+      "precede",
+      "anticipate"
+    ],
+    "relatedTerms": [
+      "obsolescence",
+      "succession",
+      "replacement",
+      "override",
+      "precedent"
+    ],
     "translation": null
   }
 ]
