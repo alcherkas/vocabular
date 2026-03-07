@@ -273,7 +273,7 @@
     "term": "rinkodaros strategija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A plan of action designed to promote and sell products or services to a target market.",
@@ -299,7 +299,7 @@
     "term": "prekės ženklo kūrimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The process of creating and strengthening a recognizable brand identity for a company or product.",
@@ -325,7 +325,7 @@
     "term": "socialinė rinkodara",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "Marketing that uses social media platforms or aims at influencing behaviour for social good.",
@@ -351,7 +351,7 @@
     "term": "pardavimų analizė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The examination of sales data to evaluate performance, identify trends, and support business decisions.",
@@ -377,7 +377,7 @@
     "term": "pelno marža",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The percentage of revenue that remains as profit after all costs have been deducted.",
@@ -405,7 +405,7 @@
     "term": "baudžiamasis procesas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The formal legal process by which criminal charges are brought and resolved in court.",
@@ -431,7 +431,7 @@
     "term": "gynybos advokatas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A lawyer who represents the accused party in criminal or civil legal proceedings.",
@@ -459,7 +459,7 @@
     "term": "teisės pažeidimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "enriched",
     "meanings": [
       {
         "definition": "An act that contravenes a law, regulation, or legal norm.",
@@ -483,13 +483,14 @@
       "teisė"
     ],
     "translation": "legal violation; infringement of the law",
-    "forms": null
+    "forms": null,
+    "qa_notes": "Synonym 'nusikaltimas' is a hyponym, not a co-extensive synonym: not all legal violations are crimes. Remove or replace with a more accurate synonym."
   },
   {
     "term": "administracinė bauda",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "A financial penalty imposed by a government authority for a violation of regulations or administrative rules.",
@@ -515,7 +516,7 @@
     "term": "sulaikymas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "relations-added",
+    "status": "approved",
     "meanings": [
       {
         "definition": "The temporary holding of a person by law enforcement pending investigation or charges.",
