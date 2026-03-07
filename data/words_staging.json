@@ -20156,12 +20156,13 @@
     "tags": [],
     "meanings": [
       {
-        "definition": "The most natural and comfortable range of a voice or instrument, where the majority of a vocal or melodic line sits.",
-        "example": "The soprano struggled with the role because the tessitura lay uncomfortably high for most of the first act.",
+        "definition": "The range within which most notes of a vocal part fall; the most natural and comfortable range for a particular voice.",
+        "example": "The role of Violetta demands an extraordinarily wide tessitura, from deep chest notes to delicate top Cs.",
         "register": "technical",
         "tags": [
           "music",
-          "vocal"
+          "voice",
+          "opera"
         ]
       }
     ],
@@ -20191,13 +20192,23 @@
     "tags": [],
     "meanings": [
       {
-        "definition": "A recurring musical theme associated with a particular person, place, idea, or dramatic situation in an opera or film score.",
-        "example": "Wagner used a distinctive leitmotif for each character, allowing the orchestra to comment on the drama independently of the singers.",
+        "definition": "A recurrent theme in a musical composition, associated with a particular person, idea, or situation.",
+        "example": "Wagner's use of leitmotifs allowed him to underscore the dramatic meaning of each character's appearance on stage.",
         "register": "technical",
         "tags": [
           "music",
           "opera",
-          "composition"
+          "theory"
+        ]
+      },
+      {
+        "definition": "A dominant recurring theme in a literary, artistic, or political work.",
+        "example": "Betrayal is the leitmotif running through the entire novel.",
+        "register": "formal",
+        "tags": [
+          "literature",
+          "theme",
+          "art"
         ]
       }
     ],
@@ -23221,13 +23232,13 @@
     "partOfSpeech": "noun",
     "meanings": [
       {
-        "definition": "The point in the orbit of a planet, comet, or other solar-system body at which it is closest to the Sun, contrasted with aphelion at the farthest point.",
-        "example": "Earth reaches its perihelion in early January each year at approximately 147 million kilometres from the Sun — illustrating that axial tilt, not orbital distance, governs terrestrial seasons.",
+        "definition": "The point in the orbit of a planet, comet, or other body at which it is closest to the sun.",
+        "example": "When a comet reaches perihelion, the solar heat causes ice to sublimate, forming the distinctive tail.",
         "register": "technical",
         "tags": [
           "astronomy",
-          "orbital mechanics",
-          "solar system"
+          "orbit",
+          "comets"
         ]
       }
     ],
@@ -32130,25 +32141,23 @@
     "register": "technical",
     "meanings": [
       {
-        "definition": "In music, the harmonic process of moving from one key to another within a composition, achieved through pivot chords, chromatic voice-leading, or direct juxtaposition.",
-        "example": "The sonata's abrupt modulation from C major to E-flat major at the start of the development creates a sudden sense of harmonic dislocation that energises the central section.",
+        "definition": "The exertion of a modifying or controlling influence on something; in music, a change from one key to another.",
+        "example": "The modulation to a minor key in the development section created an atmosphere of quiet menace.",
         "register": "technical",
         "tags": [
           "music",
-          "harmony",
-          "composition",
-          "tonality"
+          "key",
+          "harmony"
         ]
       },
       {
-        "definition": "In acoustics and electronics, the systematic variation of a carrier signal's amplitude, frequency, or phase in order to encode an information-bearing signal.",
-        "example": "AM radio uses amplitude modulation to superimpose audio information onto a high-frequency carrier wave, allowing multiple stations to broadcast simultaneously on separate frequencies.",
+        "definition": "The process of varying a carrier signal to transmit information.",
+        "example": "FM radio uses frequency modulation to achieve higher fidelity than AM broadcasting.",
         "register": "technical",
         "tags": [
-          "acoustics",
           "electronics",
-          "physics",
-          "telecommunications"
+          "broadcasting",
+          "signal"
         ]
       }
     ],
@@ -32248,25 +32257,13 @@
     "register": "technical",
     "meanings": [
       {
-        "definition": "A rhythmic technique in which accents are displaced from the normally strong beats to weak beats or the spaces between beats, generating off-beat emphasis that creates rhythmic tension and forward momentum.",
-        "example": "The syncopation in jazz drumming, where accents fall between the main beats rather than on them, is fundamental to the swing feel that propels the ensemble forward.",
+        "definition": "A musical technique of placing emphasis on a normally weak beat, creating a sense of rhythmic displacement or surprise.",
+        "example": "The syncopation of early jazz gave it a restless energy that distinguished it sharply from the march music of the era.",
         "register": "technical",
         "tags": [
           "music",
           "rhythm",
-          "jazz",
-          "composition"
-        ]
-      },
-      {
-        "definition": "By analogy, any displacement of expected emphasis or regularity in a structured sequence—in poetry, prose, or visual rhythm—that produces surprise or energy.",
-        "example": "The poem's syncopation of expected iambic stress gives the lines a nervous, urgent quality at odds with their melancholy subject matter.",
-        "register": "technical",
-        "tags": [
-          "prosody",
-          "poetry",
-          "style",
-          "linguistics"
+          "jazz"
         ]
       }
     ],
@@ -150732,6 +150729,1800 @@
       "psychology",
       "family",
       "government"
+    ],
+    "translation": null
+  },
+  {
+    "term": "blasé",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Unimpressed or indifferent to something because one has experienced or seen it so often; jaded.",
+        "example": "Long-haul flight attendants can sometimes appear blasé about safety demonstrations that passengers treat as new information.",
+        "register": "neutral",
+        "tags": [
+          "attitude",
+          "experience",
+          "indifference"
+        ]
+      }
+    ],
+    "synonyms": [
+      "jaded",
+      "world-weary",
+      "unimpressed",
+      "nonchalant"
+    ],
+    "antonymTerms": [
+      "enthusiastic",
+      "impressed"
+    ],
+    "relatedTerms": [
+      "attitude",
+      "experience",
+      "sophistication",
+      "boredom"
+    ],
+    "translation": null
+  },
+  {
+    "term": "cacophonous",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Involving or producing harsh, jarring, or discordant sounds.",
+        "example": "The cacophonous sound of the construction site made concentration impossible in the adjacent office.",
+        "register": "formal",
+        "tags": [
+          "sound",
+          "noise",
+          "dissonance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "discordant",
+      "harsh",
+      "jarring",
+      "strident"
+    ],
+    "antonymTerms": [
+      "harmonious",
+      "melodious"
+    ],
+    "relatedTerms": [
+      "sound",
+      "music",
+      "noise",
+      "dissonance"
+    ],
+    "translation": null
+  },
+  {
+    "term": "commendable",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Deserving praise; worthy of commendation.",
+        "example": "The volunteer's commendable dedication during the crisis earned the admiration of the whole community.",
+        "register": "formal",
+        "tags": [
+          "praise",
+          "virtue",
+          "achievement"
+        ]
+      }
+    ],
+    "synonyms": [
+      "praiseworthy",
+      "admirable",
+      "laudable",
+      "meritorious"
+    ],
+    "antonymTerms": [
+      "deplorable",
+      "discreditable"
+    ],
+    "relatedTerms": [
+      "praise",
+      "achievement",
+      "virtue",
+      "work"
+    ],
+    "translation": null
+  },
+  {
+    "term": "commodious",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Roomy and comfortable; providing generous accommodation.",
+        "example": "The commodious dining room easily seated thirty guests without any sense of crowding.",
+        "register": "formal",
+        "tags": [
+          "space",
+          "comfort",
+          "architecture"
+        ]
+      }
+    ],
+    "synonyms": [
+      "spacious",
+      "roomy",
+      "capacious",
+      "ample"
+    ],
+    "antonymTerms": [
+      "cramped",
+      "confined"
+    ],
+    "relatedTerms": [
+      "space",
+      "architecture",
+      "comfort",
+      "dwelling"
+    ],
+    "translation": null
+  },
+  {
+    "term": "decrepit",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Worn out or ruined because of age or neglect; (of a person) elderly and infirm.",
+        "example": "The decrepit building had been awaiting demolition for fifteen years, its windows broken and facade crumbling.",
+        "register": "neutral",
+        "tags": [
+          "decay",
+          "age",
+          "buildings"
+        ]
+      }
+    ],
+    "synonyms": [
+      "dilapidated",
+      "run-down",
+      "crumbling",
+      "decaying"
+    ],
+    "antonymTerms": [
+      "pristine",
+      "sound"
+    ],
+    "relatedTerms": [
+      "decay",
+      "age",
+      "buildings",
+      "neglect"
+    ],
+    "translation": null
+  },
+  {
+    "term": "derelict",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "In a very poor condition as a result of disuse and neglect; abandoned.",
+        "example": "The derelict factory at the edge of town became a site for urban explorers.",
+        "register": "neutral",
+        "tags": [
+          "decay",
+          "neglect",
+          "buildings"
+        ]
+      },
+      {
+        "definition": "Failing in one's duty; negligent.",
+        "example": "The inspector was found derelict in his duty, having failed to report the safety violations he had observed.",
+        "register": "formal",
+        "tags": [
+          "negligence",
+          "duty",
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [
+      "abandoned",
+      "dilapidated",
+      "neglected",
+      "disused"
+    ],
+    "antonymTerms": [
+      "maintained",
+      "occupied"
+    ],
+    "relatedTerms": [
+      "buildings",
+      "neglect",
+      "duty",
+      "law"
+    ],
+    "translation": null
+  },
+  {
+    "term": "exalted",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "At a high or powerful level; of high rank or status.",
+        "example": "From such an exalted position, the minister had the power to transform national policy.",
+        "register": "formal",
+        "tags": [
+          "status",
+          "rank",
+          "power"
+        ]
+      },
+      {
+        "definition": "In a state of elevated happiness or excitement.",
+        "example": "Her exalted mood after the news was visible to everyone in the room.",
+        "register": "neutral",
+        "tags": [
+          "emotion",
+          "happiness",
+          "excitement"
+        ]
+      }
+    ],
+    "synonyms": [
+      "elevated",
+      "lofty",
+      "eminent",
+      "sublime"
+    ],
+    "antonymTerms": [
+      "lowly",
+      "humbled"
+    ],
+    "relatedTerms": [
+      "status",
+      "rank",
+      "emotion",
+      "achievement"
+    ],
+    "translation": null
+  },
+  {
+    "term": "fickle",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Changing frequently, especially as regards one's loyalties or affections; capricious.",
+        "example": "Fame is a fickle mistress; the same public that celebrates you today can abandon you tomorrow.",
+        "register": "neutral",
+        "tags": [
+          "character",
+          "loyalty",
+          "change"
+        ]
+      }
+    ],
+    "synonyms": [
+      "capricious",
+      "inconstant",
+      "changeable",
+      "mercurial"
+    ],
+    "antonymTerms": [
+      "steadfast",
+      "loyal"
+    ],
+    "relatedTerms": [
+      "loyalty",
+      "fame",
+      "character",
+      "relationships"
+    ],
+    "translation": null
+  },
+  {
+    "term": "alluvial",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Relating to alluvium; deposited by flowing water.",
+        "example": "The alluvial plain created by centuries of river flooding proved extraordinarily fertile.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "rivers",
+          "soil"
+        ]
+      }
+    ],
+    "synonyms": [
+      "depositional",
+      "flood-deposited",
+      "sedimentary",
+      "fluvial"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "geology",
+      "soil",
+      "rivers",
+      "agriculture"
+    ],
+    "translation": null
+  },
+  {
+    "term": "basalt",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A dark, fine-grained volcanic rock that sometimes displays a columnar structure, typically formed from rapidly cooling lava.",
+        "example": "The columnar basalt formations at the Giant's Causeway are among the most striking geological features in the British Isles.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "volcanic",
+          "rock"
+        ]
+      }
+    ],
+    "synonyms": [
+      "volcanic rock",
+      "igneous rock",
+      "mafic rock",
+      "lava rock"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "geology",
+      "volcanoes",
+      "rock types",
+      "columnar"
+    ],
+    "translation": null
+  },
+  {
+    "term": "fluvial",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Of or found in a river or stream; produced by the action of a river or stream.",
+        "example": "The fluvial geomorphology of the valley showed clear evidence of repeated flooding cycles.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "geography",
+          "rivers"
+        ]
+      }
+    ],
+    "synonyms": [
+      "riverine",
+      "riparian",
+      "stream-related",
+      "watercourse-related"
+    ],
+    "antonymTerms": [
+      "aeolian",
+      "lacustrine"
+    ],
+    "relatedTerms": [
+      "geology",
+      "rivers",
+      "geography",
+      "erosion"
+    ],
+    "translation": null
+  },
+  {
+    "term": "glaciation",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The process by which glaciers form, expand, and cover a region; a period in which glaciers were prevalent.",
+        "example": "The last glaciation shaped much of the Northern European landscape into the form we recognise today.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "climate",
+          "ice age"
+        ]
+      }
+    ],
+    "synonyms": [
+      "glacial period",
+      "ice age",
+      "glacial event",
+      "glacial coverage"
+    ],
+    "antonymTerms": [
+      "deglaciation",
+      "interglacial"
+    ],
+    "relatedTerms": [
+      "geology",
+      "climate",
+      "ice",
+      "landscape"
+    ],
+    "translation": null
+  },
+  {
+    "term": "lacustrine",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Relating to or associated with lakes; living or situated in or beside a lake.",
+        "example": "The lacustrine sediments preserved an extraordinary record of climate change over the past ten thousand years.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "lakes",
+          "ecology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "lake-related",
+      "lacustral",
+      "limnological",
+      "lake-shore"
+    ],
+    "antonymTerms": [
+      "marine",
+      "terrestrial"
+    ],
+    "relatedTerms": [
+      "geology",
+      "lakes",
+      "ecology",
+      "sediment"
+    ],
+    "translation": null
+  },
+  {
+    "term": "lithosphere",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The rigid outer part of the Earth, consisting of the crust and upper mantle; the tectonic plates.",
+        "example": "The collision of tectonic plates within the lithosphere is responsible for mountain building and volcanic activity.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "earth science",
+          "plates"
+        ]
+      }
+    ],
+    "synonyms": [
+      "Earth's crust",
+      "tectonic plates",
+      "outer Earth",
+      "rigid shell"
+    ],
+    "antonymTerms": [
+      "asthenosphere",
+      "mantle"
+    ],
+    "relatedTerms": [
+      "geology",
+      "tectonics",
+      "crust",
+      "plates"
+    ],
+    "translation": null
+  },
+  {
+    "term": "loess",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A fine-grained, fertile sediment deposited by the wind, typically pale yellow or buff.",
+        "example": "The loess deposits of the Loess Plateau in China reach depths of over 300 metres in places.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "sediment",
+          "wind"
+        ]
+      }
+    ],
+    "synonyms": [
+      "wind-blown sediment",
+      "aeolian deposit",
+      "fine silt",
+      "glacial flour"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "geology",
+      "China",
+      "soil",
+      "agriculture"
+    ],
+    "translation": null
+  },
+  {
+    "term": "subduction",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The process by which one tectonic plate slides beneath another and sinks into the mantle.",
+        "example": "Subduction of the Pacific Plate beneath the North American Plate generates the earthquakes that periodically devastate the Pacific coast.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "tectonics",
+          "earthquakes"
+        ]
+      }
+    ],
+    "synonyms": [
+      "plate convergence",
+      "tectonic underthrusting",
+      "crustal sinking",
+      "plate sinking"
+    ],
+    "antonymTerms": [
+      "obduction",
+      "plate divergence"
+    ],
+    "relatedTerms": [
+      "geology",
+      "earthquakes",
+      "volcanoes",
+      "plate tectonics"
+    ],
+    "translation": null
+  },
+  {
+    "term": "tectonic",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Relating to the structure of the earth's crust and the large-scale processes which take place within it.",
+        "example": "Tectonic forces created the Alps over millions of years as the African and Eurasian plates collided.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "plates",
+          "earth science"
+        ]
+      },
+      {
+        "definition": "Relating to building or construction; (figurative) having a significant and far-reaching impact.",
+        "example": "The digital revolution represented a tectonic shift in how humans communicate.",
+        "register": "formal",
+        "tags": [
+          "change",
+          "impact",
+          "metaphor"
+        ]
+      }
+    ],
+    "synonyms": [
+      "geological",
+      "crustal",
+      "structural",
+      "plate-related"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "geology",
+      "plates",
+      "change",
+      "earth science"
+    ],
+    "translation": null
+  },
+  {
+    "term": "unconformity",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A surface separating two masses of rock of different ages, marking a gap in the geological record.",
+        "example": "Hutton's observation of unconformity at Siccar Point led to his insight that geological time was immensely deep.",
+        "register": "technical",
+        "tags": [
+          "geology",
+          "stratigraphy",
+          "time"
+        ]
+      }
+    ],
+    "synonyms": [
+      "geological gap",
+      "stratigraphic break",
+      "erosional surface",
+      "time gap"
+    ],
+    "antonymTerms": [
+      "conformity",
+      "continuous sequence"
+    ],
+    "relatedTerms": [
+      "geology",
+      "stratigraphy",
+      "deep time",
+      "Hutton"
+    ],
+    "translation": null
+  },
+  {
+    "term": "aphelion",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The point in the orbit of a planet or other body at which it is furthest from the sun.",
+        "example": "At aphelion, Earth is about 152 million kilometres from the Sun, slightly further than its average distance.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "orbit",
+          "distance"
+        ]
+      }
+    ],
+    "synonyms": [
+      "farthest point from sun",
+      "solar distance maximum",
+      "orbital far point",
+      "greatest solar distance"
+    ],
+    "antonymTerms": [
+      "perihelion"
+    ],
+    "relatedTerms": [
+      "astronomy",
+      "orbit",
+      "Earth",
+      "distance"
+    ],
+    "translation": null
+  },
+  {
+    "term": "chromosphere",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A reddish gaseous layer immediately above the photosphere of the sun or other star.",
+        "example": "During a total solar eclipse, the pink chromosphere becomes briefly visible to the naked eye.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "sun",
+          "layers"
+        ]
+      }
+    ],
+    "synonyms": [
+      "solar layer",
+      "stellar atmosphere",
+      "red solar layer",
+      "upper photosphere"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "astronomy",
+      "sun",
+      "eclipse",
+      "plasma"
+    ],
+    "translation": null
+  },
+  {
+    "term": "eclipse",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "An event in which one celestial body moves into the shadow of another.",
+        "example": "The solar eclipse drew tens of thousands of people to the path of totality.",
+        "register": "neutral",
+        "tags": [
+          "astronomy",
+          "sun",
+          "moon"
+        ]
+      },
+      {
+        "definition": "A loss of significance or power in relation to another person or thing.",
+        "example": "The younger sister's rapid success threatened to eclipse the elder's carefully built reputation.",
+        "register": "neutral",
+        "tags": [
+          "competition",
+          "decline",
+          "metaphor"
+        ]
+      }
+    ],
+    "synonyms": [
+      "occultation",
+      "transit",
+      "overshadowing",
+      "obscuration"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "astronomy",
+      "moon",
+      "shadow",
+      "metaphor"
+    ],
+    "translation": null
+  },
+  {
+    "term": "ephemeris",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A table or data file giving the calculated positions of a celestial object at regular intervals throughout a period.",
+        "example": "The astronomer consulted the ephemeris to calculate when Jupiter would be at its highest point in the sky.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "navigation",
+          "calculation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "planetary table",
+      "celestial almanac",
+      "astronomical schedule",
+      "positional data file"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "astronomy",
+      "navigation",
+      "calculation",
+      "position"
+    ],
+    "translation": null
+  },
+  {
+    "term": "heliosphere",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The region of space surrounding the sun, within which the solar wind exerts influence, extending far beyond the orbit of Pluto.",
+        "example": "The Voyager probes crossed the boundary of the heliosphere in the early twenty-first century.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "sun",
+          "space"
+        ]
+      }
+    ],
+    "synonyms": [
+      "solar wind zone",
+      "solar influence region",
+      "solar bubble",
+      "interplanetary medium"
+    ],
+    "antonymTerms": [
+      "interstellar space"
+    ],
+    "relatedTerms": [
+      "astronomy",
+      "sun",
+      "solar wind",
+      "Voyager"
+    ],
+    "translation": null
+  },
+  {
+    "term": "magnetosphere",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The region surrounding a planet in which the planet's magnetic field is the dominant force, protecting the planet from solar wind.",
+        "example": "Earth's magnetosphere deflects harmful solar radiation, making the planet habitable.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "physics",
+          "Earth"
+        ]
+      }
+    ],
+    "synonyms": [
+      "magnetic field region",
+      "planetary shield",
+      "charged particle zone",
+      "magnetic envelope"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "astronomy",
+      "Earth",
+      "aurora",
+      "physics"
+    ],
+    "translation": null
+  },
+  {
+    "term": "occultation",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The blocking of light from one celestial body by another; the passage of one body behind another.",
+        "example": "The occultation of a distant star by an asteroid allowed scientists to determine the asteroid's exact dimensions.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "observation",
+          "measurement"
+        ]
+      }
+    ],
+    "synonyms": [
+      "celestial blocking",
+      "stellar hiding",
+      "sky transit",
+      "shadowing event"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "astronomy",
+      "stars",
+      "measurement",
+      "observation"
+    ],
+    "translation": null
+  },
+  {
+    "term": "photosphere",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The luminous outer surface of a star, from which its light and heat are emitted.",
+        "example": "Sunspots are darker regions of the photosphere where the magnetic field is particularly intense.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "sun",
+          "light"
+        ]
+      }
+    ],
+    "synonyms": [
+      "solar surface",
+      "stellar surface",
+      "visible sun layer",
+      "light-emitting surface"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "astronomy",
+      "sun",
+      "sunspots",
+      "light"
+    ],
+    "translation": null
+  },
+  {
+    "term": "solstice",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Either of the two times in the year when the sun reaches its highest or lowest point in the sky, giving the longest and shortest days.",
+        "example": "The winter solstice was marked by ancient peoples as a significant moment of celestial drama.",
+        "register": "neutral",
+        "tags": [
+          "astronomy",
+          "seasons",
+          "calendar"
+        ]
+      }
+    ],
+    "synonyms": [
+      "sun standstill",
+      "equinoctial reversal",
+      "longest day",
+      "shortest day"
+    ],
+    "antonymTerms": [
+      "equinox"
+    ],
+    "relatedTerms": [
+      "astronomy",
+      "seasons",
+      "calendar",
+      "ritual"
+    ],
+    "translation": null
+  },
+  {
+    "term": "zenith",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The point in the sky directly above an observer; the highest point in the sky.",
+        "example": "At the zenith of summer, the sun reaches its highest arc in the sky.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "sky",
+          "navigation"
+        ]
+      },
+      {
+        "definition": "The highest point in the development or achievement of something; the pinnacle.",
+        "example": "The 1920s represented the zenith of jazz as a popular mass art form.",
+        "register": "formal",
+        "tags": [
+          "peak",
+          "achievement",
+          "metaphor"
+        ]
+      }
+    ],
+    "synonyms": [
+      "overhead point",
+      "apex",
+      "highest point",
+      "pinnacle"
+    ],
+    "antonymTerms": [
+      "nadir"
+    ],
+    "relatedTerms": [
+      "astronomy",
+      "achievement",
+      "sky",
+      "navigation"
+    ],
+    "translation": null
+  },
+  {
+    "term": "zodiac",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A belt of the sky divided into twelve equal sections, each named after a constellation, through which the sun appears to pass over the course of a year.",
+        "example": "The zodiac is the framework for both Western astrology and ancient astronomical cataloguing.",
+        "register": "neutral",
+        "tags": [
+          "astronomy",
+          "astrology",
+          "calendar"
+        ]
+      }
+    ],
+    "synonyms": [
+      "astrological belt",
+      "celestial equator band",
+      "star signs",
+      "ecliptic band"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "astronomy",
+      "astrology",
+      "constellations",
+      "calendar"
+    ],
+    "translation": null
+  },
+  {
+    "term": "arpeggio",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The notes of a chord played in rapid succession, either ascending or descending, rather than simultaneously.",
+        "example": "Harp music relies heavily on arpeggios, which exploit the instrument's resonance and projection.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "harmony",
+          "piano"
+        ]
+      }
+    ],
+    "synonyms": [
+      "broken chord",
+      "spread chord",
+      "rolled chord",
+      "arpeggiation"
+    ],
+    "antonymTerms": [
+      "block chord",
+      "simultaneous chord"
+    ],
+    "relatedTerms": [
+      "music",
+      "piano",
+      "harp",
+      "harmony"
+    ],
+    "translation": null
+  },
+  {
+    "term": "atonal",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Not written in any key or mode; not having a tonal centre.",
+        "example": "Schoenberg's atonal compositions initially shocked audiences accustomed to the harmonic language of the Romantic period.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "modernism",
+          "theory"
+        ]
+      }
+    ],
+    "synonyms": [
+      "non-tonal",
+      "key-less",
+      "twelve-tone",
+      "post-tonal"
+    ],
+    "antonymTerms": [
+      "tonal",
+      "diatonic"
+    ],
+    "relatedTerms": [
+      "music",
+      "Schoenberg",
+      "modernism",
+      "theory"
+    ],
+    "translation": null
+  },
+  {
+    "term": "chromatic",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Relating to or using notes not belonging to the diatonic scale; using all twelve semitones of the octave.",
+        "example": "The chromatic harmonies of late Wagner were a major influence on twentieth-century music.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "harmony",
+          "theory"
+        ]
+      },
+      {
+        "definition": "Relating to colour or colour contrast.",
+        "example": "The lens's chromatic aberrations were visible at the edges of the photograph.",
+        "register": "technical",
+        "tags": [
+          "optics",
+          "colour",
+          "photography"
+        ]
+      }
+    ],
+    "synonyms": [
+      "semi-tonal",
+      "twelve-tone",
+      "colour-related",
+      "non-diatonic"
+    ],
+    "antonymTerms": [
+      "diatonic",
+      "achromatic"
+    ],
+    "relatedTerms": [
+      "music",
+      "optics",
+      "colour",
+      "harmony"
+    ],
+    "translation": null
+  },
+  {
+    "term": "dynamics",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The varying levels of volume in the performance of music.",
+        "example": "The orchestra's mastery of dynamics brought extraordinary range to the symphony.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "performance",
+          "volume"
+        ]
+      },
+      {
+        "definition": "The forces or properties which stimulate growth, development, or change within a system.",
+        "example": "The power dynamics within the organisation shifted significantly after the leadership change.",
+        "register": "neutral",
+        "tags": [
+          "power",
+          "change",
+          "systems"
+        ]
+      }
+    ],
+    "synonyms": [
+      "volume variation",
+      "loudness contrast",
+      "expressive range",
+      "power variation"
+    ],
+    "antonymTerms": [
+      "monotony",
+      "uniformity"
+    ],
+    "relatedTerms": [
+      "music",
+      "power",
+      "performance",
+      "systems"
+    ],
+    "translation": null
+  },
+  {
+    "term": "forte",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A thing at which someone excels; one's strong point.",
+        "example": "The scientist's forte was not communication but the rigour of her experimental design.",
+        "register": "neutral",
+        "tags": [
+          "strength",
+          "skill",
+          "expertise"
+        ]
+      }
+    ],
+    "synonyms": [
+      "strength",
+      "speciality",
+      "strong suit",
+      "talent"
+    ],
+    "antonymTerms": [
+      "weakness",
+      "foible"
+    ],
+    "relatedTerms": [
+      "skill",
+      "music",
+      "expertise",
+      "character"
+    ],
+    "translation": null
+  },
+  {
+    "term": "harmonic",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Relating to harmony in music; concerned with musical intervals and chords.",
+        "example": "The harmonic language of Debussy resisted the traditional resolution patterns of classical tonality.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "theory",
+          "sound"
+        ]
+      }
+    ],
+    "synonyms": [
+      "consonant",
+      "melodic",
+      "tonal",
+      "chord-related"
+    ],
+    "antonymTerms": [
+      "dissonant",
+      "cacophonous"
+    ],
+    "relatedTerms": [
+      "music",
+      "sound",
+      "physics",
+      "theory"
+    ],
+    "translation": null
+  },
+  {
+    "term": "interval",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "In music, the difference in pitch between two sounds.",
+        "example": "The interval of a perfect fifth forms the basis of the natural harmonic series.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "pitch",
+          "theory"
+        ]
+      },
+      {
+        "definition": "A space of time between events; a pause.",
+        "example": "The committee agreed to reconvene after a short interval to allow informal consultation.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "pause",
+          "general"
+        ]
+      }
+    ],
+    "synonyms": [
+      "musical gap",
+      "pitch distance",
+      "interlude",
+      "pause"
+    ],
+    "antonymTerms": [
+      "unison",
+      "continuous performance"
+    ],
+    "relatedTerms": [
+      "music",
+      "time",
+      "pitch",
+      "theory"
+    ],
+    "translation": null
+  },
+  {
+    "term": "libretto",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The text of an opera or other long vocal work, especially in Italian.",
+        "example": "Da Ponte's libretto for Mozart's Don Giovanni is celebrated as much as the music itself.",
+        "register": "technical",
+        "tags": [
+          "opera",
+          "literature",
+          "music"
+        ]
+      }
+    ],
+    "synonyms": [
+      "opera text",
+      "lyric text",
+      "librettic text",
+      "song text"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "opera",
+      "Mozart",
+      "Da Ponte",
+      "literature"
+    ],
+    "translation": null
+  },
+  {
+    "term": "legato",
+    "language": "en",
+    "partOfSpeech": "adverb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "In a smooth, flowing manner, without breaks between notes.",
+        "example": "The cellist played the second theme legato, creating a sense of lyrical continuity that contrasted with the opening staccato passage.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "performance",
+          "technique"
+        ]
+      }
+    ],
+    "synonyms": [
+      "smoothly",
+      "fluidly",
+      "connectedly",
+      "without breaks"
+    ],
+    "antonymTerms": [
+      "staccato",
+      "detached"
+    ],
+    "relatedTerms": [
+      "music",
+      "technique",
+      "phrasing",
+      "bow"
+    ],
+    "translation": null
+  },
+  {
+    "term": "pizzicato",
+    "language": "en",
+    "partOfSpeech": "adverb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Plucking the strings of a violin or other stringed instrument with the finger.",
+        "example": "The pizzicato passage in the fourth movement gave the orchestra an unusually percussive character.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "strings",
+          "technique"
+        ]
+      }
+    ],
+    "synonyms": [
+      "plucked",
+      "string-plucking",
+      "finger-plucked"
+    ],
+    "antonymTerms": [
+      "arco",
+      "bowed"
+    ],
+    "relatedTerms": [
+      "music",
+      "strings",
+      "violin",
+      "technique"
+    ],
+    "translation": null
+  },
+  {
+    "term": "polyphonic",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Producing or involving more than one voice or part performing simultaneously; (of music) having two or more lines of notes that relate independently.",
+        "example": "The polyphonic motets of Josquin des Prez were remarkable for the independence and interweaving of each vocal line.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "voice",
+          "Medieval"
+        ]
+      }
+    ],
+    "synonyms": [
+      "multi-voiced",
+      "contrapuntal",
+      "many-part",
+      "multi-melodic"
+    ],
+    "antonymTerms": [
+      "monophonic",
+      "homophonic"
+    ],
+    "relatedTerms": [
+      "music",
+      "Baroque",
+      "counterpoint",
+      "voice"
+    ],
+    "translation": null
+  },
+  {
+    "term": "recitative",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Musical declamation of the kind usual in the narrative and dialogue parts of opera and oratorio, following the rhythms of speech.",
+        "example": "The bass's recitative before the final aria was unusually compelling, delivered with both dramatic force and perfect diction.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "opera",
+          "voice"
+        ]
+      }
+    ],
+    "synonyms": [
+      "speech-song",
+      "parlando",
+      "musical declamation",
+      "sung dialogue"
+    ],
+    "antonymTerms": [
+      "aria",
+      "ensemble"
+    ],
+    "relatedTerms": [
+      "opera",
+      "voice",
+      "Baroque",
+      "dramatic"
+    ],
+    "translation": null
+  },
+  {
+    "term": "semitone",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The smallest interval commonly used in classical Western music, equal to one twelfth of an octave.",
+        "example": "The flattened third in the blues scale is lowered a semitone to give the characteristic melancholy sound.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "theory",
+          "pitch"
+        ]
+      }
+    ],
+    "synonyms": [
+      "half step",
+      "half tone",
+      "chromatic step",
+      "smallest interval"
+    ],
+    "antonymTerms": [
+      "whole tone",
+      "tone"
+    ],
+    "relatedTerms": [
+      "music",
+      "pitch",
+      "scale",
+      "blues"
+    ],
+    "translation": null
+  },
+  {
+    "term": "staccato",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "With each sound or note sharply detached or separated from the others.",
+        "example": "The staccato strings in the opening theme suggested controlled tension rather than lyrical expression.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "technique",
+          "performance"
+        ]
+      },
+      {
+        "definition": "Consisting of brief, abrupt sounds or words.",
+        "example": "He delivered his instructions in a staccato manner that allowed no time for questions.",
+        "register": "neutral",
+        "tags": [
+          "speech",
+          "style",
+          "brevity"
+        ]
+      }
+    ],
+    "synonyms": [
+      "detached",
+      "clipped",
+      "percussive",
+      "sharply separated"
+    ],
+    "antonymTerms": [
+      "legato",
+      "flowing"
+    ],
+    "relatedTerms": [
+      "music",
+      "technique",
+      "rhythm",
+      "speech"
+    ],
+    "translation": null
+  },
+  {
+    "term": "timbre",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The character or quality of a musical sound or voice, which distinguishes it from others of the same pitch and loudness.",
+        "example": "It is the distinctive timbre of a Stradivarius violin that sets it apart from modern instruments, not simply its age.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "sound",
+          "voice"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tone colour",
+      "tone quality",
+      "sound character",
+      "vocal quality"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "music",
+      "acoustics",
+      "voice",
+      "instrument"
+    ],
+    "translation": null
+  },
+  {
+    "term": "vibrato",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A rapid, slight variation in pitch in singing or playing some musical instruments, producing a stronger or richer tone.",
+        "example": "The soprano's vibrato was warm without being excessive, giving each phrase a natural emotional resonance.",
+        "register": "technical",
+        "tags": [
+          "music",
+          "technique",
+          "voice"
+        ]
+      }
+    ],
+    "synonyms": [
+      "pitch oscillation",
+      "voice vibration",
+      "string oscillation",
+      "tonal wavering"
+    ],
+    "antonymTerms": [
+      "straight tone",
+      "non-vibrato"
+    ],
+    "relatedTerms": [
+      "music",
+      "voice",
+      "strings",
+      "technique"
+    ],
+    "translation": null
+  },
+  {
+    "term": "precession",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The slow movement of the axis of a spinning body around another axis due to a torque; the precession of the equinoxes results in a shift of the celestial equator over time.",
+        "example": "The precession of Earth's axis means that the North Star changes over a cycle of approximately 26,000 years.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "physics",
+          "axis"
+        ]
+      }
+    ],
+    "synonyms": [
+      "axial wobble",
+      "gyroscopic wobble",
+      "orbital shift",
+      "axis rotation"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "astronomy",
+      "physics",
+      "calendar",
+      "equinox"
+    ],
+    "translation": null
+  },
+  {
+    "term": "retrograde",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Directed or moving backwards; reverting to an earlier and worse condition.",
+        "example": "The policy was seen as a retrograde step, reversing twenty years of careful reform.",
+        "register": "formal",
+        "tags": [
+          "change",
+          "decline",
+          "direction"
+        ]
+      },
+      {
+        "definition": "In astronomy, (of a planet) appearing to move in a direction opposite to the normal order of the signs of the zodiac.",
+        "example": "Mars goes retrograde for about two months every two years, causing it to trace a loop in the sky.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "orbit",
+          "movement"
+        ]
+      }
+    ],
+    "synonyms": [
+      "backward-moving",
+      "backward",
+      "regressive",
+      "declining"
+    ],
+    "antonymTerms": [
+      "progressive",
+      "direct"
+    ],
+    "relatedTerms": [
+      "astronomy",
+      "orbit",
+      "change",
+      "regression"
+    ],
+    "translation": null
+  },
+  {
+    "term": "asterism",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A prominent pattern or group of stars, smaller than a constellation.",
+        "example": "The Big Dipper is an asterism within the larger constellation of Ursa Major.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "stars",
+          "sky"
+        ]
+      }
+    ],
+    "synonyms": [
+      "star pattern",
+      "unofficial constellation",
+      "star cluster",
+      "sky figure"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "astronomy",
+      "sky",
+      "constellations",
+      "navigation"
+    ],
+    "translation": null
+  },
+  {
+    "term": "neutrino",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A neutral subatomic particle with very little mass, which rarely interacts with normal matter and travels through ordinary material almost undisturbed.",
+        "example": "Billions of neutrinos pass through every square centimetre of your body every second, yet almost none interact with anything.",
+        "register": "technical",
+        "tags": [
+          "physics",
+          "particle",
+          "cosmology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "particle",
+      "ghost particle",
+      "neutral lepton",
+      "fundamental particle"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "physics",
+      "particle physics",
+      "cosmology",
+      "detector"
+    ],
+    "translation": null
+  },
+  {
+    "term": "bolide",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A very bright meteor, especially one that explodes; a large meteoroid or asteroid that impacts a planetary surface.",
+        "example": "The bolide that struck what is now the Yucatán Peninsula 66 million years ago is widely believed to have ended the age of dinosaurs.",
+        "register": "technical",
+        "tags": [
+          "astronomy",
+          "geology",
+          "extinction"
+        ]
+      }
+    ],
+    "synonyms": [
+      "fireball",
+      "superbolide",
+      "meteorite",
+      "impactor"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "astronomy",
+      "impact",
+      "extinction",
+      "meteor"
     ],
     "translation": null
   }
