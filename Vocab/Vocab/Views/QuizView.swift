@@ -17,7 +17,7 @@ struct QuizView: View {
     @State private var selectedAnswer: String?
     @State private var showResult = false
     @State private var quizCompleted = false
-    @State private var questionsPerQuiz = 10
+    @State private var questionsAnswered = 0
     @State private var sameLanguagePool: [Word] = []
     private let feedbackGenerator = UINotificationFeedbackGenerator()
 
@@ -32,10 +32,6 @@ struct QuizView: View {
         return words.filter { $0.language == sessionLanguage }
     }
 
-    private var totalQuestions: Int {
-        quizWords.isEmpty ? questionsPerQuiz : quizWords.count
-    }
-    
     var body: some View {
         NavigationStack {
             VStack(spacing: 24) {
@@ -49,6 +45,13 @@ struct QuizView: View {
             }
             .padding()
             .navigationTitle("Quiz")
+            .toolbar {
+                if !quizWords.isEmpty && !quizCompleted {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button("Finish") { completeQuiz() }
+                    }
+                }
+            }
         }
     }
     
@@ -66,18 +69,9 @@ struct QuizView: View {
                     .font(.title)
                     .fontWeight(.bold)
                 
-                Text("Choose how many questions")
+                Text("Answer questions until you're ready to stop")
                     .foregroundStyle(.secondary)
             }
-            
-            // Question count picker
-            Picker("Questions", selection: $questionsPerQuiz) {
-                Text("5 Questions").tag(5)
-                Text("10 Questions").tag(10)
-                Text("20 Questions").tag(20)
-            }
-            .pickerStyle(.segmented)
-            .padding(.horizontal)
             
             Spacer()
             
@@ -107,23 +101,18 @@ struct QuizView: View {
         if let currentQuestion {
             let currentWord = quizWords[currentIndex]
             VStack(spacing: 24) {
-            // Progress bar and score
-            VStack(spacing: 8) {
-                HStack {
-                    Text("Question \(currentIndex + 1) of \(totalQuestions)")
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                    Spacer()
-                    HStack(spacing: 4) {
-                        Image(systemName: "star.fill")
-                            .foregroundStyle(.yellow)
-                        Text("\(score)")
-                            .fontWeight(.bold)
-                    }
+            // Score
+            HStack {
+                Text("Question \(questionsAnswered + 1)")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                Spacer()
+                HStack(spacing: 4) {
+                    Image(systemName: "star.fill")
+                        .foregroundStyle(.yellow)
+                    Text("\(score)")
+                        .fontWeight(.bold)
                 }
-                
-                ProgressView(value: Double(currentIndex), total: Double(totalQuestions))
-                    .tint(.accentColor)
             }
             
             Spacer()
@@ -179,7 +168,7 @@ struct QuizView: View {
                 Button {
                     nextQuestion()
                 } label: {
-                    Text(currentIndex < totalQuestions - 1 ? "Next Question" : "See Results")
+                    Text("Next Question")
                         .frame(maxWidth: .infinity)
                 }
                 .buttonStyle(.borderedProminent)
@@ -214,7 +203,7 @@ struct QuizView: View {
                     .font(.title2)
                     .fontWeight(.semibold)
                 
-                Text("\(score)/\(totalQuestions)")
+                Text("\(score)/\(questionsAnswered)")
                     .font(.system(size: 56, weight: .bold, design: .rounded))
                 
                 Text(resultMessage)
@@ -224,11 +213,11 @@ struct QuizView: View {
             
             // Percentage bar
             VStack(spacing: 4) {
-                ProgressView(value: Double(score), total: Double(totalQuestions))
+                ProgressView(value: Double(score), total: Double(questionsAnswered))
                     .tint(resultColor)
                     .scaleEffect(y: 2)
                 
-                Text("\(Int(Double(score) / Double(max(totalQuestions, 1)) * 100))%")
+                Text("\(Int(Double(score) / Double(max(questionsAnswered, 1)) * 100))%")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
@@ -263,7 +252,7 @@ struct QuizView: View {
     
     // MARK: - Helper Properties
     private var resultColor: Color {
-        let percentage = Double(score) / Double(max(totalQuestions, 1))
+        let percentage = Double(score) / Double(max(questionsAnswered, 1))
         switch percentage {
         case 0.8...1.0: return .green
         case 0.6..<0.8: return .blue
@@ -273,7 +262,7 @@ struct QuizView: View {
     }
     
     private var resultIcon: String {
-        let percentage = Double(score) / Double(max(totalQuestions, 1))
+        let percentage = Double(score) / Double(max(questionsAnswered, 1))
         switch percentage {
         case 0.8...1.0: return "star.fill"
         case 0.6..<0.8: return "hand.thumbsup.fill"
@@ -283,7 +272,7 @@ struct QuizView: View {
     }
     
     private var resultMessage: String {
-        let percentage = Double(score) / Double(max(totalQuestions, 1))
+        let percentage = Double(score) / Double(max(questionsAnswered, 1))
         switch percentage {
         case 0.9...1.0: return "Perfect! You're a vocabulary master! 🎉"
         case 0.8..<0.9: return "Excellent work! Almost perfect! 🌟"
@@ -331,13 +320,13 @@ struct QuizView: View {
     // MARK: - Quiz Logic
     private func startQuiz() {
         guard let sessionLanguage = sessionLanguageWords.first?.language else { return }
-        let actualQuestionCount = min(questionsPerQuiz, sessionLanguageWords.count)
-        guard actualQuestionCount >= 4 else { return }
+        guard sessionLanguageWords.count >= 4 else { return }
         sameLanguagePool = sessionLanguageWords
-        quizWords = Array(sessionLanguageWords.shuffled().prefix(actualQuestionCount))
+        quizWords = sessionLanguageWords.shuffled()
         activeMode = resolvedMode(for: sessionLanguage)
         currentIndex = 0
         score = 0
+        questionsAnswered = 0
         quizCompleted = false
         currentQuestion = nil
         generateOptions()
@@ -380,31 +369,33 @@ struct QuizView: View {
         
         let quality = isCorrect ? 4 : 1
         SpacedRepetitionService.nextReview(for: currentWord, quality: quality)
+        questionsAnswered += 1
     }
     
     private func nextQuestion() {
-        if currentIndex < totalQuestions - 1 {
-            currentIndex += 1
-            generateOptions()
-        } else {
-            completeQuiz()
+        currentIndex += 1
+        if currentIndex >= quizWords.count {
+            quizWords = quizWords.shuffled()
+            currentIndex = 0
         }
+        generateOptions()
     }
     
     private func completeQuiz() {
         let lang = quizWords.first?.language ?? "en"
-        let result = QuizResult(score: score, totalQuestions: totalQuestions, language: lang)
+        let result = QuizResult(score: score, totalQuestions: questionsAnswered, language: lang)
         context.insert(result)
         quizCompleted = true
     }
     
     private func resetQuiz() {
         if let onComplete {
-            onComplete(score, totalQuestions)
+            onComplete(score, questionsAnswered)
         } else {
             quizWords = []
             currentQuestion = nil
             quizCompleted = false
+            questionsAnswered = 0
         }
     }
 
