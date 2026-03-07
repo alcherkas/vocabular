@@ -3797,7 +3797,7 @@
     "term": "epitomise",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To be a perfect example of a class or quality; to typify or embody something.",
@@ -3810,16 +3810,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "typify",
+      "embody",
+      "exemplify",
+      "represent"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "quintessence",
+      "archetype",
+      "paragon",
+      "incarnation",
+      "ideal"
+    ],
     "translation": null
   },
   {
     "term": "exert",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To apply or bring to bear (a force, influence, or quality); to put into vigorous action.",
@@ -3842,16 +3853,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "apply",
+      "wield",
+      "exercise",
+      "deploy"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "effort",
+      "pressure",
+      "influence",
+      "strain",
+      "leverage"
+    ],
     "translation": null
   },
   {
     "term": "extant",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Still in existence; surviving, especially of old documents or biological species.",
@@ -3864,16 +3886,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "surviving",
+      "existing",
+      "remaining",
+      "current"
+    ],
+    "antonymTerms": [
+      "extinct",
+      "lost"
+    ],
+    "relatedTerms": [
+      "preservation",
+      "archive",
+      "heritage",
+      "legacy",
+      "persisting"
+    ],
     "translation": null
   },
   {
     "term": "fatalistic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Characteristic of the belief that all events are predetermined and inevitable; accepting that nothing can change what will happen.",
@@ -3896,16 +3932,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "resigned",
+      "deterministic",
+      "pessimistic",
+      "submissive"
+    ],
+    "antonymTerms": [
+      "optimistic",
+      "proactive"
+    ],
+    "relatedTerms": [
+      "fatalism",
+      "determinism",
+      "inevitability",
+      "despair",
+      "acceptance"
+    ],
     "translation": null
   },
   {
     "term": "forfeit",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To lose or be deprived of (a right, privilege, or possession) as a penalty for doing or failing to do something.",
@@ -3928,9 +3978,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "relinquish",
+      "surrender",
+      "sacrifice",
+      "waive"
+    ],
+    "antonymTerms": [
+      "retain",
+      "reclaim"
+    ],
+    "relatedTerms": [
+      "penalty",
+      "sanction",
+      "loss",
+      "default",
+      "disqualification"
+    ],
     "translation": null
   },
   {
