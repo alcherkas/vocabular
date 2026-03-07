@@ -2696,7 +2696,7 @@
     "term": "bureaucracy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A system of government or administration in which most decisions are made by appointed officials following rigid procedures rather than by elected representatives.",
@@ -2719,16 +2719,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "administration",
+      "officialdom",
+      "red tape",
+      "apparatus"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "civil service",
+      "hierarchy",
+      "procedure",
+      "bureaucrat",
+      "inefficiency"
+    ],
     "translation": null
   },
   {
     "term": "capitulation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The action of surrendering or ceasing to resist an opponent or unwelcome demand; the act of giving in.",
@@ -2751,16 +2762,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "surrender",
+      "yielding",
+      "submission",
+      "acquiescence"
+    ],
+    "antonymTerms": [
+      "resistance",
+      "defiance"
+    ],
+    "relatedTerms": [
+      "concession",
+      "defeat",
+      "armistice",
+      "negotiation",
+      "terms"
+    ],
     "translation": null
   },
   {
     "term": "cede",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To formally give up, surrender, or transfer (territory, rights, or power) to another party.",
@@ -2783,16 +2808,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "surrender",
+      "relinquish",
+      "concede",
+      "yield"
+    ],
+    "antonymTerms": [
+      "retain",
+      "claim"
+    ],
+    "relatedTerms": [
+      "territory",
+      "treaty",
+      "sovereignty",
+      "renounce",
+      "transfer"
+    ],
     "translation": null
   },
   {
     "term": "codify",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To arrange (laws, rules, or principles) systematically into a code or unified body.",
@@ -2815,16 +2854,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "systematise",
+      "formalise",
+      "organise",
+      "standardise"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "legislation",
+      "statute",
+      "regulation",
+      "protocol",
+      "canon"
+    ],
     "translation": null
   },
   {
     "term": "colloquial",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Used in ordinary or familiar conversation; not formal or literary in style.",
@@ -2847,9 +2897,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "informal",
+      "conversational",
+      "vernacular",
+      "idiomatic"
+    ],
+    "antonymTerms": [
+      "formal",
+      "literary"
+    ],
+    "relatedTerms": [
+      "dialect",
+      "slang",
+      "register",
+      "everyday speech",
+      "usage"
+    ],
     "translation": null
   },
   {
