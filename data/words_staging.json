@@ -126740,7 +126740,7 @@
     "term": "affront",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An action or remark that causes outrage or offence; a deliberate insult.",
@@ -126761,16 +126761,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "insult",
+      "slight",
+      "indignity",
+      "offence"
+    ],
+    "antonymTerms": [
+      "compliment",
+      "honour"
+    ],
+    "relatedTerms": [
+      "humiliation",
+      "provocation",
+      "slight",
+      "disrespect"
+    ],
     "translation": null
   },
   {
     "term": "agnostic",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A person who believes that the existence of God or ultimate reality is unknown or unknowable.",
@@ -126791,16 +126804,28 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sceptic",
+      "doubter",
+      "non-believer"
+    ],
+    "antonymTerms": [
+      "theist",
+      "believer"
+    ],
+    "relatedTerms": [
+      "atheism",
+      "scepticism",
+      "deism",
+      "epistemology"
+    ],
     "translation": null
   },
   {
     "term": "alliteration",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "The occurrence of the same initial consonant sound in closely connected words, used as a literary or rhetorical device.",
@@ -126813,16 +126838,25 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "consonance",
+      "initial rhyme"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "assonance",
+      "rhetoric",
+      "phonetics",
+      "prosody",
+      "literary device"
+    ],
     "translation": null
   },
   {
     "term": "annex",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To take possession of territory or another country, typically by force and without legal authority.",
@@ -126844,16 +126878,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "seize",
+      "appropriate",
+      "incorporate",
+      "usurp"
+    ],
+    "antonymTerms": [
+      "relinquish",
+      "cede"
+    ],
+    "relatedTerms": [
+      "occupation",
+      "sovereignty",
+      "annexation",
+      "territory"
+    ],
     "translation": null
   },
   {
     "term": "annihilate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To destroy utterly; to obliterate something so that nothing remains.",
@@ -126874,9 +126921,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "obliterate",
+      "exterminate",
+      "eradicate",
+      "demolish"
+    ],
+    "antonymTerms": [
+      "create",
+      "preserve"
+    ],
+    "relatedTerms": [
+      "destruction",
+      "genocide",
+      "eradication",
+      "devastation"
+    ],
     "translation": null
   },
   {
