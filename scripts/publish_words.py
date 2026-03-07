@@ -102,6 +102,22 @@ def main():
         print(result.stdout)
         print("✅ Seed store rebuilt successfully")
 
+    # Auto-bump seed version in VocabApp.swift
+    vocab_app_path = Path("Vocab/Vocab/VocabApp.swift")
+    if vocab_app_path.exists():
+        content = vocab_app_path.read_text()
+        import re
+        match = re.search(r'currentSeedVersion\s*=\s*(\d+)', content)
+        if match:
+            old_ver = int(match.group(1))
+            new_ver = old_ver + 1
+            content = content.replace(
+                f'currentSeedVersion = {old_ver}',
+                f'currentSeedVersion = {new_ver}'
+            )
+            vocab_app_path.write_text(content)
+            print(f"📦 Bumped seedDataVersion {old_ver} → {new_ver}")
+
 
 if __name__ == "__main__":
     main()
