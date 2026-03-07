@@ -805,7 +805,8 @@
     "synonyms": [
       "apparent",
       "seeming",
-      "supposed"
+      "purported",
+      "professed"
     ],
     "example": "The ostensible reason for the meeting was budget review.",
     "partOfSpeech": "adjective",
@@ -813,7 +814,30 @@
       "argumentation",
       "complexity"
     ],
-    "status": "published"
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Apparently true or real but not necessarily so; stated or appearing to be true.",
+        "example": "The ostensible purpose of the mission was diplomatic, though intelligence gathering was clearly a priority.",
+        "register": "formal",
+        "tags": [
+          "appearance",
+          "deception",
+          "reasoning"
+        ]
+      }
+    ],
+    "language": "en",
+    "antonymTerms": [
+      "actual",
+      "genuine"
+    ],
+    "relatedTerms": [
+      "pretence",
+      "facade",
+      "appearance",
+      "stated purpose"
+    ]
   },
   {
     "term": "palpable",
@@ -869,7 +893,8 @@
     "synonyms": [
       "prominent",
       "notable",
-      "striking"
+      "conspicuous",
+      "outstanding"
     ],
     "example": "Let me highlight the salient points of the proposal.",
     "partOfSpeech": "adjective",
@@ -877,7 +902,30 @@
       "communication",
       "evaluation"
     ],
-    "status": "published"
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Most noticeable or important; prominent; conspicuous.",
+        "example": "The most salient feature of the proposal was its radical departure from established pricing mechanisms.",
+        "register": "formal",
+        "tags": [
+          "importance",
+          "prominence",
+          "analysis"
+        ]
+      }
+    ],
+    "language": "en",
+    "antonymTerms": [
+      "minor",
+      "negligible"
+    ],
+    "relatedTerms": [
+      "importance",
+      "relevance",
+      "prominence",
+      "focus"
+    ]
   },
   {
     "term": "tacit",
@@ -130653,6 +130701,1883 @@
       "enmity",
       "vendetta",
       "grievance"
+    ],
+    "translation": null
+  },
+  {
+    "term": "abject",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Experienced or present to the maximum degree; utterly hopeless, miserable, or degrading.",
+        "example": "The refugees lived in abject poverty, lacking even the most basic sanitation.",
+        "register": "formal",
+        "tags": [
+          "misery",
+          "severity",
+          "condition"
+        ]
+      },
+      {
+        "definition": "Showing complete and utter submission; servile to a humiliating degree.",
+        "example": "He offered an abject apology, prostrating himself before the board in hopes of retaining his position.",
+        "register": "formal",
+        "tags": [
+          "submission",
+          "humiliation",
+          "behaviour"
+        ]
+      }
+    ],
+    "synonyms": [
+      "wretched",
+      "miserable",
+      "degraded",
+      "pitiful"
+    ],
+    "antonymTerms": [
+      "dignified",
+      "noble"
+    ],
+    "relatedTerms": [
+      "squalor",
+      "destitution",
+      "submission",
+      "abasement"
+    ],
+    "translation": null
+  },
+  {
+    "term": "ambit",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The scope, extent, or bounds of something; the range within which something operates.",
+        "example": "This matter falls outside the ambit of criminal law and must be addressed through civil proceedings.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "scope",
+          "authority"
+        ]
+      }
+    ],
+    "synonyms": [
+      "scope",
+      "range",
+      "purview",
+      "remit"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "jurisdiction",
+      "authority",
+      "boundary",
+      "extent"
+    ],
+    "translation": null
+  },
+  {
+    "term": "archetype",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A very typical example of a certain person or thing; an original model.",
+        "example": "Odysseus is the archetype of the cunning hero in Western literary tradition.",
+        "register": "formal",
+        "tags": [
+          "literature",
+          "psychology",
+          "symbol"
+        ]
+      },
+      {
+        "definition": "In Jungian psychology, a primitive mental image inherited from ancestral experience and present in the collective unconscious.",
+        "example": "The wise old man archetype appears across cultures as a figure of guidance and wisdom.",
+        "register": "technical",
+        "tags": [
+          "psychology",
+          "Jungian",
+          "symbol"
+        ]
+      }
+    ],
+    "synonyms": [
+      "prototype",
+      "paradigm",
+      "model",
+      "exemplar"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "Jungian psychology",
+      "symbolism",
+      "mythology",
+      "type"
+    ],
+    "translation": null
+  },
+  {
+    "term": "asymmetry",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Lack of equality or equivalence between parts or aspects of something; lack of symmetry.",
+        "example": "The asymmetry in military capabilities between the two states made conventional deterrence untenable.",
+        "register": "formal",
+        "tags": [
+          "science",
+          "politics",
+          "mathematics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "imbalance",
+      "disproportion",
+      "unevenness",
+      "irregularity"
+    ],
+    "antonymTerms": [
+      "symmetry",
+      "balance"
+    ],
+    "relatedTerms": [
+      "inequality",
+      "distribution",
+      "mathematics",
+      "power imbalance"
+    ],
+    "translation": null
+  },
+  {
+    "term": "backlash",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A strong negative reaction by a large number of people to something, especially a social or political change.",
+        "example": "The proposed tax on carbon emissions triggered a fierce backlash from industry groups.",
+        "register": "neutral",
+        "tags": [
+          "politics",
+          "social",
+          "reaction"
+        ]
+      }
+    ],
+    "synonyms": [
+      "reaction",
+      "recoil",
+      "repercussion",
+      "counteraction"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "protest",
+      "outrage",
+      "opposition",
+      "public reaction"
+    ],
+    "translation": null
+  },
+  {
+    "term": "celestial",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Positioned in or relating to the sky or outer space; supremely good or beautiful.",
+        "example": "The astronomer spent decades mapping celestial bodies in the outer reaches of the solar system.",
+        "register": "formal",
+        "tags": [
+          "astronomy",
+          "science",
+          "divine"
+        ]
+      },
+      {
+        "definition": "Of or relating to heaven; divine or supremely excellent.",
+        "example": "The choir's celestial harmonies filled the cathedral and moved the congregation to tears.",
+        "register": "literary",
+        "tags": [
+          "religion",
+          "beauty",
+          "divine"
+        ]
+      }
+    ],
+    "synonyms": [
+      "heavenly",
+      "divine",
+      "astral",
+      "ethereal"
+    ],
+    "antonymTerms": [
+      "terrestrial",
+      "earthly"
+    ],
+    "relatedTerms": [
+      "astronomy",
+      "theology",
+      "spirituality",
+      "cosmos"
+    ],
+    "translation": null
+  },
+  {
+    "term": "chasm",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A deep fissure in the earth, rock, or another surface; a profound difference between people.",
+        "example": "A yawning chasm had opened in the bedrock, making any further excavation dangerous.",
+        "register": "neutral",
+        "tags": [
+          "geography",
+          "geology",
+          "nature"
+        ]
+      },
+      {
+        "definition": "A wide difference in interests, opinions, or circumstances between two parties.",
+        "example": "The chasm between the two factions proved unbridgeable despite months of negotiation.",
+        "register": "formal",
+        "tags": [
+          "figurative",
+          "politics",
+          "conflict"
+        ]
+      }
+    ],
+    "synonyms": [
+      "abyss",
+      "gulf",
+      "fissure",
+      "gorge"
+    ],
+    "antonymTerms": [
+      "bridge",
+      "connection"
+    ],
+    "relatedTerms": [
+      "rift",
+      "schism",
+      "divide",
+      "precipice"
+    ],
+    "translation": null
+  },
+  {
+    "term": "citadel",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A fortress, typically on high ground, protecting or dominating a city; a last refuge.",
+        "example": "The old citadel still loomed over the town, a reminder of its medieval defensive purpose.",
+        "register": "neutral",
+        "tags": [
+          "history",
+          "architecture",
+          "military"
+        ]
+      },
+      {
+        "definition": "A place of safety; a stronghold of a doctrine or interest.",
+        "example": "The central bank was seen as the last citadel of economic orthodoxy in an era of radical fiscal policy.",
+        "register": "formal",
+        "tags": [
+          "figurative",
+          "institution",
+          "safety"
+        ]
+      }
+    ],
+    "synonyms": [
+      "fortress",
+      "stronghold",
+      "bastion",
+      "bulwark"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "fortification",
+      "refuge",
+      "defence",
+      "garrison"
+    ],
+    "translation": null
+  },
+  {
+    "term": "commensuration",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The act or process of making things equal in measure or proportion; equating values for comparison.",
+        "example": "The commensuration of disparate risk factors into a single index was itself a contentious methodological choice.",
+        "register": "technical",
+        "tags": [
+          "measurement",
+          "statistics",
+          "evaluation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "equalisation",
+      "proportioning",
+      "standardisation",
+      "calibration"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "comparison",
+      "measurement",
+      "valuation",
+      "indexing"
+    ],
+    "translation": null
+  },
+  {
+    "term": "continuum",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A continuous sequence in which adjacent elements are not perceptibly different from each other, though the extremes are quite different.",
+        "example": "Autism is now understood as a spectrum — a continuum of traits rather than a binary condition.",
+        "register": "technical",
+        "tags": [
+          "science",
+          "mathematics",
+          "psychology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "range",
+      "scale",
+      "gradation",
+      "gamut"
+    ],
+    "antonymTerms": [
+      "dichotomy",
+      "binary"
+    ],
+    "relatedTerms": [
+      "spectrum",
+      "gradient",
+      "sequence",
+      "progression"
+    ],
+    "translation": null
+  },
+  {
+    "term": "critique",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A detailed analysis and assessment of something, especially a literary, philosophical, or political theory.",
+        "example": "Her critique of the government's housing policy identified three fundamental structural flaws.",
+        "register": "formal",
+        "tags": [
+          "analysis",
+          "evaluation",
+          "academic"
+        ]
+      }
+    ],
+    "synonyms": [
+      "analysis",
+      "evaluation",
+      "appraisal",
+      "review"
+    ],
+    "antonymTerms": [
+      "endorsement",
+      "approval"
+    ],
+    "relatedTerms": [
+      "criticism",
+      "commentary",
+      "assessment",
+      "examination"
+    ],
+    "translation": null
+  },
+  {
+    "term": "crucible",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A ceramic or metal container in which metals or other substances may be melted or subjected to high temperature.",
+        "example": "The alchemist heated the crucible until the metal inside turned to liquid.",
+        "register": "technical",
+        "tags": [
+          "chemistry",
+          "metallurgy",
+          "science"
+        ]
+      },
+      {
+        "definition": "A place or situation in which different elements interact to produce something new; a severe trial.",
+        "example": "The battlefield proved a crucible in which ordinary soldiers were forged into seasoned veterans.",
+        "register": "formal",
+        "tags": [
+          "figurative",
+          "transformation",
+          "history"
+        ]
+      }
+    ],
+    "synonyms": [
+      "furnace",
+      "vessel",
+      "trial",
+      "forge"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "transformation",
+      "heat",
+      "ordeal",
+      "alchemy"
+    ],
+    "translation": null
+  },
+  {
+    "term": "declaim",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To utter or deliver words or a speech in a rhetorical or impassioned way; to recite dramatically.",
+        "example": "He declaimed the poem with theatrical intensity, projecting to the back of the auditorium.",
+        "register": "formal",
+        "tags": [
+          "rhetoric",
+          "speech",
+          "performance"
+        ]
+      },
+      {
+        "definition": "To protest strongly against or attack verbally; to rail against.",
+        "example": "The senator declaimed against the proposed legislation as a threat to individual liberty.",
+        "register": "formal",
+        "tags": [
+          "protest",
+          "politics",
+          "speech"
+        ]
+      }
+    ],
+    "synonyms": [
+      "orate",
+      "harangue",
+      "recite",
+      "hold forth"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "rhetoric",
+      "oratory",
+      "speech",
+      "protestation"
+    ],
+    "translation": null
+  },
+  {
+    "term": "defect",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To abandon one's country or cause in favour of an opposing one.",
+        "example": "The intelligence officer defected to the West, taking with him a trove of classified documents.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "espionage",
+          "loyalty"
+        ]
+      }
+    ],
+    "synonyms": [
+      "desert",
+      "betray",
+      "abandon",
+      "switch sides"
+    ],
+    "antonymTerms": [
+      "remain loyal",
+      "stay"
+    ],
+    "relatedTerms": [
+      "espionage",
+      "treason",
+      "asylum",
+      "defector"
+    ],
+    "translation": null
+  },
+  {
+    "term": "dwindle",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To diminish gradually in size, amount, or strength.",
+        "example": "The party's support dwindled over the decade as younger voters abandoned it in favour of alternatives.",
+        "register": "neutral",
+        "tags": [
+          "decline",
+          "change",
+          "quantity"
+        ]
+      }
+    ],
+    "synonyms": [
+      "diminish",
+      "decrease",
+      "shrink",
+      "wane"
+    ],
+    "antonymTerms": [
+      "increase",
+      "grow"
+    ],
+    "relatedTerms": [
+      "decline",
+      "atrophy",
+      "contraction",
+      "depletion"
+    ],
+    "translation": null
+  },
+  {
+    "term": "echelon",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A level or rank in an organisation, a profession, or society.",
+        "example": "She had risen through the lower echelons of the civil service to reach a senior management role.",
+        "register": "formal",
+        "tags": [
+          "hierarchy",
+          "organisation",
+          "rank"
+        ]
+      },
+      {
+        "definition": "A formation of troops, aircraft, or ships in parallel rows, each one to the side and behind the one in front.",
+        "example": "The aircraft flew in echelon formation, each plane slightly behind and to the right of the previous.",
+        "register": "technical",
+        "tags": [
+          "military",
+          "formation",
+          "aviation"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tier",
+      "rank",
+      "level",
+      "stratum"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "hierarchy",
+      "formation",
+      "chain of command",
+      "stratification"
+    ],
+    "translation": null
+  },
+  {
+    "term": "enigma",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A person or thing that is mysterious, puzzling, or difficult to understand.",
+        "example": "The Sphinx remained an enigma to ancient travellers, who could not decipher the meaning of her riddle.",
+        "register": "neutral",
+        "tags": [
+          "mystery",
+          "puzzle",
+          "philosophy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "mystery",
+      "puzzle",
+      "riddle",
+      "conundrum"
+    ],
+    "antonymTerms": [
+      "certainty",
+      "clarity"
+    ],
+    "relatedTerms": [
+      "cryptography",
+      "paradox",
+      "ambiguity",
+      "obscurity"
+    ],
+    "translation": null
+  },
+  {
+    "term": "epitome",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A person or thing that is a perfect example of a particular quality or type; a summary.",
+        "example": "She was considered the epitome of professional composure, never visibly rattled in a crisis.",
+        "register": "formal",
+        "tags": [
+          "exemplar",
+          "ideal",
+          "summary"
+        ]
+      }
+    ],
+    "synonyms": [
+      "embodiment",
+      "quintessence",
+      "archetype",
+      "model"
+    ],
+    "antonymTerms": [
+      "antithesis",
+      "opposite"
+    ],
+    "relatedTerms": [
+      "exemplar",
+      "representative",
+      "distillation",
+      "summary"
+    ],
+    "translation": null
+  },
+  {
+    "term": "espouse",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To adopt or support a cause, belief, or way of life.",
+        "example": "He espoused radical economic theories that were far outside the mainstream at the time.",
+        "register": "formal",
+        "tags": [
+          "support",
+          "belief",
+          "ideology"
+        ]
+      }
+    ],
+    "synonyms": [
+      "champion",
+      "advocate",
+      "support",
+      "embrace"
+    ],
+    "antonymTerms": [
+      "renounce",
+      "reject"
+    ],
+    "relatedTerms": [
+      "ideology",
+      "advocacy",
+      "commitment",
+      "adherence"
+    ],
+    "translation": null
+  },
+  {
+    "term": "fortify",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To strengthen a place with defensive works; to make stronger or more resistant.",
+        "example": "The garrison worked through the night to fortify their position before the expected assault.",
+        "register": "neutral",
+        "tags": [
+          "military",
+          "strength",
+          "defence"
+        ]
+      },
+      {
+        "definition": "To invigorate or encourage someone; to strengthen one's resolve or physical resilience.",
+        "example": "A brisk walk and a strong coffee were enough to fortify her for the long day of meetings ahead.",
+        "register": "neutral",
+        "tags": [
+          "strength",
+          "encouragement",
+          "health"
+        ]
+      }
+    ],
+    "synonyms": [
+      "strengthen",
+      "reinforce",
+      "bolster",
+      "harden"
+    ],
+    "antonymTerms": [
+      "weaken",
+      "undermine"
+    ],
+    "relatedTerms": [
+      "defence",
+      "armament",
+      "resilience",
+      "entrenchment"
+    ],
+    "translation": null
+  },
+  {
+    "term": "innovation",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The action or process of innovating; a new method, idea, product, or process.",
+        "example": "The company's culture of innovation allowed it to anticipate market shifts and disrupt established industries.",
+        "register": "neutral",
+        "tags": [
+          "business",
+          "technology",
+          "creativity"
+        ]
+      }
+    ],
+    "synonyms": [
+      "novelty",
+      "invention",
+      "creativity",
+      "ingenuity"
+    ],
+    "antonymTerms": [
+      "stagnation",
+      "conservatism"
+    ],
+    "relatedTerms": [
+      "technology",
+      "disruption",
+      "entrepreneurship",
+      "development"
+    ],
+    "translation": null
+  },
+  {
+    "term": "integral",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Necessary to make a whole complete; fundamental or essential.",
+        "example": "Trust is an integral component of any effective therapeutic relationship.",
+        "register": "formal",
+        "tags": [
+          "essential",
+          "wholeness",
+          "structure"
+        ]
+      },
+      {
+        "definition": "Of or relating to a mathematical integral or integration.",
+        "example": "The integral calculus developed by Newton and Leibniz transformed the study of continuous change.",
+        "register": "technical",
+        "tags": [
+          "mathematics",
+          "calculus",
+          "science"
+        ]
+      }
+    ],
+    "synonyms": [
+      "essential",
+      "fundamental",
+      "indispensable",
+      "central"
+    ],
+    "antonymTerms": [
+      "peripheral",
+      "marginal"
+    ],
+    "relatedTerms": [
+      "calculus",
+      "mathematics",
+      "wholeness",
+      "necessity"
+    ],
+    "translation": null
+  },
+  {
+    "term": "intervene",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To come between so as to prevent or alter a result or course of events.",
+        "example": "The international community was slow to intervene in the conflict, allowing the situation to deteriorate.",
+        "register": "neutral",
+        "tags": [
+          "action",
+          "politics",
+          "conflict"
+        ]
+      },
+      {
+        "definition": "To occur in time between events; to interrupt.",
+        "example": "Unforeseen circumstances intervened, forcing the delegation to postpone its visit.",
+        "register": "neutral",
+        "tags": [
+          "time",
+          "interruption",
+          "events"
+        ]
+      }
+    ],
+    "synonyms": [
+      "intercede",
+      "interpose",
+      "mediate",
+      "step in"
+    ],
+    "antonymTerms": [
+      "abstain",
+      "withdraw"
+    ],
+    "relatedTerms": [
+      "diplomacy",
+      "mediation",
+      "interference",
+      "interruption"
+    ],
+    "translation": null
+  },
+  {
+    "term": "luminescent",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Emitting light not caused by incandescence, especially at low temperatures.",
+        "example": "The deep-sea organism was luminescent, its body casting an eerie blue glow in the darkness.",
+        "register": "technical",
+        "tags": [
+          "science",
+          "biology",
+          "physics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "glowing",
+      "phosphorescent",
+      "radiant",
+      "luminous"
+    ],
+    "antonymTerms": [
+      "dark",
+      "opaque"
+    ],
+    "relatedTerms": [
+      "bioluminescence",
+      "fluorescence",
+      "phosphorescence",
+      "light"
+    ],
+    "translation": null
+  },
+  {
+    "term": "monotony",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Lack of variety; tedious sameness or uniformity.",
+        "example": "The monotony of the assembly line work drove many employees to seek more stimulating employment.",
+        "register": "neutral",
+        "tags": [
+          "boredom",
+          "repetition",
+          "routine"
+        ]
+      }
+    ],
+    "synonyms": [
+      "tedium",
+      "dreariness",
+      "sameness",
+      "uniformity"
+    ],
+    "antonymTerms": [
+      "variety",
+      "diversity"
+    ],
+    "relatedTerms": [
+      "boredom",
+      "repetition",
+      "routine",
+      "drudgery"
+    ],
+    "translation": null
+  },
+  {
+    "term": "omnipotent",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Having unlimited or very great power; all-powerful.",
+        "example": "The ancient gods were portrayed as omnipotent beings whose whims could reshape the natural world.",
+        "register": "formal",
+        "tags": [
+          "power",
+          "theology",
+          "philosophy"
+        ]
+      }
+    ],
+    "synonyms": [
+      "all-powerful",
+      "supreme",
+      "almighty",
+      "absolute"
+    ],
+    "antonymTerms": [
+      "powerless",
+      "impotent"
+    ],
+    "relatedTerms": [
+      "sovereignty",
+      "divinity",
+      "authority",
+      "omniscience"
+    ],
+    "translation": null
+  },
+  {
+    "term": "palatial",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Resembling or fit for a palace; spacious and splendid.",
+        "example": "The chief executive occupied a palatial corner office with sweeping views of the city.",
+        "register": "neutral",
+        "tags": [
+          "size",
+          "wealth",
+          "luxury"
+        ]
+      }
+    ],
+    "synonyms": [
+      "magnificent",
+      "opulent",
+      "grand",
+      "luxurious"
+    ],
+    "antonymTerms": [
+      "modest",
+      "cramped"
+    ],
+    "relatedTerms": [
+      "luxury",
+      "grandeur",
+      "architecture",
+      "wealth"
+    ],
+    "translation": null
+  },
+  {
+    "term": "pathological",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Relating to or caused by disease; compulsive or unreasonable.",
+        "example": "The patient was diagnosed with a pathological condition requiring immediate surgical intervention.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "health",
+          "disease"
+        ]
+      },
+      {
+        "definition": "Compulsive and repetitive in a manner beyond rational control.",
+        "example": "His pathological need for approval made it impossible for him to take decisions independently.",
+        "register": "neutral",
+        "tags": [
+          "psychology",
+          "behaviour",
+          "compulsion"
+        ]
+      }
+    ],
+    "synonyms": [
+      "diseased",
+      "morbid",
+      "compulsive",
+      "aberrant"
+    ],
+    "antonymTerms": [
+      "healthy",
+      "normal"
+    ],
+    "relatedTerms": [
+      "disease",
+      "psychology",
+      "compulsion",
+      "medicine"
+    ],
+    "translation": null
+  },
+  {
+    "term": "philanthropy",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The desire to promote the welfare of others, expressed through generous donations of money or time.",
+        "example": "Her philanthropy endowed hospitals, universities, and cultural institutions across three continents.",
+        "register": "formal",
+        "tags": [
+          "charity",
+          "generosity",
+          "society"
+        ]
+      }
+    ],
+    "synonyms": [
+      "benevolence",
+      "altruism",
+      "generosity",
+      "charity"
+    ],
+    "antonymTerms": [
+      "misanthropy",
+      "avarice"
+    ],
+    "relatedTerms": [
+      "donation",
+      "endowment",
+      "humanitarian",
+      "benefactor"
+    ],
+    "translation": null
+  },
+  {
+    "term": "portend",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To be a sign or warning that something, especially something momentous or calamitous, is likely to happen.",
+        "example": "The sudden drop in consumer confidence portended a deeper economic recession than the government anticipated.",
+        "register": "formal",
+        "tags": [
+          "prediction",
+          "warning",
+          "sign"
+        ]
+      }
+    ],
+    "synonyms": [
+      "forebode",
+      "augur",
+      "presage",
+      "foreshadow"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "omen",
+      "warning",
+      "prophecy",
+      "premonition"
+    ],
+    "translation": null
+  },
+  {
+    "term": "prodigy",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A person, especially a young one, endowed with exceptional qualities or abilities.",
+        "example": "The child prodigy had composed a symphony before the age of twelve.",
+        "register": "neutral",
+        "tags": [
+          "talent",
+          "ability",
+          "youth"
+        ]
+      },
+      {
+        "definition": "An impressive or outstanding example of a particular quality.",
+        "example": "The bridge is an engineering prodigy, built with no modern machinery in record time.",
+        "register": "formal",
+        "tags": [
+          "achievement",
+          "excellence",
+          "example"
+        ]
+      }
+    ],
+    "synonyms": [
+      "genius",
+      "phenomenon",
+      "wonder",
+      "marvel"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "talent",
+      "wonder child",
+      "achievement",
+      "excellence"
+    ],
+    "translation": null
+  },
+  {
+    "term": "recrimination",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "An accusation in response to an accusation made by someone else; mutual blame.",
+        "example": "The post-election period was marked by bitter recriminations between the two campaign teams.",
+        "register": "formal",
+        "tags": [
+          "conflict",
+          "accusation",
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "counter-accusation",
+      "reproach",
+      "blame",
+      "retaliation"
+    ],
+    "antonymTerms": [
+      "conciliation",
+      "reconciliation"
+    ],
+    "relatedTerms": [
+      "conflict",
+      "accusation",
+      "resentment",
+      "mutual blame"
+    ],
+    "translation": null
+  },
+  {
+    "term": "scandalous",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Causing general public outrage by a perceived gross violation of morality or law.",
+        "example": "The minister's scandalous conduct forced his resignation within twenty-four hours of the revelations.",
+        "register": "neutral",
+        "tags": [
+          "morality",
+          "outrage",
+          "politics"
+        ]
+      },
+      {
+        "definition": "Containing damaging and false information about someone.",
+        "example": "The tabloid published a scandalous story that had no basis in documented fact.",
+        "register": "neutral",
+        "tags": [
+          "defamation",
+          "media",
+          "law"
+        ]
+      }
+    ],
+    "synonyms": [
+      "outrageous",
+      "disgraceful",
+      "shameful",
+      "infamous"
+    ],
+    "antonymTerms": [
+      "exemplary",
+      "commendable"
+    ],
+    "relatedTerms": [
+      "scandal",
+      "impropriety",
+      "defamation",
+      "disgrace"
+    ],
+    "translation": null
+  },
+  {
+    "term": "singular",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Exceptionally good or great; remarkable; denoting a single person or thing.",
+        "example": "Her singular ability to synthesise disparate research streams set her apart from her peers.",
+        "register": "formal",
+        "tags": [
+          "excellence",
+          "uniqueness",
+          "grammar"
+        ]
+      }
+    ],
+    "synonyms": [
+      "unique",
+      "extraordinary",
+      "exceptional",
+      "remarkable"
+    ],
+    "antonymTerms": [
+      "ordinary",
+      "common"
+    ],
+    "relatedTerms": [
+      "uniqueness",
+      "distinction",
+      "grammar",
+      "rarity"
+    ],
+    "translation": null
+  },
+  {
+    "term": "subservient",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Less important than or serving the needs of something or someone; obsequiously compliant.",
+        "example": "A free press cannot be subservient to government interests if it is to fulfil its democratic function.",
+        "register": "formal",
+        "tags": [
+          "submission",
+          "hierarchy",
+          "politics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "servile",
+      "obsequious",
+      "subordinate",
+      "deferential"
+    ],
+    "antonymTerms": [
+      "dominant",
+      "assertive"
+    ],
+    "relatedTerms": [
+      "hierarchy",
+      "compliance",
+      "submission",
+      "deference"
+    ],
+    "translation": null
+  },
+  {
+    "term": "temperate",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Relating to or denoting a region or climate characterised by mild temperatures; showing moderation or self-restraint.",
+        "example": "The temperate climate of the Pacific Northwest supports a diverse range of agricultural crops.",
+        "register": "neutral",
+        "tags": [
+          "climate",
+          "geography",
+          "nature"
+        ]
+      },
+      {
+        "definition": "Showing moderation or self-restraint; calm and reasonable in behaviour.",
+        "example": "Despite the provocation, the negotiator maintained a temperate tone throughout the difficult discussions.",
+        "register": "formal",
+        "tags": [
+          "behaviour",
+          "character",
+          "restraint"
+        ]
+      }
+    ],
+    "synonyms": [
+      "moderate",
+      "restrained",
+      "mild",
+      "equable"
+    ],
+    "antonymTerms": [
+      "extreme",
+      "immoderate"
+    ],
+    "relatedTerms": [
+      "climate",
+      "self-restraint",
+      "moderation",
+      "geography"
+    ],
+    "translation": null
+  },
+  {
+    "term": "ubiquity",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The fact of appearing everywhere or of being very widespread.",
+        "example": "The ubiquity of smartphones has transformed the way people access information and communicate.",
+        "register": "formal",
+        "tags": [
+          "prevalence",
+          "technology",
+          "society"
+        ]
+      }
+    ],
+    "synonyms": [
+      "omnipresence",
+      "pervasiveness",
+      "prevalence",
+      "universality"
+    ],
+    "antonymTerms": [
+      "rarity",
+      "scarcity"
+    ],
+    "relatedTerms": [
+      "technology",
+      "distribution",
+      "presence",
+      "commonness"
+    ],
+    "translation": null
+  },
+  {
+    "term": "upbraid",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To find fault with or reproach someone severely.",
+        "example": "The general upbraided his officers for their failure to hold the position, calling it a tactical disgrace.",
+        "register": "formal",
+        "tags": [
+          "criticism",
+          "rebuke",
+          "authority"
+        ]
+      }
+    ],
+    "synonyms": [
+      "reproach",
+      "rebuke",
+      "berate",
+      "scold"
+    ],
+    "antonymTerms": [
+      "commend",
+      "praise"
+    ],
+    "relatedTerms": [
+      "criticism",
+      "reprimand",
+      "admonition",
+      "censure"
+    ],
+    "translation": null
+  },
+  {
+    "term": "usurpation",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "The action of taking a position of power or importance illegally or by force.",
+        "example": "The coup was widely condemned as an usurpation of democratic authority by the military.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "law",
+          "power"
+        ]
+      }
+    ],
+    "synonyms": [
+      "seizure",
+      "appropriation",
+      "takeover",
+      "encroachment"
+    ],
+    "antonymTerms": [
+      "abdication",
+      "relinquishment"
+    ],
+    "relatedTerms": [
+      "coup",
+      "tyranny",
+      "power",
+      "illegality"
+    ],
+    "translation": null
+  },
+  {
+    "term": "vanquish",
+    "language": "en",
+    "partOfSpeech": "verb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "To defeat thoroughly in battle or in a contest; to overcome completely.",
+        "example": "Alexander vanquished his Persian adversaries at the Battle of Gaugamela in 331 BC.",
+        "register": "formal",
+        "tags": [
+          "military",
+          "history",
+          "conflict"
+        ]
+      }
+    ],
+    "synonyms": [
+      "conquer",
+      "defeat",
+      "overcome",
+      "subjugate"
+    ],
+    "antonymTerms": [
+      "surrender",
+      "succumb"
+    ],
+    "relatedTerms": [
+      "victory",
+      "conquest",
+      "triumph",
+      "domination"
+    ],
+    "translation": null
+  },
+  {
+    "term": "xenophile",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A person who is attracted to foreign peoples, manners, or cultures.",
+        "example": "As a xenophile, she spent every holiday in a different country, immersing herself in local customs.",
+        "register": "neutral",
+        "tags": [
+          "culture",
+          "character",
+          "travel"
+        ]
+      }
+    ],
+    "synonyms": [
+      "cosmopolitan",
+      "internationalist",
+      "multiculturalist",
+      "cultural enthusiast"
+    ],
+    "antonymTerms": [
+      "xenophobe",
+      "isolationist"
+    ],
+    "relatedTerms": [
+      "cultural appreciation",
+      "diversity",
+      "travel",
+      "openness"
+    ],
+    "translation": null
+  },
+  {
+    "term": "abhorrent",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Inspiring disgust and loathing; repugnant.",
+        "example": "The conditions in the detention facility were described by inspectors as abhorrent and inhumane.",
+        "register": "formal",
+        "tags": [
+          "morality",
+          "disgust",
+          "ethics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "repugnant",
+      "revolting",
+      "loathsome",
+      "odious"
+    ],
+    "antonymTerms": [
+      "admirable",
+      "commendable"
+    ],
+    "relatedTerms": [
+      "revulsion",
+      "disgust",
+      "contempt",
+      "moral outrage"
+    ],
+    "translation": null
+  },
+  {
+    "term": "affliction",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A cause of pain or harm; a state of pain, distress, or hardship.",
+        "example": "Poverty remained the greatest affliction facing rural communities in the region.",
+        "register": "formal",
+        "tags": [
+          "hardship",
+          "suffering",
+          "condition"
+        ]
+      }
+    ],
+    "synonyms": [
+      "suffering",
+      "hardship",
+      "torment",
+      "tribulation"
+    ],
+    "antonymTerms": [
+      "relief",
+      "blessing"
+    ],
+    "relatedTerms": [
+      "disease",
+      "poverty",
+      "adversity",
+      "pain"
+    ],
+    "translation": null
+  },
+  {
+    "term": "asunder",
+    "language": "en",
+    "partOfSpeech": "adverb",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Into separate parts; apart; into pieces.",
+        "example": "The explosion tore the bridge asunder, scattering debris across a wide area.",
+        "register": "literary",
+        "tags": [
+          "separation",
+          "destruction",
+          "physical"
+        ]
+      }
+    ],
+    "synonyms": [
+      "apart",
+      "in two",
+      "separately",
+      "to pieces"
+    ],
+    "antonymTerms": [
+      "together",
+      "intact"
+    ],
+    "relatedTerms": [
+      "separation",
+      "division",
+      "rupture",
+      "fragmentation"
+    ],
+    "translation": null
+  },
+  {
+    "term": "multifarious",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Many and of various types; having many varied parts or aspects.",
+        "example": "The commission's multifarious responsibilities ranged from financial regulation to consumer protection.",
+        "register": "formal",
+        "tags": [
+          "variety",
+          "diversity",
+          "complexity"
+        ]
+      }
+    ],
+    "synonyms": [
+      "diverse",
+      "varied",
+      "manifold",
+      "heterogeneous"
+    ],
+    "antonymTerms": [
+      "uniform",
+      "homogeneous"
+    ],
+    "relatedTerms": [
+      "variety",
+      "complexity",
+      "diversity",
+      "plurality"
+    ],
+    "translation": null
+  },
+  {
+    "term": "obtrusive",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Noticeable or prominent in an unwelcome or intrusive way.",
+        "example": "The obtrusive signage detracted from the natural beauty of the national park.",
+        "register": "formal",
+        "tags": [
+          "appearance",
+          "intrusion",
+          "aesthetics"
+        ]
+      }
+    ],
+    "synonyms": [
+      "intrusive",
+      "prominent",
+      "noticeable",
+      "blatant"
+    ],
+    "antonymTerms": [
+      "subtle",
+      "unobtrusive"
+    ],
+    "relatedTerms": [
+      "intrusiveness",
+      "visibility",
+      "disruption",
+      "annoyance"
+    ],
+    "translation": null
+  },
+  {
+    "term": "omniscient",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Knowing everything; having complete or unlimited knowledge.",
+        "example": "The novel is narrated by an omniscient narrator who has access to every character's innermost thoughts.",
+        "register": "formal",
+        "tags": [
+          "knowledge",
+          "theology",
+          "literature"
+        ]
+      }
+    ],
+    "synonyms": [
+      "all-knowing",
+      "all-seeing",
+      "prescient",
+      "omnipotent"
+    ],
+    "antonymTerms": [
+      "ignorant",
+      "uninformed"
+    ],
+    "relatedTerms": [
+      "divinity",
+      "knowledge",
+      "theology",
+      "narrative perspective"
+    ],
+    "translation": null
+  },
+  {
+    "term": "parsimony",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Extreme unwillingness to spend money or use resources; extreme frugality.",
+        "example": "The council's parsimony in funding public services drew criticism from residents and charities alike.",
+        "register": "formal",
+        "tags": [
+          "frugality",
+          "economics",
+          "character"
+        ]
+      },
+      {
+        "definition": "In science, the principle that the simplest explanation is to be preferred (Occam's razor).",
+        "example": "The principle of parsimony guided the researchers toward the simplest model that fitted the data.",
+        "register": "technical",
+        "tags": [
+          "science",
+          "methodology",
+          "logic"
+        ]
+      }
+    ],
+    "synonyms": [
+      "frugality",
+      "miserliness",
+      "penny-pinching",
+      "thrift"
+    ],
+    "antonymTerms": [
+      "generosity",
+      "lavishness"
+    ],
+    "relatedTerms": [
+      "economy",
+      "Occam's razor",
+      "simplicity",
+      "restraint"
+    ],
+    "translation": null
+  },
+  {
+    "term": "vestige",
+    "language": "en",
+    "partOfSpeech": "noun",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "A trace or remnant of something that is disappearing or no longer exists.",
+        "example": "The abandoned railway station was the last vestige of the town's industrial heritage.",
+        "register": "formal",
+        "tags": [
+          "remnant",
+          "history",
+          "trace"
+        ]
+      }
+    ],
+    "synonyms": [
+      "remnant",
+      "trace",
+      "relic",
+      "shadow"
+    ],
+    "antonymTerms": [],
+    "relatedTerms": [
+      "heritage",
+      "archaeology",
+      "legacy",
+      "trace fossil"
+    ],
+    "translation": null
+  },
+  {
+    "term": "wistful",
+    "language": "en",
+    "partOfSpeech": "adjective",
+    "status": "approved",
+    "meanings": [
+      {
+        "definition": "Having or showing a feeling of vague or regretful longing.",
+        "example": "She gave the old house one last wistful glance before driving away for the final time.",
+        "register": "neutral",
+        "tags": [
+          "emotion",
+          "nostalgia",
+          "longing"
+        ]
+      }
+    ],
+    "synonyms": [
+      "nostalgic",
+      "yearning",
+      "pensive",
+      "rueful"
+    ],
+    "antonymTerms": [
+      "content",
+      "satisfied"
+    ],
+    "relatedTerms": [
+      "nostalgia",
+      "longing",
+      "melancholy",
+      "reminiscence"
     ],
     "translation": null
   }
