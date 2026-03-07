@@ -128497,7 +128497,7 @@
     "term": "venerable",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Accorded a great deal of respect, especially because of age, wisdom, or character.",
@@ -128510,16 +128510,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "revered",
+      "esteemed",
+      "distinguished",
+      "august"
+    ],
+    "antonymTerms": [
+      "disreputable",
+      "ignoble"
+    ],
+    "relatedTerms": [
+      "reverence",
+      "dignity",
+      "patriarch",
+      "elder"
+    ],
     "translation": null
   },
   {
     "term": "veracity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Conformity to facts; accuracy; the quality of being truthful or honest.",
@@ -128532,16 +128545,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "truthfulness",
+      "accuracy",
+      "honesty",
+      "integrity"
+    ],
+    "antonymTerms": [
+      "mendacity",
+      "falsehood"
+    ],
+    "relatedTerms": [
+      "credibility",
+      "reliability",
+      "factual accuracy",
+      "authenticity"
+    ],
     "translation": null
   },
   {
     "term": "vexatious",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Causing or tending to cause annoyance, frustration, or worry.",
@@ -128563,16 +128589,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "irritating",
+      "troublesome",
+      "annoying",
+      "bothersome"
+    ],
+    "antonymTerms": [
+      "pleasing",
+      "gratifying"
+    ],
+    "relatedTerms": [
+      "litigation",
+      "harassment",
+      "annoyance",
+      "nuisance"
+    ],
     "translation": null
   },
   {
     "term": "vile",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Extremely unpleasant, morally bad, or wicked; inspiring disgust.",
@@ -128585,16 +128624,29 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "despicable",
+      "wicked",
+      "abhorrent",
+      "reprehensible"
+    ],
+    "antonymTerms": [
+      "virtuous",
+      "noble"
+    ],
+    "relatedTerms": [
+      "depravity",
+      "immorality",
+      "disgrace",
+      "repugnance"
+    ],
     "translation": null
   },
   {
     "term": "adage",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A short, commonly known saying expressing a general truth or piece of advice; a proverb.",
@@ -128607,9 +128659,19 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "proverb",
+      "maxim",
+      "axiom",
+      "aphorism"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "wisdom",
+      "saying",
+      "truism",
+      "folk wisdom"
+    ],
     "translation": null
   }
 ]
