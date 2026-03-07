@@ -141746,8 +141746,19 @@
     "term": "ablate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To remove or destroy tissue by cutting, burning, or chemical action; in geology, to wear away by erosion or vaporisation.",
+        "example": "The procedure uses a laser to ablate the diseased tissue without damaging the surrounding cells.",
+        "register": "technical",
+        "tags": [
+          "medicine",
+          "surgery",
+          "geology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141757,8 +141768,19 @@
     "term": "abstemiousness",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The quality of not allowing oneself to have too much food, drink, or enjoyment; self-restraint in consumption.",
+        "example": "His abstemiousness in diet and drink was legendary, and he rarely indulged beyond strict necessity.",
+        "register": "formal",
+        "tags": [
+          "self-control",
+          "moderation",
+          "lifestyle"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141768,8 +141790,19 @@
     "term": "acclimate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To become accustomed to a new climate, environment, or situation; to adapt.",
+        "example": "Athletes travel weeks before the games to acclimate to the altitude and climate of the host city.",
+        "register": "neutral",
+        "tags": [
+          "adaptation",
+          "environment",
+          "biology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141779,8 +141812,19 @@
     "term": "admonishment",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A mild but firm warning or reprimand.",
+        "example": "The judge issued an admonishment to the barrister for interrupting witnesses before the examination was concluded.",
+        "register": "formal",
+        "tags": [
+          "warning",
+          "reprimand",
+          "authority"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141790,8 +141834,19 @@
     "term": "eclecticism",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The practice of selecting ideas or elements from a variety of doctrines, systems, or sources rather than adhering strictly to one.",
+        "example": "The architect's eclecticism was evident in a building that drew from Art Nouveau, Brutalism, and vernacular traditions.",
+        "register": "formal",
+        "tags": [
+          "philosophy",
+          "art",
+          "design"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141801,8 +141856,29 @@
     "term": "exposition",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A large public exhibition of art, industry, or commerce; an explanatory account of something.",
+        "example": "The professor's clear exposition of the theory made a difficult subject accessible to students without a scientific background.",
+        "register": "formal",
+        "tags": [
+          "explanation",
+          "writing",
+          "education"
+        ]
+      },
+      {
+        "definition": "The part of a narrative or drama that introduces the characters and setting; in music, the opening section of a sonata form.",
+        "example": "The play's exposition effectively established the social tensions that would drive the later conflict.",
+        "register": "technical",
+        "tags": [
+          "narrative",
+          "drama",
+          "music"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141812,8 +141888,19 @@
     "term": "exuberance",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The quality of being full of energy, excitement, and cheerfulness; luxuriant growth or overflowing abundance.",
+        "example": "Her exuberance in the rehearsal room was infectious, lifting the spirits of the whole cast.",
+        "register": "neutral",
+        "tags": [
+          "energy",
+          "emotion",
+          "enthusiasm"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141823,8 +141910,19 @@
     "term": "arbitrator",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A person appointed to settle a dispute between two parties as an alternative to legal proceedings.",
+        "example": "The industrial tribunal appointed an arbitrator to determine the fairness of the redundancy process.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "conflict resolution",
+          "mediation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141834,8 +141932,29 @@
     "term": "capacity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The maximum amount that something can contain or produce; the ability or power to do something.",
+        "example": "The factory was running at full capacity in order to meet the surge in demand.",
+        "register": "neutral",
+        "tags": [
+          "measurement",
+          "ability",
+          "engineering"
+        ]
+      },
+      {
+        "definition": "A specified role or position.",
+        "example": "She attended the conference in her capacity as deputy chief executive of the organisation.",
+        "register": "formal",
+        "tags": [
+          "role",
+          "position",
+          "function"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141845,8 +141964,29 @@
     "term": "commodity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A raw material or primary agricultural product that can be bought and sold; something useful that can be traded.",
+        "example": "Copper is a key industrial commodity whose price reflects demand from the construction and electronics sectors.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "trade",
+          "markets"
+        ]
+      },
+      {
+        "definition": "A thing that is regarded merely as a product to be used or exploited.",
+        "example": "The documentary argued that people had become commodities in the gig economy, stripped of labour rights.",
+        "register": "neutral",
+        "tags": [
+          "social criticism",
+          "value",
+          "exploitation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141856,8 +141996,19 @@
     "term": "complicity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The fact or state of being involved in a crime or wrongdoing; shared responsibility for a harmful act.",
+        "example": "The investigation found evidence of complicity between the contractor and several government officials in the awarding of the contract.",
+        "register": "formal",
+        "tags": [
+          "crime",
+          "responsibility",
+          "ethics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141867,8 +142018,19 @@
     "term": "constraint",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A limitation or restriction; something that limits or controls.",
+        "example": "The budget constraint forced the team to abandon two of the three proposed experiments.",
+        "register": "neutral",
+        "tags": [
+          "limitation",
+          "restriction",
+          "planning"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141878,8 +142040,19 @@
     "term": "creditor",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A person, company, or institution to whom money is owed.",
+        "example": "The creditors agreed to accept a reduced payment in full settlement rather than risk receiving nothing in liquidation.",
+        "register": "technical",
+        "tags": [
+          "finance",
+          "debt",
+          "law"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141889,8 +142062,19 @@
     "term": "deficiency",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A lack or shortage; the state of not having enough of something that is necessary.",
+        "example": "A vitamin D deficiency can lead to weakened bones and increased susceptibility to infection.",
+        "register": "neutral",
+        "tags": [
+          "medicine",
+          "shortage",
+          "inadequacy"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141900,8 +142084,19 @@
     "term": "approximate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To come close to in quality, nature, or quantity; to estimate roughly.",
+        "example": "The algorithm approximates the optimal solution through repeated iterations rather than exact calculation.",
+        "register": "formal",
+        "tags": [
+          "estimation",
+          "mathematics",
+          "computation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141911,8 +142106,19 @@
     "term": "besieged",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Surrounded by military forces; overwhelmed by a large number of requests, problems, or pressures.",
+        "example": "The beleaguered minister was besieged by questions about the leaked documents.",
+        "register": "neutral",
+        "tags": [
+          "pressure",
+          "attack",
+          "military"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141922,8 +142128,19 @@
     "term": "betoken",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To be a sign or indication of; to presage or foreshadow.",
+        "example": "The darkening sky and sudden stillness betokened a storm of unusual severity.",
+        "register": "literary",
+        "tags": [
+          "sign",
+          "omen",
+          "symbolism"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141933,8 +142150,19 @@
     "term": "bewilderment",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A feeling of utter confusion or perplexity; the state of being completely lost or disoriented.",
+        "example": "She stared at the exam question with growing bewilderment, having no idea how to begin.",
+        "register": "neutral",
+        "tags": [
+          "confusion",
+          "disorientation",
+          "emotion"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141944,8 +142172,19 @@
     "term": "bowdlerise",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To remove words or passages considered vulgar or offensive from a text, often excessively; to censor.",
+        "example": "The Victorian edition had been heavily bowdlerised, stripping the original of its satirical bite.",
+        "register": "formal",
+        "tags": [
+          "censorship",
+          "editing",
+          "literature"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141955,8 +142194,29 @@
     "term": "burlesque",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A comically exaggerated imitation of something; a literary or dramatic work that mocks its subject through parody.",
+        "example": "The play was a brilliant burlesque of political oratory, exposing the hollow posturing of modern leadership.",
+        "register": "formal",
+        "tags": [
+          "satire",
+          "parody",
+          "theatre"
+        ]
+      },
+      {
+        "definition": "A type of theatrical entertainment featuring humour, striptease, and variety acts.",
+        "example": "The revival of burlesque theatre attracted audiences nostalgic for the performance style of the early twentieth century.",
+        "register": "neutral",
+        "tags": [
+          "performance",
+          "entertainment",
+          "variety"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141966,8 +142226,19 @@
     "term": "catastrophise",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To view or present a situation as considerably worse than it actually is; to engage in excessively negative thinking.",
+        "example": "The therapist helped him recognise that he was catastrophising, interpreting minor setbacks as evidence of total failure.",
+        "register": "neutral",
+        "tags": [
+          "psychology",
+          "cognitive distortion",
+          "negative thinking"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141977,8 +142248,19 @@
     "term": "delve",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To research or investigate something deeply; to reach into and search through something.",
+        "example": "The biographer delved into previously sealed archives to reconstruct the statesman's private doubts.",
+        "register": "neutral",
+        "tags": [
+          "research",
+          "investigation",
+          "reading"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141988,8 +142270,19 @@
     "term": "disentangle",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To free from a tangle or complicated situation; to unravel or separate.",
+        "example": "It took years to disentangle the company's accounts from those of its insolvent parent.",
+        "register": "neutral",
+        "tags": [
+          "untangling",
+          "separation",
+          "clarification"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -141999,8 +142292,19 @@
     "term": "divulge",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To make known (private or secret information); to reveal or disclose.",
+        "example": "She refused to divulge her sources despite sustained pressure from the editor-in-chief.",
+        "register": "formal",
+        "tags": [
+          "disclosure",
+          "secrecy",
+          "information"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142010,8 +142314,19 @@
     "term": "domineer",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To assert one's will over others in an arrogant way; to bully or tyrannise.",
+        "example": "He had a tendency to domineer in group discussions, rarely allowing others to complete their thoughts.",
+        "register": "formal",
+        "tags": [
+          "bullying",
+          "control",
+          "behaviour"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142021,8 +142336,29 @@
     "term": "ebb",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Of the tide: to go out; to recede or fall back.",
+        "example": "As the tide ebbed, pools of water formed in the hollows of the rocky shoreline.",
+        "register": "neutral",
+        "tags": [
+          "tide",
+          "water",
+          "nature"
+        ]
+      },
+      {
+        "definition": "To gradually decrease or decline.",
+        "example": "His confidence ebbed as the audience's responses grew noticeably cooler over the course of the lecture.",
+        "register": "formal",
+        "tags": [
+          "decline",
+          "decrease",
+          "figurative"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142032,8 +142368,19 @@
     "term": "effusive",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Expressing feelings of gratitude, pleasure, or approval in an unrestrained or excessive manner.",
+        "example": "The director was effusive in his praise of the actor's performance, calling it the finest of the decade.",
+        "register": "neutral",
+        "tags": [
+          "praise",
+          "emotion",
+          "expression"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142043,8 +142390,19 @@
     "term": "engulf",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To sweep over and completely surround; to overwhelm or swallow up entirely.",
+        "example": "The fire engulfed three adjacent buildings before the brigade brought it under control.",
+        "register": "neutral",
+        "tags": [
+          "surround",
+          "overwhelm",
+          "disaster"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142054,8 +142412,19 @@
     "term": "gesticulate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To use gestures, especially dramatic ones, instead of or in addition to speech.",
+        "example": "He gesticulated wildly as he described the chaos at the accident scene.",
+        "register": "neutral",
+        "tags": [
+          "gesture",
+          "body language",
+          "communication"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142065,8 +142434,19 @@
     "term": "harness",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To control and make use of natural resources or abilities.",
+        "example": "The project aims to harness solar energy for use in remote communities without grid access.",
+        "register": "neutral",
+        "tags": [
+          "utilise",
+          "energy",
+          "control"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142076,8 +142456,19 @@
     "term": "implore",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To beg someone earnestly or desperately to do something.",
+        "example": "She implored the court to show mercy, citing the defendant's difficult childhood and subsequent rehabilitation.",
+        "register": "formal",
+        "tags": [
+          "pleading",
+          "desperation",
+          "request"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142087,8 +142478,29 @@
     "term": "induce",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To succeed in persuading or leading someone to do something.",
+        "example": "Nothing could induce him to accept a deal he considered fundamentally unjust.",
+        "register": "formal",
+        "tags": [
+          "persuasion",
+          "causation",
+          "influence"
+        ]
+      },
+      {
+        "definition": "To bring about or give rise to; to cause.",
+        "example": "The drug induces a state of deep relaxation by suppressing activity in the central nervous system.",
+        "register": "technical",
+        "tags": [
+          "cause",
+          "medicine",
+          "effect"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142098,8 +142510,29 @@
     "term": "infuse",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To fill something with a quality or substance; to imbue.",
+        "example": "The new director infused the staid production with a spirit of experimentation that the company had long lacked.",
+        "register": "formal",
+        "tags": [
+          "imbue",
+          "inspire",
+          "fill"
+        ]
+      },
+      {
+        "definition": "To soak in liquid to extract the flavour or active ingredient.",
+        "example": "The herbs were left to infuse in boiling water for ten minutes before the tea was strained.",
+        "register": "neutral",
+        "tags": [
+          "cooking",
+          "drink",
+          "medicine"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142109,8 +142542,19 @@
     "term": "acicular",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Needle-shaped; slender and sharp-pointed.",
+        "example": "The acicular crystals of the mineral formed an intricate lattice visible only under high magnification.",
+        "register": "technical",
+        "tags": [
+          "botany",
+          "geology",
+          "mineralogy"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142120,8 +142564,19 @@
     "term": "acuminous",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Pointed at the end; tapering to a sharp point.",
+        "example": "The acuminous leaves of the plant aid in channelling rainfall down towards the roots.",
+        "register": "technical",
+        "tags": [
+          "botany",
+          "shape",
+          "biology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142131,8 +142586,19 @@
     "term": "adscititious",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Added or derived from an external source; supplementary; not inherent.",
+        "example": "The committee questioned whether the adscititious regulations were consistent with the original statutory framework.",
+        "register": "technical",
+        "tags": [
+          "addition",
+          "external",
+          "law"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142142,8 +142608,19 @@
     "term": "agrestic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Relating to fields and rural life; unpolished in manners; rustic.",
+        "example": "The poet celebrated an agrestic simplicity that the literary establishment viewed with condescension.",
+        "register": "literary",
+        "tags": [
+          "rural",
+          "pastoral",
+          "unpolished"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142153,8 +142630,19 @@
     "term": "alembicated",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Excessively refined or over-elaborate; over-distilled to the point of obscurity.",
+        "example": "The essay's alembicated prose alienated readers who might otherwise have appreciated its insights.",
+        "register": "literary",
+        "tags": [
+          "style",
+          "writing",
+          "over-refinement"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142164,8 +142652,19 @@
     "term": "anhedonic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Of or relating to anhedonia; characterised by an inability to feel pleasure.",
+        "example": "The patient described an anhedonic state in which formerly enjoyable activities held no appeal.",
+        "register": "technical",
+        "tags": [
+          "psychology",
+          "mental health",
+          "depression"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142175,8 +142674,19 @@
     "term": "antipodean",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Relating to Australia and New Zealand; diametrically opposite.",
+        "example": "The documentary explored antipodean perspectives on migration and identity.",
+        "register": "neutral",
+        "tags": [
+          "geography",
+          "Australia",
+          "New Zealand"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142186,8 +142696,19 @@
     "term": "ascendant",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Rising in power or influence; dominant or gaining supremacy.",
+        "example": "With her rival weakened by scandal, she was now in the ascendant within the party.",
+        "register": "formal",
+        "tags": [
+          "power",
+          "rising",
+          "influence"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142197,8 +142718,19 @@
     "term": "asinine",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Extremely stupid or foolish; resembling or characteristic of an ass.",
+        "example": "The committee rejected the asinine suggestion that the problem could be solved simply by ignoring it.",
+        "register": "informal",
+        "tags": [
+          "stupidity",
+          "foolishness",
+          "insult"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142208,8 +142740,19 @@
     "term": "beguiling",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Charming or enchanting in a deceptive way; attracting and holding interest.",
+        "example": "She had a beguiling manner that inspired trust even before she had spoken a word.",
+        "register": "neutral",
+        "tags": [
+          "charm",
+          "attraction",
+          "deception"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142219,8 +142762,19 @@
     "term": "bumptious",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Irritatingly self-assertive; presumptuously pushy; obtrusively conceited.",
+        "example": "The new recruit was competent but so bumptious in meetings that colleagues dreaded his contributions.",
+        "register": "informal",
+        "tags": [
+          "arrogance",
+          "behaviour",
+          "self-assertion"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142230,8 +142784,19 @@
     "term": "allurement",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The quality of being attractive and enticing; something that attracts or tempts.",
+        "example": "The allurement of easy profit led many investors into schemes that had no sound underlying business.",
+        "register": "formal",
+        "tags": [
+          "attraction",
+          "temptation",
+          "enticement"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142241,8 +142806,19 @@
     "term": "crepuscular",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Relating to twilight; active during the period between day and night; dimly lit.",
+        "example": "Many deer are crepuscular animals, feeding most actively at dawn and dusk to avoid the heat of the day.",
+        "register": "formal",
+        "tags": [
+          "twilight",
+          "biology",
+          "light"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142252,8 +142828,19 @@
     "term": "demagogy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Political activity or rhetoric that appeals to the emotions and prejudices of the masses rather than to rational argument.",
+        "example": "Historians debated whether his electoral strategy was principled populism or naked demagogy.",
+        "register": "formal",
+        "tags": [
+          "politics",
+          "populism",
+          "rhetoric"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142263,8 +142850,19 @@
     "term": "despondency",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A state of low spirits caused by loss of hope or courage; dejection.",
+        "example": "Years of failed attempts had not broken his spirit, though there were moments of deep despondency.",
+        "register": "formal",
+        "tags": [
+          "emotion",
+          "hopelessness",
+          "depression"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142274,8 +142872,19 @@
     "term": "edification",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The improvement of a person morally or intellectually; instruction or enlightenment.",
+        "example": "The lectures were intended for the edification of the public, not merely as an academic exercise.",
+        "register": "formal",
+        "tags": [
+          "education",
+          "improvement",
+          "enlightenment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -142285,8 +142894,19 @@
     "term": "exultant",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Triumphantly happy; rejoicing greatly.",
+        "example": "The crowd was exultant when the underdog team scored in the final minute to secure victory.",
+        "register": "neutral",
+        "tags": [
+          "joy",
+          "triumph",
+          "emotion"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
