@@ -175543,56 +175543,130 @@
     "term": "socialinė žiniasklaida",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Internetinės platformos, kuriose vartotojai kuria, dalijasi turiniu ir bendrauja tarpusavyje.",
+        "example": "Socialinė žiniasklaida keičia politinę komunikaciją.",
+        "register": "general",
+        "tags": [
+          "media",
+          "technology",
+          "communication"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "social media"
   },
   {
     "term": "naujienlaiškis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Reguliariai siunčiamas informacinis elektroninis laiškas prenumeratoriams.",
+        "example": "Prenumeruoju keleto žurnalų naujienlaišką.",
+        "register": "general",
+        "tags": [
+          "media",
+          "communication"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "newsletter",
+    "gender": "masculine",
+    "cases": {
+      "masculine": {
+        "singular": {
+          "nominative": "naujienlaiškis",
+          "genitive": "naujienlaiškio",
+          "dative": "naujienlaiškiui",
+          "accusative": "naujienlaiškį",
+          "instrumental": "naujienlaišku",
+          "locative": "naujienlaiškyje",
+          "vocative": "naujienlaiški"
+        },
+        "plural": {
+          "nominative": "naujienlaiškiai",
+          "genitive": "naujienlaiškių",
+          "dative": "naujienlaiškiams",
+          "accusative": "naujienlaiškius",
+          "instrumental": "naujienlaiškiais",
+          "locative": "naujienlaiškiuose",
+          "vocative": "naujienlaiškiai"
+        }
+      }
+    }
   },
   {
     "term": "turinio rinkodara",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Rinkodara, kuri remiasi vertingo ir aktualaus turinio kūrimu ir platinimu, siekiant pritraukti auditoriją.",
+        "example": "Turinio rinkodara apima tinklaraščius, vaizdo įrašus ir infografiką.",
+        "register": "technical",
+        "tags": [
+          "marketing",
+          "business"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "content marketing"
   },
   {
     "term": "skaitmeninė rinkodara",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Produktų ir paslaugų reklama naudojant skaitmenines platformas ir interneto kanalus.",
+        "example": "Skaitmeninė rinkodara yra ekonomiškesnė už tradicinę reklamą.",
+        "register": "technical",
+        "tags": [
+          "marketing",
+          "technology"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "digital marketing"
   },
   {
     "term": "etinis reliatyvizmas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Filosofinė pozicija, teigianti, kad moralės normos yra santykinės ir priklauso nuo kultūros ar individo.",
+        "example": "Etinis reliatyvizmas kelia klausimą, ar egzistuoja universalios moralės normos.",
+        "register": "formal",
+        "tags": [
+          "philosophy",
+          "ethics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
-    "translation": null
+    "translation": "ethical relativism"
   },
   {
     "term": "moralinė filosofija",
