@@ -271,32 +271,6 @@ struct SessionStartView: View {
     // MARK: - Active Session View
     private var sessionActiveView: some View {
         VStack {
-            // Progress header
-            VStack(spacing: 8) {
-                HStack {
-                    Text(studyMode == .quiz || studyMode == .caseTraining
-                         ? "\(studyMode.rawValue) · \(sessionService.sessionWords.count) words"
-                         : "Question \(sessionService.currentIndex + 1) of \(sessionService.sessionWords.count)")
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                    Spacer()
-                    Button("End Session") {
-                        sessionService.endSession()
-                    }
-                    .font(.subheadline)
-                    .foregroundStyle(.red)
-                }
-                .padding(.horizontal)
-
-                if studyMode == .flashcards {                    ProgressView(
-                        value: Double(sessionService.currentIndex),
-                        total: Double(sessionService.sessionWords.count)
-                    )
-                    .padding(.horizontal)
-                }
-            }
-            .padding(.top, 8)
-
             if studyMode == .quiz {
                 QuizView(words: selectedLanguageWords, onComplete: { _, _ in
                     sessionService.reset()
@@ -306,6 +280,29 @@ struct SessionStartView: View {
                     sessionService.reset()
                 })
             } else {
+                // Progress header (flashcards only)
+                VStack(spacing: 8) {
+                    HStack {
+                        Text("Question \(sessionService.currentIndex + 1) of \(sessionService.sessionWords.count)")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                        Spacer()
+                        Button("End Session") {
+                            sessionService.endSession()
+                        }
+                        .font(.subheadline)
+                        .foregroundStyle(.red)
+                    }
+                    .padding(.horizontal)
+
+                    ProgressView(
+                        value: Double(sessionService.currentIndex),
+                        total: Double(sessionService.sessionWords.count)
+                    )
+                    .padding(.horizontal)
+                }
+                .padding(.top, 8)
+
                 FlashcardsView(words: sessionService.sessionWords, onAnswer: { correct in
                     sessionService.recordAnswer(correct: correct)
                 })
