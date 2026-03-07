@@ -4231,7 +4231,7 @@
     "term": "impose",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To force (an unwanted or onerous thing) on someone or something; to establish by authority.",
@@ -4254,16 +4254,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "inflict",
+      "enforce",
+      "levy",
+      "dictate"
+    ],
+    "antonymTerms": [
+      "lift",
+      "repeal"
+    ],
+    "relatedTerms": [
+      "burden",
+      "sanction",
+      "obligation",
+      "tariff",
+      "compulsion"
+    ],
     "translation": null
   },
   {
     "term": "impromptu",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Done without being planned, organised, or rehearsed; spontaneous.",
@@ -4286,16 +4300,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "spontaneous",
+      "extemporaneous",
+      "unrehearsed",
+      "offhand"
+    ],
+    "antonymTerms": [
+      "prepared",
+      "rehearsed"
+    ],
+    "relatedTerms": [
+      "improvisation",
+      "unplanned",
+      "ad hoc",
+      "spontaneity",
+      "off-the-cuff"
+    ],
     "translation": null
   },
   {
     "term": "inconclusive",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Not leading to a clear conclusion or definitive result; failing to settle a point at issue.",
@@ -4308,16 +4336,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "indeterminate",
+      "ambiguous",
+      "unsettled",
+      "unresolved"
+    ],
+    "antonymTerms": [
+      "conclusive",
+      "definitive"
+    ],
+    "relatedTerms": [
+      "result",
+      "evidence",
+      "verdict",
+      "outcome",
+      "stalemate"
+    ],
     "translation": null
   },
   {
     "term": "inflame",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To provoke or intensify (strong feelings, especially negative ones) in a person or situation.",
@@ -4340,16 +4382,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "aggravate",
+      "exacerbate",
+      "incite",
+      "provoke"
+    ],
+    "antonymTerms": [
+      "soothe",
+      "defuse"
+    ],
+    "relatedTerms": [
+      "tension",
+      "passion",
+      "anger",
+      "inflammation",
+      "escalation"
+    ],
     "translation": null
   },
   {
     "term": "misrepresent",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To give a false or misleading account of the nature, facts, or intentions of something.",
@@ -4372,9 +4428,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "distort",
+      "falsify",
+      "misstate",
+      "garble"
+    ],
+    "antonymTerms": [
+      "represent",
+      "portray accurately"
+    ],
+    "relatedTerms": [
+      "deception",
+      "propaganda",
+      "bias",
+      "misinformation",
+      "slant"
+    ],
     "translation": null
   },
   {
