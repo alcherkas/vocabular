@@ -171214,7 +171214,7 @@
     "term": "įterpti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Įdėti elementą į vidurį ar tarp kitų dalių",
@@ -171227,9 +171227,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "įdėti",
+      "talpinti"
+    ],
+    "antonymTerms": [
+      "išimti",
+      "pašalinti"
+    ],
+    "relatedTerms": [
+      "tekstas",
+      "technologija",
+      "valdymas"
+    ],
     "translation": "to insert, to embed",
     "forms": {
       "present3": "įterpia",
@@ -171241,7 +171251,7 @@
     "term": "sutrinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Susmulkinti ar suminti iki vienalytės masės",
@@ -171254,9 +171264,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "sutrupinti",
+      "malti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gaminimas",
+      "kulinarija",
+      "augalai"
+    ],
     "translation": "to grind, to crush, to purée",
     "forms": {
       "present3": "sutrina",
@@ -171268,7 +171285,7 @@
     "term": "paleisti iš naujo",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sistemą ar procesą pradėti veikti iš naujo",
@@ -171281,16 +171298,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "perkrauti",
+      "restartuoti"
+    ],
+    "antonymTerms": [
+      "išjungti"
+    ],
+    "relatedTerms": [
+      "kompiuteris",
+      "programa",
+      "technologija"
+    ],
     "translation": "to restart, to reboot"
   },
   {
     "term": "abejoti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Jaustis neužtikrintam dėl kažko; kelti abejonių",
@@ -171303,9 +171329,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nerimti",
+      "svyruoti"
+    ],
+    "antonymTerms": [
+      "tikėti",
+      "pasitikėti"
+    ],
+    "relatedTerms": [
+      "mąstymas",
+      "psichologija",
+      "sprendimas"
+    ],
     "translation": "to doubt, to be uncertain",
     "forms": {
       "present3": "abejoja",
@@ -171317,7 +171353,7 @@
     "term": "abonentas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, sumokėjęs už reguliarią paslaugą ar leidinį",
@@ -171330,9 +171366,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vartotojas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "paslauga",
+      "mobilus telefonas",
+      "prenumerata"
+    ],
     "translation": "subscriber",
     "cases": {
       "masculine": {
@@ -171362,7 +171404,7 @@
     "term": "srautinė paslauga",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Interneto platforma, teikianti vaizdo ar garso turinį tiesiogiai",
@@ -171375,16 +171417,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "internetinė transliacijos paslauga"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "filmai",
+      "muzika",
+      "internetas"
+    ],
     "translation": "streaming service"
   },
   {
     "term": "dviejų veiksnių autentifikacija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Saugumo metodas reikalaujantis dviejų patikrinimų",
@@ -171397,16 +171445,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "dviguba autentifikacija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "saugumas",
+      "slaptažodis",
+      "paskyra"
+    ],
     "translation": "two-factor authentication"
   },
   {
     "term": "pranešimas spaudai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Oficialus pranešimas žiniasklaidai apie svarbius įvykius",
@@ -171419,16 +171473,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "spaudos pranešimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žurnalistika",
+      "ryšiai",
+      "komunikacija"
+    ],
     "translation": "press release"
   },
   {
     "term": "žurnalo laida",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vienas periodinis leidinys arba televizijos programos epizodas",
@@ -171441,16 +171501,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "leidyklos numeris"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žiniasklaida",
+      "leidinys",
+      "redakcija"
+    ],
     "translation": "magazine issue, journal edition"
   },
   {
     "term": "imtis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pasirinkta atstovų grupė, naudojama viso populiacijos tyrimui",
@@ -171463,9 +171529,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atranka"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "statistika",
+      "tyrimas",
+      "populiacija"
+    ],
     "translation": "sample (statistics)",
     "cases": {
       "feminine": {
@@ -171495,7 +171567,7 @@
     "term": "duomenų rinkimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Informacijos kaupimas analizei ar tyrimui",
@@ -171508,16 +171580,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "duomenų kaupimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "tyrimas",
+      "statistika",
+      "metodologija"
+    ],
     "translation": "data collection"
   },
   {
     "term": "tyrimo metodologija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Principai ir metodai, naudojami moksliniam tyrimui",
@@ -171530,16 +171608,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "mokslinė metodika"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "akademija",
+      "tyrimai",
+      "metodai"
+    ],
     "translation": "research methodology"
   },
   {
     "term": "literatūros apžvalga",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sistematinė anksčiau atliktų tyrimų apžvalga tam tikra tema",
@@ -171552,16 +171636,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "šaltinių apžvalga"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "akademija",
+      "tyrimai",
+      "rašymas"
+    ],
     "translation": "literature review"
   },
   {
     "term": "tyrimų etika",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Etiniai principai, taikomi mokslinių tyrimų vykdymui",
@@ -171576,14 +171666,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "akademija",
+      "filosofija",
+      "duomenys"
+    ],
     "translation": "research ethics"
   },
   {
     "term": "improvizacija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Spontaniškas kūrimas ar veikimas be išankstinio paruošimo",
@@ -171596,9 +171690,18 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "spontaniška kūryba"
+    ],
+    "antonymTerms": [
+      "parengta pasirodymas",
+      "repetavimas"
+    ],
+    "relatedTerms": [
+      "muzika",
+      "džiazas",
+      "kūryba"
+    ],
     "translation": "improvisation",
     "cases": {
       "feminine": {
@@ -171628,7 +171731,7 @@
     "term": "harmonija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Skirtingų elementų darna; muzikoje – akordai",
@@ -171641,9 +171744,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "darna",
+      "susiklausymas"
+    ],
+    "antonymTerms": [
+      "disharmonija",
+      "konfliktas"
+    ],
+    "relatedTerms": [
+      "muzika",
+      "santykiai",
+      "taika"
+    ],
     "translation": "harmony",
     "cases": {
       "feminine": {
@@ -171673,7 +171786,7 @@
     "term": "mažuma",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mažesnė žmonių grupė tam tikros savybės atžvilgiu",
@@ -171686,9 +171799,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "mažesnė grupė"
+    ],
+    "antonymTerms": [
+      "dauguma"
+    ],
+    "relatedTerms": [
+      "demokratija",
+      "teisės",
+      "visuomenė"
+    ],
     "translation": "minority",
     "cases": {
       "feminine": {
@@ -171718,7 +171839,7 @@
     "term": "absoliuti dauguma",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Daugiau nei pusė balsų ar narių",
@@ -171731,16 +171852,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "paprasta dauguma"
+    ],
+    "antonymTerms": [
+      "mažuma"
+    ],
+    "relatedTerms": [
+      "demokratija",
+      "balsavimas",
+      "parlamentas"
+    ],
     "translation": "absolute majority"
   },
   {
     "term": "dviejų trečdalių dauguma",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Dvigubai daugiau nei vienas trečdalis balsų",
@@ -171753,16 +171882,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "kvalifikuota dauguma"
+    ],
+    "antonymTerms": [
+      "paprasta dauguma"
+    ],
+    "relatedTerms": [
+      "politika",
+      "balsavimas",
+      "konstitucija"
+    ],
     "translation": "two-thirds majority"
   },
   {
     "term": "asertyvus elgesys",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Savimi pasitikintis ir tiesioginis elgesys, neagresyvus ir negailestingas",
@@ -171775,16 +171912,25 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "tvirtapėdiškas elgesys"
+    ],
+    "antonymTerms": [
+      "pasyvus elgesys",
+      "agresyvus elgesys"
+    ],
+    "relatedTerms": [
+      "psichologija",
+      "komunikacija",
+      "savireguliavimas"
+    ],
     "translation": "assertive behavior"
   },
   {
     "term": "konfliktų sprendimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Metodai ir procesai ginčams arba nesutarimams išspręsti",
@@ -171797,16 +171943,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "ginčo sprendimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mediacija",
+      "bendravimas",
+      "psichologija"
+    ],
     "translation": "conflict resolution"
   },
   {
     "term": "derybiniai gebėjimai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gebėjimai veiksmingai derėtis ir pasiekti susitarimą",
@@ -171819,16 +171971,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "derybų kompetencijos"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "derybos",
+      "verslas",
+      "diplomatija"
+    ],
     "translation": "negotiation skills"
   },
   {
     "term": "komunikacijos gebėjimai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gebėjimai efektyviai perduoti ir priimti informaciją",
@@ -171841,16 +171999,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "bendravimo įgūdžiai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "karjera",
+      "bendravimas",
+      "ugdymas"
+    ],
     "translation": "communication skills"
   },
   {
     "term": "ministrų kabinetas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vyriausybė, sudaryta iš ministrų",
@@ -171863,16 +172027,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vyriausybė",
+      "ministrų taryba"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "politika",
+      "valdžia",
+      "parlamentas"
+    ],
     "translation": "cabinet of ministers, government cabinet"
   },
   {
     "term": "valdžios institucijos",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Oficialios institucijos, vykdančios valdžios funkcijas",
@@ -171885,16 +172056,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "valstybinės institucijos"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "demokratija",
+      "teisė",
+      "valdžia"
+    ],
     "translation": "government authorities, public authorities"
   },
   {
     "term": "piliečių teisės",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pilietybės suteikiamos teisės ir laisvės",
@@ -171907,16 +172084,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pilietinės teisės"
+    ],
+    "antonymTerms": [
+      "piliečių pareigos"
+    ],
+    "relatedTerms": [
+      "konstitucija",
+      "demokratija",
+      "laisvė"
+    ],
     "translation": "citizens' rights"
   },
   {
     "term": "plėšrūnas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gyvūnas, medžiojantis ir valgantis kitus gyvūnus",
@@ -171929,9 +172114,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "grobiko gyvūnas"
+    ],
+    "antonymTerms": [
+      "grobis"
+    ],
+    "relatedTerms": [
+      "maisto grandinė",
+      "biologija",
+      "gyvūnas"
+    ],
     "translation": "predator",
     "cases": {
       "masculine": {
@@ -171961,7 +172154,7 @@
     "term": "grobis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Medžiojamas ar medžiojamas gyvūnas; plėštas turtas",
@@ -171975,8 +172168,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "plėšrūnas"
+    ],
+    "relatedTerms": [
+      "medžioklė",
+      "gyvūnas",
+      "maisto grandinė"
+    ],
     "translation": "prey, loot, catch",
     "cases": {
       "masculine": {
@@ -172006,7 +172205,7 @@
     "term": "gyvūnų apsauga",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gyvūnų saugojimas nuo kančios ir netinkamo elgesio",
@@ -172019,16 +172218,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "gyvūnų gerovė"
+    ],
+    "antonymTerms": [
+      "gyvūnų žiaurus elgesys"
+    ],
+    "relatedTerms": [
+      "etika",
+      "teisė",
+      "aplinka"
+    ],
     "translation": "animal protection, animal welfare"
   },
   {
     "term": "pragmatiškas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Praktiškas, orientuotas į rezultatus, o ne teorines idėjas",
@@ -172041,9 +172248,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "praktiškas",
+      "realistiškas"
+    ],
+    "antonymTerms": [
+      "idealistiškas",
+      "utopinis"
+    ],
+    "relatedTerms": [
+      "sprendimas",
+      "verslas",
+      "mąstymas"
+    ],
     "translation": "pragmatic",
     "cases": {
       "masculine": {
@@ -172092,7 +172309,7 @@
     "term": "metodiškas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Veikiantis nuosekliai pagal planą ar metodą",
@@ -172105,9 +172322,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sistemingas",
+      "nuoseklus"
+    ],
+    "antonymTerms": [
+      "chaotiškas",
+      "nesistemingas"
+    ],
+    "relatedTerms": [
+      "darbas",
+      "mokslas",
+      "planas"
+    ],
     "translation": "methodical, systematic",
     "cases": {
       "masculine": {
@@ -172156,7 +172383,7 @@
     "term": "nuosekliai",
     "language": "lt",
     "partOfSpeech": "adverb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Veikiant pagal logiką ar sistemą, be prieštaravimų",
@@ -172169,16 +172396,26 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "sistemingai",
+      "tolydžiai"
+    ],
+    "antonymTerms": [
+      "netvarkingai",
+      "chaotiškai"
+    ],
+    "relatedTerms": [
+      "veikimas",
+      "planas",
+      "charakteris"
+    ],
     "translation": "consistently, systematically"
   },
   {
     "term": "kalbinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kreiptis į kitą asmenį, pradedant pokalbį",
@@ -172191,9 +172428,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kreiptis",
+      "tardyti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žurnalistika",
+      "pokalbis",
+      "komunikacija"
+    ],
     "translation": "to address, to talk to, to approach",
     "forms": {
       "present3": "kalbina",
@@ -172205,7 +172449,7 @@
     "term": "pateisinti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Paaiškinti ir pateisinti veiksmus ar elgesį",
@@ -172218,9 +172462,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "išteisinti",
+      "pagrįsti"
+    ],
+    "antonymTerms": [
+      "apkaltinti",
+      "pasmerkti"
+    ],
+    "relatedTerms": [
+      "etika",
+      "teisė",
+      "sprendimas"
+    ],
     "translation": "to justify, to excuse, to vindicate",
     "forms": {
       "present3": "pateisina",
@@ -172232,7 +172486,7 @@
     "term": "daryti išvadą",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Padaryti loginę ar faktinę išvadą remiantis informacija",
@@ -172245,16 +172499,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "apibendrinti",
+      "spręsti"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "logika",
+      "tyrimai",
+      "mąstymas"
+    ],
     "translation": "to draw a conclusion"
   },
   {
     "term": "reikšti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Rodyti ar perteikti mintis, jausmus ar reikšmę",
@@ -172267,9 +172528,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "išreikšti",
+      "pareikšti"
+    ],
+    "antonymTerms": [
+      "nutylėti",
+      "slėpti"
+    ],
+    "relatedTerms": [
+      "komunikacija",
+      "emocija",
+      "kalba"
+    ],
     "translation": "to express, to mean, to signify",
     "forms": {
       "present3": "reiškia",
@@ -172281,7 +172552,7 @@
     "term": "žymėti",
     "language": "lt",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pažymėti ar paskirti ką nors ženklu ar etikete",
@@ -172294,9 +172565,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "pažymėti",
+      "ženklinti"
+    ],
+    "antonymTerms": [
+      "ištrinti",
+      "panaikinti"
+    ],
+    "relatedTerms": [
+      "organizacija",
+      "dokumentas",
+      "sistema"
+    ],
     "translation": "to mark, to designate, to label",
     "forms": {
       "present3": "žymi",
@@ -172308,7 +172589,7 @@
     "term": "atspindys",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atvaizdo atgalinis atspindys paviršiuje; simbolinis poveikis",
@@ -172321,9 +172602,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atvaizadas",
+      "vaizdas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "veidrodis",
+      "fizika",
+      "simbolis"
+    ],
     "translation": "reflection",
     "cases": {
       "masculine": {
@@ -172353,7 +172641,7 @@
     "term": "atstovas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, atstovaujantis kitam asmeniui ar grupei",
@@ -172366,9 +172654,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "delegatas",
+      "įgaliotinis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "politika",
+      "verslas",
+      "atstovavimas"
+    ],
     "translation": "representative, delegate",
     "cases": {
       "masculine": {
@@ -172398,7 +172693,7 @@
     "term": "atstovavimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Veikimas kito vardu; teisinis ar politinis atstovavimaimas",
@@ -172411,9 +172706,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "delegavimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "teisė",
+      "politika",
+      "atstovas"
+    ],
     "translation": "representation",
     "cases": {
       "masculine": {
@@ -172443,7 +172744,7 @@
     "term": "sesija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Oficialus susirinkimas ar Seimo darbo laikotarpis",
@@ -172456,9 +172757,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "posėdis",
+      "susirinkimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "parlamentas",
+      "studijos",
+      "teismas"
+    ],
     "translation": "session",
     "cases": {
       "feminine": {
@@ -172488,7 +172796,7 @@
     "term": "agentas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Atstovavimo veiklą vykdantis asmuo; slaptasis žvalgybos agentas",
@@ -172501,9 +172809,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "atstovas",
+      "tarpininkas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "verslas",
+      "žvalgyba",
+      "nekilnojamasis turtas"
+    ],
     "translation": "agent",
     "cases": {
       "masculine": {
@@ -172533,7 +172848,7 @@
     "term": "tarpininkas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, padedantis dviem šalims susitarti ar komunikuoti",
@@ -172546,9 +172861,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "mediatorius"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mediacija",
+      "ginčas",
+      "verslas"
+    ],
     "translation": "intermediary, mediator",
     "cases": {
       "masculine": {
@@ -172578,7 +172899,7 @@
     "term": "komisija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Specialiai sudaryta ekspertų grupė tikslui pasiekti",
@@ -172591,9 +172912,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "komitetas",
+      "taryba"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "valdyba",
+      "sprendimas",
+      "tyrimas"
+    ],
     "translation": "commission, committee",
     "cases": {
       "feminine": {
@@ -172623,7 +172951,7 @@
     "term": "komitetas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nuolatinė ar laikina narių grupė konkretiems klausimams spręsti",
@@ -172636,9 +172964,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "komisija"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "parlamentas",
+      "valdyba",
+      "sprendimai"
+    ],
     "translation": "committee",
     "cases": {
       "masculine": {
@@ -172668,7 +173002,7 @@
     "term": "tarybos narys",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, priklausantis tarybai ir dalyvaujantis jos sprendimuose",
@@ -172681,16 +173015,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tarybos atstovas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "savivaldybė",
+      "taryba",
+      "politika"
+    ],
     "translation": "council member"
   },
   {
     "term": "rinkų tyrimai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Sisteminis informacijos apie rinkos sąlygas rinkimas ir analizė",
@@ -172703,16 +173043,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "rinkos analizė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "marketingas",
+      "verslas",
+      "strategija"
+    ],
     "translation": "market research"
   },
   {
     "term": "prekės ženklo valdymas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Strateginis prekės ženklo kūrimas ir palaikymas",
@@ -172725,16 +173071,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "prekės ženklo vadyba"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "rinkodara",
+      "verslas",
+      "identitetas"
+    ],
     "translation": "brand management"
   },
   {
     "term": "produkto gyvavimo ciklas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Produkto etapai nuo pristatymo iki atsitraukimo iš rinkos",
@@ -172749,14 +173101,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "marketingas",
+      "verslas",
+      "produktas"
+    ],
     "translation": "product life cycle"
   },
   {
     "term": "tikslinė rinka",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Konkreti žmonių grupė, kuriai skirtas produktas ar paslauga",
@@ -172769,16 +173125,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "tikslinis segmentas"
+    ],
+    "antonymTerms": [
+      "masė rinka"
+    ],
+    "relatedTerms": [
+      "rinkodara",
+      "demografija",
+      "strategija"
+    ],
     "translation": "target market"
   },
   {
     "term": "ūmi liga",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Liga, staigiai prasidedanti ir trumpai trunkanti",
@@ -172791,16 +173155,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "ūmus susirgimas"
+    ],
+    "antonymTerms": [
+      "lėtinė liga"
+    ],
+    "relatedTerms": [
+      "medicina",
+      "sveikata",
+      "gydymas"
+    ],
     "translation": "acute disease, acute illness"
   },
   {
     "term": "profilaktinė medicina",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Medicinos šaka, skirta ligų prevencijai ir rizikos mažinimui",
@@ -172813,16 +173185,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "prevencinė medicina"
+    ],
+    "antonymTerms": [
+      "gydomoji medicina"
+    ],
+    "relatedTerms": [
+      "sveikata",
+      "tikrinimas",
+      "prevencija"
+    ],
     "translation": "preventive medicine"
   },
   {
     "term": "neurodivergingas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmuo, kurio neurologinė raida skiriasi nuo tipinės",
@@ -172836,8 +173216,14 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "neurotipikas"
+    ],
+    "relatedTerms": [
+      "psichologija",
+      "ugdymas",
+      "autizmas"
+    ],
     "translation": "neurodivergent",
     "cases": {
       "masculine": {
@@ -172886,7 +173272,7 @@
     "term": "taupiai naudoti",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Naudoti ekonomiškai, neeikvoti išteklių",
@@ -172899,16 +173285,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "ekonomiškai naudoti"
+    ],
+    "antonymTerms": [
+      "švaistyti"
+    ],
+    "relatedTerms": [
+      "aplinka",
+      "ištekliai",
+      "tvarus"
+    ],
     "translation": "to use sparingly, to conserve"
   },
   {
     "term": "nulinė atliekų politika",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Strategija siekiant kuo mažiau gaminti šiukšlių",
@@ -172921,16 +173315,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "zero waste"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "aplinka",
+      "perdirbimas",
+      "tvarumas"
+    ],
     "translation": "zero waste policy"
   },
   {
     "term": "aplinkai draugiškas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nedarantis žalos aplinkai",
@@ -172943,16 +173343,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "ekologiškas"
+    ],
+    "antonymTerms": [
+      "aplinkai kenksminga"
+    ],
+    "relatedTerms": [
+      "aplinka",
+      "tvarumas",
+      "produktas"
+    ],
     "translation": "environmentally friendly, eco-friendly"
   },
   {
     "term": "biologiškai skaidus",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Gebantis skilti biologiniais procesais į natūralias medžiagas",
@@ -172965,16 +173373,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "biologiškai suyramas"
+    ],
+    "antonymTerms": [
+      "plastiko tipo"
+    ],
+    "relatedTerms": [
+      "chemija",
+      "aplinka",
+      "pakuotė"
+    ],
     "translation": "biodegradable"
   },
   {
     "term": "etninė grupė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žmonių grupė, besidalijanti bendru kultūriniu ar kilmės paveldu",
@@ -172987,16 +173403,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tautinė mažuma"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kultūra",
+      "identitetas",
+      "visuomenė"
+    ],
     "translation": "ethnic group"
   },
   {
     "term": "kultūriniai stereotipai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Supaprastinti apibendrinimai apie kultūrų grupes",
@@ -173010,15 +173432,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "kultūriniai faktai"
+    ],
+    "relatedTerms": [
+      "kultūra",
+      "psichologija",
+      "diskriminacija"
+    ],
     "translation": "cultural stereotypes"
   },
   {
     "term": "socialinis mobilumas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Galimybė judėti aukštyn arba žemyn socialiniame sluoksnio hierarchijoje",
@@ -173032,15 +173460,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "socialinė stagnacija"
+    ],
+    "relatedTerms": [
+      "ekonomika",
+      "švietimas",
+      "nelygybė"
+    ],
     "translation": "social mobility"
   },
   {
     "term": "blokų grandinės technologija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Decentralizuota skaitmeninė technologija saugiam duomenų saugojimui",
@@ -173053,16 +173487,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "blockchain"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kriptovaliuta",
+      "technologija",
+      "saugumas"
+    ],
     "translation": "blockchain technology"
   },
   {
     "term": "kriptografija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Mokslas apie pranešimų apsaugą naudojant šifravimą",
@@ -173075,9 +173515,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "šifravimas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "saugumas",
+      "matematika",
+      "technologija"
+    ],
     "translation": "cryptography",
     "cases": {
       "feminine": {
@@ -173107,7 +173553,7 @@
     "term": "duomenų centras",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Fizinė infrastruktūra, talpinanti serverius ir tinklo įrangą",
@@ -173120,16 +173566,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "serverių centras"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "technologija",
+      "cloud",
+      "internetas"
+    ],
     "translation": "data center"
   },
   {
     "term": "tinklo saugumas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Kompiuterių tinklo apsauga nuo neteisėtos prieigos",
@@ -173142,16 +173594,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kibernetinis saugumas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "IT",
+      "kompiuteris",
+      "apsauga"
+    ],
     "translation": "network security"
   },
   {
     "term": "nešališkas",
     "language": "lt",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nepalaikantis nė vienos pusės; nešališka nuomonė",
@@ -173164,9 +173622,19 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "neutralus",
+      "objektyvus"
+    ],
+    "antonymTerms": [
+      "šališkas",
+      "tendencingas"
+    ],
+    "relatedTerms": [
+      "teismas",
+      "žurnalistika",
+      "etika"
+    ],
     "translation": "impartial, unbiased, neutral",
     "cases": {
       "masculine": {
@@ -173215,7 +173683,7 @@
     "term": "poreikių patenkinimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žmogaus ar organizacijos poreikių patenkinimas",
@@ -173228,16 +173696,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "poreikių tenkinimas"
+    ],
+    "antonymTerms": [
+      "poreikių netenkinimas"
+    ],
+    "relatedTerms": [
+      "psichologija",
+      "verslas",
+      "motyvacija"
+    ],
     "translation": "needs fulfillment, satisfaction of needs"
   },
   {
     "term": "lojalumas prekei",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vartotojo ištikimybė tam tikram prekės ženklui",
@@ -173250,16 +173726,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "prekės ženklo ištikimybė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "marketingas",
+      "psichologija",
+      "pirkimas"
+    ],
     "translation": "brand loyalty"
   },
   {
     "term": "prekių ženklas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Grafinis ar žodinis ženklas, skiriantis vieno gamintojo prekes nuo kito",
@@ -173272,16 +173754,23 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "prekės ženklas",
+      "brendo ženklas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "verslas",
+      "rinkodara",
+      "IP"
+    ],
     "translation": "trademark, brand"
   },
   {
     "term": "pardavimų strategija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Planas, kaip parduoti produktus ar paslaugas tikslinei auditorijai",
@@ -173296,14 +173785,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "verslas",
+      "marketingas",
+      "pardavimai"
+    ],
     "translation": "sales strategy"
   },
   {
     "term": "vieneto savikaina",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Vieno gaminio gamybos sąnaudų suma",
@@ -173316,16 +173809,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vieneto kaina"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gamyba",
+      "finansai",
+      "ekonomika"
+    ],
     "translation": "unit cost, cost per unit"
   },
   {
     "term": "gamybos sąnaudos",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Visos išlaidos, skirtos produkcijos gamybai",
@@ -173338,16 +173837,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "gamybos kaštai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "gamyba",
+      "finansai",
+      "ekonomika"
+    ],
     "translation": "production costs"
   },
   {
     "term": "ūkininkavimas",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žemės ūkio veikla augalininkystei ar gyvulininkystei",
@@ -173360,9 +173865,16 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "žemdirbystė",
+      "žemės ūkis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "maistas",
+      "kaimas",
+      "gamta"
+    ],
     "translation": "farming, agriculture",
     "cases": {
       "masculine": {
@@ -173392,7 +173904,7 @@
     "term": "melioracija",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žemės pagerinimas drenavimu ar kitomis hidrotechninėmis priemonėmis",
@@ -173405,9 +173917,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "drenažas"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "žemdirbystė",
+      "inžinerija",
+      "vanduo"
+    ],
     "translation": "land improvement, drainage",
     "cases": {
       "feminine": {
@@ -173437,7 +173955,7 @@
     "term": "agrokultūra",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žemdirbystė ir su ja susijusi žinojimo kultūra",
@@ -173450,9 +173968,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "žemės ūkis"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ūkininkavimas",
+      "maistas",
+      "gamyba"
+    ],
     "translation": "agiculture, farming culture",
     "cases": {
       "feminine": {
@@ -173482,7 +174006,7 @@
     "term": "biologinis žemės ūkis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žemės ūkio sistema, vengianti sintetinių trąšų ir pesticidų",
@@ -173495,16 +174019,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "organinė žemdirbystė"
+    ],
+    "antonymTerms": [
+      "konvencinis žemės ūkis"
+    ],
+    "relatedTerms": [
+      "maistas",
+      "aplinka",
+      "ekologija"
+    ],
     "translation": "organic farming"
   },
   {
     "term": "bitininkystė",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Bičių laikymas medui ir vašku gaminti",
@@ -173517,9 +174049,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "bičiulininkystė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "medus",
+      "bitės",
+      "ekosistema"
+    ],
     "translation": "beekeeping, apiculture",
     "cases": {
       "feminine": {
@@ -173549,7 +174087,7 @@
     "term": "tradiciniai amatai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Senos, rankdarbiais pagrįstos veiklos ir įgūdžiai",
@@ -173562,16 +174100,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "liaudies amatai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "kultūros paveldas",
+      "tradicija",
+      "menas"
+    ],
     "translation": "traditional crafts"
   },
   {
     "term": "spalvotoji metalurgija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Metalurgijos šaka, dirbanti su negeležiniais metalais",
@@ -173585,15 +174129,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "juodoji metalurgija"
+    ],
+    "relatedTerms": [
+      "pramonė",
+      "metalai",
+      "chemija"
+    ],
     "translation": "non-ferrous metallurgy"
   },
   {
     "term": "medienos pramonė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pramonės šaka, perdirbanti medieną ir gaminanti medienos produktus",
@@ -173606,16 +174156,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "miškų pramonė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "medis",
+      "pramonė",
+      "gamta"
+    ],
     "translation": "timber industry, wood industry"
   },
   {
     "term": "tekstilės pramonė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pramonė, gaminanti audinius, drabužius ir kitus tekstilės produktus",
@@ -173628,16 +174184,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "tekstilės sektoriaus"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "mada",
+      "gamyba",
+      "istorija"
+    ],
     "translation": "textile industry"
   },
   {
     "term": "baltosios apykaklės",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Biuro ar administraciniai darbuotojai, dirbantys protinį darbą",
@@ -173651,15 +174213,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "mėlynosios apykaklės"
+    ],
+    "relatedTerms": [
+      "darbas",
+      "biuras",
+      "klasė"
+    ],
     "translation": "white-collar workers"
   },
   {
     "term": "mėlynosios apykaklės",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Fizinio darbo darbuotojai, dirbantys gamyboje ar statybose",
@@ -173673,15 +174241,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "baltosios apykaklės"
+    ],
+    "relatedTerms": [
+      "darbas",
+      "gamykla",
+      "klasė"
+    ],
     "translation": "blue-collar workers"
   },
   {
     "term": "laisvasamdis",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Nepriklausomas dirbantysis, dirbantis be nuolatinio darbdavio",
@@ -173694,9 +174268,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "nepriklausomas darbuotojas"
+    ],
+    "antonymTerms": [
+      "darbuotojas"
+    ],
+    "relatedTerms": [
+      "darbas",
+      "ekonomika",
+      "savarankiškumas"
+    ],
     "translation": "freelancer",
     "cases": {
       "masculine": {
@@ -173726,7 +174308,7 @@
     "term": "darbo birža",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Institucija, padedanti bedarbiams rasti darbą",
@@ -173739,16 +174321,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "užimtumo tarnyba"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nedarbas",
+      "darbas",
+      "valstybė"
+    ],
     "translation": "employment office, job center"
   },
   {
     "term": "darbdaviai",
     "language": "lt",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Asmenys ar organizacijos, samdančios darbuotojus",
@@ -173761,9 +174349,17 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "darbdavys"
+    ],
+    "antonymTerms": [
+      "darbuotojai"
+    ],
+    "relatedTerms": [
+      "darbas",
+      "teisė",
+      "darbo sutartis"
+    ],
     "translation": "employers",
     "cases": {
       "masculine": {
@@ -173793,7 +174389,7 @@
     "term": "darbuotojų teisės",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Darbuotojams teisinės teisės darbo vietoje",
@@ -173806,16 +174402,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "darbo teisės"
+    ],
+    "antonymTerms": [
+      "darbdavio teisės"
+    ],
+    "relatedTerms": [
+      "darbas",
+      "teisė",
+      "profsąjunga"
+    ],
     "translation": "workers' rights, employee rights"
   },
   {
     "term": "kolektyvinė derybos",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Darbdavių ir profsąjungų derybos dėl darbo sąlygų",
@@ -173828,16 +174432,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "kolektyviniai derybų procesai"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "profsąjunga",
+      "darbdavys",
+      "sutartis"
+    ],
     "translation": "collective bargaining"
   },
   {
     "term": "streikos teisė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Darbuotojų teisė sustabdyti darbą kaip spaudimo priemonę derybose",
@@ -173852,14 +174462,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "profsąjunga",
+      "darbas",
+      "teisė"
+    ],
     "translation": "right to strike"
   },
   {
     "term": "minimalus darbo užmokestis",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Žemiausias teisiškai leistinas darbo užmokestis",
@@ -173873,15 +174487,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "maksimalus darbo užmokestis"
+    ],
+    "relatedTerms": [
+      "ekonomika",
+      "teisė",
+      "darbas"
+    ],
     "translation": "minimum wage"
   },
   {
     "term": "pensijų sistema",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Organizuotas pensijų kaupimo ir mokėjimo procesas",
@@ -173896,14 +174516,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "socialinis draudimas",
+      "demografija",
+      "valstybė"
+    ],
     "translation": "pension system"
   },
   {
     "term": "valstybinė pensija",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Valstybės mokama pensija atitinkamiems reikalavimams patenkinusiems",
@@ -173917,15 +174541,21 @@
       }
     ],
     "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "antonymTerms": [
+      "privati pensija"
+    ],
+    "relatedTerms": [
+      "pensijų sistema",
+      "senatvė",
+      "valstybė"
+    ],
     "translation": "state pension"
   },
   {
     "term": "vaiko priežiūros pašalpa",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Valstybės išmoka tėvams, auginantiems mažamečius vaikus",
@@ -173938,16 +174568,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "motinystės pašalpa"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šeima",
+      "valstybė",
+      "vaikai"
+    ],
     "translation": "childcare benefit, parental benefit"
   },
   {
     "term": "šeimos pašalpa",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Valstybės finansinė parama šeimoms su vaikais",
@@ -173960,16 +174596,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "vaiko pašalpa"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "šeima",
+      "socialinė apsauga",
+      "vaikas"
+    ],
     "translation": "family benefit"
   },
   {
     "term": "bedarbių rėmimas",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Valstybinės ir privačios paramos programos bedarbiams",
@@ -173982,16 +174624,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "bedarbių parama"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "nedarbas",
+      "socialinė politika",
+      "valstybė"
+    ],
     "translation": "support for unemployed, unemployment support"
   },
   {
     "term": "visuomenės gerovė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Visuomenės narių bendroji gyvenimo kokybė",
@@ -174004,16 +174652,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "socialinė gerovė"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "ekonomika",
+      "politika",
+      "sveikata"
+    ],
     "translation": "social welfare, public welfare"
   },
   {
     "term": "socialinė politika",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Valdžios priemonės visuomenės socialinės gerovės užtikrinimui",
@@ -174028,14 +174682,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "valdyba",
+      "gerovė",
+      "piliečiai"
+    ],
     "translation": "social policy"
   },
   {
     "term": "demografiniai pokyčiai",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Pokyčiai gyventojų struktūroje ir skaičiuje laikui bėgant",
@@ -174050,14 +174708,18 @@
     ],
     "synonyms": [],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "demografija",
+      "visuomenė",
+      "statistika"
+    ],
     "translation": "demographic changes"
   },
   {
     "term": "senėjanti visuomenė",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Visuomenė, kurioje didėja vyresnio amžiaus asmenų dalis",
@@ -174070,16 +174732,24 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "senstanti populiacija"
+    ],
+    "antonymTerms": [
+      "jaunėjanti visuomenė"
+    ],
+    "relatedTerms": [
+      "demografija",
+      "socialinė apsauga",
+      "medicina"
+    ],
     "translation": "aging society, aging population"
   },
   {
     "term": "gyventojų skaičius",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Tam tikros vietovės gyventojų bendras skaičius",
@@ -174092,16 +174762,22 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "populiacijos skaičius"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "demografija",
+      "statistika",
+      "emigracija"
+    ],
     "translation": "population size, population count"
   },
   {
     "term": "miesto infrastruktūra",
     "language": "lt",
     "partOfSpeech": "phrase",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Miesto fiziniai tinklai ir sistemos kaip keliai, vandentiekis, elektra",
@@ -174114,9 +174790,15 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "urbanistinė infrastruktūra"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "miestas",
+      "urbanistika",
+      "investicijos"
+    ],
     "translation": "urban infrastructure"
   }
 ]
