@@ -4383,8 +4383,6 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - LT synonym quality: verbs like `pokalbiauti`, `atsakinėti` are valid nominative infinitives and pass validation.
 
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 ## QA Agent — vocab/qa-52 — $(date +%Y-%m-%d)
 
@@ -4410,7 +4408,6 @@ Copilot (vocab relations agent), branch `vocab/relations-41`, worktree `/Users/a
 - For domain-specific LT media vocabulary, synonyms must share the same level of abstraction (medium ≠ device, profession ≠ institution, subtype ≠ whole type)
 - When a qaNote flags a specific synonym as wrong, that synonym must be removed before resubmitting
 - For highly specialized genre terms (fabliau, conte) avoid falling back to generic hypernyms; if no true synonym exists, fewer is better than wrong
-=======
 ## Retro — vocab/enricher-en-47 (English stub enrichment)
 **Date**: 2025-07-22
 **Agent**: enricher-en-47
@@ -4429,7 +4426,6 @@ Enriched all 15 stub entries across several specialist domains: literary fiction
 
 ### Outcome
 Branch `vocab/enricher-en-47` is ready for merge review. No stubs remain in words_staging.json.
->>>>>>> vocab/enricher-en-47
 =======
 
 ## Retro: enricher-lt-64 — 2025-07-09
@@ -4466,9 +4462,6 @@ None blocking. Validation passed cleanly.
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## QA-53 — Vocab QA Agent Retrospective
 
 **Date:** 2025-07-28
@@ -4494,7 +4487,6 @@ None blocking. Validation passed cleanly.
 - For technical EN terms with only near-identical synonym variants (e.g. one term differing only by addition of "key" or "based"), the relations agent could be prompted to seek more semantically distinct synonyms
 - Validation script usage (`--staging` flag) differs from the task instruction template — keep docs in sync
 
-=======
 ## Seeder EN-14 — 2025-07 — vocab/seeder-en-14
 
 ### Agent
@@ -4521,7 +4513,6 @@ Seed 100 new C1/C2 English stub entries into `words_staging.json`.
 
 ### Issues encountered
 None blocking.
->>>>>>> vocab/seeder-en-14
 =======
 ## Retro: enricher-lt-65 — 2025-01-27
 
@@ -4574,8 +4565,6 @@ None blocking.
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## QA Agent — vocab/qa-54 — $(date +%Y-%m-%d)
 
 **Scope:** Reviewed and approved vocabulary entries with status `relations-added` in both staging files.
@@ -4590,7 +4579,6 @@ None blocking.
 **Validation:** Both staging files passed `validate_words.py --errors-for approved` with 0 errors.
 
 **Total approved:** 36 entries (1 EN + 35 LT)
-=======
 ## Retrospective: enricher-en-48 — Enrich 35 English stubs
 
 **Date:** 2025-07-24
@@ -4621,7 +4609,6 @@ Each entry received: `partOfSpeech`, `register`, `level` (C1 or C2), and `meanin
 - Always probe `--help` before running validate scripts to catch flag syntax differences.
 - Enriching terms from the same semantic domain in a single batch improves definition consistency and cross-referencing accuracy.
 
->>>>>>> vocab/enricher-en-48
 =======
 ## Retrospective — enricher-lt-66 (2025-07-15)
 
@@ -4647,9 +4634,6 @@ Enriched 35 stub entries across five thematic groups: numbers (30–100), bedroo
 >>>>>>> vocab/enricher-lt-66
 
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 ## QA-55 · 2025-07-17
 
@@ -4668,7 +4652,6 @@ Enriched 35 stub entries across five thematic groups: numbers (30–100), bedroo
 ### Recommendations
 - The relations agent should always serialise `antonymTerms` as plain strings, not objects with `term`/`meaning` fields. Consider adding a validator check that items in relation arrays are strings (not dicts).
 - When placing a term in `antonymTerms`, the agent should also ensure it is not already in `relatedTerms`.
-=======
 ## Retro — vocab/enricher-en-49 (EN Enricher, 35 stubs)
 
 **Date:** 2025-07-18
@@ -4697,7 +4680,6 @@ Each entry received: `partOfSpeech`, `register`, `level` (C1/C2), and 1–2 `mea
 ### What could improve
 - Multi-sense entries (e.g. "war of attrition") benefit from splitting general and technical registers explicitly; worth doing consistently for future batches.
 - Terms from specialist domains (game theory, materials science) could cross-reference related terms for better app discoverability.
->>>>>>> vocab/enricher-en-49
 =======
 ## Retro: LT Enricher Agent — vocab/enricher-lt-67
 **Date:** 2025-07-31
@@ -4748,7 +4730,6 @@ None.
 >>>>>>> vocab/relations-56
 
 ---
-<<<<<<< HEAD
 
 ## Retrospective — vocab/enricher-en-50 (EN stubs batch, 2025-01)
 
@@ -4778,7 +4759,6 @@ All 162 staging entries passed `validate_words.py --errors-for enriched`. Zero s
 
 ### Lessons
 - Thematic clustering speeds enrichment and ensures register/tag consistency within a domain.
-=======
 ## Retro — vocab/enricher-lt-68 (2025-07-23)
 
 **Agent:** LT Enricher (enricher-lt-68)
@@ -4794,10 +4774,8 @@ All 162 staging entries passed `validate_words.py --errors-for enriched`. Zero s
 - "galima" and "draudžiama" are impersonal modal predicates; chose adverb/adjective partOfSpeech to best reflect their functional role.
 
 **Stubs remaining:** 98
->>>>>>> vocab/enricher-lt-68
 
 ---
-<<<<<<< HEAD
 
 ## Retro: vocab/relations-en-58 — EN Relations Agent (2025-01)
 
@@ -4820,7 +4798,6 @@ All 162 staging entries passed `validate_words.py --errors-for enriched`. Zero s
 - The pre-check script should exit(1) immediately on errors, not after writing the file.
 - Consider adding a `--dry-run` option to the validate script to test before applying.
 - The substring self-reference rule should be documented more prominently in VOCAB-AGENT.md with concrete examples (compound terms are especially prone to this).
-=======
 ## Retro — vocab/enricher-lt-69 (LT Enricher, 2025)
 
 **Agent**: LT Vocabulary Enricher
@@ -4848,7 +4825,6 @@ Each entry includes: partOfSpeech, register (general), level, Lithuanian example
 ### Decisions made
 - Used `numeral` partOfSpeech for both cardinal phrase-numbers and collective numerals (consistent with existing enriched entries).
 - Zodiac sign proper nouns kept capitalised per AGENTS.md exception rule.
->>>>>>> vocab/enricher-lt-69
 
 ---
 
@@ -4872,8 +4848,6 @@ Each entry includes: partOfSpeech, register (general), level, Lithuanian example
 
 
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Retro: vocab/seeder-en-15 — 2025-07-17
 
 **Agent**: English Vocabulary Seeder (seeder-en-15)
@@ -4897,7 +4871,6 @@ Each entry includes: partOfSpeech, register (general), level, Lithuanian example
 
 **Improvements for next time**:
 - Pre-check candidate list for internal duplicates and against existing terms in one pass before generating the full list.
-=======
 
 ## Relations Agent — EN batch 59 (vocab/relations-en-59)
 
@@ -4931,7 +4904,6 @@ Each entry includes: partOfSpeech, register (general), level, Lithuanian example
 ### What to improve
 - For multi-sense entries, the entry-level `synonyms` field forces a compromise — consider per-meaning synonyms in a future schema revision
 - Some highly technical terms (poststructuralism, nominalism) have genuinely few co-extensive synonyms; QA Reviewer should be aware these are best-available options
->>>>>>> vocab/relations-en-59
 =======
 ## Retro: vocab/relations-lt-61 (batch 1) — 2025-07-20
 
@@ -4983,7 +4955,6 @@ Added synonyms, antonymTerms, and relatedTerms to 40 valid enriched LT entries. 
 - The validator `--errors-for relations-added` flag correctly scoped exit code to only the new batch.
 
 ---
-<<<<<<< HEAD
 ## Retro — enricher-en-61 — $(date +%Y-%m-%d)
 
 **Agent:** English Vocab Enricher (enricher-en-61)
@@ -5003,7 +4974,6 @@ Enriched 35 stubs spanning five thematic clusters: climate systems (positive/neg
 
 ### Blockers
 None.
-=======
 
 ## Retro: vocab/relations-en-60 — EN Relations Batch
 
@@ -5029,7 +4999,6 @@ PASSED — 227 entries valid (0 errors). Used `--errors-for relations-added` fla
 
 ### What could improve
 - Some technical/philosophical terms have few true co-extensive synonyms; 2 is sometimes a stretch but necessary to satisfy the validator rule.
->>>>>>> vocab/relations-en-60
 
 ---
 
@@ -5166,7 +5135,6 @@ None.
 
 ---
 
-<<<<<<< HEAD
 ## Publish + Relations EN Batch 67 — 2025-07-14
 **Agent**: Publisher + Relations EN  
 **Task**: Publish approved EN+LT words; add relations to enriched EN entries (batch 67)
@@ -5177,7 +5145,6 @@ None.
 
 ### What could be improved
 - EN staging was empty after publish, so relations batch 67 had no work. Pipeline could benefit from tighter coordination so relations batches aren't scheduled when staging is about to be emptied by a publish.
-=======
 ## Retrospective: enricher-lt-64
 
 **Date**: 2025-07-14
@@ -5196,7 +5163,6 @@ Enriched 40 LT stubs (18 nouns, 10 verbs, 7 adjectives, 4 adverbs, 1 conjunction
 ### What could be improved
 - Could add a second meaning for more polysemous words (only `teisė` got two meanings).
 - A Lithuanian spell-checker pass on definitions/examples would catch any typos.
->>>>>>> vocab/enricher-lt-64
 
 ### Blockers
 None.
@@ -5220,7 +5186,6 @@ None.
 ### Blockers
 None.
 
-<<<<<<< HEAD
 ---
 
 ## Retro: enricher-en-64
@@ -5236,7 +5201,6 @@ None.
 
 ### What could improve
 - Could batch-verify definitions against a reference corpus for higher confidence on nuanced terms.
-=======
 ## [2025-07-22] enricher-lt-agent vocab/enricher-lt-65
 
 ### What went well
@@ -5248,7 +5212,6 @@ None.
 
 ### Process friction
 - None.
->>>>>>> vocab/enricher-lt-65
 
 ### Suggested improvement
 - None.
@@ -5256,8 +5219,6 @@ None.
 ### Blockers
 None.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## [2025-07-18] [relations-en-68] [vocab/relations-en-68]
 
 ### What went well
@@ -5269,7 +5230,6 @@ None.
 
 ### Process friction
 - None significant. The validator's substring self-reference check is well-calibrated.
-=======
 ## [2025-07-18] [relations-lt-70] [vocab/relations-lt-70]
 
 ### What went well
@@ -5280,7 +5240,6 @@ None.
 
 ### Process friction
 - None — the VOCAB-AGENT.md rubric and validator aligned well.
->>>>>>> vocab/relations-lt-70
 =======
 ---
 
@@ -5332,7 +5291,6 @@ None.
 ### Blockers
 None.
 
-<<<<<<< HEAD
 ## Retro: vocab/qa-lt-70 — LT QA Agent
 
 **Date**: 2025-07-18
@@ -5351,7 +5309,6 @@ None.
 
 ### Suggested improvement
 - Could add automated cross-reference check between staging synonyms and production terms to verify synonym targets exist.
-=======
 ---
 
 ## Retro: vocab/enricher-lt-67 — LT Enricher Agent
@@ -5370,12 +5327,10 @@ None.
 
 ### Suggested improvement
 - QA agent should auto-remove entries flagged as duplicates of production words rather than leaving them in "enriched" status for the enricher to handle.
->>>>>>> vocab/enricher-lt-67
 
 ### Blockers
 None.
 
-<<<<<<< HEAD
 ---
 
 ## Retro: vocab/relations-lt-72 — LT Relations Agent
@@ -5397,7 +5352,6 @@ None.
 ### Suggested improvement
 - Enricher agent should reject or fix non-nominative headwords before setting status to "enriched", rather than leaving broken entries for downstream agents.
 - Pipeline should auto-check for production duplicates at the enrichment stage.
-=======
 ## [2025-07-16] enricher-en-65 vocab/enricher-en-65
 
 ### What went well
@@ -5406,12 +5360,10 @@ None.
 
 ### What could improve
 - Publishing step discovered 80 duplicate approved EN entries in staging that had already been promoted to production; a pre-publish dedup check would save time.
->>>>>>> vocab/enricher-en-65
 
 ### Blockers
 None.
 
-<<<<<<< HEAD
 ## [2025-07-18] relations-agent vocab/relations-en-69
 
 ### What went well
@@ -5426,7 +5378,6 @@ None.
 
 ### Suggested improvement
 - The enricher could avoid pre-populating relation arrays to prevent cross-array duplicates that the relations agent must then fix.
-=======
 ## [2025-07-17] enricher-lt-68 vocab/enricher-lt-68
 
 ### What went well
@@ -5435,12 +5386,10 @@ None.
 
 ### What could improve
 - Some stub terms (e.g., "rieša") may not be standard nominative forms; upstream seeder should verify headword forms before creating stubs.
->>>>>>> vocab/enricher-lt-68
 
 ### Blockers
 None.
 
-<<<<<<< HEAD
 ---
 
 ## Retro: QA EN batch 66 + Relations LT batch 73
@@ -5461,7 +5410,6 @@ None.
 ### What could improve
 - Highly technical C2 terms (diatonic, ephemera, aestheticism) often lack 2 co-extensive synonyms. The Relations Agent could flag these during relations phase so QA doesn't have to reject.
 - Consider relaxing the 2-synonym minimum for C2 terms where the concept is genuinely unique.
-=======
 ## [2025-07-17] enricher-lt-69 vocab/enricher-lt-69
 
 ### What went well
@@ -5471,12 +5419,10 @@ None.
 
 ### What could be improved
 - The retrospectives.md file has accumulated many merge conflict markers from prior branches; a cleanup pass would help readability.
->>>>>>> vocab/enricher-lt-69
 
 ### Blockers
 None.
 
-<<<<<<< HEAD
 ## [2025-07-17] fix-en-90 vocab/fix-en-90
 
 ### What went well
@@ -5486,7 +5432,6 @@ None.
 
 ### What could be improved
 - The Relations Agent should proactively set synonyms to [] for highly specialized C2 terms where no co-extensive synonyms exist, rather than forcing QA rejection.
-=======
 ## [2025-07-18] relations-lt-74 vocab/relations-lt-74
 
 ### What went well
@@ -5496,7 +5441,6 @@ None.
 
 ### What could be improved
 - Animal nouns all share similar relatedTerms patterns (paukštis/miškas/žinduolis). A templating approach for domain clusters could speed future batches.
->>>>>>> vocab/relations-lt-74
 
 ### Blockers
 None.
