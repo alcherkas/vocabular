@@ -7518,10 +7518,14 @@
     "tags": [],
     "meanings": [
       {
-        "definition": "The coexistence of two language varieties in one community, each used in different social contexts.",
-        "example": "In the region, diglossia is clear: the formal variety appears in schools, while the local variety is used at home.",
+        "definition": "The use of two distinct varieties of a language in a community, one for formal use and one for everyday conversation.",
+        "example": "Arabic-speaking communities typically show diglossia, with Classical Arabic used in formal writing and regional dialects in daily speech.",
         "register": "technical",
-        "tags": []
+        "tags": [
+          "linguistics",
+          "sociolinguistics",
+          "Arabic"
+        ]
       }
     ],
     "synonyms": [
@@ -7547,10 +7551,14 @@
     "tags": [],
     "meanings": [
       {
-        "definition": "The unique way an individual uses language, including vocabulary, grammar, and pronunciation habits.",
-        "example": "Her idiolect combines legal jargon with regional expressions.",
+        "definition": "The distinctive speech habits and usage of an individual speaker, considered as a whole system.",
+        "example": "A linguist can sometimes identify a writer's idiolect from patterns of word choice and syntax consistent across their texts.",
         "register": "technical",
-        "tags": []
+        "tags": [
+          "linguistics",
+          "sociolinguistics",
+          "individual"
+        ]
       }
     ],
     "synonyms": [
@@ -7605,10 +7613,14 @@
     "tags": [],
     "meanings": [
       {
-        "definition": "A geographic boundary line marking where a specific linguistic feature changes.",
-        "example": "The survey mapped an isogloss separating two pronunciations of the same vowel.",
+        "definition": "A geographical line on a map marking the boundary of an area in which a specific linguistic feature occurs.",
+        "example": "The isogloss separating \"cot\" from \"caught\" pronunciations runs roughly through the middle of the United States.",
         "register": "technical",
-        "tags": []
+        "tags": [
+          "linguistics",
+          "dialectology",
+          "geography"
+        ]
       }
     ],
     "synonyms": [
@@ -27021,12 +27033,13 @@
     "partOfSpeech": "noun",
     "meanings": [
       {
-        "definition": "A meaning conveyed by an utterance that goes beyond its literal semantic content, typically derived by the listener using principles of cooperative conversation.",
-        "example": "When the professor says 'Some students passed,' the implicature—based on Gricean maxims—is that not all students passed.",
+        "definition": "A conclusion or implication that is communicated without being explicitly stated; in pragmatics, the meaning suggested by an utterance beyond its literal content.",
+        "example": "When a reviewer says \"the food was certainly warm,\" the implicature is typically that little else was positive.",
         "register": "technical",
         "tags": [
+          "linguistics",
           "pragmatics",
-          "linguistics"
+          "Grice"
         ]
       }
     ],
@@ -27222,23 +27235,23 @@
     "partOfSpeech": "noun",
     "meanings": [
       {
-        "definition": "The omission of words from a sentence when the meaning can be recovered from linguistic or situational context.",
-        "example": "In 'She can play violin, and he can too,' the phrase 'play violin' is elided in the second clause by ellipsis.",
+        "definition": "The omission of words from speech or writing when the meaning can be understood without them.",
+        "example": "In the sentence \"John went to the market, and Mary to the park,\" the second clause uses ellipsis to avoid repeating \"went\".",
         "register": "technical",
         "tags": [
           "linguistics",
           "grammar",
-          "discourse analysis"
+          "syntax"
         ]
       },
       {
-        "definition": "A punctuation mark consisting of three dots (...) used to indicate an omission, a pause, or an unfinished thought in written text.",
-        "example": "The editor replaced the repetitive passage with an ellipsis to indicate where lines had been cut from the original transcript.",
+        "definition": "A series of dots (...) indicating an omission or pause.",
+        "example": "The editor used an ellipsis to indicate a lengthy passage had been cut from the quotation.",
         "register": "neutral",
         "tags": [
           "typography",
           "writing",
-          "punctuation"
+          "editing"
         ]
       }
     ],
@@ -40846,21 +40859,13 @@
     "register": "technical",
     "meanings": [
       {
-        "definition": "The smallest unit of language that carries meaning or grammatical function and cannot be divided further without losing that meaning.",
-        "example": "The word 'unhelpful' contains three morphemes: the prefix 'un-', the root 'help', and the suffix '-ful'.",
+        "definition": "The smallest grammatical unit in a language; a meaningful unit that cannot be further divided without losing meaning.",
+        "example": "The word \"unhappiness\" contains three morphemes: \"un-\", \"happy\", and \"-ness\".",
         "register": "technical",
         "tags": [
           "linguistics",
-          "morphology"
-        ]
-      },
-      {
-        "definition": "Classified as free (capable of standing alone as a word) or bound (only occurring attached to another morpheme).",
-        "example": "The morpheme '-ness' is bound and cannot appear independently, whereas 'help' is a free morpheme that constitutes a complete word.",
-        "register": "technical",
-        "tags": [
-          "linguistics",
-          "morphology"
+          "morphology",
+          "grammar"
         ]
       }
     ],
@@ -46229,22 +46234,23 @@
     "partOfSpeech": "noun",
     "meanings": [
       {
-        "definition": "In mathematics and logic, a proven subsidiary proposition that serves as a stepping stone toward the proof of a larger, more significant theorem.",
-        "example": "The proof of the prime number theorem required several deep supporting lemmas, each of which represented a substantial mathematical achievement in its own right.",
+        "definition": "In linguistics, the canonical or dictionary form of a word, representing all its inflected forms.",
+        "example": "The lemma \"run\" represents all inflected forms including \"runs\", \"ran\", and \"running\" in the dictionary.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "lexicography",
+          "morphology"
+        ]
+      },
+      {
+        "definition": "In logic and mathematics, a subsidiary proposition proved for use in the proof of a main proposition.",
+        "example": "The theorem's proof required establishing several lemmas about the properties of the function.",
         "register": "technical",
         "tags": [
           "mathematics",
           "logic",
           "proof"
-        ]
-      },
-      {
-        "definition": "In linguistics and lexicography, the canonical or citation form of a word as it appears as a headword in a dictionary, representing all its inflected forms.",
-        "example": "When compiling a corpus lemma list, the form 'run' serves as the lemma for 'ran', 'running', and 'runs'.",
-        "register": "technical",
-        "tags": [
-          "linguistics",
-          "lexicography"
         ]
       }
     ],
@@ -152530,8 +152536,29 @@
     "term": "commute",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To travel some distance regularly between one's home and place of work.",
+        "example": "She commutes two hours each way and uses the time for reading professional development material.",
+        "register": "neutral",
+        "tags": [
+          "travel",
+          "work",
+          "daily"
+        ]
+      },
+      {
+        "definition": "To reduce a judicial sentence, especially a sentence of death, to one less severe.",
+        "example": "The governor agreed to commute the death sentence to life imprisonment following new evidence.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "justice",
+          "sentence"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152541,8 +152568,19 @@
     "term": "debar",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To officially prevent someone from doing something or taking part in something.",
+        "example": "He was debarred from holding public office following his conviction.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "exclusion",
+          "prohibition"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152552,8 +152590,19 @@
     "term": "disclaim",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To deny any responsibility or connection with something; to renounce a right or possession.",
+        "example": "The company disclaimed any liability for the accident, citing terms in the contract.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "denial",
+          "rights"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152563,8 +152612,19 @@
     "term": "dispossess",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To deprive someone of land, a building, or other property.",
+        "example": "Colonial policies dispossessed indigenous peoples of land that had sustained their communities for generations.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "property",
+          "history"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152574,8 +152634,19 @@
     "term": "entreat",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To ask someone earnestly or anxiously to do something; to implore.",
+        "example": "She entreated the committee to reconsider its decision, presenting additional evidence in her appeal.",
+        "register": "formal",
+        "tags": [
+          "request",
+          "persuasion",
+          "pleading"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152585,8 +152656,19 @@
     "term": "indict",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To formally charge or accuse someone with a serious crime; to officially allege wrongdoing.",
+        "example": "The grand jury voted to indict the executive on charges of insider trading.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "charge",
+          "accusation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152596,8 +152678,19 @@
     "term": "infer",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To deduce or conclude from evidence or premises; to draw a logical conclusion.",
+        "example": "From her silence, he inferred that she disapproved of the decision but was unwilling to say so openly.",
+        "register": "neutral",
+        "tags": [
+          "reasoning",
+          "logic",
+          "deduction"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152607,8 +152700,29 @@
     "term": "interrogate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To question someone closely and intensively, especially as a formal examination.",
+        "example": "Detectives interrogated the suspect for six hours before charging him.",
+        "register": "neutral",
+        "tags": [
+          "law",
+          "questioning",
+          "investigation"
+        ]
+      },
+      {
+        "definition": "To examine a dataset or system to extract specific information.",
+        "example": "The researchers interrogated the database to identify patterns in patient outcomes.",
+        "register": "technical",
+        "tags": [
+          "data",
+          "computing",
+          "analysis"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152618,8 +152732,19 @@
     "term": "litigate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To take a case to court; to be party to a lawsuit.",
+        "example": "Rather than litigating, the two companies agreed to binding arbitration to resolve the dispute.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "courts",
+          "dispute"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152629,8 +152754,19 @@
     "term": "perjure",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To commit perjury; to deliberately give a false statement under oath.",
+        "example": "The witness was accused of having perjured himself when he denied knowledge of the meeting.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "lying",
+          "court"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152640,8 +152776,19 @@
     "term": "proclaim",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To announce officially and publicly; to declare.",
+        "example": "The government proclaimed a state of emergency in the affected regions.",
+        "register": "formal",
+        "tags": [
+          "announcement",
+          "government",
+          "declaration"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152651,8 +152798,19 @@
     "term": "ratify",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To give formal consent to a treaty, agreement, or plan; to make officially valid.",
+        "example": "Parliament voted to ratify the international climate agreement after months of debate.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "government",
+          "treaty"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152662,8 +152820,19 @@
     "term": "recuse",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To disqualify oneself from participation in a case due to conflict of interest or bias; to excuse oneself from a proceeding.",
+        "example": "The judge recused herself from the case when it emerged that she had a personal connection to the defendant.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "ethics",
+          "conflict"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152673,8 +152842,19 @@
     "term": "restitute",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To restore something to its original condition or place; to make restitution.",
+        "example": "The court ordered the company to restitute the funds that had been wrongfully withheld from the claimants.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "restoration",
+          "remedy"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152684,8 +152864,19 @@
     "term": "stipulate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To demand or specify as part of an agreement; to insist on as a requirement.",
+        "example": "The contract stipulated that all deliveries must be completed within ten working days of the order.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "contract",
+          "requirement"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152695,8 +152886,19 @@
     "term": "suborn",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To bribe or induce someone, typically illegally, to commit a wrongful act; especially to persuade someone to give false testimony.",
+        "example": "He was convicted of suborning a witness to alter their testimony before the trial.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "crime",
+          "bribery"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152706,8 +152908,29 @@
     "term": "testify",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To give evidence as a witness in a legal proceeding.",
+        "example": "Several colleagues agreed to testify in support of the employee's wrongful dismissal claim.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "court",
+          "evidence"
+        ]
+      },
+      {
+        "definition": "To express one's beliefs, especially in relation to religious faith.",
+        "example": "She testified to the transformative experience of her conversion at the community gathering.",
+        "register": "neutral",
+        "tags": [
+          "religion",
+          "belief",
+          "expression"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152717,8 +152940,29 @@
     "term": "vacate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To leave a place previously occupied.",
+        "example": "Tenants were given fourteen days to vacate the property after the landlord served notice.",
+        "register": "neutral",
+        "tags": [
+          "property",
+          "law",
+          "movement"
+        ]
+      },
+      {
+        "definition": "To cancel or make void a previous legal decision.",
+        "example": "The appeals court vacated the original ruling and ordered a new trial.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "cancellation",
+          "appeal"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152728,8 +152972,19 @@
     "term": "waive",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "To refrain from insisting on or using a right or claim; to voluntarily give up.",
+        "example": "She waived her right to legal representation, insisting she could speak for herself.",
+        "register": "formal",
+        "tags": [
+          "law",
+          "rights",
+          "decision"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152739,8 +152994,19 @@
     "term": "arrears",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Money owed and overdue for payment; the state of having unpaid debts.",
+        "example": "The landlord sought possession of the property after the tenant fell three months into arrears.",
+        "register": "formal",
+        "tags": [
+          "finance",
+          "debt",
+          "law"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152750,8 +153016,19 @@
     "term": "bottleneck",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A point of congestion in a system that slows or prevents progress; a narrow point limiting flow or capacity.",
+        "example": "The bottleneck in the supply chain was identified as a single port with insufficient throughput capacity.",
+        "register": "neutral",
+        "tags": [
+          "economics",
+          "logistics",
+          "systems"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152761,8 +153038,19 @@
     "term": "convergence",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The process or state of converging; the tendency of different things to become similar or to move toward the same point.",
+        "example": "Economic convergence between wealthy and developing regions was the stated goal of the regional fund.",
+        "register": "formal",
+        "tags": [
+          "economics",
+          "biology",
+          "mathematics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152772,8 +153060,19 @@
     "term": "deficit",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The amount by which something falls short; in finance, the excess of expenditure over income.",
+        "example": "The budget deficit widened sharply during the recession as tax revenues fell and social spending rose.",
+        "register": "neutral",
+        "tags": [
+          "finance",
+          "government",
+          "economics"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152783,8 +153082,19 @@
     "term": "deleveraging",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The process of reducing financial leverage by paying down debts, especially used to describe corporate or economic debt reduction.",
+        "example": "The post-crisis years were characterised by deleveraging in the banking sector, which restricted credit growth.",
+        "register": "technical",
+        "tags": [
+          "finance",
+          "economics",
+          "banking"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152794,8 +153104,29 @@
     "term": "depreciation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The reduction in value of an asset over time; the allocation of the cost of an asset over its useful life.",
+        "example": "The company's accounts reflected depreciation of its equipment over a ten-year period.",
+        "register": "technical",
+        "tags": [
+          "accounting",
+          "finance",
+          "assets"
+        ]
+      },
+      {
+        "definition": "A decrease in the value of a currency relative to other currencies.",
+        "example": "The currency's depreciation made exports more competitive but raised the cost of imported goods.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "currency",
+          "trade"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152805,8 +153136,19 @@
     "term": "deregulation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The removal or reduction of regulations from a sector or activity; the process of making an industry less controlled by government.",
+        "example": "Financial deregulation in the 1980s allowed banks to take on greater risks than had previously been permitted.",
+        "register": "formal",
+        "tags": [
+          "economics",
+          "politics",
+          "business"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152816,8 +153158,19 @@
     "term": "disequilibrium",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A state of imbalance, especially in an economic or social system; lack of equilibrium.",
+        "example": "The sudden rise in oil prices created a global disequilibrium that took years to correct.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "systems",
+          "imbalance"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152827,8 +153180,19 @@
     "term": "divergence",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The process or state of diverging; a difference in opinions, results, or positions.",
+        "example": "The sharp divergence in economic outcomes between regions had clear implications for political stability.",
+        "register": "formal",
+        "tags": [
+          "economics",
+          "mathematics",
+          "opinions"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152838,8 +153202,19 @@
     "term": "endowment",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Property or funds donated to an institution or person for a specific purpose; the inherent natural ability or quality with which a person is endowed.",
+        "example": "The university's endowment grew to over two billion dollars, providing financial security for generations to come.",
+        "register": "formal",
+        "tags": [
+          "finance",
+          "education",
+          "natural ability"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152849,8 +153224,19 @@
     "term": "foreclosure",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The legal process by which a lender takes possession of a mortgaged property after the borrower fails to make repayments.",
+        "example": "Mass foreclosures during the financial crisis left entire suburbs empty and contributed to urban decline.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "finance",
+          "property"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152860,8 +153246,19 @@
     "term": "inflation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A general increase in prices and fall in the purchasing value of money; the rate at which the general level of prices rises.",
+        "example": "High inflation eroded the real value of workers' wages faster than their nominal pay rises could compensate.",
+        "register": "neutral",
+        "tags": [
+          "economics",
+          "prices",
+          "money"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152871,8 +153268,19 @@
     "term": "insolvency",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The state of being unable to pay debts owed; the condition of a business that cannot pay its creditors.",
+        "example": "The company filed for protection after declaring insolvency, leaving several hundred creditors unpaid.",
+        "register": "technical",
+        "tags": [
+          "law",
+          "finance",
+          "business"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152882,8 +153290,19 @@
     "term": "macroeconomic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Relating to the large-scale economic factors of the economy as a whole, such as interest rates, national productivity, and growth.",
+        "example": "The macroeconomic environment remained uncertain as central banks signalled conflicting priorities.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "policy",
+          "government"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152893,8 +153312,29 @@
     "term": "marginal",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "Relating to a margin; in economics, relating to the cost or benefit of a unit increase in a variable.",
+        "example": "The marginal cost of production fell as the factory achieved economies of scale.",
+        "register": "technical",
+        "tags": [
+          "economics",
+          "mathematics",
+          "analysis"
+        ]
+      },
+      {
+        "definition": "Minor or relatively small in significance.",
+        "example": "The improvement in results was marginal and unlikely to change the overall outcome.",
+        "register": "neutral",
+        "tags": [
+          "significance",
+          "small",
+          "difference"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152904,8 +153344,19 @@
     "term": "affixation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The linguistic process of adding a prefix, suffix, or infix to a word to form a new word or modify its meaning.",
+        "example": "Affixation is one of the most productive word-formation processes in English, adding prefixes and suffixes freely.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "morphology",
+          "word formation"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152915,8 +153366,19 @@
     "term": "apposition",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A grammatical construction in which two adjacent nouns or noun phrases refer to the same person or thing, the second identifying or clarifying the first.",
+        "example": "In \"my sister, a doctor,\" the phrase \"a doctor\" is in apposition to \"my sister\".",
+        "register": "technical",
+        "tags": [
+          "grammar",
+          "linguistics",
+          "syntax"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152926,8 +153388,19 @@
     "term": "calque",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A word or phrase borrowed from another language by literal translation of its components.",
+        "example": "\"Skyscraper\" is a calque that has been translated into many languages, producing forms like the German \"Wolkenkratzer\".",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "translation",
+          "borrowing"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152937,8 +153410,19 @@
     "term": "collocation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The habitual juxtaposition of a word with other particular words; a phrase formed by words that regularly appear together.",
+        "example": "Knowing the collocations of a word is often more important for fluency than knowing its definition.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "vocabulary",
+          "teaching"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152948,8 +153432,19 @@
     "term": "complementiser",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A word that introduces a complement clause; in English, typically \"that\" or \"whether\".",
+        "example": "In the sentence \"I know that she left,\" the word \"that\" is a complementiser introducing the embedded clause.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "syntax",
+          "grammar"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152959,8 +153454,29 @@
     "term": "compounding",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The process of combining two or more words to form a new word.",
+        "example": "Compounding created words like \"blackbird\" and \"software\" by merging existing vocabulary items.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "word formation",
+          "morphology"
+        ]
+      },
+      {
+        "definition": "The process by which interest accumulates on both a principal sum and the interest already accrued.",
+        "example": "The power of compounding means that small early contributions to a pension grow disproportionately over time.",
+        "register": "technical",
+        "tags": [
+          "finance",
+          "interest",
+          "investment"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152970,8 +153486,19 @@
     "term": "cooccurrence",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The simultaneous occurrence of two or more linguistic elements, or of two or more phenomena; the tendency of words to appear together.",
+        "example": "Analysis of cooccurrence patterns in large corpora can reveal which words are semantically related.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "statistics",
+          "corpus"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152981,8 +153508,19 @@
     "term": "copula",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A linking verb, especially \"to be\", connecting the subject of a sentence with a predicate; the part of a proposition linking subject and predicate.",
+        "example": "In \"she is a teacher,\" the verb \"is\" acts as a copula, linking the subject to the complement.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "grammar",
+          "logic"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -152992,8 +153530,19 @@
     "term": "etymon",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The word from which a derived word or form is historically derived; the root or source of a word.",
+        "example": "The etymon of the English word \"sinister\" is the Latin for \"left hand,\" reflecting ancient superstitions.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "etymology",
+          "history"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -153003,8 +153552,19 @@
     "term": "grammaticalisation",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The process by which a word with full lexical meaning becomes a grammatical marker over time.",
+        "example": "The English future tense marker \"will\" underwent grammaticalisation from a verb meaning \"to wish\".",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "historical linguistics",
+          "grammar"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -153014,8 +153574,19 @@
     "term": "lexeme",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The basic unit of the lexicon of a language; an abstract unit comprising all inflected forms of a word.",
+        "example": "The lexeme RUN includes the forms \"run\", \"ran\", \"runs\", and \"running\" as surface realisations.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "vocabulary",
+          "theory"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -153025,8 +153596,19 @@
     "term": "loanword",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A word adopted from a foreign language with little or no modification.",
+        "example": "English is full of loanwords from French, including \"beef\", \"pork\", and \"parliament\".",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "vocabulary",
+          "history"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -153036,8 +153618,19 @@
     "term": "orthography",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The conventional way of writing a language, including spelling and punctuation; the study of correct spelling.",
+        "example": "English orthography is notorious for its inconsistencies, reflecting centuries of sound change without systematic spelling reform.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "writing",
+          "spelling"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -153047,8 +153640,19 @@
     "term": "corpus",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A collection of written or spoken material in machine-readable form, assembled for linguistic analysis; the main body of writing on a subject.",
+        "example": "The British National Corpus contains over 100 million words of text and is an indispensable resource for lexicographers.",
+        "register": "technical",
+        "tags": [
+          "linguistics",
+          "research",
+          "text"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -153058,8 +153662,19 @@
     "term": "andragogy",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "The method and practice of teaching adult learners, as distinct from pedagogy; the study of how adults learn.",
+        "example": "Knowles's theory of andragogy emphasises that adults learn best when they understand why something is relevant to their experience.",
+        "register": "technical",
+        "tags": [
+          "education",
+          "teaching",
+          "adults"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
@@ -153069,8 +153684,19 @@
     "term": "acanthus",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "stub",
-    "meanings": [],
+    "status": "enriched",
+    "meanings": [
+      {
+        "definition": "A Mediterranean plant with deeply cut leaves, used as a decorative motif in classical architecture.",
+        "example": "The capital of the Corinthian column is characterised by its stylised acanthus leaves, among the most recognisable ornamental forms in Western architecture.",
+        "register": "technical",
+        "tags": [
+          "architecture",
+          "botany",
+          "art history"
+        ]
+      }
+    ],
     "synonyms": [],
     "antonymTerms": [],
     "relatedTerms": [],
