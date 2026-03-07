@@ -3,10 +3,24 @@ import SwiftData
 
 @main
 struct VocabApp: App {
+    private static let currentSeedVersion = 1
+
     let container: ModelContainer
 
     init() {
         do {
+            let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
+            let storeURL = appSupport.appendingPathComponent("default.store")
+
+            // On first launch, copy bundled seed store
+            if !FileManager.default.fileExists(atPath: storeURL.path) {
+                try FileManager.default.createDirectory(at: appSupport, withIntermediateDirectories: true)
+                if let seedURL = Bundle.main.url(forResource: "vocab_seed", withExtension: "store") {
+                    try FileManager.default.copyItem(at: seedURL, to: storeURL)
+                }
+                UserDefaults.standard.set(Self.currentSeedVersion, forKey: "seedDataVersion")
+            }
+
             container = try ModelContainer(for: Word.self, QuizResult.self)
         } catch {
             // Migration failed — delete corrupt store and recreate

@@ -22,11 +22,15 @@ struct ContentView: View {
         }
         .task {
             if !hasLoadedWords {
-                WordService.migrateExistingWords(context: context)
-                WordService.loadWords(language: "en", resourceName: "words", into: context)
-                WordService.loadWords(language: "lt", resourceName: "words_lt", into: context)
-                WordService.migrateVerbForms(language: "lt", resourceName: "words_lt", context: context)
-                WordService.migrateCaseForms(language: "lt", resourceName: "words_lt", context: context)
+                let isSeeded = UserDefaults.standard.integer(forKey: "seedDataVersion") > 0
+                if !isSeeded {
+                    // Legacy path: load from JSON for pre-existing installs
+                    WordService.migrateExistingWords(context: context)
+                    WordService.loadWords(language: "en", resourceName: "words", into: context)
+                    WordService.loadWords(language: "lt", resourceName: "words_lt", into: context)
+                    WordService.migrateVerbForms(language: "lt", resourceName: "words_lt", context: context)
+                    WordService.migrateCaseForms(language: "lt", resourceName: "words_lt", context: context)
+                }
                 hasLoadedWords = true
             }
         }
