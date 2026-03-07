@@ -298,11 +298,11 @@ struct SessionStartView: View {
             .padding(.top, 8)
 
             if studyMode == .quiz {
-                QuizView(words: sessionService.sessionWords, onComplete: { _, _ in
+                QuizView(words: selectedLanguageWords, onComplete: { _, _ in
                     sessionService.reset()
                 })
             } else if studyMode == .caseTraining {
-                CaseTrainingView(words: sessionService.sessionWords, onComplete: { _, _ in
+                CaseTrainingView(words: selectedLanguageWords, onComplete: { _, _ in
                     sessionService.reset()
                 })
             } else {
