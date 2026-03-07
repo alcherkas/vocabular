@@ -926,7 +926,7 @@
     "term": "sensationalist",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Presenting information in a way that is intended to provoke excitement, shock, or strong emotion rather than inform accurately.",
@@ -949,16 +949,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "lurid",
+      "inflammatory",
+      "alarmist",
+      "tabloid"
+    ],
+    "antonymTerms": [
+      "measured",
+      "objective"
+    ],
+    "relatedTerms": [
+      "sensationalism",
+      "yellow journalism",
+      "hyperbole",
+      "scandal",
+      "clickbait"
+    ],
     "translation": null
   },
   {
     "term": "siege",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "A military operation in which forces surround and blockade a fortified place to compel its surrender.",
@@ -981,16 +995,26 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "blockade",
+      "encirclement",
+      "besiegement"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "warfare",
+      "fortification",
+      "capitulation",
+      "barricade",
+      "offensive"
+    ],
     "translation": null
   },
   {
     "term": "solidarity",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Unity or agreement of feeling, action, or interest among individuals in a group; mutual support.",
@@ -1013,16 +1037,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "unity",
+      "cohesion",
+      "camaraderie",
+      "fellowship"
+    ],
+    "antonymTerms": [
+      "discord",
+      "division"
+    ],
+    "relatedTerms": [
+      "collectivism",
+      "mutual aid",
+      "esprit de corps",
+      "allegiance",
+      "fraternity"
+    ],
     "translation": null
   },
   {
     "term": "supposition",
     "language": "en",
     "partOfSpeech": "noun",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "An assumption or hypothesis that is accepted without proof as the basis for reasoning.",
@@ -1045,16 +1083,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "assumption",
+      "hypothesis",
+      "conjecture",
+      "presumption"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "premise",
+      "inference",
+      "speculation",
+      "postulate",
+      "surmise"
+    ],
     "translation": null
   },
   {
     "term": "symbolic",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Serving as a symbol; representing or expressing something abstract through an object, person, or event.",
@@ -1077,9 +1126,23 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "emblematic",
+      "representative",
+      "metaphorical",
+      "allegorical"
+    ],
+    "antonymTerms": [
+      "literal",
+      "actual"
+    ],
+    "relatedTerms": [
+      "symbolism",
+      "iconography",
+      "meaning",
+      "significance",
+      "token"
+    ],
     "translation": null
   },
   {
