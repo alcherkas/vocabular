@@ -2258,7 +2258,7 @@
     "term": "annotate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To add notes or comments to a text, document, diagram, or other material to provide explanation or critical commentary.",
@@ -2281,16 +2281,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "comment",
+      "gloss",
+      "footnote",
+      "mark up"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "commentary",
+      "notation",
+      "exegesis",
+      "marginalia",
+      "footnote"
+    ],
     "translation": null
   },
   {
     "term": "antithetical",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Directly opposed or in sharp contrast to something; constituting an antithesis.",
@@ -2303,16 +2314,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "contrary",
+      "opposed",
+      "contradictory",
+      "incompatible"
+    ],
+    "antonymTerms": [
+      "consonant",
+      "compatible"
+    ],
+    "relatedTerms": [
+      "antithesis",
+      "paradox",
+      "opposition",
+      "dialectic",
+      "contrast"
+    ],
     "translation": null
   },
   {
     "term": "arbitrate",
     "language": "en",
     "partOfSpeech": "verb",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "To reach an authoritative judgment or decision in a dispute as an independent third party.",
@@ -2335,16 +2360,27 @@
         ]
       }
     ],
-    "synonyms": [],
+    "synonyms": [
+      "mediate",
+      "adjudicate",
+      "referee",
+      "conciliate"
+    ],
     "antonymTerms": [],
-    "relatedTerms": [],
+    "relatedTerms": [
+      "arbitration",
+      "dispute",
+      "settlement",
+      "tribunal",
+      "neutral"
+    ],
     "translation": null
   },
   {
     "term": "authoritarian",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Favouring or enforcing strict obedience to authority at the expense of personal freedom; characterised by centralised control.",
@@ -2367,16 +2403,30 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "autocratic",
+      "dictatorial",
+      "tyrannical",
+      "despotic"
+    ],
+    "antonymTerms": [
+      "democratic",
+      "liberal"
+    ],
+    "relatedTerms": [
+      "totalitarianism",
+      "repression",
+      "censorship",
+      "obedience",
+      "control"
+    ],
     "translation": null
   },
   {
     "term": "bilateral",
     "language": "en",
     "partOfSpeech": "adjective",
-    "status": "enriched",
+    "status": "relations-added",
     "meanings": [
       {
         "definition": "Involving two parties, especially two nations or organizations, each making commitments to the other.",
@@ -2399,9 +2449,22 @@
         ]
       }
     ],
-    "synonyms": [],
-    "antonymTerms": [],
-    "relatedTerms": [],
+    "synonyms": [
+      "mutual",
+      "reciprocal",
+      "two-sided"
+    ],
+    "antonymTerms": [
+      "unilateral",
+      "multilateral"
+    ],
+    "relatedTerms": [
+      "diplomacy",
+      "treaty",
+      "agreement",
+      "negotiation",
+      "sovereignty"
+    ],
     "translation": null
   },
   {
