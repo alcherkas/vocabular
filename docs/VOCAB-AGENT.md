@@ -230,20 +230,73 @@ Stop enriching if fewer stubs remain than your batch size.
 
 ### Loop
 
-1. Load `words_staging.json`, find entries with `status == "relations-added"`. Take first 10.
-2. For each word, check:
-   - Are all meanings accurate and distinct?
-   - Are examples natural and illustrative?
-   - Are synonyms/antonyms correct (not just superficially similar)?
-   - Does the word fit the target level (C1+ for EN, A2–B2 for LT)?
-   - No offensive, overly obscure, or low-value entries.
-3. If approved: set `status: "approved"`.
-4. If issues found: add `"qa_notes": "..."` field, reset `status` to `"enriched"` for Enricher to fix.
+1. Load the staging file, find entries with `status == "relations-added"`. Take first 10.
+2. For each word, run the full verification checklist below.
+3. If all checks pass: set `status: "approved"`.
+4. If any check fails: add `"qa_notes": "<specific issue>"`, reset `status` to `"enriched"`. Be precise — tell the Enricher exactly what to fix.
 5. Commit:
    ```bash
-   git commit -m "vocab(qa): review 10 words, N approved [batch N]"
+   git commit -m "vocab(qa): review 10 words, N approved [cycle NNN, batch N]"
    ```
 6. Repeat.
+
+---
+
+### QA Checklist
+
+Run every check for every word. A single failure sends the word back for re-enrichment.
+
+#### A. Meanings
+
+- [ ] **Distinct senses**: each meaning covers a genuinely different usage or domain — not paraphrases of the same sense
+- [ ] **Definition accuracy**: the definition is factually correct and would not mislead a learner
+- [ ] **Register honesty**: `technical` is only used for domain-specific terms; `formal`/`informal` match real usage; `neutral` means truly unrestricted
+- [ ] **Level fit**: EN words should be C1+ (not basic vocabulary); LT words should be A2–B2 (not too advanced, not too basic)
+- [ ] **No duplicates**: the term doesn't already exist in staging with a `published` status under a different spelling
+
+#### B. Examples
+
+- [ ] **Headword present**: the example sentence actually uses the headword (or a grammatically inflected form of it — acceptable). A sentence that omits the word entirely is rejected.
+- [ ] **Illustrates the meaning**: the example demonstrates the specific sense described in the definition above it — not a different sense of the word
+- [ ] **Natural language**: the sentence reads like something a native speaker would write, not a literal dictionary gloss or machine translation
+- [ ] **Register match**: a `formal` word should appear in a formal context; an `informal` word in informal speech
+- [ ] **No boilerplate**: reject examples that are generic fillers ("The word X is often used in Y context") — require real sentences
+- [ ] **LT grammar**: Lithuanian examples must use correct grammar, including the correct case for verbed arguments (cross-check `governedCase` if present)
+
+#### C. Translations (LT words)
+
+- [ ] **`translations.en` accuracy**: the English gloss matches the primary sense of the LT word — not a hypernym, not a tangential sense
+- [ ] **`translations.ru` accuracy**: the Russian equivalent is standard and natural, not an awkward calque
+- [ ] **`translations.by` accuracy**: the Belarusian equivalent is correct; flag if it looks like a copy-paste of Russian without proper Belarusian forms
+- [ ] **Cross-language consistency**: en/ru/by should all point to the same concept; if they diverge, the translation set is wrong
+- [ ] **Sense alignment**: if the word has multiple meanings, the `translations` dict should reflect the primary/most common sense (not a secondary one)
+
+#### D. Translations (EN words)
+
+- [ ] **`translations.ru` accuracy**: the Russian translation is a natural equivalent, not a word-for-word literal translation
+- [ ] **`translations.by` accuracy**: the Belarusian translation is a genuine Belarusian word/phrase, not just Russian with minor spelling changes unless that is correct
+- [ ] **`translations` present**: EN words must have a `translations` dict with at least `ru` and `by` keys (not an empty `{}`)
+
+#### E. Relations
+
+- [ ] **Synonyms are co-extensive**: each synonym can substitute for the headword in the example sentence without changing meaning — reject hypernyms (broader terms) and hyponyms (narrower terms)
+- [ ] **Antonyms are direct opposites**: not merely contrasting terms or negation-prefixed forms — if no true antonym exists, `antonymTerms` must be `[]`
+- [ ] **No self-references**: the headword must not appear in any of its own relation arrays
+- [ ] **No cross-array duplicates**: the same term must not appear in more than one of synonyms/antonyms/relatedTerms
+- [ ] **LT nominative forms**: all relation terms use nominative case (no `-ą`, `-ų` endings)
+
+#### F. LT Grammar fields (nouns and adjectives)
+
+- [ ] **`gender` present**: all nouns have `gender: "masculine"` or `"feminine"` — consistent with word ending
+- [ ] **`cases` completeness**: all required case slots filled (singular + plural, 6 required cases minimum); no empty strings
+- [ ] **`cases` gender scope**: nouns populate only their own gender; adjectives populate both masculine and feminine
+- [ ] **Spot-check one case form**: verify at least the nominative and genitive singular forms look correct for the word's declension class
+
+#### F. LT Grammar fields (verbs)
+
+- [ ] **`forms.present3`**: third-person singular present tense matches the infinitive's conjugation class
+- [ ] **`forms.past3`**: third-person singular past tense is correct (check for irregular verbs)
+- [ ] **`governedCase`**: the governed case question word matches the verb's actual valency — not just a guess based on the infinitive ending
 
 ---
 
