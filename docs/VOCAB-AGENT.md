@@ -74,6 +74,12 @@ To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` fo
 
 **Term capitalisation rule**: LT `term` values must be **all-lowercase**, except genuine proper nouns (place names, person names). Common nouns, verbs, adjectives must start with a lowercase letter even if source materials capitalise them (e.g. `autobusas`, not `Autobusas`).
 
+**Stub format**:
+```json
+{ "term": "...", "language": "lt", "partOfSpeech": "...", "status": "stub",
+  "meanings": [], "synonyms": [], "antonymTerms": [], "relatedTerms": [], "translations": {} }
+```
+
 ---
 
 ## Role: Enricher
@@ -97,7 +103,8 @@ To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` fo
    - **LT only**: if the `term` field starts with an uppercase letter and is not a genuine proper noun (place name, person name), lowercase it now — do **not** preserve the seeder's capitalisation for common nouns (e.g. `Autobusas` → `autobusas`, `Kaimas` → `kaimas`).
    - Research all distinct meanings (senses) of the term.
    - For each meaning, write: `definition`, `example` (a natural sentence), `register`, `tags`.
-   - For LT words: also fill `translations` (dict with language keys, e.g. `{"en": "cat", "ru": "кот", "by": "кот"}`). At minimum, `en` is required.
+   - For LT words: also fill `translations` (dict with all three language keys: `{"en": "cat", "ru": "кот", "by": "кот"}`). All three (`en`, `ru`, `by`) are required.
+   - For EN words: also fill `translations` with Russian and Belarusian equivalents: `{"ru": "...", "by": "..."}`. Both keys required.
    - **LT verbs only** (`partOfSpeech: "verb"`): also fill:
      ```json
      "forms": { "present3": "<3rd sg present>", "past3": "<3rd sg past>" },
@@ -144,7 +151,8 @@ To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` fo
 - Each meaning must be **genuinely distinct** — different grammatical context or domain.
 - Example sentences must be natural, idiomatic, and different from dictionary boilerplate.
 - `register` must be accurate: `technical` only for domain-specific usage.
-- LT words: `translations.en` must be the primary EN equivalent (single word or short phrase). Add `translations.ru` and `translations.by` when possible.
+- LT words: `translations.en` must be the primary EN equivalent. `translations.ru` and `translations.by` are also required.
+- EN words: `translations.ru` and `translations.by` are required (EN term is self-describing, no `en` key needed).
 
 ### Validator enum values (use exactly these — complete list)
 - `partOfSpeech`: `noun`, `verb`, `adjective`, `adverb`, `phrase`, `particle`, `interjection`, `pronoun`, `preposition`, `conjunction`, `numeral`
@@ -279,6 +287,19 @@ git rebase origin/main
 ```
 
 If there are conflicts on staging JSON: keep both sets of changes (the file is append-only by design).
+
+---
+
+## Error Recovery (503 / Connection Errors)
+
+If you encounter a `503`, `GOAWAY`, or any connection error from the AI model:
+
+1. Wait 2 minutes.
+2. Retry the current batch.
+3. Repeat up to **5 times** total.
+4. If still failing after 5 retries: commit any partial work, write a one-line status note (current cycle, step, words committed), then exit gracefully.
+
+Do not abandon committed work — the pipeline always resumes from the staging file status on next run.
 
 ---
 
