@@ -7,6 +7,7 @@ struct SessionStartView: View {
     @Bindable var sessionService: SessionService
     @State private var showWordOfDayDetails = false
     @State private var studyMode: StudyMode = .flashcards
+    @AppStorage("learnerLanguage") private var learnerLanguage: String = "en"
 
     enum StudyMode: String, CaseIterable {
         case flashcards = "Flashcards"
@@ -106,6 +107,20 @@ struct SessionStartView: View {
             .pickerStyle(.segmented)
             .padding(.horizontal)
 
+            // Learner language picker
+            HStack {
+                Text("Translate to")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                Picker("Translate to", selection: $learnerLanguage) {
+                    Text("🇬🇧 EN").tag("en")
+                    Text("🇷🇺 RU").tag("ru")
+                    Text("🇧🇾 BY").tag("by")
+                }
+                .pickerStyle(.segmented)
+            }
+            .padding(.horizontal)
+
             // Study mode picker
             Picker("Mode", selection: $studyMode) {
                 ForEach(StudyMode.allCases.filter { mode in
@@ -198,8 +213,8 @@ struct SessionStartView: View {
                     .fontWeight(.semibold)
 
                 if showWordOfDayDetails {
-                    if sessionService.language == "lt" {
-                        let translation = (word.translation?.isEmpty == false) ? word.translation ?? "" : "No translation available"
+                    let translation = word.translation(for: learnerLanguage)
+                    if let translation, !translation.isEmpty {
                         wordDetailRow(
                             title: "Translation",
                             value: translation
@@ -272,11 +287,11 @@ struct SessionStartView: View {
     private var sessionActiveView: some View {
         VStack {
             if studyMode == .quiz {
-                QuizView(words: selectedLanguageWords, onComplete: { _, _ in
+                QuizView(words: selectedLanguageWords, learnerLanguage: learnerLanguage, onComplete: { _, _ in
                     sessionService.reset()
                 })
             } else if studyMode == .caseTraining {
-                CaseTrainingView(words: selectedLanguageWords, onComplete: { _, _ in
+                CaseTrainingView(words: selectedLanguageWords, learnerLanguage: learnerLanguage, onComplete: { _, _ in
                     sessionService.reset()
                 })
             } else {
@@ -303,7 +318,7 @@ struct SessionStartView: View {
                 }
                 .padding(.top, 8)
 
-                FlashcardsView(words: sessionService.sessionWords, onAnswer: { correct in
+                FlashcardsView(words: sessionService.sessionWords, learnerLanguage: learnerLanguage, onAnswer: { correct in
                     sessionService.recordAnswer(correct: correct)
                 })
             }

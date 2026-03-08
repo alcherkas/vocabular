@@ -3,6 +3,7 @@ import SwiftData
 
 struct FlashcardsView: View {
     let words: [Word]
+    var learnerLanguage: String = "en"
     var onAnswer: ((Bool) -> Void)?
 
     @State private var currentIndex = 0
@@ -37,7 +38,8 @@ struct FlashcardsView: View {
                         ForEach(visibleIndices, id: \.self) { index in
                             FlashcardView(
                                 word: displayedWords[index],
-                                isFlipped: index == currentIndex ? isFlipped : false
+                                isFlipped: index == currentIndex ? isFlipped : false,
+                                learnerLanguage: learnerLanguage
                             )
                             .offset(index == currentIndex ? offset : .zero)
                             .scaleEffect(cardScale(for: index))
@@ -205,6 +207,7 @@ struct FlashcardsView: View {
 struct FlashcardView: View {
     let word: Word
     let isFlipped: Bool
+    var learnerLanguage: String = "en"
     
     var body: some View {
         ZStack {
@@ -220,7 +223,7 @@ struct FlashcardView: View {
             if isFlipped {
                 // Back of card - definition
                 VStack(spacing: 20) {
-                    if word.language == "lt", let translation = word.translation, !translation.isEmpty {
+                    if let translation = word.translation(for: learnerLanguage), !translation.isEmpty {
                         Text(translation)
                             .font(.title2)
                             .fontWeight(.semibold)

@@ -82,7 +82,7 @@ def make_stub(term: str) -> dict:
         "synonyms": [],
         "antonymTerms": [],
         "relatedTerms": [],
-        "translation": None
+        "translations": {}
     }
 
 

@@ -42,7 +42,7 @@ context.insert(Word(...))
 - `tags` must be lowercase strings, no spaces (use hyphens: `"word-family"`).
 - `partOfSpeech` values: `"noun"`, `"verb"`, `"adjective"`, `"adverb"`, `"phrase"`, `"particle"`, `"interjection"`.
 - EN words: `synonyms` should have 2–5 entries. Leave empty `[]` only if truly none.
-- LT words: `synonyms` is typically `[]`. Always populate `translation` (EN gloss).
+- LT words: `synonyms` is typically `[]`. Always populate `translations` dict (at minimum `{"en": "..."}`).
 - **LT verbs** (`partOfSpeech: "verb"`) must include:
   - `"forms": { "present3": "<3rd sg present>", "past3": "<3rd sg past>" }` — the two most important conjugated forms.
   - `"governedCase"`: the case question the verb governs — `"ką?"` (accusative), `"kam?"` (dative), `"ko?"` (genitive), `"kuo?"` (instrumental), or `null` for intransitive verbs.

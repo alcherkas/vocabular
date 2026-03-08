@@ -5,6 +5,7 @@ import UIKit
 struct CaseTrainingView: View {
     @Environment(\.modelContext) private var context
     let words: [Word]
+    var learnerLanguage: String = "en"
     var onComplete: ((Int, Int) -> Void)?
 
     @State private var currentExercise: CaseExercise?
@@ -122,6 +123,13 @@ struct CaseTrainingView: View {
                 VStack(spacing: 12) {
                     Text(exercise.verb.term)
                         .font(.system(size: 34, weight: .bold, design: .serif))
+
+                    // Verb translation hint
+                    if let verbTranslation = exercise.verb.translation(for: learnerLanguage), !verbTranslation.isEmpty {
+                        Text(verbTranslation)
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                    }
 
                     // Governed case hint
                     Text(exercise.governedCase)

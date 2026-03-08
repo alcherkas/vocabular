@@ -168,9 +168,11 @@ def validate_enriched(word: dict, idx: int, errors: list):
             defs = [m.get("definition", "").lower().strip() for m in meanings]
             if len(defs) != len(set(defs)):
                 errors.append(f"[{idx}] '{word.get('term')}': duplicate meaning definitions detected")
-    # LT words must have translation
-    if word.get("language") == "lt" and not word.get("translation", "").strip():
-        errors.append(f"[{idx}] '{word.get('term')}': LT word missing 'translation' field")
+    # LT words must have translations dict with at least 'en'
+    translations = word.get("translations")
+    if word.get("language") == "lt":
+        if not isinstance(translations, dict) or not translations.get("en", "").strip():
+            errors.append(f"[{idx}] '{word.get('term')}': LT word missing 'translations.en' field")
     # LT verbs must have forms (present3 + past3)
     if word.get("language") == "lt" and word.get("partOfSpeech") == "verb":
         forms = word.get("forms")

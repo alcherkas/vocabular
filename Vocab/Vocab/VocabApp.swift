@@ -3,7 +3,7 @@ import SwiftData
 
 @main
 struct VocabApp: App {
-    private static let currentSeedVersion = 2
+    private static let currentSeedVersion = 22
 
     let container: ModelContainer
 

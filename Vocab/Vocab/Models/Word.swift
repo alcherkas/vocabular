@@ -58,7 +58,7 @@ class Word {
 
     // Language support
     var language: String = "en"
-    var translation: String?
+    var translationsData: Data = Data()
     @Attribute(.unique) var uniqueKey: String
     @Relationship(deleteRule: .nullify) var antonyms: [Word] = []
     @Relationship(deleteRule: .nullify) var relatedWords: [Word] = []
@@ -115,6 +115,20 @@ class Word {
         }
     }
 
+    var translations: [String: String]? {
+        get {
+            guard !translationsData.isEmpty else { return nil }
+            return try? JSONDecoder().decode([String: String].self, from: translationsData)
+        }
+        set {
+            translationsData = (try? JSONEncoder().encode(newValue)) ?? Data()
+        }
+    }
+
+    func translation(for language: String) -> String? {
+        translations?[language]
+    }
+
     var definition: String {
         get { meanings.first?.definition ?? "" }
         set {
@@ -141,7 +155,7 @@ class Word {
         }
     }
 
-    init(term: String, definition: String, synonyms: [String], example: String, partOfSpeech: String, tags: [String] = [], language: String = "en", translation: String? = nil, meanings: [WordMeaning]? = nil, forms: WordForms? = nil, governedCase: String? = nil, gender: String? = nil, cases: WordCases? = nil) {
+    init(term: String, definition: String, synonyms: [String], example: String, partOfSpeech: String, tags: [String] = [], language: String = "en", translations: [String: String]? = nil, meanings: [WordMeaning]? = nil, forms: WordForms? = nil, governedCase: String? = nil, gender: String? = nil, cases: WordCases? = nil) {
         self.term = term
         let resolvedMeanings = meanings ?? [WordMeaning(definition: definition, example: example, register: nil, tags: tags)]
         let persistedMeanings = resolvedMeanings.isEmpty ? [WordMeaning(definition: definition, example: example, register: nil, tags: tags)] : resolvedMeanings
@@ -150,7 +164,7 @@ class Word {
         self.partOfSpeech = partOfSpeech
         self.tags = tags
         self.language = language
-        self.translation = translation
+        self.translationsData = (try? JSONEncoder().encode(translations)) ?? Data()
         self.uniqueKey = "\(language):\(term)"
         self.formsData = (try? JSONEncoder().encode(forms)) ?? Data()
         self.governedCase = governedCase

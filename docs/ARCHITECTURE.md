@@ -61,7 +61,7 @@ data/                           # Word data (pipeline source of truth)
 
     // Language support
     var language: String             // "en" | "lt"
-    var translation: String?         // LT→EN gloss (nil for EN words)
+    var translationsData: Data?      // {"en": "...", "ru": "...", "by": "..."} (nil for EN words)
     @Attribute(.unique) var uniqueKey: String  // "language:term"
 
     // Word relations
@@ -109,7 +109,7 @@ Stores per-session outcomes for both quiz and flashcard study sessions.
 ## Language Support
 
 - All existing words are English (`language: "en"`).
-- Lithuanian words use `language: "lt"` and populate `translation` with an EN gloss.
+- Lithuanian words use `language: "lt"` and populate `translations` dict (keys: `en`, `ru`, `by`).
 - LT words are A1/A2 level — simpler structure, `synonyms` array will typically be empty.
 - UI filters by language where relevant (word list, stats, quiz, session start).
 
@@ -162,14 +162,14 @@ Words use a `meanings` array to capture multiple senses of a word:
 
 ### Lithuanian additions
 
-LT words add a `translation` field (EN gloss) and typically have 1 meaning:
+LT words add a `translations` dict (multi-language glosses) and typically have 1 meaning:
 
 ```json
 {
   "term": "katė",
   "language": "lt",
   "partOfSpeech": "noun",
-  "translation": "cat",
+  "translations": {"en": "cat", "ru": "кот", "by": "кот"},
   "meanings": [
     {
       "definition": "A small domesticated carnivorous mammal kept as a pet",
@@ -193,7 +193,7 @@ LT verbs include the 3 principal forms and governed grammatical case:
   "term": "valgyti",
   "language": "lt",
   "partOfSpeech": "verb",
-  "translation": "to eat",
+  "translations": {"en": "to eat", "ru": "есть", "by": "есці"},
   "forms": {
     "present3": "valgo",
     "past3": "valgė"
@@ -208,7 +208,7 @@ LT verbs include the 3 principal forms and governed grammatical case:
 
 ### Staging files (`words_staging.json`, `words_lt_staging.json`)
 
-Staging files live in `Resources/` and track curation progress via a `status` field:
+Staging files live in `data/` and track curation progress via a `status` field:
 
 ```json
 {
@@ -220,7 +220,7 @@ Staging files live in `Resources/` and track curation progress via a `status` fi
   "synonyms": [],
   "antonymTerms": [],
   "relatedTerms": [],
-  "translation": null
+  "translations": {}
 }
 ```
 

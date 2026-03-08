@@ -16,7 +16,7 @@ struct QuizQuestion {
 
 enum QuizService {
     /// Generates a question using a pre-filtered pool of same-language words (preferred for batch quiz generation).
-    static func generateQuestion(for word: Word, mode: QuizMode, sameLanguageWords: [Word]) -> QuizQuestion? {
+    static func generateQuestion(for word: Word, mode: QuizMode, sameLanguageWords: [Word], learnerLanguage: String = "en") -> QuizQuestion? {
         guard sameLanguageWords.count >= 4 else { return nil }
 
         let prompt: String
@@ -33,12 +33,12 @@ enum QuizService {
             correctAnswer = word.term
             answerValue = { $0.term }
         case .termToTranslation:
-            guard let translation = word.translation, !translation.isEmpty else { return nil }
+            guard let translation = word.translation(for: learnerLanguage), !translation.isEmpty else { return nil }
             prompt = word.term
             correctAnswer = translation
-            answerValue = { $0.translation }
+            answerValue = { $0.translation(for: learnerLanguage) }
         case .translationToTerm:
-            guard let translation = word.translation, !translation.isEmpty else { return nil }
+            guard let translation = word.translation(for: learnerLanguage), !translation.isEmpty else { return nil }
             prompt = translation
             correctAnswer = word.term
             answerValue = { $0.term }
@@ -56,8 +56,8 @@ enum QuizService {
         return QuizQuestion(prompt: prompt, correctAnswer: correctAnswer, options: options, sourceWord: word)
     }
 
-    static func generateQuestion(for word: Word, mode: QuizMode, allWords: [Word]) -> QuizQuestion? {
+    static func generateQuestion(for word: Word, mode: QuizMode, allWords: [Word], learnerLanguage: String = "en") -> QuizQuestion? {
         let sameLanguageWords = allWords.filter { $0.language == word.language }
-        return generateQuestion(for: word, mode: mode, sameLanguageWords: sameLanguageWords)
+        return generateQuestion(for: word, mode: mode, sameLanguageWords: sameLanguageWords, learnerLanguage: learnerLanguage)
     }
 }

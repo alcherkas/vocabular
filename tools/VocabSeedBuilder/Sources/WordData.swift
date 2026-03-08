@@ -18,7 +18,7 @@ struct WordData: Codable {
     let partOfSpeech: String
     let tags: [String]?
     let language: String?
-    let translation: String?
+    let translations: [String: String]?
     let forms: WordForms?
     let governedCase: String?
     let gender: String?

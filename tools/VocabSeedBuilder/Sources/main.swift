@@ -74,7 +74,7 @@ func run() throws {
                 partOfSpeech: wd.partOfSpeech,
                 tags: wd.tags ?? [],
                 language: language,
-                translation: wd.translation,
+                translations: wd.translations,
                 meanings: meanings,
                 forms: wd.forms,
                 governedCase: wd.governedCase,

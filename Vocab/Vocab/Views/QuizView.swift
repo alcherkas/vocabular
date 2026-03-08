@@ -6,6 +6,7 @@ struct QuizView: View {
     @Environment(\.modelContext) private var context
     let words: [Word]
     let quizMode: QuizMode?
+    var learnerLanguage: String = "en"
     var onComplete: ((Int, Int) -> Void)?
     
     @State private var quizWords: [Word] = []
@@ -21,9 +22,10 @@ struct QuizView: View {
     @State private var sameLanguagePool: [Word] = []
     private let feedbackGenerator = UINotificationFeedbackGenerator()
 
-    init(words: [Word], quizMode: QuizMode? = nil, onComplete: ((Int, Int) -> Void)? = nil) {
+    init(words: [Word], quizMode: QuizMode? = nil, learnerLanguage: String = "en", onComplete: ((Int, Int) -> Void)? = nil) {
         self.words = words
         self.quizMode = quizMode
+        self.learnerLanguage = learnerLanguage
         self.onComplete = onComplete
     }
 
@@ -338,7 +340,8 @@ struct QuizView: View {
         guard let question = QuizService.generateQuestion(
             for: quizWords[currentIndex],
             mode: activeMode,
-            sameLanguageWords: sameLanguagePool
+            sameLanguageWords: sameLanguagePool,
+            learnerLanguage: learnerLanguage
         ) else {
             completeQuiz()
             return

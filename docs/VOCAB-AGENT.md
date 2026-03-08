@@ -42,7 +42,7 @@ cd ../vocabular-wt-seeder-en
 3. Each stub:
    ```json
    { "term": "...", "language": "en", "partOfSpeech": "...", "status": "stub",
-     "meanings": [], "synonyms": [], "antonymTerms": [], "relatedTerms": [], "translation": null }
+     "meanings": [], "synonyms": [], "antonymTerms": [], "relatedTerms": [], "translations": {} }
    ```
 4. Append stubs to `words_staging.json`.
 5. Validate:
@@ -79,7 +79,7 @@ To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` fo
 ## Role: Enricher
 
 **Reads**: entries with `status: "stub"` from either staging file
-**Writes**: fills `meanings` (+ `translation` for LT), sets `status: "enriched"`
+**Writes**: fills `meanings` (+ `translations` for LT), sets `status: "enriched"`
 **Batch size**: 5 words per iteration
 
 ### Loop
@@ -97,7 +97,7 @@ To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` fo
    - **LT only**: if the `term` field starts with an uppercase letter and is not a genuine proper noun (place name, person name), lowercase it now — do **not** preserve the seeder's capitalisation for common nouns (e.g. `Autobusas` → `autobusas`, `Kaimas` → `kaimas`).
    - Research all distinct meanings (senses) of the term.
    - For each meaning, write: `definition`, `example` (a natural sentence), `register`, `tags`.
-   - For LT words: also fill `translation` (the English gloss, e.g. `"cat"`).
+   - For LT words: also fill `translations` (dict with language keys, e.g. `{"en": "cat", "ru": "кот", "by": "кот"}`). At minimum, `en` is required.
    - **LT verbs only** (`partOfSpeech: "verb"`): also fill:
      ```json
      "forms": { "present3": "<3rd sg present>", "past3": "<3rd sg past>" },
@@ -144,7 +144,7 @@ To add new Lithuanian terms, create stubs directly in `words_lt_staging.json` fo
 - Each meaning must be **genuinely distinct** — different grammatical context or domain.
 - Example sentences must be natural, idiomatic, and different from dictionary boilerplate.
 - `register` must be accurate: `technical` only for domain-specific usage.
-- LT words: `translation` must be the primary EN equivalent (single word or short phrase).
+- LT words: `translations.en` must be the primary EN equivalent (single word or short phrase). Add `translations.ru` and `translations.by` when possible.
 
 ### Validator enum values (use exactly these — complete list)
 - `partOfSpeech`: `noun`, `verb`, `adjective`, `adverb`, `phrase`, `particle`, `interjection`, `pronoun`, `preposition`, `conjunction`, `numeral`
