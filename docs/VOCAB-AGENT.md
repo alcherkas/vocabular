@@ -307,6 +307,44 @@ Do not abandon committed work — the pipeline always resumes from the staging f
 
 An agent can stop at any point mid-loop. Work is committed in small batches so nothing is lost. Another agent (or the same agent in a new session) can resume from where the staging file left off.
 
+---
+
+## Pipeline Control
+
+Agents check `data/pipeline_control.json` before starting each new cycle (before seeding):
+
+```json
+{ "command": "run" | "pause" | "stop", "after_cycle": <number> | null }
+```
+
+- `"run"`: continue normally (default)
+- `"pause"`: finish the current cycle, then stop before seeding the next one
+- `"stop"`: stop immediately after finishing the current batch
+- `"after_cycle": N`: stop after completing cycle N (regardless of `command`)
+
+To pause the pipeline after the current cycle completes:
+```bash
+python3 -c "import json; d=json.load(open('data/pipeline_control.json')); d['command']='pause'; json.dump(d, open('data/pipeline_control.json','w'), indent=2)"
+```
+
+To resume:
+```bash
+python3 -c "import json; json.dump({'command':'run','after_cycle':null}, open('data/pipeline_control.json','w'), indent=2)"
+```
+
+Or use the helper CLI:
+```bash
+python3 scripts/pipeline_control.py status   # show current state
+python3 scripts/pipeline_control.py pause    # pause after current cycle
+python3 scripts/pipeline_control.py stop     # stop after current batch
+python3 scripts/pipeline_control.py run      # resume
+python3 scripts/pipeline_control.py after 5  # stop after cycle 5
+```
+
+The legacy `STOP` file is still checked for backward compatibility: if it exists, it acts as `"command": "pause"`.
+
+---
+
 **At end of session**: Write a retrospective note → append to `docs/retrospectives.md` (see format there). Do this once per session, not after every batch. **Do NOT append anything to `AGENTS.md`** — that file is read-only for vocab agents; only the Reflection Agent may update it with distilled, actionable guidance.
 
 ---
